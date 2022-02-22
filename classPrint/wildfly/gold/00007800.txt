@@ -1,0 +1,123 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 87
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/AbstractJMSRuntimeHandler"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+11: Tag 1 Utf8 Value "hasDefined"
+12: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+17: Tag 1 Utf8 Value "getResult"
+18: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+19: Tag 10 MethodRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "get"
+22: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+23: Tag 10 MethodRef Class index 8, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "set"
+26: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryDefinition"
+31: Tag 1 Utf8 Value "getAttributesMap"
+32: Tag 1 Utf8 Value "()Ljava/util/Map;"
+33: Tag 11 InterfaceMethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 21, Description index 37
+36: Tag 1 Utf8 Value "java/util/Map"
+37: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+38: Tag 7 Class Name index 39
+39: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute"
+40: Tag 10 MethodRef Class index 38, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 43
+42: Tag 1 Utf8 Value "getDefinition"
+43: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AttributeDefinition;"
+44: Tag 10 MethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 18
+47: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+48: Tag 1 Utf8 Value "getDefaultValue"
+49: Tag 10 MethodRef Class index 8, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "isDefined"
+52: Tag 1 Utf8 Value "()Z"
+53: Tag 10 MethodRef Class index 54, Name and type index 55
+54: Tag 7 Class Name index 56
+55: Tag 12 NameAndType Name index 57, Description index 58
+56: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigurationRuntimeHandler"
+57: Tag 1 Utf8 Value "executeReadAttribute"
+58: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/PathAddress;Z)V"
+59: Tag 10 MethodRef Class index 54, Name and type index 3
+60: Tag 9 FieldRef Class index 54, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "INSTANCE"
+63: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigurationRuntimeHandler;"
+64: Tag 1 Utf8 Value "Code"
+65: Tag 1 Utf8 Value "LineNumberTable"
+66: Tag 1 Utf8 Value "LocalVariableTable"
+67: Tag 1 Utf8 Value "this"
+68: Tag 1 Utf8 Value "attribute"
+69: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;"
+70: Tag 1 Utf8 Value "attributeName"
+71: Tag 1 Utf8 Value "Ljava/lang/String;"
+72: Tag 1 Utf8 Value "context"
+73: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+74: Tag 1 Utf8 Value "connectionFactory"
+75: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+76: Tag 1 Utf8 Value "address"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+78: Tag 1 Utf8 Value "includeDefault"
+79: Tag 1 Utf8 Value "Z"
+80: Tag 1 Utf8 Value "StackMapTable"
+81: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/OperationContext;Ljava/lang/Object;Lorg/jboss/as/controller/PathAddress;Z)V"
+82: Tag 1 Utf8 Value "<clinit>"
+83: Tag 1 Utf8 Value "Signature"
+84: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/AbstractJMSRuntimeHandler<Lorg/jboss/dmr/ModelNode;>;"
+85: Tag 1 Utf8 Value "SourceFile"
+86: Tag 1 Utf8 Value "PooledConnectionFactoryConfigurationRuntimeHandler.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 54, name org.wildfly.extension.messaging.activemq.jms.PooledConnectionFactoryConfigurationRuntimeHandler
+
+Super class: id 2, name org.wildfly.extension.messaging.activemq.jms.AbstractJMSRuntimeHandler
+
+No interfaces
+
+Field name INSTANCE (index 62), type Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigurationRuntimeHandler; (descriptor index 63)
+Human type: org.wildfly.extension.messaging.activemq.jms.PooledConnectionFactoryConfigurationRuntimeHandler
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name executeReadAttribute (index 57), type (Ljava/lang/String;Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/PathAddress;Z)V (descriptor index 58)
+Human type: (java.lang.String, org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.PathAddress, boolean): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 216
+Method name executeReadAttribute (index 57), type (Ljava/lang/String;Lorg/jboss/as/controller/OperationContext;Ljava/lang/Object;Lorg/jboss/as/controller/PathAddress;Z)V (descriptor index 81)
+Human type: (java.lang.String, org.jboss.as.controller.OperationContext, java.lang.Object, org.jboss.as.controller.PathAddress, boolean): void
+Flags: decimal 4164, hex 1044, binary 0001000001000100 protected bridge synthetic
+Method attribute name Code, size 57
+Method name <clinit> (index 82), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

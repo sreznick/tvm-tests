@@ -1,0 +1,233 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 187
+1: Tag 10 MethodRef Class index 32, Name and type index 79
+2: Tag 9 FieldRef Class index 31, Name and type index 80
+3: Tag 10 MethodRef Class index 81, Name and type index 82
+4: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 87
+5: Tag 10 MethodRef Class index 88, Name and type index 89
+6: Tag 10 MethodRef Class index 31, Name and type index 90
+7: Tag 10 MethodRef Class index 65, Name and type index 91
+8: Tag 10 MethodRef Class index 65, Name and type index 92
+9: Tag 10 MethodRef Class index 93, Name and type index 94
+10: Tag 11 InterfaceMethodRef Class index 95, Name and type index 96
+11: Tag 10 MethodRef Class index 31, Name and type index 97
+12: Tag 10 MethodRef Class index 98, Name and type index 99
+13: Tag 7 Class Name index 100
+14: Tag 10 MethodRef Class index 13, Name and type index 101
+15: Tag 7 Class Name index 102
+16: Tag 10 MethodRef Class index 15, Name and type index 79
+17: Tag 7 Class Name index 103
+18: Tag 10 MethodRef Class index 104, Name and type index 105
+19: Tag 10 MethodRef Class index 15, Name and type index 106
+20: Tag 8 String Contents 107
+21: Tag 10 MethodRef Class index 15, Name and type index 108
+22: Tag 11 InterfaceMethodRef Class index 109, Name and type index 110
+23: Tag 7 Class Name index 112
+24: Tag 10 MethodRef Class index 23, Name and type index 113
+25: Tag 10 MethodRef Class index 32, Name and type index 114
+26: Tag 7 Class Name index 115
+27: Tag 10 MethodRef Class index 26, Name and type index 116
+28: Tag 11 InterfaceMethodRef Class index 66, Name and type index 117
+29: Tag 10 MethodRef Class index 118, Name and type index 119
+30: Tag 11 InterfaceMethodRef Class index 120, Name and type index 121
+31: Tag 7 Class Name index 122
+32: Tag 7 Class Name index 123
+33: Tag 7 Class Name index 124
+34: Tag 1 Utf8 Value "manager"
+35: Tag 1 Utf8 Value "Lorg/jboss/security/AuthenticationManager;"
+36: Tag 1 Utf8 Value "<init>"
+37: Tag 1 Utf8 Value "(Lorg/jboss/security/AuthenticationManager;)V"
+38: Tag 1 Utf8 Value "Code"
+39: Tag 1 Utf8 Value "LineNumberTable"
+40: Tag 1 Utf8 Value "LocalVariableTable"
+41: Tag 1 Utf8 Value "this"
+42: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/deployment/LogoutSessionListener;"
+43: Tag 1 Utf8 Value "sessionCreated"
+44: Tag 1 Utf8 Value "(Ljavax/servlet/http/HttpSessionEvent;)V"
+45: Tag 1 Utf8 Value "se"
+46: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpSessionEvent;"
+47: Tag 1 Utf8 Value "sessionDestroyed"
+48: Tag 1 Utf8 Value "StackMapTable"
+49: Tag 1 Utf8 Value "sessionDestroyedImpl"
+50: Tag 1 Utf8 Value "securityContext"
+51: Tag 1 Utf8 Value "Lio/undertow/security/api/SecurityContext;"
+52: Tag 1 Utf8 Value "sessionAccount"
+53: Tag 1 Utf8 Value "Lio/undertow/security/idm/Account;"
+54: Tag 1 Utf8 Value "authenticatedSession"
+55: Tag 1 Utf8 Value "AuthenticatedSession"
+56: Tag 1 Utf8 Value "InnerClasses"
+57: Tag 1 Utf8 Value "Lio/undertow/security/api/AuthenticatedSessionManager$AuthenticatedSession;"
+58: Tag 1 Utf8 Value "impl"
+59: Tag 1 Utf8 Value "Lio/undertow/servlet/spec/HttpSessionImpl;"
+60: Tag 1 Utf8 Value "session"
+61: Tag 1 Utf8 Value "Lio/undertow/server/session/Session;"
+62: Tag 1 Utf8 Value "src"
+63: Tag 1 Utf8 Value "Lio/undertow/servlet/handlers/ServletRequestContext;"
+64: Tag 1 Utf8 Value "requestAccount"
+65: Tag 7 Class Name index 125
+66: Tag 7 Class Name index 126
+67: Tag 1 Utf8 Value "clearAccount"
+68: Tag 1 Utf8 Value "(Lio/undertow/security/idm/Account;)V"
+69: Tag 1 Utf8 Value "subject"
+70: Tag 1 Utf8 Value "Ljavax/security/auth/Subject;"
+71: Tag 1 Utf8 Value "account"
+72: Tag 1 Utf8 Value "principal"
+73: Tag 1 Utf8 Value "Ljava/security/Principal;"
+74: Tag 7 Class Name index 127
+75: Tag 1 Utf8 Value "lambda$sessionDestroyed$0"
+76: Tag 1 Utf8 Value "(Ljavax/servlet/http/HttpSessionEvent;)Ljava/lang/Object;"
+77: Tag 1 Utf8 Value "SourceFile"
+78: Tag 1 Utf8 Value "LogoutSessionListener.java"
+79: Tag 12 NameAndType Name index 36, Description index 128
+80: Tag 12 NameAndType Name index 34, Description index 35
+81: Tag 7 Class Name index 129
+82: Tag 12 NameAndType Name index 130, Description index 131
+83: Tag 1 Utf8 Value "BootstrapMethods"
+84: Tag 15 MethodHandle Kind 6, Index 132
+85: Tag 16 MethodType Descriptor index 133
+86: Tag 15 MethodHandle Kind 7, Index 134
+87: Tag 12 NameAndType Name index 135, Description index 136
+88: Tag 7 Class Name index 137
+89: Tag 12 NameAndType Name index 138, Description index 139
+90: Tag 12 NameAndType Name index 49, Description index 44
+91: Tag 12 NameAndType Name index 140, Description index 141
+92: Tag 12 NameAndType Name index 142, Description index 143
+93: Tag 7 Class Name index 144
+94: Tag 12 NameAndType Name index 145, Description index 146
+95: Tag 7 Class Name index 147
+96: Tag 12 NameAndType Name index 148, Description index 149
+97: Tag 12 NameAndType Name index 67, Description index 68
+98: Tag 7 Class Name index 150
+99: Tag 12 NameAndType Name index 151, Description index 152
+100: Tag 1 Utf8 Value "io/undertow/servlet/spec/HttpSessionImpl"
+101: Tag 12 NameAndType Name index 151, Description index 153
+102: Tag 1 Utf8 Value "java/lang/StringBuilder"
+103: Tag 1 Utf8 Value "io/undertow/servlet/handlers/security/CachedAuthenticatedSessionHandler"
+104: Tag 7 Class Name index 154
+105: Tag 12 NameAndType Name index 155, Description index 156
+106: Tag 12 NameAndType Name index 157, Description index 158
+107: Tag 1 Utf8 Value ".AuthenticatedSession"
+108: Tag 12 NameAndType Name index 159, Description index 156
+109: Tag 7 Class Name index 160
+110: Tag 12 NameAndType Name index 161, Description index 162
+111: Tag 7 Class Name index 163
+112: Tag 1 Utf8 Value "io/undertow/security/api/AuthenticatedSessionManager$AuthenticatedSession"
+113: Tag 12 NameAndType Name index 164, Description index 149
+114: Tag 12 NameAndType Name index 165, Description index 166
+115: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/AccountImpl"
+116: Tag 12 NameAndType Name index 167, Description index 168
+117: Tag 12 NameAndType Name index 169, Description index 168
+118: Tag 7 Class Name index 170
+119: Tag 12 NameAndType Name index 171, Description index 172
+120: Tag 7 Class Name index 173
+121: Tag 12 NameAndType Name index 174, Description index 175
+122: Tag 1 Utf8 Value "org/wildfly/extension/undertow/deployment/LogoutSessionListener"
+123: Tag 1 Utf8 Value "java/lang/Object"
+124: Tag 1 Utf8 Value "javax/servlet/http/HttpSessionListener"
+125: Tag 1 Utf8 Value "io/undertow/servlet/handlers/ServletRequestContext"
+126: Tag 1 Utf8 Value "io/undertow/security/idm/Account"
+127: Tag 1 Utf8 Value "java/security/Principal"
+128: Tag 1 Utf8 Value "()V"
+129: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+130: Tag 1 Utf8 Value "isChecking"
+131: Tag 1 Utf8 Value "()Z"
+132: Tag 10 MethodRef Class index 176, Name and type index 177
+133: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+134: Tag 10 MethodRef Class index 31, Name and type index 178
+135: Tag 1 Utf8 Value "run"
+136: Tag 1 Utf8 Value "(Lorg/wildfly/extension/undertow/deployment/LogoutSessionListener;Ljavax/servlet/http/HttpSessionEvent;)Ljava/security/PrivilegedAction;"
+137: Tag 1 Utf8 Value "java/security/AccessController"
+138: Tag 1 Utf8 Value "doPrivileged"
+139: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction;)Ljava/lang/Object;"
+140: Tag 1 Utf8 Value "current"
+141: Tag 1 Utf8 Value "()Lio/undertow/servlet/handlers/ServletRequestContext;"
+142: Tag 1 Utf8 Value "getExchange"
+143: Tag 1 Utf8 Value "()Lio/undertow/server/HttpServerExchange;"
+144: Tag 1 Utf8 Value "io/undertow/server/HttpServerExchange"
+145: Tag 1 Utf8 Value "getSecurityContext"
+146: Tag 1 Utf8 Value "()Lio/undertow/security/api/SecurityContext;"
+147: Tag 1 Utf8 Value "io/undertow/security/api/SecurityContext"
+148: Tag 1 Utf8 Value "getAuthenticatedAccount"
+149: Tag 1 Utf8 Value "()Lio/undertow/security/idm/Account;"
+150: Tag 1 Utf8 Value "javax/servlet/http/HttpSessionEvent"
+151: Tag 1 Utf8 Value "getSession"
+152: Tag 1 Utf8 Value "()Ljavax/servlet/http/HttpSession;"
+153: Tag 1 Utf8 Value "()Lio/undertow/server/session/Session;"
+154: Tag 1 Utf8 Value "java/lang/Class"
+155: Tag 1 Utf8 Value "getName"
+156: Tag 1 Utf8 Value "()Ljava/lang/String;"
+157: Tag 1 Utf8 Value "append"
+158: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+159: Tag 1 Utf8 Value "toString"
+160: Tag 1 Utf8 Value "io/undertow/server/session/Session"
+161: Tag 1 Utf8 Value "getAttribute"
+162: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+163: Tag 1 Utf8 Value "io/undertow/security/api/AuthenticatedSessionManager"
+164: Tag 1 Utf8 Value "getAccount"
+165: Tag 1 Utf8 Value "equals"
+166: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+167: Tag 1 Utf8 Value "getOriginalPrincipal"
+168: Tag 1 Utf8 Value "()Ljava/security/Principal;"
+169: Tag 1 Utf8 Value "getPrincipal"
+170: Tag 1 Utf8 Value "org/wildfly/extension/undertow/deployment/SecurityActions"
+171: Tag 1 Utf8 Value "getSubject"
+172: Tag 1 Utf8 Value "()Ljavax/security/auth/Subject;"
+173: Tag 1 Utf8 Value "org/jboss/security/AuthenticationManager"
+174: Tag 1 Utf8 Value "logout"
+175: Tag 1 Utf8 Value "(Ljava/security/Principal;Ljavax/security/auth/Subject;)V"
+176: Tag 7 Class Name index 179
+177: Tag 12 NameAndType Name index 180, Description index 183
+178: Tag 12 NameAndType Name index 75, Description index 76
+179: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+180: Tag 1 Utf8 Value "metafactory"
+181: Tag 7 Class Name index 185
+182: Tag 1 Utf8 Value "Lookup"
+183: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+184: Tag 7 Class Name index 186
+185: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+186: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 31, name org.wildfly.extension.undertow.deployment.LogoutSessionListener
+
+Super class: id 32, name java.lang.Object
+
+Implements class ids 33
+Implements names javax.servlet.http.HttpSessionListener
+
+Field name manager (index 34), type Lorg/jboss/security/AuthenticationManager; (descriptor index 35)
+Human type: org.jboss.security.AuthenticationManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 36), type (Lorg/jboss/security/AuthenticationManager;)V (descriptor index 37)
+Human type: (org.jboss.security.AuthenticationManager): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 70
+Method name sessionCreated (index 43), type (Ljavax/servlet/http/HttpSessionEvent;)V (descriptor index 44)
+Human type: (javax.servlet.http.HttpSessionEvent): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name sessionDestroyed (index 47), type (Ljavax/servlet/http/HttpSessionEvent;)V (descriptor index 44)
+Human type: (javax.servlet.http.HttpSessionEvent): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 100
+Method name sessionDestroyedImpl (index 49), type (Ljavax/servlet/http/HttpSessionEvent;)V (descriptor index 44)
+Human type: (javax.servlet.http.HttpSessionEvent): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 350
+Method name clearAccount (index 67), type (Lio/undertow/security/idm/Account;)V (descriptor index 68)
+Human type: (io.undertow.security.idm.Account): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 155
+Method name lambda$sessionDestroyed$0 (index 75), type (Ljavax/servlet/http/HttpSessionEvent;)Ljava/lang/Object; (descriptor index 76)
+Human type: (javax.servlet.http.HttpSessionEvent): java.lang.Object
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 63
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18
+Class attribute name BootstrapMethods, size 12

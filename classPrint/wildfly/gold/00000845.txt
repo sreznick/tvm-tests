@@ -1,0 +1,110 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 67
+1: Tag 10 MethodRef Class index 11, Name and type index 45
+2: Tag 10 MethodRef Class index 14, Name and type index 46
+3: Tag 9 FieldRef Class index 11, Name and type index 47
+4: Tag 9 FieldRef Class index 11, Name and type index 48
+5: Tag 7 Class Name index 49
+6: Tag 9 FieldRef Class index 50, Name and type index 51
+7: Tag 11 InterfaceMethodRef Class index 50, Name and type index 52
+8: Tag 10 MethodRef Class index 5, Name and type index 53
+9: Tag 7 Class Name index 54
+10: Tag 10 MethodRef Class index 9, Name and type index 55
+11: Tag 7 Class Name index 56
+12: Tag 10 MethodRef Class index 11, Name and type index 46
+13: Tag 9 FieldRef Class index 11, Name and type index 57
+14: Tag 7 Class Name index 58
+15: Tag 1 Utf8 Value "INSTANCE"
+16: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorFactory;"
+17: Tag 1 Utf8 Value "category"
+18: Tag 1 Utf8 Value "Ljava/lang/String;"
+19: Tag 1 Utf8 Value "roleMapper"
+20: Tag 1 Utf8 Value "Lorg/wildfly/security/authz/RoleMapper;"
+21: Tag 1 Utf8 Value "<init>"
+22: Tag 1 Utf8 Value "()V"
+23: Tag 1 Utf8 Value "Code"
+24: Tag 1 Utf8 Value "LineNumberTable"
+25: Tag 1 Utf8 Value "LocalVariableTable"
+26: Tag 1 Utf8 Value "this"
+27: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/security/IdentityOutflowInterceptorFactory;"
+28: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/security/authz/RoleMapper;)V"
+29: Tag 1 Utf8 Value "create"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/Component;Lorg/jboss/invocation/InterceptorFactoryContext;)Lorg/jboss/invocation/Interceptor;"
+31: Tag 1 Utf8 Value "component"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/Component;"
+33: Tag 1 Utf8 Value "context"
+34: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorFactoryContext;"
+35: Tag 1 Utf8 Value "ejbComponent"
+36: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/EJBComponent;"
+37: Tag 1 Utf8 Value "identityOutflowFunction"
+38: Tag 1 Utf8 Value "Ljava/util/function/Function;"
+39: Tag 1 Utf8 Value "LocalVariableTypeTable"
+40: Tag 1 Utf8 Value "Ljava/util/function/Function<Lorg/wildfly/security/auth/server/SecurityIdentity;Ljava/util/Set<Lorg/wildfly/security/auth/server/SecurityIdentity;>;>;"
+41: Tag 1 Utf8 Value "StackMapTable"
+42: Tag 1 Utf8 Value "<clinit>"
+43: Tag 1 Utf8 Value "SourceFile"
+44: Tag 1 Utf8 Value "IdentityOutflowInterceptorFactory.java"
+45: Tag 12 NameAndType Name index 21, Description index 28
+46: Tag 12 NameAndType Name index 21, Description index 22
+47: Tag 12 NameAndType Name index 17, Description index 18
+48: Tag 12 NameAndType Name index 19, Description index 20
+49: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/EJBComponent"
+50: Tag 7 Class Name index 59
+51: Tag 12 NameAndType Name index 60, Description index 61
+52: Tag 12 NameAndType Name index 62, Description index 63
+53: Tag 12 NameAndType Name index 64, Description index 65
+54: Tag 1 Utf8 Value "org/jboss/as/ejb3/security/IdentityOutflowInterceptor"
+55: Tag 12 NameAndType Name index 21, Description index 66
+56: Tag 1 Utf8 Value "org/jboss/as/ejb3/security/IdentityOutflowInterceptorFactory"
+57: Tag 12 NameAndType Name index 15, Description index 16
+58: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentInterceptorFactory"
+59: Tag 1 Utf8 Value "org/jboss/as/ejb3/logging/EjbLogger"
+60: Tag 1 Utf8 Value "ROOT_LOGGER"
+61: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/logging/EjbLogger;"
+62: Tag 1 Utf8 Value "unexpectedComponent"
+63: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/Component;Ljava/lang/Class;)Ljava/lang/IllegalStateException;"
+64: Tag 1 Utf8 Value "getIdentityOutflowFunction"
+65: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+66: Tag 1 Utf8 Value "(Ljava/util/function/Function;Ljava/lang/String;Lorg/wildfly/security/authz/RoleMapper;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.jboss.as.ejb3.security.IdentityOutflowInterceptorFactory
+
+Super class: id 14, name org.jboss.as.ee.component.ComponentInterceptorFactory
+
+No interfaces
+
+Field name INSTANCE (index 15), type Lorg/jboss/invocation/InterceptorFactory; (descriptor index 16)
+Human type: org.jboss.invocation.InterceptorFactory
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name category (index 17), type Ljava/lang/String; (descriptor index 18)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name roleMapper (index 19), type Lorg/wildfly/security/authz/RoleMapper; (descriptor index 20)
+Human type: org.wildfly.security.authz.RoleMapper
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 21), type ()V (descriptor index 22)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name <init> (index 21), type (Ljava/lang/String;Lorg/wildfly/security/authz/RoleMapper;)V (descriptor index 28)
+Human type: (java.lang.String, org.wildfly.security.authz.RoleMapper): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name create (index 29), type (Lorg/jboss/as/ee/component/Component;Lorg/jboss/invocation/InterceptorFactoryContext;)Lorg/jboss/invocation/Interceptor; (descriptor index 30)
+Human type: (org.jboss.as.ee.component.Component, org.jboss.invocation.InterceptorFactoryContext): org.jboss.invocation.Interceptor
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 173
+Method name <clinit> (index 42), type ()V (descriptor index 22)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,135 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 94
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/util/Collections"
+11: Tag 1 Utf8 Value "singleton"
+12: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/Set;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/clustering/service/CascadeRemovalLifecycleListener"
+17: Tag 1 Utf8 Value "controllers"
+18: Tag 1 Utf8 Value "Ljava/lang/Iterable;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "java/util/Arrays"
+23: Tag 1 Utf8 Value "asList"
+24: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/msc/service/LifecycleEvent"
+29: Tag 1 Utf8 Value "REMOVED"
+30: Tag 1 Utf8 Value "Lorg/jboss/msc/service/LifecycleEvent;"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "java/lang/Iterable"
+35: Tag 1 Utf8 Value "iterator"
+36: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+37: Tag 11 InterfaceMethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "java/util/Iterator"
+41: Tag 1 Utf8 Value "hasNext"
+42: Tag 1 Utf8 Value "()Z"
+43: Tag 11 InterfaceMethodRef Class index 38, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "next"
+46: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+49: Tag 9 FieldRef Class index 50, Name and type index 51
+50: Tag 7 Class Name index 52
+51: Tag 12 NameAndType Name index 53, Description index 54
+52: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+53: Tag 1 Utf8 Value "REMOVE"
+54: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+55: Tag 11 InterfaceMethodRef Class index 47, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "setMode"
+58: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)V"
+59: Tag 11 InterfaceMethodRef Class index 47, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "removeListener"
+62: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/LifecycleListener;)V"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "org/jboss/msc/service/LifecycleListener"
+65: Tag 1 Utf8 Value "Signature"
+66: Tag 1 Utf8 Value "Ljava/lang/Iterable<Lorg/jboss/msc/service/ServiceController<*>;>;"
+67: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController;)V"
+68: Tag 1 Utf8 Value "Code"
+69: Tag 1 Utf8 Value "LineNumberTable"
+70: Tag 1 Utf8 Value "LocalVariableTable"
+71: Tag 1 Utf8 Value "this"
+72: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/CascadeRemovalLifecycleListener;"
+73: Tag 1 Utf8 Value "controller"
+74: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+75: Tag 1 Utf8 Value "LocalVariableTypeTable"
+76: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+77: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController<*>;)V"
+78: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceController;)V"
+79: Tag 1 Utf8 Value "[Lorg/jboss/msc/service/ServiceController;"
+80: Tag 1 Utf8 Value "[Lorg/jboss/msc/service/ServiceController<*>;"
+81: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceController<*>;)V"
+82: Tag 1 Utf8 Value "(Ljava/lang/Iterable;)V"
+83: Tag 1 Utf8 Value "(Ljava/lang/Iterable<Lorg/jboss/msc/service/ServiceController<*>;>;)V"
+84: Tag 1 Utf8 Value "handleEvent"
+85: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController;Lorg/jboss/msc/service/LifecycleEvent;)V"
+86: Tag 1 Utf8 Value "source"
+87: Tag 1 Utf8 Value "event"
+88: Tag 1 Utf8 Value "StackMapTable"
+89: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController<*>;Lorg/jboss/msc/service/LifecycleEvent;)V"
+90: Tag 1 Utf8 Value "SourceFile"
+91: Tag 1 Utf8 Value "CascadeRemovalLifecycleListener.java"
+92: Tag 1 Utf8 Value "InnerClasses"
+93: Tag 1 Utf8 Value "Mode"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.wildfly.clustering.service.CascadeRemovalLifecycleListener
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 63
+Implements names org.jboss.msc.service.LifecycleListener
+
+Field name controllers (index 17), type Ljava/lang/Iterable; (descriptor index 18)
+Human type: java.lang.Iterable
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Lorg/jboss/msc/service/ServiceController;)V (descriptor index 67)
+Human type: (org.jboss.msc.service.ServiceController): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 91
+Method attribute name Signature, size 2
+Method name <init> (index 5), type ([Lorg/jboss/msc/service/ServiceController;)V (descriptor index 78)
+Human type: (org.jboss.msc.service.ServiceController[]): void
+Flags: decimal 129, hex 0081, binary 0000000010000001 public varargs
+Method attribute name Code, size 91
+Method attribute name Signature, size 2
+Method name <init> (index 5), type (Ljava/lang/Iterable;)V (descriptor index 82)
+Human type: (java.lang.Iterable): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method attribute name Signature, size 2
+Method name handleEvent (index 84), type (Lorg/jboss/msc/service/ServiceController;Lorg/jboss/msc/service/LifecycleEvent;)V (descriptor index 85)
+Human type: (org.jboss.msc.service.ServiceController, org.jboss.msc.service.LifecycleEvent): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 196
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

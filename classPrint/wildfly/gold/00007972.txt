@@ -1,0 +1,105 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 63
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/ee/structure/AnnotationPropertyReplacementProcessor"
+11: Tag 1 Utf8 Value "annotationPropertyReplacement"
+12: Tag 1 Utf8 Value "Z"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "attachmentKey"
+16: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+21: Tag 1 Utf8 Value "getDeploymentUnit"
+22: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "java/lang/Boolean"
+27: Tag 1 Utf8 Value "valueOf"
+28: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+33: Tag 1 Utf8 Value "putAttachment"
+34: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)Ljava/lang/Object;"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+37: Tag 1 Utf8 Value "Signature"
+38: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey<Ljava/lang/Boolean;>;"
+39: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)V"
+40: Tag 1 Utf8 Value "Code"
+41: Tag 1 Utf8 Value "LineNumberTable"
+42: Tag 1 Utf8 Value "LocalVariableTable"
+43: Tag 1 Utf8 Value "this"
+44: Tag 1 Utf8 Value "Lorg/jboss/as/ee/structure/AnnotationPropertyReplacementProcessor;"
+45: Tag 1 Utf8 Value "LocalVariableTypeTable"
+46: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey<Ljava/lang/Boolean;>;)V"
+47: Tag 1 Utf8 Value "deploy"
+48: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+49: Tag 1 Utf8 Value "phaseContext"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+51: Tag 1 Utf8 Value "deploymentUnit"
+52: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+53: Tag 1 Utf8 Value "Exceptions"
+54: Tag 7 Class Name index 55
+55: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+56: Tag 1 Utf8 Value "undeploy"
+57: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+58: Tag 1 Utf8 Value "context"
+59: Tag 1 Utf8 Value "setDescriptorPropertyReplacement"
+60: Tag 1 Utf8 Value "(Z)V"
+61: Tag 1 Utf8 Value "SourceFile"
+62: Tag 1 Utf8 Value "AnnotationPropertyReplacementProcessor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.ee.structure.AnnotationPropertyReplacementProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 35
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name annotationPropertyReplacement (index 11), type Z (descriptor index 12)
+Human type: boolean
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name attachmentKey (index 15), type Lorg/jboss/as/server/deployment/AttachmentKey; (descriptor index 16)
+Human type: org.jboss.as.server.deployment.AttachmentKey
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Lorg/jboss/as/server/deployment/AttachmentKey;)V (descriptor index 39)
+Human type: (org.jboss.as.server.deployment.AttachmentKey): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 97
+Method attribute name Signature, size 2
+Method name deploy (index 47), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 48)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 96
+Method attribute name Exceptions, size 4
+Method name undeploy (index 56), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 57)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name setDescriptorPropertyReplacement (index 59), type (Z)V (descriptor index 60)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,271 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 193
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricsSubsystemDefinition"
+3: Tag 9 FieldRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricsContextService"
+7: Tag 1 Utf8 Value "prometheusExporter"
+8: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/PrometheusExporter;"
+9: Tag 9 FieldRef Class index 4, Name and type index 10
+10: Tag 12 NameAndType Name index 11, Description index 12
+11: Tag 1 Utf8 Value "wildflyMetricRegistry"
+12: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+13: Tag 9 FieldRef Class index 4, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "overrideableMetricHandler"
+16: Tag 1 Utf8 Value "Lio/undertow/server/HttpHandler;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+21: Tag 1 Utf8 Value "getServiceTarget"
+22: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+23: Tag 9 FieldRef Class index 1, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "METRICS_HTTP_CONTEXT_CAPABILITY"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+31: Tag 1 Utf8 Value "getCapabilityServiceName"
+32: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+33: Tag 11 InterfaceMethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+37: Tag 1 Utf8 Value "addService"
+38: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+39: Tag 8 String Contents 40
+40: Tag 1 Utf8 Value "org.wildfly.management.http.extensible"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/as/server/mgmt/domain/ExtensibleHttpManagement"
+43: Tag 11 InterfaceMethodRef Class index 18, Name and type index 44
+44: Tag 12 NameAndType Name index 31, Description index 45
+45: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Lorg/jboss/msc/service/ServiceName;"
+46: Tag 11 InterfaceMethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+50: Tag 1 Utf8 Value "requires"
+51: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+52: Tag 9 FieldRef Class index 1, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 26
+54: Tag 1 Utf8 Value "METRICS_REGISTRY_RUNTIME_CAPABILITY"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+57: Tag 11 InterfaceMethodRef Class index 47, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "provides"
+60: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+61: Tag 11 InterfaceMethodRef Class index 18, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "getCapabilityServiceSupport"
+64: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+65: Tag 8 String Contents 66
+66: Tag 1 Utf8 Value "org.wildfly.extension.metrics.http-context.security-enabled"
+67: Tag 11 InterfaceMethodRef Class index 68, Name and type index 69
+68: Tag 7 Class Name index 70
+69: Tag 12 NameAndType Name index 71, Description index 72
+70: Tag 1 Utf8 Value "org/jboss/as/controller/capability/CapabilityServiceSupport"
+71: Tag 1 Utf8 Value "hasCapability"
+72: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+73: Tag 10 MethodRef Class index 55, Name and type index 74
+74: Tag 12 NameAndType Name index 75, Description index 76
+75: Tag 1 Utf8 Value "parse"
+76: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+77: Tag 7 Class Name index 78
+78: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricsContextService$1"
+79: Tag 10 MethodRef Class index 77, Name and type index 80
+80: Tag 12 NameAndType Name index 81, Description index 82
+81: Tag 1 Utf8 Value "<init>"
+82: Tag 1 Utf8 Value "(Z)V"
+83: Tag 10 MethodRef Class index 4, Name and type index 84
+84: Tag 12 NameAndType Name index 81, Description index 85
+85: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;)V"
+86: Tag 11 InterfaceMethodRef Class index 47, Name and type index 87
+87: Tag 12 NameAndType Name index 88, Description index 89
+88: Tag 1 Utf8 Value "setInstance"
+89: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+90: Tag 11 InterfaceMethodRef Class index 47, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 93
+92: Tag 1 Utf8 Value "install"
+93: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+94: Tag 10 MethodRef Class index 95, Name and type index 96
+95: Tag 7 Class Name index 97
+96: Tag 12 NameAndType Name index 81, Description index 98
+97: Tag 1 Utf8 Value "java/lang/Object"
+98: Tag 1 Utf8 Value "()V"
+99: Tag 7 Class Name index 100
+100: Tag 1 Utf8 Value "org/wildfly/extension/metrics/PrometheusExporter"
+101: Tag 10 MethodRef Class index 99, Name and type index 96
+102: Tag 9 FieldRef Class index 4, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 105
+104: Tag 1 Utf8 Value "consumer"
+105: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+106: Tag 9 FieldRef Class index 4, Name and type index 107
+107: Tag 12 NameAndType Name index 108, Description index 12
+108: Tag 1 Utf8 Value "extensibleHttpManagement"
+109: Tag 9 FieldRef Class index 4, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 12
+111: Tag 1 Utf8 Value "securityEnabledSupplier"
+112: Tag 11 InterfaceMethodRef Class index 113, Name and type index 114
+113: Tag 7 Class Name index 115
+114: Tag 12 NameAndType Name index 116, Description index 117
+115: Tag 1 Utf8 Value "java/util/function/Supplier"
+116: Tag 1 Utf8 Value "get"
+117: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+118: Tag 8 String Contents 119
+119: Tag 1 Utf8 Value "/metrics"
+120: Tag 7 Class Name index 121
+121: Tag 1 Utf8 Value "java/lang/Boolean"
+122: Tag 10 MethodRef Class index 120, Name and type index 123
+123: Tag 12 NameAndType Name index 124, Description index 125
+124: Tag 1 Utf8 Value "booleanValue"
+125: Tag 1 Utf8 Value "()Z"
+126: Tag 7 Class Name index 127
+127: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricsContextService$2"
+128: Tag 10 MethodRef Class index 126, Name and type index 129
+129: Tag 12 NameAndType Name index 81, Description index 130
+130: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricsContextService;)V"
+131: Tag 11 InterfaceMethodRef Class index 41, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 134
+133: Tag 1 Utf8 Value "addManagementHandler"
+134: Tag 1 Utf8 Value "(Ljava/lang/String;ZLio/undertow/server/HttpHandler;)V"
+135: Tag 11 InterfaceMethodRef Class index 136, Name and type index 137
+136: Tag 7 Class Name index 138
+137: Tag 12 NameAndType Name index 139, Description index 140
+138: Tag 1 Utf8 Value "java/util/function/Consumer"
+139: Tag 1 Utf8 Value "accept"
+140: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+141: Tag 11 InterfaceMethodRef Class index 41, Name and type index 142
+142: Tag 12 NameAndType Name index 143, Description index 144
+143: Tag 1 Utf8 Value "removeContext"
+144: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+145: Tag 7 Class Name index 146
+146: Tag 1 Utf8 Value "org/jboss/msc/Service"
+147: Tag 1 Utf8 Value "CONTEXT_NAME"
+148: Tag 1 Utf8 Value "Ljava/lang/String;"
+149: Tag 1 Utf8 Value "ConstantValue"
+150: Tag 1 Utf8 Value "Signature"
+151: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/wildfly/extension/metrics/MetricsContextService;>;"
+152: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/server/mgmt/domain/ExtensibleHttpManagement;>;"
+153: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/wildfly/extension/metrics/WildFlyMetricRegistry;>;"
+154: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Ljava/lang/Boolean;>;"
+155: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Z)V"
+156: Tag 1 Utf8 Value "Code"
+157: Tag 1 Utf8 Value "LineNumberTable"
+158: Tag 1 Utf8 Value "LocalVariableTable"
+159: Tag 1 Utf8 Value "context"
+160: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+161: Tag 1 Utf8 Value "securityEnabled"
+162: Tag 1 Utf8 Value "Z"
+163: Tag 1 Utf8 Value "serviceBuilder"
+164: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+165: Tag 1 Utf8 Value "metricsContext"
+166: Tag 1 Utf8 Value "metricsContextService"
+167: Tag 1 Utf8 Value "Lorg/jboss/msc/Service;"
+168: Tag 1 Utf8 Value "LocalVariableTypeTable"
+169: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+170: Tag 1 Utf8 Value "StackMapTable"
+171: Tag 1 Utf8 Value "this"
+172: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricsContextService;"
+173: Tag 1 Utf8 Value "(Ljava/util/function/Consumer<Lorg/wildfly/extension/metrics/MetricsContextService;>;Ljava/util/function/Supplier<Lorg/jboss/as/server/mgmt/domain/ExtensibleHttpManagement;>;Ljava/util/function/Supplier<Lorg/wildfly/extension/metrics/WildFlyMetricRegistry;>;Ljava/util/function/Supplier<Ljava/lang/Boolean;>;)V"
+174: Tag 1 Utf8 Value "start"
+175: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+176: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+177: Tag 1 Utf8 Value "stop"
+178: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+179: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+180: Tag 1 Utf8 Value "setOverrideableMetricHandler"
+181: Tag 1 Utf8 Value "(Lio/undertow/server/HttpHandler;)V"
+182: Tag 1 Utf8 Value "handler"
+183: Tag 1 Utf8 Value "access$000"
+184: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricsContextService;)Lio/undertow/server/HttpHandler;"
+185: Tag 1 Utf8 Value "x0"
+186: Tag 1 Utf8 Value "access$100"
+187: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricsContextService;)Ljava/util/function/Supplier;"
+188: Tag 1 Utf8 Value "access$200"
+189: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricsContextService;)Lorg/wildfly/extension/metrics/PrometheusExporter;"
+190: Tag 1 Utf8 Value "SourceFile"
+191: Tag 1 Utf8 Value "MetricsContextService.java"
+192: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 4, name org.wildfly.extension.metrics.MetricsContextService
+
+Super class: id 95, name java.lang.Object
+
+Implements class ids 145
+Implements names org.jboss.msc.Service
+
+Field name CONTEXT_NAME (index 147), type Ljava/lang/String; (descriptor index 148)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name consumer (index 104), type Ljava/util/function/Consumer; (descriptor index 105)
+Human type: java.util.function.Consumer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name extensibleHttpManagement (index 108), type Ljava/util/function/Supplier; (descriptor index 12)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name wildflyMetricRegistry (index 11), type Ljava/util/function/Supplier; (descriptor index 12)
+Human type: java.util.function.Supplier
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name securityEnabledSupplier (index 111), type Ljava/util/function/Supplier; (descriptor index 12)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name prometheusExporter (index 7), type Lorg/wildfly/extension/metrics/PrometheusExporter; (descriptor index 8)
+Human type: org.wildfly.extension.metrics.PrometheusExporter
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name overrideableMetricHandler (index 15), type Lio/undertow/server/HttpHandler; (descriptor index 16)
+Human type: io.undertow.server.HttpHandler
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name install (index 92), type (Lorg/jboss/as/controller/OperationContext;Z)V (descriptor index 155)
+Human type: (org.jboss.as.controller.OperationContext, boolean): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 410
+Method name <init> (index 81), type (Ljava/util/function/Consumer;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;)V (descriptor index 85)
+Human type: (java.util.function.Consumer, java.util.function.Supplier, java.util.function.Supplier, java.util.function.Supplier): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 191
+Method attribute name Signature, size 2
+Method name start (index 174), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 175)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 113
+Method name stop (index 177), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 178)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 90
+Method name setOverrideableMetricHandler (index 180), type (Lio/undertow/server/HttpHandler;)V (descriptor index 181)
+Human type: (io.undertow.server.HttpHandler): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name access$000 (index 183), type (Lorg/wildfly/extension/metrics/MetricsContextService;)Lio/undertow/server/HttpHandler; (descriptor index 184)
+Human type: (org.wildfly.extension.metrics.MetricsContextService): io.undertow.server.HttpHandler
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$100 (index 186), type (Lorg/wildfly/extension/metrics/MetricsContextService;)Ljava/util/function/Supplier; (descriptor index 187)
+Human type: (org.wildfly.extension.metrics.MetricsContextService): java.util.function.Supplier
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$200 (index 188), type (Lorg/wildfly/extension/metrics/MetricsContextService;)Lorg/wildfly/extension/metrics/PrometheusExporter; (descriptor index 189)
+Human type: (org.wildfly.extension.metrics.MetricsContextService): org.wildfly.extension.metrics.PrometheusExporter
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

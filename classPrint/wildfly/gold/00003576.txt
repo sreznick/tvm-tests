@@ -1,0 +1,131 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 97
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/clustering/web/DistributableWebExtension"
+5: Tag 1 Utf8 Value "SUBSYSTEM_RESOLVER"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/descriptions/SubsystemResourceDescriptionResolver;"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/descriptions/SubsystemResourceDescriptionResolver"
+13: Tag 1 Utf8 Value "createChildResolver"
+14: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/PathElement;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ChildResourceDefinition"
+19: Tag 1 Utf8 Value "<init>"
+20: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+21: Tag 9 FieldRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/wildfly/extension/clustering/web/SSOManagementResourceDefinition"
+25: Tag 1 Utf8 Value "configurator"
+26: Tag 1 Utf8 Value "Ljava/util/function/UnaryOperator;"
+27: Tag 9 FieldRef Class index 22, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "serviceConfiguratorFactory"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ManagementResourceRegistration"
+35: Tag 1 Utf8 Value "registerSubModel"
+36: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ResourceDefinition;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceDescriptor"
+39: Tag 10 MethodRef Class index 22, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+42: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+43: Tag 10 MethodRef Class index 37, Name and type index 44
+44: Tag 12 NameAndType Name index 19, Description index 45
+45: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+46: Tag 11 InterfaceMethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "java/util/function/UnaryOperator"
+50: Tag 1 Utf8 Value "apply"
+51: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+52: Tag 7 Class Name index 53
+53: Tag 1 Utf8 Value "org/wildfly/extension/clustering/web/SSOManagementResourceDefinition$Capability"
+54: Tag 10 MethodRef Class index 37, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 57
+56: Tag 1 Utf8 Value "addCapabilities"
+57: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/clustering/controller/ResourceDescriptor;"
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/SimpleResourceServiceHandler"
+60: Tag 10 MethodRef Class index 58, Name and type index 61
+61: Tag 12 NameAndType Name index 19, Description index 62
+62: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;)V"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/SimpleResourceRegistration"
+65: Tag 10 MethodRef Class index 63, Name and type index 66
+66: Tag 12 NameAndType Name index 19, Description index 67
+67: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/ResourceDescriptor;Lorg/jboss/as/clustering/controller/ResourceServiceHandler;)V"
+68: Tag 10 MethodRef Class index 63, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "register"
+71: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+72: Tag 1 Utf8 Value "Signature"
+73: Tag 1 Utf8 Value "Ljava/util/function/UnaryOperator<Lorg/jboss/as/clustering/controller/ResourceDescriptor;>;"
+74: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Ljava/util/function/UnaryOperator;Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;)V"
+75: Tag 1 Utf8 Value "Code"
+76: Tag 1 Utf8 Value "LineNumberTable"
+77: Tag 1 Utf8 Value "LocalVariableTable"
+78: Tag 1 Utf8 Value "this"
+79: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/web/SSOManagementResourceDefinition;"
+80: Tag 1 Utf8 Value "path"
+81: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+82: Tag 1 Utf8 Value "LocalVariableTypeTable"
+83: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Ljava/util/function/UnaryOperator<Lorg/jboss/as/clustering/controller/ResourceDescriptor;>;Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;)V"
+84: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+85: Tag 1 Utf8 Value "parent"
+86: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+87: Tag 1 Utf8 Value "registration"
+88: Tag 1 Utf8 Value "descriptor"
+89: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/ResourceDescriptor;"
+90: Tag 1 Utf8 Value "handler"
+91: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/ResourceServiceHandler;"
+92: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/ChildResourceDefinition<Lorg/jboss/as/controller/registry/ManagementResourceRegistration;>;"
+93: Tag 1 Utf8 Value "SourceFile"
+94: Tag 1 Utf8 Value "SSOManagementResourceDefinition.java"
+95: Tag 1 Utf8 Value "InnerClasses"
+96: Tag 1 Utf8 Value "Capability"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 22, name org.wildfly.extension.clustering.web.SSOManagementResourceDefinition
+
+Super class: id 16, name org.jboss.as.clustering.controller.ChildResourceDefinition
+
+No interfaces
+
+Field name configurator (index 25), type Ljava/util/function/UnaryOperator; (descriptor index 26)
+Human type: java.util.function.UnaryOperator
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name serviceConfiguratorFactory (index 29), type Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory; (descriptor index 30)
+Human type: org.jboss.as.clustering.controller.ResourceServiceConfiguratorFactory
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 19), type (Lorg/jboss/as/controller/PathElement;Ljava/util/function/UnaryOperator;Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;)V (descriptor index 74)
+Human type: (org.jboss.as.controller.PathElement, java.util.function.UnaryOperator, org.jboss.as.clustering.controller.ResourceServiceConfiguratorFactory): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 132
+Method attribute name Signature, size 2
+Method name register (index 70), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration; (descriptor index 84)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): org.jboss.as.controller.registry.ManagementResourceRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 168
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

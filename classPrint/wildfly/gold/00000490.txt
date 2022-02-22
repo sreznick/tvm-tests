@@ -1,0 +1,204 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 161
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/ModClusterUndertowDeploymentProcessor"
+11: Tag 1 Utf8 Value "adapterNames"
+12: Tag 1 Utf8 Value "Ljava/util/Set;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "enabledMetrics"
+16: Tag 11 InterfaceMethodRef Class index 17, Name and type index 18
+17: Tag 7 Class Name index 19
+18: Tag 12 NameAndType Name index 20, Description index 21
+19: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+20: Tag 1 Utf8 Value "getDeploymentUnit"
+21: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+22: Tag 11 InterfaceMethodRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "java/util/Set"
+26: Tag 1 Utf8 Value "iterator"
+27: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+28: Tag 11 InterfaceMethodRef Class index 29, Name and type index 30
+29: Tag 7 Class Name index 31
+30: Tag 12 NameAndType Name index 32, Description index 33
+31: Tag 1 Utf8 Value "java/util/Iterator"
+32: Tag 1 Utf8 Value "hasNext"
+33: Tag 1 Utf8 Value "()Z"
+34: Tag 11 InterfaceMethodRef Class index 29, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "next"
+37: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+38: Tag 7 Class Name index 39
+39: Tag 1 Utf8 Value "java/lang/String"
+40: Tag 9 FieldRef Class index 41, Name and type index 42
+41: Tag 7 Class Name index 43
+42: Tag 12 NameAndType Name index 44, Description index 45
+43: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+44: Tag 1 Utf8 Value "WEB_DEPENDENCIES"
+45: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+46: Tag 7 Class Name index 47
+47: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/UndertowEventHandlerAdapterServiceNameProvider"
+48: Tag 10 MethodRef Class index 46, Name and type index 49
+49: Tag 12 NameAndType Name index 5, Description index 50
+50: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+51: Tag 10 MethodRef Class index 46, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 54
+53: Tag 1 Utf8 Value "getServiceName"
+54: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+55: Tag 11 InterfaceMethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+59: Tag 1 Utf8 Value "addToAttachmentList"
+60: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)V"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "org/jboss/modcluster/load/metric/impl/RequestCountLoadMetric"
+63: Tag 10 MethodRef Class index 8, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "isMetricEnabled"
+66: Tag 1 Utf8 Value "(Ljava/lang/Class;)Z"
+67: Tag 9 FieldRef Class index 68, Name and type index 69
+68: Tag 7 Class Name index 70
+69: Tag 12 NameAndType Name index 71, Description index 45
+70: Tag 1 Utf8 Value "org/wildfly/extension/undertow/deployment/UndertowAttachments"
+71: Tag 1 Utf8 Value "UNDERTOW_INITIAL_HANDLER_CHAIN_WRAPPERS"
+72: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 73
+73: Tag 12 NameAndType Name index 74, Description index 75
+74: Tag 1 Utf8 Value "wrap"
+75: Tag 1 Utf8 Value "()Lio/undertow/server/HandlerWrapper;"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "org/jboss/modcluster/load/metric/impl/SendTrafficLoadMetric"
+78: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 73
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "org/jboss/modcluster/load/metric/impl/ReceiveTrafficLoadMetric"
+81: Tag 18 InvokeDynamic Bootstrap index 2, NameAndType index 73
+82: Tag 7 Class Name index 83
+83: Tag 1 Utf8 Value "org/jboss/modcluster/load/metric/impl/BusyConnectorsLoadMetric"
+84: Tag 9 FieldRef Class index 68, Name and type index 85
+85: Tag 12 NameAndType Name index 86, Description index 45
+86: Tag 1 Utf8 Value "UNDERTOW_OUTER_HANDLER_CHAIN_WRAPPERS"
+87: Tag 18 InvokeDynamic Bootstrap index 3, NameAndType index 73
+88: Tag 7 Class Name index 89
+89: Tag 1 Utf8 Value "org/jboss/modcluster/load/metric/LoadMetric"
+90: Tag 10 MethodRef Class index 91, Name and type index 92
+91: Tag 7 Class Name index 93
+92: Tag 12 NameAndType Name index 94, Description index 95
+93: Tag 1 Utf8 Value "java/lang/Class"
+94: Tag 1 Utf8 Value "isInstance"
+95: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+96: Tag 7 Class Name index 97
+97: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+98: Tag 1 Utf8 Value "Signature"
+99: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/String;>;"
+100: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/jboss/modcluster/load/metric/LoadMetric;>;"
+101: Tag 1 Utf8 Value "(Ljava/util/Set;Ljava/util/Set;)V"
+102: Tag 1 Utf8 Value "Code"
+103: Tag 1 Utf8 Value "LineNumberTable"
+104: Tag 1 Utf8 Value "LocalVariableTable"
+105: Tag 1 Utf8 Value "this"
+106: Tag 1 Utf8 Value "Lorg/wildfly/mod_cluster/undertow/ModClusterUndertowDeploymentProcessor;"
+107: Tag 1 Utf8 Value "LocalVariableTypeTable"
+108: Tag 1 Utf8 Value "(Ljava/util/Set<Ljava/lang/String;>;Ljava/util/Set<Lorg/jboss/modcluster/load/metric/LoadMetric;>;)V"
+109: Tag 1 Utf8 Value "deploy"
+110: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+111: Tag 1 Utf8 Value "adapter"
+112: Tag 1 Utf8 Value "Ljava/lang/String;"
+113: Tag 1 Utf8 Value "phaseContext"
+114: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+115: Tag 1 Utf8 Value "deploymentUnit"
+116: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+117: Tag 1 Utf8 Value "StackMapTable"
+118: Tag 1 Utf8 Value "undeploy"
+119: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+120: Tag 1 Utf8 Value "context"
+121: Tag 1 Utf8 Value "enabledMetric"
+122: Tag 1 Utf8 Value "Lorg/jboss/modcluster/load/metric/LoadMetric;"
+123: Tag 1 Utf8 Value "metricClass"
+124: Tag 1 Utf8 Value "Ljava/lang/Class;"
+125: Tag 1 Utf8 Value "SourceFile"
+126: Tag 1 Utf8 Value "ModClusterUndertowDeploymentProcessor.java"
+127: Tag 1 Utf8 Value "BootstrapMethods"
+128: Tag 15 MethodHandle Kind 6, Index 129
+129: Tag 10 MethodRef Class index 130, Name and type index 131
+130: Tag 7 Class Name index 132
+131: Tag 12 NameAndType Name index 133, Description index 134
+132: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+133: Tag 1 Utf8 Value "metafactory"
+134: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+135: Tag 16 MethodType Descriptor index 136
+136: Tag 1 Utf8 Value "(Lio/undertow/server/HttpHandler;)Lio/undertow/server/HttpHandler;"
+137: Tag 15 MethodHandle Kind 8, Index 138
+138: Tag 10 MethodRef Class index 139, Name and type index 140
+139: Tag 7 Class Name index 141
+140: Tag 12 NameAndType Name index 5, Description index 142
+141: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/metric/RequestCountHttpHandler"
+142: Tag 1 Utf8 Value "(Lio/undertow/server/HttpHandler;)V"
+143: Tag 15 MethodHandle Kind 8, Index 144
+144: Tag 10 MethodRef Class index 145, Name and type index 140
+145: Tag 7 Class Name index 146
+146: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/metric/BytesSentHttpHandler"
+147: Tag 15 MethodHandle Kind 8, Index 148
+148: Tag 10 MethodRef Class index 149, Name and type index 140
+149: Tag 7 Class Name index 150
+150: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/metric/BytesReceivedHttpHandler"
+151: Tag 15 MethodHandle Kind 8, Index 152
+152: Tag 10 MethodRef Class index 153, Name and type index 140
+153: Tag 7 Class Name index 154
+154: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/metric/RunningRequestsHttpHandler"
+155: Tag 1 Utf8 Value "InnerClasses"
+156: Tag 7 Class Name index 157
+157: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+158: Tag 7 Class Name index 159
+159: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+160: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.mod_cluster.undertow.ModClusterUndertowDeploymentProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 96
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name adapterNames (index 11), type Ljava/util/Set; (descriptor index 12)
+Human type: java.util.Set
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name enabledMetrics (index 15), type Ljava/util/Set; (descriptor index 12)
+Human type: java.util.Set
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/util/Set;Ljava/util/Set;)V (descriptor index 101)
+Human type: (java.util.Set, java.util.Set): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name deploy (index 109), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 110)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 298
+Method name undeploy (index 118), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 119)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name isMetricEnabled (index 65), type (Ljava/lang/Class;)Z (descriptor index 66)
+Human type: (java.lang.Class): boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 140
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 42
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,153 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 117
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$context"
+10: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "java/lang/Object"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "()V"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+21: Tag 1 Utf8 Value "getCurrentAddress"
+22: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 22
+26: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+27: Tag 1 Utf8 Value "getParent"
+28: Tag 11 InterfaceMethodRef Class index 18, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "readResourceFromRoot"
+31: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Z)Lorg/jboss/as/controller/registry/Resource;"
+32: Tag 7 Class Name index 33
+33: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/EESubsystemModel"
+34: Tag 8 String Contents 35
+35: Tag 1 Utf8 Value "global-directory"
+36: Tag 11 InterfaceMethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 41
+39: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+40: Tag 1 Utf8 Value "getChildrenNames"
+41: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Set;"
+42: Tag 11 InterfaceMethodRef Class index 18, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 45
+44: Tag 1 Utf8 Value "getCurrentAddressValue"
+45: Tag 1 Utf8 Value "()Ljava/lang/String;"
+46: Tag 11 InterfaceMethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "java/util/Set"
+50: Tag 1 Utf8 Value "isEmpty"
+51: Tag 1 Utf8 Value "()Z"
+52: Tag 11 InterfaceMethodRef Class index 47, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "iterator"
+55: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+56: Tag 11 InterfaceMethodRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 60, Description index 61
+59: Tag 1 Utf8 Value "java/util/Iterator"
+60: Tag 1 Utf8 Value "next"
+61: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+62: Tag 7 Class Name index 63
+63: Tag 1 Utf8 Value "java/lang/String"
+64: Tag 10 MethodRef Class index 62, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "equals"
+67: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+68: Tag 9 FieldRef Class index 69, Name and type index 70
+69: Tag 7 Class Name index 71
+70: Tag 12 NameAndType Name index 72, Description index 73
+71: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+72: Tag 1 Utf8 Value "ROOT_LOGGER"
+73: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+74: Tag 11 InterfaceMethodRef Class index 69, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "oneGlobalDirectory"
+77: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+80: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler;Lorg/jboss/as/controller/OperationContext;)V"
+81: Tag 1 Utf8 Value "Code"
+82: Tag 1 Utf8 Value "LineNumberTable"
+83: Tag 1 Utf8 Value "LocalVariableTable"
+84: Tag 1 Utf8 Value "this"
+85: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler$1;"
+86: Tag 1 Utf8 Value "Signature"
+87: Tag 1 Utf8 Value "execute"
+88: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+89: Tag 1 Utf8 Value "oc"
+90: Tag 1 Utf8 Value "op"
+91: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+92: Tag 1 Utf8 Value "parentResource"
+93: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+94: Tag 1 Utf8 Value "globalDirectories"
+95: Tag 1 Utf8 Value "Ljava/util/Set;"
+96: Tag 1 Utf8 Value "newName"
+97: Tag 1 Utf8 Value "Ljava/lang/String;"
+98: Tag 1 Utf8 Value "firstAdded"
+99: Tag 1 Utf8 Value "LocalVariableTypeTable"
+100: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/String;>;"
+101: Tag 1 Utf8 Value "StackMapTable"
+102: Tag 1 Utf8 Value "Exceptions"
+103: Tag 7 Class Name index 104
+104: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+105: Tag 1 Utf8 Value "SourceFile"
+106: Tag 1 Utf8 Value "GlobalDirectoryResourceDefinition.java"
+107: Tag 1 Utf8 Value "EnclosingMethod"
+108: Tag 7 Class Name index 109
+109: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler"
+110: Tag 12 NameAndType Name index 111, Description index 112
+111: Tag 1 Utf8 Value "populateModel"
+112: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V"
+113: Tag 1 Utf8 Value "InnerClasses"
+114: Tag 7 Class Name index 115
+115: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition"
+116: Tag 1 Utf8 Value "GlobalDirectoryAddHandler"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.ee.subsystem.GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler$1
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 78
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name val$context (index 9), type Lorg/jboss/as/controller/OperationContext; (descriptor index 10)
+Human type: org.jboss.as.controller.OperationContext
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler; (descriptor index 6)
+Human type: org.jboss.as.ee.subsystem.GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 15), type (Lorg/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler;Lorg/jboss/as/controller/OperationContext;)V (descriptor index 80)
+Human type: (org.jboss.as.ee.subsystem.GlobalDirectoryResourceDefinition$GlobalDirectoryAddHandler, org.jboss.as.controller.OperationContext): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 67
+Method attribute name Signature, size 2
+Method name execute (index 87), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 88)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 278
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

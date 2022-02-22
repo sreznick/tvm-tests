@@ -1,0 +1,141 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 104
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractRemoveStepHandler"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+11: Tag 1 Utf8 Value "getCurrentAddressValue"
+12: Tag 1 Utf8 Value "()Ljava/lang/String;"
+13: Tag 11 InterfaceMethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "getCurrentAddress"
+16: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 16
+20: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+21: Tag 1 Utf8 Value "getParent"
+22: Tag 10 MethodRef Class index 18, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "getLastElement"
+25: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathElement;"
+26: Tag 10 MethodRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 30, Description index 12
+29: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+30: Tag 1 Utf8 Value "getValue"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingServices"
+35: Tag 1 Utf8 Value "getHttpUpgradeServiceName"
+36: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+37: Tag 11 InterfaceMethodRef Class index 8, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "removeService"
+40: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+41: Tag 9 FieldRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/HTTPAcceptorDefinition"
+45: Tag 1 Utf8 Value "UPGRADE_LEGACY"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+47: Tag 10 MethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+51: Tag 1 Utf8 Value "resolveModelAttribute"
+52: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+53: Tag 10 MethodRef Class index 54, Name and type index 55
+54: Tag 7 Class Name index 56
+55: Tag 12 NameAndType Name index 57, Description index 58
+56: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+57: Tag 1 Utf8 Value "asBoolean"
+58: Tag 1 Utf8 Value "()Z"
+59: Tag 10 MethodRef Class index 32, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 36
+61: Tag 1 Utf8 Value "getLegacyHttpUpgradeServiceName"
+62: Tag 9 FieldRef Class index 63, Name and type index 64
+63: Tag 7 Class Name index 65
+64: Tag 12 NameAndType Name index 66, Description index 67
+65: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/HTTPAcceptorAdd"
+66: Tag 1 Utf8 Value "INSTANCE"
+67: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/HTTPAcceptorAdd;"
+68: Tag 10 MethodRef Class index 63, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "launchServices"
+71: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)V"
+72: Tag 7 Class Name index 73
+73: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/HTTPAcceptorRemove"
+74: Tag 10 MethodRef Class index 72, Name and type index 3
+75: Tag 9 FieldRef Class index 72, Name and type index 76
+76: Tag 12 NameAndType Name index 66, Description index 77
+77: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/HTTPAcceptorRemove;"
+78: Tag 1 Utf8 Value "Code"
+79: Tag 1 Utf8 Value "LineNumberTable"
+80: Tag 1 Utf8 Value "LocalVariableTable"
+81: Tag 1 Utf8 Value "this"
+82: Tag 1 Utf8 Value "performRuntime"
+83: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+84: Tag 1 Utf8 Value "context"
+85: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+86: Tag 1 Utf8 Value "operation"
+87: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+88: Tag 1 Utf8 Value "model"
+89: Tag 1 Utf8 Value "acceptorName"
+90: Tag 1 Utf8 Value "Ljava/lang/String;"
+91: Tag 1 Utf8 Value "serverName"
+92: Tag 1 Utf8 Value "upgradeLegacy"
+93: Tag 1 Utf8 Value "Z"
+94: Tag 1 Utf8 Value "StackMapTable"
+95: Tag 7 Class Name index 96
+96: Tag 1 Utf8 Value "java/lang/String"
+97: Tag 1 Utf8 Value "Exceptions"
+98: Tag 7 Class Name index 99
+99: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+100: Tag 1 Utf8 Value "recoverServices"
+101: Tag 1 Utf8 Value "<clinit>"
+102: Tag 1 Utf8 Value "SourceFile"
+103: Tag 1 Utf8 Value "HTTPAcceptorRemove.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 72, name org.wildfly.extension.messaging.activemq.HTTPAcceptorRemove
+
+Super class: id 2, name org.jboss.as.controller.AbstractRemoveStepHandler
+
+No interfaces
+
+Field name INSTANCE (index 66), type Lorg/wildfly/extension/messaging/activemq/HTTPAcceptorRemove; (descriptor index 77)
+Human type: org.wildfly.extension.messaging.activemq.HTTPAcceptorRemove
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name performRuntime (index 82), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 83)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 216
+Method attribute name Exceptions, size 4
+Method name recoverServices (index 100), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 83)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 142
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 101), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2

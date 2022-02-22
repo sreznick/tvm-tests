@@ -1,0 +1,454 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 223
+1: Tag 7 Class Name index 212
+2: Tag 8 String Contents 213
+3: Tag 10 MethodRef Class index 214, Name and type index 215
+4: Tag 9 FieldRef Class index 1, Name and type index 216
+5: Tag 7 Class Name index 217
+6: Tag 7 Class Name index 218
+7: Tag 1 Utf8 Value "ROOT_LOGGER"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/messages/JpaLogger;"
+9: Tag 1 Utf8 Value "duplicatePersistenceUnitDefinition"
+10: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+11: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+12: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+13: Tag 1 Utf8 Value "level"
+14: Tag 7 Class Name index 219
+15: Tag 1 Utf8 Value "Level"
+16: Tag 1 Utf8 Value "InnerClasses"
+17: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+18: Tag 1 Utf8 Value "WARN"
+19: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+20: Tag 1 Utf8 Value "id"
+21: Tag 3 Integer Value 1, hex: 0x1
+22: Tag 1 Utf8 Value "value"
+23: Tag 1 Utf8 Value "Duplicate Persistence Unit definition for %s in application.  One of the duplicate persistence.xml should be removed from the application. Application deployment will continue with the persistence.xml definitions from %s used.  The persistence.xml definitions from %s will be ignored."
+24: Tag 1 Utf8 Value "readingPersistenceXml"
+25: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+26: Tag 1 Utf8 Value "INFO"
+27: Tag 3 Integer Value 2, hex: 0x2
+28: Tag 1 Utf8 Value "Read persistence.xml for %s"
+29: Tag 1 Utf8 Value "startingService"
+30: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+31: Tag 3 Integer Value 3, hex: 0x3
+32: Tag 1 Utf8 Value "Starting %s Service '%s'"
+33: Tag 1 Utf8 Value "stoppingService"
+34: Tag 3 Integer Value 4, hex: 0x4
+35: Tag 1 Utf8 Value "Stopping %s Service '%s'"
+36: Tag 1 Utf8 Value "errorPreloadingDefaultProvider"
+37: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+38: Tag 1 Utf8 Value "ERROR"
+39: Tag 3 Integer Value 6, hex: 0x6
+40: Tag 1 Utf8 Value "Could not load default persistence provider module.  "
+41: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+42: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+43: Tag 1 Utf8 Value "failedToStopPUService"
+44: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)V"
+45: Tag 3 Integer Value 7, hex: 0x7
+46: Tag 1 Utf8 Value "Failed to stop persistence unit service %s"
+47: Tag 1 Utf8 Value "startingPersistenceUnitService"
+48: Tag 1 Utf8 Value "(ILjava/lang/String;)V"
+49: Tag 3 Integer Value 10, hex: 0xa
+50: Tag 1 Utf8 Value "Starting Persistence Unit (phase %d of 2) Service '%s'"
+51: Tag 1 Utf8 Value "stoppingPersistenceUnitService"
+52: Tag 3 Integer Value 11, hex: 0xb
+53: Tag 1 Utf8 Value "Stopping Persistence Unit (phase %d of 2) Service '%s'"
+54: Tag 1 Utf8 Value "unexpectedStatisticsProblem"
+55: Tag 1 Utf8 Value "(Ljava/lang/RuntimeException;)V"
+56: Tag 3 Integer Value 12, hex: 0xc
+57: Tag 1 Utf8 Value "Unexpected problem gathering statistics"
+58: Tag 1 Utf8 Value "cannotCloseContainerManagedEntityManager"
+59: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+60: Tag 3 Integer Value 15, hex: 0xf
+61: Tag 1 Utf8 Value "Container managed entity manager can only be closed by the container (will happen when @remove method is invoked on containing SFSB)"
+62: Tag 1 Utf8 Value "cannotCloseTransactionContainerEntityManger"
+63: Tag 3 Integer Value 17, hex: 0x11
+64: Tag 1 Utf8 Value "Container managed entity manager can only be closed by the container (auto-cleared at tx/invocation end and closed when owning component is closed.)"
+65: Tag 1 Utf8 Value "cannotCreateAdapter"
+66: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+67: Tag 3 Integer Value 18, hex: 0x12
+68: Tag 1 Utf8 Value "Could not create instance of adapter class '%s'"
+69: Tag 1 Utf8 Value "cannotDeployApp"
+70: Tag 3 Integer Value 19, hex: 0x13
+71: Tag 1 Utf8 Value "Could not deploy application packaged persistence provider '%s'"
+72: Tag 1 Utf8 Value "cannotGetSessionFactory"
+73: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+74: Tag 3 Integer Value 20, hex: 0x14
+75: Tag 1 Utf8 Value "Couldn't get Hibernate session factory from entity manager"
+76: Tag 1 Utf8 Value "cannotInjectResourceLocalEntityManager"
+77: Tag 1 Utf8 Value "()Ljava/lang/String;"
+78: Tag 3 Integer Value 21, hex: 0x15
+79: Tag 1 Utf8 Value "Cannot inject RESOURCE_LOCAL container managed EntityManagers using @PersistenceContext"
+80: Tag 1 Utf8 Value "cannotLoadFromJpa"
+81: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/RuntimeException;"
+82: Tag 3 Integer Value 25, hex: 0x19
+83: Tag 1 Utf8 Value "Couldn't load %s from Jakarta Persistence modules classloader"
+84: Tag 1 Utf8 Value "cannotLoadPersistenceProviderModule"
+85: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+86: Tag 3 Integer Value 27, hex: 0x1b
+87: Tag 1 Utf8 Value "Persistence provider module load error %s (class %s)"
+88: Tag 1 Utf8 Value "cannotSpecifyBoth"
+89: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+90: Tag 3 Integer Value 29, hex: 0x1d
+91: Tag 1 Utf8 Value "Cannot specify both %s (%s) and %s (%s) in %s for %s"
+92: Tag 1 Utf8 Value "cannotUseExtendedPersistenceTransaction"
+93: Tag 1 Utf8 Value "(Ljava/lang/String;Ljavax/persistence/EntityManager;Ljavax/persistence/EntityManager;)Ljavax/ejb/EJBException;"
+94: Tag 3 Integer Value 30, hex: 0x1e
+95: Tag 1 Utf8 Value "Found extended persistence context in SFSB invocation call stack but that cannot be used because the transaction already has a transactional context associated with it.  This can be avoided by changing application code, either eliminate the extended persistence context or the transactional context.  See JPA spec 2.0 section 7.6.3.1.  Scoped persistence unit name=%s, persistence context already in transaction =%s, extended persistence context =%s."
+96: Tag 1 Utf8 Value "childNotFound"
+97: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/vfs/VirtualFile;)Ljava/lang/RuntimeException;"
+98: Tag 3 Integer Value 31, hex: 0x1f
+99: Tag 1 Utf8 Value "Could not find child '%s' on '%s'"
+100: Tag 1 Utf8 Value "classLevelAnnotationParameterRequired"
+101: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+102: Tag 3 Integer Value 32, hex: 0x20
+103: Tag 1 Utf8 Value "Class level %s annotation on class %s must provide a %s"
+104: Tag 1 Utf8 Value "persistenceUnitNotFound"
+105: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/String;"
+106: Tag 3 Integer Value 33, hex: 0x21
+107: Tag 1 Utf8 Value "Can't find a persistence unit named %s in %s"
+108: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/IllegalArgumentException;"
+109: Tag 3 Integer Value 34, hex: 0x22
+110: Tag 1 Utf8 Value "Can't find a persistence unit named %s#%s at %s"
+111: Tag 1 Utf8 Value "errorGettingTransaction"
+112: Tag 1 Utf8 Value "(Ljava/lang/Exception;)Ljava/lang/IllegalStateException;"
+113: Tag 3 Integer Value 36, hex: 0x24
+114: Tag 1 Utf8 Value "An error occurred while getting the transaction associated with the current thread: %s"
+115: Tag 1 Utf8 Value "failedToGetAdapter"
+116: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+117: Tag 3 Integer Value 37, hex: 0x25
+118: Tag 1 Utf8 Value "Failed to get adapter for persistence provider '%s'"
+119: Tag 1 Utf8 Value "failedToAddPersistenceUnit"
+120: Tag 3 Integer Value 38, hex: 0x26
+121: Tag 1 Utf8 Value "Failed to add persistence unit service for %s"
+122: Tag 1 Utf8 Value "failedToParse"
+123: Tag 1 Utf8 Value "(Lorg/jboss/vfs/VirtualFile;)Ljava/lang/String;"
+124: Tag 3 Integer Value 40, hex: 0x28
+125: Tag 1 Utf8 Value "Failed to parse %s"
+126: Tag 1 Utf8 Value "hibernateOnlyEntityManagerFactory"
+127: Tag 1 Utf8 Value "()Ljava/lang/RuntimeException;"
+128: Tag 3 Integer Value 41, hex: 0x29
+129: Tag 1 Utf8 Value "Can only inject from a Hibernate EntityManagerFactoryImpl"
+130: Tag 1 Utf8 Value "invalidPersistenceUnitName"
+131: Tag 1 Utf8 Value "(Ljava/lang/String;C)Ljava/lang/IllegalArgumentException;"
+132: Tag 3 Integer Value 43, hex: 0x2b
+133: Tag 1 Utf8 Value "Persistence unit name (%s) contains illegal '%s' character"
+134: Tag 1 Utf8 Value "invalidScopedName"
+135: Tag 3 Integer Value 44, hex: 0x2c
+136: Tag 1 Utf8 Value "jboss.as.jpa.scopedname hint (%s) contains illegal '%s' character"
+137: Tag 1 Utf8 Value "multipleAdapters"
+138: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/RuntimeException;"
+139: Tag 3 Integer Value 48, hex: 0x30
+140: Tag 1 Utf8 Value "Persistence provider adapter module (%s) has more than one adapter"
+141: Tag 1 Utf8 Value "nullParameter"
+142: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/RuntimeException;"
+143: Tag 3 Integer Value 53, hex: 0x35
+144: Tag 1 Utf8 Value "Internal %s error, null %s passed in"
+145: Tag 1 Utf8 Value "persistenceProviderNotFound"
+146: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/persistence/PersistenceException;"
+147: Tag 3 Integer Value 57, hex: 0x39
+148: Tag 1 Utf8 Value "PersistenceProvider '%s' not found"
+149: Tag 1 Utf8 Value "relativePathNotFound"
+150: Tag 3 Integer Value 58, hex: 0x3a
+151: Tag 1 Utf8 Value "Could not find relative path: %s"
+152: Tag 1 Utf8 Value "setterMethodOnlyAnnotation"
+153: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/jandex/MethodInfo;)Ljava/lang/String;"
+154: Tag 3 Integer Value 59, hex: 0x3b
+155: Tag 1 Utf8 Value "%s injection target is invalid.  Only setter methods are allowed: %s"
+156: Tag 1 Utf8 Value "transactionRequired"
+157: Tag 1 Utf8 Value "()Ljavax/persistence/TransactionRequiredException;"
+158: Tag 3 Integer Value 60, hex: 0x3c
+159: Tag 1 Utf8 Value "Transaction is required to perform this operation (either use a transaction or extended persistence context)"
+160: Tag 1 Utf8 Value "noPUnitNameSpecifiedAndMultiplePersistenceUnits"
+161: Tag 1 Utf8 Value "(ILorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/IllegalArgumentException;"
+162: Tag 3 Integer Value 61, hex: 0x3d
+163: Tag 1 Utf8 Value "Persistence unitName was not specified and there are %d persistence unit definitions in application deployment %s.  Either change the application deployment to have only one persistence unit definition or specify the unitName for each reference to a persistence unit."
+164: Tag 1 Utf8 Value "couldNotCreateInstanceProvider"
+165: Tag 3 Integer Value 62, hex: 0x3e
+166: Tag 1 Utf8 Value "Could not create instance of persistence provider class %s"
+167: Tag 1 Utf8 Value "referenceCountedEntityManagerNegativeCount"
+168: Tag 1 Utf8 Value "(ILjava/lang/String;)Ljava/lang/RuntimeException;"
+169: Tag 3 Integer Value 63, hex: 0x3f
+170: Tag 1 Utf8 Value "internal error, the number of stateful session beans (%d) associated with an extended persistence context (%s) cannot be a negative number."
+171: Tag 1 Utf8 Value "badSynchronizationTypeCombination"
+172: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+173: Tag 3 Integer Value 64, hex: 0x40
+174: Tag 1 Utf8 Value "Jakarta Transactions transaction already has a 'SynchronizationType.UNSYNCHRONIZED' persistence context (EntityManager) joined to it but a component with a 'SynchronizationType.SYNCHRONIZED' is now being used.  Change the calling component code to join the persistence context (EntityManager) to the transaction or change the called component code to also use 'SynchronizationType.UNSYNCHRONIZED'.  See JPA spec 2.1 section 7.6.4.1.  Scoped persistence unit name=%s."
+175: Tag 1 Utf8 Value "resourcesOfTypeCannotBeRegistered"
+176: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/UnsupportedOperationException;"
+177: Tag 3 Integer Value 65, hex: 0x41
+178: Tag 1 Utf8 Value "Resources of type %s cannot be registered"
+179: Tag 1 Utf8 Value "resourcesOfTypeCannotBeRemoved"
+180: Tag 3 Integer Value 66, hex: 0x42
+181: Tag 1 Utf8 Value "Resources of type %s cannot be removed"
+182: Tag 1 Utf8 Value "classloaderHasMultipleAdapters"
+183: Tag 3 Integer Value 67, hex: 0x43
+184: Tag 1 Utf8 Value "Classloader '%s' has more than one Persistence provider adapter"
+185: Tag 1 Utf8 Value "persistenceProviderAdaptorModuleLoadError"
+186: Tag 3 Integer Value 69, hex: 0x45
+187: Tag 1 Utf8 Value "Persistence provider adapter module load error %s"
+188: Tag 1 Utf8 Value "xpcOnlyFromSFSB"
+189: Tag 3 Integer Value 70, hex: 0x46
+190: Tag 1 Utf8 Value "A container-managed extended persistence context can only be initiated within the scope of a stateful session bean (persistence unit '%s')."
+191: Tag 1 Utf8 Value "differentSearchModuleDependencies"
+192: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+193: Tag 3 Integer Value 71, hex: 0x47
+194: Tag 1 Utf8 Value "Deployment '%s' specified more than one Hibernate Search module name ('%s','%s')"
+195: Tag 1 Utf8 Value "invalidClassFormat"
+196: Tag 1 Utf8 Value "(Ljava/lang/instrument/IllegalClassFormatException;Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+197: Tag 3 Integer Value 73, hex: 0x49
+198: Tag 1 Utf8 Value "Transformation of class %s failed"
+199: Tag 1 Utf8 Value "hibernate51CompatibilityTransformerEnabled"
+200: Tag 1 Utf8 Value "()V"
+201: Tag 3 Integer Value 74, hex: 0x4a
+202: Tag 1 Utf8 Value "Deprecated Hibernate51CompatibilityTransformer is enabled for all application deployments."
+203: Tag 1 Utf8 Value "<clinit>"
+204: Tag 1 Utf8 Value "Code"
+205: Tag 1 Utf8 Value "LineNumberTable"
+206: Tag 1 Utf8 Value "SourceFile"
+207: Tag 1 Utf8 Value "JpaLogger.java"
+208: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+209: Tag 1 Utf8 Value "projectCode"
+210: Tag 1 Utf8 Value "WFLYJPA"
+211: Tag 1 Utf8 Value "length"
+212: Tag 1 Utf8 Value "org/jboss/as/jpa/messages/JpaLogger"
+213: Tag 1 Utf8 Value "org.jboss.as.jpa"
+214: Tag 7 Class Name index 220
+215: Tag 12 NameAndType Name index 221, Description index 222
+216: Tag 12 NameAndType Name index 7, Description index 8
+217: Tag 1 Utf8 Value "java/lang/Object"
+218: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+219: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+220: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+221: Tag 1 Utf8 Value "getMessageLogger"
+222: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.jboss.as.jpa.messages.JpaLogger
+
+Super class: id 5, name java.lang.Object
+
+Implements class ids 6
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 7), type Lorg/jboss/as/jpa/messages/JpaLogger; (descriptor index 8)
+Human type: org.jboss.as.jpa.messages.JpaLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name duplicatePersistenceUnitDefinition (index 9), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V (descriptor index 10)
+Human type: (java.lang.String, java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name readingPersistenceXml (index 24), type (Ljava/lang/String;)V (descriptor index 25)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name startingService (index 29), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 30)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name stoppingService (index 33), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 30)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name errorPreloadingDefaultProvider (index 36), type (Ljava/lang/Throwable;)V (descriptor index 37)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name failedToStopPUService (index 43), type (Ljava/lang/Throwable;Ljava/lang/String;)V (descriptor index 44)
+Human type: (java.lang.Throwable, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name startingPersistenceUnitService (index 47), type (ILjava/lang/String;)V (descriptor index 48)
+Human type: (int, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name stoppingPersistenceUnitService (index 51), type (ILjava/lang/String;)V (descriptor index 48)
+Human type: (int, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name unexpectedStatisticsProblem (index 54), type (Ljava/lang/RuntimeException;)V (descriptor index 55)
+Human type: (java.lang.RuntimeException): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name cannotCloseContainerManagedEntityManager (index 58), type ()Ljava/lang/IllegalStateException; (descriptor index 59)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotCloseTransactionContainerEntityManger (index 62), type ()Ljava/lang/IllegalStateException; (descriptor index 59)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotCreateAdapter (index 65), type (Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 66)
+Human type: (java.lang.Throwable, java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name cannotDeployApp (index 69), type (Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 66)
+Human type: (java.lang.Throwable, java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name cannotGetSessionFactory (index 72), type (Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 73)
+Human type: (java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name cannotInjectResourceLocalEntityManager (index 76), type ()Ljava/lang/String; (descriptor index 77)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotLoadFromJpa (index 80), type (Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 81)
+Human type: (java.lang.Throwable, java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name cannotLoadPersistenceProviderModule (index 84), type (Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 85)
+Human type: (java.lang.Throwable, java.lang.String, java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name cannotSpecifyBoth (index 88), type (Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 89)
+Human type: (java.lang.String, java.lang.Object, java.lang.String, java.lang.Object, java.lang.String, java.lang.Object): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotUseExtendedPersistenceTransaction (index 92), type (Ljava/lang/String;Ljavax/persistence/EntityManager;Ljavax/persistence/EntityManager;)Ljavax/ejb/EJBException; (descriptor index 93)
+Human type: (java.lang.String, javax.persistence.EntityManager, javax.persistence.EntityManager): javax.ejb.EJBException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name childNotFound (index 96), type (Ljava/lang/String;Lorg/jboss/vfs/VirtualFile;)Ljava/lang/RuntimeException; (descriptor index 97)
+Human type: (java.lang.String, org.jboss.vfs.VirtualFile): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name classLevelAnnotationParameterRequired (index 100), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; (descriptor index 101)
+Human type: (java.lang.String, java.lang.String, java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name persistenceUnitNotFound (index 104), type (Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/String; (descriptor index 105)
+Human type: (java.lang.String, org.jboss.as.server.deployment.DeploymentUnit): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name persistenceUnitNotFound (index 104), type (Ljava/lang/String;Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/IllegalArgumentException; (descriptor index 108)
+Human type: (java.lang.String, java.lang.String, org.jboss.as.server.deployment.DeploymentUnit): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorGettingTransaction (index 111), type (Ljava/lang/Exception;)Ljava/lang/IllegalStateException; (descriptor index 112)
+Human type: (java.lang.Exception): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name failedToGetAdapter (index 115), type (Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 116)
+Human type: (java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name failedToAddPersistenceUnit (index 119), type (Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 66)
+Human type: (java.lang.Throwable, java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name failedToParse (index 122), type (Lorg/jboss/vfs/VirtualFile;)Ljava/lang/String; (descriptor index 123)
+Human type: (org.jboss.vfs.VirtualFile): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name hibernateOnlyEntityManagerFactory (index 126), type ()Ljava/lang/RuntimeException; (descriptor index 127)
+Human type: (): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidPersistenceUnitName (index 130), type (Ljava/lang/String;C)Ljava/lang/IllegalArgumentException; (descriptor index 131)
+Human type: (java.lang.String, char): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidScopedName (index 134), type (Ljava/lang/String;C)Ljava/lang/IllegalArgumentException; (descriptor index 131)
+Human type: (java.lang.String, char): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name multipleAdapters (index 137), type (Ljava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 138)
+Human type: (java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name nullParameter (index 141), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 142)
+Human type: (java.lang.String, java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name persistenceProviderNotFound (index 145), type (Ljava/lang/String;)Ljavax/persistence/PersistenceException; (descriptor index 146)
+Human type: (java.lang.String): javax.persistence.PersistenceException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name relativePathNotFound (index 149), type (Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 81)
+Human type: (java.lang.Throwable, java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name setterMethodOnlyAnnotation (index 152), type (Ljava/lang/String;Lorg/jboss/jandex/MethodInfo;)Ljava/lang/String; (descriptor index 153)
+Human type: (java.lang.String, org.jboss.jandex.MethodInfo): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name transactionRequired (index 156), type ()Ljavax/persistence/TransactionRequiredException; (descriptor index 157)
+Human type: (): javax.persistence.TransactionRequiredException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name noPUnitNameSpecifiedAndMultiplePersistenceUnits (index 160), type (ILorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/IllegalArgumentException; (descriptor index 161)
+Human type: (int, org.jboss.as.server.deployment.DeploymentUnit): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotCreateInstanceProvider (index 164), type (Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 81)
+Human type: (java.lang.Throwable, java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name referenceCountedEntityManagerNegativeCount (index 167), type (ILjava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 168)
+Human type: (int, java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name badSynchronizationTypeCombination (index 171), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 172)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name resourcesOfTypeCannotBeRegistered (index 175), type (Ljava/lang/String;)Ljava/lang/UnsupportedOperationException; (descriptor index 176)
+Human type: (java.lang.String): java.lang.UnsupportedOperationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name resourcesOfTypeCannotBeRemoved (index 179), type (Ljava/lang/String;)Ljava/lang/UnsupportedOperationException; (descriptor index 176)
+Human type: (java.lang.String): java.lang.UnsupportedOperationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name classloaderHasMultipleAdapters (index 182), type (Ljava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 138)
+Human type: (java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name persistenceProviderAdaptorModuleLoadError (index 185), type (Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 66)
+Human type: (java.lang.Throwable, java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name xpcOnlyFromSFSB (index 188), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 172)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name differentSearchModuleDependencies (index 191), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 192)
+Human type: (java.lang.String, java.lang.String, java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidClassFormat (index 195), type (Ljava/lang/instrument/IllegalClassFormatException;Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 196)
+Human type: (java.lang.instrument.IllegalClassFormatException, java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name hibernate51CompatibilityTransformerEnabled (index 199), type ()V (descriptor index 200)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name <clinit> (index 203), type ()V (descriptor index 200)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

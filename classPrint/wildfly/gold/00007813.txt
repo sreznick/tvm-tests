@@ -1,0 +1,243 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 205
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSQueueService"
+3: Tag 7 Class Name index 4
+4: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractRemoveStepHandler"
+9: Tag 1 Utf8 Value "<init>"
+10: Tag 1 Utf8 Value "()V"
+11: Tag 8 String Contents 12
+12: Tag 1 Utf8 Value "address"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+17: Tag 1 Utf8 Value "get"
+18: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+23: Tag 1 Utf8 Value "pathAddress"
+24: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/PathAddress;"
+25: Tag 10 MethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingServices"
+29: Tag 1 Utf8 Value "getActiveMQServiceName"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/msc/service/ServiceName;"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSServices"
+35: Tag 1 Utf8 Value "getJmsManagerBaseServiceName"
+36: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceName;"
+37: Tag 10 MethodRef Class index 14, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 18
+39: Tag 1 Utf8 Value "require"
+40: Tag 10 MethodRef Class index 20, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 43
+42: Tag 1 Utf8 Value "getLastElement"
+43: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathElement;"
+44: Tag 10 MethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+48: Tag 1 Utf8 Value "getValue"
+49: Tag 1 Utf8 Value "()Ljava/lang/String;"
+50: Tag 11 InterfaceMethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 55
+53: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+54: Tag 1 Utf8 Value "getServiceRegistry"
+55: Tag 1 Utf8 Value "(Z)Lorg/jboss/msc/service/ServiceRegistry;"
+56: Tag 11 InterfaceMethodRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 60, Description index 61
+59: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+60: Tag 1 Utf8 Value "getService"
+61: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+62: Tag 7 Class Name index 63
+63: Tag 1 Utf8 Value "org/apache/activemq/artemis/jms/server/JMSServerManager"
+64: Tag 11 InterfaceMethodRef Class index 65, Name and type index 66
+65: Tag 7 Class Name index 67
+66: Tag 12 NameAndType Name index 48, Description index 68
+67: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+68: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+69: Tag 10 MethodRef Class index 70, Name and type index 71
+70: Tag 7 Class Name index 72
+71: Tag 12 NameAndType Name index 73, Description index 74
+72: Tag 1 Utf8 Value "java/lang/Class"
+73: Tag 1 Utf8 Value "cast"
+74: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+75: Tag 7 Class Name index 76
+76: Tag 1 Utf8 Value "java/lang/StringBuilder"
+77: Tag 10 MethodRef Class index 75, Name and type index 7
+78: Tag 8 String Contents 79
+79: Tag 1 Utf8 Value "jms.queue."
+80: Tag 10 MethodRef Class index 75, Name and type index 81
+81: Tag 12 NameAndType Name index 82, Description index 83
+82: Tag 1 Utf8 Value "append"
+83: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+84: Tag 10 MethodRef Class index 75, Name and type index 85
+85: Tag 12 NameAndType Name index 86, Description index 49
+86: Tag 1 Utf8 Value "toString"
+87: Tag 11 InterfaceMethodRef Class index 62, Name and type index 88
+88: Tag 12 NameAndType Name index 89, Description index 90
+89: Tag 1 Utf8 Value "destroyQueue"
+90: Tag 1 Utf8 Value "(Ljava/lang/String;Z)Z"
+91: Tag 7 Class Name index 92
+92: Tag 1 Utf8 Value "java/lang/Exception"
+93: Tag 7 Class Name index 94
+94: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+95: Tag 10 MethodRef Class index 93, Name and type index 96
+96: Tag 12 NameAndType Name index 9, Description index 97
+97: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+98: Tag 10 MethodRef Class index 32, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 36
+100: Tag 1 Utf8 Value "getJmsQueueBaseServiceName"
+101: Tag 7 Class Name index 102
+102: Tag 1 Utf8 Value "java/lang/String"
+103: Tag 10 MethodRef Class index 104, Name and type index 105
+104: Tag 7 Class Name index 106
+105: Tag 12 NameAndType Name index 82, Description index 107
+106: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+107: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+108: Tag 11 InterfaceMethodRef Class index 51, Name and type index 109
+109: Tag 12 NameAndType Name index 110, Description index 61
+110: Tag 1 Utf8 Value "removeService"
+111: Tag 9 FieldRef Class index 112, Name and type index 113
+112: Tag 7 Class Name index 114
+113: Tag 12 NameAndType Name index 115, Description index 116
+114: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+115: Tag 1 Utf8 Value "DESTINATION_ENTRIES"
+116: Tag 1 Utf8 Value "Lorg/jboss/as/controller/StringListAttributeDefinition;"
+117: Tag 10 MethodRef Class index 118, Name and type index 119
+118: Tag 7 Class Name index 120
+119: Tag 12 NameAndType Name index 121, Description index 122
+120: Tag 1 Utf8 Value "org/jboss/as/controller/StringListAttributeDefinition"
+121: Tag 1 Utf8 Value "unwrap"
+122: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;)Ljava/util/List;"
+123: Tag 11 InterfaceMethodRef Class index 124, Name and type index 125
+124: Tag 7 Class Name index 126
+125: Tag 12 NameAndType Name index 127, Description index 128
+126: Tag 1 Utf8 Value "java/util/List"
+127: Tag 1 Utf8 Value "iterator"
+128: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+129: Tag 11 InterfaceMethodRef Class index 130, Name and type index 131
+130: Tag 7 Class Name index 132
+131: Tag 12 NameAndType Name index 133, Description index 134
+132: Tag 1 Utf8 Value "java/util/Iterator"
+133: Tag 1 Utf8 Value "hasNext"
+134: Tag 1 Utf8 Value "()Z"
+135: Tag 11 InterfaceMethodRef Class index 130, Name and type index 136
+136: Tag 12 NameAndType Name index 137, Description index 68
+137: Tag 1 Utf8 Value "next"
+138: Tag 10 MethodRef Class index 139, Name and type index 140
+139: Tag 7 Class Name index 141
+140: Tag 12 NameAndType Name index 142, Description index 143
+141: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames"
+142: Tag 1 Utf8 Value "bindInfoFor"
+143: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;"
+144: Tag 10 MethodRef Class index 145, Name and type index 146
+145: Tag 7 Class Name index 147
+146: Tag 12 NameAndType Name index 148, Description index 149
+147: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames$BindInfo"
+148: Tag 1 Utf8 Value "getBinderServiceName"
+149: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+150: Tag 9 FieldRef Class index 112, Name and type index 151
+151: Tag 12 NameAndType Name index 152, Description index 116
+152: Tag 1 Utf8 Value "LEGACY_ENTRIES"
+153: Tag 9 FieldRef Class index 154, Name and type index 155
+154: Tag 7 Class Name index 156
+155: Tag 12 NameAndType Name index 157, Description index 158
+156: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSQueueAdd"
+157: Tag 1 Utf8 Value "INSTANCE"
+158: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/JMSQueueAdd;"
+159: Tag 10 MethodRef Class index 154, Name and type index 160
+160: Tag 12 NameAndType Name index 161, Description index 162
+161: Tag 1 Utf8 Value "performRuntime"
+162: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+163: Tag 7 Class Name index 164
+164: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSQueueRemove"
+165: Tag 10 MethodRef Class index 163, Name and type index 7
+166: Tag 9 FieldRef Class index 163, Name and type index 167
+167: Tag 12 NameAndType Name index 157, Description index 168
+168: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/JMSQueueRemove;"
+169: Tag 1 Utf8 Value "Code"
+170: Tag 1 Utf8 Value "LineNumberTable"
+171: Tag 1 Utf8 Value "LocalVariableTable"
+172: Tag 1 Utf8 Value "this"
+173: Tag 1 Utf8 Value "e"
+174: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+175: Tag 1 Utf8 Value "bindInfo"
+176: Tag 1 Utf8 Value "Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;"
+177: Tag 1 Utf8 Value "binderServiceName"
+178: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+179: Tag 1 Utf8 Value "entry"
+180: Tag 1 Utf8 Value "Ljava/lang/String;"
+181: Tag 1 Utf8 Value "legacyEntry"
+182: Tag 1 Utf8 Value "context"
+183: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+184: Tag 1 Utf8 Value "operation"
+185: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+186: Tag 1 Utf8 Value "model"
+187: Tag 1 Utf8 Value "serviceName"
+188: Tag 1 Utf8 Value "jmsServiceName"
+189: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+190: Tag 1 Utf8 Value "name"
+191: Tag 1 Utf8 Value "service"
+192: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+193: Tag 1 Utf8 Value "server"
+194: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/jms/server/JMSServerManager;"
+195: Tag 1 Utf8 Value "LocalVariableTypeTable"
+196: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+197: Tag 1 Utf8 Value "StackMapTable"
+198: Tag 1 Utf8 Value "Exceptions"
+199: Tag 1 Utf8 Value "recoverServices"
+200: Tag 1 Utf8 Value "<clinit>"
+201: Tag 1 Utf8 Value "SourceFile"
+202: Tag 1 Utf8 Value "JMSQueueRemove.java"
+203: Tag 1 Utf8 Value "InnerClasses"
+204: Tag 1 Utf8 Value "BindInfo"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 163, name org.wildfly.extension.messaging.activemq.jms.JMSQueueRemove
+
+Super class: id 6, name org.jboss.as.controller.AbstractRemoveStepHandler
+
+No interfaces
+
+Field name INSTANCE (index 157), type Lorg/wildfly/extension/messaging/activemq/jms/JMSQueueRemove; (descriptor index 168)
+Human type: org.wildfly.extension.messaging.activemq.jms.JMSQueueRemove
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 9), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name performRuntime (index 161), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 162)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 649
+Method attribute name Exceptions, size 4
+Method name recoverServices (index 199), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 162)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 86
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 200), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

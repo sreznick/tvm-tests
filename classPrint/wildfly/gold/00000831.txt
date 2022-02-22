@@ -1,0 +1,163 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 124
+1: Tag 10 MethodRef Class index 20, Name and type index 59
+2: Tag 9 FieldRef Class index 19, Name and type index 60
+3: Tag 9 FieldRef Class index 19, Name and type index 61
+4: Tag 7 Class Name index 62
+5: Tag 10 MethodRef Class index 48, Name and type index 63
+6: Tag 8 String Contents 41
+7: Tag 10 MethodRef Class index 64, Name and type index 65
+8: Tag 10 MethodRef Class index 4, Name and type index 66
+9: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 71
+10: Tag 11 InterfaceMethodRef Class index 50, Name and type index 72
+11: Tag 10 MethodRef Class index 49, Name and type index 73
+12: Tag 10 MethodRef Class index 49, Name and type index 74
+13: Tag 7 Class Name index 75
+14: Tag 10 MethodRef Class index 13, Name and type index 76
+15: Tag 7 Class Name index 77
+16: Tag 7 Class Name index 78
+17: Tag 10 MethodRef Class index 16, Name and type index 79
+18: Tag 10 MethodRef Class index 49, Name and type index 80
+19: Tag 7 Class Name index 81
+20: Tag 7 Class Name index 82
+21: Tag 7 Class Name index 83
+22: Tag 1 Utf8 Value "category"
+23: Tag 1 Utf8 Value "Ljava/lang/String;"
+24: Tag 1 Utf8 Value "roleMapper"
+25: Tag 1 Utf8 Value "Lorg/wildfly/security/authz/RoleMapper;"
+26: Tag 1 Utf8 Value "<init>"
+27: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/security/authz/RoleMapper;)V"
+28: Tag 1 Utf8 Value "Code"
+29: Tag 1 Utf8 Value "LineNumberTable"
+30: Tag 1 Utf8 Value "LocalVariableTable"
+31: Tag 1 Utf8 Value "this"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/security/RoleAddingInterceptor;"
+33: Tag 1 Utf8 Value "processInvocation"
+34: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object;"
+35: Tag 1 Utf8 Value "cause"
+36: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+37: Tag 1 Utf8 Value "e"
+38: Tag 1 Utf8 Value "Ljava/security/PrivilegedActionException;"
+39: Tag 1 Utf8 Value "context"
+40: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+41: Tag 1 Utf8 Value "securityDomain"
+42: Tag 1 Utf8 Value "Lorg/wildfly/security/auth/server/SecurityDomain;"
+43: Tag 1 Utf8 Value "currentIdentity"
+44: Tag 1 Utf8 Value "Lorg/wildfly/security/auth/server/SecurityIdentity;"
+45: Tag 1 Utf8 Value "mergeMapper"
+46: Tag 1 Utf8 Value "newIdentity"
+47: Tag 1 Utf8 Value "StackMapTable"
+48: Tag 7 Class Name index 84
+49: Tag 7 Class Name index 85
+50: Tag 7 Class Name index 86
+51: Tag 7 Class Name index 87
+52: Tag 1 Utf8 Value "Exceptions"
+53: Tag 1 Utf8 Value "lambda$processInvocation$0"
+54: Tag 1 Utf8 Value "(Lorg/wildfly/security/auth/server/SecurityIdentity;Lorg/wildfly/security/authz/Roles;)Lorg/wildfly/security/authz/Roles;"
+55: Tag 1 Utf8 Value "roles"
+56: Tag 1 Utf8 Value "Lorg/wildfly/security/authz/Roles;"
+57: Tag 1 Utf8 Value "SourceFile"
+58: Tag 1 Utf8 Value "RoleAddingInterceptor.java"
+59: Tag 12 NameAndType Name index 26, Description index 88
+60: Tag 12 NameAndType Name index 22, Description index 23
+61: Tag 12 NameAndType Name index 24, Description index 25
+62: Tag 1 Utf8 Value "org/wildfly/security/auth/server/SecurityDomain"
+63: Tag 12 NameAndType Name index 89, Description index 90
+64: Tag 7 Class Name index 91
+65: Tag 12 NameAndType Name index 92, Description index 93
+66: Tag 12 NameAndType Name index 94, Description index 95
+67: Tag 1 Utf8 Value "BootstrapMethods"
+68: Tag 15 MethodHandle Kind 6, Index 96
+69: Tag 16 MethodType Descriptor index 97
+70: Tag 15 MethodHandle Kind 7, Index 98
+71: Tag 12 NameAndType Name index 99, Description index 100
+72: Tag 12 NameAndType Name index 101, Description index 102
+73: Tag 12 NameAndType Name index 103, Description index 104
+74: Tag 12 NameAndType Name index 105, Description index 106
+75: Tag 1 Utf8 Value "java/security/PrivilegedActionException"
+76: Tag 12 NameAndType Name index 107, Description index 108
+77: Tag 1 Utf8 Value "java/lang/Exception"
+78: Tag 1 Utf8 Value "java/lang/RuntimeException"
+79: Tag 12 NameAndType Name index 26, Description index 109
+80: Tag 12 NameAndType Name index 110, Description index 111
+81: Tag 1 Utf8 Value "org/jboss/as/ejb3/security/RoleAddingInterceptor"
+82: Tag 1 Utf8 Value "java/lang/Object"
+83: Tag 1 Utf8 Value "org/jboss/invocation/Interceptor"
+84: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+85: Tag 1 Utf8 Value "org/wildfly/security/auth/server/SecurityIdentity"
+86: Tag 1 Utf8 Value "org/wildfly/security/authz/RoleMapper"
+87: Tag 1 Utf8 Value "java/lang/Throwable"
+88: Tag 1 Utf8 Value "()V"
+89: Tag 1 Utf8 Value "getPrivateData"
+90: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+91: Tag 1 Utf8 Value "org/wildfly/common/Assert"
+92: Tag 1 Utf8 Value "checkNotNullParam"
+93: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+94: Tag 1 Utf8 Value "getCurrentSecurityIdentity"
+95: Tag 1 Utf8 Value "()Lorg/wildfly/security/auth/server/SecurityIdentity;"
+96: Tag 10 MethodRef Class index 112, Name and type index 113
+97: Tag 1 Utf8 Value "(Lorg/wildfly/security/authz/Roles;)Lorg/wildfly/security/authz/Roles;"
+98: Tag 10 MethodRef Class index 19, Name and type index 114
+99: Tag 1 Utf8 Value "mapRoles"
+100: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/security/RoleAddingInterceptor;Lorg/wildfly/security/auth/server/SecurityIdentity;)Lorg/wildfly/security/authz/RoleMapper;"
+101: Tag 1 Utf8 Value "or"
+102: Tag 1 Utf8 Value "(Lorg/wildfly/security/authz/RoleMapper;)Lorg/wildfly/security/authz/RoleMapper;"
+103: Tag 1 Utf8 Value "withRoleMapper"
+104: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/security/authz/RoleMapper;)Lorg/wildfly/security/auth/server/SecurityIdentity;"
+105: Tag 1 Utf8 Value "runAs"
+106: Tag 1 Utf8 Value "(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;"
+107: Tag 1 Utf8 Value "getCause"
+108: Tag 1 Utf8 Value "()Ljava/lang/Throwable;"
+109: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+110: Tag 1 Utf8 Value "getRoles"
+111: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/security/authz/Roles;"
+112: Tag 7 Class Name index 115
+113: Tag 12 NameAndType Name index 116, Description index 120
+114: Tag 12 NameAndType Name index 53, Description index 54
+115: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+116: Tag 1 Utf8 Value "metafactory"
+117: Tag 7 Class Name index 122
+118: Tag 1 Utf8 Value "Lookup"
+119: Tag 1 Utf8 Value "InnerClasses"
+120: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+121: Tag 7 Class Name index 123
+122: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+123: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 19, name org.jboss.as.ejb3.security.RoleAddingInterceptor
+
+Super class: id 20, name java.lang.Object
+
+Implements class ids 21
+Implements names org.jboss.invocation.Interceptor
+
+Field name category (index 22), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name roleMapper (index 24), type Lorg/wildfly/security/authz/RoleMapper; (descriptor index 25)
+Human type: org.wildfly.security.authz.RoleMapper
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 26), type (Ljava/lang/String;Lorg/wildfly/security/authz/RoleMapper;)V (descriptor index 27)
+Human type: (java.lang.String, org.wildfly.security.authz.RoleMapper): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name processInvocation (index 33), type (Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object; (descriptor index 34)
+Human type: (org.jboss.invocation.InterceptorContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 314
+Method attribute name Exceptions, size 4
+Method name lambda$processInvocation$0 (index 53), type (Lorg/wildfly/security/auth/server/SecurityIdentity;Lorg/wildfly/security/authz/Roles;)Lorg/wildfly/security/authz/Roles; (descriptor index 54)
+Human type: (org.wildfly.security.auth.server.SecurityIdentity, org.wildfly.security.authz.Roles): org.wildfly.security.authz.Roles
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 71
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10
+Class attribute name BootstrapMethods, size 12

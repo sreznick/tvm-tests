@@ -1,0 +1,108 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 82
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/AbstractSerializationContextInitializer"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/wildfly/clustering/server/group/AddressableNodeMarshaller"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 11 InterfaceMethodRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/infinispan/protostream/SerializationContext"
+14: Tag 1 Utf8 Value "registerMarshaller"
+15: Tag 1 Utf8 Value "(Lorg/infinispan/protostream/BaseMarshaller;)V"
+16: Tag 7 Class Name index 17
+17: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/FunctionalScalarMarshaller"
+18: Tag 7 Class Name index 19
+19: Tag 1 Utf8 Value "org/wildfly/clustering/server/group/LocalNode"
+20: Tag 9 FieldRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/Scalar"
+24: Tag 1 Utf8 Value "STRING"
+25: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/protostream/Scalar;"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "java/lang/String"
+28: Tag 10 MethodRef Class index 21, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "cast"
+31: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/wildfly/clustering/marshalling/protostream/ScalarMarshaller;"
+32: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "apply"
+35: Tag 1 Utf8 Value "()Lorg/wildfly/common/function/ExceptionFunction;"
+36: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 33
+37: Tag 10 MethodRef Class index 16, Name and type index 38
+38: Tag 12 NameAndType Name index 5, Description index 39
+39: Tag 1 Utf8 Value "(Ljava/lang/Class;Lorg/wildfly/clustering/marshalling/protostream/ScalarMarshaller;Lorg/wildfly/common/function/ExceptionFunction;Lorg/wildfly/common/function/ExceptionFunction;)V"
+40: Tag 7 Class Name index 41
+41: Tag 1 Utf8 Value "org/wildfly/clustering/server/group/GroupSerializationContextInitializer"
+42: Tag 1 Utf8 Value "Code"
+43: Tag 1 Utf8 Value "LineNumberTable"
+44: Tag 1 Utf8 Value "LocalVariableTable"
+45: Tag 1 Utf8 Value "this"
+46: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/group/GroupSerializationContextInitializer;"
+47: Tag 1 Utf8 Value "registerMarshallers"
+48: Tag 1 Utf8 Value "(Lorg/infinispan/protostream/SerializationContext;)V"
+49: Tag 1 Utf8 Value "context"
+50: Tag 1 Utf8 Value "Lorg/infinispan/protostream/SerializationContext;"
+51: Tag 1 Utf8 Value "SourceFile"
+52: Tag 1 Utf8 Value "GroupSerializationContextInitializer.java"
+53: Tag 1 Utf8 Value "BootstrapMethods"
+54: Tag 15 MethodHandle Kind 6, Index 55
+55: Tag 10 MethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+59: Tag 1 Utf8 Value "metafactory"
+60: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+61: Tag 16 MethodType Descriptor index 62
+62: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+63: Tag 15 MethodHandle Kind 5, Index 64
+64: Tag 10 MethodRef Class index 18, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "getName"
+67: Tag 1 Utf8 Value "()Ljava/lang/String;"
+68: Tag 16 MethodType Descriptor index 69
+69: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/group/LocalNode;)Ljava/lang/String;"
+70: Tag 15 MethodHandle Kind 8, Index 71
+71: Tag 10 MethodRef Class index 18, Name and type index 72
+72: Tag 12 NameAndType Name index 5, Description index 73
+73: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+74: Tag 16 MethodType Descriptor index 75
+75: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/clustering/server/group/LocalNode;"
+76: Tag 1 Utf8 Value "InnerClasses"
+77: Tag 7 Class Name index 78
+78: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+81: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 40, name org.wildfly.clustering.server.group.GroupSerializationContextInitializer
+
+Super class: id 2, name org.wildfly.clustering.marshalling.protostream.AbstractSerializationContextInitializer
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name registerMarshallers (index 47), type (Lorg/infinispan/protostream/SerializationContext;)V (descriptor index 48)
+Human type: (org.infinispan.protostream.SerializationContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 107
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 22
+Class attribute name InnerClasses, size 10

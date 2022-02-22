@@ -1,0 +1,169 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 93
+1: Tag 10 MethodRef Class index 18, Name and type index 66
+2: Tag 7 Class Name index 67
+3: Tag 10 MethodRef Class index 2, Name and type index 68
+4: Tag 9 FieldRef Class index 16, Name and type index 69
+5: Tag 9 FieldRef Class index 16, Name and type index 70
+6: Tag 9 FieldRef Class index 16, Name and type index 71
+7: Tag 7 Class Name index 72
+8: Tag 8 String Contents 73
+9: Tag 10 MethodRef Class index 7, Name and type index 74
+10: Tag 9 FieldRef Class index 16, Name and type index 75
+11: Tag 10 MethodRef Class index 2, Name and type index 76
+12: Tag 11 InterfaceMethodRef Class index 39, Name and type index 77
+13: Tag 10 MethodRef Class index 2, Name and type index 78
+14: Tag 10 MethodRef Class index 16, Name and type index 79
+15: Tag 11 InterfaceMethodRef Class index 39, Name and type index 80
+16: Tag 7 Class Name index 81
+17: Tag 10 MethodRef Class index 82, Name and type index 83
+18: Tag 7 Class Name index 84
+19: Tag 7 Class Name index 85
+20: Tag 1 Utf8 Value "factory"
+21: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/pool/StatelessObjectFactory;"
+22: Tag 1 Utf8 Value "Signature"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/pool/StatelessObjectFactory<TT;>;"
+24: Tag 1 Utf8 Value "createCount"
+25: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicInteger;"
+26: Tag 1 Utf8 Value "removeCount"
+27: Tag 1 Utf8 Value "$assertionsDisabled"
+28: Tag 1 Utf8 Value "Z"
+29: Tag 1 Utf8 Value "<init>"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/pool/StatelessObjectFactory;)V"
+31: Tag 1 Utf8 Value "Code"
+32: Tag 1 Utf8 Value "LineNumberTable"
+33: Tag 1 Utf8 Value "LocalVariableTable"
+34: Tag 1 Utf8 Value "this"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/pool/AbstractPool;"
+36: Tag 1 Utf8 Value "LocalVariableTypeTable"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/pool/AbstractPool<TT;>;"
+38: Tag 1 Utf8 Value "StackMapTable"
+39: Tag 7 Class Name index 86
+40: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/pool/StatelessObjectFactory<TT;>;)V"
+41: Tag 1 Utf8 Value "getCreateCount"
+42: Tag 1 Utf8 Value "()I"
+43: Tag 1 Utf8 Value "getRemoveCount"
+44: Tag 1 Utf8 Value "setMaxSize"
+45: Tag 1 Utf8 Value "(I)V"
+46: Tag 1 Utf8 Value "create"
+47: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+48: Tag 1 Utf8 Value "bean"
+49: Tag 1 Utf8 Value "Ljava/lang/Object;"
+50: Tag 1 Utf8 Value "TT;"
+51: Tag 1 Utf8 Value "()TT;"
+52: Tag 1 Utf8 Value "remove"
+53: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+54: Tag 1 Utf8 Value "Deprecated"
+55: Tag 1 Utf8 Value "(TT;)V"
+56: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+57: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+58: Tag 1 Utf8 Value "destroy"
+59: Tag 1 Utf8 Value "doRemove"
+60: Tag 7 Class Name index 87
+61: Tag 1 Utf8 Value "<clinit>"
+62: Tag 1 Utf8 Value "()V"
+63: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Lorg/jboss/as/ejb3/pool/Pool<TT;>;"
+64: Tag 1 Utf8 Value "SourceFile"
+65: Tag 1 Utf8 Value "AbstractPool.java"
+66: Tag 12 NameAndType Name index 29, Description index 62
+67: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicInteger"
+68: Tag 12 NameAndType Name index 29, Description index 45
+69: Tag 12 NameAndType Name index 24, Description index 25
+70: Tag 12 NameAndType Name index 26, Description index 25
+71: Tag 12 NameAndType Name index 27, Description index 28
+72: Tag 1 Utf8 Value "java/lang/AssertionError"
+73: Tag 1 Utf8 Value "factory is null"
+74: Tag 12 NameAndType Name index 29, Description index 53
+75: Tag 12 NameAndType Name index 20, Description index 21
+76: Tag 12 NameAndType Name index 88, Description index 42
+77: Tag 12 NameAndType Name index 46, Description index 47
+78: Tag 12 NameAndType Name index 89, Description index 42
+79: Tag 12 NameAndType Name index 59, Description index 53
+80: Tag 12 NameAndType Name index 58, Description index 53
+81: Tag 1 Utf8 Value "org/jboss/as/ejb3/pool/AbstractPool"
+82: Tag 7 Class Name index 90
+83: Tag 12 NameAndType Name index 91, Description index 92
+84: Tag 1 Utf8 Value "java/lang/Object"
+85: Tag 1 Utf8 Value "org/jboss/as/ejb3/pool/Pool"
+86: Tag 1 Utf8 Value "org/jboss/as/ejb3/pool/StatelessObjectFactory"
+87: Tag 1 Utf8 Value "java/lang/Throwable"
+88: Tag 1 Utf8 Value "get"
+89: Tag 1 Utf8 Value "incrementAndGet"
+90: Tag 1 Utf8 Value "java/lang/Class"
+91: Tag 1 Utf8 Value "desiredAssertionStatus"
+92: Tag 1 Utf8 Value "()Z"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 16, name org.jboss.as.ejb3.pool.AbstractPool
+
+Super class: id 18, name java.lang.Object
+
+Implements class ids 19
+Implements names org.jboss.as.ejb3.pool.Pool
+
+Field name factory (index 20), type Lorg/jboss/as/ejb3/pool/StatelessObjectFactory; (descriptor index 21)
+Human type: org.jboss.as.ejb3.pool.StatelessObjectFactory
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name createCount (index 24), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 25)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name removeCount (index 26), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 25)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name $assertionsDisabled (index 27), type Z (descriptor index 28)
+Human type: boolean
+Flags: decimal 4120, hex 1018, binary 0001000000011000 static final synthetic
+No field attributes
+
+Method name <init> (index 29), type (Lorg/jboss/as/ejb3/pool/StatelessObjectFactory;)V (descriptor index 30)
+Human type: (org.jboss.as.ejb3.pool.StatelessObjectFactory): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 175
+Method attribute name Signature, size 2
+Method name getCreateCount (index 41), type ()I (descriptor index 42)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 68
+Method name getRemoveCount (index 43), type ()I (descriptor index 42)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 68
+Method name setMaxSize (index 44), type (I)V (descriptor index 45)
+Human type: (int): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name create (index 46), type ()Ljava/lang/Object; (descriptor index 47)
+Human type: (): java.lang.Object
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 108
+Method attribute name Signature, size 2
+Method name remove (index 52), type (Ljava/lang/Object;)V (descriptor index 53)
+Human type: (java.lang.Object): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 90
+Method attribute name Deprecated, size 0
+Method attribute name Signature, size 2
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name destroy (index 58), type (Ljava/lang/Object;)V (descriptor index 53)
+Human type: (java.lang.Object): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 90
+Method attribute name Signature, size 2
+Method name doRemove (index 59), type (Ljava/lang/Object;)V (descriptor index 53)
+Human type: (java.lang.Object): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 154
+Method attribute name Signature, size 2
+Method name <clinit> (index 61), type ()V (descriptor index 62)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 52
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

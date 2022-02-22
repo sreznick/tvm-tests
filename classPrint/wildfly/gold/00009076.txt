@@ -1,0 +1,128 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 92
+1: Tag 10 MethodRef Class index 11, Name and type index 61
+2: Tag 7 Class Name index 62
+3: Tag 7 Class Name index 63
+4: Tag 8 String Contents 64
+5: Tag 11 InterfaceMethodRef Class index 2, Name and type index 65
+6: Tag 11 InterfaceMethodRef Class index 50, Name and type index 66
+7: Tag 10 MethodRef Class index 52, Name and type index 67
+8: Tag 11 InterfaceMethodRef Class index 3, Name and type index 68
+9: Tag 10 MethodRef Class index 69, Name and type index 70
+10: Tag 7 Class Name index 71
+11: Tag 7 Class Name index 72
+12: Tag 7 Class Name index 73
+13: Tag 1 Utf8 Value "<init>"
+14: Tag 1 Utf8 Value "()V"
+15: Tag 1 Utf8 Value "Code"
+16: Tag 1 Utf8 Value "LineNumberTable"
+17: Tag 1 Utf8 Value "LocalVariableTable"
+18: Tag 1 Utf8 Value "this"
+19: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/web/multipart/defaultservlet/MultipartFilter;"
+20: Tag 1 Utf8 Value "init"
+21: Tag 1 Utf8 Value "(Ljavax/servlet/FilterConfig;)V"
+22: Tag 1 Utf8 Value "filterConfig"
+23: Tag 1 Utf8 Value "Ljavax/servlet/FilterConfig;"
+24: Tag 1 Utf8 Value "Exceptions"
+25: Tag 7 Class Name index 74
+26: Tag 1 Utf8 Value "doFilter"
+27: Tag 1 Utf8 Value "(Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V"
+28: Tag 1 Utf8 Value "request"
+29: Tag 1 Utf8 Value "Ljavax/servlet/ServletRequest;"
+30: Tag 1 Utf8 Value "response"
+31: Tag 1 Utf8 Value "Ljavax/servlet/ServletResponse;"
+32: Tag 1 Utf8 Value "chain"
+33: Tag 1 Utf8 Value "Ljavax/servlet/FilterChain;"
+34: Tag 1 Utf8 Value "req"
+35: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletRequest;"
+36: Tag 1 Utf8 Value "resp"
+37: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletResponse;"
+38: Tag 1 Utf8 Value "part"
+39: Tag 1 Utf8 Value "Ljavax/servlet/http/Part;"
+40: Tag 1 Utf8 Value "data"
+41: Tag 1 Utf8 Value "[B"
+42: Tag 1 Utf8 Value "c"
+43: Tag 1 Utf8 Value "I"
+44: Tag 1 Utf8 Value "inputStream"
+45: Tag 1 Utf8 Value "Ljava/io/InputStream;"
+46: Tag 1 Utf8 Value "StackMapTable"
+47: Tag 7 Class Name index 75
+48: Tag 7 Class Name index 76
+49: Tag 7 Class Name index 77
+50: Tag 7 Class Name index 78
+51: Tag 7 Class Name index 41
+52: Tag 7 Class Name index 79
+53: Tag 7 Class Name index 80
+54: Tag 1 Utf8 Value "destroy"
+55: Tag 1 Utf8 Value "SourceFile"
+56: Tag 1 Utf8 Value "MultipartFilter.java"
+57: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+58: Tag 1 Utf8 Value "Ljavax/servlet/annotation/WebFilter;"
+59: Tag 1 Utf8 Value "urlPatterns"
+60: Tag 1 Utf8 Value "/*"
+61: Tag 12 NameAndType Name index 13, Description index 14
+62: Tag 1 Utf8 Value "javax/servlet/http/HttpServletRequest"
+63: Tag 1 Utf8 Value "javax/servlet/http/HttpServletResponse"
+64: Tag 1 Utf8 Value "file"
+65: Tag 12 NameAndType Name index 81, Description index 82
+66: Tag 12 NameAndType Name index 83, Description index 84
+67: Tag 12 NameAndType Name index 85, Description index 86
+68: Tag 12 NameAndType Name index 87, Description index 88
+69: Tag 7 Class Name index 89
+70: Tag 12 NameAndType Name index 90, Description index 91
+71: Tag 1 Utf8 Value "org/jboss/as/test/integration/web/multipart/defaultservlet/MultipartFilter"
+72: Tag 1 Utf8 Value "java/lang/Object"
+73: Tag 1 Utf8 Value "javax/servlet/Filter"
+74: Tag 1 Utf8 Value "javax/servlet/ServletException"
+75: Tag 1 Utf8 Value "javax/servlet/ServletRequest"
+76: Tag 1 Utf8 Value "javax/servlet/ServletResponse"
+77: Tag 1 Utf8 Value "javax/servlet/FilterChain"
+78: Tag 1 Utf8 Value "javax/servlet/http/Part"
+79: Tag 1 Utf8 Value "java/io/InputStream"
+80: Tag 1 Utf8 Value "java/io/IOException"
+81: Tag 1 Utf8 Value "getPart"
+82: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/servlet/http/Part;"
+83: Tag 1 Utf8 Value "getInputStream"
+84: Tag 1 Utf8 Value "()Ljava/io/InputStream;"
+85: Tag 1 Utf8 Value "read"
+86: Tag 1 Utf8 Value "([B)I"
+87: Tag 1 Utf8 Value "getOutputStream"
+88: Tag 1 Utf8 Value "()Ljavax/servlet/ServletOutputStream;"
+89: Tag 1 Utf8 Value "javax/servlet/ServletOutputStream"
+90: Tag 1 Utf8 Value "write"
+91: Tag 1 Utf8 Value "([BII)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 10, name org.jboss.as.test.integration.web.multipart.defaultservlet.MultipartFilter
+
+Super class: id 11, name java.lang.Object
+
+Implements class ids 12
+Implements names javax.servlet.Filter
+
+No fields
+
+Method name <init> (index 13), type ()V (descriptor index 14)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name init (index 20), type (Ljavax/servlet/FilterConfig;)V (descriptor index 21)
+Human type: (javax.servlet.FilterConfig): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method attribute name Exceptions, size 4
+Method name doFilter (index 26), type (Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljavax/servlet/FilterChain;)V (descriptor index 27)
+Human type: (javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 308
+Method attribute name Exceptions, size 6
+Method name destroy (index 54), type ()V (descriptor index 14)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 43
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 14

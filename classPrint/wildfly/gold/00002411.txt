@@ -1,0 +1,185 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 102
+1: Tag 10 MethodRef Class index 19, Name and type index 68
+2: Tag 9 FieldRef Class index 10, Name and type index 69
+3: Tag 9 FieldRef Class index 10, Name and type index 70
+4: Tag 10 MethodRef Class index 71, Name and type index 72
+5: Tag 10 MethodRef Class index 71, Name and type index 73
+6: Tag 9 FieldRef Class index 10, Name and type index 74
+7: Tag 10 MethodRef Class index 71, Name and type index 75
+8: Tag 9 FieldRef Class index 10, Name and type index 76
+9: Tag 10 MethodRef Class index 77, Name and type index 78
+10: Tag 7 Class Name index 79
+11: Tag 8 String Contents 20
+12: Tag 10 MethodRef Class index 80, Name and type index 81
+13: Tag 10 MethodRef Class index 71, Name and type index 82
+14: Tag 8 String Contents 26
+15: Tag 8 String Contents 29
+16: Tag 7 Class Name index 83
+17: Tag 7 Class Name index 84
+18: Tag 10 MethodRef Class index 17, Name and type index 85
+19: Tag 7 Class Name index 86
+20: Tag 1 Utf8 Value "prev"
+21: Tag 1 Utf8 Value "Node"
+22: Tag 1 Utf8 Value "InnerClasses"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;"
+24: Tag 1 Utf8 Value "Signature"
+25: Tag 1 Utf8 Value "Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node<TE;>;"
+26: Tag 1 Utf8 Value "item"
+27: Tag 1 Utf8 Value "Ljava/lang/Object;"
+28: Tag 1 Utf8 Value "TE;"
+29: Tag 1 Utf8 Value "next"
+30: Tag 1 Utf8 Value "UNSAFE"
+31: Tag 1 Utf8 Value "Lsun/misc/Unsafe;"
+32: Tag 1 Utf8 Value "prevOffset"
+33: Tag 1 Utf8 Value "J"
+34: Tag 1 Utf8 Value "itemOffset"
+35: Tag 1 Utf8 Value "nextOffset"
+36: Tag 1 Utf8 Value "<init>"
+37: Tag 1 Utf8 Value "()V"
+38: Tag 1 Utf8 Value "Code"
+39: Tag 1 Utf8 Value "LineNumberTable"
+40: Tag 1 Utf8 Value "LocalVariableTable"
+41: Tag 1 Utf8 Value "this"
+42: Tag 1 Utf8 Value "LocalVariableTypeTable"
+43: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+44: Tag 1 Utf8 Value "(TE;)V"
+45: Tag 1 Utf8 Value "casItem"
+46: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Z"
+47: Tag 1 Utf8 Value "cmp"
+48: Tag 1 Utf8 Value "val"
+49: Tag 1 Utf8 Value "(TE;TE;)Z"
+50: Tag 1 Utf8 Value "lazySetNext"
+51: Tag 1 Utf8 Value "(Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;)V"
+52: Tag 1 Utf8 Value "(Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node<TE;>;)V"
+53: Tag 1 Utf8 Value "casNext"
+54: Tag 1 Utf8 Value "(Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;)Z"
+55: Tag 1 Utf8 Value "(Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node<TE;>;Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node<TE;>;)Z"
+56: Tag 1 Utf8 Value "lazySetPrev"
+57: Tag 1 Utf8 Value "casPrev"
+58: Tag 1 Utf8 Value "<clinit>"
+59: Tag 1 Utf8 Value "k"
+60: Tag 1 Utf8 Value "Ljava/lang/Class;"
+61: Tag 1 Utf8 Value "e"
+62: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+63: Tag 1 Utf8 Value "Ljava/lang/Class<*>;"
+64: Tag 1 Utf8 Value "StackMapTable"
+65: Tag 1 Utf8 Value "<E:Ljava/lang/Object;>Ljava/lang/Object;"
+66: Tag 1 Utf8 Value "SourceFile"
+67: Tag 1 Utf8 Value "FastConcurrentDirectDeque.java"
+68: Tag 12 NameAndType Name index 36, Description index 37
+69: Tag 12 NameAndType Name index 30, Description index 31
+70: Tag 12 NameAndType Name index 34, Description index 33
+71: Tag 7 Class Name index 87
+72: Tag 12 NameAndType Name index 88, Description index 89
+73: Tag 12 NameAndType Name index 90, Description index 91
+74: Tag 12 NameAndType Name index 35, Description index 33
+75: Tag 12 NameAndType Name index 92, Description index 89
+76: Tag 12 NameAndType Name index 32, Description index 33
+77: Tag 7 Class Name index 93
+78: Tag 12 NameAndType Name index 94, Description index 95
+79: Tag 1 Utf8 Value "org/jboss/as/security/lru/FastConcurrentDirectDeque$Node"
+80: Tag 7 Class Name index 96
+81: Tag 12 NameAndType Name index 97, Description index 98
+82: Tag 12 NameAndType Name index 99, Description index 100
+83: Tag 1 Utf8 Value "java/lang/Exception"
+84: Tag 1 Utf8 Value "java/lang/Error"
+85: Tag 12 NameAndType Name index 36, Description index 101
+86: Tag 1 Utf8 Value "java/lang/Object"
+87: Tag 1 Utf8 Value "sun/misc/Unsafe"
+88: Tag 1 Utf8 Value "putObject"
+89: Tag 1 Utf8 Value "(Ljava/lang/Object;JLjava/lang/Object;)V"
+90: Tag 1 Utf8 Value "compareAndSwapObject"
+91: Tag 1 Utf8 Value "(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z"
+92: Tag 1 Utf8 Value "putOrderedObject"
+93: Tag 1 Utf8 Value "org/jboss/as/security/lru/FastConcurrentDirectDeque"
+94: Tag 1 Utf8 Value "access$000"
+95: Tag 1 Utf8 Value "()Lsun/misc/Unsafe;"
+96: Tag 1 Utf8 Value "java/lang/Class"
+97: Tag 1 Utf8 Value "getDeclaredField"
+98: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/reflect/Field;"
+99: Tag 1 Utf8 Value "objectFieldOffset"
+100: Tag 1 Utf8 Value "(Ljava/lang/reflect/Field;)J"
+101: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 10, name org.jboss.as.security.lru.FastConcurrentDirectDeque$Node
+
+Super class: id 19, name java.lang.Object
+
+No interfaces
+
+Field name prev (index 20), type Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node; (descriptor index 23)
+Human type: org.jboss.as.security.lru.FastConcurrentDirectDeque$Node
+Flags: decimal 64, hex 0040, binary 0000000001000000 volatile
+Field attribute name Signature, size 2
+Field name item (index 26), type Ljava/lang/Object; (descriptor index 27)
+Human type: java.lang.Object
+Flags: decimal 64, hex 0040, binary 0000000001000000 volatile
+Field attribute name Signature, size 2
+Field name next (index 29), type Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node; (descriptor index 23)
+Human type: org.jboss.as.security.lru.FastConcurrentDirectDeque$Node
+Flags: decimal 64, hex 0040, binary 0000000001000000 volatile
+Field attribute name Signature, size 2
+Field name UNSAFE (index 30), type Lsun/misc/Unsafe; (descriptor index 31)
+Human type: sun.misc.Unsafe
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name prevOffset (index 32), type J (descriptor index 33)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name itemOffset (index 34), type J (descriptor index 33)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name nextOffset (index 35), type J (descriptor index 33)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 36), type ()V (descriptor index 37)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 69
+Method name <init> (index 36), type (Ljava/lang/Object;)V (descriptor index 43)
+Human type: (java.lang.Object): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 104
+Method attribute name Signature, size 2
+Method name casItem (index 45), type (Ljava/lang/Object;Ljava/lang/Object;)Z (descriptor index 46)
+Human type: (java.lang.Object, java.lang.Object): boolean
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 113
+Method attribute name Signature, size 2
+Method name lazySetNext (index 50), type (Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;)V (descriptor index 51)
+Human type: (org.jboss.as.security.lru.FastConcurrentDirectDeque$Node): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 96
+Method attribute name Signature, size 2
+Method name casNext (index 53), type (Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;)Z (descriptor index 54)
+Human type: (org.jboss.as.security.lru.FastConcurrentDirectDeque$Node, org.jboss.as.security.lru.FastConcurrentDirectDeque$Node): boolean
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 113
+Method attribute name Signature, size 2
+Method name lazySetPrev (index 56), type (Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;)V (descriptor index 51)
+Human type: (org.jboss.as.security.lru.FastConcurrentDirectDeque$Node): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 96
+Method attribute name Signature, size 2
+Method name casPrev (index 57), type (Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;Lorg/jboss/as/security/lru/FastConcurrentDirectDeque$Node;)Z (descriptor index 54)
+Human type: (org.jboss.as.security.lru.FastConcurrentDirectDeque$Node, org.jboss.as.security.lru.FastConcurrentDirectDeque$Node): boolean
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 113
+Method attribute name Signature, size 2
+Method name <clinit> (index 58), type ()V (descriptor index 37)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 203
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

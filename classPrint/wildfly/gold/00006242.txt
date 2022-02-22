@@ -1,0 +1,128 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 95
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/ProviderAttributeDefinitions"
+5: Tag 1 Utf8 Value "ATTRIBUTES"
+6: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractAddStepHandler"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)V"
+13: Tag 10 MethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "performRuntime"
+16: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+17: Tag 9 FieldRef Class index 2, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "DISABLE_TRUST_MANAGER"
+20: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+21: Tag 10 MethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+25: Tag 1 Utf8 Value "resolveModelAttribute"
+26: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+31: Tag 1 Utf8 Value "asBoolean"
+32: Tag 1 Utf8 Value "()Z"
+33: Tag 9 FieldRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/_private/ElytronOidcLogger"
+37: Tag 1 Utf8 Value "ROOT_LOGGER"
+38: Tag 1 Utf8 Value "Lorg/wildfly/extension/elytron/oidc/_private/ElytronOidcLogger;"
+39: Tag 11 InterfaceMethodRef Class index 34, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "disableTrustManagerSetToTrue"
+42: Tag 1 Utf8 Value "()V"
+43: Tag 10 MethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/OidcConfigService"
+47: Tag 1 Utf8 Value "getInstance"
+48: Tag 1 Utf8 Value "()Lorg/wildfly/extension/elytron/oidc/OidcConfigService;"
+49: Tag 11 InterfaceMethodRef Class index 50, Name and type index 51
+50: Tag 7 Class Name index 52
+51: Tag 12 NameAndType Name index 53, Description index 54
+52: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+53: Tag 1 Utf8 Value "getCurrentAddressValue"
+54: Tag 1 Utf8 Value "()Ljava/lang/String;"
+55: Tag 11 InterfaceMethodRef Class index 50, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "resolveExpressions"
+58: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+59: Tag 10 MethodRef Class index 44, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "addRealm"
+62: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)V"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/RealmDefinition$RealmAddHandler"
+65: Tag 10 MethodRef Class index 63, Name and type index 66
+66: Tag 12 NameAndType Name index 11, Description index 42
+67: Tag 9 FieldRef Class index 63, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "INSTANCE"
+70: Tag 1 Utf8 Value "Lorg/wildfly/extension/elytron/oidc/RealmDefinition$RealmAddHandler;"
+71: Tag 1 Utf8 Value "Code"
+72: Tag 1 Utf8 Value "LineNumberTable"
+73: Tag 1 Utf8 Value "LocalVariableTable"
+74: Tag 1 Utf8 Value "this"
+75: Tag 1 Utf8 Value "context"
+76: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+77: Tag 1 Utf8 Value "operation"
+78: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+79: Tag 1 Utf8 Value "model"
+80: Tag 1 Utf8 Value "disableTrustManager"
+81: Tag 1 Utf8 Value "Z"
+82: Tag 1 Utf8 Value "oidcConfigService"
+83: Tag 1 Utf8 Value "Lorg/wildfly/extension/elytron/oidc/OidcConfigService;"
+84: Tag 1 Utf8 Value "StackMapTable"
+85: Tag 1 Utf8 Value "Exceptions"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+88: Tag 1 Utf8 Value "<clinit>"
+89: Tag 1 Utf8 Value "SourceFile"
+90: Tag 1 Utf8 Value "RealmDefinition.java"
+91: Tag 1 Utf8 Value "InnerClasses"
+92: Tag 7 Class Name index 93
+93: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/RealmDefinition"
+94: Tag 1 Utf8 Value "RealmAddHandler"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 63, name org.wildfly.extension.elytron.oidc.RealmDefinition$RealmAddHandler
+
+Super class: id 8, name org.jboss.as.controller.AbstractAddStepHandler
+
+No interfaces
+
+Field name INSTANCE (index 69), type Lorg/wildfly/extension/elytron/oidc/RealmDefinition$RealmAddHandler; (descriptor index 70)
+Human type: org.wildfly.extension.elytron.oidc.RealmDefinition$RealmAddHandler
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+No field attributes
+
+Method name <init> (index 11), type ()V (descriptor index 42)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 54
+Method name performRuntime (index 15), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 16)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 185
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 88), type ()V (descriptor index 42)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

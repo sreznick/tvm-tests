@@ -1,0 +1,426 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 323
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetryConfigurationConstants"
+3: Tag 7 Class Name index 4
+4: Tag 1 Utf8 Value "org/jboss/as/weld/Capabilities"
+5: Tag 7 Class Name index 6
+6: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition$Parameters"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetrySubsystemExtension"
+11: Tag 1 Utf8 Value "SUBSYSTEM_PATH"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "java/lang/String"
+15: Tag 10 MethodRef Class index 8, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+18: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+19: Tag 10 MethodRef Class index 5, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "<init>"
+22: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+23: Tag 9 FieldRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetrySubsystemAdd"
+27: Tag 1 Utf8 Value "INSTANCE"
+28: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/OpenTelemetrySubsystemAdd;"
+29: Tag 10 MethodRef Class index 5, Name and type index 30
+30: Tag 12 NameAndType Name index 31, Description index 32
+31: Tag 1 Utf8 Value "setAddHandler"
+32: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+33: Tag 9 FieldRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 27, Description index 37
+36: Tag 1 Utf8 Value "org/jboss/as/controller/ReloadRequiredRemoveStepHandler"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ReloadRequiredRemoveStepHandler;"
+38: Tag 10 MethodRef Class index 5, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 32
+40: Tag 1 Utf8 Value "setRemoveHandler"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+43: Tag 9 FieldRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetrySubsystemDefinition"
+47: Tag 1 Utf8 Value "OPENTELEMETRY_CAPABILITY"
+48: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+49: Tag 10 MethodRef Class index 5, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "setCapabilities"
+52: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/capability/RuntimeCapability;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+53: Tag 10 MethodRef Class index 54, Name and type index 55
+54: Tag 7 Class Name index 56
+55: Tag 12 NameAndType Name index 21, Description index 57
+56: Tag 1 Utf8 Value "org/jboss/as/controller/PersistentResourceDefinition"
+57: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;)V"
+58: Tag 9 FieldRef Class index 44, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "ATTRIBUTES"
+61: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+62: Tag 10 MethodRef Class index 63, Name and type index 64
+63: Tag 7 Class Name index 65
+64: Tag 12 NameAndType Name index 66, Description index 67
+65: Tag 1 Utf8 Value "java/util/Arrays"
+66: Tag 1 Utf8 Value "asList"
+67: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+68: Tag 10 MethodRef Class index 69, Name and type index 70
+69: Tag 7 Class Name index 71
+70: Tag 12 NameAndType Name index 72, Description index 73
+71: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+72: Tag 1 Utf8 Value "isDefined"
+73: Tag 1 Utf8 Value "()Z"
+74: Tag 10 MethodRef Class index 69, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "getType"
+77: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelType;"
+78: Tag 9 FieldRef Class index 79, Name and type index 80
+79: Tag 7 Class Name index 81
+80: Tag 12 NameAndType Name index 82, Description index 83
+81: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+82: Tag 1 Utf8 Value "EXPRESSION"
+83: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+84: Tag 10 MethodRef Class index 69, Name and type index 85
+85: Tag 12 NameAndType Name index 86, Description index 87
+86: Tag 1 Utf8 Value "asLong"
+87: Tag 1 Utf8 Value "()J"
+88: Tag 7 Class Name index 89
+89: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+90: Tag 9 FieldRef Class index 91, Name and type index 92
+91: Tag 7 Class Name index 93
+92: Tag 12 NameAndType Name index 94, Description index 95
+93: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/deployment/OpenTelemetryExtensionLogger"
+94: Tag 1 Utf8 Value "OTEL_LOGGER"
+95: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/deployment/OpenTelemetryExtensionLogger;"
+96: Tag 11 InterfaceMethodRef Class index 91, Name and type index 97
+97: Tag 12 NameAndType Name index 98, Description index 99
+98: Tag 1 Utf8 Value "invalidRatio"
+99: Tag 1 Utf8 Value "()Ljava/lang/IllegalArgumentException;"
+100: Tag 10 MethodRef Class index 88, Name and type index 101
+101: Tag 12 NameAndType Name index 21, Description index 102
+102: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+103: Tag 8 String Contents 104
+104: Tag 1 Utf8 Value "jaeger"
+105: Tag 8 String Contents 106
+106: Tag 1 Utf8 Value "otlp"
+107: Tag 9 FieldRef Class index 44, Name and type index 108
+108: Tag 12 NameAndType Name index 109, Description index 110
+109: Tag 1 Utf8 Value "ALLOWED_EXPORTERS"
+110: Tag 1 Utf8 Value "[Ljava/lang/String;"
+111: Tag 8 String Contents 112
+112: Tag 1 Utf8 Value "on"
+113: Tag 8 String Contents 114
+114: Tag 1 Utf8 Value "off"
+115: Tag 8 String Contents 116
+116: Tag 1 Utf8 Value "ratio"
+117: Tag 9 FieldRef Class index 44, Name and type index 118
+118: Tag 12 NameAndType Name index 119, Description index 110
+119: Tag 1 Utf8 Value "ALLOWED_SAMPLERS"
+120: Tag 8 String Contents 121
+121: Tag 1 Utf8 Value "batch"
+122: Tag 8 String Contents 123
+123: Tag 1 Utf8 Value "simple"
+124: Tag 9 FieldRef Class index 44, Name and type index 125
+125: Tag 12 NameAndType Name index 126, Description index 110
+126: Tag 1 Utf8 Value "ALLOWED_SPAN_PROCESSORS"
+127: Tag 8 String Contents 128
+128: Tag 1 Utf8 Value "io.opentelemetry.api"
+129: Tag 8 String Contents 130
+130: Tag 1 Utf8 Value "io.opentelemetry.context"
+131: Tag 8 String Contents 132
+132: Tag 1 Utf8 Value "org.wildfly.extension.opentelemetry-api"
+133: Tag 9 FieldRef Class index 44, Name and type index 134
+134: Tag 12 NameAndType Name index 135, Description index 110
+135: Tag 1 Utf8 Value "EXPORTED_MODULES"
+136: Tag 8 String Contents 137
+137: Tag 1 Utf8 Value "org.wildfly.extension.opentelemetry"
+138: Tag 10 MethodRef Class index 139, Name and type index 140
+139: Tag 7 Class Name index 141
+140: Tag 12 NameAndType Name index 142, Description index 143
+141: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability$Builder"
+142: Tag 1 Utf8 Value "of"
+143: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/capability/RuntimeCapability$Builder;"
+144: Tag 8 String Contents 145
+145: Tag 1 Utf8 Value "org.wildfly.weld"
+146: Tag 10 MethodRef Class index 139, Name and type index 147
+147: Tag 12 NameAndType Name index 148, Description index 149
+148: Tag 1 Utf8 Value "addRequirements"
+149: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/capability/RuntimeCapability$Builder;"
+150: Tag 10 MethodRef Class index 139, Name and type index 151
+151: Tag 12 NameAndType Name index 152, Description index 153
+152: Tag 1 Utf8 Value "build"
+153: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/capability/RuntimeCapability;"
+154: Tag 8 String Contents 155
+155: Tag 1 Utf8 Value "service-name"
+156: Tag 9 FieldRef Class index 79, Name and type index 157
+157: Tag 12 NameAndType Name index 158, Description index 83
+158: Tag 1 Utf8 Value "STRING"
+159: Tag 10 MethodRef Class index 160, Name and type index 161
+160: Tag 7 Class Name index 162
+161: Tag 12 NameAndType Name index 163, Description index 164
+162: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+163: Tag 1 Utf8 Value "create"
+164: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;Z)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+165: Tag 10 MethodRef Class index 160, Name and type index 166
+166: Tag 12 NameAndType Name index 167, Description index 168
+167: Tag 1 Utf8 Value "setAllowExpression"
+168: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+169: Tag 10 MethodRef Class index 160, Name and type index 170
+170: Tag 12 NameAndType Name index 171, Description index 172
+171: Tag 1 Utf8 Value "setRestartAllServices"
+172: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+173: Tag 10 MethodRef Class index 160, Name and type index 174
+174: Tag 12 NameAndType Name index 152, Description index 175
+175: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+176: Tag 9 FieldRef Class index 44, Name and type index 177
+177: Tag 12 NameAndType Name index 178, Description index 179
+178: Tag 1 Utf8 Value "SERVICE_NAME"
+179: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+180: Tag 8 String Contents 181
+181: Tag 1 Utf8 Value "exporter-type"
+182: Tag 8 String Contents 183
+183: Tag 1 Utf8 Value "exporter"
+184: Tag 10 MethodRef Class index 160, Name and type index 185
+185: Tag 12 NameAndType Name index 186, Description index 187
+186: Tag 1 Utf8 Value "setAttributeGroup"
+187: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+188: Tag 8 String Contents 189
+189: Tag 1 Utf8 Value "type"
+190: Tag 10 MethodRef Class index 160, Name and type index 191
+191: Tag 12 NameAndType Name index 192, Description index 187
+192: Tag 1 Utf8 Value "setXmlName"
+193: Tag 10 MethodRef Class index 69, Name and type index 194
+194: Tag 12 NameAndType Name index 21, Description index 195
+195: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+196: Tag 10 MethodRef Class index 160, Name and type index 197
+197: Tag 12 NameAndType Name index 198, Description index 199
+198: Tag 1 Utf8 Value "setDefaultValue"
+199: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+200: Tag 10 MethodRef Class index 160, Name and type index 201
+201: Tag 12 NameAndType Name index 202, Description index 203
+202: Tag 1 Utf8 Value "setAllowedValues"
+203: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+204: Tag 7 Class Name index 205
+205: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/StringAllowedValuesValidator"
+206: Tag 10 MethodRef Class index 204, Name and type index 207
+207: Tag 12 NameAndType Name index 21, Description index 208
+208: Tag 1 Utf8 Value "([Ljava/lang/String;)V"
+209: Tag 10 MethodRef Class index 160, Name and type index 210
+210: Tag 12 NameAndType Name index 211, Description index 212
+211: Tag 1 Utf8 Value "setValidator"
+212: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/operations/validation/ParameterValidator;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+213: Tag 9 FieldRef Class index 44, Name and type index 214
+214: Tag 12 NameAndType Name index 215, Description index 179
+215: Tag 1 Utf8 Value "EXPORTER"
+216: Tag 8 String Contents 217
+217: Tag 1 Utf8 Value "endpoint"
+218: Tag 8 String Contents 219
+219: Tag 1 Utf8 Value "http://localhost:14250"
+220: Tag 9 FieldRef Class index 44, Name and type index 221
+221: Tag 12 NameAndType Name index 222, Description index 179
+222: Tag 1 Utf8 Value "ENDPOINT"
+223: Tag 8 String Contents 224
+224: Tag 1 Utf8 Value "span-processor-type"
+225: Tag 8 String Contents 226
+226: Tag 1 Utf8 Value "span-processor"
+227: Tag 9 FieldRef Class index 44, Name and type index 228
+228: Tag 12 NameAndType Name index 229, Description index 179
+229: Tag 1 Utf8 Value "SPAN_PROCESSOR_TYPE"
+230: Tag 8 String Contents 231
+231: Tag 1 Utf8 Value "batch-delay"
+232: Tag 9 FieldRef Class index 79, Name and type index 233
+233: Tag 12 NameAndType Name index 234, Description index 83
+234: Tag 1 Utf8 Value "LONG"
+235: Tag 10 MethodRef Class index 69, Name and type index 236
+236: Tag 12 NameAndType Name index 21, Description index 237
+237: Tag 1 Utf8 Value "(I)V"
+238: Tag 9 FieldRef Class index 44, Name and type index 239
+239: Tag 12 NameAndType Name index 240, Description index 179
+240: Tag 1 Utf8 Value "BATCH_DELAY"
+241: Tag 8 String Contents 242
+242: Tag 1 Utf8 Value "max-queue-size"
+243: Tag 9 FieldRef Class index 44, Name and type index 244
+244: Tag 12 NameAndType Name index 245, Description index 179
+245: Tag 1 Utf8 Value "MAX_QUEUE_SIZE"
+246: Tag 8 String Contents 247
+247: Tag 1 Utf8 Value "max-export-batch-size"
+248: Tag 9 FieldRef Class index 44, Name and type index 249
+249: Tag 12 NameAndType Name index 250, Description index 179
+250: Tag 1 Utf8 Value "MAX_EXPORT_BATCH_SIZE"
+251: Tag 8 String Contents 252
+252: Tag 1 Utf8 Value "export-timeout"
+253: Tag 9 FieldRef Class index 44, Name and type index 254
+254: Tag 12 NameAndType Name index 255, Description index 179
+255: Tag 1 Utf8 Value "EXPORT_TIMEOUT"
+256: Tag 8 String Contents 257
+257: Tag 1 Utf8 Value "sampler-type"
+258: Tag 8 String Contents 259
+259: Tag 1 Utf8 Value "sampler"
+260: Tag 9 FieldRef Class index 44, Name and type index 261
+261: Tag 12 NameAndType Name index 262, Description index 179
+262: Tag 1 Utf8 Value "SAMPLER"
+263: Tag 9 FieldRef Class index 79, Name and type index 264
+264: Tag 12 NameAndType Name index 265, Description index 83
+265: Tag 1 Utf8 Value "DOUBLE"
+266: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 267
+267: Tag 12 NameAndType Name index 268, Description index 269
+268: Tag 1 Utf8 Value "validateParameter"
+269: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/operations/validation/ParameterValidator;"
+270: Tag 9 FieldRef Class index 44, Name and type index 271
+271: Tag 12 NameAndType Name index 272, Description index 179
+272: Tag 1 Utf8 Value "RATIO"
+273: Tag 7 Class Name index 274
+274: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+275: Tag 1 Utf8 Value "DEFAULT_ENDPOINT"
+276: Tag 1 Utf8 Value "Ljava/lang/String;"
+277: Tag 1 Utf8 Value "ConstantValue"
+278: Tag 1 Utf8 Value "Signature"
+279: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability<Ljava/lang/Void;>;"
+280: Tag 1 Utf8 Value "()V"
+281: Tag 1 Utf8 Value "Code"
+282: Tag 1 Utf8 Value "LineNumberTable"
+283: Tag 1 Utf8 Value "LocalVariableTable"
+284: Tag 1 Utf8 Value "this"
+285: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/OpenTelemetrySubsystemDefinition;"
+286: Tag 1 Utf8 Value "getAttributes"
+287: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+288: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/jboss/as/controller/AttributeDefinition;>;"
+289: Tag 1 Utf8 Value "lambda$static$0"
+290: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)V"
+291: Tag 1 Utf8 Value "val"
+292: Tag 1 Utf8 Value "J"
+293: Tag 1 Utf8 Value "parameterName"
+294: Tag 1 Utf8 Value "value"
+295: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+296: Tag 1 Utf8 Value "StackMapTable"
+297: Tag 1 Utf8 Value "Exceptions"
+298: Tag 1 Utf8 Value "<clinit>"
+299: Tag 1 Utf8 Value "SourceFile"
+300: Tag 1 Utf8 Value "OpenTelemetrySubsystemDefinition.java"
+301: Tag 1 Utf8 Value "BootstrapMethods"
+302: Tag 15 MethodHandle Kind 6, Index 303
+303: Tag 10 MethodRef Class index 304, Name and type index 305
+304: Tag 7 Class Name index 306
+305: Tag 12 NameAndType Name index 307, Description index 308
+306: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+307: Tag 1 Utf8 Value "metafactory"
+308: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+309: Tag 16 MethodType Descriptor index 290
+310: Tag 15 MethodHandle Kind 6, Index 311
+311: Tag 10 MethodRef Class index 44, Name and type index 312
+312: Tag 12 NameAndType Name index 289, Description index 290
+313: Tag 1 Utf8 Value "InnerClasses"
+314: Tag 7 Class Name index 315
+315: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition"
+316: Tag 1 Utf8 Value "Parameters"
+317: Tag 1 Utf8 Value "Builder"
+318: Tag 7 Class Name index 319
+319: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+320: Tag 7 Class Name index 321
+321: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+322: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 44, name org.wildfly.extension.opentelemetry.OpenTelemetrySubsystemDefinition
+
+Super class: id 54, name org.jboss.as.controller.PersistentResourceDefinition
+
+No interfaces
+
+Field name DEFAULT_ENDPOINT (index 275), type Ljava/lang/String; (descriptor index 276)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ALLOWED_EXPORTERS (index 109), type [Ljava/lang/String; (descriptor index 110)
+Human type: java.lang.String[]
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name ALLOWED_SAMPLERS (index 119), type [Ljava/lang/String; (descriptor index 110)
+Human type: java.lang.String[]
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name ALLOWED_SPAN_PROCESSORS (index 126), type [Ljava/lang/String; (descriptor index 110)
+Human type: java.lang.String[]
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name EXPORTED_MODULES (index 135), type [Ljava/lang/String; (descriptor index 110)
+Human type: java.lang.String[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name OPENTELEMETRY_CAPABILITY (index 47), type Lorg/jboss/as/controller/capability/RuntimeCapability; (descriptor index 48)
+Human type: org.jboss.as.controller.capability.RuntimeCapability
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name Signature, size 2
+Field name SERVICE_NAME (index 178), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name EXPORTER (index 215), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ENDPOINT (index 222), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SPAN_PROCESSOR_TYPE (index 229), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name BATCH_DELAY (index 240), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_QUEUE_SIZE (index 245), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_EXPORT_BATCH_SIZE (index 250), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name EXPORT_TIMEOUT (index 255), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SAMPLER (index 262), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name RATIO (index 272), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 179)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ATTRIBUTES (index 60), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 61)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 21), type ()V (descriptor index 280)
+Human type: (): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 113
+Method name getAttributes (index 286), type ()Ljava/util/Collection; (descriptor index 287)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 49
+Method attribute name Signature, size 2
+Method name lambda$static$0 (index 289), type (Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)V (descriptor index 290)
+Human type: (java.lang.String, org.jboss.dmr.ModelNode): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 146
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 298), type ()V (descriptor index 280)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 1088
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 26

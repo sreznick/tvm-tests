@@ -1,0 +1,162 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 120
+1: Tag 7 Class Name index 51
+2: Tag 10 MethodRef Class index 23, Name and type index 52
+3: Tag 9 FieldRef Class index 19, Name and type index 53
+4: Tag 9 FieldRef Class index 54, Name and type index 55
+5: Tag 8 String Contents 40
+6: Tag 10 MethodRef Class index 56, Name and type index 57
+7: Tag 10 MethodRef Class index 56, Name and type index 58
+8: Tag 11 InterfaceMethodRef Class index 54, Name and type index 59
+9: Tag 11 InterfaceMethodRef Class index 60, Name and type index 61
+10: Tag 9 FieldRef Class index 62, Name and type index 63
+11: Tag 10 MethodRef Class index 64, Name and type index 65
+12: Tag 10 MethodRef Class index 66, Name and type index 67
+13: Tag 11 InterfaceMethodRef Class index 60, Name and type index 68
+14: Tag 9 FieldRef Class index 69, Name and type index 70
+15: Tag 8 String Contents 71
+16: Tag 11 InterfaceMethodRef Class index 72, Name and type index 73
+17: Tag 9 FieldRef Class index 74, Name and type index 75
+18: Tag 11 InterfaceMethodRef Class index 60, Name and type index 76
+19: Tag 7 Class Name index 77
+20: Tag 10 MethodRef Class index 19, Name and type index 78
+21: Tag 9 FieldRef Class index 19, Name and type index 79
+22: Tag 9 FieldRef Class index 19, Name and type index 80
+23: Tag 7 Class Name index 81
+24: Tag 7 Class Name index 82
+25: Tag 1 Utf8 Value "ENABLE"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/connector/subsystems/datasources/DataSourceEnableDisable;"
+27: Tag 1 Utf8 Value "DISABLE"
+28: Tag 1 Utf8 Value "enabled"
+29: Tag 1 Utf8 Value "Z"
+30: Tag 1 Utf8 Value "<init>"
+31: Tag 1 Utf8 Value "(Z)V"
+32: Tag 1 Utf8 Value "Code"
+33: Tag 1 Utf8 Value "LineNumberTable"
+34: Tag 1 Utf8 Value "LocalVariableTable"
+35: Tag 1 Utf8 Value "this"
+36: Tag 1 Utf8 Value "execute"
+37: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+38: Tag 1 Utf8 Value "context"
+39: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+40: Tag 1 Utf8 Value "operation"
+41: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+42: Tag 1 Utf8 Value "writeAttributeOp"
+43: Tag 1 Utf8 Value "writeHandler"
+44: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationStepHandler;"
+45: Tag 1 Utf8 Value "Exceptions"
+46: Tag 7 Class Name index 83
+47: Tag 1 Utf8 Value "<clinit>"
+48: Tag 1 Utf8 Value "()V"
+49: Tag 1 Utf8 Value "SourceFile"
+50: Tag 1 Utf8 Value "DataSourceEnableDisable.java"
+51: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+52: Tag 12 NameAndType Name index 30, Description index 48
+53: Tag 12 NameAndType Name index 28, Description index 29
+54: Tag 7 Class Name index 84
+55: Tag 12 NameAndType Name index 85, Description index 86
+56: Tag 7 Class Name index 87
+57: Tag 12 NameAndType Name index 88, Description index 89
+58: Tag 12 NameAndType Name index 90, Description index 91
+59: Tag 12 NameAndType Name index 92, Description index 93
+60: Tag 7 Class Name index 94
+61: Tag 12 NameAndType Name index 95, Description index 96
+62: Tag 7 Class Name index 97
+63: Tag 12 NameAndType Name index 98, Description index 99
+64: Tag 7 Class Name index 100
+65: Tag 12 NameAndType Name index 101, Description index 91
+66: Tag 7 Class Name index 102
+67: Tag 12 NameAndType Name index 103, Description index 104
+68: Tag 12 NameAndType Name index 105, Description index 106
+69: Tag 7 Class Name index 107
+70: Tag 12 NameAndType Name index 108, Description index 109
+71: Tag 1 Utf8 Value "write-attribute"
+72: Tag 7 Class Name index 110
+73: Tag 12 NameAndType Name index 111, Description index 112
+74: Tag 7 Class Name index 113
+75: Tag 12 NameAndType Name index 116, Description index 117
+76: Tag 12 NameAndType Name index 118, Description index 119
+77: Tag 1 Utf8 Value "org/jboss/as/connector/subsystems/datasources/DataSourceEnableDisable"
+78: Tag 12 NameAndType Name index 30, Description index 31
+79: Tag 12 NameAndType Name index 25, Description index 26
+80: Tag 12 NameAndType Name index 27, Description index 26
+81: Tag 1 Utf8 Value "java/lang/Object"
+82: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+83: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+84: Tag 1 Utf8 Value "org/jboss/as/connector/logging/ConnectorLogger"
+85: Tag 1 Utf8 Value "ROOT_LOGGER"
+86: Tag 1 Utf8 Value "Lorg/jboss/as/connector/logging/ConnectorLogger;"
+87: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+88: Tag 1 Utf8 Value "get"
+89: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+90: Tag 1 Utf8 Value "asString"
+91: Tag 1 Utf8 Value "()Ljava/lang/String;"
+92: Tag 1 Utf8 Value "legacyDisableEnableOperation"
+93: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+94: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+95: Tag 1 Utf8 Value "getCurrentAddress"
+96: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+97: Tag 1 Utf8 Value "org/jboss/as/connector/subsystems/datasources/Constants"
+98: Tag 1 Utf8 Value "ENABLED"
+99: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+100: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+101: Tag 1 Utf8 Value "getName"
+102: Tag 1 Utf8 Value "org/jboss/as/controller/operations/common/Util"
+103: Tag 1 Utf8 Value "getWriteAttributeOperation"
+104: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Ljava/lang/String;Z)Lorg/jboss/dmr/ModelNode;"
+105: Tag 1 Utf8 Value "getResourceRegistration"
+106: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;"
+107: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+108: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+109: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+110: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ImmutableManagementResourceRegistration"
+111: Tag 1 Utf8 Value "getOperationHandler"
+112: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Ljava/lang/String;)Lorg/jboss/as/controller/OperationStepHandler;"
+113: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext$Stage"
+114: Tag 1 Utf8 Value "Stage"
+115: Tag 1 Utf8 Value "InnerClasses"
+116: Tag 1 Utf8 Value "MODEL"
+117: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext$Stage;"
+118: Tag 1 Utf8 Value "addStep"
+119: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationContext$Stage;Z)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 19, name org.jboss.as.connector.subsystems.datasources.DataSourceEnableDisable
+
+Super class: id 23, name java.lang.Object
+
+Implements class ids 24
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name ENABLE (index 25), type Lorg/jboss/as/connector/subsystems/datasources/DataSourceEnableDisable; (descriptor index 26)
+Human type: org.jboss.as.connector.subsystems.datasources.DataSourceEnableDisable
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name DISABLE (index 27), type Lorg/jboss/as/connector/subsystems/datasources/DataSourceEnableDisable; (descriptor index 26)
+Human type: org.jboss.as.connector.subsystems.datasources.DataSourceEnableDisable
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name enabled (index 28), type Z (descriptor index 29)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 30), type (Z)V (descriptor index 31)
+Human type: (boolean): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 70
+Method name execute (index 36), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 37)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 167
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 47), type ()V (descriptor index 48)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 51
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

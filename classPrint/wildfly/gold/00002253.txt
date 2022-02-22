@@ -1,0 +1,122 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 85
+1: Tag 10 MethodRef Class index 17, Name and type index 51
+2: Tag 7 Class Name index 52
+3: Tag 10 MethodRef Class index 44, Name and type index 53
+4: Tag 7 Class Name index 54
+5: Tag 8 String Contents 55
+6: Tag 11 InterfaceMethodRef Class index 2, Name and type index 56
+7: Tag 7 Class Name index 57
+8: Tag 11 InterfaceMethodRef Class index 7, Name and type index 58
+9: Tag 7 Class Name index 59
+10: Tag 10 MethodRef Class index 60, Name and type index 61
+11: Tag 10 MethodRef Class index 44, Name and type index 62
+12: Tag 10 MethodRef Class index 60, Name and type index 63
+13: Tag 7 Class Name index 64
+14: Tag 10 MethodRef Class index 4, Name and type index 51
+15: Tag 10 MethodRef Class index 13, Name and type index 65
+16: Tag 9 FieldRef Class index 4, Name and type index 66
+17: Tag 7 Class Name index 67
+18: Tag 7 Class Name index 68
+19: Tag 1 Utf8 Value "CONTEXT_KEY"
+20: Tag 1 Utf8 Value "Ljava/lang/String;"
+21: Tag 1 Utf8 Value "ConstantValue"
+22: Tag 1 Utf8 Value "FACTORY"
+23: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorFactory;"
+24: Tag 1 Utf8 Value "<init>"
+25: Tag 1 Utf8 Value "()V"
+26: Tag 1 Utf8 Value "Code"
+27: Tag 1 Utf8 Value "LineNumberTable"
+28: Tag 1 Utf8 Value "LocalVariableTable"
+29: Tag 1 Utf8 Value "this"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/interceptor/SFSBInvocationInterceptor;"
+31: Tag 1 Utf8 Value "processInvocation"
+32: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object;"
+33: Tag 1 Utf8 Value "entityManagers"
+34: Tag 1 Utf8 Value "Ljava/util/Map;"
+35: Tag 1 Utf8 Value "context"
+36: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+37: Tag 1 Utf8 Value "componentInstance"
+38: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentInstance;"
+39: Tag 1 Utf8 Value "entityManagerRef"
+40: Tag 1 Utf8 Value "Lorg/jboss/as/naming/ManagedReference;"
+41: Tag 1 Utf8 Value "LocalVariableTypeTable"
+42: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/jboss/as/jpa/container/ExtendedEntityManager;>;"
+43: Tag 1 Utf8 Value "StackMapTable"
+44: Tag 7 Class Name index 69
+45: Tag 7 Class Name index 70
+46: Tag 1 Utf8 Value "Exceptions"
+47: Tag 7 Class Name index 71
+48: Tag 1 Utf8 Value "<clinit>"
+49: Tag 1 Utf8 Value "SourceFile"
+50: Tag 1 Utf8 Value "SFSBInvocationInterceptor.java"
+51: Tag 12 NameAndType Name index 24, Description index 25
+52: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentInstance"
+53: Tag 12 NameAndType Name index 72, Description index 73
+54: Tag 1 Utf8 Value "org/jboss/as/jpa/interceptor/SFSBInvocationInterceptor"
+55: Tag 1 Utf8 Value "org.jboss.as.jpa.InterceptorContextKey"
+56: Tag 12 NameAndType Name index 74, Description index 75
+57: Tag 1 Utf8 Value "org/jboss/as/naming/ManagedReference"
+58: Tag 12 NameAndType Name index 76, Description index 77
+59: Tag 1 Utf8 Value "java/util/Map"
+60: Tag 7 Class Name index 78
+61: Tag 12 NameAndType Name index 79, Description index 80
+62: Tag 12 NameAndType Name index 81, Description index 77
+63: Tag 12 NameAndType Name index 82, Description index 83
+64: Tag 1 Utf8 Value "org/jboss/invocation/ImmediateInterceptorFactory"
+65: Tag 12 NameAndType Name index 24, Description index 84
+66: Tag 12 NameAndType Name index 22, Description index 23
+67: Tag 1 Utf8 Value "java/lang/Object"
+68: Tag 1 Utf8 Value "org/jboss/invocation/Interceptor"
+69: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+70: Tag 1 Utf8 Value "java/lang/Throwable"
+71: Tag 1 Utf8 Value "java/lang/Exception"
+72: Tag 1 Utf8 Value "getPrivateData"
+73: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+74: Tag 1 Utf8 Value "getInstanceData"
+75: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+76: Tag 1 Utf8 Value "getInstance"
+77: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+78: Tag 1 Utf8 Value "org/jboss/as/jpa/container/SFSBCallStack"
+79: Tag 1 Utf8 Value "pushCall"
+80: Tag 1 Utf8 Value "(Ljava/util/Map;)V"
+81: Tag 1 Utf8 Value "proceed"
+82: Tag 1 Utf8 Value "popCall"
+83: Tag 1 Utf8 Value "()Ljava/util/Map;"
+84: Tag 1 Utf8 Value "(Lorg/jboss/invocation/Interceptor;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 4, name org.jboss.as.jpa.interceptor.SFSBInvocationInterceptor
+
+Super class: id 17, name java.lang.Object
+
+Implements class ids 18
+Implements names org.jboss.invocation.Interceptor
+
+Field name CONTEXT_KEY (index 19), type Ljava/lang/String; (descriptor index 20)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name FACTORY (index 22), type Lorg/jboss/invocation/InterceptorFactory; (descriptor index 23)
+Human type: org.jboss.invocation.InterceptorFactory
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 24), type ()V (descriptor index 25)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name processInvocation (index 31), type (Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object; (descriptor index 32)
+Human type: (org.jboss.invocation.InterceptorContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 284
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 48), type ()V (descriptor index 25)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 42
+
+Class attribute name SourceFile, size 2

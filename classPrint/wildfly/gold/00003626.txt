@@ -1,0 +1,220 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 171
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/clustering/web/SessionManagementResourceDefinition$Capability"
+5: Tag 1 Utf8 Value "SESSION_MANAGEMENT_PROVIDER"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/web/SessionManagementResourceDefinition$Capability;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/CapabilityServiceNameProvider"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/jboss/as/controller/PathAddress;)V"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/clustering/web/SessionManagementResourceDefinition$Attribute"
+17: Tag 1 Utf8 Value "GRANULARITY"
+18: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/web/SessionManagementResourceDefinition$Attribute;"
+19: Tag 10 MethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "resolveModelAttribute"
+22: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+23: Tag 7 Class Name index 24
+24: Tag 1 Utf8 Value "org/wildfly/extension/clustering/web/SessionGranularity"
+25: Tag 10 MethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/clustering/dmr/ModelNodes"
+29: Tag 1 Utf8 Value "asEnum"
+30: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Ljava/lang/Class;)Ljava/lang/Enum;"
+31: Tag 9 FieldRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/wildfly/extension/clustering/web/SessionManagementServiceConfigurator"
+35: Tag 1 Utf8 Value "granularity"
+36: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/web/SessionGranularity;"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceSupplierDependency"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/wildfly/extension/clustering/web/AffinityServiceNameProvider"
+41: Tag 11 InterfaceMethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+45: Tag 1 Utf8 Value "getCurrentAddress"
+46: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+47: Tag 10 MethodRef Class index 39, Name and type index 48
+48: Tag 12 NameAndType Name index 11, Description index 49
+49: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)V"
+50: Tag 10 MethodRef Class index 37, Name and type index 51
+51: Tag 12 NameAndType Name index 11, Description index 52
+52: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/service/ServiceNameProvider;)V"
+53: Tag 9 FieldRef Class index 32, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "factory"
+56: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency;"
+57: Tag 10 MethodRef Class index 32, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "getServiceName"
+60: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+61: Tag 11 InterfaceMethodRef Class index 62, Name and type index 63
+62: Tag 7 Class Name index 64
+63: Tag 12 NameAndType Name index 65, Description index 66
+64: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+65: Tag 1 Utf8 Value "addService"
+66: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+67: Tag 11 InterfaceMethodRef Class index 68, Name and type index 69
+68: Tag 7 Class Name index 70
+69: Tag 12 NameAndType Name index 71, Description index 72
+70: Tag 1 Utf8 Value "org/wildfly/clustering/service/SupplierDependency"
+71: Tag 1 Utf8 Value "register"
+72: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder;"
+73: Tag 7 Class Name index 74
+74: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+75: Tag 11 InterfaceMethodRef Class index 76, Name and type index 77
+76: Tag 7 Class Name index 78
+77: Tag 12 NameAndType Name index 79, Description index 80
+78: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+79: Tag 1 Utf8 Value "provides"
+80: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+81: Tag 7 Class Name index 82
+82: Tag 1 Utf8 Value "org/wildfly/clustering/service/FunctionalService"
+83: Tag 11 InterfaceMethodRef Class index 84, Name and type index 85
+84: Tag 7 Class Name index 86
+85: Tag 12 NameAndType Name index 87, Description index 88
+86: Tag 1 Utf8 Value "java/util/function/Function"
+87: Tag 1 Utf8 Value "identity"
+88: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+89: Tag 10 MethodRef Class index 81, Name and type index 90
+90: Tag 12 NameAndType Name index 11, Description index 91
+91: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;Ljava/util/function/Function;Ljava/util/function/Supplier;)V"
+92: Tag 11 InterfaceMethodRef Class index 76, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 95
+94: Tag 1 Utf8 Value "setInstance"
+95: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+96: Tag 9 FieldRef Class index 97, Name and type index 98
+97: Tag 7 Class Name index 99
+98: Tag 12 NameAndType Name index 100, Description index 101
+99: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+100: Tag 1 Utf8 Value "ON_DEMAND"
+101: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+102: Tag 11 InterfaceMethodRef Class index 76, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 105
+104: Tag 1 Utf8 Value "setInitialMode"
+105: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)Lorg/jboss/msc/service/ServiceBuilder;"
+106: Tag 10 MethodRef Class index 23, Name and type index 107
+107: Tag 12 NameAndType Name index 108, Description index 109
+108: Tag 1 Utf8 Value "getAttributePersistenceStrategy"
+109: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionAttributePersistenceStrategy;"
+110: Tag 11 InterfaceMethodRef Class index 68, Name and type index 111
+111: Tag 12 NameAndType Name index 112, Description index 113
+112: Tag 1 Utf8 Value "get"
+113: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+114: Tag 7 Class Name index 115
+115: Tag 1 Utf8 Value "org/wildfly/clustering/web/routing/RouteLocatorServiceConfiguratorFactory"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceServiceConfigurator"
+118: Tag 7 Class Name index 119
+119: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/DistributableSessionManagementConfiguration"
+120: Tag 7 Class Name index 121
+121: Tag 1 Utf8 Value "java/util/function/Supplier"
+122: Tag 1 Utf8 Value "Signature"
+123: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency<Lorg/wildfly/clustering/web/routing/RouteLocatorServiceConfiguratorFactory<TC;>;>;"
+124: Tag 1 Utf8 Value "Code"
+125: Tag 1 Utf8 Value "LineNumberTable"
+126: Tag 1 Utf8 Value "LocalVariableTable"
+127: Tag 1 Utf8 Value "this"
+128: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/web/SessionManagementServiceConfigurator;"
+129: Tag 1 Utf8 Value "address"
+130: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+131: Tag 1 Utf8 Value "LocalVariableTypeTable"
+132: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/web/SessionManagementServiceConfigurator<TC;>;"
+133: Tag 1 Utf8 Value "configure"
+134: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/wildfly/clustering/service/ServiceConfigurator;"
+135: Tag 1 Utf8 Value "context"
+136: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+137: Tag 1 Utf8 Value "model"
+138: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+139: Tag 1 Utf8 Value "Exceptions"
+140: Tag 7 Class Name index 141
+141: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+142: Tag 1 Utf8 Value "build"
+143: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+144: Tag 1 Utf8 Value "target"
+145: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+146: Tag 1 Utf8 Value "name"
+147: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+148: Tag 1 Utf8 Value "builder"
+149: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+150: Tag 1 Utf8 Value "provider"
+151: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+152: Tag 1 Utf8 Value "service"
+153: Tag 1 Utf8 Value "Lorg/jboss/msc/Service;"
+154: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+155: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/wildfly/clustering/web/session/DistributableSessionManagementProvider;>;"
+156: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder<*>;"
+157: Tag 1 Utf8 Value "getRouteLocatorServiceConfiguratorFactory"
+158: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/routing/RouteLocatorServiceConfiguratorFactory;"
+159: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/routing/RouteLocatorServiceConfiguratorFactory<TC;>;"
+160: Tag 1 Utf8 Value "<C::Lorg/wildfly/clustering/web/session/DistributableSessionManagementConfiguration;>Lorg/jboss/as/clustering/controller/CapabilityServiceNameProvider;Lorg/jboss/as/clustering/controller/ResourceServiceConfigurator;Lorg/wildfly/clustering/web/session/DistributableSessionManagementConfiguration;Ljava/util/function/Supplier<Lorg/wildfly/clustering/web/session/DistributableSessionManagementProvider;>;"
+161: Tag 1 Utf8 Value "SourceFile"
+162: Tag 1 Utf8 Value "SessionManagementServiceConfigurator.java"
+163: Tag 1 Utf8 Value "InnerClasses"
+164: Tag 7 Class Name index 165
+165: Tag 1 Utf8 Value "org/wildfly/extension/clustering/web/SessionManagementResourceDefinition"
+166: Tag 1 Utf8 Value "Capability"
+167: Tag 1 Utf8 Value "Attribute"
+168: Tag 7 Class Name index 169
+169: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+170: Tag 1 Utf8 Value "Mode"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 32, name org.wildfly.extension.clustering.web.SessionManagementServiceConfigurator
+
+Super class: id 8, name org.jboss.as.clustering.controller.CapabilityServiceNameProvider
+
+Implements class ids 116 118 120
+Implements names org.jboss.as.clustering.controller.ResourceServiceConfigurator org.wildfly.clustering.web.session.DistributableSessionManagementConfiguration java.util.function.Supplier
+
+Field name granularity (index 35), type Lorg/wildfly/extension/clustering/web/SessionGranularity; (descriptor index 36)
+Human type: org.wildfly.extension.clustering.web.SessionGranularity
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name factory (index 55), type Lorg/wildfly/clustering/service/SupplierDependency; (descriptor index 56)
+Human type: org.wildfly.clustering.service.SupplierDependency
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+
+Method name <init> (index 11), type (Lorg/jboss/as/controller/PathAddress;)V (descriptor index 49)
+Human type: (org.jboss.as.controller.PathAddress): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 83
+Method name configure (index 133), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/wildfly/clustering/service/ServiceConfigurator; (descriptor index 134)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.wildfly.clustering.service.ServiceConfigurator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 134
+Method attribute name Exceptions, size 4
+Method name build (index 142), type (Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 143)
+Human type: (org.jboss.msc.service.ServiceTarget): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 216
+Method attribute name Signature, size 2
+Method name getAttributePersistenceStrategy (index 108), type ()Lorg/wildfly/clustering/web/session/SessionAttributePersistenceStrategy; (descriptor index 109)
+Human type: (): org.wildfly.clustering.web.session.SessionAttributePersistenceStrategy
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 68
+Method name getRouteLocatorServiceConfiguratorFactory (index 157), type ()Lorg/wildfly/clustering/web/routing/RouteLocatorServiceConfiguratorFactory; (descriptor index 158)
+Human type: (): org.wildfly.clustering.web.routing.RouteLocatorServiceConfiguratorFactory
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 73
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

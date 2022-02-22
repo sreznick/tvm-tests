@@ -1,0 +1,133 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 88
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/ProviderAttributeDefinitions"
+5: Tag 1 Utf8 Value "ATTRIBUTES"
+6: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractWriteAttributeHandler"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)V"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/OidcConfigService"
+17: Tag 1 Utf8 Value "getInstance"
+18: Tag 1 Utf8 Value "()Lorg/wildfly/extension/elytron/oidc/OidcConfigService;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+23: Tag 1 Utf8 Value "getCurrentAddressValue"
+24: Tag 1 Utf8 Value "()Ljava/lang/String;"
+25: Tag 10 MethodRef Class index 14, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "updateRealm"
+28: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)V"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder"
+33: Tag 1 Utf8 Value "setHandback"
+34: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+35: Tag 10 MethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/RealmDefinition$RealmWriteAttributeHandler"
+39: Tag 1 Utf8 Value "revertUpdateToRuntime"
+40: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Lorg/wildfly/extension/elytron/oidc/OidcConfigService;)V"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+43: Tag 10 MethodRef Class index 36, Name and type index 9
+44: Tag 9 FieldRef Class index 36, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "INSTANCE"
+47: Tag 1 Utf8 Value "Lorg/wildfly/extension/elytron/oidc/RealmDefinition$RealmWriteAttributeHandler;"
+48: Tag 1 Utf8 Value "Code"
+49: Tag 1 Utf8 Value "LineNumberTable"
+50: Tag 1 Utf8 Value "LocalVariableTable"
+51: Tag 1 Utf8 Value "this"
+52: Tag 1 Utf8 Value "definitions"
+53: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+54: Tag 1 Utf8 Value "applyUpdateToRuntime"
+55: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder;)Z"
+56: Tag 1 Utf8 Value "context"
+57: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+58: Tag 1 Utf8 Value "operation"
+59: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+60: Tag 1 Utf8 Value "attributeName"
+61: Tag 1 Utf8 Value "Ljava/lang/String;"
+62: Tag 1 Utf8 Value "resolvedValue"
+63: Tag 1 Utf8 Value "currentValue"
+64: Tag 1 Utf8 Value "handbackHolder"
+65: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder;"
+66: Tag 1 Utf8 Value "oidcConfigService"
+67: Tag 1 Utf8 Value "Lorg/wildfly/extension/elytron/oidc/OidcConfigService;"
+68: Tag 1 Utf8 Value "LocalVariableTypeTable"
+69: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder<Lorg/wildfly/extension/elytron/oidc/OidcConfigService;>;"
+70: Tag 1 Utf8 Value "Exceptions"
+71: Tag 7 Class Name index 72
+72: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+73: Tag 1 Utf8 Value "Signature"
+74: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder<Lorg/wildfly/extension/elytron/oidc/OidcConfigService;>;)Z"
+75: Tag 1 Utf8 Value "valueToRestore"
+76: Tag 1 Utf8 Value "valueToRevert"
+77: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Ljava/lang/Object;)V"
+78: Tag 1 Utf8 Value "<clinit>"
+79: Tag 1 Utf8 Value "()V"
+80: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AbstractWriteAttributeHandler<Lorg/wildfly/extension/elytron/oidc/OidcConfigService;>;"
+81: Tag 1 Utf8 Value "SourceFile"
+82: Tag 1 Utf8 Value "RealmDefinition.java"
+83: Tag 1 Utf8 Value "InnerClasses"
+84: Tag 1 Utf8 Value "HandbackHolder"
+85: Tag 7 Class Name index 86
+86: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/RealmDefinition"
+87: Tag 1 Utf8 Value "RealmWriteAttributeHandler"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 36, name org.wildfly.extension.elytron.oidc.RealmDefinition$RealmWriteAttributeHandler
+
+Super class: id 8, name org.jboss.as.controller.AbstractWriteAttributeHandler
+
+No interfaces
+
+Field name INSTANCE (index 46), type Lorg/wildfly/extension/elytron/oidc/RealmDefinition$RealmWriteAttributeHandler; (descriptor index 47)
+Human type: org.wildfly.extension.elytron.oidc.RealmDefinition$RealmWriteAttributeHandler
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 11), type ([Lorg/jboss/as/controller/AttributeDefinition;)V (descriptor index 12)
+Human type: (org.jboss.as.controller.AttributeDefinition[]): void
+Flags: decimal 129, hex 0081, binary 0000000010000001 public varargs
+Method attribute name Code, size 64
+Method name applyUpdateToRuntime (index 54), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder;)Z (descriptor index 55)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, java.lang.String, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode, org.jboss.as.controller.AbstractWriteAttributeHandler$HandbackHolder): boolean
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 170
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name revertUpdateToRuntime (index 39), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Lorg/wildfly/extension/elytron/oidc/OidcConfigService;)V (descriptor index 40)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, java.lang.String, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode, org.wildfly.extension.elytron.oidc.OidcConfigService): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 121
+Method attribute name Exceptions, size 4
+Method name revertUpdateToRuntime (index 39), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Ljava/lang/Object;)V (descriptor index 77)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, java.lang.String, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode, java.lang.Object): void
+Flags: decimal 4164, hex 1044, binary 0001000001000100 protected bridge synthetic
+Method attribute name Code, size 59
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 78), type ()V (descriptor index 79)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 39
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

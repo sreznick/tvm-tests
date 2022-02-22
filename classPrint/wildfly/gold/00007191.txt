@@ -1,0 +1,469 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 392
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/AbstractResourceInjectionServices"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceRegistry;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/modules/Module;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldEjbInjectionServices"
+11: Tag 1 Utf8 Value "warModule"
+12: Tag 1 Utf8 Value "Z"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/weld/logging/WeldLogger"
+17: Tag 1 Utf8 Value "ROOT_LOGGER"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/weld/logging/WeldLogger;"
+19: Tag 8 String Contents 20
+20: Tag 1 Utf8 Value "serviceRegistry"
+21: Tag 11 InterfaceMethodRef Class index 14, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "parameterCannotBeNull"
+24: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+25: Tag 8 String Contents 26
+26: Tag 1 Utf8 Value "moduleDescription"
+27: Tag 8 String Contents 28
+28: Tag 1 Utf8 Value "applicationDescription"
+29: Tag 8 String Contents 30
+30: Tag 1 Utf8 Value "deploymentRoot"
+31: Tag 9 FieldRef Class index 8, Name and type index 32
+32: Tag 12 NameAndType Name index 28, Description index 33
+33: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEApplicationDescription;"
+34: Tag 9 FieldRef Class index 8, Name and type index 35
+35: Tag 12 NameAndType Name index 30, Description index 36
+36: Tag 1 Utf8 Value "Lorg/jboss/vfs/VirtualFile;"
+37: Tag 10 MethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/jboss/as/weld/util/ResourceInjectionUtilities"
+41: Tag 1 Utf8 Value "getResourceAnnotated"
+42: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/InjectionPoint;)Ljavax/enterprise/inject/spi/Annotated;"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "javax/ejb/EJB"
+45: Tag 11 InterfaceMethodRef Class index 46, Name and type index 47
+46: Tag 7 Class Name index 48
+47: Tag 12 NameAndType Name index 49, Description index 50
+48: Tag 1 Utf8 Value "javax/enterprise/inject/spi/Annotated"
+49: Tag 1 Utf8 Value "getAnnotation"
+50: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;"
+51: Tag 11 InterfaceMethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 56
+54: Tag 1 Utf8 Value "javax/enterprise/inject/spi/InjectionPoint"
+55: Tag 1 Utf8 Value "getMember"
+56: Tag 1 Utf8 Value "()Ljava/lang/reflect/Member;"
+57: Tag 11 InterfaceMethodRef Class index 14, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "annotationNotFound"
+60: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/reflect/Member;)Ljava/lang/IllegalArgumentException;"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "java/lang/reflect/Method"
+63: Tag 10 MethodRef Class index 61, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "getParameterTypes"
+66: Tag 1 Utf8 Value "()[Ljava/lang/Class;"
+67: Tag 11 InterfaceMethodRef Class index 14, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "injectionPointNotAJavabean"
+70: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;)Ljava/lang/IllegalArgumentException;"
+71: Tag 11 InterfaceMethodRef Class index 43, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 74
+73: Tag 1 Utf8 Value "lookup"
+74: Tag 1 Utf8 Value "()Ljava/lang/String;"
+75: Tag 8 String Contents 76
+76: Tag 1 Utf8 Value ""
+77: Tag 10 MethodRef Class index 78, Name and type index 79
+78: Tag 7 Class Name index 80
+79: Tag 12 NameAndType Name index 81, Description index 82
+80: Tag 1 Utf8 Value "java/lang/String"
+81: Tag 1 Utf8 Value "equals"
+82: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+83: Tag 8 String Contents 84
+84: Tag 1 Utf8 Value "ejb:"
+85: Tag 10 MethodRef Class index 78, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 88
+87: Tag 1 Utf8 Value "startsWith"
+88: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+89: Tag 7 Class Name index 90
+90: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldEjbInjectionServices$1"
+91: Tag 10 MethodRef Class index 89, Name and type index 92
+92: Tag 12 NameAndType Name index 5, Description index 93
+93: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/services/bootstrap/WeldEjbInjectionServices;Ljavax/ejb/EJB;)V"
+94: Tag 10 MethodRef Class index 8, Name and type index 95
+95: Tag 12 NameAndType Name index 96, Description index 97
+96: Tag 1 Utf8 Value "handleServiceLookup"
+97: Tag 1 Utf8 Value "(Ljava/lang/String;Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory;"
+98: Tag 10 MethodRef Class index 8, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 101
+100: Tag 1 Utf8 Value "getViewDescription"
+101: Tag 1 Utf8 Value "(Ljavax/ejb/EJB;Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/as/ee/component/ViewDescription;"
+102: Tag 10 MethodRef Class index 8, Name and type index 103
+103: Tag 12 NameAndType Name index 96, Description index 104
+104: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ViewDescription;Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory;"
+105: Tag 10 MethodRef Class index 8, Name and type index 106
+106: Tag 12 NameAndType Name index 107, Description index 108
+107: Tag 1 Utf8 Value "getEjbBindLocation"
+108: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/InjectionPoint;)Ljava/lang/String;"
+109: Tag 7 Class Name index 110
+110: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldEjbInjectionServices$2"
+111: Tag 10 MethodRef Class index 109, Name and type index 112
+112: Tag 12 NameAndType Name index 5, Description index 113
+113: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/services/bootstrap/WeldEjbInjectionServices;Ljava/lang/String;)V"
+114: Tag 10 MethodRef Class index 8, Name and type index 115
+115: Tag 12 NameAndType Name index 116, Description index 117
+116: Tag 1 Utf8 Value "getComponentView"
+117: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ViewDescription;)Lorg/jboss/as/ee/component/ComponentView;"
+118: Tag 11 InterfaceMethodRef Class index 52, Name and type index 119
+119: Tag 12 NameAndType Name index 120, Description index 121
+120: Tag 1 Utf8 Value "getAnnotated"
+121: Tag 1 Utf8 Value "()Ljavax/enterprise/inject/spi/Annotated;"
+122: Tag 7 Class Name index 123
+123: Tag 1 Utf8 Value "javax/enterprise/inject/Produces"
+124: Tag 11 InterfaceMethodRef Class index 46, Name and type index 125
+125: Tag 12 NameAndType Name index 126, Description index 127
+126: Tag 1 Utf8 Value "isAnnotationPresent"
+127: Tag 1 Utf8 Value "(Ljava/lang/Class;)Z"
+128: Tag 11 InterfaceMethodRef Class index 129, Name and type index 130
+129: Tag 7 Class Name index 131
+130: Tag 12 NameAndType Name index 132, Description index 133
+131: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentView"
+132: Tag 1 Utf8 Value "getViewClass"
+133: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+134: Tag 11 InterfaceMethodRef Class index 52, Name and type index 135
+135: Tag 12 NameAndType Name index 136, Description index 137
+136: Tag 1 Utf8 Value "getType"
+137: Tag 1 Utf8 Value "()Ljava/lang/reflect/Type;"
+138: Tag 10 MethodRef Class index 139, Name and type index 140
+139: Tag 7 Class Name index 141
+140: Tag 12 NameAndType Name index 142, Description index 143
+141: Tag 1 Utf8 Value "org/jboss/weld/util/reflection/Reflections"
+142: Tag 1 Utf8 Value "getRawType"
+143: Tag 1 Utf8 Value "(Ljava/lang/reflect/Type;)Ljava/lang/Class;"
+144: Tag 7 Class Name index 145
+145: Tag 1 Utf8 Value "java/lang/Object"
+146: Tag 10 MethodRef Class index 147, Name and type index 148
+147: Tag 7 Class Name index 149
+148: Tag 12 NameAndType Name index 150, Description index 74
+149: Tag 1 Utf8 Value "java/lang/Class"
+150: Tag 1 Utf8 Value "getName"
+151: Tag 10 MethodRef Class index 147, Name and type index 152
+152: Tag 12 NameAndType Name index 153, Description index 133
+153: Tag 1 Utf8 Value "getSuperclass"
+154: Tag 9 FieldRef Class index 155, Name and type index 156
+155: Tag 7 Class Name index 157
+156: Tag 12 NameAndType Name index 158, Description index 159
+157: Tag 1 Utf8 Value "org/jboss/weld/logging/BeanLogger"
+158: Tag 1 Utf8 Value "LOG"
+159: Tag 1 Utf8 Value "Lorg/jboss/weld/logging/BeanLogger;"
+160: Tag 11 InterfaceMethodRef Class index 155, Name and type index 161
+161: Tag 12 NameAndType Name index 162, Description index 163
+162: Tag 1 Utf8 Value "invalidResourceProducerType"
+163: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Lorg/jboss/weld/exceptions/DefinitionException;"
+164: Tag 7 Class Name index 165
+165: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/ComponentViewToResourceReferenceFactoryAdapter"
+166: Tag 10 MethodRef Class index 164, Name and type index 167
+167: Tag 12 NameAndType Name index 5, Description index 168
+168: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentView;)V"
+169: Tag 7 Class Name index 170
+170: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldEjbInjectionServices$LazyResourceReferenceFactory"
+171: Tag 9 FieldRef Class index 8, Name and type index 172
+172: Tag 12 NameAndType Name index 20, Description index 173
+173: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceRegistry;"
+174: Tag 10 MethodRef Class index 169, Name and type index 175
+175: Tag 12 NameAndType Name index 5, Description index 176
+176: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ViewDescription;Lorg/jboss/msc/service/ServiceRegistry;)V"
+177: Tag 10 MethodRef Class index 178, Name and type index 179
+178: Tag 7 Class Name index 180
+179: Tag 12 NameAndType Name index 181, Description index 182
+180: Tag 1 Utf8 Value "org/jboss/as/ee/component/ViewDescription"
+181: Tag 1 Utf8 Value "getServiceName"
+182: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+183: Tag 11 InterfaceMethodRef Class index 184, Name and type index 185
+184: Tag 7 Class Name index 186
+185: Tag 12 NameAndType Name index 187, Description index 188
+186: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+187: Tag 1 Utf8 Value "getService"
+188: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+189: Tag 11 InterfaceMethodRef Class index 190, Name and type index 191
+190: Tag 7 Class Name index 192
+191: Tag 12 NameAndType Name index 193, Description index 194
+192: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+193: Tag 1 Utf8 Value "getValue"
+194: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+195: Tag 11 InterfaceMethodRef Class index 43, Name and type index 196
+196: Tag 12 NameAndType Name index 197, Description index 74
+197: Tag 1 Utf8 Value "beanName"
+198: Tag 10 MethodRef Class index 78, Name and type index 199
+199: Tag 12 NameAndType Name index 200, Description index 201
+200: Tag 1 Utf8 Value "isEmpty"
+201: Tag 1 Utf8 Value "()Z"
+202: Tag 11 InterfaceMethodRef Class index 43, Name and type index 203
+203: Tag 12 NameAndType Name index 204, Description index 133
+204: Tag 1 Utf8 Value "beanInterface"
+205: Tag 10 MethodRef Class index 206, Name and type index 207
+206: Tag 7 Class Name index 208
+207: Tag 12 NameAndType Name index 209, Description index 210
+208: Tag 1 Utf8 Value "org/jboss/as/ee/component/EEApplicationDescription"
+209: Tag 1 Utf8 Value "getComponentsForViewName"
+210: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/vfs/VirtualFile;)Ljava/util/Set;"
+211: Tag 10 MethodRef Class index 8, Name and type index 212
+212: Tag 12 NameAndType Name index 136, Description index 143
+213: Tag 10 MethodRef Class index 206, Name and type index 214
+214: Tag 12 NameAndType Name index 215, Description index 216
+215: Tag 1 Utf8 Value "getComponents"
+216: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Lorg/jboss/vfs/VirtualFile;)Ljava/util/Set;"
+217: Tag 11 InterfaceMethodRef Class index 218, Name and type index 199
+218: Tag 7 Class Name index 219
+219: Tag 1 Utf8 Value "java/util/Set"
+220: Tag 11 InterfaceMethodRef Class index 14, Name and type index 221
+221: Tag 12 NameAndType Name index 222, Description index 223
+222: Tag 1 Utf8 Value "ejbNotResolved"
+223: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Member;)Ljava/lang/IllegalStateException;"
+224: Tag 11 InterfaceMethodRef Class index 218, Name and type index 225
+225: Tag 12 NameAndType Name index 226, Description index 227
+226: Tag 1 Utf8 Value "size"
+227: Tag 1 Utf8 Value "()I"
+228: Tag 11 InterfaceMethodRef Class index 14, Name and type index 229
+229: Tag 12 NameAndType Name index 230, Description index 231
+230: Tag 1 Utf8 Value "moreThanOneEjbResolved"
+231: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Member;Ljava/util/Set;)Ljava/lang/IllegalStateException;"
+232: Tag 11 InterfaceMethodRef Class index 218, Name and type index 233
+233: Tag 12 NameAndType Name index 234, Description index 235
+234: Tag 1 Utf8 Value "iterator"
+235: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+236: Tag 11 InterfaceMethodRef Class index 237, Name and type index 238
+237: Tag 7 Class Name index 239
+238: Tag 12 NameAndType Name index 240, Description index 194
+239: Tag 1 Utf8 Value "java/util/Iterator"
+240: Tag 1 Utf8 Value "next"
+241: Tag 9 FieldRef Class index 8, Name and type index 242
+242: Tag 12 NameAndType Name index 26, Description index 243
+243: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEModuleDescription;"
+244: Tag 10 MethodRef Class index 245, Name and type index 246
+245: Tag 7 Class Name index 247
+246: Tag 12 NameAndType Name index 248, Description index 74
+247: Tag 1 Utf8 Value "org/jboss/as/ee/component/EEModuleDescription"
+248: Tag 1 Utf8 Value "getApplicationName"
+249: Tag 10 MethodRef Class index 245, Name and type index 250
+250: Tag 12 NameAndType Name index 251, Description index 74
+251: Tag 1 Utf8 Value "getModuleName"
+252: Tag 10 MethodRef Class index 253, Name and type index 254
+253: Tag 7 Class Name index 255
+254: Tag 12 NameAndType Name index 256, Description index 257
+255: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames"
+256: Tag 1 Utf8 Value "bindInfoForEnvEntry"
+257: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;"
+258: Tag 7 Class Name index 259
+259: Tag 1 Utf8 Value "java/lang/reflect/ParameterizedType"
+260: Tag 11 InterfaceMethodRef Class index 258, Name and type index 261
+261: Tag 12 NameAndType Name index 142, Description index 137
+262: Tag 11 InterfaceMethodRef Class index 14, Name and type index 263
+263: Tag 12 NameAndType Name index 264, Description index 265
+264: Tag 1 Utf8 Value "couldNotDetermineUnderlyingType"
+265: Tag 1 Utf8 Value "(Ljava/lang/reflect/Type;)Ljava/lang/IllegalArgumentException;"
+266: Tag 7 Class Name index 267
+267: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldEjbInjectionServices$3"
+268: Tag 10 MethodRef Class index 266, Name and type index 269
+269: Tag 12 NameAndType Name index 5, Description index 270
+270: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/services/bootstrap/WeldEjbInjectionServices;Lorg/jboss/as/ee/component/ViewDescription;)V"
+271: Tag 10 MethodRef Class index 38, Name and type index 272
+272: Tag 12 NameAndType Name index 273, Description index 274
+273: Tag 1 Utf8 Value "getResourceName"
+274: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+275: Tag 7 Class Name index 276
+276: Tag 1 Utf8 Value "javax/naming/InitialContext"
+277: Tag 10 MethodRef Class index 275, Name and type index 278
+278: Tag 12 NameAndType Name index 5, Description index 279
+279: Tag 1 Utf8 Value "()V"
+280: Tag 10 MethodRef Class index 275, Name and type index 281
+281: Tag 12 NameAndType Name index 73, Description index 282
+282: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+283: Tag 7 Class Name index 284
+284: Tag 1 Utf8 Value "javax/naming/NamingException"
+285: Tag 11 InterfaceMethodRef Class index 14, Name and type index 286
+286: Tag 12 NameAndType Name index 287, Description index 288
+287: Tag 1 Utf8 Value "couldNotFindResource"
+288: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalArgumentException;"
+289: Tag 11 InterfaceMethodRef Class index 43, Name and type index 290
+290: Tag 12 NameAndType Name index 291, Description index 74
+291: Tag 1 Utf8 Value "mappedName"
+292: Tag 11 InterfaceMethodRef Class index 43, Name and type index 293
+293: Tag 12 NameAndType Name index 294, Description index 74
+294: Tag 1 Utf8 Value "name"
+295: Tag 7 Class Name index 296
+296: Tag 1 Utf8 Value "java/lang/StringBuilder"
+297: Tag 10 MethodRef Class index 295, Name and type index 278
+298: Tag 8 String Contents 299
+299: Tag 1 Utf8 Value "java:comp/env/"
+300: Tag 10 MethodRef Class index 295, Name and type index 301
+301: Tag 12 NameAndType Name index 302, Description index 303
+302: Tag 1 Utf8 Value "append"
+303: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+304: Tag 10 MethodRef Class index 295, Name and type index 305
+305: Tag 12 NameAndType Name index 306, Description index 74
+306: Tag 1 Utf8 Value "toString"
+307: Tag 7 Class Name index 308
+308: Tag 1 Utf8 Value "java/lang/reflect/Field"
+309: Tag 11 InterfaceMethodRef Class index 310, Name and type index 148
+310: Tag 7 Class Name index 311
+311: Tag 1 Utf8 Value "java/lang/reflect/Member"
+312: Tag 10 MethodRef Class index 38, Name and type index 313
+313: Tag 12 NameAndType Name index 314, Description index 315
+314: Tag 1 Utf8 Value "getPropertyName"
+315: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;)Ljava/lang/String;"
+316: Tag 11 InterfaceMethodRef Class index 14, Name and type index 317
+317: Tag 12 NameAndType Name index 318, Description index 319
+318: Tag 1 Utf8 Value "cannotInject"
+319: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/InjectionPoint;)Ljava/lang/IllegalArgumentException;"
+320: Tag 11 InterfaceMethodRef Class index 310, Name and type index 321
+321: Tag 12 NameAndType Name index 322, Description index 133
+322: Tag 1 Utf8 Value "getDeclaringClass"
+323: Tag 8 String Contents 324
+324: Tag 1 Utf8 Value "/"
+325: Tag 7 Class Name index 326
+326: Tag 1 Utf8 Value "org/jboss/weld/injection/spi/EjbInjectionServices"
+327: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceRegistry;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/as/ee/component/EEApplicationDescription;Lorg/jboss/vfs/VirtualFile;Lorg/jboss/modules/Module;Z)V"
+328: Tag 1 Utf8 Value "Code"
+329: Tag 1 Utf8 Value "LineNumberTable"
+330: Tag 1 Utf8 Value "LocalVariableTable"
+331: Tag 1 Utf8 Value "this"
+332: Tag 1 Utf8 Value "Lorg/jboss/as/weld/services/bootstrap/WeldEjbInjectionServices;"
+333: Tag 1 Utf8 Value "module"
+334: Tag 1 Utf8 Value "Lorg/jboss/modules/Module;"
+335: Tag 1 Utf8 Value "StackMapTable"
+336: Tag 7 Class Name index 337
+337: Tag 1 Utf8 Value "org/jboss/vfs/VirtualFile"
+338: Tag 7 Class Name index 339
+339: Tag 1 Utf8 Value "org/jboss/modules/Module"
+340: Tag 1 Utf8 Value "registerEjbInjectionPoint"
+341: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory;"
+342: Tag 1 Utf8 Value "proposedName"
+343: Tag 1 Utf8 Value "Ljava/lang/String;"
+344: Tag 1 Utf8 Value "viewDescription"
+345: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ViewDescription;"
+346: Tag 1 Utf8 Value "injectionPoint"
+347: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/InjectionPoint;"
+348: Tag 1 Utf8 Value "ejb"
+349: Tag 1 Utf8 Value "Ljavax/ejb/EJB;"
+350: Tag 1 Utf8 Value "Signature"
+351: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory<Ljava/lang/Object;>;"
+352: Tag 1 Utf8 Value "clazz"
+353: Tag 1 Utf8 Value "Ljava/lang/Class;"
+354: Tag 1 Utf8 Value "injectionPointRawType"
+355: Tag 1 Utf8 Value "c"
+356: Tag 1 Utf8 Value "found"
+357: Tag 1 Utf8 Value "view"
+358: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentView;"
+359: Tag 1 Utf8 Value "LocalVariableTypeTable"
+360: Tag 1 Utf8 Value "Ljava/lang/Class<*>;"
+361: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ViewDescription;Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory<Ljava/lang/Object;>;"
+362: Tag 1 Utf8 Value "controller"
+363: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+364: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+365: Tag 1 Utf8 Value "viewService"
+366: Tag 1 Utf8 Value "Ljava/util/Set;"
+367: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/jboss/as/ee/component/ViewDescription;>;"
+368: Tag 1 Utf8 Value "getBindInfo"
+369: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;"
+370: Tag 1 Utf8 Value "result"
+371: Tag 1 Utf8 Value "cleanup"
+372: Tag 1 Utf8 Value "type"
+373: Tag 1 Utf8 Value "Ljava/lang/reflect/Type;"
+374: Tag 1 Utf8 Value "(Ljava/lang/reflect/Type;)Ljava/lang/Class<*>;"
+375: Tag 1 Utf8 Value "createLazyResourceReferenceFactory"
+376: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ViewDescription;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory;"
+377: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ViewDescription;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory<Ljava/lang/Object;>;"
+378: Tag 1 Utf8 Value "doLookup"
+379: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;"
+380: Tag 1 Utf8 Value "e"
+381: Tag 1 Utf8 Value "Ljavax/naming/NamingException;"
+382: Tag 1 Utf8 Value "jndiName"
+383: Tag 1 Utf8 Value "propertyName"
+384: Tag 1 Utf8 Value "className"
+385: Tag 1 Utf8 Value "SourceFile"
+386: Tag 1 Utf8 Value "WeldEjbInjectionServices.java"
+387: Tag 1 Utf8 Value "InnerClasses"
+388: Tag 1 Utf8 Value "LazyResourceReferenceFactory"
+389: Tag 7 Class Name index 390
+390: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames$BindInfo"
+391: Tag 1 Utf8 Value "BindInfo"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.weld.services.bootstrap.WeldEjbInjectionServices
+
+Super class: id 2, name org.jboss.as.weld.services.bootstrap.AbstractResourceInjectionServices
+
+Implements class ids 325
+Implements names org.jboss.weld.injection.spi.EjbInjectionServices
+
+Field name applicationDescription (index 28), type Lorg/jboss/as/ee/component/EEApplicationDescription; (descriptor index 33)
+Human type: org.jboss.as.ee.component.EEApplicationDescription
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name deploymentRoot (index 30), type Lorg/jboss/vfs/VirtualFile; (descriptor index 36)
+Human type: org.jboss.vfs.VirtualFile
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name warModule (index 11), type Z (descriptor index 12)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/msc/service/ServiceRegistry;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/as/ee/component/EEApplicationDescription;Lorg/jboss/vfs/VirtualFile;Lorg/jboss/modules/Module;Z)V (descriptor index 327)
+Human type: (org.jboss.msc.service.ServiceRegistry, org.jboss.as.ee.component.EEModuleDescription, org.jboss.as.ee.component.EEApplicationDescription, org.jboss.vfs.VirtualFile, org.jboss.modules.Module, boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 274
+Method name registerEjbInjectionPoint (index 340), type (Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory; (descriptor index 341)
+Human type: (javax.enterprise.inject.spi.InjectionPoint): org.jboss.weld.injection.spi.ResourceReferenceFactory
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 326
+Method attribute name Signature, size 2
+Method name handleServiceLookup (index 96), type (Lorg/jboss/as/ee/component/ViewDescription;Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory; (descriptor index 104)
+Human type: (org.jboss.as.ee.component.ViewDescription, javax.enterprise.inject.spi.InjectionPoint): org.jboss.weld.injection.spi.ResourceReferenceFactory
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 408
+Method attribute name Signature, size 2
+Method name getComponentView (index 116), type (Lorg/jboss/as/ee/component/ViewDescription;)Lorg/jboss/as/ee/component/ComponentView; (descriptor index 117)
+Human type: (org.jboss.as.ee.component.ViewDescription): org.jboss.as.ee.component.ComponentView
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 136
+Method name getViewDescription (index 100), type (Ljavax/ejb/EJB;Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/as/ee/component/ViewDescription; (descriptor index 101)
+Human type: (javax.ejb.EJB, javax.enterprise.inject.spi.InjectionPoint): org.jboss.as.ee.component.ViewDescription
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 486
+Method name getBindInfo (index 368), type (Ljava/lang/String;)Lorg/jboss/as/naming/deployment/ContextNames$BindInfo; (descriptor index 369)
+Human type: (java.lang.String): org.jboss.as.naming.deployment.ContextNames$BindInfo
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 143
+Method name cleanup (index 371), type ()V (descriptor index 279)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 43
+Method name getType (index 136), type (Ljava/lang/reflect/Type;)Ljava/lang/Class; (descriptor index 143)
+Human type: (java.lang.reflect.Type): java.lang.Class
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 110
+Method attribute name Signature, size 2
+Method name createLazyResourceReferenceFactory (index 375), type (Lorg/jboss/as/ee/component/ViewDescription;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory; (descriptor index 376)
+Human type: (org.jboss.as.ee.component.ViewDescription): org.jboss.weld.injection.spi.ResourceReferenceFactory
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 62
+Method attribute name Signature, size 2
+Method name doLookup (index 378), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object; (descriptor index 379)
+Human type: (java.lang.String, java.lang.String): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 164
+Method name getEjbBindLocation (index 107), type (Ljavax/enterprise/inject/spi/InjectionPoint;)Ljava/lang/String; (descriptor index 108)
+Human type: (javax.enterprise.inject.spi.InjectionPoint): java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 422
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 42

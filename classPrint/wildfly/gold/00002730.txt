@@ -1,0 +1,206 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 173
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetrySubsystemDefinition"
+5: Tag 1 Utf8 Value "ATTRIBUTES"
+6: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractBoottimeAddStepHandler"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)V"
+13: Tag 10 MethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "performBoottime"
+16: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetryConfig$OpenTelemetryConfigBuilder"
+21: Tag 1 Utf8 Value "config"
+22: Tag 1 Utf8 Value "()Lorg/wildfly/extension/opentelemetry/OpenTelemetryConfig$OpenTelemetryConfigBuilder;"
+23: Tag 9 FieldRef Class index 2, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "SERVICE_NAME"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+31: Tag 1 Utf8 Value "resolveModelAttribute"
+32: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+33: Tag 10 MethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+37: Tag 1 Utf8 Value "asStringOrNull"
+38: Tag 1 Utf8 Value "()Ljava/lang/String;"
+39: Tag 10 MethodRef Class index 18, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "withServiceName"
+42: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/extension/opentelemetry/OpenTelemetryConfig$OpenTelemetryConfigBuilder;"
+43: Tag 9 FieldRef Class index 2, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 26
+45: Tag 1 Utf8 Value "EXPORTER"
+46: Tag 10 MethodRef Class index 34, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 38
+48: Tag 1 Utf8 Value "asString"
+49: Tag 10 MethodRef Class index 18, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 42
+51: Tag 1 Utf8 Value "withExporter"
+52: Tag 9 FieldRef Class index 2, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 26
+54: Tag 1 Utf8 Value "ENDPOINT"
+55: Tag 10 MethodRef Class index 18, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 42
+57: Tag 1 Utf8 Value "withEndpoint"
+58: Tag 9 FieldRef Class index 2, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 26
+60: Tag 1 Utf8 Value "SPAN_PROCESSOR_TYPE"
+61: Tag 10 MethodRef Class index 18, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 42
+63: Tag 1 Utf8 Value "withSpanProcessor"
+64: Tag 9 FieldRef Class index 2, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 26
+66: Tag 1 Utf8 Value "BATCH_DELAY"
+67: Tag 10 MethodRef Class index 34, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "asLong"
+70: Tag 1 Utf8 Value "()J"
+71: Tag 10 MethodRef Class index 18, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 74
+73: Tag 1 Utf8 Value "withBatchDelay"
+74: Tag 1 Utf8 Value "(J)Lorg/wildfly/extension/opentelemetry/OpenTelemetryConfig$OpenTelemetryConfigBuilder;"
+75: Tag 9 FieldRef Class index 2, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 26
+77: Tag 1 Utf8 Value "MAX_QUEUE_SIZE"
+78: Tag 10 MethodRef Class index 34, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "asInt"
+81: Tag 1 Utf8 Value "()I"
+82: Tag 10 MethodRef Class index 18, Name and type index 83
+83: Tag 12 NameAndType Name index 84, Description index 85
+84: Tag 1 Utf8 Value "withMaxQueueSize"
+85: Tag 1 Utf8 Value "(I)Lorg/wildfly/extension/opentelemetry/OpenTelemetryConfig$OpenTelemetryConfigBuilder;"
+86: Tag 9 FieldRef Class index 2, Name and type index 87
+87: Tag 12 NameAndType Name index 88, Description index 26
+88: Tag 1 Utf8 Value "MAX_EXPORT_BATCH_SIZE"
+89: Tag 10 MethodRef Class index 18, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 85
+91: Tag 1 Utf8 Value "withMaxExportBatchSize"
+92: Tag 9 FieldRef Class index 2, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 26
+94: Tag 1 Utf8 Value "EXPORT_TIMEOUT"
+95: Tag 10 MethodRef Class index 18, Name and type index 96
+96: Tag 12 NameAndType Name index 97, Description index 74
+97: Tag 1 Utf8 Value "withExportTimeout"
+98: Tag 9 FieldRef Class index 2, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 26
+100: Tag 1 Utf8 Value "SAMPLER"
+101: Tag 10 MethodRef Class index 18, Name and type index 102
+102: Tag 12 NameAndType Name index 103, Description index 42
+103: Tag 1 Utf8 Value "withSampler"
+104: Tag 9 FieldRef Class index 2, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 26
+106: Tag 1 Utf8 Value "RATIO"
+107: Tag 10 MethodRef Class index 34, Name and type index 108
+108: Tag 12 NameAndType Name index 109, Description index 110
+109: Tag 1 Utf8 Value "asDoubleOrNull"
+110: Tag 1 Utf8 Value "()Ljava/lang/Double;"
+111: Tag 10 MethodRef Class index 18, Name and type index 112
+112: Tag 12 NameAndType Name index 113, Description index 114
+113: Tag 1 Utf8 Value "withRatio"
+114: Tag 1 Utf8 Value "(Ljava/lang/Double;)Lorg/wildfly/extension/opentelemetry/OpenTelemetryConfig$OpenTelemetryConfigBuilder;"
+115: Tag 10 MethodRef Class index 18, Name and type index 116
+116: Tag 12 NameAndType Name index 117, Description index 118
+117: Tag 1 Utf8 Value "build"
+118: Tag 1 Utf8 Value "()Lorg/wildfly/extension/opentelemetry/OpenTelemetryConfig;"
+119: Tag 7 Class Name index 120
+120: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetryHolder"
+121: Tag 10 MethodRef Class index 119, Name and type index 122
+122: Tag 12 NameAndType Name index 11, Description index 123
+123: Tag 1 Utf8 Value "(Lorg/wildfly/extension/opentelemetry/OpenTelemetryConfig;)V"
+124: Tag 7 Class Name index 125
+125: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetrySubsystemAdd$1"
+126: Tag 10 MethodRef Class index 124, Name and type index 127
+127: Tag 12 NameAndType Name index 11, Description index 128
+128: Tag 1 Utf8 Value "(Lorg/wildfly/extension/opentelemetry/OpenTelemetrySubsystemAdd;Lorg/wildfly/extension/opentelemetry/OpenTelemetryHolder;)V"
+129: Tag 9 FieldRef Class index 130, Name and type index 131
+130: Tag 7 Class Name index 132
+131: Tag 12 NameAndType Name index 133, Description index 134
+132: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext$Stage"
+133: Tag 1 Utf8 Value "RUNTIME"
+134: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext$Stage;"
+135: Tag 11 InterfaceMethodRef Class index 136, Name and type index 137
+136: Tag 7 Class Name index 138
+137: Tag 12 NameAndType Name index 139, Description index 140
+138: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+139: Tag 1 Utf8 Value "addStep"
+140: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationContext$Stage;)V"
+141: Tag 7 Class Name index 142
+142: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetrySubsystemAdd"
+143: Tag 10 MethodRef Class index 141, Name and type index 144
+144: Tag 12 NameAndType Name index 11, Description index 145
+145: Tag 1 Utf8 Value "()V"
+146: Tag 9 FieldRef Class index 141, Name and type index 147
+147: Tag 12 NameAndType Name index 148, Description index 149
+148: Tag 1 Utf8 Value "INSTANCE"
+149: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/OpenTelemetrySubsystemAdd;"
+150: Tag 1 Utf8 Value "Code"
+151: Tag 1 Utf8 Value "LineNumberTable"
+152: Tag 1 Utf8 Value "LocalVariableTable"
+153: Tag 1 Utf8 Value "this"
+154: Tag 1 Utf8 Value "context"
+155: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+156: Tag 1 Utf8 Value "operation"
+157: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+158: Tag 1 Utf8 Value "model"
+159: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/OpenTelemetryConfig;"
+160: Tag 1 Utf8 Value "holder"
+161: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/OpenTelemetryHolder;"
+162: Tag 1 Utf8 Value "Exceptions"
+163: Tag 7 Class Name index 164
+164: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+165: Tag 1 Utf8 Value "<clinit>"
+166: Tag 1 Utf8 Value "SourceFile"
+167: Tag 1 Utf8 Value "OpenTelemetrySubsystemAdd.java"
+168: Tag 1 Utf8 Value "InnerClasses"
+169: Tag 7 Class Name index 170
+170: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/OpenTelemetryConfig"
+171: Tag 1 Utf8 Value "OpenTelemetryConfigBuilder"
+172: Tag 1 Utf8 Value "Stage"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 141, name org.wildfly.extension.opentelemetry.OpenTelemetrySubsystemAdd
+
+Super class: id 8, name org.jboss.as.controller.AbstractBoottimeAddStepHandler
+
+No interfaces
+
+Field name INSTANCE (index 148), type Lorg/wildfly/extension/opentelemetry/OpenTelemetrySubsystemAdd; (descriptor index 149)
+Human type: org.wildfly.extension.opentelemetry.OpenTelemetrySubsystemAdd
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 11), type ()V (descriptor index 145)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 54
+Method name performBoottime (index 15), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 16)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 338
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 165), type ()V (descriptor index 145)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

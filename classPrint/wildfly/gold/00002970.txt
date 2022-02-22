@@ -1,0 +1,101 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 62
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/jboss/ExternalizerAdapter"
+11: Tag 1 Utf8 Value "externalizer"
+12: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/Externalizer;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Externalizer"
+17: Tag 1 Utf8 Value "writeObject"
+18: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/lang/Object;)V"
+19: Tag 11 InterfaceMethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "readObject"
+22: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/lang/Object;"
+23: Tag 7 Class Name index 24
+24: Tag 1 Utf8 Value "org/jboss/marshalling/Externalizer"
+25: Tag 1 Utf8 Value "serialVersionUID"
+26: Tag 1 Utf8 Value "J"
+27: Tag 1 Utf8 Value "ConstantValue"
+28: Tag 5 Long Value 1714120446322944436
+30: Tag 1 Utf8 Value "Signature"
+31: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/Externalizer<Ljava/lang/Object;>;"
+32: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/Externalizer;)V"
+33: Tag 1 Utf8 Value "Code"
+34: Tag 1 Utf8 Value "LineNumberTable"
+35: Tag 1 Utf8 Value "LocalVariableTable"
+36: Tag 1 Utf8 Value "this"
+37: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/jboss/ExternalizerAdapter;"
+38: Tag 1 Utf8 Value "LocalVariableTypeTable"
+39: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/Externalizer<*>;"
+40: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/Externalizer<*>;)V"
+41: Tag 1 Utf8 Value "writeExternal"
+42: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/io/ObjectOutput;)V"
+43: Tag 1 Utf8 Value "subject"
+44: Tag 1 Utf8 Value "Ljava/lang/Object;"
+45: Tag 1 Utf8 Value "output"
+46: Tag 1 Utf8 Value "Ljava/io/ObjectOutput;"
+47: Tag 1 Utf8 Value "Exceptions"
+48: Tag 7 Class Name index 49
+49: Tag 1 Utf8 Value "java/io/IOException"
+50: Tag 1 Utf8 Value "createExternal"
+51: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/io/ObjectInput;)Ljava/lang/Object;"
+52: Tag 1 Utf8 Value "subjectType"
+53: Tag 1 Utf8 Value "Ljava/lang/Class;"
+54: Tag 1 Utf8 Value "input"
+55: Tag 1 Utf8 Value "Ljava/io/ObjectInput;"
+56: Tag 1 Utf8 Value "Ljava/lang/Class<*>;"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+59: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;Ljava/io/ObjectInput;)Ljava/lang/Object;"
+60: Tag 1 Utf8 Value "SourceFile"
+61: Tag 1 Utf8 Value "ExternalizerAdapter.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.marshalling.jboss.ExternalizerAdapter
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 23
+Implements names org.jboss.marshalling.Externalizer
+
+Field name serialVersionUID (index 25), type J (descriptor index 26)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name externalizer (index 11), type Lorg/wildfly/clustering/marshalling/Externalizer; (descriptor index 12)
+Human type: org.wildfly.clustering.marshalling.Externalizer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/marshalling/Externalizer;)V (descriptor index 32)
+Human type: (org.wildfly.clustering.marshalling.Externalizer): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method attribute name Signature, size 2
+Method name writeExternal (index 41), type (Ljava/lang/Object;Ljava/io/ObjectOutput;)V (descriptor index 42)
+Human type: (java.lang.Object, java.io.ObjectOutput): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 78
+Method attribute name Exceptions, size 4
+Method name createExternal (index 50), type (Ljava/lang/Class;Ljava/io/ObjectInput;)Ljava/lang/Object; (descriptor index 51)
+Human type: (java.lang.Class, java.io.ObjectInput): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 91
+Method attribute name Exceptions, size 6
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2

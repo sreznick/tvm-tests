@@ -1,0 +1,107 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 56
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/SessionCreationMetaDataEntry"
+5: Tag 1 Utf8 Value "getMetaData"
+6: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData;"
+7: Tag 10 MethodRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "getLocalContext"
+10: Tag 1 Utf8 Value "()Ljava/util/concurrent/atomic/AtomicReference;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/CompositeSessionMetaDataEntry"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData;Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData;Ljava/util/concurrent/atomic/AtomicReference;)V"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 15, Description index 21
+20: Tag 1 Utf8 Value "java/lang/Object"
+21: Tag 1 Utf8 Value "()V"
+22: Tag 9 FieldRef Class index 12, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "creationMetaData"
+25: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData;"
+26: Tag 9 FieldRef Class index 12, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "accessMetaData"
+29: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData;"
+30: Tag 9 FieldRef Class index 12, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "localContext"
+33: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicReference;"
+34: Tag 1 Utf8 Value "Signature"
+35: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicReference<TL;>;"
+36: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaDataEntry;Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData;)V"
+37: Tag 1 Utf8 Value "Code"
+38: Tag 1 Utf8 Value "LineNumberTable"
+39: Tag 1 Utf8 Value "LocalVariableTable"
+40: Tag 1 Utf8 Value "this"
+41: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/CompositeSessionMetaDataEntry;"
+42: Tag 1 Utf8 Value "creationMetaDataEntry"
+43: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaDataEntry;"
+44: Tag 1 Utf8 Value "LocalVariableTypeTable"
+45: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/CompositeSessionMetaDataEntry<TL;>;"
+46: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaDataEntry<TL;>;"
+47: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaDataEntry<TL;>;Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData;)V"
+48: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData;Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData;Ljava/util/concurrent/atomic/AtomicReference<TL;>;)V"
+49: Tag 1 Utf8 Value "getCreationMetaData"
+50: Tag 1 Utf8 Value "getAccessMetaData"
+51: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData;"
+52: Tag 1 Utf8 Value "()Ljava/util/concurrent/atomic/AtomicReference<TL;>;"
+53: Tag 1 Utf8 Value "<L:Ljava/lang/Object;>Ljava/lang/Object;"
+54: Tag 1 Utf8 Value "SourceFile"
+55: Tag 1 Utf8 Value "CompositeSessionMetaDataEntry.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 12, name org.wildfly.clustering.web.cache.session.CompositeSessionMetaDataEntry
+
+Super class: id 18, name java.lang.Object
+
+No interfaces
+
+Field name creationMetaData (index 24), type Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData; (descriptor index 25)
+Human type: org.wildfly.clustering.web.cache.session.SessionCreationMetaData
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name accessMetaData (index 28), type Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData; (descriptor index 29)
+Human type: org.wildfly.clustering.web.cache.session.SessionAccessMetaData
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name localContext (index 32), type Ljava/util/concurrent/atomic/AtomicReference; (descriptor index 33)
+Human type: java.util.concurrent.atomic.AtomicReference
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 15), type (Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaDataEntry;Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData;)V (descriptor index 36)
+Human type: (org.wildfly.clustering.web.cache.session.SessionCreationMetaDataEntry, org.wildfly.clustering.web.cache.session.SessionAccessMetaData): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 108
+Method attribute name Signature, size 2
+Method name <init> (index 15), type (Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData;Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData;Ljava/util/concurrent/atomic/AtomicReference;)V (descriptor index 16)
+Human type: (org.wildfly.clustering.web.cache.session.SessionCreationMetaData, org.wildfly.clustering.web.cache.session.SessionAccessMetaData, java.util.concurrent.atomic.AtomicReference): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 136
+Method attribute name Signature, size 2
+Method name getCreationMetaData (index 49), type ()Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData; (descriptor index 6)
+Human type: (): org.wildfly.clustering.web.cache.session.SessionCreationMetaData
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name getAccessMetaData (index 50), type ()Lorg/wildfly/clustering/web/cache/session/SessionAccessMetaData; (descriptor index 51)
+Human type: (): org.wildfly.clustering.web.cache.session.SessionAccessMetaData
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name getLocalContext (index 9), type ()Ljava/util/concurrent/atomic/AtomicReference; (descriptor index 10)
+Human type: (): java.util.concurrent.atomic.AtomicReference
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

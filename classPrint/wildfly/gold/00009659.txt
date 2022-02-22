@@ -1,0 +1,299 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 268
+1: Tag 10 MethodRef Class index 72, Name and type index 125
+2: Tag 7 Class Name index 126
+3: Tag 10 MethodRef Class index 2, Name and type index 127
+4: Tag 10 MethodRef Class index 96, Name and type index 128
+5: Tag 7 Class Name index 129
+6: Tag 9 FieldRef Class index 130, Name and type index 131
+7: Tag 10 MethodRef Class index 5, Name and type index 132
+8: Tag 8 String Contents 133
+9: Tag 8 String Contents 134
+10: Tag 10 MethodRef Class index 5, Name and type index 135
+11: Tag 8 String Contents 136
+12: Tag 8 String Contents 137
+13: Tag 8 String Contents 138
+14: Tag 10 MethodRef Class index 5, Name and type index 139
+15: Tag 7 Class Name index 140
+16: Tag 10 MethodRef Class index 141, Name and type index 142
+17: Tag 10 MethodRef Class index 143, Name and type index 144
+18: Tag 10 MethodRef Class index 15, Name and type index 145
+19: Tag 8 String Contents 146
+20: Tag 10 MethodRef Class index 147, Name and type index 148
+21: Tag 10 MethodRef Class index 147, Name and type index 149
+22: Tag 10 MethodRef Class index 96, Name and type index 150
+23: Tag 7 Class Name index 151
+24: Tag 10 MethodRef Class index 23, Name and type index 152
+25: Tag 10 MethodRef Class index 71, Name and type index 153
+26: Tag 7 Class Name index 154
+27: Tag 10 MethodRef Class index 26, Name and type index 155
+28: Tag 10 MethodRef Class index 156, Name and type index 157
+29: Tag 11 InterfaceMethodRef Class index 122, Name and type index 158
+30: Tag 10 MethodRef Class index 159, Name and type index 160
+31: Tag 5 Long Value 1000
+33: Tag 10 MethodRef Class index 156, Name and type index 161
+34: Tag 8 String Contents 162
+35: Tag 11 InterfaceMethodRef Class index 163, Name and type index 164
+36: Tag 8 String Contents 165
+37: Tag 8 String Contents 166
+38: Tag 8 String Contents 167
+39: Tag 8 String Contents 168
+40: Tag 8 String Contents 169
+41: Tag 8 String Contents 105
+42: Tag 11 InterfaceMethodRef Class index 122, Name and type index 170
+43: Tag 11 InterfaceMethodRef Class index 163, Name and type index 171
+44: Tag 8 String Contents 104
+45: Tag 8 String Contents 172
+46: Tag 10 MethodRef Class index 173, Name and type index 174
+47: Tag 10 MethodRef Class index 173, Name and type index 175
+48: Tag 8 String Contents 176
+49: Tag 11 InterfaceMethodRef Class index 163, Name and type index 177
+50: Tag 8 String Contents 178
+51: Tag 5 Long Value 14400
+53: Tag 7 Class Name index 179
+54: Tag 7 Class Name index 181
+55: Tag 9 FieldRef Class index 184, Name and type index 185
+56: Tag 10 MethodRef Class index 54, Name and type index 186
+57: Tag 7 Class Name index 187
+58: Tag 8 String Contents 188
+59: Tag 10 MethodRef Class index 57, Name and type index 127
+60: Tag 10 MethodRef Class index 54, Name and type index 189
+61: Tag 8 String Contents 190
+62: Tag 10 MethodRef Class index 54, Name and type index 191
+63: Tag 10 MethodRef Class index 54, Name and type index 192
+64: Tag 7 Class Name index 193
+65: Tag 11 InterfaceMethodRef Class index 163, Name and type index 194
+66: Tag 10 MethodRef Class index 72, Name and type index 175
+67: Tag 10 MethodRef Class index 64, Name and type index 127
+68: Tag 10 MethodRef Class index 53, Name and type index 195
+69: Tag 10 MethodRef Class index 53, Name and type index 196
+70: Tag 10 MethodRef Class index 53, Name and type index 197
+71: Tag 7 Class Name index 198
+72: Tag 7 Class Name index 199
+73: Tag 1 Utf8 Value "<init>"
+74: Tag 1 Utf8 Value "()V"
+75: Tag 1 Utf8 Value "Code"
+76: Tag 1 Utf8 Value "LineNumberTable"
+77: Tag 1 Utf8 Value "LocalVariableTable"
+78: Tag 1 Utf8 Value "this"
+79: Tag 1 Utf8 Value "Lorg/wildfly/test/microprofile/jwt/TokenUtil;"
+80: Tag 1 Utf8 Value "loadPrivateKey"
+81: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/security/PrivateKey;"
+82: Tag 1 Utf8 Value "contents"
+83: Tag 1 Utf8 Value "[B"
+84: Tag 1 Utf8 Value "length"
+85: Tag 1 Utf8 Value "I"
+86: Tag 1 Utf8 Value "rawKey"
+87: Tag 1 Utf8 Value "Ljava/lang/String;"
+88: Tag 1 Utf8 Value "keySpec"
+89: Tag 1 Utf8 Value "Ljava/security/spec/PKCS8EncodedKeySpec;"
+90: Tag 1 Utf8 Value "keyFactory"
+91: Tag 1 Utf8 Value "Ljava/security/KeyFactory;"
+92: Tag 1 Utf8 Value "is"
+93: Tag 1 Utf8 Value "Ljava/io/InputStream;"
+94: Tag 1 Utf8 Value "fileName"
+95: Tag 1 Utf8 Value "StackMapTable"
+96: Tag 7 Class Name index 200
+97: Tag 1 Utf8 Value "Exceptions"
+98: Tag 7 Class Name index 201
+99: Tag 1 Utf8 Value "generateJWT"
+100: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;"
+101: Tag 1 Utf8 Value "group"
+102: Tag 1 Utf8 Value "keyLocation"
+103: Tag 1 Utf8 Value "principal"
+104: Tag 1 Utf8 Value "birthdate"
+105: Tag 1 Utf8 Value "groups"
+106: Tag 1 Utf8 Value "[Ljava/lang/String;"
+107: Tag 1 Utf8 Value "privateKey"
+108: Tag 1 Utf8 Value "Ljava/security/PrivateKey;"
+109: Tag 1 Utf8 Value "signer"
+110: Tag 1 Utf8 Value "Lcom/nimbusds/jose/JWSSigner;"
+111: Tag 1 Utf8 Value "groupsBuilder"
+112: Tag 1 Utf8 Value "Ljavax/json/JsonArrayBuilder;"
+113: Tag 1 Utf8 Value "currentTime"
+114: Tag 1 Utf8 Value "J"
+115: Tag 1 Utf8 Value "claimsBuilder"
+116: Tag 1 Utf8 Value "Ljavax/json/JsonObjectBuilder;"
+117: Tag 1 Utf8 Value "jwsObject"
+118: Tag 1 Utf8 Value "Lcom/nimbusds/jose/JWSObject;"
+119: Tag 7 Class Name index 106
+120: Tag 7 Class Name index 202
+121: Tag 7 Class Name index 203
+122: Tag 7 Class Name index 204
+123: Tag 1 Utf8 Value "SourceFile"
+124: Tag 1 Utf8 Value "TokenUtil.java"
+125: Tag 12 NameAndType Name index 73, Description index 74
+126: Tag 1 Utf8 Value "java/io/FileInputStream"
+127: Tag 12 NameAndType Name index 73, Description index 205
+128: Tag 12 NameAndType Name index 206, Description index 207
+129: Tag 1 Utf8 Value "java/lang/String"
+130: Tag 7 Class Name index 208
+131: Tag 12 NameAndType Name index 209, Description index 210
+132: Tag 12 NameAndType Name index 73, Description index 211
+133: Tag 1 Utf8 Value "-----BEGIN (.*)-----"
+134: Tag 1 Utf8 Value ""
+135: Tag 12 NameAndType Name index 212, Description index 213
+136: Tag 1 Utf8 Value "-----END (.*)----"
+137: Tag 1 Utf8 Value "
+"
+138: Tag 1 Utf8 Value "
+"
+139: Tag 12 NameAndType Name index 214, Description index 215
+140: Tag 1 Utf8 Value "java/security/spec/PKCS8EncodedKeySpec"
+141: Tag 7 Class Name index 216
+142: Tag 12 NameAndType Name index 217, Description index 219
+143: Tag 7 Class Name index 220
+144: Tag 12 NameAndType Name index 221, Description index 222
+145: Tag 12 NameAndType Name index 73, Description index 223
+146: Tag 1 Utf8 Value "RSA"
+147: Tag 7 Class Name index 224
+148: Tag 12 NameAndType Name index 225, Description index 226
+149: Tag 12 NameAndType Name index 227, Description index 228
+150: Tag 12 NameAndType Name index 229, Description index 74
+151: Tag 1 Utf8 Value "java/lang/Throwable"
+152: Tag 12 NameAndType Name index 230, Description index 231
+153: Tag 12 NameAndType Name index 80, Description index 81
+154: Tag 1 Utf8 Value "com/nimbusds/jose/crypto/RSASSASigner"
+155: Tag 12 NameAndType Name index 73, Description index 232
+156: Tag 7 Class Name index 233
+157: Tag 12 NameAndType Name index 234, Description index 235
+158: Tag 12 NameAndType Name index 236, Description index 237
+159: Tag 7 Class Name index 238
+160: Tag 12 NameAndType Name index 239, Description index 240
+161: Tag 12 NameAndType Name index 241, Description index 242
+162: Tag 1 Utf8 Value "sub"
+163: Tag 7 Class Name index 243
+164: Tag 12 NameAndType Name index 236, Description index 244
+165: Tag 1 Utf8 Value "upn"
+166: Tag 1 Utf8 Value "iss"
+167: Tag 1 Utf8 Value "quickstart-jwt-issuer"
+168: Tag 1 Utf8 Value "aud"
+169: Tag 1 Utf8 Value "jwt-audience"
+170: Tag 12 NameAndType Name index 245, Description index 246
+171: Tag 12 NameAndType Name index 236, Description index 247
+172: Tag 1 Utf8 Value "jti"
+173: Tag 7 Class Name index 248
+174: Tag 12 NameAndType Name index 249, Description index 250
+175: Tag 12 NameAndType Name index 251, Description index 215
+176: Tag 1 Utf8 Value "iat"
+177: Tag 12 NameAndType Name index 236, Description index 252
+178: Tag 1 Utf8 Value "exp"
+179: Tag 1 Utf8 Value "com/nimbusds/jose/JWSObject"
+180: Tag 7 Class Name index 253
+181: Tag 1 Utf8 Value "com/nimbusds/jose/JWSHeader$Builder"
+182: Tag 1 Utf8 Value "Builder"
+183: Tag 1 Utf8 Value "InnerClasses"
+184: Tag 7 Class Name index 254
+185: Tag 12 NameAndType Name index 255, Description index 256
+186: Tag 12 NameAndType Name index 73, Description index 257
+187: Tag 1 Utf8 Value "com/nimbusds/jose/JOSEObjectType"
+188: Tag 1 Utf8 Value "jwt"
+189: Tag 12 NameAndType Name index 258, Description index 259
+190: Tag 1 Utf8 Value "Test Key"
+191: Tag 12 NameAndType Name index 260, Description index 261
+192: Tag 12 NameAndType Name index 245, Description index 262
+193: Tag 1 Utf8 Value "com/nimbusds/jose/Payload"
+194: Tag 12 NameAndType Name index 245, Description index 263
+195: Tag 12 NameAndType Name index 73, Description index 264
+196: Tag 12 NameAndType Name index 265, Description index 266
+197: Tag 12 NameAndType Name index 267, Description index 215
+198: Tag 1 Utf8 Value "org/wildfly/test/microprofile/jwt/TokenUtil"
+199: Tag 1 Utf8 Value "java/lang/Object"
+200: Tag 1 Utf8 Value "java/io/InputStream"
+201: Tag 1 Utf8 Value "java/lang/Exception"
+202: Tag 1 Utf8 Value "java/security/PrivateKey"
+203: Tag 1 Utf8 Value "com/nimbusds/jose/JWSSigner"
+204: Tag 1 Utf8 Value "javax/json/JsonArrayBuilder"
+205: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+206: Tag 1 Utf8 Value "read"
+207: Tag 1 Utf8 Value "([B)I"
+208: Tag 1 Utf8 Value "java/nio/charset/StandardCharsets"
+209: Tag 1 Utf8 Value "UTF_8"
+210: Tag 1 Utf8 Value "Ljava/nio/charset/Charset;"
+211: Tag 1 Utf8 Value "([BIILjava/nio/charset/Charset;)V"
+212: Tag 1 Utf8 Value "replaceAll"
+213: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+214: Tag 1 Utf8 Value "trim"
+215: Tag 1 Utf8 Value "()Ljava/lang/String;"
+216: Tag 1 Utf8 Value "java/util/Base64"
+217: Tag 1 Utf8 Value "getDecoder"
+218: Tag 1 Utf8 Value "Decoder"
+219: Tag 1 Utf8 Value "()Ljava/util/Base64$Decoder;"
+220: Tag 1 Utf8 Value "java/util/Base64$Decoder"
+221: Tag 1 Utf8 Value "decode"
+222: Tag 1 Utf8 Value "(Ljava/lang/String;)[B"
+223: Tag 1 Utf8 Value "([B)V"
+224: Tag 1 Utf8 Value "java/security/KeyFactory"
+225: Tag 1 Utf8 Value "getInstance"
+226: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/security/KeyFactory;"
+227: Tag 1 Utf8 Value "generatePrivate"
+228: Tag 1 Utf8 Value "(Ljava/security/spec/KeySpec;)Ljava/security/PrivateKey;"
+229: Tag 1 Utf8 Value "close"
+230: Tag 1 Utf8 Value "addSuppressed"
+231: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+232: Tag 1 Utf8 Value "(Ljava/security/PrivateKey;)V"
+233: Tag 1 Utf8 Value "javax/json/Json"
+234: Tag 1 Utf8 Value "createArrayBuilder"
+235: Tag 1 Utf8 Value "()Ljavax/json/JsonArrayBuilder;"
+236: Tag 1 Utf8 Value "add"
+237: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/json/JsonArrayBuilder;"
+238: Tag 1 Utf8 Value "java/lang/System"
+239: Tag 1 Utf8 Value "currentTimeMillis"
+240: Tag 1 Utf8 Value "()J"
+241: Tag 1 Utf8 Value "createObjectBuilder"
+242: Tag 1 Utf8 Value "()Ljavax/json/JsonObjectBuilder;"
+243: Tag 1 Utf8 Value "javax/json/JsonObjectBuilder"
+244: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljavax/json/JsonObjectBuilder;"
+245: Tag 1 Utf8 Value "build"
+246: Tag 1 Utf8 Value "()Ljavax/json/JsonArray;"
+247: Tag 1 Utf8 Value "(Ljava/lang/String;Ljavax/json/JsonValue;)Ljavax/json/JsonObjectBuilder;"
+248: Tag 1 Utf8 Value "java/util/UUID"
+249: Tag 1 Utf8 Value "randomUUID"
+250: Tag 1 Utf8 Value "()Ljava/util/UUID;"
+251: Tag 1 Utf8 Value "toString"
+252: Tag 1 Utf8 Value "(Ljava/lang/String;J)Ljavax/json/JsonObjectBuilder;"
+253: Tag 1 Utf8 Value "com/nimbusds/jose/JWSHeader"
+254: Tag 1 Utf8 Value "com/nimbusds/jose/JWSAlgorithm"
+255: Tag 1 Utf8 Value "RS256"
+256: Tag 1 Utf8 Value "Lcom/nimbusds/jose/JWSAlgorithm;"
+257: Tag 1 Utf8 Value "(Lcom/nimbusds/jose/JWSAlgorithm;)V"
+258: Tag 1 Utf8 Value "type"
+259: Tag 1 Utf8 Value "(Lcom/nimbusds/jose/JOSEObjectType;)Lcom/nimbusds/jose/JWSHeader$Builder;"
+260: Tag 1 Utf8 Value "keyID"
+261: Tag 1 Utf8 Value "(Ljava/lang/String;)Lcom/nimbusds/jose/JWSHeader$Builder;"
+262: Tag 1 Utf8 Value "()Lcom/nimbusds/jose/JWSHeader;"
+263: Tag 1 Utf8 Value "()Ljavax/json/JsonObject;"
+264: Tag 1 Utf8 Value "(Lcom/nimbusds/jose/JWSHeader;Lcom/nimbusds/jose/Payload;)V"
+265: Tag 1 Utf8 Value "sign"
+266: Tag 1 Utf8 Value "(Lcom/nimbusds/jose/JWSSigner;)V"
+267: Tag 1 Utf8 Value "serialize"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 71, name org.wildfly.test.microprofile.jwt.TokenUtil
+
+Super class: id 72, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name <init> (index 73), type ()V (descriptor index 74)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name loadPrivateKey (index 80), type (Ljava/lang/String;)Ljava/security/PrivateKey; (descriptor index 81)
+Human type: (java.lang.String): java.security.PrivateKey
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 337
+Method attribute name Exceptions, size 4
+Method name generateJWT (index 99), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String; (descriptor index 100)
+Human type: (java.lang.String, java.lang.String, java.lang.String, java.lang.String[]): java.lang.String
+Flags: decimal 137, hex 0089, binary 0000000010001001 public static varargs
+Method attribute name Code, size 507
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

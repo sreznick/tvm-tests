@@ -1,0 +1,362 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 179
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/messaging/logging/MessagingLogger"
+3: Tag 8 String Contents 4
+4: Tag 1 Utf8 Value "org.jboss.as.messaging"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+9: Tag 1 Utf8 Value "getMessageLogger"
+10: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+11: Tag 9 FieldRef Class index 1, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "ROOT_LOGGER"
+14: Tag 1 Utf8 Value "Lorg/jboss/as/messaging/logging/MessagingLogger;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/lang/Object"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+19: Tag 1 Utf8 Value "deprecatedXMLElement"
+20: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+21: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+22: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+23: Tag 1 Utf8 Value "level"
+24: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+25: Tag 1 Utf8 Value "WARN"
+26: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+27: Tag 1 Utf8 Value "id"
+28: Tag 3 Integer Value 9, hex: 0x9
+29: Tag 1 Utf8 Value "value"
+30: Tag 1 Utf8 Value "Element %s is deprecated and will not be taken into account"
+31: Tag 1 Utf8 Value "deprecatedXMLAttribute"
+32: Tag 3 Integer Value 10, hex: 0xa
+33: Tag 1 Utf8 Value "Attribute %s is deprecated and will not be taken into account"
+34: Tag 1 Utf8 Value "deprecatedAttribute"
+35: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)V"
+36: Tag 3 Integer Value 13, hex: 0xd
+37: Tag 1 Utf8 Value "Attribute %s of the resource at %s is deprecated and setting its value will not be taken into account"
+38: Tag 1 Utf8 Value "canNotChangeClusteredAttribute"
+39: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String;"
+40: Tag 3 Integer Value 14, hex: 0xe
+41: Tag 1 Utf8 Value "Can not change the clustered attribute to false: The hornetq-server resource at %s has cluster-connection children resources and will remain clustered."
+42: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+43: Tag 3 Integer Value 17, hex: 0x11
+44: Tag 1 Utf8 Value "Element %s is deprecated and %s will be used in its place"
+45: Tag 1 Utf8 Value "altAttributeAlreadyDefined"
+46: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+47: Tag 3 Integer Value 19, hex: 0x13
+48: Tag 1 Utf8 Value "Alternative attribute of (%s) is already defined."
+49: Tag 1 Utf8 Value "attributeDefinitionsMustMatch"
+50: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+51: Tag 3 Integer Value 20, hex: 0x14
+52: Tag 1 Utf8 Value "All attribute definitions must have the same xml name -- found %s but already had %s"
+53: Tag 1 Utf8 Value "attributeDefinitionsNotUnique"
+54: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+55: Tag 3 Integer Value 21, hex: 0x15
+56: Tag 1 Utf8 Value "All attribute definitions must have unique names -- already found %s"
+57: Tag 1 Utf8 Value "cannotIncludeOperationParameters"
+58: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+59: Tag 3 Integer Value 23, hex: 0x17
+60: Tag 1 Utf8 Value "Operation cannot include both parameter %s and parameter %s"
+61: Tag 1 Utf8 Value "ignoringUnhandledElement"
+62: Tag 1 Utf8 Value "(Lorg/jboss/as/messaging/Element;Ljava/lang/String;)Ljavax/xml/stream/XMLStreamException;"
+63: Tag 3 Integer Value 34, hex: 0x22
+64: Tag 1 Utf8 Value "Ignoring unhandled element: %s, at: %s"
+65: Tag 1 Utf8 Value "illegalElement"
+66: Tag 3 Integer Value 35, hex: 0x23
+67: Tag 1 Utf8 Value "Illegal element %s: cannot be used when %s is used"
+68: Tag 1 Utf8 Value "illegalValue"
+69: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;"
+70: Tag 3 Integer Value 36, hex: 0x24
+71: Tag 1 Utf8 Value "Illegal value %s for element %s"
+72: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Ljava/lang/String;"
+73: Tag 3 Integer Value -1, hex: 0xffffffff
+74: Tag 1 Utf8 Value "Illegal value %s for element %s as it could not be converted to required type %s"
+75: Tag 1 Utf8 Value "invalid"
+76: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/String;"
+77: Tag 3 Integer Value 38, hex: 0x26
+78: Tag 1 Utf8 Value "%s is invalid"
+79: Tag 1 Utf8 Value "invalidOperationParameters"
+80: Tag 3 Integer Value 40, hex: 0x28
+81: Tag 1 Utf8 Value "Operation must include parameter %s or parameter %s"
+82: Tag 1 Utf8 Value "multipleChildrenFound"
+83: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+84: Tag 3 Integer Value 44, hex: 0x2c
+85: Tag 1 Utf8 Value "Multiple %s children found; only one is allowed"
+86: Tag 1 Utf8 Value "required"
+87: Tag 3 Integer Value 45, hex: 0x2d
+88: Tag 1 Utf8 Value "%s is required"
+89: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String;"
+90: Tag 3 Integer Value 46, hex: 0x2e
+91: Tag 1 Utf8 Value "Either %s or %s is required"
+92: Tag 1 Utf8 Value "unsupportedElement"
+93: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/UnsupportedOperationException;"
+94: Tag 3 Integer Value 51, hex: 0x33
+95: Tag 1 Utf8 Value "Implement support for element %s"
+96: Tag 1 Utf8 Value "onlyOneRequired"
+97: Tag 3 Integer Value 59, hex: 0x3b
+98: Tag 1 Utf8 Value "Only one of %s or %s is required"
+99: Tag 1 Utf8 Value "wrongConnectorRefInBroadCastGroup"
+100: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/util/Collection;)Lorg/jboss/as/controller/OperationFailedException;"
+101: Tag 1 Utf8 Value "Signature"
+102: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/util/Collection<Ljava/lang/String;>;)Lorg/jboss/as/controller/OperationFailedException;"
+103: Tag 3 Integer Value 67, hex: 0x43
+104: Tag 1 Utf8 Value "The broadcast group '%s' defines reference to nonexistent connector '%s'. Available connectors '%s'."
+105: Tag 1 Utf8 Value "undefineAttributeWithoutAlternative"
+106: Tag 3 Integer Value 69, hex: 0x45
+107: Tag 1 Utf8 Value "Attribute (%s) can not been undefined as the resource does not define any alternative to this attribute."
+108: Tag 1 Utf8 Value "inconsistentStatisticsSettings"
+109: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+110: Tag 3 Integer Value 70, hex: 0x46
+111: Tag 1 Utf8 Value "Attributes %s is an alias for attribute %s; both cannot be set with conflicting values."
+112: Tag 1 Utf8 Value "noMatchingExpiryAddress"
+113: Tag 3 Integer Value 71, hex: 0x47
+114: Tag 1 Utf8 Value "There is no resource matching the expiry-address %s for the address-settings %s, expired messages from destinations matching this address-setting will be lost!"
+115: Tag 1 Utf8 Value "noMatchingDeadLetterAddress"
+116: Tag 3 Integer Value 72, hex: 0x48
+117: Tag 1 Utf8 Value "There is no resource matching the dead-letter-address %s for the address-settings %s, undelivered messages from destinations matching this address-setting will be lost!"
+118: Tag 1 Utf8 Value "duplicateElements"
+119: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/OperationFailedException;"
+120: Tag 3 Integer Value 76, hex: 0x4c
+121: Tag 1 Utf8 Value "Parameter %s contains duplicate elements [%s]"
+122: Tag 1 Utf8 Value "migrateOperationAllowedOnlyInAdminOnly"
+123: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/OperationFailedException;"
+124: Tag 3 Integer Value 79, hex: 0x4f
+125: Tag 1 Utf8 Value "The migrate operation can not be performed: the server must be in admin-only mode"
+126: Tag 1 Utf8 Value "couldNotMigrateBroadcastGroupAttribute"
+127: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String;"
+128: Tag 3 Integer Value 80, hex: 0x50
+129: Tag 1 Utf8 Value "Can not migrate attribute %s to resource %s. Use instead the socket-binding attribute to configure this broadcast-group."
+130: Tag 1 Utf8 Value "migrationFailed"
+131: Tag 1 Utf8 Value "()Ljava/lang/String;"
+132: Tag 3 Integer Value 81, hex: 0x51
+133: Tag 1 Utf8 Value "Migration failed, see results for more details."
+134: Tag 1 Utf8 Value "couldNotMigrateInterceptors"
+135: Tag 3 Integer Value 82, hex: 0x52
+136: Tag 1 Utf8 Value "Classes providing the %s are discarded during the migration. To use them in the new messaging-activemq subsystem, you will have to extend the Artemis-based Interceptor."
+137: Tag 1 Utf8 Value "couldNotMigrateHA"
+138: Tag 3 Integer Value 83, hex: 0x53
+139: Tag 1 Utf8 Value "Can not migrate the HA configuration of %s. Its shared-store and backup attributes holds expressions and it is not possible to determine unambiguously how to create the corresponding ha-policy for the messaging-activemq's server."
+140: Tag 1 Utf8 Value "couldNotMigrateDiscoveryGroupAttribute"
+141: Tag 3 Integer Value 84, hex: 0x54
+142: Tag 1 Utf8 Value "Can not migrate attribute %s to resource %s. Use instead the socket-binding attribute to configure this discovery-group."
+143: Tag 1 Utf8 Value "couldNotCreateLegacyConnectionFactoryUsingInVMConnector"
+144: Tag 3 Integer Value 85, hex: 0x55
+145: Tag 1 Utf8 Value "Can not create a legacy-connection-factory based on connection-factory %s. It uses a HornetQ in-vm connector that is not compatible with Artemis in-vm connector "
+146: Tag 1 Utf8 Value "couldNotMigrateResourceAttributeWithExpression"
+147: Tag 3 Integer Value 86, hex: 0x56
+148: Tag 1 Utf8 Value "Can not migrate attribute %s to resource %s. The attribute uses an expression that can be resolved differently depending on system properties. After migration, this attribute must be added back with an actual value instead of the expression."
+149: Tag 1 Utf8 Value "couldNotMigrateUnsupportedAttribute"
+150: Tag 3 Integer Value 87, hex: 0x57
+151: Tag 1 Utf8 Value "Can not migrate attribute %s to resource %s. This attribute is not supported by the new messaging-activemq subsystem."
+152: Tag 1 Utf8 Value "couldNotMigrateFailbackDelayAttribute"
+153: Tag 3 Integer Value 88, hex: 0x58
+154: Tag 1 Utf8 Value "Can not migrate attribute failback-delay to resource %s. Artemis detects failback deterministically and it no longer requires to specify a delay for failback to occur."
+155: Tag 1 Utf8 Value "couldNotMigrateDiscoveryGroup"
+156: Tag 3 Integer Value 89, hex: 0x59
+157: Tag 1 Utf8 Value "Can not migrate discovery group %s as no network configuration is properly defined."
+158: Tag 1 Utf8 Value "couldNotMigrateBroadcastGroup"
+159: Tag 3 Integer Value 90, hex: 0x5a
+160: Tag 1 Utf8 Value "Can not migrate broadcast group %s as no network configuration is properly defined."
+161: Tag 1 Utf8 Value "couldNotMigrateBroadcastGroupWithoutConnectors"
+162: Tag 3 Integer Value 91, hex: 0x5b
+163: Tag 1 Utf8 Value "Can not migrate broadcast group %s as no connector is properly defined."
+164: Tag 1 Utf8 Value "<clinit>"
+165: Tag 1 Utf8 Value "()V"
+166: Tag 1 Utf8 Value "Code"
+167: Tag 1 Utf8 Value "LineNumberTable"
+168: Tag 1 Utf8 Value "SourceFile"
+169: Tag 1 Utf8 Value "MessagingLogger.java"
+170: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+171: Tag 1 Utf8 Value "projectCode"
+172: Tag 1 Utf8 Value "WFLYMSG"
+173: Tag 1 Utf8 Value "length"
+174: Tag 3 Integer Value 4, hex: 0x4
+175: Tag 1 Utf8 Value "InnerClasses"
+176: Tag 7 Class Name index 177
+177: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+178: Tag 1 Utf8 Value "Level"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.jboss.as.messaging.logging.MessagingLogger
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 17
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 13), type Lorg/jboss/as/messaging/logging/MessagingLogger; (descriptor index 14)
+Human type: org.jboss.as.messaging.logging.MessagingLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name deprecatedXMLElement (index 19), type (Ljava/lang/String;)V (descriptor index 20)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name deprecatedXMLAttribute (index 31), type (Ljava/lang/String;)V (descriptor index 20)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name deprecatedAttribute (index 34), type (Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)V (descriptor index 35)
+Human type: (java.lang.String, org.jboss.as.controller.PathAddress): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name canNotChangeClusteredAttribute (index 38), type (Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 39)
+Human type: (org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name deprecatedXMLElement (index 19), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 42)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name altAttributeAlreadyDefined (index 45), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 46)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name attributeDefinitionsMustMatch (index 49), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 50)
+Human type: (java.lang.String, java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name attributeDefinitionsNotUnique (index 53), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 54)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotIncludeOperationParameters (index 57), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; (descriptor index 58)
+Human type: (java.lang.String, java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name ignoringUnhandledElement (index 61), type (Lorg/jboss/as/messaging/Element;Ljava/lang/String;)Ljavax/xml/stream/XMLStreamException; (descriptor index 62)
+Human type: (org.jboss.as.messaging.Element, java.lang.String): javax.xml.stream.XMLStreamException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name illegalElement (index 65), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; (descriptor index 58)
+Human type: (java.lang.String, java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name illegalValue (index 68), type (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String; (descriptor index 69)
+Human type: (java.lang.Object, java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name illegalValue (index 68), type (Ljava/lang/Object;Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Ljava/lang/String; (descriptor index 72)
+Human type: (java.lang.Object, java.lang.String, org.jboss.dmr.ModelType): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalid (index 75), type (Ljava/lang/Object;)Ljava/lang/String; (descriptor index 76)
+Human type: (java.lang.Object): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidOperationParameters (index 79), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; (descriptor index 58)
+Human type: (java.lang.String, java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name multipleChildrenFound (index 82), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 83)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name required (index 86), type (Ljava/lang/Object;)Ljava/lang/String; (descriptor index 76)
+Human type: (java.lang.Object): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name required (index 86), type (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String; (descriptor index 89)
+Human type: (java.lang.Object, java.lang.Object): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unsupportedElement (index 92), type (Ljava/lang/String;)Ljava/lang/UnsupportedOperationException; (descriptor index 93)
+Human type: (java.lang.String): java.lang.UnsupportedOperationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name onlyOneRequired (index 96), type (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/String; (descriptor index 89)
+Human type: (java.lang.Object, java.lang.Object): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name wrongConnectorRefInBroadCastGroup (index 99), type (Ljava/lang/String;Ljava/lang/String;Ljava/util/Collection;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 100)
+Human type: (java.lang.String, java.lang.String, java.util.Collection): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name undefineAttributeWithoutAlternative (index 105), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 46)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name inconsistentStatisticsSettings (index 108), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 109)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name noMatchingExpiryAddress (index 112), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 42)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name noMatchingDeadLetterAddress (index 115), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 42)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name duplicateElements (index 118), type (Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 119)
+Human type: (java.lang.String, org.jboss.dmr.ModelNode): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name migrateOperationAllowedOnlyInAdminOnly (index 122), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 123)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateBroadcastGroupAttribute (index 126), type (Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 127)
+Human type: (java.lang.String, org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name migrationFailed (index 130), type ()Ljava/lang/String; (descriptor index 131)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateInterceptors (index 134), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 46)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateHA (index 137), type (Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 39)
+Human type: (org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateDiscoveryGroupAttribute (index 140), type (Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 127)
+Human type: (java.lang.String, org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotCreateLegacyConnectionFactoryUsingInVMConnector (index 143), type (Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 39)
+Human type: (org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateResourceAttributeWithExpression (index 146), type (Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 127)
+Human type: (java.lang.String, org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateUnsupportedAttribute (index 149), type (Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 127)
+Human type: (java.lang.String, org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateFailbackDelayAttribute (index 152), type (Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 39)
+Human type: (org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateDiscoveryGroup (index 155), type (Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 39)
+Human type: (org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateBroadcastGroup (index 158), type (Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 39)
+Human type: (org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotMigrateBroadcastGroupWithoutConnectors (index 161), type (Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 39)
+Human type: (org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name <clinit> (index 164), type ()V (descriptor index 165)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

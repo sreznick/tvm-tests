@@ -1,0 +1,267 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 194
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSTopicService"
+5: Tag 1 Utf8 Value "topic"
+6: Tag 1 Utf8 Value "Ljavax/jms/Topic;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "name"
+10: Tag 1 Utf8 Value "Ljava/lang/String;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "java/lang/Object"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "()V"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+19: Tag 10 MethodRef Class index 17, Name and type index 13
+20: Tag 9 FieldRef Class index 2, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 23
+22: Tag 1 Utf8 Value "jmsServer"
+23: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+24: Tag 9 FieldRef Class index 2, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 23
+26: Tag 1 Utf8 Value "executorInjector"
+27: Tag 8 String Contents 28
+28: Tag 1 Utf8 Value "jms.topic."
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "java/lang/String"
+33: Tag 1 Utf8 Value "startsWith"
+34: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+35: Tag 10 MethodRef Class index 30, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "length"
+38: Tag 1 Utf8 Value "()I"
+39: Tag 10 MethodRef Class index 30, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "substring"
+42: Tag 1 Utf8 Value "(I)Ljava/lang/String;"
+43: Tag 10 MethodRef Class index 17, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "getValue"
+46: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "org/apache/activemq/artemis/jms/server/JMSServerManager"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSTopicService$1"
+51: Tag 10 MethodRef Class index 49, Name and type index 52
+52: Tag 12 NameAndType Name index 15, Description index 53
+53: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/jms/JMSTopicService;Lorg/apache/activemq/artemis/jms/server/JMSServerManager;Lorg/jboss/msc/service/StartContext;)V"
+54: Tag 7 Class Name index 55
+55: Tag 1 Utf8 Value "java/util/concurrent/ExecutorService"
+56: Tag 11 InterfaceMethodRef Class index 54, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "execute"
+59: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)V"
+60: Tag 11 InterfaceMethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 16
+63: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+64: Tag 1 Utf8 Value "asynchronous"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "java/util/concurrent/RejectedExecutionException"
+67: Tag 11 InterfaceMethodRef Class index 68, Name and type index 69
+68: Tag 7 Class Name index 70
+69: Tag 12 NameAndType Name index 71, Description index 16
+70: Tag 1 Utf8 Value "java/lang/Runnable"
+71: Tag 1 Utf8 Value "run"
+72: Tag 10 MethodRef Class index 2, Name and type index 73
+73: Tag 12 NameAndType Name index 15, Description index 74
+74: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+75: Tag 10 MethodRef Class index 76, Name and type index 77
+76: Tag 7 Class Name index 78
+77: Tag 12 NameAndType Name index 79, Description index 80
+78: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSServices"
+79: Tag 1 Utf8 Value "getJmsTopicBaseServiceName"
+80: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceName;"
+81: Tag 10 MethodRef Class index 82, Name and type index 83
+82: Tag 7 Class Name index 84
+83: Tag 12 NameAndType Name index 85, Description index 86
+84: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+85: Tag 1 Utf8 Value "append"
+86: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+87: Tag 11 InterfaceMethodRef Class index 88, Name and type index 89
+88: Tag 7 Class Name index 90
+89: Tag 12 NameAndType Name index 91, Description index 92
+90: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+91: Tag 1 Utf8 Value "addService"
+92: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+93: Tag 10 MethodRef Class index 94, Name and type index 95
+94: Tag 7 Class Name index 96
+95: Tag 12 NameAndType Name index 97, Description index 80
+96: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ActiveMQActivationService"
+97: Tag 1 Utf8 Value "getServiceName"
+98: Tag 11 InterfaceMethodRef Class index 99, Name and type index 100
+99: Tag 7 Class Name index 101
+100: Tag 12 NameAndType Name index 102, Description index 103
+101: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+102: Tag 1 Utf8 Value "requires"
+103: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+104: Tag 10 MethodRef Class index 76, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 80
+106: Tag 1 Utf8 Value "getJmsManagerBaseServiceName"
+107: Tag 11 InterfaceMethodRef Class index 99, Name and type index 108
+108: Tag 12 NameAndType Name index 109, Description index 110
+109: Tag 1 Utf8 Value "addDependency"
+110: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)Lorg/jboss/msc/service/ServiceBuilder;"
+111: Tag 9 FieldRef Class index 112, Name and type index 113
+112: Tag 7 Class Name index 114
+113: Tag 12 NameAndType Name index 115, Description index 116
+114: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+115: Tag 1 Utf8 Value "PASSIVE"
+116: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+117: Tag 11 InterfaceMethodRef Class index 99, Name and type index 118
+118: Tag 12 NameAndType Name index 119, Description index 120
+119: Tag 1 Utf8 Value "setInitialMode"
+120: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)Lorg/jboss/msc/service/ServiceBuilder;"
+121: Tag 10 MethodRef Class index 122, Name and type index 123
+122: Tag 7 Class Name index 124
+123: Tag 12 NameAndType Name index 125, Description index 126
+124: Tag 1 Utf8 Value "org/jboss/as/server/Services"
+125: Tag 1 Utf8 Value "addServerExecutorDependency"
+126: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/inject/Injector;)Lorg/jboss/msc/service/ServiceBuilder;"
+127: Tag 11 InterfaceMethodRef Class index 99, Name and type index 128
+128: Tag 12 NameAndType Name index 129, Description index 130
+129: Tag 1 Utf8 Value "install"
+130: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+131: Tag 10 MethodRef Class index 2, Name and type index 132
+132: Tag 12 NameAndType Name index 45, Description index 133
+133: Tag 1 Utf8 Value "()Ljavax/jms/Topic;"
+134: Tag 7 Class Name index 135
+135: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+136: Tag 1 Utf8 Value "JMS_TOPIC_PREFIX"
+137: Tag 1 Utf8 Value "ConstantValue"
+138: Tag 1 Utf8 Value "Signature"
+139: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/apache/activemq/artemis/jms/server/JMSServerManager;>;"
+140: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Ljava/util/concurrent/ExecutorService;>;"
+141: Tag 1 Utf8 Value "Code"
+142: Tag 1 Utf8 Value "LineNumberTable"
+143: Tag 1 Utf8 Value "LocalVariableTable"
+144: Tag 1 Utf8 Value "this"
+145: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/JMSTopicService;"
+146: Tag 1 Utf8 Value "StackMapTable"
+147: Tag 1 Utf8 Value "start"
+148: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+149: Tag 1 Utf8 Value "e"
+150: Tag 1 Utf8 Value "Ljava/util/concurrent/RejectedExecutionException;"
+151: Tag 1 Utf8 Value "context"
+152: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+153: Tag 1 Utf8 Value "jmsManager"
+154: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/jms/server/JMSServerManager;"
+155: Tag 1 Utf8 Value "task"
+156: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+157: Tag 7 Class Name index 158
+158: Tag 1 Utf8 Value "java/lang/Throwable"
+159: Tag 1 Utf8 Value "Exceptions"
+160: Tag 7 Class Name index 161
+161: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+162: Tag 1 Utf8 Value "stop"
+163: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+164: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+165: Tag 7 Class Name index 166
+166: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+167: Tag 1 Utf8 Value "installService"
+168: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceTarget;)Lorg/wildfly/extension/messaging/activemq/jms/JMSTopicService;"
+169: Tag 1 Utf8 Value "serverServiceName"
+170: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+171: Tag 1 Utf8 Value "serviceTarget"
+172: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+173: Tag 1 Utf8 Value "service"
+174: Tag 1 Utf8 Value "serviceName"
+175: Tag 1 Utf8 Value "serviceBuilder"
+176: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+177: Tag 1 Utf8 Value "LocalVariableTypeTable"
+178: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<Ljavax/jms/Topic;>;"
+179: Tag 7 Class Name index 180
+180: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+181: Tag 1 Utf8 Value "access$000"
+182: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/jms/JMSTopicService;)Ljava/lang/String;"
+183: Tag 1 Utf8 Value "x0"
+184: Tag 1 Utf8 Value "access$102"
+185: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/jms/JMSTopicService;Ljavax/jms/Topic;)Ljavax/jms/Topic;"
+186: Tag 1 Utf8 Value "x1"
+187: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Ljavax/jms/Topic;>;"
+188: Tag 1 Utf8 Value "SourceFile"
+189: Tag 1 Utf8 Value "JMSTopicService.java"
+190: Tag 1 Utf8 Value "InnerClasses"
+191: Tag 7 Class Name index 192
+192: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+193: Tag 1 Utf8 Value "Mode"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 2, name org.wildfly.extension.messaging.activemq.jms.JMSTopicService
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 134
+Implements names org.jboss.msc.service.Service
+
+Field name JMS_TOPIC_PREFIX (index 136), type Ljava/lang/String; (descriptor index 10)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+Field name jmsServer (index 22), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 23)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name executorInjector (index 26), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 23)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name name (index 9), type Ljava/lang/String; (descriptor index 10)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name topic (index 5), type Ljavax/jms/Topic; (descriptor index 6)
+Human type: javax.jms.Topic
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 15), type (Ljava/lang/String;)V (descriptor index 74)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 155
+Method name start (index 147), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 148)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 269
+Method attribute name Exceptions, size 4
+Method name stop (index 162), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 163)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 53
+Method name getValue (index 45), type ()Ljavax/jms/Topic; (descriptor index 133)
+Human type: (): javax.jms.Topic
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 4
+Method name installService (index 167), type (Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceTarget;)Lorg/wildfly/extension/messaging/activemq/jms/JMSTopicService; (descriptor index 168)
+Human type: (java.lang.String, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceTarget): org.wildfly.extension.messaging.activemq.jms.JMSTopicService
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 240
+Method name getValue (index 45), type ()Ljava/lang/Object; (descriptor index 46)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name access$000 (index 181), type (Lorg/wildfly/extension/messaging/activemq/jms/JMSTopicService;)Ljava/lang/String; (descriptor index 182)
+Human type: (org.wildfly.extension.messaging.activemq.jms.JMSTopicService): java.lang.String
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$102 (index 184), type (Lorg/wildfly/extension/messaging/activemq/jms/JMSTopicService;Ljavax/jms/Topic;)Ljavax/jms/Topic; (descriptor index 185)
+Human type: (org.wildfly.extension.messaging.activemq.jms.JMSTopicService, javax.jms.Topic): javax.jms.Topic
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 59
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

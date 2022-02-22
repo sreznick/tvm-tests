@@ -1,0 +1,127 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 90
+1: Tag 7 Class Name index 50
+2: Tag 9 FieldRef Class index 17, Name and type index 51
+3: Tag 10 MethodRef Class index 18, Name and type index 52
+4: Tag 9 FieldRef Class index 17, Name and type index 53
+5: Tag 9 FieldRef Class index 54, Name and type index 55
+6: Tag 8 String Contents 56
+7: Tag 11 InterfaceMethodRef Class index 54, Name and type index 57
+8: Tag 10 MethodRef Class index 1, Name and type index 58
+9: Tag 10 MethodRef Class index 1, Name and type index 59
+10: Tag 7 Class Name index 60
+11: Tag 10 MethodRef Class index 61, Name and type index 62
+12: Tag 10 MethodRef Class index 1, Name and type index 63
+13: Tag 7 Class Name index 64
+14: Tag 10 MethodRef Class index 47, Name and type index 65
+15: Tag 10 MethodRef Class index 61, Name and type index 66
+16: Tag 10 MethodRef Class index 47, Name and type index 67
+17: Tag 7 Class Name index 68
+18: Tag 7 Class Name index 69
+19: Tag 7 Class Name index 70
+20: Tag 1 Utf8 Value "statefulSessionComponentInstance"
+21: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/stateful/StatefulSessionComponentInstance;"
+22: Tag 1 Utf8 Value "this$0"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/stateful/StatefulSessionSynchronizationInterceptor;"
+24: Tag 1 Utf8 Value "<init>"
+25: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/component/stateful/StatefulSessionSynchronizationInterceptor;Lorg/jboss/as/ejb3/component/stateful/StatefulSessionComponentInstance;)V"
+26: Tag 1 Utf8 Value "Code"
+27: Tag 1 Utf8 Value "LineNumberTable"
+28: Tag 1 Utf8 Value "LocalVariableTable"
+29: Tag 1 Utf8 Value "this"
+30: Tag 1 Utf8 Value "StatefulSessionSynchronization"
+31: Tag 1 Utf8 Value "InnerClasses"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/stateful/StatefulSessionSynchronizationInterceptor$StatefulSessionSynchronization;"
+33: Tag 1 Utf8 Value "beforeCompletion"
+34: Tag 1 Utf8 Value "()V"
+35: Tag 1 Utf8 Value "t"
+36: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+37: Tag 1 Utf8 Value "StackMapTable"
+38: Tag 1 Utf8 Value "afterCompletion"
+39: Tag 1 Utf8 Value "(I)V"
+40: Tag 1 Utf8 Value "s"
+41: Tag 1 Utf8 Value "I"
+42: Tag 1 Utf8 Value "status"
+43: Tag 1 Utf8 Value "state"
+44: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicInteger;"
+45: Tag 1 Utf8 Value "committed"
+46: Tag 1 Utf8 Value "Z"
+47: Tag 7 Class Name index 71
+48: Tag 1 Utf8 Value "SourceFile"
+49: Tag 1 Utf8 Value "StatefulSessionSynchronizationInterceptor.java"
+50: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/stateful/StatefulSessionComponentInstance"
+51: Tag 12 NameAndType Name index 22, Description index 23
+52: Tag 12 NameAndType Name index 24, Description index 34
+53: Tag 12 NameAndType Name index 20, Description index 21
+54: Tag 7 Class Name index 72
+55: Tag 12 NameAndType Name index 73, Description index 74
+56: Tag 1 Utf8 Value "Before completion callback invoked on Transaction synchronization: %s of stateful component instance: %s"
+57: Tag 12 NameAndType Name index 75, Description index 76
+58: Tag 12 NameAndType Name index 77, Description index 78
+59: Tag 12 NameAndType Name index 33, Description index 34
+60: Tag 1 Utf8 Value "java/lang/Throwable"
+61: Tag 7 Class Name index 79
+62: Tag 12 NameAndType Name index 80, Description index 81
+63: Tag 12 NameAndType Name index 82, Description index 83
+64: Tag 1 Utf8 Value "javax/transaction/Status"
+65: Tag 12 NameAndType Name index 84, Description index 85
+66: Tag 12 NameAndType Name index 86, Description index 87
+67: Tag 12 NameAndType Name index 88, Description index 89
+68: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/stateful/StatefulSessionSynchronizationInterceptor$StatefulSessionSynchronization"
+69: Tag 1 Utf8 Value "java/lang/Object"
+70: Tag 1 Utf8 Value "javax/transaction/Synchronization"
+71: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicInteger"
+72: Tag 1 Utf8 Value "org/jboss/as/ejb3/logging/EjbLogger"
+73: Tag 1 Utf8 Value "ROOT_LOGGER"
+74: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/logging/EjbLogger;"
+75: Tag 1 Utf8 Value "tracef"
+76: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+77: Tag 1 Utf8 Value "isDiscarded"
+78: Tag 1 Utf8 Value "()Z"
+79: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/stateful/StatefulSessionSynchronizationInterceptor"
+80: Tag 1 Utf8 Value "access$000"
+81: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Lorg/jboss/as/ejb3/component/stateful/StatefulSessionComponentInstance;)V"
+82: Tag 1 Utf8 Value "getInvocationSynchState"
+83: Tag 1 Utf8 Value "()Ljava/util/concurrent/atomic/AtomicInteger;"
+84: Tag 1 Utf8 Value "get"
+85: Tag 1 Utf8 Value "()I"
+86: Tag 1 Utf8 Value "handleAfterCompletion"
+87: Tag 1 Utf8 Value "(ZLorg/jboss/as/ejb3/component/stateful/StatefulSessionComponentInstance;Z)V"
+88: Tag 1 Utf8 Value "compareAndSet"
+89: Tag 1 Utf8 Value "(II)Z"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 17, name org.jboss.as.ejb3.component.stateful.StatefulSessionSynchronizationInterceptor$StatefulSessionSynchronization
+
+Super class: id 18, name java.lang.Object
+
+Implements class ids 19
+Implements names javax.transaction.Synchronization
+
+Field name statefulSessionComponentInstance (index 20), type Lorg/jboss/as/ejb3/component/stateful/StatefulSessionComponentInstance; (descriptor index 21)
+Human type: org.jboss.as.ejb3.component.stateful.StatefulSessionComponentInstance
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name this$0 (index 22), type Lorg/jboss/as/ejb3/component/stateful/StatefulSessionSynchronizationInterceptor; (descriptor index 23)
+Human type: org.jboss.as.ejb3.component.stateful.StatefulSessionSynchronizationInterceptor
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 24), type (Lorg/jboss/as/ejb3/component/stateful/StatefulSessionSynchronizationInterceptor;Lorg/jboss/as/ejb3/component/stateful/StatefulSessionComponentInstance;)V (descriptor index 25)
+Human type: (org.jboss.as.ejb3.component.stateful.StatefulSessionSynchronizationInterceptor, org.jboss.as.ejb3.component.stateful.StatefulSessionComponentInstance): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 75
+Method name beforeCompletion (index 33), type ()V (descriptor index 34)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 143
+Method name afterCompletion (index 38), type (I)V (descriptor index 39)
+Human type: (int): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 259
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

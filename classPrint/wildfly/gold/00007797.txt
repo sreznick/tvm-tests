@@ -1,0 +1,104 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 76
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+9: Tag 8 String Contents 10
+10: Tag 1 Utf8 Value "JMSMessageID"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/OperationDefinitionHelper"
+15: Tag 1 Utf8 Value "createNonEmptyStringAttribute"
+16: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/AttributeDefinition;"
+17: Tag 8 String Contents 18
+18: Tag 1 Utf8 Value "JMSPriority"
+19: Tag 9 FieldRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+23: Tag 1 Utf8 Value "INT"
+24: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+25: Tag 10 MethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+29: Tag 1 Utf8 Value "create"
+30: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+31: Tag 9 FieldRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AbstractQueueControlHandler"
+35: Tag 1 Utf8 Value "PRIORITY_VALIDATOR"
+36: Tag 1 Utf8 Value "Lorg/jboss/as/controller/operations/validation/ParameterValidator;"
+37: Tag 10 MethodRef Class index 26, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "setValidator"
+40: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/operations/validation/ParameterValidator;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+41: Tag 10 MethodRef Class index 26, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "build"
+44: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+45: Tag 8 String Contents 46
+46: Tag 1 Utf8 Value "JMSTimestamp"
+47: Tag 9 FieldRef Class index 20, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 24
+49: Tag 1 Utf8 Value "LONG"
+50: Tag 8 String Contents 51
+51: Tag 1 Utf8 Value "JMSExpiration"
+52: Tag 8 String Contents 53
+53: Tag 1 Utf8 Value "JMSDeliveryMode"
+54: Tag 9 FieldRef Class index 20, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 24
+56: Tag 1 Utf8 Value "STRING"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSManagementHelper$DeliveryModeValidator"
+59: Tag 10 MethodRef Class index 57, Name and type index 3
+60: Tag 9 FieldRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSManagementHelper"
+64: Tag 1 Utf8 Value "JMS_MESSAGE_PARAMETERS"
+65: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+66: Tag 1 Utf8 Value "Code"
+67: Tag 1 Utf8 Value "LineNumberTable"
+68: Tag 1 Utf8 Value "LocalVariableTable"
+69: Tag 1 Utf8 Value "this"
+70: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/JMSManagementHelper;"
+71: Tag 1 Utf8 Value "<clinit>"
+72: Tag 1 Utf8 Value "SourceFile"
+73: Tag 1 Utf8 Value "JMSManagementHelper.java"
+74: Tag 1 Utf8 Value "InnerClasses"
+75: Tag 1 Utf8 Value "DeliveryModeValidator"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 61, name org.wildfly.extension.messaging.activemq.jms.JMSManagementHelper
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name JMS_MESSAGE_PARAMETERS (index 64), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 65)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 28, hex 001c, binary 0000000000011100 protected static final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name <clinit> (index 71), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 189
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

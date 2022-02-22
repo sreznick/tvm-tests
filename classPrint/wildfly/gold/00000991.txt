@@ -1,0 +1,117 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 81
+1: Tag 10 MethodRef Class index 15, Name and type index 46
+2: Tag 7 Class Name index 47
+3: Tag 10 MethodRef Class index 2, Name and type index 46
+4: Tag 10 MethodRef Class index 48, Name and type index 49
+5: Tag 9 FieldRef Class index 14, Name and type index 50
+6: Tag 11 InterfaceMethodRef Class index 51, Name and type index 52
+7: Tag 11 InterfaceMethodRef Class index 51, Name and type index 53
+8: Tag 11 InterfaceMethodRef Class index 51, Name and type index 54
+9: Tag 11 InterfaceMethodRef Class index 41, Name and type index 55
+10: Tag 11 InterfaceMethodRef Class index 41, Name and type index 56
+11: Tag 7 Class Name index 57
+12: Tag 11 InterfaceMethodRef Class index 11, Name and type index 58
+13: Tag 11 InterfaceMethodRef Class index 40, Name and type index 59
+14: Tag 7 Class Name index 60
+15: Tag 7 Class Name index 61
+16: Tag 1 Utf8 Value "timerServices"
+17: Tag 1 Utf8 Value "Ljava/util/Set;"
+18: Tag 1 Utf8 Value "Signature"
+19: Tag 1 Utf8 Value "Ljava/util/Set<Ljavax/ejb/TimerService;>;"
+20: Tag 1 Utf8 Value "<init>"
+21: Tag 1 Utf8 Value "()V"
+22: Tag 1 Utf8 Value "Code"
+23: Tag 1 Utf8 Value "LineNumberTable"
+24: Tag 1 Utf8 Value "LocalVariableTable"
+25: Tag 1 Utf8 Value "this"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/TimerServiceRegistry;"
+27: Tag 1 Utf8 Value "registerTimerService"
+28: Tag 1 Utf8 Value "(Ljavax/ejb/TimerService;)V"
+29: Tag 1 Utf8 Value "timerService"
+30: Tag 1 Utf8 Value "Ljavax/ejb/TimerService;"
+31: Tag 1 Utf8 Value "StackMapTable"
+32: Tag 1 Utf8 Value "unRegisterTimerService"
+33: Tag 1 Utf8 Value "(Ljavax/ejb/TimerService;)Z"
+34: Tag 1 Utf8 Value "getAllActiveTimers"
+35: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+36: Tag 1 Utf8 Value "activeTimers"
+37: Tag 1 Utf8 Value "Ljava/util/Collection;"
+38: Tag 1 Utf8 Value "LocalVariableTypeTable"
+39: Tag 1 Utf8 Value "Ljava/util/Collection<Ljavax/ejb/Timer;>;"
+40: Tag 7 Class Name index 62
+41: Tag 7 Class Name index 63
+42: Tag 7 Class Name index 64
+43: Tag 1 Utf8 Value "()Ljava/util/Collection<Ljavax/ejb/Timer;>;"
+44: Tag 1 Utf8 Value "SourceFile"
+45: Tag 1 Utf8 Value "TimerServiceRegistry.java"
+46: Tag 12 NameAndType Name index 20, Description index 21
+47: Tag 1 Utf8 Value "java/util/HashSet"
+48: Tag 7 Class Name index 65
+49: Tag 12 NameAndType Name index 66, Description index 67
+50: Tag 12 NameAndType Name index 16, Description index 17
+51: Tag 7 Class Name index 68
+52: Tag 12 NameAndType Name index 69, Description index 70
+53: Tag 12 NameAndType Name index 71, Description index 70
+54: Tag 12 NameAndType Name index 72, Description index 73
+55: Tag 12 NameAndType Name index 74, Description index 75
+56: Tag 12 NameAndType Name index 76, Description index 77
+57: Tag 1 Utf8 Value "javax/ejb/TimerService"
+58: Tag 12 NameAndType Name index 78, Description index 35
+59: Tag 12 NameAndType Name index 79, Description index 80
+60: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/TimerServiceRegistry"
+61: Tag 1 Utf8 Value "java/lang/Object"
+62: Tag 1 Utf8 Value "java/util/Collection"
+63: Tag 1 Utf8 Value "java/util/Iterator"
+64: Tag 1 Utf8 Value "java/lang/Throwable"
+65: Tag 1 Utf8 Value "java/util/Collections"
+66: Tag 1 Utf8 Value "synchronizedSet"
+67: Tag 1 Utf8 Value "(Ljava/util/Set;)Ljava/util/Set;"
+68: Tag 1 Utf8 Value "java/util/Set"
+69: Tag 1 Utf8 Value "add"
+70: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+71: Tag 1 Utf8 Value "remove"
+72: Tag 1 Utf8 Value "iterator"
+73: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+74: Tag 1 Utf8 Value "hasNext"
+75: Tag 1 Utf8 Value "()Z"
+76: Tag 1 Utf8 Value "next"
+77: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+78: Tag 1 Utf8 Value "getTimers"
+79: Tag 1 Utf8 Value "addAll"
+80: Tag 1 Utf8 Value "(Ljava/util/Collection;)Z"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.jboss.as.ejb3.component.TimerServiceRegistry
+
+Super class: id 15, name java.lang.Object
+
+No interfaces
+
+Field name timerServices (index 16), type Ljava/util/Set; (descriptor index 17)
+Human type: java.util.Set
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 20), type ()V (descriptor index 21)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name registerTimerService (index 27), type (Ljavax/ejb/TimerService;)V (descriptor index 28)
+Human type: (javax.ejb.TimerService): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 90
+Method name unRegisterTimerService (index 32), type (Ljavax/ejb/TimerService;)Z (descriptor index 33)
+Human type: (javax.ejb.TimerService): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 86
+Method name getAllActiveTimers (index 34), type ()Ljava/util/Collection; (descriptor index 35)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 226
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2

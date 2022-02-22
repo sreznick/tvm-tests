@@ -1,0 +1,108 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 75
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/weld/construction/api/ConstructionHandle"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+13: Tag 1 Utf8 Value "getPrivateData"
+14: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldInjectionContext"
+17: Tag 10 MethodRef Class index 10, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "getParameters"
+20: Tag 1 Utf8 Value "()[Ljava/lang/Object;"
+21: Tag 10 MethodRef Class index 10, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "getContextData"
+24: Tag 1 Utf8 Value "()Ljava/util/Map;"
+25: Tag 11 InterfaceMethodRef Class index 7, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "proceed"
+28: Tag 1 Utf8 Value "([Ljava/lang/Object;Ljava/util/Map;)Ljava/lang/Object;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldManagedReferenceFactory$WeldManagedReference"
+31: Tag 10 MethodRef Class index 15, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "getContext"
+34: Tag 1 Utf8 Value "()Ljavax/enterprise/context/spi/CreationalContext;"
+35: Tag 10 MethodRef Class index 29, Name and type index 36
+36: Tag 12 NameAndType Name index 5, Description index 37
+37: Tag 1 Utf8 Value "(Ljavax/enterprise/context/spi/CreationalContext;Ljava/lang/Object;Lorg/jboss/as/weld/injection/WeldManagedReferenceFactory$1;)V"
+38: Tag 10 MethodRef Class index 15, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "produce"
+41: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldManagedReferenceFactory"
+44: Tag 10 MethodRef Class index 42, Name and type index 3
+45: Tag 9 FieldRef Class index 42, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "INSTANCE"
+48: Tag 1 Utf8 Value "Lorg/jboss/as/weld/injection/WeldManagedReferenceFactory;"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentFactory"
+51: Tag 1 Utf8 Value "Code"
+52: Tag 1 Utf8 Value "LineNumberTable"
+53: Tag 1 Utf8 Value "LocalVariableTable"
+54: Tag 1 Utf8 Value "this"
+55: Tag 1 Utf8 Value "create"
+56: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Lorg/jboss/as/naming/ManagedReference;"
+57: Tag 1 Utf8 Value "instance"
+58: Tag 1 Utf8 Value "Ljava/lang/Object;"
+59: Tag 1 Utf8 Value "context"
+60: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+61: Tag 1 Utf8 Value "ctx"
+62: Tag 1 Utf8 Value "Lorg/jboss/weld/construction/api/ConstructionHandle;"
+63: Tag 1 Utf8 Value "weldCtx"
+64: Tag 1 Utf8 Value "Lorg/jboss/as/weld/injection/WeldInjectionContext;"
+65: Tag 1 Utf8 Value "LocalVariableTypeTable"
+66: Tag 1 Utf8 Value "Lorg/jboss/weld/construction/api/ConstructionHandle<*>;"
+67: Tag 1 Utf8 Value "StackMapTable"
+68: Tag 1 Utf8 Value "<clinit>"
+69: Tag 1 Utf8 Value "SourceFile"
+70: Tag 1 Utf8 Value "WeldManagedReferenceFactory.java"
+71: Tag 1 Utf8 Value "InnerClasses"
+72: Tag 1 Utf8 Value "WeldManagedReference"
+73: Tag 7 Class Name index 74
+74: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldManagedReferenceFactory$1"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 42, name org.jboss.as.weld.injection.WeldManagedReferenceFactory
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 49
+Implements names org.jboss.as.ee.component.ComponentFactory
+
+Field name INSTANCE (index 47), type Lorg/jboss/as/weld/injection/WeldManagedReferenceFactory; (descriptor index 48)
+Human type: org.jboss.as.weld.injection.WeldManagedReferenceFactory
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name create (index 55), type (Lorg/jboss/invocation/InterceptorContext;)Lorg/jboss/as/naming/ManagedReference; (descriptor index 56)
+Human type: (org.jboss.invocation.InterceptorContext): org.jboss.as.naming.ManagedReference
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 209
+Method name <clinit> (index 68), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

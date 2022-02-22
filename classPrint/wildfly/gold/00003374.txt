@@ -1,0 +1,146 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 74
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/ConcurrentSessionManager$ConcurrentSession"
+11: Tag 1 Utf8 Value "session"
+12: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/Session;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "closeTask"
+16: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 6
+20: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/Session"
+21: Tag 1 Utf8 Value "close"
+22: Tag 11 InterfaceMethodRef Class index 18, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "getId"
+25: Tag 1 Utf8 Value "()Ljava/lang/String;"
+26: Tag 11 InterfaceMethodRef Class index 18, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "isValid"
+29: Tag 1 Utf8 Value "()Z"
+30: Tag 11 InterfaceMethodRef Class index 18, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "getMetaData"
+33: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionMetaData;"
+34: Tag 11 InterfaceMethodRef Class index 18, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "getAttributes"
+37: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionAttributes;"
+38: Tag 11 InterfaceMethodRef Class index 18, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 6
+40: Tag 1 Utf8 Value "invalidate"
+41: Tag 11 InterfaceMethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 6
+44: Tag 1 Utf8 Value "java/lang/Runnable"
+45: Tag 1 Utf8 Value "run"
+46: Tag 11 InterfaceMethodRef Class index 18, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "getLocalContext"
+49: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+50: Tag 10 MethodRef Class index 8, Name and type index 35
+51: Tag 10 MethodRef Class index 8, Name and type index 31
+52: Tag 1 Utf8 Value "Signature"
+53: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/Session<TL;>;"
+54: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/session/Session;Ljava/lang/Runnable;)V"
+55: Tag 1 Utf8 Value "Code"
+56: Tag 1 Utf8 Value "LineNumberTable"
+57: Tag 1 Utf8 Value "LocalVariableTable"
+58: Tag 1 Utf8 Value "this"
+59: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/ConcurrentSessionManager$ConcurrentSession;"
+60: Tag 1 Utf8 Value "LocalVariableTypeTable"
+61: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/ConcurrentSessionManager$ConcurrentSession<TL;>;"
+62: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/session/Session<TL;>;Ljava/lang/Runnable;)V"
+63: Tag 1 Utf8 Value "closeSession"
+64: Tag 1 Utf8 Value "()TL;"
+65: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/ImmutableSessionAttributes;"
+66: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData;"
+67: Tag 1 Utf8 Value "<L:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/web/session/Session<TL;>;"
+68: Tag 1 Utf8 Value "SourceFile"
+69: Tag 1 Utf8 Value "ConcurrentSessionManager.java"
+70: Tag 1 Utf8 Value "InnerClasses"
+71: Tag 7 Class Name index 72
+72: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/ConcurrentSessionManager"
+73: Tag 1 Utf8 Value "ConcurrentSession"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 8, name org.wildfly.clustering.web.cache.session.ConcurrentSessionManager$ConcurrentSession
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 18
+Implements names org.wildfly.clustering.web.session.Session
+
+Field name session (index 11), type Lorg/wildfly/clustering/web/session/Session; (descriptor index 12)
+Human type: org.wildfly.clustering.web.session.Session
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name closeTask (index 15), type Ljava/lang/Runnable; (descriptor index 16)
+Human type: java.lang.Runnable
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/web/session/Session;Ljava/lang/Runnable;)V (descriptor index 54)
+Human type: (org.wildfly.clustering.web.session.Session, java.lang.Runnable): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name closeSession (index 63), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 74
+Method name getId (index 24), type ()Ljava/lang/String; (descriptor index 25)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name isValid (index 28), type ()Z (descriptor index 29)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name getMetaData (index 32), type ()Lorg/wildfly/clustering/web/session/SessionMetaData; (descriptor index 33)
+Human type: (): org.wildfly.clustering.web.session.SessionMetaData
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name getAttributes (index 36), type ()Lorg/wildfly/clustering/web/session/SessionAttributes; (descriptor index 37)
+Human type: (): org.wildfly.clustering.web.session.SessionAttributes
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name invalidate (index 40), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 87
+Method name close (index 21), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method name getLocalContext (index 48), type ()Ljava/lang/Object; (descriptor index 49)
+Human type: (): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method attribute name Signature, size 2
+Method name getAttributes (index 36), type ()Lorg/wildfly/clustering/web/session/ImmutableSessionAttributes; (descriptor index 65)
+Human type: (): org.wildfly.clustering.web.session.ImmutableSessionAttributes
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 65
+Method name getMetaData (index 32), type ()Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData; (descriptor index 66)
+Human type: (): org.wildfly.clustering.web.session.ImmutableSessionMetaData
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 65
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,134 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 97
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeParser"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/ElytronOidcSubsystemParser_1_0$AttributeElementParser"
+11: Tag 1 Utf8 Value "$assertionsDisabled"
+12: Tag 1 Utf8 Value "Z"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/lang/AssertionError"
+17: Tag 10 MethodRef Class index 15, Name and type index 3
+18: Tag 10 MethodRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 22, Description index 23
+21: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+22: Tag 1 Utf8 Value "getName"
+23: Tag 1 Utf8 Value "()Ljava/lang/String;"
+24: Tag 10 MethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+28: Tag 1 Utf8 Value "hasDefined"
+29: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+30: Tag 10 MethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/as/controller/parsing/ParseUtils"
+34: Tag 1 Utf8 Value "unexpectedElement"
+35: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;)Ljavax/xml/stream/XMLStreamException;"
+36: Tag 10 MethodRef Class index 19, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 23
+38: Tag 1 Utf8 Value "getXmlName"
+39: Tag 11 InterfaceMethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 23
+42: Tag 1 Utf8 Value "org/jboss/staxmapper/XMLExtendedStreamReader"
+43: Tag 1 Utf8 Value "getLocalName"
+44: Tag 10 MethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "java/lang/String"
+48: Tag 1 Utf8 Value "equals"
+49: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+50: Tag 11 InterfaceMethodRef Class index 40, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 23
+52: Tag 1 Utf8 Value "getElementText"
+53: Tag 10 MethodRef Class index 13, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "parseAndSetParameter"
+56: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Ljavax/xml/stream/XMLStreamReader;)V"
+57: Tag 10 MethodRef Class index 58, Name and type index 59
+58: Tag 7 Class Name index 60
+59: Tag 12 NameAndType Name index 61, Description index 62
+60: Tag 1 Utf8 Value "java/util/Collections"
+61: Tag 1 Utf8 Value "singleton"
+62: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/Set;"
+63: Tag 10 MethodRef Class index 31, Name and type index 64
+64: Tag 12 NameAndType Name index 34, Description index 65
+65: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;Ljava/util/Set;)Ljavax/xml/stream/XMLStreamException;"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/ElytronOidcSubsystemParser_1_0"
+68: Tag 10 MethodRef Class index 69, Name and type index 70
+69: Tag 7 Class Name index 71
+70: Tag 12 NameAndType Name index 72, Description index 73
+71: Tag 1 Utf8 Value "java/lang/Class"
+72: Tag 1 Utf8 Value "desiredAssertionStatus"
+73: Tag 1 Utf8 Value "()Z"
+74: Tag 1 Utf8 Value "Code"
+75: Tag 1 Utf8 Value "LineNumberTable"
+76: Tag 1 Utf8 Value "LocalVariableTable"
+77: Tag 1 Utf8 Value "this"
+78: Tag 1 Utf8 Value "Lorg/wildfly/extension/elytron/oidc/ElytronOidcSubsystemParser_1_0$AttributeElementParser;"
+79: Tag 1 Utf8 Value "isParseAsElement"
+80: Tag 1 Utf8 Value "parseElement"
+81: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/staxmapper/XMLExtendedStreamReader;Lorg/jboss/dmr/ModelNode;)V"
+82: Tag 1 Utf8 Value "attribute"
+83: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+84: Tag 1 Utf8 Value "reader"
+85: Tag 1 Utf8 Value "Lorg/jboss/staxmapper/XMLExtendedStreamReader;"
+86: Tag 1 Utf8 Value "operation"
+87: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+88: Tag 1 Utf8 Value "StackMapTable"
+89: Tag 1 Utf8 Value "Exceptions"
+90: Tag 7 Class Name index 91
+91: Tag 1 Utf8 Value "javax/xml/stream/XMLStreamException"
+92: Tag 1 Utf8 Value "<clinit>"
+93: Tag 1 Utf8 Value "SourceFile"
+94: Tag 1 Utf8 Value "ElytronOidcSubsystemParser_1_0.java"
+95: Tag 1 Utf8 Value "InnerClasses"
+96: Tag 1 Utf8 Value "AttributeElementParser"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 8, name org.wildfly.extension.elytron.oidc.ElytronOidcSubsystemParser_1_0$AttributeElementParser
+
+Super class: id 2, name org.jboss.as.controller.AttributeParser
+
+No interfaces
+
+Field name $assertionsDisabled (index 11), type Z (descriptor index 12)
+Human type: boolean
+Flags: decimal 4120, hex 1018, binary 0001000000011000 static final synthetic
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method name isParseAsElement (index 79), type ()Z (descriptor index 73)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name parseElement (index 80), type (Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/staxmapper/XMLExtendedStreamReader;Lorg/jboss/dmr/ModelNode;)V (descriptor index 81)
+Human type: (org.jboss.as.controller.AttributeDefinition, org.jboss.staxmapper.XMLExtendedStreamReader, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 192
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 92), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 52
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

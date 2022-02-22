@@ -1,0 +1,134 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 75
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/pojo/descriptor/AbstractConfigVisitorNode"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/pojo/descriptor/ValueConfig"
+11: Tag 1 Utf8 Value "index"
+12: Tag 1 Utf8 Value "I"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "java/lang/Class"
+15: Tag 10 MethodRef Class index 8, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "getClassValue"
+18: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+19: Tag 7 Class Name index 20
+20: Tag 1 Utf8 Value "java/lang/reflect/ParameterizedType"
+21: Tag 10 MethodRef Class index 8, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "getPtValue"
+24: Tag 1 Utf8 Value "(Ljava/lang/reflect/ParameterizedType;)Ljava/lang/Object;"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/pojo/logging/PojoLogger"
+29: Tag 1 Utf8 Value "ROOT_LOGGER"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/logging/PojoLogger;"
+31: Tag 11 InterfaceMethodRef Class index 26, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "unknownType"
+34: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/IllegalArgumentException;"
+35: Tag 11 InterfaceMethodRef Class index 19, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "getRawType"
+38: Tag 1 Utf8 Value "()Ljava/lang/reflect/Type;"
+39: Tag 10 MethodRef Class index 8, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "getValue"
+42: Tag 1 Utf8 Value "(Ljava/lang/reflect/Type;)Ljava/lang/Object;"
+43: Tag 9 FieldRef Class index 8, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "type"
+46: Tag 1 Utf8 Value "Ljava/lang/String;"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "java/io/Serializable"
+49: Tag 1 Utf8 Value "serialVersionUID"
+50: Tag 1 Utf8 Value "J"
+51: Tag 1 Utf8 Value "ConstantValue"
+52: Tag 5 Long Value 1
+54: Tag 1 Utf8 Value "Code"
+55: Tag 1 Utf8 Value "LineNumberTable"
+56: Tag 1 Utf8 Value "LocalVariableTable"
+57: Tag 1 Utf8 Value "this"
+58: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/descriptor/ValueConfig;"
+59: Tag 1 Utf8 Value "pt"
+60: Tag 1 Utf8 Value "Ljava/lang/reflect/ParameterizedType;"
+61: Tag 1 Utf8 Value "Ljava/lang/reflect/Type;"
+62: Tag 1 Utf8 Value "StackMapTable"
+63: Tag 1 Utf8 Value "Signature"
+64: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;)Ljava/lang/Object;"
+65: Tag 1 Utf8 Value "getType"
+66: Tag 1 Utf8 Value "()Ljava/lang/String;"
+67: Tag 1 Utf8 Value "setType"
+68: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+69: Tag 1 Utf8 Value "getIndex"
+70: Tag 1 Utf8 Value "()I"
+71: Tag 1 Utf8 Value "setIndex"
+72: Tag 1 Utf8 Value "(I)V"
+73: Tag 1 Utf8 Value "SourceFile"
+74: Tag 1 Utf8 Value "ValueConfig.java"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 8, name org.jboss.as.pojo.descriptor.ValueConfig
+
+Super class: id 2, name org.jboss.as.pojo.descriptor.AbstractConfigVisitorNode
+
+Implements class ids 47
+Implements names java.io.Serializable
+
+Field name serialVersionUID (index 49), type J (descriptor index 50)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name type (index 45), type Ljava/lang/String; (descriptor index 46)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name index (index 11), type I (descriptor index 12)
+Human type: int
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 56
+Method name getValue (index 41), type (Ljava/lang/reflect/Type;)Ljava/lang/Object; (descriptor index 42)
+Human type: (java.lang.reflect.Type): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 141
+Method name getPtValue (index 23), type (Ljava/lang/reflect/ParameterizedType;)Ljava/lang/Object; (descriptor index 24)
+Human type: (java.lang.reflect.ParameterizedType): java.lang.Object
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 63
+Method name getClassValue (index 17), type (Ljava/lang/Class;)Ljava/lang/Object; (descriptor index 18)
+Human type: (java.lang.Class): java.lang.Object
+Flags: decimal 1028, hex 0404, binary 0000010000000100 protected abstract
+Method attribute name Signature, size 2
+Method name getType (index 65), type ()Ljava/lang/String; (descriptor index 66)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setType (index 67), type (Ljava/lang/String;)V (descriptor index 68)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getIndex (index 69), type ()I (descriptor index 70)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setIndex (index 71), type (I)V (descriptor index 72)
+Human type: (int): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+
+Class attribute name SourceFile, size 2

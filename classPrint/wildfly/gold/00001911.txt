@@ -1,0 +1,105 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 65
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/jpa/hibernate4/VirtualFileInputStreamAccess"
+11: Tag 1 Utf8 Value "name"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "virtualFile"
+16: Tag 1 Utf8 Value "Lorg/jboss/vfs/VirtualFile;"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/vfs/VirtualFile"
+21: Tag 1 Utf8 Value "openStream"
+22: Tag 1 Utf8 Value "()Ljava/io/InputStream;"
+23: Tag 7 Class Name index 24
+24: Tag 1 Utf8 Value "java/io/IOException"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jipijapa/JipiLogger"
+29: Tag 1 Utf8 Value "JPA_LOGGER"
+30: Tag 1 Utf8 Value "Lorg/jipijapa/JipiLogger;"
+31: Tag 10 MethodRef Class index 18, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "getName"
+34: Tag 1 Utf8 Value "()Ljava/lang/String;"
+35: Tag 11 InterfaceMethodRef Class index 26, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "cannotOpenVFSStream"
+38: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/RuntimeException;"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/hibernate/jpa/boot/spi/NamedInputStream"
+41: Tag 10 MethodRef Class index 8, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 34
+43: Tag 1 Utf8 Value "getStreamName"
+44: Tag 10 MethodRef Class index 8, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 22
+46: Tag 1 Utf8 Value "accessInputStream"
+47: Tag 10 MethodRef Class index 39, Name and type index 48
+48: Tag 12 NameAndType Name index 5, Description index 49
+49: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/io/InputStream;)V"
+50: Tag 7 Class Name index 51
+51: Tag 1 Utf8 Value "org/hibernate/jpa/boot/spi/InputStreamAccess"
+52: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/vfs/VirtualFile;)V"
+53: Tag 1 Utf8 Value "Code"
+54: Tag 1 Utf8 Value "LineNumberTable"
+55: Tag 1 Utf8 Value "LocalVariableTable"
+56: Tag 1 Utf8 Value "this"
+57: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/hibernate4/VirtualFileInputStreamAccess;"
+58: Tag 1 Utf8 Value "e"
+59: Tag 1 Utf8 Value "Ljava/io/IOException;"
+60: Tag 1 Utf8 Value "StackMapTable"
+61: Tag 1 Utf8 Value "asNamedInputStream"
+62: Tag 1 Utf8 Value "()Lorg/hibernate/jpa/boot/spi/NamedInputStream;"
+63: Tag 1 Utf8 Value "SourceFile"
+64: Tag 1 Utf8 Value "VirtualFileInputStreamAccess.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.jpa.hibernate4.VirtualFileInputStreamAccess
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 50
+Implements names org.hibernate.jpa.boot.spi.InputStreamAccess
+
+Field name name (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name virtualFile (index 15), type Lorg/jboss/vfs/VirtualFile; (descriptor index 16)
+Human type: org.jboss.vfs.VirtualFile
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;Lorg/jboss/vfs/VirtualFile;)V (descriptor index 52)
+Human type: (java.lang.String, org.jboss.vfs.VirtualFile): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name getStreamName (index 43), type ()Ljava/lang/String; (descriptor index 34)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name accessInputStream (index 46), type ()Ljava/io/InputStream; (descriptor index 22)
+Human type: (): java.io.InputStream
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 106
+Method name asNamedInputStream (index 61), type ()Lorg/hibernate/jpa/boot/spi/NamedInputStream; (descriptor index 62)
+Human type: (): org.hibernate.jpa.boot.spi.NamedInputStream
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 58
+
+Class attribute name SourceFile, size 2

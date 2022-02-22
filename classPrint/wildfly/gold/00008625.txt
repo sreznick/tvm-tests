@@ -1,0 +1,206 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 152
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/TracingCDIExtension"
+11: Tag 1 Utf8 Value "TRACERS"
+12: Tag 1 Utf8 Value "Ljava/util/Map;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/util/Map"
+17: Tag 1 Utf8 Value "put"
+18: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "javax/enterprise/inject/spi/AfterBeanDiscovery"
+23: Tag 1 Utf8 Value "addBean"
+24: Tag 1 Utf8 Value "()Ljavax/enterprise/inject/spi/configurator/BeanConfigurator;"
+25: Tag 7 Class Name index 26
+26: Tag 1 Utf8 Value "io/opentracing/Tracer"
+27: Tag 11 InterfaceMethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "javax/enterprise/inject/spi/configurator/BeanConfigurator"
+31: Tag 1 Utf8 Value "addTransitiveTypeClosure"
+32: Tag 1 Utf8 Value "(Ljava/lang/reflect/Type;)Ljavax/enterprise/inject/spi/configurator/BeanConfigurator;"
+33: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "apply"
+36: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+37: Tag 11 InterfaceMethodRef Class index 28, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "produceWith"
+40: Tag 1 Utf8 Value "(Ljava/util/function/Function;)Ljavax/enterprise/inject/spi/configurator/BeanConfigurator;"
+41: Tag 9 FieldRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/TracingLogger"
+45: Tag 1 Utf8 Value "ROOT_LOGGER"
+46: Tag 1 Utf8 Value "Lorg/wildfly/microprofile/opentracing/smallrye/TracingLogger;"
+47: Tag 11 InterfaceMethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "javax/enterprise/inject/spi/ProcessAnnotatedType"
+51: Tag 1 Utf8 Value "getAnnotatedType"
+52: Tag 1 Utf8 Value "()Ljavax/enterprise/inject/spi/AnnotatedType;"
+53: Tag 11 InterfaceMethodRef Class index 54, Name and type index 55
+54: Tag 7 Class Name index 56
+55: Tag 12 NameAndType Name index 57, Description index 58
+56: Tag 1 Utf8 Value "javax/enterprise/inject/spi/AnnotatedType"
+57: Tag 1 Utf8 Value "getJavaClass"
+58: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+59: Tag 10 MethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "java/lang/Class"
+63: Tag 1 Utf8 Value "getName"
+64: Tag 1 Utf8 Value "()Ljava/lang/String;"
+65: Tag 11 InterfaceMethodRef Class index 42, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 68
+67: Tag 1 Utf8 Value "extraTracerBean"
+68: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+69: Tag 11 InterfaceMethodRef Class index 48, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 6
+71: Tag 1 Utf8 Value "veto"
+72: Tag 10 MethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+76: Tag 1 Utf8 Value "getCurrentContextClassLoaderPrivileged"
+77: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+78: Tag 11 InterfaceMethodRef Class index 14, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "remove"
+81: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+82: Tag 11 InterfaceMethodRef Class index 14, Name and type index 83
+83: Tag 12 NameAndType Name index 84, Description index 81
+84: Tag 1 Utf8 Value "get"
+85: Tag 7 Class Name index 86
+86: Tag 1 Utf8 Value "java/util/WeakHashMap"
+87: Tag 10 MethodRef Class index 85, Name and type index 3
+88: Tag 10 MethodRef Class index 89, Name and type index 90
+89: Tag 7 Class Name index 91
+90: Tag 12 NameAndType Name index 92, Description index 93
+91: Tag 1 Utf8 Value "java/util/Collections"
+92: Tag 1 Utf8 Value "synchronizedMap"
+93: Tag 1 Utf8 Value "(Ljava/util/Map;)Ljava/util/Map;"
+94: Tag 7 Class Name index 95
+95: Tag 1 Utf8 Value "javax/enterprise/inject/spi/Extension"
+96: Tag 1 Utf8 Value "Signature"
+97: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/ClassLoader;Lio/opentracing/Tracer;>;"
+98: Tag 1 Utf8 Value "Code"
+99: Tag 1 Utf8 Value "LineNumberTable"
+100: Tag 1 Utf8 Value "LocalVariableTable"
+101: Tag 1 Utf8 Value "this"
+102: Tag 1 Utf8 Value "Lorg/wildfly/microprofile/opentracing/smallrye/TracingCDIExtension;"
+103: Tag 1 Utf8 Value "registerApplicationTracer"
+104: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;Lio/opentracing/Tracer;)V"
+105: Tag 1 Utf8 Value "classLoader"
+106: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+107: Tag 1 Utf8 Value "tracerInstance"
+108: Tag 1 Utf8 Value "Lio/opentracing/Tracer;"
+109: Tag 1 Utf8 Value "registerTracerBean"
+110: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/AfterBeanDiscovery;)V"
+111: Tag 1 Utf8 Value "abd"
+112: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/AfterBeanDiscovery;"
+113: Tag 1 Utf8 Value "RuntimeVisibleParameterAnnotations"
+114: Tag 1 Utf8 Value "Ljavax/enterprise/event/Observes;"
+115: Tag 1 Utf8 Value "skipTracerBeans"
+116: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/ProcessAnnotatedType;)V"
+117: Tag 1 Utf8 Value "processAnnotatedType"
+118: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/ProcessAnnotatedType;"
+119: Tag 1 Utf8 Value "LocalVariableTypeTable"
+120: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/ProcessAnnotatedType<+Lio/opentracing/Tracer;>;"
+121: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/ProcessAnnotatedType<+Lio/opentracing/Tracer;>;)V"
+122: Tag 1 Utf8 Value "beforeShutdown"
+123: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/BeforeShutdown;)V"
+124: Tag 1 Utf8 Value "bs"
+125: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/BeforeShutdown;"
+126: Tag 1 Utf8 Value "lambda$registerTracerBean$0"
+127: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/Instance;)Lio/opentracing/Tracer;"
+128: Tag 1 Utf8 Value "i"
+129: Tag 1 Utf8 Value "Ljavax/enterprise/inject/Instance;"
+130: Tag 1 Utf8 Value "<clinit>"
+131: Tag 1 Utf8 Value "SourceFile"
+132: Tag 1 Utf8 Value "TracingCDIExtension.java"
+133: Tag 1 Utf8 Value "BootstrapMethods"
+134: Tag 15 MethodHandle Kind 6, Index 135
+135: Tag 10 MethodRef Class index 136, Name and type index 137
+136: Tag 7 Class Name index 138
+137: Tag 12 NameAndType Name index 139, Description index 140
+138: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+139: Tag 1 Utf8 Value "metafactory"
+140: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+141: Tag 16 MethodType Descriptor index 81
+142: Tag 15 MethodHandle Kind 6, Index 143
+143: Tag 10 MethodRef Class index 8, Name and type index 144
+144: Tag 12 NameAndType Name index 126, Description index 127
+145: Tag 16 MethodType Descriptor index 127
+146: Tag 1 Utf8 Value "InnerClasses"
+147: Tag 7 Class Name index 148
+148: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+149: Tag 7 Class Name index 150
+150: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+151: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.microprofile.opentracing.smallrye.TracingCDIExtension
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 94
+Implements names javax.enterprise.inject.spi.Extension
+
+Field name TRACERS (index 11), type Ljava/util/Map; (descriptor index 12)
+Human type: java.util.Map
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name registerApplicationTracer (index 103), type (Ljava/lang/ClassLoader;Lio/opentracing/Tracer;)V (descriptor index 104)
+Human type: (java.lang.ClassLoader, io.opentracing.Tracer): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 68
+Method name registerTracerBean (index 109), type (Ljavax/enterprise/inject/spi/AfterBeanDiscovery;)V (descriptor index 110)
+Human type: (javax.enterprise.inject.spi.AfterBeanDiscovery): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 81
+Method attribute name RuntimeVisibleParameterAnnotations, size 7
+Method name skipTracerBeans (index 115), type (Ljavax/enterprise/inject/spi/ProcessAnnotatedType;)V (descriptor index 116)
+Human type: (javax.enterprise.inject.spi.ProcessAnnotatedType): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 107
+Method attribute name Signature, size 2
+Method attribute name RuntimeVisibleParameterAnnotations, size 7
+Method name beforeShutdown (index 122), type (Ljavax/enterprise/inject/spi/BeforeShutdown;)V (descriptor index 123)
+Human type: (javax.enterprise.inject.spi.BeforeShutdown): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 69
+Method attribute name RuntimeVisibleParameterAnnotations, size 7
+Method name lambda$registerTracerBean$0 (index 126), type (Ljavax/enterprise/inject/Instance;)Lio/opentracing/Tracer; (descriptor index 127)
+Human type: (javax.enterprise.inject.Instance): io.opentracing.Tracer
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 57
+Method name <clinit> (index 130), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,256 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 163
+1: Tag 9 FieldRef Class index 36, Name and type index 91
+2: Tag 10 MethodRef Class index 10, Name and type index 92
+3: Tag 7 Class Name index 93
+4: Tag 10 MethodRef Class index 3, Name and type index 92
+5: Tag 9 FieldRef Class index 36, Name and type index 94
+6: Tag 9 FieldRef Class index 36, Name and type index 95
+7: Tag 9 FieldRef Class index 36, Name and type index 96
+8: Tag 9 FieldRef Class index 97, Name and type index 98
+9: Tag 8 String Contents 99
+10: Tag 7 Class Name index 100
+11: Tag 11 InterfaceMethodRef Class index 97, Name and type index 101
+12: Tag 9 FieldRef Class index 36, Name and type index 102
+13: Tag 9 FieldRef Class index 36, Name and type index 103
+14: Tag 9 FieldRef Class index 36, Name and type index 104
+15: Tag 10 MethodRef Class index 105, Name and type index 106
+16: Tag 7 Class Name index 107
+17: Tag 10 MethodRef Class index 3, Name and type index 108
+18: Tag 7 Class Name index 109
+19: Tag 11 InterfaceMethodRef Class index 16, Name and type index 110
+20: Tag 7 Class Name index 111
+21: Tag 10 MethodRef Class index 20, Name and type index 112
+22: Tag 11 InterfaceMethodRef Class index 16, Name and type index 113
+23: Tag 7 Class Name index 114
+24: Tag 11 InterfaceMethodRef Class index 16, Name and type index 115
+25: Tag 7 Class Name index 116
+26: Tag 10 MethodRef Class index 25, Name and type index 117
+27: Tag 11 InterfaceMethodRef Class index 118, Name and type index 119
+28: Tag 10 MethodRef Class index 25, Name and type index 120
+29: Tag 10 MethodRef Class index 121, Name and type index 122
+30: Tag 10 MethodRef Class index 121, Name and type index 120
+31: Tag 10 MethodRef Class index 121, Name and type index 123
+32: Tag 8 String Contents 124
+33: Tag 11 InterfaceMethodRef Class index 118, Name and type index 125
+34: Tag 10 MethodRef Class index 121, Name and type index 126
+35: Tag 10 MethodRef Class index 36, Name and type index 127
+36: Tag 7 Class Name index 128
+37: Tag 7 Class Name index 129
+38: Tag 1 Utf8 Value "value"
+39: Tag 1 Utf8 Value "Lorg/jboss/jca/core/api/bootstrap/CloneableBootstrapContext;"
+40: Tag 1 Utf8 Value "name"
+41: Tag 1 Utf8 Value "Ljava/lang/String;"
+42: Tag 1 Utf8 Value "usingDefaultWm"
+43: Tag 1 Utf8 Value "Z"
+44: Tag 1 Utf8 Value "workManagerValue"
+45: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+46: Tag 1 Utf8 Value "Signature"
+47: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/jca/core/api/workmanager/WorkManager;>;"
+48: Tag 1 Utf8 Value "txManager"
+49: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lcom/arjuna/ats/jbossatx/jta/TransactionManagerService;>;"
+50: Tag 1 Utf8 Value "xaTerminator"
+51: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/as/txn/integration/JBossContextXATerminator;>;"
+52: Tag 1 Utf8 Value "jcaConfig"
+53: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/as/connector/subsystems/jca/JcaSubsystemConfiguration;>;"
+54: Tag 1 Utf8 Value "getWorkManagerValue"
+55: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/Value;"
+56: Tag 1 Utf8 Value "Code"
+57: Tag 1 Utf8 Value "LineNumberTable"
+58: Tag 1 Utf8 Value "LocalVariableTable"
+59: Tag 1 Utf8 Value "this"
+60: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/bootstrap/BootStrapContextService;"
+61: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/Value<Lorg/jboss/jca/core/api/workmanager/WorkManager;>;"
+62: Tag 1 Utf8 Value "<init>"
+63: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/api/bootstrap/CloneableBootstrapContext;Ljava/lang/String;Z)V"
+64: Tag 1 Utf8 Value "getValue"
+65: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/api/bootstrap/CloneableBootstrapContext;"
+66: Tag 1 Utf8 Value "Exceptions"
+67: Tag 7 Class Name index 130
+68: Tag 1 Utf8 Value "start"
+69: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+70: Tag 1 Utf8 Value "context"
+71: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+72: Tag 1 Utf8 Value "StackMapTable"
+73: Tag 7 Class Name index 131
+74: Tag 1 Utf8 Value "stop"
+75: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+76: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+77: Tag 1 Utf8 Value "getTxManagerInjector"
+78: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+79: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lcom/arjuna/ats/jbossatx/jta/TransactionManagerService;>;"
+80: Tag 1 Utf8 Value "getXaTerminatorInjector"
+81: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/jboss/as/txn/integration/JBossContextXATerminator;>;"
+82: Tag 1 Utf8 Value "getWorkManagerValueInjector"
+83: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/jboss/jca/core/api/workmanager/WorkManager;>;"
+84: Tag 1 Utf8 Value "getJcaConfigInjector"
+85: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/jboss/as/connector/subsystems/jca/JcaSubsystemConfiguration;>;"
+86: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+87: Tag 7 Class Name index 132
+88: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/jboss/jca/core/api/bootstrap/CloneableBootstrapContext;>;"
+89: Tag 1 Utf8 Value "SourceFile"
+90: Tag 1 Utf8 Value "BootStrapContextService.java"
+91: Tag 12 NameAndType Name index 44, Description index 45
+92: Tag 12 NameAndType Name index 62, Description index 133
+93: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+94: Tag 12 NameAndType Name index 48, Description index 45
+95: Tag 12 NameAndType Name index 50, Description index 45
+96: Tag 12 NameAndType Name index 52, Description index 45
+97: Tag 7 Class Name index 134
+98: Tag 12 NameAndType Name index 135, Description index 136
+99: Tag 1 Utf8 Value "Building DefaultBootstrapContext"
+100: Tag 1 Utf8 Value "java/lang/Object"
+101: Tag 12 NameAndType Name index 137, Description index 138
+102: Tag 12 NameAndType Name index 38, Description index 39
+103: Tag 12 NameAndType Name index 40, Description index 41
+104: Tag 12 NameAndType Name index 42, Description index 43
+105: Tag 7 Class Name index 139
+106: Tag 12 NameAndType Name index 140, Description index 141
+107: Tag 1 Utf8 Value "org/jboss/jca/core/api/bootstrap/CloneableBootstrapContext"
+108: Tag 12 NameAndType Name index 64, Description index 86
+109: Tag 1 Utf8 Value "org/jboss/jca/core/api/workmanager/WorkManager"
+110: Tag 12 NameAndType Name index 142, Description index 143
+111: Tag 1 Utf8 Value "com/arjuna/ats/jbossatx/jta/TransactionManagerService"
+112: Tag 12 NameAndType Name index 144, Description index 145
+113: Tag 12 NameAndType Name index 146, Description index 147
+114: Tag 1 Utf8 Value "javax/resource/spi/XATerminator"
+115: Tag 12 NameAndType Name index 148, Description index 149
+116: Tag 1 Utf8 Value "org/jboss/as/connector/subsystems/jca/JcaSubsystemConfiguration"
+117: Tag 12 NameAndType Name index 150, Description index 151
+118: Tag 7 Class Name index 152
+119: Tag 12 NameAndType Name index 153, Description index 154
+120: Tag 12 NameAndType Name index 155, Description index 156
+121: Tag 7 Class Name index 157
+122: Tag 12 NameAndType Name index 158, Description index 159
+123: Tag 12 NameAndType Name index 160, Description index 156
+124: Tag 1 Utf8 Value "Starting JCA DefaultBootstrapContext"
+125: Tag 12 NameAndType Name index 161, Description index 141
+126: Tag 12 NameAndType Name index 162, Description index 156
+127: Tag 12 NameAndType Name index 64, Description index 65
+128: Tag 1 Utf8 Value "org/jboss/as/connector/services/bootstrap/BootStrapContextService"
+129: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+130: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+131: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+132: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+133: Tag 1 Utf8 Value "()V"
+134: Tag 1 Utf8 Value "org/jboss/as/connector/logging/ConnectorLogger"
+135: Tag 1 Utf8 Value "ROOT_LOGGER"
+136: Tag 1 Utf8 Value "Lorg/jboss/as/connector/logging/ConnectorLogger;"
+137: Tag 1 Utf8 Value "debugf"
+138: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/Object;)V"
+139: Tag 1 Utf8 Value "org/jboss/as/connector/util/ConnectorServices"
+140: Tag 1 Utf8 Value "notNull"
+141: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+142: Tag 1 Utf8 Value "setWorkManager"
+143: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/api/workmanager/WorkManager;)V"
+144: Tag 1 Utf8 Value "getTransactionSynchronizationRegistry"
+145: Tag 1 Utf8 Value "()Ljavax/transaction/TransactionSynchronizationRegistry;"
+146: Tag 1 Utf8 Value "setTransactionSynchronizationRegistry"
+147: Tag 1 Utf8 Value "(Ljavax/transaction/TransactionSynchronizationRegistry;)V"
+148: Tag 1 Utf8 Value "setXATerminator"
+149: Tag 1 Utf8 Value "(Ljavax/resource/spi/XATerminator;)V"
+150: Tag 1 Utf8 Value "getBootstrapContexts"
+151: Tag 1 Utf8 Value "()Ljava/util/Map;"
+152: Tag 1 Utf8 Value "java/util/Map"
+153: Tag 1 Utf8 Value "put"
+154: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+155: Tag 1 Utf8 Value "setDefaultBootstrapContext"
+156: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/api/bootstrap/CloneableBootstrapContext;)V"
+157: Tag 1 Utf8 Value "org/jboss/jca/core/bootstrapcontext/BootstrapContextCoordinator"
+158: Tag 1 Utf8 Value "getInstance"
+159: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/bootstrapcontext/BootstrapContextCoordinator;"
+160: Tag 1 Utf8 Value "registerBootstrapContext"
+161: Tag 1 Utf8 Value "remove"
+162: Tag 1 Utf8 Value "unregisterBootstrapContext"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 36, name org.jboss.as.connector.services.bootstrap.BootStrapContextService
+
+Super class: id 10, name java.lang.Object
+
+Implements class ids 37
+Implements names org.jboss.msc.service.Service
+
+Field name value (index 38), type Lorg/jboss/jca/core/api/bootstrap/CloneableBootstrapContext; (descriptor index 39)
+Human type: org.jboss.jca.core.api.bootstrap.CloneableBootstrapContext
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name name (index 40), type Ljava/lang/String; (descriptor index 41)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name usingDefaultWm (index 42), type Z (descriptor index 43)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name workManagerValue (index 44), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 45)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name txManager (index 48), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 45)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name xaTerminator (index 50), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 45)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name jcaConfig (index 52), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 45)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name getWorkManagerValue (index 54), type ()Lorg/jboss/msc/value/Value; (descriptor index 55)
+Human type: (): org.jboss.msc.value.Value
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name <init> (index 62), type (Lorg/jboss/jca/core/api/bootstrap/CloneableBootstrapContext;Ljava/lang/String;Z)V (descriptor index 63)
+Human type: (org.jboss.jca.core.api.bootstrap.CloneableBootstrapContext, java.lang.String, boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 186
+Method name getValue (index 64), type ()Lorg/jboss/jca/core/api/bootstrap/CloneableBootstrapContext; (descriptor index 65)
+Human type: (): org.jboss.jca.core.api.bootstrap.CloneableBootstrapContext
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method attribute name Exceptions, size 4
+Method name start (index 68), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 69)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 249
+Method attribute name Exceptions, size 4
+Method name stop (index 74), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 75)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 147
+Method name getTxManagerInjector (index 77), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 78)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getXaTerminatorInjector (index 80), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 78)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getWorkManagerValueInjector (index 82), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 78)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getJcaConfigInjector (index 84), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 78)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getValue (index 64), type ()Ljava/lang/Object; (descriptor index 86)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

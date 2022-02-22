@@ -1,0 +1,185 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 140
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/BroadcastGroupDefinition"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AbstractActiveMQComponentControlHandler"
+7: Tag 1 Utf8 Value "<init>"
+8: Tag 1 Utf8 Value "()V"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+13: Tag 1 Utf8 Value "getLastElement"
+14: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathElement;"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+19: Tag 1 Utf8 Value "getValue"
+20: Tag 1 Utf8 Value "()Ljava/lang/String;"
+21: Tag 7 Class Name index 22
+22: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/management/BaseBroadcastGroupControl"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/server/ActiveMQServer"
+27: Tag 1 Utf8 Value "getManagementService"
+28: Tag 1 Utf8 Value "()Lorg/apache/activemq/artemis/core/server/management/ManagementService;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "java/lang/StringBuilder"
+31: Tag 10 MethodRef Class index 29, Name and type index 5
+32: Tag 7 Class Name index 33
+33: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/management/ResourceNames"
+34: Tag 8 String Contents 35
+35: Tag 1 Utf8 Value "broadcastgroup."
+36: Tag 10 MethodRef Class index 29, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 39
+38: Tag 1 Utf8 Value "append"
+39: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+40: Tag 10 MethodRef Class index 29, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 20
+42: Tag 1 Utf8 Value "toString"
+43: Tag 11 InterfaceMethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/server/management/ManagementService"
+47: Tag 1 Utf8 Value "getResource"
+48: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+49: Tag 10 MethodRef Class index 50, Name and type index 51
+50: Tag 7 Class Name index 52
+51: Tag 12 NameAndType Name index 53, Description index 54
+52: Tag 1 Utf8 Value "java/lang/Class"
+53: Tag 1 Utf8 Value "cast"
+54: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+57: Tag 8 String Contents 58
+58: Tag 1 Utf8 Value "broadcast-group"
+59: Tag 8 String Contents 60
+60: Tag 1 Utf8 Value "get-connector-pairs-as-json"
+61: Tag 10 MethodRef Class index 62, Name and type index 63
+62: Tag 7 Class Name index 64
+63: Tag 12 NameAndType Name index 65, Description index 66
+64: Tag 1 Utf8 Value "java/lang/String"
+65: Tag 1 Utf8 Value "equals"
+66: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+67: Tag 10 MethodRef Class index 68, Name and type index 69
+68: Tag 7 Class Name index 70
+69: Tag 12 NameAndType Name index 71, Description index 72
+70: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/BroadcastGroupControlHandler"
+71: Tag 1 Utf8 Value "getActiveMQComponentControl"
+72: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Z)Lorg/apache/activemq/artemis/api/core/management/ActiveMQComponentControl;"
+73: Tag 11 InterfaceMethodRef Class index 74, Name and type index 75
+74: Tag 7 Class Name index 76
+75: Tag 12 NameAndType Name index 77, Description index 78
+76: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+77: Tag 1 Utf8 Value "getResult"
+78: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+79: Tag 11 InterfaceMethodRef Class index 21, Name and type index 80
+80: Tag 12 NameAndType Name index 81, Description index 20
+81: Tag 1 Utf8 Value "getConnectorPairsAsJSON"
+82: Tag 10 MethodRef Class index 83, Name and type index 84
+83: Tag 7 Class Name index 85
+84: Tag 12 NameAndType Name index 86, Description index 87
+85: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+86: Tag 1 Utf8 Value "set"
+87: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+88: Tag 7 Class Name index 89
+89: Tag 1 Utf8 Value "java/lang/Exception"
+90: Tag 11 InterfaceMethodRef Class index 74, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 78
+92: Tag 1 Utf8 Value "getFailureDescription"
+93: Tag 10 MethodRef Class index 88, Name and type index 94
+94: Tag 12 NameAndType Name index 95, Description index 20
+95: Tag 1 Utf8 Value "getLocalizedMessage"
+96: Tag 10 MethodRef Class index 68, Name and type index 97
+97: Tag 12 NameAndType Name index 98, Description index 99
+98: Tag 1 Utf8 Value "unsupportedOperation"
+99: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+100: Tag 10 MethodRef Class index 68, Name and type index 101
+101: Tag 12 NameAndType Name index 71, Description index 102
+102: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/server/ActiveMQServer;Lorg/jboss/as/controller/PathAddress;)Lorg/apache/activemq/artemis/api/core/management/BaseBroadcastGroupControl;"
+103: Tag 10 MethodRef Class index 68, Name and type index 5
+104: Tag 9 FieldRef Class index 68, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 107
+106: Tag 1 Utf8 Value "INSTANCE"
+107: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/BroadcastGroupControlHandler;"
+108: Tag 1 Utf8 Value "Code"
+109: Tag 1 Utf8 Value "LineNumberTable"
+110: Tag 1 Utf8 Value "LocalVariableTable"
+111: Tag 1 Utf8 Value "this"
+112: Tag 1 Utf8 Value "activeMQServer"
+113: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/server/ActiveMQServer;"
+114: Tag 1 Utf8 Value "address"
+115: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+116: Tag 1 Utf8 Value "resourceName"
+117: Tag 1 Utf8 Value "Ljava/lang/String;"
+118: Tag 1 Utf8 Value "getDescriptionPrefix"
+119: Tag 1 Utf8 Value "handleOperation"
+120: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Ljava/lang/Object;"
+121: Tag 1 Utf8 Value "e"
+122: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+123: Tag 1 Utf8 Value "control"
+124: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/api/core/management/BaseBroadcastGroupControl;"
+125: Tag 1 Utf8 Value "operationName"
+126: Tag 1 Utf8 Value "context"
+127: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+128: Tag 1 Utf8 Value "operation"
+129: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+130: Tag 1 Utf8 Value "StackMapTable"
+131: Tag 1 Utf8 Value "Exceptions"
+132: Tag 7 Class Name index 133
+133: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+134: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/server/ActiveMQServer;Lorg/jboss/as/controller/PathAddress;)Lorg/apache/activemq/artemis/api/core/management/ActiveMQComponentControl;"
+135: Tag 1 Utf8 Value "<clinit>"
+136: Tag 1 Utf8 Value "Signature"
+137: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/AbstractActiveMQComponentControlHandler<Lorg/apache/activemq/artemis/api/core/management/BaseBroadcastGroupControl;>;"
+138: Tag 1 Utf8 Value "SourceFile"
+139: Tag 1 Utf8 Value "BroadcastGroupControlHandler.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 68, name org.wildfly.extension.messaging.activemq.BroadcastGroupControlHandler
+
+Super class: id 4, name org.wildfly.extension.messaging.activemq.AbstractActiveMQComponentControlHandler
+
+No interfaces
+
+Field name INSTANCE (index 106), type Lorg/wildfly/extension/messaging/activemq/BroadcastGroupControlHandler; (descriptor index 107)
+Human type: org.wildfly.extension.messaging.activemq.BroadcastGroupControlHandler
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 7), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name getActiveMQComponentControl (index 71), type (Lorg/apache/activemq/artemis/core/server/ActiveMQServer;Lorg/jboss/as/controller/PathAddress;)Lorg/apache/activemq/artemis/api/core/management/BaseBroadcastGroupControl; (descriptor index 102)
+Human type: (org.apache.activemq.artemis.core.server.ActiveMQServer, org.jboss.as.controller.PathAddress): org.apache.activemq.artemis.api.core.management.BaseBroadcastGroupControl
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 123
+Method name getDescriptionPrefix (index 118), type ()Ljava/lang/String; (descriptor index 20)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name handleOperation (index 119), type (Ljava/lang/String;Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Ljava/lang/Object; (descriptor index 120)
+Human type: (java.lang.String, org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): java.lang.Object
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 238
+Method attribute name Exceptions, size 4
+Method name getActiveMQComponentControl (index 71), type (Lorg/apache/activemq/artemis/core/server/ActiveMQServer;Lorg/jboss/as/controller/PathAddress;)Lorg/apache/activemq/artemis/api/core/management/ActiveMQComponentControl; (descriptor index 134)
+Human type: (org.apache.activemq.artemis.core.server.ActiveMQServer, org.jboss.as.controller.PathAddress): org.apache.activemq.artemis.api.core.management.ActiveMQComponentControl
+Flags: decimal 4164, hex 1044, binary 0001000001000100 protected bridge synthetic
+Method attribute name Code, size 49
+Method name <clinit> (index 135), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

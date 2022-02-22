@@ -1,0 +1,232 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 176
+1: Tag 10 MethodRef Class index 35, Name and type index 92
+2: Tag 9 FieldRef Class index 34, Name and type index 93
+3: Tag 9 FieldRef Class index 34, Name and type index 94
+4: Tag 10 MethodRef Class index 34, Name and type index 95
+5: Tag 11 InterfaceMethodRef Class index 69, Name and type index 96
+6: Tag 11 InterfaceMethodRef Class index 97, Name and type index 98
+7: Tag 11 InterfaceMethodRef Class index 70, Name and type index 99
+8: Tag 11 InterfaceMethodRef Class index 70, Name and type index 100
+9: Tag 7 Class Name index 101
+10: Tag 10 MethodRef Class index 9, Name and type index 102
+11: Tag 10 MethodRef Class index 9, Name and type index 103
+12: Tag 11 InterfaceMethodRef Class index 69, Name and type index 104
+13: Tag 7 Class Name index 105
+14: Tag 11 InterfaceMethodRef Class index 13, Name and type index 106
+15: Tag 7 Class Name index 107
+16: Tag 8 String Contents 108
+17: Tag 7 Class Name index 109
+18: Tag 8 String Contents 110
+19: Tag 11 InterfaceMethodRef Class index 69, Name and type index 111
+20: Tag 9 FieldRef Class index 112, Name and type index 113
+21: Tag 11 InterfaceMethodRef Class index 112, Name and type index 114
+22: Tag 11 InterfaceMethodRef Class index 13, Name and type index 115
+23: Tag 10 MethodRef Class index 116, Name and type index 117
+24: Tag 11 InterfaceMethodRef Class index 112, Name and type index 118
+25: Tag 7 Class Name index 119
+26: Tag 10 MethodRef Class index 25, Name and type index 92
+27: Tag 11 InterfaceMethodRef Class index 120, Name and type index 121
+28: Tag 7 Class Name index 122
+29: Tag 10 MethodRef Class index 28, Name and type index 123
+30: Tag 11 InterfaceMethodRef Class index 124, Name and type index 98
+31: Tag 10 MethodRef Class index 25, Name and type index 125
+32: Tag 11 InterfaceMethodRef Class index 126, Name and type index 127
+33: Tag 10 MethodRef Class index 34, Name and type index 128
+34: Tag 7 Class Name index 129
+35: Tag 7 Class Name index 130
+36: Tag 7 Class Name index 131
+37: Tag 7 Class Name index 132
+38: Tag 1 Utf8 Value "serviceConsumer"
+39: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+40: Tag 1 Utf8 Value "Signature"
+41: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/wildfly/extension/undertow/WebServerService;>;"
+42: Tag 1 Utf8 Value "server"
+43: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+44: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/wildfly/extension/undertow/Server;>;"
+45: Tag 1 Utf8 Value "<init>"
+46: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V"
+47: Tag 1 Utf8 Value "Code"
+48: Tag 1 Utf8 Value "LineNumberTable"
+49: Tag 1 Utf8 Value "LocalVariableTable"
+50: Tag 1 Utf8 Value "this"
+51: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/WebServerService;"
+52: Tag 1 Utf8 Value "LocalVariableTypeTable"
+53: Tag 1 Utf8 Value "(Ljava/util/function/Consumer<Lorg/wildfly/extension/undertow/WebServerService;>;Ljava/util/function/Supplier<Lorg/wildfly/extension/undertow/Server;>;)V"
+54: Tag 1 Utf8 Value "getPort"
+55: Tag 1 Utf8 Value "(Ljava/lang/String;Z)I"
+56: Tag 1 Utf8 Value "p"
+57: Tag 1 Utf8 Value "Ljava/lang/String;"
+58: Tag 1 Utf8 Value "binding"
+59: Tag 1 Utf8 Value "Lorg/jboss/as/network/SocketBinding;"
+60: Tag 1 Utf8 Value "protocol"
+61: Tag 1 Utf8 Value "secure"
+62: Tag 1 Utf8 Value "Z"
+63: Tag 1 Utf8 Value "listeners"
+64: Tag 1 Utf8 Value "Ljava/util/Map;"
+65: Tag 1 Utf8 Value "listener"
+66: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/UndertowListener;"
+67: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/wildfly/extension/undertow/UndertowListener;>;"
+68: Tag 1 Utf8 Value "StackMapTable"
+69: Tag 7 Class Name index 133
+70: Tag 7 Class Name index 134
+71: Tag 1 Utf8 Value "getListenerMap"
+72: Tag 1 Utf8 Value "()Ljava/util/Map;"
+73: Tag 1 Utf8 Value "Ljava/util/HashMap;"
+74: Tag 1 Utf8 Value "Ljava/util/HashMap<Ljava/lang/String;Lorg/wildfly/extension/undertow/UndertowListener;>;"
+75: Tag 1 Utf8 Value "()Ljava/util/Map<Ljava/lang/String;Lorg/wildfly/extension/undertow/UndertowListener;>;"
+76: Tag 1 Utf8 Value "start"
+77: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+78: Tag 1 Utf8 Value "context"
+79: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+80: Tag 1 Utf8 Value "stop"
+81: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+82: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+83: Tag 1 Utf8 Value "getValue"
+84: Tag 1 Utf8 Value "()Lorg/wildfly/extension/undertow/WebServerService;"
+85: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+86: Tag 1 Utf8 Value "Exceptions"
+87: Tag 7 Class Name index 135
+88: Tag 7 Class Name index 136
+89: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/as/web/host/CommonWebServer;Lorg/jboss/msc/service/Service<Lorg/wildfly/extension/undertow/WebServerService;>;"
+90: Tag 1 Utf8 Value "SourceFile"
+91: Tag 1 Utf8 Value "WebServerService.java"
+92: Tag 12 NameAndType Name index 45, Description index 137
+93: Tag 12 NameAndType Name index 38, Description index 39
+94: Tag 12 NameAndType Name index 42, Description index 43
+95: Tag 12 NameAndType Name index 71, Description index 72
+96: Tag 12 NameAndType Name index 138, Description index 139
+97: Tag 7 Class Name index 140
+98: Tag 12 NameAndType Name index 141, Description index 142
+99: Tag 12 NameAndType Name index 143, Description index 144
+100: Tag 12 NameAndType Name index 145, Description index 85
+101: Tag 1 Utf8 Value "java/lang/String"
+102: Tag 12 NameAndType Name index 146, Description index 147
+103: Tag 12 NameAndType Name index 148, Description index 149
+104: Tag 12 NameAndType Name index 150, Description index 151
+105: Tag 1 Utf8 Value "org/wildfly/extension/undertow/UndertowListener"
+106: Tag 12 NameAndType Name index 152, Description index 147
+107: Tag 1 Utf8 Value "org/wildfly/extension/undertow/HttpListenerService"
+108: Tag 1 Utf8 Value "http"
+109: Tag 1 Utf8 Value "org/wildfly/extension/undertow/HttpsListenerService"
+110: Tag 1 Utf8 Value "https"
+111: Tag 12 NameAndType Name index 153, Description index 154
+112: Tag 7 Class Name index 155
+113: Tag 12 NameAndType Name index 156, Description index 157
+114: Tag 12 NameAndType Name index 158, Description index 159
+115: Tag 12 NameAndType Name index 160, Description index 161
+116: Tag 7 Class Name index 162
+117: Tag 12 NameAndType Name index 163, Description index 164
+118: Tag 12 NameAndType Name index 165, Description index 166
+119: Tag 1 Utf8 Value "java/util/HashMap"
+120: Tag 7 Class Name index 167
+121: Tag 12 NameAndType Name index 150, Description index 85
+122: Tag 1 Utf8 Value "org/wildfly/extension/undertow/Server"
+123: Tag 12 NameAndType Name index 168, Description index 169
+124: Tag 7 Class Name index 170
+125: Tag 12 NameAndType Name index 171, Description index 172
+126: Tag 7 Class Name index 173
+127: Tag 12 NameAndType Name index 174, Description index 175
+128: Tag 12 NameAndType Name index 83, Description index 84
+129: Tag 1 Utf8 Value "org/wildfly/extension/undertow/WebServerService"
+130: Tag 1 Utf8 Value "java/lang/Object"
+131: Tag 1 Utf8 Value "org/jboss/as/web/host/CommonWebServer"
+132: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+133: Tag 1 Utf8 Value "java/util/Map"
+134: Tag 1 Utf8 Value "java/util/Iterator"
+135: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+136: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+137: Tag 1 Utf8 Value "()V"
+138: Tag 1 Utf8 Value "keySet"
+139: Tag 1 Utf8 Value "()Ljava/util/Set;"
+140: Tag 1 Utf8 Value "java/util/Set"
+141: Tag 1 Utf8 Value "iterator"
+142: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+143: Tag 1 Utf8 Value "hasNext"
+144: Tag 1 Utf8 Value "()Z"
+145: Tag 1 Utf8 Value "next"
+146: Tag 1 Utf8 Value "toLowerCase"
+147: Tag 1 Utf8 Value "()Ljava/lang/String;"
+148: Tag 1 Utf8 Value "contains"
+149: Tag 1 Utf8 Value "(Ljava/lang/CharSequence;)Z"
+150: Tag 1 Utf8 Value "get"
+151: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+152: Tag 1 Utf8 Value "getProtocol"
+153: Tag 1 Utf8 Value "containsKey"
+154: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+155: Tag 1 Utf8 Value "org/wildfly/extension/undertow/logging/UndertowLogger"
+156: Tag 1 Utf8 Value "ROOT_LOGGER"
+157: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/logging/UndertowLogger;"
+158: Tag 1 Utf8 Value "secureListenerNotAvailableForPort"
+159: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+160: Tag 1 Utf8 Value "getSocketBinding"
+161: Tag 1 Utf8 Value "()Lorg/jboss/as/network/SocketBinding;"
+162: Tag 1 Utf8 Value "org/jboss/as/network/SocketBinding"
+163: Tag 1 Utf8 Value "getAbsolutePort"
+164: Tag 1 Utf8 Value "()I"
+165: Tag 1 Utf8 Value "noPortListeningForProtocol"
+166: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+167: Tag 1 Utf8 Value "java/util/function/Supplier"
+168: Tag 1 Utf8 Value "getListeners"
+169: Tag 1 Utf8 Value "()Ljava/util/List;"
+170: Tag 1 Utf8 Value "java/util/List"
+171: Tag 1 Utf8 Value "put"
+172: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+173: Tag 1 Utf8 Value "java/util/function/Consumer"
+174: Tag 1 Utf8 Value "accept"
+175: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 34, name org.wildfly.extension.undertow.WebServerService
+
+Super class: id 35, name java.lang.Object
+
+Implements class ids 36 37
+Implements names org.jboss.as.web.host.CommonWebServer org.jboss.msc.service.Service
+
+Field name serviceConsumer (index 38), type Ljava/util/function/Consumer; (descriptor index 39)
+Human type: java.util.function.Consumer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name server (index 42), type Ljava/util/function/Supplier; (descriptor index 43)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 45), type (Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V (descriptor index 46)
+Human type: (java.util.function.Consumer, java.util.function.Supplier): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name getPort (index 54), type (Ljava/lang/String;Z)I (descriptor index 55)
+Human type: (java.lang.String, boolean): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 357
+Method name getListenerMap (index 71), type ()Ljava/util/Map; (descriptor index 72)
+Human type: (): java.util.Map
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 181
+Method attribute name Signature, size 2
+Method name start (index 76), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 77)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name stop (index 80), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 81)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name getValue (index 83), type ()Lorg/wildfly/extension/undertow/WebServerService; (descriptor index 84)
+Human type: (): org.wildfly.extension.undertow.WebServerService
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name getValue (index 83), type ()Ljava/lang/Object; (descriptor index 85)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

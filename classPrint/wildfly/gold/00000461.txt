@@ -1,0 +1,367 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 177
+1: Tag 7 Class Name index 166
+2: Tag 8 String Contents 167
+3: Tag 10 MethodRef Class index 168, Name and type index 169
+4: Tag 9 FieldRef Class index 1, Name and type index 170
+5: Tag 7 Class Name index 171
+6: Tag 7 Class Name index 172
+7: Tag 1 Utf8 Value "ROOT_LOGGER"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/txn/logging/TransactionLogger;"
+9: Tag 1 Utf8 Value "unableToRollBack"
+10: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+11: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+12: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+13: Tag 1 Utf8 Value "level"
+14: Tag 7 Class Name index 173
+15: Tag 1 Utf8 Value "Level"
+16: Tag 1 Utf8 Value "InnerClasses"
+17: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+18: Tag 1 Utf8 Value "ERROR"
+19: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+20: Tag 1 Utf8 Value "id"
+21: Tag 3 Integer Value 1, hex: 0x1
+22: Tag 1 Utf8 Value "value"
+23: Tag 1 Utf8 Value "Unable to roll back active transaction"
+24: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+25: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+26: Tag 1 Utf8 Value "unableToGetTransactionStatus"
+27: Tag 3 Integer Value 2, hex: 0x2
+28: Tag 1 Utf8 Value "Unable to get transaction state"
+29: Tag 1 Utf8 Value "transactionStillOpen"
+30: Tag 1 Utf8 Value "(I)V"
+31: Tag 3 Integer Value 3, hex: 0x3
+32: Tag 1 Utf8 Value "APPLICATION ERROR: transaction still active in request with status %s"
+33: Tag 1 Utf8 Value "createFailed"
+34: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException;"
+35: Tag 3 Integer Value 4, hex: 0x4
+36: Tag 1 Utf8 Value "Create failed"
+37: Tag 1 Utf8 Value "managerStartFailure"
+38: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+39: Tag 3 Integer Value 5, hex: 0x5
+40: Tag 1 Utf8 Value "%s manager create failed"
+41: Tag 1 Utf8 Value "objectStoreStartFailure"
+42: Tag 3 Integer Value 6, hex: 0x6
+43: Tag 1 Utf8 Value "Failed to configure object store browser bean"
+44: Tag 1 Utf8 Value "serviceNotStarted"
+45: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+46: Tag 3 Integer Value 7, hex: 0x7
+47: Tag 1 Utf8 Value "Service not started"
+48: Tag 1 Utf8 Value "startFailure"
+49: Tag 3 Integer Value 8, hex: 0x8
+50: Tag 1 Utf8 Value "Start failed"
+51: Tag 1 Utf8 Value "unknownMetric"
+52: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/String;"
+53: Tag 3 Integer Value 9, hex: 0x9
+54: Tag 1 Utf8 Value "Unknown metric %s"
+55: Tag 1 Utf8 Value "jmxSubsystemNotInstalled"
+56: Tag 1 Utf8 Value "()Ljava/lang/RuntimeException;"
+57: Tag 3 Integer Value 10, hex: 0xa
+58: Tag 1 Utf8 Value "MBean Server service not installed, this functionality is not available if the JMX subsystem has not been installed."
+59: Tag 1 Utf8 Value "inconsistentStatisticsSettings"
+60: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+61: Tag 3 Integer Value 12, hex: 0xc
+62: Tag 1 Utf8 Value "Attributes %s and %s are alternatives; both cannot be set with conflicting values."
+63: Tag 1 Utf8 Value "nodeIdentifierIsSetToDefault"
+64: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+65: Tag 1 Utf8 Value "WARN"
+66: Tag 3 Integer Value 13, hex: 0xd
+67: Tag 1 Utf8 Value "The %s attribute on the %s is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique."
+68: Tag 1 Utf8 Value "jndiNameInvalidFormat"
+69: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/OperationFailedException;"
+70: Tag 3 Integer Value 15, hex: 0xf
+71: Tag 1 Utf8 Value "Jndi names have to start with java:/ or java:jboss/"
+72: Tag 1 Utf8 Value "rollbackOfTransactionStartedInEEConcurrentInvocation"
+73: Tag 1 Utf8 Value "()V"
+74: Tag 3 Integer Value 16, hex: 0x10
+75: Tag 1 Utf8 Value "Transaction started in EE Concurrent invocation left open, starting rollback to prevent leak."
+76: Tag 1 Utf8 Value "failedToRollbackTransaction"
+77: Tag 3 Integer Value 17, hex: 0x11
+78: Tag 1 Utf8 Value "Failed to rollback transaction."
+79: Tag 1 Utf8 Value "failedToSuspendTransaction"
+80: Tag 3 Integer Value 18, hex: 0x12
+81: Tag 1 Utf8 Value "Failed to suspend transaction."
+82: Tag 1 Utf8 Value "systemErrorWhileCheckingForTransactionLeak"
+83: Tag 3 Integer Value 19, hex: 0x13
+84: Tag 1 Utf8 Value "System error while checking for transaction leak in EE Concurrent invocation."
+85: Tag 1 Utf8 Value "serializationMustBeHandledByTheFactory"
+86: Tag 1 Utf8 Value "()Ljava/io/IOException;"
+87: Tag 3 Integer Value 20, hex: 0x14
+88: Tag 1 Utf8 Value "EE Concurrent ContextHandle serialization must be handled by the factory."
+89: Tag 1 Utf8 Value "transactionSetupProviderServiceNotStarted"
+90: Tag 3 Integer Value 21, hex: 0x15
+91: Tag 1 Utf8 Value "EE Concurrent's TransactionSetupProviderService not started."
+92: Tag 1 Utf8 Value "mustBeUndefinedIfTrue"
+93: Tag 3 Integer Value 23, hex: 0x17
+94: Tag 1 Utf8 Value "%s must be undefined if %s is 'true'."
+95: Tag 1 Utf8 Value "mustBedefinedIfDefined"
+96: Tag 3 Integer Value 24, hex: 0x18
+97: Tag 1 Utf8 Value "%s must be defined if %s is defined."
+98: Tag 1 Utf8 Value "eitherTrueOrDefined"
+99: Tag 3 Integer Value 25, hex: 0x19
+100: Tag 1 Utf8 Value "Either %s must be 'true' or  %s must be defined."
+101: Tag 1 Utf8 Value "transactionNotFound"
+102: Tag 1 Utf8 Value "(Ljavax/transaction/Transaction;)V"
+103: Tag 3 Integer Value 26, hex: 0x1a
+104: Tag 1 Utf8 Value "The transaction %s could not be removed from the cache during cleanup."
+105: Tag 1 Utf8 Value "preJcaSyncAfterCompletionFailed"
+106: Tag 1 Utf8 Value "(Ljavax/transaction/Synchronization;Ljavax/transaction/Transaction;Ljava/lang/Exception;)V"
+107: Tag 3 Integer Value 27, hex: 0x1b
+108: Tag 1 Utf8 Value "The pre-Jakarta Connectors synchronization %s associated with tx %s failed during after completion"
+109: Tag 1 Utf8 Value "jcaSyncAfterCompletionFailed"
+110: Tag 3 Integer Value 28, hex: 0x1c
+111: Tag 1 Utf8 Value "The Jakarta Connectors synchronization %s associated with tx %s failed during after completion"
+112: Tag 1 Utf8 Value "syncsnotallowed"
+113: Tag 1 Utf8 Value "(I)Ljava/lang/IllegalStateException;"
+114: Tag 3 Integer Value 29, hex: 0x1d
+115: Tag 1 Utf8 Value "Syncs are not allowed to be registered when the tx is in state %s"
+116: Tag 1 Utf8 Value "indexedChildResourceRegistrationNotAvailable"
+117: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;)Ljava/lang/IllegalStateException;"
+118: Tag 3 Integer Value 30, hex: 0x1e
+119: Tag 1 Utf8 Value "Indexed child resources can only be registered if the parent resource supports ordered children. The parent of '%s' is not indexed"
+120: Tag 1 Utf8 Value "unsupportedAttribute"
+121: Tag 1 Utf8 Value "(Ljava/lang/String;Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException;"
+122: Tag 3 Integer Value 31, hex: 0x1f
+123: Tag 1 Utf8 Value "The attribute '%s' is no longer supported"
+124: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Param;"
+125: Tag 1 Utf8 Value "mustBeDefinedIfTrue"
+126: Tag 3 Integer Value 32, hex: 0x20
+127: Tag 1 Utf8 Value "%s must be defined if %s is 'true'."
+128: Tag 1 Utf8 Value "onlyOneCanBeTrue"
+129: Tag 3 Integer Value 33, hex: 0x21
+130: Tag 1 Utf8 Value "Only one of %s and %s can be 'true'."
+131: Tag 1 Utf8 Value "objectStoreRelativeToIsSetToDefault"
+132: Tag 1 Utf8 Value "DEBUG"
+133: Tag 3 Integer Value 34, hex: 0x22
+134: Tag 1 Utf8 Value "relative_to property of the object-store is set to the default value with jboss.server.data.dir"
+135: Tag 1 Utf8 Value "cannotFindOrImportInflowTransaction"
+136: Tag 1 Utf8 Value "(Ljavax/transaction/xa/Xid;Ljavax/resource/spi/work/Work;Ljava/lang/Exception;)Ljavax/resource/spi/work/WorkCompletedException;"
+137: Tag 3 Integer Value 35, hex: 0x23
+138: Tag 1 Utf8 Value "Cannot find or import inflow transaction for xid %s and work %s"
+139: Tag 1 Utf8 Value "importedInflowTransactionIsInactive"
+140: Tag 3 Integer Value 36, hex: 0x24
+141: Tag 1 Utf8 Value "Imported Jakarta Connectors inflow transaction with xid %s of work %s is inactive"
+142: Tag 1 Utf8 Value "cannotResumeInflowTransactionUnexpectedError"
+143: Tag 1 Utf8 Value "(Ljavax/transaction/Transaction;Ljavax/resource/spi/work/Work;Ljava/lang/Exception;)Ljavax/resource/spi/work/WorkCompletedException;"
+144: Tag 3 Integer Value 37, hex: 0x25
+145: Tag 1 Utf8 Value "Unexpected error on resuming transaction %s for work %s"
+146: Tag 1 Utf8 Value "cannotSuspendInflowTransactionUnexpectedError"
+147: Tag 1 Utf8 Value "(Ljavax/resource/spi/work/Work;Ljava/lang/Exception;)Ljava/lang/RuntimeException;"
+148: Tag 3 Integer Value 38, hex: 0x26
+149: Tag 1 Utf8 Value "Unexpected error on suspending transaction for work %s"
+150: Tag 1 Utf8 Value "timeoutValueIsSetToMaximum"
+151: Tag 3 Integer Value 39, hex: 0x27
+152: Tag 1 Utf8 Value "A value of zero is not permitted for the maximum timeout, as such the timeout has been set to %s"
+153: Tag 1 Utf8 Value "noActiveTransactionToRegisterSynchronization"
+154: Tag 1 Utf8 Value "(Ljavax/transaction/Synchronization;)Ljava/lang/IllegalStateException;"
+155: Tag 3 Integer Value 40, hex: 0x28
+156: Tag 1 Utf8 Value "There is no active transaction at the current context to register synchronization '%s'"
+157: Tag 1 Utf8 Value "<clinit>"
+158: Tag 1 Utf8 Value "Code"
+159: Tag 1 Utf8 Value "LineNumberTable"
+160: Tag 1 Utf8 Value "SourceFile"
+161: Tag 1 Utf8 Value "TransactionLogger.java"
+162: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+163: Tag 1 Utf8 Value "projectCode"
+164: Tag 1 Utf8 Value "WFLYTX"
+165: Tag 1 Utf8 Value "length"
+166: Tag 1 Utf8 Value "org/jboss/as/txn/logging/TransactionLogger"
+167: Tag 1 Utf8 Value "org.jboss.as.txn"
+168: Tag 7 Class Name index 174
+169: Tag 12 NameAndType Name index 175, Description index 176
+170: Tag 12 NameAndType Name index 7, Description index 8
+171: Tag 1 Utf8 Value "java/lang/Object"
+172: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+173: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+174: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+175: Tag 1 Utf8 Value "getMessageLogger"
+176: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.jboss.as.txn.logging.TransactionLogger
+
+Super class: id 5, name java.lang.Object
+
+Implements class ids 6
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 7), type Lorg/jboss/as/txn/logging/TransactionLogger; (descriptor index 8)
+Human type: org.jboss.as.txn.logging.TransactionLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name unableToRollBack (index 9), type (Ljava/lang/Throwable;)V (descriptor index 10)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name unableToGetTransactionStatus (index 26), type (Ljava/lang/Throwable;)V (descriptor index 10)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name transactionStillOpen (index 29), type (I)V (descriptor index 30)
+Human type: (int): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name createFailed (index 33), type (Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException; (descriptor index 34)
+Human type: (java.lang.Throwable): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name managerStartFailure (index 37), type (Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/msc/service/StartException; (descriptor index 38)
+Human type: (java.lang.Throwable, java.lang.String): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name objectStoreStartFailure (index 41), type (Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException; (descriptor index 34)
+Human type: (java.lang.Throwable): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name serviceNotStarted (index 44), type ()Ljava/lang/IllegalStateException; (descriptor index 45)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name startFailure (index 48), type (Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException; (descriptor index 34)
+Human type: (java.lang.Throwable): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name unknownMetric (index 51), type (Ljava/lang/Object;)Ljava/lang/String; (descriptor index 52)
+Human type: (java.lang.Object): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name jmxSubsystemNotInstalled (index 55), type ()Ljava/lang/RuntimeException; (descriptor index 56)
+Human type: (): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name inconsistentStatisticsSettings (index 59), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 60)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name nodeIdentifierIsSetToDefault (index 63), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 64)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name jndiNameInvalidFormat (index 68), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 69)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name rollbackOfTransactionStartedInEEConcurrentInvocation (index 72), type ()V (descriptor index 73)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name failedToRollbackTransaction (index 76), type (Ljava/lang/Throwable;)V (descriptor index 10)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name failedToSuspendTransaction (index 79), type (Ljava/lang/Throwable;)V (descriptor index 10)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name systemErrorWhileCheckingForTransactionLeak (index 82), type (Ljava/lang/Throwable;)V (descriptor index 10)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name serializationMustBeHandledByTheFactory (index 85), type ()Ljava/io/IOException; (descriptor index 86)
+Human type: (): java.io.IOException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name transactionSetupProviderServiceNotStarted (index 89), type ()Ljava/lang/IllegalStateException; (descriptor index 45)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name mustBeUndefinedIfTrue (index 92), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 60)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name mustBedefinedIfDefined (index 95), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 60)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name eitherTrueOrDefined (index 98), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 60)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name transactionNotFound (index 101), type (Ljavax/transaction/Transaction;)V (descriptor index 102)
+Human type: (javax.transaction.Transaction): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name preJcaSyncAfterCompletionFailed (index 105), type (Ljavax/transaction/Synchronization;Ljavax/transaction/Transaction;Ljava/lang/Exception;)V (descriptor index 106)
+Human type: (javax.transaction.Synchronization, javax.transaction.Transaction, java.lang.Exception): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name jcaSyncAfterCompletionFailed (index 109), type (Ljavax/transaction/Synchronization;Ljavax/transaction/Transaction;Ljava/lang/Exception;)V (descriptor index 106)
+Human type: (javax.transaction.Synchronization, javax.transaction.Transaction, java.lang.Exception): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name syncsnotallowed (index 112), type (I)Ljava/lang/IllegalStateException; (descriptor index 113)
+Human type: (int): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name indexedChildResourceRegistrationNotAvailable (index 116), type (Lorg/jboss/as/controller/PathElement;)Ljava/lang/IllegalStateException; (descriptor index 117)
+Human type: (org.jboss.as.controller.PathElement): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unsupportedAttribute (index 120), type (Ljava/lang/String;Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException; (descriptor index 121)
+Human type: (java.lang.String, javax.xml.stream.Location): javax.xml.stream.XMLStreamException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name mustBeDefinedIfTrue (index 125), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 60)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name onlyOneCanBeTrue (index 128), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 60)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name objectStoreRelativeToIsSetToDefault (index 131), type ()V (descriptor index 73)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotFindOrImportInflowTransaction (index 135), type (Ljavax/transaction/xa/Xid;Ljavax/resource/spi/work/Work;Ljava/lang/Exception;)Ljavax/resource/spi/work/WorkCompletedException; (descriptor index 136)
+Human type: (javax.transaction.xa.Xid, javax.resource.spi.work.Work, java.lang.Exception): javax.resource.spi.work.WorkCompletedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name importedInflowTransactionIsInactive (index 139), type (Ljavax/transaction/xa/Xid;Ljavax/resource/spi/work/Work;Ljava/lang/Exception;)Ljavax/resource/spi/work/WorkCompletedException; (descriptor index 136)
+Human type: (javax.transaction.xa.Xid, javax.resource.spi.work.Work, java.lang.Exception): javax.resource.spi.work.WorkCompletedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name cannotResumeInflowTransactionUnexpectedError (index 142), type (Ljavax/transaction/Transaction;Ljavax/resource/spi/work/Work;Ljava/lang/Exception;)Ljavax/resource/spi/work/WorkCompletedException; (descriptor index 143)
+Human type: (javax.transaction.Transaction, javax.resource.spi.work.Work, java.lang.Exception): javax.resource.spi.work.WorkCompletedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name cannotSuspendInflowTransactionUnexpectedError (index 146), type (Ljavax/resource/spi/work/Work;Ljava/lang/Exception;)Ljava/lang/RuntimeException; (descriptor index 147)
+Human type: (javax.resource.spi.work.Work, java.lang.Exception): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name timeoutValueIsSetToMaximum (index 150), type (I)V (descriptor index 30)
+Human type: (int): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name noActiveTransactionToRegisterSynchronization (index 153), type (Ljavax/transaction/Synchronization;)Ljava/lang/IllegalStateException; (descriptor index 154)
+Human type: (javax.transaction.Synchronization): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name <clinit> (index 157), type ()V (descriptor index 73)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

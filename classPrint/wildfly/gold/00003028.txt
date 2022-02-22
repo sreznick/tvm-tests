@@ -1,0 +1,153 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 97
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/BooleanExternalizer"
+11: Tag 1 Utf8 Value "targetClass"
+12: Tag 1 Utf8 Value "Ljava/lang/Class;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "reader"
+16: Tag 1 Utf8 Value "Ljava/util/function/Function;"
+17: Tag 9 FieldRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 16
+19: Tag 1 Utf8 Value "writer"
+20: Tag 11 InterfaceMethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "java/util/function/Function"
+24: Tag 1 Utf8 Value "apply"
+25: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "java/lang/Boolean"
+28: Tag 10 MethodRef Class index 26, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "booleanValue"
+31: Tag 1 Utf8 Value "()Z"
+32: Tag 11 InterfaceMethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "java/io/ObjectOutput"
+36: Tag 1 Utf8 Value "writeBoolean"
+37: Tag 1 Utf8 Value "(Z)V"
+38: Tag 11 InterfaceMethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 31
+41: Tag 1 Utf8 Value "java/io/ObjectInput"
+42: Tag 1 Utf8 Value "readBoolean"
+43: Tag 10 MethodRef Class index 26, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "valueOf"
+46: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "java/lang/Byte"
+49: Tag 10 MethodRef Class index 50, Name and type index 51
+50: Tag 7 Class Name index 52
+51: Tag 12 NameAndType Name index 53, Description index 54
+52: Tag 1 Utf8 Value "java/util/OptionalInt"
+53: Tag 1 Utf8 Value "of"
+54: Tag 1 Utf8 Value "(I)Ljava/util/OptionalInt;"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Externalizer"
+57: Tag 1 Utf8 Value "Signature"
+58: Tag 1 Utf8 Value "Ljava/lang/Class<TT;>;"
+59: Tag 1 Utf8 Value "Ljava/util/function/Function<Ljava/lang/Boolean;TT;>;"
+60: Tag 1 Utf8 Value "Ljava/util/function/Function<TT;Ljava/lang/Boolean;>;"
+61: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/util/function/Function;Ljava/util/function/Function;)V"
+62: Tag 1 Utf8 Value "Code"
+63: Tag 1 Utf8 Value "LineNumberTable"
+64: Tag 1 Utf8 Value "LocalVariableTable"
+65: Tag 1 Utf8 Value "this"
+66: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/BooleanExternalizer;"
+67: Tag 1 Utf8 Value "LocalVariableTypeTable"
+68: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/BooleanExternalizer<TT;>;"
+69: Tag 1 Utf8 Value "(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Ljava/lang/Boolean;TT;>;Ljava/util/function/Function<TT;Ljava/lang/Boolean;>;)V"
+70: Tag 1 Utf8 Value "writeObject"
+71: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/lang/Object;)V"
+72: Tag 1 Utf8 Value "output"
+73: Tag 1 Utf8 Value "Ljava/io/ObjectOutput;"
+74: Tag 1 Utf8 Value "object"
+75: Tag 1 Utf8 Value "Ljava/lang/Object;"
+76: Tag 1 Utf8 Value "TT;"
+77: Tag 1 Utf8 Value "Exceptions"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "java/io/IOException"
+80: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;TT;)V"
+81: Tag 1 Utf8 Value "readObject"
+82: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/lang/Object;"
+83: Tag 1 Utf8 Value "input"
+84: Tag 1 Utf8 Value "Ljava/io/ObjectInput;"
+85: Tag 7 Class Name index 86
+86: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+87: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)TT;"
+88: Tag 1 Utf8 Value "getTargetClass"
+89: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+90: Tag 1 Utf8 Value "()Ljava/lang/Class<TT;>;"
+91: Tag 1 Utf8 Value "size"
+92: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/OptionalInt;"
+93: Tag 1 Utf8 Value "(TT;)Ljava/util/OptionalInt;"
+94: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/Externalizer<TT;>;"
+95: Tag 1 Utf8 Value "SourceFile"
+96: Tag 1 Utf8 Value "BooleanExternalizer.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.marshalling.spi.BooleanExternalizer
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 55
+Implements names org.wildfly.clustering.marshalling.Externalizer
+
+Field name targetClass (index 11), type Ljava/lang/Class; (descriptor index 12)
+Human type: java.lang.Class
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name reader (index 15), type Ljava/util/function/Function; (descriptor index 16)
+Human type: java.util.function.Function
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name writer (index 19), type Ljava/util/function/Function; (descriptor index 16)
+Human type: java.util.function.Function
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/lang/Class;Ljava/util/function/Function;Ljava/util/function/Function;)V (descriptor index 61)
+Human type: (java.lang.Class, java.util.function.Function, java.util.function.Function): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 156
+Method attribute name Signature, size 2
+Method name writeObject (index 70), type (Ljava/io/ObjectOutput;Ljava/lang/Object;)V (descriptor index 71)
+Human type: (java.io.ObjectOutput, java.lang.Object): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 117
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name readObject (index 81), type (Ljava/io/ObjectInput;)Ljava/lang/Object; (descriptor index 82)
+Human type: (java.io.ObjectInput): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method attribute name Exceptions, size 6
+Method attribute name Signature, size 2
+Method name getTargetClass (index 88), type ()Ljava/lang/Class; (descriptor index 89)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+Method name size (index 91), type (Ljava/lang/Object;)Ljava/util/OptionalInt; (descriptor index 92)
+Human type: (java.lang.Object): java.util.OptionalInt
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 85
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

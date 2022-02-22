@@ -1,0 +1,135 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 98
+1: Tag 10 MethodRef Class index 18, Name and type index 51
+2: Tag 11 InterfaceMethodRef Class index 52, Name and type index 53
+3: Tag 9 FieldRef Class index 54, Name and type index 55
+4: Tag 11 InterfaceMethodRef Class index 42, Name and type index 56
+5: Tag 7 Class Name index 57
+6: Tag 7 Class Name index 58
+7: Tag 10 MethodRef Class index 6, Name and type index 51
+8: Tag 9 FieldRef Class index 17, Name and type index 59
+9: Tag 11 InterfaceMethodRef Class index 42, Name and type index 60
+10: Tag 9 FieldRef Class index 61, Name and type index 62
+11: Tag 11 InterfaceMethodRef Class index 42, Name and type index 63
+12: Tag 11 InterfaceMethodRef Class index 42, Name and type index 64
+13: Tag 7 Class Name index 65
+14: Tag 11 InterfaceMethodRef Class index 42, Name and type index 66
+15: Tag 11 InterfaceMethodRef Class index 67, Name and type index 68
+16: Tag 10 MethodRef Class index 69, Name and type index 70
+17: Tag 7 Class Name index 71
+18: Tag 7 Class Name index 72
+19: Tag 7 Class Name index 73
+20: Tag 1 Utf8 Value "ATTACHMENT_KEY"
+21: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+22: Tag 1 Utf8 Value "Signature"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey<Lio/undertow/predicate/Predicate;>;"
+24: Tag 1 Utf8 Value "<init>"
+25: Tag 1 Utf8 Value "()V"
+26: Tag 1 Utf8 Value "Code"
+27: Tag 1 Utf8 Value "LineNumberTable"
+28: Tag 1 Utf8 Value "LocalVariableTable"
+29: Tag 1 Utf8 Value "this"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/deployers/GracefulShutdownIntegrationProcessor;"
+31: Tag 1 Utf8 Value "deploy"
+32: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+33: Tag 1 Utf8 Value "predicate"
+34: Tag 1 Utf8 Value "Lio/undertow/predicate/Predicate;"
+35: Tag 1 Utf8 Value "phaseContext"
+36: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+37: Tag 1 Utf8 Value "unit"
+38: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+39: Tag 1 Utf8 Value "wsDeployment"
+40: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/metadata/model/JAXWSDeployment;"
+41: Tag 1 Utf8 Value "StackMapTable"
+42: Tag 7 Class Name index 74
+43: Tag 1 Utf8 Value "Exceptions"
+44: Tag 7 Class Name index 75
+45: Tag 1 Utf8 Value "undeploy"
+46: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+47: Tag 1 Utf8 Value "deploymentUnit"
+48: Tag 1 Utf8 Value "<clinit>"
+49: Tag 1 Utf8 Value "SourceFile"
+50: Tag 1 Utf8 Value "GracefulShutdownIntegrationProcessor.java"
+51: Tag 12 NameAndType Name index 24, Description index 25
+52: Tag 7 Class Name index 76
+53: Tag 12 NameAndType Name index 77, Description index 78
+54: Tag 7 Class Name index 79
+55: Tag 12 NameAndType Name index 80, Description index 21
+56: Tag 12 NameAndType Name index 81, Description index 82
+57: Tag 1 Utf8 Value "org/jboss/as/webservices/metadata/model/JAXWSDeployment"
+58: Tag 1 Utf8 Value "org/jboss/as/webservices/deployers/AllowWSRequestPredicate"
+59: Tag 12 NameAndType Name index 20, Description index 21
+60: Tag 12 NameAndType Name index 83, Description index 84
+61: Tag 7 Class Name index 85
+62: Tag 12 NameAndType Name index 86, Description index 21
+63: Tag 12 NameAndType Name index 87, Description index 88
+64: Tag 12 NameAndType Name index 89, Description index 82
+65: Tag 1 Utf8 Value "io/undertow/predicate/Predicate"
+66: Tag 12 NameAndType Name index 90, Description index 91
+67: Tag 7 Class Name index 92
+68: Tag 12 NameAndType Name index 93, Description index 94
+69: Tag 7 Class Name index 95
+70: Tag 12 NameAndType Name index 96, Description index 97
+71: Tag 1 Utf8 Value "org/jboss/as/webservices/deployers/GracefulShutdownIntegrationProcessor"
+72: Tag 1 Utf8 Value "java/lang/Object"
+73: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+74: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+75: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+76: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+77: Tag 1 Utf8 Value "getDeploymentUnit"
+78: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+79: Tag 1 Utf8 Value "org/jboss/as/webservices/util/WSAttachmentKeys"
+80: Tag 1 Utf8 Value "JAXWS_ENDPOINTS_KEY"
+81: Tag 1 Utf8 Value "getAttachment"
+82: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+83: Tag 1 Utf8 Value "putAttachment"
+84: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)Ljava/lang/Object;"
+85: Tag 1 Utf8 Value "org/wildfly/extension/undertow/deployment/UndertowAttachments"
+86: Tag 1 Utf8 Value "ALLOW_REQUEST_WHEN_SUSPENDED"
+87: Tag 1 Utf8 Value "addToAttachmentList"
+88: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)V"
+89: Tag 1 Utf8 Value "removeAttachment"
+90: Tag 1 Utf8 Value "getAttachmentList"
+91: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/util/List;"
+92: Tag 1 Utf8 Value "java/util/List"
+93: Tag 1 Utf8 Value "remove"
+94: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+95: Tag 1 Utf8 Value "org/jboss/as/server/deployment/AttachmentKey"
+96: Tag 1 Utf8 Value "create"
+97: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/server/deployment/AttachmentKey;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 17, name org.jboss.as.webservices.deployers.GracefulShutdownIntegrationProcessor
+
+Super class: id 18, name java.lang.Object
+
+Implements class ids 19
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name ATTACHMENT_KEY (index 20), type Lorg/jboss/as/server/deployment/AttachmentKey; (descriptor index 21)
+Human type: org.jboss.as.server.deployment.AttachmentKey
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+
+Method name <init> (index 24), type ()V (descriptor index 25)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name deploy (index 31), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 32)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 180
+Method attribute name Exceptions, size 4
+Method name undeploy (index 45), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 46)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 122
+Method name <clinit> (index 48), type ()V (descriptor index 25)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2

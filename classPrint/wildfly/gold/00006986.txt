@@ -1,0 +1,88 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 52
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/JTSSynchronizationWrapper"
+11: Tag 1 Utf8 Value "synchronization"
+12: Tag 1 Utf8 Value "Ljavax/transaction/Synchronization;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/naming/context/NamespaceContextSelector"
+17: Tag 1 Utf8 Value "getCurrentSelector"
+18: Tag 1 Utf8 Value "()Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+19: Tag 9 FieldRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "selector"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+23: Tag 10 MethodRef Class index 14, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "pushCurrentSelector"
+26: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/context/NamespaceContextSelector;)V"
+27: Tag 11 InterfaceMethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 6
+30: Tag 1 Utf8 Value "javax/transaction/Synchronization"
+31: Tag 1 Utf8 Value "beforeCompletion"
+32: Tag 10 MethodRef Class index 14, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 18
+34: Tag 1 Utf8 Value "popCurrentSelector"
+35: Tag 11 InterfaceMethodRef Class index 28, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "afterCompletion"
+38: Tag 1 Utf8 Value "(I)V"
+39: Tag 1 Utf8 Value "(Ljavax/transaction/Synchronization;)V"
+40: Tag 1 Utf8 Value "Code"
+41: Tag 1 Utf8 Value "LineNumberTable"
+42: Tag 1 Utf8 Value "LocalVariableTable"
+43: Tag 1 Utf8 Value "this"
+44: Tag 1 Utf8 Value "Lorg/jboss/as/weld/services/bootstrap/JTSSynchronizationWrapper;"
+45: Tag 1 Utf8 Value "StackMapTable"
+46: Tag 7 Class Name index 47
+47: Tag 1 Utf8 Value "java/lang/Throwable"
+48: Tag 1 Utf8 Value "status"
+49: Tag 1 Utf8 Value "I"
+50: Tag 1 Utf8 Value "SourceFile"
+51: Tag 1 Utf8 Value "JTSSynchronizationWrapper.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.weld.services.bootstrap.JTSSynchronizationWrapper
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 28
+Implements names javax.transaction.Synchronization
+
+Field name synchronization (index 11), type Ljavax/transaction/Synchronization; (descriptor index 12)
+Human type: javax.transaction.Synchronization
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name selector (index 21), type Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 22)
+Human type: org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljavax/transaction/Synchronization;)V (descriptor index 39)
+Human type: (javax.transaction.Synchronization): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 81
+Method name beforeCompletion (index 31), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 118
+Method name afterCompletion (index 37), type (I)V (descriptor index 38)
+Human type: (int): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 129
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,388 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 341
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractAddStepHandler"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)V"
+7: Tag 10 MethodRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "populateModel"
+10: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V"
+11: Tag 9 FieldRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AddressSettingsValidator"
+15: Tag 1 Utf8 Value "ADD_VALIDATOR"
+16: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationStepHandler;"
+17: Tag 9 FieldRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext$Stage"
+21: Tag 1 Utf8 Value "MODEL"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext$Stage;"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+27: Tag 1 Utf8 Value "addStep"
+28: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationContext$Stage;)V"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ActiveMQActivationService"
+33: Tag 1 Utf8 Value "getActiveMQServer"
+34: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/server/ActiveMQServer;"
+35: Tag 10 MethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AddressSettingAdd"
+39: Tag 1 Utf8 Value "createSettings"
+40: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+41: Tag 11 InterfaceMethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/server/ActiveMQServer"
+45: Tag 1 Utf8 Value "getAddressSettingsRepository"
+46: Tag 1 Utf8 Value "()Lorg/apache/activemq/artemis/core/settings/HierarchicalRepository;"
+47: Tag 11 InterfaceMethodRef Class index 24, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "getCurrentAddressValue"
+50: Tag 1 Utf8 Value "()Ljava/lang/String;"
+51: Tag 11 InterfaceMethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 56
+54: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/settings/HierarchicalRepository"
+55: Tag 1 Utf8 Value "addMatch"
+56: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/settings/impl/AddressSettings"
+59: Tag 10 MethodRef Class index 57, Name and type index 60
+60: Tag 12 NameAndType Name index 5, Description index 61
+61: Tag 1 Utf8 Value "()V"
+62: Tag 9 FieldRef Class index 63, Name and type index 64
+63: Tag 7 Class Name index 65
+64: Tag 12 NameAndType Name index 66, Description index 67
+65: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AddressSettingDefinition"
+66: Tag 1 Utf8 Value "ADDRESS_FULL_MESSAGE_POLICY"
+67: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+68: Tag 10 MethodRef Class index 69, Name and type index 70
+69: Tag 7 Class Name index 71
+70: Tag 12 NameAndType Name index 72, Description index 50
+71: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+72: Tag 1 Utf8 Value "getName"
+73: Tag 10 MethodRef Class index 74, Name and type index 75
+74: Tag 7 Class Name index 76
+75: Tag 12 NameAndType Name index 77, Description index 78
+76: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+77: Tag 1 Utf8 Value "hasDefined"
+78: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+79: Tag 10 MethodRef Class index 69, Name and type index 80
+80: Tag 12 NameAndType Name index 81, Description index 82
+81: Tag 1 Utf8 Value "resolveModelAttribute"
+82: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+83: Tag 10 MethodRef Class index 74, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 50
+85: Tag 1 Utf8 Value "asString"
+86: Tag 10 MethodRef Class index 87, Name and type index 88
+87: Tag 7 Class Name index 89
+88: Tag 12 NameAndType Name index 90, Description index 91
+89: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/settings/impl/AddressFullMessagePolicy"
+90: Tag 1 Utf8 Value "valueOf"
+91: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/apache/activemq/artemis/core/settings/impl/AddressFullMessagePolicy;"
+92: Tag 10 MethodRef Class index 57, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 95
+94: Tag 1 Utf8 Value "setAddressFullMessagePolicy"
+95: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/settings/impl/AddressFullMessagePolicy;)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+96: Tag 9 FieldRef Class index 97, Name and type index 98
+97: Tag 7 Class Name index 99
+98: Tag 12 NameAndType Name index 100, Description index 67
+99: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+100: Tag 1 Utf8 Value "DEAD_LETTER_ADDRESS"
+101: Tag 10 MethodRef Class index 36, Name and type index 102
+102: Tag 12 NameAndType Name index 103, Description index 104
+103: Tag 1 Utf8 Value "asSimpleString"
+104: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Ljava/lang/String;)Lorg/apache/activemq/artemis/api/core/SimpleString;"
+105: Tag 10 MethodRef Class index 57, Name and type index 106
+106: Tag 12 NameAndType Name index 107, Description index 108
+107: Tag 1 Utf8 Value "setDeadLetterAddress"
+108: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/api/core/SimpleString;)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+109: Tag 9 FieldRef Class index 63, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 67
+111: Tag 1 Utf8 Value "LAST_VALUE_QUEUE"
+112: Tag 10 MethodRef Class index 74, Name and type index 113
+113: Tag 12 NameAndType Name index 114, Description index 115
+114: Tag 1 Utf8 Value "asBoolean"
+115: Tag 1 Utf8 Value "()Z"
+116: Tag 10 MethodRef Class index 57, Name and type index 117
+117: Tag 12 NameAndType Name index 118, Description index 119
+118: Tag 1 Utf8 Value "setDefaultLastValueQueue"
+119: Tag 1 Utf8 Value "(Z)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+120: Tag 9 FieldRef Class index 63, Name and type index 121
+121: Tag 12 NameAndType Name index 122, Description index 67
+122: Tag 1 Utf8 Value "MAX_DELIVERY_ATTEMPTS"
+123: Tag 10 MethodRef Class index 74, Name and type index 124
+124: Tag 12 NameAndType Name index 125, Description index 126
+125: Tag 1 Utf8 Value "asInt"
+126: Tag 1 Utf8 Value "()I"
+127: Tag 10 MethodRef Class index 57, Name and type index 128
+128: Tag 12 NameAndType Name index 129, Description index 130
+129: Tag 1 Utf8 Value "setMaxDeliveryAttempts"
+130: Tag 1 Utf8 Value "(I)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+131: Tag 9 FieldRef Class index 63, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 67
+133: Tag 1 Utf8 Value "MAX_SIZE_BYTES"
+134: Tag 10 MethodRef Class index 74, Name and type index 135
+135: Tag 12 NameAndType Name index 136, Description index 137
+136: Tag 1 Utf8 Value "asLong"
+137: Tag 1 Utf8 Value "()J"
+138: Tag 10 MethodRef Class index 57, Name and type index 139
+139: Tag 12 NameAndType Name index 140, Description index 141
+140: Tag 1 Utf8 Value "setMaxSizeBytes"
+141: Tag 1 Utf8 Value "(J)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+142: Tag 9 FieldRef Class index 63, Name and type index 143
+143: Tag 12 NameAndType Name index 144, Description index 67
+144: Tag 1 Utf8 Value "MESSAGE_COUNTER_HISTORY_DAY_LIMIT"
+145: Tag 10 MethodRef Class index 57, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 130
+147: Tag 1 Utf8 Value "setMessageCounterHistoryDayLimit"
+148: Tag 9 FieldRef Class index 97, Name and type index 149
+149: Tag 12 NameAndType Name index 150, Description index 67
+150: Tag 1 Utf8 Value "EXPIRY_ADDRESS"
+151: Tag 10 MethodRef Class index 57, Name and type index 152
+152: Tag 12 NameAndType Name index 153, Description index 108
+153: Tag 1 Utf8 Value "setExpiryAddress"
+154: Tag 9 FieldRef Class index 63, Name and type index 155
+155: Tag 12 NameAndType Name index 156, Description index 67
+156: Tag 1 Utf8 Value "EXPIRY_DELAY"
+157: Tag 10 MethodRef Class index 158, Name and type index 159
+158: Tag 7 Class Name index 160
+159: Tag 12 NameAndType Name index 90, Description index 161
+160: Tag 1 Utf8 Value "java/lang/Long"
+161: Tag 1 Utf8 Value "(J)Ljava/lang/Long;"
+162: Tag 10 MethodRef Class index 57, Name and type index 163
+163: Tag 12 NameAndType Name index 164, Description index 165
+164: Tag 1 Utf8 Value "setExpiryDelay"
+165: Tag 1 Utf8 Value "(Ljava/lang/Long;)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+166: Tag 9 FieldRef Class index 63, Name and type index 167
+167: Tag 12 NameAndType Name index 168, Description index 67
+168: Tag 1 Utf8 Value "REDELIVERY_DELAY"
+169: Tag 10 MethodRef Class index 57, Name and type index 170
+170: Tag 12 NameAndType Name index 171, Description index 141
+171: Tag 1 Utf8 Value "setRedeliveryDelay"
+172: Tag 9 FieldRef Class index 63, Name and type index 173
+173: Tag 12 NameAndType Name index 174, Description index 67
+174: Tag 1 Utf8 Value "REDELIVERY_MULTIPLIER"
+175: Tag 10 MethodRef Class index 74, Name and type index 176
+176: Tag 12 NameAndType Name index 177, Description index 178
+177: Tag 1 Utf8 Value "asDouble"
+178: Tag 1 Utf8 Value "()D"
+179: Tag 10 MethodRef Class index 57, Name and type index 180
+180: Tag 12 NameAndType Name index 181, Description index 182
+181: Tag 1 Utf8 Value "setRedeliveryMultiplier"
+182: Tag 1 Utf8 Value "(D)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+183: Tag 9 FieldRef Class index 63, Name and type index 184
+184: Tag 12 NameAndType Name index 185, Description index 67
+185: Tag 1 Utf8 Value "MAX_REDELIVERY_DELAY"
+186: Tag 10 MethodRef Class index 57, Name and type index 187
+187: Tag 12 NameAndType Name index 188, Description index 141
+188: Tag 1 Utf8 Value "setMaxRedeliveryDelay"
+189: Tag 9 FieldRef Class index 63, Name and type index 190
+190: Tag 12 NameAndType Name index 191, Description index 67
+191: Tag 1 Utf8 Value "REDISTRIBUTION_DELAY"
+192: Tag 10 MethodRef Class index 57, Name and type index 193
+193: Tag 12 NameAndType Name index 194, Description index 141
+194: Tag 1 Utf8 Value "setRedistributionDelay"
+195: Tag 9 FieldRef Class index 63, Name and type index 196
+196: Tag 12 NameAndType Name index 197, Description index 67
+197: Tag 1 Utf8 Value "PAGE_SIZE_BYTES"
+198: Tag 10 MethodRef Class index 57, Name and type index 199
+199: Tag 12 NameAndType Name index 200, Description index 130
+200: Tag 1 Utf8 Value "setPageSizeBytes"
+201: Tag 9 FieldRef Class index 63, Name and type index 202
+202: Tag 12 NameAndType Name index 203, Description index 67
+203: Tag 1 Utf8 Value "PAGE_MAX_CACHE_SIZE"
+204: Tag 10 MethodRef Class index 57, Name and type index 205
+205: Tag 12 NameAndType Name index 206, Description index 130
+206: Tag 1 Utf8 Value "setPageCacheMaxSize"
+207: Tag 9 FieldRef Class index 63, Name and type index 208
+208: Tag 12 NameAndType Name index 209, Description index 67
+209: Tag 1 Utf8 Value "SEND_TO_DLA_ON_NO_ROUTE"
+210: Tag 10 MethodRef Class index 57, Name and type index 211
+211: Tag 12 NameAndType Name index 212, Description index 119
+212: Tag 1 Utf8 Value "setSendToDLAOnNoRoute"
+213: Tag 9 FieldRef Class index 63, Name and type index 214
+214: Tag 12 NameAndType Name index 215, Description index 67
+215: Tag 1 Utf8 Value "SLOW_CONSUMER_CHECK_PERIOD"
+216: Tag 10 MethodRef Class index 57, Name and type index 217
+217: Tag 12 NameAndType Name index 218, Description index 141
+218: Tag 1 Utf8 Value "setSlowConsumerCheckPeriod"
+219: Tag 9 FieldRef Class index 63, Name and type index 220
+220: Tag 12 NameAndType Name index 221, Description index 67
+221: Tag 1 Utf8 Value "SLOW_CONSUMER_POLICY"
+222: Tag 10 MethodRef Class index 223, Name and type index 224
+223: Tag 7 Class Name index 225
+224: Tag 12 NameAndType Name index 90, Description index 226
+225: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/settings/impl/SlowConsumerPolicy"
+226: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/apache/activemq/artemis/core/settings/impl/SlowConsumerPolicy;"
+227: Tag 10 MethodRef Class index 57, Name and type index 228
+228: Tag 12 NameAndType Name index 229, Description index 230
+229: Tag 1 Utf8 Value "setSlowConsumerPolicy"
+230: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/settings/impl/SlowConsumerPolicy;)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+231: Tag 9 FieldRef Class index 63, Name and type index 232
+232: Tag 12 NameAndType Name index 233, Description index 67
+233: Tag 1 Utf8 Value "SLOW_CONSUMER_THRESHOLD"
+234: Tag 10 MethodRef Class index 57, Name and type index 235
+235: Tag 12 NameAndType Name index 236, Description index 141
+236: Tag 1 Utf8 Value "setSlowConsumerThreshold"
+237: Tag 9 FieldRef Class index 63, Name and type index 238
+238: Tag 12 NameAndType Name index 239, Description index 67
+239: Tag 1 Utf8 Value "AUTO_CREATE_JMS_QUEUES"
+240: Tag 10 MethodRef Class index 57, Name and type index 241
+241: Tag 12 NameAndType Name index 242, Description index 119
+242: Tag 1 Utf8 Value "setAutoCreateJmsQueues"
+243: Tag 9 FieldRef Class index 63, Name and type index 244
+244: Tag 12 NameAndType Name index 245, Description index 67
+245: Tag 1 Utf8 Value "AUTO_DELETE_JMS_QUEUES"
+246: Tag 10 MethodRef Class index 57, Name and type index 247
+247: Tag 12 NameAndType Name index 248, Description index 119
+248: Tag 1 Utf8 Value "setAutoDeleteJmsQueues"
+249: Tag 9 FieldRef Class index 63, Name and type index 250
+250: Tag 12 NameAndType Name index 251, Description index 67
+251: Tag 1 Utf8 Value "AUTO_CREATE_QUEUES"
+252: Tag 10 MethodRef Class index 253, Name and type index 254
+253: Tag 7 Class Name index 255
+254: Tag 12 NameAndType Name index 90, Description index 256
+255: Tag 1 Utf8 Value "java/lang/Boolean"
+256: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+257: Tag 10 MethodRef Class index 57, Name and type index 258
+258: Tag 12 NameAndType Name index 259, Description index 260
+259: Tag 1 Utf8 Value "setAutoCreateQueues"
+260: Tag 1 Utf8 Value "(Ljava/lang/Boolean;)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+261: Tag 9 FieldRef Class index 63, Name and type index 262
+262: Tag 12 NameAndType Name index 263, Description index 67
+263: Tag 1 Utf8 Value "AUTO_DELETE_QUEUES"
+264: Tag 10 MethodRef Class index 57, Name and type index 265
+265: Tag 12 NameAndType Name index 266, Description index 260
+266: Tag 1 Utf8 Value "setAutoDeleteQueues"
+267: Tag 9 FieldRef Class index 63, Name and type index 268
+268: Tag 12 NameAndType Name index 269, Description index 67
+269: Tag 1 Utf8 Value "AUTO_CREATE_ADDRESSES"
+270: Tag 10 MethodRef Class index 57, Name and type index 271
+271: Tag 12 NameAndType Name index 272, Description index 260
+272: Tag 1 Utf8 Value "setAutoCreateAddresses"
+273: Tag 9 FieldRef Class index 63, Name and type index 274
+274: Tag 12 NameAndType Name index 275, Description index 67
+275: Tag 1 Utf8 Value "AUTO_DELETE_ADDRESSES"
+276: Tag 10 MethodRef Class index 57, Name and type index 277
+277: Tag 12 NameAndType Name index 278, Description index 260
+278: Tag 1 Utf8 Value "setAutoDeleteAddresses"
+279: Tag 10 MethodRef Class index 74, Name and type index 280
+280: Tag 12 NameAndType Name index 281, Description index 282
+281: Tag 1 Utf8 Value "getType"
+282: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelType;"
+283: Tag 9 FieldRef Class index 284, Name and type index 285
+284: Tag 7 Class Name index 286
+285: Tag 12 NameAndType Name index 287, Description index 288
+286: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+287: Tag 1 Utf8 Value "UNDEFINED"
+288: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+289: Tag 10 MethodRef Class index 290, Name and type index 291
+290: Tag 7 Class Name index 292
+291: Tag 12 NameAndType Name index 293, Description index 294
+292: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/SimpleString"
+293: Tag 1 Utf8 Value "toSimpleString"
+294: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/apache/activemq/artemis/api/core/SimpleString;"
+295: Tag 9 FieldRef Class index 63, Name and type index 296
+296: Tag 12 NameAndType Name index 297, Description index 298
+297: Tag 1 Utf8 Value "ATTRIBUTES"
+298: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+299: Tag 10 MethodRef Class index 36, Name and type index 3
+300: Tag 9 FieldRef Class index 36, Name and type index 301
+301: Tag 12 NameAndType Name index 302, Description index 16
+302: Tag 1 Utf8 Value "INSTANCE"
+303: Tag 1 Utf8 Value "Code"
+304: Tag 1 Utf8 Value "LineNumberTable"
+305: Tag 1 Utf8 Value "LocalVariableTable"
+306: Tag 1 Utf8 Value "this"
+307: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/AddressSettingAdd;"
+308: Tag 1 Utf8 Value "attributes"
+309: Tag 1 Utf8 Value "context"
+310: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+311: Tag 1 Utf8 Value "operation"
+312: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+313: Tag 1 Utf8 Value "resource"
+314: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+315: Tag 1 Utf8 Value "Exceptions"
+316: Tag 7 Class Name index 317
+317: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+318: Tag 1 Utf8 Value "performRuntime"
+319: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+320: Tag 1 Utf8 Value "settings"
+321: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings;"
+322: Tag 1 Utf8 Value "model"
+323: Tag 1 Utf8 Value "server"
+324: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/server/ActiveMQServer;"
+325: Tag 1 Utf8 Value "StackMapTable"
+326: Tag 1 Utf8 Value "addressPolicy"
+327: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/settings/impl/AddressFullMessagePolicy;"
+328: Tag 1 Utf8 Value "slowConsumerPolicy"
+329: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/settings/impl/SlowConsumerPolicy;"
+330: Tag 1 Utf8 Value "config"
+331: Tag 1 Utf8 Value "node"
+332: Tag 1 Utf8 Value "defVal"
+333: Tag 1 Utf8 Value "Ljava/lang/String;"
+334: Tag 7 Class Name index 335
+335: Tag 1 Utf8 Value "java/lang/String"
+336: Tag 1 Utf8 Value "<clinit>"
+337: Tag 1 Utf8 Value "SourceFile"
+338: Tag 1 Utf8 Value "AddressSettingAdd.java"
+339: Tag 1 Utf8 Value "InnerClasses"
+340: Tag 1 Utf8 Value "Stage"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 36, name org.wildfly.extension.messaging.activemq.AddressSettingAdd
+
+Super class: id 2, name org.jboss.as.controller.AbstractAddStepHandler
+
+No interfaces
+
+Field name INSTANCE (index 302), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 16)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 5), type ([Lorg/jboss/as/controller/AttributeDefinition;)V (descriptor index 6)
+Human type: (org.jboss.as.controller.AttributeDefinition[]): void
+Flags: decimal 130, hex 0082, binary 0000000010000010 private varargs
+Method attribute name Code, size 62
+Method name populateModel (index 9), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V (descriptor index 10)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 100
+Method attribute name Exceptions, size 4
+Method name performRuntime (index 318), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 319)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 162
+Method attribute name Exceptions, size 4
+Method name createSettings (index 39), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/settings/impl/AddressSettings; (descriptor index 40)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.apache.activemq.artemis.core.settings.impl.AddressSettings
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 948
+Method attribute name Exceptions, size 4
+Method name asSimpleString (index 103), type (Lorg/jboss/dmr/ModelNode;Ljava/lang/String;)Lorg/apache/activemq/artemis/api/core/SimpleString; (descriptor index 104)
+Human type: (org.jboss.dmr.ModelNode, java.lang.String): org.apache.activemq.artemis.api.core.SimpleString
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 87
+Method name <clinit> (index 336), type ()V (descriptor index 61)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,142 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 93
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+11: Tag 1 Utf8 Value "getDeploymentUnit"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/jwt/smallrye/JwtDeploymentMarker"
+17: Tag 1 Utf8 Value "isJWTDeployment"
+18: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/modules/Module"
+23: Tag 1 Utf8 Value "getBootModuleLoader"
+24: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleLoader;"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+29: Tag 1 Utf8 Value "MODULE_SPECIFICATION"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+35: Tag 1 Utf8 Value "getAttachment"
+36: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ModuleSpecification"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ModuleDependency"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/jwt/smallrye/JwtDependencyProcessor"
+43: Tag 8 String Contents 44
+44: Tag 1 Utf8 Value "javax.security.enterprise.api"
+45: Tag 10 MethodRef Class index 39, Name and type index 46
+46: Tag 12 NameAndType Name index 5, Description index 47
+47: Tag 1 Utf8 Value "(Lorg/jboss/modules/ModuleLoader;Ljava/lang/String;ZZZZ)V"
+48: Tag 10 MethodRef Class index 37, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "addSystemDependency"
+51: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/module/ModuleDependency;)V"
+52: Tag 8 String Contents 53
+53: Tag 1 Utf8 Value "org.glassfish.soteria"
+54: Tag 8 String Contents 55
+55: Tag 1 Utf8 Value "org.eclipse.microprofile.jwt.auth.api"
+56: Tag 8 String Contents 57
+57: Tag 1 Utf8 Value "io.smallrye.jwt"
+58: Tag 8 String Contents 59
+59: Tag 1 Utf8 Value "org.wildfly.security.elytron-jwt"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+62: Tag 1 Utf8 Value "EE_SECURITY_API"
+63: Tag 1 Utf8 Value "Ljava/lang/String;"
+64: Tag 1 Utf8 Value "ConstantValue"
+65: Tag 1 Utf8 Value "EE_SECURITY_IMPL"
+66: Tag 1 Utf8 Value "MP_JWT_API"
+67: Tag 1 Utf8 Value "SMALLRYE_JWT"
+68: Tag 1 Utf8 Value "ELYTRON_JWT"
+69: Tag 1 Utf8 Value "Code"
+70: Tag 1 Utf8 Value "LineNumberTable"
+71: Tag 1 Utf8 Value "LocalVariableTable"
+72: Tag 1 Utf8 Value "this"
+73: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/jwt/smallrye/JwtDependencyProcessor;"
+74: Tag 1 Utf8 Value "deploy"
+75: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+76: Tag 1 Utf8 Value "phaseContext"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+78: Tag 1 Utf8 Value "deploymentUnit"
+79: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+80: Tag 1 Utf8 Value "moduleLoader"
+81: Tag 1 Utf8 Value "Lorg/jboss/modules/ModuleLoader;"
+82: Tag 1 Utf8 Value "moduleSpec"
+83: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/module/ModuleSpecification;"
+84: Tag 1 Utf8 Value "StackMapTable"
+85: Tag 1 Utf8 Value "Exceptions"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+88: Tag 1 Utf8 Value "undeploy"
+89: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+90: Tag 1 Utf8 Value "context"
+91: Tag 1 Utf8 Value "SourceFile"
+92: Tag 1 Utf8 Value "JwtDependencyProcessor.java"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 41, name org.wildfly.extension.microprofile.jwt.smallrye.JwtDependencyProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 60
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name EE_SECURITY_API (index 62), type Ljava/lang/String; (descriptor index 63)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name EE_SECURITY_IMPL (index 65), type Ljava/lang/String; (descriptor index 63)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name MP_JWT_API (index 66), type Ljava/lang/String; (descriptor index 63)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name SMALLRYE_JWT (index 67), type Ljava/lang/String; (descriptor index 63)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ELYTRON_JWT (index 68), type Ljava/lang/String; (descriptor index 63)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method name deploy (index 74), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 75)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 265
+Method attribute name Exceptions, size 4
+Method name undeploy (index 88), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 89)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+
+Class attribute name SourceFile, size 2

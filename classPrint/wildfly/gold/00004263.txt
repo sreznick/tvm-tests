@@ -1,0 +1,727 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 627
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/AddStepHandler"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor;Lorg/jboss/as/clustering/controller/ResourceServiceHandler;)V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 5, Description index 11
+10: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractAddStepHandler"
+11: Tag 1 Utf8 Value "()V"
+12: Tag 9 FieldRef Class index 2, Name and type index 13
+13: Tag 12 NameAndType Name index 14, Description index 15
+14: Tag 1 Utf8 Value "descriptor"
+15: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor;"
+16: Tag 9 FieldRef Class index 2, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "handler"
+19: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/ResourceServiceHandler;"
+20: Tag 10 MethodRef Class index 8, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 23
+22: Tag 1 Utf8 Value "requiresRuntime"
+23: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)Z"
+24: Tag 11 InterfaceMethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+28: Tag 1 Utf8 Value "getCurrentAddress"
+29: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+30: Tag 10 MethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 29
+33: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+34: Tag 1 Utf8 Value "getParent"
+35: Tag 10 MethodRef Class index 31, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "getLastElement"
+38: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathElement;"
+39: Tag 11 InterfaceMethodRef Class index 25, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "getRootResourceRegistration"
+42: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+45: Tag 8 String Contents 46
+46: Tag 1 Utf8 Value "add"
+47: Tag 11 InterfaceMethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ImmutableManagementResourceRegistration"
+51: Tag 1 Utf8 Value "getOperationHandler"
+52: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Ljava/lang/String;)Lorg/jboss/as/controller/OperationStepHandler;"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/DescribedAddStepHandler"
+55: Tag 11 InterfaceMethodRef Class index 53, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "getDescriptor"
+58: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+59: Tag 7 Class Name index 60
+60: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/AddStepHandlerDescriptor"
+61: Tag 11 InterfaceMethodRef Class index 59, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "getRequiredChildren"
+64: Tag 1 Utf8 Value "()Ljava/util/Set;"
+65: Tag 11 InterfaceMethodRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 69, Description index 70
+68: Tag 1 Utf8 Value "java/util/Set"
+69: Tag 1 Utf8 Value "contains"
+70: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+71: Tag 11 InterfaceMethodRef Class index 25, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 74
+73: Tag 1 Utf8 Value "readResourceFromRoot"
+74: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Z)Lorg/jboss/as/controller/registry/Resource;"
+75: Tag 11 InterfaceMethodRef Class index 76, Name and type index 77
+76: Tag 7 Class Name index 78
+77: Tag 12 NameAndType Name index 79, Description index 80
+78: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+79: Tag 1 Utf8 Value "hasChild"
+80: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;)Z"
+81: Tag 10 MethodRef Class index 82, Name and type index 83
+82: Tag 7 Class Name index 84
+83: Tag 12 NameAndType Name index 85, Description index 86
+84: Tag 1 Utf8 Value "org/jboss/as/controller/operations/common/Util"
+85: Tag 1 Utf8 Value "createRemoveOperation"
+86: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/dmr/ModelNode;"
+87: Tag 8 String Contents 88
+88: Tag 1 Utf8 Value "remove"
+89: Tag 9 FieldRef Class index 90, Name and type index 91
+90: Tag 7 Class Name index 92
+91: Tag 12 NameAndType Name index 93, Description index 94
+92: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext$Stage"
+93: Tag 1 Utf8 Value "MODEL"
+94: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext$Stage;"
+95: Tag 11 InterfaceMethodRef Class index 25, Name and type index 96
+96: Tag 12 NameAndType Name index 97, Description index 98
+97: Tag 1 Utf8 Value "addStep"
+98: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationContext$Stage;)V"
+99: Tag 11 InterfaceMethodRef Class index 59, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 64
+101: Tag 1 Utf8 Value "getRequiredSingletonChildren"
+102: Tag 11 InterfaceMethodRef Class index 66, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 105
+104: Tag 1 Utf8 Value "iterator"
+105: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+106: Tag 11 InterfaceMethodRef Class index 107, Name and type index 108
+107: Tag 7 Class Name index 109
+108: Tag 12 NameAndType Name index 110, Description index 111
+109: Tag 1 Utf8 Value "java/util/Iterator"
+110: Tag 1 Utf8 Value "hasNext"
+111: Tag 1 Utf8 Value "()Z"
+112: Tag 11 InterfaceMethodRef Class index 107, Name and type index 113
+113: Tag 12 NameAndType Name index 114, Description index 58
+114: Tag 1 Utf8 Value "next"
+115: Tag 7 Class Name index 116
+116: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+117: Tag 10 MethodRef Class index 115, Name and type index 118
+118: Tag 12 NameAndType Name index 119, Description index 120
+119: Tag 1 Utf8 Value "getKey"
+120: Tag 1 Utf8 Value "()Ljava/lang/String;"
+121: Tag 10 MethodRef Class index 122, Name and type index 123
+122: Tag 7 Class Name index 124
+123: Tag 12 NameAndType Name index 125, Description index 70
+124: Tag 1 Utf8 Value "java/lang/String"
+125: Tag 1 Utf8 Value "equals"
+126: Tag 11 InterfaceMethodRef Class index 76, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 129
+128: Tag 1 Utf8 Value "getChildrenNames"
+129: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Set;"
+130: Tag 11 InterfaceMethodRef Class index 66, Name and type index 131
+131: Tag 12 NameAndType Name index 132, Description index 111
+132: Tag 1 Utf8 Value "isEmpty"
+133: Tag 10 MethodRef Class index 31, Name and type index 134
+134: Tag 12 NameAndType Name index 135, Description index 136
+135: Tag 1 Utf8 Value "append"
+136: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/PathAddress;"
+137: Tag 10 MethodRef Class index 8, Name and type index 138
+138: Tag 12 NameAndType Name index 139, Description index 140
+139: Tag 1 Utf8 Value "execute"
+140: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+141: Tag 10 MethodRef Class index 2, Name and type index 21
+142: Tag 11 InterfaceMethodRef Class index 59, Name and type index 143
+143: Tag 12 NameAndType Name index 144, Description index 145
+144: Tag 1 Utf8 Value "getRuntimeResourceRegistrations"
+145: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+146: Tag 11 InterfaceMethodRef Class index 147, Name and type index 103
+147: Tag 7 Class Name index 148
+148: Tag 1 Utf8 Value "java/util/Collection"
+149: Tag 7 Class Name index 150
+150: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/RuntimeResourceRegistration"
+151: Tag 7 Class Name index 152
+152: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/RuntimeResourceRegistrationStepHandler"
+153: Tag 10 MethodRef Class index 151, Name and type index 154
+154: Tag 12 NameAndType Name index 5, Description index 155
+155: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/RuntimeResourceRegistration;)V"
+156: Tag 11 InterfaceMethodRef Class index 25, Name and type index 157
+157: Tag 12 NameAndType Name index 97, Description index 158
+158: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationContext$Stage;)V"
+159: Tag 11 InterfaceMethodRef Class index 25, Name and type index 160
+160: Tag 12 NameAndType Name index 161, Description index 42
+161: Tag 1 Utf8 Value "getResourceRegistration"
+162: Tag 11 InterfaceMethodRef Class index 48, Name and type index 163
+163: Tag 12 NameAndType Name index 164, Description index 111
+164: Tag 1 Utf8 Value "isRuntimeOnly"
+165: Tag 10 MethodRef Class index 166, Name and type index 167
+166: Tag 7 Class Name index 168
+167: Tag 12 NameAndType Name index 169, Description index 170
+168: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource$Factory"
+169: Tag 1 Utf8 Value "create"
+170: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/registry/Resource;"
+171: Tag 11 InterfaceMethodRef Class index 25, Name and type index 172
+172: Tag 12 NameAndType Name index 173, Description index 111
+173: Tag 1 Utf8 Value "isDefaultRequiresRuntime"
+174: Tag 11 InterfaceMethodRef Class index 59, Name and type index 175
+175: Tag 12 NameAndType Name index 176, Description index 177
+176: Tag 1 Utf8 Value "getResourceTransformation"
+177: Tag 1 Utf8 Value "()Ljava/util/function/UnaryOperator;"
+178: Tag 11 InterfaceMethodRef Class index 179, Name and type index 180
+179: Tag 7 Class Name index 181
+180: Tag 12 NameAndType Name index 182, Description index 183
+181: Tag 1 Utf8 Value "java/util/function/UnaryOperator"
+182: Tag 1 Utf8 Value "apply"
+183: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+184: Tag 9 FieldRef Class index 31, Name and type index 185
+185: Tag 12 NameAndType Name index 186, Description index 187
+186: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+187: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+188: Tag 11 InterfaceMethodRef Class index 25, Name and type index 189
+189: Tag 12 NameAndType Name index 190, Description index 191
+190: Tag 1 Utf8 Value "addResource"
+191: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Lorg/jboss/as/controller/registry/Resource;)V"
+192: Tag 11 InterfaceMethodRef Class index 179, Name and type index 193
+193: Tag 12 NameAndType Name index 194, Description index 177
+194: Tag 1 Utf8 Value "identity"
+195: Tag 11 InterfaceMethodRef Class index 48, Name and type index 196
+196: Tag 12 NameAndType Name index 197, Description index 64
+197: Tag 1 Utf8 Value "getOrderedChildTypes"
+198: Tag 10 MethodRef Class index 166, Name and type index 199
+199: Tag 12 NameAndType Name index 169, Description index 200
+200: Tag 1 Utf8 Value "(ZLjava/util/Set;)Lorg/jboss/as/controller/registry/Resource;"
+201: Tag 11 InterfaceMethodRef Class index 48, Name and type index 202
+202: Tag 12 NameAndType Name index 203, Description index 111
+203: Tag 1 Utf8 Value "isOrderedChildResource"
+204: Tag 8 String Contents 205
+205: Tag 1 Utf8 Value "add-index"
+206: Tag 10 MethodRef Class index 207, Name and type index 208
+207: Tag 7 Class Name index 209
+208: Tag 12 NameAndType Name index 210, Description index 211
+209: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+210: Tag 1 Utf8 Value "hasDefined"
+211: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+212: Tag 10 MethodRef Class index 207, Name and type index 213
+213: Tag 12 NameAndType Name index 214, Description index 215
+214: Tag 1 Utf8 Value "get"
+215: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+216: Tag 10 MethodRef Class index 207, Name and type index 217
+217: Tag 12 NameAndType Name index 218, Description index 219
+218: Tag 1 Utf8 Value "asIntOrNull"
+219: Tag 1 Utf8 Value "()Ljava/lang/Integer;"
+220: Tag 10 MethodRef Class index 221, Name and type index 222
+221: Tag 7 Class Name index 223
+222: Tag 12 NameAndType Name index 224, Description index 225
+223: Tag 1 Utf8 Value "java/lang/Integer"
+224: Tag 1 Utf8 Value "intValue"
+225: Tag 1 Utf8 Value "()I"
+226: Tag 11 InterfaceMethodRef Class index 25, Name and type index 227
+227: Tag 12 NameAndType Name index 190, Description index 228
+228: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;ILorg/jboss/as/controller/registry/Resource;)V"
+229: Tag 11 InterfaceMethodRef Class index 59, Name and type index 230
+230: Tag 12 NameAndType Name index 231, Description index 145
+231: Tag 1 Utf8 Value "getExtraParameters"
+232: Tag 7 Class Name index 233
+233: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+234: Tag 10 MethodRef Class index 232, Name and type index 235
+235: Tag 12 NameAndType Name index 236, Description index 237
+236: Tag 1 Utf8 Value "validateOperation"
+237: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+238: Tag 11 InterfaceMethodRef Class index 59, Name and type index 239
+239: Tag 12 NameAndType Name index 240, Description index 241
+240: Tag 1 Utf8 Value "getAttributeTranslations"
+241: Tag 1 Utf8 Value "()Ljava/util/Map;"
+242: Tag 11 InterfaceMethodRef Class index 243, Name and type index 244
+243: Tag 7 Class Name index 245
+244: Tag 12 NameAndType Name index 246, Description index 64
+245: Tag 1 Utf8 Value "java/util/Map"
+246: Tag 1 Utf8 Value "entrySet"
+247: Tag 7 Class Name index 248
+248: Tag 1 Utf8 Value "java/util/Map$Entry"
+249: Tag 11 InterfaceMethodRef Class index 247, Name and type index 250
+250: Tag 12 NameAndType Name index 119, Description index 58
+251: Tag 11 InterfaceMethodRef Class index 247, Name and type index 252
+252: Tag 12 NameAndType Name index 253, Description index 58
+253: Tag 1 Utf8 Value "getValue"
+254: Tag 7 Class Name index 255
+255: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/AttributeTranslation"
+256: Tag 10 MethodRef Class index 232, Name and type index 257
+257: Tag 12 NameAndType Name index 258, Description index 120
+258: Tag 1 Utf8 Value "getName"
+259: Tag 11 InterfaceMethodRef Class index 254, Name and type index 260
+260: Tag 12 NameAndType Name index 261, Description index 262
+261: Tag 1 Utf8 Value "getWriteTranslator"
+262: Tag 1 Utf8 Value "()Lorg/jboss/as/clustering/controller/AttributeValueTranslator;"
+263: Tag 11 InterfaceMethodRef Class index 264, Name and type index 265
+264: Tag 7 Class Name index 266
+265: Tag 12 NameAndType Name index 267, Description index 268
+266: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/AttributeValueTranslator"
+267: Tag 1 Utf8 Value "translate"
+268: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+269: Tag 11 InterfaceMethodRef Class index 254, Name and type index 270
+270: Tag 12 NameAndType Name index 271, Description index 272
+271: Tag 1 Utf8 Value "getTargetAttribute"
+272: Tag 1 Utf8 Value "()Lorg/jboss/as/clustering/controller/Attribute;"
+273: Tag 11 InterfaceMethodRef Class index 254, Name and type index 274
+274: Tag 12 NameAndType Name index 275, Description index 177
+275: Tag 1 Utf8 Value "getPathAddressTransformation"
+276: Tag 11 InterfaceMethodRef Class index 277, Name and type index 257
+277: Tag 7 Class Name index 278
+278: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/Attribute"
+279: Tag 10 MethodRef Class index 207, Name and type index 280
+280: Tag 12 NameAndType Name index 281, Description index 237
+281: Tag 1 Utf8 Value "set"
+282: Tag 10 MethodRef Class index 283, Name and type index 284
+283: Tag 7 Class Name index 285
+284: Tag 12 NameAndType Name index 286, Description index 287
+285: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/Operations"
+286: Tag 1 Utf8 Value "createWriteAttributeOperation"
+287: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Lorg/jboss/as/clustering/controller/Attribute;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+288: Tag 11 InterfaceMethodRef Class index 48, Name and type index 289
+289: Tag 12 NameAndType Name index 290, Description index 291
+290: Tag 1 Utf8 Value "getSubModel"
+291: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;"
+292: Tag 7 Class Name index 293
+293: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+294: Tag 9 FieldRef Class index 295, Name and type index 296
+295: Tag 7 Class Name index 297
+296: Tag 12 NameAndType Name index 298, Description index 299
+297: Tag 1 Utf8 Value "org/jboss/as/controller/logging/ControllerLogger"
+298: Tag 1 Utf8 Value "MGMT_OP_LOGGER"
+299: Tag 1 Utf8 Value "Lorg/jboss/as/controller/logging/ControllerLogger;"
+300: Tag 11 InterfaceMethodRef Class index 295, Name and type index 301
+301: Tag 12 NameAndType Name index 302, Description index 303
+302: Tag 1 Utf8 Value "noSuchResourceType"
+303: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String;"
+304: Tag 10 MethodRef Class index 292, Name and type index 305
+305: Tag 12 NameAndType Name index 5, Description index 306
+306: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+307: Tag 11 InterfaceMethodRef Class index 48, Name and type index 308
+308: Tag 12 NameAndType Name index 309, Description index 310
+309: Tag 1 Utf8 Value "getAttributeAccess"
+310: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Ljava/lang/String;)Lorg/jboss/as/controller/registry/AttributeAccess;"
+311: Tag 10 MethodRef Class index 312, Name and type index 313
+312: Tag 7 Class Name index 314
+313: Tag 12 NameAndType Name index 315, Description index 316
+314: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess"
+315: Tag 1 Utf8 Value "getWriteHandler"
+316: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/OperationStepHandler;"
+317: Tag 11 InterfaceMethodRef Class index 76, Name and type index 318
+318: Tag 12 NameAndType Name index 319, Description index 320
+319: Tag 1 Utf8 Value "getModel"
+320: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+321: Tag 11 InterfaceMethodRef Class index 48, Name and type index 322
+322: Tag 12 NameAndType Name index 323, Description index 324
+323: Tag 1 Utf8 Value "getAttributeNames"
+324: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Ljava/util/Set;"
+325: Tag 10 MethodRef Class index 312, Name and type index 326
+326: Tag 12 NameAndType Name index 327, Description index 328
+327: Tag 1 Utf8 Value "getAttributeDefinition"
+328: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AttributeDefinition;"
+329: Tag 10 MethodRef Class index 312, Name and type index 330
+330: Tag 12 NameAndType Name index 331, Description index 332
+331: Tag 1 Utf8 Value "getStorageType"
+332: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/registry/AttributeAccess$Storage;"
+333: Tag 9 FieldRef Class index 334, Name and type index 335
+334: Tag 7 Class Name index 336
+335: Tag 12 NameAndType Name index 337, Description index 338
+336: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess$Storage"
+337: Tag 1 Utf8 Value "CONFIGURATION"
+338: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess$Storage;"
+339: Tag 11 InterfaceMethodRef Class index 243, Name and type index 340
+340: Tag 12 NameAndType Name index 341, Description index 70
+341: Tag 1 Utf8 Value "containsKey"
+342: Tag 11 InterfaceMethodRef Class index 59, Name and type index 343
+343: Tag 12 NameAndType Name index 344, Description index 241
+344: Tag 1 Utf8 Value "getCustomAttributes"
+345: Tag 11 InterfaceMethodRef Class index 243, Name and type index 346
+346: Tag 12 NameAndType Name index 214, Description index 183
+347: Tag 7 Class Name index 348
+348: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+349: Tag 10 MethodRef Class index 82, Name and type index 350
+350: Tag 12 NameAndType Name index 351, Description index 352
+351: Tag 1 Utf8 Value "getWriteAttributeOperation"
+352: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+353: Tag 10 MethodRef Class index 232, Name and type index 354
+354: Tag 12 NameAndType Name index 355, Description index 356
+355: Tag 1 Utf8 Value "validateAndSet"
+356: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+357: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 358
+358: Tag 12 NameAndType Name index 359, Description index 360
+359: Tag 1 Utf8 Value "test"
+360: Tag 1 Utf8 Value "()Ljava/util/function/BiPredicate;"
+361: Tag 10 MethodRef Class index 2, Name and type index 362
+362: Tag 12 NameAndType Name index 363, Description index 364
+363: Tag 1 Utf8 Value "addRequiredChildren"
+364: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/util/Collection;Ljava/util/function/BiPredicate;)V"
+365: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 358
+366: Tag 10 MethodRef Class index 207, Name and type index 367
+367: Tag 12 NameAndType Name index 368, Description index 111
+368: Tag 1 Utf8 Value "isDefined"
+369: Tag 10 MethodRef Class index 207, Name and type index 370
+370: Tag 12 NameAndType Name index 371, Description index 320
+371: Tag 1 Utf8 Value "setEmptyObject"
+372: Tag 10 MethodRef Class index 31, Name and type index 373
+373: Tag 12 NameAndType Name index 135, Description index 374
+374: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/PathElement;)Lorg/jboss/as/controller/PathAddress;"
+375: Tag 10 MethodRef Class index 82, Name and type index 376
+376: Tag 12 NameAndType Name index 377, Description index 86
+377: Tag 1 Utf8 Value "createAddOperation"
+378: Tag 7 Class Name index 379
+379: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/AddIfAbsentStepHandler"
+380: Tag 10 MethodRef Class index 378, Name and type index 381
+381: Tag 12 NameAndType Name index 5, Description index 382
+382: Tag 1 Utf8 Value "(Ljava/util/function/BiPredicate;)V"
+383: Tag 11 InterfaceMethodRef Class index 384, Name and type index 385
+384: Tag 7 Class Name index 386
+385: Tag 12 NameAndType Name index 387, Description index 140
+386: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceServiceHandler"
+387: Tag 1 Utf8 Value "installServices"
+388: Tag 11 InterfaceMethodRef Class index 384, Name and type index 389
+389: Tag 12 NameAndType Name index 390, Description index 140
+390: Tag 1 Utf8 Value "removeServices"
+391: Tag 7 Class Name index 392
+392: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+393: Tag 10 MethodRef Class index 391, Name and type index 394
+394: Tag 12 NameAndType Name index 5, Description index 395
+395: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+396: Tag 11 InterfaceMethodRef Class index 59, Name and type index 397
+397: Tag 12 NameAndType Name index 398, Description index 241
+398: Tag 1 Utf8 Value "getCapabilities"
+399: Tag 7 Class Name index 400
+400: Tag 1 Utf8 Value "java/util/function/Predicate"
+401: Tag 11 InterfaceMethodRef Class index 399, Name and type index 402
+402: Tag 12 NameAndType Name index 359, Description index 70
+403: Tag 7 Class Name index 404
+404: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/Capability"
+405: Tag 11 InterfaceMethodRef Class index 403, Name and type index 406
+406: Tag 12 NameAndType Name index 407, Description index 408
+407: Tag 1 Utf8 Value "resolve"
+408: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/capability/RuntimeCapability;"
+409: Tag 11 InterfaceMethodRef Class index 25, Name and type index 410
+410: Tag 12 NameAndType Name index 411, Description index 412
+411: Tag 1 Utf8 Value "registerCapability"
+412: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/RuntimeCapability;)V"
+413: Tag 10 MethodRef Class index 232, Name and type index 414
+414: Tag 12 NameAndType Name index 415, Description index 111
+415: Tag 1 Utf8 Value "hasCapabilityRequirements"
+416: Tag 10 MethodRef Class index 232, Name and type index 417
+417: Tag 12 NameAndType Name index 418, Description index 419
+418: Tag 1 Utf8 Value "addCapabilityRequirements"
+419: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/dmr/ModelNode;)V"
+420: Tag 11 InterfaceMethodRef Class index 48, Name and type index 421
+421: Tag 12 NameAndType Name index 422, Description index 64
+422: Tag 1 Utf8 Value "getRequirements"
+423: Tag 7 Class Name index 424
+424: Tag 1 Utf8 Value "org/jboss/as/controller/CapabilityReferenceRecorder"
+425: Tag 11 InterfaceMethodRef Class index 423, Name and type index 426
+426: Tag 12 NameAndType Name index 418, Description index 427
+427: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;[Ljava/lang/String;)V"
+428: Tag 7 Class Name index 429
+429: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleOperationDefinitionBuilder"
+430: Tag 11 InterfaceMethodRef Class index 59, Name and type index 431
+431: Tag 12 NameAndType Name index 432, Description index 433
+432: Tag 1 Utf8 Value "getDescriptionResolver"
+433: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+434: Tag 10 MethodRef Class index 428, Name and type index 435
+435: Tag 12 NameAndType Name index 5, Description index 436
+436: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+437: Tag 9 FieldRef Class index 438, Name and type index 439
+438: Tag 7 Class Name index 440
+439: Tag 12 NameAndType Name index 441, Description index 442
+440: Tag 1 Utf8 Value "org/jboss/as/controller/registry/OperationEntry$Flag"
+441: Tag 1 Utf8 Value "RESTART_NONE"
+442: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/OperationEntry$Flag;"
+443: Tag 10 MethodRef Class index 428, Name and type index 444
+444: Tag 12 NameAndType Name index 445, Description index 446
+445: Tag 1 Utf8 Value "withFlag"
+446: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/OperationEntry$Flag;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+447: Tag 11 InterfaceMethodRef Class index 448, Name and type index 202
+448: Tag 7 Class Name index 449
+449: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ManagementResourceRegistration"
+450: Tag 9 FieldRef Class index 451, Name and type index 452
+451: Tag 7 Class Name index 453
+452: Tag 12 NameAndType Name index 454, Description index 455
+453: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+454: Tag 1 Utf8 Value "INT"
+455: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+456: Tag 10 MethodRef Class index 457, Name and type index 458
+457: Tag 7 Class Name index 459
+458: Tag 12 NameAndType Name index 169, Description index 460
+459: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+460: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;Z)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+461: Tag 10 MethodRef Class index 457, Name and type index 462
+462: Tag 12 NameAndType Name index 463, Description index 464
+463: Tag 1 Utf8 Value "build"
+464: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+465: Tag 10 MethodRef Class index 428, Name and type index 466
+466: Tag 12 NameAndType Name index 467, Description index 468
+467: Tag 1 Utf8 Value "addParameter"
+468: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+469: Tag 11 InterfaceMethodRef Class index 59, Name and type index 470
+470: Tag 12 NameAndType Name index 471, Description index 145
+471: Tag 1 Utf8 Value "getAttributes"
+472: Tag 11 InterfaceMethodRef Class index 243, Name and type index 473
+473: Tag 12 NameAndType Name index 474, Description index 64
+474: Tag 1 Utf8 Value "keySet"
+475: Tag 11 InterfaceMethodRef Class index 59, Name and type index 476
+476: Tag 12 NameAndType Name index 477, Description index 145
+477: Tag 1 Utf8 Value "getIgnoredAttributes"
+478: Tag 10 MethodRef Class index 428, Name and type index 479
+479: Tag 12 NameAndType Name index 463, Description index 480
+480: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleOperationDefinition;"
+481: Tag 11 InterfaceMethodRef Class index 59, Name and type index 482
+482: Tag 12 NameAndType Name index 483, Description index 177
+483: Tag 1 Utf8 Value "getAddOperationTransformation"
+484: Tag 11 InterfaceMethodRef Class index 448, Name and type index 485
+485: Tag 12 NameAndType Name index 486, Description index 487
+486: Tag 1 Utf8 Value "registerOperationHandler"
+487: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationDefinition;Lorg/jboss/as/controller/OperationStepHandler;)V"
+488: Tag 10 MethodRef Class index 2, Name and type index 489
+489: Tag 12 NameAndType Name index 490, Description index 491
+490: Tag 1 Utf8 Value "register"
+491: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+492: Tag 10 MethodRef Class index 2, Name and type index 493
+493: Tag 12 NameAndType Name index 57, Description index 494
+494: Tag 1 Utf8 Value "()Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor;"
+495: Tag 11 InterfaceMethodRef Class index 76, Name and type index 496
+496: Tag 12 NameAndType Name index 497, Description index 211
+497: Tag 1 Utf8 Value "hasChildren"
+498: Tag 7 Class Name index 499
+499: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/Registration"
+500: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor;)V"
+501: Tag 1 Utf8 Value "Code"
+502: Tag 1 Utf8 Value "LineNumberTable"
+503: Tag 1 Utf8 Value "LocalVariableTable"
+504: Tag 1 Utf8 Value "this"
+505: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/AddStepHandler;"
+506: Tag 1 Utf8 Value "context"
+507: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+508: Tag 1 Utf8 Value "StackMapTable"
+509: Tag 1 Utf8 Value "singletonAddress"
+510: Tag 1 Utf8 Value "childName"
+511: Tag 1 Utf8 Value "Ljava/lang/String;"
+512: Tag 1 Utf8 Value "childrenNames"
+513: Tag 1 Utf8 Value "Ljava/util/Set;"
+514: Tag 1 Utf8 Value "requiredPathKey"
+515: Tag 1 Utf8 Value "requiredPath"
+516: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+517: Tag 1 Utf8 Value "parentDescriptor"
+518: Tag 1 Utf8 Value "registration"
+519: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/RuntimeResourceRegistration;"
+520: Tag 1 Utf8 Value "operation"
+521: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+522: Tag 1 Utf8 Value "address"
+523: Tag 1 Utf8 Value "parentAddress"
+524: Tag 1 Utf8 Value "path"
+525: Tag 1 Utf8 Value "parentHandler"
+526: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationStepHandler;"
+527: Tag 1 Utf8 Value "LocalVariableTypeTable"
+528: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/String;>;"
+529: Tag 1 Utf8 Value "Exceptions"
+530: Tag 1 Utf8 Value "createResource"
+531: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)Lorg/jboss/as/controller/registry/Resource;"
+532: Tag 1 Utf8 Value "resource"
+533: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+534: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/registry/Resource;"
+535: Tag 1 Utf8 Value "transformation"
+536: Tag 1 Utf8 Value "Ljava/util/function/UnaryOperator;"
+537: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;"
+538: Tag 1 Utf8 Value "index"
+539: Tag 1 Utf8 Value "Ljava/lang/Integer;"
+540: Tag 1 Utf8 Value "Ljava/util/function/UnaryOperator<Lorg/jboss/as/controller/registry/Resource;>;"
+541: Tag 1 Utf8 Value "populateModel"
+542: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V"
+543: Tag 1 Utf8 Value "definition"
+544: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+545: Tag 1 Utf8 Value "targetName"
+546: Tag 1 Utf8 Value "writeAttributeOperation"
+547: Tag 1 Utf8 Value "writeAttributeHandler"
+548: Tag 1 Utf8 Value "value"
+549: Tag 1 Utf8 Value "targetValue"
+550: Tag 1 Utf8 Value "targetAttribute"
+551: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Attribute;"
+552: Tag 1 Utf8 Value "targetAddress"
+553: Tag 1 Utf8 Value "sourceParameter"
+554: Tag 1 Utf8 Value "translation"
+555: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/AttributeTranslation;"
+556: Tag 1 Utf8 Value "entry"
+557: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+558: Tag 1 Utf8 Value "writeHandler"
+559: Tag 1 Utf8 Value "attribute"
+560: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess;"
+561: Tag 1 Utf8 Value "attributeName"
+562: Tag 1 Utf8 Value "currentAddress"
+563: Tag 1 Utf8 Value "translations"
+564: Tag 1 Utf8 Value "Ljava/util/Map;"
+565: Tag 1 Utf8 Value "model"
+566: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/clustering/controller/AttributeTranslation;>;"
+567: Tag 1 Utf8 Value "Ljava/util/Map<Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/clustering/controller/AttributeTranslation;>;"
+568: Tag 1 Utf8 Value "paths"
+569: Tag 1 Utf8 Value "Ljava/util/Collection;"
+570: Tag 1 Utf8 Value "present"
+571: Tag 1 Utf8 Value "Ljava/util/function/BiPredicate;"
+572: Tag 1 Utf8 Value "Ljava/util/Collection<Lorg/jboss/as/controller/PathElement;>;"
+573: Tag 1 Utf8 Value "Ljava/util/function/BiPredicate<Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/PathElement;>;"
+574: Tag 1 Utf8 Value "Signature"
+575: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/util/Collection<Lorg/jboss/as/controller/PathElement;>;Ljava/util/function/BiPredicate<Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/PathElement;>;)V"
+576: Tag 1 Utf8 Value "performRuntime"
+577: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+578: Tag 1 Utf8 Value "rollbackRuntime"
+579: Tag 1 Utf8 Value "e"
+580: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationFailedException;"
+581: Tag 1 Utf8 Value "recordCapabilitiesAndRequirements"
+582: Tag 1 Utf8 Value "recorder"
+583: Tag 1 Utf8 Value "Lorg/jboss/as/controller/CapabilityReferenceRecorder;"
+584: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Lorg/jboss/as/clustering/controller/Capability;Ljava/util/function/Predicate<Lorg/jboss/dmr/ModelNode;>;>;"
+585: Tag 1 Utf8 Value "parameter"
+586: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+587: Tag 1 Utf8 Value "builder"
+588: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+589: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+590: Tag 1 Utf8 Value "lambda$populateModel$1"
+591: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/PathElement;)Z"
+592: Tag 1 Utf8 Value "parent"
+593: Tag 1 Utf8 Value "lambda$populateModel$0"
+594: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AbstractAddStepHandler;Lorg/jboss/as/clustering/controller/Registration<Lorg/jboss/as/controller/registry/ManagementResourceRegistration;>;Lorg/jboss/as/clustering/controller/DescribedAddStepHandler;"
+595: Tag 1 Utf8 Value "SourceFile"
+596: Tag 1 Utf8 Value "AddStepHandler.java"
+597: Tag 1 Utf8 Value "BootstrapMethods"
+598: Tag 15 MethodHandle Kind 6, Index 599
+599: Tag 10 MethodRef Class index 600, Name and type index 601
+600: Tag 7 Class Name index 602
+601: Tag 12 NameAndType Name index 603, Description index 604
+602: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+603: Tag 1 Utf8 Value "metafactory"
+604: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+605: Tag 16 MethodType Descriptor index 606
+606: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Z"
+607: Tag 15 MethodHandle Kind 6, Index 608
+608: Tag 10 MethodRef Class index 2, Name and type index 609
+609: Tag 12 NameAndType Name index 593, Description index 591
+610: Tag 16 MethodType Descriptor index 591
+611: Tag 15 MethodHandle Kind 6, Index 612
+612: Tag 10 MethodRef Class index 2, Name and type index 613
+613: Tag 12 NameAndType Name index 590, Description index 591
+614: Tag 1 Utf8 Value "InnerClasses"
+615: Tag 1 Utf8 Value "Stage"
+616: Tag 1 Utf8 Value "Factory"
+617: Tag 1 Utf8 Value "Entry"
+618: Tag 1 Utf8 Value "Storage"
+619: Tag 7 Class Name index 620
+620: Tag 1 Utf8 Value "org/jboss/as/controller/registry/OperationEntry"
+621: Tag 1 Utf8 Value "Flag"
+622: Tag 7 Class Name index 623
+623: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+624: Tag 7 Class Name index 625
+625: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+626: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 2, name org.jboss.as.clustering.controller.AddStepHandler
+
+Super class: id 8, name org.jboss.as.controller.AbstractAddStepHandler
+
+Implements class ids 498 53
+Implements names org.jboss.as.clustering.controller.Registration org.jboss.as.clustering.controller.DescribedAddStepHandler
+
+Field name descriptor (index 14), type Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor; (descriptor index 15)
+Human type: org.jboss.as.clustering.controller.AddStepHandlerDescriptor
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name handler (index 18), type Lorg/jboss/as/clustering/controller/ResourceServiceHandler; (descriptor index 19)
+Human type: org.jboss.as.clustering.controller.ResourceServiceHandler
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor;)V (descriptor index 500)
+Human type: (org.jboss.as.clustering.controller.AddStepHandlerDescriptor): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name <init> (index 5), type (Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor;Lorg/jboss/as/clustering/controller/ResourceServiceHandler;)V (descriptor index 6)
+Human type: (org.jboss.as.clustering.controller.AddStepHandlerDescriptor, org.jboss.as.clustering.controller.ResourceServiceHandler): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name requiresRuntime (index 22), type (Lorg/jboss/as/controller/OperationContext;)Z (descriptor index 23)
+Human type: (org.jboss.as.controller.OperationContext): boolean
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 84
+Method name getDescriptor (index 57), type ()Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor; (descriptor index 494)
+Human type: (): org.jboss.as.clustering.controller.AddStepHandlerDescriptor
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name execute (index 139), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 140)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 795
+Method attribute name Exceptions, size 4
+Method name createResource (index 530), type (Lorg/jboss/as/controller/OperationContext;)Lorg/jboss/as/controller/registry/Resource; (descriptor index 531)
+Human type: (org.jboss.as.controller.OperationContext): org.jboss.as.controller.registry.Resource
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 147
+Method name createResource (index 530), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/registry/Resource; (descriptor index 534)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.jboss.as.controller.registry.Resource
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 317
+Method name populateModel (index 541), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V (descriptor index 542)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 1256
+Method attribute name Exceptions, size 4
+Method name addRequiredChildren (index 363), type (Lorg/jboss/as/controller/OperationContext;Ljava/util/Collection;Ljava/util/function/BiPredicate;)V (descriptor index 364)
+Human type: (org.jboss.as.controller.OperationContext, java.util.Collection, java.util.function.BiPredicate): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 198
+Method attribute name Signature, size 2
+Method name performRuntime (index 576), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 577)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 88
+Method attribute name Exceptions, size 4
+Method name rollbackRuntime (index 578), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V (descriptor index 542)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 151
+Method name recordCapabilitiesAndRequirements (index 581), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V (descriptor index 542)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 516
+Method attribute name Exceptions, size 4
+Method name register (index 490), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 491)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 562
+Method name register (index 490), type (Ljava/lang/Object;)V (descriptor index 589)
+Human type: (java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+Method name getDescriptor (index 57), type ()Ljava/lang/Object; (descriptor index 58)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method name lambda$populateModel$1 (index 590), type (Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/PathElement;)Z (descriptor index 591)
+Human type: (org.jboss.as.controller.registry.Resource, org.jboss.as.controller.PathElement): boolean
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 63
+Method name lambda$populateModel$0 (index 593), type (Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/PathElement;)Z (descriptor index 591)
+Human type: (org.jboss.as.controller.registry.Resource, org.jboss.as.controller.PathElement): boolean
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 60
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 22
+Class attribute name InnerClasses, size 50

@@ -1,0 +1,171 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 92
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/DecoratingSubsystemRegistration"
+11: Tag 1 Utf8 Value "registration"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SubsystemRegistration;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "decorator"
+16: Tag 1 Utf8 Value "Ljava/util/function/Function;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 6
+20: Tag 1 Utf8 Value "org/jboss/as/controller/SubsystemRegistration"
+21: Tag 1 Utf8 Value "setHostCapable"
+22: Tag 11 InterfaceMethodRef Class index 18, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "registerXMLElementWriter"
+25: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLElementWriter;)V"
+26: Tag 11 InterfaceMethodRef Class index 18, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "registerModelTransformers"
+29: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ModelVersionRange;Lorg/jboss/as/controller/transform/ResourceTransformer;)Lorg/jboss/as/controller/transform/TransformersSubRegistration;"
+30: Tag 11 InterfaceMethodRef Class index 18, Name and type index 31
+31: Tag 12 NameAndType Name index 28, Description index 32
+32: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ModelVersionRange;Lorg/jboss/as/controller/transform/ResourceTransformer;Lorg/jboss/as/controller/transform/OperationTransformer;)Lorg/jboss/as/controller/transform/TransformersSubRegistration;"
+33: Tag 11 InterfaceMethodRef Class index 18, Name and type index 34
+34: Tag 12 NameAndType Name index 28, Description index 35
+35: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ModelVersionRange;Lorg/jboss/as/controller/transform/ResourceTransformer;Lorg/jboss/as/controller/transform/OperationTransformer;Z)Lorg/jboss/as/controller/transform/TransformersSubRegistration;"
+36: Tag 11 InterfaceMethodRef Class index 18, Name and type index 37
+37: Tag 12 NameAndType Name index 28, Description index 38
+38: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ModelVersionRange;Lorg/jboss/as/controller/transform/CombinedTransformer;)Lorg/jboss/as/controller/transform/TransformersSubRegistration;"
+39: Tag 11 InterfaceMethodRef Class index 18, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "getSubsystemVersion"
+42: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/ModelVersion;"
+43: Tag 11 InterfaceMethodRef Class index 18, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "registerSubsystemModel"
+46: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ResourceDefinition;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+47: Tag 11 InterfaceMethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "java/util/function/Function"
+51: Tag 1 Utf8 Value "apply"
+52: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ManagementResourceRegistration"
+55: Tag 11 InterfaceMethodRef Class index 18, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 46
+57: Tag 1 Utf8 Value "registerDeploymentModel"
+58: Tag 1 Utf8 Value "Signature"
+59: Tag 1 Utf8 Value "Ljava/util/function/Function<Lorg/jboss/as/controller/registry/ManagementResourceRegistration;TR;>;"
+60: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SubsystemRegistration;Ljava/util/function/Function;)V"
+61: Tag 1 Utf8 Value "Code"
+62: Tag 1 Utf8 Value "LineNumberTable"
+63: Tag 1 Utf8 Value "LocalVariableTable"
+64: Tag 1 Utf8 Value "this"
+65: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/DecoratingSubsystemRegistration;"
+66: Tag 1 Utf8 Value "LocalVariableTypeTable"
+67: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/DecoratingSubsystemRegistration<TR;>;"
+68: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SubsystemRegistration;Ljava/util/function/Function<Lorg/jboss/as/controller/registry/ManagementResourceRegistration;TR;>;)V"
+69: Tag 1 Utf8 Value "writer"
+70: Tag 1 Utf8 Value "Lorg/jboss/staxmapper/XMLElementWriter;"
+71: Tag 1 Utf8 Value "Lorg/jboss/staxmapper/XMLElementWriter<Lorg/jboss/as/controller/persistence/SubsystemMarshallingContext;>;"
+72: Tag 1 Utf8 Value "Deprecated"
+73: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLElementWriter<Lorg/jboss/as/controller/persistence/SubsystemMarshallingContext;>;)V"
+74: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+75: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+76: Tag 1 Utf8 Value "version"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ModelVersionRange;"
+78: Tag 1 Utf8 Value "resourceTransformer"
+79: Tag 1 Utf8 Value "Lorg/jboss/as/controller/transform/ResourceTransformer;"
+80: Tag 1 Utf8 Value "operationTransformer"
+81: Tag 1 Utf8 Value "Lorg/jboss/as/controller/transform/OperationTransformer;"
+82: Tag 1 Utf8 Value "placeholder"
+83: Tag 1 Utf8 Value "Z"
+84: Tag 1 Utf8 Value "combinedTransformer"
+85: Tag 1 Utf8 Value "Lorg/jboss/as/controller/transform/CombinedTransformer;"
+86: Tag 1 Utf8 Value "definition"
+87: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ResourceDefinition;"
+88: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ResourceDefinition;)TR;"
+89: Tag 1 Utf8 Value "<R::Lorg/jboss/as/controller/registry/ManagementResourceRegistration;>Ljava/lang/Object;Lorg/jboss/as/controller/SubsystemRegistration;"
+90: Tag 1 Utf8 Value "SourceFile"
+91: Tag 1 Utf8 Value "DecoratingSubsystemRegistration.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.clustering.controller.DecoratingSubsystemRegistration
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 18
+Implements names org.jboss.as.controller.SubsystemRegistration
+
+Field name registration (index 11), type Lorg/jboss/as/controller/SubsystemRegistration; (descriptor index 12)
+Human type: org.jboss.as.controller.SubsystemRegistration
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name decorator (index 15), type Ljava/util/function/Function; (descriptor index 16)
+Human type: java.util.function.Function
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Lorg/jboss/as/controller/SubsystemRegistration;Ljava/util/function/Function;)V (descriptor index 60)
+Human type: (org.jboss.as.controller.SubsystemRegistration, java.util.function.Function): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name setHostCapable (index 21), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method name registerXMLElementWriter (index 24), type (Lorg/jboss/staxmapper/XMLElementWriter;)V (descriptor index 25)
+Human type: (org.jboss.staxmapper.XMLElementWriter): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 95
+Method attribute name Deprecated, size 0
+Method attribute name Signature, size 2
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name registerModelTransformers (index 28), type (Lorg/jboss/as/controller/ModelVersionRange;Lorg/jboss/as/controller/transform/ResourceTransformer;)Lorg/jboss/as/controller/transform/TransformersSubRegistration; (descriptor index 29)
+Human type: (org.jboss.as.controller.ModelVersionRange, org.jboss.as.controller.transform.ResourceTransformer): org.jboss.as.controller.transform.TransformersSubRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 92
+Method attribute name Deprecated, size 0
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name registerModelTransformers (index 28), type (Lorg/jboss/as/controller/ModelVersionRange;Lorg/jboss/as/controller/transform/ResourceTransformer;Lorg/jboss/as/controller/transform/OperationTransformer;)Lorg/jboss/as/controller/transform/TransformersSubRegistration; (descriptor index 32)
+Human type: (org.jboss.as.controller.ModelVersionRange, org.jboss.as.controller.transform.ResourceTransformer, org.jboss.as.controller.transform.OperationTransformer): org.jboss.as.controller.transform.TransformersSubRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 103
+Method attribute name Deprecated, size 0
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name registerModelTransformers (index 28), type (Lorg/jboss/as/controller/ModelVersionRange;Lorg/jboss/as/controller/transform/ResourceTransformer;Lorg/jboss/as/controller/transform/OperationTransformer;Z)Lorg/jboss/as/controller/transform/TransformersSubRegistration; (descriptor index 35)
+Human type: (org.jboss.as.controller.ModelVersionRange, org.jboss.as.controller.transform.ResourceTransformer, org.jboss.as.controller.transform.OperationTransformer, boolean): org.jboss.as.controller.transform.TransformersSubRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 115
+Method attribute name Deprecated, size 0
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name registerModelTransformers (index 28), type (Lorg/jboss/as/controller/ModelVersionRange;Lorg/jboss/as/controller/transform/CombinedTransformer;)Lorg/jboss/as/controller/transform/TransformersSubRegistration; (descriptor index 38)
+Human type: (org.jboss.as.controller.ModelVersionRange, org.jboss.as.controller.transform.CombinedTransformer): org.jboss.as.controller.transform.TransformersSubRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 92
+Method attribute name Deprecated, size 0
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name getSubsystemVersion (index 41), type ()Lorg/jboss/as/controller/ModelVersion; (descriptor index 42)
+Human type: (): org.jboss.as.controller.ModelVersion
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name registerSubsystemModel (index 45), type (Lorg/jboss/as/controller/ResourceDefinition;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration; (descriptor index 46)
+Human type: (org.jboss.as.controller.ResourceDefinition): org.jboss.as.controller.registry.ManagementResourceRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 93
+Method attribute name Signature, size 2
+Method name registerDeploymentModel (index 57), type (Lorg/jboss/as/controller/ResourceDefinition;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration; (descriptor index 46)
+Human type: (org.jboss.as.controller.ResourceDefinition): org.jboss.as.controller.registry.ManagementResourceRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 93
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

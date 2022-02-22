@@ -1,0 +1,215 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 155
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/messaging/AddressSettingsValidator"
+5: Tag 1 Utf8 Value "checkDeadLetterAddress"
+6: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;)V"
+7: Tag 10 MethodRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 6
+9: Tag 1 Utf8 Value "checkExpiryAddress"
+10: Tag 10 MethodRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "java/lang/Object"
+14: Tag 1 Utf8 Value "<init>"
+15: Tag 1 Utf8 Value "()V"
+16: Tag 9 FieldRef Class index 17, Name and type index 18
+17: Tag 7 Class Name index 19
+18: Tag 12 NameAndType Name index 20, Description index 21
+19: Tag 1 Utf8 Value "org/jboss/as/messaging/CommonAttributes"
+20: Tag 1 Utf8 Value "EXPIRY_ADDRESS"
+21: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+22: Tag 10 MethodRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+26: Tag 1 Utf8 Value "resolveModelAttribute"
+27: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+28: Tag 10 MethodRef Class index 2, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "findMatchingResource"
+31: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)Z"
+32: Tag 9 FieldRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "org/jboss/as/messaging/logging/MessagingLogger"
+36: Tag 1 Utf8 Value "ROOT_LOGGER"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/messaging/logging/MessagingLogger;"
+38: Tag 10 MethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+42: Tag 1 Utf8 Value "asString"
+43: Tag 1 Utf8 Value "()Ljava/lang/String;"
+44: Tag 11 InterfaceMethodRef Class index 33, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "noMatchingExpiryAddress"
+47: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+48: Tag 9 FieldRef Class index 17, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 21
+50: Tag 1 Utf8 Value "DEAD_LETTER_ADDRESS"
+51: Tag 11 InterfaceMethodRef Class index 33, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 47
+53: Tag 1 Utf8 Value "noMatchingDeadLetterAddress"
+54: Tag 10 MethodRef Class index 39, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 57
+56: Tag 1 Utf8 Value "isDefined"
+57: Tag 1 Utf8 Value "()Z"
+58: Tag 8 String Contents 59
+59: Tag 1 Utf8 Value "jms.queue."
+60: Tag 10 MethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "java/lang/String"
+64: Tag 1 Utf8 Value "startsWith"
+65: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+66: Tag 8 String Contents 67
+67: Tag 1 Utf8 Value "jms-queue"
+68: Tag 8 String Contents 69
+69: Tag 1 Utf8 Value "jms.topic."
+70: Tag 8 String Contents 71
+71: Tag 1 Utf8 Value "jms-topic"
+72: Tag 8 String Contents 73
+73: Tag 1 Utf8 Value "core-queue"
+74: Tag 8 String Contents 75
+75: Tag 1 Utf8 Value ""
+76: Tag 11 InterfaceMethodRef Class index 77, Name and type index 78
+77: Tag 7 Class Name index 79
+78: Tag 12 NameAndType Name index 80, Description index 81
+79: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+80: Tag 1 Utf8 Value "getChildrenNames"
+81: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Set;"
+82: Tag 11 InterfaceMethodRef Class index 83, Name and type index 84
+83: Tag 7 Class Name index 85
+84: Tag 12 NameAndType Name index 86, Description index 87
+85: Tag 1 Utf8 Value "java/util/Set"
+86: Tag 1 Utf8 Value "iterator"
+87: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+88: Tag 11 InterfaceMethodRef Class index 89, Name and type index 90
+89: Tag 7 Class Name index 91
+90: Tag 12 NameAndType Name index 92, Description index 57
+91: Tag 1 Utf8 Value "java/util/Iterator"
+92: Tag 1 Utf8 Value "hasNext"
+93: Tag 11 InterfaceMethodRef Class index 89, Name and type index 94
+94: Tag 12 NameAndType Name index 95, Description index 96
+95: Tag 1 Utf8 Value "next"
+96: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+97: Tag 7 Class Name index 98
+98: Tag 1 Utf8 Value "java/lang/StringBuilder"
+99: Tag 10 MethodRef Class index 97, Name and type index 12
+100: Tag 10 MethodRef Class index 97, Name and type index 101
+101: Tag 12 NameAndType Name index 102, Description index 103
+102: Tag 1 Utf8 Value "append"
+103: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+104: Tag 10 MethodRef Class index 97, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 43
+106: Tag 1 Utf8 Value "toString"
+107: Tag 10 MethodRef Class index 61, Name and type index 108
+108: Tag 12 NameAndType Name index 109, Description index 110
+109: Tag 1 Utf8 Value "equals"
+110: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+111: Tag 7 Class Name index 112
+112: Tag 1 Utf8 Value "org/jboss/as/messaging/AddressSettingsValidator$1"
+113: Tag 10 MethodRef Class index 111, Name and type index 12
+114: Tag 9 FieldRef Class index 2, Name and type index 115
+115: Tag 12 NameAndType Name index 116, Description index 117
+116: Tag 1 Utf8 Value "ADD_VALIDATOR"
+117: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationStepHandler;"
+118: Tag 1 Utf8 Value "JMS_QUEUE_ADDRESS_PREFIX"
+119: Tag 1 Utf8 Value "Ljava/lang/String;"
+120: Tag 1 Utf8 Value "ConstantValue"
+121: Tag 1 Utf8 Value "JMS_TOPIC_ADDRESS_PREFIX"
+122: Tag 1 Utf8 Value "Code"
+123: Tag 1 Utf8 Value "LineNumberTable"
+124: Tag 1 Utf8 Value "LocalVariableTable"
+125: Tag 1 Utf8 Value "this"
+126: Tag 1 Utf8 Value "Lorg/jboss/as/messaging/AddressSettingsValidator;"
+127: Tag 1 Utf8 Value "context"
+128: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+129: Tag 1 Utf8 Value "model"
+130: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+131: Tag 1 Utf8 Value "hornetqServer"
+132: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+133: Tag 1 Utf8 Value "addressSetting"
+134: Tag 1 Utf8 Value "expiryAddress"
+135: Tag 1 Utf8 Value "StackMapTable"
+136: Tag 1 Utf8 Value "Exceptions"
+137: Tag 7 Class Name index 138
+138: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+139: Tag 1 Utf8 Value "deadLetterAddress"
+140: Tag 1 Utf8 Value "addressPrefix"
+141: Tag 1 Utf8 Value "childType"
+142: Tag 1 Utf8 Value "childName"
+143: Tag 1 Utf8 Value "addressNode"
+144: Tag 1 Utf8 Value "address"
+145: Tag 1 Utf8 Value "access$000"
+146: Tag 1 Utf8 Value "x0"
+147: Tag 1 Utf8 Value "x1"
+148: Tag 1 Utf8 Value "x2"
+149: Tag 1 Utf8 Value "x3"
+150: Tag 1 Utf8 Value "access$100"
+151: Tag 1 Utf8 Value "<clinit>"
+152: Tag 1 Utf8 Value "SourceFile"
+153: Tag 1 Utf8 Value "AddressSettingsValidator.java"
+154: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.messaging.AddressSettingsValidator
+
+Super class: id 11, name java.lang.Object
+
+No interfaces
+
+Field name JMS_QUEUE_ADDRESS_PREFIX (index 118), type Ljava/lang/String; (descriptor index 119)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name JMS_TOPIC_ADDRESS_PREFIX (index 121), type Ljava/lang/String; (descriptor index 119)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ADD_VALIDATOR (index 116), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 117)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+No field attributes
+
+Method name <init> (index 14), type ()V (descriptor index 15)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method name checkExpiryAddress (index 9), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;)V (descriptor index 6)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource, java.lang.String): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 142
+Method attribute name Exceptions, size 4
+Method name checkDeadLetterAddress (index 5), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;)V (descriptor index 6)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource, java.lang.String): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 142
+Method attribute name Exceptions, size 4
+Method name findMatchingResource (index 30), type (Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)Z (descriptor index 31)
+Human type: (org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource): boolean
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 356
+Method name access$000 (index 145), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;)V (descriptor index 6)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource, java.lang.String): void
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 80
+Method attribute name Exceptions, size 4
+Method name access$100 (index 150), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;)V (descriptor index 6)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource, java.lang.String): void
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 80
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 151), type ()V (descriptor index 15)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

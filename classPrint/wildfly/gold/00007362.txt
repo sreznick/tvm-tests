@@ -1,0 +1,133 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 70
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "javax/el/ELResolver"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/jsf/injection/weld/ForwardingELResolver"
+11: Tag 1 Utf8 Value "delegate"
+12: Tag 1 Utf8 Value "()Ljavax/el/ELResolver;"
+13: Tag 10 MethodRef Class index 2, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "getCommonPropertyType"
+16: Tag 1 Utf8 Value "(Ljavax/el/ELContext;Ljava/lang/Object;)Ljava/lang/Class;"
+17: Tag 10 MethodRef Class index 2, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "getFeatureDescriptors"
+20: Tag 1 Utf8 Value "(Ljavax/el/ELContext;Ljava/lang/Object;)Ljava/util/Iterator;"
+21: Tag 10 MethodRef Class index 2, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "getType"
+24: Tag 1 Utf8 Value "(Ljavax/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Class;"
+25: Tag 10 MethodRef Class index 2, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "getValue"
+28: Tag 1 Utf8 Value "(Ljavax/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+29: Tag 10 MethodRef Class index 2, Name and type index 30
+30: Tag 12 NameAndType Name index 31, Description index 32
+31: Tag 1 Utf8 Value "isReadOnly"
+32: Tag 1 Utf8 Value "(Ljavax/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Z"
+33: Tag 10 MethodRef Class index 2, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "setValue"
+36: Tag 1 Utf8 Value "(Ljavax/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V"
+37: Tag 10 MethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "java/lang/Object"
+41: Tag 1 Utf8 Value "equals"
+42: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+43: Tag 10 MethodRef Class index 38, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "hashCode"
+46: Tag 1 Utf8 Value "()I"
+47: Tag 10 MethodRef Class index 38, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "toString"
+50: Tag 1 Utf8 Value "()Ljava/lang/String;"
+51: Tag 1 Utf8 Value "Code"
+52: Tag 1 Utf8 Value "LineNumberTable"
+53: Tag 1 Utf8 Value "LocalVariableTable"
+54: Tag 1 Utf8 Value "this"
+55: Tag 1 Utf8 Value "Lorg/jboss/as/jsf/injection/weld/ForwardingELResolver;"
+56: Tag 1 Utf8 Value "context"
+57: Tag 1 Utf8 Value "Ljavax/el/ELContext;"
+58: Tag 1 Utf8 Value "base"
+59: Tag 1 Utf8 Value "Ljava/lang/Object;"
+60: Tag 1 Utf8 Value "Signature"
+61: Tag 1 Utf8 Value "(Ljavax/el/ELContext;Ljava/lang/Object;)Ljava/lang/Class<*>;"
+62: Tag 1 Utf8 Value "(Ljavax/el/ELContext;Ljava/lang/Object;)Ljava/util/Iterator<Ljava/beans/FeatureDescriptor;>;"
+63: Tag 1 Utf8 Value "property"
+64: Tag 1 Utf8 Value "(Ljavax/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Class<*>;"
+65: Tag 1 Utf8 Value "value"
+66: Tag 1 Utf8 Value "obj"
+67: Tag 1 Utf8 Value "StackMapTable"
+68: Tag 1 Utf8 Value "SourceFile"
+69: Tag 1 Utf8 Value "ForwardingELResolver.java"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 8, name org.jboss.as.jsf.injection.weld.ForwardingELResolver
+
+Super class: id 2, name javax.el.ELResolver
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name delegate (index 11), type ()Ljavax/el/ELResolver; (descriptor index 12)
+Human type: (): javax.el.ELResolver
+Flags: decimal 1028, hex 0404, binary 0000010000000100 protected abstract
+No method attributes
+Method name getCommonPropertyType (index 15), type (Ljavax/el/ELContext;Ljava/lang/Object;)Ljava/lang/Class; (descriptor index 16)
+Human type: (javax.el.ELContext, java.lang.Object): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 72
+Method attribute name Signature, size 2
+Method name getFeatureDescriptors (index 19), type (Ljavax/el/ELContext;Ljava/lang/Object;)Ljava/util/Iterator; (descriptor index 20)
+Human type: (javax.el.ELContext, java.lang.Object): java.util.Iterator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 72
+Method attribute name Signature, size 2
+Method name getType (index 23), type (Ljavax/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Class; (descriptor index 24)
+Human type: (javax.el.ELContext, java.lang.Object, java.lang.Object): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 83
+Method attribute name Signature, size 2
+Method name getValue (index 27), type (Ljavax/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 28)
+Human type: (javax.el.ELContext, java.lang.Object, java.lang.Object): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 83
+Method name isReadOnly (index 31), type (Ljavax/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;)Z (descriptor index 32)
+Human type: (javax.el.ELContext, java.lang.Object, java.lang.Object): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 83
+Method name setValue (index 35), type (Ljavax/el/ELContext;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V (descriptor index 36)
+Human type: (javax.el.ELContext, java.lang.Object, java.lang.Object, java.lang.Object): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 99
+Method name equals (index 41), type (Ljava/lang/Object;)Z (descriptor index 42)
+Human type: (java.lang.Object): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 86
+Method name hashCode (index 45), type ()I (descriptor index 46)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name toString (index 49), type ()Ljava/lang/String; (descriptor index 50)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+
+Class attribute name SourceFile, size 2

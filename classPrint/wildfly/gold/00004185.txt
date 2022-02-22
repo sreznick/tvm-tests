@@ -1,0 +1,116 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 68
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/AbstractCapabilityReference"
+11: Tag 1 Utf8 Value "capability"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Capability;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "requirement"
+16: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/Requirement;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/Capability"
+21: Tag 1 Utf8 Value "getName"
+22: Tag 1 Utf8 Value "()Ljava/lang/String;"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 19
+24: Tag 7 Class Name index 25
+25: Tag 1 Utf8 Value "org/wildfly/clustering/service/Requirement"
+26: Tag 11 InterfaceMethodRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 30, Description index 31
+29: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+30: Tag 1 Utf8 Value "getCurrentAddress"
+31: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+32: Tag 11 InterfaceMethodRef Class index 18, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "resolve"
+35: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/capability/RuntimeCapability;"
+36: Tag 10 MethodRef Class index 37, Name and type index 19
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+39: Tag 10 MethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "java/lang/String"
+43: Tag 1 Utf8 Value "hashCode"
+44: Tag 1 Utf8 Value "()I"
+45: Tag 10 MethodRef Class index 40, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "equals"
+48: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "org/jboss/as/controller/CapabilityReferenceRecorder"
+51: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;)V"
+52: Tag 1 Utf8 Value "Code"
+53: Tag 1 Utf8 Value "LineNumberTable"
+54: Tag 1 Utf8 Value "LocalVariableTable"
+55: Tag 1 Utf8 Value "this"
+56: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/AbstractCapabilityReference;"
+57: Tag 1 Utf8 Value "getBaseDependentName"
+58: Tag 1 Utf8 Value "getBaseRequirementName"
+59: Tag 1 Utf8 Value "getDependentName"
+60: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)Ljava/lang/String;"
+61: Tag 1 Utf8 Value "context"
+62: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+63: Tag 1 Utf8 Value "object"
+64: Tag 1 Utf8 Value "Ljava/lang/Object;"
+65: Tag 1 Utf8 Value "StackMapTable"
+66: Tag 1 Utf8 Value "SourceFile"
+67: Tag 1 Utf8 Value "AbstractCapabilityReference.java"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 8, name org.jboss.as.clustering.controller.AbstractCapabilityReference
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 49
+Implements names org.jboss.as.controller.CapabilityReferenceRecorder
+
+Field name capability (index 11), type Lorg/jboss/as/clustering/controller/Capability; (descriptor index 12)
+Human type: org.jboss.as.clustering.controller.Capability
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name requirement (index 15), type Lorg/wildfly/clustering/service/Requirement; (descriptor index 16)
+Human type: org.wildfly.clustering.service.Requirement
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;)V (descriptor index 51)
+Human type: (org.jboss.as.clustering.controller.Capability, org.wildfly.clustering.service.Requirement): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 89
+Method name getBaseDependentName (index 57), type ()Ljava/lang/String; (descriptor index 22)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getBaseRequirementName (index 58), type ()Ljava/lang/String; (descriptor index 22)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getDependentName (index 59), type (Lorg/jboss/as/controller/OperationContext;)Ljava/lang/String; (descriptor index 60)
+Human type: (org.jboss.as.controller.OperationContext): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 71
+Method name hashCode (index 43), type ()I (descriptor index 44)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name equals (index 47), type (Ljava/lang/Object;)Z (descriptor index 48)
+Human type: (java.lang.Object): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 99
+
+Class attribute name SourceFile, size 2

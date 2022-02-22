@@ -1,0 +1,110 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 65
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter$WorkWrapper"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter;Lorg/jboss/as/naming/context/NamespaceContextSelector;Ljavax/resource/spi/work/Work;)V"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "this$0"
+10: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 5, Description index 15
+14: Tag 1 Utf8 Value "java/lang/Object"
+15: Tag 1 Utf8 Value "()V"
+16: Tag 9 FieldRef Class index 2, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "selector"
+19: Tag 1 Utf8 Value "Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+20: Tag 9 FieldRef Class index 2, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 23
+22: Tag 1 Utf8 Value "delegate"
+23: Tag 1 Utf8 Value "Ljavax/resource/spi/work/Work;"
+24: Tag 10 MethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "org/jboss/as/naming/context/NamespaceContextSelector"
+28: Tag 1 Utf8 Value "pushCurrentSelector"
+29: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/context/NamespaceContextSelector;)V"
+30: Tag 11 InterfaceMethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 15
+33: Tag 1 Utf8 Value "javax/resource/spi/work/Work"
+34: Tag 1 Utf8 Value "release"
+35: Tag 10 MethodRef Class index 25, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "popCurrentSelector"
+38: Tag 1 Utf8 Value "()Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+39: Tag 11 InterfaceMethodRef Class index 31, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 15
+41: Tag 1 Utf8 Value "run"
+42: Tag 1 Utf8 Value "Code"
+43: Tag 1 Utf8 Value "LineNumberTable"
+44: Tag 1 Utf8 Value "LocalVariableTable"
+45: Tag 1 Utf8 Value "this"
+46: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter$WorkWrapper;"
+47: Tag 1 Utf8 Value "work"
+48: Tag 1 Utf8 Value "StackMapTable"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "java/lang/Throwable"
+51: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter;Lorg/jboss/as/naming/context/NamespaceContextSelector;Ljavax/resource/spi/work/Work;Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter$1;)V"
+52: Tag 1 Utf8 Value "x0"
+53: Tag 1 Utf8 Value "x1"
+54: Tag 1 Utf8 Value "x2"
+55: Tag 1 Utf8 Value "x3"
+56: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter$1;"
+57: Tag 1 Utf8 Value "SourceFile"
+58: Tag 1 Utf8 Value "ActiveMQResourceAdapter.java"
+59: Tag 1 Utf8 Value "InnerClasses"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter"
+62: Tag 1 Utf8 Value "WorkWrapper"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter$1"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.messaging.activemq.ActiveMQResourceAdapter$WorkWrapper
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 31
+Implements names javax.resource.spi.work.Work
+
+Field name delegate (index 22), type Ljavax/resource/spi/work/Work; (descriptor index 23)
+Human type: javax.resource.spi.work.Work
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name selector (index 18), type Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 19)
+Human type: org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name this$0 (index 9), type Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter; (descriptor index 10)
+Human type: org.wildfly.extension.messaging.activemq.ActiveMQResourceAdapter
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter;Lorg/jboss/as/naming/context/NamespaceContextSelector;Ljavax/resource/spi/work/Work;)V (descriptor index 6)
+Human type: (org.wildfly.extension.messaging.activemq.ActiveMQResourceAdapter, org.jboss.as.naming.context.NamespaceContextSelector, javax.resource.spi.work.Work): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 94
+Method name release (index 34), type ()V (descriptor index 15)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 118
+Method name run (index 41), type ()V (descriptor index 15)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 118
+Method name <init> (index 5), type (Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter;Lorg/jboss/as/naming/context/NamespaceContextSelector;Ljavax/resource/spi/work/Work;Lorg/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter$1;)V (descriptor index 51)
+Human type: (org.wildfly.extension.messaging.activemq.ActiveMQResourceAdapter, org.jboss.as.naming.context.NamespaceContextSelector, javax.resource.spi.work.Work, org.wildfly.extension.messaging.activemq.ActiveMQResourceAdapter$1): void
+Flags: decimal 4096, hex 1000, binary 0001000000000000 synthetic
+Method attribute name Code, size 90
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

@@ -1,0 +1,151 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 97
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/io/ExternalizableExternalizer"
+11: Tag 1 Utf8 Value "targetClass"
+12: Tag 1 Utf8 Value "Ljava/lang/Class;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/io/Externalizable"
+17: Tag 1 Utf8 Value "writeExternal"
+18: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;)V"
+19: Tag 7 Class Name index 20
+20: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/io/ExternalizableExternalizer$1"
+21: Tag 10 MethodRef Class index 19, Name and type index 22
+22: Tag 12 NameAndType Name index 5, Description index 23
+23: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/spi/io/ExternalizableExternalizer;)V"
+24: Tag 10 MethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+28: Tag 1 Utf8 Value "doChecked"
+29: Tag 1 Utf8 Value "(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;"
+30: Tag 11 InterfaceMethodRef Class index 14, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "readExternal"
+33: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)V"
+34: Tag 7 Class Name index 35
+35: Tag 1 Utf8 Value "java/security/PrivilegedActionException"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "java/io/IOException"
+38: Tag 10 MethodRef Class index 34, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "getCause"
+41: Tag 1 Utf8 Value "()Ljava/lang/Throwable;"
+42: Tag 10 MethodRef Class index 36, Name and type index 43
+43: Tag 12 NameAndType Name index 5, Description index 44
+44: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+45: Tag 10 MethodRef Class index 8, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "readObject"
+48: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/io/Externalizable;"
+49: Tag 10 MethodRef Class index 8, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "writeObject"
+52: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/io/Externalizable;)V"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Externalizer"
+55: Tag 1 Utf8 Value "Signature"
+56: Tag 1 Utf8 Value "Ljava/lang/Class<TT;>;"
+57: Tag 1 Utf8 Value "(Ljava/lang/Class;)V"
+58: Tag 1 Utf8 Value "Code"
+59: Tag 1 Utf8 Value "LineNumberTable"
+60: Tag 1 Utf8 Value "LocalVariableTable"
+61: Tag 1 Utf8 Value "this"
+62: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/io/ExternalizableExternalizer;"
+63: Tag 1 Utf8 Value "LocalVariableTypeTable"
+64: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/io/ExternalizableExternalizer<TT;>;"
+65: Tag 1 Utf8 Value "(Ljava/lang/Class<TT;>;)V"
+66: Tag 1 Utf8 Value "output"
+67: Tag 1 Utf8 Value "Ljava/io/ObjectOutput;"
+68: Tag 1 Utf8 Value "object"
+69: Tag 1 Utf8 Value "Ljava/io/Externalizable;"
+70: Tag 1 Utf8 Value "TT;"
+71: Tag 1 Utf8 Value "Exceptions"
+72: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;TT;)V"
+73: Tag 1 Utf8 Value "e"
+74: Tag 1 Utf8 Value "Ljava/security/PrivilegedActionException;"
+75: Tag 1 Utf8 Value "input"
+76: Tag 1 Utf8 Value "Ljava/io/ObjectInput;"
+77: Tag 1 Utf8 Value "action"
+78: Tag 1 Utf8 Value "Ljava/security/PrivilegedExceptionAction;"
+79: Tag 1 Utf8 Value "Ljava/security/PrivilegedExceptionAction<TT;>;"
+80: Tag 1 Utf8 Value "StackMapTable"
+81: Tag 7 Class Name index 82
+82: Tag 1 Utf8 Value "java/io/ObjectInput"
+83: Tag 7 Class Name index 84
+84: Tag 1 Utf8 Value "java/security/PrivilegedExceptionAction"
+85: Tag 7 Class Name index 86
+86: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+87: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)TT;"
+88: Tag 1 Utf8 Value "getTargetClass"
+89: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+90: Tag 1 Utf8 Value "()Ljava/lang/Class<TT;>;"
+91: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/lang/Object;"
+92: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/lang/Object;)V"
+93: Tag 1 Utf8 Value "<T::Ljava/io/Externalizable;>Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/Externalizer<TT;>;"
+94: Tag 1 Utf8 Value "SourceFile"
+95: Tag 1 Utf8 Value "ExternalizableExternalizer.java"
+96: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.marshalling.spi.io.ExternalizableExternalizer
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 53
+Implements names org.wildfly.clustering.marshalling.Externalizer
+
+Field name targetClass (index 11), type Ljava/lang/Class; (descriptor index 12)
+Human type: java.lang.Class
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/lang/Class;)V (descriptor index 57)
+Human type: (java.lang.Class): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 98
+Method attribute name Signature, size 2
+Method name writeObject (index 51), type (Ljava/io/ObjectOutput;Ljava/io/Externalizable;)V (descriptor index 52)
+Human type: (java.io.ObjectOutput, java.io.Externalizable): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 102
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name readObject (index 47), type (Ljava/io/ObjectInput;)Ljava/io/Externalizable; (descriptor index 48)
+Human type: (java.io.ObjectInput): java.io.Externalizable
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 214
+Method attribute name Exceptions, size 6
+Method attribute name Signature, size 2
+Method name getTargetClass (index 88), type ()Ljava/lang/Class; (descriptor index 89)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+Method name readObject (index 47), type (Ljava/io/ObjectInput;)Ljava/lang/Object; (descriptor index 91)
+Human type: (java.io.ObjectInput): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 66
+Method attribute name Exceptions, size 6
+Method name writeObject (index 51), type (Ljava/io/ObjectOutput;Ljava/lang/Object;)V (descriptor index 92)
+Human type: (java.io.ObjectOutput, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 70
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

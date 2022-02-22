@@ -1,0 +1,134 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 96
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "java/lang/Object"
+7: Tag 1 Utf8 Value "<init>"
+8: Tag 1 Utf8 Value "()V"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/common/model/validator/NotEmptyResourceValidationStepHandler"
+13: Tag 1 Utf8 Value "validateChildren"
+14: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+15: Tag 9 FieldRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+19: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+20: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+21: Tag 11 InterfaceMethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+25: Tag 1 Utf8 Value "readResource"
+26: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/registry/Resource;"
+27: Tag 8 String Contents 28
+28: Tag 1 Utf8 Value "address"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+33: Tag 1 Utf8 Value "get"
+34: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+35: Tag 10 MethodRef Class index 16, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "pathAddress"
+38: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/PathAddress;"
+39: Tag 11 InterfaceMethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+43: Tag 1 Utf8 Value "getChildTypes"
+44: Tag 1 Utf8 Value "()Ljava/util/Set;"
+45: Tag 11 InterfaceMethodRef Class index 46, Name and type index 47
+46: Tag 7 Class Name index 48
+47: Tag 12 NameAndType Name index 49, Description index 50
+48: Tag 1 Utf8 Value "java/util/Set"
+49: Tag 1 Utf8 Value "isEmpty"
+50: Tag 1 Utf8 Value "()Z"
+51: Tag 9 FieldRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 56
+54: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/logging/PicketLinkLogger"
+55: Tag 1 Utf8 Value "ROOT_LOGGER"
+56: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/logging/PicketLinkLogger;"
+57: Tag 10 MethodRef Class index 16, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "getLastElement"
+60: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathElement;"
+61: Tag 10 MethodRef Class index 62, Name and type index 63
+62: Tag 7 Class Name index 64
+63: Tag 12 NameAndType Name index 65, Description index 66
+64: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+65: Tag 1 Utf8 Value "toString"
+66: Tag 1 Utf8 Value "()Ljava/lang/String;"
+67: Tag 11 InterfaceMethodRef Class index 52, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "emptyResource"
+70: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+71: Tag 10 MethodRef Class index 10, Name and type index 5
+72: Tag 9 FieldRef Class index 10, Name and type index 73
+73: Tag 12 NameAndType Name index 74, Description index 75
+74: Tag 1 Utf8 Value "INSTANCE"
+75: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/common/model/validator/NotEmptyResourceValidationStepHandler;"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/common/model/validator/ModelValidationStepHandler"
+78: Tag 1 Utf8 Value "Code"
+79: Tag 1 Utf8 Value "LineNumberTable"
+80: Tag 1 Utf8 Value "LocalVariableTable"
+81: Tag 1 Utf8 Value "this"
+82: Tag 1 Utf8 Value "execute"
+83: Tag 1 Utf8 Value "context"
+84: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+85: Tag 1 Utf8 Value "operation"
+86: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+87: Tag 1 Utf8 Value "Exceptions"
+88: Tag 7 Class Name index 89
+89: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+90: Tag 1 Utf8 Value "resource"
+91: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+92: Tag 1 Utf8 Value "StackMapTable"
+93: Tag 1 Utf8 Value "<clinit>"
+94: Tag 1 Utf8 Value "SourceFile"
+95: Tag 1 Utf8 Value "NotEmptyResourceValidationStepHandler.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 10, name org.wildfly.extension.picketlink.common.model.validator.NotEmptyResourceValidationStepHandler
+
+Super class: id 4, name java.lang.Object
+
+Implements class ids 76
+Implements names org.wildfly.extension.picketlink.common.model.validator.ModelValidationStepHandler
+
+Field name INSTANCE (index 74), type Lorg/wildfly/extension/picketlink/common/model/validator/NotEmptyResourceValidationStepHandler; (descriptor index 75)
+Human type: org.wildfly.extension.picketlink.common.model.validator.NotEmptyResourceValidationStepHandler
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 7), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name execute (index 82), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 14)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 73
+Method attribute name Exceptions, size 4
+Method name validateChildren (index 13), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 14)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 168
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 93), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2

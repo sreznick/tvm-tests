@@ -1,0 +1,281 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 213
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+5: Tag 1 Utf8 Value "JBOSS"
+6: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/lang/String"
+9: Tag 8 String Contents 10
+10: Tag 1 Utf8 Value "clustering"
+11: Tag 8 String Contents 12
+12: Tag 1 Utf8 Value "sso"
+13: Tag 10 MethodRef Class index 2, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "append"
+16: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/clustering/service/SimpleServiceNameProvider"
+21: Tag 1 Utf8 Value "<init>"
+22: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+23: Tag 9 FieldRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryServiceConfigurator"
+27: Tag 1 Utf8 Value "name"
+28: Tag 1 Utf8 Value "Ljava/lang/String;"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagementConfiguration"
+33: Tag 1 Utf8 Value "getContainerName"
+34: Tag 1 Utf8 Value "()Ljava/lang/String;"
+35: Tag 9 FieldRef Class index 24, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 28
+37: Tag 1 Utf8 Value "containerName"
+38: Tag 11 InterfaceMethodRef Class index 30, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 34
+40: Tag 1 Utf8 Value "getCacheName"
+41: Tag 9 FieldRef Class index 24, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 28
+43: Tag 1 Utf8 Value "cacheName"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/service/TemplateConfigurationServiceConfigurator"
+46: Tag 9 FieldRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/InfinispanCacheRequirement"
+50: Tag 1 Utf8 Value "CONFIGURATION"
+51: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/spi/InfinispanCacheRequirement;"
+52: Tag 10 MethodRef Class index 47, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "getServiceName"
+55: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/CapabilityServiceSupport;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+56: Tag 10 MethodRef Class index 44, Name and type index 57
+57: Tag 12 NameAndType Name index 21, Description index 58
+58: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+59: Tag 10 MethodRef Class index 44, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "configure"
+62: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/wildfly/clustering/service/ServiceConfigurator;"
+63: Tag 9 FieldRef Class index 24, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "configurationConfigurator"
+66: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/ServiceConfigurator;"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/service/CacheServiceConfigurator"
+69: Tag 9 FieldRef Class index 47, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 51
+71: Tag 1 Utf8 Value "CACHE"
+72: Tag 10 MethodRef Class index 67, Name and type index 73
+73: Tag 12 NameAndType Name index 21, Description index 74
+74: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Ljava/lang/String;)V"
+75: Tag 10 MethodRef Class index 67, Name and type index 60
+76: Tag 9 FieldRef Class index 24, Name and type index 77
+77: Tag 12 NameAndType Name index 78, Description index 66
+78: Tag 1 Utf8 Value "cacheConfigurator"
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceSupplierDependency"
+81: Tag 9 FieldRef Class index 82, Name and type index 83
+82: Tag 7 Class Name index 84
+83: Tag 12 NameAndType Name index 85, Description index 86
+84: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/InfinispanRequirement"
+85: Tag 1 Utf8 Value "KEY_AFFINITY_FACTORY"
+86: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/spi/InfinispanRequirement;"
+87: Tag 10 MethodRef Class index 82, Name and type index 88
+88: Tag 12 NameAndType Name index 54, Description index 89
+89: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/CapabilityServiceSupport;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+90: Tag 10 MethodRef Class index 79, Name and type index 19
+91: Tag 9 FieldRef Class index 24, Name and type index 92
+92: Tag 12 NameAndType Name index 93, Description index 94
+93: Tag 1 Utf8 Value "affinityFactory"
+94: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency;"
+95: Tag 11 InterfaceMethodRef Class index 96, Name and type index 97
+96: Tag 7 Class Name index 98
+97: Tag 12 NameAndType Name index 99, Description index 100
+98: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceConfigurator"
+99: Tag 1 Utf8 Value "build"
+100: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+101: Tag 11 InterfaceMethodRef Class index 102, Name and type index 103
+102: Tag 7 Class Name index 104
+103: Tag 12 NameAndType Name index 105, Description index 106
+104: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+105: Tag 1 Utf8 Value "install"
+106: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+107: Tag 10 MethodRef Class index 24, Name and type index 108
+108: Tag 12 NameAndType Name index 54, Description index 109
+109: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+110: Tag 11 InterfaceMethodRef Class index 111, Name and type index 112
+111: Tag 7 Class Name index 113
+112: Tag 12 NameAndType Name index 114, Description index 115
+113: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+114: Tag 1 Utf8 Value "addService"
+115: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+116: Tag 11 InterfaceMethodRef Class index 117, Name and type index 118
+117: Tag 7 Class Name index 119
+118: Tag 12 NameAndType Name index 120, Description index 121
+119: Tag 1 Utf8 Value "org/wildfly/clustering/service/SupplierDependency"
+120: Tag 1 Utf8 Value "register"
+121: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder;"
+122: Tag 11 InterfaceMethodRef Class index 102, Name and type index 123
+123: Tag 12 NameAndType Name index 124, Description index 125
+124: Tag 1 Utf8 Value "provides"
+125: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+126: Tag 11 InterfaceMethodRef Class index 96, Name and type index 108
+127: Tag 11 InterfaceMethodRef Class index 102, Name and type index 128
+128: Tag 12 NameAndType Name index 129, Description index 130
+129: Tag 1 Utf8 Value "requires"
+130: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+131: Tag 9 FieldRef Class index 24, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 134
+133: Tag 1 Utf8 Value "cache"
+134: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+135: Tag 7 Class Name index 136
+136: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactory"
+137: Tag 10 MethodRef Class index 135, Name and type index 138
+138: Tag 12 NameAndType Name index 21, Description index 139
+139: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryConfiguration;)V"
+140: Tag 11 InterfaceMethodRef Class index 141, Name and type index 142
+141: Tag 7 Class Name index 143
+142: Tag 12 NameAndType Name index 144, Description index 145
+143: Tag 1 Utf8 Value "org/jboss/msc/Service"
+144: Tag 1 Utf8 Value "newInstance"
+145: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;Ljava/lang/Object;)Lorg/jboss/msc/Service;"
+146: Tag 11 InterfaceMethodRef Class index 102, Name and type index 147
+147: Tag 12 NameAndType Name index 148, Description index 149
+148: Tag 1 Utf8 Value "setInstance"
+149: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+150: Tag 9 FieldRef Class index 151, Name and type index 152
+151: Tag 7 Class Name index 153
+152: Tag 12 NameAndType Name index 154, Description index 155
+153: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+154: Tag 1 Utf8 Value "ON_DEMAND"
+155: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+156: Tag 11 InterfaceMethodRef Class index 102, Name and type index 157
+157: Tag 12 NameAndType Name index 158, Description index 159
+158: Tag 1 Utf8 Value "setInitialMode"
+159: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)Lorg/jboss/msc/service/ServiceBuilder;"
+160: Tag 11 InterfaceMethodRef Class index 161, Name and type index 162
+161: Tag 7 Class Name index 163
+162: Tag 12 NameAndType Name index 164, Description index 165
+163: Tag 1 Utf8 Value "java/util/function/Supplier"
+164: Tag 1 Utf8 Value "get"
+165: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+166: Tag 7 Class Name index 167
+167: Tag 1 Utf8 Value "org/infinispan/Cache"
+168: Tag 11 InterfaceMethodRef Class index 117, Name and type index 162
+169: Tag 7 Class Name index 170
+170: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/affinity/KeyAffinityServiceFactory"
+171: Tag 7 Class Name index 172
+172: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/CapabilityServiceConfigurator"
+173: Tag 7 Class Name index 174
+174: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryConfiguration"
+175: Tag 1 Utf8 Value "Signature"
+176: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency<Lorg/wildfly/clustering/infinispan/spi/affinity/KeyAffinityServiceFactory;>;"
+177: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/infinispan/Cache;>;"
+178: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagementConfiguration;Ljava/lang/String;)V"
+179: Tag 1 Utf8 Value "Code"
+180: Tag 1 Utf8 Value "LineNumberTable"
+181: Tag 1 Utf8 Value "LocalVariableTable"
+182: Tag 1 Utf8 Value "this"
+183: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryServiceConfigurator;"
+184: Tag 1 Utf8 Value "config"
+185: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagementConfiguration;"
+186: Tag 1 Utf8 Value "LocalVariableTypeTable"
+187: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryServiceConfigurator<TA;TD;TS;>;"
+188: Tag 1 Utf8 Value "support"
+189: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+190: Tag 1 Utf8 Value "target"
+191: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+192: Tag 1 Utf8 Value "builder"
+193: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+194: Tag 1 Utf8 Value "factory"
+195: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+196: Tag 1 Utf8 Value "service"
+197: Tag 1 Utf8 Value "Lorg/jboss/msc/Service;"
+198: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+199: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/wildfly/clustering/web/sso/SSOManagerFactory<TA;TD;TS;Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;>;"
+200: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder<*>;"
+201: Tag 1 Utf8 Value "getCache"
+202: Tag 1 Utf8 Value "()Lorg/infinispan/Cache;"
+203: Tag 1 Utf8 Value "<K:Ljava/lang/Object;V:Ljava/lang/Object;>()Lorg/infinispan/Cache<TK;TV;>;"
+204: Tag 1 Utf8 Value "getKeyAffinityServiceFactory"
+205: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/infinispan/spi/affinity/KeyAffinityServiceFactory;"
+206: Tag 1 Utf8 Value "<A:Ljava/lang/Object;D:Ljava/lang/Object;S:Ljava/lang/Object;>Lorg/wildfly/clustering/service/SimpleServiceNameProvider;Lorg/jboss/as/clustering/controller/CapabilityServiceConfigurator;Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryConfiguration;"
+207: Tag 1 Utf8 Value "SourceFile"
+208: Tag 1 Utf8 Value "InfinispanSSOManagerFactoryServiceConfigurator.java"
+209: Tag 1 Utf8 Value "InnerClasses"
+210: Tag 7 Class Name index 211
+211: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+212: Tag 1 Utf8 Value "Mode"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 24, name org.wildfly.clustering.web.infinispan.sso.InfinispanSSOManagerFactoryServiceConfigurator
+
+Super class: id 18, name org.wildfly.clustering.service.SimpleServiceNameProvider
+
+Implements class ids 171 173
+Implements names org.jboss.as.clustering.controller.CapabilityServiceConfigurator org.wildfly.clustering.web.infinispan.sso.InfinispanSSOManagerFactoryConfiguration
+
+Field name name (index 27), type Ljava/lang/String; (descriptor index 28)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name containerName (index 37), type Ljava/lang/String; (descriptor index 28)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name cacheName (index 43), type Ljava/lang/String; (descriptor index 28)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name configurationConfigurator (index 65), type Lorg/wildfly/clustering/service/ServiceConfigurator; (descriptor index 66)
+Human type: org.wildfly.clustering.service.ServiceConfigurator
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name cacheConfigurator (index 78), type Lorg/wildfly/clustering/service/ServiceConfigurator; (descriptor index 66)
+Human type: org.wildfly.clustering.service.ServiceConfigurator
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name affinityFactory (index 93), type Lorg/wildfly/clustering/service/SupplierDependency; (descriptor index 94)
+Human type: org.wildfly.clustering.service.SupplierDependency
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+Field name cache (index 133), type Ljava/util/function/Supplier; (descriptor index 134)
+Human type: java.util.function.Supplier
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+
+Method name <init> (index 21), type (Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagementConfiguration;Ljava/lang/String;)V (descriptor index 178)
+Human type: (org.wildfly.clustering.web.infinispan.sso.InfinispanSSOManagementConfiguration, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 150
+Method name configure (index 61), type (Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/wildfly/clustering/service/ServiceConfigurator; (descriptor index 62)
+Human type: (org.jboss.as.controller.capability.CapabilityServiceSupport): org.wildfly.clustering.service.ServiceConfigurator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 186
+Method name build (index 99), type (Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 100)
+Human type: (org.jboss.msc.service.ServiceTarget): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 264
+Method attribute name Signature, size 2
+Method name getCache (index 201), type ()Lorg/infinispan/Cache; (descriptor index 202)
+Human type: (): org.infinispan.Cache
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 73
+Method attribute name Signature, size 2
+Method name getKeyAffinityServiceFactory (index 204), type ()Lorg/wildfly/clustering/infinispan/spi/affinity/KeyAffinityServiceFactory; (descriptor index 205)
+Human type: (): org.wildfly.clustering.infinispan.spi.affinity.KeyAffinityServiceFactory
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 73
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

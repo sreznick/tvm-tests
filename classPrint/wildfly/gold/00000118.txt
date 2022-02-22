@@ -1,0 +1,131 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 94
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/common/model/ModelElement"
+5: Tag 1 Utf8 Value "IDENTITY_CONFIGURATION"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/common/model/ModelElement;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/IdentityConfigurationResourceDefinition"
+11: Tag 1 Utf8 Value "getModelValidators"
+12: Tag 1 Utf8 Value "()[Lorg/wildfly/extension/picketlink/common/model/validator/ModelValidationStepHandler;"
+13: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "apply"
+16: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/AbstractIDMResourceDefinition"
+23: Tag 1 Utf8 Value "<init>"
+24: Tag 1 Utf8 Value "(Lorg/wildfly/extension/picketlink/common/model/ModelElement;[Lorg/wildfly/extension/picketlink/common/model/validator/ModelValidationStepHandler;Ljava/util/function/Function;[Lorg/jboss/as/controller/SimpleAttributeDefinition;)V"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/JPAStoreResourceDefinition"
+29: Tag 1 Utf8 Value "INSTANCE"
+30: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/idm/model/JPAStoreResourceDefinition;"
+31: Tag 10 MethodRef Class index 8, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "addChildResourceDefinition"
+34: Tag 1 Utf8 Value "(Lorg/wildfly/extension/picketlink/common/model/AbstractResourceDefinition;Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+35: Tag 9 FieldRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 29, Description index 39
+38: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/FileStoreResourceDefinition"
+39: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/idm/model/FileStoreResourceDefinition;"
+40: Tag 9 FieldRef Class index 41, Name and type index 42
+41: Tag 7 Class Name index 43
+42: Tag 12 NameAndType Name index 29, Description index 44
+43: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/LDAPStoreResourceDefinition"
+44: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/idm/model/LDAPStoreResourceDefinition;"
+45: Tag 7 Class Name index 46
+46: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/common/model/validator/ModelValidationStepHandler"
+47: Tag 9 FieldRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 29, Description index 51
+50: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/common/model/validator/NotEmptyResourceValidationStepHandler"
+51: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/common/model/validator/NotEmptyResourceValidationStepHandler;"
+52: Tag 10 MethodRef Class index 8, Name and type index 53
+53: Tag 12 NameAndType Name index 23, Description index 54
+54: Tag 1 Utf8 Value "()V"
+55: Tag 9 FieldRef Class index 8, Name and type index 56
+56: Tag 12 NameAndType Name index 29, Description index 57
+57: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/idm/model/IdentityConfigurationResourceDefinition;"
+58: Tag 1 Utf8 Value "Code"
+59: Tag 1 Utf8 Value "LineNumberTable"
+60: Tag 1 Utf8 Value "LocalVariableTable"
+61: Tag 1 Utf8 Value "this"
+62: Tag 1 Utf8 Value "registerChildren"
+63: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+64: Tag 1 Utf8 Value "resourceRegistration"
+65: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+66: Tag 1 Utf8 Value "<clinit>"
+67: Tag 1 Utf8 Value "SourceFile"
+68: Tag 1 Utf8 Value "IdentityConfigurationResourceDefinition.java"
+69: Tag 1 Utf8 Value "BootstrapMethods"
+70: Tag 15 MethodHandle Kind 6, Index 71
+71: Tag 10 MethodRef Class index 72, Name and type index 73
+72: Tag 7 Class Name index 74
+73: Tag 12 NameAndType Name index 75, Description index 76
+74: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+75: Tag 1 Utf8 Value "metafactory"
+76: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+77: Tag 16 MethodType Descriptor index 78
+78: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+79: Tag 15 MethodHandle Kind 5, Index 80
+80: Tag 10 MethodRef Class index 81, Name and type index 82
+81: Tag 7 Class Name index 83
+82: Tag 12 NameAndType Name index 84, Description index 85
+83: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+84: Tag 1 Utf8 Value "getParent"
+85: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+86: Tag 16 MethodType Descriptor index 87
+87: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/PathAddress;"
+88: Tag 1 Utf8 Value "InnerClasses"
+89: Tag 7 Class Name index 90
+90: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+91: Tag 7 Class Name index 92
+92: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+93: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.picketlink.idm.model.IdentityConfigurationResourceDefinition
+
+Super class: id 20, name org.wildfly.extension.picketlink.idm.model.AbstractIDMResourceDefinition
+
+No interfaces
+
+Field name INSTANCE (index 29), type Lorg/wildfly/extension/picketlink/idm/model/IdentityConfigurationResourceDefinition; (descriptor index 57)
+Human type: org.wildfly.extension.picketlink.idm.model.IdentityConfigurationResourceDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 23), type ()V (descriptor index 54)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 66
+Method name registerChildren (index 62), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 63)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name getModelValidators (index 11), type ()[Lorg/wildfly/extension/picketlink/common/model/validator/ModelValidationStepHandler; (descriptor index 12)
+Human type: (): org.wildfly.extension.picketlink.common.model.validator.ModelValidationStepHandler[]
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 35
+Method name <clinit> (index 66), type ()V (descriptor index 54)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 10

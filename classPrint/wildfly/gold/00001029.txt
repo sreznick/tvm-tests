@@ -1,0 +1,142 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 75
+1: Tag 10 MethodRef Class index 13, Name and type index 51
+2: Tag 7 Class Name index 52
+3: Tag 10 MethodRef Class index 2, Name and type index 53
+4: Tag 9 FieldRef Class index 6, Name and type index 54
+5: Tag 10 MethodRef Class index 2, Name and type index 55
+6: Tag 7 Class Name index 56
+7: Tag 9 FieldRef Class index 6, Name and type index 57
+8: Tag 7 Class Name index 58
+9: Tag 10 MethodRef Class index 8, Name and type index 51
+10: Tag 10 MethodRef Class index 2, Name and type index 59
+11: Tag 10 MethodRef Class index 60, Name and type index 61
+12: Tag 10 MethodRef Class index 62, Name and type index 63
+13: Tag 7 Class Name index 64
+14: Tag 1 Utf8 Value "stateRef"
+15: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicInteger;"
+16: Tag 1 Utf8 Value "ST_WAITING"
+17: Tag 1 Utf8 Value "I"
+18: Tag 1 Utf8 Value "ConstantValue"
+19: Tag 3 Integer Value 0, hex: 0x0
+20: Tag 1 Utf8 Value "ST_STARTED"
+21: Tag 3 Integer Value 1, hex: 0x1
+22: Tag 1 Utf8 Value "ST_STARTED_FLAG_SET"
+23: Tag 3 Integer Value 2, hex: 0x2
+24: Tag 1 Utf8 Value "ST_CANCELLED"
+25: Tag 3 Integer Value 3, hex: 0x3
+26: Tag 1 Utf8 Value "ST_CANCELLED_FLAG_SET"
+27: Tag 3 Integer Value 4, hex: 0x4
+28: Tag 1 Utf8 Value "$assertionsDisabled"
+29: Tag 1 Utf8 Value "Z"
+30: Tag 1 Utf8 Value "<init>"
+31: Tag 1 Utf8 Value "()V"
+32: Tag 1 Utf8 Value "Code"
+33: Tag 1 Utf8 Value "LineNumberTable"
+34: Tag 1 Utf8 Value "LocalVariableTable"
+35: Tag 1 Utf8 Value "this"
+36: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/interceptors/CancellationFlag;"
+37: Tag 1 Utf8 Value "cancel"
+38: Tag 1 Utf8 Value "(Z)Z"
+39: Tag 1 Utf8 Value "newVal"
+40: Tag 1 Utf8 Value "setFlag"
+41: Tag 1 Utf8 Value "oldVal"
+42: Tag 1 Utf8 Value "StackMapTable"
+43: Tag 1 Utf8 Value "runIfNotCancelled"
+44: Tag 1 Utf8 Value "()Z"
+45: Tag 1 Utf8 Value "isCancelFlagSet"
+46: Tag 1 Utf8 Value "state"
+47: Tag 1 Utf8 Value "isCancelled"
+48: Tag 1 Utf8 Value "<clinit>"
+49: Tag 1 Utf8 Value "SourceFile"
+50: Tag 1 Utf8 Value "CancellationFlag.java"
+51: Tag 12 NameAndType Name index 30, Description index 31
+52: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicInteger"
+53: Tag 12 NameAndType Name index 30, Description index 65
+54: Tag 12 NameAndType Name index 14, Description index 15
+55: Tag 12 NameAndType Name index 66, Description index 67
+56: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/interceptors/CancellationFlag"
+57: Tag 12 NameAndType Name index 28, Description index 29
+58: Tag 1 Utf8 Value "java/lang/AssertionError"
+59: Tag 12 NameAndType Name index 68, Description index 69
+60: Tag 7 Class Name index 70
+61: Tag 12 NameAndType Name index 71, Description index 72
+62: Tag 7 Class Name index 73
+63: Tag 12 NameAndType Name index 74, Description index 44
+64: Tag 1 Utf8 Value "java/lang/Object"
+65: Tag 1 Utf8 Value "(I)V"
+66: Tag 1 Utf8 Value "get"
+67: Tag 1 Utf8 Value "()I"
+68: Tag 1 Utf8 Value "compareAndSet"
+69: Tag 1 Utf8 Value "(II)Z"
+70: Tag 1 Utf8 Value "org/wildfly/common/Assert"
+71: Tag 1 Utf8 Value "unreachableCode"
+72: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+73: Tag 1 Utf8 Value "java/lang/Class"
+74: Tag 1 Utf8 Value "desiredAssertionStatus"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 6, name org.jboss.as.ejb3.component.interceptors.CancellationFlag
+
+Super class: id 13, name java.lang.Object
+
+No interfaces
+
+Field name stateRef (index 14), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 15)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name ST_WAITING (index 16), type I (descriptor index 17)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ST_STARTED (index 20), type I (descriptor index 17)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ST_STARTED_FLAG_SET (index 22), type I (descriptor index 17)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ST_CANCELLED (index 24), type I (descriptor index 17)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ST_CANCELLED_FLAG_SET (index 26), type I (descriptor index 17)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name $assertionsDisabled (index 28), type Z (descriptor index 29)
+Human type: boolean
+Flags: decimal 4120, hex 1018, binary 0001000000011000 static final synthetic
+No field attributes
+
+Method name <init> (index 30), type ()V (descriptor index 31)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name cancel (index 37), type (Z)Z (descriptor index 38)
+Human type: (boolean): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 322
+Method name runIfNotCancelled (index 43), type ()Z (descriptor index 44)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 151
+Method name isCancelFlagSet (index 45), type ()Z (descriptor index 44)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 95
+Method name isCancelled (index 47), type ()Z (descriptor index 44)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 95
+Method name <clinit> (index 48), type ()V (descriptor index 31)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 52
+
+Class attribute name SourceFile, size 2

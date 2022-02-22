@@ -1,0 +1,118 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 74
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/api/OpenTelemetryContainerFilter$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/api/OpenTelemetryContainerFilter;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "javax/ws/rs/container/ContainerRequestContext"
+17: Tag 1 Utf8 Value "getHeaders"
+18: Tag 1 Utf8 Value "()Ljavax/ws/rs/core/MultivaluedMap;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "javax/ws/rs/core/MultivaluedMap"
+23: Tag 1 Utf8 Value "containsKey"
+24: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+25: Tag 11 InterfaceMethodRef Class index 20, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "get"
+28: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "java/util/List"
+31: Tag 11 InterfaceMethodRef Class index 29, Name and type index 32
+32: Tag 12 NameAndType Name index 27, Description index 33
+33: Tag 1 Utf8 Value "(I)Ljava/lang/Object;"
+34: Tag 7 Class Name index 35
+35: Tag 1 Utf8 Value "java/lang/String"
+36: Tag 11 InterfaceMethodRef Class index 20, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 39
+38: Tag 1 Utf8 Value "keySet"
+39: Tag 1 Utf8 Value "()Ljava/util/Set;"
+40: Tag 10 MethodRef Class index 2, Name and type index 41
+41: Tag 12 NameAndType Name index 27, Description index 42
+42: Tag 1 Utf8 Value "(Ljavax/ws/rs/container/ContainerRequestContext;Ljava/lang/String;)Ljava/lang/String;"
+43: Tag 10 MethodRef Class index 2, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "keys"
+46: Tag 1 Utf8 Value "(Ljavax/ws/rs/container/ContainerRequestContext;)Ljava/lang/Iterable;"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "io/opentelemetry/context/propagation/TextMapGetter"
+49: Tag 1 Utf8 Value "(Lorg/wildfly/extension/opentelemetry/api/OpenTelemetryContainerFilter;)V"
+50: Tag 1 Utf8 Value "Code"
+51: Tag 1 Utf8 Value "LineNumberTable"
+52: Tag 1 Utf8 Value "LocalVariableTable"
+53: Tag 1 Utf8 Value "this"
+54: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/api/OpenTelemetryContainerFilter$1;"
+55: Tag 1 Utf8 Value "requestContext"
+56: Tag 1 Utf8 Value "Ljavax/ws/rs/container/ContainerRequestContext;"
+57: Tag 1 Utf8 Value "key"
+58: Tag 1 Utf8 Value "Ljava/lang/String;"
+59: Tag 1 Utf8 Value "StackMapTable"
+60: Tag 1 Utf8 Value "Signature"
+61: Tag 1 Utf8 Value "(Ljavax/ws/rs/container/ContainerRequestContext;)Ljava/lang/Iterable<Ljava/lang/String;>;"
+62: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;"
+63: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Iterable;"
+64: Tag 1 Utf8 Value "Ljava/lang/Object;Lio/opentelemetry/context/propagation/TextMapGetter<Ljavax/ws/rs/container/ContainerRequestContext;>;"
+65: Tag 1 Utf8 Value "SourceFile"
+66: Tag 1 Utf8 Value "OpenTelemetryContainerFilter.java"
+67: Tag 1 Utf8 Value "EnclosingMethod"
+68: Tag 7 Class Name index 69
+69: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/api/OpenTelemetryContainerFilter"
+70: Tag 12 NameAndType Name index 71, Description index 72
+71: Tag 1 Utf8 Value "filter"
+72: Tag 1 Utf8 Value "(Ljavax/ws/rs/container/ContainerRequestContext;)V"
+73: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.opentelemetry.api.OpenTelemetryContainerFilter$1
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 47
+Implements names io.opentelemetry.context.propagation.TextMapGetter
+
+Field name this$0 (index 5), type Lorg/wildfly/extension/opentelemetry/api/OpenTelemetryContainerFilter; (descriptor index 6)
+Human type: org.wildfly.extension.opentelemetry.api.OpenTelemetryContainerFilter
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 11), type (Lorg/wildfly/extension/opentelemetry/api/OpenTelemetryContainerFilter;)V (descriptor index 49)
+Human type: (org.wildfly.extension.opentelemetry.api.OpenTelemetryContainerFilter): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 62
+Method name get (index 27), type (Ljavax/ws/rs/container/ContainerRequestContext;Ljava/lang/String;)Ljava/lang/String; (descriptor index 42)
+Human type: (javax.ws.rs.container.ContainerRequestContext, java.lang.String): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 121
+Method name keys (index 45), type (Ljavax/ws/rs/container/ContainerRequestContext;)Ljava/lang/Iterable; (descriptor index 46)
+Human type: (javax.ws.rs.container.ContainerRequestContext): java.lang.Iterable
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 64
+Method attribute name Signature, size 2
+Method name get (index 27), type (Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String; (descriptor index 62)
+Human type: (java.lang.Object, java.lang.String): java.lang.String
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method name keys (index 45), type (Ljava/lang/Object;)Ljava/lang/Iterable; (descriptor index 63)
+Human type: (java.lang.Object): java.lang.Iterable
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,764 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 746
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingExtension"
+3: Tag 8 String Contents 4
+4: Tag 1 Utf8 Value "messaging-activemq"
+5: Tag 10 MethodRef Class index 1, Name and type index 6
+6: Tag 12 NameAndType Name index 7, Description index 8
+7: Tag 1 Utf8 Value "<init>"
+8: Tag 1 Utf8 Value "()V"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 7, Description index 13
+12: Tag 1 Utf8 Value "org/jboss/as/subsystem/test/AbstractSubsystemTest"
+13: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/Extension;)V"
+14: Tag 9 FieldRef Class index 15, Name and type index 16
+15: Tag 7 Class Name index 17
+16: Tag 12 NameAndType Name index 18, Description index 19
+17: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ServerDefinition"
+18: Tag 1 Utf8 Value "GLOBAL_MAX_DISK_USAGE"
+19: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+20: Tag 10 MethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+24: Tag 1 Utf8 Value "getName"
+25: Tag 1 Utf8 Value "()Ljava/lang/String;"
+26: Tag 10 MethodRef Class index 21, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "getDefaultValue"
+29: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+30: Tag 10 MethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+34: Tag 1 Utf8 Value "asInt"
+35: Tag 1 Utf8 Value "()I"
+36: Tag 10 MethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 35
+39: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/config/ActiveMQDefaultConfiguration"
+40: Tag 1 Utf8 Value "getDefaultMaxDiskUsage"
+41: Tag 10 MethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/junit/Assert"
+45: Tag 1 Utf8 Value "assertNotEquals"
+46: Tag 1 Utf8 Value "(Ljava/lang/String;JJ)V"
+47: Tag 9 FieldRef Class index 15, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 19
+49: Tag 1 Utf8 Value "GLOBAL_MAX_MEMORY_SIZE"
+50: Tag 10 MethodRef Class index 31, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "asLong"
+53: Tag 1 Utf8 Value "()J"
+54: Tag 10 MethodRef Class index 37, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 53
+56: Tag 1 Utf8 Value "getDefaultMaxGlobalSize"
+57: Tag 9 FieldRef Class index 15, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 19
+59: Tag 1 Utf8 Value "JOURNAL_POOL_FILES"
+60: Tag 10 MethodRef Class index 37, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 35
+62: Tag 1 Utf8 Value "getDefaultJournalPoolFiles"
+63: Tag 9 FieldRef Class index 64, Name and type index 65
+64: Tag 7 Class Name index 66
+65: Tag 12 NameAndType Name index 67, Description index 19
+66: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/BridgeDefinition"
+67: Tag 1 Utf8 Value "INITIAL_CONNECT_ATTEMPTS"
+68: Tag 10 MethodRef Class index 37, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 35
+70: Tag 1 Utf8 Value "getDefaultBridgeInitialConnectAttempts"
+71: Tag 10 MethodRef Class index 42, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 46
+73: Tag 1 Utf8 Value "assertEquals"
+74: Tag 9 FieldRef Class index 64, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 19
+76: Tag 1 Utf8 Value "RECONNECT_ATTEMPTS"
+77: Tag 10 MethodRef Class index 37, Name and type index 78
+78: Tag 12 NameAndType Name index 79, Description index 35
+79: Tag 1 Utf8 Value "getDefaultBridgeReconnectAttempts"
+80: Tag 9 FieldRef Class index 64, Name and type index 81
+81: Tag 12 NameAndType Name index 82, Description index 19
+82: Tag 1 Utf8 Value "RECONNECT_ATTEMPTS_ON_SAME_NODE"
+83: Tag 10 MethodRef Class index 37, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 35
+85: Tag 1 Utf8 Value "getDefaultBridgeConnectSameNode"
+86: Tag 9 FieldRef Class index 64, Name and type index 87
+87: Tag 12 NameAndType Name index 88, Description index 19
+88: Tag 1 Utf8 Value "USE_DUPLICATE_DETECTION"
+89: Tag 10 MethodRef Class index 31, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 92
+91: Tag 1 Utf8 Value "asBoolean"
+92: Tag 1 Utf8 Value "()Z"
+93: Tag 10 MethodRef Class index 94, Name and type index 95
+94: Tag 7 Class Name index 96
+95: Tag 12 NameAndType Name index 97, Description index 98
+96: Tag 1 Utf8 Value "java/lang/Boolean"
+97: Tag 1 Utf8 Value "valueOf"
+98: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+99: Tag 10 MethodRef Class index 37, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 92
+101: Tag 1 Utf8 Value "isDefaultBridgeDuplicateDetection"
+102: Tag 10 MethodRef Class index 42, Name and type index 103
+103: Tag 12 NameAndType Name index 73, Description index 104
+104: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+105: Tag 9 FieldRef Class index 106, Name and type index 107
+106: Tag 7 Class Name index 108
+107: Tag 12 NameAndType Name index 109, Description index 19
+108: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ClusterConnectionDefinition"
+109: Tag 1 Utf8 Value "CHECK_PERIOD"
+110: Tag 10 MethodRef Class index 37, Name and type index 111
+111: Tag 12 NameAndType Name index 112, Description index 53
+112: Tag 1 Utf8 Value "getDefaultClusterFailureCheckPeriod"
+113: Tag 9 FieldRef Class index 106, Name and type index 114
+114: Tag 12 NameAndType Name index 115, Description index 19
+115: Tag 1 Utf8 Value "CONNECTION_TTL"
+116: Tag 10 MethodRef Class index 37, Name and type index 117
+117: Tag 12 NameAndType Name index 118, Description index 53
+118: Tag 1 Utf8 Value "getDefaultClusterConnectionTtl"
+119: Tag 9 FieldRef Class index 106, Name and type index 65
+120: Tag 10 MethodRef Class index 37, Name and type index 121
+121: Tag 12 NameAndType Name index 122, Description index 35
+122: Tag 1 Utf8 Value "getDefaultClusterInitialConnectAttempts"
+123: Tag 9 FieldRef Class index 106, Name and type index 124
+124: Tag 12 NameAndType Name index 125, Description index 19
+125: Tag 1 Utf8 Value "MAX_HOPS"
+126: Tag 10 MethodRef Class index 37, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 35
+128: Tag 1 Utf8 Value "getDefaultClusterMaxHops"
+129: Tag 9 FieldRef Class index 106, Name and type index 130
+130: Tag 12 NameAndType Name index 131, Description index 19
+131: Tag 1 Utf8 Value "MAX_RETRY_INTERVAL"
+132: Tag 10 MethodRef Class index 37, Name and type index 133
+133: Tag 12 NameAndType Name index 134, Description index 53
+134: Tag 1 Utf8 Value "getDefaultClusterMaxRetryInterval"
+135: Tag 9 FieldRef Class index 106, Name and type index 136
+136: Tag 12 NameAndType Name index 137, Description index 19
+137: Tag 1 Utf8 Value "MESSAGE_LOAD_BALANCING_TYPE"
+138: Tag 10 MethodRef Class index 31, Name and type index 139
+139: Tag 12 NameAndType Name index 140, Description index 25
+140: Tag 1 Utf8 Value "asString"
+141: Tag 10 MethodRef Class index 37, Name and type index 142
+142: Tag 12 NameAndType Name index 143, Description index 25
+143: Tag 1 Utf8 Value "getDefaultClusterMessageLoadBalancingType"
+144: Tag 9 FieldRef Class index 106, Name and type index 145
+145: Tag 12 NameAndType Name index 146, Description index 19
+146: Tag 1 Utf8 Value "NOTIFICATION_ATTEMPTS"
+147: Tag 10 MethodRef Class index 37, Name and type index 148
+148: Tag 12 NameAndType Name index 149, Description index 35
+149: Tag 1 Utf8 Value "getDefaultClusterNotificationAttempts"
+150: Tag 9 FieldRef Class index 106, Name and type index 151
+151: Tag 12 NameAndType Name index 152, Description index 19
+152: Tag 1 Utf8 Value "NOTIFICATION_INTERVAL"
+153: Tag 10 MethodRef Class index 37, Name and type index 154
+154: Tag 12 NameAndType Name index 155, Description index 53
+155: Tag 1 Utf8 Value "getDefaultClusterNotificationInterval"
+156: Tag 9 FieldRef Class index 106, Name and type index 157
+157: Tag 12 NameAndType Name index 158, Description index 19
+158: Tag 1 Utf8 Value "PRODUCER_WINDOW_SIZE"
+159: Tag 10 MethodRef Class index 37, Name and type index 160
+160: Tag 12 NameAndType Name index 161, Description index 35
+161: Tag 1 Utf8 Value "getDefaultBridgeProducerWindowSize"
+162: Tag 9 FieldRef Class index 106, Name and type index 75
+163: Tag 10 MethodRef Class index 37, Name and type index 164
+164: Tag 12 NameAndType Name index 165, Description index 35
+165: Tag 1 Utf8 Value "getDefaultClusterReconnectAttempts"
+166: Tag 9 FieldRef Class index 106, Name and type index 167
+167: Tag 12 NameAndType Name index 168, Description index 19
+168: Tag 1 Utf8 Value "RETRY_INTERVAL"
+169: Tag 10 MethodRef Class index 37, Name and type index 170
+170: Tag 12 NameAndType Name index 171, Description index 53
+171: Tag 1 Utf8 Value "getDefaultClusterRetryInterval"
+172: Tag 9 FieldRef Class index 106, Name and type index 173
+173: Tag 12 NameAndType Name index 174, Description index 19
+174: Tag 1 Utf8 Value "RETRY_INTERVAL_MULTIPLIER"
+175: Tag 10 MethodRef Class index 31, Name and type index 176
+176: Tag 12 NameAndType Name index 177, Description index 178
+177: Tag 1 Utf8 Value "asDouble"
+178: Tag 1 Utf8 Value "()D"
+179: Tag 10 MethodRef Class index 37, Name and type index 180
+180: Tag 12 NameAndType Name index 181, Description index 178
+181: Tag 1 Utf8 Value "getDefaultClusterRetryIntervalMultiplier"
+182: Tag 10 MethodRef Class index 42, Name and type index 183
+183: Tag 12 NameAndType Name index 73, Description index 184
+184: Tag 1 Utf8 Value "(Ljava/lang/String;DDD)V"
+185: Tag 9 FieldRef Class index 186, Name and type index 187
+186: Tag 7 Class Name index 188
+187: Tag 12 NameAndType Name index 189, Description index 19
+188: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+189: Tag 1 Utf8 Value "BRIDGE_CONFIRMATION_WINDOW_SIZE"
+190: Tag 10 MethodRef Class index 37, Name and type index 191
+191: Tag 12 NameAndType Name index 192, Description index 35
+192: Tag 1 Utf8 Value "getDefaultBridgeConfirmationWindowSize"
+193: Tag 9 FieldRef Class index 186, Name and type index 194
+194: Tag 12 NameAndType Name index 195, Description index 196
+195: Tag 1 Utf8 Value "CALL_TIMEOUT"
+196: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+197: Tag 10 MethodRef Class index 198, Name and type index 22
+198: Tag 7 Class Name index 199
+199: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+200: Tag 10 MethodRef Class index 198, Name and type index 27
+201: Tag 7 Class Name index 202
+202: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/client/ActiveMQClient"
+203: Tag 5 Long Value 30000
+205: Tag 9 FieldRef Class index 186, Name and type index 107
+206: Tag 9 FieldRef Class index 201, Name and type index 207
+207: Tag 12 NameAndType Name index 208, Description index 209
+208: Tag 1 Utf8 Value "DEFAULT_CLIENT_FAILURE_CHECK_PERIOD"
+209: Tag 1 Utf8 Value "J"
+210: Tag 9 FieldRef Class index 186, Name and type index 114
+211: Tag 9 FieldRef Class index 201, Name and type index 212
+212: Tag 12 NameAndType Name index 213, Description index 209
+213: Tag 1 Utf8 Value "DEFAULT_CONNECTION_TTL"
+214: Tag 9 FieldRef Class index 186, Name and type index 215
+215: Tag 12 NameAndType Name index 216, Description index 19
+216: Tag 1 Utf8 Value "HA"
+217: Tag 9 FieldRef Class index 186, Name and type index 218
+218: Tag 12 NameAndType Name index 131, Description index 196
+219: Tag 9 FieldRef Class index 201, Name and type index 220
+220: Tag 12 NameAndType Name index 221, Description index 209
+221: Tag 1 Utf8 Value "DEFAULT_MAX_RETRY_INTERVAL"
+222: Tag 9 FieldRef Class index 186, Name and type index 223
+223: Tag 12 NameAndType Name index 224, Description index 196
+224: Tag 1 Utf8 Value "MIN_LARGE_MESSAGE_SIZE"
+225: Tag 5 Long Value 102400
+227: Tag 9 FieldRef Class index 186, Name and type index 228
+228: Tag 12 NameAndType Name index 168, Description index 196
+229: Tag 5 Long Value 2000
+231: Tag 9 FieldRef Class index 186, Name and type index 232
+232: Tag 12 NameAndType Name index 174, Description index 196
+233: Tag 9 FieldRef Class index 201, Name and type index 234
+234: Tag 12 NameAndType Name index 235, Description index 236
+235: Tag 1 Utf8 Value "DEFAULT_RETRY_INTERVAL_MULTIPLIER"
+236: Tag 1 Utf8 Value "D"
+237: Tag 9 FieldRef Class index 238, Name and type index 239
+238: Tag 7 Class Name index 240
+239: Tag 12 NameAndType Name index 241, Description index 196
+240: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttributes$Common"
+241: Tag 1 Utf8 Value "AUTO_GROUP"
+242: Tag 9 FieldRef Class index 238, Name and type index 243
+243: Tag 12 NameAndType Name index 244, Description index 196
+244: Tag 1 Utf8 Value "BLOCK_ON_ACKNOWLEDGE"
+245: Tag 9 FieldRef Class index 238, Name and type index 246
+246: Tag 12 NameAndType Name index 247, Description index 196
+247: Tag 1 Utf8 Value "BLOCK_ON_DURABLE_SEND"
+248: Tag 9 FieldRef Class index 238, Name and type index 249
+249: Tag 12 NameAndType Name index 250, Description index 196
+250: Tag 1 Utf8 Value "BLOCK_ON_NON_DURABLE_SEND"
+251: Tag 9 FieldRef Class index 238, Name and type index 252
+252: Tag 12 NameAndType Name index 253, Description index 196
+253: Tag 1 Utf8 Value "CACHE_LARGE_MESSAGE_CLIENT"
+254: Tag 9 FieldRef Class index 238, Name and type index 255
+255: Tag 12 NameAndType Name index 256, Description index 196
+256: Tag 1 Utf8 Value "COMPRESS_LARGE_MESSAGES"
+257: Tag 9 FieldRef Class index 238, Name and type index 258
+258: Tag 12 NameAndType Name index 259, Description index 196
+259: Tag 1 Utf8 Value "CONFIRMATION_WINDOW_SIZE"
+260: Tag 5 Long Value -1
+262: Tag 9 FieldRef Class index 238, Name and type index 263
+263: Tag 12 NameAndType Name index 264, Description index 196
+264: Tag 1 Utf8 Value "CONNECTION_LOAD_BALANCING_CLASS_NAME"
+265: Tag 9 FieldRef Class index 201, Name and type index 266
+266: Tag 12 NameAndType Name index 267, Description index 268
+267: Tag 1 Utf8 Value "DEFAULT_CONNECTION_LOAD_BALANCING_POLICY_CLASS_NAME"
+268: Tag 1 Utf8 Value "Ljava/lang/String;"
+269: Tag 9 FieldRef Class index 238, Name and type index 270
+270: Tag 12 NameAndType Name index 271, Description index 196
+271: Tag 1 Utf8 Value "CONSUMER_MAX_RATE"
+272: Tag 9 FieldRef Class index 238, Name and type index 273
+273: Tag 12 NameAndType Name index 274, Description index 196
+274: Tag 1 Utf8 Value "CONSUMER_WINDOW_SIZE"
+275: Tag 5 Long Value 1048576
+277: Tag 9 FieldRef Class index 238, Name and type index 278
+278: Tag 12 NameAndType Name index 279, Description index 196
+279: Tag 1 Utf8 Value "DUPS_OK_BATCH_SIZE"
+280: Tag 9 FieldRef Class index 238, Name and type index 281
+281: Tag 12 NameAndType Name index 282, Description index 196
+282: Tag 1 Utf8 Value "FAILOVER_ON_INITIAL_CONNECTION"
+283: Tag 9 FieldRef Class index 238, Name and type index 284
+284: Tag 12 NameAndType Name index 285, Description index 196
+285: Tag 1 Utf8 Value "PRE_ACKNOWLEDGE"
+286: Tag 9 FieldRef Class index 238, Name and type index 287
+287: Tag 12 NameAndType Name index 288, Description index 196
+288: Tag 1 Utf8 Value "PRODUCER_MAX_RATE"
+289: Tag 9 FieldRef Class index 238, Name and type index 290
+290: Tag 12 NameAndType Name index 158, Description index 196
+291: Tag 5 Long Value 65536
+293: Tag 9 FieldRef Class index 238, Name and type index 75
+294: Tag 9 FieldRef Class index 238, Name and type index 295
+295: Tag 12 NameAndType Name index 296, Description index 196
+296: Tag 1 Utf8 Value "SCHEDULED_THREAD_POOL_MAX_SIZE"
+297: Tag 10 MethodRef Class index 37, Name and type index 298
+298: Tag 12 NameAndType Name index 299, Description index 35
+299: Tag 1 Utf8 Value "getDefaultScheduledThreadPoolMaxSize"
+300: Tag 9 FieldRef Class index 238, Name and type index 301
+301: Tag 12 NameAndType Name index 302, Description index 196
+302: Tag 1 Utf8 Value "USE_GLOBAL_POOLS"
+303: Tag 9 FieldRef Class index 238, Name and type index 304
+304: Tag 12 NameAndType Name index 305, Description index 196
+305: Tag 1 Utf8 Value "USE_TOPOLOGY"
+306: Tag 9 FieldRef Class index 307, Name and type index 308
+307: Tag 7 Class Name index 309
+308: Tag 12 NameAndType Name index 310, Description index 19
+309: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/DivertDefinition"
+310: Tag 1 Utf8 Value "EXCLUSIVE"
+311: Tag 10 MethodRef Class index 37, Name and type index 312
+312: Tag 12 NameAndType Name index 313, Description index 92
+313: Tag 1 Utf8 Value "isDefaultDivertExclusive"
+314: Tag 9 FieldRef Class index 315, Name and type index 316
+315: Tag 7 Class Name index 317
+316: Tag 12 NameAndType Name index 318, Description index 19
+317: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/GroupingHandlerDefinition"
+318: Tag 1 Utf8 Value "GROUP_TIMEOUT"
+319: Tag 10 MethodRef Class index 37, Name and type index 320
+320: Tag 12 NameAndType Name index 321, Description index 35
+321: Tag 1 Utf8 Value "getDefaultGroupingHandlerGroupTimeout"
+322: Tag 9 FieldRef Class index 315, Name and type index 323
+323: Tag 12 NameAndType Name index 324, Description index 19
+324: Tag 1 Utf8 Value "REAPER_PERIOD"
+325: Tag 10 MethodRef Class index 37, Name and type index 326
+326: Tag 12 NameAndType Name index 327, Description index 53
+327: Tag 1 Utf8 Value "getDefaultGroupingHandlerReaperPeriod"
+328: Tag 9 FieldRef Class index 315, Name and type index 329
+329: Tag 12 NameAndType Name index 330, Description index 19
+330: Tag 1 Utf8 Value "TIMEOUT"
+331: Tag 10 MethodRef Class index 37, Name and type index 332
+332: Tag 12 NameAndType Name index 333, Description index 35
+333: Tag 1 Utf8 Value "getDefaultGroupingHandlerTimeout"
+334: Tag 9 FieldRef Class index 335, Name and type index 336
+335: Tag 7 Class Name index 337
+336: Tag 12 NameAndType Name index 338, Description index 19
+337: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ha/HAAttributes"
+338: Tag 1 Utf8 Value "ALLOW_FAILBACK"
+339: Tag 10 MethodRef Class index 37, Name and type index 340
+340: Tag 12 NameAndType Name index 341, Description index 92
+341: Tag 1 Utf8 Value "isDefaultAllowAutoFailback"
+342: Tag 9 FieldRef Class index 335, Name and type index 343
+343: Tag 12 NameAndType Name index 344, Description index 19
+344: Tag 1 Utf8 Value "BACKUP_PORT_OFFSET"
+345: Tag 10 MethodRef Class index 37, Name and type index 346
+346: Tag 12 NameAndType Name index 347, Description index 35
+347: Tag 1 Utf8 Value "getDefaultHapolicyBackupPortOffset"
+348: Tag 9 FieldRef Class index 335, Name and type index 349
+349: Tag 12 NameAndType Name index 350, Description index 19
+350: Tag 1 Utf8 Value "BACKUP_REQUEST_RETRIES"
+351: Tag 10 MethodRef Class index 37, Name and type index 352
+352: Tag 12 NameAndType Name index 353, Description index 35
+353: Tag 1 Utf8 Value "getDefaultHapolicyBackupRequestRetries"
+354: Tag 9 FieldRef Class index 335, Name and type index 355
+355: Tag 12 NameAndType Name index 356, Description index 19
+356: Tag 1 Utf8 Value "BACKUP_REQUEST_RETRY_INTERVAL"
+357: Tag 10 MethodRef Class index 37, Name and type index 358
+358: Tag 12 NameAndType Name index 359, Description index 53
+359: Tag 1 Utf8 Value "getDefaultHapolicyBackupRequestRetryInterval"
+360: Tag 9 FieldRef Class index 335, Name and type index 361
+361: Tag 12 NameAndType Name index 362, Description index 19
+362: Tag 1 Utf8 Value "FAILOVER_ON_SERVER_SHUTDOWN"
+363: Tag 10 MethodRef Class index 37, Name and type index 364
+364: Tag 12 NameAndType Name index 365, Description index 92
+365: Tag 1 Utf8 Value "isDefaultFailoverOnServerShutdown"
+366: Tag 9 FieldRef Class index 335, Name and type index 367
+367: Tag 12 NameAndType Name index 368, Description index 19
+368: Tag 1 Utf8 Value "INITIAL_REPLICATION_SYNC_TIMEOUT"
+369: Tag 10 MethodRef Class index 37, Name and type index 370
+370: Tag 12 NameAndType Name index 371, Description index 53
+371: Tag 1 Utf8 Value "getDefaultInitialReplicationSyncTimeout"
+372: Tag 9 FieldRef Class index 335, Name and type index 373
+373: Tag 12 NameAndType Name index 374, Description index 19
+374: Tag 1 Utf8 Value "MAX_BACKUPS"
+375: Tag 10 MethodRef Class index 37, Name and type index 376
+376: Tag 12 NameAndType Name index 377, Description index 35
+377: Tag 1 Utf8 Value "getDefaultHapolicyMaxBackups"
+378: Tag 9 FieldRef Class index 335, Name and type index 379
+379: Tag 12 NameAndType Name index 380, Description index 19
+380: Tag 1 Utf8 Value "MAX_SAVED_REPLICATED_JOURNAL_SIZE"
+381: Tag 10 MethodRef Class index 37, Name and type index 382
+382: Tag 12 NameAndType Name index 383, Description index 35
+383: Tag 1 Utf8 Value "getDefaultMaxSavedReplicatedJournalsSize"
+384: Tag 9 FieldRef Class index 335, Name and type index 385
+385: Tag 12 NameAndType Name index 386, Description index 19
+386: Tag 1 Utf8 Value "REQUEST_BACKUP"
+387: Tag 10 MethodRef Class index 37, Name and type index 388
+388: Tag 12 NameAndType Name index 389, Description index 92
+389: Tag 1 Utf8 Value "isDefaultHapolicyRequestBackup"
+390: Tag 9 FieldRef Class index 335, Name and type index 391
+391: Tag 12 NameAndType Name index 392, Description index 19
+392: Tag 1 Utf8 Value "RESTART_BACKUP"
+393: Tag 10 MethodRef Class index 37, Name and type index 394
+394: Tag 12 NameAndType Name index 395, Description index 92
+395: Tag 1 Utf8 Value "isDefaultRestartBackup"
+396: Tag 9 FieldRef Class index 397, Name and type index 398
+397: Tag 7 Class Name index 399
+398: Tag 12 NameAndType Name index 400, Description index 19
+399: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/JGroupsBroadcastGroupDefinition"
+400: Tag 1 Utf8 Value "BROADCAST_PERIOD"
+401: Tag 10 MethodRef Class index 37, Name and type index 402
+402: Tag 12 NameAndType Name index 403, Description index 53
+403: Tag 1 Utf8 Value "getDefaultBroadcastPeriod"
+404: Tag 9 FieldRef Class index 405, Name and type index 406
+405: Tag 7 Class Name index 407
+406: Tag 12 NameAndType Name index 408, Description index 19
+407: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/JGroupsDiscoveryGroupDefinition"
+408: Tag 1 Utf8 Value "INITIAL_WAIT_TIMEOUT"
+409: Tag 5 Long Value 10000
+411: Tag 9 FieldRef Class index 405, Name and type index 412
+412: Tag 12 NameAndType Name index 413, Description index 19
+413: Tag 1 Utf8 Value "REFRESH_TIMEOUT"
+414: Tag 10 MethodRef Class index 37, Name and type index 415
+415: Tag 12 NameAndType Name index 416, Description index 35
+416: Tag 1 Utf8 Value "getDefaultBroadcastRefreshTimeout"
+417: Tag 9 FieldRef Class index 418, Name and type index 239
+418: Tag 7 Class Name index 419
+419: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/legacy/LegacyConnectionFactoryDefinition"
+420: Tag 7 Class Name index 421
+421: Tag 1 Utf8 Value "org/hornetq/api/core/client/HornetQClient"
+422: Tag 9 FieldRef Class index 418, Name and type index 243
+423: Tag 9 FieldRef Class index 418, Name and type index 246
+424: Tag 9 FieldRef Class index 418, Name and type index 249
+425: Tag 9 FieldRef Class index 418, Name and type index 252
+426: Tag 9 FieldRef Class index 418, Name and type index 427
+427: Tag 12 NameAndType Name index 428, Description index 196
+428: Tag 1 Utf8 Value "CLIENT_FAILURE_CHECK_PERIOD"
+429: Tag 9 FieldRef Class index 420, Name and type index 207
+430: Tag 9 FieldRef Class index 418, Name and type index 255
+431: Tag 9 FieldRef Class index 418, Name and type index 258
+432: Tag 9 FieldRef Class index 418, Name and type index 263
+433: Tag 9 FieldRef Class index 420, Name and type index 266
+434: Tag 9 FieldRef Class index 418, Name and type index 435
+435: Tag 12 NameAndType Name index 115, Description index 196
+436: Tag 9 FieldRef Class index 420, Name and type index 212
+437: Tag 9 FieldRef Class index 418, Name and type index 270
+438: Tag 9 FieldRef Class index 418, Name and type index 273
+439: Tag 9 FieldRef Class index 418, Name and type index 278
+440: Tag 9 FieldRef Class index 418, Name and type index 281
+441: Tag 9 FieldRef Class index 418, Name and type index 442
+442: Tag 12 NameAndType Name index 67, Description index 196
+443: Tag 9 FieldRef Class index 418, Name and type index 444
+444: Tag 12 NameAndType Name index 445, Description index 196
+445: Tag 1 Utf8 Value "INITIAL_MESSAGE_PACKET_SIZE"
+446: Tag 5 Long Value 1500
+448: Tag 9 FieldRef Class index 418, Name and type index 218
+449: Tag 9 FieldRef Class index 420, Name and type index 220
+450: Tag 9 FieldRef Class index 418, Name and type index 223
+451: Tag 9 FieldRef Class index 418, Name and type index 284
+452: Tag 9 FieldRef Class index 418, Name and type index 287
+453: Tag 9 FieldRef Class index 418, Name and type index 290
+454: Tag 9 FieldRef Class index 418, Name and type index 455
+455: Tag 12 NameAndType Name index 76, Description index 196
+456: Tag 9 FieldRef Class index 418, Name and type index 228
+457: Tag 9 FieldRef Class index 418, Name and type index 232
+458: Tag 9 FieldRef Class index 420, Name and type index 234
+459: Tag 9 FieldRef Class index 418, Name and type index 301
+460: Tag 9 FieldRef Class index 15, Name and type index 461
+461: Tag 12 NameAndType Name index 462, Description index 19
+462: Tag 1 Utf8 Value "ASYNC_CONNECTION_EXECUTION_ENABLED"
+463: Tag 10 MethodRef Class index 37, Name and type index 464
+464: Tag 12 NameAndType Name index 465, Description index 92
+465: Tag 1 Utf8 Value "isDefaultAsyncConnectionExecutionEnabled"
+466: Tag 9 FieldRef Class index 15, Name and type index 467
+467: Tag 12 NameAndType Name index 468, Description index 19
+468: Tag 1 Utf8 Value "CLUSTER_PASSWORD"
+469: Tag 10 MethodRef Class index 37, Name and type index 470
+470: Tag 12 NameAndType Name index 471, Description index 25
+471: Tag 1 Utf8 Value "getDefaultClusterPassword"
+472: Tag 9 FieldRef Class index 15, Name and type index 473
+473: Tag 12 NameAndType Name index 474, Description index 19
+474: Tag 1 Utf8 Value "CLUSTER_USER"
+475: Tag 10 MethodRef Class index 37, Name and type index 476
+476: Tag 12 NameAndType Name index 477, Description index 25
+477: Tag 1 Utf8 Value "getDefaultClusterUser"
+478: Tag 9 FieldRef Class index 15, Name and type index 479
+479: Tag 12 NameAndType Name index 480, Description index 19
+480: Tag 1 Utf8 Value "CONNECTION_TTL_OVERRIDE"
+481: Tag 10 MethodRef Class index 37, Name and type index 482
+482: Tag 12 NameAndType Name index 483, Description index 53
+483: Tag 1 Utf8 Value "getDefaultConnectionTtlOverride"
+484: Tag 9 FieldRef Class index 15, Name and type index 485
+485: Tag 12 NameAndType Name index 486, Description index 19
+486: Tag 1 Utf8 Value "CREATE_BINDINGS_DIR"
+487: Tag 10 MethodRef Class index 37, Name and type index 488
+488: Tag 12 NameAndType Name index 489, Description index 92
+489: Tag 1 Utf8 Value "isDefaultCreateBindingsDir"
+490: Tag 9 FieldRef Class index 15, Name and type index 491
+491: Tag 12 NameAndType Name index 492, Description index 19
+492: Tag 1 Utf8 Value "CREATE_JOURNAL_DIR"
+493: Tag 10 MethodRef Class index 37, Name and type index 494
+494: Tag 12 NameAndType Name index 495, Description index 92
+495: Tag 1 Utf8 Value "isDefaultCreateJournalDir"
+496: Tag 9 FieldRef Class index 15, Name and type index 497
+497: Tag 12 NameAndType Name index 498, Description index 19
+498: Tag 1 Utf8 Value "DISK_SCAN_PERIOD"
+499: Tag 10 MethodRef Class index 37, Name and type index 500
+500: Tag 12 NameAndType Name index 501, Description index 35
+501: Tag 1 Utf8 Value "getDefaultDiskScanPeriod"
+502: Tag 9 FieldRef Class index 15, Name and type index 503
+503: Tag 12 NameAndType Name index 504, Description index 19
+504: Tag 1 Utf8 Value "ID_CACHE_SIZE"
+505: Tag 10 MethodRef Class index 37, Name and type index 506
+506: Tag 12 NameAndType Name index 507, Description index 35
+507: Tag 1 Utf8 Value "getDefaultIdCacheSize"
+508: Tag 9 FieldRef Class index 15, Name and type index 509
+509: Tag 12 NameAndType Name index 510, Description index 19
+510: Tag 1 Utf8 Value "JMX_DOMAIN"
+511: Tag 10 MethodRef Class index 37, Name and type index 512
+512: Tag 12 NameAndType Name index 513, Description index 25
+513: Tag 1 Utf8 Value "getDefaultJmxDomain"
+514: Tag 9 FieldRef Class index 15, Name and type index 515
+515: Tag 12 NameAndType Name index 516, Description index 19
+516: Tag 1 Utf8 Value "JOURNAL_BINDINGS_TABLE"
+517: Tag 10 MethodRef Class index 37, Name and type index 518
+518: Tag 12 NameAndType Name index 519, Description index 25
+519: Tag 1 Utf8 Value "getDefaultBindingsTableName"
+520: Tag 9 FieldRef Class index 15, Name and type index 521
+521: Tag 12 NameAndType Name index 522, Description index 19
+522: Tag 1 Utf8 Value "JOURNAL_COMPACT_MIN_FILES"
+523: Tag 10 MethodRef Class index 37, Name and type index 524
+524: Tag 12 NameAndType Name index 525, Description index 35
+525: Tag 1 Utf8 Value "getDefaultJournalCompactMinFiles"
+526: Tag 9 FieldRef Class index 15, Name and type index 527
+527: Tag 12 NameAndType Name index 528, Description index 19
+528: Tag 1 Utf8 Value "JOURNAL_COMPACT_PERCENTAGE"
+529: Tag 10 MethodRef Class index 37, Name and type index 530
+530: Tag 12 NameAndType Name index 531, Description index 35
+531: Tag 1 Utf8 Value "getDefaultJournalCompactPercentage"
+532: Tag 9 FieldRef Class index 15, Name and type index 533
+533: Tag 12 NameAndType Name index 534, Description index 19
+534: Tag 1 Utf8 Value "JOURNAL_FILE_OPEN_TIMEOUT"
+535: Tag 10 MethodRef Class index 37, Name and type index 536
+536: Tag 12 NameAndType Name index 537, Description index 35
+537: Tag 1 Utf8 Value "getDefaultJournalFileOpenTimeout"
+538: Tag 9 FieldRef Class index 15, Name and type index 539
+539: Tag 12 NameAndType Name index 540, Description index 19
+540: Tag 1 Utf8 Value "JOURNAL_FILE_SIZE"
+541: Tag 10 MethodRef Class index 37, Name and type index 542
+542: Tag 12 NameAndType Name index 543, Description index 35
+543: Tag 1 Utf8 Value "getDefaultJournalFileSize"
+544: Tag 9 FieldRef Class index 15, Name and type index 545
+545: Tag 12 NameAndType Name index 546, Description index 196
+546: Tag 1 Utf8 Value "JOURNAL_JDBC_LOCK_EXPIRATION"
+547: Tag 10 MethodRef Class index 37, Name and type index 548
+548: Tag 12 NameAndType Name index 549, Description index 53
+549: Tag 1 Utf8 Value "getDefaultJdbcLockExpirationMillis"
+550: Tag 9 FieldRef Class index 15, Name and type index 551
+551: Tag 12 NameAndType Name index 552, Description index 196
+552: Tag 1 Utf8 Value "JOURNAL_JDBC_LOCK_RENEW_PERIOD"
+553: Tag 10 MethodRef Class index 37, Name and type index 554
+554: Tag 12 NameAndType Name index 555, Description index 53
+555: Tag 1 Utf8 Value "getDefaultJdbcLockRenewPeriodMillis"
+556: Tag 9 FieldRef Class index 15, Name and type index 557
+557: Tag 12 NameAndType Name index 558, Description index 196
+558: Tag 1 Utf8 Value "JOURNAL_JDBC_NETWORK_TIMEOUT"
+559: Tag 10 MethodRef Class index 37, Name and type index 560
+560: Tag 12 NameAndType Name index 561, Description index 35
+561: Tag 1 Utf8 Value "getDefaultJdbcNetworkTimeout"
+562: Tag 9 FieldRef Class index 15, Name and type index 563
+563: Tag 12 NameAndType Name index 564, Description index 19
+564: Tag 1 Utf8 Value "JOURNAL_LARGE_MESSAGES_TABLE"
+565: Tag 10 MethodRef Class index 37, Name and type index 566
+566: Tag 12 NameAndType Name index 567, Description index 25
+567: Tag 1 Utf8 Value "getDefaultLargeMessagesTableName"
+568: Tag 9 FieldRef Class index 15, Name and type index 569
+569: Tag 12 NameAndType Name index 570, Description index 19
+570: Tag 1 Utf8 Value "JOURNAL_MESSAGES_TABLE"
+571: Tag 10 MethodRef Class index 37, Name and type index 572
+572: Tag 12 NameAndType Name index 573, Description index 25
+573: Tag 1 Utf8 Value "getDefaultMessageTableName"
+574: Tag 9 FieldRef Class index 15, Name and type index 575
+575: Tag 12 NameAndType Name index 576, Description index 19
+576: Tag 1 Utf8 Value "JOURNAL_MIN_FILES"
+577: Tag 10 MethodRef Class index 37, Name and type index 578
+578: Tag 12 NameAndType Name index 579, Description index 35
+579: Tag 1 Utf8 Value "getDefaultJournalMinFiles"
+580: Tag 9 FieldRef Class index 15, Name and type index 581
+581: Tag 12 NameAndType Name index 582, Description index 19
+582: Tag 1 Utf8 Value "JOURNAL_NODE_MANAGER_STORE_TABLE"
+583: Tag 10 MethodRef Class index 37, Name and type index 584
+584: Tag 12 NameAndType Name index 585, Description index 25
+585: Tag 1 Utf8 Value "getDefaultNodeManagerStoreTableName"
+586: Tag 9 FieldRef Class index 15, Name and type index 587
+587: Tag 12 NameAndType Name index 588, Description index 19
+588: Tag 1 Utf8 Value "JOURNAL_PAGE_STORE_TABLE"
+589: Tag 10 MethodRef Class index 37, Name and type index 590
+590: Tag 12 NameAndType Name index 591, Description index 25
+591: Tag 1 Utf8 Value "getDefaultPageStoreTableName"
+592: Tag 9 FieldRef Class index 15, Name and type index 593
+593: Tag 12 NameAndType Name index 594, Description index 19
+594: Tag 1 Utf8 Value "JOURNAL_SYNC_NON_TRANSACTIONAL"
+595: Tag 10 MethodRef Class index 37, Name and type index 596
+596: Tag 12 NameAndType Name index 597, Description index 92
+597: Tag 1 Utf8 Value "isDefaultJournalSyncNonTransactional"
+598: Tag 9 FieldRef Class index 15, Name and type index 599
+599: Tag 12 NameAndType Name index 600, Description index 19
+600: Tag 1 Utf8 Value "JOURNAL_SYNC_TRANSACTIONAL"
+601: Tag 10 MethodRef Class index 37, Name and type index 602
+602: Tag 12 NameAndType Name index 603, Description index 92
+603: Tag 1 Utf8 Value "isDefaultJournalSyncTransactional"
+604: Tag 9 FieldRef Class index 15, Name and type index 605
+605: Tag 12 NameAndType Name index 606, Description index 19
+606: Tag 1 Utf8 Value "LOG_JOURNAL_WRITE_RATE"
+607: Tag 10 MethodRef Class index 37, Name and type index 608
+608: Tag 12 NameAndType Name index 609, Description index 92
+609: Tag 1 Utf8 Value "isDefaultJournalLogWriteRate"
+610: Tag 9 FieldRef Class index 15, Name and type index 611
+611: Tag 12 NameAndType Name index 612, Description index 19
+612: Tag 1 Utf8 Value "MANAGEMENT_ADDRESS"
+613: Tag 10 MethodRef Class index 37, Name and type index 614
+614: Tag 12 NameAndType Name index 615, Description index 616
+615: Tag 1 Utf8 Value "getDefaultManagementAddress"
+616: Tag 1 Utf8 Value "()Lorg/apache/activemq/artemis/api/core/SimpleString;"
+617: Tag 10 MethodRef Class index 618, Name and type index 619
+618: Tag 7 Class Name index 620
+619: Tag 12 NameAndType Name index 621, Description index 25
+620: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/SimpleString"
+621: Tag 1 Utf8 Value "toString"
+622: Tag 9 FieldRef Class index 15, Name and type index 623
+623: Tag 12 NameAndType Name index 624, Description index 19
+624: Tag 1 Utf8 Value "MANAGEMENT_NOTIFICATION_ADDRESS"
+625: Tag 10 MethodRef Class index 37, Name and type index 626
+626: Tag 12 NameAndType Name index 627, Description index 616
+627: Tag 1 Utf8 Value "getDefaultManagementNotificationAddress"
+628: Tag 9 FieldRef Class index 15, Name and type index 629
+629: Tag 12 NameAndType Name index 630, Description index 19
+630: Tag 1 Utf8 Value "MEMORY_MEASURE_INTERVAL"
+631: Tag 10 MethodRef Class index 37, Name and type index 632
+632: Tag 12 NameAndType Name index 633, Description index 53
+633: Tag 1 Utf8 Value "getDefaultMemoryMeasureInterval"
+634: Tag 9 FieldRef Class index 15, Name and type index 635
+635: Tag 12 NameAndType Name index 636, Description index 19
+636: Tag 1 Utf8 Value "MEMORY_WARNING_THRESHOLD"
+637: Tag 10 MethodRef Class index 37, Name and type index 638
+638: Tag 12 NameAndType Name index 639, Description index 35
+639: Tag 1 Utf8 Value "getDefaultMemoryWarningThreshold"
+640: Tag 9 FieldRef Class index 15, Name and type index 641
+641: Tag 12 NameAndType Name index 642, Description index 19
+642: Tag 1 Utf8 Value "MESSAGE_COUNTER_MAX_DAY_HISTORY"
+643: Tag 10 MethodRef Class index 37, Name and type index 644
+644: Tag 12 NameAndType Name index 645, Description index 35
+645: Tag 1 Utf8 Value "getDefaultMessageCounterMaxDayHistory"
+646: Tag 9 FieldRef Class index 15, Name and type index 647
+647: Tag 12 NameAndType Name index 648, Description index 19
+648: Tag 1 Utf8 Value "MESSAGE_COUNTER_SAMPLE_PERIOD"
+649: Tag 10 MethodRef Class index 37, Name and type index 650
+650: Tag 12 NameAndType Name index 651, Description index 53
+651: Tag 1 Utf8 Value "getDefaultMessageCounterSamplePeriod"
+652: Tag 9 FieldRef Class index 15, Name and type index 653
+653: Tag 12 NameAndType Name index 654, Description index 19
+654: Tag 1 Utf8 Value "MESSAGE_EXPIRY_SCAN_PERIOD"
+655: Tag 10 MethodRef Class index 37, Name and type index 656
+656: Tag 12 NameAndType Name index 657, Description index 53
+657: Tag 1 Utf8 Value "getDefaultMessageExpiryScanPeriod"
+658: Tag 9 FieldRef Class index 15, Name and type index 659
+659: Tag 12 NameAndType Name index 660, Description index 19
+660: Tag 1 Utf8 Value "MESSAGE_EXPIRY_THREAD_PRIORITY"
+661: Tag 10 MethodRef Class index 37, Name and type index 662
+662: Tag 12 NameAndType Name index 663, Description index 35
+663: Tag 1 Utf8 Value "getDefaultMessageExpiryThreadPriority"
+664: Tag 9 FieldRef Class index 15, Name and type index 665
+665: Tag 12 NameAndType Name index 666, Description index 19
+666: Tag 1 Utf8 Value "PAGE_MAX_CONCURRENT_IO"
+667: Tag 10 MethodRef Class index 37, Name and type index 668
+668: Tag 12 NameAndType Name index 669, Description index 35
+669: Tag 1 Utf8 Value "getDefaultMaxConcurrentPageIo"
+670: Tag 9 FieldRef Class index 15, Name and type index 671
+671: Tag 12 NameAndType Name index 672, Description index 19
+672: Tag 1 Utf8 Value "PERSISTENCE_ENABLED"
+673: Tag 10 MethodRef Class index 37, Name and type index 674
+674: Tag 12 NameAndType Name index 675, Description index 92
+675: Tag 1 Utf8 Value "isDefaultPersistenceEnabled"
+676: Tag 9 FieldRef Class index 15, Name and type index 677
+677: Tag 12 NameAndType Name index 678, Description index 19
+678: Tag 1 Utf8 Value "PERSIST_DELIVERY_COUNT_BEFORE_DELIVERY"
+679: Tag 10 MethodRef Class index 37, Name and type index 680
+680: Tag 12 NameAndType Name index 681, Description index 92
+681: Tag 1 Utf8 Value "isDefaultPersistDeliveryCountBeforeDelivery"
+682: Tag 9 FieldRef Class index 15, Name and type index 683
+683: Tag 12 NameAndType Name index 684, Description index 19
+684: Tag 1 Utf8 Value "PERSIST_ID_CACHE"
+685: Tag 10 MethodRef Class index 37, Name and type index 686
+686: Tag 12 NameAndType Name index 687, Description index 92
+687: Tag 1 Utf8 Value "isDefaultPersistIdCache"
+688: Tag 9 FieldRef Class index 15, Name and type index 689
+689: Tag 12 NameAndType Name index 690, Description index 19
+690: Tag 1 Utf8 Value "SECURITY_ENABLED"
+691: Tag 10 MethodRef Class index 37, Name and type index 692
+692: Tag 12 NameAndType Name index 693, Description index 92
+693: Tag 1 Utf8 Value "isDefaultSecurityEnabled"
+694: Tag 9 FieldRef Class index 15, Name and type index 695
+695: Tag 12 NameAndType Name index 696, Description index 19
+696: Tag 1 Utf8 Value "SECURITY_INVALIDATION_INTERVAL"
+697: Tag 10 MethodRef Class index 37, Name and type index 698
+698: Tag 12 NameAndType Name index 699, Description index 53
+699: Tag 1 Utf8 Value "getDefaultSecurityInvalidationInterval"
+700: Tag 9 FieldRef Class index 15, Name and type index 701
+701: Tag 12 NameAndType Name index 702, Description index 19
+702: Tag 1 Utf8 Value "SERVER_DUMP_INTERVAL"
+703: Tag 10 MethodRef Class index 37, Name and type index 704
+704: Tag 12 NameAndType Name index 705, Description index 53
+705: Tag 1 Utf8 Value "getDefaultServerDumpInterval"
+706: Tag 9 FieldRef Class index 15, Name and type index 707
+707: Tag 12 NameAndType Name index 708, Description index 196
+708: Tag 1 Utf8 Value "THREAD_POOL_MAX_SIZE"
+709: Tag 10 MethodRef Class index 37, Name and type index 710
+710: Tag 12 NameAndType Name index 711, Description index 35
+711: Tag 1 Utf8 Value "getDefaultThreadPoolMaxSize"
+712: Tag 9 FieldRef Class index 15, Name and type index 713
+713: Tag 12 NameAndType Name index 714, Description index 19
+714: Tag 1 Utf8 Value "TRANSACTION_TIMEOUT"
+715: Tag 10 MethodRef Class index 37, Name and type index 716
+716: Tag 12 NameAndType Name index 717, Description index 53
+717: Tag 1 Utf8 Value "getDefaultTransactionTimeout"
+718: Tag 9 FieldRef Class index 15, Name and type index 719
+719: Tag 12 NameAndType Name index 720, Description index 19
+720: Tag 1 Utf8 Value "TRANSACTION_TIMEOUT_SCAN_PERIOD"
+721: Tag 10 MethodRef Class index 37, Name and type index 722
+722: Tag 12 NameAndType Name index 723, Description index 53
+723: Tag 1 Utf8 Value "getDefaultTransactionTimeoutScanPeriod"
+724: Tag 9 FieldRef Class index 15, Name and type index 725
+725: Tag 12 NameAndType Name index 726, Description index 19
+726: Tag 1 Utf8 Value "WILD_CARD_ROUTING_ENABLED"
+727: Tag 10 MethodRef Class index 37, Name and type index 728
+728: Tag 12 NameAndType Name index 729, Description index 92
+729: Tag 1 Utf8 Value "isDefaultWildcardRoutingEnabled"
+730: Tag 7 Class Name index 731
+731: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AttributeDefaultsTest"
+732: Tag 1 Utf8 Value "Code"
+733: Tag 1 Utf8 Value "LineNumberTable"
+734: Tag 1 Utf8 Value "LocalVariableTable"
+735: Tag 1 Utf8 Value "this"
+736: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/AttributeDefaultsTest;"
+737: Tag 1 Utf8 Value "testAttributeValues"
+738: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+739: Tag 1 Utf8 Value "Lorg/junit/Test;"
+740: Tag 1 Utf8 Value "SourceFile"
+741: Tag 1 Utf8 Value "AttributeDefaultsTest.java"
+742: Tag 1 Utf8 Value "InnerClasses"
+743: Tag 7 Class Name index 744
+744: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttributes"
+745: Tag 1 Utf8 Value "Common"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 730, name org.wildfly.extension.messaging.activemq.AttributeDefaultsTest
+
+Super class: id 10, name org.jboss.as.subsystem.test.AbstractSubsystemTest
+
+No interfaces
+
+No fields
+
+Method name <init> (index 7), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 60
+Method name testAttributeValues (index 737), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 3644
+Method attribute name RuntimeVisibleAnnotations, size 6
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

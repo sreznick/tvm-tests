@@ -1,0 +1,298 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 132
+1: Tag 10 MethodRef Class index 29, Name and type index 94
+2: Tag 7 Class Name index 95
+3: Tag 10 MethodRef Class index 2, Name and type index 94
+4: Tag 9 FieldRef Class index 28, Name and type index 96
+5: Tag 9 FieldRef Class index 28, Name and type index 97
+6: Tag 9 FieldRef Class index 28, Name and type index 98
+7: Tag 9 FieldRef Class index 28, Name and type index 99
+8: Tag 9 FieldRef Class index 28, Name and type index 100
+9: Tag 9 FieldRef Class index 28, Name and type index 101
+10: Tag 9 FieldRef Class index 28, Name and type index 102
+11: Tag 9 FieldRef Class index 28, Name and type index 103
+12: Tag 7 Class Name index 104
+13: Tag 10 MethodRef Class index 12, Name and type index 94
+14: Tag 9 FieldRef Class index 28, Name and type index 105
+15: Tag 10 MethodRef Class index 2, Name and type index 106
+16: Tag 10 MethodRef Class index 2, Name and type index 107
+17: Tag 10 MethodRef Class index 2, Name and type index 108
+18: Tag 11 InterfaceMethodRef Class index 109, Name and type index 110
+19: Tag 11 InterfaceMethodRef Class index 109, Name and type index 111
+20: Tag 11 InterfaceMethodRef Class index 109, Name and type index 112
+21: Tag 10 MethodRef Class index 28, Name and type index 113
+22: Tag 10 MethodRef Class index 28, Name and type index 114
+23: Tag 10 MethodRef Class index 28, Name and type index 115
+24: Tag 10 MethodRef Class index 28, Name and type index 116
+25: Tag 10 MethodRef Class index 28, Name and type index 117
+26: Tag 10 MethodRef Class index 28, Name and type index 118
+27: Tag 10 MethodRef Class index 28, Name and type index 119
+28: Tag 7 Class Name index 120
+29: Tag 7 Class Name index 121
+30: Tag 7 Class Name index 122
+31: Tag 1 Utf8 Value "committed"
+32: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicInteger;"
+33: Tag 1 Utf8 Value "prepared"
+34: Tag 1 Utf8 Value "rolledback"
+35: Tag 1 Utf8 Value "synchronizedBegin"
+36: Tag 1 Utf8 Value "synchronizedBefore"
+37: Tag 1 Utf8 Value "synchronizedAfter"
+38: Tag 1 Utf8 Value "synchronizedAfterCommitted"
+39: Tag 1 Utf8 Value "synchronizedAfterRolledBack"
+40: Tag 1 Utf8 Value "messages"
+41: Tag 1 Utf8 Value "Ljava/util/Map;"
+42: Tag 1 Utf8 Value "Signature"
+43: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+44: Tag 1 Utf8 Value "<init>"
+45: Tag 1 Utf8 Value "()V"
+46: Tag 1 Utf8 Value "Code"
+47: Tag 1 Utf8 Value "LineNumberTable"
+48: Tag 1 Utf8 Value "LocalVariableTable"
+49: Tag 1 Utf8 Value "this"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/transactions/TransactionCheckerSingleton;"
+51: Tag 1 Utf8 Value "getCommitted"
+52: Tag 1 Utf8 Value "()I"
+53: Tag 1 Utf8 Value "addCommit"
+54: Tag 1 Utf8 Value "getPrepared"
+55: Tag 1 Utf8 Value "addPrepare"
+56: Tag 1 Utf8 Value "getRolledback"
+57: Tag 1 Utf8 Value "addRollback"
+58: Tag 1 Utf8 Value "isSynchronizedBefore"
+59: Tag 1 Utf8 Value "()Z"
+60: Tag 1 Utf8 Value "StackMapTable"
+61: Tag 1 Utf8 Value "setSynchronizedBefore"
+62: Tag 1 Utf8 Value "isSynchronizedAfter"
+63: Tag 1 Utf8 Value "setSynchronizedAfter"
+64: Tag 1 Utf8 Value "(Z)V"
+65: Tag 1 Utf8 Value "isCommit"
+66: Tag 1 Utf8 Value "Z"
+67: Tag 1 Utf8 Value "isSynchronizedBegin"
+68: Tag 1 Utf8 Value "setSynchronizedBegin"
+69: Tag 1 Utf8 Value "resetCommitted"
+70: Tag 1 Utf8 Value "resetPrepared"
+71: Tag 1 Utf8 Value "resetRolledback"
+72: Tag 1 Utf8 Value "resetSynchronizedBefore"
+73: Tag 1 Utf8 Value "resetSynchronizedAfter"
+74: Tag 1 Utf8 Value "resetSynchronizedBegin"
+75: Tag 1 Utf8 Value "countSynchronizedBefore"
+76: Tag 1 Utf8 Value "countSynchronizedAfter"
+77: Tag 1 Utf8 Value "countSynchronizedAfterCommitted"
+78: Tag 1 Utf8 Value "countSynchronizedAfterRolledBack"
+79: Tag 1 Utf8 Value "countSynchronizedBegin"
+80: Tag 1 Utf8 Value "addMessage"
+81: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+82: Tag 1 Utf8 Value "msg"
+83: Tag 1 Utf8 Value "Ljava/lang/String;"
+84: Tag 1 Utf8 Value "getMessages"
+85: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+86: Tag 1 Utf8 Value "()Ljava/util/Collection<Ljava/lang/String;>;"
+87: Tag 1 Utf8 Value "resetMessages"
+88: Tag 1 Utf8 Value "resetAll"
+89: Tag 1 Utf8 Value "SourceFile"
+90: Tag 1 Utf8 Value "TransactionCheckerSingleton.java"
+91: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+92: Tag 1 Utf8 Value "Ljavax/ejb/Singleton;"
+93: Tag 1 Utf8 Value "Ljavax/ejb/LocalBean;"
+94: Tag 12 NameAndType Name index 44, Description index 45
+95: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicInteger"
+96: Tag 12 NameAndType Name index 31, Description index 32
+97: Tag 12 NameAndType Name index 33, Description index 32
+98: Tag 12 NameAndType Name index 34, Description index 32
+99: Tag 12 NameAndType Name index 35, Description index 32
+100: Tag 12 NameAndType Name index 36, Description index 32
+101: Tag 12 NameAndType Name index 37, Description index 32
+102: Tag 12 NameAndType Name index 38, Description index 32
+103: Tag 12 NameAndType Name index 39, Description index 32
+104: Tag 1 Utf8 Value "java/util/concurrent/ConcurrentHashMap"
+105: Tag 12 NameAndType Name index 40, Description index 41
+106: Tag 12 NameAndType Name index 123, Description index 52
+107: Tag 12 NameAndType Name index 124, Description index 52
+108: Tag 12 NameAndType Name index 125, Description index 126
+109: Tag 7 Class Name index 127
+110: Tag 12 NameAndType Name index 128, Description index 129
+111: Tag 12 NameAndType Name index 130, Description index 85
+112: Tag 12 NameAndType Name index 131, Description index 45
+113: Tag 12 NameAndType Name index 69, Description index 45
+114: Tag 12 NameAndType Name index 70, Description index 45
+115: Tag 12 NameAndType Name index 71, Description index 45
+116: Tag 12 NameAndType Name index 73, Description index 45
+117: Tag 12 NameAndType Name index 72, Description index 45
+118: Tag 12 NameAndType Name index 74, Description index 45
+119: Tag 12 NameAndType Name index 87, Description index 45
+120: Tag 1 Utf8 Value "org/jboss/as/test/integration/transactions/TransactionCheckerSingleton"
+121: Tag 1 Utf8 Value "java/lang/Object"
+122: Tag 1 Utf8 Value "org/jboss/as/test/integration/transactions/TransactionCheckerSingletonRemote"
+123: Tag 1 Utf8 Value "get"
+124: Tag 1 Utf8 Value "incrementAndGet"
+125: Tag 1 Utf8 Value "set"
+126: Tag 1 Utf8 Value "(I)V"
+127: Tag 1 Utf8 Value "java/util/Map"
+128: Tag 1 Utf8 Value "put"
+129: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+130: Tag 1 Utf8 Value "values"
+131: Tag 1 Utf8 Value "clear"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 28, name org.jboss.as.test.integration.transactions.TransactionCheckerSingleton
+
+Super class: id 29, name java.lang.Object
+
+Implements class ids 30
+Implements names org.jboss.as.test.integration.transactions.TransactionCheckerSingletonRemote
+
+Field name committed (index 31), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 32)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name prepared (index 33), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 32)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name rolledback (index 34), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 32)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name synchronizedBegin (index 35), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 32)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name synchronizedBefore (index 36), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 32)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name synchronizedAfter (index 37), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 32)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name synchronizedAfterCommitted (index 38), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 32)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name synchronizedAfterRolledBack (index 39), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 32)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name messages (index 40), type Ljava/util/Map; (descriptor index 41)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 44), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 182
+Method name getCommitted (index 51), type ()I (descriptor index 52)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name addCommit (index 53), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name getPrepared (index 54), type ()I (descriptor index 52)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name addPrepare (index 55), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name getRolledback (index 56), type ()I (descriptor index 52)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name addRollback (index 57), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name isSynchronizedBefore (index 58), type ()Z (descriptor index 59)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 69
+Method name setSynchronizedBefore (index 61), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name isSynchronizedAfter (index 62), type ()Z (descriptor index 59)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 69
+Method name setSynchronizedAfter (index 63), type (Z)V (descriptor index 64)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 110
+Method name isSynchronizedBegin (index 67), type ()Z (descriptor index 59)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 69
+Method name setSynchronizedBegin (index 68), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name resetCommitted (index 69), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name resetPrepared (index 70), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name resetRolledback (index 71), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name resetSynchronizedBefore (index 72), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name resetSynchronizedAfter (index 73), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 79
+Method name resetSynchronizedBegin (index 74), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name countSynchronizedBefore (index 75), type ()I (descriptor index 52)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name countSynchronizedAfter (index 76), type ()I (descriptor index 52)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name countSynchronizedAfterCommitted (index 77), type ()I (descriptor index 52)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name countSynchronizedAfterRolledBack (index 78), type ()I (descriptor index 52)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name countSynchronizedBegin (index 79), type ()I (descriptor index 52)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name addMessage (index 80), type (Ljava/lang/String;)V (descriptor index 81)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 69
+Method name getMessages (index 84), type ()Ljava/util/Collection; (descriptor index 85)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Signature, size 2
+Method name resetMessages (index 87), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 56
+Method name resetAll (index 88), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 99
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 10

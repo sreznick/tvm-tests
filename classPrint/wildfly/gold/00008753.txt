@@ -1,0 +1,135 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 75
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/openapi/logging/MicroProfileOpenAPILogger"
+3: Tag 8 String Contents 4
+4: Tag 1 Utf8 Value "org.wildfly.extension.microprofile.openapi.smallrye"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+9: Tag 1 Utf8 Value "getMessageLogger"
+10: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+11: Tag 9 FieldRef Class index 1, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "LOGGER"
+14: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/openapi/logging/MicroProfileOpenAPILogger;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/lang/Object"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+19: Tag 1 Utf8 Value "activatingSubsystem"
+20: Tag 1 Utf8 Value "()V"
+21: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+22: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+23: Tag 1 Utf8 Value "level"
+24: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+25: Tag 1 Utf8 Value "INFO"
+26: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+27: Tag 1 Utf8 Value "id"
+28: Tag 3 Integer Value 1, hex: 0x1
+29: Tag 1 Utf8 Value "value"
+30: Tag 1 Utf8 Value "Activating MicroProfile OpenAPI Subsystem"
+31: Tag 1 Utf8 Value "failedToLoadStaticFile"
+32: Tag 1 Utf8 Value "(Ljava/io/IOException;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+33: Tag 3 Integer Value 2, hex: 0x2
+34: Tag 1 Utf8 Value "Failed to load OpenAPI '%s' from deployment '%s'"
+35: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+36: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+37: Tag 1 Utf8 Value "endpointAlreadyRegistered"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+39: Tag 1 Utf8 Value "WARN"
+40: Tag 3 Integer Value 3, hex: 0x3
+41: Tag 1 Utf8 Value "MicroProfile OpenAPI endpoint already registered for host '%s'.  Skipping OpenAPI documentation of '%s'."
+42: Tag 1 Utf8 Value "endpointRegistered"
+43: Tag 3 Integer Value 4, hex: 0x4
+44: Tag 1 Utf8 Value "Registered MicroProfile OpenAPI endpoint '%s' for host '%s'"
+45: Tag 1 Utf8 Value "endpointUnregistered"
+46: Tag 3 Integer Value 5, hex: 0x5
+47: Tag 1 Utf8 Value "Unregistered MicroProfile OpenAPI endpoint '%s' for host '%s'"
+48: Tag 1 Utf8 Value "requiredListenersNotFound"
+49: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/Set;)V"
+50: Tag 1 Utf8 Value "Signature"
+51: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;)V"
+52: Tag 3 Integer Value 6, hex: 0x6
+53: Tag 1 Utf8 Value Wide "\a7\35\2e\31\20\6f\66\20\4d\69\63\72\6f\50\72\6f\66\69\6c\65\20\4f\70\65\6e\41\50\49\20\73\70\65\63\69\66\69\63\61\74\69\6f\6e\20\72\65\71\75\69\72\65\73\20\74\68\61\74\20\74\68\65\20\65\6e\64\70\6f\69\6e\74\20\62\65\20\61\63\63\65\73\73\69\62\6c\65\20\76\69\61\20\25\32\24\73\2c\20\62\75\74\20\6e\6f\20\73\75\63\68\20\6c\69\73\74\65\6e\65\72\73\20\65\78\69\73\74\73\20\66\6f\72\20\73\65\72\76\65\72\20\27\25\31\24\73\27\2e"
+54: Tag 1 Utf8 Value "nonStandardEndpoint"
+55: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+56: Tag 3 Integer Value 7, hex: 0x7
+57: Tag 1 Utf8 Value Wide "\a7\35\2e\31\20\6f\66\20\4d\69\63\72\6f\50\72\6f\66\69\6c\65\20\4f\70\65\6e\41\50\49\20\73\70\65\63\69\66\69\63\61\74\69\6f\6e\20\72\65\71\75\69\72\65\73\20\64\6f\63\75\6d\65\6e\74\61\74\69\6f\6e\20\74\6f\20\62\65\20\61\76\61\69\6c\61\62\6c\65\20\61\74\20\27\25\33\24\73\27\2c\20\62\75\74\20\27\25\31\24\73\27\20\69\73\20\63\6f\6e\66\69\67\75\72\65\64\20\74\6f\20\75\73\65\20\27\25\32\24\73\27"
+58: Tag 1 Utf8 Value "disabled"
+59: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+60: Tag 3 Integer Value 8, hex: 0x8
+61: Tag 1 Utf8 Value "MicroProfile OpenAPI documentation disabled for '%s'"
+62: Tag 1 Utf8 Value "<clinit>"
+63: Tag 1 Utf8 Value "Code"
+64: Tag 1 Utf8 Value "LineNumberTable"
+65: Tag 1 Utf8 Value "SourceFile"
+66: Tag 1 Utf8 Value "MicroProfileOpenAPILogger.java"
+67: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+68: Tag 1 Utf8 Value "projectCode"
+69: Tag 1 Utf8 Value "WFLYMPOAI"
+70: Tag 1 Utf8 Value "length"
+71: Tag 1 Utf8 Value "InnerClasses"
+72: Tag 7 Class Name index 73
+73: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+74: Tag 1 Utf8 Value "Level"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.wildfly.extension.microprofile.openapi.logging.MicroProfileOpenAPILogger
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 17
+Implements names org.jboss.logging.BasicLogger
+
+Field name LOGGER (index 13), type Lorg/wildfly/extension/microprofile/openapi/logging/MicroProfileOpenAPILogger; (descriptor index 14)
+Human type: org.wildfly.extension.microprofile.openapi.logging.MicroProfileOpenAPILogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name activatingSubsystem (index 19), type ()V (descriptor index 20)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name failedToLoadStaticFile (index 31), type (Ljava/io/IOException;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 32)
+Human type: (java.io.IOException, java.lang.String, java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name endpointAlreadyRegistered (index 37), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 38)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name endpointRegistered (index 42), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 38)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name endpointUnregistered (index 45), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 38)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name requiredListenersNotFound (index 48), type (Ljava/lang/String;Ljava/util/Set;)V (descriptor index 49)
+Human type: (java.lang.String, java.util.Set): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name nonStandardEndpoint (index 54), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V (descriptor index 55)
+Human type: (java.lang.String, java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name disabled (index 58), type (Ljava/lang/String;)V (descriptor index 59)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name <clinit> (index 62), type ()V (descriptor index 20)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

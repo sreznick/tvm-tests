@@ -1,0 +1,284 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 206
+1: Tag 10 MethodRef Class index 9, Name and type index 102
+2: Tag 7 Class Name index 103
+3: Tag 10 MethodRef Class index 2, Name and type index 102
+4: Tag 9 FieldRef Class index 41, Name and type index 104
+5: Tag 9 FieldRef Class index 41, Name and type index 105
+6: Tag 9 FieldRef Class index 41, Name and type index 106
+7: Tag 9 FieldRef Class index 107, Name and type index 108
+8: Tag 8 String Contents 109
+9: Tag 7 Class Name index 110
+10: Tag 11 InterfaceMethodRef Class index 107, Name and type index 111
+11: Tag 9 FieldRef Class index 41, Name and type index 112
+12: Tag 10 MethodRef Class index 2, Name and type index 113
+13: Tag 7 Class Name index 114
+14: Tag 10 MethodRef Class index 13, Name and type index 115
+15: Tag 10 MethodRef Class index 116, Name and type index 117
+16: Tag 10 MethodRef Class index 116, Name and type index 118
+17: Tag 11 InterfaceMethodRef Class index 119, Name and type index 120
+18: Tag 11 InterfaceMethodRef Class index 77, Name and type index 121
+19: Tag 11 InterfaceMethodRef Class index 77, Name and type index 122
+20: Tag 11 InterfaceMethodRef Class index 123, Name and type index 124
+21: Tag 7 Class Name index 125
+22: Tag 10 MethodRef Class index 126, Name and type index 127
+23: Tag 11 InterfaceMethodRef Class index 128, Name and type index 129
+24: Tag 7 Class Name index 130
+25: Tag 9 FieldRef Class index 131, Name and type index 132
+26: Tag 10 MethodRef Class index 24, Name and type index 133
+27: Tag 11 InterfaceMethodRef Class index 128, Name and type index 134
+28: Tag 11 InterfaceMethodRef Class index 128, Name and type index 135
+29: Tag 9 FieldRef Class index 41, Name and type index 136
+30: Tag 11 InterfaceMethodRef Class index 128, Name and type index 137
+31: Tag 11 InterfaceMethodRef Class index 138, Name and type index 139
+32: Tag 7 Class Name index 141
+33: Tag 10 MethodRef Class index 32, Name and type index 144
+34: Tag 11 InterfaceMethodRef Class index 138, Name and type index 145
+35: Tag 11 InterfaceMethodRef Class index 138, Name and type index 146
+36: Tag 10 MethodRef Class index 41, Name and type index 147
+37: Tag 8 String Contents 148
+38: Tag 8 String Contents 149
+39: Tag 10 MethodRef Class index 21, Name and type index 150
+40: Tag 8 String Contents 151
+41: Tag 7 Class Name index 152
+42: Tag 7 Class Name index 153
+43: Tag 1 Utf8 Value "JDBC_STATISTICS"
+44: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+45: Tag 1 Utf8 Value "POOL_STATISTICS"
+46: Tag 1 Utf8 Value "registration"
+47: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+48: Tag 1 Utf8 Value "statsEnabled"
+49: Tag 1 Utf8 Value "Z"
+50: Tag 1 Utf8 Value "injectedDeploymentMD"
+51: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+52: Tag 1 Utf8 Value "Signature"
+53: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/jca/deployers/common/CommonDeployment;>;"
+54: Tag 1 Utf8 Value "<init>"
+55: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;Z)V"
+56: Tag 1 Utf8 Value "Code"
+57: Tag 1 Utf8 Value "LineNumberTable"
+58: Tag 1 Utf8 Value "LocalVariableTable"
+59: Tag 1 Utf8 Value "this"
+60: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/datasources/statistics/DataSourceStatisticsService;"
+61: Tag 1 Utf8 Value "start"
+62: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+63: Tag 1 Utf8 Value "jdbcRegistration"
+64: Tag 1 Utf8 Value "poolRegistration"
+65: Tag 1 Utf8 Value "deploymentMD"
+66: Tag 1 Utf8 Value "Lorg/jboss/jca/deployers/common/CommonDeployment;"
+67: Tag 1 Utf8 Value "jdbcStats"
+68: Tag 1 Utf8 Value "Lorg/jboss/jca/core/spi/statistics/StatisticsPlugin;"
+69: Tag 1 Utf8 Value "poolStats"
+70: Tag 1 Utf8 Value "jdbcStatsSize"
+71: Tag 1 Utf8 Value "I"
+72: Tag 1 Utf8 Value "poolStatsSize"
+73: Tag 1 Utf8 Value "context"
+74: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+75: Tag 1 Utf8 Value "StackMapTable"
+76: Tag 7 Class Name index 154
+77: Tag 7 Class Name index 155
+78: Tag 7 Class Name index 156
+79: Tag 1 Utf8 Value "Exceptions"
+80: Tag 7 Class Name index 157
+81: Tag 1 Utf8 Value "stop"
+82: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+83: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+84: Tag 1 Utf8 Value "getValue"
+85: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+86: Tag 7 Class Name index 158
+87: Tag 7 Class Name index 159
+88: Tag 1 Utf8 Value "getCommonDeploymentInjector"
+89: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+90: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/jboss/jca/deployers/common/CommonDeployment;>;"
+91: Tag 1 Utf8 Value "registerStatisticsResources"
+92: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/Resource;)V"
+93: Tag 1 Utf8 Value "datasourceResource"
+94: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+95: Tag 1 Utf8 Value "removeStatisticsResources"
+96: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+97: Tag 1 Utf8 Value "<clinit>"
+98: Tag 1 Utf8 Value "()V"
+99: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/jboss/as/controller/registry/ManagementResourceRegistration;>;"
+100: Tag 1 Utf8 Value "SourceFile"
+101: Tag 1 Utf8 Value "DataSourceStatisticsService.java"
+102: Tag 12 NameAndType Name index 54, Description index 98
+103: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+104: Tag 12 NameAndType Name index 50, Description index 51
+105: Tag 12 NameAndType Name index 46, Description index 47
+106: Tag 12 NameAndType Name index 48, Description index 49
+107: Tag 7 Class Name index 160
+108: Tag 12 NameAndType Name index 161, Description index 162
+109: Tag 1 Utf8 Value "Starting DataSourceStatisticsService"
+110: Tag 1 Utf8 Value "java/lang/Object"
+111: Tag 12 NameAndType Name index 163, Description index 164
+112: Tag 12 NameAndType Name index 43, Description index 44
+113: Tag 12 NameAndType Name index 84, Description index 96
+114: Tag 1 Utf8 Value "org/jboss/jca/deployers/common/CommonDeployment"
+115: Tag 12 NameAndType Name index 165, Description index 166
+116: Tag 7 Class Name index 167
+117: Tag 12 NameAndType Name index 168, Description index 169
+118: Tag 12 NameAndType Name index 170, Description index 171
+119: Tag 7 Class Name index 172
+120: Tag 12 NameAndType Name index 168, Description index 173
+121: Tag 12 NameAndType Name index 174, Description index 175
+122: Tag 12 NameAndType Name index 176, Description index 177
+123: Tag 7 Class Name index 178
+124: Tag 12 NameAndType Name index 179, Description index 180
+125: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+126: Tag 7 Class Name index 181
+127: Tag 12 NameAndType Name index 182, Description index 183
+128: Tag 7 Class Name index 184
+129: Tag 12 NameAndType Name index 185, Description index 186
+130: Tag 1 Utf8 Value "org/jboss/as/connector/dynamicresource/StatisticsResourceDefinition"
+131: Tag 7 Class Name index 187
+132: Tag 12 NameAndType Name index 188, Description index 189
+133: Tag 12 NameAndType Name index 54, Description index 190
+134: Tag 12 NameAndType Name index 191, Description index 192
+135: Tag 12 NameAndType Name index 193, Description index 175
+136: Tag 12 NameAndType Name index 45, Description index 44
+137: Tag 12 NameAndType Name index 194, Description index 195
+138: Tag 7 Class Name index 196
+139: Tag 12 NameAndType Name index 197, Description index 198
+140: Tag 7 Class Name index 199
+141: Tag 1 Utf8 Value "org/jboss/as/controller/registry/PlaceholderResource$PlaceholderResourceEntry"
+142: Tag 1 Utf8 Value "PlaceholderResourceEntry"
+143: Tag 1 Utf8 Value "InnerClasses"
+144: Tag 12 NameAndType Name index 54, Description index 195
+145: Tag 12 NameAndType Name index 200, Description index 201
+146: Tag 12 NameAndType Name index 202, Description index 203
+147: Tag 12 NameAndType Name index 84, Description index 85
+148: Tag 1 Utf8 Value "statistics"
+149: Tag 1 Utf8 Value "jdbc"
+150: Tag 12 NameAndType Name index 204, Description index 205
+151: Tag 1 Utf8 Value "pool"
+152: Tag 1 Utf8 Value "org/jboss/as/connector/services/datasources/statistics/DataSourceStatisticsService"
+153: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+154: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+155: Tag 1 Utf8 Value "org/jboss/jca/core/spi/statistics/StatisticsPlugin"
+156: Tag 1 Utf8 Value "java/lang/Throwable"
+157: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+158: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+159: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+160: Tag 1 Utf8 Value "org/jboss/as/connector/logging/ConnectorLogger"
+161: Tag 1 Utf8 Value "ROOT_LOGGER"
+162: Tag 1 Utf8 Value "Lorg/jboss/as/connector/logging/ConnectorLogger;"
+163: Tag 1 Utf8 Value "debugf"
+164: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/Object;)V"
+165: Tag 1 Utf8 Value "getDataSources"
+166: Tag 1 Utf8 Value "()[Lorg/jboss/jca/core/api/management/DataSource;"
+167: Tag 1 Utf8 Value "org/jboss/jca/core/api/management/DataSource"
+168: Tag 1 Utf8 Value "getStatistics"
+169: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/spi/statistics/StatisticsPlugin;"
+170: Tag 1 Utf8 Value "getPool"
+171: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/api/connectionmanager/pool/Pool;"
+172: Tag 1 Utf8 Value "org/jboss/jca/core/api/connectionmanager/pool/Pool"
+173: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/api/connectionmanager/pool/PoolStatistics;"
+174: Tag 1 Utf8 Value "setEnabled"
+175: Tag 1 Utf8 Value "(Z)V"
+176: Tag 1 Utf8 Value "getNames"
+177: Tag 1 Utf8 Value "()Ljava/util/Set;"
+178: Tag 1 Utf8 Value "java/util/Set"
+179: Tag 1 Utf8 Value "size"
+180: Tag 1 Utf8 Value "()I"
+181: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+182: Tag 1 Utf8 Value "pathAddress"
+183: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/PathElement;)Lorg/jboss/as/controller/PathAddress;"
+184: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ManagementResourceRegistration"
+185: Tag 1 Utf8 Value "getSubModel"
+186: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+187: Tag 1 Utf8 Value "org/jboss/as/connector/subsystems/datasources/DataSourcesSubsystemProviders"
+188: Tag 1 Utf8 Value "RESOURCE_NAME"
+189: Tag 1 Utf8 Value "Ljava/lang/String;"
+190: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Ljava/lang/String;Lorg/jboss/jca/core/spi/statistics/StatisticsPlugin;)V"
+191: Tag 1 Utf8 Value "registerSubModel"
+192: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ResourceDefinition;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+193: Tag 1 Utf8 Value "setRuntimeOnly"
+194: Tag 1 Utf8 Value "unregisterSubModel"
+195: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;)V"
+196: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+197: Tag 1 Utf8 Value "hasChild"
+198: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;)Z"
+199: Tag 1 Utf8 Value "org/jboss/as/controller/registry/PlaceholderResource"
+200: Tag 1 Utf8 Value "registerChild"
+201: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/registry/Resource;)V"
+202: Tag 1 Utf8 Value "removeChild"
+203: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;)Lorg/jboss/as/controller/registry/Resource;"
+204: Tag 1 Utf8 Value "pathElement"
+205: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/PathElement;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 41, name org.jboss.as.connector.services.datasources.statistics.DataSourceStatisticsService
+
+Super class: id 9, name java.lang.Object
+
+Implements class ids 42
+Implements names org.jboss.msc.service.Service
+
+Field name JDBC_STATISTICS (index 43), type Lorg/jboss/as/controller/PathElement; (descriptor index 44)
+Human type: org.jboss.as.controller.PathElement
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name POOL_STATISTICS (index 45), type Lorg/jboss/as/controller/PathElement; (descriptor index 44)
+Human type: org.jboss.as.controller.PathElement
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name registration (index 46), type Lorg/jboss/as/controller/registry/ManagementResourceRegistration; (descriptor index 47)
+Human type: org.jboss.as.controller.registry.ManagementResourceRegistration
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name statsEnabled (index 48), type Z (descriptor index 49)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name injectedDeploymentMD (index 50), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 51)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 20, hex 0014, binary 0000000000010100 protected final
+Field attribute name Signature, size 2
+
+Method name <init> (index 54), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;Z)V (descriptor index 55)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration, boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 104
+Method name start (index 61), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 62)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 541
+Method attribute name Exceptions, size 4
+Method name stop (index 81), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 82)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 157
+Method name getValue (index 84), type ()Lorg/jboss/as/controller/registry/ManagementResourceRegistration; (descriptor index 85)
+Human type: (): org.jboss.as.controller.registry.ManagementResourceRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name getCommonDeploymentInjector (index 88), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 89)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name registerStatisticsResources (index 91), type (Lorg/jboss/as/controller/registry/Resource;)V (descriptor index 92)
+Human type: (org.jboss.as.controller.registry.Resource): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 183
+Method name removeStatisticsResources (index 95), type (Lorg/jboss/as/controller/registry/Resource;)V (descriptor index 92)
+Human type: (org.jboss.as.controller.registry.Resource): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 165
+Method name getValue (index 84), type ()Ljava/lang/Object; (descriptor index 96)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name <clinit> (index 97), type ()V (descriptor index 98)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 49
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

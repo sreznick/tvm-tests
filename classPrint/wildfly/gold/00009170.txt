@@ -1,0 +1,212 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 115
+1: Tag 10 MethodRef Class index 25, Name and type index 79
+2: Tag 9 FieldRef Class index 24, Name and type index 80
+3: Tag 9 FieldRef Class index 24, Name and type index 81
+4: Tag 7 Class Name index 82
+5: Tag 10 MethodRef Class index 4, Name and type index 83
+6: Tag 9 FieldRef Class index 24, Name and type index 84
+7: Tag 9 FieldRef Class index 24, Name and type index 85
+8: Tag 7 Class Name index 86
+9: Tag 10 MethodRef Class index 8, Name and type index 87
+10: Tag 7 Class Name index 88
+11: Tag 8 String Contents 89
+12: Tag 10 MethodRef Class index 10, Name and type index 90
+13: Tag 11 InterfaceMethodRef Class index 91, Name and type index 92
+14: Tag 11 InterfaceMethodRef Class index 91, Name and type index 93
+15: Tag 7 Class Name index 94
+16: Tag 8 String Contents 95
+17: Tag 10 MethodRef Class index 15, Name and type index 90
+18: Tag 8 String Contents 96
+19: Tag 7 Class Name index 97
+20: Tag 10 MethodRef Class index 19, Name and type index 79
+21: Tag 8 String Contents 98
+22: Tag 10 MethodRef Class index 99, Name and type index 100
+23: Tag 9 FieldRef Class index 24, Name and type index 101
+24: Tag 7 Class Name index 102
+25: Tag 7 Class Name index 103
+26: Tag 7 Class Name index 104
+27: Tag 1 Utf8 Value "log"
+28: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+29: Tag 1 Utf8 Value "mcf"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/rar/HelloWorldManagedConnectionFactory;"
+31: Tag 1 Utf8 Value "logWriter"
+32: Tag 1 Utf8 Value "Ljava/io/PrintWriter;"
+33: Tag 1 Utf8 Value "listeners"
+34: Tag 1 Utf8 Value "Ljava/util/List;"
+35: Tag 1 Utf8 Value "Signature"
+36: Tag 1 Utf8 Value "Ljava/util/List<Ljavax/resource/spi/ConnectionEventListener;>;"
+37: Tag 1 Utf8 Value "connection"
+38: Tag 1 Utf8 Value "Ljava/lang/Object;"
+39: Tag 1 Utf8 Value "<init>"
+40: Tag 1 Utf8 Value "(Lorg/jboss/as/test/smoke/rar/HelloWorldManagedConnectionFactory;)V"
+41: Tag 1 Utf8 Value "Code"
+42: Tag 1 Utf8 Value "LineNumberTable"
+43: Tag 1 Utf8 Value "LocalVariableTable"
+44: Tag 1 Utf8 Value "this"
+45: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/rar/HelloWorldManagedConnection;"
+46: Tag 1 Utf8 Value "getConnection"
+47: Tag 1 Utf8 Value "(Ljavax/security/auth/Subject;Ljavax/resource/spi/ConnectionRequestInfo;)Ljava/lang/Object;"
+48: Tag 1 Utf8 Value "subject"
+49: Tag 1 Utf8 Value "Ljavax/security/auth/Subject;"
+50: Tag 1 Utf8 Value "cxRequestInfo"
+51: Tag 1 Utf8 Value "Ljavax/resource/spi/ConnectionRequestInfo;"
+52: Tag 1 Utf8 Value "Exceptions"
+53: Tag 7 Class Name index 105
+54: Tag 1 Utf8 Value "associateConnection"
+55: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+56: Tag 1 Utf8 Value "cleanup"
+57: Tag 1 Utf8 Value "()V"
+58: Tag 1 Utf8 Value "destroy"
+59: Tag 1 Utf8 Value "addConnectionEventListener"
+60: Tag 1 Utf8 Value "(Ljavax/resource/spi/ConnectionEventListener;)V"
+61: Tag 1 Utf8 Value "listener"
+62: Tag 1 Utf8 Value "Ljavax/resource/spi/ConnectionEventListener;"
+63: Tag 1 Utf8 Value "StackMapTable"
+64: Tag 1 Utf8 Value "removeConnectionEventListener"
+65: Tag 1 Utf8 Value "getLogWriter"
+66: Tag 1 Utf8 Value "()Ljava/io/PrintWriter;"
+67: Tag 1 Utf8 Value "setLogWriter"
+68: Tag 1 Utf8 Value "(Ljava/io/PrintWriter;)V"
+69: Tag 1 Utf8 Value "out"
+70: Tag 1 Utf8 Value "getLocalTransaction"
+71: Tag 1 Utf8 Value "()Ljavax/resource/spi/LocalTransaction;"
+72: Tag 1 Utf8 Value "getXAResource"
+73: Tag 1 Utf8 Value "()Ljavax/transaction/xa/XAResource;"
+74: Tag 1 Utf8 Value "getMetaData"
+75: Tag 1 Utf8 Value "()Ljavax/resource/spi/ManagedConnectionMetaData;"
+76: Tag 1 Utf8 Value "<clinit>"
+77: Tag 1 Utf8 Value "SourceFile"
+78: Tag 1 Utf8 Value "HelloWorldManagedConnection.java"
+79: Tag 12 NameAndType Name index 39, Description index 57
+80: Tag 12 NameAndType Name index 29, Description index 30
+81: Tag 12 NameAndType Name index 31, Description index 32
+82: Tag 1 Utf8 Value "java/util/ArrayList"
+83: Tag 12 NameAndType Name index 39, Description index 106
+84: Tag 12 NameAndType Name index 33, Description index 34
+85: Tag 12 NameAndType Name index 37, Description index 38
+86: Tag 1 Utf8 Value "org/jboss/as/test/smoke/rar/HelloWorldConnectionImpl"
+87: Tag 12 NameAndType Name index 39, Description index 40
+88: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+89: Tag 1 Utf8 Value "Listener is null"
+90: Tag 12 NameAndType Name index 39, Description index 107
+91: Tag 7 Class Name index 108
+92: Tag 12 NameAndType Name index 109, Description index 110
+93: Tag 12 NameAndType Name index 111, Description index 110
+94: Tag 1 Utf8 Value "javax/resource/NotSupportedException"
+95: Tag 1 Utf8 Value "LocalTransaction not supported"
+96: Tag 1 Utf8 Value "GetXAResource not supported"
+97: Tag 1 Utf8 Value "org/jboss/as/test/smoke/rar/HelloWorldManagedConnectionMetaData"
+98: Tag 1 Utf8 Value "HelloWorldManagedConnection"
+99: Tag 7 Class Name index 112
+100: Tag 12 NameAndType Name index 113, Description index 114
+101: Tag 12 NameAndType Name index 27, Description index 28
+102: Tag 1 Utf8 Value "org/jboss/as/test/smoke/rar/HelloWorldManagedConnection"
+103: Tag 1 Utf8 Value "java/lang/Object"
+104: Tag 1 Utf8 Value "javax/resource/spi/ManagedConnection"
+105: Tag 1 Utf8 Value "javax/resource/ResourceException"
+106: Tag 1 Utf8 Value "(I)V"
+107: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+108: Tag 1 Utf8 Value "java/util/List"
+109: Tag 1 Utf8 Value "add"
+110: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+111: Tag 1 Utf8 Value "remove"
+112: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+113: Tag 1 Utf8 Value "getLogger"
+114: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/logging/Logger;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 24, name org.jboss.as.test.smoke.rar.HelloWorldManagedConnection
+
+Super class: id 25, name java.lang.Object
+
+Implements class ids 26
+Implements names javax.resource.spi.ManagedConnection
+
+Field name log (index 27), type Lorg/jboss/logging/Logger; (descriptor index 28)
+Human type: org.jboss.logging.Logger
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+No field attributes
+Field name mcf (index 29), type Lorg/jboss/as/test/smoke/rar/HelloWorldManagedConnectionFactory; (descriptor index 30)
+Human type: org.jboss.as.test.smoke.rar.HelloWorldManagedConnectionFactory
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name logWriter (index 31), type Ljava/io/PrintWriter; (descriptor index 32)
+Human type: java.io.PrintWriter
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name listeners (index 33), type Ljava/util/List; (descriptor index 34)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name connection (index 37), type Ljava/lang/Object; (descriptor index 38)
+Human type: java.lang.Object
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 39), type (Lorg/jboss/as/test/smoke/rar/HelloWorldManagedConnectionFactory;)V (descriptor index 40)
+Human type: (org.jboss.as.test.smoke.rar.HelloWorldManagedConnectionFactory): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 104
+Method name getConnection (index 46), type (Ljavax/security/auth/Subject;Ljavax/resource/spi/ConnectionRequestInfo;)Ljava/lang/Object; (descriptor index 47)
+Human type: (javax.security.auth.Subject, javax.resource.spi.ConnectionRequestInfo): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 86
+Method attribute name Exceptions, size 4
+Method name associateConnection (index 54), type (Ljava/lang/Object;)V (descriptor index 55)
+Human type: (java.lang.Object): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method attribute name Exceptions, size 4
+Method name cleanup (index 56), type ()V (descriptor index 57)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 43
+Method attribute name Exceptions, size 4
+Method name destroy (index 58), type ()V (descriptor index 57)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name addConnectionEventListener (index 59), type (Ljavax/resource/spi/ConnectionEventListener;)V (descriptor index 60)
+Human type: (javax.resource.spi.ConnectionEventListener): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 99
+Method name removeConnectionEventListener (index 64), type (Ljavax/resource/spi/ConnectionEventListener;)V (descriptor index 60)
+Human type: (javax.resource.spi.ConnectionEventListener): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 99
+Method name getLogWriter (index 65), type ()Ljava/io/PrintWriter; (descriptor index 66)
+Human type: (): java.io.PrintWriter
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 4
+Method name setLogWriter (index 67), type (Ljava/io/PrintWriter;)V (descriptor index 68)
+Human type: (java.io.PrintWriter): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method attribute name Exceptions, size 4
+Method name getLocalTransaction (index 70), type ()Ljavax/resource/spi/LocalTransaction; (descriptor index 71)
+Human type: (): javax.resource.spi.LocalTransaction
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name getXAResource (index 72), type ()Ljavax/transaction/xa/XAResource; (descriptor index 73)
+Human type: (): javax.transaction.xa.XAResource
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name getMetaData (index 74), type ()Ljavax/resource/spi/ManagedConnectionMetaData; (descriptor index 75)
+Human type: (): javax.resource.spi.ManagedConnectionMetaData
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 76), type ()V (descriptor index 57)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2

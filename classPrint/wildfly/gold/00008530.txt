@@ -1,0 +1,123 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 83
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/messaging/HornetQServerResourceDefinition$ClusteredAttributeHandlers"
+5: Tag 1 Utf8 Value "isClustered"
+6: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)Z"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+17: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+23: Tag 1 Utf8 Value "readResource"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/registry/Resource;"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/messaging/ClusterConnectionDefinition"
+29: Tag 1 Utf8 Value "PATH"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+35: Tag 1 Utf8 Value "getKey"
+36: Tag 1 Utf8 Value "()Ljava/lang/String;"
+37: Tag 11 InterfaceMethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+41: Tag 1 Utf8 Value "getChildrenNames"
+42: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Set;"
+43: Tag 11 InterfaceMethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "java/util/Set"
+47: Tag 1 Utf8 Value "isEmpty"
+48: Tag 1 Utf8 Value "()Z"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "org/jboss/as/messaging/HornetQServerResourceDefinition$ClusteredAttributeHandlers$1"
+51: Tag 10 MethodRef Class index 49, Name and type index 9
+52: Tag 9 FieldRef Class index 2, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "READ_HANDLER"
+55: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationStepHandler;"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "org/jboss/as/messaging/HornetQServerResourceDefinition$ClusteredAttributeHandlers$2"
+58: Tag 10 MethodRef Class index 56, Name and type index 9
+59: Tag 9 FieldRef Class index 2, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 55
+61: Tag 1 Utf8 Value "WRITE_HANDLER"
+62: Tag 1 Utf8 Value "Code"
+63: Tag 1 Utf8 Value "LineNumberTable"
+64: Tag 1 Utf8 Value "LocalVariableTable"
+65: Tag 1 Utf8 Value "this"
+66: Tag 1 Utf8 Value "Lorg/jboss/as/messaging/HornetQServerResourceDefinition$ClusteredAttributeHandlers;"
+67: Tag 1 Utf8 Value "context"
+68: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+69: Tag 1 Utf8 Value "clusterConnectionNames"
+70: Tag 1 Utf8 Value "Ljava/util/Set;"
+71: Tag 1 Utf8 Value "LocalVariableTypeTable"
+72: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/String;>;"
+73: Tag 1 Utf8 Value "StackMapTable"
+74: Tag 1 Utf8 Value "access$100"
+75: Tag 1 Utf8 Value "x0"
+76: Tag 1 Utf8 Value "<clinit>"
+77: Tag 1 Utf8 Value "SourceFile"
+78: Tag 1 Utf8 Value "HornetQServerResourceDefinition.java"
+79: Tag 1 Utf8 Value "InnerClasses"
+80: Tag 7 Class Name index 81
+81: Tag 1 Utf8 Value "org/jboss/as/messaging/HornetQServerResourceDefinition"
+82: Tag 1 Utf8 Value "ClusteredAttributeHandlers"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 2, name org.jboss.as.messaging.HornetQServerResourceDefinition$ClusteredAttributeHandlers
+
+Super class: id 8, name java.lang.Object
+
+No interfaces
+
+Field name READ_HANDLER (index 54), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 55)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name WRITE_HANDLER (index 61), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 55)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 11), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 47
+Method name isClustered (index 5), type (Lorg/jboss/as/controller/OperationContext;)Z (descriptor index 6)
+Human type: (org.jboss.as.controller.OperationContext): boolean
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 126
+Method name access$100 (index 74), type (Lorg/jboss/as/controller/OperationContext;)Z (descriptor index 6)
+Human type: (org.jboss.as.controller.OperationContext): boolean
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name <clinit> (index 76), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 49
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

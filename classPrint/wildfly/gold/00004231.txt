@@ -1,0 +1,121 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 69
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/AttributeTranslation"
+5: Tag 1 Utf8 Value "IDENTITY_TRANSLATOR"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/AttributeValueTranslator;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "IDENTITY_ADDRESS_TRANSFORMATION"
+10: Tag 1 Utf8 Value "Ljava/util/function/UnaryOperator;"
+11: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "translate"
+14: Tag 1 Utf8 Value "()Lorg/jboss/as/clustering/controller/AttributeValueTranslator;"
+15: Tag 11 InterfaceMethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "java/util/function/UnaryOperator"
+19: Tag 1 Utf8 Value "identity"
+20: Tag 1 Utf8 Value "()Ljava/util/function/UnaryOperator;"
+21: Tag 7 Class Name index 22
+22: Tag 1 Utf8 Value "java/lang/Object"
+23: Tag 1 Utf8 Value "Signature"
+24: Tag 1 Utf8 Value "Ljava/util/function/UnaryOperator<Lorg/jboss/as/controller/PathAddress;>;"
+25: Tag 1 Utf8 Value "getTargetAttribute"
+26: Tag 1 Utf8 Value "()Lorg/jboss/as/clustering/controller/Attribute;"
+27: Tag 1 Utf8 Value "getReadTranslator"
+28: Tag 1 Utf8 Value "Code"
+29: Tag 1 Utf8 Value "LineNumberTable"
+30: Tag 1 Utf8 Value "LocalVariableTable"
+31: Tag 1 Utf8 Value "this"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/AttributeTranslation;"
+33: Tag 1 Utf8 Value "getWriteTranslator"
+34: Tag 1 Utf8 Value "getPathAddressTransformation"
+35: Tag 1 Utf8 Value "()Ljava/util/function/UnaryOperator<Lorg/jboss/as/controller/PathAddress;>;"
+36: Tag 1 Utf8 Value "lambda$static$0"
+37: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+38: Tag 1 Utf8 Value "context"
+39: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+40: Tag 1 Utf8 Value "value"
+41: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+42: Tag 1 Utf8 Value "Exceptions"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+45: Tag 1 Utf8 Value "<clinit>"
+46: Tag 1 Utf8 Value "()V"
+47: Tag 1 Utf8 Value "SourceFile"
+48: Tag 1 Utf8 Value "AttributeTranslation.java"
+49: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+50: Tag 1 Utf8 Value "Ljava/lang/FunctionalInterface;"
+51: Tag 1 Utf8 Value "BootstrapMethods"
+52: Tag 15 MethodHandle Kind 6, Index 53
+53: Tag 10 MethodRef Class index 54, Name and type index 55
+54: Tag 7 Class Name index 56
+55: Tag 12 NameAndType Name index 57, Description index 58
+56: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+57: Tag 1 Utf8 Value "metafactory"
+58: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+59: Tag 16 MethodType Descriptor index 37
+60: Tag 15 MethodHandle Kind 6, Index 61
+61: Tag 11 InterfaceMethodRef Class index 2, Name and type index 62
+62: Tag 12 NameAndType Name index 36, Description index 37
+63: Tag 1 Utf8 Value "InnerClasses"
+64: Tag 7 Class Name index 65
+65: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+68: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 2, name org.jboss.as.clustering.controller.AttributeTranslation
+
+Super class: id 21, name java.lang.Object
+
+No interfaces
+
+Field name IDENTITY_TRANSLATOR (index 5), type Lorg/jboss/as/clustering/controller/AttributeValueTranslator; (descriptor index 6)
+Human type: org.jboss.as.clustering.controller.AttributeValueTranslator
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name IDENTITY_ADDRESS_TRANSFORMATION (index 9), type Ljava/util/function/UnaryOperator; (descriptor index 10)
+Human type: java.util.function.UnaryOperator
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Signature, size 2
+
+Method name getTargetAttribute (index 25), type ()Lorg/jboss/as/clustering/controller/Attribute; (descriptor index 26)
+Human type: (): org.jboss.as.clustering.controller.Attribute
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getReadTranslator (index 27), type ()Lorg/jboss/as/clustering/controller/AttributeValueTranslator; (descriptor index 14)
+Human type: (): org.jboss.as.clustering.controller.AttributeValueTranslator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 46
+Method name getWriteTranslator (index 33), type ()Lorg/jboss/as/clustering/controller/AttributeValueTranslator; (descriptor index 14)
+Human type: (): org.jboss.as.clustering.controller.AttributeValueTranslator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 46
+Method name getPathAddressTransformation (index 34), type ()Ljava/util/function/UnaryOperator; (descriptor index 20)
+Human type: (): java.util.function.UnaryOperator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 46
+Method attribute name Signature, size 2
+Method name lambda$static$0 (index 36), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode; (descriptor index 37)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.jboss.dmr.ModelNode
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 54
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 45), type ()V (descriptor index 46)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 43
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 6
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 10

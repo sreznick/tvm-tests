@@ -1,0 +1,104 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 69
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$AbstractInjectionTargetDelegatingInterceptor"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 3
+8: Tag 7 Class Name index 9
+9: Tag 1 Utf8 Value "java/lang/Object"
+10: Tag 7 Class Name index 11
+11: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentInstance"
+12: Tag 10 MethodRef Class index 13, Name and type index 14
+13: Tag 7 Class Name index 15
+14: Tag 12 NameAndType Name index 16, Description index 17
+15: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+16: Tag 1 Utf8 Value "getPrivateData"
+17: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+18: Tag 9 FieldRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 22, Description index 23
+21: Tag 1 Utf8 Value "org/jboss/as/ee/component/BasicComponentInstance"
+22: Tag 1 Utf8 Value "INSTANCE_KEY"
+23: Tag 1 Utf8 Value "Ljava/lang/Object;"
+24: Tag 11 InterfaceMethodRef Class index 10, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 27
+26: Tag 1 Utf8 Value "getInstanceData"
+27: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+28: Tag 7 Class Name index 29
+29: Tag 1 Utf8 Value "org/jboss/as/naming/ManagedReference"
+30: Tag 11 InterfaceMethodRef Class index 28, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "getInstance"
+33: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+34: Tag 10 MethodRef Class index 2, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "run"
+37: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+38: Tag 10 MethodRef Class index 13, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 33
+40: Tag 1 Utf8 Value "proceed"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/invocation/Interceptor"
+43: Tag 1 Utf8 Value "Code"
+44: Tag 1 Utf8 Value "LineNumberTable"
+45: Tag 1 Utf8 Value "LocalVariableTable"
+46: Tag 1 Utf8 Value "this"
+47: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$AbstractInjectionTargetDelegatingInterceptor;"
+48: Tag 1 Utf8 Value "processInvocation"
+49: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object;"
+50: Tag 1 Utf8 Value "context"
+51: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+52: Tag 1 Utf8 Value "reference"
+53: Tag 1 Utf8 Value "Lorg/jboss/as/naming/ManagedReference;"
+54: Tag 1 Utf8 Value "StackMapTable"
+55: Tag 1 Utf8 Value "Exceptions"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "java/lang/Exception"
+58: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$1;)V"
+59: Tag 1 Utf8 Value "x0"
+60: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$1;"
+61: Tag 1 Utf8 Value "SourceFile"
+62: Tag 1 Utf8 Value "WeldComponentIntegrationProcessor.java"
+63: Tag 1 Utf8 Value "InnerClasses"
+64: Tag 7 Class Name index 65
+65: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor"
+66: Tag 1 Utf8 Value "AbstractInjectionTargetDelegatingInterceptor"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$1"
+
+Flags: decimal 1056, hex 0420, binary 0000010000100000 super abstract
+
+This class: id 2, name org.jboss.as.weld.deployment.processors.WeldComponentIntegrationProcessor$AbstractInjectionTargetDelegatingInterceptor
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 41
+Implements names org.jboss.invocation.Interceptor
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 47
+Method name processInvocation (index 48), type (Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object; (descriptor index 49)
+Human type: (org.jboss.invocation.InterceptorContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 128
+Method attribute name Exceptions, size 4
+Method name run (index 36), type (Ljava/lang/Object;)V (descriptor index 37)
+Human type: (java.lang.Object): void
+Flags: decimal 1028, hex 0404, binary 0000010000000100 protected abstract
+No method attributes
+Method name <init> (index 5), type (Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$1;)V (descriptor index 58)
+Human type: (org.jboss.as.weld.deployment.processors.WeldComponentIntegrationProcessor$1): void
+Flags: decimal 4096, hex 1000, binary 0001000000000000 synthetic
+Method attribute name Code, size 57
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

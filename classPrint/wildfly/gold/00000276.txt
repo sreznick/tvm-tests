@@ -1,0 +1,130 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 99
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/naming/subsystem/NamingBindingResourceDefinition$1$1$1"
+5: Tag 1 Utf8 Value "this$2"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/naming/subsystem/NamingBindingResourceDefinition$1$1;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+17: Tag 1 Utf8 Value "getCurrentAddressValue"
+18: Tag 1 Utf8 Value "()Ljava/lang/String;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames"
+23: Tag 1 Utf8 Value "bindInfoFor"
+24: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;"
+25: Tag 11 InterfaceMethodRef Class index 14, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "getServiceRegistry"
+28: Tag 1 Utf8 Value "(Z)Lorg/jboss/msc/service/ServiceRegistry;"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames$BindInfo"
+33: Tag 1 Utf8 Value "getBinderServiceName"
+34: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+35: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+39: Tag 1 Utf8 Value "getService"
+40: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+41: Tag 11 InterfaceMethodRef Class index 14, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 12
+43: Tag 1 Utf8 Value "reloadRequired"
+44: Tag 9 FieldRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "org/jboss/as/naming/subsystem/NamingBindingAdd"
+48: Tag 1 Utf8 Value "INSTANCE"
+49: Tag 1 Utf8 Value "Lorg/jboss/as/naming/subsystem/NamingBindingAdd;"
+50: Tag 11 InterfaceMethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 39, Description index 54
+53: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+54: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/Service;"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jboss/as/naming/service/BinderService"
+57: Tag 10 MethodRef Class index 45, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "doRebind"
+60: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/naming/service/BinderService;)V"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+63: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/subsystem/NamingBindingResourceDefinition$1$1;)V"
+64: Tag 1 Utf8 Value "Code"
+65: Tag 1 Utf8 Value "LineNumberTable"
+66: Tag 1 Utf8 Value "LocalVariableTable"
+67: Tag 1 Utf8 Value "this"
+68: Tag 1 Utf8 Value "Lorg/jboss/as/naming/subsystem/NamingBindingResourceDefinition$1$1$1;"
+69: Tag 1 Utf8 Value "execute"
+70: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+71: Tag 1 Utf8 Value "context"
+72: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+73: Tag 1 Utf8 Value "operation"
+74: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+75: Tag 1 Utf8 Value "name"
+76: Tag 1 Utf8 Value "Ljava/lang/String;"
+77: Tag 1 Utf8 Value "bindInfo"
+78: Tag 1 Utf8 Value "Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;"
+79: Tag 1 Utf8 Value "service"
+80: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+81: Tag 1 Utf8 Value "LocalVariableTypeTable"
+82: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<Lorg/jboss/as/naming/ManagedReferenceFactory;>;"
+83: Tag 1 Utf8 Value "StackMapTable"
+84: Tag 7 Class Name index 85
+85: Tag 1 Utf8 Value "java/lang/String"
+86: Tag 1 Utf8 Value "Exceptions"
+87: Tag 7 Class Name index 88
+88: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+89: Tag 1 Utf8 Value "SourceFile"
+90: Tag 1 Utf8 Value "NamingBindingResourceDefinition.java"
+91: Tag 1 Utf8 Value "EnclosingMethod"
+92: Tag 7 Class Name index 93
+93: Tag 1 Utf8 Value "org/jboss/as/naming/subsystem/NamingBindingResourceDefinition$1$1"
+94: Tag 12 NameAndType Name index 69, Description index 70
+95: Tag 1 Utf8 Value "InnerClasses"
+96: Tag 7 Class Name index 97
+97: Tag 1 Utf8 Value "org/jboss/as/naming/subsystem/NamingBindingResourceDefinition$1"
+98: Tag 1 Utf8 Value "BindInfo"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.naming.subsystem.NamingBindingResourceDefinition$1$1$1
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 61
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name this$2 (index 5), type Lorg/jboss/as/naming/subsystem/NamingBindingResourceDefinition$1$1; (descriptor index 6)
+Human type: org.jboss.as.naming.subsystem.NamingBindingResourceDefinition$1$1
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 11), type (Lorg/jboss/as/naming/subsystem/NamingBindingResourceDefinition$1$1;)V (descriptor index 63)
+Human type: (org.jboss.as.naming.subsystem.NamingBindingResourceDefinition$1$1): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 62
+Method name execute (index 69), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 70)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 221
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 34

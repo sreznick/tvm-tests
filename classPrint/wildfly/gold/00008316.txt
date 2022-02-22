@@ -1,0 +1,146 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 110
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/internal/ContextProxyInvocationHandler"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;Ljava/lang/Object;Ljava/util/Map;)V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/security/auth/server/SecurityDomain"
+11: Tag 1 Utf8 Value "getCurrent"
+12: Tag 1 Utf8 Value "()Lorg/wildfly/security/auth/server/SecurityDomain;"
+13: Tag 10 MethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "getCurrentSecurityIdentity"
+16: Tag 1 Utf8 Value "()Lorg/wildfly/security/auth/server/SecurityIdentity;"
+17: Tag 9 FieldRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/IdentityAwareProxyInvocationHandler"
+21: Tag 1 Utf8 Value "securityIdentity"
+22: Tag 1 Utf8 Value "Lorg/wildfly/security/auth/server/SecurityIdentity;"
+23: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "run"
+26: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/IdentityAwareProxyInvocationHandler;Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/security/PrivilegedExceptionAction;"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/wildfly/security/auth/server/SecurityIdentity"
+31: Tag 1 Utf8 Value "runAs"
+32: Tag 1 Utf8 Value "(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;"
+33: Tag 7 Class Name index 34
+34: Tag 1 Utf8 Value "java/security/PrivilegedActionException"
+35: Tag 10 MethodRef Class index 33, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "getCause"
+38: Tag 1 Utf8 Value "()Ljava/lang/Throwable;"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/IdentityAwareProxyInvocationHandler$WrapperException"
+41: Tag 10 MethodRef Class index 42, Name and type index 36
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "java/lang/Throwable"
+44: Tag 10 MethodRef Class index 2, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "invoke"
+47: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;"
+48: Tag 10 MethodRef Class index 39, Name and type index 49
+49: Tag 12 NameAndType Name index 5, Description index 50
+50: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+51: Tag 1 Utf8 Value "Code"
+52: Tag 1 Utf8 Value "LineNumberTable"
+53: Tag 1 Utf8 Value "LocalVariableTable"
+54: Tag 1 Utf8 Value "this"
+55: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/IdentityAwareProxyInvocationHandler;"
+56: Tag 1 Utf8 Value "contextService"
+57: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;"
+58: Tag 1 Utf8 Value "proxiedObject"
+59: Tag 1 Utf8 Value "Ljava/lang/Object;"
+60: Tag 1 Utf8 Value "executionProperties"
+61: Tag 1 Utf8 Value "Ljava/util/Map;"
+62: Tag 1 Utf8 Value "securityDomain"
+63: Tag 1 Utf8 Value "Lorg/wildfly/security/auth/server/SecurityDomain;"
+64: Tag 1 Utf8 Value "LocalVariableTypeTable"
+65: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+66: Tag 1 Utf8 Value "StackMapTable"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/ContextServiceImpl"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "java/lang/Object"
+71: Tag 7 Class Name index 72
+72: Tag 1 Utf8 Value "java/util/Map"
+73: Tag 1 Utf8 Value "Signature"
+74: Tag 1 Utf8 Value "(Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;Ljava/lang/Object;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V"
+75: Tag 1 Utf8 Value "cause"
+76: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+77: Tag 1 Utf8 Value "e"
+78: Tag 1 Utf8 Value "Ljava/security/PrivilegedActionException;"
+79: Tag 1 Utf8 Value "proxy"
+80: Tag 1 Utf8 Value "method"
+81: Tag 1 Utf8 Value "Ljava/lang/reflect/Method;"
+82: Tag 1 Utf8 Value "args"
+83: Tag 1 Utf8 Value "[Ljava/lang/Object;"
+84: Tag 1 Utf8 Value "Exceptions"
+85: Tag 1 Utf8 Value "lambda$invoke$0"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "java/lang/Exception"
+88: Tag 1 Utf8 Value "SourceFile"
+89: Tag 1 Utf8 Value "IdentityAwareProxyInvocationHandler.java"
+90: Tag 1 Utf8 Value "BootstrapMethods"
+91: Tag 15 MethodHandle Kind 6, Index 92
+92: Tag 10 MethodRef Class index 93, Name and type index 94
+93: Tag 7 Class Name index 95
+94: Tag 12 NameAndType Name index 96, Description index 97
+95: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+96: Tag 1 Utf8 Value "metafactory"
+97: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+98: Tag 16 MethodType Descriptor index 99
+99: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+100: Tag 15 MethodHandle Kind 7, Index 101
+101: Tag 10 MethodRef Class index 18, Name and type index 102
+102: Tag 12 NameAndType Name index 85, Description index 47
+103: Tag 1 Utf8 Value "InnerClasses"
+104: Tag 1 Utf8 Value "WrapperException"
+105: Tag 7 Class Name index 106
+106: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+107: Tag 7 Class Name index 108
+108: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+109: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 18, name org.jboss.as.ee.concurrent.IdentityAwareProxyInvocationHandler
+
+Super class: id 2, name org.glassfish.enterprise.concurrent.internal.ContextProxyInvocationHandler
+
+No interfaces
+
+Field name securityIdentity (index 21), type Lorg/wildfly/security/auth/server/SecurityIdentity; (descriptor index 22)
+Human type: org.wildfly.security.auth.server.SecurityIdentity
+Flags: decimal 146, hex 0092, binary 0000000010010010 private final transient
+No field attributes
+
+Method name <init> (index 5), type (Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;Ljava/lang/Object;Ljava/util/Map;)V (descriptor index 6)
+Human type: (org.glassfish.enterprise.concurrent.ContextServiceImpl, java.lang.Object, java.util.Map): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 204
+Method attribute name Signature, size 2
+Method name invoke (index 46), type (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 47)
+Human type: (java.lang.Object, java.lang.reflect.Method, java.lang.Object[]): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 208
+Method attribute name Exceptions, size 4
+Method name lambda$invoke$0 (index 85), type (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 47)
+Human type: (java.lang.Object, java.lang.reflect.Method, java.lang.Object[]): java.lang.Object
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 130
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 18

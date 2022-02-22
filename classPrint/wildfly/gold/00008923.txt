@@ -1,0 +1,103 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 65
+1: Tag 10 MethodRef Class index 9, Name and type index 39
+2: Tag 10 MethodRef Class index 40, Name and type index 41
+3: Tag 10 MethodRef Class index 42, Name and type index 43
+4: Tag 10 MethodRef Class index 42, Name and type index 44
+5: Tag 10 MethodRef Class index 40, Name and type index 45
+6: Tag 10 MethodRef Class index 8, Name and type index 46
+7: Tag 10 MethodRef Class index 8, Name and type index 47
+8: Tag 7 Class Name index 48
+9: Tag 7 Class Name index 49
+10: Tag 7 Class Name index 50
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 1 Utf8 Value "Code"
+14: Tag 1 Utf8 Value "LineNumberTable"
+15: Tag 1 Utf8 Value "LocalVariableTable"
+16: Tag 1 Utf8 Value "this"
+17: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/deployers/TCCLDeploymentProcessor;"
+18: Tag 1 Utf8 Value "deploy"
+19: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+20: Tag 1 Utf8 Value "phaseContext"
+21: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+22: Tag 1 Utf8 Value "origClassLoader"
+23: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+24: Tag 1 Utf8 Value "StackMapTable"
+25: Tag 7 Class Name index 51
+26: Tag 7 Class Name index 52
+27: Tag 7 Class Name index 53
+28: Tag 1 Utf8 Value "Exceptions"
+29: Tag 7 Class Name index 54
+30: Tag 1 Utf8 Value "undeploy"
+31: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+32: Tag 1 Utf8 Value "context"
+33: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+34: Tag 7 Class Name index 55
+35: Tag 1 Utf8 Value "internalDeploy"
+36: Tag 1 Utf8 Value "internalUndeploy"
+37: Tag 1 Utf8 Value "SourceFile"
+38: Tag 1 Utf8 Value "TCCLDeploymentProcessor.java"
+39: Tag 12 NameAndType Name index 11, Description index 12
+40: Tag 7 Class Name index 56
+41: Tag 12 NameAndType Name index 57, Description index 58
+42: Tag 7 Class Name index 59
+43: Tag 12 NameAndType Name index 60, Description index 61
+44: Tag 12 NameAndType Name index 62, Description index 58
+45: Tag 12 NameAndType Name index 63, Description index 64
+46: Tag 12 NameAndType Name index 35, Description index 19
+47: Tag 12 NameAndType Name index 36, Description index 31
+48: Tag 1 Utf8 Value "org/jboss/as/webservices/deployers/TCCLDeploymentProcessor"
+49: Tag 1 Utf8 Value "java/lang/Object"
+50: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+51: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+52: Tag 1 Utf8 Value "java/lang/ClassLoader"
+53: Tag 1 Utf8 Value "java/lang/Throwable"
+54: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+55: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+56: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+57: Tag 1 Utf8 Value "getCurrentContextClassLoaderPrivileged"
+58: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+59: Tag 1 Utf8 Value "org/jboss/wsf/spi/classloading/ClassLoaderProvider"
+60: Tag 1 Utf8 Value "getDefaultProvider"
+61: Tag 1 Utf8 Value "()Lorg/jboss/wsf/spi/classloading/ClassLoaderProvider;"
+62: Tag 1 Utf8 Value "getServerIntegrationClassLoader"
+63: Tag 1 Utf8 Value "setCurrentContextClassLoaderPrivileged"
+64: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 8, name org.jboss.as.webservices.deployers.TCCLDeploymentProcessor
+
+Super class: id 9, name java.lang.Object
+
+Implements class ids 10
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+No fields
+
+Method name <init> (index 11), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name deploy (index 18), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 19)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 162
+Method attribute name Exceptions, size 4
+Method name undeploy (index 30), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 31)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 162
+Method name internalDeploy (index 35), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 19)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Exceptions, size 4
+Method name internalUndeploy (index 36), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 31)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+
+Class attribute name SourceFile, size 2

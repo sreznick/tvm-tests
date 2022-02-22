@@ -1,0 +1,302 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 206
+1: Tag 9 FieldRef Class index 45, Name and type index 105
+2: Tag 10 MethodRef Class index 41, Name and type index 106
+3: Tag 7 Class Name index 107
+4: Tag 10 MethodRef Class index 41, Name and type index 108
+5: Tag 10 MethodRef Class index 41, Name and type index 109
+6: Tag 10 MethodRef Class index 46, Name and type index 110
+7: Tag 9 FieldRef Class index 45, Name and type index 111
+8: Tag 9 FieldRef Class index 45, Name and type index 112
+9: Tag 9 FieldRef Class index 45, Name and type index 113
+10: Tag 10 MethodRef Class index 45, Name and type index 114
+11: Tag 11 InterfaceMethodRef Class index 3, Name and type index 115
+12: Tag 9 FieldRef Class index 116, Name and type index 117
+13: Tag 11 InterfaceMethodRef Class index 3, Name and type index 118
+14: Tag 11 InterfaceMethodRef Class index 119, Name and type index 120
+15: Tag 11 InterfaceMethodRef Class index 119, Name and type index 121
+16: Tag 11 InterfaceMethodRef Class index 119, Name and type index 122
+17: Tag 9 FieldRef Class index 45, Name and type index 123
+18: Tag 11 InterfaceMethodRef Class index 90, Name and type index 124
+19: Tag 7 Class Name index 125
+20: Tag 10 MethodRef Class index 19, Name and type index 126
+21: Tag 10 MethodRef Class index 45, Name and type index 127
+22: Tag 7 Class Name index 128
+23: Tag 7 Class Name index 129
+24: Tag 7 Class Name index 130
+25: Tag 11 InterfaceMethodRef Class index 131, Name and type index 132
+26: Tag 7 Class Name index 133
+27: Tag 9 FieldRef Class index 45, Name and type index 134
+28: Tag 11 InterfaceMethodRef Class index 3, Name and type index 122
+29: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 139
+30: Tag 7 Class Name index 140
+31: Tag 10 MethodRef Class index 30, Name and type index 110
+32: Tag 11 InterfaceMethodRef Class index 119, Name and type index 141
+33: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 143
+34: Tag 7 Class Name index 144
+35: Tag 10 MethodRef Class index 45, Name and type index 145
+36: Tag 10 MethodRef Class index 45, Name and type index 146
+37: Tag 10 MethodRef Class index 45, Name and type index 147
+38: Tag 18 InvokeDynamic Bootstrap index 2, NameAndType index 149
+39: Tag 7 Class Name index 150
+40: Tag 10 MethodRef Class index 39, Name and type index 110
+41: Tag 7 Class Name index 151
+42: Tag 10 MethodRef Class index 41, Name and type index 110
+43: Tag 7 Class Name index 152
+44: Tag 10 MethodRef Class index 43, Name and type index 110
+45: Tag 7 Class Name index 153
+46: Tag 7 Class Name index 154
+47: Tag 7 Class Name index 155
+48: Tag 1 Utf8 Value "InnerClasses"
+49: Tag 1 Utf8 Value "PASSIVE_BATCH_CONTEXT"
+50: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/BatchContext;"
+51: Tag 1 Utf8 Value "NON_TX_BATCH"
+52: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;"
+53: Tag 1 Utf8 Value "CURRENT_BATCH"
+54: Tag 1 Utf8 Value "Ljava/lang/ThreadLocal;"
+55: Tag 1 Utf8 Value "Signature"
+56: Tag 1 Utf8 Value "Ljava/lang/ThreadLocal<Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;"
+57: Tag 1 Utf8 Value "CURRENT_BATCH_SYNCHRONIZATION"
+58: Tag 1 Utf8 Value "Ljavax/transaction/Synchronization;"
+59: Tag 1 Utf8 Value "tm"
+60: Tag 1 Utf8 Value "Ljavax/transaction/TransactionManager;"
+61: Tag 1 Utf8 Value "exceptionTransformer"
+62: Tag 1 Utf8 Value "Ljava/util/function/Function;"
+63: Tag 1 Utf8 Value "Ljava/util/function/Function<Ljava/lang/Throwable;TE;>;"
+64: Tag 1 Utf8 Value "getCurrentBatch"
+65: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;"
+66: Tag 1 Utf8 Value "Code"
+67: Tag 1 Utf8 Value "LineNumberTable"
+68: Tag 1 Utf8 Value "setCurrentBatch"
+69: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;)V"
+70: Tag 1 Utf8 Value "LocalVariableTable"
+71: Tag 1 Utf8 Value "batch"
+72: Tag 1 Utf8 Value "StackMapTable"
+73: Tag 1 Utf8 Value "<init>"
+74: Tag 1 Utf8 Value "(Ljavax/transaction/TransactionManager;Ljava/util/function/Function;)V"
+75: Tag 1 Utf8 Value "this"
+76: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/tx/TransactionalBatcher;"
+77: Tag 1 Utf8 Value "LocalVariableTypeTable"
+78: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/tx/TransactionalBatcher<TE;>;"
+79: Tag 1 Utf8 Value "(Ljavax/transaction/TransactionManager;Ljava/util/function/Function<Ljava/lang/Throwable;TE;>;)V"
+80: Tag 1 Utf8 Value "createBatch"
+81: Tag 1 Utf8 Value "tx"
+82: Tag 1 Utf8 Value "Ljavax/transaction/Transaction;"
+83: Tag 1 Utf8 Value "e"
+84: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+85: Tag 7 Class Name index 156
+86: Tag 1 Utf8 Value "resumeBatch"
+87: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;)Lorg/wildfly/clustering/ee/BatchContext;"
+88: Tag 1 Utf8 Value "existingTx"
+89: Tag 1 Utf8 Value "existingBatch"
+90: Tag 7 Class Name index 157
+91: Tag 1 Utf8 Value "suspendBatch"
+92: Tag 1 Utf8 Value "Ljavax/transaction/SystemException;"
+93: Tag 7 Class Name index 158
+94: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batch;"
+95: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/ee/Batch;)Lorg/wildfly/clustering/ee/BatchContext;"
+96: Tag 1 Utf8 Value "lambda$resumeBatch$2"
+97: Tag 1 Utf8 Value "Ljavax/transaction/InvalidTransactionException;"
+98: Tag 1 Utf8 Value "lambda$resumeBatch$1"
+99: Tag 1 Utf8 Value "lambda$static$0"
+100: Tag 1 Utf8 Value "()V"
+101: Tag 1 Utf8 Value "<clinit>"
+102: Tag 1 Utf8 Value "<E:Ljava/lang/RuntimeException;>Ljava/lang/Object;Lorg/wildfly/clustering/ee/Batcher<Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;"
+103: Tag 1 Utf8 Value "SourceFile"
+104: Tag 1 Utf8 Value "TransactionalBatcher.java"
+105: Tag 12 NameAndType Name index 53, Description index 54
+106: Tag 12 NameAndType Name index 159, Description index 160
+107: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/tx/TransactionBatch"
+108: Tag 12 NameAndType Name index 161, Description index 162
+109: Tag 12 NameAndType Name index 163, Description index 100
+110: Tag 12 NameAndType Name index 73, Description index 100
+111: Tag 12 NameAndType Name index 59, Description index 60
+112: Tag 12 NameAndType Name index 61, Description index 62
+113: Tag 12 NameAndType Name index 51, Description index 52
+114: Tag 12 NameAndType Name index 64, Description index 65
+115: Tag 12 NameAndType Name index 164, Description index 166
+116: Tag 7 Class Name index 168
+117: Tag 12 NameAndType Name index 169, Description index 170
+118: Tag 12 NameAndType Name index 171, Description index 65
+119: Tag 7 Class Name index 172
+120: Tag 12 NameAndType Name index 173, Description index 174
+121: Tag 12 NameAndType Name index 175, Description index 100
+122: Tag 12 NameAndType Name index 176, Description index 174
+123: Tag 12 NameAndType Name index 57, Description index 58
+124: Tag 12 NameAndType Name index 177, Description index 178
+125: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/tx/TransactionalBatch"
+126: Tag 12 NameAndType Name index 73, Description index 179
+127: Tag 12 NameAndType Name index 68, Description index 69
+128: Tag 1 Utf8 Value "javax/transaction/RollbackException"
+129: Tag 1 Utf8 Value "javax/transaction/SystemException"
+130: Tag 1 Utf8 Value "javax/transaction/NotSupportedException"
+131: Tag 7 Class Name index 180
+132: Tag 12 NameAndType Name index 181, Description index 182
+133: Tag 1 Utf8 Value "java/lang/RuntimeException"
+134: Tag 12 NameAndType Name index 49, Description index 50
+135: Tag 1 Utf8 Value "BootstrapMethods"
+136: Tag 15 MethodHandle Kind 6, Index 183
+137: Tag 16 MethodType Descriptor index 100
+138: Tag 15 MethodHandle Kind 6, Index 184
+139: Tag 12 NameAndType Name index 185, Description index 87
+140: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+141: Tag 12 NameAndType Name index 186, Description index 187
+142: Tag 15 MethodHandle Kind 7, Index 188
+143: Tag 12 NameAndType Name index 185, Description index 189
+144: Tag 1 Utf8 Value "javax/transaction/InvalidTransactionException"
+145: Tag 12 NameAndType Name index 91, Description index 65
+146: Tag 12 NameAndType Name index 86, Description index 87
+147: Tag 12 NameAndType Name index 80, Description index 65
+148: Tag 15 MethodHandle Kind 6, Index 190
+149: Tag 12 NameAndType Name index 185, Description index 191
+150: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/tx/TransactionalBatcher$1"
+151: Tag 1 Utf8 Value "java/lang/ThreadLocal"
+152: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/tx/TransactionalBatcher$2"
+153: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/tx/TransactionalBatcher"
+154: Tag 1 Utf8 Value "java/lang/Object"
+155: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batcher"
+156: Tag 1 Utf8 Value "java/lang/Exception"
+157: Tag 1 Utf8 Value "javax/transaction/Transaction"
+158: Tag 1 Utf8 Value "java/lang/Throwable"
+159: Tag 1 Utf8 Value "get"
+160: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+161: Tag 1 Utf8 Value "set"
+162: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+163: Tag 1 Utf8 Value "remove"
+164: Tag 1 Utf8 Value "getState"
+165: Tag 1 Utf8 Value "State"
+166: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batch$State;"
+167: Tag 7 Class Name index 192
+168: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batch$State"
+169: Tag 1 Utf8 Value "ACTIVE"
+170: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batch$State;"
+171: Tag 1 Utf8 Value "interpose"
+172: Tag 1 Utf8 Value "javax/transaction/TransactionManager"
+173: Tag 1 Utf8 Value "suspend"
+174: Tag 1 Utf8 Value "()Ljavax/transaction/Transaction;"
+175: Tag 1 Utf8 Value "begin"
+176: Tag 1 Utf8 Value "getTransaction"
+177: Tag 1 Utf8 Value "registerSynchronization"
+178: Tag 1 Utf8 Value "(Ljavax/transaction/Synchronization;)V"
+179: Tag 1 Utf8 Value "(Ljavax/transaction/Transaction;Ljava/util/function/Function;)V"
+180: Tag 1 Utf8 Value "java/util/function/Function"
+181: Tag 1 Utf8 Value "apply"
+182: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+183: Tag 10 MethodRef Class index 193, Name and type index 194
+184: Tag 10 MethodRef Class index 45, Name and type index 195
+185: Tag 1 Utf8 Value "close"
+186: Tag 1 Utf8 Value "resume"
+187: Tag 1 Utf8 Value "(Ljavax/transaction/Transaction;)V"
+188: Tag 10 MethodRef Class index 45, Name and type index 196
+189: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/ee/cache/tx/TransactionalBatcher;Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;)Lorg/wildfly/clustering/ee/BatchContext;"
+190: Tag 10 MethodRef Class index 45, Name and type index 197
+191: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/BatchContext;"
+192: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batch"
+193: Tag 7 Class Name index 198
+194: Tag 12 NameAndType Name index 199, Description index 202
+195: Tag 12 NameAndType Name index 98, Description index 69
+196: Tag 12 NameAndType Name index 96, Description index 69
+197: Tag 12 NameAndType Name index 99, Description index 100
+198: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+199: Tag 1 Utf8 Value "metafactory"
+200: Tag 7 Class Name index 204
+201: Tag 1 Utf8 Value "Lookup"
+202: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+203: Tag 7 Class Name index 205
+204: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+205: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 45, name org.wildfly.clustering.ee.cache.tx.TransactionalBatcher
+
+Super class: id 46, name java.lang.Object
+
+Implements class ids 47
+Implements names org.wildfly.clustering.ee.Batcher
+
+Field name PASSIVE_BATCH_CONTEXT (index 49), type Lorg/wildfly/clustering/ee/BatchContext; (descriptor index 50)
+Human type: org.wildfly.clustering.ee.BatchContext
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name NON_TX_BATCH (index 51), type Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch; (descriptor index 52)
+Human type: org.wildfly.clustering.ee.cache.tx.TransactionBatch
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name CURRENT_BATCH (index 53), type Ljava/lang/ThreadLocal; (descriptor index 54)
+Human type: java.lang.ThreadLocal
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+Field name CURRENT_BATCH_SYNCHRONIZATION (index 57), type Ljavax/transaction/Synchronization; (descriptor index 58)
+Human type: javax.transaction.Synchronization
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name tm (index 59), type Ljavax/transaction/TransactionManager; (descriptor index 60)
+Human type: javax.transaction.TransactionManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name exceptionTransformer (index 61), type Ljava/util/function/Function; (descriptor index 62)
+Human type: java.util.function.Function
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name getCurrentBatch (index 64), type ()Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch; (descriptor index 65)
+Human type: (): org.wildfly.clustering.ee.cache.tx.TransactionBatch
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 34
+Method name setCurrentBatch (index 68), type (Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;)V (descriptor index 69)
+Human type: (org.wildfly.clustering.ee.cache.tx.TransactionBatch): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 85
+Method name <init> (index 73), type (Ljavax/transaction/TransactionManager;Ljava/util/function/Function;)V (descriptor index 74)
+Human type: (javax.transaction.TransactionManager, java.util.function.Function): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name createBatch (index 80), type ()Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch; (descriptor index 65)
+Human type: (): org.wildfly.clustering.ee.cache.tx.TransactionBatch
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 315
+Method name resumeBatch (index 86), type (Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;)Lorg/wildfly/clustering/ee/BatchContext; (descriptor index 87)
+Human type: (org.wildfly.clustering.ee.cache.tx.TransactionBatch): org.wildfly.clustering.ee.BatchContext
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 333
+Method name suspendBatch (index 91), type ()Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch; (descriptor index 65)
+Human type: (): org.wildfly.clustering.ee.cache.tx.TransactionBatch
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 264
+Method name suspendBatch (index 91), type ()Lorg/wildfly/clustering/ee/Batch; (descriptor index 94)
+Human type: (): org.wildfly.clustering.ee.Batch
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 65
+Method name resumeBatch (index 86), type (Lorg/wildfly/clustering/ee/Batch;)Lorg/wildfly/clustering/ee/BatchContext; (descriptor index 95)
+Human type: (org.wildfly.clustering.ee.Batch): org.wildfly.clustering.ee.BatchContext
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 69
+Method name createBatch (index 80), type ()Lorg/wildfly/clustering/ee/Batch; (descriptor index 94)
+Human type: (): org.wildfly.clustering.ee.Batch
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 65
+Method name lambda$resumeBatch$2 (index 96), type (Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;)V (descriptor index 69)
+Human type: (org.wildfly.clustering.ee.cache.tx.TransactionBatch): void
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 269
+Method name lambda$resumeBatch$1 (index 98), type (Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;)V (descriptor index 69)
+Human type: (org.wildfly.clustering.ee.cache.tx.TransactionBatch): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 47
+Method name lambda$static$0 (index 99), type ()V (descriptor index 100)
+Human type: (): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 25
+Method name <clinit> (index 101), type ()V (descriptor index 100)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 75
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 34
+Class attribute name BootstrapMethods, size 32

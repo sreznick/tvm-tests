@@ -1,0 +1,104 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 71
+1: Tag 10 MethodRef Class index 17, Name and type index 39
+2: Tag 9 FieldRef Class index 16, Name and type index 40
+3: Tag 11 InterfaceMethodRef Class index 41, Name and type index 42
+4: Tag 7 Class Name index 43
+5: Tag 7 Class Name index 44
+6: Tag 10 MethodRef Class index 5, Name and type index 39
+7: Tag 8 String Contents 45
+8: Tag 10 MethodRef Class index 5, Name and type index 46
+9: Tag 10 MethodRef Class index 17, Name and type index 47
+10: Tag 10 MethodRef Class index 48, Name and type index 49
+11: Tag 8 String Contents 50
+12: Tag 10 MethodRef Class index 5, Name and type index 51
+13: Tag 10 MethodRef Class index 4, Name and type index 52
+14: Tag 8 String Contents 53
+15: Tag 10 MethodRef Class index 5, Name and type index 54
+16: Tag 7 Class Name index 55
+17: Tag 7 Class Name index 56
+18: Tag 1 Utf8 Value "postConstructInvoked"
+19: Tag 1 Utf8 Value "Z"
+20: Tag 1 Utf8 Value "<init>"
+21: Tag 1 Utf8 Value "()V"
+22: Tag 1 Utf8 Value "Code"
+23: Tag 1 Utf8 Value "LineNumberTable"
+24: Tag 1 Utf8 Value "LocalVariableTable"
+25: Tag 1 Utf8 Value "this"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/ejb3/dd/DDBasedInterceptor;"
+27: Tag 1 Utf8 Value "onConstruct"
+28: Tag 1 Utf8 Value "(Ljavax/interceptor/InvocationContext;)V"
+29: Tag 1 Utf8 Value "ctx"
+30: Tag 1 Utf8 Value "Ljavax/interceptor/InvocationContext;"
+31: Tag 1 Utf8 Value "Exceptions"
+32: Tag 7 Class Name index 57
+33: Tag 1 Utf8 Value "onInvoke"
+34: Tag 1 Utf8 Value "(Ljavax/interceptor/InvocationContext;)Ljava/lang/Object;"
+35: Tag 1 Utf8 Value "invocationContext"
+36: Tag 1 Utf8 Value "StackMapTable"
+37: Tag 1 Utf8 Value "SourceFile"
+38: Tag 1 Utf8 Value "DDBasedInterceptor.java"
+39: Tag 12 NameAndType Name index 20, Description index 21
+40: Tag 12 NameAndType Name index 18, Description index 19
+41: Tag 7 Class Name index 58
+42: Tag 12 NameAndType Name index 59, Description index 60
+43: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+44: Tag 1 Utf8 Value "java/lang/StringBuilder"
+45: Tag 1 Utf8 Value "PostConstruct method on "
+46: Tag 12 NameAndType Name index 61, Description index 62
+47: Tag 12 NameAndType Name index 63, Description index 64
+48: Tag 7 Class Name index 65
+49: Tag 12 NameAndType Name index 66, Description index 67
+50: Tag 1 Utf8 Value " interceptor was not invoked"
+51: Tag 12 NameAndType Name index 68, Description index 67
+52: Tag 12 NameAndType Name index 20, Description index 69
+53: Tag 1 Utf8 Value "#"
+54: Tag 12 NameAndType Name index 61, Description index 70
+55: Tag 1 Utf8 Value "org/jboss/as/test/smoke/ejb3/dd/DDBasedInterceptor"
+56: Tag 1 Utf8 Value "java/lang/Object"
+57: Tag 1 Utf8 Value "java/lang/Exception"
+58: Tag 1 Utf8 Value "javax/interceptor/InvocationContext"
+59: Tag 1 Utf8 Value "proceed"
+60: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+61: Tag 1 Utf8 Value "append"
+62: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+63: Tag 1 Utf8 Value "getClass"
+64: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+65: Tag 1 Utf8 Value "java/lang/Class"
+66: Tag 1 Utf8 Value "getName"
+67: Tag 1 Utf8 Value "()Ljava/lang/String;"
+68: Tag 1 Utf8 Value "toString"
+69: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+70: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 16, name org.jboss.as.test.smoke.ejb3.dd.DDBasedInterceptor
+
+Super class: id 17, name java.lang.Object
+
+No interfaces
+
+Field name postConstructInvoked (index 18), type Z (descriptor index 19)
+Human type: boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 20), type ()V (descriptor index 21)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name onConstruct (index 27), type (Ljavax/interceptor/InvocationContext;)V (descriptor index 28)
+Human type: (javax.interceptor.InvocationContext): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 73
+Method attribute name Exceptions, size 4
+Method name onInvoke (index 33), type (Ljavax/interceptor/InvocationContext;)Ljava/lang/Object; (descriptor index 34)
+Human type: (javax.interceptor.InvocationContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 149
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

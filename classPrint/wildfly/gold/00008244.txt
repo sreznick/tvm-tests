@@ -1,0 +1,168 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 113
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 8 String Contents 8
+8: Tag 1 Utf8 Value "pathManagerSupplier"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/wildfly/common/Assert"
+13: Tag 1 Utf8 Value "checkNotNullParam"
+14: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/util/function/Supplier"
+17: Tag 9 FieldRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 8, Description index 21
+20: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/GlobalDirectoryService"
+21: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+22: Tag 8 String Contents 23
+23: Tag 1 Utf8 Value "path"
+24: Tag 7 Class Name index 25
+25: Tag 1 Utf8 Value "java/lang/String"
+26: Tag 9 FieldRef Class index 18, Name and type index 27
+27: Tag 12 NameAndType Name index 23, Description index 28
+28: Tag 1 Utf8 Value "Ljava/lang/String;"
+29: Tag 8 String Contents 30
+30: Tag 1 Utf8 Value "name"
+31: Tag 9 FieldRef Class index 18, Name and type index 32
+32: Tag 12 NameAndType Name index 30, Description index 28
+33: Tag 9 FieldRef Class index 18, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 28
+35: Tag 1 Utf8 Value "relativeTo"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/GlobalDirectoryService$PathResolver"
+38: Tag 10 MethodRef Class index 36, Name and type index 39
+39: Tag 12 NameAndType Name index 5, Description index 40
+40: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/subsystem/GlobalDirectoryService$1;)V"
+41: Tag 9 FieldRef Class index 18, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "pathResolver"
+44: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/GlobalDirectoryService$PathResolver;"
+45: Tag 9 FieldRef Class index 18, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "consumer"
+48: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+49: Tag 10 MethodRef Class index 36, Name and type index 50
+50: Tag 12 NameAndType Name index 23, Description index 51
+51: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/ee/subsystem/GlobalDirectoryService$PathResolver;"
+52: Tag 11 InterfaceMethodRef Class index 15, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "get"
+55: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "org/jboss/as/controller/services/path/PathManager"
+58: Tag 10 MethodRef Class index 36, Name and type index 59
+59: Tag 12 NameAndType Name index 35, Description index 60
+60: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/services/path/PathManager;)Lorg/jboss/as/ee/subsystem/GlobalDirectoryService$PathResolver;"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectory"
+63: Tag 10 MethodRef Class index 36, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "resolve"
+66: Tag 1 Utf8 Value "()Ljava/nio/file/Path;"
+67: Tag 10 MethodRef Class index 61, Name and type index 68
+68: Tag 12 NameAndType Name index 5, Description index 69
+69: Tag 1 Utf8 Value "(Ljava/nio/file/Path;Ljava/lang/String;)V"
+70: Tag 11 InterfaceMethodRef Class index 71, Name and type index 72
+71: Tag 7 Class Name index 73
+72: Tag 12 NameAndType Name index 74, Description index 75
+73: Tag 1 Utf8 Value "java/util/function/Consumer"
+74: Tag 1 Utf8 Value "accept"
+75: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+76: Tag 10 MethodRef Class index 36, Name and type index 77
+77: Tag 12 NameAndType Name index 78, Description index 6
+78: Tag 1 Utf8 Value "clear"
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "org/jboss/msc/Service"
+81: Tag 1 Utf8 Value "Signature"
+82: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/controller/services/path/PathManager;>;"
+83: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectory;>;"
+84: Tag 1 Utf8 Value "(Ljava/util/function/Supplier;Ljava/util/function/Consumer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+85: Tag 1 Utf8 Value "Code"
+86: Tag 1 Utf8 Value "LineNumberTable"
+87: Tag 1 Utf8 Value "LocalVariableTable"
+88: Tag 1 Utf8 Value "this"
+89: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/GlobalDirectoryService;"
+90: Tag 1 Utf8 Value "LocalVariableTypeTable"
+91: Tag 1 Utf8 Value "(Ljava/util/function/Supplier<Lorg/jboss/as/controller/services/path/PathManager;>;Ljava/util/function/Consumer<Lorg/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectory;>;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+92: Tag 1 Utf8 Value "start"
+93: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+94: Tag 1 Utf8 Value "context"
+95: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+96: Tag 1 Utf8 Value "globaldirectory"
+97: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition$GlobalDirectory;"
+98: Tag 1 Utf8 Value "Exceptions"
+99: Tag 7 Class Name index 100
+100: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+101: Tag 1 Utf8 Value "stop"
+102: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+103: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+104: Tag 1 Utf8 Value "SourceFile"
+105: Tag 1 Utf8 Value "GlobalDirectoryService.java"
+106: Tag 1 Utf8 Value "InnerClasses"
+107: Tag 1 Utf8 Value "PathResolver"
+108: Tag 7 Class Name index 109
+109: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/GlobalDirectoryService$1"
+110: Tag 7 Class Name index 111
+111: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/GlobalDirectoryResourceDefinition"
+112: Tag 1 Utf8 Value "GlobalDirectory"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 18, name org.jboss.as.ee.subsystem.GlobalDirectoryService
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 79
+Implements names org.jboss.msc.Service
+
+Field name pathManagerSupplier (index 8), type Ljava/util/function/Supplier; (descriptor index 21)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name path (index 23), type Ljava/lang/String; (descriptor index 28)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name relativeTo (index 35), type Ljava/lang/String; (descriptor index 28)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name pathResolver (index 43), type Lorg/jboss/as/ee/subsystem/GlobalDirectoryService$PathResolver; (descriptor index 44)
+Human type: org.jboss.as.ee.subsystem.GlobalDirectoryService$PathResolver
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name consumer (index 47), type Ljava/util/function/Consumer; (descriptor index 48)
+Human type: java.util.function.Consumer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name name (index 30), type Ljava/lang/String; (descriptor index 28)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/util/function/Supplier;Ljava/util/function/Consumer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V (descriptor index 84)
+Human type: (java.util.function.Supplier, java.util.function.Consumer, java.lang.String, java.lang.String, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 216
+Method attribute name Signature, size 2
+Method name start (index 92), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 93)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 144
+Method attribute name Exceptions, size 4
+Method name stop (index 101), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 102)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 64
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

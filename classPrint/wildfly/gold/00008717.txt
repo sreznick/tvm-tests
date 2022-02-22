@@ -1,0 +1,378 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 310
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/config/smallrye/ConfigSourceDefinition"
+7: Tag 1 Utf8 Value "unwrapClass"
+8: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Ljava/lang/Class;"
+9: Tag 7 Class Name index 10
+10: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition$Parameters"
+11: Tag 9 FieldRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/config/smallrye/MicroProfileConfigExtension"
+15: Tag 1 Utf8 Value "CONFIG_SOURCE_PATH"
+16: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "java/lang/String"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+23: Tag 1 Utf8 Value "getKey"
+24: Tag 1 Utf8 Value "()Ljava/lang/String;"
+25: Tag 10 MethodRef Class index 12, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+28: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+29: Tag 10 MethodRef Class index 9, Name and type index 30
+30: Tag 12 NameAndType Name index 31, Description index 32
+31: Tag 1 Utf8 Value "<init>"
+32: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+33: Tag 7 Class Name index 34
+34: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/config/smallrye/ConfigSourceDefinition$ConfigSourceDefinitionAddHandler"
+35: Tag 10 MethodRef Class index 33, Name and type index 36
+36: Tag 12 NameAndType Name index 31, Description index 37
+37: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/config/smallrye/Registry;)V"
+38: Tag 10 MethodRef Class index 9, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "setAddHandler"
+41: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+42: Tag 9 FieldRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 47
+45: Tag 1 Utf8 Value "org/jboss/as/controller/ReloadRequiredRemoveStepHandler"
+46: Tag 1 Utf8 Value "INSTANCE"
+47: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ReloadRequiredRemoveStepHandler;"
+48: Tag 10 MethodRef Class index 9, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 41
+50: Tag 1 Utf8 Value "setRemoveHandler"
+51: Tag 10 MethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 31, Description index 55
+54: Tag 1 Utf8 Value "org/jboss/as/controller/PersistentResourceDefinition"
+55: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;)V"
+56: Tag 9 FieldRef Class index 4, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "ATTRIBUTES"
+59: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+60: Tag 10 MethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "java/util/Arrays"
+64: Tag 1 Utf8 Value "asList"
+65: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+66: Tag 8 String Contents 67
+67: Tag 1 Utf8 Value "name"
+68: Tag 10 MethodRef Class index 69, Name and type index 70
+69: Tag 7 Class Name index 71
+70: Tag 12 NameAndType Name index 72, Description index 73
+71: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+72: Tag 1 Utf8 Value "get"
+73: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+74: Tag 10 MethodRef Class index 69, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 24
+76: Tag 1 Utf8 Value "asString"
+77: Tag 8 String Contents 78
+78: Tag 1 Utf8 Value "module"
+79: Tag 10 MethodRef Class index 80, Name and type index 81
+80: Tag 7 Class Name index 82
+81: Tag 12 NameAndType Name index 83, Description index 84
+82: Tag 1 Utf8 Value "org/jboss/modules/ModuleIdentifier"
+83: Tag 1 Utf8 Value "fromString"
+84: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/modules/ModuleIdentifier;"
+85: Tag 10 MethodRef Class index 86, Name and type index 87
+86: Tag 7 Class Name index 88
+87: Tag 12 NameAndType Name index 89, Description index 90
+88: Tag 1 Utf8 Value "org/jboss/modules/Module"
+89: Tag 1 Utf8 Value "getCallerModuleLoader"
+90: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleLoader;"
+91: Tag 10 MethodRef Class index 92, Name and type index 93
+92: Tag 7 Class Name index 94
+93: Tag 12 NameAndType Name index 95, Description index 96
+94: Tag 1 Utf8 Value "org/jboss/modules/ModuleLoader"
+95: Tag 1 Utf8 Value "loadModule"
+96: Tag 1 Utf8 Value "(Lorg/jboss/modules/ModuleIdentifier;)Lorg/jboss/modules/Module;"
+97: Tag 10 MethodRef Class index 86, Name and type index 98
+98: Tag 12 NameAndType Name index 99, Description index 100
+99: Tag 1 Utf8 Value "getClassLoader"
+100: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleClassLoader;"
+101: Tag 10 MethodRef Class index 102, Name and type index 103
+102: Tag 7 Class Name index 104
+103: Tag 12 NameAndType Name index 105, Description index 106
+104: Tag 1 Utf8 Value "org/jboss/modules/ModuleClassLoader"
+105: Tag 1 Utf8 Value "loadClass"
+106: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Class;"
+107: Tag 7 Class Name index 108
+108: Tag 1 Utf8 Value "java/lang/Exception"
+109: Tag 9 FieldRef Class index 110, Name and type index 111
+110: Tag 7 Class Name index 112
+111: Tag 12 NameAndType Name index 113, Description index 114
+112: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/config/smallrye/_private/MicroProfileConfigLogger"
+113: Tag 1 Utf8 Value "ROOT_LOGGER"
+114: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/config/smallrye/_private/MicroProfileConfigLogger;"
+115: Tag 11 InterfaceMethodRef Class index 110, Name and type index 116
+116: Tag 12 NameAndType Name index 117, Description index 118
+117: Tag 1 Utf8 Value "unableToLoadClassFromModule"
+118: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+119: Tag 8 String Contents 120
+120: Tag 1 Utf8 Value "ordinal"
+121: Tag 9 FieldRef Class index 122, Name and type index 123
+122: Tag 7 Class Name index 124
+123: Tag 12 NameAndType Name index 125, Description index 126
+124: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+125: Tag 1 Utf8 Value "INT"
+126: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+127: Tag 10 MethodRef Class index 128, Name and type index 129
+128: Tag 7 Class Name index 130
+129: Tag 12 NameAndType Name index 131, Description index 132
+130: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+131: Tag 1 Utf8 Value "create"
+132: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+133: Tag 10 MethodRef Class index 69, Name and type index 134
+134: Tag 12 NameAndType Name index 31, Description index 135
+135: Tag 1 Utf8 Value "(I)V"
+136: Tag 10 MethodRef Class index 128, Name and type index 137
+137: Tag 12 NameAndType Name index 138, Description index 139
+138: Tag 1 Utf8 Value "setDefaultValue"
+139: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+140: Tag 10 MethodRef Class index 128, Name and type index 141
+141: Tag 12 NameAndType Name index 142, Description index 143
+142: Tag 1 Utf8 Value "setAllowExpression"
+143: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+144: Tag 10 MethodRef Class index 128, Name and type index 145
+145: Tag 12 NameAndType Name index 146, Description index 143
+146: Tag 1 Utf8 Value "setRequired"
+147: Tag 10 MethodRef Class index 128, Name and type index 148
+148: Tag 12 NameAndType Name index 149, Description index 150
+149: Tag 1 Utf8 Value "setRestartAllServices"
+150: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+151: Tag 10 MethodRef Class index 128, Name and type index 152
+152: Tag 12 NameAndType Name index 153, Description index 154
+153: Tag 1 Utf8 Value "build"
+154: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+155: Tag 9 FieldRef Class index 4, Name and type index 156
+156: Tag 12 NameAndType Name index 157, Description index 158
+157: Tag 1 Utf8 Value "ORDINAL"
+158: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+159: Tag 7 Class Name index 160
+160: Tag 1 Utf8 Value "org/jboss/as/controller/PropertiesAttributeDefinition$Builder"
+161: Tag 8 String Contents 162
+162: Tag 1 Utf8 Value "properties"
+163: Tag 10 MethodRef Class index 159, Name and type index 164
+164: Tag 12 NameAndType Name index 31, Description index 165
+165: Tag 1 Utf8 Value "(Ljava/lang/String;Z)V"
+166: Tag 7 Class Name index 167
+167: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeParsers$PropertiesParser"
+168: Tag 10 MethodRef Class index 166, Name and type index 169
+169: Tag 12 NameAndType Name index 31, Description index 170
+170: Tag 1 Utf8 Value "(Z)V"
+171: Tag 10 MethodRef Class index 159, Name and type index 172
+172: Tag 12 NameAndType Name index 173, Description index 174
+173: Tag 1 Utf8 Value "setAttributeParser"
+174: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeParser;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+175: Tag 7 Class Name index 176
+176: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeMarshallers$PropertiesAttributeMarshaller"
+177: Tag 10 MethodRef Class index 175, Name and type index 164
+178: Tag 10 MethodRef Class index 159, Name and type index 179
+179: Tag 12 NameAndType Name index 180, Description index 181
+180: Tag 1 Utf8 Value "setAttributeMarshaller"
+181: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeMarshaller;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+182: Tag 8 String Contents 183
+183: Tag 1 Utf8 Value "class"
+184: Tag 8 String Contents 185
+185: Tag 1 Utf8 Value "dir"
+186: Tag 10 MethodRef Class index 159, Name and type index 187
+187: Tag 12 NameAndType Name index 188, Description index 189
+188: Tag 1 Utf8 Value "setAlternatives"
+189: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+190: Tag 10 MethodRef Class index 159, Name and type index 145
+191: Tag 10 MethodRef Class index 159, Name and type index 148
+192: Tag 10 MethodRef Class index 159, Name and type index 193
+193: Tag 12 NameAndType Name index 153, Description index 194
+194: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PropertiesAttributeDefinition;"
+195: Tag 9 FieldRef Class index 4, Name and type index 196
+196: Tag 12 NameAndType Name index 197, Description index 158
+197: Tag 1 Utf8 Value "PROPERTIES"
+198: Tag 7 Class Name index 199
+199: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+200: Tag 9 FieldRef Class index 122, Name and type index 201
+201: Tag 12 NameAndType Name index 202, Description index 126
+202: Tag 1 Utf8 Value "STRING"
+203: Tag 10 MethodRef Class index 128, Name and type index 204
+204: Tag 12 NameAndType Name index 131, Description index 205
+205: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;Z)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+206: Tag 10 MethodRef Class index 207, Name and type index 208
+207: Tag 7 Class Name index 209
+208: Tag 12 NameAndType Name index 210, Description index 211
+209: Tag 1 Utf8 Value "org/jboss/as/controller/ObjectTypeAttributeDefinition$Builder"
+210: Tag 1 Utf8 Value "of"
+211: Tag 1 Utf8 Value "(Ljava/lang/String;[Lorg/jboss/as/controller/AttributeDefinition;)Lorg/jboss/as/controller/ObjectTypeAttributeDefinition$Builder;"
+212: Tag 10 MethodRef Class index 207, Name and type index 187
+213: Tag 10 MethodRef Class index 207, Name and type index 145
+214: Tag 9 FieldRef Class index 215, Name and type index 216
+215: Tag 7 Class Name index 217
+216: Tag 12 NameAndType Name index 218, Description index 219
+217: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeMarshaller"
+218: Tag 1 Utf8 Value "ATTRIBUTE_OBJECT"
+219: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeMarshaller;"
+220: Tag 10 MethodRef Class index 207, Name and type index 179
+221: Tag 10 MethodRef Class index 207, Name and type index 148
+222: Tag 10 MethodRef Class index 207, Name and type index 223
+223: Tag 12 NameAndType Name index 153, Description index 224
+224: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/ObjectTypeAttributeDefinition;"
+225: Tag 9 FieldRef Class index 4, Name and type index 226
+226: Tag 12 NameAndType Name index 227, Description index 228
+227: Tag 1 Utf8 Value "CLASS"
+228: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ObjectTypeAttributeDefinition;"
+229: Tag 8 String Contents 230
+230: Tag 1 Utf8 Value "path"
+231: Tag 8 String Contents 232
+232: Tag 1 Utf8 Value "filesystem-path"
+233: Tag 9 FieldRef Class index 69, Name and type index 234
+234: Tag 12 NameAndType Name index 235, Description index 236
+235: Tag 1 Utf8 Value "TRUE"
+236: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+237: Tag 10 MethodRef Class index 128, Name and type index 238
+238: Tag 12 NameAndType Name index 239, Description index 240
+239: Tag 1 Utf8 Value "addArbitraryDescriptor"
+240: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+241: Tag 9 FieldRef Class index 4, Name and type index 242
+242: Tag 12 NameAndType Name index 243, Description index 158
+243: Tag 1 Utf8 Value "PATH"
+244: Tag 8 String Contents 245
+245: Tag 1 Utf8 Value "relative-to"
+246: Tag 9 FieldRef Class index 4, Name and type index 247
+247: Tag 12 NameAndType Name index 248, Description index 158
+248: Tag 1 Utf8 Value "RELATIVE_TO"
+249: Tag 8 String Contents 250
+250: Tag 1 Utf8 Value "org.wildfly.management.path-manager"
+251: Tag 10 MethodRef Class index 207, Name and type index 252
+252: Tag 12 NameAndType Name index 253, Description index 254
+253: Tag 1 Utf8 Value "setCapabilityReference"
+254: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+255: Tag 9 FieldRef Class index 4, Name and type index 256
+256: Tag 12 NameAndType Name index 257, Description index 228
+257: Tag 1 Utf8 Value "DIR"
+258: Tag 1 Utf8 Value "Code"
+259: Tag 1 Utf8 Value "LineNumberTable"
+260: Tag 1 Utf8 Value "LocalVariableTable"
+261: Tag 1 Utf8 Value "this"
+262: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/config/smallrye/ConfigSourceDefinition;"
+263: Tag 1 Utf8 Value "sources"
+264: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/config/smallrye/Registry;"
+265: Tag 1 Utf8 Value "LocalVariableTypeTable"
+266: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/config/smallrye/Registry<Lorg/eclipse/microprofile/config/spi/ConfigSource;>;"
+267: Tag 1 Utf8 Value "Signature"
+268: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/config/smallrye/Registry<Lorg/eclipse/microprofile/config/spi/ConfigSource;>;)V"
+269: Tag 1 Utf8 Value "getAttributes"
+270: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+271: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/jboss/as/controller/AttributeDefinition;>;"
+272: Tag 1 Utf8 Value "moduleID"
+273: Tag 1 Utf8 Value "Lorg/jboss/modules/ModuleIdentifier;"
+274: Tag 1 Utf8 Value "Lorg/jboss/modules/Module;"
+275: Tag 1 Utf8 Value "clazz"
+276: Tag 1 Utf8 Value "Ljava/lang/Class;"
+277: Tag 1 Utf8 Value "e"
+278: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+279: Tag 1 Utf8 Value "classModel"
+280: Tag 1 Utf8 Value "className"
+281: Tag 1 Utf8 Value "Ljava/lang/String;"
+282: Tag 1 Utf8 Value "moduleName"
+283: Tag 1 Utf8 Value "Ljava/lang/Class<*>;"
+284: Tag 1 Utf8 Value "StackMapTable"
+285: Tag 1 Utf8 Value "Exceptions"
+286: Tag 7 Class Name index 287
+287: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+288: Tag 1 Utf8 Value "access$000"
+289: Tag 1 Utf8 Value "x0"
+290: Tag 1 Utf8 Value "<clinit>"
+291: Tag 1 Utf8 Value "()V"
+292: Tag 1 Utf8 Value "SourceFile"
+293: Tag 1 Utf8 Value "ConfigSourceDefinition.java"
+294: Tag 1 Utf8 Value "InnerClasses"
+295: Tag 7 Class Name index 296
+296: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition"
+297: Tag 1 Utf8 Value "Parameters"
+298: Tag 1 Utf8 Value "ConfigSourceDefinitionAddHandler"
+299: Tag 7 Class Name index 300
+300: Tag 1 Utf8 Value "org/jboss/as/controller/PropertiesAttributeDefinition"
+301: Tag 1 Utf8 Value "Builder"
+302: Tag 7 Class Name index 303
+303: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeParsers"
+304: Tag 1 Utf8 Value "PropertiesParser"
+305: Tag 7 Class Name index 306
+306: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeMarshallers"
+307: Tag 1 Utf8 Value "PropertiesAttributeMarshaller"
+308: Tag 7 Class Name index 309
+309: Tag 1 Utf8 Value "org/jboss/as/controller/ObjectTypeAttributeDefinition"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 4, name org.wildfly.extension.microprofile.config.smallrye.ConfigSourceDefinition
+
+Super class: id 52, name org.jboss.as.controller.PersistentResourceDefinition
+
+No interfaces
+
+Field name ORDINAL (index 157), type Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 158)
+Human type: org.jboss.as.controller.AttributeDefinition
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+No field attributes
+Field name PROPERTIES (index 197), type Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 158)
+Human type: org.jboss.as.controller.AttributeDefinition
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+No field attributes
+Field name CLASS (index 227), type Lorg/jboss/as/controller/ObjectTypeAttributeDefinition; (descriptor index 228)
+Human type: org.jboss.as.controller.ObjectTypeAttributeDefinition
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+No field attributes
+Field name PATH (index 243), type Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 158)
+Human type: org.jboss.as.controller.AttributeDefinition
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+No field attributes
+Field name RELATIVE_TO (index 248), type Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 158)
+Human type: org.jboss.as.controller.AttributeDefinition
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+No field attributes
+Field name DIR (index 257), type Lorg/jboss/as/controller/ObjectTypeAttributeDefinition; (descriptor index 228)
+Human type: org.jboss.as.controller.ObjectTypeAttributeDefinition
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+No field attributes
+Field name ATTRIBUTES (index 58), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 59)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+No field attributes
+
+Method name <init> (index 31), type (Lorg/wildfly/extension/microprofile/config/smallrye/Registry;)V (descriptor index 37)
+Human type: (org.wildfly.extension.microprofile.config.smallrye.Registry): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 138
+Method attribute name Signature, size 2
+Method name getAttributes (index 269), type ()Ljava/util/Collection; (descriptor index 270)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 49
+Method attribute name Signature, size 2
+Method name unwrapClass (index 7), type (Lorg/jboss/dmr/ModelNode;)Ljava/lang/Class; (descriptor index 8)
+Human type: (org.jboss.dmr.ModelNode): java.lang.Class
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 243
+Method attribute name Exceptions, size 4
+Method name access$000 (index 288), type (Lorg/jboss/dmr/ModelNode;)Ljava/lang/Class; (descriptor index 8)
+Human type: (org.jboss.dmr.ModelNode): java.lang.Class
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 290), type ()V (descriptor index 291)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 576
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 50

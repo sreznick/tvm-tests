@@ -1,0 +1,163 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 103
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller"
+3: Tag 9 FieldRef Class index 1, Name and type index 4
+4: Tag 12 NameAndType Name index 5, Description index 6
+5: Tag 1 Utf8 Value "INSTANCE"
+6: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller;"
+7: Tag 9 FieldRef Class index 1, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "$VALUES"
+10: Tag 1 Utf8 Value "[Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 10
+13: Tag 12 NameAndType Name index 14, Description index 15
+14: Tag 1 Utf8 Value "clone"
+15: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+16: Tag 10 MethodRef Class index 17, Name and type index 18
+17: Tag 7 Class Name index 19
+18: Tag 12 NameAndType Name index 20, Description index 21
+19: Tag 1 Utf8 Value "java/lang/Enum"
+20: Tag 1 Utf8 Value "valueOf"
+21: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;"
+22: Tag 10 MethodRef Class index 17, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "<init>"
+25: Tag 1 Utf8 Value "(Ljava/lang/String;I)V"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "java/io/Serializable"
+28: Tag 7 Class Name index 29
+29: Tag 1 Utf8 Value "java/io/ObjectInputStream"
+30: Tag 10 MethodRef Class index 28, Name and type index 31
+31: Tag 12 NameAndType Name index 24, Description index 32
+32: Tag 1 Utf8 Value "(Ljava/io/InputStream;)V"
+33: Tag 10 MethodRef Class index 28, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 15
+35: Tag 1 Utf8 Value "readObject"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+38: Tag 7 Class Name index 39
+39: Tag 1 Utf8 Value "java/io/InvalidClassException"
+40: Tag 10 MethodRef Class index 36, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 43
+42: Tag 1 Utf8 Value "getMessage"
+43: Tag 1 Utf8 Value "()Ljava/lang/String;"
+44: Tag 10 MethodRef Class index 38, Name and type index 45
+45: Tag 12 NameAndType Name index 24, Description index 46
+46: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+47: Tag 10 MethodRef Class index 38, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "initCause"
+50: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/lang/Throwable;"
+51: Tag 7 Class Name index 52
+52: Tag 1 Utf8 Value "java/io/ObjectOutputStream"
+53: Tag 10 MethodRef Class index 51, Name and type index 54
+54: Tag 12 NameAndType Name index 24, Description index 55
+55: Tag 1 Utf8 Value "(Ljava/io/OutputStream;)V"
+56: Tag 10 MethodRef Class index 51, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "writeObject"
+59: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+60: Tag 8 String Contents 5
+61: Tag 10 MethodRef Class index 1, Name and type index 23
+62: Tag 10 MethodRef Class index 1, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 65
+64: Tag 1 Utf8 Value "$values"
+65: Tag 1 Utf8 Value "()[Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller;"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/ByteBufferMarshaller"
+68: Tag 1 Utf8 Value "values"
+69: Tag 1 Utf8 Value "Code"
+70: Tag 1 Utf8 Value "LineNumberTable"
+71: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller;"
+72: Tag 1 Utf8 Value "LocalVariableTable"
+73: Tag 1 Utf8 Value "name"
+74: Tag 1 Utf8 Value "Ljava/lang/String;"
+75: Tag 1 Utf8 Value "this"
+76: Tag 1 Utf8 Value "Signature"
+77: Tag 1 Utf8 Value "()V"
+78: Tag 1 Utf8 Value "isMarshallable"
+79: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+80: Tag 1 Utf8 Value "object"
+81: Tag 1 Utf8 Value "Ljava/lang/Object;"
+82: Tag 1 Utf8 Value "readFrom"
+83: Tag 1 Utf8 Value "(Ljava/io/InputStream;)Ljava/lang/Object;"
+84: Tag 1 Utf8 Value "exception"
+85: Tag 1 Utf8 Value "Ljava/io/InvalidClassException;"
+86: Tag 1 Utf8 Value "e"
+87: Tag 1 Utf8 Value "Ljava/lang/ClassNotFoundException;"
+88: Tag 1 Utf8 Value "input"
+89: Tag 1 Utf8 Value "Ljava/io/InputStream;"
+90: Tag 1 Utf8 Value "StackMapTable"
+91: Tag 1 Utf8 Value "Exceptions"
+92: Tag 7 Class Name index 93
+93: Tag 1 Utf8 Value "java/io/IOException"
+94: Tag 1 Utf8 Value "writeTo"
+95: Tag 1 Utf8 Value "(Ljava/io/OutputStream;Ljava/lang/Object;)V"
+96: Tag 1 Utf8 Value "output"
+97: Tag 1 Utf8 Value "Ljava/io/OutputStream;"
+98: Tag 1 Utf8 Value "value"
+99: Tag 1 Utf8 Value "<clinit>"
+100: Tag 1 Utf8 Value "Ljava/lang/Enum<Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller;>;Lorg/wildfly/clustering/marshalling/spi/ByteBufferMarshaller;"
+101: Tag 1 Utf8 Value "SourceFile"
+102: Tag 1 Utf8 Value "JavaByteBufferMarshaller.java"
+
+Flags: decimal 16433, hex 4031, binary 0100000000110001 public final super enum
+
+This class: id 1, name org.wildfly.clustering.marshalling.spi.JavaByteBufferMarshaller
+
+Super class: id 17, name java.lang.Enum
+
+Implements class ids 66
+Implements names org.wildfly.clustering.marshalling.spi.ByteBufferMarshaller
+
+Field name INSTANCE (index 5), type Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller; (descriptor index 6)
+Human type: org.wildfly.clustering.marshalling.spi.JavaByteBufferMarshaller
+Flags: decimal 16409, hex 4019, binary 0100000000011001 public static final enum
+No field attributes
+Field name $VALUES (index 9), type [Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller; (descriptor index 10)
+Human type: org.wildfly.clustering.marshalling.spi.JavaByteBufferMarshaller[]
+Flags: decimal 4122, hex 101a, binary 0001000000011010 private static final synthetic
+No field attributes
+
+Method name values (index 68), type ()[Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller; (descriptor index 65)
+Human type: (): org.wildfly.clustering.marshalling.spi.JavaByteBufferMarshaller[]
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 34
+Method name valueOf (index 20), type (Ljava/lang/String;)Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller; (descriptor index 71)
+Human type: (java.lang.String): org.wildfly.clustering.marshalling.spi.JavaByteBufferMarshaller
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 52
+Method name <init> (index 24), type (Ljava/lang/String;I)V (descriptor index 25)
+Human type: (java.lang.String, int): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 49
+Method attribute name Signature, size 2
+Method name isMarshallable (index 78), type (Ljava/lang/Object;)Z (descriptor index 79)
+Human type: (java.lang.Object): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 57
+Method name readFrom (index 82), type (Ljava/io/InputStream;)Ljava/lang/Object; (descriptor index 83)
+Human type: (java.io.InputStream): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 141
+Method attribute name Exceptions, size 4
+Method name writeTo (index 94), type (Ljava/io/OutputStream;Ljava/lang/Object;)V (descriptor index 95)
+Human type: (java.io.OutputStream, java.lang.Object): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 79
+Method attribute name Exceptions, size 4
+Method name $values (index 64), type ()[Lorg/wildfly/clustering/marshalling/spi/JavaByteBufferMarshaller; (descriptor index 65)
+Human type: (): org.wildfly.clustering.marshalling.spi.JavaByteBufferMarshaller[]
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 35
+Method name <clinit> (index 99), type ()V (descriptor index 77)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 48
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

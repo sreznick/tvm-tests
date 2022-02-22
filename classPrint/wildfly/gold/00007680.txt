@@ -1,0 +1,405 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 295
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition$Parameters"
+3: Tag 9 FieldRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingExtension"
+7: Tag 1 Utf8 Value "SUBSYSTEM_PATH"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+9: Tag 7 Class Name index 10
+10: Tag 1 Utf8 Value "java/lang/String"
+11: Tag 8 String Contents 12
+12: Tag 1 Utf8 Value "messaging-activemq"
+13: Tag 10 MethodRef Class index 4, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+16: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+17: Tag 10 MethodRef Class index 1, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "<init>"
+20: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+21: Tag 7 Class Name index 22
+22: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingSubsystemAdd"
+23: Tag 10 MethodRef Class index 21, Name and type index 24
+24: Tag 12 NameAndType Name index 19, Description index 25
+25: Tag 1 Utf8 Value "(Ljava/util/function/BiConsumer;)V"
+26: Tag 10 MethodRef Class index 1, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "setAddHandler"
+29: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+30: Tag 9 FieldRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/as/controller/ReloadRequiredRemoveStepHandler"
+34: Tag 1 Utf8 Value "INSTANCE"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ReloadRequiredRemoveStepHandler;"
+36: Tag 10 MethodRef Class index 1, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 29
+38: Tag 1 Utf8 Value "setRemoveHandler"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+41: Tag 9 FieldRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition"
+45: Tag 1 Utf8 Value "CONFIGURATION_CAPABILITY"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+47: Tag 10 MethodRef Class index 1, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "setCapabilities"
+50: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/capability/RuntimeCapability;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+51: Tag 10 MethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 19, Description index 55
+54: Tag 1 Utf8 Value "org/jboss/as/controller/PersistentResourceDefinition"
+55: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;)V"
+56: Tag 10 MethodRef Class index 52, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "registerAttributes"
+59: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+60: Tag 9 FieldRef Class index 42, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "METRICS"
+63: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+64: Tag 10 MethodRef Class index 65, Name and type index 66
+65: Tag 7 Class Name index 67
+66: Tag 12 NameAndType Name index 68, Description index 69
+67: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader"
+68: Tag 1 Utf8 Value "access$000"
+69: Tag 1 Utf8 Value "()Lorg/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader;"
+70: Tag 11 InterfaceMethodRef Class index 71, Name and type index 72
+71: Tag 7 Class Name index 73
+72: Tag 12 NameAndType Name index 74, Description index 75
+73: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ManagementResourceRegistration"
+74: Tag 1 Utf8 Value "registerMetric"
+75: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/controller/OperationStepHandler;)V"
+76: Tag 9 FieldRef Class index 42, Name and type index 77
+77: Tag 12 NameAndType Name index 78, Description index 63
+78: Tag 1 Utf8 Value "ATTRIBUTES"
+79: Tag 10 MethodRef Class index 80, Name and type index 81
+80: Tag 7 Class Name index 82
+81: Tag 12 NameAndType Name index 83, Description index 84
+82: Tag 1 Utf8 Value "java/util/Arrays"
+83: Tag 1 Utf8 Value "asList"
+84: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+85: Tag 8 String Contents 86
+86: Tag 1 Utf8 Value "org.wildfly.messaging.activemq.external.configuration"
+87: Tag 10 MethodRef Class index 88, Name and type index 89
+88: Tag 7 Class Name index 90
+89: Tag 12 NameAndType Name index 91, Description index 92
+90: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability$Builder"
+91: Tag 1 Utf8 Value "of"
+92: Tag 1 Utf8 Value "(Ljava/lang/String;Z)Lorg/jboss/as/controller/capability/RuntimeCapability$Builder;"
+93: Tag 7 Class Name index 94
+94: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ExternalBrokerConfigurationService"
+95: Tag 10 MethodRef Class index 88, Name and type index 96
+96: Tag 12 NameAndType Name index 97, Description index 98
+97: Tag 1 Utf8 Value "setServiceType"
+98: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/controller/capability/RuntimeCapability$Builder;"
+99: Tag 10 MethodRef Class index 88, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 102
+101: Tag 1 Utf8 Value "build"
+102: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/capability/RuntimeCapability;"
+103: Tag 8 String Contents 104
+104: Tag 1 Utf8 Value "global-client-thread-pool-max-size"
+105: Tag 9 FieldRef Class index 106, Name and type index 107
+106: Tag 7 Class Name index 108
+107: Tag 12 NameAndType Name index 109, Description index 110
+108: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+109: Tag 1 Utf8 Value "INT"
+110: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+111: Tag 10 MethodRef Class index 112, Name and type index 113
+112: Tag 7 Class Name index 114
+113: Tag 12 NameAndType Name index 115, Description index 116
+114: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+115: Tag 1 Utf8 Value "create"
+116: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+117: Tag 8 String Contents 118
+118: Tag 1 Utf8 Value "global-client"
+119: Tag 10 MethodRef Class index 112, Name and type index 120
+120: Tag 12 NameAndType Name index 121, Description index 122
+121: Tag 1 Utf8 Value "setAttributeGroup"
+122: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+123: Tag 8 String Contents 124
+124: Tag 1 Utf8 Value "thread-pool-max-size"
+125: Tag 10 MethodRef Class index 112, Name and type index 126
+126: Tag 12 NameAndType Name index 127, Description index 122
+127: Tag 1 Utf8 Value "setXmlName"
+128: Tag 10 MethodRef Class index 112, Name and type index 129
+129: Tag 12 NameAndType Name index 130, Description index 131
+130: Tag 1 Utf8 Value "setRequired"
+131: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+132: Tag 10 MethodRef Class index 112, Name and type index 133
+133: Tag 12 NameAndType Name index 134, Description index 131
+134: Tag 1 Utf8 Value "setAllowExpression"
+135: Tag 10 MethodRef Class index 112, Name and type index 136
+136: Tag 12 NameAndType Name index 137, Description index 138
+137: Tag 1 Utf8 Value "setRestartAllServices"
+138: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+139: Tag 10 MethodRef Class index 112, Name and type index 140
+140: Tag 12 NameAndType Name index 101, Description index 141
+141: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+142: Tag 9 FieldRef Class index 42, Name and type index 143
+143: Tag 12 NameAndType Name index 144, Description index 145
+144: Tag 1 Utf8 Value "GLOBAL_CLIENT_THREAD_POOL_MAX_SIZE"
+145: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+146: Tag 7 Class Name index 147
+147: Tag 1 Utf8 Value "org/jboss/as/threads/CommonAttributes"
+148: Tag 8 String Contents 149
+149: Tag 1 Utf8 Value "global-client-thread-pool-active-count"
+150: Tag 9 FieldRef Class index 151, Name and type index 152
+151: Tag 7 Class Name index 153
+152: Tag 12 NameAndType Name index 154, Description index 155
+153: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+154: Tag 1 Utf8 Value "ZERO"
+155: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+156: Tag 10 MethodRef Class index 112, Name and type index 157
+157: Tag 12 NameAndType Name index 158, Description index 159
+158: Tag 1 Utf8 Value "setUndefinedMetricValue"
+159: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+160: Tag 9 FieldRef Class index 161, Name and type index 162
+161: Tag 7 Class Name index 163
+162: Tag 12 NameAndType Name index 164, Description index 165
+163: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess$Flag"
+164: Tag 1 Utf8 Value "GAUGE_METRIC"
+165: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess$Flag;"
+166: Tag 10 MethodRef Class index 112, Name and type index 167
+167: Tag 12 NameAndType Name index 168, Description index 169
+168: Tag 1 Utf8 Value "addFlag"
+169: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/AttributeAccess$Flag;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+170: Tag 9 FieldRef Class index 42, Name and type index 171
+171: Tag 12 NameAndType Name index 172, Description index 145
+172: Tag 1 Utf8 Value "GLOBAL_CLIENT_THREAD_POOL_ACTIVE_COUNT"
+173: Tag 8 String Contents 174
+174: Tag 1 Utf8 Value "global-client-thread-pool-completed-task-count"
+175: Tag 9 FieldRef Class index 161, Name and type index 176
+176: Tag 12 NameAndType Name index 177, Description index 165
+177: Tag 1 Utf8 Value "COUNTER_METRIC"
+178: Tag 9 FieldRef Class index 42, Name and type index 179
+179: Tag 12 NameAndType Name index 180, Description index 145
+180: Tag 1 Utf8 Value "GLOBAL_CLIENT_THREAD_POOL_COMPLETED_TASK_COUNT"
+181: Tag 8 String Contents 182
+182: Tag 1 Utf8 Value "global-client-thread-pool-current-thread-count"
+183: Tag 9 FieldRef Class index 42, Name and type index 184
+184: Tag 12 NameAndType Name index 185, Description index 145
+185: Tag 1 Utf8 Value "GLOBAL_CLIENT_THREAD_POOL_CURRENT_THREAD_COUNT"
+186: Tag 8 String Contents 187
+187: Tag 1 Utf8 Value "global-client-thread-pool-largest-thread-count"
+188: Tag 9 FieldRef Class index 42, Name and type index 189
+189: Tag 12 NameAndType Name index 190, Description index 145
+190: Tag 1 Utf8 Value "GLOBAL_CLIENT_THREAD_POOL_LARGEST_THREAD_COUNT"
+191: Tag 8 String Contents 192
+192: Tag 1 Utf8 Value "global-client-thread-pool-task-count"
+193: Tag 9 FieldRef Class index 42, Name and type index 194
+194: Tag 12 NameAndType Name index 195, Description index 145
+195: Tag 1 Utf8 Value "GLOBAL_CLIENT_THREAD_POOL_TASK_COUNT"
+196: Tag 8 String Contents 197
+197: Tag 1 Utf8 Value "global-client-thread-pool-keepalive-time"
+198: Tag 9 FieldRef Class index 106, Name and type index 199
+199: Tag 12 NameAndType Name index 200, Description index 110
+200: Tag 1 Utf8 Value "LONG"
+201: Tag 9 FieldRef Class index 202, Name and type index 203
+202: Tag 7 Class Name index 204
+203: Tag 12 NameAndType Name index 205, Description index 206
+204: Tag 1 Utf8 Value "org/jboss/as/controller/client/helpers/MeasurementUnit"
+205: Tag 1 Utf8 Value "NANOSECONDS"
+206: Tag 1 Utf8 Value "Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+207: Tag 10 MethodRef Class index 112, Name and type index 208
+208: Tag 12 NameAndType Name index 209, Description index 210
+209: Tag 1 Utf8 Value "setMeasurementUnit"
+210: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/client/helpers/MeasurementUnit;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+211: Tag 9 FieldRef Class index 42, Name and type index 212
+212: Tag 12 NameAndType Name index 213, Description index 145
+213: Tag 1 Utf8 Value "GLOBAL_CLIENT_THREAD_POOL_KEEPALIVE_TIME"
+214: Tag 8 String Contents 215
+215: Tag 1 Utf8 Value "global-client-scheduled-thread-pool-max-size"
+216: Tag 8 String Contents 217
+217: Tag 1 Utf8 Value "scheduled-thread-pool-max-size"
+218: Tag 9 FieldRef Class index 42, Name and type index 219
+219: Tag 12 NameAndType Name index 220, Description index 145
+220: Tag 1 Utf8 Value "GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_MAX_SIZE"
+221: Tag 8 String Contents 222
+222: Tag 1 Utf8 Value "global-client-scheduled-thread-pool-active-count"
+223: Tag 9 FieldRef Class index 42, Name and type index 224
+224: Tag 12 NameAndType Name index 225, Description index 145
+225: Tag 1 Utf8 Value "GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_ACTIVE_COUNT"
+226: Tag 8 String Contents 227
+227: Tag 1 Utf8 Value "global-client-scheduled-thread-pool-completed-task-count"
+228: Tag 9 FieldRef Class index 42, Name and type index 229
+229: Tag 12 NameAndType Name index 230, Description index 145
+230: Tag 1 Utf8 Value "GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_COMPLETED_TASK_COUNT"
+231: Tag 8 String Contents 232
+232: Tag 1 Utf8 Value "global-client-scheduled-thread-pool-current-thread-count"
+233: Tag 9 FieldRef Class index 42, Name and type index 234
+234: Tag 12 NameAndType Name index 235, Description index 145
+235: Tag 1 Utf8 Value "GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_CURRENT_THREAD_COUNT"
+236: Tag 8 String Contents 237
+237: Tag 1 Utf8 Value "global-client-scheduled-thread-pool-largest-thread-count"
+238: Tag 9 FieldRef Class index 42, Name and type index 239
+239: Tag 12 NameAndType Name index 240, Description index 145
+240: Tag 1 Utf8 Value "GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_LARGEST_THREAD_COUNT"
+241: Tag 8 String Contents 242
+242: Tag 1 Utf8 Value "global-client-scheduled-thread-pool-task-count"
+243: Tag 9 FieldRef Class index 42, Name and type index 244
+244: Tag 12 NameAndType Name index 245, Description index 145
+245: Tag 1 Utf8 Value "GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_TASK_COUNT"
+246: Tag 8 String Contents 247
+247: Tag 1 Utf8 Value "global-client-scheduled-thread-pool-keepalive-time"
+248: Tag 9 FieldRef Class index 42, Name and type index 249
+249: Tag 12 NameAndType Name index 250, Description index 145
+250: Tag 1 Utf8 Value "GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_KEEPALIVE_TIME"
+251: Tag 7 Class Name index 252
+252: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+253: Tag 1 Utf8 Value "GLOBAL_CLIENT_PREFIX"
+254: Tag 1 Utf8 Value "Ljava/lang/String;"
+255: Tag 1 Utf8 Value "ConstantValue"
+256: Tag 8 String Contents 257
+257: Tag 1 Utf8 Value "global-client-thread-pool-"
+258: Tag 1 Utf8 Value "GLOBAL_CLIENT_SCHEDULED_PREFIX"
+259: Tag 8 String Contents 260
+260: Tag 1 Utf8 Value "global-client-scheduled-thread-pool-"
+261: Tag 1 Utf8 Value "Signature"
+262: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability<Ljava/lang/Void;>;"
+263: Tag 1 Utf8 Value "Code"
+264: Tag 1 Utf8 Value "LineNumberTable"
+265: Tag 1 Utf8 Value "LocalVariableTable"
+266: Tag 1 Utf8 Value "this"
+267: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition;"
+268: Tag 1 Utf8 Value "broadcastCommandDispatcherFactoryInstaller"
+269: Tag 1 Utf8 Value "Ljava/util/function/BiConsumer;"
+270: Tag 1 Utf8 Value "LocalVariableTypeTable"
+271: Tag 1 Utf8 Value "Ljava/util/function/BiConsumer<Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;>;"
+272: Tag 1 Utf8 Value "(Ljava/util/function/BiConsumer<Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;>;)V"
+273: Tag 1 Utf8 Value "metric"
+274: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+275: Tag 1 Utf8 Value "resourceRegistration"
+276: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+277: Tag 1 Utf8 Value "StackMapTable"
+278: Tag 7 Class Name index 63
+279: Tag 1 Utf8 Value "getAttributes"
+280: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+281: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/jboss/as/controller/AttributeDefinition;>;"
+282: Tag 1 Utf8 Value "<clinit>"
+283: Tag 1 Utf8 Value "()V"
+284: Tag 1 Utf8 Value "SourceFile"
+285: Tag 1 Utf8 Value "MessagingSubsystemRootResourceDefinition.java"
+286: Tag 1 Utf8 Value "InnerClasses"
+287: Tag 7 Class Name index 288
+288: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition"
+289: Tag 1 Utf8 Value "Parameters"
+290: Tag 1 Utf8 Value "ClientThreadPoolMetricReader"
+291: Tag 1 Utf8 Value "Builder"
+292: Tag 7 Class Name index 293
+293: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess"
+294: Tag 1 Utf8 Value "Flag"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 42, name org.wildfly.extension.messaging.activemq.MessagingSubsystemRootResourceDefinition
+
+Super class: id 52, name org.jboss.as.controller.PersistentResourceDefinition
+
+No interfaces
+
+Field name GLOBAL_CLIENT_PREFIX (index 253), type Ljava/lang/String; (descriptor index 254)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name GLOBAL_CLIENT_SCHEDULED_PREFIX (index 258), type Ljava/lang/String; (descriptor index 254)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name CONFIGURATION_CAPABILITY (index 45), type Lorg/jboss/as/controller/capability/RuntimeCapability; (descriptor index 46)
+Human type: org.jboss.as.controller.capability.RuntimeCapability
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Signature, size 2
+Field name GLOBAL_CLIENT_THREAD_POOL_MAX_SIZE (index 144), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_THREAD_POOL_ACTIVE_COUNT (index 172), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_THREAD_POOL_COMPLETED_TASK_COUNT (index 180), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_THREAD_POOL_CURRENT_THREAD_COUNT (index 185), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_THREAD_POOL_LARGEST_THREAD_COUNT (index 190), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_THREAD_POOL_TASK_COUNT (index 195), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_THREAD_POOL_KEEPALIVE_TIME (index 213), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_MAX_SIZE (index 220), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_ACTIVE_COUNT (index 225), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_COMPLETED_TASK_COUNT (index 230), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_CURRENT_THREAD_COUNT (index 235), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_LARGEST_THREAD_COUNT (index 240), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_TASK_COUNT (index 245), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name GLOBAL_CLIENT_SCHEDULED_THREAD_POOL_KEEPALIVE_TIME (index 250), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 145)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ATTRIBUTES (index 78), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 63)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name METRICS (index 62), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 63)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 19), type (Ljava/util/function/BiConsumer;)V (descriptor index 25)
+Human type: (java.util.function.BiConsumer): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 151
+Method attribute name Signature, size 2
+Method name registerAttributes (index 58), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 59)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 142
+Method name getAttributes (index 279), type ()Ljava/util/Collection; (descriptor index 280)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 49
+Method attribute name Signature, size 2
+Method name <clinit> (index 282), type ()V (descriptor index 283)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 1039
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 34

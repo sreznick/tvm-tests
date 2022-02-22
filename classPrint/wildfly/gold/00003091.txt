@@ -1,0 +1,100 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 64
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/IndexSerializer"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Ljava/lang/String;ILorg/wildfly/clustering/marshalling/spi/IndexSerializer$1;)V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/io/DataInput"
+11: Tag 1 Utf8 Value "readUnsignedShort"
+12: Tag 1 Utf8 Value "()I"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "java/lang/Short"
+15: Tag 3 Integer Value 65535, hex: 0xffff
+16: Tag 7 Class Name index 17
+17: Tag 1 Utf8 Value "java/lang/IndexOutOfBoundsException"
+18: Tag 10 MethodRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 22, Description index 23
+21: Tag 1 Utf8 Value "java/lang/Integer"
+22: Tag 1 Utf8 Value "toString"
+23: Tag 1 Utf8 Value "(I)Ljava/lang/String;"
+24: Tag 10 MethodRef Class index 16, Name and type index 25
+25: Tag 12 NameAndType Name index 5, Description index 26
+26: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+27: Tag 11 InterfaceMethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "java/io/DataOutput"
+31: Tag 1 Utf8 Value "writeShort"
+32: Tag 1 Utf8 Value "(I)V"
+33: Tag 7 Class Name index 34
+34: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/IndexSerializer$2"
+35: Tag 1 Utf8 Value "(Ljava/lang/String;I)V"
+36: Tag 1 Utf8 Value "Code"
+37: Tag 1 Utf8 Value "LineNumberTable"
+38: Tag 1 Utf8 Value "LocalVariableTable"
+39: Tag 1 Utf8 Value "this"
+40: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/IndexSerializer$2;"
+41: Tag 1 Utf8 Value "readInt"
+42: Tag 1 Utf8 Value "(Ljava/io/DataInput;)I"
+43: Tag 1 Utf8 Value "input"
+44: Tag 1 Utf8 Value "Ljava/io/DataInput;"
+45: Tag 1 Utf8 Value "Exceptions"
+46: Tag 7 Class Name index 47
+47: Tag 1 Utf8 Value "java/io/IOException"
+48: Tag 1 Utf8 Value "writeInt"
+49: Tag 1 Utf8 Value "(Ljava/io/DataOutput;I)V"
+50: Tag 1 Utf8 Value "output"
+51: Tag 1 Utf8 Value "Ljava/io/DataOutput;"
+52: Tag 1 Utf8 Value "index"
+53: Tag 1 Utf8 Value "I"
+54: Tag 1 Utf8 Value "StackMapTable"
+55: Tag 1 Utf8 Value "size"
+56: Tag 1 Utf8 Value "(I)I"
+57: Tag 1 Utf8 Value "value"
+58: Tag 1 Utf8 Value "SourceFile"
+59: Tag 1 Utf8 Value "IndexSerializer.java"
+60: Tag 1 Utf8 Value "EnclosingMethod"
+61: Tag 1 Utf8 Value "InnerClasses"
+62: Tag 7 Class Name index 63
+63: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/IndexSerializer$1"
+
+Flags: decimal 16432, hex 4030, binary 0100000000110000 final super enum
+
+This class: id 33, name org.wildfly.clustering.marshalling.spi.IndexSerializer$2
+
+Super class: id 2, name org.wildfly.clustering.marshalling.spi.IndexSerializer
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type (Ljava/lang/String;I)V (descriptor index 35)
+Human type: (java.lang.String, int): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 50
+Method name readInt (index 41), type (Ljava/io/DataInput;)I (descriptor index 42)
+Human type: (java.io.DataInput): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 59
+Method attribute name Exceptions, size 4
+Method name writeInt (index 48), type (Ljava/io/DataOutput;I)V (descriptor index 49)
+Human type: (java.io.DataOutput, int): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 109
+Method attribute name Exceptions, size 4
+Method name size (index 55), type (I)I (descriptor index 56)
+Human type: (int): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 54
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

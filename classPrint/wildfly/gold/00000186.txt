@@ -1,0 +1,101 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 50
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/naming/context/NamespaceContextSelector"
+11: Tag 1 Utf8 Value "currentSelector"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/naming/util/ThreadLocalStack;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/naming/util/ThreadLocalStack"
+17: Tag 1 Utf8 Value "push"
+18: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+19: Tag 10 MethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "pop"
+22: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+23: Tag 10 MethodRef Class index 14, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 22
+25: Tag 1 Utf8 Value "peek"
+26: Tag 9 FieldRef Class index 8, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "defaultSelector"
+29: Tag 1 Utf8 Value "Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+30: Tag 10 MethodRef Class index 14, Name and type index 3
+31: Tag 1 Utf8 Value "Signature"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/naming/util/ThreadLocalStack<Lorg/jboss/as/naming/context/NamespaceContextSelector;>;"
+33: Tag 1 Utf8 Value "Code"
+34: Tag 1 Utf8 Value "LineNumberTable"
+35: Tag 1 Utf8 Value "LocalVariableTable"
+36: Tag 1 Utf8 Value "this"
+37: Tag 1 Utf8 Value "pushCurrentSelector"
+38: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/context/NamespaceContextSelector;)V"
+39: Tag 1 Utf8 Value "selector"
+40: Tag 1 Utf8 Value "popCurrentSelector"
+41: Tag 1 Utf8 Value "()Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+42: Tag 1 Utf8 Value "getCurrentSelector"
+43: Tag 1 Utf8 Value "StackMapTable"
+44: Tag 1 Utf8 Value "getContext"
+45: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/naming/Context;"
+46: Tag 1 Utf8 Value "setDefault"
+47: Tag 1 Utf8 Value "<clinit>"
+48: Tag 1 Utf8 Value "SourceFile"
+49: Tag 1 Utf8 Value "NamespaceContextSelector.java"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 8, name org.jboss.as.naming.context.NamespaceContextSelector
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name currentSelector (index 11), type Lorg/jboss/as/naming/util/ThreadLocalStack; (descriptor index 12)
+Human type: org.jboss.as.naming.util.ThreadLocalStack
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Field attribute name Signature, size 2
+Field name defaultSelector (index 28), type Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 29)
+Human type: org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name pushCurrentSelector (index 37), type (Lorg/jboss/as/naming/context/NamespaceContextSelector;)V (descriptor index 38)
+Human type: (org.jboss.as.naming.context.NamespaceContextSelector): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 54
+Method name popCurrentSelector (index 40), type ()Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 41)
+Human type: (): org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 34
+Method name getCurrentSelector (index 42), type ()Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 41)
+Human type: (): org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 88
+Method name getContext (index 44), type (Ljava/lang/String;)Ljavax/naming/Context; (descriptor index 45)
+Human type: (java.lang.String): javax.naming.Context
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name setDefault (index 46), type (Lorg/jboss/as/naming/context/NamespaceContextSelector;)V (descriptor index 38)
+Human type: (org.jboss.as.naming.context.NamespaceContextSelector): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 51
+Method name <clinit> (index 47), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,92 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 48
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/jpa/hibernate5/JBossAppServerJtaPlatform"
+5: Tag 1 Utf8 Value "jtaManager"
+6: Tag 1 Utf8 Value "Lorg/jipijapa/plugin/spi/JtaManager;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/hibernate/engine/transaction/jta/platform/internal/JBossAppServerJtaPlatform"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/hibernate/engine/transaction/jta/platform/internal/SynchronizationRegistryBasedSynchronizationStrategy"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "org/jboss/as/jpa/hibernate5/JBossAppServerJtaPlatform$1"
+17: Tag 10 MethodRef Class index 15, Name and type index 18
+18: Tag 12 NameAndType Name index 11, Description index 19
+19: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/hibernate5/JBossAppServerJtaPlatform;Lorg/jipijapa/plugin/spi/JtaManager;)V"
+20: Tag 10 MethodRef Class index 13, Name and type index 21
+21: Tag 12 NameAndType Name index 11, Description index 22
+22: Tag 1 Utf8 Value "(Lorg/hibernate/engine/transaction/jta/platform/internal/SynchronizationRegistryAccess;)V"
+23: Tag 9 FieldRef Class index 2, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "synchronizationStrategy"
+26: Tag 1 Utf8 Value "Lorg/hibernate/engine/transaction/jta/platform/internal/JtaSynchronizationStrategy;"
+27: Tag 11 InterfaceMethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/jipijapa/plugin/spi/JtaManager"
+31: Tag 1 Utf8 Value "locateTransactionManager"
+32: Tag 1 Utf8 Value "()Ljavax/transaction/TransactionManager;"
+33: Tag 1 Utf8 Value "getJtaManager"
+34: Tag 1 Utf8 Value "()Lorg/jipijapa/plugin/spi/JtaManager;"
+35: Tag 1 Utf8 Value "Code"
+36: Tag 1 Utf8 Value "LineNumberTable"
+37: Tag 1 Utf8 Value "LocalVariableTable"
+38: Tag 1 Utf8 Value "this"
+39: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/hibernate5/JBossAppServerJtaPlatform;"
+40: Tag 1 Utf8 Value "(Lorg/jipijapa/plugin/spi/JtaManager;)V"
+41: Tag 1 Utf8 Value "canCacheTransactionManager"
+42: Tag 1 Utf8 Value "()Z"
+43: Tag 1 Utf8 Value "getSynchronizationStrategy"
+44: Tag 1 Utf8 Value "()Lorg/hibernate/engine/transaction/jta/platform/internal/JtaSynchronizationStrategy;"
+45: Tag 1 Utf8 Value "SourceFile"
+46: Tag 1 Utf8 Value "JBossAppServerJtaPlatform.java"
+47: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 2, name org.jboss.as.jpa.hibernate5.JBossAppServerJtaPlatform
+
+Super class: id 8, name org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform
+
+No interfaces
+
+Field name synchronizationStrategy (index 25), type Lorg/hibernate/engine/transaction/jta/platform/internal/JtaSynchronizationStrategy; (descriptor index 26)
+Human type: org.hibernate.engine.transaction.jta.platform.internal.JtaSynchronizationStrategy
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name jtaManager (index 5), type Lorg/jipijapa/plugin/spi/JtaManager; (descriptor index 6)
+Human type: org.jipijapa.plugin.spi.JtaManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name getJtaManager (index 33), type ()Lorg/jipijapa/plugin/spi/JtaManager; (descriptor index 34)
+Human type: (): org.jipijapa.plugin.spi.JtaManager
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 47
+Method name <init> (index 11), type (Lorg/jipijapa/plugin/spi/JtaManager;)V (descriptor index 40)
+Human type: (org.jipijapa.plugin.spi.JtaManager): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 94
+Method name canCacheTransactionManager (index 41), type ()Z (descriptor index 42)
+Human type: (): boolean
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 44
+Method name locateTransactionManager (index 31), type ()Ljavax/transaction/TransactionManager; (descriptor index 32)
+Human type: (): javax.transaction.TransactionManager
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 52
+Method name getSynchronizationStrategy (index 43), type ()Lorg/hibernate/engine/transaction/jta/platform/internal/JtaSynchronizationStrategy; (descriptor index 44)
+Human type: (): org.hibernate.engine.transaction.jta.platform.internal.JtaSynchronizationStrategy
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

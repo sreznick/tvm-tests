@@ -1,0 +1,130 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 99
+1: Tag 9 FieldRef Class index 19, Name and type index 50
+2: Tag 10 MethodRef Class index 20, Name and type index 51
+3: Tag 7 Class Name index 52
+4: Tag 10 MethodRef Class index 3, Name and type index 51
+5: Tag 11 InterfaceMethodRef Class index 53, Name and type index 54
+6: Tag 9 FieldRef Class index 55, Name and type index 56
+7: Tag 11 InterfaceMethodRef Class index 57, Name and type index 58
+8: Tag 11 InterfaceMethodRef Class index 59, Name and type index 60
+9: Tag 7 Class Name index 61
+10: Tag 11 InterfaceMethodRef Class index 9, Name and type index 62
+11: Tag 10 MethodRef Class index 3, Name and type index 63
+12: Tag 9 FieldRef Class index 55, Name and type index 64
+13: Tag 7 Class Name index 65
+14: Tag 8 String Contents 66
+15: Tag 10 MethodRef Class index 3, Name and type index 67
+16: Tag 10 MethodRef Class index 3, Name and type index 68
+17: Tag 8 String Contents 69
+18: Tag 11 InterfaceMethodRef Class index 53, Name and type index 70
+19: Tag 7 Class Name index 71
+20: Tag 7 Class Name index 72
+21: Tag 7 Class Name index 73
+22: Tag 1 Utf8 Value "this$0"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/connector/subsystems/jca/GetNumberOfConnectionsHandler;"
+24: Tag 1 Utf8 Value "<init>"
+25: Tag 1 Utf8 Value "(Lorg/jboss/as/connector/subsystems/jca/GetNumberOfConnectionsHandler;)V"
+26: Tag 1 Utf8 Value "Code"
+27: Tag 1 Utf8 Value "LineNumberTable"
+28: Tag 1 Utf8 Value "LocalVariableTable"
+29: Tag 1 Utf8 Value "this"
+30: Tag 1 Utf8 Value "InnerClasses"
+31: Tag 1 Utf8 Value "Lorg/jboss/as/connector/subsystems/jca/GetNumberOfConnectionsHandler$1;"
+32: Tag 1 Utf8 Value "execute"
+33: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+34: Tag 1 Utf8 Value "context"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+36: Tag 1 Utf8 Value "operation"
+37: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+38: Tag 1 Utf8 Value "result"
+39: Tag 1 Utf8 Value "ccm"
+40: Tag 1 Utf8 Value "Lorg/jboss/jca/core/api/connectionmanager/ccm/CachedConnectionManager;"
+41: Tag 1 Utf8 Value "txResult"
+42: Tag 1 Utf8 Value "nonTxResult"
+43: Tag 1 Utf8 Value "Exceptions"
+44: Tag 7 Class Name index 74
+45: Tag 1 Utf8 Value "SourceFile"
+46: Tag 1 Utf8 Value "GetNumberOfConnectionsHandler.java"
+47: Tag 1 Utf8 Value "EnclosingMethod"
+48: Tag 7 Class Name index 75
+49: Tag 12 NameAndType Name index 32, Description index 33
+50: Tag 12 NameAndType Name index 22, Description index 23
+51: Tag 12 NameAndType Name index 24, Description index 76
+52: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+53: Tag 7 Class Name index 77
+54: Tag 12 NameAndType Name index 78, Description index 79
+55: Tag 7 Class Name index 80
+56: Tag 12 NameAndType Name index 81, Description index 82
+57: Tag 7 Class Name index 83
+58: Tag 12 NameAndType Name index 84, Description index 85
+59: Tag 7 Class Name index 86
+60: Tag 12 NameAndType Name index 87, Description index 88
+61: Tag 1 Utf8 Value "org/jboss/jca/core/api/connectionmanager/ccm/CachedConnectionManager"
+62: Tag 12 NameAndType Name index 89, Description index 90
+63: Tag 12 NameAndType Name index 91, Description index 92
+64: Tag 12 NameAndType Name index 93, Description index 82
+65: Tag 1 Utf8 Value "org/jboss/as/connector/subsystems/jca/Constants"
+66: Tag 1 Utf8 Value "TX"
+67: Tag 12 NameAndType Name index 94, Description index 95
+68: Tag 12 NameAndType Name index 91, Description index 96
+69: Tag 1 Utf8 Value "NonTX"
+70: Tag 12 NameAndType Name index 97, Description index 98
+71: Tag 1 Utf8 Value "org/jboss/as/connector/subsystems/jca/GetNumberOfConnectionsHandler$1"
+72: Tag 1 Utf8 Value "java/lang/Object"
+73: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+74: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+75: Tag 1 Utf8 Value "org/jboss/as/connector/subsystems/jca/GetNumberOfConnectionsHandler"
+76: Tag 1 Utf8 Value "()V"
+77: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+78: Tag 1 Utf8 Value "getServiceRegistry"
+79: Tag 1 Utf8 Value "(Z)Lorg/jboss/msc/service/ServiceRegistry;"
+80: Tag 1 Utf8 Value "org/jboss/as/connector/util/ConnectorServices"
+81: Tag 1 Utf8 Value "CCM_SERVICE"
+82: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+83: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+84: Tag 1 Utf8 Value "getService"
+85: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+86: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+87: Tag 1 Utf8 Value "getValue"
+88: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+89: Tag 1 Utf8 Value "getNumberOfConnections"
+90: Tag 1 Utf8 Value "()I"
+91: Tag 1 Utf8 Value "set"
+92: Tag 1 Utf8 Value "(I)Lorg/jboss/dmr/ModelNode;"
+93: Tag 1 Utf8 Value "NON_TX_CCM_SERVICE"
+94: Tag 1 Utf8 Value "get"
+95: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+96: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+97: Tag 1 Utf8 Value "getResult"
+98: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 19, name org.jboss.as.connector.subsystems.jca.GetNumberOfConnectionsHandler$1
+
+Super class: id 20, name java.lang.Object
+
+Implements class ids 21
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name this$0 (index 22), type Lorg/jboss/as/connector/subsystems/jca/GetNumberOfConnectionsHandler; (descriptor index 23)
+Human type: org.jboss.as.connector.subsystems.jca.GetNumberOfConnectionsHandler
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 24), type (Lorg/jboss/as/connector/subsystems/jca/GetNumberOfConnectionsHandler;)V (descriptor index 25)
+Human type: (org.jboss.as.connector.subsystems.jca.GetNumberOfConnectionsHandler): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 62
+Method name execute (index 32), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 33)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 266
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

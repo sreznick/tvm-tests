@@ -1,0 +1,90 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 47
+1: Tag 11 InterfaceMethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/SessionFactory"
+5: Tag 1 Utf8 Value "getAttributesFactory"
+6: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/SessionAttributesFactory;"
+7: Tag 11 InterfaceMethodRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "getMetaDataFactory"
+10: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/SessionMetaDataFactory;"
+11: Tag 7 Class Name index 12
+12: Tag 1 Utf8 Value "java/lang/Object"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/ImmutableSessionFactory"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Creator"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Remover"
+19: Tag 7 Class Name index 20
+20: Tag 1 Utf8 Value "java/lang/AutoCloseable"
+21: Tag 1 Utf8 Value "Signature"
+22: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/SessionMetaDataFactory<TMV;>;"
+23: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/SessionAttributesFactory<TSC;TAV;>;"
+24: Tag 1 Utf8 Value "createSession"
+25: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/Map$Entry;Ljava/lang/Object;)Lorg/wildfly/clustering/web/session/Session;"
+26: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/Map$Entry<TMV;TAV;>;TSC;)Lorg/wildfly/clustering/web/session/Session<TLC;>;"
+27: Tag 1 Utf8 Value "close"
+28: Tag 1 Utf8 Value "()V"
+29: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/ImmutableSessionAttributesFactory;"
+30: Tag 1 Utf8 Value "Code"
+31: Tag 1 Utf8 Value "LineNumberTable"
+32: Tag 1 Utf8 Value "LocalVariableTable"
+33: Tag 1 Utf8 Value "this"
+34: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionFactory;"
+35: Tag 1 Utf8 Value "LocalVariableTypeTable"
+36: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionFactory<TSC;TMV;TAV;TLC;>;"
+37: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/ImmutableSessionMetaDataFactory;"
+38: Tag 1 Utf8 Value "<SC:Ljava/lang/Object;MV:Ljava/lang/Object;AV:Ljava/lang/Object;LC:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/web/cache/session/ImmutableSessionFactory<TMV;TAV;>;Lorg/wildfly/clustering/ee/Creator<Ljava/lang/String;Ljava/util/Map$Entry<TMV;TAV;>;Ljava/lang/Void;>;Lorg/wildfly/clustering/ee/Remover<Ljava/lang/String;>;Ljava/lang/AutoCloseable;"
+39: Tag 1 Utf8 Value "SourceFile"
+40: Tag 1 Utf8 Value "SessionFactory.java"
+41: Tag 1 Utf8 Value "InnerClasses"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "java/util/Map$Entry"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "java/util/Map"
+46: Tag 1 Utf8 Value "Entry"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 2, name org.wildfly.clustering.web.cache.session.SessionFactory
+
+Super class: id 11, name java.lang.Object
+
+Implements class ids 13 15 17 19
+Implements names org.wildfly.clustering.web.cache.session.ImmutableSessionFactory org.wildfly.clustering.ee.Creator org.wildfly.clustering.ee.Remover java.lang.AutoCloseable
+
+No fields
+
+Method name getMetaDataFactory (index 9), type ()Lorg/wildfly/clustering/web/cache/session/SessionMetaDataFactory; (descriptor index 10)
+Human type: (): org.wildfly.clustering.web.cache.session.SessionMetaDataFactory
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name getAttributesFactory (index 5), type ()Lorg/wildfly/clustering/web/cache/session/SessionAttributesFactory; (descriptor index 6)
+Human type: (): org.wildfly.clustering.web.cache.session.SessionAttributesFactory
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name createSession (index 24), type (Ljava/lang/String;Ljava/util/Map$Entry;Ljava/lang/Object;)Lorg/wildfly/clustering/web/session/Session; (descriptor index 25)
+Human type: (java.lang.String, java.util.Map$Entry, java.lang.Object): org.wildfly.clustering.web.session.Session
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name close (index 27), type ()V (descriptor index 28)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getAttributesFactory (index 5), type ()Lorg/wildfly/clustering/web/cache/session/ImmutableSessionAttributesFactory; (descriptor index 29)
+Human type: (): org.wildfly.clustering.web.cache.session.ImmutableSessionAttributesFactory
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 67
+Method name getMetaDataFactory (index 9), type ()Lorg/wildfly/clustering/web/cache/session/ImmutableSessionMetaDataFactory; (descriptor index 37)
+Human type: (): org.wildfly.clustering.web.cache.session.ImmutableSessionMetaDataFactory
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 67
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

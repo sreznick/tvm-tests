@@ -1,0 +1,175 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 111
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/PredicateCapabilityReference"
+5: Tag 1 Utf8 Value "BOOLEAN"
+6: Tag 1 Utf8 Value "Ljava/util/function/Predicate;"
+7: Tag 10 MethodRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "<init>"
+10: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;Ljava/util/function/Predicate;)V"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 9, Description index 15
+14: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceCapabilityReference"
+15: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;)V"
+16: Tag 9 FieldRef Class index 2, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 6
+18: Tag 1 Utf8 Value "predicate"
+19: Tag 10 MethodRef Class index 2, Name and type index 20
+20: Tag 12 NameAndType Name index 9, Description index 21
+21: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/UnaryRequirement;Lorg/jboss/as/clustering/controller/UnaryCapabilityNameResolver;Ljava/util/function/Predicate;)V"
+22: Tag 10 MethodRef Class index 12, Name and type index 23
+23: Tag 12 NameAndType Name index 9, Description index 24
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/UnaryRequirement;Lorg/jboss/as/clustering/controller/UnaryCapabilityNameResolver;)V"
+25: Tag 10 MethodRef Class index 2, Name and type index 26
+26: Tag 12 NameAndType Name index 9, Description index 27
+27: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/BinaryRequirement;Lorg/jboss/as/clustering/controller/BinaryCapabilityNameResolver;Ljava/util/function/Predicate;)V"
+28: Tag 10 MethodRef Class index 12, Name and type index 29
+29: Tag 12 NameAndType Name index 9, Description index 30
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/BinaryRequirement;Lorg/jboss/as/clustering/controller/BinaryCapabilityNameResolver;)V"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+33: Tag 10 MethodRef Class index 31, Name and type index 34
+34: Tag 12 NameAndType Name index 9, Description index 35
+35: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+36: Tag 11 InterfaceMethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 41
+39: Tag 1 Utf8 Value "java/util/function/Predicate"
+40: Tag 1 Utf8 Value "test"
+41: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "java/lang/String"
+44: Tag 10 MethodRef Class index 12, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "addCapabilityRequirements"
+47: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;[Ljava/lang/String;)V"
+48: Tag 10 MethodRef Class index 12, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 47
+50: Tag 1 Utf8 Value "removeCapabilityRequirements"
+51: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 52
+52: Tag 12 NameAndType Name index 40, Description index 53
+53: Tag 1 Utf8 Value "()Ljava/util/function/Predicate;"
+54: Tag 1 Utf8 Value "Signature"
+55: Tag 1 Utf8 Value "Ljava/util/function/Predicate<Lorg/jboss/dmr/ModelNode;>;"
+56: Tag 1 Utf8 Value "Code"
+57: Tag 1 Utf8 Value "LineNumberTable"
+58: Tag 1 Utf8 Value "LocalVariableTable"
+59: Tag 1 Utf8 Value "this"
+60: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/PredicateCapabilityReference;"
+61: Tag 1 Utf8 Value "capability"
+62: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Capability;"
+63: Tag 1 Utf8 Value "requirement"
+64: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/Requirement;"
+65: Tag 1 Utf8 Value "LocalVariableTypeTable"
+66: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;Ljava/util/function/Predicate<Lorg/jboss/dmr/ModelNode;>;)V"
+67: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/UnaryRequirement;"
+68: Tag 1 Utf8 Value "requirementNameResolver"
+69: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/UnaryCapabilityNameResolver;"
+70: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/UnaryRequirement;Lorg/jboss/as/clustering/controller/UnaryCapabilityNameResolver;Ljava/util/function/Predicate<Lorg/jboss/dmr/ModelNode;>;)V"
+71: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/BinaryRequirement;"
+72: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/BinaryCapabilityNameResolver;"
+73: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/BinaryRequirement;Lorg/jboss/as/clustering/controller/BinaryCapabilityNameResolver;Ljava/util/function/Predicate<Lorg/jboss/dmr/ModelNode;>;)V"
+74: Tag 1 Utf8 Value "value"
+75: Tag 1 Utf8 Value "Ljava/lang/String;"
+76: Tag 1 Utf8 Value "context"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+78: Tag 1 Utf8 Value "resource"
+79: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+80: Tag 1 Utf8 Value "attributeName"
+81: Tag 1 Utf8 Value "values"
+82: Tag 1 Utf8 Value "[Ljava/lang/String;"
+83: Tag 1 Utf8 Value "StackMapTable"
+84: Tag 7 Class Name index 82
+85: Tag 1 Utf8 Value "<clinit>"
+86: Tag 1 Utf8 Value "()V"
+87: Tag 1 Utf8 Value "SourceFile"
+88: Tag 1 Utf8 Value "PredicateCapabilityReference.java"
+89: Tag 1 Utf8 Value "BootstrapMethods"
+90: Tag 15 MethodHandle Kind 6, Index 91
+91: Tag 10 MethodRef Class index 92, Name and type index 93
+92: Tag 7 Class Name index 94
+93: Tag 12 NameAndType Name index 95, Description index 96
+94: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+95: Tag 1 Utf8 Value "metafactory"
+96: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+97: Tag 16 MethodType Descriptor index 41
+98: Tag 15 MethodHandle Kind 5, Index 99
+99: Tag 10 MethodRef Class index 31, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 102
+101: Tag 1 Utf8 Value "asBoolean"
+102: Tag 1 Utf8 Value "()Z"
+103: Tag 16 MethodType Descriptor index 104
+104: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Z"
+105: Tag 1 Utf8 Value "InnerClasses"
+106: Tag 7 Class Name index 107
+107: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+108: Tag 7 Class Name index 109
+109: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+110: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 2, name org.jboss.as.clustering.controller.PredicateCapabilityReference
+
+Super class: id 12, name org.jboss.as.clustering.controller.ResourceCapabilityReference
+
+No interfaces
+
+Field name BOOLEAN (index 5), type Ljava/util/function/Predicate; (descriptor index 6)
+Human type: java.util.function.Predicate
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+Field name predicate (index 18), type Ljava/util/function/Predicate; (descriptor index 6)
+Human type: java.util.function.Predicate
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 9), type (Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;)V (descriptor index 15)
+Human type: (org.jboss.as.clustering.controller.Capability, org.wildfly.clustering.service.Requirement): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 76
+Method name <init> (index 9), type (Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;Ljava/util/function/Predicate;)V (descriptor index 10)
+Human type: (org.jboss.as.clustering.controller.Capability, org.wildfly.clustering.service.Requirement, java.util.function.Predicate): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 110
+Method attribute name Signature, size 2
+Method name <init> (index 9), type (Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/UnaryRequirement;Lorg/jboss/as/clustering/controller/UnaryCapabilityNameResolver;)V (descriptor index 24)
+Human type: (org.jboss.as.clustering.controller.Capability, org.wildfly.clustering.service.UnaryRequirement, org.jboss.as.clustering.controller.UnaryCapabilityNameResolver): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 87
+Method name <init> (index 9), type (Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/UnaryRequirement;Lorg/jboss/as/clustering/controller/UnaryCapabilityNameResolver;Ljava/util/function/Predicate;)V (descriptor index 21)
+Human type: (org.jboss.as.clustering.controller.Capability, org.wildfly.clustering.service.UnaryRequirement, org.jboss.as.clustering.controller.UnaryCapabilityNameResolver, java.util.function.Predicate): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 122
+Method attribute name Signature, size 2
+Method name <init> (index 9), type (Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/BinaryRequirement;Lorg/jboss/as/clustering/controller/BinaryCapabilityNameResolver;)V (descriptor index 30)
+Human type: (org.jboss.as.clustering.controller.Capability, org.wildfly.clustering.service.BinaryRequirement, org.jboss.as.clustering.controller.BinaryCapabilityNameResolver): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 87
+Method name <init> (index 9), type (Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/BinaryRequirement;Lorg/jboss/as/clustering/controller/BinaryCapabilityNameResolver;Ljava/util/function/Predicate;)V (descriptor index 27)
+Human type: (org.jboss.as.clustering.controller.Capability, org.wildfly.clustering.service.BinaryRequirement, org.jboss.as.clustering.controller.BinaryCapabilityNameResolver, java.util.function.Predicate): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 122
+Method attribute name Signature, size 2
+Method name addCapabilityRequirements (index 46), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;[Ljava/lang/String;)V (descriptor index 47)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.controller.registry.Resource, java.lang.String, java.lang.String[]): void
+Flags: decimal 129, hex 0081, binary 0000000010000001 public varargs
+Method attribute name Code, size 198
+Method name removeCapabilityRequirements (index 50), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;[Ljava/lang/String;)V (descriptor index 47)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.controller.registry.Resource, java.lang.String, java.lang.String[]): void
+Flags: decimal 129, hex 0081, binary 0000000010000001 public varargs
+Method attribute name Code, size 198
+Method name <clinit> (index 85), type ()V (descriptor index 86)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 10

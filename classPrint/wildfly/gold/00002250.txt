@@ -1,0 +1,264 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 199
+1: Tag 10 MethodRef Class index 37, Name and type index 93
+2: Tag 10 MethodRef Class index 36, Name and type index 94
+3: Tag 10 MethodRef Class index 95, Name and type index 96
+4: Tag 10 MethodRef Class index 36, Name and type index 97
+5: Tag 7 Class Name index 98
+6: Tag 10 MethodRef Class index 5, Name and type index 99
+7: Tag 11 InterfaceMethodRef Class index 100, Name and type index 101
+8: Tag 7 Class Name index 102
+9: Tag 10 MethodRef Class index 8, Name and type index 103
+10: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 109
+11: Tag 10 MethodRef Class index 110, Name and type index 111
+12: Tag 11 InterfaceMethodRef Class index 112, Name and type index 113
+13: Tag 7 Class Name index 114
+14: Tag 9 FieldRef Class index 115, Name and type index 116
+15: Tag 11 InterfaceMethodRef Class index 115, Name and type index 117
+16: Tag 10 MethodRef Class index 118, Name and type index 119
+17: Tag 10 MethodRef Class index 118, Name and type index 120
+18: Tag 7 Class Name index 121
+19: Tag 10 MethodRef Class index 18, Name and type index 93
+20: Tag 10 MethodRef Class index 36, Name and type index 122
+21: Tag 10 MethodRef Class index 18, Name and type index 123
+22: Tag 8 String Contents 124
+23: Tag 10 MethodRef Class index 18, Name and type index 125
+24: Tag 7 Class Name index 126
+25: Tag 10 MethodRef Class index 37, Name and type index 125
+26: Tag 8 String Contents 127
+27: Tag 8 String Contents 128
+28: Tag 11 InterfaceMethodRef Class index 100, Name and type index 129
+29: Tag 7 Class Name index 130
+30: Tag 11 InterfaceMethodRef Class index 100, Name and type index 131
+31: Tag 10 MethodRef Class index 132, Name and type index 133
+32: Tag 9 FieldRef Class index 134, Name and type index 135
+33: Tag 9 FieldRef Class index 134, Name and type index 136
+34: Tag 10 MethodRef Class index 137, Name and type index 138
+35: Tag 9 FieldRef Class index 36, Name and type index 139
+36: Tag 7 Class Name index 140
+37: Tag 7 Class Name index 141
+38: Tag 1 Utf8 Value "SessionSynchronization"
+39: Tag 1 Utf8 Value "InnerClasses"
+40: Tag 1 Utf8 Value "eventTypes"
+41: Tag 1 Utf8 Value "Ljava/util/EnumSet;"
+42: Tag 1 Utf8 Value "Signature"
+43: Tag 1 Utf8 Value "Ljava/util/EnumSet<Lorg/jboss/tm/listener/EventType;>;"
+44: Tag 1 Utf8 Value "<init>"
+45: Tag 1 Utf8 Value "()V"
+46: Tag 1 Utf8 Value "Code"
+47: Tag 1 Utf8 Value "LineNumberTable"
+48: Tag 1 Utf8 Value "LocalVariableTable"
+49: Tag 1 Utf8 Value "this"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/transaction/TransactionUtil;"
+51: Tag 1 Utf8 Value "isInTx"
+52: Tag 1 Utf8 Value "(Ljavax/transaction/TransactionManager;)Z"
+53: Tag 1 Utf8 Value "transactionManager"
+54: Tag 1 Utf8 Value "Ljavax/transaction/TransactionManager;"
+55: Tag 1 Utf8 Value "tx"
+56: Tag 1 Utf8 Value "Ljavax/transaction/Transaction;"
+57: Tag 1 Utf8 Value "StackMapTable"
+58: Tag 7 Class Name index 142
+59: Tag 1 Utf8 Value "getTransactionScopedEntityManager"
+60: Tag 1 Utf8 Value "(Ljava/lang/String;Ljavax/transaction/TransactionSynchronizationRegistry;)Ljavax/persistence/EntityManager;"
+61: Tag 1 Utf8 Value "puScopedName"
+62: Tag 1 Utf8 Value "Ljava/lang/String;"
+63: Tag 1 Utf8 Value "tsr"
+64: Tag 1 Utf8 Value "Ljavax/transaction/TransactionSynchronizationRegistry;"
+65: Tag 1 Utf8 Value "registerSynchronization"
+66: Tag 1 Utf8 Value "(Ljavax/persistence/EntityManager;Ljava/lang/String;Ljavax/transaction/TransactionSynchronizationRegistry;Ljavax/transaction/TransactionManager;)V"
+67: Tag 1 Utf8 Value "entityManager"
+68: Tag 1 Utf8 Value "Ljavax/persistence/EntityManager;"
+69: Tag 1 Utf8 Value "sessionSynchronization"
+70: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/transaction/TransactionUtil$SessionSynchronization;"
+71: Tag 1 Utf8 Value "transaction"
+72: Tag 1 Utf8 Value "Lorg/wildfly/transaction/client/AbstractTransaction;"
+73: Tag 1 Utf8 Value "getTransaction"
+74: Tag 1 Utf8 Value "(Ljavax/transaction/TransactionManager;)Ljavax/transaction/Transaction;"
+75: Tag 1 Utf8 Value "e"
+76: Tag 1 Utf8 Value "Ljavax/transaction/SystemException;"
+77: Tag 1 Utf8 Value "currentThread"
+78: Tag 1 Utf8 Value "()Ljava/lang/String;"
+79: Tag 1 Utf8 Value "getEntityManagerDetails"
+80: Tag 1 Utf8 Value "(Ljavax/persistence/EntityManager;Ljava/lang/String;)Ljava/lang/String;"
+81: Tag 1 Utf8 Value "manager"
+82: Tag 1 Utf8 Value "scopedPuName"
+83: Tag 1 Utf8 Value "result"
+84: Tag 7 Class Name index 143
+85: Tag 1 Utf8 Value "getEntityManagerInTransactionRegistry"
+86: Tag 1 Utf8 Value "putEntityManagerInTransactionRegistry"
+87: Tag 1 Utf8 Value "(Ljava/lang/String;Ljavax/persistence/EntityManager;Ljavax/transaction/TransactionSynchronizationRegistry;)V"
+88: Tag 1 Utf8 Value "lambda$registerSynchronization$0"
+89: Tag 1 Utf8 Value "(Lorg/wildfly/transaction/client/AbstractTransaction;Lorg/jboss/as/jpa/transaction/TransactionUtil$SessionSynchronization;)Ljava/lang/Void;"
+90: Tag 1 Utf8 Value "<clinit>"
+91: Tag 1 Utf8 Value "SourceFile"
+92: Tag 1 Utf8 Value "TransactionUtil.java"
+93: Tag 12 NameAndType Name index 44, Description index 45
+94: Tag 12 NameAndType Name index 73, Description index 74
+95: Tag 7 Class Name index 144
+96: Tag 12 NameAndType Name index 145, Description index 146
+97: Tag 12 NameAndType Name index 85, Description index 60
+98: Tag 1 Utf8 Value "org/jboss/as/jpa/transaction/TransactionUtil$SessionSynchronization"
+99: Tag 12 NameAndType Name index 44, Description index 147
+100: Tag 7 Class Name index 148
+101: Tag 12 NameAndType Name index 149, Description index 150
+102: Tag 1 Utf8 Value "org/wildfly/transaction/client/ContextTransactionManager"
+103: Tag 12 NameAndType Name index 73, Description index 151
+104: Tag 1 Utf8 Value "BootstrapMethods"
+105: Tag 15 MethodHandle Kind 6, Index 152
+106: Tag 16 MethodType Descriptor index 153
+107: Tag 15 MethodHandle Kind 6, Index 154
+108: Tag 16 MethodType Descriptor index 155
+109: Tag 12 NameAndType Name index 156, Description index 157
+110: Tag 7 Class Name index 158
+111: Tag 12 NameAndType Name index 159, Description index 160
+112: Tag 7 Class Name index 161
+113: Tag 12 NameAndType Name index 73, Description index 162
+114: Tag 1 Utf8 Value "javax/transaction/SystemException"
+115: Tag 7 Class Name index 163
+116: Tag 12 NameAndType Name index 164, Description index 165
+117: Tag 12 NameAndType Name index 166, Description index 167
+118: Tag 7 Class Name index 168
+119: Tag 12 NameAndType Name index 77, Description index 169
+120: Tag 12 NameAndType Name index 170, Description index 78
+121: Tag 1 Utf8 Value "java/lang/StringBuilder"
+122: Tag 12 NameAndType Name index 77, Description index 78
+123: Tag 12 NameAndType Name index 171, Description index 172
+124: Tag 1 Utf8 Value ":"
+125: Tag 12 NameAndType Name index 173, Description index 78
+126: Tag 1 Utf8 Value "org/jboss/as/jpa/container/ExtendedEntityManager"
+127: Tag 1 Utf8 Value "transaction scoped EntityManager ["
+128: Tag 1 Utf8 Value "]"
+129: Tag 12 NameAndType Name index 174, Description index 175
+130: Tag 1 Utf8 Value "javax/persistence/EntityManager"
+131: Tag 12 NameAndType Name index 176, Description index 177
+132: Tag 7 Class Name index 178
+133: Tag 12 NameAndType Name index 179, Description index 180
+134: Tag 7 Class Name index 181
+135: Tag 12 NameAndType Name index 182, Description index 183
+136: Tag 12 NameAndType Name index 184, Description index 183
+137: Tag 7 Class Name index 185
+138: Tag 12 NameAndType Name index 186, Description index 187
+139: Tag 12 NameAndType Name index 40, Description index 41
+140: Tag 1 Utf8 Value "org/jboss/as/jpa/transaction/TransactionUtil"
+141: Tag 1 Utf8 Value "java/lang/Object"
+142: Tag 1 Utf8 Value "javax/transaction/Transaction"
+143: Tag 1 Utf8 Value "java/lang/String"
+144: Tag 1 Utf8 Value "org/jboss/tm/TxUtils"
+145: Tag 1 Utf8 Value "isActive"
+146: Tag 1 Utf8 Value "(Ljavax/transaction/Transaction;)Z"
+147: Tag 1 Utf8 Value "(Ljavax/persistence/EntityManager;Ljava/lang/String;)V"
+148: Tag 1 Utf8 Value "javax/transaction/TransactionSynchronizationRegistry"
+149: Tag 1 Utf8 Value "registerInterposedSynchronization"
+150: Tag 1 Utf8 Value "(Ljavax/transaction/Synchronization;)V"
+151: Tag 1 Utf8 Value "()Lorg/wildfly/transaction/client/AbstractTransaction;"
+152: Tag 10 MethodRef Class index 188, Name and type index 189
+153: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+154: Tag 10 MethodRef Class index 36, Name and type index 190
+155: Tag 1 Utf8 Value "()Ljava/lang/Void;"
+156: Tag 1 Utf8 Value "run"
+157: Tag 1 Utf8 Value "(Lorg/wildfly/transaction/client/AbstractTransaction;Lorg/jboss/as/jpa/transaction/TransactionUtil$SessionSynchronization;)Ljava/security/PrivilegedAction;"
+158: Tag 1 Utf8 Value "java/security/AccessController"
+159: Tag 1 Utf8 Value "doPrivileged"
+160: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction;)Ljava/lang/Object;"
+161: Tag 1 Utf8 Value "javax/transaction/TransactionManager"
+162: Tag 1 Utf8 Value "()Ljavax/transaction/Transaction;"
+163: Tag 1 Utf8 Value "org/jboss/as/jpa/messages/JpaLogger"
+164: Tag 1 Utf8 Value "ROOT_LOGGER"
+165: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/messages/JpaLogger;"
+166: Tag 1 Utf8 Value "errorGettingTransaction"
+167: Tag 1 Utf8 Value "(Ljava/lang/Exception;)Ljava/lang/IllegalStateException;"
+168: Tag 1 Utf8 Value "java/lang/Thread"
+169: Tag 1 Utf8 Value "()Ljava/lang/Thread;"
+170: Tag 1 Utf8 Value "getName"
+171: Tag 1 Utf8 Value "append"
+172: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+173: Tag 1 Utf8 Value "toString"
+174: Tag 1 Utf8 Value "getResource"
+175: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+176: Tag 1 Utf8 Value "putResource"
+177: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+178: Tag 1 Utf8 Value "org/wildfly/transaction/client/AbstractTransaction"
+179: Tag 1 Utf8 Value "registerAssociationListener"
+180: Tag 1 Utf8 Value "(Lorg/wildfly/transaction/client/AssociationListener;)V"
+181: Tag 1 Utf8 Value "org/jboss/tm/listener/EventType"
+182: Tag 1 Utf8 Value "ASSOCIATED"
+183: Tag 1 Utf8 Value "Lorg/jboss/tm/listener/EventType;"
+184: Tag 1 Utf8 Value "DISASSOCIATING"
+185: Tag 1 Utf8 Value "java/util/EnumSet"
+186: Tag 1 Utf8 Value "of"
+187: Tag 1 Utf8 Value "(Ljava/lang/Enum;Ljava/lang/Enum;)Ljava/util/EnumSet;"
+188: Tag 7 Class Name index 191
+189: Tag 12 NameAndType Name index 192, Description index 195
+190: Tag 12 NameAndType Name index 88, Description index 89
+191: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+192: Tag 1 Utf8 Value "metafactory"
+193: Tag 7 Class Name index 197
+194: Tag 1 Utf8 Value "Lookup"
+195: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+196: Tag 7 Class Name index 198
+197: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+198: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 36, name org.jboss.as.jpa.transaction.TransactionUtil
+
+Super class: id 37, name java.lang.Object
+
+No interfaces
+
+Field name eventTypes (index 40), type Ljava/util/EnumSet; (descriptor index 41)
+Human type: java.util.EnumSet
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+
+Method name <init> (index 44), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name isInTx (index 51), type (Ljavax/transaction/TransactionManager;)Z (descriptor index 52)
+Human type: (javax.transaction.TransactionManager): boolean
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 99
+Method name getTransactionScopedEntityManager (index 59), type (Ljava/lang/String;Ljavax/transaction/TransactionSynchronizationRegistry;)Ljavax/persistence/EntityManager; (descriptor index 60)
+Human type: (java.lang.String, javax.transaction.TransactionSynchronizationRegistry): javax.persistence.EntityManager
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 58
+Method name registerSynchronization (index 65), type (Ljavax/persistence/EntityManager;Ljava/lang/String;Ljavax/transaction/TransactionSynchronizationRegistry;Ljavax/transaction/TransactionManager;)V (descriptor index 66)
+Human type: (javax.persistence.EntityManager, java.lang.String, javax.transaction.TransactionSynchronizationRegistry, javax.transaction.TransactionManager): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 150
+Method name getTransaction (index 73), type (Ljavax/transaction/TransactionManager;)Ljavax/transaction/Transaction; (descriptor index 74)
+Human type: (javax.transaction.TransactionManager): javax.transaction.Transaction
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 98
+Method name currentThread (index 77), type ()Ljava/lang/String; (descriptor index 78)
+Human type: (): java.lang.String
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 31
+Method name getEntityManagerDetails (index 79), type (Ljavax/persistence/EntityManager;Ljava/lang/String;)Ljava/lang/String; (descriptor index 80)
+Human type: (javax.persistence.EntityManager, java.lang.String): java.lang.String
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 178
+Method name getEntityManagerInTransactionRegistry (index 85), type (Ljava/lang/String;Ljavax/transaction/TransactionSynchronizationRegistry;)Ljavax/persistence/EntityManager; (descriptor index 60)
+Human type: (java.lang.String, javax.transaction.TransactionSynchronizationRegistry): javax.persistence.EntityManager
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 63
+Method name putEntityManagerInTransactionRegistry (index 86), type (Ljava/lang/String;Ljavax/persistence/EntityManager;Ljavax/transaction/TransactionSynchronizationRegistry;)V (descriptor index 87)
+Human type: (java.lang.String, javax.persistence.EntityManager, javax.transaction.TransactionSynchronizationRegistry): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 75
+Method name lambda$registerSynchronization$0 (index 88), type (Lorg/wildfly/transaction/client/AbstractTransaction;Lorg/jboss/as/jpa/transaction/TransactionUtil$SessionSynchronization;)Ljava/lang/Void; (descriptor index 89)
+Human type: (org.wildfly.transaction.client.AbstractTransaction, org.jboss.as.jpa.transaction.TransactionUtil$SessionSynchronization): java.lang.Void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 63
+Method name <clinit> (index 90), type ()V (descriptor index 45)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 37
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18
+Class attribute name BootstrapMethods, size 12

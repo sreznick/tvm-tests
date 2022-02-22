@@ -1,0 +1,126 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 90
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+11: Tag 1 Utf8 Value "getDeploymentUnit"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+17: Tag 1 Utf8 Value "MODULE"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+23: Tag 1 Utf8 Value "getAttachment"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+25: Tag 7 Class Name index 26
+26: Tag 1 Utf8 Value "org/jboss/modules/Module"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/eclipse/microprofile/config/spi/ConfigProviderResolver"
+31: Tag 1 Utf8 Value "instance"
+32: Tag 1 Utf8 Value "()Lorg/eclipse/microprofile/config/spi/ConfigProviderResolver;"
+33: Tag 10 MethodRef Class index 25, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "getClassLoader"
+36: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleClassLoader;"
+37: Tag 10 MethodRef Class index 28, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "getConfig"
+40: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Lorg/eclipse/microprofile/config/Config;"
+41: Tag 9 FieldRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 18
+44: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/config/smallrye/deployment/SubsystemDeploymentProcessor"
+45: Tag 1 Utf8 Value "CONFIG"
+46: Tag 11 InterfaceMethodRef Class index 20, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "putAttachment"
+49: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)Ljava/lang/Object;"
+50: Tag 11 InterfaceMethodRef Class index 20, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 24
+52: Tag 1 Utf8 Value "removeAttachment"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/eclipse/microprofile/config/Config"
+55: Tag 10 MethodRef Class index 28, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "releaseConfig"
+58: Tag 1 Utf8 Value "(Lorg/eclipse/microprofile/config/Config;)V"
+59: Tag 10 MethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "org/jboss/as/server/deployment/AttachmentKey"
+63: Tag 1 Utf8 Value "create"
+64: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/server/deployment/AttachmentKey;"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+67: Tag 1 Utf8 Value "Signature"
+68: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey<Lorg/eclipse/microprofile/config/Config;>;"
+69: Tag 1 Utf8 Value "Code"
+70: Tag 1 Utf8 Value "LineNumberTable"
+71: Tag 1 Utf8 Value "LocalVariableTable"
+72: Tag 1 Utf8 Value "this"
+73: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/config/smallrye/deployment/SubsystemDeploymentProcessor;"
+74: Tag 1 Utf8 Value "deploy"
+75: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+76: Tag 1 Utf8 Value "phaseContext"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+78: Tag 1 Utf8 Value "deploymentUnit"
+79: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+80: Tag 1 Utf8 Value "module"
+81: Tag 1 Utf8 Value "Lorg/jboss/modules/Module;"
+82: Tag 1 Utf8 Value "config"
+83: Tag 1 Utf8 Value "Lorg/eclipse/microprofile/config/Config;"
+84: Tag 1 Utf8 Value "undeploy"
+85: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+86: Tag 1 Utf8 Value "context"
+87: Tag 1 Utf8 Value "<clinit>"
+88: Tag 1 Utf8 Value "SourceFile"
+89: Tag 1 Utf8 Value "SubsystemDeploymentProcessor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 42, name org.wildfly.extension.microprofile.config.smallrye.deployment.SubsystemDeploymentProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 65
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name CONFIG (index 45), type Lorg/jboss/as/server/deployment/AttachmentKey; (descriptor index 18)
+Human type: org.jboss.as.server.deployment.AttachmentKey
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method name deploy (index 74), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 75)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 143
+Method name undeploy (index 84), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 85)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 91
+Method name <clinit> (index 87), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2

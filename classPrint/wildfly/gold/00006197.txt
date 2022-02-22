@@ -1,0 +1,176 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 114
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/util/HashMap"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 9 FieldRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/wildfly/extension/metrics/WildFlyMetricRegistry"
+14: Tag 1 Utf8 Value "metadataMap"
+15: Tag 1 Utf8 Value "Ljava/util/Map;"
+16: Tag 7 Class Name index 17
+17: Tag 1 Utf8 Value "java/util/TreeMap"
+18: Tag 10 MethodRef Class index 16, Name and type index 3
+19: Tag 9 FieldRef Class index 11, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 15
+21: Tag 1 Utf8 Value "metricMap"
+22: Tag 7 Class Name index 23
+23: Tag 1 Utf8 Value "java/util/concurrent/locks/ReentrantReadWriteLock"
+24: Tag 10 MethodRef Class index 22, Name and type index 3
+25: Tag 9 FieldRef Class index 11, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "lock"
+28: Tag 1 Utf8 Value "Ljava/util/concurrent/locks/ReadWriteLock;"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "java/util/concurrent/locks/ReadWriteLock"
+33: Tag 1 Utf8 Value "writeLock"
+34: Tag 1 Utf8 Value "()Ljava/util/concurrent/locks/Lock;"
+35: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 27, Description index 6
+38: Tag 1 Utf8 Value "java/util/concurrent/locks/Lock"
+39: Tag 11 InterfaceMethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 6
+42: Tag 1 Utf8 Value "java/util/Map"
+43: Tag 1 Utf8 Value "clear"
+44: Tag 11 InterfaceMethodRef Class index 36, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 6
+46: Tag 1 Utf8 Value "unlock"
+47: Tag 10 MethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "java/util/Objects"
+51: Tag 1 Utf8 Value "requireNonNull"
+52: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+53: Tag 11 InterfaceMethodRef Class index 54, Name and type index 55
+54: Tag 7 Class Name index 56
+55: Tag 12 NameAndType Name index 57, Description index 58
+56: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata"
+57: Tag 1 Utf8 Value "getMetricID"
+58: Tag 1 Utf8 Value "()Lorg/wildfly/extension/metrics/MetricID;"
+59: Tag 11 InterfaceMethodRef Class index 54, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "getMetricName"
+62: Tag 1 Utf8 Value "()Ljava/lang/String;"
+63: Tag 11 InterfaceMethodRef Class index 40, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "containsKey"
+66: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+67: Tag 11 InterfaceMethodRef Class index 40, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "put"
+70: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+71: Tag 11 InterfaceMethodRef Class index 40, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 52
+73: Tag 1 Utf8 Value "remove"
+74: Tag 11 InterfaceMethodRef Class index 30, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 34
+76: Tag 1 Utf8 Value "readLock"
+77: Tag 7 Class Name index 78
+78: Tag 1 Utf8 Value "java/io/Closeable"
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricRegistry"
+81: Tag 1 Utf8 Value "Signature"
+82: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/wildfly/extension/metrics/MetricMetadata;>;"
+83: Tag 1 Utf8 Value "Ljava/util/Map<Lorg/wildfly/extension/metrics/MetricID;Lorg/wildfly/extension/metrics/Metric;>;"
+84: Tag 1 Utf8 Value "Code"
+85: Tag 1 Utf8 Value "LineNumberTable"
+86: Tag 1 Utf8 Value "LocalVariableTable"
+87: Tag 1 Utf8 Value "this"
+88: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/WildFlyMetricRegistry;"
+89: Tag 1 Utf8 Value "close"
+90: Tag 1 Utf8 Value "StackMapTable"
+91: Tag 7 Class Name index 92
+92: Tag 1 Utf8 Value "java/lang/Throwable"
+93: Tag 1 Utf8 Value "getMetrics"
+94: Tag 1 Utf8 Value "()Ljava/util/Map;"
+95: Tag 1 Utf8 Value "()Ljava/util/Map<Lorg/wildfly/extension/metrics/MetricID;Lorg/wildfly/extension/metrics/Metric;>;"
+96: Tag 1 Utf8 Value "getMetricMetadata"
+97: Tag 1 Utf8 Value "()Ljava/util/Map<Ljava/lang/String;Lorg/wildfly/extension/metrics/MetricMetadata;>;"
+98: Tag 1 Utf8 Value "registerMetric"
+99: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/Metric;Lorg/wildfly/extension/metrics/MetricMetadata;)V"
+100: Tag 1 Utf8 Value "metricID"
+101: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricID;"
+102: Tag 1 Utf8 Value "metric"
+103: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/Metric;"
+104: Tag 1 Utf8 Value "metadata"
+105: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricMetadata;"
+106: Tag 7 Class Name index 107
+107: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricID"
+108: Tag 7 Class Name index 109
+109: Tag 1 Utf8 Value "org/wildfly/extension/metrics/Metric"
+110: Tag 1 Utf8 Value "unregister"
+111: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricID;)V"
+112: Tag 1 Utf8 Value "SourceFile"
+113: Tag 1 Utf8 Value "WildFlyMetricRegistry.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.wildfly.extension.metrics.WildFlyMetricRegistry
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 77 79
+Implements names java.io.Closeable org.wildfly.extension.metrics.MetricRegistry
+
+Field name metadataMap (index 14), type Ljava/util/Map; (descriptor index 15)
+Human type: java.util.Map
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name metricMap (index 21), type Ljava/util/Map; (descriptor index 15)
+Human type: java.util.Map
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name lock (index 27), type Ljava/util/concurrent/locks/ReadWriteLock; (descriptor index 28)
+Human type: java.util.concurrent.locks.ReadWriteLock
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 92
+Method name close (index 89), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 158
+Method name getMetrics (index 93), type ()Ljava/util/Map; (descriptor index 94)
+Human type: (): java.util.Map
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getMetricMetadata (index 96), type ()Ljava/util/Map; (descriptor index 94)
+Human type: (): java.util.Map
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name registerMetric (index 98), type (Lorg/wildfly/extension/metrics/Metric;Lorg/wildfly/extension/metrics/MetricMetadata;)V (descriptor index 99)
+Human type: (org.wildfly.extension.metrics.Metric, org.wildfly.extension.metrics.MetricMetadata): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 281
+Method name unregister (index 110), type (Lorg/wildfly/extension/metrics/MetricID;)V (descriptor index 111)
+Human type: (org.wildfly.extension.metrics.MetricID): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 157
+Method name readLock (index 76), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 61
+Method name unlock (index 46), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 61
+
+Class attribute name SourceFile, size 2

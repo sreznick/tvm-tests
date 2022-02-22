@@ -1,0 +1,128 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 85
+1: Tag 10 MethodRef Class index 16, Name and type index 53
+2: Tag 7 Class Name index 54
+3: Tag 10 MethodRef Class index 2, Name and type index 55
+4: Tag 9 FieldRef Class index 15, Name and type index 56
+5: Tag 9 FieldRef Class index 15, Name and type index 57
+6: Tag 10 MethodRef Class index 15, Name and type index 58
+7: Tag 11 InterfaceMethodRef Class index 17, Name and type index 59
+8: Tag 10 MethodRef Class index 60, Name and type index 61
+9: Tag 10 MethodRef Class index 62, Name and type index 63
+10: Tag 10 MethodRef Class index 60, Name and type index 64
+11: Tag 7 Class Name index 65
+12: Tag 11 InterfaceMethodRef Class index 66, Name and type index 67
+13: Tag 7 Class Name index 68
+14: Tag 10 MethodRef Class index 13, Name and type index 55
+15: Tag 7 Class Name index 69
+16: Tag 7 Class Name index 70
+17: Tag 7 Class Name index 71
+18: Tag 1 Utf8 Value "SetContextIDAction"
+19: Tag 1 Utf8 Value "InnerClasses"
+20: Tag 1 Utf8 Value "setContextIdAction"
+21: Tag 1 Utf8 Value "Ljava/security/PrivilegedAction;"
+22: Tag 1 Utf8 Value "Signature"
+23: Tag 1 Utf8 Value "Ljava/security/PrivilegedAction<Ljava/lang/String;>;"
+24: Tag 1 Utf8 Value "next"
+25: Tag 1 Utf8 Value "Lio/undertow/server/HttpHandler;"
+26: Tag 1 Utf8 Value "<init>"
+27: Tag 1 Utf8 Value "(Ljava/lang/String;Lio/undertow/server/HttpHandler;)V"
+28: Tag 1 Utf8 Value "Code"
+29: Tag 1 Utf8 Value "LineNumberTable"
+30: Tag 1 Utf8 Value "LocalVariableTable"
+31: Tag 1 Utf8 Value "this"
+32: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/security/jacc/JACCContextIdHandler;"
+33: Tag 1 Utf8 Value "contextId"
+34: Tag 1 Utf8 Value "Ljava/lang/String;"
+35: Tag 1 Utf8 Value "handleRequest"
+36: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;)V"
+37: Tag 1 Utf8 Value "exchange"
+38: Tag 1 Utf8 Value "Lio/undertow/server/HttpServerExchange;"
+39: Tag 1 Utf8 Value "previousContextID"
+40: Tag 1 Utf8 Value "StackMapTable"
+41: Tag 7 Class Name index 72
+42: Tag 1 Utf8 Value "Exceptions"
+43: Tag 7 Class Name index 73
+44: Tag 1 Utf8 Value "setContextID"
+45: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction;)Ljava/lang/String;"
+46: Tag 1 Utf8 Value "action"
+47: Tag 1 Utf8 Value "LocalVariableTypeTable"
+48: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction<Ljava/lang/String;>;)Ljava/lang/String;"
+49: Tag 1 Utf8 Value "wrapper"
+50: Tag 1 Utf8 Value "(Ljava/lang/String;)Lio/undertow/server/HandlerWrapper;"
+51: Tag 1 Utf8 Value "SourceFile"
+52: Tag 1 Utf8 Value "JACCContextIdHandler.java"
+53: Tag 12 NameAndType Name index 26, Description index 74
+54: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/jacc/JACCContextIdHandler$SetContextIDAction"
+55: Tag 12 NameAndType Name index 26, Description index 75
+56: Tag 12 NameAndType Name index 20, Description index 21
+57: Tag 12 NameAndType Name index 24, Description index 25
+58: Tag 12 NameAndType Name index 44, Description index 45
+59: Tag 12 NameAndType Name index 35, Description index 36
+60: Tag 7 Class Name index 76
+61: Tag 12 NameAndType Name index 77, Description index 78
+62: Tag 7 Class Name index 79
+63: Tag 12 NameAndType Name index 44, Description index 75
+64: Tag 12 NameAndType Name index 80, Description index 81
+65: Tag 1 Utf8 Value "java/lang/String"
+66: Tag 7 Class Name index 82
+67: Tag 12 NameAndType Name index 83, Description index 84
+68: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/jacc/JACCContextIdHandler$1"
+69: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/jacc/JACCContextIdHandler"
+70: Tag 1 Utf8 Value "java/lang/Object"
+71: Tag 1 Utf8 Value "io/undertow/server/HttpHandler"
+72: Tag 1 Utf8 Value "java/lang/Throwable"
+73: Tag 1 Utf8 Value "java/lang/Exception"
+74: Tag 1 Utf8 Value "()V"
+75: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+76: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+77: Tag 1 Utf8 Value "isChecking"
+78: Tag 1 Utf8 Value "()Z"
+79: Tag 1 Utf8 Value "javax/security/jacc/PolicyContext"
+80: Tag 1 Utf8 Value "doUnchecked"
+81: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction;)Ljava/lang/Object;"
+82: Tag 1 Utf8 Value "java/security/PrivilegedAction"
+83: Tag 1 Utf8 Value "run"
+84: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 15, name org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler
+
+Super class: id 16, name java.lang.Object
+
+Implements class ids 17
+Implements names io.undertow.server.HttpHandler
+
+Field name setContextIdAction (index 20), type Ljava/security/PrivilegedAction; (descriptor index 21)
+Human type: java.security.PrivilegedAction
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name next (index 24), type Lio/undertow/server/HttpHandler; (descriptor index 25)
+Human type: io.undertow.server.HttpHandler
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 26), type (Ljava/lang/String;Lio/undertow/server/HttpHandler;)V (descriptor index 27)
+Human type: (java.lang.String, io.undertow.server.HttpHandler): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 96
+Method name handleRequest (index 35), type (Lio/undertow/server/HttpServerExchange;)V (descriptor index 36)
+Human type: (io.undertow.server.HttpServerExchange): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 222
+Method attribute name Exceptions, size 4
+Method name setContextID (index 44), type (Ljava/security/PrivilegedAction;)Ljava/lang/String; (descriptor index 45)
+Human type: (java.security.PrivilegedAction): java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 111
+Method attribute name Signature, size 2
+Method name wrapper (index 49), type (Ljava/lang/String;)Lio/undertow/server/HandlerWrapper; (descriptor index 50)
+Human type: (java.lang.String): io.undertow.server.HandlerWrapper
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 51
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

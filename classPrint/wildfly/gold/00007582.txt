@@ -1,0 +1,129 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 93
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+3: Tag 8 String Contents 4
+4: Tag 1 Utf8 Value "http-connector"
+5: Tag 7 Class Name index 6
+6: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/HTTPConnectorDefinition"
+11: Tag 1 Utf8 Value "SOCKET_BINDING"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "ENDPOINT"
+16: Tag 9 FieldRef Class index 8, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 12
+18: Tag 1 Utf8 Value "SERVER_NAME"
+19: Tag 9 FieldRef Class index 1, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "PARAMS"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PropertiesAttributeDefinition;"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AbstractTransportDefinition"
+27: Tag 1 Utf8 Value "<init>"
+28: Tag 1 Utf8 Value "(ZLjava/lang/String;Z[Lorg/jboss/as/controller/AttributeDefinition;)V"
+29: Tag 9 FieldRef Class index 30, Name and type index 9
+30: Tag 7 Class Name index 31
+31: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/GenericTransportDefinition"
+32: Tag 10 MethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+36: Tag 1 Utf8 Value "create"
+37: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleAttributeDefinition;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+38: Tag 10 MethodRef Class index 33, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "setRequired"
+41: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+42: Tag 10 MethodRef Class index 33, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 41
+44: Tag 1 Utf8 Value "setAllowExpression"
+45: Tag 7 Class Name index 46
+46: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/HTTPConnectorDefinition$1"
+47: Tag 10 MethodRef Class index 45, Name and type index 48
+48: Tag 12 NameAndType Name index 27, Description index 49
+49: Tag 1 Utf8 Value "()V"
+50: Tag 10 MethodRef Class index 33, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "setAttributeMarshaller"
+53: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeMarshaller;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+54: Tag 9 FieldRef Class index 55, Name and type index 56
+55: Tag 7 Class Name index 57
+56: Tag 12 NameAndType Name index 58, Description index 59
+57: Tag 1 Utf8 Value "org/jboss/as/controller/access/management/SensitiveTargetAccessConstraintDefinition"
+58: Tag 1 Utf8 Value "SOCKET_BINDING_REF"
+59: Tag 1 Utf8 Value "Lorg/jboss/as/controller/access/management/SensitiveTargetAccessConstraintDefinition;"
+60: Tag 10 MethodRef Class index 33, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "addAccessConstraint"
+63: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/access/management/AccessConstraintDefinition;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+64: Tag 10 MethodRef Class index 33, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "build"
+67: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+68: Tag 8 String Contents 69
+69: Tag 1 Utf8 Value "endpoint"
+70: Tag 9 FieldRef Class index 71, Name and type index 72
+71: Tag 7 Class Name index 73
+72: Tag 12 NameAndType Name index 74, Description index 75
+73: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+74: Tag 1 Utf8 Value "STRING"
+75: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+76: Tag 10 MethodRef Class index 33, Name and type index 77
+77: Tag 12 NameAndType Name index 36, Description index 78
+78: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+79: Tag 8 String Contents 80
+80: Tag 1 Utf8 Value "server-name"
+81: Tag 1 Utf8 Value "(Z)V"
+82: Tag 1 Utf8 Value "Code"
+83: Tag 1 Utf8 Value "LineNumberTable"
+84: Tag 1 Utf8 Value "LocalVariableTable"
+85: Tag 1 Utf8 Value "this"
+86: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/HTTPConnectorDefinition;"
+87: Tag 1 Utf8 Value "registerRuntimeOnly"
+88: Tag 1 Utf8 Value "Z"
+89: Tag 1 Utf8 Value "<clinit>"
+90: Tag 1 Utf8 Value "SourceFile"
+91: Tag 1 Utf8 Value "HTTPConnectorDefinition.java"
+92: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.messaging.activemq.HTTPConnectorDefinition
+
+Super class: id 24, name org.wildfly.extension.messaging.activemq.AbstractTransportDefinition
+
+No interfaces
+
+Field name SOCKET_BINDING (index 11), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 12)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ENDPOINT (index 15), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 12)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SERVER_NAME (index 18), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 12)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 27), type (Z)V (descriptor index 81)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 93
+Method name <clinit> (index 89), type ()V (descriptor index 49)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 185
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

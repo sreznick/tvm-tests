@@ -1,0 +1,101 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 62
+1: Tag 9 FieldRef Class index 9, Name and type index 36
+2: Tag 9 FieldRef Class index 9, Name and type index 37
+3: Tag 10 MethodRef Class index 10, Name and type index 38
+4: Tag 9 FieldRef Class index 39, Name and type index 40
+5: Tag 11 InterfaceMethodRef Class index 39, Name and type index 41
+6: Tag 11 InterfaceMethodRef Class index 42, Name and type index 43
+7: Tag 11 InterfaceMethodRef Class index 42, Name and type index 44
+8: Tag 10 MethodRef Class index 9, Name and type index 45
+9: Tag 7 Class Name index 46
+10: Tag 7 Class Name index 47
+11: Tag 7 Class Name index 48
+12: Tag 1 Utf8 Value "val$sc"
+13: Tag 1 Utf8 Value "Lorg/jboss/security/SecurityContext;"
+14: Tag 1 Utf8 Value "val$principal"
+15: Tag 1 Utf8 Value "Lorg/jboss/security/RunAs;"
+16: Tag 1 Utf8 Value "<init>"
+17: Tag 1 Utf8 Value "(Lorg/jboss/security/SecurityContext;Lorg/jboss/security/RunAs;)V"
+18: Tag 1 Utf8 Value "Code"
+19: Tag 1 Utf8 Value "LineNumberTable"
+20: Tag 1 Utf8 Value "LocalVariableTable"
+21: Tag 1 Utf8 Value "this"
+22: Tag 1 Utf8 Value "InnerClasses"
+23: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/security/SecurityActions$6;"
+24: Tag 1 Utf8 Value "run"
+25: Tag 1 Utf8 Value "()Lorg/jboss/security/RunAs;"
+26: Tag 1 Utf8 Value "old"
+27: Tag 1 Utf8 Value "StackMapTable"
+28: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+29: Tag 1 Utf8 Value "Signature"
+30: Tag 1 Utf8 Value "Ljava/lang/Object;Ljava/security/PrivilegedAction<Lorg/jboss/security/RunAs;>;"
+31: Tag 1 Utf8 Value "SourceFile"
+32: Tag 1 Utf8 Value "SecurityActions.java"
+33: Tag 1 Utf8 Value "EnclosingMethod"
+34: Tag 7 Class Name index 49
+35: Tag 12 NameAndType Name index 50, Description index 51
+36: Tag 12 NameAndType Name index 12, Description index 13
+37: Tag 12 NameAndType Name index 14, Description index 15
+38: Tag 12 NameAndType Name index 16, Description index 52
+39: Tag 7 Class Name index 53
+40: Tag 12 NameAndType Name index 54, Description index 55
+41: Tag 12 NameAndType Name index 56, Description index 57
+42: Tag 7 Class Name index 58
+43: Tag 12 NameAndType Name index 59, Description index 25
+44: Tag 12 NameAndType Name index 60, Description index 61
+45: Tag 12 NameAndType Name index 24, Description index 25
+46: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/SecurityActions$6"
+47: Tag 1 Utf8 Value "java/lang/Object"
+48: Tag 1 Utf8 Value "java/security/PrivilegedAction"
+49: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/SecurityActions"
+50: Tag 1 Utf8 Value "setRunAsIdentity"
+51: Tag 1 Utf8 Value "(Lorg/jboss/security/RunAs;Lorg/jboss/security/SecurityContext;)Lorg/jboss/security/RunAs;"
+52: Tag 1 Utf8 Value "()V"
+53: Tag 1 Utf8 Value "org/wildfly/extension/undertow/logging/UndertowLogger"
+54: Tag 1 Utf8 Value "ROOT_LOGGER"
+55: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/logging/UndertowLogger;"
+56: Tag 1 Utf8 Value "noSecurityContext"
+57: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+58: Tag 1 Utf8 Value "org/jboss/security/SecurityContext"
+59: Tag 1 Utf8 Value "getOutgoingRunAs"
+60: Tag 1 Utf8 Value "setOutgoingRunAs"
+61: Tag 1 Utf8 Value "(Lorg/jboss/security/RunAs;)V"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 9, name org.wildfly.extension.undertow.security.SecurityActions$6
+
+Super class: id 10, name java.lang.Object
+
+Implements class ids 11
+Implements names java.security.PrivilegedAction
+
+Field name val$sc (index 12), type Lorg/jboss/security/SecurityContext; (descriptor index 13)
+Human type: org.jboss.security.SecurityContext
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$principal (index 14), type Lorg/jboss/security/RunAs; (descriptor index 15)
+Human type: org.jboss.security.RunAs
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 16), type (Lorg/jboss/security/SecurityContext;Lorg/jboss/security/RunAs;)V (descriptor index 17)
+Human type: (org.jboss.security.SecurityContext, org.jboss.security.RunAs): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 57
+Method name run (index 24), type ()Lorg/jboss/security/RunAs; (descriptor index 25)
+Human type: (): org.jboss.security.RunAs
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 118
+Method name run (index 24), type ()Ljava/lang/Object; (descriptor index 28)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

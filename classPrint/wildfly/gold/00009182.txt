@@ -1,0 +1,145 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 102
+1: Tag 10 MethodRef Class index 24, Name and type index 52
+2: Tag 7 Class Name index 53
+3: Tag 10 MethodRef Class index 54, Name and type index 55
+4: Tag 9 FieldRef Class index 2, Name and type index 56
+5: Tag 8 String Contents 57
+6: Tag 10 MethodRef Class index 54, Name and type index 58
+7: Tag 8 String Contents 59
+8: Tag 9 FieldRef Class index 2, Name and type index 60
+9: Tag 8 String Contents 61
+10: Tag 11 InterfaceMethodRef Class index 62, Name and type index 63
+11: Tag 10 MethodRef Class index 64, Name and type index 65
+12: Tag 8 String Contents 66
+13: Tag 10 MethodRef Class index 67, Name and type index 68
+14: Tag 11 InterfaceMethodRef Class index 62, Name and type index 69
+15: Tag 7 Class Name index 70
+16: Tag 10 MethodRef Class index 15, Name and type index 52
+17: Tag 8 String Contents 71
+18: Tag 10 MethodRef Class index 15, Name and type index 72
+19: Tag 10 MethodRef Class index 64, Name and type index 73
+20: Tag 10 MethodRef Class index 15, Name and type index 74
+21: Tag 8 String Contents 75
+22: Tag 8 String Contents 76
+23: Tag 10 MethodRef Class index 15, Name and type index 77
+24: Tag 7 Class Name index 78
+25: Tag 1 Utf8 Value "log"
+26: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+27: Tag 1 Utf8 Value "name"
+28: Tag 1 Utf8 Value "Ljava/lang/String;"
+29: Tag 1 Utf8 Value "<init>"
+30: Tag 1 Utf8 Value "()V"
+31: Tag 1 Utf8 Value "Code"
+32: Tag 1 Utf8 Value "LineNumberTable"
+33: Tag 1 Utf8 Value "LocalVariableTable"
+34: Tag 1 Utf8 Value "this"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/managedbean/InterceptorBean;"
+36: Tag 1 Utf8 Value "initializeInterceptor"
+37: Tag 1 Utf8 Value "(Ljavax/interceptor/InvocationContext;)V"
+38: Tag 1 Utf8 Value "context"
+39: Tag 1 Utf8 Value "Ljavax/interceptor/InvocationContext;"
+40: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+41: Tag 1 Utf8 Value "Ljavax/annotation/PostConstruct;"
+42: Tag 1 Utf8 Value "destroyInterceptor"
+43: Tag 1 Utf8 Value "Ljavax/annotation/PreDestroy;"
+44: Tag 1 Utf8 Value "intercept"
+45: Tag 1 Utf8 Value "(Ljavax/interceptor/InvocationContext;)Ljava/lang/Object;"
+46: Tag 1 Utf8 Value "StackMapTable"
+47: Tag 1 Utf8 Value "Exceptions"
+48: Tag 7 Class Name index 79
+49: Tag 1 Utf8 Value "Ljavax/interceptor/AroundInvoke;"
+50: Tag 1 Utf8 Value "SourceFile"
+51: Tag 1 Utf8 Value "InterceptorBean.java"
+52: Tag 12 NameAndType Name index 29, Description index 30
+53: Tag 1 Utf8 Value "org/jboss/as/test/smoke/managedbean/InterceptorBean"
+54: Tag 7 Class Name index 80
+55: Tag 12 NameAndType Name index 81, Description index 82
+56: Tag 12 NameAndType Name index 25, Description index 26
+57: Tag 1 Utf8 Value "Post constructing it"
+58: Tag 12 NameAndType Name index 83, Description index 84
+59: Tag 1 Utf8 Value "#InterceptorBean#"
+60: Tag 12 NameAndType Name index 27, Description index 28
+61: Tag 1 Utf8 Value "Pre destroying it"
+62: Tag 7 Class Name index 85
+63: Tag 12 NameAndType Name index 86, Description index 87
+64: Tag 7 Class Name index 88
+65: Tag 12 NameAndType Name index 89, Description index 90
+66: Tag 1 Utf8 Value "echo"
+67: Tag 7 Class Name index 91
+68: Tag 12 NameAndType Name index 92, Description index 93
+69: Tag 12 NameAndType Name index 94, Description index 95
+70: Tag 1 Utf8 Value "java/lang/StringBuilder"
+71: Tag 1 Utf8 Value "-----> Intercepting call to "
+72: Tag 12 NameAndType Name index 96, Description index 97
+73: Tag 12 NameAndType Name index 98, Description index 99
+74: Tag 12 NameAndType Name index 96, Description index 100
+75: Tag 1 Utf8 Value "."
+76: Tag 1 Utf8 Value "()"
+77: Tag 12 NameAndType Name index 101, Description index 90
+78: Tag 1 Utf8 Value "java/lang/Object"
+79: Tag 1 Utf8 Value "java/lang/Exception"
+80: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+81: Tag 1 Utf8 Value "getLogger"
+82: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/logging/Logger;"
+83: Tag 1 Utf8 Value "trace"
+84: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+85: Tag 1 Utf8 Value "javax/interceptor/InvocationContext"
+86: Tag 1 Utf8 Value "getMethod"
+87: Tag 1 Utf8 Value "()Ljava/lang/reflect/Method;"
+88: Tag 1 Utf8 Value "java/lang/reflect/Method"
+89: Tag 1 Utf8 Value "getName"
+90: Tag 1 Utf8 Value "()Ljava/lang/String;"
+91: Tag 1 Utf8 Value "java/lang/String"
+92: Tag 1 Utf8 Value "equals"
+93: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+94: Tag 1 Utf8 Value "proceed"
+95: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+96: Tag 1 Utf8 Value "append"
+97: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+98: Tag 1 Utf8 Value "getDeclaringClass"
+99: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+100: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+101: Tag 1 Utf8 Value "toString"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 2, name org.jboss.as.test.smoke.managedbean.InterceptorBean
+
+Super class: id 24, name java.lang.Object
+
+No interfaces
+
+Field name log (index 25), type Lorg/jboss/logging/Logger; (descriptor index 26)
+Human type: org.jboss.logging.Logger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name name (index 27), type Ljava/lang/String; (descriptor index 28)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 29), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 60
+Method name initializeInterceptor (index 36), type (Ljavax/interceptor/InvocationContext;)V (descriptor index 37)
+Human type: (javax.interceptor.InvocationContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 76
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name destroyInterceptor (index 42), type (Ljavax/interceptor/InvocationContext;)V (descriptor index 37)
+Human type: (javax.interceptor.InvocationContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name intercept (index 44), type (Ljavax/interceptor/InvocationContext;)Ljava/lang/Object; (descriptor index 45)
+Human type: (javax.interceptor.InvocationContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 180
+Method attribute name Exceptions, size 4
+Method attribute name RuntimeVisibleAnnotations, size 6
+
+Class attribute name SourceFile, size 2

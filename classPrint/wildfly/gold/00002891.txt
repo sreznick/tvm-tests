@@ -1,0 +1,103 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 58
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/DistributedSingletonServiceConfiguratorFactory"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/singleton/DistributedSingletonServiceConfiguratorFactoryContext;)V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/DistributedSingletonServiceBuilderFactory$LegacyDistributedSingletonServiceConfiguratorContext"
+9: Tag 10 MethodRef Class index 7, Name and type index 10
+10: Tag 12 NameAndType Name index 5, Description index 11
+11: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/singleton/DistributedSingletonServiceBuilderFactory;Lorg/wildfly/clustering/server/singleton/DistributedSingletonServiceConfiguratorFactoryContext;)V"
+12: Tag 9 FieldRef Class index 13, Name and type index 14
+13: Tag 7 Class Name index 15
+14: Tag 12 NameAndType Name index 16, Description index 17
+15: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/DistributedSingletonServiceBuilderFactory"
+16: Tag 1 Utf8 Value "context"
+17: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/DistributedSingletonServiceConfiguratorContext;"
+18: Tag 10 MethodRef Class index 13, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "createSingletonServiceBuilder"
+21: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;Lorg/jboss/msc/service/Service;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder;"
+22: Tag 7 Class Name index 23
+23: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/DistributedSingletonServiceBuilder"
+24: Tag 10 MethodRef Class index 22, Name and type index 25
+25: Tag 12 NameAndType Name index 5, Description index 26
+26: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;Lorg/jboss/msc/service/Service;Lorg/wildfly/clustering/server/singleton/DistributedSingletonServiceConfiguratorContext;)V"
+27: Tag 10 MethodRef Class index 13, Name and type index 28
+28: Tag 12 NameAndType Name index 20, Description index 29
+29: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder;"
+30: Tag 7 Class Name index 31
+31: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/SingletonServiceBuilderFactory"
+32: Tag 1 Utf8 Value "Code"
+33: Tag 1 Utf8 Value "LineNumberTable"
+34: Tag 1 Utf8 Value "LocalVariableTable"
+35: Tag 1 Utf8 Value "this"
+36: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/DistributedSingletonServiceBuilderFactory;"
+37: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/DistributedSingletonServiceConfiguratorFactoryContext;"
+38: Tag 1 Utf8 Value "name"
+39: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+40: Tag 1 Utf8 Value "service"
+41: Tag 1 Utf8 Value "Lorg/jboss/msc/service/Service;"
+42: Tag 1 Utf8 Value "LocalVariableTypeTable"
+43: Tag 1 Utf8 Value "Lorg/jboss/msc/service/Service<TT;>;"
+44: Tag 1 Utf8 Value "Signature"
+45: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service<TT;>;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder<TT;>;"
+46: Tag 1 Utf8 Value "primaryService"
+47: Tag 1 Utf8 Value "backupService"
+48: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service<TT;>;Lorg/jboss/msc/service/Service<TT;>;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder<TT;>;"
+49: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;Lorg/jboss/msc/service/Service;)Lorg/wildfly/clustering/service/Builder;"
+50: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/wildfly/clustering/service/Builder;"
+51: Tag 1 Utf8 Value "SourceFile"
+52: Tag 1 Utf8 Value "DistributedSingletonServiceBuilderFactory.java"
+53: Tag 1 Utf8 Value "Deprecated"
+54: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+55: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+56: Tag 1 Utf8 Value "InnerClasses"
+57: Tag 1 Utf8 Value "LegacyDistributedSingletonServiceConfiguratorContext"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 13, name org.wildfly.clustering.server.singleton.DistributedSingletonServiceBuilderFactory
+
+Super class: id 2, name org.wildfly.clustering.server.singleton.DistributedSingletonServiceConfiguratorFactory
+
+Implements class ids 30
+Implements names org.wildfly.clustering.singleton.SingletonServiceBuilderFactory
+
+Field name context (index 16), type Lorg/wildfly/clustering/server/singleton/DistributedSingletonServiceConfiguratorContext; (descriptor index 17)
+Human type: org.wildfly.clustering.server.singleton.DistributedSingletonServiceConfiguratorContext
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/server/singleton/DistributedSingletonServiceConfiguratorFactoryContext;)V (descriptor index 6)
+Human type: (org.wildfly.clustering.server.singleton.DistributedSingletonServiceConfiguratorFactoryContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 79
+Method name createSingletonServiceBuilder (index 20), type (Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder; (descriptor index 29)
+Human type: (org.jboss.msc.service.ServiceName, org.jboss.msc.service.Service): org.wildfly.clustering.singleton.SingletonServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method attribute name Signature, size 2
+Method name createSingletonServiceBuilder (index 20), type (Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;Lorg/jboss/msc/service/Service;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder; (descriptor index 21)
+Human type: (org.jboss.msc.service.ServiceName, org.jboss.msc.service.Service, org.jboss.msc.service.Service): org.wildfly.clustering.singleton.SingletonServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 115
+Method attribute name Signature, size 2
+Method name createSingletonServiceBuilder (index 20), type (Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;Lorg/jboss/msc/service/Service;)Lorg/wildfly/clustering/service/Builder; (descriptor index 49)
+Human type: (org.jboss.msc.service.ServiceName, org.jboss.msc.service.Service, org.jboss.msc.service.Service): org.wildfly.clustering.service.Builder
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 50
+Method name createSingletonServiceBuilder (index 20), type (Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/wildfly/clustering/service/Builder; (descriptor index 50)
+Human type: (org.jboss.msc.service.ServiceName, org.jboss.msc.service.Service): org.wildfly.clustering.service.Builder
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 49
+
+Class attribute name SourceFile, size 2
+Class attribute name Deprecated, size 0
+Class attribute name RuntimeVisibleAnnotations, size 6
+Class attribute name InnerClasses, size 10

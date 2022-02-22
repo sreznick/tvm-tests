@@ -1,0 +1,96 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 63
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/naming/subsystem/NamingSubsystemAdd$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/naming/subsystem/NamingSubsystemAdd;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$externalContexts"
+10: Tag 1 Utf8 Value "Lorg/jboss/as/naming/context/external/ExternalContexts;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/jboss/as/server/AbstractDeploymentChainStep"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "()V"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/as/naming/subsystem/NamingExtension"
+19: Tag 8 String Contents 20
+20: Tag 1 Utf8 Value "naming"
+21: Tag 9 FieldRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Phase"
+25: Tag 1 Utf8 Value "STRUCTURE"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/Phase;"
+27: Tag 7 Class Name index 28
+28: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ExternalContextsProcessor"
+29: Tag 10 MethodRef Class index 27, Name and type index 30
+30: Tag 12 NameAndType Name index 15, Description index 31
+31: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/context/external/ExternalContexts;)V"
+32: Tag 11 InterfaceMethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "org/jboss/as/server/DeploymentProcessorTarget"
+36: Tag 1 Utf8 Value "addDeploymentProcessor"
+37: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/server/deployment/Phase;ILorg/jboss/as/server/deployment/DeploymentUnitProcessor;)V"
+38: Tag 9 FieldRef Class index 22, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 26
+40: Tag 1 Utf8 Value "INSTALL"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/JndiNamingDependencyProcessor"
+43: Tag 10 MethodRef Class index 41, Name and type index 13
+44: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/subsystem/NamingSubsystemAdd;Lorg/jboss/as/naming/context/external/ExternalContexts;)V"
+45: Tag 1 Utf8 Value "Code"
+46: Tag 1 Utf8 Value "LineNumberTable"
+47: Tag 1 Utf8 Value "LocalVariableTable"
+48: Tag 1 Utf8 Value "this"
+49: Tag 1 Utf8 Value "Lorg/jboss/as/naming/subsystem/NamingSubsystemAdd$1;"
+50: Tag 1 Utf8 Value "execute"
+51: Tag 1 Utf8 Value "(Lorg/jboss/as/server/DeploymentProcessorTarget;)V"
+52: Tag 1 Utf8 Value "processorTarget"
+53: Tag 1 Utf8 Value "Lorg/jboss/as/server/DeploymentProcessorTarget;"
+54: Tag 1 Utf8 Value "SourceFile"
+55: Tag 1 Utf8 Value "NamingSubsystemAdd.java"
+56: Tag 1 Utf8 Value "EnclosingMethod"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "org/jboss/as/naming/subsystem/NamingSubsystemAdd"
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "performBoottime"
+61: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+62: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.naming.subsystem.NamingSubsystemAdd$1
+
+Super class: id 12, name org.jboss.as.server.AbstractDeploymentChainStep
+
+No interfaces
+
+Field name val$externalContexts (index 9), type Lorg/jboss/as/naming/context/external/ExternalContexts; (descriptor index 10)
+Human type: org.jboss.as.naming.context.external.ExternalContexts
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/jboss/as/naming/subsystem/NamingSubsystemAdd; (descriptor index 6)
+Human type: org.jboss.as.naming.subsystem.NamingSubsystemAdd
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 15), type (Lorg/jboss/as/naming/subsystem/NamingSubsystemAdd;Lorg/jboss/as/naming/context/external/ExternalContexts;)V (descriptor index 44)
+Human type: (org.jboss.as.naming.subsystem.NamingSubsystemAdd, org.jboss.as.naming.context.external.ExternalContexts): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 67
+Method name execute (index 50), type (Lorg/jboss/as/server/DeploymentProcessorTarget;)V (descriptor index 51)
+Human type: (org.jboss.as.server.DeploymentProcessorTarget): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 107
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

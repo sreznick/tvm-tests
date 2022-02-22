@@ -1,0 +1,184 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 80
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ExternalBrokerConfigurationService"
+11: Tag 1 Utf8 Value "connectors"
+12: Tag 1 Utf8 Value "Ljava/util/Map;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "discoveryGroupConfigurations"
+16: Tag 9 FieldRef Class index 8, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 12
+18: Tag 1 Utf8 Value "clusterNames"
+19: Tag 9 FieldRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 12
+21: Tag 1 Utf8 Value "commandDispatcherFactories"
+22: Tag 9 FieldRef Class index 8, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 12
+24: Tag 1 Utf8 Value "groupBindings"
+25: Tag 9 FieldRef Class index 8, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 12
+27: Tag 1 Utf8 Value "outboundSocketBindings"
+28: Tag 9 FieldRef Class index 8, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 12
+30: Tag 1 Utf8 Value "socketBindings"
+31: Tag 10 MethodRef Class index 8, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "getValue"
+34: Tag 1 Utf8 Value "()Lorg/wildfly/extension/messaging/activemq/ExternalBrokerConfigurationService;"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+37: Tag 1 Utf8 Value "Signature"
+38: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/apache/activemq/artemis/api/core/TransportConfiguration;>;"
+39: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;>;"
+40: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;>;"
+41: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+42: Tag 1 Utf8 Value "(Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)V"
+43: Tag 1 Utf8 Value "Code"
+44: Tag 1 Utf8 Value "LineNumberTable"
+45: Tag 1 Utf8 Value "LocalVariableTable"
+46: Tag 1 Utf8 Value "this"
+47: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/ExternalBrokerConfigurationService;"
+48: Tag 1 Utf8 Value "LocalVariableTypeTable"
+49: Tag 1 Utf8 Value "(Ljava/util/Map<Ljava/lang/String;Lorg/apache/activemq/artemis/api/core/TransportConfiguration;>;Ljava/util/Map<Ljava/lang/String;Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;>;Ljava/util/Map<Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;>;Ljava/util/Map<Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;>;Ljava/util/Map<Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;>;Ljava/util/Map<Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V"
+50: Tag 1 Utf8 Value "start"
+51: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+52: Tag 1 Utf8 Value "context"
+53: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+54: Tag 1 Utf8 Value "Exceptions"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+57: Tag 1 Utf8 Value "stop"
+58: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+59: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+60: Tag 1 Utf8 Value "getConnectors"
+61: Tag 1 Utf8 Value "()Ljava/util/Map;"
+62: Tag 1 Utf8 Value "()Ljava/util/Map<Ljava/lang/String;Lorg/apache/activemq/artemis/api/core/TransportConfiguration;>;"
+63: Tag 1 Utf8 Value "getSocketBindings"
+64: Tag 1 Utf8 Value "()Ljava/util/Map<Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;>;"
+65: Tag 1 Utf8 Value "getOutboundSocketBindings"
+66: Tag 1 Utf8 Value "getGroupBindings"
+67: Tag 1 Utf8 Value "getClusterNames"
+68: Tag 1 Utf8 Value "()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+69: Tag 1 Utf8 Value "getCommandDispatcherFactories"
+70: Tag 1 Utf8 Value "getDiscoveryGroupConfigurations"
+71: Tag 1 Utf8 Value "()Ljava/util/Map<Ljava/lang/String;Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;>;"
+72: Tag 7 Class Name index 73
+73: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+76: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+77: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/wildfly/extension/messaging/activemq/ExternalBrokerConfigurationService;>;"
+78: Tag 1 Utf8 Value "SourceFile"
+79: Tag 1 Utf8 Value "ExternalBrokerConfigurationService.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.messaging.activemq.ExternalBrokerConfigurationService
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 35
+Implements names org.jboss.msc.service.Service
+
+Field name connectors (index 11), type Ljava/util/Map; (descriptor index 12)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name discoveryGroupConfigurations (index 15), type Ljava/util/Map; (descriptor index 12)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name socketBindings (index 30), type Ljava/util/Map; (descriptor index 12)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name outboundSocketBindings (index 27), type Ljava/util/Map; (descriptor index 12)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name groupBindings (index 24), type Ljava/util/Map; (descriptor index 12)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name clusterNames (index 18), type Ljava/util/Map; (descriptor index 12)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name commandDispatcherFactories (index 21), type Ljava/util/Map; (descriptor index 12)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;)V (descriptor index 42)
+Human type: (java.util.Map, java.util.Map, java.util.Map, java.util.Map, java.util.Map, java.util.Map, java.util.Map): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 266
+Method attribute name Signature, size 2
+Method name start (index 50), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 51)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method attribute name Exceptions, size 4
+Method name stop (index 57), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 58)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name getConnectors (index 60), type ()Ljava/util/Map; (descriptor index 61)
+Human type: (): java.util.Map
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getSocketBindings (index 63), type ()Ljava/util/Map; (descriptor index 61)
+Human type: (): java.util.Map
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getOutboundSocketBindings (index 65), type ()Ljava/util/Map; (descriptor index 61)
+Human type: (): java.util.Map
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getGroupBindings (index 66), type ()Ljava/util/Map; (descriptor index 61)
+Human type: (): java.util.Map
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getClusterNames (index 67), type ()Ljava/util/Map; (descriptor index 61)
+Human type: (): java.util.Map
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getCommandDispatcherFactories (index 69), type ()Ljava/util/Map; (descriptor index 61)
+Human type: (): java.util.Map
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getDiscoveryGroupConfigurations (index 70), type ()Ljava/util/Map; (descriptor index 61)
+Human type: (): java.util.Map
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getValue (index 33), type ()Lorg/wildfly/extension/messaging/activemq/ExternalBrokerConfigurationService; (descriptor index 34)
+Human type: (): org.wildfly.extension.messaging.activemq.ExternalBrokerConfigurationService
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method attribute name Exceptions, size 6
+Method name getValue (index 33), type ()Ljava/lang/Object; (descriptor index 76)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

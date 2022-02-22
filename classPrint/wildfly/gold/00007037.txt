@@ -1,0 +1,170 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 126
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/weld/WeldBootstrapService$4"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/weld/WeldBootstrapService;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$attemptingBounce"
+10: Tag 1 Utf8 Value "Ljava/util/concurrent/CompletableFuture;"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "val$deploymentController"
+14: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+15: Tag 9 FieldRef Class index 2, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 10
+17: Tag 1 Utf8 Value "val$listenerDone"
+18: Tag 10 MethodRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 22, Description index 23
+21: Tag 1 Utf8 Value "java/lang/Object"
+22: Tag 1 Utf8 Value "<init>"
+23: Tag 1 Utf8 Value "()V"
+24: Tag 11 InterfaceMethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+28: Tag 1 Utf8 Value "getServiceContainer"
+29: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceContainer;"
+30: Tag 11 InterfaceMethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceContainer"
+34: Tag 1 Utf8 Value "isShutdown"
+35: Tag 1 Utf8 Value "()Z"
+36: Tag 10 MethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 41
+39: Tag 1 Utf8 Value "java/util/concurrent/CompletableFuture"
+40: Tag 1 Utf8 Value "get"
+41: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "java/lang/Boolean"
+44: Tag 10 MethodRef Class index 42, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 35
+46: Tag 1 Utf8 Value "booleanValue"
+47: Tag 11 InterfaceMethodRef Class index 25, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "removeListener"
+50: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/LifecycleListener;)V"
+51: Tag 10 MethodRef Class index 42, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 54
+53: Tag 1 Utf8 Value "valueOf"
+54: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+55: Tag 10 MethodRef Class index 37, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "complete"
+58: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+59: Tag 7 Class Name index 60
+60: Tag 1 Utf8 Value "java/lang/InterruptedException"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "java/util/concurrent/ExecutionException"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "java/lang/RuntimeException"
+65: Tag 10 MethodRef Class index 63, Name and type index 66
+66: Tag 12 NameAndType Name index 22, Description index 67
+67: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+68: Tag 11 InterfaceMethodRef Class index 25, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "getMode"
+71: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController$Mode;"
+72: Tag 9 FieldRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+76: Tag 1 Utf8 Value "ACTIVE"
+77: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+78: Tag 9 FieldRef Class index 73, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 77
+80: Tag 1 Utf8 Value "REMOVE"
+81: Tag 9 FieldRef Class index 82, Name and type index 83
+82: Tag 7 Class Name index 84
+83: Tag 12 NameAndType Name index 85, Description index 86
+84: Tag 1 Utf8 Value "org/jboss/msc/service/LifecycleEvent"
+85: Tag 1 Utf8 Value "DOWN"
+86: Tag 1 Utf8 Value "Lorg/jboss/msc/service/LifecycleEvent;"
+87: Tag 9 FieldRef Class index 73, Name and type index 88
+88: Tag 12 NameAndType Name index 89, Description index 77
+89: Tag 1 Utf8 Value "NEVER"
+90: Tag 11 InterfaceMethodRef Class index 25, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 93
+92: Tag 1 Utf8 Value "compareAndSetMode"
+93: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;Lorg/jboss/msc/service/ServiceController$Mode;)Z"
+94: Tag 7 Class Name index 95
+95: Tag 1 Utf8 Value "org/jboss/msc/service/LifecycleListener"
+96: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/WeldBootstrapService;Ljava/util/concurrent/CompletableFuture;Lorg/jboss/msc/service/ServiceController;Ljava/util/concurrent/CompletableFuture;)V"
+97: Tag 1 Utf8 Value "Code"
+98: Tag 1 Utf8 Value "LineNumberTable"
+99: Tag 1 Utf8 Value "LocalVariableTable"
+100: Tag 1 Utf8 Value "this"
+101: Tag 1 Utf8 Value "Lorg/jboss/as/weld/WeldBootstrapService$4;"
+102: Tag 1 Utf8 Value "Signature"
+103: Tag 1 Utf8 Value "handleEvent"
+104: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController;Lorg/jboss/msc/service/LifecycleEvent;)V"
+105: Tag 1 Utf8 Value "e"
+106: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+107: Tag 1 Utf8 Value "controller"
+108: Tag 1 Utf8 Value "event"
+109: Tag 1 Utf8 Value "LocalVariableTypeTable"
+110: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+111: Tag 1 Utf8 Value "StackMapTable"
+112: Tag 7 Class Name index 113
+113: Tag 1 Utf8 Value "java/lang/Exception"
+114: Tag 7 Class Name index 115
+115: Tag 1 Utf8 Value "java/lang/Throwable"
+116: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController<*>;Lorg/jboss/msc/service/LifecycleEvent;)V"
+117: Tag 1 Utf8 Value "SourceFile"
+118: Tag 1 Utf8 Value "WeldBootstrapService.java"
+119: Tag 1 Utf8 Value "EnclosingMethod"
+120: Tag 7 Class Name index 121
+121: Tag 1 Utf8 Value "org/jboss/as/weld/WeldBootstrapService"
+122: Tag 12 NameAndType Name index 123, Description index 23
+123: Tag 1 Utf8 Value "startServiceShutdown"
+124: Tag 1 Utf8 Value "InnerClasses"
+125: Tag 1 Utf8 Value "Mode"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.weld.WeldBootstrapService$4
+
+Super class: id 19, name java.lang.Object
+
+Implements class ids 94
+Implements names org.jboss.msc.service.LifecycleListener
+
+Field name val$attemptingBounce (index 9), type Ljava/util/concurrent/CompletableFuture; (descriptor index 10)
+Human type: java.util.concurrent.CompletableFuture
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$deploymentController (index 13), type Lorg/jboss/msc/service/ServiceController; (descriptor index 14)
+Human type: org.jboss.msc.service.ServiceController
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$listenerDone (index 17), type Ljava/util/concurrent/CompletableFuture; (descriptor index 10)
+Human type: java.util.concurrent.CompletableFuture
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/jboss/as/weld/WeldBootstrapService; (descriptor index 6)
+Human type: org.jboss.as.weld.WeldBootstrapService
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 22), type (Lorg/jboss/as/weld/WeldBootstrapService;Ljava/util/concurrent/CompletableFuture;Lorg/jboss/msc/service/ServiceController;Ljava/util/concurrent/CompletableFuture;)V (descriptor index 96)
+Human type: (org.jboss.as.weld.WeldBootstrapService, java.util.concurrent.CompletableFuture, org.jboss.msc.service.ServiceController, java.util.concurrent.CompletableFuture): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 78
+Method attribute name Signature, size 2
+Method name handleEvent (index 103), type (Lorg/jboss/msc/service/ServiceController;Lorg/jboss/msc/service/LifecycleEvent;)V (descriptor index 104)
+Human type: (org.jboss.msc.service.ServiceController, org.jboss.msc.service.LifecycleEvent): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 445
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

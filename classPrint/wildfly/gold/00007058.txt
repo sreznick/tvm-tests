@@ -1,0 +1,104 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 62
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/weld/bootstrap/api/SingletonProvider"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/weld/services/ModuleGroupSingletonProvider"
+11: Tag 1 Utf8 Value "deploymentClassLoaders"
+12: Tag 1 Utf8 Value "Ljava/util/Map;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/util/Map"
+17: Tag 1 Utf8 Value "put"
+18: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+19: Tag 11 InterfaceMethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "remove"
+22: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+23: Tag 7 Class Name index 24
+24: Tag 1 Utf8 Value "org/jboss/as/weld/services/ModuleGroupSingletonProvider$TCCLSingleton"
+25: Tag 10 MethodRef Class index 23, Name and type index 26
+26: Tag 12 NameAndType Name index 5, Description index 27
+27: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/services/ModuleGroupSingletonProvider$1;)V"
+28: Tag 7 Class Name index 29
+29: Tag 1 Utf8 Value "java/util/concurrent/ConcurrentHashMap"
+30: Tag 10 MethodRef Class index 28, Name and type index 3
+31: Tag 1 Utf8 Value "Signature"
+32: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/ClassLoader;Ljava/util/Set<Ljava/lang/ClassLoader;>;>;"
+33: Tag 1 Utf8 Value "Code"
+34: Tag 1 Utf8 Value "LineNumberTable"
+35: Tag 1 Utf8 Value "LocalVariableTable"
+36: Tag 1 Utf8 Value "this"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/weld/services/ModuleGroupSingletonProvider;"
+38: Tag 1 Utf8 Value "addClassLoaders"
+39: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;Ljava/util/Set;)V"
+40: Tag 1 Utf8 Value "topLevel"
+41: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+42: Tag 1 Utf8 Value "allClassLoaders"
+43: Tag 1 Utf8 Value "Ljava/util/Set;"
+44: Tag 1 Utf8 Value "LocalVariableTypeTable"
+45: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/ClassLoader;>;"
+46: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;Ljava/util/Set<Ljava/lang/ClassLoader;>;)V"
+47: Tag 1 Utf8 Value "removeClassLoader"
+48: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)V"
+49: Tag 1 Utf8 Value "create"
+50: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/weld/bootstrap/api/Singleton;"
+51: Tag 1 Utf8 Value "type"
+52: Tag 1 Utf8 Value "Ljava/lang/Class;"
+53: Tag 1 Utf8 Value "Ljava/lang/Class<+TT;>;"
+54: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Ljava/lang/Class<+TT;>;)Lorg/jboss/weld/bootstrap/api/Singleton<TT;>;"
+55: Tag 1 Utf8 Value "<clinit>"
+56: Tag 1 Utf8 Value "SourceFile"
+57: Tag 1 Utf8 Value "ModuleGroupSingletonProvider.java"
+58: Tag 1 Utf8 Value "InnerClasses"
+59: Tag 1 Utf8 Value "TCCLSingleton"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "org/jboss/as/weld/services/ModuleGroupSingletonProvider$1"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.weld.services.ModuleGroupSingletonProvider
+
+Super class: id 2, name org.jboss.weld.bootstrap.api.SingletonProvider
+
+No interfaces
+
+Field name deploymentClassLoaders (index 11), type Ljava/util/Map; (descriptor index 12)
+Human type: java.util.Map
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name addClassLoaders (index 38), type (Ljava/lang/ClassLoader;Ljava/util/Set;)V (descriptor index 39)
+Human type: (java.lang.ClassLoader, java.util.Set): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 86
+Method attribute name Signature, size 2
+Method name removeClassLoader (index 47), type (Ljava/lang/ClassLoader;)V (descriptor index 48)
+Human type: (java.lang.ClassLoader): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 57
+Method name create (index 49), type (Ljava/lang/Class;)Lorg/jboss/weld/bootstrap/api/Singleton; (descriptor index 50)
+Human type: (java.lang.Class): org.jboss.weld.bootstrap.api.Singleton
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 79
+Method attribute name Signature, size 2
+Method name <clinit> (index 55), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

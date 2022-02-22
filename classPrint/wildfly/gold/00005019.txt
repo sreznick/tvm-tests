@@ -1,0 +1,132 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 92
+1: Tag 10 MethodRef Class index 15, Name and type index 59
+2: Tag 9 FieldRef Class index 14, Name and type index 60
+3: Tag 9 FieldRef Class index 14, Name and type index 61
+4: Tag 10 MethodRef Class index 14, Name and type index 62
+5: Tag 10 MethodRef Class index 15, Name and type index 63
+6: Tag 10 MethodRef Class index 15, Name and type index 64
+7: Tag 11 InterfaceMethodRef Class index 55, Name and type index 65
+8: Tag 11 InterfaceMethodRef Class index 66, Name and type index 67
+9: Tag 7 Class Name index 68
+10: Tag 10 MethodRef Class index 69, Name and type index 70
+11: Tag 11 InterfaceMethodRef Class index 71, Name and type index 72
+12: Tag 7 Class Name index 73
+13: Tag 7 Class Name index 74
+14: Tag 7 Class Name index 75
+15: Tag 7 Class Name index 76
+16: Tag 1 Utf8 Value "transactionModeAttriute"
+17: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Attribute;"
+18: Tag 1 Utf8 Value "excludedModes"
+19: Tag 1 Utf8 Value "Ljava/util/Set;"
+20: Tag 1 Utf8 Value "Signature"
+21: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/jboss/as/clustering/infinispan/subsystem/TransactionMode;>;"
+22: Tag 1 Utf8 Value "<init>"
+23: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;Lorg/jboss/as/clustering/controller/Attribute;Ljava/util/Set;)V"
+24: Tag 1 Utf8 Value "Code"
+25: Tag 1 Utf8 Value "LineNumberTable"
+26: Tag 1 Utf8 Value "LocalVariableTable"
+27: Tag 1 Utf8 Value "this"
+28: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/infinispan/subsystem/TransactionResourceCapabilityReference;"
+29: Tag 1 Utf8 Value "capability"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Capability;"
+31: Tag 1 Utf8 Value "requirement"
+32: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/Requirement;"
+33: Tag 1 Utf8 Value "transactionModeAttribute"
+34: Tag 1 Utf8 Value "LocalVariableTypeTable"
+35: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;Lorg/jboss/as/clustering/controller/Attribute;Ljava/util/Set<Lorg/jboss/as/clustering/infinispan/subsystem/TransactionMode;>;)V"
+36: Tag 1 Utf8 Value "addCapabilityRequirements"
+37: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;[Ljava/lang/String;)V"
+38: Tag 1 Utf8 Value "context"
+39: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+40: Tag 1 Utf8 Value "resource"
+41: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+42: Tag 1 Utf8 Value "attributeName"
+43: Tag 1 Utf8 Value "Ljava/lang/String;"
+44: Tag 1 Utf8 Value "values"
+45: Tag 1 Utf8 Value "[Ljava/lang/String;"
+46: Tag 1 Utf8 Value "StackMapTable"
+47: Tag 1 Utf8 Value "removeCapabilityRequirements"
+48: Tag 1 Utf8 Value "isTransactionalSupportRequired"
+49: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;)Z"
+50: Tag 1 Utf8 Value "mode"
+51: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/infinispan/subsystem/TransactionMode;"
+52: Tag 1 Utf8 Value "e"
+53: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+54: Tag 7 Class Name index 77
+55: Tag 7 Class Name index 78
+56: Tag 7 Class Name index 79
+57: Tag 1 Utf8 Value "SourceFile"
+58: Tag 1 Utf8 Value "TransactionResourceCapabilityReference.java"
+59: Tag 12 NameAndType Name index 22, Description index 80
+60: Tag 12 NameAndType Name index 16, Description index 17
+61: Tag 12 NameAndType Name index 18, Description index 19
+62: Tag 12 NameAndType Name index 48, Description index 49
+63: Tag 12 NameAndType Name index 36, Description index 37
+64: Tag 12 NameAndType Name index 47, Description index 37
+65: Tag 12 NameAndType Name index 81, Description index 82
+66: Tag 7 Class Name index 83
+67: Tag 12 NameAndType Name index 84, Description index 85
+68: Tag 1 Utf8 Value "org/jboss/as/clustering/infinispan/subsystem/TransactionMode"
+69: Tag 7 Class Name index 86
+70: Tag 12 NameAndType Name index 87, Description index 88
+71: Tag 7 Class Name index 89
+72: Tag 12 NameAndType Name index 90, Description index 91
+73: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+74: Tag 1 Utf8 Value "java/lang/RuntimeException"
+75: Tag 1 Utf8 Value "org/jboss/as/clustering/infinispan/subsystem/TransactionResourceCapabilityReference"
+76: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceCapabilityReference"
+77: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+78: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+79: Tag 1 Utf8 Value "java/lang/Exception"
+80: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;)V"
+81: Tag 1 Utf8 Value "getModel"
+82: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+83: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/Attribute"
+84: Tag 1 Utf8 Value "resolveModelAttribute"
+85: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+86: Tag 1 Utf8 Value "org/jboss/as/clustering/dmr/ModelNodes"
+87: Tag 1 Utf8 Value "asEnum"
+88: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Ljava/lang/Class;)Ljava/lang/Enum;"
+89: Tag 1 Utf8 Value "java/util/Set"
+90: Tag 1 Utf8 Value "contains"
+91: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.jboss.as.clustering.infinispan.subsystem.TransactionResourceCapabilityReference
+
+Super class: id 15, name org.jboss.as.clustering.controller.ResourceCapabilityReference
+
+No interfaces
+
+Field name transactionModeAttriute (index 16), type Lorg/jboss/as/clustering/controller/Attribute; (descriptor index 17)
+Human type: org.jboss.as.clustering.controller.Attribute
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name excludedModes (index 18), type Ljava/util/Set; (descriptor index 19)
+Human type: java.util.Set
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 22), type (Lorg/jboss/as/clustering/controller/Capability;Lorg/wildfly/clustering/service/Requirement;Lorg/jboss/as/clustering/controller/Attribute;Ljava/util/Set;)V (descriptor index 23)
+Human type: (org.jboss.as.clustering.controller.Capability, org.wildfly.clustering.service.Requirement, org.jboss.as.clustering.controller.Attribute, java.util.Set): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 130
+Method attribute name Signature, size 2
+Method name addCapabilityRequirements (index 36), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;[Ljava/lang/String;)V (descriptor index 37)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.controller.registry.Resource, java.lang.String, java.lang.String[]): void
+Flags: decimal 129, hex 0081, binary 0000000010000001 public varargs
+Method attribute name Code, size 118
+Method name removeCapabilityRequirements (index 47), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;Ljava/lang/String;[Ljava/lang/String;)V (descriptor index 37)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.controller.registry.Resource, java.lang.String, java.lang.String[]): void
+Flags: decimal 129, hex 0081, binary 0000000010000001 public varargs
+Method attribute name Code, size 118
+Method name isTransactionalSupportRequired (index 48), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;)Z (descriptor index 49)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.controller.registry.Resource): boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 192
+
+Class attribute name SourceFile, size 2

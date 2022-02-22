@@ -1,0 +1,183 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 123
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/ReactiveMessagingSslConfigProcessor"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "java/lang/Object"
+7: Tag 1 Utf8 Value "<init>"
+8: Tag 1 Utf8 Value "()V"
+9: Tag 8 String Contents 10
+10: Tag 1 Utf8 Value "wildfly.elytron.ssl.context"
+11: Tag 11 InterfaceMethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "java/util/Map"
+15: Tag 1 Utf8 Value "get"
+16: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "java/lang/String"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/ElytronSSLContextRegistry"
+23: Tag 1 Utf8 Value "getInstalledSSLContext"
+24: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/_private/MicroProfileReactiveMessagingKafkaLogger"
+29: Tag 1 Utf8 Value "LOGGER"
+30: Tag 1 Utf8 Value "Lorg/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/_private/MicroProfileReactiveMessagingKafkaLogger;"
+31: Tag 11 InterfaceMethodRef Class index 26, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "noElytronClientSSLContext"
+34: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+35: Tag 9 FieldRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/WildFlyKafkaSSLEngineFactory"
+39: Tag 1 Utf8 Value "sslContext"
+40: Tag 1 Utf8 Value "Ljavax/net/ssl/SSLContext;"
+41: Tag 10 MethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "javax/net/ssl/SSLContext"
+45: Tag 1 Utf8 Value "createSSLEngine"
+46: Tag 1 Utf8 Value "(Ljava/lang/String;I)Ljavax/net/ssl/SSLEngine;"
+47: Tag 10 MethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "javax/net/ssl/SSLEngine"
+51: Tag 1 Utf8 Value "setUseClientMode"
+52: Tag 1 Utf8 Value "(Z)V"
+53: Tag 10 MethodRef Class index 48, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "getSSLParameters"
+56: Tag 1 Utf8 Value "()Ljavax/net/ssl/SSLParameters;"
+57: Tag 8 String Contents 58
+58: Tag 1 Utf8 Value "https"
+59: Tag 10 MethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "javax/net/ssl/SSLParameters"
+63: Tag 1 Utf8 Value "setEndpointIdentificationAlgorithm"
+64: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+65: Tag 10 MethodRef Class index 48, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 68
+67: Tag 1 Utf8 Value "setSSLParameters"
+68: Tag 1 Utf8 Value "(Ljavax/net/ssl/SSLParameters;)V"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "java/lang/UnsupportedOperationException"
+71: Tag 10 MethodRef Class index 69, Name and type index 5
+72: Tag 10 MethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "java/util/Collections"
+76: Tag 1 Utf8 Value "emptySet"
+77: Tag 1 Utf8 Value "()Ljava/util/Set;"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "org/apache/kafka/common/security/auth/SslEngineFactory"
+80: Tag 1 Utf8 Value "Code"
+81: Tag 1 Utf8 Value "LineNumberTable"
+82: Tag 1 Utf8 Value "LocalVariableTable"
+83: Tag 1 Utf8 Value "this"
+84: Tag 1 Utf8 Value "Lorg/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/WildFlyKafkaSSLEngineFactory;"
+85: Tag 1 Utf8 Value "configure"
+86: Tag 1 Utf8 Value "(Ljava/util/Map;)V"
+87: Tag 1 Utf8 Value "configs"
+88: Tag 1 Utf8 Value "Ljava/util/Map;"
+89: Tag 1 Utf8 Value "context"
+90: Tag 1 Utf8 Value "LocalVariableTypeTable"
+91: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;*>;"
+92: Tag 1 Utf8 Value "StackMapTable"
+93: Tag 1 Utf8 Value "Signature"
+94: Tag 1 Utf8 Value "(Ljava/util/Map<Ljava/lang/String;*>;)V"
+95: Tag 1 Utf8 Value "createClientSslEngine"
+96: Tag 1 Utf8 Value "(Ljava/lang/String;ILjava/lang/String;)Ljavax/net/ssl/SSLEngine;"
+97: Tag 1 Utf8 Value "peerHost"
+98: Tag 1 Utf8 Value "Ljava/lang/String;"
+99: Tag 1 Utf8 Value "peerPort"
+100: Tag 1 Utf8 Value "I"
+101: Tag 1 Utf8 Value "endpointIdentification"
+102: Tag 1 Utf8 Value "sslEngine"
+103: Tag 1 Utf8 Value "Ljavax/net/ssl/SSLEngine;"
+104: Tag 1 Utf8 Value "sslParams"
+105: Tag 1 Utf8 Value "Ljavax/net/ssl/SSLParameters;"
+106: Tag 1 Utf8 Value "createServerSslEngine"
+107: Tag 1 Utf8 Value "shouldBeRebuilt"
+108: Tag 1 Utf8 Value "(Ljava/util/Map;)Z"
+109: Tag 1 Utf8 Value "nextConfigs"
+110: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;"
+111: Tag 1 Utf8 Value "(Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;)Z"
+112: Tag 1 Utf8 Value "reconfigurableConfigs"
+113: Tag 1 Utf8 Value "()Ljava/util/Set<Ljava/lang/String;>;"
+114: Tag 1 Utf8 Value "keystore"
+115: Tag 1 Utf8 Value "()Ljava/security/KeyStore;"
+116: Tag 1 Utf8 Value "truststore"
+117: Tag 1 Utf8 Value "close"
+118: Tag 1 Utf8 Value "Exceptions"
+119: Tag 7 Class Name index 120
+120: Tag 1 Utf8 Value "java/io/IOException"
+121: Tag 1 Utf8 Value "SourceFile"
+122: Tag 1 Utf8 Value "WildFlyKafkaSSLEngineFactory.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 36, name org.wildfly.microprofile.reactive.messaging.config.kafka.ssl.context.WildFlyKafkaSSLEngineFactory
+
+Super class: id 4, name java.lang.Object
+
+Implements class ids 78
+Implements names org.apache.kafka.common.security.auth.SslEngineFactory
+
+Field name sslContext (index 39), type Ljavax/net/ssl/SSLContext; (descriptor index 40)
+Human type: javax.net.ssl.SSLContext
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 7), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name configure (index 85), type (Ljava/util/Map;)V (descriptor index 86)
+Human type: (java.util.Map): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 155
+Method attribute name Signature, size 2
+Method name createClientSslEngine (index 95), type (Ljava/lang/String;ILjava/lang/String;)Ljavax/net/ssl/SSLEngine; (descriptor index 96)
+Human type: (java.lang.String, int, java.lang.String): javax.net.ssl.SSLEngine
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 153
+Method name createServerSslEngine (index 106), type (Ljava/lang/String;I)Ljavax/net/ssl/SSLEngine; (descriptor index 46)
+Human type: (java.lang.String, int): javax.net.ssl.SSLEngine
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name shouldBeRebuilt (index 107), type (Ljava/util/Map;)Z (descriptor index 108)
+Human type: (java.util.Map): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 72
+Method attribute name Signature, size 2
+Method name reconfigurableConfigs (index 112), type ()Ljava/util/Set; (descriptor index 77)
+Human type: (): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 46
+Method attribute name Signature, size 2
+Method name keystore (index 114), type ()Ljava/security/KeyStore; (descriptor index 115)
+Human type: (): java.security.KeyStore
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name truststore (index 116), type ()Ljava/security/KeyStore; (descriptor index 115)
+Human type: (): java.security.KeyStore
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name close (index 117), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

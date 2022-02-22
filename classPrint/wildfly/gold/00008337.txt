@@ -1,0 +1,215 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 164
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+11: Tag 1 Utf8 Value "getServiceTarget"
+12: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/service/ConcurrentServiceNames"
+17: Tag 1 Utf8 Value "HUNG_TASK_PERIODIC_TERMINATION_SERVICE_NAME"
+18: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+23: Tag 1 Utf8 Value "addService"
+24: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+29: Tag 1 Utf8 Value "setInstance"
+30: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+33: Tag 11 InterfaceMethodRef Class index 26, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "provides"
+36: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+37: Tag 9 FieldRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/service/ManagedExecutorHungTasksPeriodicTerminationService"
+41: Tag 1 Utf8 Value "consumer"
+42: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+43: Tag 11 InterfaceMethodRef Class index 26, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "install"
+46: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+47: Tag 11 InterfaceMethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "java/util/function/Consumer"
+51: Tag 1 Utf8 Value "accept"
+52: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+53: Tag 9 FieldRef Class index 38, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "scheduler"
+56: Tag 1 Utf8 Value "Ljava/util/concurrent/ScheduledExecutorService;"
+57: Tag 11 InterfaceMethodRef Class index 58, Name and type index 59
+58: Tag 7 Class Name index 60
+59: Tag 12 NameAndType Name index 61, Description index 62
+60: Tag 1 Utf8 Value "java/util/concurrent/ScheduledExecutorService"
+61: Tag 1 Utf8 Value "shutdownNow"
+62: Tag 1 Utf8 Value "()Ljava/util/List;"
+63: Tag 8 String Contents 64
+64: Tag 1 Utf8 Value "executor"
+65: Tag 10 MethodRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 69, Description index 70
+68: Tag 1 Utf8 Value "org/wildfly/common/Assert"
+69: Tag 1 Utf8 Value "checkNotNullParamWithNullPointerException"
+70: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+71: Tag 7 Class Name index 72
+72: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+73: Tag 8 String Contents 74
+74: Tag 1 Utf8 Value "hungTaskTerminationPeriod is not > 0"
+75: Tag 10 MethodRef Class index 71, Name and type index 76
+76: Tag 12 NameAndType Name index 5, Description index 77
+77: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/service/ManagedExecutorHungTasksPeriodicTerminationService$ThreadFactory"
+80: Tag 10 MethodRef Class index 78, Name and type index 81
+81: Tag 12 NameAndType Name index 5, Description index 82
+82: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/service/ManagedExecutorHungTasksPeriodicTerminationService$1;)V"
+83: Tag 10 MethodRef Class index 84, Name and type index 85
+84: Tag 7 Class Name index 86
+85: Tag 12 NameAndType Name index 87, Description index 88
+86: Tag 1 Utf8 Value "java/util/concurrent/Executors"
+87: Tag 1 Utf8 Value "newSingleThreadScheduledExecutor"
+88: Tag 1 Utf8 Value "(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ScheduledExecutorService;"
+89: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 90
+90: Tag 12 NameAndType Name index 91, Description index 92
+91: Tag 1 Utf8 Value "run"
+92: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads;)Ljava/lang/Runnable;"
+93: Tag 9 FieldRef Class index 94, Name and type index 95
+94: Tag 7 Class Name index 96
+95: Tag 12 NameAndType Name index 97, Description index 98
+96: Tag 1 Utf8 Value "java/util/concurrent/TimeUnit"
+97: Tag 1 Utf8 Value "MILLISECONDS"
+98: Tag 1 Utf8 Value "Ljava/util/concurrent/TimeUnit;"
+99: Tag 11 InterfaceMethodRef Class index 58, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 102
+101: Tag 1 Utf8 Value "scheduleAtFixedRate"
+102: Tag 1 Utf8 Value "(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;"
+103: Tag 11 InterfaceMethodRef Class index 104, Name and type index 105
+104: Tag 7 Class Name index 106
+105: Tag 12 NameAndType Name index 107, Description index 6
+106: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads"
+107: Tag 1 Utf8 Value "terminateHungTasks"
+108: Tag 7 Class Name index 109
+109: Tag 1 Utf8 Value "org/jboss/msc/Service"
+110: Tag 1 Utf8 Value "Signature"
+111: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/jboss/as/ee/concurrent/service/ManagedExecutorHungTasksPeriodicTerminationService;>;"
+112: Tag 1 Utf8 Value "Code"
+113: Tag 1 Utf8 Value "LineNumberTable"
+114: Tag 1 Utf8 Value "LocalVariableTable"
+115: Tag 1 Utf8 Value "this"
+116: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/service/ManagedExecutorHungTasksPeriodicTerminationService;"
+117: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)V"
+118: Tag 1 Utf8 Value "context"
+119: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+120: Tag 1 Utf8 Value "serviceBuilder"
+121: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+122: Tag 1 Utf8 Value "start"
+123: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+124: Tag 1 Utf8 Value "startContext"
+125: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+126: Tag 1 Utf8 Value "Exceptions"
+127: Tag 7 Class Name index 128
+128: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+129: Tag 1 Utf8 Value "stop"
+130: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+131: Tag 1 Utf8 Value "stopContext"
+132: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+133: Tag 1 Utf8 Value "StackMapTable"
+134: Tag 1 Utf8 Value "startHungTaskPeriodicTermination"
+135: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads;J)Ljava/util/concurrent/Future;"
+136: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads;"
+137: Tag 1 Utf8 Value "hungTaskTerminationPeriod"
+138: Tag 1 Utf8 Value "J"
+139: Tag 1 Utf8 Value "lambda$startHungTaskPeriodicTermination$0"
+140: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads;)V"
+141: Tag 1 Utf8 Value "SourceFile"
+142: Tag 1 Utf8 Value "ManagedExecutorHungTasksPeriodicTerminationService.java"
+143: Tag 1 Utf8 Value "BootstrapMethods"
+144: Tag 15 MethodHandle Kind 6, Index 145
+145: Tag 10 MethodRef Class index 146, Name and type index 147
+146: Tag 7 Class Name index 148
+147: Tag 12 NameAndType Name index 149, Description index 150
+148: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+149: Tag 1 Utf8 Value "metafactory"
+150: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+151: Tag 16 MethodType Descriptor index 6
+152: Tag 15 MethodHandle Kind 6, Index 153
+153: Tag 10 MethodRef Class index 38, Name and type index 154
+154: Tag 12 NameAndType Name index 139, Description index 140
+155: Tag 1 Utf8 Value "InnerClasses"
+156: Tag 1 Utf8 Value "ThreadFactory"
+157: Tag 7 Class Name index 158
+158: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/service/ManagedExecutorHungTasksPeriodicTerminationService$1"
+159: Tag 7 Class Name index 160
+160: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+161: Tag 7 Class Name index 162
+162: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+163: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 38, name org.jboss.as.ee.concurrent.service.ManagedExecutorHungTasksPeriodicTerminationService
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 108
+Implements names org.jboss.msc.Service
+
+Field name scheduler (index 55), type Ljava/util/concurrent/ScheduledExecutorService; (descriptor index 56)
+Human type: java.util.concurrent.ScheduledExecutorService
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name consumer (index 41), type Ljava/util/function/Consumer; (descriptor index 42)
+Human type: java.util.function.Consumer
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name install (index 45), type (Lorg/jboss/as/controller/OperationContext;)V (descriptor index 117)
+Human type: (org.jboss.as.controller.OperationContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 131
+Method name start (index 122), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 123)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method attribute name Exceptions, size 4
+Method name stop (index 129), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 130)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 110
+Method name startHungTaskPeriodicTermination (index 134), type (Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads;J)Ljava/util/concurrent/Future; (descriptor index 135)
+Human type: (org.jboss.as.ee.concurrent.ManagedExecutorWithHungThreads, long): java.util.concurrent.Future
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 158
+Method name lambda$startHungTaskPeriodicTermination$0 (index 139), type (Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads;)V (descriptor index 140)
+Human type: (org.jboss.as.ee.concurrent.ManagedExecutorWithHungThreads): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 49
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 26

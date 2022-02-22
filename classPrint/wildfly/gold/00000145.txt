@@ -1,0 +1,450 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 262
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/logging/DelegatingBasicLogger"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/logging/Logger;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/logging/PicketLinkLogger_$logger"
+11: Tag 1 Utf8 Value "LOCALE"
+12: Tag 1 Utf8 Value "Ljava/util/Locale;"
+13: Tag 9 FieldRef Class index 2, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "log"
+16: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+17: Tag 9 FieldRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "FQCN"
+20: Tag 1 Utf8 Value "Ljava/lang/String;"
+21: Tag 9 FieldRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+25: Tag 1 Utf8 Value "INFO"
+26: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+27: Tag 10 MethodRef Class index 8, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "activatingSubsystem$str"
+30: Tag 1 Utf8 Value "()Ljava/lang/String;"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+35: Tag 1 Utf8 Value "logf"
+36: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/logging/Logger$Level;Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/Object;)V"
+37: Tag 8 String Contents 38
+38: Tag 1 Utf8 Value "WFLYPL0001: Activating PicketLink %s Subsystem"
+39: Tag 10 MethodRef Class index 8, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 30
+41: Tag 1 Utf8 Value "boundToJndi$str"
+42: Tag 10 MethodRef Class index 32, Name and type index 43
+43: Tag 12 NameAndType Name index 35, Description index 44
+44: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/logging/Logger$Level;Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+45: Tag 8 String Contents 46
+46: Tag 1 Utf8 Value "WFLYPL0003: Bound [%s] to [%s]"
+47: Tag 8 String Contents 48
+48: Tag 1 Utf8 Value "WFLYPL0007: Could not load module [%s]."
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "java/lang/RuntimeException"
+51: Tag 10 MethodRef Class index 8, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 54
+53: Tag 1 Utf8 Value "getLoggingLocale"
+54: Tag 1 Utf8 Value "()Ljava/util/Locale;"
+55: Tag 10 MethodRef Class index 8, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 30
+57: Tag 1 Utf8 Value "moduleCouldNotLoad$str"
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "java/lang/Object"
+60: Tag 10 MethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "java/lang/String"
+64: Tag 1 Utf8 Value "format"
+65: Tag 1 Utf8 Value "(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;"
+66: Tag 10 MethodRef Class index 49, Name and type index 67
+67: Tag 12 NameAndType Name index 5, Description index 68
+68: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)V"
+69: Tag 10 MethodRef Class index 8, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 72
+71: Tag 1 Utf8 Value "_copyStackTraceMinusOne"
+72: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+73: Tag 10 MethodRef Class index 74, Name and type index 75
+74: Tag 7 Class Name index 76
+75: Tag 12 NameAndType Name index 77, Description index 78
+76: Tag 1 Utf8 Value "java/lang/Throwable"
+77: Tag 1 Utf8 Value "getStackTrace"
+78: Tag 1 Utf8 Value "()[Ljava/lang/StackTraceElement;"
+79: Tag 10 MethodRef Class index 80, Name and type index 81
+80: Tag 7 Class Name index 82
+81: Tag 12 NameAndType Name index 83, Description index 84
+82: Tag 1 Utf8 Value "java/util/Arrays"
+83: Tag 1 Utf8 Value "copyOfRange"
+84: Tag 1 Utf8 Value "([Ljava/lang/Object;II)[Ljava/lang/Object;"
+85: Tag 7 Class Name index 86
+86: Tag 1 Utf8 Value "[Ljava/lang/StackTraceElement;"
+87: Tag 10 MethodRef Class index 74, Name and type index 88
+88: Tag 12 NameAndType Name index 89, Description index 90
+89: Tag 1 Utf8 Value "setStackTrace"
+90: Tag 1 Utf8 Value "([Ljava/lang/StackTraceElement;)V"
+91: Tag 8 String Contents 92
+92: Tag 1 Utf8 Value "WFLYPL0009: Could not load class [%s]."
+93: Tag 10 MethodRef Class index 8, Name and type index 94
+94: Tag 12 NameAndType Name index 95, Description index 30
+95: Tag 1 Utf8 Value "couldNotLoadClass$str"
+96: Tag 8 String Contents 97
+97: Tag 1 Utf8 Value "WFLYPL0010: No type provided for %s. You must specify a class-name or code."
+98: Tag 7 Class Name index 99
+99: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+100: Tag 10 MethodRef Class index 8, Name and type index 101
+101: Tag 12 NameAndType Name index 102, Description index 30
+102: Tag 1 Utf8 Value "typeNotProvided$str"
+103: Tag 10 MethodRef Class index 98, Name and type index 104
+104: Tag 12 NameAndType Name index 5, Description index 105
+105: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+106: Tag 8 String Contents 107
+107: Tag 1 Utf8 Value "WFLYPL0012: Attribute [%s] is not longer supported."
+108: Tag 10 MethodRef Class index 8, Name and type index 109
+109: Tag 12 NameAndType Name index 110, Description index 30
+110: Tag 1 Utf8 Value "attributeNoLongerSupported$str"
+111: Tag 8 String Contents 112
+112: Tag 1 Utf8 Value "WFLYPL0013: [%s] can only have [%d] child of type [%s]."
+113: Tag 10 MethodRef Class index 8, Name and type index 114
+114: Tag 12 NameAndType Name index 115, Description index 30
+115: Tag 1 Utf8 Value "invalidChildTypeOccurrence$str"
+116: Tag 10 MethodRef Class index 117, Name and type index 118
+117: Tag 7 Class Name index 119
+118: Tag 12 NameAndType Name index 120, Description index 121
+119: Tag 1 Utf8 Value "java/lang/Integer"
+120: Tag 1 Utf8 Value "valueOf"
+121: Tag 1 Utf8 Value "(I)Ljava/lang/Integer;"
+122: Tag 8 String Contents 123
+123: Tag 1 Utf8 Value "WFLYPL0014: Invalid attribute [%s] definition for [%s]. Only one of the following attributes are allowed: [%s]."
+124: Tag 10 MethodRef Class index 8, Name and type index 125
+125: Tag 12 NameAndType Name index 126, Description index 30
+126: Tag 1 Utf8 Value "invalidAlternativeAttributeOccurrence$str"
+127: Tag 8 String Contents 128
+128: Tag 1 Utf8 Value "WFLYPL0015: Required attribute [%s] for [%s]."
+129: Tag 10 MethodRef Class index 8, Name and type index 130
+130: Tag 12 NameAndType Name index 131, Description index 30
+131: Tag 1 Utf8 Value "requiredAttribute$str"
+132: Tag 8 String Contents 133
+133: Tag 1 Utf8 Value "WFLYPL0016: [%s] requires one of the given attributes [%s]."
+134: Tag 10 MethodRef Class index 8, Name and type index 135
+135: Tag 12 NameAndType Name index 136, Description index 30
+136: Tag 1 Utf8 Value "requiredAlternativeAttributes$str"
+137: Tag 8 String Contents 138
+138: Tag 1 Utf8 Value "WFLYPL0017: Type [%s] already defined."
+139: Tag 7 Class Name index 140
+140: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+141: Tag 10 MethodRef Class index 8, Name and type index 142
+142: Tag 12 NameAndType Name index 143, Description index 30
+143: Tag 1 Utf8 Value "typeAlreadyDefined$str"
+144: Tag 10 MethodRef Class index 139, Name and type index 104
+145: Tag 8 String Contents 146
+146: Tag 1 Utf8 Value "WFLYPL0018: [%s] can not be empty."
+147: Tag 10 MethodRef Class index 8, Name and type index 148
+148: Tag 12 NameAndType Name index 149, Description index 30
+149: Tag 1 Utf8 Value "emptyResource$str"
+150: Tag 8 String Contents 151
+151: Tag 1 Utf8 Value "WFLYPL0019: [%s] requires child [%s]."
+152: Tag 10 MethodRef Class index 8, Name and type index 153
+153: Tag 12 NameAndType Name index 154, Description index 30
+154: Tag 1 Utf8 Value "requiredChild$str"
+155: Tag 8 String Contents 156
+156: Tag 1 Utf8 Value "WFLYPL0054: You must provide at least one identity configuration."
+157: Tag 10 MethodRef Class index 8, Name and type index 158
+158: Tag 12 NameAndType Name index 159, Description index 30
+159: Tag 1 Utf8 Value "idmNoIdentityConfigurationProvided$str"
+160: Tag 8 String Contents 161
+161: Tag 1 Utf8 Value "WFLYPL0055: You must provide at least one identity store for identity configuration [%s]."
+162: Tag 10 MethodRef Class index 8, Name and type index 163
+163: Tag 12 NameAndType Name index 164, Description index 30
+164: Tag 1 Utf8 Value "idmNoIdentityStoreProvided$str"
+165: Tag 8 String Contents 166
+166: Tag 1 Utf8 Value "WFLYPL0056: No supported type provided."
+167: Tag 10 MethodRef Class index 8, Name and type index 168
+168: Tag 12 NameAndType Name index 169, Description index 30
+169: Tag 1 Utf8 Value "idmNoSupportedTypesDefined$str"
+170: Tag 8 String Contents 171
+171: Tag 1 Utf8 Value "WFLYPL0057: No mapping was defined."
+172: Tag 10 MethodRef Class index 8, Name and type index 173
+173: Tag 12 NameAndType Name index 174, Description index 30
+174: Tag 1 Utf8 Value "idmLdapNoMappingDefined$str"
+175: Tag 8 String Contents 176
+176: Tag 1 Utf8 Value "WFLYPL0101: No type provided for the handler. You must specify a class-name or code."
+177: Tag 10 MethodRef Class index 8, Name and type index 178
+178: Tag 12 NameAndType Name index 179, Description index 30
+179: Tag 1 Utf8 Value "federationHandlerTypeNotProvided$str"
+180: Tag 10 MethodRef Class index 181, Name and type index 182
+181: Tag 7 Class Name index 183
+182: Tag 12 NameAndType Name index 184, Description index 30
+183: Tag 1 Utf8 Value "java/lang/Class"
+184: Tag 1 Utf8 Value "getName"
+185: Tag 9 FieldRef Class index 186, Name and type index 187
+186: Tag 7 Class Name index 188
+187: Tag 12 NameAndType Name index 189, Description index 12
+188: Tag 1 Utf8 Value "java/util/Locale"
+189: Tag 1 Utf8 Value "ROOT"
+190: Tag 7 Class Name index 191
+191: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/logging/PicketLinkLogger"
+192: Tag 7 Class Name index 193
+193: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+194: Tag 7 Class Name index 195
+195: Tag 1 Utf8 Value "java/io/Serializable"
+196: Tag 1 Utf8 Value "serialVersionUID"
+197: Tag 1 Utf8 Value "J"
+198: Tag 1 Utf8 Value "ConstantValue"
+199: Tag 5 Long Value 1
+201: Tag 1 Utf8 Value "Code"
+202: Tag 1 Utf8 Value "LineNumberTable"
+203: Tag 1 Utf8 Value "LocalVariableTable"
+204: Tag 1 Utf8 Value "this"
+205: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/logging/PicketLinkLogger_$logger;"
+206: Tag 1 Utf8 Value "activatingSubsystem"
+207: Tag 1 Utf8 Value "name"
+208: Tag 1 Utf8 Value "boundToJndi"
+209: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+210: Tag 1 Utf8 Value "alias"
+211: Tag 1 Utf8 Value "jndiName"
+212: Tag 1 Utf8 Value "moduleCouldNotLoad"
+213: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+214: Tag 1 Utf8 Value "s"
+215: Tag 1 Utf8 Value "t"
+216: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+217: Tag 1 Utf8 Value "result"
+218: Tag 1 Utf8 Value "Ljava/lang/RuntimeException;"
+219: Tag 1 Utf8 Value "e"
+220: Tag 1 Utf8 Value "st"
+221: Tag 1 Utf8 Value "couldNotLoadClass"
+222: Tag 1 Utf8 Value "mappingClass"
+223: Tag 1 Utf8 Value "typeNotProvided"
+224: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+225: Tag 1 Utf8 Value "elementName"
+226: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationFailedException;"
+227: Tag 1 Utf8 Value "attributeNoLongerSupported"
+228: Tag 1 Utf8 Value "attributeName"
+229: Tag 1 Utf8 Value "invalidChildTypeOccurrence"
+230: Tag 1 Utf8 Value "(Ljava/lang/String;ILjava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+231: Tag 1 Utf8 Value "parentPathElement"
+232: Tag 1 Utf8 Value "maxOccurs"
+233: Tag 1 Utf8 Value "I"
+234: Tag 1 Utf8 Value "invalidAlternativeAttributeOccurrence"
+235: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+236: Tag 1 Utf8 Value "pathElement"
+237: Tag 1 Utf8 Value "attributeNames"
+238: Tag 1 Utf8 Value "requiredAttribute"
+239: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+240: Tag 1 Utf8 Value "configuration"
+241: Tag 1 Utf8 Value "requiredAlternativeAttributes"
+242: Tag 1 Utf8 Value "typeAlreadyDefined"
+243: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+244: Tag 1 Utf8 Value "clazz"
+245: Tag 1 Utf8 Value "Ljava/lang/IllegalStateException;"
+246: Tag 1 Utf8 Value "emptyResource"
+247: Tag 1 Utf8 Value "requiredChild"
+248: Tag 1 Utf8 Value "childPathElement"
+249: Tag 1 Utf8 Value "idmNoIdentityConfigurationProvided"
+250: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/OperationFailedException;"
+251: Tag 1 Utf8 Value "idmNoIdentityStoreProvided"
+252: Tag 1 Utf8 Value "identityConfiguration"
+253: Tag 1 Utf8 Value "idmNoSupportedTypesDefined"
+254: Tag 1 Utf8 Value "idmLdapNoMappingDefined"
+255: Tag 1 Utf8 Value "federationHandlerTypeNotProvided"
+256: Tag 1 Utf8 Value "<clinit>"
+257: Tag 1 Utf8 Value "()V"
+258: Tag 1 Utf8 Value "SourceFile"
+259: Tag 1 Utf8 Value "PicketLinkLogger_$logger.java"
+260: Tag 1 Utf8 Value "InnerClasses"
+261: Tag 1 Utf8 Value "Level"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.picketlink.logging.PicketLinkLogger_$logger
+
+Super class: id 2, name org.jboss.logging.DelegatingBasicLogger
+
+Implements class ids 190 192 194
+Implements names org.wildfly.extension.picketlink.logging.PicketLinkLogger org.jboss.logging.BasicLogger java.io.Serializable
+
+Field name serialVersionUID (index 196), type J (descriptor index 197)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name FQCN (index 19), type Ljava/lang/String; (descriptor index 20)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name LOCALE (index 11), type Ljava/util/Locale; (descriptor index 12)
+Human type: java.util.Locale
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/logging/Logger;)V (descriptor index 6)
+Human type: (org.jboss.logging.Logger): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getLoggingLocale (index 53), type ()Ljava/util/Locale; (descriptor index 54)
+Human type: (): java.util.Locale
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 46
+Method name activatingSubsystem (index 206), type (Ljava/lang/String;)V (descriptor index 105)
+Human type: (java.lang.String): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 76
+Method name activatingSubsystem$str (index 29), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name boundToJndi (index 208), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 209)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 87
+Method name boundToJndi$str (index 41), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name moduleCouldNotLoad$str (index 57), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name moduleCouldNotLoad (index 212), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 213)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 114
+Method name _copyStackTraceMinusOne (index 71), type (Ljava/lang/Throwable;)V (descriptor index 72)
+Human type: (java.lang.Throwable): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 80
+Method name couldNotLoadClass$str (index 95), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name couldNotLoadClass (index 221), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 213)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 114
+Method name typeNotProvided$str (index 102), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name typeNotProvided (index 223), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 224)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 103
+Method name attributeNoLongerSupported$str (index 110), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name attributeNoLongerSupported (index 227), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 224)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 103
+Method name invalidChildTypeOccurrence$str (index 115), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name invalidChildTypeOccurrence (index 229), type (Ljava/lang/String;ILjava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 230)
+Human type: (java.lang.String, int, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 137
+Method name invalidAlternativeAttributeOccurrence$str (index 126), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name invalidAlternativeAttributeOccurrence (index 234), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 235)
+Human type: (java.lang.String, java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 134
+Method name requiredAttribute$str (index 131), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name requiredAttribute (index 238), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 239)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 117
+Method name requiredAlternativeAttributes$str (index 136), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name requiredAlternativeAttributes (index 241), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 239)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 117
+Method name typeAlreadyDefined$str (index 143), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name typeAlreadyDefined (index 242), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 243)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 103
+Method name emptyResource$str (index 149), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name emptyResource (index 246), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 224)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 103
+Method name requiredChild$str (index 154), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name requiredChild (index 247), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 239)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 117
+Method name idmNoIdentityConfigurationProvided$str (index 159), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name idmNoIdentityConfigurationProvided (index 249), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 250)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 89
+Method name idmNoIdentityStoreProvided$str (index 164), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name idmNoIdentityStoreProvided (index 251), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 224)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 103
+Method name idmNoSupportedTypesDefined$str (index 169), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name idmNoSupportedTypesDefined (index 253), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 250)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 89
+Method name idmLdapNoMappingDefined$str (index 174), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name idmLdapNoMappingDefined (index 254), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 250)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 89
+Method name federationHandlerTypeNotProvided$str (index 179), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name federationHandlerTypeNotProvided (index 255), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 250)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 89
+Method name <clinit> (index 256), type ()V (descriptor index 257)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 43
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

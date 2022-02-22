@@ -1,0 +1,1460 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 1128
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSTopicService"
+3: Tag 7 Class Name index 4
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSQueueService"
+5: Tag 7 Class Name index 6
+6: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttributes$Pooled"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "java/util/HashMap"
+15: Tag 10 MethodRef Class index 13, Name and type index 9
+16: Tag 9 FieldRef Class index 17, Name and type index 18
+17: Tag 7 Class Name index 19
+18: Tag 12 NameAndType Name index 20, Description index 21
+19: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService"
+20: Tag 1 Utf8 Value "socketBindings"
+21: Tag 1 Utf8 Value "Ljava/util/Map;"
+22: Tag 7 Class Name index 23
+23: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+24: Tag 10 MethodRef Class index 22, Name and type index 9
+25: Tag 9 FieldRef Class index 17, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "activeMQServer"
+28: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+29: Tag 9 FieldRef Class index 17, Name and type index 30
+30: Tag 12 NameAndType Name index 31, Description index 28
+31: Tag 1 Utf8 Value "credentialSourceSupplier"
+32: Tag 9 FieldRef Class index 17, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "name"
+35: Tag 1 Utf8 Value "Ljava/lang/String;"
+36: Tag 9 FieldRef Class index 17, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 39
+38: Tag 1 Utf8 Value "connectors"
+39: Tag 1 Utf8 Value "Ljava/util/List;"
+40: Tag 9 FieldRef Class index 17, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 35
+42: Tag 1 Utf8 Value "discoveryGroupName"
+43: Tag 9 FieldRef Class index 17, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 35
+45: Tag 1 Utf8 Value "serverName"
+46: Tag 9 FieldRef Class index 17, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 35
+48: Tag 1 Utf8 Value "jgroupsChannelName"
+49: Tag 9 FieldRef Class index 17, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 39
+51: Tag 1 Utf8 Value "adapterParams"
+52: Tag 9 FieldRef Class index 17, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "bindInfo"
+55: Tag 1 Utf8 Value "Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "java/util/ArrayList"
+58: Tag 10 MethodRef Class index 56, Name and type index 59
+59: Tag 12 NameAndType Name index 11, Description index 60
+60: Tag 1 Utf8 Value "(Ljava/util/Collection;)V"
+61: Tag 9 FieldRef Class index 17, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 39
+63: Tag 1 Utf8 Value "jndiAliases"
+64: Tag 9 FieldRef Class index 17, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "createBinderService"
+67: Tag 1 Utf8 Value "Z"
+68: Tag 9 FieldRef Class index 17, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 35
+70: Tag 1 Utf8 Value "txSupport"
+71: Tag 9 FieldRef Class index 17, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 74
+73: Tag 1 Utf8 Value "minPoolSize"
+74: Tag 1 Utf8 Value "I"
+75: Tag 9 FieldRef Class index 17, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 74
+77: Tag 1 Utf8 Value "maxPoolSize"
+78: Tag 9 FieldRef Class index 17, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 35
+80: Tag 1 Utf8 Value "managedConnectionPoolClassName"
+81: Tag 9 FieldRef Class index 17, Name and type index 82
+82: Tag 12 NameAndType Name index 83, Description index 84
+83: Tag 1 Utf8 Value "enlistmentTrace"
+84: Tag 1 Utf8 Value "Ljava/lang/Boolean;"
+85: Tag 9 FieldRef Class index 17, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 67
+87: Tag 1 Utf8 Value "pickAnyConnectors"
+88: Tag 10 MethodRef Class index 89, Name and type index 90
+89: Tag 7 Class Name index 91
+90: Tag 12 NameAndType Name index 92, Description index 93
+91: Tag 1 Utf8 Value "java/util/Collections"
+92: Tag 1 Utf8 Value "emptyList"
+93: Tag 1 Utf8 Value "()Ljava/util/List;"
+94: Tag 9 FieldRef Class index 95, Name and type index 96
+95: Tag 7 Class Name index 97
+96: Tag 12 NameAndType Name index 98, Description index 99
+97: Tag 1 Utf8 Value "org/jboss/as/connector/util/ConnectorServices"
+98: Tag 1 Utf8 Value "RESOURCE_ADAPTER_ACTIVATOR_SERVICE"
+99: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+100: Tag 7 Class Name index 101
+101: Tag 1 Utf8 Value "java/lang/String"
+102: Tag 10 MethodRef Class index 103, Name and type index 104
+103: Tag 7 Class Name index 105
+104: Tag 12 NameAndType Name index 106, Description index 107
+105: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+106: Tag 1 Utf8 Value "append"
+107: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+108: Tag 10 MethodRef Class index 109, Name and type index 110
+109: Tag 7 Class Name index 111
+110: Tag 12 NameAndType Name index 112, Description index 113
+111: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingServices"
+112: Tag 1 Utf8 Value "getActiveMQServiceName"
+113: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+114: Tag 10 MethodRef Class index 115, Name and type index 116
+115: Tag 7 Class Name index 117
+116: Tag 12 NameAndType Name index 118, Description index 119
+117: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/JMSServices"
+118: Tag 1 Utf8 Value "getPooledConnectionFactoryBaseServiceName"
+119: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceName;"
+120: Tag 10 MethodRef Class index 17, Name and type index 121
+121: Tag 12 NameAndType Name index 11, Description index 122
+122: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Z)V"
+123: Tag 10 MethodRef Class index 17, Name and type index 124
+124: Tag 12 NameAndType Name index 125, Description index 126
+125: Tag 1 Utf8 Value "installService0"
+126: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;)V"
+127: Tag 10 MethodRef Class index 17, Name and type index 128
+128: Tag 12 NameAndType Name index 11, Description index 129
+129: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/util/List;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;)V"
+130: Tag 10 MethodRef Class index 17, Name and type index 131
+131: Tag 12 NameAndType Name index 125, Description index 132
+132: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;Lorg/jboss/dmr/ModelNode;)V"
+133: Tag 10 MethodRef Class index 17, Name and type index 134
+134: Tag 12 NameAndType Name index 135, Description index 136
+135: Tag 1 Utf8 Value "createServiceBuilder"
+136: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;)Lorg/jboss/msc/service/ServiceBuilder;"
+137: Tag 11 InterfaceMethodRef Class index 138, Name and type index 139
+138: Tag 7 Class Name index 140
+139: Tag 12 NameAndType Name index 141, Description index 142
+140: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+141: Tag 1 Utf8 Value "install"
+142: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+143: Tag 11 InterfaceMethodRef Class index 144, Name and type index 145
+144: Tag 7 Class Name index 146
+145: Tag 12 NameAndType Name index 147, Description index 148
+146: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+147: Tag 1 Utf8 Value "getServiceTarget"
+148: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+149: Tag 9 FieldRef Class index 5, Name and type index 150
+150: Tag 12 NameAndType Name index 151, Description index 152
+151: Tag 1 Utf8 Value "CREDENTIAL_REFERENCE"
+152: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ObjectTypeAttributeDefinition;"
+153: Tag 10 MethodRef Class index 154, Name and type index 155
+154: Tag 7 Class Name index 156
+155: Tag 12 NameAndType Name index 157, Description index 158
+156: Tag 1 Utf8 Value "org/jboss/as/controller/ObjectTypeAttributeDefinition"
+157: Tag 1 Utf8 Value "resolveModelAttribute"
+158: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+159: Tag 10 MethodRef Class index 160, Name and type index 161
+160: Tag 7 Class Name index 162
+161: Tag 12 NameAndType Name index 163, Description index 164
+162: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+163: Tag 1 Utf8 Value "isDefined"
+164: Tag 1 Utf8 Value "()Z"
+165: Tag 10 MethodRef Class index 17, Name and type index 166
+166: Tag 12 NameAndType Name index 167, Description index 168
+167: Tag 1 Utf8 Value "getCredentialSourceSupplierInjector"
+168: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue;"
+169: Tag 10 MethodRef Class index 170, Name and type index 171
+170: Tag 7 Class Name index 172
+171: Tag 12 NameAndType Name index 173, Description index 174
+172: Tag 1 Utf8 Value "org/jboss/as/controller/security/CredentialReference"
+173: Tag 1 Utf8 Value "getCredentialSourceSupplier"
+174: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/ObjectTypeAttributeDefinition;Lorg/jboss/dmr/ModelNode;Lorg/jboss/msc/service/ServiceBuilder;)Lorg/wildfly/common/function/ExceptionSupplier;"
+175: Tag 10 MethodRef Class index 22, Name and type index 176
+176: Tag 12 NameAndType Name index 177, Description index 178
+177: Tag 1 Utf8 Value "inject"
+178: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+179: Tag 11 InterfaceMethodRef Class index 180, Name and type index 181
+180: Tag 7 Class Name index 182
+181: Tag 12 NameAndType Name index 183, Description index 184
+182: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+183: Tag 1 Utf8 Value "addService"
+184: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+185: Tag 8 String Contents 186
+186: Tag 1 Utf8 Value "org.wildfly.transactions.global-default-local-provider"
+187: Tag 10 MethodRef Class index 109, Name and type index 188
+188: Tag 12 NameAndType Name index 189, Description index 190
+189: Tag 1 Utf8 Value "getCapabilityServiceName"
+190: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+191: Tag 11 InterfaceMethodRef Class index 138, Name and type index 192
+192: Tag 12 NameAndType Name index 193, Description index 194
+193: Tag 1 Utf8 Value "requires"
+194: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+195: Tag 7 Class Name index 196
+196: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/server/ActiveMQServer"
+197: Tag 11 InterfaceMethodRef Class index 138, Name and type index 198
+198: Tag 12 NameAndType Name index 199, Description index 200
+199: Tag 1 Utf8 Value "addDependency"
+200: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)Lorg/jboss/msc/service/ServiceBuilder;"
+201: Tag 10 MethodRef Class index 202, Name and type index 203
+202: Tag 7 Class Name index 204
+203: Tag 12 NameAndType Name index 205, Description index 119
+204: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ActiveMQActivationService"
+205: Tag 1 Utf8 Value "getServiceName"
+206: Tag 10 MethodRef Class index 115, Name and type index 207
+207: Tag 12 NameAndType Name index 208, Description index 119
+208: Tag 1 Utf8 Value "getJmsManagerBaseServiceName"
+209: Tag 9 FieldRef Class index 109, Name and type index 210
+210: Tag 12 NameAndType Name index 211, Description index 99
+211: Tag 1 Utf8 Value "ACTIVEMQ_CLIENT_THREAD_POOL"
+212: Tag 9 FieldRef Class index 213, Name and type index 214
+213: Tag 7 Class Name index 215
+214: Tag 12 NameAndType Name index 216, Description index 217
+215: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+216: Tag 1 Utf8 Value "PASSIVE"
+217: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+218: Tag 11 InterfaceMethodRef Class index 138, Name and type index 219
+219: Tag 12 NameAndType Name index 220, Description index 221
+220: Tag 1 Utf8 Value "setInitialMode"
+221: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)Lorg/jboss/msc/service/ServiceBuilder;"
+222: Tag 11 InterfaceMethodRef Class index 223, Name and type index 224
+223: Tag 7 Class Name index 225
+224: Tag 12 NameAndType Name index 226, Description index 148
+225: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+226: Tag 1 Utf8 Value "getChildTarget"
+227: Tag 11 InterfaceMethodRef Class index 223, Name and type index 228
+228: Tag 12 NameAndType Name index 229, Description index 142
+229: Tag 1 Utf8 Value "getController"
+230: Tag 11 InterfaceMethodRef Class index 231, Name and type index 232
+231: Tag 7 Class Name index 233
+232: Tag 12 NameAndType Name index 234, Description index 235
+233: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+234: Tag 1 Utf8 Value "getServiceContainer"
+235: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceContainer;"
+236: Tag 10 MethodRef Class index 17, Name and type index 237
+237: Tag 12 NameAndType Name index 238, Description index 239
+238: Tag 1 Utf8 Value "createService"
+239: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceContainer;)V"
+240: Tag 7 Class Name index 241
+241: Tag 1 Utf8 Value "java/lang/Exception"
+242: Tag 9 FieldRef Class index 243, Name and type index 244
+243: Tag 7 Class Name index 245
+244: Tag 12 NameAndType Name index 246, Description index 247
+245: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/logging/MessagingLogger"
+246: Tag 1 Utf8 Value "ROOT_LOGGER"
+247: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/logging/MessagingLogger;"
+248: Tag 8 String Contents 249
+249: Tag 1 Utf8 Value "resource adapter"
+250: Tag 11 InterfaceMethodRef Class index 243, Name and type index 251
+251: Tag 12 NameAndType Name index 252, Description index 253
+252: Tag 1 Utf8 Value "failedToCreate"
+253: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+254: Tag 10 MethodRef Class index 56, Name and type index 9
+255: Tag 7 Class Name index 256
+256: Tag 1 Utf8 Value "java/lang/StringBuilder"
+257: Tag 10 MethodRef Class index 255, Name and type index 9
+258: Tag 11 InterfaceMethodRef Class index 259, Name and type index 260
+259: Tag 7 Class Name index 261
+260: Tag 12 NameAndType Name index 262, Description index 164
+261: Tag 1 Utf8 Value "java/util/List"
+262: Tag 1 Utf8 Value "isEmpty"
+263: Tag 10 MethodRef Class index 22, Name and type index 264
+264: Tag 12 NameAndType Name index 265, Description index 266
+265: Tag 1 Utf8 Value "getValue"
+266: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+267: Tag 11 InterfaceMethodRef Class index 195, Name and type index 268
+268: Tag 12 NameAndType Name index 269, Description index 270
+269: Tag 1 Utf8 Value "getConfiguration"
+270: Tag 1 Utf8 Value "()Lorg/apache/activemq/artemis/core/config/Configuration;"
+271: Tag 11 InterfaceMethodRef Class index 272, Name and type index 273
+272: Tag 7 Class Name index 274
+273: Tag 12 NameAndType Name index 275, Description index 276
+274: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/config/Configuration"
+275: Tag 1 Utf8 Value "getConnectorConfigurations"
+276: Tag 1 Utf8 Value "()Ljava/util/Map;"
+277: Tag 11 InterfaceMethodRef Class index 278, Name and type index 279
+278: Tag 7 Class Name index 280
+279: Tag 12 NameAndType Name index 281, Description index 282
+280: Tag 1 Utf8 Value "java/util/Map"
+281: Tag 1 Utf8 Value "keySet"
+282: Tag 1 Utf8 Value "()Ljava/util/Set;"
+283: Tag 11 InterfaceMethodRef Class index 284, Name and type index 260
+284: Tag 7 Class Name index 285
+285: Tag 1 Utf8 Value "java/util/Set"
+286: Tag 11 InterfaceMethodRef Class index 284, Name and type index 287
+287: Tag 12 NameAndType Name index 288, Description index 289
+288: Tag 1 Utf8 Value "iterator"
+289: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+290: Tag 11 InterfaceMethodRef Class index 291, Name and type index 292
+291: Tag 7 Class Name index 293
+292: Tag 12 NameAndType Name index 294, Description index 266
+293: Tag 1 Utf8 Value "java/util/Iterator"
+294: Tag 1 Utf8 Value "next"
+295: Tag 11 InterfaceMethodRef Class index 243, Name and type index 296
+296: Tag 12 NameAndType Name index 297, Description index 298
+297: Tag 1 Utf8 Value "connectorForPooledConnectionFactory"
+298: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+299: Tag 11 InterfaceMethodRef Class index 259, Name and type index 300
+300: Tag 12 NameAndType Name index 301, Description index 302
+301: Tag 1 Utf8 Value "add"
+302: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+303: Tag 11 InterfaceMethodRef Class index 259, Name and type index 287
+304: Tag 11 InterfaceMethodRef Class index 291, Name and type index 305
+305: Tag 12 NameAndType Name index 306, Description index 164
+306: Tag 1 Utf8 Value "hasNext"
+307: Tag 11 InterfaceMethodRef Class index 278, Name and type index 308
+308: Tag 12 NameAndType Name index 309, Description index 310
+309: Tag 1 Utf8 Value "get"
+310: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+311: Tag 7 Class Name index 312
+312: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/TransportConfiguration"
+313: Tag 11 InterfaceMethodRef Class index 243, Name and type index 314
+314: Tag 12 NameAndType Name index 315, Description index 316
+315: Tag 1 Utf8 Value "connectorNotDefined"
+316: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+317: Tag 10 MethodRef Class index 255, Name and type index 318
+318: Tag 12 NameAndType Name index 319, Description index 320
+319: Tag 1 Utf8 Value "length"
+320: Tag 1 Utf8 Value "()I"
+321: Tag 8 String Contents 322
+322: Tag 1 Utf8 Value ","
+323: Tag 10 MethodRef Class index 255, Name and type index 324
+324: Tag 12 NameAndType Name index 106, Description index 325
+325: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+326: Tag 10 MethodRef Class index 311, Name and type index 327
+327: Tag 12 NameAndType Name index 328, Description index 329
+328: Tag 1 Utf8 Value "getFactoryClassName"
+329: Tag 1 Utf8 Value "()Ljava/lang/String;"
+330: Tag 10 MethodRef Class index 311, Name and type index 331
+331: Tag 12 NameAndType Name index 332, Description index 276
+332: Tag 1 Utf8 Value "getParams"
+333: Tag 11 InterfaceMethodRef Class index 278, Name and type index 334
+334: Tag 12 NameAndType Name index 335, Description index 282
+335: Tag 1 Utf8 Value "entrySet"
+336: Tag 7 Class Name index 337
+337: Tag 1 Utf8 Value "java/util/Map$Entry"
+338: Tag 8 String Contents 339
+339: Tag 1 Utf8 Value ";"
+340: Tag 11 InterfaceMethodRef Class index 336, Name and type index 341
+341: Tag 12 NameAndType Name index 342, Description index 266
+342: Tag 1 Utf8 Value "getKey"
+343: Tag 8 String Contents 344
+344: Tag 1 Utf8 Value "="
+345: Tag 11 InterfaceMethodRef Class index 336, Name and type index 264
+346: Tag 10 MethodRef Class index 255, Name and type index 347
+347: Tag 12 NameAndType Name index 106, Description index 348
+348: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+349: Tag 8 String Contents 350
+350: Tag 1 Utf8 Value "connectorClassName"
+351: Tag 8 String Contents 352
+352: Tag 1 Utf8 Value "java.lang.String"
+353: Tag 10 MethodRef Class index 255, Name and type index 354
+354: Tag 12 NameAndType Name index 355, Description index 329
+355: Tag 1 Utf8 Value "toString"
+356: Tag 10 MethodRef Class index 17, Name and type index 357
+357: Tag 12 NameAndType Name index 358, Description index 359
+358: Tag 1 Utf8 Value "simpleProperty15"
+359: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/jca/common/api/metadata/spec/ConfigProperty;"
+360: Tag 8 String Contents 361
+361: Tag 1 Utf8 Value "connectionParameters"
+362: Tag 11 InterfaceMethodRef Class index 272, Name and type index 363
+363: Tag 12 NameAndType Name index 364, Description index 276
+364: Tag 1 Utf8 Value "getDiscoveryGroupConfigurations"
+365: Tag 7 Class Name index 366
+366: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration"
+367: Tag 10 MethodRef Class index 365, Name and type index 368
+368: Tag 12 NameAndType Name index 369, Description index 370
+369: Tag 1 Utf8 Value "getBroadcastEndpointFactory"
+370: Tag 1 Utf8 Value "()Lorg/apache/activemq/artemis/api/core/BroadcastEndpointFactory;"
+371: Tag 7 Class Name index 372
+372: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/UDPBroadcastEndpointFactory"
+373: Tag 8 String Contents 374
+374: Tag 1 Utf8 Value "discoveryAddress"
+375: Tag 10 MethodRef Class index 371, Name and type index 376
+376: Tag 12 NameAndType Name index 377, Description index 329
+377: Tag 1 Utf8 Value "getGroupAddress"
+378: Tag 8 String Contents 379
+379: Tag 1 Utf8 Value "discoveryPort"
+380: Tag 8 String Contents 381
+381: Tag 1 Utf8 Value "java.lang.Integer"
+382: Tag 8 String Contents 383
+383: Tag 1 Utf8 Value ""
+384: Tag 10 MethodRef Class index 371, Name and type index 385
+385: Tag 12 NameAndType Name index 386, Description index 320
+386: Tag 1 Utf8 Value "getGroupPort"
+387: Tag 10 MethodRef Class index 255, Name and type index 388
+388: Tag 12 NameAndType Name index 106, Description index 389
+389: Tag 1 Utf8 Value "(I)Ljava/lang/StringBuilder;"
+390: Tag 8 String Contents 391
+391: Tag 1 Utf8 Value "discoveryLocalBindAddress"
+392: Tag 10 MethodRef Class index 371, Name and type index 393
+393: Tag 12 NameAndType Name index 394, Description index 329
+394: Tag 1 Utf8 Value "getLocalBindAddress"
+395: Tag 7 Class Name index 396
+396: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/broadcast/CommandDispatcherBroadcastEndpointFactory"
+397: Tag 8 String Contents 48
+398: Tag 8 String Contents 399
+399: Tag 1 Utf8 Value "jgroupsChannelRefName"
+400: Tag 8 String Contents 401
+401: Tag 1 Utf8 Value "/discovery"
+402: Tag 10 MethodRef Class index 365, Name and type index 403
+403: Tag 12 NameAndType Name index 404, Description index 329
+404: Tag 1 Utf8 Value "getName"
+405: Tag 8 String Contents 406
+406: Tag 1 Utf8 Value "discoveryInitialWaitTimeout"
+407: Tag 8 String Contents 408
+408: Tag 1 Utf8 Value "java.lang.Long"
+409: Tag 10 MethodRef Class index 365, Name and type index 410
+410: Tag 12 NameAndType Name index 411, Description index 412
+411: Tag 1 Utf8 Value "getDiscoveryInitialWaitTimeout"
+412: Tag 1 Utf8 Value "()J"
+413: Tag 10 MethodRef Class index 255, Name and type index 414
+414: Tag 12 NameAndType Name index 106, Description index 415
+415: Tag 1 Utf8 Value "(J)Ljava/lang/StringBuilder;"
+416: Tag 8 String Contents 417
+417: Tag 1 Utf8 Value "discoveryRefreshTimeout"
+418: Tag 10 MethodRef Class index 365, Name and type index 419
+419: Tag 12 NameAndType Name index 420, Description index 412
+420: Tag 1 Utf8 Value "getRefreshTimeout"
+421: Tag 8 String Contents 422
+422: Tag 1 Utf8 Value "reconnectAttempts"
+423: Tag 7 Class Name index 424
+424: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigProperties"
+425: Tag 10 MethodRef Class index 423, Name and type index 403
+426: Tag 10 MethodRef Class index 100, Name and type index 427
+427: Tag 12 NameAndType Name index 428, Description index 302
+428: Tag 1 Utf8 Value "equals"
+429: Tag 10 MethodRef Class index 423, Name and type index 430
+430: Tag 12 NameAndType Name index 431, Description index 329
+431: Tag 1 Utf8 Value "getType"
+432: Tag 10 MethodRef Class index 423, Name and type index 433
+433: Tag 12 NameAndType Name index 265, Description index 329
+434: Tag 8 String Contents 435
+435: Tag 1 Utf8 Value "rebalanceConnections"
+436: Tag 10 MethodRef Class index 437, Name and type index 438
+437: Tag 7 Class Name index 439
+438: Tag 12 NameAndType Name index 440, Description index 441
+439: Tag 1 Utf8 Value "java/lang/Boolean"
+440: Tag 1 Utf8 Value "parseBoolean"
+441: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+442: Tag 10 MethodRef Class index 423, Name and type index 443
+443: Tag 12 NameAndType Name index 444, Description index 445
+444: Tag 1 Utf8 Value "getConfigType"
+445: Tag 1 Utf8 Value "()Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute$ConfigType;"
+446: Tag 9 FieldRef Class index 447, Name and type index 448
+447: Tag 7 Class Name index 449
+448: Tag 12 NameAndType Name index 450, Description index 451
+449: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService$2"
+450: Tag 1 Utf8 Value "$SwitchMap$org$wildfly$extension$messaging$activemq$jms$ConnectionFactoryAttribute$ConfigType"
+451: Tag 1 Utf8 Value "[I"
+452: Tag 10 MethodRef Class index 453, Name and type index 454
+453: Tag 7 Class Name index 455
+454: Tag 12 NameAndType Name index 456, Description index 320
+455: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute$ConfigType"
+456: Tag 1 Utf8 Value "ordinal"
+457: Tag 7 Class Name index 458
+458: Tag 1 Utf8 Value "java/lang/Integer"
+459: Tag 10 MethodRef Class index 460, Name and type index 403
+460: Tag 7 Class Name index 461
+461: Tag 1 Utf8 Value "java/lang/Class"
+462: Tag 8 String Contents 463
+463: Tag 1 Utf8 Value "5"
+464: Tag 10 MethodRef Class index 17, Name and type index 465
+465: Tag 12 NameAndType Name index 466, Description index 467
+466: Tag 1 Utf8 Value "configureCredential"
+467: Tag 1 Utf8 Value "(Ljava/util/List;)V"
+468: Tag 8 String Contents 469
+469: Tag 1 Utf8 Value "queuePrefix"
+470: Tag 8 String Contents 471
+471: Tag 1 Utf8 Value "jms.queue."
+472: Tag 8 String Contents 473
+473: Tag 1 Utf8 Value "topicPrefix"
+474: Tag 8 String Contents 475
+475: Tag 1 Utf8 Value "jms.topic."
+476: Tag 9 FieldRef Class index 477, Name and type index 478
+477: Tag 7 Class Name index 479
+478: Tag 12 NameAndType Name index 480, Description index 481
+479: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/WildFlyRecoveryRegistry"
+480: Tag 1 Utf8 Value "container"
+481: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceContainer;"
+482: Tag 10 MethodRef Class index 17, Name and type index 483
+483: Tag 12 NameAndType Name index 484, Description index 485
+484: Tag 1 Utf8 Value "createOutbound"
+485: Tag 1 Utf8 Value "(Ljava/util/List;)Lorg/jboss/jca/common/api/metadata/spec/OutboundResourceAdapter;"
+486: Tag 10 MethodRef Class index 17, Name and type index 487
+487: Tag 12 NameAndType Name index 488, Description index 489
+488: Tag 1 Utf8 Value "createInbound"
+489: Tag 1 Utf8 Value "(Ljava/util/List;)Lorg/jboss/jca/common/api/metadata/spec/InboundResourceAdapter;"
+490: Tag 10 MethodRef Class index 17, Name and type index 491
+491: Tag 12 NameAndType Name index 492, Description index 493
+492: Tag 1 Utf8 Value "createResourceAdapter15"
+493: Tag 1 Utf8 Value "(Ljava/util/List;Lorg/jboss/jca/common/api/metadata/spec/OutboundResourceAdapter;Lorg/jboss/jca/common/api/metadata/spec/InboundResourceAdapter;)Lorg/jboss/jca/common/api/metadata/spec/ResourceAdapter;"
+494: Tag 10 MethodRef Class index 17, Name and type index 495
+495: Tag 12 NameAndType Name index 496, Description index 497
+496: Tag 1 Utf8 Value "createConnector15"
+497: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/spec/ResourceAdapter;)Lorg/jboss/jca/common/api/metadata/spec/Connector;"
+498: Tag 10 MethodRef Class index 17, Name and type index 499
+499: Tag 12 NameAndType Name index 500, Description index 501
+500: Tag 1 Utf8 Value "getTransactionSupport"
+501: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/jca/common/api/metadata/common/TransactionSupportEnum;"
+502: Tag 10 MethodRef Class index 503, Name and type index 504
+503: Tag 7 Class Name index 505
+504: Tag 12 NameAndType Name index 506, Description index 329
+505: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames$BindInfo"
+506: Tag 1 Utf8 Value "getBindName"
+507: Tag 10 MethodRef Class index 17, Name and type index 508
+508: Tag 12 NameAndType Name index 509, Description index 510
+509: Tag 1 Utf8 Value "createConnDef"
+510: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/common/TransactionSupportEnum;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;)Lorg/jboss/jca/common/api/metadata/resourceadapter/ConnectionDefinition;"
+511: Tag 10 MethodRef Class index 17, Name and type index 512
+512: Tag 12 NameAndType Name index 513, Description index 514
+513: Tag 1 Utf8 Value "createActivation"
+514: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/resourceadapter/ConnectionDefinition;Lorg/jboss/jca/common/api/metadata/common/TransactionSupportEnum;)Lorg/jboss/jca/common/api/metadata/resourceadapter/Activation;"
+515: Tag 7 Class Name index 516
+516: Tag 1 Utf8 Value "org/jboss/as/connector/services/resourceadapters/ResourceAdapterActivatorService"
+517: Tag 10 MethodRef Class index 460, Name and type index 518
+518: Tag 12 NameAndType Name index 519, Description index 520
+519: Tag 1 Utf8 Value "getClassLoader"
+520: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+521: Tag 10 MethodRef Class index 515, Name and type index 522
+522: Tag 12 NameAndType Name index 11, Description index 523
+523: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/spec/Connector;Lorg/jboss/jca/common/api/metadata/resourceadapter/Activation;Ljava/lang/ClassLoader;Ljava/lang/String;)V"
+524: Tag 10 MethodRef Class index 515, Name and type index 525
+525: Tag 12 NameAndType Name index 526, Description index 527
+526: Tag 1 Utf8 Value "setBindInfo"
+527: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;)V"
+528: Tag 10 MethodRef Class index 515, Name and type index 529
+529: Tag 12 NameAndType Name index 530, Description index 531
+530: Tag 1 Utf8 Value "setCreateBinderService"
+531: Tag 1 Utf8 Value "(Z)V"
+532: Tag 10 MethodRef Class index 515, Name and type index 533
+533: Tag 12 NameAndType Name index 534, Description index 60
+534: Tag 1 Utf8 Value "addJndiAliases"
+535: Tag 10 MethodRef Class index 17, Name and type index 536
+536: Tag 12 NameAndType Name index 537, Description index 113
+537: Tag 1 Utf8 Value "getResourceAdapterActivatorsServiceName"
+538: Tag 10 MethodRef Class index 515, Name and type index 539
+539: Tag 12 NameAndType Name index 540, Description index 541
+540: Tag 1 Utf8 Value "getExecutorServiceInjector"
+541: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+542: Tag 10 MethodRef Class index 543, Name and type index 544
+543: Tag 7 Class Name index 545
+544: Tag 12 NameAndType Name index 546, Description index 547
+545: Tag 1 Utf8 Value "org/jboss/as/server/Services"
+546: Tag 1 Utf8 Value "addServerExecutorDependency"
+547: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/inject/Injector;)Lorg/jboss/msc/service/ServiceBuilder;"
+548: Tag 9 FieldRef Class index 95, Name and type index 549
+549: Tag 12 NameAndType Name index 550, Description index 99
+550: Tag 1 Utf8 Value "IRONJACAMAR_MDR"
+551: Tag 7 Class Name index 552
+552: Tag 1 Utf8 Value "org/jboss/as/connector/services/mdr/AS7MetadataRepository"
+553: Tag 10 MethodRef Class index 515, Name and type index 554
+554: Tag 12 NameAndType Name index 555, Description index 541
+555: Tag 1 Utf8 Value "getMdrInjector"
+556: Tag 9 FieldRef Class index 95, Name and type index 557
+557: Tag 12 NameAndType Name index 558, Description index 99
+558: Tag 1 Utf8 Value "RA_REPOSITORY_SERVICE"
+559: Tag 7 Class Name index 560
+560: Tag 1 Utf8 Value "org/jboss/jca/core/spi/rar/ResourceAdapterRepository"
+561: Tag 10 MethodRef Class index 515, Name and type index 562
+562: Tag 12 NameAndType Name index 563, Description index 541
+563: Tag 1 Utf8 Value "getRaRepositoryInjector"
+564: Tag 9 FieldRef Class index 95, Name and type index 565
+565: Tag 12 NameAndType Name index 566, Description index 99
+566: Tag 1 Utf8 Value "MANAGEMENT_REPOSITORY_SERVICE"
+567: Tag 7 Class Name index 568
+568: Tag 1 Utf8 Value "org/jboss/jca/core/api/management/ManagementRepository"
+569: Tag 10 MethodRef Class index 515, Name and type index 570
+570: Tag 12 NameAndType Name index 571, Description index 541
+571: Tag 1 Utf8 Value "getManagementRepositoryInjector"
+572: Tag 9 FieldRef Class index 95, Name and type index 573
+573: Tag 12 NameAndType Name index 574, Description index 99
+574: Tag 1 Utf8 Value "RESOURCE_ADAPTER_REGISTRY_SERVICE"
+575: Tag 7 Class Name index 576
+576: Tag 1 Utf8 Value "org/jboss/as/connector/services/resourceadapters/deployment/registry/ResourceAdapterDeploymentRegistry"
+577: Tag 10 MethodRef Class index 515, Name and type index 578
+578: Tag 12 NameAndType Name index 579, Description index 541
+579: Tag 1 Utf8 Value "getRegistryInjector"
+580: Tag 9 FieldRef Class index 95, Name and type index 581
+581: Tag 12 NameAndType Name index 582, Description index 99
+582: Tag 1 Utf8 Value "TRANSACTION_INTEGRATION_SERVICE"
+583: Tag 7 Class Name index 584
+584: Tag 1 Utf8 Value "org/jboss/jca/core/spi/transaction/TransactionIntegration"
+585: Tag 10 MethodRef Class index 515, Name and type index 586
+586: Tag 12 NameAndType Name index 587, Description index 541
+587: Tag 1 Utf8 Value "getTxIntegrationInjector"
+588: Tag 9 FieldRef Class index 95, Name and type index 589
+589: Tag 12 NameAndType Name index 590, Description index 99
+590: Tag 1 Utf8 Value "CONNECTOR_CONFIG_SERVICE"
+591: Tag 7 Class Name index 592
+592: Tag 1 Utf8 Value "org/jboss/as/connector/subsystems/jca/JcaSubsystemConfiguration"
+593: Tag 10 MethodRef Class index 515, Name and type index 594
+594: Tag 12 NameAndType Name index 595, Description index 541
+595: Tag 1 Utf8 Value "getConfigInjector"
+596: Tag 9 FieldRef Class index 95, Name and type index 597
+597: Tag 12 NameAndType Name index 598, Description index 99
+598: Tag 1 Utf8 Value "CCM_SERVICE"
+599: Tag 7 Class Name index 600
+600: Tag 1 Utf8 Value "org/jboss/jca/core/api/connectionmanager/ccm/CachedConnectionManager"
+601: Tag 10 MethodRef Class index 515, Name and type index 602
+602: Tag 12 NameAndType Name index 603, Description index 541
+603: Tag 1 Utf8 Value "getCcmInjector"
+604: Tag 9 FieldRef Class index 605, Name and type index 606
+605: Tag 7 Class Name index 607
+606: Tag 12 NameAndType Name index 608, Description index 99
+607: Tag 1 Utf8 Value "org/jboss/as/naming/service/NamingService"
+608: Tag 1 Utf8 Value "SERVICE_NAME"
+609: Tag 9 FieldRef Class index 95, Name and type index 610
+610: Tag 12 NameAndType Name index 611, Description index 99
+611: Tag 1 Utf8 Value "BOOTSTRAP_CONTEXT_SERVICE"
+612: Tag 8 String Contents 613
+613: Tag 1 Utf8 Value "default"
+614: Tag 9 FieldRef Class index 95, Name and type index 615
+615: Tag 12 NameAndType Name index 616, Description index 99
+616: Tag 1 Utf8 Value "RESOURCE_ADAPTER_DEPLOYER_SERVICE_PREFIX"
+617: Tag 9 FieldRef Class index 618, Name and type index 619
+618: Tag 7 Class Name index 620
+619: Tag 12 NameAndType Name index 621, Description index 622
+620: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+621: Tag 1 Utf8 Value "NULL"
+622: Tag 1 Utf8 Value "Lorg/jboss/msc/service/Service;"
+623: Tag 10 MethodRef Class index 624, Name and type index 625
+624: Tag 7 Class Name index 626
+625: Tag 12 NameAndType Name index 627, Description index 12
+626: Tag 1 Utf8 Value "java/io/InputStream"
+627: Tag 1 Utf8 Value "close"
+628: Tag 10 MethodRef Class index 22, Name and type index 629
+629: Tag 12 NameAndType Name index 630, Description index 266
+630: Tag 1 Utf8 Value "getOptionalValue"
+631: Tag 7 Class Name index 632
+632: Tag 1 Utf8 Value "org/wildfly/common/function/ExceptionSupplier"
+633: Tag 11 InterfaceMethodRef Class index 631, Name and type index 634
+634: Tag 12 NameAndType Name index 309, Description index 266
+635: Tag 7 Class Name index 636
+636: Tag 1 Utf8 Value "org/wildfly/security/credential/source/CredentialSource"
+637: Tag 7 Class Name index 638
+638: Tag 1 Utf8 Value "org/wildfly/security/credential/PasswordCredential"
+639: Tag 11 InterfaceMethodRef Class index 635, Name and type index 640
+640: Tag 12 NameAndType Name index 641, Description index 642
+641: Tag 1 Utf8 Value "getCredential"
+642: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/wildfly/security/credential/Credential;"
+643: Tag 7 Class Name index 644
+644: Tag 1 Utf8 Value "org/wildfly/security/password/interfaces/ClearPassword"
+645: Tag 10 MethodRef Class index 637, Name and type index 646
+646: Tag 12 NameAndType Name index 647, Description index 648
+647: Tag 1 Utf8 Value "getPassword"
+648: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/wildfly/security/password/Password;"
+649: Tag 11 InterfaceMethodRef Class index 643, Name and type index 650
+650: Tag 12 NameAndType Name index 647, Description index 651
+651: Tag 1 Utf8 Value "()[C"
+652: Tag 8 String Contents 653
+653: Tag 1 Utf8 Value "password"
+654: Tag 10 MethodRef Class index 100, Name and type index 655
+655: Tag 12 NameAndType Name index 11, Description index 656
+656: Tag 1 Utf8 Value "([C)V"
+657: Tag 7 Class Name index 658
+658: Tag 1 Utf8 Value "java/lang/RuntimeException"
+659: Tag 10 MethodRef Class index 657, Name and type index 660
+660: Tag 12 NameAndType Name index 11, Description index 661
+661: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+662: Tag 10 MethodRef Class index 663, Name and type index 664
+663: Tag 7 Class Name index 665
+664: Tag 12 NameAndType Name index 666, Description index 501
+665: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/common/TransactionSupportEnum"
+666: Tag 1 Utf8 Value "valueOf"
+667: Tag 9 FieldRef Class index 663, Name and type index 668
+668: Tag 12 NameAndType Name index 669, Description index 670
+669: Tag 1 Utf8 Value "LocalTransaction"
+670: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/common/TransactionSupportEnum;"
+671: Tag 10 MethodRef Class index 89, Name and type index 672
+672: Tag 12 NameAndType Name index 673, Description index 674
+673: Tag 1 Utf8 Value "singletonList"
+674: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/List;"
+675: Tag 9 FieldRef Class index 663, Name and type index 676
+676: Tag 12 NameAndType Name index 677, Description index 670
+677: Tag 1 Utf8 Value "NoTransaction"
+678: Tag 8 String Contents 679
+679: Tag 1 Utf8 Value "ignoreJTA"
+680: Tag 10 MethodRef Class index 100, Name and type index 681
+681: Tag 12 NameAndType Name index 666, Description index 682
+682: Tag 1 Utf8 Value "(Z)Ljava/lang/String;"
+683: Tag 10 MethodRef Class index 89, Name and type index 684
+684: Tag 12 NameAndType Name index 685, Description index 686
+685: Tag 1 Utf8 Value "singletonMap"
+686: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;"
+687: Tag 10 MethodRef Class index 89, Name and type index 688
+688: Tag 12 NameAndType Name index 689, Description index 276
+689: Tag 1 Utf8 Value "emptyMap"
+690: Tag 7 Class Name index 691
+691: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/resourceadapter/ActivationImpl"
+692: Tag 10 MethodRef Class index 690, Name and type index 693
+693: Tag 12 NameAndType Name index 11, Description index 694
+694: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Lorg/jboss/jca/common/api/metadata/common/TransactionSupportEnum;Ljava/util/List;Ljava/util/List;Ljava/util/Map;Ljava/util/List;Ljava/lang/String;Lorg/jboss/jca/common/api/metadata/resourceadapter/WorkManager;)V"
+695: Tag 10 MethodRef Class index 457, Name and type index 696
+696: Tag 12 NameAndType Name index 666, Description index 697
+697: Tag 1 Utf8 Value "(I)Ljava/lang/Integer;"
+698: Tag 9 FieldRef Class index 699, Name and type index 700
+699: Tag 7 Class Name index 701
+700: Tag 12 NameAndType Name index 702, Description index 703
+701: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/common/FlushStrategy"
+702: Tag 1 Utf8 Value "FAILING_CONNECTION_ONLY"
+703: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/common/FlushStrategy;"
+704: Tag 9 FieldRef Class index 437, Name and type index 705
+705: Tag 12 NameAndType Name index 706, Description index 84
+706: Tag 1 Utf8 Value "FALSE"
+707: Tag 9 FieldRef Class index 663, Name and type index 708
+708: Tag 12 NameAndType Name index 709, Description index 670
+709: Tag 1 Utf8 Value "XATransaction"
+710: Tag 7 Class Name index 711
+711: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/common/XaPoolImpl"
+712: Tag 9 FieldRef Class index 713, Name and type index 714
+713: Tag 7 Class Name index 715
+714: Tag 12 NameAndType Name index 716, Description index 717
+715: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/Defaults"
+716: Tag 1 Utf8 Value "INITIAL_POOL_SIZE"
+717: Tag 1 Utf8 Value "Ljava/lang/Integer;"
+718: Tag 10 MethodRef Class index 437, Name and type index 719
+719: Tag 12 NameAndType Name index 666, Description index 720
+720: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+721: Tag 9 FieldRef Class index 713, Name and type index 722
+722: Tag 12 NameAndType Name index 723, Description index 84
+723: Tag 1 Utf8 Value "FAIR"
+724: Tag 9 FieldRef Class index 713, Name and type index 725
+725: Tag 12 NameAndType Name index 726, Description index 84
+726: Tag 1 Utf8 Value "IS_SAME_RM_OVERRIDE"
+727: Tag 9 FieldRef Class index 713, Name and type index 728
+728: Tag 12 NameAndType Name index 729, Description index 84
+729: Tag 1 Utf8 Value "INTERLEAVING"
+730: Tag 9 FieldRef Class index 713, Name and type index 731
+731: Tag 12 NameAndType Name index 732, Description index 84
+732: Tag 1 Utf8 Value "PAD_XID"
+733: Tag 9 FieldRef Class index 713, Name and type index 734
+734: Tag 12 NameAndType Name index 735, Description index 84
+735: Tag 1 Utf8 Value "WRAP_XA_RESOURCE"
+736: Tag 9 FieldRef Class index 713, Name and type index 737
+737: Tag 12 NameAndType Name index 738, Description index 84
+738: Tag 1 Utf8 Value "NO_TX_SEPARATE_POOL"
+739: Tag 10 MethodRef Class index 710, Name and type index 740
+740: Tag 12 NameAndType Name index 11, Description index 741
+741: Tag 1 Utf8 Value "(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Lorg/jboss/jca/common/api/metadata/common/FlushStrategy;Lorg/jboss/jca/common/api/metadata/common/Capacity;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;)V"
+742: Tag 9 FieldRef Class index 437, Name and type index 743
+743: Tag 12 NameAndType Name index 744, Description index 84
+744: Tag 1 Utf8 Value "TRUE"
+745: Tag 7 Class Name index 746
+746: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/common/PoolImpl"
+747: Tag 10 MethodRef Class index 745, Name and type index 748
+748: Tag 12 NameAndType Name index 11, Description index 749
+749: Tag 1 Utf8 Value "(Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Boolean;Ljava/lang/Boolean;Lorg/jboss/jca/common/api/metadata/common/FlushStrategy;Lorg/jboss/jca/common/api/metadata/common/Capacity;Ljava/lang/Boolean;)V"
+750: Tag 7 Class Name index 751
+751: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService$1"
+752: Tag 10 MethodRef Class index 750, Name and type index 753
+753: Tag 12 NameAndType Name index 11, Description index 754
+754: Tag 1 Utf8 Value "(Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Integer;Ljava/lang/Long;Ljava/lang/Integer;)V"
+755: Tag 7 Class Name index 756
+756: Tag 1 Utf8 Value "org/jboss/as/connector/metadata/common/SecurityImpl"
+757: Tag 10 MethodRef Class index 755, Name and type index 758
+758: Tag 12 NameAndType Name index 11, Description index 759
+759: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;ZZ)V"
+760: Tag 7 Class Name index 761
+761: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/common/Recovery"
+762: Tag 7 Class Name index 763
+763: Tag 1 Utf8 Value "org/jboss/as/connector/metadata/common/CredentialImpl"
+764: Tag 10 MethodRef Class index 762, Name and type index 765
+765: Tag 12 NameAndType Name index 11, Description index 766
+766: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLorg/wildfly/common/function/ExceptionSupplier;)V"
+767: Tag 10 MethodRef Class index 760, Name and type index 768
+768: Tag 12 NameAndType Name index 11, Description index 769
+769: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/common/Credential;Lorg/jboss/jca/common/api/metadata/common/Extension;Ljava/lang/Boolean;)V"
+770: Tag 7 Class Name index 771
+771: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/common/ValidationImpl"
+772: Tag 9 FieldRef Class index 713, Name and type index 773
+773: Tag 12 NameAndType Name index 774, Description index 84
+774: Tag 1 Utf8 Value "VALIDATE_ON_MATCH"
+775: Tag 10 MethodRef Class index 770, Name and type index 776
+776: Tag 12 NameAndType Name index 11, Description index 777
+777: Tag 1 Utf8 Value "(Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Long;Ljava/lang/Boolean;)V"
+778: Tag 7 Class Name index 779
+779: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/resourceadapter/ConnectionDefinitionImpl"
+780: Tag 8 String Contents 781
+781: Tag 1 Utf8 Value "org.apache.activemq.artemis.ra.ActiveMQRAManagedConnectionFactory"
+782: Tag 8 String Contents 783
+783: Tag 1 Utf8 Value "ActiveMQConnectionDefinition"
+784: Tag 9 FieldRef Class index 713, Name and type index 785
+785: Tag 12 NameAndType Name index 786, Description index 84
+786: Tag 1 Utf8 Value "SHARABLE"
+787: Tag 9 FieldRef Class index 713, Name and type index 788
+788: Tag 12 NameAndType Name index 789, Description index 84
+789: Tag 1 Utf8 Value "ENLISTMENT"
+790: Tag 9 FieldRef Class index 713, Name and type index 791
+791: Tag 12 NameAndType Name index 792, Description index 84
+792: Tag 1 Utf8 Value "CONNECTABLE"
+793: Tag 10 MethodRef Class index 778, Name and type index 794
+794: Tag 12 NameAndType Name index 11, Description index 795
+795: Tag 1 Utf8 Value "(Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/Boolean;Lorg/jboss/jca/common/api/metadata/common/Pool;Lorg/jboss/jca/common/api/metadata/common/TimeOut;Lorg/jboss/jca/common/api/metadata/common/Validation;Lorg/jboss/jca/common/api/metadata/common/Security;Lorg/jboss/jca/common/api/metadata/common/Recovery;Ljava/lang/Boolean;)V"
+796: Tag 7 Class Name index 797
+797: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/ConnectorImpl"
+798: Tag 9 FieldRef Class index 799, Name and type index 800
+799: Tag 7 Class Name index 801
+800: Tag 12 NameAndType Name index 802, Description index 803
+801: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/spec/Connector$Version"
+802: Tag 1 Utf8 Value "V_15"
+803: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/Connector$Version;"
+804: Tag 8 String Contents 805
+805: Tag 1 Utf8 Value "Red Hat"
+806: Tag 10 MethodRef Class index 17, Name and type index 807
+807: Tag 12 NameAndType Name index 808, Description index 809
+808: Tag 1 Utf8 Value "str"
+809: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/jca/common/api/metadata/spec/XsdString;"
+810: Tag 8 String Contents 811
+811: Tag 1 Utf8 Value "JMS 1.1 Server"
+812: Tag 8 String Contents 813
+813: Tag 1 Utf8 Value "1.0"
+814: Tag 9 FieldRef Class index 17, Name and type index 815
+815: Tag 12 NameAndType Name index 816, Description index 39
+816: Tag 1 Utf8 Value "EMPTY_LOCL"
+817: Tag 10 MethodRef Class index 796, Name and type index 818
+818: Tag 12 NameAndType Name index 11, Description index 819
+819: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/spec/Connector$Version;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/LicenseType;Lorg/jboss/jca/common/api/metadata/spec/ResourceAdapter;Ljava/util/List;ZLjava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V"
+820: Tag 7 Class Name index 821
+821: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/ResourceAdapterImpl"
+822: Tag 9 FieldRef Class index 17, Name and type index 823
+823: Tag 12 NameAndType Name index 824, Description index 35
+824: Tag 1 Utf8 Value "ACTIVEMQ_RESOURCE_ADAPTER"
+825: Tag 10 MethodRef Class index 820, Name and type index 826
+826: Tag 12 NameAndType Name index 11, Description index 827
+827: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/spec/XsdString;Ljava/util/List;Lorg/jboss/jca/common/api/metadata/spec/OutboundResourceAdapter;Lorg/jboss/jca/common/api/metadata/spec/InboundResourceAdapter;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V"
+828: Tag 7 Class Name index 829
+829: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/RequiredConfigPropertyImpl"
+830: Tag 8 String Contents 831
+831: Tag 1 Utf8 Value "destination"
+832: Tag 10 MethodRef Class index 828, Name and type index 833
+833: Tag 12 NameAndType Name index 11, Description index 834
+834: Tag 1 Utf8 Value "(Ljava/util/List;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Ljava/lang/String;)V"
+835: Tag 7 Class Name index 836
+836: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/ActivationSpecImpl"
+837: Tag 8 String Contents 838
+838: Tag 1 Utf8 Value "org.apache.activemq.artemis.ra.inflow.ActiveMQActivationSpec"
+839: Tag 10 MethodRef Class index 835, Name and type index 840
+840: Tag 12 NameAndType Name index 11, Description index 841
+841: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/spec/XsdString;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V"
+842: Tag 7 Class Name index 843
+843: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/MessageListenerImpl"
+844: Tag 8 String Contents 845
+845: Tag 1 Utf8 Value "javax.jms.MessageListener"
+846: Tag 10 MethodRef Class index 842, Name and type index 847
+847: Tag 12 NameAndType Name index 11, Description index 848
+848: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/Activationspec;Ljava/lang/String;)V"
+849: Tag 7 Class Name index 850
+850: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/MessageAdapterImpl"
+851: Tag 10 MethodRef Class index 849, Name and type index 852
+852: Tag 12 NameAndType Name index 11, Description index 853
+853: Tag 1 Utf8 Value "(Ljava/util/List;Ljava/lang/String;)V"
+854: Tag 7 Class Name index 855
+855: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/InboundResourceAdapterImpl"
+856: Tag 10 MethodRef Class index 854, Name and type index 857
+857: Tag 12 NameAndType Name index 11, Description index 858
+858: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/spec/Messageadapter;Ljava/lang/String;)V"
+859: Tag 8 String Contents 860
+860: Tag 1 Utf8 Value "SessionDefaultType"
+861: Tag 8 String Contents 862
+862: Tag 1 Utf8 Value "javax.jms.Queue"
+863: Tag 8 String Contents 864
+864: Tag 1 Utf8 Value "UseTryLock"
+865: Tag 8 String Contents 866
+866: Tag 1 Utf8 Value "0"
+867: Tag 7 Class Name index 868
+868: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/ConnectionDefinitionImpl"
+869: Tag 8 String Contents 870
+870: Tag 1 Utf8 Value "org.apache.activemq.artemis.ra.ActiveMQRAConnectionFactory"
+871: Tag 8 String Contents 872
+872: Tag 1 Utf8 Value "org.apache.activemq.artemis.ra.ActiveMQRAConnectionFactoryImpl"
+873: Tag 8 String Contents 874
+874: Tag 1 Utf8 Value "javax.jms.Session"
+875: Tag 8 String Contents 876
+876: Tag 1 Utf8 Value "org.apache.activemq.artemis.ra.ActiveMQRASession"
+877: Tag 10 MethodRef Class index 867, Name and type index 878
+878: Tag 12 NameAndType Name index 11, Description index 879
+879: Tag 1 Utf8 Value "(Lorg/jboss/jca/common/api/metadata/spec/XsdString;Ljava/util/List;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Ljava/lang/String;)V"
+880: Tag 7 Class Name index 881
+881: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/AuthenticationMechanismImpl"
+882: Tag 8 String Contents 883
+883: Tag 1 Utf8 Value "BasicPassword"
+884: Tag 9 FieldRef Class index 885, Name and type index 886
+885: Tag 7 Class Name index 887
+886: Tag 12 NameAndType Name index 888, Description index 889
+887: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/spec/CredentialInterfaceEnum"
+888: Tag 1 Utf8 Value "PasswordCredential"
+889: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/CredentialInterfaceEnum;"
+890: Tag 10 MethodRef Class index 880, Name and type index 891
+891: Tag 12 NameAndType Name index 11, Description index 892
+892: Tag 1 Utf8 Value "(Ljava/util/List;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/CredentialInterfaceEnum;Ljava/lang/String;Ljava/lang/String;)V"
+893: Tag 7 Class Name index 894
+894: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/OutboundResourceAdapterImpl"
+895: Tag 10 MethodRef Class index 893, Name and type index 896
+896: Tag 12 NameAndType Name index 11, Description index 897
+897: Tag 1 Utf8 Value "(Ljava/util/List;Lorg/jboss/jca/common/api/metadata/common/TransactionSupportEnum;Ljava/util/List;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+898: Tag 7 Class Name index 899
+899: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/spec/XsdString"
+900: Tag 10 MethodRef Class index 898, Name and type index 901
+901: Tag 12 NameAndType Name index 11, Description index 298
+902: Tag 7 Class Name index 903
+903: Tag 1 Utf8 Value "org/jboss/jca/common/metadata/spec/ConfigPropertyImpl"
+904: Tag 10 MethodRef Class index 902, Name and type index 905
+905: Tag 12 NameAndType Name index 11, Description index 906
+906: Tag 1 Utf8 Value "(Ljava/util/List;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Lorg/jboss/jca/common/api/metadata/spec/XsdString;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+907: Tag 7 Class Name index 908
+908: Tag 1 Utf8 Value "org/jboss/msc/inject/MapInjector"
+909: Tag 10 MethodRef Class index 907, Name and type index 910
+910: Tag 12 NameAndType Name index 11, Description index 911
+911: Tag 1 Utf8 Value "(Ljava/util/Map;Ljava/lang/Object;)V"
+912: Tag 10 MethodRef Class index 17, Name and type index 913
+913: Tag 12 NameAndType Name index 265, Description index 914
+914: Tag 1 Utf8 Value "()Ljava/lang/Void;"
+915: Tag 7 Class Name index 916
+916: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ActiveMQResourceAdapter"
+917: Tag 1 Utf8 Value "Signature"
+918: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/jca/common/api/metadata/spec/LocalizedXsdString;>;"
+919: Tag 1 Utf8 Value "CONNECTOR_CLASSNAME"
+920: Tag 1 Utf8 Value "ConstantValue"
+921: Tag 1 Utf8 Value "CONNECTION_PARAMETERS"
+922: Tag 1 Utf8 Value "ACTIVEMQ_ACTIVATION"
+923: Tag 1 Utf8 Value "ACTIVEMQ_CONN_DEF"
+924: Tag 1 Utf8 Value "RAMANAGED_CONN_FACTORY"
+925: Tag 1 Utf8 Value "RA_CONN_FACTORY"
+926: Tag 1 Utf8 Value "RA_CONN_FACTORY_IMPL"
+927: Tag 1 Utf8 Value "JMS_SESSION"
+928: Tag 1 Utf8 Value "ACTIVEMQ_RA_SESSION"
+929: Tag 1 Utf8 Value "BASIC_PASS"
+930: Tag 1 Utf8 Value "JMS_QUEUE"
+931: Tag 1 Utf8 Value "STRING_TYPE"
+932: Tag 1 Utf8 Value "INTEGER_TYPE"
+933: Tag 1 Utf8 Value "LONG_TYPE"
+934: Tag 1 Utf8 Value "SESSION_DEFAULT_TYPE"
+935: Tag 1 Utf8 Value "TRY_LOCK"
+936: Tag 1 Utf8 Value "JMS_MESSAGE_LISTENER"
+937: Tag 1 Utf8 Value "DEFAULT_MAX_RECONNECTS"
+938: Tag 1 Utf8 Value "GROUP_ADDRESS"
+939: Tag 1 Utf8 Value "DISCOVERY_INITIAL_WAIT_TIMEOUT"
+940: Tag 1 Utf8 Value "GROUP_PORT"
+941: Tag 1 Utf8 Value "REFRESH_TIMEOUT"
+942: Tag 1 Utf8 Value "DISCOVERY_LOCAL_BIND_ADDRESS"
+943: Tag 1 Utf8 Value "JGROUPS_CHANNEL_LOCATOR_CLASS"
+944: Tag 8 String Contents 945
+945: Tag 1 Utf8 Value "jgroupsChannelLocatorClass"
+946: Tag 1 Utf8 Value "JGROUPS_CHANNEL_NAME"
+947: Tag 1 Utf8 Value "JGROUPS_CHANNEL_REF_NAME"
+948: Tag 1 Utf8 Value "IGNORE_JTA"
+949: Tag 1 Utf8 Value "Ljava/util/List<Ljava/lang/String;>;"
+950: Tag 1 Utf8 Value "Ljava/util/List<Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigProperties;>;"
+951: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/jboss/as/network/SocketBinding;>;"
+952: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/apache/activemq/artemis/core/server/ActiveMQServer;>;"
+953: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/common/function/ExceptionSupplier<Lorg/wildfly/security/credential/source/CredentialSource;Ljava/lang/Exception;>;>;"
+954: Tag 1 Utf8 Value "Code"
+955: Tag 1 Utf8 Value "LineNumberTable"
+956: Tag 1 Utf8 Value "LocalVariableTable"
+957: Tag 1 Utf8 Value "this"
+958: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;"
+959: Tag 1 Utf8 Value "LocalVariableTypeTable"
+960: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List<Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigProperties;>;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;)V"
+961: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List<Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigProperties;>;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Z)V"
+962: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/common/function/ExceptionSupplier<Lorg/wildfly/security/credential/source/CredentialSource;Ljava/lang/Exception;>;>;"
+963: Tag 1 Utf8 Value "installService"
+964: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Z)Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;"
+965: Tag 1 Utf8 Value "serviceTarget"
+966: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+967: Tag 1 Utf8 Value "serverServiceName"
+968: Tag 1 Utf8 Value "serviceName"
+969: Tag 1 Utf8 Value "service"
+970: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;Ljava/lang/String;Ljava/util/List<Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigProperties;>;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Z)Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;"
+971: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/util/List;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Lorg/jboss/dmr/ModelNode;)Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;"
+972: Tag 1 Utf8 Value "context"
+973: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+974: Tag 1 Utf8 Value "model"
+975: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+976: Tag 1 Utf8 Value "Exceptions"
+977: Tag 7 Class Name index 978
+978: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+979: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;Ljava/lang/String;Ljava/util/List<Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigProperties;>;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/util/List<Ljava/lang/String;>;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Lorg/jboss/dmr/ModelNode;)Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;"
+980: Tag 1 Utf8 Value "serviceBuilder"
+981: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+982: Tag 1 Utf8 Value "credentialReference"
+983: Tag 1 Utf8 Value "StackMapTable"
+984: Tag 7 Class Name index 985
+985: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+986: Tag 7 Class Name index 987
+987: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+988: Tag 1 Utf8 Value "start"
+989: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+990: Tag 1 Utf8 Value "e"
+991: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+992: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+993: Tag 7 Class Name index 994
+994: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+995: Tag 1 Utf8 Value "connectorName"
+996: Tag 1 Utf8 Value "connectorNames"
+997: Tag 1 Utf8 Value "Ljava/util/Set;"
+998: Tag 1 Utf8 Value "entry"
+999: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+1000: Tag 1 Utf8 Value "tc"
+1001: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/api/core/TransportConfiguration;"
+1002: Tag 1 Utf8 Value "params"
+1003: Tag 1 Utf8 Value "multiple"
+1004: Tag 1 Utf8 Value "connector"
+1005: Tag 1 Utf8 Value "udpCfg"
+1006: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/api/core/UDPBroadcastEndpointFactory;"
+1007: Tag 1 Utf8 Value "discoveryGroupConfiguration"
+1008: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;"
+1009: Tag 1 Utf8 Value "bgCfg"
+1010: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/api/core/BroadcastEndpointFactory;"
+1011: Tag 1 Utf8 Value "p"
+1012: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/ConfigProperty;"
+1013: Tag 1 Utf8 Value "adapterParam"
+1014: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryConfigProperties;"
+1015: Tag 1 Utf8 Value "connectorClassname"
+1016: Tag 1 Utf8 Value "Ljava/lang/StringBuilder;"
+1017: Tag 1 Utf8 Value "connectorParams"
+1018: Tag 1 Utf8 Value "hasReconnect"
+1019: Tag 1 Utf8 Value "inboundProperties"
+1020: Tag 1 Utf8 Value "outboundProperties"
+1021: Tag 1 Utf8 Value "reconnectName"
+1022: Tag 1 Utf8 Value "outbound"
+1023: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/OutboundResourceAdapter;"
+1024: Tag 1 Utf8 Value "inbound"
+1025: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/InboundResourceAdapter;"
+1026: Tag 1 Utf8 Value "ra"
+1027: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/ResourceAdapter;"
+1028: Tag 1 Utf8 Value "cmd"
+1029: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/Connector;"
+1030: Tag 1 Utf8 Value "transactionSupport"
+1031: Tag 1 Utf8 Value "common"
+1032: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/resourceadapter/ConnectionDefinition;"
+1033: Tag 1 Utf8 Value "activation"
+1034: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/resourceadapter/Activation;"
+1035: Tag 1 Utf8 Value "activator"
+1036: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/resourceadapters/ResourceAdapterActivatorService;"
+1037: Tag 1 Utf8 Value "sb"
+1038: Tag 1 Utf8 Value "is"
+1039: Tag 1 Utf8 Value "Ljava/io/InputStream;"
+1040: Tag 1 Utf8 Value "isIj"
+1041: Tag 1 Utf8 Value "properties"
+1042: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/String;>;"
+1043: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Ljava/lang/String;Ljava/lang/Object;>;"
+1044: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;"
+1045: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/jca/common/api/metadata/spec/ConfigProperty;>;"
+1046: Tag 7 Class Name index 1047
+1047: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceContainer"
+1048: Tag 7 Class Name index 1049
+1049: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/BroadcastEndpointFactory"
+1050: Tag 7 Class Name index 1051
+1051: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/spec/ConfigProperty"
+1052: Tag 7 Class Name index 1053
+1053: Tag 1 Utf8 Value "java/lang/Throwable"
+1054: Tag 1 Utf8 Value "[C"
+1055: Tag 1 Utf8 Value "credentialSource"
+1056: Tag 1 Utf8 Value "Lorg/wildfly/security/credential/source/CredentialSource;"
+1057: Tag 1 Utf8 Value "(Ljava/util/List<Lorg/jboss/jca/common/api/metadata/spec/ConfigProperty;>;)V"
+1058: Tag 1 Utf8 Value "Ljava/lang/RuntimeException;"
+1059: Tag 1 Utf8 Value "definitions"
+1060: Tag 1 Utf8 Value "configProperties"
+1061: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/jca/common/api/metadata/resourceadapter/ConnectionDefinition;>;"
+1062: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+1063: Tag 1 Utf8 Value "pool"
+1064: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/common/Pool;"
+1065: Tag 1 Utf8 Value "jndiName"
+1066: Tag 1 Utf8 Value "minSize"
+1067: Tag 1 Utf8 Value "maxSize"
+1068: Tag 1 Utf8 Value "prefill"
+1069: Tag 1 Utf8 Value "useStrictMin"
+1070: Tag 1 Utf8 Value "flushStrategy"
+1071: Tag 1 Utf8 Value "isXA"
+1072: Tag 1 Utf8 Value "timeOut"
+1073: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/common/TimeOut;"
+1074: Tag 1 Utf8 Value "security"
+1075: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/common/Security;"
+1076: Tag 1 Utf8 Value "recovery"
+1077: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/common/Recovery;"
+1078: Tag 1 Utf8 Value "validation"
+1079: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/common/Validation;"
+1080: Tag 7 Class Name index 1081
+1081: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/common/Pool"
+1082: Tag 7 Class Name index 1083
+1083: Tag 1 Utf8 Value "org/jboss/jca/common/api/validator/ValidateException"
+1084: Tag 1 Utf8 Value "(Ljava/util/List<Lorg/jboss/jca/common/api/metadata/spec/ConfigProperty;>;Lorg/jboss/jca/common/api/metadata/spec/OutboundResourceAdapter;Lorg/jboss/jca/common/api/metadata/spec/InboundResourceAdapter;)Lorg/jboss/jca/common/api/metadata/spec/ResourceAdapter;"
+1085: Tag 1 Utf8 Value "inboundProps"
+1086: Tag 1 Utf8 Value "activation15"
+1087: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/Activationspec;"
+1088: Tag 1 Utf8 Value "messageListeners"
+1089: Tag 1 Utf8 Value "message"
+1090: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/Messageadapter;"
+1091: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/jca/common/api/metadata/spec/RequiredConfigProperty;>;"
+1092: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/jca/common/api/metadata/spec/MessageListener;>;"
+1093: Tag 1 Utf8 Value "(Ljava/util/List<Lorg/jboss/jca/common/api/metadata/spec/ConfigProperty;>;)Lorg/jboss/jca/common/api/metadata/spec/InboundResourceAdapter;"
+1094: Tag 1 Utf8 Value "props"
+1095: Tag 1 Utf8 Value "basicPassword"
+1096: Tag 1 Utf8 Value "Lorg/jboss/jca/common/api/metadata/spec/AuthenticationMechanism;"
+1097: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/jca/common/api/metadata/spec/ConnectionDefinition;>;"
+1098: Tag 1 Utf8 Value "(Ljava/util/List<Lorg/jboss/jca/common/api/metadata/spec/ConfigProperty;>;)Lorg/jboss/jca/common/api/metadata/spec/OutboundResourceAdapter;"
+1099: Tag 1 Utf8 Value "type"
+1100: Tag 1 Utf8 Value "value"
+1101: Tag 1 Utf8 Value "stop"
+1102: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+1103: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+1104: Tag 1 Utf8 Value "getSocketBindingInjector"
+1105: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/inject/Injector;"
+1106: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/inject/Injector<Lorg/jboss/as/network/SocketBinding;>;"
+1107: Tag 1 Utf8 Value "getActiveMQServer"
+1108: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/apache/activemq/artemis/core/server/ActiveMQServer;>;"
+1109: Tag 1 Utf8 Value "<clinit>"
+1110: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Ljava/lang/Void;>;"
+1111: Tag 1 Utf8 Value "SourceFile"
+1112: Tag 1 Utf8 Value "PooledConnectionFactoryService.java"
+1113: Tag 1 Utf8 Value "InnerClasses"
+1114: Tag 7 Class Name index 1115
+1115: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttributes"
+1116: Tag 1 Utf8 Value "Pooled"
+1117: Tag 7 Class Name index 1118
+1118: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames"
+1119: Tag 1 Utf8 Value "BindInfo"
+1120: Tag 1 Utf8 Value "Mode"
+1121: Tag 1 Utf8 Value "Entry"
+1122: Tag 7 Class Name index 1123
+1123: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute"
+1124: Tag 1 Utf8 Value "ConfigType"
+1125: Tag 7 Class Name index 1126
+1126: Tag 1 Utf8 Value "org/jboss/jca/common/api/metadata/spec/Connector"
+1127: Tag 1 Utf8 Value "Version"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 17, name org.wildfly.extension.messaging.activemq.jms.PooledConnectionFactoryService
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 618
+Implements names org.jboss.msc.service.Service
+
+Field name EMPTY_LOCL (index 816), type Ljava/util/List; (descriptor index 39)
+Human type: java.util.List
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+Field name CONNECTOR_CLASSNAME (index 919), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name CONNECTION_PARAMETERS (index 921), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTIVEMQ_ACTIVATION (index 922), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ACTIVEMQ_CONN_DEF (index 923), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ACTIVEMQ_RESOURCE_ADAPTER (index 824), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name RAMANAGED_CONN_FACTORY (index 924), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name RA_CONN_FACTORY (index 925), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name RA_CONN_FACTORY_IMPL (index 926), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name JMS_SESSION (index 927), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ACTIVEMQ_RA_SESSION (index 928), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name BASIC_PASS (index 929), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name JMS_QUEUE (index 930), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name STRING_TYPE (index 931), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name INTEGER_TYPE (index 932), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name LONG_TYPE (index 933), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name SESSION_DEFAULT_TYPE (index 934), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name TRY_LOCK (index 935), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name JMS_MESSAGE_LISTENER (index 936), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name DEFAULT_MAX_RECONNECTS (index 937), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name GROUP_ADDRESS (index 938), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name DISCOVERY_INITIAL_WAIT_TIMEOUT (index 939), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name GROUP_PORT (index 940), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name REFRESH_TIMEOUT (index 941), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name DISCOVERY_LOCAL_BIND_ADDRESS (index 942), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name JGROUPS_CHANNEL_LOCATOR_CLASS (index 943), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name JGROUPS_CHANNEL_NAME (index 946), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name JGROUPS_CHANNEL_REF_NAME (index 947), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name IGNORE_JTA (index 948), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name connectors (index 38), type Ljava/util/List; (descriptor index 39)
+Human type: java.util.List
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name discoveryGroupName (index 42), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name adapterParams (index 51), type Ljava/util/List; (descriptor index 39)
+Human type: java.util.List
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name name (index 34), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name socketBindings (index 20), type Ljava/util/Map; (descriptor index 21)
+Human type: java.util.Map
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name activeMQServer (index 27), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 28)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name bindInfo (index 54), type Lorg/jboss/as/naming/deployment/ContextNames$BindInfo; (descriptor index 55)
+Human type: org.jboss.as.naming.deployment.ContextNames$BindInfo
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name jndiAliases (index 63), type Ljava/util/List; (descriptor index 39)
+Human type: java.util.List
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name pickAnyConnectors (index 87), type Z (descriptor index 67)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name txSupport (index 70), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name minPoolSize (index 73), type I (descriptor index 74)
+Human type: int
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name maxPoolSize (index 77), type I (descriptor index 74)
+Human type: int
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name serverName (index 45), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name jgroupsChannelName (index 48), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name createBinderService (index 66), type Z (descriptor index 67)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name managedConnectionPoolClassName (index 80), type Ljava/lang/String; (descriptor index 35)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name enlistmentTrace (index 83), type Ljava/lang/Boolean; (descriptor index 84)
+Human type: java.lang.Boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name credentialSourceSupplier (index 31), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 28)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+
+Method name <init> (index 11), type (Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/util/List;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;)V (descriptor index 129)
+Human type: (java.lang.String, java.util.List, java.lang.String, java.lang.String, java.lang.String, java.util.List, org.jboss.as.naming.deployment.ContextNames$BindInfo, java.util.List, java.lang.String, int, int, java.lang.String, java.lang.Boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 416
+Method attribute name Signature, size 2
+Method name <init> (index 11), type (Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Z)V (descriptor index 122)
+Human type: (java.lang.String, java.util.List, java.lang.String, java.lang.String, java.lang.String, java.util.List, org.jboss.as.naming.deployment.ContextNames$BindInfo, java.lang.String, int, int, java.lang.String, java.lang.Boolean, boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 401
+Method attribute name Signature, size 2
+Method name getResourceAdapterActivatorsServiceName (index 537), type (Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName; (descriptor index 113)
+Human type: (java.lang.String): org.jboss.msc.service.ServiceName
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 57
+Method name getCredentialSourceSupplierInjector (index 167), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 168)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name installService (index 963), type (Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Z)Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService; (descriptor index 964)
+Human type: (org.jboss.msc.service.ServiceTarget, java.lang.String, java.lang.String, java.util.List, java.lang.String, java.lang.String, java.util.List, org.jboss.as.naming.deployment.ContextNames$BindInfo, java.lang.String, int, int, java.lang.String, java.lang.Boolean, boolean): org.wildfly.extension.messaging.activemq.jms.PooledConnectionFactoryService
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 315
+Method attribute name Signature, size 2
+Method name installService (index 963), type (Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;Ljava/util/List;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;Lorg/jboss/dmr/ModelNode;)Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService; (descriptor index 971)
+Human type: (org.jboss.as.controller.OperationContext, java.lang.String, java.lang.String, java.util.List, java.lang.String, java.lang.String, java.util.List, org.jboss.as.naming.deployment.ContextNames$BindInfo, java.util.List, java.lang.String, int, int, java.lang.String, java.lang.Boolean, org.jboss.dmr.ModelNode): org.wildfly.extension.messaging.activemq.jms.PooledConnectionFactoryService
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 337
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name installService0 (index 125), type (Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;)V (descriptor index 126)
+Human type: (org.jboss.msc.service.ServiceTarget, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, org.wildfly.extension.messaging.activemq.jms.PooledConnectionFactoryService): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 108
+Method name installService0 (index 125), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;Lorg/jboss/dmr/ModelNode;)V (descriptor index 132)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, org.wildfly.extension.messaging.activemq.jms.PooledConnectionFactoryService, org.jboss.dmr.ModelNode): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 199
+Method attribute name Exceptions, size 4
+Method name createServiceBuilder (index 135), type (Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryService;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 136)
+Human type: (org.jboss.msc.service.ServiceTarget, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, org.wildfly.extension.messaging.activemq.jms.PooledConnectionFactoryService): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 201
+Method name getValue (index 265), type ()Ljava/lang/Void; (descriptor index 914)
+Human type: (): java.lang.Void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method attribute name Exceptions, size 6
+Method name start (index 988), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 989)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 168
+Method attribute name Exceptions, size 4
+Method name createService (index 238), type (Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceContainer;)V (descriptor index 239)
+Human type: (org.jboss.msc.service.ServiceTarget, org.jboss.msc.service.ServiceContainer): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 2708
+Method attribute name Exceptions, size 4
+Method name configureCredential (index 466), type (Ljava/util/List;)V (descriptor index 467)
+Human type: (java.util.List): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 264
+Method attribute name Signature, size 2
+Method name getTransactionSupport (index 500), type (Ljava/lang/String;)Lorg/jboss/jca/common/api/metadata/common/TransactionSupportEnum; (descriptor index 501)
+Human type: (java.lang.String): org.jboss.jca.common.api.metadata.common.TransactionSupportEnum
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 90
+Method name createActivation (index 513), type (Lorg/jboss/jca/common/api/metadata/resourceadapter/ConnectionDefinition;Lorg/jboss/jca/common/api/metadata/common/TransactionSupportEnum;)Lorg/jboss/jca/common/api/metadata/resourceadapter/Activation; (descriptor index 514)
+Human type: (org.jboss.jca.common.api.metadata.resourceadapter.ConnectionDefinition, org.jboss.jca.common.api.metadata.common.TransactionSupportEnum): org.jboss.jca.common.api.metadata.resourceadapter.Activation
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 208
+Method name createConnDef (index 509), type (Lorg/jboss/jca/common/api/metadata/common/TransactionSupportEnum;Ljava/lang/String;IILjava/lang/String;Ljava/lang/Boolean;)Lorg/jboss/jca/common/api/metadata/resourceadapter/ConnectionDefinition; (descriptor index 510)
+Human type: (org.jboss.jca.common.api.metadata.common.TransactionSupportEnum, java.lang.String, int, int, java.lang.String, java.lang.Boolean): org.jboss.jca.common.api.metadata.resourceadapter.ConnectionDefinition
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 601
+Method attribute name Exceptions, size 4
+Method name createConnector15 (index 496), type (Lorg/jboss/jca/common/api/metadata/spec/ResourceAdapter;)Lorg/jboss/jca/common/api/metadata/spec/Connector; (descriptor index 497)
+Human type: (org.jboss.jca.common.api.metadata.spec.ResourceAdapter): org.jboss.jca.common.api.metadata.spec.Connector
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 86
+Method name createResourceAdapter15 (index 492), type (Ljava/util/List;Lorg/jboss/jca/common/api/metadata/spec/OutboundResourceAdapter;Lorg/jboss/jca/common/api/metadata/spec/InboundResourceAdapter;)Lorg/jboss/jca/common/api/metadata/spec/ResourceAdapter; (descriptor index 493)
+Human type: (java.util.List, org.jboss.jca.common.api.metadata.spec.OutboundResourceAdapter, org.jboss.jca.common.api.metadata.spec.InboundResourceAdapter): org.jboss.jca.common.api.metadata.spec.ResourceAdapter
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 114
+Method attribute name Signature, size 2
+Method name createInbound (index 488), type (Ljava/util/List;)Lorg/jboss/jca/common/api/metadata/spec/InboundResourceAdapter; (descriptor index 489)
+Human type: (java.util.List): org.jboss.jca.common.api.metadata.spec.InboundResourceAdapter
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 227
+Method attribute name Signature, size 2
+Method name createOutbound (index 484), type (Ljava/util/List;)Lorg/jboss/jca/common/api/metadata/spec/OutboundResourceAdapter; (descriptor index 485)
+Human type: (java.util.List): org.jboss.jca.common.api.metadata.spec.OutboundResourceAdapter
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 277
+Method attribute name Signature, size 2
+Method name str (index 808), type (Ljava/lang/String;)Lorg/jboss/jca/common/api/metadata/spec/XsdString; (descriptor index 809)
+Human type: (java.lang.String): org.jboss.jca.common.api.metadata.spec.XsdString
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 52
+Method name simpleProperty15 (index 358), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/jca/common/api/metadata/spec/ConfigProperty; (descriptor index 359)
+Human type: (java.lang.String, java.lang.String, java.lang.String): org.jboss.jca.common.api.metadata.spec.ConfigProperty
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 94
+Method name stop (index 1101), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 1102)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name getSocketBindingInjector (index 1104), type (Ljava/lang/String;)Lorg/jboss/msc/inject/Injector; (descriptor index 1105)
+Human type: (java.lang.String): org.jboss.msc.inject.Injector
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+Method name getActiveMQServer (index 1107), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 541)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getValue (index 265), type ()Ljava/lang/Object; (descriptor index 266)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name <clinit> (index 1109), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 44
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 66

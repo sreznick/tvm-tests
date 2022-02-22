@@ -1,0 +1,155 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 102
+1: Tag 10 MethodRef Class index 20, Name and type index 59
+2: Tag 9 FieldRef Class index 19, Name and type index 60
+3: Tag 9 FieldRef Class index 19, Name and type index 61
+4: Tag 9 FieldRef Class index 19, Name and type index 62
+5: Tag 9 FieldRef Class index 19, Name and type index 63
+6: Tag 10 MethodRef Class index 19, Name and type index 64
+7: Tag 9 FieldRef Class index 65, Name and type index 66
+8: Tag 11 InterfaceMethodRef Class index 65, Name and type index 67
+9: Tag 8 String Contents 68
+10: Tag 10 MethodRef Class index 69, Name and type index 70
+11: Tag 11 InterfaceMethodRef Class index 65, Name and type index 71
+12: Tag 11 InterfaceMethodRef Class index 72, Name and type index 73
+13: Tag 7 Class Name index 74
+14: Tag 8 String Contents 75
+15: Tag 11 InterfaceMethodRef Class index 65, Name and type index 76
+16: Tag 11 InterfaceMethodRef Class index 65, Name and type index 77
+17: Tag 8 String Contents 78
+18: Tag 11 InterfaceMethodRef Class index 65, Name and type index 79
+19: Tag 7 Class Name index 80
+20: Tag 7 Class Name index 81
+21: Tag 7 Class Name index 82
+22: Tag 7 Class Name index 83
+23: Tag 1 Utf8 Value "manager"
+24: Tag 1 Utf8 Value "Ljavax/persistence/EntityManager;"
+25: Tag 1 Utf8 Value "scopedPuName"
+26: Tag 1 Utf8 Value "Ljava/lang/String;"
+27: Tag 1 Utf8 Value "afterCompletionCalled"
+28: Tag 1 Utf8 Value "Z"
+29: Tag 1 Utf8 Value "associationCounter"
+30: Tag 1 Utf8 Value "I"
+31: Tag 1 Utf8 Value "<init>"
+32: Tag 1 Utf8 Value "(Ljavax/persistence/EntityManager;Ljava/lang/String;)V"
+33: Tag 1 Utf8 Value "Code"
+34: Tag 1 Utf8 Value "LineNumberTable"
+35: Tag 1 Utf8 Value "LocalVariableTable"
+36: Tag 1 Utf8 Value "this"
+37: Tag 1 Utf8 Value "SessionSynchronization"
+38: Tag 1 Utf8 Value "InnerClasses"
+39: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/transaction/TransactionUtil$SessionSynchronization;"
+40: Tag 1 Utf8 Value "session"
+41: Tag 1 Utf8 Value "beforeCompletion"
+42: Tag 1 Utf8 Value "()V"
+43: Tag 1 Utf8 Value "afterCompletion"
+44: Tag 1 Utf8 Value "(I)V"
+45: Tag 1 Utf8 Value "status"
+46: Tag 1 Utf8 Value "StackMapTable"
+47: Tag 7 Class Name index 84
+48: Tag 1 Utf8 Value "safeCloseEntityManager"
+49: Tag 1 Utf8 Value "ignored"
+50: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+51: Tag 1 Utf8 Value "associationChanged"
+52: Tag 1 Utf8 Value "(Lorg/wildfly/transaction/client/AbstractTransaction;Z)V"
+53: Tag 1 Utf8 Value "transaction"
+54: Tag 1 Utf8 Value "Lorg/wildfly/transaction/client/AbstractTransaction;"
+55: Tag 1 Utf8 Value "associated"
+56: Tag 7 Class Name index 85
+57: Tag 1 Utf8 Value "SourceFile"
+58: Tag 1 Utf8 Value "TransactionUtil.java"
+59: Tag 12 NameAndType Name index 31, Description index 42
+60: Tag 12 NameAndType Name index 27, Description index 28
+61: Tag 12 NameAndType Name index 29, Description index 30
+62: Tag 12 NameAndType Name index 23, Description index 24
+63: Tag 12 NameAndType Name index 25, Description index 26
+64: Tag 12 NameAndType Name index 48, Description index 42
+65: Tag 7 Class Name index 86
+66: Tag 12 NameAndType Name index 87, Description index 88
+67: Tag 12 NameAndType Name index 89, Description index 90
+68: Tag 1 Utf8 Value "%s: closing entity managersession"
+69: Tag 7 Class Name index 91
+70: Tag 12 NameAndType Name index 92, Description index 93
+71: Tag 12 NameAndType Name index 94, Description index 95
+72: Tag 7 Class Name index 96
+73: Tag 12 NameAndType Name index 97, Description index 42
+74: Tag 1 Utf8 Value "java/lang/Exception"
+75: Tag 1 Utf8 Value "ignoring error that occurred while closing EntityManager for %s ("
+76: Tag 12 NameAndType Name index 94, Description index 98
+77: Tag 12 NameAndType Name index 99, Description index 90
+78: Tag 1 Utf8 Value "transaction association counter = %d for %s: "
+79: Tag 12 NameAndType Name index 100, Description index 101
+80: Tag 1 Utf8 Value "org/jboss/as/jpa/transaction/TransactionUtil$SessionSynchronization"
+81: Tag 1 Utf8 Value "java/lang/Object"
+82: Tag 1 Utf8 Value "javax/transaction/Synchronization"
+83: Tag 1 Utf8 Value "org/wildfly/transaction/client/AssociationListener"
+84: Tag 1 Utf8 Value "java/lang/Throwable"
+85: Tag 1 Utf8 Value "org/wildfly/transaction/client/AbstractTransaction"
+86: Tag 1 Utf8 Value "org/jboss/as/jpa/messages/JpaLogger"
+87: Tag 1 Utf8 Value "ROOT_LOGGER"
+88: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/messages/JpaLogger;"
+89: Tag 1 Utf8 Value "isDebugEnabled"
+90: Tag 1 Utf8 Value "()Z"
+91: Tag 1 Utf8 Value "org/jboss/as/jpa/transaction/TransactionUtil"
+92: Tag 1 Utf8 Value "getEntityManagerDetails"
+93: Tag 1 Utf8 Value "(Ljavax/persistence/EntityManager;Ljava/lang/String;)Ljava/lang/String;"
+94: Tag 1 Utf8 Value "debugf"
+95: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+96: Tag 1 Utf8 Value "javax/persistence/EntityManager"
+97: Tag 1 Utf8 Value "close"
+98: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/Object;)V"
+99: Tag 1 Utf8 Value "isTraceEnabled"
+100: Tag 1 Utf8 Value "tracef"
+101: Tag 1 Utf8 Value "(Ljava/lang/String;ILjava/lang/Object;)V"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 19, name org.jboss.as.jpa.transaction.TransactionUtil$SessionSynchronization
+
+Super class: id 20, name java.lang.Object
+
+Implements class ids 21 22
+Implements names javax.transaction.Synchronization org.wildfly.transaction.client.AssociationListener
+
+Field name manager (index 23), type Ljavax/persistence/EntityManager; (descriptor index 24)
+Human type: javax.persistence.EntityManager
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name scopedPuName (index 25), type Ljava/lang/String; (descriptor index 26)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name afterCompletionCalled (index 27), type Z (descriptor index 28)
+Human type: boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name associationCounter (index 29), type I (descriptor index 30)
+Human type: int
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 31), type (Ljavax/persistence/EntityManager;Ljava/lang/String;)V (descriptor index 32)
+Human type: (javax.persistence.EntityManager, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 107
+Method name beforeCompletion (index 41), type ()V (descriptor index 42)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name afterCompletion (index 43), type (I)V (descriptor index 44)
+Human type: (int): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 136
+Method name safeCloseEntityManager (index 48), type ()V (descriptor index 42)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 209
+Method name associationChanged (index 51), type (Lorg/wildfly/transaction/client/AbstractTransaction;Z)V (descriptor index 52)
+Human type: (org.wildfly.transaction.client.AbstractTransaction, boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 236
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

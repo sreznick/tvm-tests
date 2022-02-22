@@ -1,0 +1,284 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 243
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/util/HashSet"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 7 Class Name index 11
+11: Tag 1 Utf8 Value "java/lang/StringBuilder"
+12: Tag 10 MethodRef Class index 10, Name and type index 3
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/metrics/WildFlyMetricRegistry"
+17: Tag 1 Utf8 Value "getMetrics"
+18: Tag 1 Utf8 Value "()Ljava/util/Map;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "java/util/Map"
+23: Tag 1 Utf8 Value "entrySet"
+24: Tag 1 Utf8 Value "()Ljava/util/Set;"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "java/util/Set"
+29: Tag 1 Utf8 Value "iterator"
+30: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "java/util/Iterator"
+35: Tag 1 Utf8 Value "hasNext"
+36: Tag 1 Utf8 Value "()Z"
+37: Tag 11 InterfaceMethodRef Class index 32, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "next"
+40: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "java/util/Map$Entry"
+43: Tag 11 InterfaceMethodRef Class index 41, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 40
+45: Tag 1 Utf8 Value "getKey"
+46: Tag 7 Class Name index 47
+47: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricID"
+48: Tag 10 MethodRef Class index 46, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "getMetricName"
+51: Tag 1 Utf8 Value "()Ljava/lang/String;"
+52: Tag 10 MethodRef Class index 14, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 18
+54: Tag 1 Utf8 Value "getMetricMetadata"
+55: Tag 11 InterfaceMethodRef Class index 20, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "get"
+58: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+59: Tag 7 Class Name index 60
+60: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata"
+61: Tag 10 MethodRef Class index 62, Name and type index 63
+62: Tag 7 Class Name index 64
+63: Tag 12 NameAndType Name index 65, Description index 66
+64: Tag 1 Utf8 Value "org/wildfly/extension/metrics/PrometheusExporter"
+65: Tag 1 Utf8 Value "toPrometheusMetricName"
+66: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricID;Lorg/wildfly/extension/metrics/MetricMetadata;)Ljava/lang/String;"
+67: Tag 11 InterfaceMethodRef Class index 41, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 40
+69: Tag 1 Utf8 Value "getValue"
+70: Tag 7 Class Name index 71
+71: Tag 1 Utf8 Value "org/wildfly/extension/metrics/Metric"
+72: Tag 11 InterfaceMethodRef Class index 70, Name and type index 73
+73: Tag 12 NameAndType Name index 69, Description index 74
+74: Tag 1 Utf8 Value "()Ljava/util/OptionalDouble;"
+75: Tag 10 MethodRef Class index 76, Name and type index 77
+76: Tag 7 Class Name index 78
+77: Tag 12 NameAndType Name index 79, Description index 36
+78: Tag 1 Utf8 Value "java/util/OptionalDouble"
+79: Tag 1 Utf8 Value "isPresent"
+80: Tag 11 InterfaceMethodRef Class index 26, Name and type index 81
+81: Tag 12 NameAndType Name index 82, Description index 83
+82: Tag 1 Utf8 Value "contains"
+83: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+84: Tag 8 String Contents 85
+85: Tag 1 Utf8 Value "# HELP "
+86: Tag 10 MethodRef Class index 10, Name and type index 87
+87: Tag 12 NameAndType Name index 88, Description index 89
+88: Tag 1 Utf8 Value "append"
+89: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+90: Tag 8 String Contents 91
+91: Tag 1 Utf8 Value " "
+92: Tag 11 InterfaceMethodRef Class index 59, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 51
+94: Tag 1 Utf8 Value "getDescription"
+95: Tag 10 MethodRef Class index 10, Name and type index 96
+96: Tag 12 NameAndType Name index 97, Description index 51
+97: Tag 1 Utf8 Value "toString"
+98: Tag 8 String Contents 99
+99: Tag 1 Utf8 Value "
+"
+100: Tag 8 String Contents 101
+101: Tag 1 Utf8 Value "# TYPE "
+102: Tag 11 InterfaceMethodRef Class index 59, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 105
+104: Tag 1 Utf8 Value "getType"
+105: Tag 1 Utf8 Value "()Lorg/wildfly/extension/metrics/MetricMetadata$Type;"
+106: Tag 10 MethodRef Class index 10, Name and type index 107
+107: Tag 12 NameAndType Name index 88, Description index 108
+108: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+109: Tag 11 InterfaceMethodRef Class index 26, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 83
+111: Tag 1 Utf8 Value "add"
+112: Tag 10 MethodRef Class index 76, Name and type index 113
+113: Tag 12 NameAndType Name index 114, Description index 115
+114: Tag 1 Utf8 Value "getAsDouble"
+115: Tag 1 Utf8 Value "()D"
+116: Tag 11 InterfaceMethodRef Class index 59, Name and type index 117
+117: Tag 12 NameAndType Name index 118, Description index 119
+118: Tag 1 Utf8 Value "getMeasurementUnit"
+119: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+120: Tag 10 MethodRef Class index 62, Name and type index 121
+121: Tag 12 NameAndType Name index 122, Description index 123
+122: Tag 1 Utf8 Value "scaleToBaseUnit"
+123: Tag 1 Utf8 Value "(DLorg/jboss/as/controller/client/helpers/MeasurementUnit;)D"
+124: Tag 9 FieldRef Class index 125, Name and type index 126
+125: Tag 7 Class Name index 127
+126: Tag 12 NameAndType Name index 128, Description index 129
+127: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata$Type"
+128: Tag 1 Utf8 Value "COUNTER"
+129: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricMetadata$Type;"
+130: Tag 9 FieldRef Class index 131, Name and type index 132
+131: Tag 7 Class Name index 133
+132: Tag 12 NameAndType Name index 134, Description index 135
+133: Tag 1 Utf8 Value "org/jboss/as/controller/client/helpers/MeasurementUnit"
+134: Tag 1 Utf8 Value "NONE"
+135: Tag 1 Utf8 Value "Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+136: Tag 8 String Contents 137
+137: Tag 1 Utf8 Value "_"
+138: Tag 11 InterfaceMethodRef Class index 59, Name and type index 139
+139: Tag 12 NameAndType Name index 140, Description index 51
+140: Tag 1 Utf8 Value "getBaseMetricUnit"
+141: Tag 10 MethodRef Class index 62, Name and type index 142
+142: Tag 12 NameAndType Name index 143, Description index 144
+143: Tag 1 Utf8 Value "getTagsAsAString"
+144: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricID;)Ljava/lang/String;"
+145: Tag 10 MethodRef Class index 10, Name and type index 146
+146: Tag 12 NameAndType Name index 88, Description index 147
+147: Tag 1 Utf8 Value "(D)Ljava/lang/StringBuilder;"
+148: Tag 10 MethodRef Class index 131, Name and type index 149
+149: Tag 12 NameAndType Name index 150, Description index 119
+150: Tag 1 Utf8 Value "getBaseUnits"
+151: Tag 10 MethodRef Class index 131, Name and type index 152
+152: Tag 12 NameAndType Name index 153, Description index 154
+153: Tag 1 Utf8 Value "calculateOffset"
+154: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/client/helpers/MeasurementUnit;Lorg/jboss/as/controller/client/helpers/MeasurementUnit;)Ljava/lang/Double;"
+155: Tag 10 MethodRef Class index 156, Name and type index 157
+156: Tag 7 Class Name index 158
+157: Tag 12 NameAndType Name index 159, Description index 115
+158: Tag 1 Utf8 Value "java/lang/Double"
+159: Tag 1 Utf8 Value "doubleValue"
+160: Tag 8 String Contents 161
+161: Tag 1 Utf8 Value "_total"
+162: Tag 8 String Contents 163
+163: Tag 1 Utf8 Value "none"
+164: Tag 10 MethodRef Class index 165, Name and type index 166
+165: Tag 7 Class Name index 167
+166: Tag 12 NameAndType Name index 168, Description index 83
+167: Tag 1 Utf8 Value "java/lang/String"
+168: Tag 1 Utf8 Value "equals"
+169: Tag 10 MethodRef Class index 46, Name and type index 170
+170: Tag 12 NameAndType Name index 171, Description index 172
+171: Tag 1 Utf8 Value "getTags"
+172: Tag 1 Utf8 Value "()[Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag;"
+173: Tag 8 String Contents 174
+174: Tag 1 Utf8 Value ""
+175: Tag 8 String Contents 176
+176: Tag 1 Utf8 Value "{"
+177: Tag 10 MethodRef Class index 10, Name and type index 178
+178: Tag 12 NameAndType Name index 5, Description index 179
+179: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+180: Tag 8 String Contents 181
+181: Tag 1 Utf8 Value ","
+182: Tag 10 MethodRef Class index 183, Name and type index 184
+183: Tag 7 Class Name index 185
+184: Tag 12 NameAndType Name index 45, Description index 51
+185: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata$MetricTag"
+186: Tag 8 String Contents 187
+187: Tag 1 Utf8 Value "=""
+188: Tag 10 MethodRef Class index 183, Name and type index 189
+189: Tag 12 NameAndType Name index 69, Description index 51
+190: Tag 8 String Contents 191
+191: Tag 1 Utf8 Value """
+192: Tag 8 String Contents 193
+193: Tag 1 Utf8 Value "}"
+194: Tag 1 Utf8 Value "LF"
+195: Tag 1 Utf8 Value "Ljava/lang/String;"
+196: Tag 1 Utf8 Value "ConstantValue"
+197: Tag 1 Utf8 Value "Code"
+198: Tag 1 Utf8 Value "LineNumberTable"
+199: Tag 1 Utf8 Value "LocalVariableTable"
+200: Tag 1 Utf8 Value "this"
+201: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/PrometheusExporter;"
+202: Tag 1 Utf8 Value "export"
+203: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/WildFlyMetricRegistry;)Ljava/lang/String;"
+204: Tag 1 Utf8 Value "metricID"
+205: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricID;"
+206: Tag 1 Utf8 Value "metricName"
+207: Tag 1 Utf8 Value "metadata"
+208: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricMetadata;"
+209: Tag 1 Utf8 Value "prometheusMetricName"
+210: Tag 1 Utf8 Value "metricValue"
+211: Tag 1 Utf8 Value "Ljava/util/OptionalDouble;"
+212: Tag 1 Utf8 Value "scaledValue"
+213: Tag 1 Utf8 Value "D"
+214: Tag 1 Utf8 Value "entry"
+215: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+216: Tag 1 Utf8 Value "registry"
+217: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/WildFlyMetricRegistry;"
+218: Tag 1 Utf8 Value "alreadyExportedMetrics"
+219: Tag 1 Utf8 Value "Ljava/util/Set;"
+220: Tag 1 Utf8 Value "out"
+221: Tag 1 Utf8 Value "Ljava/lang/StringBuilder;"
+222: Tag 1 Utf8 Value "LocalVariableTypeTable"
+223: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Lorg/wildfly/extension/metrics/MetricID;Lorg/wildfly/extension/metrics/Metric;>;"
+224: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/String;>;"
+225: Tag 1 Utf8 Value "StackMapTable"
+226: Tag 1 Utf8 Value "value"
+227: Tag 1 Utf8 Value "unit"
+228: Tag 1 Utf8 Value "baseUnit"
+229: Tag 1 Utf8 Value "prometheusName"
+230: Tag 1 Utf8 Value "tag"
+231: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag;"
+232: Tag 1 Utf8 Value "i"
+233: Tag 1 Utf8 Value "I"
+234: Tag 1 Utf8 Value "tags"
+235: Tag 1 Utf8 Value "[Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag;"
+236: Tag 7 Class Name index 235
+237: Tag 1 Utf8 Value "SourceFile"
+238: Tag 1 Utf8 Value "PrometheusExporter.java"
+239: Tag 1 Utf8 Value "InnerClasses"
+240: Tag 1 Utf8 Value "Entry"
+241: Tag 1 Utf8 Value "Type"
+242: Tag 1 Utf8 Value "MetricTag"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 62, name org.wildfly.extension.metrics.PrometheusExporter
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name LF (index 194), type Ljava/lang/String; (descriptor index 195)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name export (index 202), type (Lorg/wildfly/extension/metrics/WildFlyMetricRegistry;)Ljava/lang/String; (descriptor index 203)
+Human type: (org.wildfly.extension.metrics.WildFlyMetricRegistry): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 712
+Method name scaleToBaseUnit (index 122), type (DLorg/jboss/as/controller/client/helpers/MeasurementUnit;)D (descriptor index 123)
+Human type: (double, org.jboss.as.controller.client.helpers.MeasurementUnit): double
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 66
+Method name toPrometheusMetricName (index 65), type (Lorg/wildfly/extension/metrics/MetricID;Lorg/wildfly/extension/metrics/MetricMetadata;)Ljava/lang/String; (descriptor index 66)
+Human type: (org.wildfly.extension.metrics.MetricID, org.wildfly.extension.metrics.MetricMetadata): java.lang.String
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 193
+Method name getTagsAsAString (index 143), type (Lorg/wildfly/extension/metrics/MetricID;)Ljava/lang/String; (descriptor index 144)
+Human type: (org.wildfly.extension.metrics.MetricID): java.lang.String
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 251
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

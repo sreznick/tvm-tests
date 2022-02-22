@@ -1,0 +1,479 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 350
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingExtension"
+5: Tag 1 Utf8 Value "ADDRESS_SETTING_PATH"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/lang/String"
+9: Tag 7 Class Name index 10
+10: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+11: Tag 8 String Contents 12
+12: Tag 1 Utf8 Value "address-setting"
+13: Tag 10 MethodRef Class index 2, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+16: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+17: Tag 9 FieldRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AddressSettingAdd"
+21: Tag 1 Utf8 Value "INSTANCE"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationStepHandler;"
+23: Tag 9 FieldRef Class index 24, Name and type index 19
+24: Tag 7 Class Name index 25
+25: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AddressSettingRemove"
+26: Tag 10 MethodRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 30, Description index 31
+29: Tag 1 Utf8 Value "org/jboss/as/controller/PersistentResourceDefinition"
+30: Tag 1 Utf8 Value "<init>"
+31: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationStepHandler;)V"
+32: Tag 9 FieldRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AddressSettingDefinition"
+36: Tag 1 Utf8 Value "ATTRIBUTES"
+37: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+38: Tag 10 MethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+42: Tag 1 Utf8 Value "getFlags"
+43: Tag 1 Utf8 Value "()Ljava/util/EnumSet;"
+44: Tag 9 FieldRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess$Flag"
+48: Tag 1 Utf8 Value "STORAGE_RUNTIME"
+49: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess$Flag;"
+50: Tag 10 MethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 55
+53: Tag 1 Utf8 Value "java/util/EnumSet"
+54: Tag 1 Utf8 Value "contains"
+55: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+56: Tag 9 FieldRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 21, Description index 60
+59: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AddressSettingsWriteHandler"
+60: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/AddressSettingsWriteHandler;"
+61: Tag 11 InterfaceMethodRef Class index 62, Name and type index 63
+62: Tag 7 Class Name index 64
+63: Tag 12 NameAndType Name index 65, Description index 66
+64: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ManagementResourceRegistration"
+65: Tag 1 Utf8 Value "registerReadWriteAttribute"
+66: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationStepHandler;)V"
+67: Tag 10 MethodRef Class index 68, Name and type index 69
+68: Tag 7 Class Name index 70
+69: Tag 12 NameAndType Name index 71, Description index 72
+70: Tag 1 Utf8 Value "java/util/Arrays"
+71: Tag 1 Utf8 Value "asList"
+72: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+73: Tag 8 String Contents 74
+74: Tag 1 Utf8 Value "auto-create-addresses"
+75: Tag 9 FieldRef Class index 76, Name and type index 77
+76: Tag 7 Class Name index 78
+77: Tag 12 NameAndType Name index 79, Description index 80
+78: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+79: Tag 1 Utf8 Value "BOOLEAN"
+80: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+81: Tag 10 MethodRef Class index 82, Name and type index 83
+82: Tag 7 Class Name index 84
+83: Tag 12 NameAndType Name index 85, Description index 86
+84: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+85: Tag 1 Utf8 Value "create"
+86: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+87: Tag 9 FieldRef Class index 88, Name and type index 89
+88: Tag 7 Class Name index 90
+89: Tag 12 NameAndType Name index 91, Description index 92
+90: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+91: Tag 1 Utf8 Value "TRUE"
+92: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+93: Tag 10 MethodRef Class index 82, Name and type index 94
+94: Tag 12 NameAndType Name index 95, Description index 96
+95: Tag 1 Utf8 Value "setDefaultValue"
+96: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+97: Tag 10 MethodRef Class index 82, Name and type index 98
+98: Tag 12 NameAndType Name index 99, Description index 100
+99: Tag 1 Utf8 Value "setRequired"
+100: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+101: Tag 10 MethodRef Class index 82, Name and type index 102
+102: Tag 12 NameAndType Name index 103, Description index 100
+103: Tag 1 Utf8 Value "setAllowExpression"
+104: Tag 10 MethodRef Class index 82, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 107
+106: Tag 1 Utf8 Value "build"
+107: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+108: Tag 9 FieldRef Class index 33, Name and type index 109
+109: Tag 12 NameAndType Name index 110, Description index 111
+110: Tag 1 Utf8 Value "AUTO_CREATE_ADDRESSES"
+111: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+112: Tag 8 String Contents 113
+113: Tag 1 Utf8 Value "auto-delete-addresses"
+114: Tag 9 FieldRef Class index 33, Name and type index 115
+115: Tag 12 NameAndType Name index 116, Description index 111
+116: Tag 1 Utf8 Value "AUTO_DELETE_ADDRESSES"
+117: Tag 8 String Contents 118
+118: Tag 1 Utf8 Value "auto-create-jms-queues"
+119: Tag 9 FieldRef Class index 88, Name and type index 120
+120: Tag 12 NameAndType Name index 121, Description index 92
+121: Tag 1 Utf8 Value "FALSE"
+122: Tag 9 FieldRef Class index 2, Name and type index 123
+123: Tag 12 NameAndType Name index 124, Description index 125
+124: Tag 1 Utf8 Value "VERSION_3_0_0"
+125: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ModelVersion;"
+126: Tag 10 MethodRef Class index 82, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 129
+128: Tag 1 Utf8 Value "setDeprecated"
+129: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ModelVersion;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+130: Tag 9 FieldRef Class index 33, Name and type index 131
+131: Tag 12 NameAndType Name index 132, Description index 111
+132: Tag 1 Utf8 Value "AUTO_CREATE_JMS_QUEUES"
+133: Tag 8 String Contents 134
+134: Tag 1 Utf8 Value "auto-delete-jms-queues"
+135: Tag 9 FieldRef Class index 33, Name and type index 136
+136: Tag 12 NameAndType Name index 137, Description index 111
+137: Tag 1 Utf8 Value "AUTO_DELETE_JMS_QUEUES"
+138: Tag 8 String Contents 139
+139: Tag 1 Utf8 Value "auto-create-queues"
+140: Tag 9 FieldRef Class index 33, Name and type index 141
+141: Tag 12 NameAndType Name index 142, Description index 111
+142: Tag 1 Utf8 Value "AUTO_CREATE_QUEUES"
+143: Tag 8 String Contents 144
+144: Tag 1 Utf8 Value "auto-delete-queues"
+145: Tag 9 FieldRef Class index 33, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 111
+147: Tag 1 Utf8 Value "AUTO_DELETE_QUEUES"
+148: Tag 8 String Contents 149
+149: Tag 1 Utf8 Value "address-full-policy"
+150: Tag 9 FieldRef Class index 76, Name and type index 151
+151: Tag 12 NameAndType Name index 152, Description index 80
+152: Tag 1 Utf8 Value "STRING"
+153: Tag 9 FieldRef Class index 154, Name and type index 155
+154: Tag 7 Class Name index 156
+155: Tag 12 NameAndType Name index 157, Description index 158
+156: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AddressSettingDefinition$AddressFullMessagePolicy"
+157: Tag 1 Utf8 Value "PAGE"
+158: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/AddressSettingDefinition$AddressFullMessagePolicy;"
+159: Tag 10 MethodRef Class index 154, Name and type index 160
+160: Tag 12 NameAndType Name index 161, Description index 162
+161: Tag 1 Utf8 Value "toString"
+162: Tag 1 Utf8 Value "()Ljava/lang/String;"
+163: Tag 10 MethodRef Class index 88, Name and type index 164
+164: Tag 12 NameAndType Name index 30, Description index 165
+165: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+166: Tag 7 Class Name index 167
+167: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/EnumValidator"
+168: Tag 10 MethodRef Class index 166, Name and type index 169
+169: Tag 12 NameAndType Name index 30, Description index 170
+170: Tag 1 Utf8 Value "(Ljava/lang/Class;ZZ)V"
+171: Tag 10 MethodRef Class index 82, Name and type index 172
+172: Tag 12 NameAndType Name index 173, Description index 174
+173: Tag 1 Utf8 Value "setValidator"
+174: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/operations/validation/ParameterValidator;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+175: Tag 9 FieldRef Class index 33, Name and type index 176
+176: Tag 12 NameAndType Name index 177, Description index 111
+177: Tag 1 Utf8 Value "ADDRESS_FULL_MESSAGE_POLICY"
+178: Tag 8 String Contents 179
+179: Tag 1 Utf8 Value "expiry-delay"
+180: Tag 9 FieldRef Class index 76, Name and type index 181
+181: Tag 12 NameAndType Name index 182, Description index 80
+182: Tag 1 Utf8 Value "LONG"
+183: Tag 5 Long Value -1
+185: Tag 10 MethodRef Class index 88, Name and type index 186
+186: Tag 12 NameAndType Name index 30, Description index 187
+187: Tag 1 Utf8 Value "(J)V"
+188: Tag 9 FieldRef Class index 189, Name and type index 190
+189: Tag 7 Class Name index 191
+190: Tag 12 NameAndType Name index 192, Description index 193
+191: Tag 1 Utf8 Value "org/jboss/as/controller/client/helpers/MeasurementUnit"
+192: Tag 1 Utf8 Value "MILLISECONDS"
+193: Tag 1 Utf8 Value "Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+194: Tag 10 MethodRef Class index 82, Name and type index 195
+195: Tag 12 NameAndType Name index 196, Description index 197
+196: Tag 1 Utf8 Value "setMeasurementUnit"
+197: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/client/helpers/MeasurementUnit;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+198: Tag 9 FieldRef Class index 33, Name and type index 199
+199: Tag 12 NameAndType Name index 200, Description index 111
+200: Tag 1 Utf8 Value "EXPIRY_DELAY"
+201: Tag 8 String Contents 202
+202: Tag 1 Utf8 Value "last-value-queue"
+203: Tag 9 FieldRef Class index 33, Name and type index 204
+204: Tag 12 NameAndType Name index 205, Description index 111
+205: Tag 1 Utf8 Value "LAST_VALUE_QUEUE"
+206: Tag 8 String Contents 207
+207: Tag 1 Utf8 Value "max-delivery-attempts"
+208: Tag 9 FieldRef Class index 76, Name and type index 209
+209: Tag 12 NameAndType Name index 210, Description index 80
+210: Tag 1 Utf8 Value "INT"
+211: Tag 10 MethodRef Class index 88, Name and type index 212
+212: Tag 12 NameAndType Name index 30, Description index 213
+213: Tag 1 Utf8 Value "(I)V"
+214: Tag 9 FieldRef Class index 33, Name and type index 215
+215: Tag 12 NameAndType Name index 216, Description index 111
+216: Tag 1 Utf8 Value "MAX_DELIVERY_ATTEMPTS"
+217: Tag 8 String Contents 218
+218: Tag 1 Utf8 Value "max-redelivery-delay"
+219: Tag 9 FieldRef Class index 88, Name and type index 220
+220: Tag 12 NameAndType Name index 221, Description index 92
+221: Tag 1 Utf8 Value "ZERO_LONG"
+222: Tag 9 FieldRef Class index 33, Name and type index 223
+223: Tag 12 NameAndType Name index 224, Description index 111
+224: Tag 1 Utf8 Value "MAX_REDELIVERY_DELAY"
+225: Tag 8 String Contents 226
+226: Tag 1 Utf8 Value "max-size-bytes"
+227: Tag 9 FieldRef Class index 189, Name and type index 228
+228: Tag 12 NameAndType Name index 229, Description index 193
+229: Tag 1 Utf8 Value "BYTES"
+230: Tag 9 FieldRef Class index 33, Name and type index 231
+231: Tag 12 NameAndType Name index 232, Description index 111
+232: Tag 1 Utf8 Value "MAX_SIZE_BYTES"
+233: Tag 8 String Contents 234
+234: Tag 1 Utf8 Value "message-counter-history-day-limit"
+235: Tag 9 FieldRef Class index 88, Name and type index 236
+236: Tag 12 NameAndType Name index 237, Description index 92
+237: Tag 1 Utf8 Value "ZERO"
+238: Tag 9 FieldRef Class index 189, Name and type index 239
+239: Tag 12 NameAndType Name index 240, Description index 193
+240: Tag 1 Utf8 Value "DAYS"
+241: Tag 9 FieldRef Class index 33, Name and type index 242
+242: Tag 12 NameAndType Name index 243, Description index 111
+243: Tag 1 Utf8 Value "MESSAGE_COUNTER_HISTORY_DAY_LIMIT"
+244: Tag 8 String Contents 245
+245: Tag 1 Utf8 Value "page-max-cache-size"
+246: Tag 9 FieldRef Class index 33, Name and type index 247
+247: Tag 12 NameAndType Name index 248, Description index 111
+248: Tag 1 Utf8 Value "PAGE_MAX_CACHE_SIZE"
+249: Tag 8 String Contents 250
+250: Tag 1 Utf8 Value "page-size-bytes"
+251: Tag 3 Integer Value 10485760, hex: 0xa00000
+252: Tag 9 FieldRef Class index 33, Name and type index 253
+253: Tag 12 NameAndType Name index 254, Description index 111
+254: Tag 1 Utf8 Value "PAGE_SIZE_BYTES"
+255: Tag 8 String Contents 256
+256: Tag 1 Utf8 Value "redelivery-delay"
+257: Tag 9 FieldRef Class index 33, Name and type index 258
+258: Tag 12 NameAndType Name index 259, Description index 111
+259: Tag 1 Utf8 Value "REDELIVERY_DELAY"
+260: Tag 8 String Contents 261
+261: Tag 1 Utf8 Value "redelivery-multiplier"
+262: Tag 9 FieldRef Class index 76, Name and type index 263
+263: Tag 12 NameAndType Name index 264, Description index 80
+264: Tag 1 Utf8 Value "DOUBLE"
+265: Tag 10 MethodRef Class index 88, Name and type index 266
+266: Tag 12 NameAndType Name index 30, Description index 267
+267: Tag 1 Utf8 Value "(D)V"
+268: Tag 9 FieldRef Class index 33, Name and type index 269
+269: Tag 12 NameAndType Name index 270, Description index 111
+270: Tag 1 Utf8 Value "REDELIVERY_MULTIPLIER"
+271: Tag 8 String Contents 272
+272: Tag 1 Utf8 Value "redistribution-delay"
+273: Tag 9 FieldRef Class index 33, Name and type index 274
+274: Tag 12 NameAndType Name index 275, Description index 111
+275: Tag 1 Utf8 Value "REDISTRIBUTION_DELAY"
+276: Tag 8 String Contents 277
+277: Tag 1 Utf8 Value "send-to-dla-on-no-route"
+278: Tag 9 FieldRef Class index 33, Name and type index 279
+279: Tag 12 NameAndType Name index 280, Description index 111
+280: Tag 1 Utf8 Value "SEND_TO_DLA_ON_NO_ROUTE"
+281: Tag 8 String Contents 282
+282: Tag 1 Utf8 Value "slow-consumer-check-period"
+283: Tag 5 Long Value 5
+285: Tag 9 FieldRef Class index 189, Name and type index 286
+286: Tag 12 NameAndType Name index 287, Description index 193
+287: Tag 1 Utf8 Value "SECONDS"
+288: Tag 9 FieldRef Class index 33, Name and type index 289
+289: Tag 12 NameAndType Name index 290, Description index 111
+290: Tag 1 Utf8 Value "SLOW_CONSUMER_CHECK_PERIOD"
+291: Tag 8 String Contents 292
+292: Tag 1 Utf8 Value "slow-consumer-policy"
+293: Tag 9 FieldRef Class index 294, Name and type index 295
+294: Tag 7 Class Name index 296
+295: Tag 12 NameAndType Name index 297, Description index 298
+296: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AddressSettingDefinition$SlowConsumerPolicy"
+297: Tag 1 Utf8 Value "NOTIFY"
+298: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/AddressSettingDefinition$SlowConsumerPolicy;"
+299: Tag 10 MethodRef Class index 294, Name and type index 160
+300: Tag 9 FieldRef Class index 33, Name and type index 301
+301: Tag 12 NameAndType Name index 302, Description index 111
+302: Tag 1 Utf8 Value "SLOW_CONSUMER_POLICY"
+303: Tag 8 String Contents 304
+304: Tag 1 Utf8 Value "slow-consumer-threshold"
+305: Tag 9 FieldRef Class index 33, Name and type index 306
+306: Tag 12 NameAndType Name index 307, Description index 111
+307: Tag 1 Utf8 Value "SLOW_CONSUMER_THRESHOLD"
+308: Tag 7 Class Name index 309
+309: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+310: Tag 9 FieldRef Class index 9, Name and type index 311
+311: Tag 12 NameAndType Name index 312, Description index 111
+312: Tag 1 Utf8 Value "DEAD_LETTER_ADDRESS"
+313: Tag 9 FieldRef Class index 9, Name and type index 314
+314: Tag 12 NameAndType Name index 315, Description index 111
+315: Tag 1 Utf8 Value "EXPIRY_ADDRESS"
+316: Tag 10 MethodRef Class index 33, Name and type index 317
+317: Tag 12 NameAndType Name index 30, Description index 318
+318: Tag 1 Utf8 Value "()V"
+319: Tag 9 FieldRef Class index 33, Name and type index 320
+320: Tag 12 NameAndType Name index 21, Description index 321
+321: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/AddressSettingDefinition;"
+322: Tag 1 Utf8 Value "Deprecated"
+323: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+324: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+325: Tag 1 Utf8 Value "Code"
+326: Tag 1 Utf8 Value "LineNumberTable"
+327: Tag 1 Utf8 Value "LocalVariableTable"
+328: Tag 1 Utf8 Value "this"
+329: Tag 1 Utf8 Value "registerAttributes"
+330: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+331: Tag 1 Utf8 Value "attr"
+332: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+333: Tag 1 Utf8 Value "registry"
+334: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+335: Tag 1 Utf8 Value "StackMapTable"
+336: Tag 7 Class Name index 37
+337: Tag 1 Utf8 Value "getAttributes"
+338: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+339: Tag 1 Utf8 Value "Signature"
+340: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/jboss/as/controller/AttributeDefinition;>;"
+341: Tag 1 Utf8 Value "<clinit>"
+342: Tag 1 Utf8 Value "SourceFile"
+343: Tag 1 Utf8 Value "AddressSettingDefinition.java"
+344: Tag 1 Utf8 Value "InnerClasses"
+345: Tag 7 Class Name index 346
+346: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess"
+347: Tag 1 Utf8 Value "Flag"
+348: Tag 1 Utf8 Value "AddressFullMessagePolicy"
+349: Tag 1 Utf8 Value "SlowConsumerPolicy"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 33, name org.wildfly.extension.messaging.activemq.AddressSettingDefinition
+
+Super class: id 27, name org.jboss.as.controller.PersistentResourceDefinition
+
+No interfaces
+
+Field name AUTO_CREATE_ADDRESSES (index 110), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name AUTO_DELETE_ADDRESSES (index 116), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name AUTO_CREATE_JMS_QUEUES (index 132), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Deprecated, size 0
+Field attribute name RuntimeVisibleAnnotations, size 6
+Field name AUTO_DELETE_JMS_QUEUES (index 137), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Deprecated, size 0
+Field attribute name RuntimeVisibleAnnotations, size 6
+Field name AUTO_CREATE_QUEUES (index 142), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name AUTO_DELETE_QUEUES (index 147), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ADDRESS_FULL_MESSAGE_POLICY (index 177), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name EXPIRY_DELAY (index 200), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name LAST_VALUE_QUEUE (index 205), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_DELIVERY_ATTEMPTS (index 216), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_REDELIVERY_DELAY (index 224), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_SIZE_BYTES (index 232), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MESSAGE_COUNTER_HISTORY_DAY_LIMIT (index 243), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name PAGE_MAX_CACHE_SIZE (index 248), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name PAGE_SIZE_BYTES (index 254), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name REDELIVERY_DELAY (index 259), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name REDELIVERY_MULTIPLIER (index 270), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name REDISTRIBUTION_DELAY (index 275), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SEND_TO_DLA_ON_NO_ROUTE (index 280), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SLOW_CONSUMER_CHECK_PERIOD (index 290), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SLOW_CONSUMER_POLICY (index 302), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SLOW_CONSUMER_THRESHOLD (index 307), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 111)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ATTRIBUTES (index 36), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 37)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name INSTANCE (index 21), type Lorg/wildfly/extension/messaging/activemq/AddressSettingDefinition; (descriptor index 321)
+Human type: org.wildfly.extension.messaging.activemq.AddressSettingDefinition
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 30), type ()V (descriptor index 318)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 80
+Method name registerAttributes (index 329), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 330)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 153
+Method name getAttributes (index 337), type ()Ljava/util/Collection; (descriptor index 338)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 49
+Method attribute name Signature, size 2
+Method name <clinit> (index 341), type ()V (descriptor index 318)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 1719
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

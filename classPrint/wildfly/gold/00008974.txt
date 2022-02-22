@@ -1,0 +1,249 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 204
+1: Tag 10 MethodRef Class index 38, Name and type index 101
+2: Tag 10 MethodRef Class index 38, Name and type index 102
+3: Tag 11 InterfaceMethodRef Class index 87, Name and type index 103
+4: Tag 11 InterfaceMethodRef Class index 87, Name and type index 104
+5: Tag 11 InterfaceMethodRef Class index 87, Name and type index 105
+6: Tag 10 MethodRef Class index 89, Name and type index 106
+7: Tag 10 MethodRef Class index 89, Name and type index 107
+8: Tag 10 MethodRef Class index 90, Name and type index 108
+9: Tag 10 MethodRef Class index 90, Name and type index 109
+10: Tag 9 FieldRef Class index 110, Name and type index 111
+11: Tag 10 MethodRef Class index 112, Name and type index 113
+12: Tag 10 MethodRef Class index 88, Name and type index 114
+13: Tag 11 InterfaceMethodRef Class index 87, Name and type index 115
+14: Tag 10 MethodRef Class index 116, Name and type index 117
+15: Tag 11 InterfaceMethodRef Class index 87, Name and type index 118
+16: Tag 11 InterfaceMethodRef Class index 93, Name and type index 119
+17: Tag 9 FieldRef Class index 120, Name and type index 121
+18: Tag 11 InterfaceMethodRef Class index 120, Name and type index 122
+19: Tag 10 MethodRef Class index 116, Name and type index 123
+20: Tag 11 InterfaceMethodRef Class index 120, Name and type index 124
+21: Tag 10 MethodRef Class index 116, Name and type index 125
+22: Tag 11 InterfaceMethodRef Class index 92, Name and type index 126
+23: Tag 7 Class Name index 127
+24: Tag 11 InterfaceMethodRef Class index 128, Name and type index 129
+25: Tag 7 Class Name index 130
+26: Tag 9 FieldRef Class index 33, Name and type index 131
+27: Tag 10 MethodRef Class index 36, Name and type index 132
+28: Tag 10 MethodRef Class index 25, Name and type index 133
+29: Tag 11 InterfaceMethodRef Class index 128, Name and type index 134
+30: Tag 11 InterfaceMethodRef Class index 128, Name and type index 135
+31: Tag 11 InterfaceMethodRef Class index 87, Name and type index 136
+32: Tag 10 MethodRef Class index 112, Name and type index 137
+33: Tag 7 Class Name index 138
+34: Tag 10 MethodRef Class index 33, Name and type index 101
+35: Tag 9 FieldRef Class index 33, Name and type index 139
+36: Tag 7 Class Name index 140
+37: Tag 10 MethodRef Class index 36, Name and type index 141
+38: Tag 7 Class Name index 142
+39: Tag 1 Utf8 Value "INSTANCE"
+40: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/dmr/HandlerAdd;"
+41: Tag 1 Utf8 Value "counter"
+42: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicInteger;"
+43: Tag 1 Utf8 Value "<init>"
+44: Tag 1 Utf8 Value "()V"
+45: Tag 1 Utf8 Value "Code"
+46: Tag 1 Utf8 Value "LineNumberTable"
+47: Tag 1 Utf8 Value "LocalVariableTable"
+48: Tag 1 Utf8 Value "this"
+49: Tag 1 Utf8 Value "rollbackRuntime"
+50: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V"
+51: Tag 1 Utf8 Value "context"
+52: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+53: Tag 1 Utf8 Value "operation"
+54: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+55: Tag 1 Utf8 Value "resource"
+56: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+57: Tag 1 Utf8 Value "StackMapTable"
+58: Tag 1 Utf8 Value "performRuntime"
+59: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+60: Tag 1 Utf8 Value "address"
+61: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+62: Tag 1 Utf8 Value "confElem"
+63: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+64: Tag 1 Utf8 Value "configType"
+65: Tag 1 Utf8 Value "Ljava/lang/String;"
+66: Tag 1 Utf8 Value "configName"
+67: Tag 1 Utf8 Value "handlerChainType"
+68: Tag 1 Utf8 Value "handlerChainId"
+69: Tag 1 Utf8 Value "handlerName"
+70: Tag 1 Utf8 Value "handlerClass"
+71: Tag 1 Utf8 Value "target"
+72: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+73: Tag 1 Utf8 Value "configServiceName"
+74: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+75: Tag 1 Utf8 Value "registry"
+76: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceRegistry;"
+77: Tag 1 Utf8 Value "handlerChainServiceName"
+78: Tag 1 Utf8 Value "handlerServiceName"
+79: Tag 1 Utf8 Value "handlerServiceBuilder"
+80: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+81: Tag 1 Utf8 Value "handlerConsumer"
+82: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+83: Tag 1 Utf8 Value "model"
+84: Tag 1 Utf8 Value "LocalVariableTypeTable"
+85: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+86: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/jboss/wsf/spi/metadata/j2ee/serviceref/UnifiedHandlerMetaData;>;"
+87: Tag 7 Class Name index 143
+88: Tag 7 Class Name index 144
+89: Tag 7 Class Name index 145
+90: Tag 7 Class Name index 146
+91: Tag 7 Class Name index 147
+92: Tag 7 Class Name index 148
+93: Tag 7 Class Name index 149
+94: Tag 1 Utf8 Value "Exceptions"
+95: Tag 7 Class Name index 150
+96: Tag 1 Utf8 Value "populateModel"
+97: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+98: Tag 1 Utf8 Value "<clinit>"
+99: Tag 1 Utf8 Value "SourceFile"
+100: Tag 1 Utf8 Value "HandlerAdd.java"
+101: Tag 12 NameAndType Name index 43, Description index 44
+102: Tag 12 NameAndType Name index 49, Description index 50
+103: Tag 12 NameAndType Name index 151, Description index 152
+104: Tag 12 NameAndType Name index 153, Description index 44
+105: Tag 12 NameAndType Name index 154, Description index 155
+106: Tag 12 NameAndType Name index 156, Description index 157
+107: Tag 12 NameAndType Name index 158, Description index 159
+108: Tag 12 NameAndType Name index 160, Description index 161
+109: Tag 12 NameAndType Name index 162, Description index 161
+110: Tag 7 Class Name index 163
+111: Tag 12 NameAndType Name index 164, Description index 165
+112: Tag 7 Class Name index 166
+113: Tag 12 NameAndType Name index 167, Description index 168
+114: Tag 12 NameAndType Name index 169, Description index 161
+115: Tag 12 NameAndType Name index 170, Description index 171
+116: Tag 7 Class Name index 172
+117: Tag 12 NameAndType Name index 173, Description index 174
+118: Tag 12 NameAndType Name index 175, Description index 176
+119: Tag 12 NameAndType Name index 177, Description index 178
+120: Tag 7 Class Name index 179
+121: Tag 12 NameAndType Name index 180, Description index 181
+122: Tag 12 NameAndType Name index 182, Description index 183
+123: Tag 12 NameAndType Name index 184, Description index 185
+124: Tag 12 NameAndType Name index 186, Description index 187
+125: Tag 12 NameAndType Name index 188, Description index 189
+126: Tag 12 NameAndType Name index 190, Description index 191
+127: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+128: Tag 7 Class Name index 192
+129: Tag 12 NameAndType Name index 193, Description index 194
+130: Tag 1 Utf8 Value "org/jboss/as/webservices/service/HandlerService"
+131: Tag 12 NameAndType Name index 41, Description index 42
+132: Tag 12 NameAndType Name index 195, Description index 157
+133: Tag 12 NameAndType Name index 43, Description index 196
+134: Tag 12 NameAndType Name index 197, Description index 198
+135: Tag 12 NameAndType Name index 199, Description index 200
+136: Tag 12 NameAndType Name index 201, Description index 44
+137: Tag 12 NameAndType Name index 202, Description index 97
+138: Tag 1 Utf8 Value "org/jboss/as/webservices/dmr/HandlerAdd"
+139: Tag 12 NameAndType Name index 39, Description index 40
+140: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicInteger"
+141: Tag 12 NameAndType Name index 43, Description index 203
+142: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractAddStepHandler"
+143: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+144: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+145: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+146: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+147: Tag 1 Utf8 Value "java/lang/String"
+148: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+149: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+150: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+151: Tag 1 Utf8 Value "isBooting"
+152: Tag 1 Utf8 Value "()Z"
+153: Tag 1 Utf8 Value "revertReloadRequired"
+154: Tag 1 Utf8 Value "getCurrentAddress"
+155: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+156: Tag 1 Utf8 Value "size"
+157: Tag 1 Utf8 Value "()I"
+158: Tag 1 Utf8 Value "getElement"
+159: Tag 1 Utf8 Value "(I)Lorg/jboss/as/controller/PathElement;"
+160: Tag 1 Utf8 Value "getKey"
+161: Tag 1 Utf8 Value "()Ljava/lang/String;"
+162: Tag 1 Utf8 Value "getValue"
+163: Tag 1 Utf8 Value "org/jboss/as/webservices/dmr/Attributes"
+164: Tag 1 Utf8 Value "CLASS"
+165: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+166: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+167: Tag 1 Utf8 Value "resolveModelAttribute"
+168: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+169: Tag 1 Utf8 Value "asString"
+170: Tag 1 Utf8 Value "getServiceTarget"
+171: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+172: Tag 1 Utf8 Value "org/jboss/as/webservices/dmr/PackageUtils"
+173: Tag 1 Utf8 Value "getConfigServiceName"
+174: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+175: Tag 1 Utf8 Value "getServiceRegistry"
+176: Tag 1 Utf8 Value "(Z)Lorg/jboss/msc/service/ServiceRegistry;"
+177: Tag 1 Utf8 Value "getService"
+178: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+179: Tag 1 Utf8 Value "org/jboss/as/webservices/logging/WSLogger"
+180: Tag 1 Utf8 Value "ROOT_LOGGER"
+181: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/logging/WSLogger;"
+182: Tag 1 Utf8 Value "missingConfig"
+183: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+184: Tag 1 Utf8 Value "getHandlerChainServiceName"
+185: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+186: Tag 1 Utf8 Value "missingHandlerChain"
+187: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+188: Tag 1 Utf8 Value "getHandlerServiceName"
+189: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+190: Tag 1 Utf8 Value "addService"
+191: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+192: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+193: Tag 1 Utf8 Value "provides"
+194: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+195: Tag 1 Utf8 Value "incrementAndGet"
+196: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Consumer;)V"
+197: Tag 1 Utf8 Value "setInstance"
+198: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+199: Tag 1 Utf8 Value "install"
+200: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+201: Tag 1 Utf8 Value "reloadRequired"
+202: Tag 1 Utf8 Value "validateAndSet"
+203: Tag 1 Utf8 Value "(I)V"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 33, name org.jboss.as.webservices.dmr.HandlerAdd
+
+Super class: id 38, name org.jboss.as.controller.AbstractAddStepHandler
+
+No interfaces
+
+Field name INSTANCE (index 39), type Lorg/jboss/as/webservices/dmr/HandlerAdd; (descriptor index 40)
+Human type: org.jboss.as.webservices.dmr.HandlerAdd
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name counter (index 41), type Ljava/util/concurrent/atomic/AtomicInteger; (descriptor index 42)
+Human type: java.util.concurrent.atomic.AtomicInteger
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 43), type ()V (descriptor index 44)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name rollbackRuntime (index 49), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V (descriptor index 50)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 116
+Method name performRuntime (index 58), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 59)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 711
+Method attribute name Exceptions, size 4
+Method name populateModel (index 96), type (Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 97)
+Human type: (org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 75
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 98), type ()V (descriptor index 44)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 50
+
+Class attribute name SourceFile, size 2

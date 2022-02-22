@@ -1,0 +1,111 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 70
+1: Tag 10 MethodRef Class index 16, Name and type index 43
+2: Tag 10 MethodRef Class index 17, Name and type index 44
+3: Tag 10 MethodRef Class index 16, Name and type index 45
+4: Tag 9 FieldRef Class index 16, Name and type index 46
+5: Tag 7 Class Name index 47
+6: Tag 10 MethodRef Class index 5, Name and type index 48
+7: Tag 10 MethodRef Class index 49, Name and type index 50
+8: Tag 7 Class Name index 51
+9: Tag 10 MethodRef Class index 8, Name and type index 44
+10: Tag 10 MethodRef Class index 52, Name and type index 53
+11: Tag 7 Class Name index 54
+12: Tag 10 MethodRef Class index 55, Name and type index 45
+13: Tag 7 Class Name index 56
+14: Tag 10 MethodRef Class index 13, Name and type index 57
+15: Tag 10 MethodRef Class index 55, Name and type index 43
+16: Tag 7 Class Name index 58
+17: Tag 7 Class Name index 59
+18: Tag 7 Class Name index 60
+19: Tag 1 Utf8 Value "InnerClasses"
+20: Tag 1 Utf8 Value "securityContext"
+21: Tag 1 Utf8 Value "Lorg/jboss/security/SecurityContext;"
+22: Tag 1 Utf8 Value "<init>"
+23: Tag 1 Utf8 Value "()V"
+24: Tag 1 Utf8 Value "Code"
+25: Tag 1 Utf8 Value "LineNumberTable"
+26: Tag 1 Utf8 Value "LocalVariableTable"
+27: Tag 1 Utf8 Value "this"
+28: Tag 1 Utf8 Value "Lorg/wildfly/extension/batch/jberet/deployment/SecurityContextHandle;"
+29: Tag 1 Utf8 Value "setup"
+30: Tag 7 Class Name index 61
+31: Tag 1 Utf8 Value "Handle"
+32: Tag 1 Utf8 Value "()Lorg/wildfly/extension/batch/jberet/deployment/ContextHandle$Handle;"
+33: Tag 1 Utf8 Value "current"
+34: Tag 1 Utf8 Value "getSecurityContext"
+35: Tag 1 Utf8 Value "()Lorg/jboss/security/SecurityContext;"
+36: Tag 1 Utf8 Value "StackMapTable"
+37: Tag 1 Utf8 Value "setSecurityContext"
+38: Tag 1 Utf8 Value "(Lorg/jboss/security/SecurityContext;)V"
+39: Tag 1 Utf8 Value "access$000"
+40: Tag 1 Utf8 Value "x0"
+41: Tag 1 Utf8 Value "SourceFile"
+42: Tag 1 Utf8 Value "SecurityContextHandle.java"
+43: Tag 12 NameAndType Name index 37, Description index 38
+44: Tag 12 NameAndType Name index 22, Description index 23
+45: Tag 12 NameAndType Name index 34, Description index 35
+46: Tag 12 NameAndType Name index 20, Description index 21
+47: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/deployment/SecurityContextHandle$1"
+48: Tag 12 NameAndType Name index 22, Description index 62
+49: Tag 7 Class Name index 63
+50: Tag 12 NameAndType Name index 64, Description index 65
+51: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/deployment/SecurityContextHandle$2"
+52: Tag 7 Class Name index 66
+53: Tag 12 NameAndType Name index 67, Description index 68
+54: Tag 1 Utf8 Value "org/jboss/security/SecurityContext"
+55: Tag 7 Class Name index 69
+56: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/deployment/SecurityContextHandle$3"
+57: Tag 12 NameAndType Name index 22, Description index 38
+58: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/deployment/SecurityContextHandle"
+59: Tag 1 Utf8 Value "java/lang/Object"
+60: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/deployment/ContextHandle"
+61: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/deployment/ContextHandle$Handle"
+62: Tag 1 Utf8 Value "(Lorg/wildfly/extension/batch/jberet/deployment/SecurityContextHandle;Lorg/jboss/security/SecurityContext;)V"
+63: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+64: Tag 1 Utf8 Value "isChecking"
+65: Tag 1 Utf8 Value "()Z"
+66: Tag 1 Utf8 Value "java/security/AccessController"
+67: Tag 1 Utf8 Value "doPrivileged"
+68: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction;)Ljava/lang/Object;"
+69: Tag 1 Utf8 Value "org/jboss/security/SecurityContextAssociation"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 16, name org.wildfly.extension.batch.jberet.deployment.SecurityContextHandle
+
+Super class: id 17, name java.lang.Object
+
+Implements class ids 18
+Implements names org.wildfly.extension.batch.jberet.deployment.ContextHandle
+
+Field name securityContext (index 20), type Lorg/jboss/security/SecurityContext; (descriptor index 21)
+Human type: org.jboss.security.SecurityContext
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 22), type ()V (descriptor index 23)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 62
+Method name setup (index 29), type ()Lorg/wildfly/extension/batch/jberet/deployment/ContextHandle$Handle; (descriptor index 32)
+Human type: (): org.wildfly.extension.batch.jberet.deployment.ContextHandle$Handle
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 81
+Method name getSecurityContext (index 34), type ()Lorg/jboss/security/SecurityContext; (descriptor index 35)
+Human type: (): org.jboss.security.SecurityContext
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 65
+Method name setSecurityContext (index 37), type (Lorg/jboss/security/SecurityContext;)V (descriptor index 38)
+Human type: (org.jboss.security.SecurityContext): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 90
+Method name access$000 (index 39), type (Lorg/jboss/security/SecurityContext;)V (descriptor index 38)
+Human type: (org.jboss.security.SecurityContext): void
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 34

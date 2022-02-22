@@ -1,0 +1,108 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 76
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+5: Tag 1 Utf8 Value "MODULE"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+11: Tag 1 Utf8 Value "getAttachment"
+12: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/jboss/modules/Module"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/jboss/as/ee/utils/ClassLoadingUtils"
+19: Tag 1 Utf8 Value "loadClass"
+20: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/modules/Module;)Ljava/lang/Class;"
+21: Tag 10 MethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+25: Tag 1 Utf8 Value "getCurrentContextClassLoaderPrivileged"
+26: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+27: Tag 10 MethodRef Class index 13, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "getClassLoader"
+30: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleClassLoader;"
+31: Tag 10 MethodRef Class index 22, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "setCurrentContextClassLoaderPrivileged"
+34: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;"
+35: Tag 10 MethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "java/lang/Class"
+39: Tag 1 Utf8 Value "forName"
+40: Tag 1 Utf8 Value "(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;"
+41: Tag 10 MethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "java/lang/Object"
+45: Tag 1 Utf8 Value "<init>"
+46: Tag 1 Utf8 Value "()V"
+47: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/Class;"
+48: Tag 1 Utf8 Value "Code"
+49: Tag 1 Utf8 Value "LineNumberTable"
+50: Tag 1 Utf8 Value "LocalVariableTable"
+51: Tag 1 Utf8 Value "className"
+52: Tag 1 Utf8 Value "Ljava/lang/String;"
+53: Tag 1 Utf8 Value "du"
+54: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+55: Tag 1 Utf8 Value "Exceptions"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+58: Tag 1 Utf8 Value "Signature"
+59: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/Class<*>;"
+60: Tag 1 Utf8 Value "module"
+61: Tag 1 Utf8 Value "Lorg/jboss/modules/Module;"
+62: Tag 1 Utf8 Value "oldTccl"
+63: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+64: Tag 1 Utf8 Value "StackMapTable"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "java/lang/String"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "java/lang/ClassLoader"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "java/lang/Throwable"
+71: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/modules/Module;)Ljava/lang/Class<*>;"
+72: Tag 1 Utf8 Value "this"
+73: Tag 1 Utf8 Value "Lorg/jboss/as/ee/utils/ClassLoadingUtils;"
+74: Tag 1 Utf8 Value "SourceFile"
+75: Tag 1 Utf8 Value "ClassLoadingUtils.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 16, name org.jboss.as.ee.utils.ClassLoadingUtils
+
+Super class: id 42, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name loadClass (index 19), type (Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/Class; (descriptor index 47)
+Human type: (java.lang.String, org.jboss.as.server.deployment.DeploymentUnit): java.lang.Class
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 69
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name loadClass (index 19), type (Ljava/lang/String;Lorg/jboss/modules/Module;)Ljava/lang/Class; (descriptor index 20)
+Human type: (java.lang.String, org.jboss.modules.Module): java.lang.Class
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 168
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name <init> (index 45), type ()V (descriptor index 46)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+
+Class attribute name SourceFile, size 2

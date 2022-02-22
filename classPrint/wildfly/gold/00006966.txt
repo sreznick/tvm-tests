@@ -1,0 +1,203 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 170
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/as/jdr/plugins/PluginId"
+9: Tag 8 String Contents 10
+10: Tag 1 Utf8 Value "AS7_PLUGIN"
+11: Tag 10 MethodRef Class index 7, Name and type index 12
+12: Tag 12 NameAndType Name index 5, Description index 13
+13: Tag 1 Utf8 Value "(Ljava/lang/String;IILjava/lang/String;)V"
+14: Tag 9 FieldRef Class index 15, Name and type index 16
+15: Tag 7 Class Name index 17
+16: Tag 12 NameAndType Name index 18, Description index 19
+17: Tag 1 Utf8 Value "org/jboss/as/jdr/plugins/AS7Plugin"
+18: Tag 1 Utf8 Value "pluginId"
+19: Tag 1 Utf8 Value "Lorg/jboss/as/jdr/plugins/PluginId;"
+20: Tag 8 String Contents 21
+21: Tag 1 Utf8 Value "//password"
+22: Tag 10 MethodRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "org/jboss/as/jdr/util/Sanitizers"
+26: Tag 1 Utf8 Value "xml"
+27: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/jdr/util/Sanitizer;"
+28: Tag 8 String Contents 29
+29: Tag 1 Utf8 Value "password=.*"
+30: Tag 8 String Contents 31
+31: Tag 1 Utf8 Value "password=*"
+32: Tag 10 MethodRef Class index 23, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "pattern"
+35: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/jdr/util/Sanitizer;"
+36: Tag 8 String Contents 37
+37: Tag 1 Utf8 Value "([^=]*password[^=]*)=.*"
+38: Tag 8 String Contents 39
+39: Tag 1 Utf8 Value "$1=*"
+40: Tag 7 Class Name index 41
+41: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/JdrCommand"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/TreeCommand"
+44: Tag 10 MethodRef Class index 42, Name and type index 3
+45: Tag 7 Class Name index 46
+46: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/JarCheck"
+47: Tag 10 MethodRef Class index 45, Name and type index 3
+48: Tag 7 Class Name index 49
+49: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/CallAS7"
+50: Tag 8 String Contents 51
+51: Tag 1 Utf8 Value "configuration"
+52: Tag 10 MethodRef Class index 48, Name and type index 53
+53: Tag 12 NameAndType Name index 5, Description index 54
+54: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+55: Tag 8 String Contents 56
+56: Tag 1 Utf8 Value "recursive"
+57: Tag 8 String Contents 58
+58: Tag 1 Utf8 Value "true"
+59: Tag 10 MethodRef Class index 48, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "param"
+62: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/jdr/commands/CallAS7;"
+63: Tag 8 String Contents 64
+64: Tag 1 Utf8 Value "dump-services"
+65: Tag 10 MethodRef Class index 48, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 68
+67: Tag 1 Utf8 Value "operation"
+68: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/jdr/commands/CallAS7;"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "java/lang/String"
+71: Tag 8 String Contents 72
+72: Tag 1 Utf8 Value "core-service"
+73: Tag 8 String Contents 74
+74: Tag 1 Utf8 Value "service-container"
+75: Tag 10 MethodRef Class index 48, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 78
+77: Tag 1 Utf8 Value "resource"
+78: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/jdr/commands/CallAS7;"
+79: Tag 8 String Contents 80
+80: Tag 1 Utf8 Value "cluster-proxies-configuration"
+81: Tag 8 String Contents 82
+82: Tag 1 Utf8 Value "subsystem"
+83: Tag 8 String Contents 84
+84: Tag 1 Utf8 Value "modcluster"
+85: Tag 8 String Contents 86
+86: Tag 1 Utf8 Value "jndi-view"
+87: Tag 8 String Contents 88
+88: Tag 1 Utf8 Value "naming"
+89: Tag 7 Class Name index 90
+90: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/CollectFiles"
+91: Tag 8 String Contents 92
+92: Tag 1 Utf8 Value "*/standalone/configuration/*"
+93: Tag 10 MethodRef Class index 89, Name and type index 53
+94: Tag 7 Class Name index 95
+95: Tag 1 Utf8 Value "org/jboss/as/jdr/util/Sanitizer"
+96: Tag 10 MethodRef Class index 89, Name and type index 97
+97: Tag 12 NameAndType Name index 98, Description index 99
+98: Tag 1 Utf8 Value "sanitizer"
+99: Tag 1 Utf8 Value "([Lorg/jboss/as/jdr/util/Sanitizer;)Lorg/jboss/as/jdr/commands/CollectFiles;"
+100: Tag 8 String Contents 101
+101: Tag 1 Utf8 Value "*/domain/configuration/*"
+102: Tag 8 String Contents 103
+103: Tag 1 Utf8 Value "*server.log"
+104: Tag 7 Class Name index 105
+105: Tag 1 Utf8 Value "org/jboss/as/jdr/util/Utils"
+106: Tag 5 Long Value 52428800
+108: Tag 10 MethodRef Class index 89, Name and type index 109
+109: Tag 12 NameAndType Name index 110, Description index 111
+110: Tag 1 Utf8 Value "limit"
+111: Tag 1 Utf8 Value "(J)Lorg/jboss/as/jdr/commands/CollectFiles;"
+112: Tag 8 String Contents 113
+113: Tag 1 Utf8 Value "*.log"
+114: Tag 10 MethodRef Class index 89, Name and type index 115
+115: Tag 12 NameAndType Name index 116, Description index 117
+116: Tag 1 Utf8 Value "omit"
+117: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/jdr/commands/CollectFiles;"
+118: Tag 8 String Contents 119
+119: Tag 1 Utf8 Value "*gc.log.*"
+120: Tag 8 String Contents 121
+121: Tag 1 Utf8 Value "*.properties"
+122: Tag 8 String Contents 123
+123: Tag 1 Utf8 Value "*.xml"
+124: Tag 8 String Contents 125
+125: Tag 1 Utf8 Value "*/modules/system/*/.overlays/.overlays"
+126: Tag 8 String Contents 127
+127: Tag 1 Utf8 Value "*/.installation/*.conf"
+128: Tag 8 String Contents 129
+129: Tag 1 Utf8 Value "*/.installation/*.txt"
+130: Tag 7 Class Name index 131
+131: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/SystemProperties"
+132: Tag 10 MethodRef Class index 130, Name and type index 3
+133: Tag 10 MethodRef Class index 130, Name and type index 134
+134: Tag 12 NameAndType Name index 98, Description index 135
+135: Tag 1 Utf8 Value "([Lorg/jboss/as/jdr/util/Sanitizer;)Lorg/jboss/as/jdr/commands/SystemProperties;"
+136: Tag 7 Class Name index 137
+137: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/DeploymentDependencies"
+138: Tag 10 MethodRef Class index 136, Name and type index 3
+139: Tag 7 Class Name index 140
+140: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/LocalModuleDependencies"
+141: Tag 10 MethodRef Class index 139, Name and type index 3
+142: Tag 10 MethodRef Class index 143, Name and type index 144
+143: Tag 7 Class Name index 145
+144: Tag 12 NameAndType Name index 146, Description index 147
+145: Tag 1 Utf8 Value "java/util/Arrays"
+146: Tag 1 Utf8 Value "asList"
+147: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+148: Tag 7 Class Name index 149
+149: Tag 1 Utf8 Value "org/jboss/as/jdr/plugins/JdrPlugin"
+150: Tag 1 Utf8 Value "Code"
+151: Tag 1 Utf8 Value "LineNumberTable"
+152: Tag 1 Utf8 Value "LocalVariableTable"
+153: Tag 1 Utf8 Value "this"
+154: Tag 1 Utf8 Value "Lorg/jboss/as/jdr/plugins/AS7Plugin;"
+155: Tag 1 Utf8 Value "getCommands"
+156: Tag 1 Utf8 Value "()Ljava/util/List;"
+157: Tag 1 Utf8 Value "xmlSanitizer"
+158: Tag 1 Utf8 Value "Lorg/jboss/as/jdr/util/Sanitizer;"
+159: Tag 1 Utf8 Value "passwordSanitizer"
+160: Tag 1 Utf8 Value "systemPropertiesPasswordSanitizer"
+161: Tag 1 Utf8 Value "Exceptions"
+162: Tag 7 Class Name index 163
+163: Tag 1 Utf8 Value "java/lang/Exception"
+164: Tag 1 Utf8 Value "Signature"
+165: Tag 1 Utf8 Value "()Ljava/util/List<Lorg/jboss/as/jdr/commands/JdrCommand;>;"
+166: Tag 1 Utf8 Value "getPluginId"
+167: Tag 1 Utf8 Value "()Lorg/jboss/as/jdr/plugins/PluginId;"
+168: Tag 1 Utf8 Value "SourceFile"
+169: Tag 1 Utf8 Value "AS7Plugin.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 15, name org.jboss.as.jdr.plugins.AS7Plugin
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 148
+Implements names org.jboss.as.jdr.plugins.JdrPlugin
+
+Field name pluginId (index 18), type Lorg/jboss/as/jdr/plugins/PluginId; (descriptor index 19)
+Human type: org.jboss.as.jdr.plugins.PluginId
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name getCommands (index 155), type ()Ljava/util/List; (descriptor index 156)
+Human type: (): java.util.List
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 536
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name getPluginId (index 166), type ()Lorg/jboss/as/jdr/plugins/PluginId; (descriptor index 167)
+Human type: (): org.jboss.as.jdr.plugins.PluginId
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2

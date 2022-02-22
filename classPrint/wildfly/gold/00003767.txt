@@ -1,0 +1,115 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 77
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/util/Arrays"
+5: Tag 1 Utf8 Value "asList"
+6: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/election/PreferredSingletonElectionPolicy"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;Ljava/util/List;)V"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 11, Description index 17
+16: Tag 1 Utf8 Value "java/lang/Object"
+17: Tag 1 Utf8 Value "()V"
+18: Tag 9 FieldRef Class index 8, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "policy"
+21: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;"
+22: Tag 9 FieldRef Class index 8, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "preferences"
+25: Tag 1 Utf8 Value "Ljava/util/List;"
+26: Tag 11 InterfaceMethodRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 30, Description index 31
+29: Tag 1 Utf8 Value "java/util/List"
+30: Tag 1 Utf8 Value "iterator"
+31: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+32: Tag 11 InterfaceMethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "java/util/Iterator"
+36: Tag 1 Utf8 Value "hasNext"
+37: Tag 1 Utf8 Value "()Z"
+38: Tag 11 InterfaceMethodRef Class index 33, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "next"
+41: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/election/Preference"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "org/wildfly/clustering/group/Node"
+46: Tag 11 InterfaceMethodRef Class index 42, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "preferred"
+49: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/group/Node;)Z"
+50: Tag 11 InterfaceMethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 55
+53: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/SingletonElectionPolicy"
+54: Tag 1 Utf8 Value "elect"
+55: Tag 1 Utf8 Value "(Ljava/util/List;)Lorg/wildfly/clustering/group/Node;"
+56: Tag 1 Utf8 Value "Signature"
+57: Tag 1 Utf8 Value "Ljava/util/List<Lorg/wildfly/clustering/singleton/election/Preference;>;"
+58: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;[Lorg/wildfly/clustering/singleton/election/Preference;)V"
+59: Tag 1 Utf8 Value "Code"
+60: Tag 1 Utf8 Value "LineNumberTable"
+61: Tag 1 Utf8 Value "LocalVariableTable"
+62: Tag 1 Utf8 Value "this"
+63: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/election/PreferredSingletonElectionPolicy;"
+64: Tag 1 Utf8 Value "[Lorg/wildfly/clustering/singleton/election/Preference;"
+65: Tag 1 Utf8 Value "LocalVariableTypeTable"
+66: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;Ljava/util/List<Lorg/wildfly/clustering/singleton/election/Preference;>;)V"
+67: Tag 1 Utf8 Value "candidate"
+68: Tag 1 Utf8 Value "Lorg/wildfly/clustering/group/Node;"
+69: Tag 1 Utf8 Value "preference"
+70: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/election/Preference;"
+71: Tag 1 Utf8 Value "candidates"
+72: Tag 1 Utf8 Value "Ljava/util/List<Lorg/wildfly/clustering/group/Node;>;"
+73: Tag 1 Utf8 Value "StackMapTable"
+74: Tag 1 Utf8 Value "(Ljava/util/List<Lorg/wildfly/clustering/group/Node;>;)Lorg/wildfly/clustering/group/Node;"
+75: Tag 1 Utf8 Value "SourceFile"
+76: Tag 1 Utf8 Value "PreferredSingletonElectionPolicy.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.singleton.election.PreferredSingletonElectionPolicy
+
+Super class: id 14, name java.lang.Object
+
+Implements class ids 51
+Implements names org.wildfly.clustering.singleton.SingletonElectionPolicy
+
+Field name preferences (index 24), type Ljava/util/List; (descriptor index 25)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name policy (index 20), type Lorg/wildfly/clustering/singleton/SingletonElectionPolicy; (descriptor index 21)
+Human type: org.wildfly.clustering.singleton.SingletonElectionPolicy
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 11), type (Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;[Lorg/wildfly/clustering/singleton/election/Preference;)V (descriptor index 58)
+Human type: (org.wildfly.clustering.singleton.SingletonElectionPolicy, org.wildfly.clustering.singleton.election.Preference[]): void
+Flags: decimal 129, hex 0081, binary 0000000010000001 public varargs
+Method attribute name Code, size 76
+Method name <init> (index 11), type (Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;Ljava/util/List;)V (descriptor index 12)
+Human type: (org.wildfly.clustering.singleton.SingletonElectionPolicy, java.util.List): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 107
+Method attribute name Signature, size 2
+Method name elect (index 54), type (Ljava/util/List;)Lorg/wildfly/clustering/group/Node; (descriptor index 55)
+Human type: (java.util.List): org.wildfly.clustering.group.Node
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 234
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2

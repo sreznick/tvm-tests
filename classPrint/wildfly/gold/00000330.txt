@@ -1,0 +1,144 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 94
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/naming/InMemoryNamingStore$BindingContextVisitor"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/naming/InMemoryNamingStore;"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "javax/naming/Name"
+11: Tag 1 Utf8 Value "size"
+12: Tag 1 Utf8 Value "()I"
+13: Tag 11 InterfaceMethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "getPrefix"
+16: Tag 1 Utf8 Value "(I)Ljavax/naming/Name;"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/naming/InMemoryNamingStore$NodeTraversingVisitor"
+21: Tag 1 Utf8 Value "<init>"
+22: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/InMemoryNamingStore;ZLjavax/naming/Name;)V"
+23: Tag 9 FieldRef Class index 2, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "targetName"
+26: Tag 1 Utf8 Value "Ljavax/naming/Name;"
+27: Tag 10 MethodRef Class index 2, Name and type index 19
+28: Tag 10 MethodRef Class index 2, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "foundBindContext"
+31: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/InMemoryNamingStore$ContextNode;)Ljava/lang/Object;"
+32: Tag 9 FieldRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 26
+35: Tag 1 Utf8 Value "org/jboss/as/naming/InMemoryNamingStore$BindingNode"
+36: Tag 1 Utf8 Value "fullName"
+37: Tag 11 InterfaceMethodRef Class index 8, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 16
+39: Tag 1 Utf8 Value "getSuffix"
+40: Tag 9 FieldRef Class index 33, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 43
+42: Tag 1 Utf8 Value "binding"
+43: Tag 1 Utf8 Value "Ljavax/naming/Binding;"
+44: Tag 10 MethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "javax/naming/Binding"
+48: Tag 1 Utf8 Value "getObject"
+49: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+50: Tag 10 MethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 55
+53: Tag 1 Utf8 Value "org/jboss/as/naming/InMemoryNamingStore"
+54: Tag 1 Utf8 Value "access$1100"
+55: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/InMemoryNamingStore;Ljavax/naming/Name;Ljava/lang/Object;)V"
+56: Tag 10 MethodRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 60, Description index 61
+59: Tag 1 Utf8 Value "org/jboss/as/naming/util/NamingUtils"
+60: Tag 1 Utf8 Value "notAContextException"
+61: Tag 1 Utf8 Value "(Ljavax/naming/Name;)Ljavax/naming/NotContextException;"
+62: Tag 1 Utf8 Value "Code"
+63: Tag 1 Utf8 Value "LineNumberTable"
+64: Tag 1 Utf8 Value "LocalVariableTable"
+65: Tag 1 Utf8 Value "this"
+66: Tag 1 Utf8 Value "Lorg/jboss/as/naming/InMemoryNamingStore$BindingContextVisitor;"
+67: Tag 1 Utf8 Value "createIfMissing"
+68: Tag 1 Utf8 Value "Z"
+69: Tag 1 Utf8 Value "LocalVariableTypeTable"
+70: Tag 1 Utf8 Value "Lorg/jboss/as/naming/InMemoryNamingStore$BindingContextVisitor<TT;>;"
+71: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/InMemoryNamingStore;Ljavax/naming/Name;)V"
+72: Tag 1 Utf8 Value "found"
+73: Tag 1 Utf8 Value "contextNode"
+74: Tag 1 Utf8 Value "Lorg/jboss/as/naming/InMemoryNamingStore$ContextNode;"
+75: Tag 1 Utf8 Value "Exceptions"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "javax/naming/NamingException"
+78: Tag 1 Utf8 Value "Signature"
+79: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/InMemoryNamingStore$ContextNode;)TT;"
+80: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/InMemoryNamingStore$BindingNode;)Ljava/lang/Object;"
+81: Tag 1 Utf8 Value "bindingNode"
+82: Tag 1 Utf8 Value "Lorg/jboss/as/naming/InMemoryNamingStore$BindingNode;"
+83: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/InMemoryNamingStore$BindingNode;)TT;"
+84: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Lorg/jboss/as/naming/InMemoryNamingStore$NodeTraversingVisitor<TT;>;"
+85: Tag 1 Utf8 Value "SourceFile"
+86: Tag 1 Utf8 Value "InMemoryNamingStore.java"
+87: Tag 1 Utf8 Value "InnerClasses"
+88: Tag 1 Utf8 Value "BindingContextVisitor"
+89: Tag 1 Utf8 Value "NodeTraversingVisitor"
+90: Tag 7 Class Name index 91
+91: Tag 1 Utf8 Value "org/jboss/as/naming/InMemoryNamingStore$ContextNode"
+92: Tag 1 Utf8 Value "ContextNode"
+93: Tag 1 Utf8 Value "BindingNode"
+
+Flags: decimal 1056, hex 0420, binary 0000010000100000 super abstract
+
+This class: id 2, name org.jboss.as.naming.InMemoryNamingStore$BindingContextVisitor
+
+Super class: id 18, name org.jboss.as.naming.InMemoryNamingStore$NodeTraversingVisitor
+
+No interfaces
+
+Field name targetName (index 25), type Ljavax/naming/Name; (descriptor index 26)
+Human type: javax.naming.Name
+Flags: decimal 20, hex 0014, binary 0000000000010100 protected final
+No field attributes
+Field name this$0 (index 5), type Lorg/jboss/as/naming/InMemoryNamingStore; (descriptor index 6)
+Human type: org.jboss.as.naming.InMemoryNamingStore
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 21), type (Lorg/jboss/as/naming/InMemoryNamingStore;ZLjavax/naming/Name;)V (descriptor index 22)
+Human type: (org.jboss.as.naming.InMemoryNamingStore, boolean, javax.naming.Name): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 123
+Method name <init> (index 21), type (Lorg/jboss/as/naming/InMemoryNamingStore;Ljavax/naming/Name;)V (descriptor index 71)
+Human type: (org.jboss.as.naming.InMemoryNamingStore, javax.naming.Name): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 82
+Method name found (index 72), type (Lorg/jboss/as/naming/InMemoryNamingStore$ContextNode;)Ljava/lang/Object; (descriptor index 31)
+Human type: (org.jboss.as.naming.InMemoryNamingStore$ContextNode): java.lang.Object
+Flags: decimal 20, hex 0014, binary 0000000000010100 protected final
+Method attribute name Code, size 76
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name found (index 72), type (Lorg/jboss/as/naming/InMemoryNamingStore$BindingNode;)Ljava/lang/Object; (descriptor index 80)
+Human type: (org.jboss.as.naming.InMemoryNamingStore$BindingNode): java.lang.Object
+Flags: decimal 20, hex 0014, binary 0000000000010100 protected final
+Method attribute name Code, size 114
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name foundBindContext (index 30), type (Lorg/jboss/as/naming/InMemoryNamingStore$ContextNode;)Ljava/lang/Object; (descriptor index 31)
+Human type: (org.jboss.as.naming.InMemoryNamingStore$ContextNode): java.lang.Object
+Flags: decimal 1028, hex 0404, binary 0000010000000100 protected abstract
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 34

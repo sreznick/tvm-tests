@@ -1,0 +1,116 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 81
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$context"
+10: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "java/lang/Object"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "()V"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService"
+21: Tag 1 Utf8 Value "access$000"
+22: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService;)Lorg/apache/activemq/artemis/jms/bridge/JMSBridge;"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/wildfly/transaction/client/ContextTransactionManager"
+27: Tag 1 Utf8 Value "getInstance"
+28: Tag 1 Utf8 Value "()Lorg/wildfly/transaction/client/ContextTransactionManager;"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/apache/activemq/artemis/jms/bridge/JMSBridge"
+33: Tag 1 Utf8 Value "setTransactionManager"
+34: Tag 1 Utf8 Value "(Ljavax/transaction/TransactionManager;)V"
+35: Tag 10 MethodRef Class index 18, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 16
+37: Tag 1 Utf8 Value "startBridge"
+38: Tag 11 InterfaceMethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 16
+41: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+42: Tag 1 Utf8 Value "complete"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "java/lang/Throwable"
+45: Tag 9 FieldRef Class index 46, Name and type index 47
+46: Tag 7 Class Name index 48
+47: Tag 12 NameAndType Name index 49, Description index 50
+48: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/logging/MessagingLogger"
+49: Tag 1 Utf8 Value "ROOT_LOGGER"
+50: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/logging/MessagingLogger;"
+51: Tag 8 String Contents 52
+52: Tag 1 Utf8 Value "JMS Bridge"
+53: Tag 11 InterfaceMethodRef Class index 46, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "failedToCreate"
+56: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+57: Tag 11 InterfaceMethodRef Class index 39, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "failed"
+60: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartException;)V"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "java/lang/Runnable"
+63: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService;Lorg/jboss/msc/service/StartContext;)V"
+64: Tag 1 Utf8 Value "Code"
+65: Tag 1 Utf8 Value "LineNumberTable"
+66: Tag 1 Utf8 Value "LocalVariableTable"
+67: Tag 1 Utf8 Value "this"
+68: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService$1;"
+69: Tag 1 Utf8 Value "Signature"
+70: Tag 1 Utf8 Value "run"
+71: Tag 1 Utf8 Value "e"
+72: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+73: Tag 1 Utf8 Value "StackMapTable"
+74: Tag 1 Utf8 Value "SourceFile"
+75: Tag 1 Utf8 Value "JMSBridgeService.java"
+76: Tag 1 Utf8 Value "EnclosingMethod"
+77: Tag 12 NameAndType Name index 78, Description index 79
+78: Tag 1 Utf8 Value "start"
+79: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+80: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.messaging.activemq.jms.bridge.JMSBridgeService$1
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 61
+Implements names java.lang.Runnable
+
+Field name val$context (index 9), type Lorg/jboss/msc/service/StartContext; (descriptor index 10)
+Human type: org.jboss.msc.service.StartContext
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService; (descriptor index 6)
+Human type: org.wildfly.extension.messaging.activemq.jms.bridge.JMSBridgeService
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 15), type (Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService;Lorg/jboss/msc/service/StartContext;)V (descriptor index 63)
+Human type: (org.wildfly.extension.messaging.activemq.jms.bridge.JMSBridgeService, org.jboss.msc.service.StartContext): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 67
+Method attribute name Signature, size 2
+Method name run (index 70), type ()V (descriptor index 16)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 153
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

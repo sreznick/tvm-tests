@@ -1,0 +1,447 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 334
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/util/HashSet"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 9 FieldRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/UndertowEventHandlerAdapterService"
+14: Tag 1 Utf8 Value "contexts"
+15: Tag 1 Utf8 Value "Ljava/util/Set;"
+16: Tag 9 FieldRef Class index 11, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "configuration"
+19: Tag 1 Utf8 Value "Lorg/wildfly/mod_cluster/undertow/UndertowEventHandlerAdapterConfiguration;"
+20: Tag 11 InterfaceMethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/UndertowEventHandlerAdapterConfiguration"
+24: Tag 1 Utf8 Value "getUndertowService"
+25: Tag 1 Utf8 Value "()Lorg/wildfly/extension/undertow/UndertowService;"
+26: Tag 11 InterfaceMethodRef Class index 21, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "getContainerEventHandler"
+29: Tag 1 Utf8 Value "()Lorg/jboss/modcluster/container/ContainerEventHandler;"
+30: Tag 7 Class Name index 31
+31: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/UndertowConnector"
+32: Tag 11 InterfaceMethodRef Class index 21, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "getListener"
+35: Tag 1 Utf8 Value "()Lorg/wildfly/extension/undertow/UndertowListener;"
+36: Tag 10 MethodRef Class index 30, Name and type index 37
+37: Tag 12 NameAndType Name index 5, Description index 38
+38: Tag 1 Utf8 Value "(Lorg/wildfly/extension/undertow/UndertowListener;)V"
+39: Tag 9 FieldRef Class index 11, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "connector"
+42: Tag 1 Utf8 Value "Lorg/jboss/modcluster/container/Connector;"
+43: Tag 11 InterfaceMethodRef Class index 21, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "getServer"
+46: Tag 1 Utf8 Value "()Lorg/wildfly/extension/undertow/Server;"
+47: Tag 10 MethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "org/wildfly/extension/undertow/Server"
+51: Tag 1 Utf8 Value "getName"
+52: Tag 1 Utf8 Value "()Ljava/lang/String;"
+53: Tag 9 FieldRef Class index 11, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "serverName"
+56: Tag 1 Utf8 Value "Ljava/lang/String;"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/UndertowServer"
+59: Tag 10 MethodRef Class index 57, Name and type index 60
+60: Tag 12 NameAndType Name index 5, Description index 61
+61: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/extension/undertow/UndertowService;Lorg/jboss/modcluster/container/Connector;)V"
+62: Tag 9 FieldRef Class index 11, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 65
+64: Tag 1 Utf8 Value "server"
+65: Tag 1 Utf8 Value "Lorg/jboss/modcluster/container/Server;"
+66: Tag 10 MethodRef Class index 67, Name and type index 68
+67: Tag 7 Class Name index 69
+68: Tag 12 NameAndType Name index 70, Description index 71
+69: Tag 1 Utf8 Value "org/wildfly/extension/undertow/UndertowService"
+70: Tag 1 Utf8 Value "registerListener"
+71: Tag 1 Utf8 Value "(Lorg/wildfly/extension/undertow/UndertowEventListener;)V"
+72: Tag 11 InterfaceMethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "org/jboss/modcluster/container/ContainerEventHandler"
+76: Tag 1 Utf8 Value "init"
+77: Tag 1 Utf8 Value "(Lorg/jboss/modcluster/container/Server;)V"
+78: Tag 11 InterfaceMethodRef Class index 73, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 77
+80: Tag 1 Utf8 Value "start"
+81: Tag 7 Class Name index 82
+82: Tag 1 Utf8 Value "org/jboss/as/clustering/context/DefaultThreadFactory"
+83: Tag 10 MethodRef Class index 81, Name and type index 84
+84: Tag 12 NameAndType Name index 5, Description index 85
+85: Tag 1 Utf8 Value "(Ljava/lang/Class;)V"
+86: Tag 10 MethodRef Class index 87, Name and type index 88
+87: Tag 7 Class Name index 89
+88: Tag 12 NameAndType Name index 90, Description index 91
+89: Tag 1 Utf8 Value "java/util/concurrent/Executors"
+90: Tag 1 Utf8 Value "newScheduledThreadPool"
+91: Tag 1 Utf8 Value "(ILjava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ScheduledExecutorService;"
+92: Tag 9 FieldRef Class index 11, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 95
+94: Tag 1 Utf8 Value "executor"
+95: Tag 1 Utf8 Value "Ljava/util/concurrent/ScheduledExecutorService;"
+96: Tag 11 InterfaceMethodRef Class index 21, Name and type index 97
+97: Tag 12 NameAndType Name index 98, Description index 99
+98: Tag 1 Utf8 Value "getStatusInterval"
+99: Tag 1 Utf8 Value "()Ljava/time/Duration;"
+100: Tag 10 MethodRef Class index 101, Name and type index 102
+101: Tag 7 Class Name index 103
+102: Tag 12 NameAndType Name index 104, Description index 105
+103: Tag 1 Utf8 Value "java/time/Duration"
+104: Tag 1 Utf8 Value "toMillis"
+105: Tag 1 Utf8 Value "()J"
+106: Tag 9 FieldRef Class index 107, Name and type index 108
+107: Tag 7 Class Name index 109
+108: Tag 12 NameAndType Name index 110, Description index 111
+109: Tag 1 Utf8 Value "java/util/concurrent/TimeUnit"
+110: Tag 1 Utf8 Value "MILLISECONDS"
+111: Tag 1 Utf8 Value "Ljava/util/concurrent/TimeUnit;"
+112: Tag 11 InterfaceMethodRef Class index 113, Name and type index 114
+113: Tag 7 Class Name index 115
+114: Tag 12 NameAndType Name index 116, Description index 117
+115: Tag 1 Utf8 Value "java/util/concurrent/ScheduledExecutorService"
+116: Tag 1 Utf8 Value "scheduleWithFixedDelay"
+117: Tag 1 Utf8 Value "(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;"
+118: Tag 11 InterfaceMethodRef Class index 21, Name and type index 119
+119: Tag 12 NameAndType Name index 120, Description index 121
+120: Tag 1 Utf8 Value "getSuspendController"
+121: Tag 1 Utf8 Value "()Lorg/jboss/as/server/suspend/SuspendController;"
+122: Tag 10 MethodRef Class index 123, Name and type index 124
+123: Tag 7 Class Name index 125
+124: Tag 12 NameAndType Name index 126, Description index 127
+125: Tag 1 Utf8 Value "org/jboss/as/server/suspend/SuspendController"
+126: Tag 1 Utf8 Value "registerActivity"
+127: Tag 1 Utf8 Value "(Lorg/jboss/as/server/suspend/ServerActivity;)V"
+128: Tag 10 MethodRef Class index 123, Name and type index 129
+129: Tag 12 NameAndType Name index 130, Description index 127
+130: Tag 1 Utf8 Value "unRegisterActivity"
+131: Tag 10 MethodRef Class index 67, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 71
+133: Tag 1 Utf8 Value "unregisterListener"
+134: Tag 11 InterfaceMethodRef Class index 113, Name and type index 135
+135: Tag 12 NameAndType Name index 136, Description index 137
+136: Tag 1 Utf8 Value "shutdownNow"
+137: Tag 1 Utf8 Value "()Ljava/util/List;"
+138: Tag 11 InterfaceMethodRef Class index 113, Name and type index 139
+139: Tag 12 NameAndType Name index 140, Description index 141
+140: Tag 1 Utf8 Value "awaitTermination"
+141: Tag 1 Utf8 Value "(JLjava/util/concurrent/TimeUnit;)Z"
+142: Tag 7 Class Name index 143
+143: Tag 1 Utf8 Value "java/lang/InterruptedException"
+144: Tag 11 InterfaceMethodRef Class index 73, Name and type index 145
+145: Tag 12 NameAndType Name index 146, Description index 77
+146: Tag 1 Utf8 Value "stop"
+147: Tag 7 Class Name index 148
+148: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/UndertowContext"
+149: Tag 7 Class Name index 150
+150: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/UndertowHost"
+151: Tag 7 Class Name index 152
+152: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/UndertowEngine"
+153: Tag 10 MethodRef Class index 154, Name and type index 44
+154: Tag 7 Class Name index 155
+155: Tag 1 Utf8 Value "org/wildfly/extension/undertow/Host"
+156: Tag 10 MethodRef Class index 48, Name and type index 157
+157: Tag 12 NameAndType Name index 158, Description index 46
+158: Tag 1 Utf8 Value "getValue"
+159: Tag 10 MethodRef Class index 151, Name and type index 160
+160: Tag 12 NameAndType Name index 5, Description index 161
+161: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/extension/undertow/Server;Lorg/wildfly/extension/undertow/UndertowService;Lorg/jboss/modcluster/container/Connector;)V"
+162: Tag 10 MethodRef Class index 149, Name and type index 163
+163: Tag 12 NameAndType Name index 5, Description index 164
+164: Tag 1 Utf8 Value "(Lorg/wildfly/extension/undertow/Host;Lorg/jboss/modcluster/container/Engine;)V"
+165: Tag 10 MethodRef Class index 147, Name and type index 166
+166: Tag 12 NameAndType Name index 5, Description index 167
+167: Tag 1 Utf8 Value "(Lio/undertow/servlet/api/Deployment;Lorg/jboss/modcluster/container/Host;)V"
+168: Tag 7 Class Name index 169
+169: Tag 1 Utf8 Value "org/wildfly/mod_cluster/undertow/LocationContext"
+170: Tag 10 MethodRef Class index 168, Name and type index 171
+171: Tag 12 NameAndType Name index 5, Description index 172
+172: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/modcluster/container/Host;)V"
+173: Tag 11 InterfaceMethodRef Class index 73, Name and type index 174
+174: Tag 12 NameAndType Name index 175, Description index 176
+175: Tag 1 Utf8 Value "add"
+176: Tag 1 Utf8 Value "(Lorg/jboss/modcluster/container/Context;)V"
+177: Tag 10 MethodRef Class index 123, Name and type index 178
+178: Tag 12 NameAndType Name index 179, Description index 180
+179: Tag 1 Utf8 Value "getState"
+180: Tag 1 Utf8 Value "()Lorg/jboss/as/server/suspend/SuspendController$State;"
+181: Tag 9 FieldRef Class index 182, Name and type index 183
+182: Tag 7 Class Name index 184
+183: Tag 12 NameAndType Name index 185, Description index 186
+184: Tag 1 Utf8 Value "org/jboss/as/server/suspend/SuspendController$State"
+185: Tag 1 Utf8 Value "RUNNING"
+186: Tag 1 Utf8 Value "Lorg/jboss/as/server/suspend/SuspendController$State;"
+187: Tag 11 InterfaceMethodRef Class index 73, Name and type index 188
+188: Tag 12 NameAndType Name index 80, Description index 176
+189: Tag 11 InterfaceMethodRef Class index 190, Name and type index 191
+190: Tag 7 Class Name index 192
+191: Tag 12 NameAndType Name index 175, Description index 193
+192: Tag 1 Utf8 Value "java/util/Set"
+193: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+194: Tag 11 InterfaceMethodRef Class index 73, Name and type index 195
+195: Tag 12 NameAndType Name index 146, Description index 176
+196: Tag 11 InterfaceMethodRef Class index 73, Name and type index 197
+197: Tag 12 NameAndType Name index 198, Description index 176
+198: Tag 1 Utf8 Value "remove"
+199: Tag 11 InterfaceMethodRef Class index 190, Name and type index 200
+200: Tag 12 NameAndType Name index 198, Description index 193
+201: Tag 10 MethodRef Class index 11, Name and type index 202
+202: Tag 12 NameAndType Name index 203, Description index 204
+203: Tag 1 Utf8 Value "filter"
+204: Tag 1 Utf8 Value "(Lorg/wildfly/extension/undertow/Host;)Z"
+205: Tag 10 MethodRef Class index 11, Name and type index 206
+206: Tag 12 NameAndType Name index 207, Description index 208
+207: Tag 1 Utf8 Value "createContext"
+208: Tag 1 Utf8 Value "(Lio/undertow/servlet/api/Deployment;Lorg/wildfly/extension/undertow/Host;)Lorg/jboss/modcluster/container/Context;"
+209: Tag 10 MethodRef Class index 11, Name and type index 210
+210: Tag 12 NameAndType Name index 211, Description index 176
+211: Tag 1 Utf8 Value "onStart"
+212: Tag 10 MethodRef Class index 11, Name and type index 213
+213: Tag 12 NameAndType Name index 214, Description index 176
+214: Tag 1 Utf8 Value "onStop"
+215: Tag 10 MethodRef Class index 11, Name and type index 216
+216: Tag 12 NameAndType Name index 207, Description index 217
+217: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/extension/undertow/Host;)Lorg/jboss/modcluster/container/Context;"
+218: Tag 10 MethodRef Class index 219, Name and type index 220
+219: Tag 7 Class Name index 221
+220: Tag 12 NameAndType Name index 222, Description index 193
+221: Tag 1 Utf8 Value "java/lang/String"
+222: Tag 1 Utf8 Value "equals"
+223: Tag 11 InterfaceMethodRef Class index 224, Name and type index 225
+224: Tag 7 Class Name index 226
+225: Tag 12 NameAndType Name index 227, Description index 228
+226: Tag 1 Utf8 Value "org/jboss/modcluster/container/Server"
+227: Tag 1 Utf8 Value "getEngines"
+228: Tag 1 Utf8 Value "()Ljava/lang/Iterable;"
+229: Tag 11 InterfaceMethodRef Class index 230, Name and type index 231
+230: Tag 7 Class Name index 232
+231: Tag 12 NameAndType Name index 233, Description index 234
+232: Tag 1 Utf8 Value "java/lang/Iterable"
+233: Tag 1 Utf8 Value "iterator"
+234: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+235: Tag 11 InterfaceMethodRef Class index 236, Name and type index 237
+236: Tag 7 Class Name index 238
+237: Tag 12 NameAndType Name index 239, Description index 240
+238: Tag 1 Utf8 Value "java/util/Iterator"
+239: Tag 1 Utf8 Value "hasNext"
+240: Tag 1 Utf8 Value "()Z"
+241: Tag 11 InterfaceMethodRef Class index 236, Name and type index 242
+242: Tag 12 NameAndType Name index 243, Description index 244
+243: Tag 1 Utf8 Value "next"
+244: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+245: Tag 7 Class Name index 246
+246: Tag 1 Utf8 Value "org/jboss/modcluster/container/Engine"
+247: Tag 11 InterfaceMethodRef Class index 73, Name and type index 248
+248: Tag 12 NameAndType Name index 249, Description index 250
+249: Tag 1 Utf8 Value "status"
+250: Tag 1 Utf8 Value "(Lorg/jboss/modcluster/container/Engine;)V"
+251: Tag 7 Class Name index 252
+252: Tag 1 Utf8 Value "java/lang/Throwable"
+253: Tag 9 FieldRef Class index 11, Name and type index 254
+254: Tag 12 NameAndType Name index 255, Description index 256
+255: Tag 1 Utf8 Value "log"
+256: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+257: Tag 10 MethodRef Class index 251, Name and type index 258
+258: Tag 12 NameAndType Name index 259, Description index 52
+259: Tag 1 Utf8 Value "getMessage"
+260: Tag 10 MethodRef Class index 261, Name and type index 262
+261: Tag 7 Class Name index 263
+262: Tag 12 NameAndType Name index 264, Description index 265
+263: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+264: Tag 1 Utf8 Value "error"
+265: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Throwable;)V"
+266: Tag 11 InterfaceMethodRef Class index 190, Name and type index 231
+267: Tag 7 Class Name index 268
+268: Tag 1 Utf8 Value "org/jboss/modcluster/container/Context"
+269: Tag 11 InterfaceMethodRef Class index 270, Name and type index 271
+270: Tag 7 Class Name index 272
+271: Tag 12 NameAndType Name index 273, Description index 6
+272: Tag 1 Utf8 Value "org/jboss/as/server/suspend/ServerActivityCallback"
+273: Tag 1 Utf8 Value "done"
+274: Tag 8 String Contents 275
+275: Tag 1 Utf8 Value "org.jboss.mod_cluster.undertow"
+276: Tag 10 MethodRef Class index 261, Name and type index 277
+277: Tag 12 NameAndType Name index 278, Description index 279
+278: Tag 1 Utf8 Value "getLogger"
+279: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/logging/Logger;"
+280: Tag 7 Class Name index 281
+281: Tag 1 Utf8 Value "org/wildfly/extension/undertow/UndertowEventListener"
+282: Tag 7 Class Name index 283
+283: Tag 1 Utf8 Value "org/jboss/msc/Service"
+284: Tag 7 Class Name index 285
+285: Tag 1 Utf8 Value "java/lang/Runnable"
+286: Tag 7 Class Name index 287
+287: Tag 1 Utf8 Value "org/jboss/as/server/suspend/ServerActivity"
+288: Tag 1 Utf8 Value "Signature"
+289: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/jboss/modcluster/container/Context;>;"
+290: Tag 1 Utf8 Value "(Lorg/wildfly/mod_cluster/undertow/UndertowEventHandlerAdapterConfiguration;)V"
+291: Tag 1 Utf8 Value "Code"
+292: Tag 1 Utf8 Value "LineNumberTable"
+293: Tag 1 Utf8 Value "LocalVariableTable"
+294: Tag 1 Utf8 Value "this"
+295: Tag 1 Utf8 Value "Lorg/wildfly/mod_cluster/undertow/UndertowEventHandlerAdapterService;"
+296: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+297: Tag 1 Utf8 Value "context"
+298: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+299: Tag 1 Utf8 Value "service"
+300: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/UndertowService;"
+301: Tag 1 Utf8 Value "eventHandler"
+302: Tag 1 Utf8 Value "Lorg/jboss/modcluster/container/ContainerEventHandler;"
+303: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+304: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+305: Tag 1 Utf8 Value "StackMapTable"
+306: Tag 1 Utf8 Value "deployment"
+307: Tag 1 Utf8 Value "Lio/undertow/servlet/api/Deployment;"
+308: Tag 1 Utf8 Value "host"
+309: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/Host;"
+310: Tag 1 Utf8 Value "contextPath"
+311: Tag 1 Utf8 Value "Lorg/jboss/modcluster/container/Context;"
+312: Tag 1 Utf8 Value "handler"
+313: Tag 1 Utf8 Value "state"
+314: Tag 1 Utf8 Value "onDeploymentStart"
+315: Tag 1 Utf8 Value "(Lio/undertow/servlet/api/Deployment;Lorg/wildfly/extension/undertow/Host;)V"
+316: Tag 1 Utf8 Value "onDeploymentStop"
+317: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/extension/undertow/Host;)V"
+318: Tag 1 Utf8 Value "run"
+319: Tag 1 Utf8 Value "engine"
+320: Tag 1 Utf8 Value "Lorg/jboss/modcluster/container/Engine;"
+321: Tag 1 Utf8 Value "e"
+322: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+323: Tag 1 Utf8 Value "preSuspend"
+324: Tag 1 Utf8 Value "(Lorg/jboss/as/server/suspend/ServerActivityCallback;)V"
+325: Tag 1 Utf8 Value "listener"
+326: Tag 1 Utf8 Value "Lorg/jboss/as/server/suspend/ServerActivityCallback;"
+327: Tag 1 Utf8 Value "suspended"
+328: Tag 1 Utf8 Value "resume"
+329: Tag 1 Utf8 Value "<clinit>"
+330: Tag 1 Utf8 Value "SourceFile"
+331: Tag 1 Utf8 Value "UndertowEventHandlerAdapterService.java"
+332: Tag 1 Utf8 Value "InnerClasses"
+333: Tag 1 Utf8 Value "State"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.wildfly.mod_cluster.undertow.UndertowEventHandlerAdapterService
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 280 282 284 286
+Implements names org.wildfly.extension.undertow.UndertowEventListener org.jboss.msc.Service java.lang.Runnable org.jboss.as.server.suspend.ServerActivity
+
+Field name log (index 255), type Lorg/jboss/logging/Logger; (descriptor index 256)
+Human type: org.jboss.logging.Logger
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name configuration (index 18), type Lorg/wildfly/mod_cluster/undertow/UndertowEventHandlerAdapterConfiguration; (descriptor index 19)
+Human type: org.wildfly.mod_cluster.undertow.UndertowEventHandlerAdapterConfiguration
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name contexts (index 14), type Ljava/util/Set; (descriptor index 15)
+Human type: java.util.Set
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name executor (index 94), type Ljava/util/concurrent/ScheduledExecutorService; (descriptor index 95)
+Human type: java.util.concurrent.ScheduledExecutorService
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name server (index 64), type Lorg/jboss/modcluster/container/Server; (descriptor index 65)
+Human type: org.jboss.modcluster.container.Server
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name connector (index 41), type Lorg/jboss/modcluster/container/Connector; (descriptor index 42)
+Human type: org.jboss.modcluster.container.Connector
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name serverName (index 55), type Ljava/lang/String; (descriptor index 56)
+Human type: java.lang.String
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/mod_cluster/undertow/UndertowEventHandlerAdapterConfiguration;)V (descriptor index 290)
+Human type: (org.wildfly.mod_cluster.undertow.UndertowEventHandlerAdapterConfiguration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 85
+Method name start (index 80), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 296)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 275
+Method name stop (index 146), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 303)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 187
+Method name createContext (index 207), type (Lio/undertow/servlet/api/Deployment;Lorg/wildfly/extension/undertow/Host;)Lorg/jboss/modcluster/container/Context; (descriptor index 208)
+Human type: (io.undertow.servlet.api.Deployment, org.wildfly.extension.undertow.Host): org.jboss.modcluster.container.Context
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 110
+Method name createContext (index 207), type (Ljava/lang/String;Lorg/wildfly/extension/undertow/Host;)Lorg/jboss/modcluster/container/Context; (descriptor index 217)
+Human type: (java.lang.String, org.wildfly.extension.undertow.Host): org.jboss.modcluster.container.Context
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 110
+Method name onStart (index 211), type (Lorg/jboss/modcluster/container/Context;)V (descriptor index 176)
+Human type: (org.jboss.modcluster.container.Context): void
+Flags: decimal 34, hex 0022, binary 0000000000100010 private synchronized
+Method attribute name Code, size 169
+Method name onStop (index 214), type (Lorg/jboss/modcluster/container/Context;)V (descriptor index 176)
+Human type: (org.jboss.modcluster.container.Context): void
+Flags: decimal 34, hex 0022, binary 0000000000100010 private synchronized
+Method attribute name Code, size 114
+Method name onDeploymentStart (index 314), type (Lio/undertow/servlet/api/Deployment;Lorg/wildfly/extension/undertow/Host;)V (descriptor index 315)
+Human type: (io.undertow.servlet.api.Deployment, org.wildfly.extension.undertow.Host): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 98
+Method name onDeploymentStop (index 316), type (Lio/undertow/servlet/api/Deployment;Lorg/wildfly/extension/undertow/Host;)V (descriptor index 315)
+Human type: (io.undertow.servlet.api.Deployment, org.wildfly.extension.undertow.Host): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 98
+Method name onDeploymentStart (index 314), type (Ljava/lang/String;Lorg/wildfly/extension/undertow/Host;)V (descriptor index 317)
+Human type: (java.lang.String, org.wildfly.extension.undertow.Host): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 98
+Method name onDeploymentStop (index 316), type (Ljava/lang/String;Lorg/wildfly/extension/undertow/Host;)V (descriptor index 317)
+Human type: (java.lang.String, org.wildfly.extension.undertow.Host): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 98
+Method name filter (index 203), type (Lorg/wildfly/extension/undertow/Host;)Z (descriptor index 204)
+Human type: (org.wildfly.extension.undertow.Host): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name run (index 318), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 184
+Method name preSuspend (index 323), type (Lorg/jboss/as/server/suspend/ServerActivityCallback;)V (descriptor index 324)
+Human type: (org.jboss.as.server.suspend.ServerActivityCallback): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 196
+Method name suspended (index 327), type (Lorg/jboss/as/server/suspend/ServerActivityCallback;)V (descriptor index 324)
+Human type: (org.jboss.as.server.suspend.ServerActivityCallback): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name resume (index 328), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 129
+Method name <clinit> (index 329), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 34
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,246 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 196
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/sso/DistributableSingleSignOnManager"
+11: Tag 1 Utf8 Value "manager"
+12: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/sso/SSOManager;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "registry"
+16: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/sso/SessionManagerRegistry;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/clustering/web/sso/SSOManager"
+21: Tag 1 Utf8 Value "getIdentifierFactory"
+22: Tag 1 Utf8 Value "()Ljava/util/function/Supplier;"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "java/util/function/Supplier"
+27: Tag 1 Utf8 Value "get"
+28: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "java/lang/String"
+31: Tag 11 InterfaceMethodRef Class index 18, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "getBatcher"
+34: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batcher;"
+35: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batcher"
+39: Tag 1 Utf8 Value "createBatch"
+40: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batch;"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "io/undertow/security/api/AuthenticatedSessionManager$AuthenticatedSession"
+43: Tag 10 MethodRef Class index 41, Name and type index 44
+44: Tag 12 NameAndType Name index 5, Description index 45
+45: Tag 1 Utf8 Value "(Lio/undertow/security/idm/Account;Ljava/lang/String;)V"
+46: Tag 11 InterfaceMethodRef Class index 18, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "createSSO"
+49: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Lorg/wildfly/clustering/web/sso/SSO;"
+50: Tag 9 FieldRef Class index 8, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "log"
+53: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+54: Tag 10 MethodRef Class index 55, Name and type index 56
+55: Tag 7 Class Name index 57
+56: Tag 12 NameAndType Name index 58, Description index 59
+57: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+58: Tag 1 Utf8 Value "isTraceEnabled"
+59: Tag 1 Utf8 Value "()Z"
+60: Tag 8 String Contents 61
+61: Tag 1 Utf8 Value "Creating SSO ID %s for Principal %s and Roles %s"
+62: Tag 11 InterfaceMethodRef Class index 63, Name and type index 64
+63: Tag 7 Class Name index 65
+64: Tag 12 NameAndType Name index 66, Description index 67
+65: Tag 1 Utf8 Value "io/undertow/security/idm/Account"
+66: Tag 1 Utf8 Value "getPrincipal"
+67: Tag 1 Utf8 Value "()Ljava/security/Principal;"
+68: Tag 11 InterfaceMethodRef Class index 69, Name and type index 70
+69: Tag 7 Class Name index 71
+70: Tag 12 NameAndType Name index 72, Description index 73
+71: Tag 1 Utf8 Value "java/security/Principal"
+72: Tag 1 Utf8 Value "getName"
+73: Tag 1 Utf8 Value "()Ljava/lang/String;"
+74: Tag 11 InterfaceMethodRef Class index 63, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "getRoles"
+77: Tag 1 Utf8 Value "()Ljava/util/Set;"
+78: Tag 10 MethodRef Class index 2, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 73
+80: Tag 1 Utf8 Value "toString"
+81: Tag 10 MethodRef Class index 55, Name and type index 82
+82: Tag 12 NameAndType Name index 83, Description index 84
+83: Tag 1 Utf8 Value "tracef"
+84: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V"
+85: Tag 7 Class Name index 86
+86: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/sso/DistributableSingleSignOn"
+87: Tag 11 InterfaceMethodRef Class index 36, Name and type index 88
+88: Tag 12 NameAndType Name index 89, Description index 40
+89: Tag 1 Utf8 Value "suspendBatch"
+90: Tag 10 MethodRef Class index 85, Name and type index 91
+91: Tag 12 NameAndType Name index 5, Description index 92
+92: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/sso/SSO;Lorg/wildfly/clustering/web/undertow/sso/SessionManagerRegistry;Lorg/wildfly/clustering/ee/Batcher;Lorg/wildfly/clustering/ee/Batch;)V"
+93: Tag 7 Class Name index 94
+94: Tag 1 Utf8 Value "java/lang/RuntimeException"
+95: Tag 7 Class Name index 96
+96: Tag 1 Utf8 Value "java/lang/Error"
+97: Tag 11 InterfaceMethodRef Class index 98, Name and type index 99
+98: Tag 7 Class Name index 100
+99: Tag 12 NameAndType Name index 101, Description index 6
+100: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batch"
+101: Tag 1 Utf8 Value "discard"
+102: Tag 11 InterfaceMethodRef Class index 98, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 6
+104: Tag 1 Utf8 Value "close"
+105: Tag 10 MethodRef Class index 106, Name and type index 107
+106: Tag 7 Class Name index 108
+107: Tag 12 NameAndType Name index 109, Description index 110
+108: Tag 1 Utf8 Value "java/util/Base64"
+109: Tag 1 Utf8 Value "getUrlDecoder"
+110: Tag 1 Utf8 Value "()Ljava/util/Base64$Decoder;"
+111: Tag 10 MethodRef Class index 112, Name and type index 113
+112: Tag 7 Class Name index 114
+113: Tag 12 NameAndType Name index 115, Description index 116
+114: Tag 1 Utf8 Value "java/util/Base64$Decoder"
+115: Tag 1 Utf8 Value "decode"
+116: Tag 1 Utf8 Value "(Ljava/lang/String;)[B"
+117: Tag 7 Class Name index 118
+118: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+119: Tag 11 InterfaceMethodRef Class index 18, Name and type index 120
+120: Tag 12 NameAndType Name index 121, Description index 122
+121: Tag 1 Utf8 Value "findSSO"
+122: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/clustering/web/sso/SSO;"
+123: Tag 8 String Contents 124
+124: Tag 1 Utf8 Value "SSO ID %s not found on the session manager."
+125: Tag 10 MethodRef Class index 55, Name and type index 126
+126: Tag 12 NameAndType Name index 83, Description index 127
+127: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+128: Tag 8 String Contents 129
+129: Tag 1 Utf8 Value "SSO ID %s found on the session manager."
+130: Tag 7 Class Name index 131
+131: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/sso/InvalidatableSingleSignOn"
+132: Tag 8 String Contents 133
+133: Tag 1 Utf8 Value "Removing SSO ID %s"
+134: Tag 11 InterfaceMethodRef Class index 135, Name and type index 136
+135: Tag 7 Class Name index 137
+136: Tag 12 NameAndType Name index 138, Description index 73
+137: Tag 1 Utf8 Value "io/undertow/security/impl/SingleSignOn"
+138: Tag 1 Utf8 Value "getId"
+139: Tag 11 InterfaceMethodRef Class index 130, Name and type index 140
+140: Tag 12 NameAndType Name index 141, Description index 6
+141: Tag 1 Utf8 Value "invalidate"
+142: Tag 10 MethodRef Class index 55, Name and type index 143
+143: Tag 12 NameAndType Name index 144, Description index 145
+144: Tag 1 Utf8 Value "getLogger"
+145: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/logging/Logger;"
+146: Tag 7 Class Name index 147
+147: Tag 1 Utf8 Value "io/undertow/security/impl/SingleSignOnManager"
+148: Tag 1 Utf8 Value "Signature"
+149: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/sso/SSOManager<Lio/undertow/security/api/AuthenticatedSessionManager$AuthenticatedSession;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Void;Lorg/wildfly/clustering/ee/Batch;>;"
+150: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/sso/SSOManager;Lorg/wildfly/clustering/web/undertow/sso/SessionManagerRegistry;)V"
+151: Tag 1 Utf8 Value "Code"
+152: Tag 1 Utf8 Value "LineNumberTable"
+153: Tag 1 Utf8 Value "LocalVariableTable"
+154: Tag 1 Utf8 Value "this"
+155: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/sso/DistributableSingleSignOnManager;"
+156: Tag 1 Utf8 Value "LocalVariableTypeTable"
+157: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/sso/SSOManager<Lio/undertow/security/api/AuthenticatedSessionManager$AuthenticatedSession;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Void;Lorg/wildfly/clustering/ee/Batch;>;Lorg/wildfly/clustering/web/undertow/sso/SessionManagerRegistry;)V"
+158: Tag 1 Utf8 Value "createSingleSignOn"
+159: Tag 1 Utf8 Value "(Lio/undertow/security/idm/Account;Ljava/lang/String;)Lio/undertow/security/impl/SingleSignOn;"
+160: Tag 1 Utf8 Value "session"
+161: Tag 1 Utf8 Value "Lio/undertow/security/api/AuthenticatedSessionManager$AuthenticatedSession;"
+162: Tag 1 Utf8 Value "sso"
+163: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/sso/SSO;"
+164: Tag 1 Utf8 Value "e"
+165: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+166: Tag 1 Utf8 Value "account"
+167: Tag 1 Utf8 Value "Lio/undertow/security/idm/Account;"
+168: Tag 1 Utf8 Value "mechanism"
+169: Tag 1 Utf8 Value "Ljava/lang/String;"
+170: Tag 1 Utf8 Value "id"
+171: Tag 1 Utf8 Value "batcher"
+172: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher;"
+173: Tag 1 Utf8 Value "batch"
+174: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batch;"
+175: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/sso/SSO<Lio/undertow/security/api/AuthenticatedSessionManager$AuthenticatedSession;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Void;>;"
+176: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher<Lorg/wildfly/clustering/ee/Batch;>;"
+177: Tag 1 Utf8 Value "StackMapTable"
+178: Tag 7 Class Name index 179
+179: Tag 1 Utf8 Value "org/wildfly/clustering/web/sso/SSO"
+180: Tag 7 Class Name index 181
+181: Tag 1 Utf8 Value "java/lang/Throwable"
+182: Tag 1 Utf8 Value "findSingleSignOn"
+183: Tag 1 Utf8 Value "(Ljava/lang/String;)Lio/undertow/security/impl/SingleSignOn;"
+184: Tag 1 Utf8 Value "Ljava/lang/IllegalArgumentException;"
+185: Tag 1 Utf8 Value "removeSingleSignOn"
+186: Tag 1 Utf8 Value "(Lio/undertow/security/impl/SingleSignOn;)V"
+187: Tag 1 Utf8 Value "Lio/undertow/security/impl/SingleSignOn;"
+188: Tag 1 Utf8 Value "<clinit>"
+189: Tag 1 Utf8 Value "SourceFile"
+190: Tag 1 Utf8 Value "DistributableSingleSignOnManager.java"
+191: Tag 1 Utf8 Value "InnerClasses"
+192: Tag 7 Class Name index 193
+193: Tag 1 Utf8 Value "io/undertow/security/api/AuthenticatedSessionManager"
+194: Tag 1 Utf8 Value "AuthenticatedSession"
+195: Tag 1 Utf8 Value "Decoder"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.web.undertow.sso.DistributableSingleSignOnManager
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 146
+Implements names io.undertow.security.impl.SingleSignOnManager
+
+Field name log (index 52), type Lorg/jboss/logging/Logger; (descriptor index 53)
+Human type: org.jboss.logging.Logger
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name manager (index 11), type Lorg/wildfly/clustering/web/sso/SSOManager; (descriptor index 12)
+Human type: org.wildfly.clustering.web.sso.SSOManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name registry (index 15), type Lorg/wildfly/clustering/web/undertow/sso/SessionManagerRegistry; (descriptor index 16)
+Human type: org.wildfly.clustering.web.undertow.sso.SessionManagerRegistry
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/web/sso/SSOManager;Lorg/wildfly/clustering/web/undertow/sso/SessionManagerRegistry;)V (descriptor index 150)
+Human type: (org.wildfly.clustering.web.sso.SSOManager, org.wildfly.clustering.web.undertow.sso.SessionManagerRegistry): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 107
+Method attribute name Signature, size 2
+Method name createSingleSignOn (index 158), type (Lio/undertow/security/idm/Account;Ljava/lang/String;)Lio/undertow/security/impl/SingleSignOn; (descriptor index 159)
+Human type: (io.undertow.security.idm.Account, java.lang.String): io.undertow.security.impl.SingleSignOn
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 420
+Method name findSingleSignOn (index 182), type (Ljava/lang/String;)Lio/undertow/security/impl/SingleSignOn; (descriptor index 183)
+Human type: (java.lang.String): io.undertow.security.impl.SingleSignOn
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 421
+Method name removeSingleSignOn (index 185), type (Lio/undertow/security/impl/SingleSignOn;)V (descriptor index 186)
+Human type: (io.undertow.security.impl.SingleSignOn): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 118
+Method name <clinit> (index 188), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

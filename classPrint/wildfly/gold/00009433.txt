@@ -1,0 +1,124 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 88
+1: Tag 10 MethodRef Class index 12, Name and type index 56
+2: Tag 8 String Contents 57
+3: Tag 11 InterfaceMethodRef Class index 58, Name and type index 59
+4: Tag 8 String Contents 60
+5: Tag 11 InterfaceMethodRef Class index 58, Name and type index 61
+6: Tag 11 InterfaceMethodRef Class index 62, Name and type index 63
+7: Tag 11 InterfaceMethodRef Class index 58, Name and type index 64
+8: Tag 11 InterfaceMethodRef Class index 41, Name and type index 65
+9: Tag 10 MethodRef Class index 66, Name and type index 67
+10: Tag 10 MethodRef Class index 66, Name and type index 68
+11: Tag 7 Class Name index 69
+12: Tag 7 Class Name index 70
+13: Tag 1 Utf8 Value "serialVersionUID"
+14: Tag 1 Utf8 Value "J"
+15: Tag 1 Utf8 Value "ConstantValue"
+16: Tag 5 Long Value 1
+18: Tag 1 Utf8 Value "SERVLET_PATH"
+19: Tag 1 Utf8 Value "Ljava/lang/String;"
+20: Tag 8 String Contents 55
+21: Tag 1 Utf8 Value "ALLOWED_ROLE"
+22: Tag 8 String Contents 50
+23: Tag 1 Utf8 Value "<init>"
+24: Tag 1 Utf8 Value "()V"
+25: Tag 1 Utf8 Value "Code"
+26: Tag 1 Utf8 Value "LineNumberTable"
+27: Tag 1 Utf8 Value "LocalVariableTable"
+28: Tag 1 Utf8 Value "this"
+29: Tag 1 Utf8 Value "Lorg/wildfly/test/security/servlets/SecuredPrincipalPrintingServlet;"
+30: Tag 1 Utf8 Value "doGet"
+31: Tag 1 Utf8 Value "(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+32: Tag 1 Utf8 Value "writer"
+33: Tag 1 Utf8 Value "Ljava/io/PrintWriter;"
+34: Tag 1 Utf8 Value "req"
+35: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletRequest;"
+36: Tag 1 Utf8 Value "resp"
+37: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletResponse;"
+38: Tag 1 Utf8 Value "userPrincipal"
+39: Tag 1 Utf8 Value "Ljava/security/Principal;"
+40: Tag 1 Utf8 Value "StackMapTable"
+41: Tag 7 Class Name index 71
+42: Tag 1 Utf8 Value "Exceptions"
+43: Tag 7 Class Name index 72
+44: Tag 7 Class Name index 73
+45: Tag 1 Utf8 Value "SourceFile"
+46: Tag 1 Utf8 Value "SecuredPrincipalPrintingServlet.java"
+47: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+48: Tag 1 Utf8 Value "Ljavax/annotation/security/DeclareRoles;"
+49: Tag 1 Utf8 Value "value"
+50: Tag 1 Utf8 Value "JBossAdmin"
+51: Tag 1 Utf8 Value "Ljavax/servlet/annotation/ServletSecurity;"
+52: Tag 1 Utf8 Value "Ljavax/servlet/annotation/HttpConstraint;"
+53: Tag 1 Utf8 Value "rolesAllowed"
+54: Tag 1 Utf8 Value "Ljavax/servlet/annotation/WebServlet;"
+55: Tag 1 Utf8 Value "/principal"
+56: Tag 12 NameAndType Name index 23, Description index 24
+57: Tag 1 Utf8 Value "text/plain"
+58: Tag 7 Class Name index 74
+59: Tag 12 NameAndType Name index 75, Description index 76
+60: Tag 1 Utf8 Value "UTF-8"
+61: Tag 12 NameAndType Name index 77, Description index 76
+62: Tag 7 Class Name index 78
+63: Tag 12 NameAndType Name index 79, Description index 80
+64: Tag 12 NameAndType Name index 81, Description index 82
+65: Tag 12 NameAndType Name index 83, Description index 84
+66: Tag 7 Class Name index 85
+67: Tag 12 NameAndType Name index 86, Description index 76
+68: Tag 12 NameAndType Name index 87, Description index 24
+69: Tag 1 Utf8 Value "org/wildfly/test/security/servlets/SecuredPrincipalPrintingServlet"
+70: Tag 1 Utf8 Value "javax/servlet/http/HttpServlet"
+71: Tag 1 Utf8 Value "java/security/Principal"
+72: Tag 1 Utf8 Value "javax/servlet/ServletException"
+73: Tag 1 Utf8 Value "java/io/IOException"
+74: Tag 1 Utf8 Value "javax/servlet/http/HttpServletResponse"
+75: Tag 1 Utf8 Value "setContentType"
+76: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+77: Tag 1 Utf8 Value "setCharacterEncoding"
+78: Tag 1 Utf8 Value "javax/servlet/http/HttpServletRequest"
+79: Tag 1 Utf8 Value "getUserPrincipal"
+80: Tag 1 Utf8 Value "()Ljava/security/Principal;"
+81: Tag 1 Utf8 Value "getWriter"
+82: Tag 1 Utf8 Value "()Ljava/io/PrintWriter;"
+83: Tag 1 Utf8 Value "getName"
+84: Tag 1 Utf8 Value "()Ljava/lang/String;"
+85: Tag 1 Utf8 Value "java/io/PrintWriter"
+86: Tag 1 Utf8 Value "print"
+87: Tag 1 Utf8 Value "close"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.wildfly.test.security.servlets.SecuredPrincipalPrintingServlet
+
+Super class: id 12, name javax.servlet.http.HttpServlet
+
+No interfaces
+
+Field name serialVersionUID (index 13), type J (descriptor index 14)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name SERVLET_PATH (index 18), type Ljava/lang/String; (descriptor index 19)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ALLOWED_ROLE (index 21), type Ljava/lang/String; (descriptor index 19)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 23), type ()V (descriptor index 24)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name doGet (index 30), type (Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V (descriptor index 31)
+Human type: (javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 176
+Method attribute name Exceptions, size 6
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 45

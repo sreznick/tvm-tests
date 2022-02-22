@@ -1,0 +1,147 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 114
+1: Tag 10 MethodRef Class index 20, Name and type index 50
+2: Tag 9 FieldRef Class index 19, Name and type index 51
+3: Tag 9 FieldRef Class index 19, Name and type index 52
+4: Tag 10 MethodRef Class index 53, Name and type index 54
+5: Tag 9 FieldRef Class index 55, Name and type index 56
+6: Tag 10 MethodRef Class index 53, Name and type index 57
+7: Tag 7 Class Name index 58
+8: Tag 10 MethodRef Class index 7, Name and type index 59
+9: Tag 11 InterfaceMethodRef Class index 46, Name and type index 60
+10: Tag 10 MethodRef Class index 61, Name and type index 62
+11: Tag 11 InterfaceMethodRef Class index 63, Name and type index 64
+12: Tag 10 MethodRef Class index 61, Name and type index 65
+13: Tag 10 MethodRef Class index 61, Name and type index 66
+14: Tag 10 MethodRef Class index 61, Name and type index 67
+15: Tag 10 MethodRef Class index 53, Name and type index 68
+16: Tag 9 FieldRef Class index 69, Name and type index 70
+17: Tag 10 MethodRef Class index 71, Name and type index 72
+18: Tag 10 MethodRef Class index 61, Name and type index 73
+19: Tag 7 Class Name index 74
+20: Tag 7 Class Name index 75
+21: Tag 7 Class Name index 76
+22: Tag 1 Utf8 Value "manager"
+23: Tag 1 Utf8 Value "Lorg/jboss/security/AuthenticationManager;"
+24: Tag 1 Utf8 Value "securityDomain"
+25: Tag 1 Utf8 Value "Ljava/lang/String;"
+26: Tag 1 Utf8 Value "<init>"
+27: Tag 1 Utf8 Value "(Lorg/jboss/security/AuthenticationManager;Ljava/lang/String;)V"
+28: Tag 1 Utf8 Value "Code"
+29: Tag 1 Utf8 Value "LineNumberTable"
+30: Tag 1 Utf8 Value "LocalVariableTable"
+31: Tag 1 Utf8 Value "this"
+32: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/security/LogoutNotificationReceiver;"
+33: Tag 1 Utf8 Value "handleNotification"
+34: Tag 1 Utf8 Value "(Lio/undertow/security/api/SecurityNotification;)V"
+35: Tag 1 Utf8 Value "subject"
+36: Tag 1 Utf8 Value "Ljavax/security/auth/Subject;"
+37: Tag 1 Utf8 Value "account"
+38: Tag 1 Utf8 Value "Lio/undertow/security/idm/Account;"
+39: Tag 1 Utf8 Value "principal"
+40: Tag 1 Utf8 Value "Ljava/security/Principal;"
+41: Tag 1 Utf8 Value "securityContext"
+42: Tag 1 Utf8 Value "Lorg/jboss/security/SecurityContext;"
+43: Tag 1 Utf8 Value "notification"
+44: Tag 1 Utf8 Value "Lio/undertow/security/api/SecurityNotification;"
+45: Tag 1 Utf8 Value "StackMapTable"
+46: Tag 7 Class Name index 77
+47: Tag 7 Class Name index 78
+48: Tag 1 Utf8 Value "SourceFile"
+49: Tag 1 Utf8 Value "LogoutNotificationReceiver.java"
+50: Tag 12 NameAndType Name index 26, Description index 79
+51: Tag 12 NameAndType Name index 22, Description index 23
+52: Tag 12 NameAndType Name index 24, Description index 25
+53: Tag 7 Class Name index 80
+54: Tag 12 NameAndType Name index 81, Description index 84
+55: Tag 7 Class Name index 85
+56: Tag 12 NameAndType Name index 86, Description index 87
+57: Tag 12 NameAndType Name index 88, Description index 89
+58: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/AccountImpl"
+59: Tag 12 NameAndType Name index 90, Description index 91
+60: Tag 12 NameAndType Name index 92, Description index 91
+61: Tag 7 Class Name index 93
+62: Tag 12 NameAndType Name index 94, Description index 95
+63: Tag 7 Class Name index 96
+64: Tag 12 NameAndType Name index 97, Description index 98
+65: Tag 12 NameAndType Name index 99, Description index 79
+66: Tag 12 NameAndType Name index 100, Description index 101
+67: Tag 12 NameAndType Name index 102, Description index 103
+68: Tag 12 NameAndType Name index 104, Description index 105
+69: Tag 7 Class Name index 106
+70: Tag 12 NameAndType Name index 107, Description index 108
+71: Tag 7 Class Name index 109
+72: Tag 12 NameAndType Name index 110, Description index 111
+73: Tag 12 NameAndType Name index 112, Description index 113
+74: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/LogoutNotificationReceiver"
+75: Tag 1 Utf8 Value "java/lang/Object"
+76: Tag 1 Utf8 Value "io/undertow/security/api/NotificationReceiver"
+77: Tag 1 Utf8 Value "io/undertow/security/idm/Account"
+78: Tag 1 Utf8 Value "java/security/Principal"
+79: Tag 1 Utf8 Value "()V"
+80: Tag 1 Utf8 Value "io/undertow/security/api/SecurityNotification"
+81: Tag 1 Utf8 Value "getEventType"
+82: Tag 1 Utf8 Value "EventType"
+83: Tag 1 Utf8 Value "InnerClasses"
+84: Tag 1 Utf8 Value "()Lio/undertow/security/api/SecurityNotification$EventType;"
+85: Tag 1 Utf8 Value "io/undertow/security/api/SecurityNotification$EventType"
+86: Tag 1 Utf8 Value "LOGGED_OUT"
+87: Tag 1 Utf8 Value "Lio/undertow/security/api/SecurityNotification$EventType;"
+88: Tag 1 Utf8 Value "getAccount"
+89: Tag 1 Utf8 Value "()Lio/undertow/security/idm/Account;"
+90: Tag 1 Utf8 Value "getOriginalPrincipal"
+91: Tag 1 Utf8 Value "()Ljava/security/Principal;"
+92: Tag 1 Utf8 Value "getPrincipal"
+93: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/SecurityActions"
+94: Tag 1 Utf8 Value "getSubject"
+95: Tag 1 Utf8 Value "()Ljavax/security/auth/Subject;"
+96: Tag 1 Utf8 Value "org/jboss/security/AuthenticationManager"
+97: Tag 1 Utf8 Value "logout"
+98: Tag 1 Utf8 Value "(Ljava/security/Principal;Ljavax/security/auth/Subject;)V"
+99: Tag 1 Utf8 Value "clearSecurityContext"
+100: Tag 1 Utf8 Value "setSecurityRoles"
+101: Tag 1 Utf8 Value "(Ljava/util/Map;)V"
+102: Tag 1 Utf8 Value "createSecurityContext"
+103: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/security/SecurityContext;"
+104: Tag 1 Utf8 Value "getExchange"
+105: Tag 1 Utf8 Value "()Lio/undertow/server/HttpServerExchange;"
+106: Tag 1 Utf8 Value "org/wildfly/extension/undertow/security/UndertowSecurityAttachments"
+107: Tag 1 Utf8 Value "SECURITY_CONTEXT_ATTACHMENT"
+108: Tag 1 Utf8 Value "Lio/undertow/util/AttachmentKey;"
+109: Tag 1 Utf8 Value "io/undertow/server/HttpServerExchange"
+110: Tag 1 Utf8 Value "putAttachment"
+111: Tag 1 Utf8 Value "(Lio/undertow/util/AttachmentKey;Ljava/lang/Object;)Ljava/lang/Object;"
+112: Tag 1 Utf8 Value "setSecurityContextOnAssociation"
+113: Tag 1 Utf8 Value "(Lorg/jboss/security/SecurityContext;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 19, name org.wildfly.extension.undertow.security.LogoutNotificationReceiver
+
+Super class: id 20, name java.lang.Object
+
+Implements class ids 21
+Implements names io.undertow.security.api.NotificationReceiver
+
+Field name manager (index 22), type Lorg/jboss/security/AuthenticationManager; (descriptor index 23)
+Human type: org.jboss.security.AuthenticationManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name securityDomain (index 24), type Ljava/lang/String; (descriptor index 25)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 26), type (Lorg/jboss/security/AuthenticationManager;Ljava/lang/String;)V (descriptor index 27)
+Human type: (org.jboss.security.AuthenticationManager, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name handleNotification (index 33), type (Lio/undertow/security/api/SecurityNotification;)V (descriptor index 34)
+Human type: (io.undertow.security.api.SecurityNotification): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 262
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

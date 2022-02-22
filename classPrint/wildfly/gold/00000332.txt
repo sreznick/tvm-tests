@@ -1,0 +1,457 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 279
+1: Tag 8 String Contents 2
+2: Tag 1 Utf8 Value "actions"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/common/Assert"
+7: Tag 1 Utf8 Value "checkNotNullParam"
+8: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+9: Tag 7 Class Name index 10
+10: Tag 1 Utf8 Value "java/lang/String"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/wildfly/naming/java/permission/JndiPermission"
+15: Tag 1 Utf8 Value "parseActions"
+16: Tag 1 Utf8 Value "(Ljava/lang/String;)I"
+17: Tag 10 MethodRef Class index 12, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "<init>"
+20: Tag 1 Utf8 Value "(Ljava/lang/String;I)V"
+21: Tag 8 String Contents 22
+22: Tag 1 Utf8 Value "name"
+23: Tag 10 MethodRef Class index 12, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "canonicalize1"
+26: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 19, Description index 31
+30: Tag 1 Utf8 Value "java/security/Permission"
+31: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+32: Tag 9 FieldRef Class index 12, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "actionBits"
+35: Tag 1 Utf8 Value "I"
+36: Tag 10 MethodRef Class index 12, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 39
+38: Tag 1 Utf8 Value "implies"
+39: Tag 1 Utf8 Value "(Lorg/wildfly/naming/java/permission/JndiPermission;)Z"
+40: Tag 10 MethodRef Class index 12, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 43
+42: Tag 1 Utf8 Value "getName"
+43: Tag 1 Utf8 Value "()Ljava/lang/String;"
+44: Tag 10 MethodRef Class index 12, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "impliesPath"
+47: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+48: Tag 10 MethodRef Class index 12, Name and type index 49
+49: Tag 12 NameAndType Name index 38, Description index 50
+50: Tag 1 Utf8 Value "(Ljava/lang/String;I)Z"
+51: Tag 10 MethodRef Class index 12, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 39
+53: Tag 1 Utf8 Value "equals"
+54: Tag 10 MethodRef Class index 9, Name and type index 55
+55: Tag 12 NameAndType Name index 53, Description index 56
+56: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+57: Tag 10 MethodRef Class index 9, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "hashCode"
+60: Tag 1 Utf8 Value "()I"
+61: Tag 9 FieldRef Class index 12, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "actionString"
+64: Tag 1 Utf8 Value "Ljava/lang/String;"
+65: Tag 8 String Contents 66
+66: Tag 1 Utf8 Value "*"
+67: Tag 10 MethodRef Class index 68, Name and type index 69
+68: Tag 7 Class Name index 70
+69: Tag 12 NameAndType Name index 71, Description index 72
+70: Tag 1 Utf8 Value "java/lang/Integer"
+71: Tag 1 Utf8 Value "lowestOneBit"
+72: Tag 1 Utf8 Value "(I)I"
+73: Tag 7 Class Name index 74
+74: Tag 1 Utf8 Value "java/lang/StringBuilder"
+75: Tag 10 MethodRef Class index 73, Name and type index 76
+76: Tag 12 NameAndType Name index 19, Description index 77
+77: Tag 1 Utf8 Value "()V"
+78: Tag 10 MethodRef Class index 12, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "getAction"
+81: Tag 1 Utf8 Value "(I)Ljava/lang/String;"
+82: Tag 10 MethodRef Class index 73, Name and type index 83
+83: Tag 12 NameAndType Name index 84, Description index 85
+84: Tag 1 Utf8 Value "append"
+85: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+86: Tag 10 MethodRef Class index 73, Name and type index 87
+87: Tag 12 NameAndType Name index 84, Description index 88
+88: Tag 1 Utf8 Value "(C)Ljava/lang/StringBuilder;"
+89: Tag 10 MethodRef Class index 73, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 43
+91: Tag 1 Utf8 Value "toString"
+92: Tag 8 String Contents 93
+93: Tag 1 Utf8 Value ""
+94: Tag 10 MethodRef Class index 12, Name and type index 95
+95: Tag 12 NameAndType Name index 96, Description index 97
+96: Tag 1 Utf8 Value "withNewActions"
+97: Tag 1 Utf8 Value "(I)Lorg/wildfly/naming/java/permission/JndiPermission;"
+98: Tag 10 MethodRef Class index 12, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 97
+100: Tag 1 Utf8 Value "withActions"
+101: Tag 10 MethodRef Class index 12, Name and type index 102
+102: Tag 12 NameAndType Name index 103, Description index 97
+103: Tag 1 Utf8 Value "withoutActions"
+104: Tag 7 Class Name index 105
+105: Tag 1 Utf8 Value "org/wildfly/naming/java/permission/JndiPermissionCollection"
+106: Tag 10 MethodRef Class index 104, Name and type index 76
+107: Tag 7 Class Name index 108
+108: Tag 1 Utf8 Value "org/wildfly/naming/java/permission/SerializedJndiPermission"
+109: Tag 10 MethodRef Class index 12, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 43
+111: Tag 1 Utf8 Value "getActions"
+112: Tag 10 MethodRef Class index 107, Name and type index 113
+113: Tag 12 NameAndType Name index 19, Description index 114
+114: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+115: Tag 8 String Contents 116
+116: Tag 1 Utf8 Value "java:"
+117: Tag 10 MethodRef Class index 9, Name and type index 118
+118: Tag 12 NameAndType Name index 119, Description index 47
+119: Tag 1 Utf8 Value "startsWith"
+120: Tag 10 MethodRef Class index 9, Name and type index 121
+121: Tag 12 NameAndType Name index 122, Description index 81
+122: Tag 1 Utf8 Value "substring"
+123: Tag 10 MethodRef Class index 12, Name and type index 124
+124: Tag 12 NameAndType Name index 125, Description index 47
+125: Tag 1 Utf8 Value "impliesPath0"
+126: Tag 10 MethodRef Class index 127, Name and type index 128
+127: Tag 7 Class Name index 129
+128: Tag 12 NameAndType Name index 130, Description index 131
+129: Tag 1 Utf8 Value "org/wildfly/naming/java/permission/JndiPermissionNameParser"
+130: Tag 1 Utf8 Value "nameIterator"
+131: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Iterator;"
+132: Tag 9 FieldRef Class index 12, Name and type index 133
+133: Tag 12 NameAndType Name index 134, Description index 135
+134: Tag 1 Utf8 Value "$assertionsDisabled"
+135: Tag 1 Utf8 Value "Z"
+136: Tag 11 InterfaceMethodRef Class index 137, Name and type index 138
+137: Tag 7 Class Name index 139
+138: Tag 12 NameAndType Name index 140, Description index 141
+139: Tag 1 Utf8 Value "java/util/Iterator"
+140: Tag 1 Utf8 Value "hasNext"
+141: Tag 1 Utf8 Value "()Z"
+142: Tag 7 Class Name index 143
+143: Tag 1 Utf8 Value "java/lang/AssertionError"
+144: Tag 10 MethodRef Class index 142, Name and type index 76
+145: Tag 11 InterfaceMethodRef Class index 137, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 148
+147: Tag 1 Utf8 Value "next"
+148: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+149: Tag 8 String Contents 150
+150: Tag 1 Utf8 Value "-"
+151: Tag 8 String Contents 152
+152: Tag 1 Utf8 Value "<<ALL BINDINGS>>"
+153: Tag 10 MethodRef Class index 9, Name and type index 154
+154: Tag 12 NameAndType Name index 155, Description index 47
+155: Tag 1 Utf8 Value "equalsIgnoreCase"
+156: Tag 10 MethodRef Class index 12, Name and type index 157
+157: Tag 12 NameAndType Name index 158, Description index 26
+158: Tag 1 Utf8 Value "canonicalize2"
+159: Tag 10 MethodRef Class index 9, Name and type index 160
+160: Tag 12 NameAndType Name index 161, Description index 72
+161: Tag 1 Utf8 Value "indexOf"
+162: Tag 10 MethodRef Class index 9, Name and type index 163
+163: Tag 12 NameAndType Name index 164, Description index 43
+164: Tag 1 Utf8 Value "trim"
+165: Tag 10 MethodRef Class index 9, Name and type index 166
+166: Tag 12 NameAndType Name index 167, Description index 141
+167: Tag 1 Utf8 Value "isEmpty"
+168: Tag 10 MethodRef Class index 12, Name and type index 169
+169: Tag 12 NameAndType Name index 170, Description index 16
+170: Tag 1 Utf8 Value "parseAction"
+171: Tag 10 MethodRef Class index 9, Name and type index 172
+172: Tag 12 NameAndType Name index 122, Description index 173
+173: Tag 1 Utf8 Value "(II)Ljava/lang/String;"
+174: Tag 10 MethodRef Class index 9, Name and type index 175
+175: Tag 12 NameAndType Name index 161, Description index 176
+176: Tag 1 Utf8 Value "(II)I"
+177: Tag 8 String Contents 178
+178: Tag 1 Utf8 Value "all"
+179: Tag 8 String Contents 180
+180: Tag 1 Utf8 Value "bind"
+181: Tag 8 String Contents 182
+182: Tag 1 Utf8 Value "rebind"
+183: Tag 8 String Contents 184
+184: Tag 1 Utf8 Value "unbind"
+185: Tag 8 String Contents 186
+186: Tag 1 Utf8 Value "lookup"
+187: Tag 8 String Contents 188
+188: Tag 1 Utf8 Value "list"
+189: Tag 8 String Contents 190
+190: Tag 1 Utf8 Value "listBindings"
+191: Tag 8 String Contents 192
+192: Tag 1 Utf8 Value "createSubcontext"
+193: Tag 8 String Contents 194
+194: Tag 1 Utf8 Value "destroySubcontext"
+195: Tag 8 String Contents 196
+196: Tag 1 Utf8 Value "addNamingListener"
+197: Tag 9 FieldRef Class index 198, Name and type index 199
+198: Tag 7 Class Name index 200
+199: Tag 12 NameAndType Name index 201, Description index 202
+200: Tag 1 Utf8 Value "org/jboss/as/naming/logging/NamingLogger"
+201: Tag 1 Utf8 Value "ROOT_LOGGER"
+202: Tag 1 Utf8 Value "Lorg/jboss/as/naming/logging/NamingLogger;"
+203: Tag 11 InterfaceMethodRef Class index 198, Name and type index 204
+204: Tag 12 NameAndType Name index 205, Description index 206
+205: Tag 1 Utf8 Value "invalidPermissionAction"
+206: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+207: Tag 10 MethodRef Class index 4, Name and type index 208
+208: Tag 12 NameAndType Name index 209, Description index 210
+209: Tag 1 Utf8 Value "impossibleSwitchCase"
+210: Tag 1 Utf8 Value "(I)Ljava/lang/IllegalStateException;"
+211: Tag 10 MethodRef Class index 212, Name and type index 213
+212: Tag 7 Class Name index 214
+213: Tag 12 NameAndType Name index 215, Description index 141
+214: Tag 1 Utf8 Value "java/lang/Class"
+215: Tag 1 Utf8 Value "desiredAssertionStatus"
+216: Tag 1 Utf8 Value "serialVersionUID"
+217: Tag 1 Utf8 Value "J"
+218: Tag 1 Utf8 Value "ConstantValue"
+219: Tag 5 Long Value 1272655825146515997
+221: Tag 1 Utf8 Value "ACTION_BIND"
+222: Tag 3 Integer Value 1, hex: 0x1
+223: Tag 1 Utf8 Value "ACTION_REBIND"
+224: Tag 3 Integer Value 2, hex: 0x2
+225: Tag 1 Utf8 Value "ACTION_UNBIND"
+226: Tag 3 Integer Value 4, hex: 0x4
+227: Tag 1 Utf8 Value "ACTION_LOOKUP"
+228: Tag 3 Integer Value 8, hex: 0x8
+229: Tag 1 Utf8 Value "ACTION_LIST"
+230: Tag 3 Integer Value 16, hex: 0x10
+231: Tag 1 Utf8 Value "ACTION_LIST_BINDINGS"
+232: Tag 3 Integer Value 32, hex: 0x20
+233: Tag 1 Utf8 Value "ACTION_CREATE_SUBCONTEXT"
+234: Tag 3 Integer Value 64, hex: 0x40
+235: Tag 1 Utf8 Value "ACTION_DESTROY_SUBCONTEXT"
+236: Tag 3 Integer Value 128, hex: 0x80
+237: Tag 1 Utf8 Value "ACTION_ADD_NAMING_LISTENER"
+238: Tag 3 Integer Value 256, hex: 0x100
+239: Tag 1 Utf8 Value "ACTION_ALL"
+240: Tag 3 Integer Value 511, hex: 0x1ff
+241: Tag 1 Utf8 Value "Code"
+242: Tag 1 Utf8 Value "LineNumberTable"
+243: Tag 1 Utf8 Value "LocalVariableTable"
+244: Tag 1 Utf8 Value "this"
+245: Tag 1 Utf8 Value "Lorg/wildfly/naming/java/permission/JndiPermission;"
+246: Tag 1 Utf8 Value "(Ljava/security/Permission;)Z"
+247: Tag 1 Utf8 Value "permission"
+248: Tag 1 Utf8 Value "Ljava/security/Permission;"
+249: Tag 1 Utf8 Value "StackMapTable"
+250: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Z"
+251: Tag 1 Utf8 Value "maskedBits"
+252: Tag 1 Utf8 Value "other"
+253: Tag 1 Utf8 Value "Ljava/lang/Object;"
+254: Tag 1 Utf8 Value "b"
+255: Tag 1 Utf8 Value "Ljava/lang/StringBuilder;"
+256: Tag 1 Utf8 Value "m"
+257: Tag 1 Utf8 Value "getActionBits"
+258: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/naming/java/permission/JndiPermission;"
+259: Tag 1 Utf8 Value "newPermissionCollection"
+260: Tag 1 Utf8 Value "()Ljava/security/PermissionCollection;"
+261: Tag 1 Utf8 Value "writeReplace"
+262: Tag 1 Utf8 Value "yourName"
+263: Tag 1 Utf8 Value "myName"
+264: Tag 1 Utf8 Value "myIter"
+265: Tag 1 Utf8 Value "Ljava/util/Iterator;"
+266: Tag 1 Utf8 Value "yourIter"
+267: Tag 1 Utf8 Value "myNext"
+268: Tag 1 Utf8 Value "yourNext"
+269: Tag 1 Utf8 Value "LocalVariableTypeTable"
+270: Tag 1 Utf8 Value "Ljava/util/Iterator<Ljava/lang/String;>;"
+271: Tag 1 Utf8 Value "str"
+272: Tag 1 Utf8 Value "actionsString"
+273: Tag 1 Utf8 Value "pos"
+274: Tag 1 Utf8 Value "idx"
+275: Tag 1 Utf8 Value "bit"
+276: Tag 1 Utf8 Value "<clinit>"
+277: Tag 1 Utf8 Value "SourceFile"
+278: Tag 1 Utf8 Value "JndiPermission.java"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 12, name org.wildfly.naming.java.permission.JndiPermission
+
+Super class: id 28, name java.security.Permission
+
+No interfaces
+
+Field name serialVersionUID (index 216), type J (descriptor index 217)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name actionBits (index 34), type I (descriptor index 35)
+Human type: int
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name actionString (index 63), type Ljava/lang/String; (descriptor index 64)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name ACTION_BIND (index 221), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTION_REBIND (index 223), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTION_UNBIND (index 225), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTION_LOOKUP (index 227), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTION_LIST (index 229), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTION_LIST_BINDINGS (index 231), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTION_CREATE_SUBCONTEXT (index 233), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTION_DESTROY_SUBCONTEXT (index 235), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTION_ADD_NAMING_LISTENER (index 237), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ACTION_ALL (index 239), type I (descriptor index 35)
+Human type: int
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name $assertionsDisabled (index 134), type Z (descriptor index 135)
+Human type: boolean
+Flags: decimal 4120, hex 1018, binary 0001000000011000 static final synthetic
+No field attributes
+
+Method name <init> (index 19), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 114)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 84
+Method name <init> (index 19), type (Ljava/lang/String;I)V (descriptor index 20)
+Human type: (java.lang.String, int): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 96
+Method name implies (index 38), type (Ljava/security/Permission;)Z (descriptor index 246)
+Human type: (java.security.Permission): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 87
+Method name implies (index 38), type (Lorg/wildfly/naming/java/permission/JndiPermission;)Z (descriptor index 39)
+Human type: (org.wildfly.naming.java.permission.JndiPermission): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 100
+Method name implies (index 38), type (Ljava/lang/String;Ljava/lang/String;)Z (descriptor index 250)
+Human type: (java.lang.String, java.lang.String): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 72
+Method name implies (index 38), type (Ljava/lang/String;I)Z (descriptor index 50)
+Human type: (java.lang.String, int): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 131
+Method name equals (index 53), type (Ljava/lang/Object;)Z (descriptor index 56)
+Human type: (java.lang.Object): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 87
+Method name equals (index 53), type (Lorg/wildfly/naming/java/permission/JndiPermission;)Z (descriptor index 39)
+Human type: (org.wildfly.naming.java.permission.JndiPermission): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 104
+Method name hashCode (index 59), type ()I (descriptor index 60)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 58
+Method name getActions (index 111), type ()Ljava/lang/String; (descriptor index 43)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 294
+Method name getActionBits (index 257), type ()I (descriptor index 60)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name withNewActions (index 96), type (I)Lorg/wildfly/naming/java/permission/JndiPermission; (descriptor index 97)
+Human type: (int): org.wildfly.naming.java.permission.JndiPermission
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 102
+Method name withNewActions (index 96), type (Ljava/lang/String;)Lorg/wildfly/naming/java/permission/JndiPermission; (descriptor index 258)
+Human type: (java.lang.String): org.wildfly.naming.java.permission.JndiPermission
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 69
+Method name withActions (index 100), type (I)Lorg/wildfly/naming/java/permission/JndiPermission; (descriptor index 97)
+Human type: (int): org.wildfly.naming.java.permission.JndiPermission
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name withActions (index 100), type (Ljava/lang/String;)Lorg/wildfly/naming/java/permission/JndiPermission; (descriptor index 258)
+Human type: (java.lang.String): org.wildfly.naming.java.permission.JndiPermission
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 69
+Method name withoutActions (index 103), type (I)Lorg/wildfly/naming/java/permission/JndiPermission; (descriptor index 97)
+Human type: (int): org.wildfly.naming.java.permission.JndiPermission
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 69
+Method name withoutActions (index 103), type (Ljava/lang/String;)Lorg/wildfly/naming/java/permission/JndiPermission; (descriptor index 258)
+Human type: (java.lang.String): org.wildfly.naming.java.permission.JndiPermission
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 69
+Method name newPermissionCollection (index 259), type ()Ljava/security/PermissionCollection; (descriptor index 260)
+Human type: (): java.security.PermissionCollection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name writeReplace (index 261), type ()Ljava/lang/Object; (descriptor index 148)
+Human type: (): java.lang.Object
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 58
+Method name impliesPath (index 46), type (Ljava/lang/String;)Z (descriptor index 47)
+Human type: (java.lang.String): boolean
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 90
+Method name impliesPath0 (index 125), type (Ljava/lang/String;)Z (descriptor index 47)
+Human type: (java.lang.String): boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 360
+Method name canonicalize1 (index 25), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 26)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 85
+Method name canonicalize2 (index 158), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 26)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 74
+Method name parseActions (index 15), type (Ljava/lang/String;)I (descriptor index 16)
+Human type: (java.lang.String): int
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 251
+Method name parseAction (index 170), type (Ljava/lang/String;)I (descriptor index 16)
+Human type: (java.lang.String): int
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 487
+Method name getAction (index 80), type (I)Ljava/lang/String; (descriptor index 81)
+Human type: (int): java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 228
+Method name <clinit> (index 276), type ()V (descriptor index 77)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 52
+
+Class attribute name SourceFile, size 2

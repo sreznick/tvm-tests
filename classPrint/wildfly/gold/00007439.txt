@@ -1,0 +1,108 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 66
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailSessionService"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/MailSessionConfig;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailLogger"
+11: Tag 1 Utf8 Value "ROOT_LOGGER"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/MailLogger;"
+13: Tag 8 String Contents 14
+14: Tag 1 Utf8 Value "service constructed with config: %s"
+15: Tag 11 InterfaceMethodRef Class index 8, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "tracef"
+18: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+19: Tag 9 FieldRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/mail/extension/DirectMailSessionService"
+23: Tag 1 Utf8 Value "provider"
+24: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/SessionProvider;"
+25: Tag 8 String Contents 26
+26: Tag 1 Utf8 Value "start..."
+27: Tag 11 InterfaceMethodRef Class index 8, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "trace"
+30: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+31: Tag 8 String Contents 32
+32: Tag 1 Utf8 Value "stop..."
+33: Tag 11 InterfaceMethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/as/mail/extension/SessionProvider"
+37: Tag 1 Utf8 Value "getSession"
+38: Tag 1 Utf8 Value "()Ljavax/mail/Session;"
+39: Tag 10 MethodRef Class index 20, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 38
+41: Tag 1 Utf8 Value "getValue"
+42: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/SessionProvider;)V"
+43: Tag 1 Utf8 Value "Code"
+44: Tag 1 Utf8 Value "LineNumberTable"
+45: Tag 1 Utf8 Value "LocalVariableTable"
+46: Tag 1 Utf8 Value "this"
+47: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/DirectMailSessionService;"
+48: Tag 1 Utf8 Value "start"
+49: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+50: Tag 1 Utf8 Value "startContext"
+51: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+52: Tag 1 Utf8 Value "Exceptions"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+55: Tag 1 Utf8 Value "stop"
+56: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+57: Tag 1 Utf8 Value "stopContext"
+58: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+59: Tag 7 Class Name index 60
+60: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+63: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+64: Tag 1 Utf8 Value "SourceFile"
+65: Tag 1 Utf8 Value "DirectMailSessionService.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 20, name org.jboss.as.mail.extension.DirectMailSessionService
+
+Super class: id 2, name org.jboss.as.mail.extension.MailSessionService
+
+No interfaces
+
+Field name provider (index 23), type Lorg/jboss/as/mail/extension/SessionProvider; (descriptor index 24)
+Human type: org.jboss.as.mail.extension.SessionProvider
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/mail/extension/SessionProvider;)V (descriptor index 42)
+Human type: (org.jboss.as.mail.extension.SessionProvider): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 86
+Method name start (index 48), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 49)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method attribute name Exceptions, size 4
+Method name stop (index 55), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 56)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name getValue (index 41), type ()Ljavax/mail/Session; (descriptor index 38)
+Human type: (): javax.mail.Session
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 6
+Method name getValue (index 41), type ()Ljava/lang/Object; (descriptor index 63)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+
+Class attribute name SourceFile, size 2

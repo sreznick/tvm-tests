@@ -1,0 +1,190 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 145
+1: Tag 11 InterfaceMethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/openapi/deployment/OpenAPIServiceNameProvider"
+5: Tag 1 Utf8 Value "getServiceName"
+6: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/lang/String"
+9: Tag 8 String Contents 10
+10: Tag 1 Utf8 Value "handler"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+15: Tag 1 Utf8 Value "append"
+16: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/clustering/service/SimpleServiceNameProvider"
+21: Tag 1 Utf8 Value "<init>"
+22: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+23: Tag 7 Class Name index 24
+24: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceSupplierDependency"
+25: Tag 10 MethodRef Class index 23, Name and type index 19
+26: Tag 9 FieldRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 30, Description index 31
+29: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/openapi/deployment/OpenAPIHttpHandlerServiceConfigurator"
+30: Tag 1 Utf8 Value "model"
+31: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency;"
+32: Tag 11 InterfaceMethodRef Class index 2, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 6
+34: Tag 1 Utf8 Value "getHostServiceName"
+35: Tag 9 FieldRef Class index 27, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 31
+37: Tag 1 Utf8 Value "host"
+38: Tag 11 InterfaceMethodRef Class index 2, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "getPath"
+41: Tag 1 Utf8 Value "()Ljava/lang/String;"
+42: Tag 9 FieldRef Class index 27, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 45
+44: Tag 1 Utf8 Value "path"
+45: Tag 1 Utf8 Value "Ljava/lang/String;"
+46: Tag 10 MethodRef Class index 27, Name and type index 3
+47: Tag 11 InterfaceMethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+51: Tag 1 Utf8 Value "addService"
+52: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/wildfly/clustering/service/CompositeDependency"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/wildfly/clustering/service/Dependency"
+57: Tag 10 MethodRef Class index 53, Name and type index 58
+58: Tag 12 NameAndType Name index 21, Description index 59
+59: Tag 1 Utf8 Value "([Lorg/wildfly/clustering/service/Dependency;)V"
+60: Tag 10 MethodRef Class index 53, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "register"
+63: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder;"
+64: Tag 11 InterfaceMethodRef Class index 65, Name and type index 66
+65: Tag 7 Class Name index 67
+66: Tag 12 NameAndType Name index 68, Description index 69
+67: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+68: Tag 1 Utf8 Value "setInstance"
+69: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+70: Tag 11 InterfaceMethodRef Class index 71, Name and type index 72
+71: Tag 7 Class Name index 73
+72: Tag 12 NameAndType Name index 74, Description index 75
+73: Tag 1 Utf8 Value "org/wildfly/clustering/service/SupplierDependency"
+74: Tag 1 Utf8 Value "get"
+75: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "org/wildfly/extension/undertow/Host"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/openapi/deployment/OpenAPIHttpHandler"
+80: Tag 7 Class Name index 81
+81: Tag 1 Utf8 Value "org/eclipse/microprofile/openapi/models/OpenAPI"
+82: Tag 10 MethodRef Class index 78, Name and type index 83
+83: Tag 12 NameAndType Name index 21, Description index 84
+84: Tag 1 Utf8 Value "(Lorg/eclipse/microprofile/openapi/models/OpenAPI;)V"
+85: Tag 10 MethodRef Class index 76, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 88
+87: Tag 1 Utf8 Value "registerHandler"
+88: Tag 1 Utf8 Value "(Ljava/lang/String;Lio/undertow/server/HttpHandler;)V"
+89: Tag 9 FieldRef Class index 90, Name and type index 91
+90: Tag 7 Class Name index 92
+91: Tag 12 NameAndType Name index 93, Description index 94
+92: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/openapi/logging/MicroProfileOpenAPILogger"
+93: Tag 1 Utf8 Value "LOGGER"
+94: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/openapi/logging/MicroProfileOpenAPILogger;"
+95: Tag 10 MethodRef Class index 76, Name and type index 96
+96: Tag 12 NameAndType Name index 97, Description index 41
+97: Tag 1 Utf8 Value "getName"
+98: Tag 11 InterfaceMethodRef Class index 90, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 101
+100: Tag 1 Utf8 Value "endpointRegistered"
+101: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+102: Tag 10 MethodRef Class index 76, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 105
+104: Tag 1 Utf8 Value "unregisterHandler"
+105: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+106: Tag 11 InterfaceMethodRef Class index 90, Name and type index 107
+107: Tag 12 NameAndType Name index 108, Description index 101
+108: Tag 1 Utf8 Value "endpointUnregistered"
+109: Tag 7 Class Name index 110
+110: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceConfigurator"
+111: Tag 7 Class Name index 112
+112: Tag 1 Utf8 Value "org/jboss/msc/Service"
+113: Tag 1 Utf8 Value "Signature"
+114: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency<Lorg/eclipse/microprofile/openapi/models/OpenAPI;>;"
+115: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency<Lorg/wildfly/extension/undertow/Host;>;"
+116: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/openapi/deployment/OpenAPIServiceNameProvider;)V"
+117: Tag 1 Utf8 Value "Code"
+118: Tag 1 Utf8 Value "LineNumberTable"
+119: Tag 1 Utf8 Value "LocalVariableTable"
+120: Tag 1 Utf8 Value "this"
+121: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/openapi/deployment/OpenAPIHttpHandlerServiceConfigurator;"
+122: Tag 1 Utf8 Value "provider"
+123: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/openapi/deployment/OpenAPIServiceNameProvider;"
+124: Tag 1 Utf8 Value "build"
+125: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+126: Tag 1 Utf8 Value "target"
+127: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+128: Tag 1 Utf8 Value "name"
+129: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+130: Tag 1 Utf8 Value "builder"
+131: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+132: Tag 1 Utf8 Value "LocalVariableTypeTable"
+133: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+134: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder<*>;"
+135: Tag 1 Utf8 Value "start"
+136: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+137: Tag 1 Utf8 Value "context"
+138: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+139: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/Host;"
+140: Tag 1 Utf8 Value "stop"
+141: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+142: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+143: Tag 1 Utf8 Value "SourceFile"
+144: Tag 1 Utf8 Value "OpenAPIHttpHandlerServiceConfigurator.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 27, name org.wildfly.extension.microprofile.openapi.deployment.OpenAPIHttpHandlerServiceConfigurator
+
+Super class: id 18, name org.wildfly.clustering.service.SimpleServiceNameProvider
+
+Implements class ids 109 111
+Implements names org.wildfly.clustering.service.ServiceConfigurator org.jboss.msc.Service
+
+Field name model (index 30), type Lorg/wildfly/clustering/service/SupplierDependency; (descriptor index 31)
+Human type: org.wildfly.clustering.service.SupplierDependency
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name host (index 37), type Lorg/wildfly/clustering/service/SupplierDependency; (descriptor index 31)
+Human type: org.wildfly.clustering.service.SupplierDependency
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name path (index 44), type Ljava/lang/String; (descriptor index 45)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 21), type (Lorg/wildfly/extension/microprofile/openapi/deployment/OpenAPIServiceNameProvider;)V (descriptor index 116)
+Human type: (org.wildfly.extension.microprofile.openapi.deployment.OpenAPIServiceNameProvider): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 135
+Method name build (index 124), type (Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 125)
+Human type: (org.jboss.msc.service.ServiceTarget): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 153
+Method attribute name Signature, size 2
+Method name start (index 135), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 136)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 131
+Method name stop (index 140), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 141)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 112
+
+Class attribute name SourceFile, size 2

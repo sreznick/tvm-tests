@@ -1,0 +1,723 @@
+AAAA 5
+Version 52.0
+
+Constant Pool size 600
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/as/clustering/context/DefaultThreadFactory"
+9: Tag 10 MethodRef Class index 2, Name and type index 10
+10: Tag 12 NameAndType Name index 11, Description index 12
+11: Tag 1 Utf8 Value "getClass"
+12: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+13: Tag 10 MethodRef Class index 7, Name and type index 14
+14: Tag 12 NameAndType Name index 5, Description index 15
+15: Tag 1 Utf8 Value "(Ljava/lang/Class;)V"
+16: Tag 10 MethodRef Class index 17, Name and type index 18
+17: Tag 7 Class Name index 19
+18: Tag 12 NameAndType Name index 20, Description index 21
+19: Tag 1 Utf8 Value "java/util/concurrent/Executors"
+20: Tag 1 Utf8 Value "newSingleThreadExecutor"
+21: Tag 1 Utf8 Value "(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ExecutorService;"
+22: Tag 9 FieldRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/CacheServiceProviderRegistry"
+26: Tag 1 Utf8 Value "topologyChangeExecutor"
+27: Tag 1 Utf8 Value "Ljava/util/concurrent/ExecutorService;"
+28: Tag 7 Class Name index 29
+29: Tag 1 Utf8 Value "java/util/concurrent/ConcurrentHashMap"
+30: Tag 10 MethodRef Class index 28, Name and type index 3
+31: Tag 9 FieldRef Class index 23, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "listeners"
+34: Tag 1 Utf8 Value "Ljava/util/concurrent/ConcurrentMap;"
+35: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/CacheServiceProviderRegistryConfiguration"
+39: Tag 1 Utf8 Value "getGroup"
+40: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/spi/group/Group;"
+41: Tag 9 FieldRef Class index 23, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "group"
+44: Tag 1 Utf8 Value "Lorg/wildfly/clustering/spi/group/Group;"
+45: Tag 11 InterfaceMethodRef Class index 36, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "getCache"
+48: Tag 1 Utf8 Value "()Lorg/infinispan/Cache;"
+49: Tag 9 FieldRef Class index 23, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "cache"
+52: Tag 1 Utf8 Value "Lorg/infinispan/Cache;"
+53: Tag 11 InterfaceMethodRef Class index 36, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "getBatcher"
+56: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batcher;"
+57: Tag 9 FieldRef Class index 23, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "batcher"
+60: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher;"
+61: Tag 11 InterfaceMethodRef Class index 62, Name and type index 63
+62: Tag 7 Class Name index 64
+63: Tag 12 NameAndType Name index 65, Description index 66
+64: Tag 1 Utf8 Value "org/infinispan/Cache"
+65: Tag 1 Utf8 Value "addListener"
+66: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "org/wildfly/clustering/ee/infinispan/retry/RetryingInvoker"
+69: Tag 10 MethodRef Class index 67, Name and type index 70
+70: Tag 12 NameAndType Name index 5, Description index 71
+71: Tag 1 Utf8 Value "(Lorg/infinispan/Cache;)V"
+72: Tag 9 FieldRef Class index 23, Name and type index 73
+73: Tag 12 NameAndType Name index 74, Description index 75
+74: Tag 1 Utf8 Value "invoker"
+75: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Invoker;"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "org/wildfly/clustering/ee/infinispan/InfinispanCacheProperties"
+78: Tag 11 InterfaceMethodRef Class index 62, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "getCacheConfiguration"
+81: Tag 1 Utf8 Value "()Lorg/infinispan/configuration/cache/Configuration;"
+82: Tag 10 MethodRef Class index 76, Name and type index 83
+83: Tag 12 NameAndType Name index 5, Description index 84
+84: Tag 1 Utf8 Value "(Lorg/infinispan/configuration/cache/Configuration;)V"
+85: Tag 9 FieldRef Class index 23, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 88
+87: Tag 1 Utf8 Value "properties"
+88: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/CacheProperties;"
+89: Tag 11 InterfaceMethodRef Class index 62, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 66
+91: Tag 1 Utf8 Value "removeListener"
+92: Tag 10 MethodRef Class index 23, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 95
+94: Tag 1 Utf8 Value "shutdown"
+95: Tag 1 Utf8 Value "(Ljava/util/concurrent/ExecutorService;)V"
+96: Tag 11 InterfaceMethodRef Class index 97, Name and type index 98
+97: Tag 7 Class Name index 99
+98: Tag 12 NameAndType Name index 100, Description index 101
+99: Tag 1 Utf8 Value "java/util/concurrent/ConcurrentMap"
+100: Tag 1 Utf8 Value "values"
+101: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+102: Tag 11 InterfaceMethodRef Class index 103, Name and type index 104
+103: Tag 7 Class Name index 105
+104: Tag 12 NameAndType Name index 106, Description index 107
+105: Tag 1 Utf8 Value "java/util/Collection"
+106: Tag 1 Utf8 Value "iterator"
+107: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+108: Tag 11 InterfaceMethodRef Class index 109, Name and type index 110
+109: Tag 7 Class Name index 111
+110: Tag 12 NameAndType Name index 112, Description index 113
+111: Tag 1 Utf8 Value "java/util/Iterator"
+112: Tag 1 Utf8 Value "hasNext"
+113: Tag 1 Utf8 Value "()Z"
+114: Tag 11 InterfaceMethodRef Class index 109, Name and type index 115
+115: Tag 12 NameAndType Name index 116, Description index 117
+116: Tag 1 Utf8 Value "next"
+117: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+118: Tag 7 Class Name index 119
+119: Tag 1 Utf8 Value "java/util/Map$Entry"
+120: Tag 11 InterfaceMethodRef Class index 118, Name and type index 121
+121: Tag 12 NameAndType Name index 122, Description index 117
+122: Tag 1 Utf8 Value "getValue"
+123: Tag 7 Class Name index 124
+124: Tag 1 Utf8 Value "java/util/concurrent/ExecutorService"
+125: Tag 11 InterfaceMethodRef Class index 97, Name and type index 126
+126: Tag 12 NameAndType Name index 127, Description index 6
+127: Tag 1 Utf8 Value "clear"
+128: Tag 9 FieldRef Class index 129, Name and type index 130
+129: Tag 7 Class Name index 131
+130: Tag 12 NameAndType Name index 132, Description index 133
+131: Tag 1 Utf8 Value "org/jboss/as/clustering/context/DefaultExecutorService"
+132: Tag 1 Utf8 Value "SHUTDOWN_ACTION"
+133: Tag 1 Utf8 Value "Lorg/wildfly/security/ParametricPrivilegedAction;"
+134: Tag 10 MethodRef Class index 135, Name and type index 136
+135: Tag 7 Class Name index 137
+136: Tag 12 NameAndType Name index 138, Description index 139
+137: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+138: Tag 1 Utf8 Value "doUnchecked"
+139: Tag 1 Utf8 Value "(Ljava/lang/Object;Lorg/wildfly/security/ParametricPrivilegedAction;)Ljava/lang/Object;"
+140: Tag 10 MethodRef Class index 141, Name and type index 142
+141: Tag 7 Class Name index 143
+142: Tag 12 NameAndType Name index 144, Description index 145
+143: Tag 1 Utf8 Value "org/infinispan/configuration/cache/Configuration"
+144: Tag 1 Utf8 Value "transaction"
+145: Tag 1 Utf8 Value "()Lorg/infinispan/configuration/cache/TransactionConfiguration;"
+146: Tag 10 MethodRef Class index 147, Name and type index 148
+147: Tag 7 Class Name index 149
+148: Tag 12 NameAndType Name index 150, Description index 151
+149: Tag 1 Utf8 Value "org/infinispan/configuration/cache/TransactionConfiguration"
+150: Tag 1 Utf8 Value "cacheStopTimeout"
+151: Tag 1 Utf8 Value "()J"
+152: Tag 9 FieldRef Class index 153, Name and type index 154
+153: Tag 7 Class Name index 155
+154: Tag 12 NameAndType Name index 156, Description index 157
+155: Tag 1 Utf8 Value "java/util/concurrent/TimeUnit"
+156: Tag 1 Utf8 Value "MILLISECONDS"
+157: Tag 1 Utf8 Value "Ljava/util/concurrent/TimeUnit;"
+158: Tag 11 InterfaceMethodRef Class index 123, Name and type index 159
+159: Tag 12 NameAndType Name index 160, Description index 161
+160: Tag 1 Utf8 Value "awaitTermination"
+161: Tag 1 Utf8 Value "(JLjava/util/concurrent/TimeUnit;)Z"
+162: Tag 7 Class Name index 163
+163: Tag 1 Utf8 Value "java/lang/InterruptedException"
+164: Tag 10 MethodRef Class index 165, Name and type index 166
+165: Tag 7 Class Name index 167
+166: Tag 12 NameAndType Name index 168, Description index 169
+167: Tag 1 Utf8 Value "java/lang/Thread"
+168: Tag 1 Utf8 Value "currentThread"
+169: Tag 1 Utf8 Value "()Ljava/lang/Thread;"
+170: Tag 10 MethodRef Class index 165, Name and type index 171
+171: Tag 12 NameAndType Name index 172, Description index 6
+172: Tag 1 Utf8 Value "interrupt"
+173: Tag 10 MethodRef Class index 23, Name and type index 174
+174: Tag 12 NameAndType Name index 175, Description index 176
+175: Tag 1 Utf8 Value "register"
+176: Tag 1 Utf8 Value "(Ljava/lang/Object;Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration;"
+177: Tag 7 Class Name index 178
+178: Tag 1 Utf8 Value "java/util/AbstractMap$SimpleEntry"
+179: Tag 10 MethodRef Class index 177, Name and type index 180
+180: Tag 12 NameAndType Name index 5, Description index 181
+181: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+182: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 183
+183: Tag 12 NameAndType Name index 184, Description index 185
+184: Tag 1 Utf8 Value "apply"
+185: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;Ljava/util/Map$Entry;)Ljava/util/function/Function;"
+186: Tag 11 InterfaceMethodRef Class index 97, Name and type index 187
+187: Tag 12 NameAndType Name index 188, Description index 189
+188: Tag 1 Utf8 Value "computeIfAbsent"
+189: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;"
+190: Tag 7 Class Name index 191
+191: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+192: Tag 10 MethodRef Class index 2, Name and type index 193
+193: Tag 12 NameAndType Name index 194, Description index 195
+194: Tag 1 Utf8 Value "toString"
+195: Tag 1 Utf8 Value "()Ljava/lang/String;"
+196: Tag 10 MethodRef Class index 190, Name and type index 197
+197: Tag 12 NameAndType Name index 5, Description index 198
+198: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+199: Tag 7 Class Name index 200
+200: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/CacheServiceProviderRegistry$RegisterLocalServiceTask"
+201: Tag 10 MethodRef Class index 199, Name and type index 202
+202: Tag 12 NameAndType Name index 5, Description index 203
+203: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistry;Ljava/lang/Object;)V"
+204: Tag 11 InterfaceMethodRef Class index 205, Name and type index 206
+205: Tag 7 Class Name index 207
+206: Tag 12 NameAndType Name index 208, Description index 209
+207: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Invoker"
+208: Tag 1 Utf8 Value "invoke"
+209: Tag 1 Utf8 Value "(Lorg/wildfly/common/function/ExceptionRunnable;)V"
+210: Tag 7 Class Name index 211
+211: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/SimpleServiceProviderRegistration"
+212: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 213
+213: Tag 12 NameAndType Name index 214, Description index 215
+214: Tag 1 Utf8 Value "run"
+215: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistry;Ljava/lang/Object;)Ljava/lang/Runnable;"
+216: Tag 10 MethodRef Class index 210, Name and type index 217
+217: Tag 12 NameAndType Name index 5, Description index 218
+218: Tag 1 Utf8 Value "(Ljava/lang/Object;Lorg/wildfly/clustering/provider/ServiceProviderRegistry;Ljava/lang/Runnable;)V"
+219: Tag 11 InterfaceMethodRef Class index 220, Name and type index 221
+220: Tag 7 Class Name index 222
+221: Tag 12 NameAndType Name index 223, Description index 224
+222: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batcher"
+223: Tag 1 Utf8 Value "createBatch"
+224: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batch;"
+225: Tag 11 InterfaceMethodRef Class index 226, Name and type index 227
+226: Tag 7 Class Name index 228
+227: Tag 12 NameAndType Name index 229, Description index 230
+228: Tag 1 Utf8 Value "org/wildfly/clustering/spi/group/Group"
+229: Tag 1 Utf8 Value "getLocalMember"
+230: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/group/Node;"
+231: Tag 11 InterfaceMethodRef Class index 226, Name and type index 232
+232: Tag 12 NameAndType Name index 233, Description index 234
+233: Tag 1 Utf8 Value "getAddress"
+234: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/group/Node;)Ljava/lang/Object;"
+235: Tag 7 Class Name index 236
+236: Tag 1 Utf8 Value "org/infinispan/remoting/transport/Address"
+237: Tag 10 MethodRef Class index 23, Name and type index 238
+238: Tag 12 NameAndType Name index 175, Description index 239
+239: Tag 1 Utf8 Value "(Lorg/infinispan/remoting/transport/Address;Ljava/lang/Object;)V"
+240: Tag 11 InterfaceMethodRef Class index 241, Name and type index 242
+241: Tag 7 Class Name index 243
+242: Tag 12 NameAndType Name index 244, Description index 6
+243: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batch"
+244: Tag 1 Utf8 Value "close"
+245: Tag 7 Class Name index 246
+246: Tag 1 Utf8 Value "java/lang/Throwable"
+247: Tag 10 MethodRef Class index 245, Name and type index 248
+248: Tag 12 NameAndType Name index 249, Description index 250
+249: Tag 1 Utf8 Value "addSuppressed"
+250: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+251: Tag 11 InterfaceMethodRef Class index 62, Name and type index 252
+252: Tag 12 NameAndType Name index 253, Description index 254
+253: Tag 1 Utf8 Value "getAdvancedCache"
+254: Tag 1 Utf8 Value "()Lorg/infinispan/AdvancedCache;"
+255: Tag 7 Class Name index 256
+256: Tag 1 Utf8 Value "org/infinispan/context/Flag"
+257: Tag 9 FieldRef Class index 255, Name and type index 258
+258: Tag 12 NameAndType Name index 259, Description index 260
+259: Tag 1 Utf8 Value "FORCE_SYNCHRONOUS"
+260: Tag 1 Utf8 Value "Lorg/infinispan/context/Flag;"
+261: Tag 9 FieldRef Class index 255, Name and type index 262
+262: Tag 12 NameAndType Name index 263, Description index 260
+263: Tag 1 Utf8 Value "IGNORE_RETURN_VALUES"
+264: Tag 11 InterfaceMethodRef Class index 265, Name and type index 266
+265: Tag 7 Class Name index 267
+266: Tag 12 NameAndType Name index 268, Description index 269
+267: Tag 1 Utf8 Value "org/infinispan/AdvancedCache"
+268: Tag 1 Utf8 Value "withFlags"
+269: Tag 1 Utf8 Value "([Lorg/infinispan/context/Flag;)Lorg/infinispan/AdvancedCache;"
+270: Tag 11 InterfaceMethodRef Class index 271, Name and type index 272
+271: Tag 7 Class Name index 273
+272: Tag 12 NameAndType Name index 274, Description index 113
+273: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/CacheProperties"
+274: Tag 1 Utf8 Value "isTransactional"
+275: Tag 7 Class Name index 276
+276: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/CopyOnWriteAddressSetAddFunction"
+277: Tag 10 MethodRef Class index 275, Name and type index 278
+278: Tag 12 NameAndType Name index 5, Description index 279
+279: Tag 1 Utf8 Value "(Lorg/infinispan/remoting/transport/Address;)V"
+280: Tag 7 Class Name index 281
+281: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/ConcurrentAddressSetAddFunction"
+282: Tag 10 MethodRef Class index 280, Name and type index 278
+283: Tag 11 InterfaceMethodRef Class index 265, Name and type index 284
+284: Tag 12 NameAndType Name index 285, Description index 286
+285: Tag 1 Utf8 Value "compute"
+286: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;"
+287: Tag 11 InterfaceMethodRef Class index 62, Name and type index 288
+288: Tag 12 NameAndType Name index 289, Description index 290
+289: Tag 1 Utf8 Value "get"
+290: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+291: Tag 7 Class Name index 292
+292: Tag 1 Utf8 Value "java/util/Set"
+293: Tag 10 MethodRef Class index 294, Name and type index 295
+294: Tag 7 Class Name index 296
+295: Tag 12 NameAndType Name index 297, Description index 298
+296: Tag 1 Utf8 Value "java/util/Collections"
+297: Tag 1 Utf8 Value "emptySet"
+298: Tag 1 Utf8 Value "()Ljava/util/Set;"
+299: Tag 7 Class Name index 300
+300: Tag 1 Utf8 Value "java/util/TreeSet"
+301: Tag 10 MethodRef Class index 299, Name and type index 3
+302: Tag 11 InterfaceMethodRef Class index 291, Name and type index 104
+303: Tag 11 InterfaceMethodRef Class index 226, Name and type index 304
+304: Tag 12 NameAndType Name index 305, Description index 306
+305: Tag 1 Utf8 Value "createNode"
+306: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/wildfly/clustering/group/Node;"
+307: Tag 11 InterfaceMethodRef Class index 291, Name and type index 308
+308: Tag 12 NameAndType Name index 309, Description index 310
+309: Tag 1 Utf8 Value "add"
+310: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+311: Tag 10 MethodRef Class index 294, Name and type index 312
+312: Tag 12 NameAndType Name index 313, Description index 314
+313: Tag 1 Utf8 Value "unmodifiableSet"
+314: Tag 1 Utf8 Value "(Ljava/util/Set;)Ljava/util/Set;"
+315: Tag 11 InterfaceMethodRef Class index 62, Name and type index 316
+316: Tag 12 NameAndType Name index 317, Description index 318
+317: Tag 1 Utf8 Value "keySet"
+318: Tag 1 Utf8 Value "()Lorg/infinispan/CacheSet;"
+319: Tag 11 InterfaceMethodRef Class index 320, Name and type index 321
+320: Tag 7 Class Name index 322
+321: Tag 12 NameAndType Name index 323, Description index 113
+322: Tag 1 Utf8 Value "org/infinispan/notifications/cachelistener/event/TopologyChangedEvent"
+323: Tag 1 Utf8 Value "isPre"
+324: Tag 11 InterfaceMethodRef Class index 320, Name and type index 325
+325: Tag 12 NameAndType Name index 326, Description index 327
+326: Tag 1 Utf8 Value "getWriteConsistentHashAtStart"
+327: Tag 1 Utf8 Value "()Lorg/infinispan/distribution/ch/ConsistentHash;"
+328: Tag 11 InterfaceMethodRef Class index 329, Name and type index 330
+329: Tag 7 Class Name index 331
+330: Tag 12 NameAndType Name index 332, Description index 333
+331: Tag 1 Utf8 Value "org/infinispan/distribution/ch/ConsistentHash"
+332: Tag 1 Utf8 Value "getMembers"
+333: Tag 1 Utf8 Value "()Ljava/util/List;"
+334: Tag 11 InterfaceMethodRef Class index 320, Name and type index 335
+335: Tag 12 NameAndType Name index 336, Description index 327
+336: Tag 1 Utf8 Value "getWriteConsistentHashAtEnd"
+337: Tag 11 InterfaceMethodRef Class index 338, Name and type index 339
+338: Tag 7 Class Name index 340
+339: Tag 12 NameAndType Name index 341, Description index 310
+340: Tag 1 Utf8 Value "java/util/List"
+341: Tag 1 Utf8 Value "equals"
+342: Tag 11 InterfaceMethodRef Class index 320, Name and type index 46
+343: Tag 11 InterfaceMethodRef Class index 265, Name and type index 344
+344: Tag 12 NameAndType Name index 268, Description index 345
+345: Tag 1 Utf8 Value "(Lorg/infinispan/context/Flag;)Lorg/infinispan/AdvancedCache;"
+346: Tag 11 InterfaceMethodRef Class index 62, Name and type index 347
+347: Tag 12 NameAndType Name index 348, Description index 349
+348: Tag 1 Utf8 Value "getCacheManager"
+349: Tag 1 Utf8 Value "()Lorg/infinispan/manager/EmbeddedCacheManager;"
+350: Tag 11 InterfaceMethodRef Class index 351, Name and type index 352
+351: Tag 7 Class Name index 353
+352: Tag 12 NameAndType Name index 233, Description index 354
+353: Tag 1 Utf8 Value "org/infinispan/manager/EmbeddedCacheManager"
+354: Tag 1 Utf8 Value "()Lorg/infinispan/remoting/transport/Address;"
+355: Tag 7 Class Name index 356
+356: Tag 1 Utf8 Value "java/util/HashSet"
+357: Tag 10 MethodRef Class index 355, Name and type index 358
+358: Tag 12 NameAndType Name index 5, Description index 359
+359: Tag 1 Utf8 Value "(Ljava/util/Collection;)V"
+360: Tag 11 InterfaceMethodRef Class index 291, Name and type index 361
+361: Tag 12 NameAndType Name index 362, Description index 363
+362: Tag 1 Utf8 Value "removeAll"
+363: Tag 1 Utf8 Value "(Ljava/util/Collection;)Z"
+364: Tag 11 InterfaceMethodRef Class index 291, Name and type index 365
+365: Tag 12 NameAndType Name index 366, Description index 113
+366: Tag 1 Utf8 Value "isEmpty"
+367: Tag 7 Class Name index 368
+368: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/ConsistentHashLocality"
+369: Tag 10 MethodRef Class index 367, Name and type index 370
+370: Tag 12 NameAndType Name index 5, Description index 371
+371: Tag 1 Utf8 Value "(Lorg/infinispan/Cache;Lorg/infinispan/distribution/ch/ConsistentHash;)V"
+372: Tag 11 InterfaceMethodRef Class index 373, Name and type index 374
+373: Tag 7 Class Name index 375
+374: Tag 12 NameAndType Name index 376, Description index 310
+375: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/Locality"
+376: Tag 1 Utf8 Value "isLocal"
+377: Tag 11 InterfaceMethodRef Class index 109, Name and type index 378
+378: Tag 12 NameAndType Name index 379, Description index 6
+379: Tag 1 Utf8 Value "remove"
+380: Tag 11 InterfaceMethodRef Class index 338, Name and type index 381
+381: Tag 12 NameAndType Name index 382, Description index 310
+382: Tag 1 Utf8 Value "contains"
+383: Tag 11 InterfaceMethodRef Class index 97, Name and type index 384
+384: Tag 12 NameAndType Name index 317, Description index 298
+385: Tag 7 Class Name index 386
+386: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/CacheServiceProviderRegistry$1"
+387: Tag 10 MethodRef Class index 385, Name and type index 388
+388: Tag 12 NameAndType Name index 5, Description index 389
+389: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistry;Ljava/util/Set;Lorg/wildfly/clustering/ee/Batcher;Lorg/infinispan/Cache;Ljava/util/Set;Lorg/wildfly/clustering/ee/Invoker;)V"
+390: Tag 11 InterfaceMethodRef Class index 123, Name and type index 391
+391: Tag 12 NameAndType Name index 392, Description index 393
+392: Tag 1 Utf8 Value "submit"
+393: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;"
+394: Tag 7 Class Name index 395
+395: Tag 1 Utf8 Value "java/util/concurrent/RejectedExecutionException"
+396: Tag 11 InterfaceMethodRef Class index 397, Name and type index 321
+397: Tag 7 Class Name index 398
+398: Tag 1 Utf8 Value "org/infinispan/notifications/cachelistener/event/CacheEntryEvent"
+399: Tag 11 InterfaceMethodRef Class index 397, Name and type index 400
+400: Tag 12 NameAndType Name index 401, Description index 117
+401: Tag 1 Utf8 Value "getKey"
+402: Tag 11 InterfaceMethodRef Class index 97, Name and type index 288
+403: Tag 11 InterfaceMethodRef Class index 118, Name and type index 400
+404: Tag 7 Class Name index 405
+405: Tag 1 Utf8 Value "org/wildfly/clustering/provider/ServiceProviderRegistration$Listener"
+406: Tag 18 InvokeDynamic Bootstrap index 2, NameAndType index 407
+407: Tag 12 NameAndType Name index 214, Description index 408
+408: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistry;Lorg/infinispan/notifications/cachelistener/event/CacheEntryEvent;Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;)Ljava/lang/Runnable;"
+409: Tag 10 MethodRef Class index 410, Name and type index 411
+410: Tag 7 Class Name index 412
+411: Tag 12 NameAndType Name index 413, Description index 414
+412: Tag 1 Utf8 Value "org/infinispan/util/concurrent/CompletableFutures"
+413: Tag 1 Utf8 Value "completedNull"
+414: Tag 1 Utf8 Value "()Ljava/util/concurrent/CompletableFuture;"
+415: Tag 10 MethodRef Class index 23, Name and type index 416
+416: Tag 12 NameAndType Name index 175, Description index 417
+417: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration;"
+418: Tag 11 InterfaceMethodRef Class index 397, Name and type index 121
+419: Tag 11 InterfaceMethodRef Class index 404, Name and type index 420
+420: Tag 12 NameAndType Name index 421, Description index 422
+421: Tag 1 Utf8 Value "providersChanged"
+422: Tag 1 Utf8 Value "(Ljava/util/Set;)V"
+423: Tag 9 FieldRef Class index 424, Name and type index 425
+424: Tag 7 Class Name index 426
+425: Tag 12 NameAndType Name index 427, Description index 428
+426: Tag 1 Utf8 Value "org/wildfly/clustering/server/logging/ClusteringServerLogger"
+427: Tag 1 Utf8 Value "ROOT_LOGGER"
+428: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/logging/ClusteringServerLogger;"
+429: Tag 11 InterfaceMethodRef Class index 351, Name and type index 430
+430: Tag 12 NameAndType Name index 431, Description index 432
+431: Tag 1 Utf8 Value "getCacheManagerConfiguration"
+432: Tag 1 Utf8 Value "()Lorg/infinispan/configuration/global/GlobalConfiguration;"
+433: Tag 10 MethodRef Class index 434, Name and type index 435
+434: Tag 7 Class Name index 436
+435: Tag 12 NameAndType Name index 437, Description index 195
+436: Tag 1 Utf8 Value "org/infinispan/configuration/global/GlobalConfiguration"
+437: Tag 1 Utf8 Value "cacheManagerName"
+438: Tag 11 InterfaceMethodRef Class index 62, Name and type index 439
+439: Tag 12 NameAndType Name index 440, Description index 195
+440: Tag 1 Utf8 Value "getName"
+441: Tag 11 InterfaceMethodRef Class index 424, Name and type index 442
+442: Tag 12 NameAndType Name index 443, Description index 444
+443: Tag 1 Utf8 Value "serviceProviderRegistrationListenerFailed"
+444: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V"
+445: Tag 7 Class Name index 446
+446: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/CopyOnWriteAddressSetRemoveFunction"
+447: Tag 10 MethodRef Class index 445, Name and type index 278
+448: Tag 7 Class Name index 449
+449: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/ConcurrentAddressSetRemoveFunction"
+450: Tag 10 MethodRef Class index 448, Name and type index 278
+451: Tag 11 InterfaceMethodRef Class index 97, Name and type index 452
+452: Tag 12 NameAndType Name index 379, Description index 290
+453: Tag 9 FieldRef Class index 454, Name and type index 455
+454: Tag 7 Class Name index 456
+455: Tag 12 NameAndType Name index 457, Description index 458
+456: Tag 1 Utf8 Value "org/jboss/as/clustering/context/ExecutorServiceFactory"
+457: Tag 1 Utf8 Value "SINGLE_THREAD"
+458: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/context/ExecutorServiceFactory;"
+459: Tag 10 MethodRef Class index 129, Name and type index 460
+460: Tag 12 NameAndType Name index 5, Description index 461
+461: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/util/function/Function;)V"
+462: Tag 11 InterfaceMethodRef Class index 118, Name and type index 463
+463: Tag 12 NameAndType Name index 464, Description index 290
+464: Tag 1 Utf8 Value "setValue"
+465: Tag 7 Class Name index 466
+466: Tag 1 Utf8 Value "org/wildfly/clustering/provider/ServiceProviderRegistry"
+467: Tag 7 Class Name index 468
+468: Tag 1 Utf8 Value "java/lang/AutoCloseable"
+469: Tag 1 Utf8 Value "Signature"
+470: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher<+Lorg/wildfly/clustering/ee/Batch;>;"
+471: Tag 1 Utf8 Value "Ljava/util/concurrent/ConcurrentMap<TT;Ljava/util/Map$Entry<Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;Ljava/util/concurrent/ExecutorService;>;>;"
+472: Tag 1 Utf8 Value "Lorg/infinispan/Cache<TT;Ljava/util/Set<Lorg/infinispan/remoting/transport/Address;>;>;"
+473: Tag 1 Utf8 Value "Lorg/wildfly/clustering/spi/group/Group<Lorg/infinispan/remoting/transport/Address;>;"
+474: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistryConfiguration;)V"
+475: Tag 1 Utf8 Value "Code"
+476: Tag 1 Utf8 Value "LineNumberTable"
+477: Tag 1 Utf8 Value "LocalVariableTable"
+478: Tag 1 Utf8 Value "this"
+479: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistry;"
+480: Tag 1 Utf8 Value "config"
+481: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistryConfiguration;"
+482: Tag 1 Utf8 Value "LocalVariableTypeTable"
+483: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistry<TT;>;"
+484: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistryConfiguration<TT;>;"
+485: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistryConfiguration<TT;>;)V"
+486: Tag 1 Utf8 Value "executor"
+487: Tag 1 Utf8 Value "entry"
+488: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+489: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;Ljava/util/concurrent/ExecutorService;>;"
+490: Tag 1 Utf8 Value "StackMapTable"
+491: Tag 1 Utf8 Value "e"
+492: Tag 1 Utf8 Value "Ljava/lang/InterruptedException;"
+493: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/group/Group;"
+494: Tag 1 Utf8 Value "service"
+495: Tag 1 Utf8 Value "Ljava/lang/Object;"
+496: Tag 1 Utf8 Value "TT;"
+497: Tag 1 Utf8 Value "(TT;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration<TT;>;"
+498: Tag 1 Utf8 Value "listener"
+499: Tag 1 Utf8 Value "Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;"
+500: Tag 1 Utf8 Value "newEntry"
+501: Tag 1 Utf8 Value "(TT;Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration<TT;>;"
+502: Tag 1 Utf8 Value "registerLocal"
+503: Tag 1 Utf8 Value "batch"
+504: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batch;"
+505: Tag 1 Utf8 Value "(TT;)V"
+506: Tag 1 Utf8 Value "address"
+507: Tag 1 Utf8 Value "Lorg/infinispan/remoting/transport/Address;"
+508: Tag 7 Class Name index 509
+509: Tag 1 Utf8 Value "java/util/function/BiFunction"
+510: Tag 1 Utf8 Value "(Lorg/infinispan/remoting/transport/Address;TT;)V"
+511: Tag 1 Utf8 Value "getProviders"
+512: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/Set;"
+513: Tag 1 Utf8 Value "addresses"
+514: Tag 1 Utf8 Value "Ljava/util/Set;"
+515: Tag 1 Utf8 Value "members"
+516: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/infinispan/remoting/transport/Address;>;"
+517: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/wildfly/clustering/group/Node;>;"
+518: Tag 1 Utf8 Value "(TT;)Ljava/util/Set<Lorg/wildfly/clustering/group/Node;>;"
+519: Tag 1 Utf8 Value "getServices"
+520: Tag 1 Utf8 Value "()Ljava/util/Set<TT;>;"
+521: Tag 1 Utf8 Value "topologyChanged"
+522: Tag 1 Utf8 Value "(Lorg/infinispan/notifications/cachelistener/event/TopologyChangedEvent;)V"
+523: Tag 1 Utf8 Value "locality"
+524: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;"
+525: Tag 1 Utf8 Value "Ljava/util/Iterator;"
+526: Tag 1 Utf8 Value "localAddress"
+527: Tag 1 Utf8 Value "leftMembers"
+528: Tag 1 Utf8 Value "localServices"
+529: Tag 1 Utf8 Value "previousHash"
+530: Tag 1 Utf8 Value "Lorg/infinispan/distribution/ch/ConsistentHash;"
+531: Tag 1 Utf8 Value "previousMembers"
+532: Tag 1 Utf8 Value "Ljava/util/List;"
+533: Tag 1 Utf8 Value "hash"
+534: Tag 1 Utf8 Value "event"
+535: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/event/TopologyChangedEvent;"
+536: Tag 1 Utf8 Value "Ljava/util/Iterator<Lorg/infinispan/remoting/transport/Address;>;"
+537: Tag 1 Utf8 Value "Ljava/util/Set<TT;>;"
+538: Tag 1 Utf8 Value "Ljava/util/List<Lorg/infinispan/remoting/transport/Address;>;"
+539: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/event/TopologyChangedEvent<TT;Ljava/util/Set<Lorg/infinispan/remoting/transport/Address;>;>;"
+540: Tag 1 Utf8 Value "(Lorg/infinispan/notifications/cachelistener/event/TopologyChangedEvent<TT;Ljava/util/Set<Lorg/infinispan/remoting/transport/Address;>;>;)V"
+541: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+542: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/annotation/TopologyChanged;"
+543: Tag 1 Utf8 Value "modified"
+544: Tag 1 Utf8 Value "(Lorg/infinispan/notifications/cachelistener/event/CacheEntryEvent;)Ljava/util/concurrent/CompletionStage;"
+545: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/event/CacheEntryEvent;"
+546: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/event/CacheEntryEvent<TT;Ljava/util/Set<Lorg/infinispan/remoting/transport/Address;>;>;"
+547: Tag 1 Utf8 Value "(Lorg/infinispan/notifications/cachelistener/event/CacheEntryEvent<TT;Ljava/util/Set<Lorg/infinispan/remoting/transport/Address;>;>;)Ljava/util/concurrent/CompletionStage<Ljava/lang/Void;>;"
+548: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/annotation/CacheEntryCreated;"
+549: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/annotation/CacheEntryModified;"
+550: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/wildfly/clustering/Registration;"
+551: Tag 1 Utf8 Value "lambda$modified$2"
+552: Tag 1 Utf8 Value "(Lorg/infinispan/notifications/cachelistener/event/CacheEntryEvent;Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;)V"
+553: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+554: Tag 1 Utf8 Value "lambda$register$1"
+555: Tag 1 Utf8 Value "oldEntry"
+556: Tag 1 Utf8 Value "lambda$register$0"
+557: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;Ljava/util/Map$Entry;Ljava/lang/Object;)Ljava/util/Map$Entry;"
+558: Tag 1 Utf8 Value "key"
+559: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/provider/ServiceProviderRegistry<TT;>;Ljava/lang/AutoCloseable;"
+560: Tag 1 Utf8 Value "SourceFile"
+561: Tag 1 Utf8 Value "CacheServiceProviderRegistry.java"
+562: Tag 1 Utf8 Value "Lorg/infinispan/notifications/Listener;"
+563: Tag 1 Utf8 Value "BootstrapMethods"
+564: Tag 15 MethodHandle Kind 6, Index 565
+565: Tag 10 MethodRef Class index 566, Name and type index 567
+566: Tag 7 Class Name index 568
+567: Tag 12 NameAndType Name index 569, Description index 570
+568: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+569: Tag 1 Utf8 Value "metafactory"
+570: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+571: Tag 16 MethodType Descriptor index 290
+572: Tag 15 MethodHandle Kind 6, Index 573
+573: Tag 10 MethodRef Class index 23, Name and type index 574
+574: Tag 12 NameAndType Name index 556, Description index 557
+575: Tag 16 MethodType Descriptor index 576
+576: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/Map$Entry;"
+577: Tag 16 MethodType Descriptor index 6
+578: Tag 15 MethodHandle Kind 7, Index 579
+579: Tag 10 MethodRef Class index 23, Name and type index 580
+580: Tag 12 NameAndType Name index 554, Description index 66
+581: Tag 15 MethodHandle Kind 7, Index 582
+582: Tag 10 MethodRef Class index 23, Name and type index 583
+583: Tag 12 NameAndType Name index 551, Description index 552
+584: Tag 1 Utf8 Value "InnerClasses"
+585: Tag 7 Class Name index 586
+586: Tag 1 Utf8 Value "java/util/Map"
+587: Tag 1 Utf8 Value "Entry"
+588: Tag 7 Class Name index 589
+589: Tag 1 Utf8 Value "org/wildfly/clustering/provider/ServiceProviderRegistration"
+590: Tag 1 Utf8 Value "Listener"
+591: Tag 7 Class Name index 592
+592: Tag 1 Utf8 Value "java/util/AbstractMap"
+593: Tag 1 Utf8 Value "SimpleEntry"
+594: Tag 1 Utf8 Value "RegisterLocalServiceTask"
+595: Tag 7 Class Name index 596
+596: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+597: Tag 7 Class Name index 598
+598: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+599: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 23, name org.wildfly.clustering.server.provider.CacheServiceProviderRegistry
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 465 467
+Implements names org.wildfly.clustering.provider.ServiceProviderRegistry java.lang.AutoCloseable
+
+Field name topologyChangeExecutor (index 26), type Ljava/util/concurrent/ExecutorService; (descriptor index 27)
+Human type: java.util.concurrent.ExecutorService
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name batcher (index 59), type Lorg/wildfly/clustering/ee/Batcher; (descriptor index 60)
+Human type: org.wildfly.clustering.ee.Batcher
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name listeners (index 33), type Ljava/util/concurrent/ConcurrentMap; (descriptor index 34)
+Human type: java.util.concurrent.ConcurrentMap
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name cache (index 51), type Lorg/infinispan/Cache; (descriptor index 52)
+Human type: org.infinispan.Cache
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name group (index 43), type Lorg/wildfly/clustering/spi/group/Group; (descriptor index 44)
+Human type: org.wildfly.clustering.spi.group.Group
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name invoker (index 74), type Lorg/wildfly/clustering/ee/Invoker; (descriptor index 75)
+Human type: org.wildfly.clustering.ee.Invoker
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name properties (index 87), type Lorg/wildfly/clustering/ee/cache/CacheProperties; (descriptor index 88)
+Human type: org.wildfly.clustering.ee.cache.CacheProperties
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/server/provider/CacheServiceProviderRegistryConfiguration;)V (descriptor index 474)
+Human type: (org.wildfly.clustering.server.provider.CacheServiceProviderRegistryConfiguration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 225
+Method attribute name Signature, size 2
+Method name close (index 244), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 224
+Method name shutdown (index 94), type (Ljava/util/concurrent/ExecutorService;)V (descriptor index 95)
+Human type: (java.util.concurrent.ExecutorService): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 165
+Method name getGroup (index 39), type ()Lorg/wildfly/clustering/group/Group; (descriptor index 493)
+Human type: (): org.wildfly.clustering.group.Group
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name register (index 175), type (Ljava/lang/Object;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration; (descriptor index 417)
+Human type: (java.lang.Object): org.wildfly.clustering.provider.ServiceProviderRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 87
+Method attribute name Signature, size 2
+Method name register (index 175), type (Ljava/lang/Object;Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration; (descriptor index 176)
+Human type: (java.lang.Object, org.wildfly.clustering.provider.ServiceProviderRegistration$Listener): org.wildfly.clustering.provider.ServiceProviderRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 252
+Method attribute name Signature, size 2
+Method name registerLocal (index 502), type (Ljava/lang/Object;)V (descriptor index 66)
+Human type: (java.lang.Object): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 249
+Method attribute name Signature, size 2
+Method name register (index 175), type (Lorg/infinispan/remoting/transport/Address;Ljava/lang/Object;)V (descriptor index 239)
+Human type: (org.infinispan.remoting.transport.Address, java.lang.Object): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 218
+Method attribute name Signature, size 2
+Method name getProviders (index 511), type (Ljava/lang/Object;)Ljava/util/Set; (descriptor index 512)
+Human type: (java.lang.Object): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 266
+Method attribute name Signature, size 2
+Method name getServices (index 519), type ()Ljava/util/Set; (descriptor index 298)
+Human type: (): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method attribute name Signature, size 2
+Method name topologyChanged (index 521), type (Lorg/infinispan/notifications/cachelistener/event/TopologyChangedEvent;)V (descriptor index 522)
+Human type: (org.infinispan.notifications.cachelistener.event.TopologyChangedEvent): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 760
+Method attribute name Signature, size 2
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name modified (index 543), type (Lorg/infinispan/notifications/cachelistener/event/CacheEntryEvent;)Ljava/util/concurrent/CompletionStage; (descriptor index 544)
+Human type: (org.infinispan.notifications.cachelistener.event.CacheEntryEvent): java.util.concurrent.CompletionStage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 282
+Method attribute name Signature, size 2
+Method attribute name RuntimeVisibleAnnotations, size 10
+Method name register (index 175), type (Ljava/lang/Object;)Lorg/wildfly/clustering/Registration; (descriptor index 550)
+Human type: (java.lang.Object): org.wildfly.clustering.Registration
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 66
+Method name lambda$modified$2 (index 551), type (Lorg/infinispan/notifications/cachelistener/event/CacheEntryEvent;Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;)V (descriptor index 552)
+Human type: (org.infinispan.notifications.cachelistener.event.CacheEntryEvent, org.wildfly.clustering.provider.ServiceProviderRegistration$Listener): void
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 302
+Method name lambda$register$1 (index 554), type (Ljava/lang/Object;)V (descriptor index 66)
+Human type: (java.lang.Object): void
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 619
+Method name lambda$register$0 (index 556), type (Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;Ljava/util/Map$Entry;Ljava/lang/Object;)Ljava/util/Map$Entry; (descriptor index 557)
+Human type: (org.wildfly.clustering.provider.ServiceProviderRegistration$Listener, java.util.Map$Entry, java.lang.Object): java.util.Map$Entry
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 106
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 6
+Class attribute name BootstrapMethods, size 32
+Class attribute name InnerClasses, size 50

@@ -1,0 +1,150 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 105
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/ee/resource/definition/ResourceDefinitionAnnotationProcessor"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionAnnotationProcessor"
+11: Tag 1 Utf8 Value "JMS_DESTINATION_DEFINITION"
+12: Tag 1 Utf8 Value "Lorg/jboss/jandex/DotName;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "JMS_DESTINATION_DEFINITIONS"
+16: Tag 7 Class Name index 17
+17: Tag 1 Utf8 Value "org/jboss/as/ee/resource/definition/ResourceDefinitionAnnotationProcessor$AnnotationElement"
+18: Tag 8 String Contents 19
+19: Tag 1 Utf8 Value "name"
+20: Tag 10 MethodRef Class index 16, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 23
+22: Tag 1 Utf8 Value "asRequiredString"
+23: Tag 1 Utf8 Value "(Lorg/jboss/jandex/AnnotationInstance;Ljava/lang/String;)Ljava/lang/String;"
+24: Tag 8 String Contents 25
+25: Tag 1 Utf8 Value "interfaceName"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource"
+28: Tag 10 MethodRef Class index 26, Name and type index 29
+29: Tag 12 NameAndType Name index 5, Description index 30
+30: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+31: Tag 8 String Contents 32
+32: Tag 1 Utf8 Value "className"
+33: Tag 10 MethodRef Class index 16, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 23
+35: Tag 1 Utf8 Value "asOptionalString"
+36: Tag 10 MethodRef Class index 26, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 39
+38: Tag 1 Utf8 Value "setClassName"
+39: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+40: Tag 8 String Contents 41
+41: Tag 1 Utf8 Value "resourceAdapter"
+42: Tag 10 MethodRef Class index 26, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 39
+44: Tag 1 Utf8 Value "setResourceAdapter"
+45: Tag 8 String Contents 46
+46: Tag 1 Utf8 Value "destinationName"
+47: Tag 10 MethodRef Class index 16, Name and type index 48
+48: Tag 12 NameAndType Name index 35, Description index 49
+49: Tag 1 Utf8 Value "(Lorg/jboss/jandex/AnnotationInstance;Ljava/lang/String;Lorg/jboss/metadata/property/PropertyReplacer;)Ljava/lang/String;"
+50: Tag 10 MethodRef Class index 26, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 39
+52: Tag 1 Utf8 Value "setDestinationName"
+53: Tag 8 String Contents 54
+54: Tag 1 Utf8 Value "properties"
+55: Tag 10 MethodRef Class index 16, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "asOptionalStringArray"
+58: Tag 1 Utf8 Value "(Lorg/jboss/jandex/AnnotationInstance;Ljava/lang/String;)[Ljava/lang/String;"
+59: Tag 10 MethodRef Class index 26, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "addProperties"
+62: Tag 1 Utf8 Value "([Ljava/lang/String;Lorg/jboss/metadata/property/PropertyReplacer;)V"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "javax/jms/JMSDestinationDefinition"
+65: Tag 10 MethodRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 69, Description index 70
+68: Tag 1 Utf8 Value "java/lang/Class"
+69: Tag 1 Utf8 Value "getName"
+70: Tag 1 Utf8 Value "()Ljava/lang/String;"
+71: Tag 10 MethodRef Class index 72, Name and type index 73
+72: Tag 7 Class Name index 74
+73: Tag 12 NameAndType Name index 75, Description index 76
+74: Tag 1 Utf8 Value "org/jboss/jandex/DotName"
+75: Tag 1 Utf8 Value "createSimple"
+76: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/jandex/DotName;"
+77: Tag 7 Class Name index 78
+78: Tag 1 Utf8 Value "javax/jms/JMSDestinationDefinitions"
+79: Tag 1 Utf8 Value "Code"
+80: Tag 1 Utf8 Value "LineNumberTable"
+81: Tag 1 Utf8 Value "LocalVariableTable"
+82: Tag 1 Utf8 Value "this"
+83: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionAnnotationProcessor;"
+84: Tag 1 Utf8 Value "getAnnotationDotName"
+85: Tag 1 Utf8 Value "()Lorg/jboss/jandex/DotName;"
+86: Tag 1 Utf8 Value "getAnnotationCollectionDotName"
+87: Tag 1 Utf8 Value "processAnnotation"
+88: Tag 1 Utf8 Value "(Lorg/jboss/jandex/AnnotationInstance;Lorg/jboss/metadata/property/PropertyReplacer;)Lorg/jboss/as/ee/resource/definition/ResourceDefinitionInjectionSource;"
+89: Tag 1 Utf8 Value "annotationInstance"
+90: Tag 1 Utf8 Value "Lorg/jboss/jandex/AnnotationInstance;"
+91: Tag 1 Utf8 Value "propertyReplacer"
+92: Tag 1 Utf8 Value "Lorg/jboss/metadata/property/PropertyReplacer;"
+93: Tag 1 Utf8 Value "jndiName"
+94: Tag 1 Utf8 Value "Ljava/lang/String;"
+95: Tag 1 Utf8 Value "directJMSDestinationInjectionSource"
+96: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource;"
+97: Tag 1 Utf8 Value "Exceptions"
+98: Tag 7 Class Name index 99
+99: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+100: Tag 1 Utf8 Value "<clinit>"
+101: Tag 1 Utf8 Value "SourceFile"
+102: Tag 1 Utf8 Value "JMSDestinationDefinitionAnnotationProcessor.java"
+103: Tag 1 Utf8 Value "InnerClasses"
+104: Tag 1 Utf8 Value "AnnotationElement"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.messaging.activemq.deployment.JMSDestinationDefinitionAnnotationProcessor
+
+Super class: id 2, name org.jboss.as.ee.resource.definition.ResourceDefinitionAnnotationProcessor
+
+No interfaces
+
+Field name JMS_DESTINATION_DEFINITION (index 11), type Lorg/jboss/jandex/DotName; (descriptor index 12)
+Human type: org.jboss.jandex.DotName
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name JMS_DESTINATION_DEFINITIONS (index 15), type Lorg/jboss/jandex/DotName; (descriptor index 12)
+Human type: org.jboss.jandex.DotName
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getAnnotationDotName (index 84), type ()Lorg/jboss/jandex/DotName; (descriptor index 85)
+Human type: (): org.jboss.jandex.DotName
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 46
+Method name getAnnotationCollectionDotName (index 86), type ()Lorg/jboss/jandex/DotName; (descriptor index 85)
+Human type: (): org.jboss.jandex.DotName
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 46
+Method name processAnnotation (index 87), type (Lorg/jboss/jandex/AnnotationInstance;Lorg/jboss/metadata/property/PropertyReplacer;)Lorg/jboss/as/ee/resource/definition/ResourceDefinitionInjectionSource; (descriptor index 88)
+Human type: (org.jboss.jandex.AnnotationInstance, org.jboss.metadata.property.PropertyReplacer): org.jboss.as.ee.resource.definition.ResourceDefinitionInjectionSource
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 196
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 100), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 51
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

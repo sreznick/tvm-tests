@@ -1,0 +1,562 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 468
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceOperations"
+5: Tag 1 Utf8 Value "getDataSource"
+6: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)Lio/agroal/api/AgroalDataSource;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "io/agroal/api/configuration/supplier/AgroalConnectionFactoryConfigurationSupplier"
+15: Tag 10 MethodRef Class index 13, Name and type index 9
+16: Tag 9 FieldRef Class index 17, Name and type index 18
+17: Tag 7 Class Name index 19
+18: Tag 12 NameAndType Name index 20, Description index 21
+19: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceDefinition"
+20: Tag 1 Utf8 Value "URL_ATTRIBUTE"
+21: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+22: Tag 10 MethodRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+26: Tag 1 Utf8 Value "resolveModelAttribute"
+27: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+28: Tag 10 MethodRef Class index 29, Name and type index 30
+29: Tag 7 Class Name index 31
+30: Tag 12 NameAndType Name index 32, Description index 33
+31: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+32: Tag 1 Utf8 Value "isDefined"
+33: Tag 1 Utf8 Value "()Z"
+34: Tag 10 MethodRef Class index 29, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "asString"
+37: Tag 1 Utf8 Value "()Ljava/lang/String;"
+38: Tag 10 MethodRef Class index 13, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "jdbcUrl"
+41: Tag 1 Utf8 Value "(Ljava/lang/String;)Lio/agroal/api/configuration/supplier/AgroalConnectionFactoryConfigurationSupplier;"
+42: Tag 9 FieldRef Class index 17, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 21
+44: Tag 1 Utf8 Value "NEW_CONNECTION_SQL_ATTRIBUTE"
+45: Tag 10 MethodRef Class index 13, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 41
+47: Tag 1 Utf8 Value "initialSql"
+48: Tag 9 FieldRef Class index 17, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 21
+50: Tag 1 Utf8 Value "TRANSACTION_ISOLATION_ATTRIBUTE"
+51: Tag 10 MethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 56
+54: Tag 1 Utf8 Value "io/agroal/api/configuration/AgroalConnectionFactoryConfiguration$TransactionIsolation"
+55: Tag 1 Utf8 Value "valueOf"
+56: Tag 1 Utf8 Value "(Ljava/lang/String;)Lio/agroal/api/configuration/AgroalConnectionFactoryConfiguration$TransactionIsolation;"
+57: Tag 10 MethodRef Class index 13, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "jdbcTransactionIsolation"
+60: Tag 1 Utf8 Value "(Lio/agroal/api/configuration/AgroalConnectionFactoryConfiguration$TransactionIsolation;)Lio/agroal/api/configuration/supplier/AgroalConnectionFactoryConfigurationSupplier;"
+61: Tag 9 FieldRef Class index 17, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "CONNECTION_PROPERTIES_ATTRIBUTE"
+64: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PropertiesAttributeDefinition;"
+65: Tag 10 MethodRef Class index 66, Name and type index 24
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "org/jboss/as/controller/PropertiesAttributeDefinition"
+68: Tag 10 MethodRef Class index 29, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "asPropertyList"
+71: Tag 1 Utf8 Value "()Ljava/util/List;"
+72: Tag 11 InterfaceMethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "java/util/List"
+76: Tag 1 Utf8 Value "iterator"
+77: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+78: Tag 11 InterfaceMethodRef Class index 79, Name and type index 80
+79: Tag 7 Class Name index 81
+80: Tag 12 NameAndType Name index 82, Description index 33
+81: Tag 1 Utf8 Value "java/util/Iterator"
+82: Tag 1 Utf8 Value "hasNext"
+83: Tag 11 InterfaceMethodRef Class index 79, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 86
+85: Tag 1 Utf8 Value "next"
+86: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+87: Tag 7 Class Name index 88
+88: Tag 1 Utf8 Value "org/jboss/dmr/Property"
+89: Tag 10 MethodRef Class index 87, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 37
+91: Tag 1 Utf8 Value "getName"
+92: Tag 10 MethodRef Class index 87, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 95
+94: Tag 1 Utf8 Value "getValue"
+95: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+96: Tag 10 MethodRef Class index 13, Name and type index 97
+97: Tag 12 NameAndType Name index 98, Description index 99
+98: Tag 1 Utf8 Value "jdbcProperty"
+99: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lio/agroal/api/configuration/supplier/AgroalConnectionFactoryConfigurationSupplier;"
+100: Tag 9 FieldRef Class index 17, Name and type index 101
+101: Tag 12 NameAndType Name index 102, Description index 21
+102: Tag 1 Utf8 Value "USERNAME_ATTRIBUTE"
+103: Tag 7 Class Name index 104
+104: Tag 1 Utf8 Value "io/agroal/api/security/NamePrincipal"
+105: Tag 10 MethodRef Class index 103, Name and type index 106
+106: Tag 12 NameAndType Name index 11, Description index 107
+107: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+108: Tag 10 MethodRef Class index 13, Name and type index 109
+109: Tag 12 NameAndType Name index 110, Description index 111
+110: Tag 1 Utf8 Value "principal"
+111: Tag 1 Utf8 Value "(Ljava/security/Principal;)Lio/agroal/api/configuration/supplier/AgroalConnectionFactoryConfigurationSupplier;"
+112: Tag 9 FieldRef Class index 17, Name and type index 113
+113: Tag 12 NameAndType Name index 114, Description index 21
+114: Tag 1 Utf8 Value "PASSWORD_ATTRIBUTE"
+115: Tag 7 Class Name index 116
+116: Tag 1 Utf8 Value "io/agroal/api/security/SimplePassword"
+117: Tag 10 MethodRef Class index 115, Name and type index 106
+118: Tag 10 MethodRef Class index 13, Name and type index 119
+119: Tag 12 NameAndType Name index 120, Description index 121
+120: Tag 1 Utf8 Value "credential"
+121: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lio/agroal/api/configuration/supplier/AgroalConnectionFactoryConfigurationSupplier;"
+122: Tag 9 FieldRef Class index 17, Name and type index 123
+123: Tag 12 NameAndType Name index 124, Description index 21
+124: Tag 1 Utf8 Value "AUTHENTICATION_CONTEXT"
+125: Tag 8 String Contents 126
+126: Tag 1 Utf8 Value "org.wildfly.security.authentication-context"
+127: Tag 7 Class Name index 128
+128: Tag 1 Utf8 Value "org/wildfly/security/auth/client/AuthenticationContext"
+129: Tag 11 InterfaceMethodRef Class index 130, Name and type index 131
+130: Tag 7 Class Name index 132
+131: Tag 12 NameAndType Name index 133, Description index 134
+132: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+133: Tag 1 Utf8 Value "getCapabilityServiceName"
+134: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;)Lorg/jboss/msc/service/ServiceName;"
+135: Tag 10 MethodRef Class index 136, Name and type index 137
+136: Tag 7 Class Name index 138
+137: Tag 12 NameAndType Name index 139, Description index 140
+138: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/DataSourceService"
+139: Tag 1 Utf8 Value "getAuthenticationContextInjector"
+140: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue;"
+141: Tag 11 InterfaceMethodRef Class index 142, Name and type index 143
+142: Tag 7 Class Name index 144
+143: Tag 12 NameAndType Name index 145, Description index 146
+144: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+145: Tag 1 Utf8 Value "addDependency"
+146: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)Lorg/jboss/msc/service/ServiceBuilder;"
+147: Tag 9 FieldRef Class index 17, Name and type index 148
+148: Tag 12 NameAndType Name index 149, Description index 150
+149: Tag 1 Utf8 Value "CREDENTIAL_REFERENCE"
+150: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ObjectTypeAttributeDefinition;"
+151: Tag 10 MethodRef Class index 152, Name and type index 24
+152: Tag 7 Class Name index 153
+153: Tag 1 Utf8 Value "org/jboss/as/controller/ObjectTypeAttributeDefinition"
+154: Tag 10 MethodRef Class index 155, Name and type index 156
+155: Tag 7 Class Name index 157
+156: Tag 12 NameAndType Name index 158, Description index 159
+157: Tag 1 Utf8 Value "org/jboss/as/controller/security/CredentialReference"
+158: Tag 1 Utf8 Value "getCredentialSourceSupplier"
+159: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/ObjectTypeAttributeDefinition;Lorg/jboss/dmr/ModelNode;Lorg/jboss/msc/service/ServiceBuilder;)Lorg/wildfly/common/function/ExceptionSupplier;"
+160: Tag 10 MethodRef Class index 136, Name and type index 161
+161: Tag 12 NameAndType Name index 162, Description index 140
+162: Tag 1 Utf8 Value "getCredentialSourceSupplierInjector"
+163: Tag 10 MethodRef Class index 164, Name and type index 165
+164: Tag 7 Class Name index 166
+165: Tag 12 NameAndType Name index 167, Description index 168
+166: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+167: Tag 1 Utf8 Value "inject"
+168: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+169: Tag 7 Class Name index 170
+170: Tag 1 Utf8 Value "io/agroal/api/configuration/supplier/AgroalConnectionPoolConfigurationSupplier"
+171: Tag 10 MethodRef Class index 169, Name and type index 9
+172: Tag 9 FieldRef Class index 17, Name and type index 173
+173: Tag 12 NameAndType Name index 174, Description index 21
+174: Tag 1 Utf8 Value "MAX_SIZE_ATTRIBUTE"
+175: Tag 10 MethodRef Class index 29, Name and type index 176
+176: Tag 12 NameAndType Name index 177, Description index 178
+177: Tag 1 Utf8 Value "asInt"
+178: Tag 1 Utf8 Value "()I"
+179: Tag 10 MethodRef Class index 169, Name and type index 180
+180: Tag 12 NameAndType Name index 181, Description index 182
+181: Tag 1 Utf8 Value "maxSize"
+182: Tag 1 Utf8 Value "(I)Lio/agroal/api/configuration/supplier/AgroalConnectionPoolConfigurationSupplier;"
+183: Tag 9 FieldRef Class index 17, Name and type index 184
+184: Tag 12 NameAndType Name index 185, Description index 21
+185: Tag 1 Utf8 Value "MIN_SIZE_ATTRIBUTE"
+186: Tag 10 MethodRef Class index 169, Name and type index 187
+187: Tag 12 NameAndType Name index 188, Description index 182
+188: Tag 1 Utf8 Value "minSize"
+189: Tag 9 FieldRef Class index 17, Name and type index 190
+190: Tag 12 NameAndType Name index 191, Description index 21
+191: Tag 1 Utf8 Value "INITIAL_SIZE_ATTRIBUTE"
+192: Tag 10 MethodRef Class index 169, Name and type index 193
+193: Tag 12 NameAndType Name index 194, Description index 182
+194: Tag 1 Utf8 Value "initialSize"
+195: Tag 9 FieldRef Class index 17, Name and type index 196
+196: Tag 12 NameAndType Name index 197, Description index 21
+197: Tag 1 Utf8 Value "BLOCKING_TIMEOUT_MILLIS_ATTRIBUTE"
+198: Tag 10 MethodRef Class index 199, Name and type index 200
+199: Tag 7 Class Name index 201
+200: Tag 12 NameAndType Name index 202, Description index 203
+201: Tag 1 Utf8 Value "java/time/Duration"
+202: Tag 1 Utf8 Value "ofMillis"
+203: Tag 1 Utf8 Value "(J)Ljava/time/Duration;"
+204: Tag 10 MethodRef Class index 169, Name and type index 205
+205: Tag 12 NameAndType Name index 206, Description index 207
+206: Tag 1 Utf8 Value "acquisitionTimeout"
+207: Tag 1 Utf8 Value "(Ljava/time/Duration;)Lio/agroal/api/configuration/supplier/AgroalConnectionPoolConfigurationSupplier;"
+208: Tag 9 FieldRef Class index 17, Name and type index 209
+209: Tag 12 NameAndType Name index 210, Description index 21
+210: Tag 1 Utf8 Value "LEAK_DETECTION_ATTRIBUTE"
+211: Tag 10 MethodRef Class index 169, Name and type index 212
+212: Tag 12 NameAndType Name index 213, Description index 207
+213: Tag 1 Utf8 Value "leakTimeout"
+214: Tag 9 FieldRef Class index 17, Name and type index 215
+215: Tag 12 NameAndType Name index 216, Description index 21
+216: Tag 1 Utf8 Value "BACKGROUND_VALIDATION_ATTRIBUTE"
+217: Tag 10 MethodRef Class index 169, Name and type index 218
+218: Tag 12 NameAndType Name index 219, Description index 207
+219: Tag 1 Utf8 Value "validationTimeout"
+220: Tag 9 FieldRef Class index 17, Name and type index 221
+221: Tag 12 NameAndType Name index 222, Description index 21
+222: Tag 1 Utf8 Value "IDLE_REMOVAL_ATTRIBUTE"
+223: Tag 10 MethodRef Class index 199, Name and type index 224
+224: Tag 12 NameAndType Name index 225, Description index 203
+225: Tag 1 Utf8 Value "ofMinutes"
+226: Tag 10 MethodRef Class index 169, Name and type index 227
+227: Tag 12 NameAndType Name index 228, Description index 207
+228: Tag 1 Utf8 Value "reapTimeout"
+229: Tag 11 InterfaceMethodRef Class index 230, Name and type index 231
+230: Tag 7 Class Name index 232
+231: Tag 12 NameAndType Name index 233, Description index 234
+232: Tag 1 Utf8 Value "io/agroal/api/configuration/AgroalConnectionPoolConfiguration$ConnectionValidator"
+233: Tag 1 Utf8 Value "defaultValidator"
+234: Tag 1 Utf8 Value "()Lio/agroal/api/configuration/AgroalConnectionPoolConfiguration$ConnectionValidator;"
+235: Tag 10 MethodRef Class index 169, Name and type index 236
+236: Tag 12 NameAndType Name index 237, Description index 238
+237: Tag 1 Utf8 Value "connectionValidator"
+238: Tag 1 Utf8 Value "(Lio/agroal/api/configuration/AgroalConnectionPoolConfiguration$ConnectionValidator;)Lio/agroal/api/configuration/supplier/AgroalConnectionPoolConfigurationSupplier;"
+239: Tag 11 InterfaceMethodRef Class index 130, Name and type index 240
+240: Tag 12 NameAndType Name index 241, Description index 242
+241: Tag 1 Utf8 Value "getServiceRegistry"
+242: Tag 1 Utf8 Value "(Z)Lorg/jboss/msc/service/ServiceRegistry;"
+243: Tag 11 InterfaceMethodRef Class index 130, Name and type index 244
+244: Tag 12 NameAndType Name index 245, Description index 37
+245: Tag 1 Utf8 Value "getCurrentAddressValue"
+246: Tag 11 InterfaceMethodRef Class index 130, Name and type index 247
+247: Tag 12 NameAndType Name index 248, Description index 249
+248: Tag 1 Utf8 Value "getCurrentAddress"
+249: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+250: Tag 10 MethodRef Class index 251, Name and type index 252
+251: Tag 7 Class Name index 253
+252: Tag 12 NameAndType Name index 254, Description index 255
+253: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+254: Tag 1 Utf8 Value "getLastElement"
+255: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathElement;"
+256: Tag 10 MethodRef Class index 257, Name and type index 258
+257: Tag 7 Class Name index 259
+258: Tag 12 NameAndType Name index 260, Description index 37
+259: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+260: Tag 1 Utf8 Value "getKey"
+261: Tag 10 MethodRef Class index 262, Name and type index 263
+262: Tag 7 Class Name index 264
+263: Tag 12 NameAndType Name index 265, Description index 178
+264: Tag 1 Utf8 Value "java/lang/String"
+265: Tag 1 Utf8 Value "hashCode"
+266: Tag 8 String Contents 267
+267: Tag 1 Utf8 Value "datasource"
+268: Tag 10 MethodRef Class index 262, Name and type index 269
+269: Tag 12 NameAndType Name index 270, Description index 271
+270: Tag 1 Utf8 Value "equals"
+271: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+272: Tag 8 String Contents 273
+273: Tag 1 Utf8 Value "xa-datasource"
+274: Tag 9 FieldRef Class index 17, Name and type index 275
+275: Tag 12 NameAndType Name index 276, Description index 277
+276: Tag 1 Utf8 Value "DATA_SOURCE_CAPABILITY"
+277: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+278: Tag 10 MethodRef Class index 279, Name and type index 280
+279: Tag 7 Class Name index 281
+280: Tag 12 NameAndType Name index 133, Description index 282
+281: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+282: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+283: Tag 11 InterfaceMethodRef Class index 284, Name and type index 285
+284: Tag 7 Class Name index 286
+285: Tag 12 NameAndType Name index 287, Description index 288
+286: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+287: Tag 1 Utf8 Value "getRequiredService"
+288: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+289: Tag 11 InterfaceMethodRef Class index 290, Name and type index 291
+290: Tag 7 Class Name index 292
+291: Tag 12 NameAndType Name index 94, Description index 86
+292: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+293: Tag 7 Class Name index 294
+294: Tag 1 Utf8 Value "io/agroal/api/AgroalDataSource"
+295: Tag 9 FieldRef Class index 296, Name and type index 297
+296: Tag 7 Class Name index 298
+297: Tag 12 NameAndType Name index 299, Description index 300
+298: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/logging/AgroalLogger"
+299: Tag 1 Utf8 Value "SERVICE_LOGGER"
+300: Tag 1 Utf8 Value "Lorg/wildfly/extension/datasources/agroal/logging/AgroalLogger;"
+301: Tag 11 InterfaceMethodRef Class index 296, Name and type index 302
+302: Tag 12 NameAndType Name index 303, Description index 304
+303: Tag 1 Utf8 Value "unknownDatasourceServiceType"
+304: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+305: Tag 7 Class Name index 306
+306: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$StatisticsEnabledAttributeWriter"
+307: Tag 7 Class Name index 308
+308: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+309: Tag 9 FieldRef Class index 17, Name and type index 310
+310: Tag 12 NameAndType Name index 311, Description index 21
+311: Tag 1 Utf8 Value "STATISTICS_ENABLED_ATTRIBUTE"
+312: Tag 10 MethodRef Class index 305, Name and type index 313
+313: Tag 12 NameAndType Name index 11, Description index 314
+314: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;Lorg/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$1;)V"
+315: Tag 9 FieldRef Class index 2, Name and type index 316
+316: Tag 12 NameAndType Name index 317, Description index 318
+317: Tag 1 Utf8 Value "STATISTICS_ENABLED_WRITE_OPERATION"
+318: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationStepHandler;"
+319: Tag 7 Class Name index 320
+320: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$ConnectionFactoryAttributeWriter"
+321: Tag 9 FieldRef Class index 17, Name and type index 322
+322: Tag 12 NameAndType Name index 323, Description index 150
+323: Tag 1 Utf8 Value "CONNECTION_FACTORY_ATTRIBUTE"
+324: Tag 10 MethodRef Class index 152, Name and type index 325
+325: Tag 12 NameAndType Name index 326, Description index 327
+326: Tag 1 Utf8 Value "getValueTypes"
+327: Tag 1 Utf8 Value "()[Lorg/jboss/as/controller/AttributeDefinition;"
+328: Tag 10 MethodRef Class index 319, Name and type index 313
+329: Tag 9 FieldRef Class index 2, Name and type index 330
+330: Tag 12 NameAndType Name index 331, Description index 318
+331: Tag 1 Utf8 Value "CONNECTION_FACTORY_WRITE_OPERATION"
+332: Tag 7 Class Name index 333
+333: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$ConnectionPoolAttributeWriter"
+334: Tag 9 FieldRef Class index 17, Name and type index 335
+335: Tag 12 NameAndType Name index 336, Description index 150
+336: Tag 1 Utf8 Value "CONNECTION_POOL_ATTRIBUTE"
+337: Tag 10 MethodRef Class index 332, Name and type index 313
+338: Tag 9 FieldRef Class index 2, Name and type index 339
+339: Tag 12 NameAndType Name index 340, Description index 318
+340: Tag 1 Utf8 Value "CONNECTION_POOL_WRITE_OPERATION"
+341: Tag 7 Class Name index 342
+342: Tag 1 Utf8 Value "org/jboss/as/controller/security/CredentialReferenceWriteAttributeHandler"
+343: Tag 10 MethodRef Class index 341, Name and type index 344
+344: Tag 12 NameAndType Name index 11, Description index 345
+345: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;)V"
+346: Tag 9 FieldRef Class index 2, Name and type index 347
+347: Tag 12 NameAndType Name index 348, Description index 318
+348: Tag 1 Utf8 Value "CREDENTIAL_REFERENCE_WRITE_OPERATION"
+349: Tag 7 Class Name index 350
+350: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$FlushOperation"
+351: Tag 9 FieldRef Class index 352, Name and type index 353
+352: Tag 7 Class Name index 354
+353: Tag 12 NameAndType Name index 355, Description index 356
+354: Tag 1 Utf8 Value "io/agroal/api/AgroalDataSource$FlushMode"
+355: Tag 1 Utf8 Value "ALL"
+356: Tag 1 Utf8 Value "Lio/agroal/api/AgroalDataSource$FlushMode;"
+357: Tag 10 MethodRef Class index 349, Name and type index 358
+358: Tag 12 NameAndType Name index 11, Description index 359
+359: Tag 1 Utf8 Value "(Lio/agroal/api/AgroalDataSource$FlushMode;Lorg/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$1;)V"
+360: Tag 9 FieldRef Class index 2, Name and type index 361
+361: Tag 12 NameAndType Name index 362, Description index 318
+362: Tag 1 Utf8 Value "FLUSH_ALL_OPERATION"
+363: Tag 9 FieldRef Class index 352, Name and type index 364
+364: Tag 12 NameAndType Name index 365, Description index 356
+365: Tag 1 Utf8 Value "GRACEFUL"
+366: Tag 9 FieldRef Class index 2, Name and type index 367
+367: Tag 12 NameAndType Name index 368, Description index 318
+368: Tag 1 Utf8 Value "FLUSH_GRACEFUL_OPERATION"
+369: Tag 9 FieldRef Class index 352, Name and type index 370
+370: Tag 12 NameAndType Name index 371, Description index 356
+371: Tag 1 Utf8 Value "INVALID"
+372: Tag 9 FieldRef Class index 2, Name and type index 373
+373: Tag 12 NameAndType Name index 374, Description index 318
+374: Tag 1 Utf8 Value "FLUSH_INVALID_OPERATION"
+375: Tag 9 FieldRef Class index 352, Name and type index 376
+376: Tag 12 NameAndType Name index 377, Description index 356
+377: Tag 1 Utf8 Value "IDLE"
+378: Tag 9 FieldRef Class index 2, Name and type index 379
+379: Tag 12 NameAndType Name index 380, Description index 318
+380: Tag 1 Utf8 Value "FLUSH_IDLE_OPERATION"
+381: Tag 7 Class Name index 382
+382: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$ResetStatisticsOperation"
+383: Tag 10 MethodRef Class index 381, Name and type index 384
+384: Tag 12 NameAndType Name index 11, Description index 385
+385: Tag 1 Utf8 Value "(Lorg/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$1;)V"
+386: Tag 9 FieldRef Class index 2, Name and type index 387
+387: Tag 12 NameAndType Name index 388, Description index 318
+388: Tag 1 Utf8 Value "RESET_STATISTICS_OPERATION"
+389: Tag 7 Class Name index 390
+390: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$StatisticsGetOperation"
+391: Tag 10 MethodRef Class index 389, Name and type index 384
+392: Tag 9 FieldRef Class index 2, Name and type index 393
+393: Tag 12 NameAndType Name index 394, Description index 318
+394: Tag 1 Utf8 Value "STATISTICS_GET_OPERATION"
+395: Tag 7 Class Name index 396
+396: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$TestConnectionOperation"
+397: Tag 10 MethodRef Class index 395, Name and type index 384
+398: Tag 9 FieldRef Class index 2, Name and type index 399
+399: Tag 12 NameAndType Name index 400, Description index 318
+400: Tag 1 Utf8 Value "TEST_CONNECTION_OPERATION"
+401: Tag 1 Utf8 Value "Code"
+402: Tag 1 Utf8 Value "LineNumberTable"
+403: Tag 1 Utf8 Value "LocalVariableTable"
+404: Tag 1 Utf8 Value "this"
+405: Tag 1 Utf8 Value "Lorg/wildfly/extension/datasources/agroal/AbstractDataSourceOperations;"
+406: Tag 1 Utf8 Value "connectionFactoryConfiguration"
+407: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lio/agroal/api/configuration/supplier/AgroalConnectionFactoryConfigurationSupplier;"
+408: Tag 1 Utf8 Value "Lorg/jboss/dmr/Property;"
+409: Tag 1 Utf8 Value "context"
+410: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+411: Tag 1 Utf8 Value "model"
+412: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+413: Tag 1 Utf8 Value "configuration"
+414: Tag 1 Utf8 Value "Lio/agroal/api/configuration/supplier/AgroalConnectionFactoryConfigurationSupplier;"
+415: Tag 1 Utf8 Value "StackMapTable"
+416: Tag 1 Utf8 Value "Exceptions"
+417: Tag 7 Class Name index 418
+418: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+419: Tag 1 Utf8 Value "setupElytronSecurity"
+420: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/wildfly/extension/datasources/agroal/DataSourceService;Lorg/jboss/msc/service/ServiceBuilder;)V"
+421: Tag 1 Utf8 Value "authenticationContextName"
+422: Tag 1 Utf8 Value "Ljava/lang/String;"
+423: Tag 1 Utf8 Value "authenticationContextCapability"
+424: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+425: Tag 1 Utf8 Value "credentialSourceSupplier"
+426: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionSupplier;"
+427: Tag 1 Utf8 Value "dataSourceService"
+428: Tag 1 Utf8 Value "Lorg/wildfly/extension/datasources/agroal/DataSourceService;"
+429: Tag 1 Utf8 Value "serviceBuilder"
+430: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+431: Tag 1 Utf8 Value "LocalVariableTypeTable"
+432: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionSupplier<Lorg/wildfly/security/credential/source/CredentialSource;Ljava/lang/Exception;>;"
+433: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+434: Tag 1 Utf8 Value "Signature"
+435: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/wildfly/extension/datasources/agroal/DataSourceService;Lorg/jboss/msc/service/ServiceBuilder<*>;)V"
+436: Tag 1 Utf8 Value "connectionPoolConfiguration"
+437: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lio/agroal/api/configuration/supplier/AgroalConnectionPoolConfigurationSupplier;"
+438: Tag 1 Utf8 Value "Lio/agroal/api/configuration/supplier/AgroalConnectionPoolConfigurationSupplier;"
+439: Tag 1 Utf8 Value "controller"
+440: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+441: Tag 1 Utf8 Value "xaController"
+442: Tag 1 Utf8 Value "registry"
+443: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceRegistry;"
+444: Tag 1 Utf8 Value "dataSourceName"
+445: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+446: Tag 1 Utf8 Value "access$700"
+447: Tag 1 Utf8 Value "x0"
+448: Tag 1 Utf8 Value "<clinit>"
+449: Tag 1 Utf8 Value "SourceFile"
+450: Tag 1 Utf8 Value "AbstractDataSourceOperations.java"
+451: Tag 1 Utf8 Value "InnerClasses"
+452: Tag 7 Class Name index 453
+453: Tag 1 Utf8 Value "io/agroal/api/configuration/AgroalConnectionFactoryConfiguration"
+454: Tag 1 Utf8 Value "TransactionIsolation"
+455: Tag 7 Class Name index 456
+456: Tag 1 Utf8 Value "io/agroal/api/configuration/AgroalConnectionPoolConfiguration"
+457: Tag 1 Utf8 Value "ConnectionValidator"
+458: Tag 1 Utf8 Value "StatisticsEnabledAttributeWriter"
+459: Tag 7 Class Name index 460
+460: Tag 1 Utf8 Value "org/wildfly/extension/datasources/agroal/AbstractDataSourceOperations$1"
+461: Tag 1 Utf8 Value "ConnectionFactoryAttributeWriter"
+462: Tag 1 Utf8 Value "ConnectionPoolAttributeWriter"
+463: Tag 1 Utf8 Value "FlushOperation"
+464: Tag 1 Utf8 Value "FlushMode"
+465: Tag 1 Utf8 Value "ResetStatisticsOperation"
+466: Tag 1 Utf8 Value "StatisticsGetOperation"
+467: Tag 1 Utf8 Value "TestConnectionOperation"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.datasources.agroal.AbstractDataSourceOperations
+
+Super class: id 8, name java.lang.Object
+
+No interfaces
+
+Field name STATISTICS_ENABLED_WRITE_OPERATION (index 317), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name CONNECTION_FACTORY_WRITE_OPERATION (index 331), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name CONNECTION_POOL_WRITE_OPERATION (index 340), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name CREDENTIAL_REFERENCE_WRITE_OPERATION (index 348), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name FLUSH_ALL_OPERATION (index 362), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name FLUSH_GRACEFUL_OPERATION (index 368), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name FLUSH_INVALID_OPERATION (index 374), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name FLUSH_IDLE_OPERATION (index 380), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name RESET_STATISTICS_OPERATION (index 388), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name STATISTICS_GET_OPERATION (index 394), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name TEST_CONNECTION_OPERATION (index 400), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 318)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 11), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method name connectionFactoryConfiguration (index 406), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lio/agroal/api/configuration/supplier/AgroalConnectionFactoryConfigurationSupplier; (descriptor index 407)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): io.agroal.api.configuration.supplier.AgroalConnectionFactoryConfigurationSupplier
+Flags: decimal 12, hex 000c, binary 0000000000001100 protected static
+Method attribute name Code, size 408
+Method attribute name Exceptions, size 4
+Method name setupElytronSecurity (index 419), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/wildfly/extension/datasources/agroal/DataSourceService;Lorg/jboss/msc/service/ServiceBuilder;)V (descriptor index 420)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.wildfly.extension.datasources.agroal.DataSourceService, org.jboss.msc.service.ServiceBuilder): void
+Flags: decimal 12, hex 000c, binary 0000000000001100 protected static
+Method attribute name Code, size 259
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name connectionPoolConfiguration (index 436), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lio/agroal/api/configuration/supplier/AgroalConnectionPoolConfigurationSupplier; (descriptor index 437)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): io.agroal.api.configuration.supplier.AgroalConnectionPoolConfigurationSupplier
+Flags: decimal 12, hex 000c, binary 0000000000001100 protected static
+Method attribute name Code, size 244
+Method attribute name Exceptions, size 4
+Method name getDataSource (index 5), type (Lorg/jboss/as/controller/OperationContext;)Lio/agroal/api/AgroalDataSource; (descriptor index 6)
+Human type: (org.jboss.as.controller.OperationContext): io.agroal.api.AgroalDataSource
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 374
+Method attribute name Exceptions, size 4
+Method name access$700 (index 446), type (Lorg/jboss/as/controller/OperationContext;)Lio/agroal/api/AgroalDataSource; (descriptor index 6)
+Human type: (org.jboss.as.controller.OperationContext): io.agroal.api.AgroalDataSource
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 448), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 222
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 90

@@ -1,0 +1,122 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 66
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/MutableSessionCreationMetaData"
+11: Tag 1 Utf8 Value "metaData"
+12: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "mutator"
+16: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Mutator;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/SessionCreationMetaData"
+21: Tag 1 Utf8 Value "isNew"
+22: Tag 1 Utf8 Value "()Z"
+23: Tag 11 InterfaceMethodRef Class index 18, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "getCreationTime"
+26: Tag 1 Utf8 Value "()Ljava/time/Instant;"
+27: Tag 11 InterfaceMethodRef Class index 18, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "getMaxInactiveInterval"
+30: Tag 1 Utf8 Value "()Ljava/time/Duration;"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "java/time/Duration"
+35: Tag 1 Utf8 Value "equals"
+36: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+37: Tag 11 InterfaceMethodRef Class index 18, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "setMaxInactiveInterval"
+40: Tag 1 Utf8 Value "(Ljava/time/Duration;)V"
+41: Tag 11 InterfaceMethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 6
+44: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Mutator"
+45: Tag 1 Utf8 Value "mutate"
+46: Tag 11 InterfaceMethodRef Class index 18, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 22
+48: Tag 1 Utf8 Value "isValid"
+49: Tag 11 InterfaceMethodRef Class index 18, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 22
+51: Tag 1 Utf8 Value "invalidate"
+52: Tag 11 InterfaceMethodRef Class index 18, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 6
+54: Tag 1 Utf8 Value "close"
+55: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData;Lorg/wildfly/clustering/ee/Mutator;)V"
+56: Tag 1 Utf8 Value "Code"
+57: Tag 1 Utf8 Value "LineNumberTable"
+58: Tag 1 Utf8 Value "LocalVariableTable"
+59: Tag 1 Utf8 Value "this"
+60: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/MutableSessionCreationMetaData;"
+61: Tag 1 Utf8 Value "duration"
+62: Tag 1 Utf8 Value "Ljava/time/Duration;"
+63: Tag 1 Utf8 Value "StackMapTable"
+64: Tag 1 Utf8 Value "SourceFile"
+65: Tag 1 Utf8 Value "MutableSessionCreationMetaData.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.web.cache.session.MutableSessionCreationMetaData
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 18
+Implements names org.wildfly.clustering.web.cache.session.SessionCreationMetaData
+
+Field name metaData (index 11), type Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData; (descriptor index 12)
+Human type: org.wildfly.clustering.web.cache.session.SessionCreationMetaData
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name mutator (index 15), type Lorg/wildfly/clustering/ee/Mutator; (descriptor index 16)
+Human type: org.wildfly.clustering.ee.Mutator
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/web/cache/session/SessionCreationMetaData;Lorg/wildfly/clustering/ee/Mutator;)V (descriptor index 55)
+Human type: (org.wildfly.clustering.web.cache.session.SessionCreationMetaData, org.wildfly.clustering.ee.Mutator): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name isNew (index 21), type ()Z (descriptor index 22)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getCreationTime (index 25), type ()Ljava/time/Instant; (descriptor index 26)
+Human type: (): java.time.Instant
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getMaxInactiveInterval (index 29), type ()Ljava/time/Duration; (descriptor index 30)
+Human type: (): java.time.Duration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name setMaxInactiveInterval (index 39), type (Ljava/time/Duration;)V (descriptor index 40)
+Human type: (java.time.Duration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 109
+Method name isValid (index 48), type ()Z (descriptor index 22)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name invalidate (index 51), type ()Z (descriptor index 22)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name close (index 54), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 56
+
+Class attribute name SourceFile, size 2

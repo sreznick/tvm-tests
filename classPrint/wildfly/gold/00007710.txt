@@ -1,0 +1,162 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 116
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/WildFlySecurityManager"
+5: Tag 1 Utf8 Value "securityDomainContext"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/security/plugins/SecurityDomainContext;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 9 FieldRef Class index 2, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "defaultUser"
+16: Tag 1 Utf8 Value "Ljava/lang/String;"
+17: Tag 9 FieldRef Class index 2, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 16
+19: Tag 1 Utf8 Value "defaultPassword"
+20: Tag 10 MethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/DefaultCredentials"
+24: Tag 1 Utf8 Value "getUsername"
+25: Tag 1 Utf8 Value "()Ljava/lang/String;"
+26: Tag 10 MethodRef Class index 21, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 25
+28: Tag 1 Utf8 Value "getPassword"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "java/lang/String"
+33: Tag 1 Utf8 Value "equals"
+34: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+35: Tag 9 FieldRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/logging/MessagingLogger"
+39: Tag 1 Utf8 Value "ROOT_LOGGER"
+40: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/logging/MessagingLogger;"
+41: Tag 11 InterfaceMethodRef Class index 36, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "securityDomainContextNotSet"
+44: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+45: Tag 10 MethodRef Class index 46, Name and type index 47
+46: Tag 7 Class Name index 48
+47: Tag 12 NameAndType Name index 49, Description index 50
+48: Tag 1 Utf8 Value "org/jboss/as/security/plugins/SecurityDomainContext"
+49: Tag 1 Utf8 Value "getAuthenticationManager"
+50: Tag 1 Utf8 Value "()Lorg/jboss/security/AuthenticationManager;"
+51: Tag 7 Class Name index 52
+52: Tag 1 Utf8 Value "org/jboss/security/SimplePrincipal"
+53: Tag 10 MethodRef Class index 51, Name and type index 54
+54: Tag 12 NameAndType Name index 11, Description index 55
+55: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "javax/security/auth/Subject"
+58: Tag 10 MethodRef Class index 56, Name and type index 9
+59: Tag 11 InterfaceMethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "org/jboss/security/AuthenticationManager"
+63: Tag 1 Utf8 Value "isValid"
+64: Tag 1 Utf8 Value "(Ljava/security/Principal;Ljava/lang/Object;Ljavax/security/auth/Subject;)Z"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/WildFlySecurityManager$1"
+67: Tag 10 MethodRef Class index 65, Name and type index 68
+68: Tag 12 NameAndType Name index 11, Description index 69
+69: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/WildFlySecurityManager;Ljava/lang/String;Ljava/lang/String;Ljavax/security/auth/Subject;Ljava/util/Set;Lorg/apache/activemq/artemis/core/security/CheckType;)V"
+70: Tag 10 MethodRef Class index 71, Name and type index 72
+71: Tag 7 Class Name index 73
+72: Tag 12 NameAndType Name index 74, Description index 75
+73: Tag 1 Utf8 Value "java/security/AccessController"
+74: Tag 1 Utf8 Value "doPrivileged"
+75: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction;)Ljava/lang/Object;"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "java/lang/Boolean"
+78: Tag 10 MethodRef Class index 76, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "booleanValue"
+81: Tag 1 Utf8 Value "()Z"
+82: Tag 7 Class Name index 83
+83: Tag 1 Utf8 Value "org/apache/activemq/artemis/spi/core/security/ActiveMQSecurityManager"
+84: Tag 1 Utf8 Value "(Lorg/jboss/as/security/plugins/SecurityDomainContext;)V"
+85: Tag 1 Utf8 Value "Code"
+86: Tag 1 Utf8 Value "LineNumberTable"
+87: Tag 1 Utf8 Value "LocalVariableTable"
+88: Tag 1 Utf8 Value "this"
+89: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/WildFlySecurityManager;"
+90: Tag 1 Utf8 Value "sdc"
+91: Tag 1 Utf8 Value "validateUser"
+92: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Z"
+93: Tag 1 Utf8 Value "username"
+94: Tag 1 Utf8 Value "password"
+95: Tag 1 Utf8 Value "StackMapTable"
+96: Tag 1 Utf8 Value "validateUserAndRole"
+97: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;Lorg/apache/activemq/artemis/core/security/CheckType;)Z"
+98: Tag 1 Utf8 Value "roles"
+99: Tag 1 Utf8 Value "Ljava/util/Set;"
+100: Tag 1 Utf8 Value "checkType"
+101: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/security/CheckType;"
+102: Tag 1 Utf8 Value "subject"
+103: Tag 1 Utf8 Value "Ljavax/security/auth/Subject;"
+104: Tag 1 Utf8 Value "authenticated"
+105: Tag 1 Utf8 Value "Z"
+106: Tag 1 Utf8 Value "LocalVariableTypeTable"
+107: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/apache/activemq/artemis/core/security/Role;>;"
+108: Tag 1 Utf8 Value "Signature"
+109: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/util/Set<Lorg/apache/activemq/artemis/core/security/Role;>;Lorg/apache/activemq/artemis/core/security/CheckType;)Z"
+110: Tag 1 Utf8 Value "access$000"
+111: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/WildFlySecurityManager;)Lorg/jboss/as/security/plugins/SecurityDomainContext;"
+112: Tag 1 Utf8 Value "x0"
+113: Tag 1 Utf8 Value "SourceFile"
+114: Tag 1 Utf8 Value "WildFlySecurityManager.java"
+115: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 2, name org.wildfly.extension.messaging.activemq.WildFlySecurityManager
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 82
+Implements names org.apache.activemq.artemis.spi.core.security.ActiveMQSecurityManager
+
+Field name securityDomainContext (index 5), type Lorg/jboss/as/security/plugins/SecurityDomainContext; (descriptor index 6)
+Human type: org.jboss.as.security.plugins.SecurityDomainContext
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name defaultUser (index 15), type Ljava/lang/String; (descriptor index 16)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name defaultPassword (index 19), type Ljava/lang/String; (descriptor index 16)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 11), type (Lorg/jboss/as/security/plugins/SecurityDomainContext;)V (descriptor index 84)
+Human type: (org.jboss.as.security.plugins.SecurityDomainContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 110
+Method name validateUser (index 91), type (Ljava/lang/String;Ljava/lang/String;)Z (descriptor index 92)
+Human type: (java.lang.String, java.lang.String): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 157
+Method name validateUserAndRole (index 96), type (Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;Lorg/apache/activemq/artemis/core/security/CheckType;)Z (descriptor index 97)
+Human type: (java.lang.String, java.lang.String, java.util.Set, org.apache.activemq.artemis.core.security.CheckType): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 277
+Method attribute name Signature, size 2
+Method name access$000 (index 110), type (Lorg/wildfly/extension/messaging/activemq/WildFlySecurityManager;)Lorg/jboss/as/security/plugins/SecurityDomainContext; (descriptor index 111)
+Human type: (org.wildfly.extension.messaging.activemq.WildFlySecurityManager): org.jboss.as.security.plugins.SecurityDomainContext
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

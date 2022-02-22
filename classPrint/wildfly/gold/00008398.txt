@@ -1,0 +1,130 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 72
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/jacorb/logging/JacORBLogger"
+3: Tag 8 String Contents 4
+4: Tag 1 Utf8 Value "org.jboss.as.jacorb"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+9: Tag 1 Utf8 Value "getMessageLogger"
+10: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+11: Tag 9 FieldRef Class index 1, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "ROOT_LOGGER"
+14: Tag 1 Utf8 Value "Lorg/jboss/as/jacorb/logging/JacORBLogger;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/lang/Object"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+19: Tag 1 Utf8 Value "invalidInitializerConfig"
+20: Tag 1 Utf8 Value "(Ljava/lang/String;Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException;"
+21: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+22: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+23: Tag 1 Utf8 Value "id"
+24: Tag 3 Integer Value 38, hex: 0x26
+25: Tag 1 Utf8 Value "value"
+26: Tag 1 Utf8 Value "Illegal initializer value: %s. Should be one of [security,transactions]"
+27: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+28: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Param;"
+29: Tag 1 Utf8 Value "invalidSSLConfig"
+30: Tag 3 Integer Value 39, hex: 0x27
+31: Tag 1 Utf8 Value "Illegal SSL config option: %s. Should be one of [0.20,40,60]"
+32: Tag 1 Utf8 Value "cannotEmulateProperties"
+33: Tag 1 Utf8 Value "(Ljava/util/List;)Lorg/jboss/as/controller/OperationFailedException;"
+34: Tag 1 Utf8 Value "Signature"
+35: Tag 1 Utf8 Value "(Ljava/util/List<Ljava/lang/String;>;)Lorg/jboss/as/controller/OperationFailedException;"
+36: Tag 3 Integer Value 132, hex: 0x84
+37: Tag 1 Utf8 Value "Properties %s cannot be emulated using OpenJDK ORB and are not supported"
+38: Tag 1 Utf8 Value "jacorbEmulationWarning"
+39: Tag 1 Utf8 Value "()V"
+40: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+41: Tag 1 Utf8 Value "level"
+42: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+43: Tag 1 Utf8 Value "WARN"
+44: Tag 3 Integer Value 133, hex: 0x85
+45: Tag 1 Utf8 Value "JacORB is not used as an ORB implementation anymore. JacORB subsystem would be emulated using the current OpenJDK ORB implementation. Ability to emulate legacy JacORB configurations using OpenJDK ORB will be removed in future."
+46: Tag 1 Utf8 Value "cannotEmulatePropertiesWarning"
+47: Tag 1 Utf8 Value "(Ljava/util/List;)Ljava/lang/String;"
+48: Tag 1 Utf8 Value "(Ljava/util/List<Ljava/lang/String;>;)Ljava/lang/String;"
+49: Tag 3 Integer Value 134, hex: 0x86
+50: Tag 1 Utf8 Value "migrationFailed"
+51: Tag 1 Utf8 Value "()Ljava/lang/String;"
+52: Tag 3 Integer Value 135, hex: 0x87
+53: Tag 1 Utf8 Value "Migration failed, see results for more details."
+54: Tag 1 Utf8 Value "expressionMigrationWarning"
+55: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+56: Tag 3 Integer Value 136, hex: 0x88
+57: Tag 1 Utf8 Value "The properties %s use expressions. Configuration properties that are used to resolve those expressions should be transformed manually to the new iiop-openjdk subsystem format"
+58: Tag 1 Utf8 Value "<clinit>"
+59: Tag 1 Utf8 Value "Code"
+60: Tag 1 Utf8 Value "LineNumberTable"
+61: Tag 1 Utf8 Value "SourceFile"
+62: Tag 1 Utf8 Value "JacORBLogger.java"
+63: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+64: Tag 1 Utf8 Value "projectCode"
+65: Tag 1 Utf8 Value "WFLYORB"
+66: Tag 1 Utf8 Value "length"
+67: Tag 3 Integer Value 4, hex: 0x4
+68: Tag 1 Utf8 Value "InnerClasses"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+71: Tag 1 Utf8 Value "Level"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.jboss.as.jacorb.logging.JacORBLogger
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 17
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 13), type Lorg/jboss/as/jacorb/logging/JacORBLogger; (descriptor index 14)
+Human type: org.jboss.as.jacorb.logging.JacORBLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name invalidInitializerConfig (index 19), type (Ljava/lang/String;Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException; (descriptor index 20)
+Human type: (java.lang.String, javax.xml.stream.Location): javax.xml.stream.XMLStreamException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name invalidSSLConfig (index 29), type (Ljava/lang/String;Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException; (descriptor index 20)
+Human type: (java.lang.String, javax.xml.stream.Location): javax.xml.stream.XMLStreamException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name cannotEmulateProperties (index 32), type (Ljava/util/List;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 33)
+Human type: (java.util.List): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name jacorbEmulationWarning (index 38), type ()V (descriptor index 39)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotEmulatePropertiesWarning (index 46), type (Ljava/util/List;)Ljava/lang/String; (descriptor index 47)
+Human type: (java.util.List): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name migrationFailed (index 50), type ()Ljava/lang/String; (descriptor index 51)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name expressionMigrationWarning (index 54), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 55)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name <clinit> (index 58), type ()V (descriptor index 39)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

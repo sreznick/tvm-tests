@@ -1,0 +1,274 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 159
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/logging/DelegatingBasicLogger"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/logging/Logger;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/web/WebLogger_$logger"
+11: Tag 1 Utf8 Value "LOCALE"
+12: Tag 1 Utf8 Value "Ljava/util/Locale;"
+13: Tag 8 String Contents 14
+14: Tag 1 Utf8 Value "WFLYWEB0001: Migrate operation only allowed in admin only mode"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+17: Tag 10 MethodRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "getLoggingLocale"
+20: Tag 1 Utf8 Value "()Ljava/util/Locale;"
+21: Tag 10 MethodRef Class index 8, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "migrateOperationAllowedOnlyInAdminOnly$str"
+24: Tag 1 Utf8 Value "()Ljava/lang/String;"
+25: Tag 7 Class Name index 26
+26: Tag 1 Utf8 Value "java/lang/Object"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "java/lang/String"
+31: Tag 1 Utf8 Value "format"
+32: Tag 1 Utf8 Value "(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;"
+33: Tag 10 MethodRef Class index 15, Name and type index 34
+34: Tag 12 NameAndType Name index 5, Description index 35
+35: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+36: Tag 10 MethodRef Class index 8, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 39
+38: Tag 1 Utf8 Value "_copyStackTraceMinusOne"
+39: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+40: Tag 10 MethodRef Class index 41, Name and type index 42
+41: Tag 7 Class Name index 43
+42: Tag 12 NameAndType Name index 44, Description index 45
+43: Tag 1 Utf8 Value "java/lang/Throwable"
+44: Tag 1 Utf8 Value "getStackTrace"
+45: Tag 1 Utf8 Value "()[Ljava/lang/StackTraceElement;"
+46: Tag 10 MethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "java/util/Arrays"
+50: Tag 1 Utf8 Value "copyOfRange"
+51: Tag 1 Utf8 Value "([Ljava/lang/Object;II)[Ljava/lang/Object;"
+52: Tag 7 Class Name index 53
+53: Tag 1 Utf8 Value "[Ljava/lang/StackTraceElement;"
+54: Tag 10 MethodRef Class index 41, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 57
+56: Tag 1 Utf8 Value "setStackTrace"
+57: Tag 1 Utf8 Value "([Ljava/lang/StackTraceElement;)V"
+58: Tag 8 String Contents 59
+59: Tag 1 Utf8 Value "WFLYWEB0002: Could not migrate resource %s"
+60: Tag 10 MethodRef Class index 8, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 24
+62: Tag 1 Utf8 Value "couldNotMigrateResource1$str"
+63: Tag 8 String Contents 64
+64: Tag 1 Utf8 Value "WFLYWEB0003: Could not migrate attribute %s from resource %s"
+65: Tag 10 MethodRef Class index 8, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 24
+67: Tag 1 Utf8 Value "couldNotMigrateResource2$str"
+68: Tag 8 String Contents 69
+69: Tag 1 Utf8 Value "WFLYWEB0004: No SSL config is defined for connector %s, it will be created as http connector"
+70: Tag 10 MethodRef Class index 8, Name and type index 71
+71: Tag 12 NameAndType Name index 72, Description index 24
+72: Tag 1 Utf8 Value "noSslConfig$str"
+73: Tag 8 String Contents 74
+74: Tag 1 Utf8 Value "WFLYWEB0005: Migration failed, see results for more details."
+75: Tag 10 MethodRef Class index 8, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 24
+77: Tag 1 Utf8 Value "migrationFailed$str"
+78: Tag 8 String Contents 79
+79: Tag 1 Utf8 Value "WFLYWEB0006: Could not migrate verify-client attribute %s to the Undertow equivalent"
+80: Tag 10 MethodRef Class index 8, Name and type index 81
+81: Tag 12 NameAndType Name index 82, Description index 24
+82: Tag 1 Utf8 Value "couldNotTranslateVerifyClient$str"
+83: Tag 8 String Contents 84
+84: Tag 1 Utf8 Value "WFLYWEB0007: Could not migrate verify-client expression %s"
+85: Tag 10 MethodRef Class index 8, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 24
+87: Tag 1 Utf8 Value "couldNotTranslateVerifyClientExpression$str"
+88: Tag 8 String Contents 89
+89: Tag 1 Utf8 Value "WFLYWEB0008: Could not migrate valve %s"
+90: Tag 10 MethodRef Class index 8, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 24
+92: Tag 1 Utf8 Value "couldNotMigrateValve$str"
+93: Tag 8 String Contents 94
+94: Tag 1 Utf8 Value "WFLYWEB0009: Could not migrate attribute %s from valve %s"
+95: Tag 10 MethodRef Class index 8, Name and type index 96
+96: Tag 12 NameAndType Name index 97, Description index 24
+97: Tag 1 Utf8 Value "couldNotMigrateValveAttribute$str"
+98: Tag 10 MethodRef Class index 99, Name and type index 100
+99: Tag 7 Class Name index 101
+100: Tag 12 NameAndType Name index 102, Description index 24
+101: Tag 1 Utf8 Value "java/lang/Class"
+102: Tag 1 Utf8 Value "getName"
+103: Tag 9 FieldRef Class index 8, Name and type index 104
+104: Tag 12 NameAndType Name index 105, Description index 106
+105: Tag 1 Utf8 Value "FQCN"
+106: Tag 1 Utf8 Value "Ljava/lang/String;"
+107: Tag 9 FieldRef Class index 108, Name and type index 109
+108: Tag 7 Class Name index 110
+109: Tag 12 NameAndType Name index 111, Description index 12
+110: Tag 1 Utf8 Value "java/util/Locale"
+111: Tag 1 Utf8 Value "ROOT"
+112: Tag 7 Class Name index 113
+113: Tag 1 Utf8 Value "org/jboss/as/web/WebLogger"
+114: Tag 7 Class Name index 115
+115: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "java/io/Serializable"
+118: Tag 1 Utf8 Value "serialVersionUID"
+119: Tag 1 Utf8 Value "J"
+120: Tag 1 Utf8 Value "ConstantValue"
+121: Tag 5 Long Value 1
+123: Tag 1 Utf8 Value "Code"
+124: Tag 1 Utf8 Value "LineNumberTable"
+125: Tag 1 Utf8 Value "LocalVariableTable"
+126: Tag 1 Utf8 Value "this"
+127: Tag 1 Utf8 Value "Lorg/jboss/as/web/WebLogger_$logger;"
+128: Tag 1 Utf8 Value "log"
+129: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+130: Tag 1 Utf8 Value "migrateOperationAllowedOnlyInAdminOnly"
+131: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/OperationFailedException;"
+132: Tag 1 Utf8 Value "result"
+133: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationFailedException;"
+134: Tag 1 Utf8 Value "e"
+135: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+136: Tag 1 Utf8 Value "st"
+137: Tag 1 Utf8 Value "couldNotMigrateResource"
+138: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Ljava/lang/String;"
+139: Tag 1 Utf8 Value "node"
+140: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+141: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String;"
+142: Tag 1 Utf8 Value "attribute"
+143: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+144: Tag 1 Utf8 Value "noSslConfig"
+145: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+146: Tag 1 Utf8 Value "connector"
+147: Tag 1 Utf8 Value "migrationFailed"
+148: Tag 1 Utf8 Value "couldNotTranslateVerifyClient"
+149: Tag 1 Utf8 Value "s"
+150: Tag 1 Utf8 Value "couldNotTranslateVerifyClientExpression"
+151: Tag 1 Utf8 Value "couldNotMigrateValve"
+152: Tag 1 Utf8 Value "valveName"
+153: Tag 1 Utf8 Value "couldNotMigrateValveAttribute"
+154: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+155: Tag 1 Utf8 Value "<clinit>"
+156: Tag 1 Utf8 Value "()V"
+157: Tag 1 Utf8 Value "SourceFile"
+158: Tag 1 Utf8 Value "WebLogger_$logger.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.web.WebLogger_$logger
+
+Super class: id 2, name org.jboss.logging.DelegatingBasicLogger
+
+Implements class ids 112 114 116
+Implements names org.jboss.as.web.WebLogger org.jboss.logging.BasicLogger java.io.Serializable
+
+Field name serialVersionUID (index 118), type J (descriptor index 119)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name FQCN (index 105), type Ljava/lang/String; (descriptor index 106)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name LOCALE (index 11), type Ljava/util/Locale; (descriptor index 12)
+Human type: java.util.Locale
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/logging/Logger;)V (descriptor index 6)
+Human type: (org.jboss.logging.Logger): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getLoggingLocale (index 19), type ()Ljava/util/Locale; (descriptor index 20)
+Human type: (): java.util.Locale
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 46
+Method name migrateOperationAllowedOnlyInAdminOnly$str (index 23), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name migrateOperationAllowedOnlyInAdminOnly (index 130), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 131)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 89
+Method name _copyStackTraceMinusOne (index 38), type (Ljava/lang/Throwable;)V (descriptor index 39)
+Human type: (java.lang.Throwable): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 80
+Method name couldNotMigrateResource1$str (index 62), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name couldNotMigrateResource (index 137), type (Lorg/jboss/dmr/ModelNode;)Ljava/lang/String; (descriptor index 138)
+Human type: (org.jboss.dmr.ModelNode): java.lang.String
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 72
+Method name couldNotMigrateResource2$str (index 67), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name couldNotMigrateResource (index 137), type (Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 141)
+Human type: (java.lang.String, org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 86
+Method name noSslConfig$str (index 72), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name noSslConfig (index 144), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 145)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 72
+Method name migrationFailed$str (index 77), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name migrationFailed (index 147), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 58
+Method name couldNotTranslateVerifyClient$str (index 82), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name couldNotTranslateVerifyClient (index 148), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 145)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 72
+Method name couldNotTranslateVerifyClientExpression$str (index 87), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name couldNotTranslateVerifyClientExpression (index 150), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 145)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 72
+Method name couldNotMigrateValve$str (index 92), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name couldNotMigrateValve (index 151), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 145)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 72
+Method name couldNotMigrateValveAttribute$str (index 97), type ()Ljava/lang/String; (descriptor index 24)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name couldNotMigrateValveAttribute (index 153), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; (descriptor index 154)
+Human type: (java.lang.String, java.lang.String): java.lang.String
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 86
+Method name <clinit> (index 155), type ()V (descriptor index 156)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 43
+
+Class attribute name SourceFile, size 2

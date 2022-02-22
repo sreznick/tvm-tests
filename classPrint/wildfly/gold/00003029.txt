@@ -1,0 +1,203 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 146
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/ByteBufferInputStream"
+3: Tag 10 MethodRef Class index 1, Name and type index 4
+4: Tag 12 NameAndType Name index 5, Description index 6
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Ljava/nio/ByteBuffer;)V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/ByteBufferMarshaller"
+11: Tag 1 Utf8 Value "readFrom"
+12: Tag 1 Utf8 Value "(Ljava/io/InputStream;)Ljava/lang/Object;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/io/InputStream"
+17: Tag 1 Utf8 Value "close"
+18: Tag 1 Utf8 Value "()V"
+19: Tag 7 Class Name index 20
+20: Tag 1 Utf8 Value "java/lang/Throwable"
+21: Tag 10 MethodRef Class index 19, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "addSuppressed"
+24: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+25: Tag 11 InterfaceMethodRef Class index 8, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "size"
+28: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/OptionalInt;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/ByteBufferOutputStream"
+31: Tag 10 MethodRef Class index 29, Name and type index 32
+32: Tag 12 NameAndType Name index 5, Description index 33
+33: Tag 1 Utf8 Value "(Ljava/util/OptionalInt;)V"
+34: Tag 11 InterfaceMethodRef Class index 8, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "writeTo"
+37: Tag 1 Utf8 Value "(Ljava/io/OutputStream;Ljava/lang/Object;)V"
+38: Tag 10 MethodRef Class index 29, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "getBuffer"
+41: Tag 1 Utf8 Value "()Ljava/nio/ByteBuffer;"
+42: Tag 10 MethodRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 47
+45: Tag 1 Utf8 Value "java/util/OptionalInt"
+46: Tag 1 Utf8 Value "isPresent"
+47: Tag 1 Utf8 Value "()Z"
+48: Tag 10 MethodRef Class index 43, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "getAsInt"
+51: Tag 1 Utf8 Value "()I"
+52: Tag 10 MethodRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 56, Description index 51
+55: Tag 1 Utf8 Value "java/nio/ByteBuffer"
+56: Tag 1 Utf8 Value "limit"
+57: Tag 10 MethodRef Class index 53, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 51
+59: Tag 1 Utf8 Value "arrayOffset"
+60: Tag 9 FieldRef Class index 8, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "LOGGER"
+63: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+64: Tag 8 String Contents 65
+65: Tag 1 Utf8 Value "Buffer size prediction too small for %s (%s), predicted = %d, actual = %d"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "java/lang/Object"
+68: Tag 10 MethodRef Class index 66, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "getClass"
+71: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+72: Tag 10 MethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "java/lang/Class"
+76: Tag 1 Utf8 Value "getCanonicalName"
+77: Tag 1 Utf8 Value "()Ljava/lang/String;"
+78: Tag 10 MethodRef Class index 79, Name and type index 80
+79: Tag 7 Class Name index 81
+80: Tag 12 NameAndType Name index 82, Description index 83
+81: Tag 1 Utf8 Value "java/lang/Integer"
+82: Tag 1 Utf8 Value "valueOf"
+83: Tag 1 Utf8 Value "(I)Ljava/lang/Integer;"
+84: Tag 10 MethodRef Class index 85, Name and type index 86
+85: Tag 7 Class Name index 87
+86: Tag 12 NameAndType Name index 88, Description index 89
+87: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+88: Tag 1 Utf8 Value "debugf"
+89: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/Object;)V"
+90: Tag 8 String Contents 91
+91: Tag 1 Utf8 Value "Buffer size prediction missing for %s (%s)"
+92: Tag 10 MethodRef Class index 85, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 95
+94: Tag 1 Utf8 Value "tracef"
+95: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+96: Tag 10 MethodRef Class index 29, Name and type index 15
+97: Tag 10 MethodRef Class index 43, Name and type index 98
+98: Tag 12 NameAndType Name index 99, Description index 100
+99: Tag 1 Utf8 Value "empty"
+100: Tag 1 Utf8 Value "()Ljava/util/OptionalInt;"
+101: Tag 11 InterfaceMethodRef Class index 8, Name and type index 102
+102: Tag 12 NameAndType Name index 103, Description index 104
+103: Tag 1 Utf8 Value "write"
+104: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/nio/ByteBuffer;"
+105: Tag 11 InterfaceMethodRef Class index 8, Name and type index 106
+106: Tag 12 NameAndType Name index 107, Description index 108
+107: Tag 1 Utf8 Value "read"
+108: Tag 1 Utf8 Value "(Ljava/nio/ByteBuffer;)Ljava/lang/Object;"
+109: Tag 10 MethodRef Class index 85, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 112
+111: Tag 1 Utf8 Value "getLogger"
+112: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/logging/Logger;"
+113: Tag 7 Class Name index 114
+114: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/Marshaller"
+115: Tag 1 Utf8 Value "Exceptions"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "java/io/IOException"
+118: Tag 1 Utf8 Value "Code"
+119: Tag 1 Utf8 Value "LineNumberTable"
+120: Tag 1 Utf8 Value "LocalVariableTable"
+121: Tag 1 Utf8 Value "input"
+122: Tag 1 Utf8 Value "Ljava/io/InputStream;"
+123: Tag 1 Utf8 Value "this"
+124: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/ByteBufferMarshaller;"
+125: Tag 1 Utf8 Value "buffer"
+126: Tag 1 Utf8 Value "Ljava/nio/ByteBuffer;"
+127: Tag 1 Utf8 Value "StackMapTable"
+128: Tag 1 Utf8 Value "predictedSize"
+129: Tag 1 Utf8 Value "I"
+130: Tag 1 Utf8 Value "actualSize"
+131: Tag 1 Utf8 Value "output"
+132: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/ByteBufferOutputStream;"
+133: Tag 1 Utf8 Value "object"
+134: Tag 1 Utf8 Value "Ljava/lang/Object;"
+135: Tag 1 Utf8 Value "Ljava/util/OptionalInt;"
+136: Tag 7 Class Name index 137
+137: Tag 1 Utf8 Value "java/lang/String"
+138: Tag 7 Class Name index 139
+139: Tag 1 Utf8 Value "[Ljava/lang/Object;"
+140: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+141: Tag 1 Utf8 Value "<clinit>"
+142: Tag 1 Utf8 Value "Signature"
+143: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/spi/Marshaller<Ljava/lang/Object;Ljava/nio/ByteBuffer;>;"
+144: Tag 1 Utf8 Value "SourceFile"
+145: Tag 1 Utf8 Value "ByteBufferMarshaller.java"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 8, name org.wildfly.clustering.marshalling.spi.ByteBufferMarshaller
+
+Super class: id 66, name java.lang.Object
+
+Implements class ids 113
+Implements names org.wildfly.clustering.marshalling.spi.Marshaller
+
+Field name LOGGER (index 62), type Lorg/jboss/logging/Logger; (descriptor index 63)
+Human type: org.jboss.logging.Logger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name readFrom (index 11), type (Ljava/io/InputStream;)Ljava/lang/Object; (descriptor index 12)
+Human type: (java.io.InputStream): java.lang.Object
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Exceptions, size 4
+Method name writeTo (index 36), type (Ljava/io/OutputStream;Ljava/lang/Object;)V (descriptor index 37)
+Human type: (java.io.OutputStream, java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Exceptions, size 4
+Method name read (index 107), type (Ljava/nio/ByteBuffer;)Ljava/lang/Object; (descriptor index 108)
+Human type: (java.nio.ByteBuffer): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 185
+Method attribute name Exceptions, size 4
+Method name write (index 103), type (Ljava/lang/Object;)Ljava/nio/ByteBuffer; (descriptor index 104)
+Human type: (java.lang.Object): java.nio.ByteBuffer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 550
+Method attribute name Exceptions, size 4
+Method name size (index 27), type (Ljava/lang/Object;)Ljava/util/OptionalInt; (descriptor index 28)
+Human type: (java.lang.Object): java.util.OptionalInt
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 56
+Method name write (index 103), type (Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 140)
+Human type: (java.lang.Object): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 50
+Method attribute name Exceptions, size 4
+Method name read (index 107), type (Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 140)
+Human type: (java.lang.Object): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 53
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 141), type ()V (descriptor index 18)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

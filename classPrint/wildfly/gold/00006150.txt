@@ -1,0 +1,95 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 61
+1: Tag 9 FieldRef Class index 8, Name and type index 39
+2: Tag 10 MethodRef Class index 9, Name and type index 40
+3: Tag 9 FieldRef Class index 12, Name and type index 41
+4: Tag 10 MethodRef Class index 42, Name and type index 43
+5: Tag 9 FieldRef Class index 12, Name and type index 44
+6: Tag 11 InterfaceMethodRef Class index 10, Name and type index 45
+7: Tag 11 InterfaceMethodRef Class index 10, Name and type index 46
+8: Tag 7 Class Name index 47
+9: Tag 7 Class Name index 48
+10: Tag 7 Class Name index 49
+11: Tag 1 Utf8 Value "this$1"
+12: Tag 7 Class Name index 50
+13: Tag 1 Utf8 Value "TransferTask"
+14: Tag 1 Utf8 Value "InnerClasses"
+15: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/deployment/VirtualFileResource$1TransferTask;"
+16: Tag 1 Utf8 Value "<init>"
+17: Tag 1 Utf8 Value "(Lorg/wildfly/extension/undertow/deployment/VirtualFileResource$1TransferTask;)V"
+18: Tag 1 Utf8 Value "Code"
+19: Tag 1 Utf8 Value "LineNumberTable"
+20: Tag 1 Utf8 Value "LocalVariableTable"
+21: Tag 1 Utf8 Value "this"
+22: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/deployment/VirtualFileResource$1TransferTask$1;"
+23: Tag 1 Utf8 Value "onComplete"
+24: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;Lio/undertow/io/Sender;)V"
+25: Tag 1 Utf8 Value "exchange"
+26: Tag 1 Utf8 Value "Lio/undertow/server/HttpServerExchange;"
+27: Tag 1 Utf8 Value "sender"
+28: Tag 1 Utf8 Value "Lio/undertow/io/Sender;"
+29: Tag 1 Utf8 Value "StackMapTable"
+30: Tag 7 Class Name index 51
+31: Tag 1 Utf8 Value "onException"
+32: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;Lio/undertow/io/Sender;Ljava/io/IOException;)V"
+33: Tag 1 Utf8 Value "exception"
+34: Tag 1 Utf8 Value "Ljava/io/IOException;"
+35: Tag 1 Utf8 Value "SourceFile"
+36: Tag 1 Utf8 Value "VirtualFileResource.java"
+37: Tag 1 Utf8 Value "EnclosingMethod"
+38: Tag 12 NameAndType Name index 52, Description index 53
+39: Tag 12 NameAndType Name index 11, Description index 15
+40: Tag 12 NameAndType Name index 16, Description index 53
+41: Tag 12 NameAndType Name index 54, Description index 55
+42: Tag 7 Class Name index 56
+43: Tag 12 NameAndType Name index 57, Description index 58
+44: Tag 12 NameAndType Name index 59, Description index 60
+45: Tag 12 NameAndType Name index 23, Description index 24
+46: Tag 12 NameAndType Name index 31, Description index 32
+47: Tag 1 Utf8 Value "org/wildfly/extension/undertow/deployment/VirtualFileResource$1TransferTask$1"
+48: Tag 1 Utf8 Value "java/lang/Object"
+49: Tag 1 Utf8 Value "io/undertow/io/IoCallback"
+50: Tag 1 Utf8 Value "org/wildfly/extension/undertow/deployment/VirtualFileResource$1TransferTask"
+51: Tag 1 Utf8 Value "java/lang/Throwable"
+52: Tag 1 Utf8 Value "run"
+53: Tag 1 Utf8 Value "()V"
+54: Tag 1 Utf8 Value "fileChannel"
+55: Tag 1 Utf8 Value "Ljava/nio/channels/FileChannel;"
+56: Tag 1 Utf8 Value "org/xnio/IoUtils"
+57: Tag 1 Utf8 Value "safeClose"
+58: Tag 1 Utf8 Value "(Ljava/io/Closeable;)V"
+59: Tag 1 Utf8 Value "val$callback"
+60: Tag 1 Utf8 Value "Lio/undertow/io/IoCallback;"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 8, name org.wildfly.extension.undertow.deployment.VirtualFileResource$1TransferTask$1
+
+Super class: id 9, name java.lang.Object
+
+Implements class ids 10
+Implements names io.undertow.io.IoCallback
+
+Field name this$1 (index 11), type Lorg/wildfly/extension/undertow/deployment/VirtualFileResource$1TransferTask; (descriptor index 15)
+Human type: org.wildfly.extension.undertow.deployment.VirtualFileResource$1TransferTask
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 16), type (Lorg/wildfly/extension/undertow/deployment/VirtualFileResource$1TransferTask;)V (descriptor index 17)
+Human type: (org.wildfly.extension.undertow.deployment.VirtualFileResource$1TransferTask): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 62
+Method name onComplete (index 23), type (Lio/undertow/server/HttpServerExchange;Lio/undertow/io/Sender;)V (descriptor index 24)
+Human type: (io.undertow.server.HttpServerExchange, io.undertow.io.Sender): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 148
+Method name onException (index 31), type (Lio/undertow/server/HttpServerExchange;Lio/undertow/io/Sender;Ljava/io/IOException;)V (descriptor index 32)
+Human type: (io.undertow.server.HttpServerExchange, io.undertow.io.Sender, java.io.IOException): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 170
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

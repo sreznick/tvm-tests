@@ -1,0 +1,214 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 172
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/ServiceLifecycle"
+11: Tag 1 Utf8 Value "controller"
+12: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/ServiceLifecycle$Transition"
+17: Tag 1 Utf8 Value "START"
+18: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/ServiceLifecycle$Transition;"
+19: Tag 10 MethodRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "transition"
+22: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/singleton/ServiceLifecycle$Transition;)V"
+23: Tag 9 FieldRef Class index 14, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 18
+25: Tag 1 Utf8 Value "STOP"
+26: Tag 10 MethodRef Class index 8, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "isComplete"
+29: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/singleton/ServiceLifecycle$Transition;)Z"
+30: Tag 7 Class Name index 31
+31: Tag 1 Utf8 Value "java/util/concurrent/CountDownLatch"
+32: Tag 10 MethodRef Class index 30, Name and type index 33
+33: Tag 12 NameAndType Name index 5, Description index 34
+34: Tag 1 Utf8 Value "(I)V"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "org/wildfly/clustering/service/CountDownLifecycleListener"
+37: Tag 9 FieldRef Class index 14, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "targetEvents"
+40: Tag 1 Utf8 Value "Ljava/util/Set;"
+41: Tag 10 MethodRef Class index 35, Name and type index 42
+42: Tag 12 NameAndType Name index 5, Description index 43
+43: Tag 1 Utf8 Value "(Ljava/util/concurrent/CountDownLatch;Ljava/util/Set;)V"
+44: Tag 11 InterfaceMethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+48: Tag 1 Utf8 Value "addListener"
+49: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/LifecycleListener;)V"
+50: Tag 11 InterfaceMethodRef Class index 45, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 49
+52: Tag 1 Utf8 Value "removeListener"
+53: Tag 11 InterfaceMethodRef Class index 45, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "getMode"
+56: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController$Mode;"
+57: Tag 9 FieldRef Class index 58, Name and type index 59
+58: Tag 7 Class Name index 60
+59: Tag 12 NameAndType Name index 61, Description index 62
+60: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+61: Tag 1 Utf8 Value "REMOVE"
+62: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceNotFoundException"
+67: Tag 11 InterfaceMethodRef Class index 45, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "getName"
+70: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+71: Tag 10 MethodRef Class index 72, Name and type index 73
+72: Tag 7 Class Name index 74
+73: Tag 12 NameAndType Name index 75, Description index 76
+74: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+75: Tag 1 Utf8 Value "getCanonicalName"
+76: Tag 1 Utf8 Value "()Ljava/lang/String;"
+77: Tag 10 MethodRef Class index 65, Name and type index 78
+78: Tag 12 NameAndType Name index 5, Description index 79
+79: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+80: Tag 10 MethodRef Class index 63, Name and type index 81
+81: Tag 12 NameAndType Name index 5, Description index 82
+82: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+83: Tag 9 FieldRef Class index 14, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 86
+85: Tag 1 Utf8 Value "modeTransitions"
+86: Tag 1 Utf8 Value "Ljava/util/Map;"
+87: Tag 11 InterfaceMethodRef Class index 88, Name and type index 89
+88: Tag 7 Class Name index 90
+89: Tag 12 NameAndType Name index 91, Description index 92
+90: Tag 1 Utf8 Value "java/util/Map"
+91: Tag 1 Utf8 Value "get"
+92: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+93: Tag 10 MethodRef Class index 58, Name and type index 94
+94: Tag 12 NameAndType Name index 95, Description index 76
+95: Tag 1 Utf8 Value "name"
+96: Tag 10 MethodRef Class index 63, Name and type index 78
+97: Tag 11 InterfaceMethodRef Class index 45, Name and type index 98
+98: Tag 12 NameAndType Name index 99, Description index 100
+99: Tag 1 Utf8 Value "setMode"
+100: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)V"
+101: Tag 10 MethodRef Class index 30, Name and type index 102
+102: Tag 12 NameAndType Name index 103, Description index 6
+103: Tag 1 Utf8 Value "await"
+104: Tag 11 InterfaceMethodRef Class index 45, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 107
+106: Tag 1 Utf8 Value "getState"
+107: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController$State;"
+108: Tag 9 FieldRef Class index 109, Name and type index 110
+109: Tag 7 Class Name index 111
+110: Tag 12 NameAndType Name index 112, Description index 113
+111: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$State"
+112: Tag 1 Utf8 Value "START_FAILED"
+113: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$State;"
+114: Tag 11 InterfaceMethodRef Class index 45, Name and type index 115
+115: Tag 12 NameAndType Name index 116, Description index 117
+116: Tag 1 Utf8 Value "getStartException"
+117: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/StartException;"
+118: Tag 7 Class Name index 119
+119: Tag 1 Utf8 Value "java/lang/InterruptedException"
+120: Tag 10 MethodRef Class index 121, Name and type index 122
+121: Tag 7 Class Name index 123
+122: Tag 12 NameAndType Name index 124, Description index 125
+123: Tag 1 Utf8 Value "java/lang/Thread"
+124: Tag 1 Utf8 Value "currentThread"
+125: Tag 1 Utf8 Value "()Ljava/lang/Thread;"
+126: Tag 10 MethodRef Class index 121, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 6
+128: Tag 1 Utf8 Value "interrupt"
+129: Tag 9 FieldRef Class index 14, Name and type index 130
+130: Tag 12 NameAndType Name index 131, Description index 40
+131: Tag 1 Utf8 Value "targetStates"
+132: Tag 11 InterfaceMethodRef Class index 133, Name and type index 134
+133: Tag 7 Class Name index 135
+134: Tag 12 NameAndType Name index 136, Description index 137
+135: Tag 1 Utf8 Value "java/util/Set"
+136: Tag 1 Utf8 Value "contains"
+137: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+138: Tag 7 Class Name index 139
+139: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/Lifecycle"
+140: Tag 1 Utf8 Value "Signature"
+141: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+142: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController;)V"
+143: Tag 1 Utf8 Value "Code"
+144: Tag 1 Utf8 Value "LineNumberTable"
+145: Tag 1 Utf8 Value "LocalVariableTable"
+146: Tag 1 Utf8 Value "this"
+147: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/ServiceLifecycle;"
+148: Tag 1 Utf8 Value "LocalVariableTypeTable"
+149: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController<*>;)V"
+150: Tag 1 Utf8 Value "start"
+151: Tag 1 Utf8 Value "stop"
+152: Tag 1 Utf8 Value "currentMode"
+153: Tag 1 Utf8 Value "targetMode"
+154: Tag 1 Utf8 Value "e"
+155: Tag 1 Utf8 Value "Ljava/lang/InterruptedException;"
+156: Tag 1 Utf8 Value "latch"
+157: Tag 1 Utf8 Value "Ljava/util/concurrent/CountDownLatch;"
+158: Tag 1 Utf8 Value "listener"
+159: Tag 1 Utf8 Value "Lorg/jboss/msc/service/LifecycleListener;"
+160: Tag 1 Utf8 Value "StackMapTable"
+161: Tag 7 Class Name index 162
+162: Tag 1 Utf8 Value "org/jboss/msc/service/LifecycleListener"
+163: Tag 7 Class Name index 164
+164: Tag 1 Utf8 Value "java/lang/Throwable"
+165: Tag 1 Utf8 Value "state"
+166: Tag 1 Utf8 Value "SourceFile"
+167: Tag 1 Utf8 Value "ServiceLifecycle.java"
+168: Tag 1 Utf8 Value "InnerClasses"
+169: Tag 1 Utf8 Value "Transition"
+170: Tag 1 Utf8 Value "Mode"
+171: Tag 1 Utf8 Value "State"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.server.singleton.ServiceLifecycle
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 138
+Implements names org.wildfly.clustering.server.singleton.Lifecycle
+
+Field name controller (index 11), type Lorg/jboss/msc/service/ServiceController; (descriptor index 12)
+Human type: org.jboss.msc.service.ServiceController
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Lorg/jboss/msc/service/ServiceController;)V (descriptor index 142)
+Human type: (org.jboss.msc.service.ServiceController): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method attribute name Signature, size 2
+Method name start (index 150), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 54
+Method name stop (index 151), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 54
+Method name transition (index 21), type (Lorg/wildfly/clustering/server/singleton/ServiceLifecycle$Transition;)V (descriptor index 22)
+Human type: (org.wildfly.clustering.server.singleton.ServiceLifecycle$Transition): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 529
+Method name isComplete (index 28), type (Lorg/wildfly/clustering/server/singleton/ServiceLifecycle$Transition;)Z (descriptor index 29)
+Human type: (org.wildfly.clustering.server.singleton.ServiceLifecycle$Transition): boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 148
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

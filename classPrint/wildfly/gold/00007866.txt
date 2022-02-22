@@ -1,0 +1,138 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 108
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/ee/resource/definition/ResourceDefinitionDescriptorProcessor"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/metadata/javaee/spec/RemoteEnvironment"
+11: Tag 1 Utf8 Value "getJmsDestinations"
+12: Tag 1 Utf8 Value "()Lorg/jboss/metadata/javaee/spec/JMSDestinationsMetaData;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/metadata/javaee/spec/JMSDestinationsMetaData"
+17: Tag 1 Utf8 Value "iterator"
+18: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "java/util/Iterator"
+23: Tag 1 Utf8 Value "hasNext"
+24: Tag 1 Utf8 Value "()Z"
+25: Tag 11 InterfaceMethodRef Class index 20, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "next"
+28: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "org/jboss/metadata/javaee/spec/JMSDestinationMetaData"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionDescriptorProcessor"
+35: Tag 1 Utf8 Value "getResourceDefinitionInjectionSource"
+36: Tag 1 Utf8 Value "(Lorg/jboss/metadata/javaee/spec/JMSDestinationMetaData;)Lorg/jboss/as/ee/resource/definition/ResourceDefinitionInjectionSource;"
+37: Tag 10 MethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/jboss/as/ee/resource/definition/ResourceDefinitionDescriptorProcessor$ResourceDefinitionInjectionSources"
+41: Tag 1 Utf8 Value "addResourceDefinitionInjectionSource"
+42: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/resource/definition/ResourceDefinitionInjectionSource;)V"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource"
+45: Tag 10 MethodRef Class index 29, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "getName"
+48: Tag 1 Utf8 Value "()Ljava/lang/String;"
+49: Tag 10 MethodRef Class index 29, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 48
+51: Tag 1 Utf8 Value "getInterfaceName"
+52: Tag 10 MethodRef Class index 43, Name and type index 53
+53: Tag 12 NameAndType Name index 5, Description index 54
+54: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+55: Tag 10 MethodRef Class index 29, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 48
+57: Tag 1 Utf8 Value "getDestinationName"
+58: Tag 10 MethodRef Class index 43, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "setDestinationName"
+61: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+62: Tag 10 MethodRef Class index 29, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 48
+64: Tag 1 Utf8 Value "getResourceAdapter"
+65: Tag 10 MethodRef Class index 43, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 61
+67: Tag 1 Utf8 Value "setResourceAdapter"
+68: Tag 10 MethodRef Class index 29, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 48
+70: Tag 1 Utf8 Value "getClassName"
+71: Tag 10 MethodRef Class index 43, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 61
+73: Tag 1 Utf8 Value "setClassName"
+74: Tag 10 MethodRef Class index 29, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "getProperties"
+77: Tag 1 Utf8 Value "()Lorg/jboss/metadata/javaee/spec/PropertiesMetaData;"
+78: Tag 10 MethodRef Class index 43, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "addProperties"
+81: Tag 1 Utf8 Value "(Lorg/jboss/metadata/javaee/spec/PropertiesMetaData;)V"
+82: Tag 1 Utf8 Value "Code"
+83: Tag 1 Utf8 Value "LineNumberTable"
+84: Tag 1 Utf8 Value "LocalVariableTable"
+85: Tag 1 Utf8 Value "this"
+86: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionDescriptorProcessor;"
+87: Tag 1 Utf8 Value "processEnvironment"
+88: Tag 1 Utf8 Value "(Lorg/jboss/metadata/javaee/spec/RemoteEnvironment;Lorg/jboss/as/ee/resource/definition/ResourceDefinitionDescriptorProcessor$ResourceDefinitionInjectionSources;)V"
+89: Tag 1 Utf8 Value "metaData"
+90: Tag 1 Utf8 Value "Lorg/jboss/metadata/javaee/spec/JMSDestinationMetaData;"
+91: Tag 1 Utf8 Value "environment"
+92: Tag 1 Utf8 Value "Lorg/jboss/metadata/javaee/spec/RemoteEnvironment;"
+93: Tag 1 Utf8 Value "injectionSources"
+94: Tag 1 Utf8 Value "Lorg/jboss/as/ee/resource/definition/ResourceDefinitionDescriptorProcessor$ResourceDefinitionInjectionSources;"
+95: Tag 1 Utf8 Value "metaDatas"
+96: Tag 1 Utf8 Value "Lorg/jboss/metadata/javaee/spec/JMSDestinationsMetaData;"
+97: Tag 1 Utf8 Value "StackMapTable"
+98: Tag 1 Utf8 Value "Exceptions"
+99: Tag 7 Class Name index 100
+100: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+101: Tag 1 Utf8 Value "metadata"
+102: Tag 1 Utf8 Value "source"
+103: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource;"
+104: Tag 1 Utf8 Value "SourceFile"
+105: Tag 1 Utf8 Value "JMSDestinationDefinitionDescriptorProcessor.java"
+106: Tag 1 Utf8 Value "InnerClasses"
+107: Tag 1 Utf8 Value "ResourceDefinitionInjectionSources"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 32, name org.wildfly.extension.messaging.activemq.deployment.JMSDestinationDefinitionDescriptorProcessor
+
+Super class: id 2, name org.jboss.as.ee.resource.definition.ResourceDefinitionDescriptorProcessor
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name processEnvironment (index 87), type (Lorg/jboss/metadata/javaee/spec/RemoteEnvironment;Lorg/jboss/as/ee/resource/definition/ResourceDefinitionDescriptorProcessor$ResourceDefinitionInjectionSources;)V (descriptor index 88)
+Human type: (org.jboss.metadata.javaee.spec.RemoteEnvironment, org.jboss.as.ee.resource.definition.ResourceDefinitionDescriptorProcessor$ResourceDefinitionInjectionSources): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 175
+Method attribute name Exceptions, size 4
+Method name getResourceDefinitionInjectionSource (index 35), type (Lorg/jboss/metadata/javaee/spec/JMSDestinationMetaData;)Lorg/jboss/as/ee/resource/definition/ResourceDefinitionInjectionSource; (descriptor index 36)
+Human type: (org.jboss.metadata.javaee.spec.JMSDestinationMetaData): org.jboss.as.ee.resource.definition.ResourceDefinitionInjectionSource
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 132
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

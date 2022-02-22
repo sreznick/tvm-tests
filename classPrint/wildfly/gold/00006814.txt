@@ -1,0 +1,115 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 76
+1: Tag 10 MethodRef Class index 15, Name and type index 49
+2: Tag 10 MethodRef Class index 14, Name and type index 50
+3: Tag 10 MethodRef Class index 36, Name and type index 51
+4: Tag 10 MethodRef Class index 36, Name and type index 52
+5: Tag 9 FieldRef Class index 53, Name and type index 54
+6: Tag 8 String Contents 55
+7: Tag 11 InterfaceMethodRef Class index 53, Name and type index 56
+8: Tag 7 Class Name index 57
+9: Tag 10 MethodRef Class index 8, Name and type index 49
+10: Tag 7 Class Name index 58
+11: Tag 11 InterfaceMethodRef Class index 10, Name and type index 59
+12: Tag 7 Class Name index 60
+13: Tag 11 InterfaceMethodRef Class index 12, Name and type index 61
+14: Tag 7 Class Name index 62
+15: Tag 7 Class Name index 63
+16: Tag 7 Class Name index 64
+17: Tag 1 Utf8 Value "<init>"
+18: Tag 1 Utf8 Value "()V"
+19: Tag 1 Utf8 Value "Code"
+20: Tag 1 Utf8 Value "LineNumberTable"
+21: Tag 1 Utf8 Value "LocalVariableTable"
+22: Tag 1 Utf8 Value "this"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/DefaultContextSetupProviderImpl;"
+24: Tag 1 Utf8 Value "saveContext"
+25: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/ContextService;)Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;"
+26: Tag 1 Utf8 Value "contextService"
+27: Tag 1 Utf8 Value "Ljakarta/enterprise/concurrent/ContextService;"
+28: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/ContextService;Ljava/util/Map;)Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;"
+29: Tag 1 Utf8 Value "contextObjectProperties"
+30: Tag 1 Utf8 Value "Ljava/util/Map;"
+31: Tag 1 Utf8 Value "concurrentContext"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ConcurrentContext;"
+33: Tag 1 Utf8 Value "LocalVariableTypeTable"
+34: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+35: Tag 1 Utf8 Value "StackMapTable"
+36: Tag 7 Class Name index 65
+37: Tag 1 Utf8 Value "Signature"
+38: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/ContextService;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;"
+39: Tag 1 Utf8 Value "setup"
+40: Tag 1 Utf8 Value "(Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;)Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;"
+41: Tag 1 Utf8 Value "contextHandle"
+42: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;"
+43: Tag 1 Utf8 Value "Exceptions"
+44: Tag 7 Class Name index 66
+45: Tag 1 Utf8 Value "reset"
+46: Tag 1 Utf8 Value "(Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;)V"
+47: Tag 1 Utf8 Value "SourceFile"
+48: Tag 1 Utf8 Value "DefaultContextSetupProviderImpl.java"
+49: Tag 12 NameAndType Name index 17, Description index 18
+50: Tag 12 NameAndType Name index 24, Description index 28
+51: Tag 12 NameAndType Name index 67, Description index 68
+52: Tag 12 NameAndType Name index 24, Description index 69
+53: Tag 7 Class Name index 70
+54: Tag 12 NameAndType Name index 71, Description index 72
+55: Tag 1 Utf8 Value "ee concurrency context not found in invocation context"
+56: Tag 12 NameAndType Name index 73, Description index 74
+57: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/NullContextHandle"
+58: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/SetupContextHandle"
+59: Tag 12 NameAndType Name index 39, Description index 75
+60: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ResetContextHandle"
+61: Tag 12 NameAndType Name index 45, Description index 18
+62: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/DefaultContextSetupProviderImpl"
+63: Tag 1 Utf8 Value "java/lang/Object"
+64: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/spi/ContextSetupProvider"
+65: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ConcurrentContext"
+66: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+67: Tag 1 Utf8 Value "current"
+68: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/concurrent/ConcurrentContext;"
+69: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/ContextService;Ljava/util/Map;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;"
+70: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+71: Tag 1 Utf8 Value "ROOT_LOGGER"
+72: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+73: Tag 1 Utf8 Value "debug"
+74: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+75: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/concurrent/handle/ResetContextHandle;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.jboss.as.ee.concurrent.DefaultContextSetupProviderImpl
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 16
+Implements names org.glassfish.enterprise.concurrent.spi.ContextSetupProvider
+
+No fields
+
+Method name <init> (index 17), type ()V (descriptor index 18)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name saveContext (index 24), type (Ljakarta/enterprise/concurrent/ContextService;)Lorg/glassfish/enterprise/concurrent/spi/ContextHandle; (descriptor index 25)
+Human type: (jakarta.enterprise.concurrent.ContextService): org.glassfish.enterprise.concurrent.spi.ContextHandle
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 59
+Method name saveContext (index 24), type (Ljakarta/enterprise/concurrent/ContextService;Ljava/util/Map;)Lorg/glassfish/enterprise/concurrent/spi/ContextHandle; (descriptor index 28)
+Human type: (jakarta.enterprise.concurrent.ContextService, java.util.Map): org.glassfish.enterprise.concurrent.spi.ContextHandle
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 153
+Method attribute name Signature, size 2
+Method name setup (index 39), type (Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;)Lorg/glassfish/enterprise/concurrent/spi/ContextHandle; (descriptor index 40)
+Human type: (org.glassfish.enterprise.concurrent.spi.ContextHandle): org.glassfish.enterprise.concurrent.spi.ContextHandle
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method attribute name Exceptions, size 4
+Method name reset (index 45), type (Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;)V (descriptor index 46)
+Human type: (org.glassfish.enterprise.concurrent.spi.ContextHandle): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+
+Class attribute name SourceFile, size 2

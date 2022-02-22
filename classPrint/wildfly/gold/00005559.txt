@@ -1,0 +1,193 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 113
+1: Tag 10 MethodRef Class index 21, Name and type index 71
+2: Tag 7 Class Name index 72
+3: Tag 10 MethodRef Class index 2, Name and type index 71
+4: Tag 9 FieldRef Class index 24, Name and type index 73
+5: Tag 9 FieldRef Class index 24, Name and type index 74
+6: Tag 9 FieldRef Class index 24, Name and type index 75
+7: Tag 9 FieldRef Class index 24, Name and type index 76
+8: Tag 9 FieldRef Class index 24, Name and type index 77
+9: Tag 10 MethodRef Class index 78, Name and type index 79
+10: Tag 7 Class Name index 80
+11: Tag 7 Class Name index 81
+12: Tag 10 MethodRef Class index 82, Name and type index 83
+13: Tag 10 MethodRef Class index 2, Name and type index 84
+14: Tag 7 Class Name index 85
+15: Tag 7 Class Name index 86
+16: Tag 7 Class Name index 87
+17: Tag 7 Class Name index 88
+18: Tag 10 MethodRef Class index 11, Name and type index 89
+19: Tag 9 FieldRef Class index 90, Name and type index 91
+20: Tag 8 String Contents 92
+21: Tag 7 Class Name index 93
+22: Tag 11 InterfaceMethodRef Class index 90, Name and type index 94
+23: Tag 10 MethodRef Class index 24, Name and type index 95
+24: Tag 7 Class Name index 96
+25: Tag 7 Class Name index 97
+26: Tag 1 Utf8 Value "value"
+27: Tag 1 Utf8 Value "Lorg/jboss/jca/core/spi/transaction/TransactionIntegration;"
+28: Tag 1 Utf8 Value "tsr"
+29: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+30: Tag 1 Utf8 Value "Signature"
+31: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Ljavax/transaction/TransactionSynchronizationRegistry;>;"
+32: Tag 1 Utf8 Value "utr"
+33: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/tm/usertx/UserTransactionRegistry;>;"
+34: Tag 1 Utf8 Value "terminator"
+35: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/as/txn/integration/JBossContextXATerminator;>;"
+36: Tag 1 Utf8 Value "rr"
+37: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/tm/XAResourceRecoveryRegistry;>;"
+38: Tag 1 Utf8 Value "<init>"
+39: Tag 1 Utf8 Value "()V"
+40: Tag 1 Utf8 Value "Code"
+41: Tag 1 Utf8 Value "LineNumberTable"
+42: Tag 1 Utf8 Value "LocalVariableTable"
+43: Tag 1 Utf8 Value "this"
+44: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/transactionintegration/TransactionIntegrationService;"
+45: Tag 1 Utf8 Value "getValue"
+46: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/spi/transaction/TransactionIntegration;"
+47: Tag 1 Utf8 Value "Exceptions"
+48: Tag 7 Class Name index 98
+49: Tag 1 Utf8 Value "start"
+50: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+51: Tag 1 Utf8 Value "context"
+52: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+53: Tag 7 Class Name index 99
+54: Tag 1 Utf8 Value "stop"
+55: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+56: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+57: Tag 1 Utf8 Value "getTsrInjector"
+58: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+59: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Ljavax/transaction/TransactionSynchronizationRegistry;>;"
+60: Tag 1 Utf8 Value "getUtrInjector"
+61: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/jboss/tm/usertx/UserTransactionRegistry;>;"
+62: Tag 1 Utf8 Value "getTerminatorInjector"
+63: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/jboss/as/txn/integration/JBossContextXATerminator;>;"
+64: Tag 1 Utf8 Value "getRrInjector"
+65: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/jboss/tm/XAResourceRecoveryRegistry;>;"
+66: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+67: Tag 7 Class Name index 100
+68: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/jboss/jca/core/spi/transaction/TransactionIntegration;>;"
+69: Tag 1 Utf8 Value "SourceFile"
+70: Tag 1 Utf8 Value "TransactionIntegrationService.java"
+71: Tag 12 NameAndType Name index 38, Description index 39
+72: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+73: Tag 12 NameAndType Name index 28, Description index 29
+74: Tag 12 NameAndType Name index 32, Description index 29
+75: Tag 12 NameAndType Name index 34, Description index 29
+76: Tag 12 NameAndType Name index 36, Description index 29
+77: Tag 12 NameAndType Name index 26, Description index 27
+78: Tag 7 Class Name index 101
+79: Tag 12 NameAndType Name index 102, Description index 103
+80: Tag 1 Utf8 Value "org/jboss/jca/core/spi/transaction/TransactionIntegration"
+81: Tag 1 Utf8 Value "org/jboss/jca/core/tx/jbossts/TransactionIntegrationImpl"
+82: Tag 7 Class Name index 104
+83: Tag 12 NameAndType Name index 105, Description index 106
+84: Tag 12 NameAndType Name index 45, Description index 66
+85: Tag 1 Utf8 Value "javax/transaction/TransactionSynchronizationRegistry"
+86: Tag 1 Utf8 Value "org/jboss/tm/usertx/UserTransactionRegistry"
+87: Tag 1 Utf8 Value "org/jboss/tm/JBossXATerminator"
+88: Tag 1 Utf8 Value "org/jboss/tm/XAResourceRecoveryRegistry"
+89: Tag 12 NameAndType Name index 38, Description index 107
+90: Tag 7 Class Name index 108
+91: Tag 12 NameAndType Name index 109, Description index 110
+92: Tag 1 Utf8 Value "Starting Jakarta Connectors TransactionIntegrationService"
+93: Tag 1 Utf8 Value "java/lang/Object"
+94: Tag 12 NameAndType Name index 111, Description index 112
+95: Tag 12 NameAndType Name index 45, Description index 46
+96: Tag 1 Utf8 Value "org/jboss/as/connector/services/transactionintegration/TransactionIntegrationService"
+97: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+98: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+99: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+100: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+101: Tag 1 Utf8 Value "org/jboss/as/connector/util/ConnectorServices"
+102: Tag 1 Utf8 Value "notNull"
+103: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+104: Tag 1 Utf8 Value "org/wildfly/transaction/client/ContextTransactionManager"
+105: Tag 1 Utf8 Value "getInstance"
+106: Tag 1 Utf8 Value "()Lorg/wildfly/transaction/client/ContextTransactionManager;"
+107: Tag 1 Utf8 Value "(Ljavax/transaction/TransactionManager;Ljavax/transaction/TransactionSynchronizationRegistry;Lorg/jboss/tm/usertx/UserTransactionRegistry;Lorg/jboss/tm/JBossXATerminator;Lorg/jboss/tm/XAResourceRecoveryRegistry;)V"
+108: Tag 1 Utf8 Value "org/jboss/as/connector/logging/ConnectorLogger"
+109: Tag 1 Utf8 Value "ROOT_LOGGER"
+110: Tag 1 Utf8 Value "Lorg/jboss/as/connector/logging/ConnectorLogger;"
+111: Tag 1 Utf8 Value "debugf"
+112: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/Object;)V"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 24, name org.jboss.as.connector.services.transactionintegration.TransactionIntegrationService
+
+Super class: id 21, name java.lang.Object
+
+Implements class ids 25
+Implements names org.jboss.msc.service.Service
+
+Field name value (index 26), type Lorg/jboss/jca/core/spi/transaction/TransactionIntegration; (descriptor index 27)
+Human type: org.jboss.jca.core.spi.transaction.TransactionIntegration
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name tsr (index 28), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 29)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name utr (index 32), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 29)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name terminator (index 34), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 29)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name rr (index 36), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 29)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 38), type ()V (descriptor index 39)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 111
+Method name getValue (index 45), type ()Lorg/jboss/jca/core/spi/transaction/TransactionIntegration; (descriptor index 46)
+Human type: (): org.jboss.jca.core.spi.transaction.TransactionIntegration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method attribute name Exceptions, size 4
+Method name start (index 49), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 50)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 133
+Method attribute name Exceptions, size 4
+Method name stop (index 54), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 55)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name getTsrInjector (index 57), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 58)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getUtrInjector (index 60), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 58)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getTerminatorInjector (index 62), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 58)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getRrInjector (index 64), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 58)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getValue (index 45), type ()Ljava/lang/Object; (descriptor index 66)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

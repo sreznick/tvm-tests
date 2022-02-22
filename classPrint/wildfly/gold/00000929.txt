@@ -1,0 +1,306 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 182
+1: Tag 10 MethodRef Class index 28, Name and type index 108
+2: Tag 9 FieldRef Class index 24, Name and type index 109
+3: Tag 9 FieldRef Class index 24, Name and type index 110
+4: Tag 10 MethodRef Class index 111, Name and type index 112
+5: Tag 7 Class Name index 113
+6: Tag 8 String Contents 114
+7: Tag 8 String Contents 115
+8: Tag 10 MethodRef Class index 116, Name and type index 117
+9: Tag 7 Class Name index 118
+10: Tag 10 MethodRef Class index 9, Name and type index 119
+11: Tag 10 MethodRef Class index 24, Name and type index 120
+12: Tag 10 MethodRef Class index 121, Name and type index 122
+13: Tag 10 MethodRef Class index 123, Name and type index 124
+14: Tag 9 FieldRef Class index 125, Name and type index 126
+15: Tag 10 MethodRef Class index 127, Name and type index 128
+16: Tag 10 MethodRef Class index 129, Name and type index 130
+17: Tag 10 MethodRef Class index 90, Name and type index 131
+18: Tag 7 Class Name index 132
+19: Tag 10 MethodRef Class index 90, Name and type index 133
+20: Tag 7 Class Name index 134
+21: Tag 9 FieldRef Class index 135, Name and type index 136
+22: Tag 11 InterfaceMethodRef Class index 135, Name and type index 137
+23: Tag 10 MethodRef Class index 24, Name and type index 138
+24: Tag 7 Class Name index 139
+25: Tag 11 InterfaceMethodRef Class index 135, Name and type index 140
+26: Tag 10 MethodRef Class index 24, Name and type index 141
+27: Tag 9 FieldRef Class index 24, Name and type index 142
+28: Tag 7 Class Name index 143
+29: Tag 7 Class Name index 144
+30: Tag 7 Class Name index 145
+31: Tag 1 Utf8 Value "DISABLED"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/timerservice/NonFunctionalTimerService;"
+33: Tag 1 Utf8 Value "message"
+34: Tag 1 Utf8 Value "Ljava/lang/String;"
+35: Tag 1 Utf8 Value "timerServiceRegistry"
+36: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/TimerServiceRegistry;"
+37: Tag 1 Utf8 Value "<init>"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/ejb3/component/TimerServiceRegistry;)V"
+39: Tag 1 Utf8 Value "Code"
+40: Tag 1 Utf8 Value "LineNumberTable"
+41: Tag 1 Utf8 Value "LocalVariableTable"
+42: Tag 1 Utf8 Value "this"
+43: Tag 1 Utf8 Value "serviceNameFor"
+44: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/component/EJBComponentDescription;)Lorg/jboss/msc/service/ServiceName;"
+45: Tag 1 Utf8 Value "ejbComponentDescription"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/EJBComponentDescription;"
+47: Tag 1 Utf8 Value "StackMapTable"
+48: Tag 1 Utf8 Value "createCalendarTimer"
+49: Tag 1 Utf8 Value "(Ljavax/ejb/ScheduleExpression;)Ljavax/ejb/Timer;"
+50: Tag 1 Utf8 Value "schedule"
+51: Tag 1 Utf8 Value "Ljavax/ejb/ScheduleExpression;"
+52: Tag 1 Utf8 Value "Exceptions"
+53: Tag 1 Utf8 Value "(Ljavax/ejb/ScheduleExpression;Ljavax/ejb/TimerConfig;)Ljavax/ejb/Timer;"
+54: Tag 1 Utf8 Value "timerConfig"
+55: Tag 1 Utf8 Value "Ljavax/ejb/TimerConfig;"
+56: Tag 1 Utf8 Value "createIntervalTimer"
+57: Tag 1 Utf8 Value "(Ljava/util/Date;JLjavax/ejb/TimerConfig;)Ljavax/ejb/Timer;"
+58: Tag 1 Utf8 Value "initialExpiration"
+59: Tag 1 Utf8 Value "Ljava/util/Date;"
+60: Tag 1 Utf8 Value "intervalDuration"
+61: Tag 1 Utf8 Value "J"
+62: Tag 1 Utf8 Value "(JJLjavax/ejb/TimerConfig;)Ljavax/ejb/Timer;"
+63: Tag 1 Utf8 Value "initialDuration"
+64: Tag 1 Utf8 Value "createSingleActionTimer"
+65: Tag 1 Utf8 Value "(Ljava/util/Date;Ljavax/ejb/TimerConfig;)Ljavax/ejb/Timer;"
+66: Tag 1 Utf8 Value "expiration"
+67: Tag 1 Utf8 Value "(JLjavax/ejb/TimerConfig;)Ljavax/ejb/Timer;"
+68: Tag 1 Utf8 Value "duration"
+69: Tag 1 Utf8 Value "createTimer"
+70: Tag 1 Utf8 Value "(JLjava/io/Serializable;)Ljavax/ejb/Timer;"
+71: Tag 1 Utf8 Value "info"
+72: Tag 1 Utf8 Value "Ljava/io/Serializable;"
+73: Tag 1 Utf8 Value "(JJLjava/io/Serializable;)Ljavax/ejb/Timer;"
+74: Tag 1 Utf8 Value "(Ljava/util/Date;Ljava/io/Serializable;)Ljavax/ejb/Timer;"
+75: Tag 1 Utf8 Value "(Ljava/util/Date;JLjava/io/Serializable;)Ljavax/ejb/Timer;"
+76: Tag 1 Utf8 Value "getTimers"
+77: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+78: Tag 7 Class Name index 146
+79: Tag 1 Utf8 Value "Signature"
+80: Tag 1 Utf8 Value "()Ljava/util/Collection<Ljavax/ejb/Timer;>;"
+81: Tag 1 Utf8 Value "getAllTimers"
+82: Tag 1 Utf8 Value "assertInvocationAllowed"
+83: Tag 1 Utf8 Value "()V"
+84: Tag 1 Utf8 Value "component"
+85: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/Component;"
+86: Tag 1 Utf8 Value "currentInvocationContext"
+87: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+88: Tag 1 Utf8 Value "invokedMethod"
+89: Tag 1 Utf8 Value "Ljava/lang/reflect/Method;"
+90: Tag 7 Class Name index 147
+91: Tag 7 Class Name index 148
+92: Tag 1 Utf8 Value "start"
+93: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+94: Tag 1 Utf8 Value "startContext"
+95: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+96: Tag 1 Utf8 Value "stop"
+97: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+98: Tag 1 Utf8 Value "stopContext"
+99: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+100: Tag 1 Utf8 Value "getValue"
+101: Tag 1 Utf8 Value "()Ljavax/ejb/TimerService;"
+102: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+103: Tag 7 Class Name index 149
+104: Tag 1 Utf8 Value "<clinit>"
+105: Tag 1 Utf8 Value "Ljava/lang/Object;Ljavax/ejb/TimerService;Lorg/jboss/msc/service/Service<Ljavax/ejb/TimerService;>;"
+106: Tag 1 Utf8 Value "SourceFile"
+107: Tag 1 Utf8 Value "NonFunctionalTimerService.java"
+108: Tag 12 NameAndType Name index 37, Description index 83
+109: Tag 12 NameAndType Name index 33, Description index 34
+110: Tag 12 NameAndType Name index 35, Description index 36
+111: Tag 7 Class Name index 150
+112: Tag 12 NameAndType Name index 151, Description index 152
+113: Tag 1 Utf8 Value "java/lang/String"
+114: Tag 1 Utf8 Value "ejb"
+115: Tag 1 Utf8 Value "non-functional-timerservice"
+116: Tag 7 Class Name index 153
+117: Tag 12 NameAndType Name index 154, Description index 155
+118: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+119: Tag 12 NameAndType Name index 37, Description index 156
+120: Tag 12 NameAndType Name index 82, Description index 83
+121: Tag 7 Class Name index 157
+122: Tag 12 NameAndType Name index 158, Description index 159
+123: Tag 7 Class Name index 160
+124: Tag 12 NameAndType Name index 161, Description index 77
+125: Tag 7 Class Name index 162
+126: Tag 12 NameAndType Name index 163, Description index 164
+127: Tag 7 Class Name index 165
+128: Tag 12 NameAndType Name index 166, Description index 167
+129: Tag 7 Class Name index 168
+130: Tag 12 NameAndType Name index 169, Description index 170
+131: Tag 12 NameAndType Name index 171, Description index 172
+132: Tag 1 Utf8 Value "org/jboss/as/ee/component/Component"
+133: Tag 12 NameAndType Name index 173, Description index 174
+134: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/singleton/SingletonComponent"
+135: Tag 7 Class Name index 175
+136: Tag 12 NameAndType Name index 176, Description index 177
+137: Tag 12 NameAndType Name index 178, Description index 179
+138: Tag 12 NameAndType Name index 100, Description index 101
+139: Tag 1 Utf8 Value "org/jboss/as/ejb3/timerservice/NonFunctionalTimerService"
+140: Tag 12 NameAndType Name index 180, Description index 181
+141: Tag 12 NameAndType Name index 37, Description index 38
+142: Tag 12 NameAndType Name index 31, Description index 32
+143: Tag 1 Utf8 Value "java/lang/Object"
+144: Tag 1 Utf8 Value "javax/ejb/TimerService"
+145: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+146: Tag 1 Utf8 Value "javax/ejb/EJBException"
+147: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+148: Tag 1 Utf8 Value "java/lang/reflect/Method"
+149: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+150: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/EJBComponentDescription"
+151: Tag 1 Utf8 Value "getServiceName"
+152: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+153: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+154: Tag 1 Utf8 Value "append"
+155: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+156: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+157: Tag 1 Utf8 Value "java/util/Collections"
+158: Tag 1 Utf8 Value "emptySet"
+159: Tag 1 Utf8 Value "()Ljava/util/Set;"
+160: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/TimerServiceRegistry"
+161: Tag 1 Utf8 Value "getAllActiveTimers"
+162: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/allowedmethods/MethodType"
+163: Tag 1 Utf8 Value "TIMER_SERVICE_METHOD"
+164: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/allowedmethods/MethodType;"
+165: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/allowedmethods/AllowedMethodsInformation"
+166: Tag 1 Utf8 Value "checkAllowed"
+167: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/component/allowedmethods/MethodType;)V"
+168: Tag 1 Utf8 Value "org/jboss/as/ejb3/context/CurrentInvocationContext"
+169: Tag 1 Utf8 Value "get"
+170: Tag 1 Utf8 Value "()Lorg/jboss/invocation/InterceptorContext;"
+171: Tag 1 Utf8 Value "getMethod"
+172: Tag 1 Utf8 Value "()Ljava/lang/reflect/Method;"
+173: Tag 1 Utf8 Value "getPrivateData"
+174: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+175: Tag 1 Utf8 Value "org/jboss/as/ejb3/logging/EjbLogger"
+176: Tag 1 Utf8 Value "EJB3_TIMER_LOGGER"
+177: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/logging/EjbLogger;"
+178: Tag 1 Utf8 Value "failToInvokeTimerServiceDoLifecycle"
+179: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+180: Tag 1 Utf8 Value "timerServiceIsNotActive"
+181: Tag 1 Utf8 Value "()Ljava/lang/String;"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 24, name org.jboss.as.ejb3.timerservice.NonFunctionalTimerService
+
+Super class: id 28, name java.lang.Object
+
+Implements class ids 29 30
+Implements names javax.ejb.TimerService org.jboss.msc.service.Service
+
+Field name DISABLED (index 31), type Lorg/jboss/as/ejb3/timerservice/NonFunctionalTimerService; (descriptor index 32)
+Human type: org.jboss.as.ejb3.timerservice.NonFunctionalTimerService
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name message (index 33), type Ljava/lang/String; (descriptor index 34)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name timerServiceRegistry (index 35), type Lorg/jboss/as/ejb3/component/TimerServiceRegistry; (descriptor index 36)
+Human type: org.jboss.as.ejb3.component.TimerServiceRegistry
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 37), type (Ljava/lang/String;Lorg/jboss/as/ejb3/component/TimerServiceRegistry;)V (descriptor index 38)
+Human type: (java.lang.String, org.jboss.as.ejb3.component.TimerServiceRegistry): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name serviceNameFor (index 43), type (Lorg/jboss/as/ejb3/component/EJBComponentDescription;)Lorg/jboss/msc/service/ServiceName; (descriptor index 44)
+Human type: (org.jboss.as.ejb3.component.EJBComponentDescription): org.jboss.msc.service.ServiceName
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 95
+Method name createCalendarTimer (index 48), type (Ljavax/ejb/ScheduleExpression;)Ljavax/ejb/Timer; (descriptor index 49)
+Human type: (javax.ejb.ScheduleExpression): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 64
+Method attribute name Exceptions, size 4
+Method name createCalendarTimer (index 48), type (Ljavax/ejb/ScheduleExpression;Ljavax/ejb/TimerConfig;)Ljavax/ejb/Timer; (descriptor index 53)
+Human type: (javax.ejb.ScheduleExpression, javax.ejb.TimerConfig): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method attribute name Exceptions, size 4
+Method name createIntervalTimer (index 56), type (Ljava/util/Date;JLjavax/ejb/TimerConfig;)Ljavax/ejb/Timer; (descriptor index 57)
+Human type: (java.util.Date, long, javax.ejb.TimerConfig): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 84
+Method attribute name Exceptions, size 4
+Method name createIntervalTimer (index 56), type (JJLjavax/ejb/TimerConfig;)Ljavax/ejb/Timer; (descriptor index 62)
+Human type: (long, long, javax.ejb.TimerConfig): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 84
+Method attribute name Exceptions, size 4
+Method name createSingleActionTimer (index 64), type (Ljava/util/Date;Ljavax/ejb/TimerConfig;)Ljavax/ejb/Timer; (descriptor index 65)
+Human type: (java.util.Date, javax.ejb.TimerConfig): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method attribute name Exceptions, size 4
+Method name createSingleActionTimer (index 64), type (JLjavax/ejb/TimerConfig;)Ljavax/ejb/Timer; (descriptor index 67)
+Human type: (long, javax.ejb.TimerConfig): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method attribute name Exceptions, size 4
+Method name createTimer (index 69), type (JLjava/io/Serializable;)Ljavax/ejb/Timer; (descriptor index 70)
+Human type: (long, java.io.Serializable): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method attribute name Exceptions, size 4
+Method name createTimer (index 69), type (JJLjava/io/Serializable;)Ljavax/ejb/Timer; (descriptor index 73)
+Human type: (long, long, java.io.Serializable): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 84
+Method attribute name Exceptions, size 4
+Method name createTimer (index 69), type (Ljava/util/Date;Ljava/io/Serializable;)Ljavax/ejb/Timer; (descriptor index 74)
+Human type: (java.util.Date, java.io.Serializable): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method attribute name Exceptions, size 4
+Method name createTimer (index 69), type (Ljava/util/Date;JLjava/io/Serializable;)Ljavax/ejb/Timer; (descriptor index 75)
+Human type: (java.util.Date, long, java.io.Serializable): javax.ejb.Timer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 84
+Method attribute name Exceptions, size 4
+Method name getTimers (index 76), type ()Ljava/util/Collection; (descriptor index 77)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 54
+Method attribute name Exceptions, size 6
+Method attribute name Signature, size 2
+Method name getAllTimers (index 81), type ()Ljava/util/Collection; (descriptor index 77)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 86
+Method attribute name Exceptions, size 6
+Method attribute name Signature, size 2
+Method name assertInvocationAllowed (index 82), type ()V (descriptor index 83)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 179
+Method name start (index 92), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 93)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name stop (index 96), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 97)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name getValue (index 100), type ()Ljavax/ejb/TimerService; (descriptor index 101)
+Human type: (): javax.ejb.TimerService
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name getValue (index 100), type ()Ljava/lang/Object; (descriptor index 102)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name <clinit> (index 104), type ()V (descriptor index 83)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 44
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

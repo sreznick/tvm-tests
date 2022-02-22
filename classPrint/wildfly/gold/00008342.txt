@@ -1,0 +1,167 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 120
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/service/EEConcurrentAbstractService"
+11: Tag 1 Utf8 Value "jndiName"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 10 MethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "startValue"
+16: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+17: Tag 10 MethodRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 16
+19: Tag 1 Utf8 Value "bindValueToJndi"
+20: Tag 10 MethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames"
+24: Tag 1 Utf8 Value "bindInfoFor"
+25: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "org/jboss/as/naming/service/BinderService"
+28: Tag 10 MethodRef Class index 29, Name and type index 30
+29: Tag 7 Class Name index 31
+30: Tag 12 NameAndType Name index 32, Description index 33
+31: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames$BindInfo"
+32: Tag 1 Utf8 Value "getBindName"
+33: Tag 1 Utf8 Value "()Ljava/lang/String;"
+34: Tag 10 MethodRef Class index 26, Name and type index 35
+35: Tag 12 NameAndType Name index 5, Description index 36
+36: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+37: Tag 10 MethodRef Class index 26, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "getManagedObjectInjector"
+40: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue;"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/as/naming/ImmediateManagedReferenceFactory"
+43: Tag 10 MethodRef Class index 8, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "getValue"
+46: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+47: Tag 10 MethodRef Class index 41, Name and type index 48
+48: Tag 12 NameAndType Name index 5, Description index 49
+49: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+50: Tag 10 MethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 49
+53: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+54: Tag 1 Utf8 Value "inject"
+55: Tag 11 InterfaceMethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+59: Tag 1 Utf8 Value "getChildTarget"
+60: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+61: Tag 10 MethodRef Class index 29, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "getBinderServiceName"
+64: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+65: Tag 11 InterfaceMethodRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 69, Description index 70
+68: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+69: Tag 1 Utf8 Value "addService"
+70: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+71: Tag 10 MethodRef Class index 29, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 64
+73: Tag 1 Utf8 Value "getParentContextServiceName"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "org/jboss/as/naming/ServiceBasedNamingStore"
+76: Tag 10 MethodRef Class index 26, Name and type index 77
+77: Tag 12 NameAndType Name index 78, Description index 40
+78: Tag 1 Utf8 Value "getNamingStoreInjector"
+79: Tag 11 InterfaceMethodRef Class index 80, Name and type index 81
+80: Tag 7 Class Name index 82
+81: Tag 12 NameAndType Name index 83, Description index 84
+82: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+83: Tag 1 Utf8 Value "addDependency"
+84: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)Lorg/jboss/msc/service/ServiceBuilder;"
+85: Tag 11 InterfaceMethodRef Class index 80, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 88
+87: Tag 1 Utf8 Value "install"
+88: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+89: Tag 10 MethodRef Class index 8, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 92
+91: Tag 1 Utf8 Value "stopValue"
+92: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+93: Tag 7 Class Name index 94
+94: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+95: Tag 1 Utf8 Value "Code"
+96: Tag 1 Utf8 Value "LineNumberTable"
+97: Tag 1 Utf8 Value "LocalVariableTable"
+98: Tag 1 Utf8 Value "this"
+99: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/service/EEConcurrentAbstractService;"
+100: Tag 1 Utf8 Value "LocalVariableTypeTable"
+101: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/service/EEConcurrentAbstractService<TT;>;"
+102: Tag 1 Utf8 Value "start"
+103: Tag 1 Utf8 Value "context"
+104: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+105: Tag 1 Utf8 Value "Exceptions"
+106: Tag 7 Class Name index 107
+107: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+108: Tag 1 Utf8 Value "bindInfo"
+109: Tag 1 Utf8 Value "Lorg/jboss/as/naming/deployment/ContextNames$BindInfo;"
+110: Tag 1 Utf8 Value "binderService"
+111: Tag 1 Utf8 Value "Lorg/jboss/as/naming/service/BinderService;"
+112: Tag 1 Utf8 Value "stop"
+113: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+114: Tag 1 Utf8 Value "Signature"
+115: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Lorg/jboss/msc/service/Service<TT;>;"
+116: Tag 1 Utf8 Value "SourceFile"
+117: Tag 1 Utf8 Value "EEConcurrentAbstractService.java"
+118: Tag 1 Utf8 Value "InnerClasses"
+119: Tag 1 Utf8 Value "BindInfo"
+
+Flags: decimal 1056, hex 0420, binary 0000010000100000 super abstract
+
+This class: id 8, name org.jboss.as.ee.concurrent.service.EEConcurrentAbstractService
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 93
+Implements names org.jboss.msc.service.Service
+
+Field name jndiName (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;)V (descriptor index 36)
+Human type: (java.lang.String): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 88
+Method name start (index 102), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 16)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method attribute name Exceptions, size 4
+Method name startValue (index 15), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 16)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1024, hex 0400, binary 0000010000000000 abstract
+Method attribute name Exceptions, size 4
+Method name bindValueToJndi (index 19), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 16)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 190
+Method name stop (index 112), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 92)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 80
+Method name stopValue (index 91), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 92)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1024, hex 0400, binary 0000010000000000 abstract
+No method attributes
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

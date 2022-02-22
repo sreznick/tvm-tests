@@ -1,0 +1,139 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 89
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/service/SimpleServiceNameProvider"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/service/AsyncServiceConfigurator"
+11: Tag 1 Utf8 Value "asyncStart"
+12: Tag 1 Utf8 Value "Z"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "asyncStop"
+16: Tag 10 MethodRef Class index 8, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "getServiceName"
+19: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+20: Tag 11 InterfaceMethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+24: Tag 1 Utf8 Value "addService"
+25: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+26: Tag 9 FieldRef Class index 8, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "EXECUTOR_SERVICE_NAME"
+29: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+30: Tag 11 InterfaceMethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+34: Tag 1 Utf8 Value "requires"
+35: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "org/wildfly/clustering/service/AsyncServiceConfigurator$AsyncServiceBuilder"
+38: Tag 10 MethodRef Class index 36, Name and type index 39
+39: Tag 12 NameAndType Name index 5, Description index 40
+40: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;Ljava/util/function/Supplier;ZZ)V"
+41: Tag 9 FieldRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 29
+44: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+45: Tag 1 Utf8 Value "JBOSS"
+46: Tag 7 Class Name index 47
+47: Tag 1 Utf8 Value "java/lang/String"
+48: Tag 8 String Contents 49
+49: Tag 1 Utf8 Value "as"
+50: Tag 8 String Contents 51
+51: Tag 1 Utf8 Value "server-executor"
+52: Tag 10 MethodRef Class index 42, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "append"
+55: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceConfigurator"
+58: Tag 1 Utf8 Value "Code"
+59: Tag 1 Utf8 Value "LineNumberTable"
+60: Tag 1 Utf8 Value "LocalVariableTable"
+61: Tag 1 Utf8 Value "this"
+62: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/AsyncServiceConfigurator;"
+63: Tag 1 Utf8 Value "name"
+64: Tag 1 Utf8 Value "build"
+65: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+66: Tag 1 Utf8 Value "target"
+67: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+68: Tag 1 Utf8 Value "builder"
+69: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+70: Tag 1 Utf8 Value "executor"
+71: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+72: Tag 1 Utf8 Value "LocalVariableTypeTable"
+73: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+74: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Ljava/util/concurrent/Executor;>;"
+75: Tag 1 Utf8 Value "Signature"
+76: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder<*>;"
+77: Tag 1 Utf8 Value "startSynchronously"
+78: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/service/AsyncServiceConfigurator;"
+79: Tag 1 Utf8 Value "stopSynchronously"
+80: Tag 1 Utf8 Value "<clinit>"
+81: Tag 1 Utf8 Value "()V"
+82: Tag 1 Utf8 Value "SourceFile"
+83: Tag 1 Utf8 Value "AsyncServiceConfigurator.java"
+84: Tag 1 Utf8 Value "InnerClasses"
+85: Tag 1 Utf8 Value "AsyncServiceBuilder"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "org/wildfly/clustering/service/AsyncServiceConfigurator$AsyncService"
+88: Tag 1 Utf8 Value "AsyncService"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.service.AsyncServiceConfigurator
+
+Super class: id 2, name org.wildfly.clustering.service.SimpleServiceNameProvider
+
+Implements class ids 56
+Implements names org.wildfly.clustering.service.ServiceConfigurator
+
+Field name EXECUTOR_SERVICE_NAME (index 28), type Lorg/jboss/msc/service/ServiceName; (descriptor index 29)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name asyncStart (index 11), type Z (descriptor index 12)
+Human type: boolean
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name asyncStop (index 15), type Z (descriptor index 12)
+Human type: boolean
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/msc/service/ServiceName;)V (descriptor index 6)
+Human type: (org.jboss.msc.service.ServiceName): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 80
+Method name build (index 64), type (Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 65)
+Human type: (org.jboss.msc.service.ServiceTarget): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 147
+Method attribute name Signature, size 2
+Method name startSynchronously (index 77), type ()Lorg/wildfly/clustering/service/AsyncServiceConfigurator; (descriptor index 78)
+Human type: (): org.wildfly.clustering.service.AsyncServiceConfigurator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name stopSynchronously (index 79), type ()Lorg/wildfly/clustering/service/AsyncServiceConfigurator; (descriptor index 78)
+Human type: (): org.wildfly.clustering.service.AsyncServiceConfigurator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name <clinit> (index 80), type ()V (descriptor index 81)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 48
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

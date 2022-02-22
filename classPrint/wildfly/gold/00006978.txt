@@ -1,0 +1,105 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 65
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/CollectFiles$Limiter"
+11: Tag 1 Utf8 Value "amountRead"
+12: Tag 1 Utf8 Value "J"
+13: Tag 5 Long Value -1
+15: Tag 9 FieldRef Class index 8, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 12
+17: Tag 1 Utf8 Value "limit"
+18: Tag 9 FieldRef Class index 8, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "done"
+21: Tag 1 Utf8 Value "Z"
+22: Tag 10 MethodRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "org/jboss/vfs/VirtualFile"
+26: Tag 1 Utf8 Value "openStream"
+27: Tag 1 Utf8 Value "()Ljava/io/InputStream;"
+28: Tag 10 MethodRef Class index 23, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "getSize"
+31: Tag 1 Utf8 Value "()J"
+32: Tag 10 MethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "org/jboss/as/jdr/util/Utils"
+36: Tag 1 Utf8 Value "skip"
+37: Tag 1 Utf8 Value "(Ljava/io/InputStream;J)V"
+38: Tag 1 Utf8 Value "(J)V"
+39: Tag 1 Utf8 Value "Code"
+40: Tag 1 Utf8 Value "LineNumberTable"
+41: Tag 1 Utf8 Value "LocalVariableTable"
+42: Tag 1 Utf8 Value "this"
+43: Tag 1 Utf8 Value "Lorg/jboss/as/jdr/commands/CollectFiles$Limiter;"
+44: Tag 1 Utf8 Value "isDone"
+45: Tag 1 Utf8 Value "()Z"
+46: Tag 1 Utf8 Value "(Lorg/jboss/vfs/VirtualFile;)Ljava/io/InputStream;"
+47: Tag 1 Utf8 Value "leftToRead"
+48: Tag 1 Utf8 Value "resource"
+49: Tag 1 Utf8 Value "Lorg/jboss/vfs/VirtualFile;"
+50: Tag 1 Utf8 Value "is"
+51: Tag 1 Utf8 Value "Ljava/io/InputStream;"
+52: Tag 1 Utf8 Value "resourceSize"
+53: Tag 1 Utf8 Value "StackMapTable"
+54: Tag 7 Class Name index 55
+55: Tag 1 Utf8 Value "java/io/InputStream"
+56: Tag 1 Utf8 Value "Exceptions"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "java/io/IOException"
+59: Tag 1 Utf8 Value "SourceFile"
+60: Tag 1 Utf8 Value "CollectFiles.java"
+61: Tag 1 Utf8 Value "InnerClasses"
+62: Tag 7 Class Name index 63
+63: Tag 1 Utf8 Value "org/jboss/as/jdr/commands/CollectFiles"
+64: Tag 1 Utf8 Value "Limiter"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 8, name org.jboss.as.jdr.commands.CollectFiles$Limiter
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name amountRead (index 11), type J (descriptor index 12)
+Human type: long
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name limit (index 17), type J (descriptor index 12)
+Human type: long
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name done (index 20), type Z (descriptor index 21)
+Human type: boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 5), type (J)V (descriptor index 38)
+Human type: (long): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 99
+Method name isDone (index 44), type ()Z (descriptor index 45)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name limit (index 17), type (Lorg/jboss/vfs/VirtualFile;)Ljava/io/InputStream; (descriptor index 46)
+Human type: (org.jboss.vfs.VirtualFile): java.io.InputStream
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 200
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

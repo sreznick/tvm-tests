@@ -1,0 +1,145 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 116
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "java/lang/StringBuilder"
+3: Tag 10 MethodRef Class index 1, Name and type index 4
+4: Tag 12 NameAndType Name index 5, Description index 6
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "getClass"
+12: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/lang/Class"
+17: Tag 1 Utf8 Value "getSimpleName"
+18: Tag 1 Utf8 Value "()Ljava/lang/String;"
+19: Tag 10 MethodRef Class index 1, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "append"
+22: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+23: Tag 8 String Contents 24
+24: Tag 1 Utf8 Value ":"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 18
+28: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads"
+29: Tag 1 Utf8 Value "getName"
+30: Tag 10 MethodRef Class index 1, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 18
+32: Tag 1 Utf8 Value "toString"
+33: Tag 9 FieldRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+37: Tag 1 Utf8 Value "ROOT_LOGGER"
+38: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+39: Tag 8 String Contents 40
+40: Tag 1 Utf8 Value "Cancelling %s hung tasks..."
+41: Tag 11 InterfaceMethodRef Class index 34, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "debugf"
+44: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+45: Tag 11 InterfaceMethodRef Class index 26, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "getHungThreads"
+48: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+49: Tag 11 InterfaceMethodRef Class index 50, Name and type index 51
+50: Tag 7 Class Name index 52
+51: Tag 12 NameAndType Name index 53, Description index 54
+52: Tag 1 Utf8 Value "java/util/Collection"
+53: Tag 1 Utf8 Value "iterator"
+54: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+55: Tag 11 InterfaceMethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "java/util/Iterator"
+59: Tag 1 Utf8 Value "hasNext"
+60: Tag 1 Utf8 Value "()Z"
+61: Tag 11 InterfaceMethodRef Class index 56, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "next"
+64: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/AbstractManagedThread"
+67: Tag 10 MethodRef Class index 65, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 18
+69: Tag 1 Utf8 Value "getTaskIdentityName"
+70: Tag 7 Class Name index 71
+71: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedThreadFactoryImpl$ManagedThread"
+72: Tag 10 MethodRef Class index 70, Name and type index 73
+73: Tag 12 NameAndType Name index 74, Description index 60
+74: Tag 1 Utf8 Value "cancelTask"
+75: Tag 11 InterfaceMethodRef Class index 34, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 78
+77: Tag 1 Utf8 Value "hungTaskCancelled"
+78: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+79: Tag 11 InterfaceMethodRef Class index 34, Name and type index 80
+80: Tag 12 NameAndType Name index 81, Description index 78
+81: Tag 1 Utf8 Value "hungTaskNotCancelled"
+82: Tag 7 Class Name index 83
+83: Tag 1 Utf8 Value "java/lang/Throwable"
+84: Tag 11 InterfaceMethodRef Class index 34, Name and type index 85
+85: Tag 12 NameAndType Name index 86, Description index 87
+86: Tag 1 Utf8 Value "huntTaskTerminationFailure"
+87: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V"
+88: Tag 1 Utf8 Value "terminateHungTasks"
+89: Tag 1 Utf8 Value "Code"
+90: Tag 1 Utf8 Value "LineNumberTable"
+91: Tag 1 Utf8 Value "LocalVariableTable"
+92: Tag 1 Utf8 Value "throwable"
+93: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+94: Tag 1 Utf8 Value "taskIdentityName"
+95: Tag 1 Utf8 Value "Ljava/lang/String;"
+96: Tag 1 Utf8 Value "t"
+97: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/AbstractManagedThread;"
+98: Tag 1 Utf8 Value "this"
+99: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads;"
+100: Tag 1 Utf8 Value "executorName"
+101: Tag 1 Utf8 Value "hungThreads"
+102: Tag 1 Utf8 Value "Ljava/util/Collection;"
+103: Tag 1 Utf8 Value "LocalVariableTypeTable"
+104: Tag 1 Utf8 Value "Ljava/util/Collection<Lorg/glassfish/enterprise/concurrent/AbstractManagedThread;>;"
+105: Tag 1 Utf8 Value "StackMapTable"
+106: Tag 7 Class Name index 107
+107: Tag 1 Utf8 Value "java/lang/String"
+108: Tag 1 Utf8 Value "Signature"
+109: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/glassfish/enterprise/concurrent/AbstractManagedThread;>;"
+110: Tag 1 Utf8 Value "SourceFile"
+111: Tag 1 Utf8 Value "ManagedExecutorWithHungThreads.java"
+112: Tag 1 Utf8 Value "InnerClasses"
+113: Tag 7 Class Name index 114
+114: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedThreadFactoryImpl"
+115: Tag 1 Utf8 Value "ManagedThread"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 26, name org.jboss.as.ee.concurrent.ManagedExecutorWithHungThreads
+
+Super class: id 8, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name getName (index 29), type ()Ljava/lang/String; (descriptor index 18)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name terminateHungTasks (index 88), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 371
+Method name getHungThreads (index 47), type ()Ljava/util/Collection; (descriptor index 48)
+Human type: (): java.util.Collection
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

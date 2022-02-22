@@ -1,0 +1,205 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 165
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition$Parameters"
+3: Tag 9 FieldRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationDefinition"
+7: Tag 1 Utf8 Value "TRACER_CONFIGURATION_PATH"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+9: Tag 7 Class Name index 10
+10: Tag 1 Utf8 Value "java/lang/String"
+11: Tag 8 String Contents 12
+12: Tag 1 Utf8 Value "tracer"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/SubsystemExtension"
+17: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+18: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+19: Tag 10 MethodRef Class index 1, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "<init>"
+22: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+23: Tag 9 FieldRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationAddHandler"
+27: Tag 1 Utf8 Value "INSTANCE"
+28: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationAddHandler;"
+29: Tag 10 MethodRef Class index 1, Name and type index 30
+30: Tag 12 NameAndType Name index 31, Description index 32
+31: Tag 1 Utf8 Value "setAddHandler"
+32: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+33: Tag 9 FieldRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 27, Description index 37
+36: Tag 1 Utf8 Value "org/jboss/as/controller/ReloadRequiredRemoveStepHandler"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ReloadRequiredRemoveStepHandler;"
+38: Tag 10 MethodRef Class index 1, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 32
+40: Tag 1 Utf8 Value "setRemoveHandler"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+43: Tag 9 FieldRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/SubsystemDefinition"
+47: Tag 1 Utf8 Value "TRACER_CAPABILITY"
+48: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+49: Tag 10 MethodRef Class index 1, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "setCapabilities"
+52: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/capability/RuntimeCapability;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/jboss/as/controller/registry/RuntimePackageDependency"
+55: Tag 8 String Contents 56
+56: Tag 1 Utf8 Value "io.jaegertracing.jaeger"
+57: Tag 10 MethodRef Class index 53, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "required"
+60: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/registry/RuntimePackageDependency;"
+61: Tag 10 MethodRef Class index 1, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "setAdditionalPackages"
+64: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/registry/RuntimePackageDependency;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+65: Tag 10 MethodRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 21, Description index 69
+68: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition"
+69: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;)V"
+70: Tag 9 FieldRef Class index 4, Name and type index 71
+71: Tag 12 NameAndType Name index 72, Description index 73
+72: Tag 1 Utf8 Value "ATTRIBUTES"
+73: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+74: Tag 9 FieldRef Class index 4, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "WRITE_HANDLER"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationStepHandler;"
+78: Tag 11 InterfaceMethodRef Class index 79, Name and type index 80
+79: Tag 7 Class Name index 81
+80: Tag 12 NameAndType Name index 82, Description index 83
+81: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ManagementResourceRegistration"
+82: Tag 1 Utf8 Value "registerReadWriteAttribute"
+83: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationStepHandler;)V"
+84: Tag 8 String Contents 85
+85: Tag 1 Utf8 Value "jaeger-tracer"
+86: Tag 10 MethodRef Class index 87, Name and type index 88
+87: Tag 7 Class Name index 89
+88: Tag 12 NameAndType Name index 90, Description index 91
+89: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+90: Tag 1 Utf8 Value "pathElement"
+91: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/PathElement;"
+92: Tag 7 Class Name index 93
+93: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+94: Tag 9 FieldRef Class index 95, Name and type index 96
+95: Tag 7 Class Name index 97
+96: Tag 12 NameAndType Name index 98, Description index 99
+97: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/TracerAttributes"
+98: Tag 1 Utf8 Value "PROPAGATION"
+99: Tag 1 Utf8 Value "Lorg/jboss/as/controller/StringListAttributeDefinition;"
+100: Tag 9 FieldRef Class index 95, Name and type index 101
+101: Tag 12 NameAndType Name index 102, Description index 103
+102: Tag 1 Utf8 Value "SAMPLER_TYPE"
+103: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+104: Tag 9 FieldRef Class index 95, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 103
+106: Tag 1 Utf8 Value "SAMPLER_PARAM"
+107: Tag 9 FieldRef Class index 95, Name and type index 108
+108: Tag 12 NameAndType Name index 109, Description index 103
+109: Tag 1 Utf8 Value "SAMPLER_MANAGER_HOST_PORT"
+110: Tag 9 FieldRef Class index 95, Name and type index 111
+111: Tag 12 NameAndType Name index 112, Description index 103
+112: Tag 1 Utf8 Value "SENDER_BINDING"
+113: Tag 9 FieldRef Class index 95, Name and type index 114
+114: Tag 12 NameAndType Name index 115, Description index 103
+115: Tag 1 Utf8 Value "SENDER_ENDPOINT"
+116: Tag 9 FieldRef Class index 95, Name and type index 117
+117: Tag 12 NameAndType Name index 118, Description index 103
+118: Tag 1 Utf8 Value "SENDER_AUTH_TOKEN"
+119: Tag 9 FieldRef Class index 95, Name and type index 120
+120: Tag 12 NameAndType Name index 121, Description index 103
+121: Tag 1 Utf8 Value "SENDER_AUTH_USER"
+122: Tag 9 FieldRef Class index 95, Name and type index 123
+123: Tag 12 NameAndType Name index 124, Description index 103
+124: Tag 1 Utf8 Value "SENDER_AUTH_PASSWORD"
+125: Tag 9 FieldRef Class index 95, Name and type index 126
+126: Tag 12 NameAndType Name index 127, Description index 103
+127: Tag 1 Utf8 Value "REPORTER_LOG_SPANS"
+128: Tag 9 FieldRef Class index 95, Name and type index 129
+129: Tag 12 NameAndType Name index 130, Description index 103
+130: Tag 1 Utf8 Value "REPORTER_FLUSH_INTERVAL"
+131: Tag 9 FieldRef Class index 95, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 103
+133: Tag 1 Utf8 Value "REPORTER_MAX_QUEUE_SIZE"
+134: Tag 9 FieldRef Class index 95, Name and type index 135
+135: Tag 12 NameAndType Name index 136, Description index 137
+136: Tag 1 Utf8 Value "TRACER_TAGS"
+137: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PropertiesAttributeDefinition;"
+138: Tag 9 FieldRef Class index 95, Name and type index 139
+139: Tag 12 NameAndType Name index 140, Description index 103
+140: Tag 1 Utf8 Value "TRACEID_128BIT"
+141: Tag 7 Class Name index 142
+142: Tag 1 Utf8 Value "org/jboss/as/controller/ReloadRequiredWriteAttributeHandler"
+143: Tag 10 MethodRef Class index 141, Name and type index 144
+144: Tag 12 NameAndType Name index 21, Description index 145
+145: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)V"
+146: Tag 1 Utf8 Value "()V"
+147: Tag 1 Utf8 Value "Code"
+148: Tag 1 Utf8 Value "LineNumberTable"
+149: Tag 1 Utf8 Value "LocalVariableTable"
+150: Tag 1 Utf8 Value "this"
+151: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationDefinition;"
+152: Tag 1 Utf8 Value "registerAttributes"
+153: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+154: Tag 1 Utf8 Value "att"
+155: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+156: Tag 1 Utf8 Value "resourceRegistration"
+157: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+158: Tag 1 Utf8 Value "StackMapTable"
+159: Tag 7 Class Name index 73
+160: Tag 1 Utf8 Value "<clinit>"
+161: Tag 1 Utf8 Value "SourceFile"
+162: Tag 1 Utf8 Value "JaegerTracerConfigurationDefinition.java"
+163: Tag 1 Utf8 Value "InnerClasses"
+164: Tag 1 Utf8 Value "Parameters"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 4, name org.wildfly.extension.microprofile.opentracing.JaegerTracerConfigurationDefinition
+
+Super class: id 66, name org.jboss.as.controller.SimpleResourceDefinition
+
+No interfaces
+
+Field name TRACER_CONFIGURATION_PATH (index 7), type Lorg/jboss/as/controller/PathElement; (descriptor index 8)
+Human type: org.jboss.as.controller.PathElement
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ATTRIBUTES (index 72), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 73)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name WRITE_HANDLER (index 76), type Lorg/jboss/as/controller/OperationStepHandler; (descriptor index 77)
+Human type: org.jboss.as.controller.OperationStepHandler
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 21), type ()V (descriptor index 146)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 133
+Method name registerAttributes (index 152), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 153)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 134
+Method name <clinit> (index 160), type ()V (descriptor index 146)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 154
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

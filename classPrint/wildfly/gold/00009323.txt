@@ -1,0 +1,116 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 84
+1: Tag 10 MethodRef Class index 13, Name and type index 53
+2: Tag 8 String Contents 54
+3: Tag 11 InterfaceMethodRef Class index 6, Name and type index 55
+4: Tag 11 InterfaceMethodRef Class index 6, Name and type index 56
+5: Tag 11 InterfaceMethodRef Class index 57, Name and type index 58
+6: Tag 7 Class Name index 59
+7: Tag 8 String Contents 60
+8: Tag 11 InterfaceMethodRef Class index 6, Name and type index 61
+9: Tag 11 InterfaceMethodRef Class index 41, Name and type index 62
+10: Tag 10 MethodRef Class index 40, Name and type index 63
+11: Tag 10 MethodRef Class index 40, Name and type index 64
+12: Tag 7 Class Name index 65
+13: Tag 7 Class Name index 66
+14: Tag 1 Utf8 Value "serialVersionUID"
+15: Tag 1 Utf8 Value "J"
+16: Tag 1 Utf8 Value "ConstantValue"
+17: Tag 5 Long Value 1
+19: Tag 1 Utf8 Value "SERVLET_PATH"
+20: Tag 1 Utf8 Value "Ljava/lang/String;"
+21: Tag 8 String Contents 52
+22: Tag 1 Utf8 Value "<init>"
+23: Tag 1 Utf8 Value "()V"
+24: Tag 1 Utf8 Value "Code"
+25: Tag 1 Utf8 Value "LineNumberTable"
+26: Tag 1 Utf8 Value "LocalVariableTable"
+27: Tag 1 Utf8 Value "this"
+28: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/security/common/servlets/PrincipalPrintingServlet;"
+29: Tag 1 Utf8 Value "doGet"
+30: Tag 1 Utf8 Value "(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+31: Tag 1 Utf8 Value "req"
+32: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletRequest;"
+33: Tag 1 Utf8 Value "resp"
+34: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletResponse;"
+35: Tag 1 Utf8 Value "writer"
+36: Tag 1 Utf8 Value "Ljava/io/PrintWriter;"
+37: Tag 1 Utf8 Value "principal"
+38: Tag 1 Utf8 Value "Ljava/security/Principal;"
+39: Tag 1 Utf8 Value "StackMapTable"
+40: Tag 7 Class Name index 67
+41: Tag 7 Class Name index 68
+42: Tag 1 Utf8 Value "Exceptions"
+43: Tag 7 Class Name index 69
+44: Tag 7 Class Name index 70
+45: Tag 1 Utf8 Value "SourceFile"
+46: Tag 1 Utf8 Value "PrincipalPrintingServlet.java"
+47: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+48: Tag 1 Utf8 Value "Ljavax/servlet/annotation/WebServlet;"
+49: Tag 1 Utf8 Value "name"
+50: Tag 1 Utf8 Value "PrincipalPrintingServlet"
+51: Tag 1 Utf8 Value "urlPatterns"
+52: Tag 1 Utf8 Value "/printPrincipal"
+53: Tag 12 NameAndType Name index 22, Description index 23
+54: Tag 1 Utf8 Value "text/plain"
+55: Tag 12 NameAndType Name index 71, Description index 72
+56: Tag 12 NameAndType Name index 73, Description index 74
+57: Tag 7 Class Name index 75
+58: Tag 12 NameAndType Name index 76, Description index 77
+59: Tag 1 Utf8 Value "javax/servlet/http/HttpServletResponse"
+60: Tag 1 Utf8 Value "Principal name is printed only for the authenticated users."
+61: Tag 12 NameAndType Name index 78, Description index 79
+62: Tag 12 NameAndType Name index 80, Description index 81
+63: Tag 12 NameAndType Name index 82, Description index 72
+64: Tag 12 NameAndType Name index 83, Description index 23
+65: Tag 1 Utf8 Value "org/jboss/as/test/integration/security/common/servlets/PrincipalPrintingServlet"
+66: Tag 1 Utf8 Value "javax/servlet/http/HttpServlet"
+67: Tag 1 Utf8 Value "java/io/PrintWriter"
+68: Tag 1 Utf8 Value "java/security/Principal"
+69: Tag 1 Utf8 Value "javax/servlet/ServletException"
+70: Tag 1 Utf8 Value "java/io/IOException"
+71: Tag 1 Utf8 Value "setContentType"
+72: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+73: Tag 1 Utf8 Value "getWriter"
+74: Tag 1 Utf8 Value "()Ljava/io/PrintWriter;"
+75: Tag 1 Utf8 Value "javax/servlet/http/HttpServletRequest"
+76: Tag 1 Utf8 Value "getUserPrincipal"
+77: Tag 1 Utf8 Value "()Ljava/security/Principal;"
+78: Tag 1 Utf8 Value "sendError"
+79: Tag 1 Utf8 Value "(ILjava/lang/String;)V"
+80: Tag 1 Utf8 Value "getName"
+81: Tag 1 Utf8 Value "()Ljava/lang/String;"
+82: Tag 1 Utf8 Value "write"
+83: Tag 1 Utf8 Value "close"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 12, name org.jboss.as.test.integration.security.common.servlets.PrincipalPrintingServlet
+
+Super class: id 13, name javax.servlet.http.HttpServlet
+
+No interfaces
+
+Field name serialVersionUID (index 14), type J (descriptor index 15)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name SERVLET_PATH (index 19), type Ljava/lang/String; (descriptor index 20)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 22), type ()V (descriptor index 23)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name doGet (index 29), type (Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V (descriptor index 30)
+Human type: (javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 187
+Method attribute name Exceptions, size 6
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 19

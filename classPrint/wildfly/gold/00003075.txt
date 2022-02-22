@@ -1,0 +1,120 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 68
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/SerializerExternalizer"
+11: Tag 1 Utf8 Value "targetClass"
+12: Tag 1 Utf8 Value "Ljava/lang/Class;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "serializer"
+16: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/Serializer;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/Serializer"
+21: Tag 1 Utf8 Value "write"
+22: Tag 1 Utf8 Value "(Ljava/io/DataOutput;Ljava/lang/Object;)V"
+23: Tag 11 InterfaceMethodRef Class index 18, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "read"
+26: Tag 1 Utf8 Value "(Ljava/io/DataInput;)Ljava/lang/Object;"
+27: Tag 11 InterfaceMethodRef Class index 18, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "size"
+30: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/OptionalInt;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Externalizer"
+33: Tag 1 Utf8 Value "Signature"
+34: Tag 1 Utf8 Value "Ljava/lang/Class<TT;>;"
+35: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/Serializer<TT;>;"
+36: Tag 1 Utf8 Value "(Ljava/lang/Class;Lorg/wildfly/clustering/marshalling/spi/Serializer;)V"
+37: Tag 1 Utf8 Value "Code"
+38: Tag 1 Utf8 Value "LineNumberTable"
+39: Tag 1 Utf8 Value "LocalVariableTable"
+40: Tag 1 Utf8 Value "this"
+41: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/SerializerExternalizer;"
+42: Tag 1 Utf8 Value "LocalVariableTypeTable"
+43: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/SerializerExternalizer<TT;>;"
+44: Tag 1 Utf8 Value "(Ljava/lang/Class<TT;>;Lorg/wildfly/clustering/marshalling/spi/Serializer<TT;>;)V"
+45: Tag 1 Utf8 Value "writeObject"
+46: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/lang/Object;)V"
+47: Tag 1 Utf8 Value "output"
+48: Tag 1 Utf8 Value "Ljava/io/ObjectOutput;"
+49: Tag 1 Utf8 Value "object"
+50: Tag 1 Utf8 Value "Ljava/lang/Object;"
+51: Tag 1 Utf8 Value "TT;"
+52: Tag 1 Utf8 Value "Exceptions"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "java/io/IOException"
+55: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;TT;)V"
+56: Tag 1 Utf8 Value "readObject"
+57: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/lang/Object;"
+58: Tag 1 Utf8 Value "input"
+59: Tag 1 Utf8 Value "Ljava/io/ObjectInput;"
+60: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)TT;"
+61: Tag 1 Utf8 Value "getTargetClass"
+62: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+63: Tag 1 Utf8 Value "()Ljava/lang/Class<TT;>;"
+64: Tag 1 Utf8 Value "(TT;)Ljava/util/OptionalInt;"
+65: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/Externalizer<TT;>;"
+66: Tag 1 Utf8 Value "SourceFile"
+67: Tag 1 Utf8 Value "SerializerExternalizer.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.marshalling.spi.SerializerExternalizer
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 31
+Implements names org.wildfly.clustering.marshalling.Externalizer
+
+Field name targetClass (index 11), type Ljava/lang/Class; (descriptor index 12)
+Human type: java.lang.Class
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name serializer (index 15), type Lorg/wildfly/clustering/marshalling/spi/Serializer; (descriptor index 16)
+Human type: org.wildfly.clustering.marshalling.spi.Serializer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/lang/Class;Lorg/wildfly/clustering/marshalling/spi/Serializer;)V (descriptor index 36)
+Human type: (java.lang.Class, org.wildfly.clustering.marshalling.spi.Serializer): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 127
+Method attribute name Signature, size 2
+Method name writeObject (index 45), type (Ljava/io/ObjectOutput;Ljava/lang/Object;)V (descriptor index 46)
+Human type: (java.io.ObjectOutput, java.lang.Object): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 106
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name readObject (index 56), type (Ljava/io/ObjectInput;)Ljava/lang/Object; (descriptor index 57)
+Human type: (java.io.ObjectInput): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 81
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name getTargetClass (index 61), type ()Ljava/lang/Class; (descriptor index 62)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+Method name size (index 29), type (Ljava/lang/Object;)Ljava/util/OptionalInt; (descriptor index 30)
+Human type: (java.lang.Object): java.util.OptionalInt
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 91
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

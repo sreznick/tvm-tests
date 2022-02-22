@@ -1,0 +1,116 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 63
+1: Tag 10 MethodRef Class index 12, Name and type index 47
+2: Tag 7 Class Name index 48
+3: Tag 10 MethodRef Class index 2, Name and type index 47
+4: Tag 9 FieldRef Class index 11, Name and type index 49
+5: Tag 7 Class Name index 50
+6: Tag 10 MethodRef Class index 2, Name and type index 51
+7: Tag 7 Class Name index 52
+8: Tag 10 MethodRef Class index 5, Name and type index 53
+9: Tag 9 FieldRef Class index 11, Name and type index 54
+10: Tag 10 MethodRef Class index 11, Name and type index 55
+11: Tag 7 Class Name index 56
+12: Tag 7 Class Name index 57
+13: Tag 7 Class Name index 58
+14: Tag 1 Utf8 Value "threadPoolInjector"
+15: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+16: Tag 1 Utf8 Value "Signature"
+17: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/as/threads/ManagedJBossThreadPoolExecutorService;>;"
+18: Tag 1 Utf8 Value "jobExecutor"
+19: Tag 1 Utf8 Value "Lorg/wildfly/extension/batch/jberet/thread/pool/WildFlyJobExecutor;"
+20: Tag 1 Utf8 Value "<init>"
+21: Tag 1 Utf8 Value "()V"
+22: Tag 1 Utf8 Value "Code"
+23: Tag 1 Utf8 Value "LineNumberTable"
+24: Tag 1 Utf8 Value "LocalVariableTable"
+25: Tag 1 Utf8 Value "this"
+26: Tag 1 Utf8 Value "Lorg/wildfly/extension/batch/jberet/thread/pool/JobExecutorService;"
+27: Tag 1 Utf8 Value "start"
+28: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+29: Tag 1 Utf8 Value "context"
+30: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+31: Tag 1 Utf8 Value "Exceptions"
+32: Tag 7 Class Name index 59
+33: Tag 1 Utf8 Value "stop"
+34: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+35: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+36: Tag 1 Utf8 Value "getValue"
+37: Tag 1 Utf8 Value "()Lorg/jberet/spi/JobExecutor;"
+38: Tag 7 Class Name index 60
+39: Tag 7 Class Name index 61
+40: Tag 1 Utf8 Value "getThreadPoolInjector"
+41: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue;"
+42: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/as/threads/ManagedJBossThreadPoolExecutorService;>;"
+43: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+44: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/jberet/spi/JobExecutor;>;"
+45: Tag 1 Utf8 Value "SourceFile"
+46: Tag 1 Utf8 Value "JobExecutorService.java"
+47: Tag 12 NameAndType Name index 20, Description index 21
+48: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+49: Tag 12 NameAndType Name index 14, Description index 15
+50: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/thread/pool/WildFlyJobExecutor"
+51: Tag 12 NameAndType Name index 36, Description index 43
+52: Tag 1 Utf8 Value "org/jboss/as/threads/ManagedJBossThreadPoolExecutorService"
+53: Tag 12 NameAndType Name index 20, Description index 62
+54: Tag 12 NameAndType Name index 18, Description index 19
+55: Tag 12 NameAndType Name index 36, Description index 37
+56: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/thread/pool/JobExecutorService"
+57: Tag 1 Utf8 Value "java/lang/Object"
+58: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+59: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+60: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+61: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+62: Tag 1 Utf8 Value "(Lorg/jboss/as/threads/ManagedJBossThreadPoolExecutorService;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.wildfly.extension.batch.jberet.thread.pool.JobExecutorService
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 13
+Implements names org.jboss.msc.service.Service
+
+Field name threadPoolInjector (index 14), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 15)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name jobExecutor (index 18), type Lorg/wildfly/extension/batch/jberet/thread/pool/WildFlyJobExecutor; (descriptor index 19)
+Human type: org.wildfly.extension.batch.jberet.thread.pool.WildFlyJobExecutor
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 20), type ()V (descriptor index 21)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name start (index 27), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 28)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 78
+Method attribute name Exceptions, size 4
+Method name stop (index 33), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 34)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 62
+Method name getValue (index 36), type ()Lorg/jberet/spi/JobExecutor; (descriptor index 37)
+Human type: (): org.jberet.spi.JobExecutor
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name getThreadPoolInjector (index 40), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 41)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getValue (index 36), type ()Ljava/lang/Object; (descriptor index 43)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

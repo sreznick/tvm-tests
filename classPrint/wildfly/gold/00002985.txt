@@ -1,0 +1,100 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 51
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/TestComparator"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 10 MethodRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/TestComparatorExternalizer"
+14: Tag 1 Utf8 Value "readObject"
+15: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Lorg/wildfly/clustering/marshalling/TestComparator;"
+16: Tag 10 MethodRef Class index 11, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "writeObject"
+19: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Lorg/wildfly/clustering/marshalling/TestComparator;)V"
+20: Tag 7 Class Name index 21
+21: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Externalizer"
+22: Tag 1 Utf8 Value "Code"
+23: Tag 1 Utf8 Value "LineNumberTable"
+24: Tag 1 Utf8 Value "LocalVariableTable"
+25: Tag 1 Utf8 Value "this"
+26: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/TestComparatorExternalizer;"
+27: Tag 1 Utf8 Value "output"
+28: Tag 1 Utf8 Value "Ljava/io/ObjectOutput;"
+29: Tag 1 Utf8 Value "object"
+30: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/TestComparator;"
+31: Tag 1 Utf8 Value "LocalVariableTypeTable"
+32: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/TestComparator<Ljava/lang/Object;>;"
+33: Tag 1 Utf8 Value "Exceptions"
+34: Tag 7 Class Name index 35
+35: Tag 1 Utf8 Value "java/io/IOException"
+36: Tag 1 Utf8 Value "Signature"
+37: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Lorg/wildfly/clustering/marshalling/TestComparator<Ljava/lang/Object;>;)V"
+38: Tag 1 Utf8 Value "input"
+39: Tag 1 Utf8 Value "Ljava/io/ObjectInput;"
+40: Tag 7 Class Name index 41
+41: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+42: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Lorg/wildfly/clustering/marshalling/TestComparator<Ljava/lang/Object;>;"
+43: Tag 1 Utf8 Value "getTargetClass"
+44: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+45: Tag 1 Utf8 Value "()Ljava/lang/Class<Lorg/wildfly/clustering/marshalling/TestComparator<Ljava/lang/Object;>;>;"
+46: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/lang/Object;"
+47: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/lang/Object;)V"
+48: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/Externalizer<Lorg/wildfly/clustering/marshalling/TestComparator<Ljava/lang/Object;>;>;"
+49: Tag 1 Utf8 Value "SourceFile"
+50: Tag 1 Utf8 Value "TestComparatorExternalizer.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.wildfly.clustering.marshalling.TestComparatorExternalizer
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 20
+Implements names org.wildfly.clustering.marshalling.Externalizer
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name writeObject (index 18), type (Ljava/io/ObjectOutput;Lorg/wildfly/clustering/marshalling/TestComparator;)V (descriptor index 19)
+Human type: (java.io.ObjectOutput, org.wildfly.clustering.marshalling.TestComparator): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 81
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name readObject (index 14), type (Ljava/io/ObjectInput;)Lorg/wildfly/clustering/marshalling/TestComparator; (descriptor index 15)
+Human type: (java.io.ObjectInput): org.wildfly.clustering.marshalling.TestComparator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 60
+Method attribute name Exceptions, size 6
+Method attribute name Signature, size 2
+Method name getTargetClass (index 43), type ()Ljava/lang/Class; (descriptor index 44)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method attribute name Signature, size 2
+Method name readObject (index 14), type (Ljava/io/ObjectInput;)Ljava/lang/Object; (descriptor index 46)
+Human type: (java.io.ObjectInput): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method attribute name Exceptions, size 6
+Method name writeObject (index 18), type (Ljava/io/ObjectOutput;Ljava/lang/Object;)V (descriptor index 47)
+Human type: (java.io.ObjectOutput, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

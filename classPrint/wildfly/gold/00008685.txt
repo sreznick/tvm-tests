@@ -1,0 +1,151 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 95
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/ElytronSSLContextRegistry"
+11: Tag 1 Utf8 Value "INSTANCE"
+12: Tag 1 Utf8 Value "Lorg/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/ElytronSSLContextRegistry;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "serviceRegistry"
+16: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceRegistry;"
+17: Tag 10 MethodRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "getSSLContextController"
+20: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceController;"
+21: Tag 9 FieldRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/_private/MicroProfileReactiveMessagingKafkaLogger"
+25: Tag 1 Utf8 Value "LOGGER"
+26: Tag 1 Utf8 Value "Lorg/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/_private/MicroProfileReactiveMessagingKafkaLogger;"
+27: Tag 11 InterfaceMethodRef Class index 22, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "noElytronClientSSLContext"
+30: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+35: Tag 1 Utf8 Value "getValue"
+36: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "javax/net/ssl/SSLContext"
+39: Tag 10 MethodRef Class index 8, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "getSSLContextName"
+42: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+43: Tag 11 InterfaceMethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+47: Tag 1 Utf8 Value "getService"
+48: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+49: Tag 9 FieldRef Class index 8, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "BASE_CLIENT_SSL_CONTEXT_NAME"
+52: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "java/lang/String"
+55: Tag 10 MethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+59: Tag 1 Utf8 Value "append"
+60: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+61: Tag 10 MethodRef Class index 8, Name and type index 3
+62: Tag 8 String Contents 63
+63: Tag 1 Utf8 Value "org"
+64: Tag 8 String Contents 65
+65: Tag 1 Utf8 Value "wildfly"
+66: Tag 8 String Contents 67
+67: Tag 1 Utf8 Value "security"
+68: Tag 8 String Contents 69
+69: Tag 1 Utf8 Value "ssl-context"
+70: Tag 10 MethodRef Class index 56, Name and type index 71
+71: Tag 12 NameAndType Name index 72, Description index 60
+72: Tag 1 Utf8 Value "of"
+73: Tag 1 Utf8 Value "Code"
+74: Tag 1 Utf8 Value "LineNumberTable"
+75: Tag 1 Utf8 Value "LocalVariableTable"
+76: Tag 1 Utf8 Value "this"
+77: Tag 1 Utf8 Value "setServiceRegistry"
+78: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceRegistry;)V"
+79: Tag 1 Utf8 Value "isSSLContextInstalled"
+80: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+81: Tag 1 Utf8 Value "name"
+82: Tag 1 Utf8 Value "Ljava/lang/String;"
+83: Tag 1 Utf8 Value "StackMapTable"
+84: Tag 1 Utf8 Value "getInstalledSSLContext"
+85: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;"
+86: Tag 1 Utf8 Value "controller"
+87: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+88: Tag 1 Utf8 Value "LocalVariableTypeTable"
+89: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<Ljavax/net/ssl/SSLContext;>;"
+90: Tag 1 Utf8 Value "Signature"
+91: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceController<Ljavax/net/ssl/SSLContext;>;"
+92: Tag 1 Utf8 Value "<clinit>"
+93: Tag 1 Utf8 Value "SourceFile"
+94: Tag 1 Utf8 Value "ElytronSSLContextRegistry.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.microprofile.reactive.messaging.config.kafka.ssl.context.ElytronSSLContextRegistry
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name INSTANCE (index 11), type Lorg/wildfly/microprofile/reactive/messaging/config/kafka/ssl/context/ElytronSSLContextRegistry; (descriptor index 12)
+Human type: org.wildfly.microprofile.reactive.messaging.config.kafka.ssl.context.ElytronSSLContextRegistry
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name BASE_CLIENT_SSL_CONTEXT_NAME (index 51), type Lorg/jboss/msc/service/ServiceName; (descriptor index 52)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name serviceRegistry (index 15), type Lorg/jboss/msc/service/ServiceRegistry; (descriptor index 16)
+Human type: org.jboss.msc.service.ServiceRegistry
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name setServiceRegistry (index 77), type (Lorg/jboss/msc/service/ServiceRegistry;)V (descriptor index 78)
+Human type: (org.jboss.msc.service.ServiceRegistry): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 54
+Method name isSSLContextInstalled (index 79), type (Ljava/lang/String;)Z (descriptor index 80)
+Human type: (java.lang.String): boolean
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 69
+Method name getInstalledSSLContext (index 84), type (Ljava/lang/String;)Ljavax/net/ssl/SSLContext; (descriptor index 85)
+Human type: (java.lang.String): javax.net.ssl.SSLContext
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 128
+Method name getSSLContextController (index 19), type (Ljava/lang/String;)Lorg/jboss/msc/service/ServiceController; (descriptor index 20)
+Human type: (java.lang.String): org.jboss.msc.service.ServiceController
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 68
+Method attribute name Signature, size 2
+Method name getSSLContextName (index 41), type (Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName; (descriptor index 42)
+Human type: (java.lang.String): org.jboss.msc.service.ServiceName
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 57
+Method name <clinit> (index 92), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 69
+
+Class attribute name SourceFile, size 2

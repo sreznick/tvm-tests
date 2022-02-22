@@ -1,0 +1,329 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 167
+1: Tag 7 Class Name index 156
+2: Tag 8 String Contents 157
+3: Tag 10 MethodRef Class index 158, Name and type index 159
+4: Tag 9 FieldRef Class index 1, Name and type index 160
+5: Tag 7 Class Name index 161
+6: Tag 7 Class Name index 162
+7: Tag 1 Utf8 Value "ROOT_LOGGER"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/security/logging/SecurityLogger;"
+9: Tag 1 Utf8 Value "currentVersion"
+10: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+11: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+12: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+13: Tag 1 Utf8 Value "level"
+14: Tag 7 Class Name index 163
+15: Tag 1 Utf8 Value "Level"
+16: Tag 1 Utf8 Value "InnerClasses"
+17: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+18: Tag 1 Utf8 Value "INFO"
+19: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+20: Tag 1 Utf8 Value "id"
+21: Tag 3 Integer Value 1, hex: 0x1
+22: Tag 1 Utf8 Value "value"
+23: Tag 1 Utf8 Value "Current PicketBox version=%s"
+24: Tag 1 Utf8 Value "activatingSecuritySubsystem"
+25: Tag 1 Utf8 Value "()V"
+26: Tag 3 Integer Value 2, hex: 0x2
+27: Tag 1 Utf8 Value "Activating Security Subsystem"
+28: Tag 1 Utf8 Value "unableToGetModuleClassLoader"
+29: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/lang/IllegalStateException;"
+30: Tag 3 Integer Value 4, hex: 0x4
+31: Tag 1 Utf8 Value "Unable to get the Module Class Loader"
+32: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+33: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+34: Tag 1 Utf8 Value "operationNotSupported"
+35: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;)Ljavax/naming/OperationNotSupportedException;"
+36: Tag 3 Integer Value 5, hex: 0x5
+37: Tag 1 Utf8 Value "Operation not supported : %s"
+38: Tag 1 Utf8 Value "missingModuleName"
+39: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+40: Tag 3 Integer Value 6, hex: 0x6
+41: Tag 1 Utf8 Value "Missing module name for the %s"
+42: Tag 1 Utf8 Value "runtimeException"
+43: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+44: Tag 3 Integer Value 7, hex: 0x7
+45: Tag 1 Utf8 Value "Runtime Exception:"
+46: Tag 1 Utf8 Value "nullName"
+47: Tag 1 Utf8 Value "()Ljavax/naming/InvalidNameException;"
+48: Tag 3 Integer Value 9, hex: 0x9
+49: Tag 1 Utf8 Value "Name cannot be null or empty"
+50: Tag 1 Utf8 Value "nullArgument"
+51: Tag 3 Integer Value 11, hex: 0xb
+52: Tag 1 Utf8 Value "Argument %s is null"
+53: Tag 1 Utf8 Value "unableToStartException"
+54: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException;"
+55: Tag 3 Integer Value 12, hex: 0xc
+56: Tag 1 Utf8 Value "Unable to start the %s service"
+57: Tag 1 Utf8 Value "cnfe"
+58: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/ClassNotFoundException;"
+59: Tag 3 Integer Value 13, hex: 0xd
+60: Tag 1 Utf8 Value "Class not found : %s"
+61: Tag 1 Utf8 Value "securityException"
+62: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/lang/SecurityException;"
+63: Tag 3 Integer Value 15, hex: 0xf
+64: Tag 1 Utf8 Value "Security Exception"
+65: Tag 1 Utf8 Value "unsupportedOperationExceptionUseResourceDesc"
+66: Tag 1 Utf8 Value "()Ljava/lang/UnsupportedOperationException;"
+67: Tag 3 Integer Value 18, hex: 0x12
+68: Tag 1 Utf8 Value "Use the ResourceDescriptionResolver variant"
+69: Tag 1 Utf8 Value "unsupportedOperation"
+70: Tag 3 Integer Value 19, hex: 0x13
+71: Tag 1 Utf8 Value "Unsupported Operation"
+72: Tag 1 Utf8 Value "xmlStreamExceptionAuth"
+73: Tag 1 Utf8 Value "(Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException;"
+74: Tag 3 Integer Value 22, hex: 0x16
+75: Tag 1 Utf8 Value "A security domain can have either an <authentication> or <authentication-jaspi> element, not both"
+76: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Param;"
+77: Tag 1 Utf8 Value "xmlStreamExceptionMissingAttribute"
+78: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException;"
+79: Tag 3 Integer Value 23, hex: 0x17
+80: Tag 1 Utf8 Value "Missing required attribute: either %s or %s must be present"
+81: Tag 1 Utf8 Value "loginModuleStackIllegalArgument"
+82: Tag 3 Integer Value 24, hex: 0x18
+83: Tag 1 Utf8 Value "auth-module references a login module stack that doesn't exist::%s"
+84: Tag 1 Utf8 Value "addressDidNotContainSecurityDomain"
+85: Tag 1 Utf8 Value "()Ljava/lang/IllegalArgumentException;"
+86: Tag 3 Integer Value 25, hex: 0x19
+87: Tag 1 Utf8 Value "Address did not contain a security domain name"
+88: Tag 1 Utf8 Value "invalidUserException"
+89: Tag 1 Utf8 Value "()Ljava/lang/SecurityException;"
+90: Tag 3 Integer Value 27, hex: 0x1b
+91: Tag 1 Utf8 Value "Invalid User"
+92: Tag 1 Utf8 Value "securityManagementNotInjected"
+93: Tag 3 Integer Value 28, hex: 0x1c
+94: Tag 1 Utf8 Value "Security Management not injected"
+95: Tag 1 Utf8 Value "realmNotFound"
+96: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/SecurityException;"
+97: Tag 3 Integer Value 29, hex: 0x1d
+98: Tag 1 Utf8 Value "Security realm '%s' not found."
+99: Tag 1 Utf8 Value "failureCallingSecurityRealm"
+100: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/security/auth/login/LoginException;"
+101: Tag 3 Integer Value 31, hex: 0x1f
+102: Tag 1 Utf8 Value "Failure calling CallbackHandler '%s'"
+103: Tag 1 Utf8 Value "noAuthenticationCacheAvailable"
+104: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+105: Tag 3 Integer Value 32, hex: 0x20
+106: Tag 1 Utf8 Value "No authentication cache for security domain '%s' available"
+107: Tag 1 Utf8 Value "noUserPrincipalFound"
+108: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+109: Tag 3 Integer Value 33, hex: 0x21
+110: Tag 1 Utf8 Value "No UserPrincipalFound constructing RemotingConnectionPrincipal."
+111: Tag 1 Utf8 Value "interruptedWaitingForSecurityDomain"
+112: Tag 3 Integer Value 34, hex: 0x22
+113: Tag 1 Utf8 Value "Interrupted waiting for security domain '%s'"
+114: Tag 1 Utf8 Value "requiredSecurityDomainServiceNotAvailable"
+115: Tag 3 Integer Value 35, hex: 0x23
+116: Tag 1 Utf8 Value "Required security domain is not available '%s'"
+117: Tag 1 Utf8 Value "passwordAgain"
+118: Tag 1 Utf8 Value "()Ljava/lang/String;"
+119: Tag 1 Utf8 Value "Deprecated"
+120: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+121: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+122: Tag 3 Integer Value 61, hex: 0x3d
+123: Tag 1 Utf8 Value " again: "
+124: Tag 1 Utf8 Value "unableToLocateJSSEConfig"
+125: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+126: Tag 3 Integer Value 100, hex: 0x64
+127: Tag 1 Utf8 Value "Legacy security domain %s doesn't contain a valid JSSE configuration"
+128: Tag 1 Utf8 Value "unableToLocateComponentInJSSEDomain"
+129: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+130: Tag 3 Integer Value 101, hex: 0x65
+131: Tag 1 Utf8 Value "Unable to find a %s configuration in JSSE security domain %s"
+132: Tag 1 Utf8 Value "expectedManagerTypeNotFound"
+133: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+134: Tag 3 Integer Value 102, hex: 0x66
+135: Tag 1 Utf8 Value "Could not find a %s of type %s in the JSSE security domain %s"
+136: Tag 1 Utf8 Value "unableToCreateAuthorizationIdentity"
+137: Tag 3 Integer Value 103, hex: 0x67
+138: Tag 1 Utf8 Value "Unable to create AuthorizationIdentity: no authenticated Subject was found"
+139: Tag 1 Utf8 Value "defaultCacheRequirementMissing"
+140: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+141: Tag 1 Utf8 Value "WARN"
+142: Tag 3 Integer Value 104, hex: 0x68
+143: Tag 1 Utf8 Value "Default %s cache capability missing.  Assuming %s as default-cache."
+144: Tag 1 Utf8 Value "unableToEnableJaccSupport"
+145: Tag 3 Integer Value 105, hex: 0x69
+146: Tag 1 Utf8 Value "Unable to initialize legacy JACC support while elytron JACC support is enabled."
+147: Tag 1 Utf8 Value "<clinit>"
+148: Tag 1 Utf8 Value "Code"
+149: Tag 1 Utf8 Value "LineNumberTable"
+150: Tag 1 Utf8 Value "SourceFile"
+151: Tag 1 Utf8 Value "SecurityLogger.java"
+152: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+153: Tag 1 Utf8 Value "projectCode"
+154: Tag 1 Utf8 Value "WFLYSEC"
+155: Tag 1 Utf8 Value "length"
+156: Tag 1 Utf8 Value "org/jboss/as/security/logging/SecurityLogger"
+157: Tag 1 Utf8 Value "org.jboss.as.security"
+158: Tag 7 Class Name index 164
+159: Tag 12 NameAndType Name index 165, Description index 166
+160: Tag 12 NameAndType Name index 7, Description index 8
+161: Tag 1 Utf8 Value "java/lang/Object"
+162: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+163: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+164: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+165: Tag 1 Utf8 Value "getMessageLogger"
+166: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.jboss.as.security.logging.SecurityLogger
+
+Super class: id 5, name java.lang.Object
+
+Implements class ids 6
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 7), type Lorg/jboss/as/security/logging/SecurityLogger; (descriptor index 8)
+Human type: org.jboss.as.security.logging.SecurityLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name currentVersion (index 9), type (Ljava/lang/String;)V (descriptor index 10)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name activatingSecuritySubsystem (index 24), type ()V (descriptor index 25)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name unableToGetModuleClassLoader (index 28), type (Ljava/lang/Throwable;)Ljava/lang/IllegalStateException; (descriptor index 29)
+Human type: (java.lang.Throwable): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name operationNotSupported (index 34), type (Ljava/lang/reflect/Method;)Ljavax/naming/OperationNotSupportedException; (descriptor index 35)
+Human type: (java.lang.reflect.Method): javax.naming.OperationNotSupportedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name missingModuleName (index 38), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 39)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name runtimeException (index 42), type (Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 43)
+Human type: (java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name nullName (index 46), type ()Ljavax/naming/InvalidNameException; (descriptor index 47)
+Human type: (): javax.naming.InvalidNameException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name nullArgument (index 50), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 39)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unableToStartException (index 53), type (Ljava/lang/String;Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException; (descriptor index 54)
+Human type: (java.lang.String, java.lang.Throwable): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name cnfe (index 57), type (Ljava/lang/String;)Ljava/lang/ClassNotFoundException; (descriptor index 58)
+Human type: (java.lang.String): java.lang.ClassNotFoundException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name securityException (index 61), type (Ljava/lang/Throwable;)Ljava/lang/SecurityException; (descriptor index 62)
+Human type: (java.lang.Throwable): java.lang.SecurityException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name unsupportedOperationExceptionUseResourceDesc (index 65), type ()Ljava/lang/UnsupportedOperationException; (descriptor index 66)
+Human type: (): java.lang.UnsupportedOperationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unsupportedOperation (index 69), type ()Ljava/lang/UnsupportedOperationException; (descriptor index 66)
+Human type: (): java.lang.UnsupportedOperationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name xmlStreamExceptionAuth (index 72), type (Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException; (descriptor index 73)
+Human type: (javax.xml.stream.Location): javax.xml.stream.XMLStreamException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name xmlStreamExceptionMissingAttribute (index 77), type (Ljava/lang/String;Ljava/lang/String;Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException; (descriptor index 78)
+Human type: (java.lang.String, java.lang.String, javax.xml.stream.Location): javax.xml.stream.XMLStreamException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name loginModuleStackIllegalArgument (index 81), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 39)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name addressDidNotContainSecurityDomain (index 84), type ()Ljava/lang/IllegalArgumentException; (descriptor index 85)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidUserException (index 88), type ()Ljava/lang/SecurityException; (descriptor index 89)
+Human type: (): java.lang.SecurityException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name securityManagementNotInjected (index 92), type ()Ljava/lang/SecurityException; (descriptor index 89)
+Human type: (): java.lang.SecurityException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name realmNotFound (index 95), type (Ljava/lang/String;)Ljava/lang/SecurityException; (descriptor index 96)
+Human type: (java.lang.String): java.lang.SecurityException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name failureCallingSecurityRealm (index 99), type (Ljava/lang/String;)Ljavax/security/auth/login/LoginException; (descriptor index 100)
+Human type: (java.lang.String): javax.security.auth.login.LoginException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name noAuthenticationCacheAvailable (index 103), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 104)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name noUserPrincipalFound (index 107), type ()Ljava/lang/IllegalStateException; (descriptor index 108)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name interruptedWaitingForSecurityDomain (index 111), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 104)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name requiredSecurityDomainServiceNotAvailable (index 114), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 104)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name passwordAgain (index 117), type ()Ljava/lang/String; (descriptor index 118)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Deprecated, size 0
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unableToLocateJSSEConfig (index 124), type (Ljava/lang/String;)Lorg/jboss/msc/service/StartException; (descriptor index 125)
+Human type: (java.lang.String): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unableToLocateComponentInJSSEDomain (index 128), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/StartException; (descriptor index 129)
+Human type: (java.lang.String, java.lang.String): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name expectedManagerTypeNotFound (index 132), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/StartException; (descriptor index 133)
+Human type: (java.lang.String, java.lang.String, java.lang.String): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unableToCreateAuthorizationIdentity (index 136), type ()Ljava/lang/IllegalStateException; (descriptor index 108)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name defaultCacheRequirementMissing (index 139), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 140)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name unableToEnableJaccSupport (index 144), type ()Ljava/lang/IllegalStateException; (descriptor index 108)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name <clinit> (index 147), type ()V (descriptor index 25)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

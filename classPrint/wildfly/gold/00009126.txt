@@ -1,0 +1,123 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 82
+1: Tag 10 MethodRef Class index 23, Name and type index 59
+2: Tag 9 FieldRef Class index 22, Name and type index 60
+3: Tag 7 Class Name index 61
+4: Tag 8 String Contents 24
+5: Tag 10 MethodRef Class index 3, Name and type index 62
+6: Tag 9 FieldRef Class index 22, Name and type index 63
+7: Tag 8 String Contents 28
+8: Tag 9 FieldRef Class index 22, Name and type index 64
+9: Tag 8 String Contents 30
+10: Tag 9 FieldRef Class index 22, Name and type index 65
+11: Tag 8 String Contents 32
+12: Tag 7 Class Name index 66
+13: Tag 10 MethodRef Class index 12, Name and type index 59
+14: Tag 8 String Contents 67
+15: Tag 10 MethodRef Class index 12, Name and type index 68
+16: Tag 8 String Contents 69
+17: Tag 8 String Contents 70
+18: Tag 8 String Contents 71
+19: Tag 7 Class Name index 72
+20: Tag 7 Class Name index 73
+21: Tag 10 MethodRef Class index 20, Name and type index 74
+22: Tag 7 Class Name index 75
+23: Tag 7 Class Name index 76
+24: Tag 1 Utf8 Value "contextService"
+25: Tag 1 Utf8 Value "Ljavax/enterprise/concurrent/ContextService;"
+26: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+27: Tag 1 Utf8 Value "Ljavax/annotation/Resource;"
+28: Tag 1 Utf8 Value "managedExecutorService"
+29: Tag 1 Utf8 Value "Ljavax/enterprise/concurrent/ManagedExecutorService;"
+30: Tag 1 Utf8 Value "managedScheduledExecutorService"
+31: Tag 1 Utf8 Value "Ljavax/enterprise/concurrent/ManagedScheduledExecutorService;"
+32: Tag 1 Utf8 Value "managedThreadFactory"
+33: Tag 1 Utf8 Value "Ljavax/enterprise/concurrent/ManagedThreadFactory;"
+34: Tag 1 Utf8 Value "<init>"
+35: Tag 1 Utf8 Value "()V"
+36: Tag 1 Utf8 Value "Code"
+37: Tag 1 Utf8 Value "LineNumberTable"
+38: Tag 1 Utf8 Value "LocalVariableTable"
+39: Tag 1 Utf8 Value "this"
+40: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/ee/naming/defaultbindings/concurrency/DefaultConcurrencyTestServlet;"
+41: Tag 1 Utf8 Value "doGet"
+42: Tag 1 Utf8 Value "(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+43: Tag 1 Utf8 Value "e"
+44: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+45: Tag 1 Utf8 Value "req"
+46: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletRequest;"
+47: Tag 1 Utf8 Value "resp"
+48: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletResponse;"
+49: Tag 1 Utf8 Value "StackMapTable"
+50: Tag 1 Utf8 Value "Exceptions"
+51: Tag 7 Class Name index 77
+52: Tag 1 Utf8 Value "SourceFile"
+53: Tag 1 Utf8 Value "DefaultConcurrencyTestServlet.java"
+54: Tag 1 Utf8 Value "Ljavax/servlet/annotation/WebServlet;"
+55: Tag 1 Utf8 Value "name"
+56: Tag 1 Utf8 Value "SimpleServlet"
+57: Tag 1 Utf8 Value "urlPatterns"
+58: Tag 1 Utf8 Value "/simple"
+59: Tag 12 NameAndType Name index 34, Description index 35
+60: Tag 12 NameAndType Name index 24, Description index 25
+61: Tag 1 Utf8 Value "java/lang/NullPointerException"
+62: Tag 12 NameAndType Name index 34, Description index 78
+63: Tag 12 NameAndType Name index 28, Description index 29
+64: Tag 12 NameAndType Name index 30, Description index 31
+65: Tag 12 NameAndType Name index 32, Description index 33
+66: Tag 1 Utf8 Value "javax/naming/InitialContext"
+67: Tag 1 Utf8 Value "java:comp/DefaultContextService"
+68: Tag 12 NameAndType Name index 79, Description index 80
+69: Tag 1 Utf8 Value "java:comp/DefaultManagedExecutorService"
+70: Tag 1 Utf8 Value "java:comp/DefaultManagedScheduledExecutorService"
+71: Tag 1 Utf8 Value "java:comp/DefaultManagedThreadFactory"
+72: Tag 1 Utf8 Value "java/lang/Throwable"
+73: Tag 1 Utf8 Value "javax/servlet/ServletException"
+74: Tag 12 NameAndType Name index 34, Description index 81
+75: Tag 1 Utf8 Value "org/jboss/as/test/integration/ee/naming/defaultbindings/concurrency/DefaultConcurrencyTestServlet"
+76: Tag 1 Utf8 Value "javax/servlet/http/HttpServlet"
+77: Tag 1 Utf8 Value "java/io/IOException"
+78: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+79: Tag 1 Utf8 Value "lookup"
+80: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+81: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 22, name org.jboss.as.test.integration.ee.naming.defaultbindings.concurrency.DefaultConcurrencyTestServlet
+
+Super class: id 23, name javax.servlet.http.HttpServlet
+
+No interfaces
+
+Field name contextService (index 24), type Ljavax/enterprise/concurrent/ContextService; (descriptor index 25)
+Human type: javax.enterprise.concurrent.ContextService
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 6
+Field name managedExecutorService (index 28), type Ljavax/enterprise/concurrent/ManagedExecutorService; (descriptor index 29)
+Human type: javax.enterprise.concurrent.ManagedExecutorService
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 6
+Field name managedScheduledExecutorService (index 30), type Ljavax/enterprise/concurrent/ManagedScheduledExecutorService; (descriptor index 31)
+Human type: javax.enterprise.concurrent.ManagedScheduledExecutorService
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 6
+Field name managedThreadFactory (index 32), type Ljavax/enterprise/concurrent/ManagedThreadFactory; (descriptor index 33)
+Human type: javax.enterprise.concurrent.ManagedThreadFactory
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 6
+
+Method name <init> (index 34), type ()V (descriptor index 35)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name doGet (index 41), type (Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V (descriptor index 42)
+Human type: (javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 291
+Method attribute name Exceptions, size 6
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 19

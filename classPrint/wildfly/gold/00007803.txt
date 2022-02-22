@@ -1,0 +1,166 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 123
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeDefinition"
+3: Tag 7 Class Name index 4
+4: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+5: Tag 9 FieldRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeHandler$1"
+9: Tag 1 Utf8 Value "this$0"
+10: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeHandler;"
+11: Tag 9 FieldRef Class index 6, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "val$operationName"
+14: Tag 1 Utf8 Value "Ljava/lang/String;"
+15: Tag 9 FieldRef Class index 6, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "val$bridge"
+18: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/jms/bridge/JMSBridge;"
+19: Tag 9 FieldRef Class index 6, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "val$bridgeService"
+22: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "java/lang/Object"
+27: Tag 1 Utf8 Value "<init>"
+28: Tag 1 Utf8 Value "()V"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "java/lang/String"
+33: Tag 1 Utf8 Value "hashCode"
+34: Tag 1 Utf8 Value "()I"
+35: Tag 8 String Contents 36
+36: Tag 1 Utf8 Value "start"
+37: Tag 10 MethodRef Class index 30, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "equals"
+40: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+41: Tag 8 String Contents 42
+42: Tag 1 Utf8 Value "stop"
+43: Tag 8 String Contents 44
+44: Tag 1 Utf8 Value "pause"
+45: Tag 8 String Contents 46
+46: Tag 1 Utf8 Value "resume"
+47: Tag 11 InterfaceMethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 42, Description index 28
+50: Tag 1 Utf8 Value "org/apache/activemq/artemis/jms/bridge/JMSBridge"
+51: Tag 11 InterfaceMethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 56
+54: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+55: Tag 1 Utf8 Value "getService"
+56: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/Service;"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService"
+59: Tag 10 MethodRef Class index 57, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 28
+61: Tag 1 Utf8 Value "startBridge"
+62: Tag 11 InterfaceMethodRef Class index 48, Name and type index 63
+63: Tag 12 NameAndType Name index 46, Description index 28
+64: Tag 11 InterfaceMethodRef Class index 48, Name and type index 65
+65: Tag 12 NameAndType Name index 44, Description index 28
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "java/lang/Exception"
+68: Tag 9 FieldRef Class index 69, Name and type index 70
+69: Tag 7 Class Name index 71
+70: Tag 12 NameAndType Name index 72, Description index 73
+71: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/logging/MessagingLogger"
+72: Tag 1 Utf8 Value "ROOT_LOGGER"
+73: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/logging/MessagingLogger;"
+74: Tag 10 MethodRef Class index 24, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "getClass"
+77: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+78: Tag 10 MethodRef Class index 79, Name and type index 80
+79: Tag 7 Class Name index 81
+80: Tag 12 NameAndType Name index 82, Description index 83
+81: Tag 1 Utf8 Value "java/lang/Class"
+82: Tag 1 Utf8 Value "getSimpleName"
+83: Tag 1 Utf8 Value "()Ljava/lang/String;"
+84: Tag 11 InterfaceMethodRef Class index 85, Name and type index 86
+85: Tag 7 Class Name index 87
+86: Tag 12 NameAndType Name index 88, Description index 89
+87: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+88: Tag 1 Utf8 Value "getCurrentAddress"
+89: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+90: Tag 11 InterfaceMethodRef Class index 69, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 93
+92: Tag 1 Utf8 Value "revertOperationFailed"
+93: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;)V"
+94: Tag 7 Class Name index 95
+95: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext$RollbackHandler"
+96: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeHandler;Ljava/lang/String;Lorg/apache/activemq/artemis/jms/bridge/JMSBridge;Lorg/jboss/msc/service/ServiceController;)V"
+97: Tag 1 Utf8 Value "Code"
+98: Tag 1 Utf8 Value "LineNumberTable"
+99: Tag 1 Utf8 Value "LocalVariableTable"
+100: Tag 1 Utf8 Value "this"
+101: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeHandler$1;"
+102: Tag 1 Utf8 Value "Signature"
+103: Tag 1 Utf8 Value "handleRollback"
+104: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+105: Tag 1 Utf8 Value "service"
+106: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeService;"
+107: Tag 1 Utf8 Value "e"
+108: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+109: Tag 1 Utf8 Value "context"
+110: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+111: Tag 1 Utf8 Value "operation"
+112: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+113: Tag 1 Utf8 Value "StackMapTable"
+114: Tag 1 Utf8 Value "SourceFile"
+115: Tag 1 Utf8 Value "JMSBridgeHandler.java"
+116: Tag 1 Utf8 Value "EnclosingMethod"
+117: Tag 7 Class Name index 118
+118: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeHandler"
+119: Tag 12 NameAndType Name index 120, Description index 104
+120: Tag 1 Utf8 Value "executeRuntimeStep"
+121: Tag 1 Utf8 Value "InnerClasses"
+122: Tag 1 Utf8 Value "RollbackHandler"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 6, name org.wildfly.extension.messaging.activemq.jms.bridge.JMSBridgeHandler$1
+
+Super class: id 24, name java.lang.Object
+
+Implements class ids 94
+Implements names org.jboss.as.controller.OperationContext$RollbackHandler
+
+Field name val$operationName (index 13), type Ljava/lang/String; (descriptor index 14)
+Human type: java.lang.String
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$bridge (index 17), type Lorg/apache/activemq/artemis/jms/bridge/JMSBridge; (descriptor index 18)
+Human type: org.apache.activemq.artemis.jms.bridge.JMSBridge
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$bridgeService (index 21), type Lorg/jboss/msc/service/ServiceController; (descriptor index 22)
+Human type: org.jboss.msc.service.ServiceController
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 9), type Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeHandler; (descriptor index 10)
+Human type: org.wildfly.extension.messaging.activemq.jms.bridge.JMSBridgeHandler
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 27), type (Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeHandler;Ljava/lang/String;Lorg/apache/activemq/artemis/jms/bridge/JMSBridge;Lorg/jboss/msc/service/ServiceController;)V (descriptor index 96)
+Human type: (org.wildfly.extension.messaging.activemq.jms.bridge.JMSBridgeHandler, java.lang.String, org.apache.activemq.artemis.jms.bridge.JMSBridge, org.jboss.msc.service.ServiceController): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 78
+Method attribute name Signature, size 2
+Method name handleRollback (index 103), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 104)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 399
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

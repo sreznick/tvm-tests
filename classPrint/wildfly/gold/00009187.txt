@@ -1,0 +1,141 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 95
+1: Tag 10 MethodRef Class index 17, Name and type index 49
+2: Tag 7 Class Name index 50
+3: Tag 8 String Contents 51
+4: Tag 10 MethodRef Class index 52, Name and type index 53
+5: Tag 7 Class Name index 54
+6: Tag 8 String Contents 55
+7: Tag 10 MethodRef Class index 5, Name and type index 56
+8: Tag 8 String Contents 57
+9: Tag 11 InterfaceMethodRef Class index 2, Name and type index 58
+10: Tag 9 FieldRef Class index 16, Name and type index 59
+11: Tag 10 MethodRef Class index 60, Name and type index 61
+12: Tag 10 MethodRef Class index 62, Name and type index 63
+13: Tag 9 FieldRef Class index 64, Name and type index 65
+14: Tag 10 MethodRef Class index 66, Name and type index 67
+15: Tag 10 MethodRef Class index 68, Name and type index 69
+16: Tag 7 Class Name index 70
+17: Tag 7 Class Name index 71
+18: Tag 7 Class Name index 72
+19: Tag 1 Utf8 Value "SetupTask"
+20: Tag 1 Utf8 Value "InnerClasses"
+21: Tag 1 Utf8 Value "url"
+22: Tag 1 Utf8 Value "Ljava/net/URL;"
+23: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+24: Tag 1 Utf8 Value "Lorg/jboss/arquillian/test/api/ArquillianResource;"
+25: Tag 1 Utf8 Value "<init>"
+26: Tag 1 Utf8 Value "()V"
+27: Tag 1 Utf8 Value "Code"
+28: Tag 1 Utf8 Value "LineNumberTable"
+29: Tag 1 Utf8 Value "LocalVariableTable"
+30: Tag 1 Utf8 Value "this"
+31: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/messaging/NoBrokerMessagingTestCase;"
+32: Tag 1 Utf8 Value "createArchive"
+33: Tag 1 Utf8 Value "()Lorg/jboss/shrinkwrap/api/spec/WebArchive;"
+34: Tag 1 Utf8 Value "Lorg/jboss/arquillian/container/test/api/Deployment;"
+35: Tag 1 Utf8 Value "testWarIsDeployed"
+36: Tag 1 Utf8 Value "reply"
+37: Tag 1 Utf8 Value "Ljava/lang/String;"
+38: Tag 1 Utf8 Value "Exceptions"
+39: Tag 7 Class Name index 73
+40: Tag 1 Utf8 Value "Lorg/junit/Test;"
+41: Tag 1 Utf8 Value "SourceFile"
+42: Tag 1 Utf8 Value "NoBrokerMessagingTestCase.java"
+43: Tag 1 Utf8 Value "Lorg/junit/runner/RunWith;"
+44: Tag 1 Utf8 Value "value"
+45: Tag 1 Utf8 Value "Lorg/jboss/arquillian/junit/Arquillian;"
+46: Tag 1 Utf8 Value "Lorg/jboss/arquillian/container/test/api/RunAsClient;"
+47: Tag 1 Utf8 Value "Lorg/jboss/as/arquillian/api/ServerSetup;"
+48: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/messaging/NoBrokerMessagingTestCase$SetupTask;"
+49: Tag 12 NameAndType Name index 25, Description index 26
+50: Tag 1 Utf8 Value "org/jboss/shrinkwrap/api/spec/WebArchive"
+51: Tag 1 Utf8 Value "nobroker.war"
+52: Tag 7 Class Name index 74
+53: Tag 12 NameAndType Name index 75, Description index 76
+54: Tag 1 Utf8 Value "org/jboss/shrinkwrap/api/asset/StringAsset"
+55: Tag 1 Utf8 Value "<!DOCTYPE html>
+<html lang= "en">
+  <head>
+    <meta charset="utf-8">
+    <title>No Broker</title>
+  </head>
+  <body>
+    <h1>Simple Content test for nobroker.war</h1>
+    <p>This is not a 404 error.</p>
+  </body>
+</html>"
+56: Tag 12 NameAndType Name index 25, Description index 77
+57: Tag 1 Utf8 Value "index.html"
+58: Tag 12 NameAndType Name index 78, Description index 79
+59: Tag 12 NameAndType Name index 21, Description index 22
+60: Tag 7 Class Name index 80
+61: Tag 12 NameAndType Name index 81, Description index 82
+62: Tag 7 Class Name index 83
+63: Tag 12 NameAndType Name index 84, Description index 85
+64: Tag 7 Class Name index 86
+65: Tag 12 NameAndType Name index 87, Description index 88
+66: Tag 7 Class Name index 89
+67: Tag 12 NameAndType Name index 90, Description index 91
+68: Tag 7 Class Name index 92
+69: Tag 12 NameAndType Name index 93, Description index 94
+70: Tag 1 Utf8 Value "org/jboss/as/test/smoke/messaging/NoBrokerMessagingTestCase"
+71: Tag 1 Utf8 Value "java/lang/Object"
+72: Tag 1 Utf8 Value "org/jboss/as/test/smoke/messaging/NoBrokerMessagingTestCase$SetupTask"
+73: Tag 1 Utf8 Value "java/lang/Exception"
+74: Tag 1 Utf8 Value "org/jboss/shrinkwrap/api/ShrinkWrap"
+75: Tag 1 Utf8 Value "create"
+76: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Lorg/jboss/shrinkwrap/api/Assignable;"
+77: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+78: Tag 1 Utf8 Value "addAsWebResource"
+79: Tag 1 Utf8 Value "(Lorg/jboss/shrinkwrap/api/asset/Asset;Ljava/lang/String;)Lorg/jboss/shrinkwrap/api/Archive;"
+80: Tag 1 Utf8 Value "java/net/URL"
+81: Tag 1 Utf8 Value "toExternalForm"
+82: Tag 1 Utf8 Value "()Ljava/lang/String;"
+83: Tag 1 Utf8 Value "org/jboss/as/test/shared/TimeoutUtil"
+84: Tag 1 Utf8 Value "adjust"
+85: Tag 1 Utf8 Value "(I)I"
+86: Tag 1 Utf8 Value "java/util/concurrent/TimeUnit"
+87: Tag 1 Utf8 Value "SECONDS"
+88: Tag 1 Utf8 Value "Ljava/util/concurrent/TimeUnit;"
+89: Tag 1 Utf8 Value "org/jboss/as/test/integration/common/HttpRequest"
+90: Tag 1 Utf8 Value "get"
+91: Tag 1 Utf8 Value "(Ljava/lang/String;JLjava/util/concurrent/TimeUnit;)Ljava/lang/String;"
+92: Tag 1 Utf8 Value "org/junit/Assert"
+93: Tag 1 Utf8 Value "assertNotNull"
+94: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 16, name org.jboss.as.test.smoke.messaging.NoBrokerMessagingTestCase
+
+Super class: id 17, name java.lang.Object
+
+No interfaces
+
+Field name url (index 21), type Ljava/net/URL; (descriptor index 22)
+Human type: java.net.URL
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 6
+
+Method name <init> (index 25), type ()V (descriptor index 26)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name createArchive (index 32), type ()Lorg/jboss/shrinkwrap/api/spec/WebArchive; (descriptor index 33)
+Human type: (): org.jboss.shrinkwrap.api.spec.WebArchive
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 62
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name testWarIsDeployed (index 35), type ()V (descriptor index 26)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 85
+Method attribute name Exceptions, size 4
+Method attribute name RuntimeVisibleAnnotations, size 6
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 27
+Class attribute name InnerClasses, size 10

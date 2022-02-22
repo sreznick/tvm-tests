@@ -1,0 +1,160 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 97
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/xts/XTSHandlersManager"
+11: Tag 1 Utf8 Value "enabled"
+12: Tag 1 Utf8 Value "Z"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "java/util/ArrayList"
+15: Tag 10 MethodRef Class index 13, Name and type index 16
+16: Tag 12 NameAndType Name index 5, Description index 17
+17: Tag 1 Utf8 Value "(I)V"
+18: Tag 7 Class Name index 19
+19: Tag 1 Utf8 Value "org/jboss/wsf/spi/metadata/j2ee/serviceref/UnifiedHandlerMetaData"
+20: Tag 9 FieldRef Class index 8, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 23
+22: Tag 1 Utf8 Value "BRIDGE_ENABLED_HANDLER_CLASS"
+23: Tag 1 Utf8 Value "Ljava/lang/String;"
+24: Tag 9 FieldRef Class index 8, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 23
+26: Tag 1 Utf8 Value "BRIDGE_HANDLER_NAME"
+27: Tag 10 MethodRef Class index 18, Name and type index 28
+28: Tag 12 NameAndType Name index 5, Description index 29
+29: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/util/Set;Ljava/util/Set;Ljava/util/Set;)V"
+30: Tag 11 InterfaceMethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "java/util/List"
+34: Tag 1 Utf8 Value "add"
+35: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+36: Tag 9 FieldRef Class index 8, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 23
+38: Tag 1 Utf8 Value "WSAT_ENABLED_HANDLER_CLASS"
+39: Tag 9 FieldRef Class index 8, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 23
+41: Tag 1 Utf8 Value "WSAT_HANDLER_NAME"
+42: Tag 9 FieldRef Class index 8, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 23
+44: Tag 1 Utf8 Value "BRIDGE_DISABLED_HANDLER_CLASS"
+45: Tag 9 FieldRef Class index 8, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 23
+47: Tag 1 Utf8 Value "WSAT_DISABLED_HANDLER_CLASS"
+48: Tag 7 Class Name index 49
+49: Tag 1 Utf8 Value "org/jboss/wsf/spi/metadata/j2ee/serviceref/UnifiedHandlerChainMetaData"
+50: Tag 8 String Contents 51
+51: Tag 1 Utf8 Value "##SOAP11_HTTP ##SOAP12_HTTP"
+52: Tag 8 String Contents 53
+53: Tag 1 Utf8 Value "xts-handler-chain"
+54: Tag 10 MethodRef Class index 48, Name and type index 55
+55: Tag 12 NameAndType Name index 5, Description index 56
+56: Tag 1 Utf8 Value "(Ljavax/xml/namespace/QName;Ljavax/xml/namespace/QName;Ljava/lang/String;Ljava/util/List;ZLjava/lang/String;)V"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "com/arjuna/mw/wst11/service/JaxWSHeaderContextProcessor"
+59: Tag 10 MethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "java/lang/Class"
+63: Tag 1 Utf8 Value "getSimpleName"
+64: Tag 1 Utf8 Value "()Ljava/lang/String;"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "com/arjuna/mw/wst11/client/EnabledWSTXHandler"
+67: Tag 10 MethodRef Class index 60, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 64
+69: Tag 1 Utf8 Value "getName"
+70: Tag 7 Class Name index 71
+71: Tag 1 Utf8 Value "com/arjuna/mw/wst11/client/DisabledWSTXHandler"
+72: Tag 7 Class Name index 73
+73: Tag 1 Utf8 Value "org/jboss/jbossts/txbridge/outbound/JaxWSTxOutboundBridgeHandler"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "org/jboss/jbossts/txbridge/outbound/EnabledJTAOverWSATHandler"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "org/jboss/jbossts/txbridge/outbound/DisabledJTAOverWSATHandler"
+78: Tag 1 Utf8 Value "HANDLER_CHAIN_ID"
+79: Tag 1 Utf8 Value "ConstantValue"
+80: Tag 1 Utf8 Value "HANDLER_PROTOCOL_BINDINGS"
+81: Tag 1 Utf8 Value "(Z)V"
+82: Tag 1 Utf8 Value "Code"
+83: Tag 1 Utf8 Value "LineNumberTable"
+84: Tag 1 Utf8 Value "LocalVariableTable"
+85: Tag 1 Utf8 Value "this"
+86: Tag 1 Utf8 Value "Lorg/jboss/as/xts/XTSHandlersManager;"
+87: Tag 1 Utf8 Value "getHandlerChain"
+88: Tag 1 Utf8 Value "()Lorg/jboss/wsf/spi/metadata/j2ee/serviceref/UnifiedHandlerChainMetaData;"
+89: Tag 1 Utf8 Value "handlers"
+90: Tag 1 Utf8 Value "Ljava/util/List;"
+91: Tag 1 Utf8 Value "LocalVariableTypeTable"
+92: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/wsf/spi/metadata/j2ee/serviceref/UnifiedHandlerMetaData;>;"
+93: Tag 1 Utf8 Value "StackMapTable"
+94: Tag 1 Utf8 Value "<clinit>"
+95: Tag 1 Utf8 Value "SourceFile"
+96: Tag 1 Utf8 Value "XTSHandlersManager.java"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 8, name org.jboss.as.xts.XTSHandlersManager
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name HANDLER_CHAIN_ID (index 78), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name HANDLER_PROTOCOL_BINDINGS (index 80), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name WSAT_HANDLER_NAME (index 41), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name WSAT_ENABLED_HANDLER_CLASS (index 38), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name WSAT_DISABLED_HANDLER_CLASS (index 47), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name BRIDGE_HANDLER_NAME (index 26), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name BRIDGE_ENABLED_HANDLER_CLASS (index 22), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name BRIDGE_DISABLED_HANDLER_CLASS (index 44), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name enabled (index 11), type Z (descriptor index 12)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Z)V (descriptor index 81)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name getHandlerChain (index 87), type ()Lorg/jboss/wsf/spi/metadata/j2ee/serviceref/UnifiedHandlerChainMetaData; (descriptor index 88)
+Human type: (): org.jboss.wsf.spi.metadata.j2ee.serviceref.UnifiedHandlerChainMetaData
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 240
+Method name <clinit> (index 94), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 93
+
+Class attribute name SourceFile, size 2

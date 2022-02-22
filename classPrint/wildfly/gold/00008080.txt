@@ -1,0 +1,309 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 199
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentConfiguration"
+11: Tag 1 Utf8 Value "getComponentDescription"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/component/ComponentDescription;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentDescription"
+17: Tag 1 Utf8 Value "getCreateServiceName"
+18: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+19: Tag 9 FieldRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/ee/component/BasicComponentCreateService"
+23: Tag 1 Utf8 Value "serviceName"
+24: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+25: Tag 10 MethodRef Class index 8, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "getComponentName"
+28: Tag 1 Utf8 Value "()Ljava/lang/String;"
+29: Tag 9 FieldRef Class index 20, Name and type index 30
+30: Tag 12 NameAndType Name index 31, Description index 32
+31: Tag 1 Utf8 Value "componentName"
+32: Tag 1 Utf8 Value "Ljava/lang/String;"
+33: Tag 10 MethodRef Class index 8, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "getPostConstructInterceptors"
+36: Tag 1 Utf8 Value "()Ljava/util/List;"
+37: Tag 10 MethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/jboss/invocation/Interceptors"
+41: Tag 1 Utf8 Value "getChainedInterceptorFactory"
+42: Tag 1 Utf8 Value "(Ljava/util/Collection;)Lorg/jboss/invocation/InterceptorFactory;"
+43: Tag 9 FieldRef Class index 20, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "postConstruct"
+46: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorFactory;"
+47: Tag 10 MethodRef Class index 8, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 36
+49: Tag 1 Utf8 Value "getPreDestroyInterceptors"
+50: Tag 9 FieldRef Class index 20, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 46
+52: Tag 1 Utf8 Value "preDestroy"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "java/util/IdentityHashMap"
+55: Tag 10 MethodRef Class index 53, Name and type index 3
+56: Tag 10 MethodRef Class index 8, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "getDefinedComponentMethods"
+59: Tag 1 Utf8 Value "()Ljava/util/Set;"
+60: Tag 11 InterfaceMethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "java/util/Set"
+64: Tag 1 Utf8 Value "iterator"
+65: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+66: Tag 11 InterfaceMethodRef Class index 67, Name and type index 68
+67: Tag 7 Class Name index 69
+68: Tag 12 NameAndType Name index 70, Description index 71
+69: Tag 1 Utf8 Value "java/util/Iterator"
+70: Tag 1 Utf8 Value "hasNext"
+71: Tag 1 Utf8 Value "()Z"
+72: Tag 11 InterfaceMethodRef Class index 67, Name and type index 73
+73: Tag 12 NameAndType Name index 74, Description index 75
+74: Tag 1 Utf8 Value "next"
+75: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "java/lang/reflect/Method"
+78: Tag 10 MethodRef Class index 20, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "requiresInterceptors"
+81: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;Lorg/jboss/as/ee/component/ComponentConfiguration;)Z"
+82: Tag 10 MethodRef Class index 8, Name and type index 83
+83: Tag 12 NameAndType Name index 84, Description index 85
+84: Tag 1 Utf8 Value "getComponentInterceptors"
+85: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;)Ljava/util/List;"
+86: Tag 10 MethodRef Class index 53, Name and type index 87
+87: Tag 12 NameAndType Name index 88, Description index 89
+88: Tag 1 Utf8 Value "put"
+89: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+90: Tag 10 MethodRef Class index 8, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 93
+92: Tag 1 Utf8 Value "getComponentClass"
+93: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+94: Tag 9 FieldRef Class index 20, Name and type index 95
+95: Tag 12 NameAndType Name index 96, Description index 97
+96: Tag 1 Utf8 Value "componentClass"
+97: Tag 1 Utf8 Value "Ljava/lang/Class;"
+98: Tag 9 FieldRef Class index 20, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 101
+100: Tag 1 Utf8 Value "componentInterceptors"
+101: Tag 1 Utf8 Value "Ljava/util/Map;"
+102: Tag 10 MethodRef Class index 8, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 105
+104: Tag 1 Utf8 Value "getNamespaceContextSelector"
+105: Tag 1 Utf8 Value "()Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+106: Tag 9 FieldRef Class index 20, Name and type index 107
+107: Tag 12 NameAndType Name index 108, Description index 109
+108: Tag 1 Utf8 Value "namespaceContextSelector"
+109: Tag 1 Utf8 Value "Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+110: Tag 10 MethodRef Class index 76, Name and type index 111
+111: Tag 12 NameAndType Name index 112, Description index 113
+112: Tag 1 Utf8 Value "getModifiers"
+113: Tag 1 Utf8 Value "()I"
+114: Tag 10 MethodRef Class index 115, Name and type index 116
+115: Tag 7 Class Name index 117
+116: Tag 12 NameAndType Name index 118, Description index 119
+117: Tag 1 Utf8 Value "java/lang/reflect/Modifier"
+118: Tag 1 Utf8 Value "isPublic"
+119: Tag 1 Utf8 Value "(I)Z"
+120: Tag 10 MethodRef Class index 115, Name and type index 121
+121: Tag 12 NameAndType Name index 122, Description index 119
+122: Tag 1 Utf8 Value "isFinal"
+123: Tag 10 MethodRef Class index 14, Name and type index 124
+124: Tag 12 NameAndType Name index 125, Description index 71
+125: Tag 1 Utf8 Value "isIntercepted"
+126: Tag 10 MethodRef Class index 20, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 129
+128: Tag 1 Utf8 Value "createComponent"
+129: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/component/BasicComponent;"
+130: Tag 9 FieldRef Class index 20, Name and type index 131
+131: Tag 12 NameAndType Name index 132, Description index 133
+132: Tag 1 Utf8 Value "component"
+133: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/BasicComponent;"
+134: Tag 7 Class Name index 135
+135: Tag 1 Utf8 Value "org/jboss/as/ee/component/BasicComponent"
+136: Tag 10 MethodRef Class index 134, Name and type index 137
+137: Tag 12 NameAndType Name index 5, Description index 138
+138: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/BasicComponentCreateService;)V"
+139: Tag 9 FieldRef Class index 140, Name and type index 141
+140: Tag 7 Class Name index 142
+141: Tag 12 NameAndType Name index 143, Description index 144
+142: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+143: Tag 1 Utf8 Value "ROOT_LOGGER"
+144: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+145: Tag 11 InterfaceMethodRef Class index 140, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 148
+147: Tag 1 Utf8 Value "serviceNotStarted"
+148: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+149: Tag 10 MethodRef Class index 20, Name and type index 150
+150: Tag 12 NameAndType Name index 151, Description index 152
+151: Tag 1 Utf8 Value "getValue"
+152: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/component/Component;"
+153: Tag 7 Class Name index 154
+154: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+155: Tag 1 Utf8 Value "Signature"
+156: Tag 1 Utf8 Value "Ljava/lang/Class<*>;"
+157: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/reflect/Method;Lorg/jboss/invocation/InterceptorFactory;>;"
+158: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentConfiguration;)V"
+159: Tag 1 Utf8 Value "Code"
+160: Tag 1 Utf8 Value "LineNumberTable"
+161: Tag 1 Utf8 Value "LocalVariableTable"
+162: Tag 1 Utf8 Value "method"
+163: Tag 1 Utf8 Value "Ljava/lang/reflect/Method;"
+164: Tag 1 Utf8 Value "this"
+165: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/BasicComponentCreateService;"
+166: Tag 1 Utf8 Value "componentConfiguration"
+167: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentConfiguration;"
+168: Tag 1 Utf8 Value "Ljava/util/IdentityHashMap;"
+169: Tag 1 Utf8 Value "LocalVariableTypeTable"
+170: Tag 1 Utf8 Value "Ljava/util/IdentityHashMap<Ljava/lang/reflect/Method;Lorg/jboss/invocation/InterceptorFactory;>;"
+171: Tag 1 Utf8 Value "StackMapTable"
+172: Tag 1 Utf8 Value "start"
+173: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+174: Tag 1 Utf8 Value "context"
+175: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+176: Tag 1 Utf8 Value "Exceptions"
+177: Tag 7 Class Name index 178
+178: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+179: Tag 1 Utf8 Value "stop"
+180: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+181: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+182: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/Component;"
+183: Tag 7 Class Name index 184
+184: Tag 1 Utf8 Value "org/jboss/as/ee/component/Component"
+185: Tag 7 Class Name index 186
+186: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+187: Tag 7 Class Name index 188
+188: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+189: Tag 1 Utf8 Value "getPostConstruct"
+190: Tag 1 Utf8 Value "()Lorg/jboss/invocation/InterceptorFactory;"
+191: Tag 1 Utf8 Value "getPreDestroy"
+192: Tag 1 Utf8 Value "()Ljava/util/Map;"
+193: Tag 1 Utf8 Value "()Ljava/util/Map<Ljava/lang/reflect/Method;Lorg/jboss/invocation/InterceptorFactory;>;"
+194: Tag 1 Utf8 Value "()Ljava/lang/Class<*>;"
+195: Tag 1 Utf8 Value "getServiceName"
+196: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/jboss/as/ee/component/Component;>;"
+197: Tag 1 Utf8 Value "SourceFile"
+198: Tag 1 Utf8 Value "BasicComponentCreateService.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 20, name org.jboss.as.ee.component.BasicComponentCreateService
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 153
+Implements names org.jboss.msc.service.Service
+
+Field name serviceName (index 23), type Lorg/jboss/msc/service/ServiceName; (descriptor index 24)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name componentName (index 31), type Ljava/lang/String; (descriptor index 32)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name componentClass (index 96), type Ljava/lang/Class; (descriptor index 97)
+Human type: java.lang.Class
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name postConstruct (index 45), type Lorg/jboss/invocation/InterceptorFactory; (descriptor index 46)
+Human type: org.jboss.invocation.InterceptorFactory
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name preDestroy (index 52), type Lorg/jboss/invocation/InterceptorFactory; (descriptor index 46)
+Human type: org.jboss.invocation.InterceptorFactory
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name componentInterceptors (index 100), type Ljava/util/Map; (descriptor index 101)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name namespaceContextSelector (index 108), type Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 109)
+Human type: org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name component (index 132), type Lorg/jboss/as/ee/component/BasicComponent; (descriptor index 133)
+Human type: org.jboss.as.ee.component.BasicComponent
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/ee/component/ComponentConfiguration;)V (descriptor index 158)
+Human type: (org.jboss.as.ee.component.ComponentConfiguration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 307
+Method name requiresInterceptors (index 80), type (Ljava/lang/reflect/Method;Lorg/jboss/as/ee/component/ComponentConfiguration;)Z (descriptor index 81)
+Human type: (java.lang.reflect.Method, org.jboss.as.ee.component.ComponentConfiguration): boolean
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 109
+Method name start (index 172), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 173)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 65
+Method attribute name Exceptions, size 4
+Method name createComponent (index 128), type ()Lorg/jboss/as/ee/component/BasicComponent; (descriptor index 129)
+Human type: (): org.jboss.as.ee.component.BasicComponent
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 51
+Method name stop (index 179), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 180)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 62
+Method name getValue (index 151), type ()Lorg/jboss/as/ee/component/Component; (descriptor index 152)
+Human type: (): org.jboss.as.ee.component.Component
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 98
+Method attribute name Exceptions, size 6
+Method name getComponentName (index 27), type ()Ljava/lang/String; (descriptor index 28)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getPostConstruct (index 189), type ()Lorg/jboss/invocation/InterceptorFactory; (descriptor index 190)
+Human type: (): org.jboss.invocation.InterceptorFactory
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getPreDestroy (index 191), type ()Lorg/jboss/invocation/InterceptorFactory; (descriptor index 190)
+Human type: (): org.jboss.invocation.InterceptorFactory
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getComponentInterceptors (index 84), type ()Ljava/util/Map; (descriptor index 192)
+Human type: (): java.util.Map
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getComponentClass (index 92), type ()Ljava/lang/Class; (descriptor index 93)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getNamespaceContextSelector (index 104), type ()Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 105)
+Human type: (): org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getServiceName (index 195), type ()Lorg/jboss/msc/service/ServiceName; (descriptor index 18)
+Human type: (): org.jboss.msc.service.ServiceName
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getValue (index 151), type ()Ljava/lang/Object; (descriptor index 75)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

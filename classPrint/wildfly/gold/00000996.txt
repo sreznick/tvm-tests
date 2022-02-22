@@ -1,0 +1,112 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 76
+1: Tag 10 MethodRef Class index 17, Name and type index 41
+2: Tag 7 Class Name index 42
+3: Tag 10 MethodRef Class index 11, Name and type index 43
+4: Tag 10 MethodRef Class index 2, Name and type index 44
+5: Tag 9 FieldRef Class index 11, Name and type index 45
+6: Tag 10 MethodRef Class index 46, Name and type index 47
+7: Tag 10 MethodRef Class index 48, Name and type index 49
+8: Tag 10 MethodRef Class index 50, Name and type index 51
+9: Tag 10 MethodRef Class index 50, Name and type index 52
+10: Tag 7 Class Name index 53
+11: Tag 7 Class Name index 54
+12: Tag 10 MethodRef Class index 11, Name and type index 41
+13: Tag 10 MethodRef Class index 10, Name and type index 55
+14: Tag 9 FieldRef Class index 11, Name and type index 56
+15: Tag 7 Class Name index 57
+16: Tag 10 MethodRef Class index 15, Name and type index 41
+17: Tag 7 Class Name index 58
+18: Tag 1 Utf8 Value "FACTORY"
+19: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorFactory;"
+20: Tag 1 Utf8 Value "START_WAIT_TIME"
+21: Tag 1 Utf8 Value "Ljava/lang/Object;"
+22: Tag 1 Utf8 Value "<init>"
+23: Tag 1 Utf8 Value "()V"
+24: Tag 1 Utf8 Value "Code"
+25: Tag 1 Utf8 Value "LineNumberTable"
+26: Tag 1 Utf8 Value "LocalVariableTable"
+27: Tag 1 Utf8 Value "this"
+28: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/invocationmetrics/WaitTimeInterceptor;"
+29: Tag 1 Utf8 Value "processInvocation"
+30: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object;"
+31: Tag 1 Utf8 Value "context"
+32: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+33: Tag 1 Utf8 Value "component"
+34: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/EJBComponent;"
+35: Tag 1 Utf8 Value "StackMapTable"
+36: Tag 1 Utf8 Value "Exceptions"
+37: Tag 7 Class Name index 59
+38: Tag 1 Utf8 Value "<clinit>"
+39: Tag 1 Utf8 Value "SourceFile"
+40: Tag 1 Utf8 Value "WaitTimeInterceptor.java"
+41: Tag 12 NameAndType Name index 22, Description index 23
+42: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/EJBComponent"
+43: Tag 12 NameAndType Name index 60, Description index 61
+44: Tag 12 NameAndType Name index 62, Description index 63
+45: Tag 12 NameAndType Name index 20, Description index 21
+46: Tag 7 Class Name index 64
+47: Tag 12 NameAndType Name index 65, Description index 66
+48: Tag 7 Class Name index 67
+49: Tag 12 NameAndType Name index 68, Description index 69
+50: Tag 7 Class Name index 70
+51: Tag 12 NameAndType Name index 71, Description index 72
+52: Tag 12 NameAndType Name index 73, Description index 74
+53: Tag 1 Utf8 Value "org/jboss/invocation/ImmediateInterceptorFactory"
+54: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/invocationmetrics/WaitTimeInterceptor"
+55: Tag 12 NameAndType Name index 22, Description index 75
+56: Tag 12 NameAndType Name index 18, Description index 19
+57: Tag 1 Utf8 Value "java/lang/Object"
+58: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/interceptors/AbstractEJBInterceptor"
+59: Tag 1 Utf8 Value "java/lang/Exception"
+60: Tag 1 Utf8 Value "getComponent"
+61: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;Ljava/lang/Class;)Lorg/jboss/as/ejb3/component/EJBComponent;"
+62: Tag 1 Utf8 Value "isStatisticsEnabled"
+63: Tag 1 Utf8 Value "()Z"
+64: Tag 1 Utf8 Value "java/lang/System"
+65: Tag 1 Utf8 Value "currentTimeMillis"
+66: Tag 1 Utf8 Value "()J"
+67: Tag 1 Utf8 Value "java/lang/Long"
+68: Tag 1 Utf8 Value "valueOf"
+69: Tag 1 Utf8 Value "(J)Ljava/lang/Long;"
+70: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+71: Tag 1 Utf8 Value "putPrivateData"
+72: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+73: Tag 1 Utf8 Value "proceed"
+74: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+75: Tag 1 Utf8 Value "(Lorg/jboss/invocation/Interceptor;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor
+
+Super class: id 17, name org.jboss.as.ejb3.component.interceptors.AbstractEJBInterceptor
+
+No interfaces
+
+Field name FACTORY (index 18), type Lorg/jboss/invocation/InterceptorFactory; (descriptor index 19)
+Human type: org.jboss.invocation.InterceptorFactory
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name START_WAIT_TIME (index 20), type Ljava/lang/Object; (descriptor index 21)
+Human type: java.lang.Object
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 22), type ()V (descriptor index 23)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name processInvocation (index 29), type (Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object; (descriptor index 30)
+Human type: (org.jboss.invocation.InterceptorContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 121
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 38), type ()V (descriptor index 23)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 56
+
+Class attribute name SourceFile, size 2

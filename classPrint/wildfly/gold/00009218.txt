@@ -1,0 +1,248 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 187
+1: Tag 10 MethodRef Class index 40, Name and type index 90
+2: Tag 7 Class Name index 91
+3: Tag 8 String Contents 92
+4: Tag 10 MethodRef Class index 93, Name and type index 94
+5: Tag 7 Class Name index 95
+6: Tag 11 InterfaceMethodRef Class index 2, Name and type index 96
+7: Tag 7 Class Name index 97
+8: Tag 7 Class Name index 98
+9: Tag 10 MethodRef Class index 99, Name and type index 100
+10: Tag 11 InterfaceMethodRef Class index 2, Name and type index 101
+11: Tag 9 FieldRef Class index 102, Name and type index 103
+12: Tag 8 String Contents 104
+13: Tag 10 MethodRef Class index 105, Name and type index 106
+14: Tag 11 InterfaceMethodRef Class index 2, Name and type index 107
+15: Tag 10 MethodRef Class index 108, Name and type index 109
+16: Tag 10 MethodRef Class index 108, Name and type index 110
+17: Tag 9 FieldRef Class index 37, Name and type index 111
+18: Tag 9 FieldRef Class index 37, Name and type index 112
+19: Tag 10 MethodRef Class index 5, Name and type index 113
+20: Tag 10 MethodRef Class index 37, Name and type index 114
+21: Tag 10 MethodRef Class index 5, Name and type index 115
+22: Tag 9 FieldRef Class index 37, Name and type index 116
+23: Tag 11 InterfaceMethodRef Class index 117, Name and type index 118
+24: Tag 7 Class Name index 119
+25: Tag 11 InterfaceMethodRef Class index 120, Name and type index 121
+26: Tag 11 InterfaceMethodRef Class index 24, Name and type index 122
+27: Tag 11 InterfaceMethodRef Class index 120, Name and type index 123
+28: Tag 5 Long Value 2000
+30: Tag 11 InterfaceMethodRef Class index 124, Name and type index 125
+31: Tag 10 MethodRef Class index 126, Name and type index 127
+32: Tag 7 Class Name index 128
+33: Tag 10 MethodRef Class index 126, Name and type index 129
+34: Tag 11 InterfaceMethodRef Class index 32, Name and type index 130
+35: Tag 10 MethodRef Class index 126, Name and type index 131
+36: Tag 11 InterfaceMethodRef Class index 120, Name and type index 132
+37: Tag 7 Class Name index 133
+38: Tag 10 MethodRef Class index 134, Name and type index 135
+39: Tag 9 FieldRef Class index 37, Name and type index 136
+40: Tag 7 Class Name index 137
+41: Tag 1 Utf8 Value "logger"
+42: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+43: Tag 1 Utf8 Value "producerEJB"
+44: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/jms/auxiliary/SimplifiedMessageProducer;"
+45: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+46: Tag 1 Utf8 Value "Ljavax/ejb/EJB;"
+47: Tag 1 Utf8 Value "queue"
+48: Tag 1 Utf8 Value "Ljavax/jms/Queue;"
+49: Tag 1 Utf8 Value "Ljavax/annotation/Resource;"
+50: Tag 1 Utf8 Value "mappedName"
+51: Tag 1 Utf8 Value "/queue/myAwesomeQueue"
+52: Tag 1 Utf8 Value "factory"
+53: Tag 1 Utf8 Value "Ljavax/jms/ConnectionFactory;"
+54: Tag 1 Utf8 Value "<init>"
+55: Tag 1 Utf8 Value "()V"
+56: Tag 1 Utf8 Value "Code"
+57: Tag 1 Utf8 Value "LineNumberTable"
+58: Tag 1 Utf8 Value "LocalVariableTable"
+59: Tag 1 Utf8 Value "this"
+60: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/jms/DefaultJMSConnectionFactoryTest;"
+61: Tag 1 Utf8 Value "createTestArchive"
+62: Tag 1 Utf8 Value "()Lorg/jboss/shrinkwrap/api/spec/JavaArchive;"
+63: Tag 1 Utf8 Value "Lorg/jboss/arquillian/container/test/api/Deployment;"
+64: Tag 1 Utf8 Value "sendWithDefaultJMSConnectionFactory"
+65: Tag 1 Utf8 Value "text"
+66: Tag 1 Utf8 Value "Ljava/lang/String;"
+67: Tag 1 Utf8 Value "Exceptions"
+68: Tag 7 Class Name index 138
+69: Tag 1 Utf8 Value "Lorg/junit/Test;"
+70: Tag 1 Utf8 Value "sendWithRegularConnectionFactory"
+71: Tag 1 Utf8 Value "assertMessageInQueue"
+72: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+73: Tag 1 Utf8 Value "connection"
+74: Tag 1 Utf8 Value "Ljavax/jms/Connection;"
+75: Tag 1 Utf8 Value "session"
+76: Tag 1 Utf8 Value "Ljavax/jms/Session;"
+77: Tag 1 Utf8 Value "consumer"
+78: Tag 1 Utf8 Value "Ljavax/jms/MessageConsumer;"
+79: Tag 1 Utf8 Value "message"
+80: Tag 1 Utf8 Value "Ljavax/jms/Message;"
+81: Tag 7 Class Name index 139
+82: Tag 1 Utf8 Value "<clinit>"
+83: Tag 1 Utf8 Value "SourceFile"
+84: Tag 1 Utf8 Value "DefaultJMSConnectionFactoryTest.java"
+85: Tag 1 Utf8 Value "Lorg/junit/runner/RunWith;"
+86: Tag 1 Utf8 Value "value"
+87: Tag 1 Utf8 Value "Lorg/jboss/arquillian/junit/Arquillian;"
+88: Tag 1 Utf8 Value "Lorg/jboss/as/arquillian/api/ServerSetup;"
+89: Tag 1 Utf8 Value "Lorg/jboss/as/test/jms/auxiliary/CreateQueueSetupTask;"
+90: Tag 12 NameAndType Name index 54, Description index 55
+91: Tag 1 Utf8 Value "org/jboss/shrinkwrap/api/spec/JavaArchive"
+92: Tag 1 Utf8 Value "DefaultJMSConnectionFactoryTest.jar"
+93: Tag 7 Class Name index 140
+94: Tag 12 NameAndType Name index 141, Description index 142
+95: Tag 1 Utf8 Value "org/jboss/as/test/smoke/jms/auxiliary/SimplifiedMessageProducer"
+96: Tag 12 NameAndType Name index 143, Description index 144
+97: Tag 1 Utf8 Value "org/jboss/as/test/jms/auxiliary/CreateQueueSetupTask"
+98: Tag 1 Utf8 Value "org/jboss/as/test/integration/common/jms/JMSOperations"
+99: Tag 7 Class Name index 145
+100: Tag 12 NameAndType Name index 146, Description index 147
+101: Tag 12 NameAndType Name index 148, Description index 149
+102: Tag 7 Class Name index 150
+103: Tag 12 NameAndType Name index 151, Description index 152
+104: Tag 1 Utf8 Value "beans.xml"
+105: Tag 7 Class Name index 153
+106: Tag 12 NameAndType Name index 141, Description index 154
+107: Tag 12 NameAndType Name index 155, Description index 156
+108: Tag 7 Class Name index 157
+109: Tag 12 NameAndType Name index 158, Description index 159
+110: Tag 12 NameAndType Name index 160, Description index 161
+111: Tag 12 NameAndType Name index 43, Description index 44
+112: Tag 12 NameAndType Name index 47, Description index 48
+113: Tag 12 NameAndType Name index 64, Description index 162
+114: Tag 12 NameAndType Name index 71, Description index 72
+115: Tag 12 NameAndType Name index 70, Description index 162
+116: Tag 12 NameAndType Name index 52, Description index 53
+117: Tag 7 Class Name index 163
+118: Tag 12 NameAndType Name index 164, Description index 165
+119: Tag 1 Utf8 Value "javax/jms/Session"
+120: Tag 7 Class Name index 166
+121: Tag 12 NameAndType Name index 167, Description index 168
+122: Tag 12 NameAndType Name index 169, Description index 170
+123: Tag 12 NameAndType Name index 171, Description index 55
+124: Tag 7 Class Name index 172
+125: Tag 12 NameAndType Name index 173, Description index 174
+126: Tag 7 Class Name index 175
+127: Tag 12 NameAndType Name index 176, Description index 177
+128: Tag 1 Utf8 Value "javax/jms/TextMessage"
+129: Tag 12 NameAndType Name index 178, Description index 179
+130: Tag 12 NameAndType Name index 180, Description index 161
+131: Tag 12 NameAndType Name index 181, Description index 182
+132: Tag 12 NameAndType Name index 183, Description index 55
+133: Tag 1 Utf8 Value "org/jboss/as/test/smoke/jms/DefaultJMSConnectionFactoryTest"
+134: Tag 7 Class Name index 184
+135: Tag 12 NameAndType Name index 185, Description index 186
+136: Tag 12 NameAndType Name index 41, Description index 42
+137: Tag 1 Utf8 Value "java/lang/Object"
+138: Tag 1 Utf8 Value "java/lang/Exception"
+139: Tag 1 Utf8 Value "javax/jms/JMSException"
+140: Tag 1 Utf8 Value "org/jboss/shrinkwrap/api/ShrinkWrap"
+141: Tag 1 Utf8 Value "create"
+142: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Lorg/jboss/shrinkwrap/api/Assignable;"
+143: Tag 1 Utf8 Value "addClass"
+144: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/shrinkwrap/api/Archive;"
+145: Tag 1 Utf8 Value "java/lang/Class"
+146: Tag 1 Utf8 Value "getPackage"
+147: Tag 1 Utf8 Value "()Ljava/lang/Package;"
+148: Tag 1 Utf8 Value "addPackage"
+149: Tag 1 Utf8 Value "(Ljava/lang/Package;)Lorg/jboss/shrinkwrap/api/Archive;"
+150: Tag 1 Utf8 Value "org/jboss/shrinkwrap/api/asset/EmptyAsset"
+151: Tag 1 Utf8 Value "INSTANCE"
+152: Tag 1 Utf8 Value "Lorg/jboss/shrinkwrap/api/asset/EmptyAsset;"
+153: Tag 1 Utf8 Value "org/jboss/shrinkwrap/api/ArchivePaths"
+154: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/shrinkwrap/api/ArchivePath;"
+155: Tag 1 Utf8 Value "addAsManifestResource"
+156: Tag 1 Utf8 Value "(Lorg/jboss/shrinkwrap/api/asset/Asset;Lorg/jboss/shrinkwrap/api/ArchivePath;)Lorg/jboss/shrinkwrap/api/Archive;"
+157: Tag 1 Utf8 Value "java/util/UUID"
+158: Tag 1 Utf8 Value "randomUUID"
+159: Tag 1 Utf8 Value "()Ljava/util/UUID;"
+160: Tag 1 Utf8 Value "toString"
+161: Tag 1 Utf8 Value "()Ljava/lang/String;"
+162: Tag 1 Utf8 Value "(Ljavax/jms/Destination;Ljava/lang/String;)V"
+163: Tag 1 Utf8 Value "javax/jms/ConnectionFactory"
+164: Tag 1 Utf8 Value "createConnection"
+165: Tag 1 Utf8 Value "()Ljavax/jms/Connection;"
+166: Tag 1 Utf8 Value "javax/jms/Connection"
+167: Tag 1 Utf8 Value "createSession"
+168: Tag 1 Utf8 Value "(ZI)Ljavax/jms/Session;"
+169: Tag 1 Utf8 Value "createConsumer"
+170: Tag 1 Utf8 Value "(Ljavax/jms/Destination;)Ljavax/jms/MessageConsumer;"
+171: Tag 1 Utf8 Value "start"
+172: Tag 1 Utf8 Value "javax/jms/MessageConsumer"
+173: Tag 1 Utf8 Value "receive"
+174: Tag 1 Utf8 Value "(J)Ljavax/jms/Message;"
+175: Tag 1 Utf8 Value "org/junit/Assert"
+176: Tag 1 Utf8 Value "assertNotNull"
+177: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+178: Tag 1 Utf8 Value "assertTrue"
+179: Tag 1 Utf8 Value "(Z)V"
+180: Tag 1 Utf8 Value "getText"
+181: Tag 1 Utf8 Value "assertEquals"
+182: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+183: Tag 1 Utf8 Value "close"
+184: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+185: Tag 1 Utf8 Value "getLogger"
+186: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/logging/Logger;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 37, name org.jboss.as.test.smoke.jms.DefaultJMSConnectionFactoryTest
+
+Super class: id 40, name java.lang.Object
+
+No interfaces
+
+Field name logger (index 41), type Lorg/jboss/logging/Logger; (descriptor index 42)
+Human type: org.jboss.logging.Logger
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name producerEJB (index 43), type Lorg/jboss/as/test/smoke/jms/auxiliary/SimplifiedMessageProducer; (descriptor index 44)
+Human type: org.jboss.as.test.smoke.jms.auxiliary.SimplifiedMessageProducer
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 6
+Field name queue (index 47), type Ljavax/jms/Queue; (descriptor index 48)
+Human type: javax.jms.Queue
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 11
+Field name factory (index 52), type Ljavax/jms/ConnectionFactory; (descriptor index 53)
+Human type: javax.jms.ConnectionFactory
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 6
+
+Method name <init> (index 54), type ()V (descriptor index 55)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name createTestArchive (index 61), type ()Lorg/jboss/shrinkwrap/api/spec/JavaArchive; (descriptor index 62)
+Human type: (): org.jboss.shrinkwrap.api.spec.JavaArchive
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 108
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name sendWithDefaultJMSConnectionFactory (index 64), type ()V (descriptor index 55)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method attribute name Exceptions, size 4
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name sendWithRegularConnectionFactory (index 70), type ()V (descriptor index 55)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method attribute name Exceptions, size 4
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name assertMessageInQueue (index 71), type (Ljava/lang/String;)V (descriptor index 72)
+Human type: (java.lang.String): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 211
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 82), type ()V (descriptor index 55)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 23

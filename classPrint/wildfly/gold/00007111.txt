@@ -1,0 +1,175 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 120
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/weld/util/collections/ImmutableSet"
+11: Tag 1 Utf8 Value "copyOf"
+12: Tag 1 Utf8 Value "(Ljava/util/Collection;)Ljava/util/Set;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/BeanDeploymentModule"
+17: Tag 1 Utf8 Value "beanDeploymentArchives"
+18: Tag 1 Utf8 Value "Ljava/util/Set;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "java/util/Collection"
+23: Tag 1 Utf8 Value "iterator"
+24: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "java/util/Iterator"
+29: Tag 1 Utf8 Value "hasNext"
+30: Tag 1 Utf8 Value "()Z"
+31: Tag 11 InterfaceMethodRef Class index 26, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "next"
+34: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/BeanDeploymentArchiveImpl"
+37: Tag 10 MethodRef Class index 35, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "addBeanDeploymentArchives"
+40: Tag 1 Utf8 Value "(Ljava/util/Collection;)V"
+41: Tag 10 MethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/WeldEEModuleDescriptor"
+45: Tag 1 Utf8 Value "of"
+46: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/as/weld/deployment/WeldEEModuleDescriptor;"
+47: Tag 9 FieldRef Class index 14, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "moduleDescriptor"
+50: Tag 1 Utf8 Value "Lorg/jboss/weld/bootstrap/spi/EEModuleDescriptor;"
+51: Tag 7 Class Name index 52
+52: Tag 1 Utf8 Value "org/jboss/weld/bootstrap/spi/EEModuleDescriptor"
+53: Tag 10 MethodRef Class index 14, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "addService"
+56: Tag 1 Utf8 Value "(Ljava/lang/Class;Lorg/jboss/weld/bootstrap/api/Service;)V"
+57: Tag 11 InterfaceMethodRef Class index 58, Name and type index 21
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "java/util/Set"
+60: Tag 10 MethodRef Class index 35, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "addBeanDeploymentArchive"
+63: Tag 1 Utf8 Value "(Lorg/jboss/weld/bootstrap/spi/BeanDeploymentArchive;)V"
+64: Tag 10 MethodRef Class index 35, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "getServices"
+67: Tag 1 Utf8 Value "()Lorg/jboss/weld/bootstrap/api/ServiceRegistry;"
+68: Tag 11 InterfaceMethodRef Class index 69, Name and type index 70
+69: Tag 7 Class Name index 71
+70: Tag 12 NameAndType Name index 72, Description index 56
+71: Tag 1 Utf8 Value "org/jboss/weld/bootstrap/api/ServiceRegistry"
+72: Tag 1 Utf8 Value "add"
+73: Tag 1 Utf8 Value "Signature"
+74: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/jboss/as/weld/deployment/BeanDeploymentArchiveImpl;>;"
+75: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/util/Collection;)V"
+76: Tag 1 Utf8 Value "Code"
+77: Tag 1 Utf8 Value "LineNumberTable"
+78: Tag 1 Utf8 Value "LocalVariableTable"
+79: Tag 1 Utf8 Value "bda"
+80: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/BeanDeploymentArchiveImpl;"
+81: Tag 1 Utf8 Value "this"
+82: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/BeanDeploymentModule;"
+83: Tag 1 Utf8 Value "moduleId"
+84: Tag 1 Utf8 Value "Ljava/lang/String;"
+85: Tag 1 Utf8 Value "deploymentUnit"
+86: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+87: Tag 1 Utf8 Value "Ljava/util/Collection;"
+88: Tag 1 Utf8 Value "LocalVariableTypeTable"
+89: Tag 1 Utf8 Value "Ljava/util/Collection<Lorg/jboss/as/weld/deployment/BeanDeploymentArchiveImpl;>;"
+90: Tag 1 Utf8 Value "StackMapTable"
+91: Tag 7 Class Name index 92
+92: Tag 1 Utf8 Value "java/lang/String"
+93: Tag 7 Class Name index 94
+94: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+95: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/util/Collection<Lorg/jboss/as/weld/deployment/BeanDeploymentArchiveImpl;>;)V"
+96: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/BeanDeploymentArchiveImpl;)V"
+97: Tag 1 Utf8 Value "archive"
+98: Tag 1 Utf8 Value "addBeanDeploymentModule"
+99: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/BeanDeploymentModule;)V"
+100: Tag 1 Utf8 Value "module"
+101: Tag 1 Utf8 Value "addBeanDeploymentModules"
+102: Tag 1 Utf8 Value "bdm"
+103: Tag 1 Utf8 Value "modules"
+104: Tag 1 Utf8 Value "Ljava/util/Collection<Lorg/jboss/as/weld/deployment/BeanDeploymentModule;>;"
+105: Tag 1 Utf8 Value "(Ljava/util/Collection<Lorg/jboss/as/weld/deployment/BeanDeploymentModule;>;)V"
+106: Tag 1 Utf8 Value "clazz"
+107: Tag 1 Utf8 Value "Ljava/lang/Class;"
+108: Tag 1 Utf8 Value "service"
+109: Tag 1 Utf8 Value "Lorg/jboss/weld/bootstrap/api/Service;"
+110: Tag 1 Utf8 Value "Ljava/lang/Class<TS;>;"
+111: Tag 1 Utf8 Value "TS;"
+112: Tag 1 Utf8 Value "<S::Lorg/jboss/weld/bootstrap/api/Service;>(Ljava/lang/Class<TS;>;TS;)V"
+113: Tag 1 Utf8 Value "getBeanDeploymentArchives"
+114: Tag 1 Utf8 Value "()Ljava/util/Set;"
+115: Tag 1 Utf8 Value "()Ljava/util/Set<Lorg/jboss/as/weld/deployment/BeanDeploymentArchiveImpl;>;"
+116: Tag 1 Utf8 Value "getModuleDescriptor"
+117: Tag 1 Utf8 Value "()Lorg/jboss/weld/bootstrap/spi/EEModuleDescriptor;"
+118: Tag 1 Utf8 Value "SourceFile"
+119: Tag 1 Utf8 Value "BeanDeploymentModule.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.jboss.as.weld.deployment.BeanDeploymentModule
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name beanDeploymentArchives (index 17), type Ljava/util/Set; (descriptor index 18)
+Human type: java.util.Set
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name moduleDescriptor (index 49), type Lorg/jboss/weld/bootstrap/spi/EEModuleDescriptor; (descriptor index 50)
+Human type: org.jboss.weld.bootstrap.spi.EEModuleDescriptor
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/util/Collection;)V (descriptor index 75)
+Human type: (java.lang.String, org.jboss.as.server.deployment.DeploymentUnit, java.util.Collection): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 244
+Method attribute name Signature, size 2
+Method name addBeanDeploymentArchive (index 62), type (Lorg/jboss/as/weld/deployment/BeanDeploymentArchiveImpl;)V (descriptor index 96)
+Human type: (org.jboss.as.weld.deployment.BeanDeploymentArchiveImpl): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 129
+Method name addBeanDeploymentModule (index 98), type (Lorg/jboss/as/weld/deployment/BeanDeploymentModule;)V (descriptor index 99)
+Human type: (org.jboss.as.weld.deployment.BeanDeploymentModule): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 132
+Method name addBeanDeploymentModules (index 101), type (Ljava/util/Collection;)V (descriptor index 40)
+Human type: (java.util.Collection): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 214
+Method attribute name Signature, size 2
+Method name addService (index 55), type (Ljava/lang/Class;Lorg/jboss/weld/bootstrap/api/Service;)V (descriptor index 56)
+Human type: (java.lang.Class, org.jboss.weld.bootstrap.api.Service): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 175
+Method attribute name Signature, size 2
+Method name getBeanDeploymentArchives (index 113), type ()Ljava/util/Set; (descriptor index 114)
+Human type: (): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getModuleDescriptor (index 116), type ()Lorg/jboss/weld/bootstrap/spi/EEModuleDescriptor; (descriptor index 117)
+Human type: (): org.jboss.weld.bootstrap.spi.EEModuleDescriptor
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2

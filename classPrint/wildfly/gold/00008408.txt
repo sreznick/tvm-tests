@@ -1,0 +1,710 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 584
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+3: Tag 8 String Contents 4
+4: Tag 1 Utf8 Value "JKS"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "java/security/KeyStore"
+9: Tag 1 Utf8 Value "getInstance"
+10: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/security/KeyStore;"
+11: Tag 10 MethodRef Class index 6, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "load"
+14: Tag 1 Utf8 Value "(Ljava/io/InputStream;[C)V"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey"
+19: Tag 1 Utf8 Value "builder"
+20: Tag 1 Utf8 Value "()Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey$Builder;"
+21: Tag 7 Class Name index 22
+22: Tag 1 Utf8 Value "javax/security/auth/x500/X500Principal"
+23: Tag 10 MethodRef Class index 21, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "<init>"
+26: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey$Builder"
+31: Tag 1 Utf8 Value "setDn"
+32: Tag 1 Utf8 Value "(Ljavax/security/auth/x500/X500Principal;)Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey$Builder;"
+33: Tag 8 String Contents 34
+34: Tag 1 Utf8 Value "RSA"
+35: Tag 10 MethodRef Class index 28, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "setKeyAlgorithmName"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey$Builder;"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/as/web/test/WebMigrateTestCase"
+41: Tag 8 String Contents 42
+42: Tag 1 Utf8 Value "SHA1withRSA"
+43: Tag 10 MethodRef Class index 28, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 38
+45: Tag 1 Utf8 Value "setSignatureAlgorithmName"
+46: Tag 10 MethodRef Class index 28, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "build"
+49: Tag 1 Utf8 Value "()Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey;"
+50: Tag 10 MethodRef Class index 16, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "getSelfSignedCertificate"
+53: Tag 1 Utf8 Value "()Ljava/security/cert/X509Certificate;"
+54: Tag 8 String Contents 55
+55: Tag 1 Utf8 Value "test"
+56: Tag 10 MethodRef Class index 16, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "getSigningKey"
+59: Tag 1 Utf8 Value "()Ljava/security/PrivateKey;"
+60: Tag 9 FieldRef Class index 39, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "GENERATED_KEYSTORE_PASSWORD"
+63: Tag 1 Utf8 Value "[C"
+64: Tag 7 Class Name index 65
+65: Tag 1 Utf8 Value "java/security/cert/X509Certificate"
+66: Tag 10 MethodRef Class index 6, Name and type index 67
+67: Tag 12 NameAndType Name index 68, Description index 69
+68: Tag 1 Utf8 Value "setKeyEntry"
+69: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/security/Key;[C[Ljava/security/cert/Certificate;)V"
+70: Tag 10 MethodRef Class index 6, Name and type index 71
+71: Tag 12 NameAndType Name index 72, Description index 73
+72: Tag 1 Utf8 Value "setCertificateEntry"
+73: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/security/cert/Certificate;)V"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "java/io/FileOutputStream"
+76: Tag 10 MethodRef Class index 74, Name and type index 77
+77: Tag 12 NameAndType Name index 25, Description index 78
+78: Tag 1 Utf8 Value "(Ljava/io/File;)V"
+79: Tag 10 MethodRef Class index 6, Name and type index 80
+80: Tag 12 NameAndType Name index 81, Description index 82
+81: Tag 1 Utf8 Value "store"
+82: Tag 1 Utf8 Value "(Ljava/io/OutputStream;[C)V"
+83: Tag 10 MethodRef Class index 74, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 86
+85: Tag 1 Utf8 Value "close"
+86: Tag 1 Utf8 Value "()V"
+87: Tag 7 Class Name index 88
+88: Tag 1 Utf8 Value "java/lang/Throwable"
+89: Tag 10 MethodRef Class index 87, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 92
+91: Tag 1 Utf8 Value "addSuppressed"
+92: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+93: Tag 7 Class Name index 94
+94: Tag 1 Utf8 Value "java/io/File"
+95: Tag 8 String Contents 96
+96: Tag 1 Utf8 Value "./target/test-classes"
+97: Tag 10 MethodRef Class index 93, Name and type index 24
+98: Tag 10 MethodRef Class index 93, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 101
+100: Tag 1 Utf8 Value "exists"
+101: Tag 1 Utf8 Value "()Z"
+102: Tag 10 MethodRef Class index 93, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 101
+104: Tag 1 Utf8 Value "mkdirs"
+105: Tag 10 MethodRef Class index 39, Name and type index 106
+106: Tag 12 NameAndType Name index 107, Description index 108
+107: Tag 1 Utf8 Value "loadKeyStore"
+108: Tag 1 Utf8 Value "()Ljava/security/KeyStore;"
+109: Tag 8 String Contents 110
+110: Tag 1 Utf8 Value "CN=Test Client, OU=JBoss, O=Red Hat, L=Raleigh, ST=North Carolina, C=US"
+111: Tag 10 MethodRef Class index 39, Name and type index 112
+112: Tag 12 NameAndType Name index 113, Description index 114
+113: Tag 1 Utf8 Value "createSelfSigned"
+114: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey;"
+115: Tag 8 String Contents 116
+116: Tag 1 Utf8 Value "CN=Test Client 2, OU=JBoss, O=Red Hat, L=Raleigh, ST=North Carolina, C=US"
+117: Tag 8 String Contents 118
+118: Tag 1 Utf8 Value "CN=AS7, OU=JBoss, O=Red Hat, L=Raleigh, ST=North Carolina, C=US"
+119: Tag 8 String Contents 120
+120: Tag 1 Utf8 Value "client2"
+121: Tag 10 MethodRef Class index 39, Name and type index 122
+122: Tag 12 NameAndType Name index 123, Description index 124
+123: Tag 1 Utf8 Value "addCertEntry"
+124: Tag 1 Utf8 Value "(Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey;Ljava/lang/String;Ljava/security/KeyStore;)V"
+125: Tag 8 String Contents 126
+126: Tag 1 Utf8 Value "client"
+127: Tag 10 MethodRef Class index 39, Name and type index 128
+128: Tag 12 NameAndType Name index 129, Description index 130
+129: Tag 1 Utf8 Value "addKeyEntry"
+130: Tag 1 Utf8 Value "(Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey;Ljava/security/KeyStore;)V"
+131: Tag 9 FieldRef Class index 39, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 134
+133: Tag 1 Utf8 Value "KEY_STORE_FILE"
+134: Tag 1 Utf8 Value "Ljava/io/File;"
+135: Tag 10 MethodRef Class index 39, Name and type index 136
+136: Tag 12 NameAndType Name index 137, Description index 138
+137: Tag 1 Utf8 Value "createTemporaryKeyStoreFile"
+138: Tag 1 Utf8 Value "(Ljava/security/KeyStore;Ljava/io/File;)V"
+139: Tag 9 FieldRef Class index 39, Name and type index 140
+140: Tag 12 NameAndType Name index 141, Description index 134
+141: Tag 1 Utf8 Value "TRUST_STORE_FILE"
+142: Tag 10 MethodRef Class index 93, Name and type index 143
+143: Tag 12 NameAndType Name index 144, Description index 101
+144: Tag 1 Utf8 Value "delete"
+145: Tag 10 MethodRef Class index 39, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 86
+147: Tag 1 Utf8 Value "setUpKeyStores"
+148: Tag 10 MethodRef Class index 39, Name and type index 149
+149: Tag 12 NameAndType Name index 150, Description index 86
+150: Tag 1 Utf8 Value "deleteKeyStoreFiles"
+151: Tag 7 Class Name index 152
+152: Tag 1 Utf8 Value "org/jboss/as/web/WebExtension"
+153: Tag 8 String Contents 154
+154: Tag 1 Utf8 Value "web"
+155: Tag 10 MethodRef Class index 151, Name and type index 156
+156: Tag 12 NameAndType Name index 25, Description index 86
+157: Tag 10 MethodRef Class index 158, Name and type index 159
+158: Tag 7 Class Name index 160
+159: Tag 12 NameAndType Name index 25, Description index 161
+160: Tag 1 Utf8 Value "org/jboss/as/subsystem/test/AbstractSubsystemTest"
+161: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/Extension;)V"
+162: Tag 8 String Contents 163
+163: Tag 1 Utf8 Value "subsystem-migrate-2.2.0.xml"
+164: Tag 10 MethodRef Class index 39, Name and type index 165
+165: Tag 12 NameAndType Name index 166, Description index 167
+166: Tag 1 Utf8 Value "readResource"
+167: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+168: Tag 7 Class Name index 169
+169: Tag 1 Utf8 Value "org/jboss/as/web/test/WebMigrateTestCase$NewSubsystemAdditionalInitialization"
+170: Tag 10 MethodRef Class index 168, Name and type index 171
+171: Tag 12 NameAndType Name index 25, Description index 172
+172: Tag 1 Utf8 Value "(Lorg/jboss/as/web/test/WebMigrateTestCase$1;)V"
+173: Tag 10 MethodRef Class index 39, Name and type index 174
+174: Tag 12 NameAndType Name index 175, Description index 176
+175: Tag 1 Utf8 Value "createKernelServicesBuilder"
+176: Tag 1 Utf8 Value "(Lorg/jboss/as/subsystem/test/AdditionalInitialization;)Lorg/jboss/as/subsystem/test/KernelServicesBuilder;"
+177: Tag 11 InterfaceMethodRef Class index 178, Name and type index 179
+178: Tag 7 Class Name index 180
+179: Tag 12 NameAndType Name index 181, Description index 182
+180: Tag 1 Utf8 Value "org/jboss/as/subsystem/test/KernelServicesBuilder"
+181: Tag 1 Utf8 Value "setSubsystemXml"
+182: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/subsystem/test/KernelServicesBuilder;"
+183: Tag 11 InterfaceMethodRef Class index 178, Name and type index 184
+184: Tag 12 NameAndType Name index 48, Description index 185
+185: Tag 1 Utf8 Value "()Lorg/jboss/as/subsystem/test/KernelServices;"
+186: Tag 11 InterfaceMethodRef Class index 187, Name and type index 188
+187: Tag 7 Class Name index 189
+188: Tag 12 NameAndType Name index 190, Description index 191
+189: Tag 1 Utf8 Value "org/jboss/as/subsystem/test/KernelServices"
+190: Tag 1 Utf8 Value "readWholeModel"
+191: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+192: Tag 9 FieldRef Class index 168, Name and type index 193
+193: Tag 12 NameAndType Name index 194, Description index 195
+194: Tag 1 Utf8 Value "extensionAdded"
+195: Tag 1 Utf8 Value "Z"
+196: Tag 10 MethodRef Class index 197, Name and type index 198
+197: Tag 7 Class Name index 199
+198: Tag 12 NameAndType Name index 200, Description index 201
+199: Tag 1 Utf8 Value "org/junit/Assert"
+200: Tag 1 Utf8 Value "assertFalse"
+201: Tag 1 Utf8 Value "(Z)V"
+202: Tag 7 Class Name index 203
+203: Tag 1 Utf8 Value "java/lang/String"
+204: Tag 8 String Contents 205
+205: Tag 1 Utf8 Value "subsystem"
+206: Tag 10 MethodRef Class index 207, Name and type index 208
+207: Tag 7 Class Name index 209
+208: Tag 12 NameAndType Name index 210, Description index 211
+209: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+210: Tag 1 Utf8 Value "get"
+211: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+212: Tag 10 MethodRef Class index 207, Name and type index 213
+213: Tag 12 NameAndType Name index 214, Description index 101
+214: Tag 1 Utf8 Value "isDefined"
+215: Tag 10 MethodRef Class index 197, Name and type index 216
+216: Tag 12 NameAndType Name index 217, Description index 201
+217: Tag 1 Utf8 Value "assertTrue"
+218: Tag 8 String Contents 219
+219: Tag 1 Utf8 Value "undertow"
+220: Tag 10 MethodRef Class index 207, Name and type index 156
+221: Tag 8 String Contents 222
+222: Tag 1 Utf8 Value "operation"
+223: Tag 10 MethodRef Class index 207, Name and type index 224
+224: Tag 12 NameAndType Name index 210, Description index 225
+225: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+226: Tag 8 String Contents 227
+227: Tag 1 Utf8 Value "migrate"
+228: Tag 10 MethodRef Class index 207, Name and type index 229
+229: Tag 12 NameAndType Name index 230, Description index 225
+230: Tag 1 Utf8 Value "set"
+231: Tag 8 String Contents 232
+232: Tag 1 Utf8 Value "address"
+233: Tag 10 MethodRef Class index 207, Name and type index 234
+234: Tag 12 NameAndType Name index 235, Description index 236
+235: Tag 1 Utf8 Value "add"
+236: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+237: Tag 7 Class Name index 238
+238: Tag 1 Utf8 Value "java/io/InputStream"
+239: Tag 11 InterfaceMethodRef Class index 187, Name and type index 240
+240: Tag 12 NameAndType Name index 241, Description index 242
+241: Tag 1 Utf8 Value "executeOperation"
+242: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;[Ljava/io/InputStream;)Lorg/jboss/dmr/ModelNode;"
+243: Tag 10 MethodRef Class index 39, Name and type index 244
+244: Tag 12 NameAndType Name index 245, Description index 246
+245: Tag 1 Utf8 Value "checkOutcome"
+246: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+247: Tag 8 String Contents 248
+248: Tag 1 Utf8 Value "io"
+249: Tag 8 String Contents 250
+250: Tag 1 Utf8 Value "worker"
+251: Tag 8 String Contents 252
+252: Tag 1 Utf8 Value "default"
+253: Tag 8 String Contents 254
+254: Tag 1 Utf8 Value "buffer-pool"
+255: Tag 8 String Contents 256
+256: Tag 1 Utf8 Value "server"
+257: Tag 8 String Contents 258
+258: Tag 1 Utf8 Value "default-server"
+259: Tag 10 MethodRef Class index 197, Name and type index 260
+260: Tag 12 NameAndType Name index 261, Description index 262
+261: Tag 1 Utf8 Value "assertNotNull"
+262: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+263: Tag 8 String Contents 264
+264: Tag 1 Utf8 Value "default-host"
+265: Tag 7 Class Name index 266
+266: Tag 1 Utf8 Value "org/wildfly/extension/undertow/Constants"
+267: Tag 10 MethodRef Class index 207, Name and type index 268
+268: Tag 12 NameAndType Name index 269, Description index 270
+269: Tag 1 Utf8 Value "asString"
+270: Tag 1 Utf8 Value "()Ljava/lang/String;"
+271: Tag 10 MethodRef Class index 197, Name and type index 272
+272: Tag 12 NameAndType Name index 273, Description index 274
+273: Tag 1 Utf8 Value "assertEquals"
+274: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+275: Tag 8 String Contents 276
+276: Tag 1 Utf8 Value "servlet-container"
+277: Tag 8 String Contents 278
+278: Tag 1 Utf8 Value "${prop.default-session-timeout:30}"
+279: Tag 8 String Contents 280
+280: Tag 1 Utf8 Value "default-session-timeout"
+281: Tag 8 String Contents 282
+282: Tag 1 Utf8 Value "${prop.listings:true}"
+283: Tag 8 String Contents 284
+284: Tag 1 Utf8 Value "directory-listing"
+285: Tag 8 String Contents 286
+286: Tag 1 Utf8 Value "setting"
+287: Tag 8 String Contents 288
+288: Tag 1 Utf8 Value "jsp"
+289: Tag 8 String Contents 290
+290: Tag 1 Utf8 Value "${prop.recompile-on-fail:true}"
+291: Tag 8 String Contents 292
+292: Tag 1 Utf8 Value "recompile-on-fail"
+293: Tag 8 String Contents 294
+294: Tag 1 Utf8 Value "welcome-file"
+295: Tag 8 String Contents 296
+296: Tag 1 Utf8 Value "toto"
+297: Tag 8 String Contents 298
+298: Tag 1 Utf8 Value "mime-mapping"
+299: Tag 8 String Contents 300
+300: Tag 1 Utf8 Value "ogx"
+301: Tag 8 String Contents 302
+302: Tag 1 Utf8 Value "application/ogg"
+303: Tag 8 String Contents 304
+304: Tag 1 Utf8 Value "value"
+305: Tag 8 String Contents 306
+306: Tag 1 Utf8 Value "http-listener"
+307: Tag 8 String Contents 308
+308: Tag 1 Utf8 Value "http"
+309: Tag 8 String Contents 310
+310: Tag 1 Utf8 Value "socket-binding"
+311: Tag 8 String Contents 312
+312: Tag 1 Utf8 Value "${prop.enabled:true}"
+313: Tag 8 String Contents 314
+314: Tag 1 Utf8 Value "enabled"
+315: Tag 8 String Contents 316
+316: Tag 1 Utf8 Value "${prop.enable-lookups:false}"
+317: Tag 8 String Contents 318
+318: Tag 1 Utf8 Value "resolve-peer-address"
+319: Tag 8 String Contents 320
+320: Tag 1 Utf8 Value "${prop.max-post-size:2097153}"
+321: Tag 8 String Contents 322
+322: Tag 1 Utf8 Value "max-post-size"
+323: Tag 8 String Contents 324
+324: Tag 1 Utf8 Value "https"
+325: Tag 8 String Contents 326
+326: Tag 1 Utf8 Value "redirect-socket"
+327: Tag 8 String Contents 328
+328: Tag 1 Utf8 Value "http-proxy"
+329: Tag 8 String Contents 330
+330: Tag 1 Utf8 Value "https-listener"
+331: Tag 8 String Contents 332
+332: Tag 1 Utf8 Value "security-realm"
+333: Tag 8 String Contents 334
+334: Tag 1 Utf8 Value "jbossweb-migration-security-realm"
+335: Tag 10 MethodRef Class index 202, Name and type index 336
+336: Tag 12 NameAndType Name index 337, Description index 338
+337: Tag 1 Utf8 Value "startsWith"
+338: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+339: Tag 10 MethodRef Class index 197, Name and type index 340
+340: Tag 12 NameAndType Name index 217, Description index 341
+341: Tag 1 Utf8 Value "(Ljava/lang/String;Z)V"
+342: Tag 8 String Contents 343
+343: Tag 1 Utf8 Value "${prop.session-cache-size:512}"
+344: Tag 8 String Contents 345
+345: Tag 1 Utf8 Value "ssl-session-cache-size"
+346: Tag 8 String Contents 347
+347: Tag 1 Utf8 Value "REQUESTED"
+348: Tag 8 String Contents 349
+349: Tag 1 Utf8 Value "verify-client"
+350: Tag 8 String Contents 351
+351: Tag 1 Utf8 Value "core-service"
+352: Tag 8 String Contents 353
+353: Tag 1 Utf8 Value "management"
+354: Tag 8 String Contents 355
+355: Tag 1 Utf8 Value "configuration"
+356: Tag 8 String Contents 357
+357: Tag 1 Utf8 Value "filter"
+358: Tag 8 String Contents 359
+359: Tag 1 Utf8 Value "expression-filter"
+360: Tag 8 String Contents 361
+361: Tag 1 Utf8 Value "request-dumper"
+362: Tag 8 String Contents 363
+363: Tag 1 Utf8 Value "dump-request"
+364: Tag 8 String Contents 365
+365: Tag 1 Utf8 Value "expression"
+366: Tag 10 MethodRef Class index 39, Name and type index 367
+367: Tag 12 NameAndType Name index 368, Description index 369
+368: Tag 1 Utf8 Value "validateExpressionFilter"
+369: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)V"
+370: Tag 8 String Contents 371
+371: Tag 1 Utf8 Value "remote-addr"
+372: Tag 8 String Contents 373
+373: Tag 1 Utf8 Value "access-control(acl={'192.168.1.20 deny', '127.0.0.1 allow', '127.0.0.2 allow'} , attribute=%a)"
+374: Tag 8 String Contents 375
+375: Tag 1 Utf8 Value "stuck"
+376: Tag 8 String Contents 377
+377: Tag 1 Utf8 Value "stuck-thread-detector(threshhold='1000')"
+378: Tag 8 String Contents 379
+379: Tag 1 Utf8 Value "proxy"
+380: Tag 8 String Contents 381
+381: Tag 1 Utf8 Value "regex(pattern="proxy1|proxy2", value=%{i,x-forwarded-for}, full-match=true) and regex(pattern="192\.168\.0\.10|192\.168\.0\.11", value=%{i,x-forwarded-for}, full-match=true) -> proxy-peer-address"
+382: Tag 8 String Contents 383
+383: Tag 1 Utf8 Value "crawler-session-management"
+384: Tag 8 String Contents 385
+385: Tag 1 Utf8 Value "session-timeout"
+386: Tag 10 MethodRef Class index 207, Name and type index 387
+387: Tag 12 NameAndType Name index 388, Description index 389
+388: Tag 1 Utf8 Value "asInt"
+389: Tag 1 Utf8 Value "()I"
+390: Tag 10 MethodRef Class index 197, Name and type index 391
+391: Tag 12 NameAndType Name index 273, Description index 392
+392: Tag 1 Utf8 Value "(JJ)V"
+393: Tag 8 String Contents 394
+394: Tag 1 Utf8 Value "Google"
+395: Tag 8 String Contents 396
+396: Tag 1 Utf8 Value "user-agents"
+397: Tag 8 String Contents 398
+398: Tag 1 Utf8 Value "host"
+399: Tag 8 String Contents 400
+400: Tag 1 Utf8 Value "welcome-content"
+401: Tag 8 String Contents 402
+402: Tag 1 Utf8 Value "location"
+403: Tag 8 String Contents 404
+404: Tag 1 Utf8 Value "/"
+405: Tag 8 String Contents 406
+406: Tag 1 Utf8 Value "handler"
+407: Tag 8 String Contents 408
+408: Tag 1 Utf8 Value "localhost"
+409: Tag 8 String Contents 410
+410: Tag 1 Utf8 Value "alias"
+411: Tag 10 MethodRef Class index 207, Name and type index 412
+412: Tag 12 NameAndType Name index 413, Description index 414
+413: Tag 1 Utf8 Value "asList"
+414: Tag 1 Utf8 Value "()Ljava/util/List;"
+415: Tag 11 InterfaceMethodRef Class index 416, Name and type index 417
+416: Tag 7 Class Name index 418
+417: Tag 12 NameAndType Name index 210, Description index 419
+418: Tag 1 Utf8 Value "java/util/List"
+419: Tag 1 Utf8 Value "(I)Ljava/lang/Object;"
+420: Tag 8 String Contents 421
+421: Tag 1 Utf8 Value "filter-ref"
+422: Tag 10 MethodRef Class index 207, Name and type index 423
+423: Tag 12 NameAndType Name index 424, Description index 425
+424: Tag 1 Utf8 Value "hasDefined"
+425: Tag 1 Utf8 Value "([Ljava/lang/String;)Z"
+426: Tag 8 String Contents 427
+427: Tag 1 Utf8 Value "myvalve"
+428: Tag 8 String Contents 429
+429: Tag 1 Utf8 Value "access-log"
+430: Tag 8 String Contents 431
+431: Tag 1 Utf8 Value "prefix"
+432: Tag 8 String Contents 433
+433: Tag 1 Utf8 Value "true"
+434: Tag 8 String Contents 435
+435: Tag 1 Utf8 Value "rotate"
+436: Tag 8 String Contents 437
+437: Tag 1 Utf8 Value "extended"
+438: Tag 8 String Contents 439
+439: Tag 1 Utf8 Value "pattern"
+440: Tag 8 String Contents 441
+441: Tag 1 Utf8 Value "directory"
+442: Tag 8 String Contents 443
+443: Tag 1 Utf8 Value "jboss.server.base.dir"
+444: Tag 8 String Contents 445
+445: Tag 1 Utf8 Value "relative-to"
+446: Tag 8 String Contents 447
+447: Tag 1 Utf8 Value "single-sign-on"
+448: Tag 8 String Contents 449
+449: Tag 1 Utf8 Value "${prop.domain:myDomain}"
+450: Tag 8 String Contents 451
+451: Tag 1 Utf8 Value "domain"
+452: Tag 8 String Contents 453
+453: Tag 1 Utf8 Value "${prop.http-only:true}"
+454: Tag 8 String Contents 455
+455: Tag 1 Utf8 Value "http-only"
+456: Tag 8 String Contents 457
+457: Tag 1 Utf8 Value "vs1"
+458: Tag 8 String Contents 459
+459: Tag 1 Utf8 Value "myapp_access_log."
+460: Tag 8 String Contents 461
+461: Tag 1 Utf8 Value ".log"
+462: Tag 8 String Contents 463
+463: Tag 1 Utf8 Value "suffix"
+464: Tag 8 String Contents 465
+465: Tag 1 Utf8 Value "common"
+466: Tag 8 String Contents 467
+467: Tag 1 Utf8 Value "${jboss.server.log.dir}"
+468: Tag 8 String Contents 469
+469: Tag 1 Utf8 Value "exists(%{r,log-enabled})"
+470: Tag 8 String Contents 471
+471: Tag 1 Utf8 Value "predicate"
+472: Tag 7 Class Name index 473
+473: Tag 1 Utf8 Value "io/undertow/predicate/PredicateParser"
+474: Tag 10 MethodRef Class index 475, Name and type index 476
+475: Tag 7 Class Name index 477
+476: Tag 12 NameAndType Name index 478, Description index 479
+477: Tag 1 Utf8 Value "java/lang/Class"
+478: Tag 1 Utf8 Value "getClassLoader"
+479: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+480: Tag 10 MethodRef Class index 481, Name and type index 482
+481: Tag 7 Class Name index 483
+482: Tag 12 NameAndType Name index 484, Description index 485
+483: Tag 1 Utf8 Value "io/undertow/server/handlers/builder/PredicatedHandlersParser"
+484: Tag 1 Utf8 Value "parse"
+485: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/util/List;"
+486: Tag 8 String Contents 487
+487: Tag 1 Utf8 Value "changeit"
+488: Tag 10 MethodRef Class index 202, Name and type index 489
+489: Tag 12 NameAndType Name index 490, Description index 491
+490: Tag 1 Utf8 Value "toCharArray"
+491: Tag 1 Utf8 Value "()[C"
+492: Tag 8 String Contents 493
+493: Tag 1 Utf8 Value "server.keystore"
+494: Tag 10 MethodRef Class index 93, Name and type index 495
+495: Tag 12 NameAndType Name index 25, Description index 496
+496: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+497: Tag 8 String Contents 498
+498: Tag 1 Utf8 Value "jsse.keystore"
+499: Tag 1 Utf8 Value "UNDERTOW_SUBSYSTEM_NAME"
+500: Tag 1 Utf8 Value "Ljava/lang/String;"
+501: Tag 1 Utf8 Value "ConstantValue"
+502: Tag 1 Utf8 Value "CLIENT_ALIAS"
+503: Tag 1 Utf8 Value "CLIENT_2_ALIAS"
+504: Tag 1 Utf8 Value "TEST_ALIAS"
+505: Tag 1 Utf8 Value "WORKING_DIRECTORY_LOCATION"
+506: Tag 1 Utf8 Value "TEST_CLIENT_DN"
+507: Tag 1 Utf8 Value "TEST_CLIENT_2_DN"
+508: Tag 1 Utf8 Value "AS_7_DN"
+509: Tag 1 Utf8 Value "SHA_1_RSA"
+510: Tag 1 Utf8 Value "Code"
+511: Tag 1 Utf8 Value "LineNumberTable"
+512: Tag 1 Utf8 Value "LocalVariableTable"
+513: Tag 1 Utf8 Value "ks"
+514: Tag 1 Utf8 Value "Ljava/security/KeyStore;"
+515: Tag 1 Utf8 Value "Exceptions"
+516: Tag 7 Class Name index 517
+517: Tag 1 Utf8 Value "java/lang/Exception"
+518: Tag 1 Utf8 Value "DN"
+519: Tag 1 Utf8 Value "selfSignedX509CertificateAndSigningKey"
+520: Tag 1 Utf8 Value "Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey;"
+521: Tag 1 Utf8 Value "keyStore"
+522: Tag 1 Utf8 Value "certificate"
+523: Tag 1 Utf8 Value "Ljava/security/cert/X509Certificate;"
+524: Tag 1 Utf8 Value "fos"
+525: Tag 1 Utf8 Value "Ljava/io/FileOutputStream;"
+526: Tag 1 Utf8 Value "outputFile"
+527: Tag 1 Utf8 Value "StackMapTable"
+528: Tag 1 Utf8 Value "workingDir"
+529: Tag 1 Utf8 Value "trustStore"
+530: Tag 1 Utf8 Value "testClientSelfSignedX509CertificateAndSigningKey"
+531: Tag 1 Utf8 Value "testClient2SelfSignedX509CertificateAndSigningKey"
+532: Tag 1 Utf8 Value "aS7SelfSignedX509CertificateAndSigningKey"
+533: Tag 1 Utf8 Value "file"
+534: Tag 1 Utf8 Value "testFiles"
+535: Tag 1 Utf8 Value "[Ljava/io/File;"
+536: Tag 7 Class Name index 535
+537: Tag 1 Utf8 Value "beforeTests"
+538: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+539: Tag 1 Utf8 Value "Lorg/junit/BeforeClass;"
+540: Tag 1 Utf8 Value "afterTests"
+541: Tag 1 Utf8 Value "Lorg/junit/AfterClass;"
+542: Tag 1 Utf8 Value "this"
+543: Tag 1 Utf8 Value "Lorg/jboss/as/web/test/WebMigrateTestCase;"
+544: Tag 1 Utf8 Value "testMigrateOperation"
+545: Tag 1 Utf8 Value "subsystemXml"
+546: Tag 1 Utf8 Value "additionalInitialization"
+547: Tag 1 Utf8 Value "Lorg/jboss/as/web/test/WebMigrateTestCase$NewSubsystemAdditionalInitialization;"
+548: Tag 1 Utf8 Value "services"
+549: Tag 1 Utf8 Value "Lorg/jboss/as/subsystem/test/KernelServices;"
+550: Tag 1 Utf8 Value "model"
+551: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+552: Tag 1 Utf8 Value "migrateOp"
+553: Tag 1 Utf8 Value "ioSubsystem"
+554: Tag 1 Utf8 Value "newSubsystem"
+555: Tag 1 Utf8 Value "newServer"
+556: Tag 1 Utf8 Value "servletContainer"
+557: Tag 1 Utf8 Value "welcome"
+558: Tag 1 Utf8 Value "mimeMapping"
+559: Tag 1 Utf8 Value "connector"
+560: Tag 1 Utf8 Value "httpProxyConnector"
+561: Tag 1 Utf8 Value "httpsConnector"
+562: Tag 1 Utf8 Value "realmName"
+563: Tag 1 Utf8 Value "realm"
+564: Tag 1 Utf8 Value "filters"
+565: Tag 1 Utf8 Value "dumpFilter"
+566: Tag 1 Utf8 Value "remoteAddrFilter"
+567: Tag 1 Utf8 Value "stuckFilter"
+568: Tag 1 Utf8 Value "proxyFilter"
+569: Tag 1 Utf8 Value "crawler"
+570: Tag 1 Utf8 Value "virtualHost"
+571: Tag 1 Utf8 Value "accessLog"
+572: Tag 1 Utf8 Value "sso"
+573: Tag 1 Utf8 Value "Lorg/junit/Test;"
+574: Tag 1 Utf8 Value "Lorg/junit/Ignore;"
+575: Tag 1 Utf8 Value "[WFLY-15159] Web subsystem migration needs updating to migrate to Elytron."
+576: Tag 1 Utf8 Value "<clinit>"
+577: Tag 1 Utf8 Value "SourceFile"
+578: Tag 1 Utf8 Value "WebMigrateTestCase.java"
+579: Tag 1 Utf8 Value "InnerClasses"
+580: Tag 1 Utf8 Value "Builder"
+581: Tag 1 Utf8 Value "NewSubsystemAdditionalInitialization"
+582: Tag 7 Class Name index 583
+583: Tag 1 Utf8 Value "org/jboss/as/web/test/WebMigrateTestCase$1"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 39, name org.jboss.as.web.test.WebMigrateTestCase
+
+Super class: id 158, name org.jboss.as.subsystem.test.AbstractSubsystemTest
+
+No interfaces
+
+Field name UNDERTOW_SUBSYSTEM_NAME (index 499), type Ljava/lang/String; (descriptor index 500)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name GENERATED_KEYSTORE_PASSWORD (index 62), type [C (descriptor index 63)
+Human type: char[]
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name CLIENT_ALIAS (index 502), type Ljava/lang/String; (descriptor index 500)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name CLIENT_2_ALIAS (index 503), type Ljava/lang/String; (descriptor index 500)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name TEST_ALIAS (index 504), type Ljava/lang/String; (descriptor index 500)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name WORKING_DIRECTORY_LOCATION (index 505), type Ljava/lang/String; (descriptor index 500)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name KEY_STORE_FILE (index 133), type Ljava/io/File; (descriptor index 134)
+Human type: java.io.File
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name TRUST_STORE_FILE (index 141), type Ljava/io/File; (descriptor index 134)
+Human type: java.io.File
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name TEST_CLIENT_DN (index 506), type Ljava/lang/String; (descriptor index 500)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name TEST_CLIENT_2_DN (index 507), type Ljava/lang/String; (descriptor index 500)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name AS_7_DN (index 508), type Ljava/lang/String; (descriptor index 500)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name SHA_1_RSA (index 509), type Ljava/lang/String; (descriptor index 500)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+
+Method name loadKeyStore (index 107), type ()Ljava/security/KeyStore; (descriptor index 108)
+Human type: (): java.security.KeyStore
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 64
+Method attribute name Exceptions, size 4
+Method name createSelfSigned (index 113), type (Ljava/lang/String;)Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey; (descriptor index 114)
+Human type: (java.lang.String): org.wildfly.security.x500.cert.SelfSignedX509CertificateAndSigningKey
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 90
+Method name addKeyEntry (index 129), type (Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey;Ljava/security/KeyStore;)V (descriptor index 130)
+Human type: (org.wildfly.security.x500.cert.SelfSignedX509CertificateAndSigningKey, java.security.KeyStore): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 97
+Method attribute name Exceptions, size 4
+Method name addCertEntry (index 123), type (Lorg/wildfly/security/x500/cert/SelfSignedX509CertificateAndSigningKey;Ljava/lang/String;Ljava/security/KeyStore;)V (descriptor index 124)
+Human type: (org.wildfly.security.x500.cert.SelfSignedX509CertificateAndSigningKey, java.lang.String, java.security.KeyStore): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 92
+Method attribute name Exceptions, size 4
+Method name createTemporaryKeyStoreFile (index 137), type (Ljava/security/KeyStore;Ljava/io/File;)V (descriptor index 138)
+Human type: (java.security.KeyStore, java.io.File): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 190
+Method attribute name Exceptions, size 4
+Method name setUpKeyStores (index 147), type ()V (descriptor index 86)
+Human type: (): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 267
+Method attribute name Exceptions, size 4
+Method name deleteKeyStoreFiles (index 150), type ()V (descriptor index 86)
+Human type: (): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 154
+Method name beforeTests (index 537), type ()V (descriptor index 86)
+Human type: (): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 32
+Method attribute name Exceptions, size 4
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name afterTests (index 540), type ()V (descriptor index 86)
+Human type: (): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 32
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name <init> (index 25), type ()V (descriptor index 86)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 60
+Method name testMigrateOperation (index 544), type ()V (descriptor index 86)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 2757
+Method attribute name Exceptions, size 4
+Method attribute name RuntimeVisibleAnnotations, size 15
+Method name validateExpressionFilter (index 368), type (Lorg/jboss/dmr/ModelNode;)V (descriptor index 369)
+Human type: (org.jboss.dmr.ModelNode): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 77
+Method name <clinit> (index 576), type ()V (descriptor index 86)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 72
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

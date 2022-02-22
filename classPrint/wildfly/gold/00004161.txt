@@ -1,0 +1,149 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 92
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/clustering/context/ContextReferenceExecutor"
+11: Tag 1 Utf8 Value "targetContext"
+12: Tag 1 Utf8 Value "Ljava/lang/Object;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "reference"
+16: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/context/ContextReference;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/clustering/context/ContextReference"
+21: Tag 1 Utf8 Value "get"
+22: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+23: Tag 11 InterfaceMethodRef Class index 18, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "accept"
+26: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+27: Tag 11 InterfaceMethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 6
+30: Tag 1 Utf8 Value "java/lang/Runnable"
+31: Tag 1 Utf8 Value "run"
+32: Tag 11 InterfaceMethodRef Class index 33, Name and type index 29
+33: Tag 7 Class Name index 34
+34: Tag 1 Utf8 Value "org/wildfly/common/function/ExceptionRunnable"
+35: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 22
+38: Tag 1 Utf8 Value "java/util/concurrent/Callable"
+39: Tag 1 Utf8 Value "call"
+40: Tag 11 InterfaceMethodRef Class index 41, Name and type index 19
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "java/util/function/Supplier"
+43: Tag 11 InterfaceMethodRef Class index 44, Name and type index 19
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "org/wildfly/common/function/ExceptionSupplier"
+46: Tag 7 Class Name index 47
+47: Tag 1 Utf8 Value "org/jboss/as/clustering/context/ContextualExecutor"
+48: Tag 1 Utf8 Value "Signature"
+49: Tag 1 Utf8 Value "TC;"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/context/ContextReference<TC;>;"
+51: Tag 1 Utf8 Value "(Ljava/lang/Object;Lorg/jboss/as/clustering/context/ContextReference;)V"
+52: Tag 1 Utf8 Value "Code"
+53: Tag 1 Utf8 Value "LineNumberTable"
+54: Tag 1 Utf8 Value "LocalVariableTable"
+55: Tag 1 Utf8 Value "this"
+56: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/context/ContextReferenceExecutor;"
+57: Tag 1 Utf8 Value "LocalVariableTypeTable"
+58: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/context/ContextReferenceExecutor<TC;>;"
+59: Tag 1 Utf8 Value "(TC;Lorg/jboss/as/clustering/context/ContextReference<TC;>;)V"
+60: Tag 1 Utf8 Value "execute"
+61: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)V"
+62: Tag 1 Utf8 Value "runner"
+63: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+64: Tag 1 Utf8 Value "currentContext"
+65: Tag 1 Utf8 Value "StackMapTable"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "java/lang/Throwable"
+68: Tag 1 Utf8 Value "(Lorg/wildfly/common/function/ExceptionRunnable;)V"
+69: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionRunnable;"
+70: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionRunnable<TE;>;"
+71: Tag 1 Utf8 Value "Exceptions"
+72: Tag 7 Class Name index 73
+73: Tag 1 Utf8 Value "java/lang/Exception"
+74: Tag 1 Utf8 Value "<E:Ljava/lang/Exception;>(Lorg/wildfly/common/function/ExceptionRunnable<TE;>;)V^TE;"
+75: Tag 1 Utf8 Value "(Ljava/util/concurrent/Callable;)Ljava/lang/Object;"
+76: Tag 1 Utf8 Value "caller"
+77: Tag 1 Utf8 Value "Ljava/util/concurrent/Callable;"
+78: Tag 1 Utf8 Value "Ljava/util/concurrent/Callable<TT;>;"
+79: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)TT;"
+80: Tag 1 Utf8 Value "(Ljava/util/function/Supplier;)Ljava/lang/Object;"
+81: Tag 1 Utf8 Value "supplier"
+82: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+83: Tag 1 Utf8 Value "Ljava/util/function/Supplier<TT;>;"
+84: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Ljava/util/function/Supplier<TT;>;)TT;"
+85: Tag 1 Utf8 Value "(Lorg/wildfly/common/function/ExceptionSupplier;)Ljava/lang/Object;"
+86: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionSupplier;"
+87: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionSupplier<TT;TE;>;"
+88: Tag 1 Utf8 Value "<T:Ljava/lang/Object;E:Ljava/lang/Exception;>(Lorg/wildfly/common/function/ExceptionSupplier<TT;TE;>;)TT;^TE;"
+89: Tag 1 Utf8 Value "<C:Ljava/lang/Object;>Ljava/lang/Object;Lorg/jboss/as/clustering/context/ContextualExecutor;"
+90: Tag 1 Utf8 Value "SourceFile"
+91: Tag 1 Utf8 Value "ContextReferenceExecutor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.clustering.context.ContextReferenceExecutor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 46
+Implements names org.jboss.as.clustering.context.ContextualExecutor
+
+Field name targetContext (index 11), type Ljava/lang/Object; (descriptor index 12)
+Human type: java.lang.Object
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name reference (index 15), type Lorg/jboss/as/clustering/context/ContextReference; (descriptor index 16)
+Human type: org.jboss.as.clustering.context.ContextReference
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/lang/Object;Lorg/jboss/as/clustering/context/ContextReference;)V (descriptor index 51)
+Human type: (java.lang.Object, org.jboss.as.clustering.context.ContextReference): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 127
+Method attribute name Signature, size 2
+Method name execute (index 60), type (Ljava/lang/Runnable;)V (descriptor index 61)
+Human type: (java.lang.Runnable): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 210
+Method name execute (index 60), type (Lorg/wildfly/common/function/ExceptionRunnable;)V (descriptor index 68)
+Human type: (org.wildfly.common.function.ExceptionRunnable): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 220
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name execute (index 60), type (Ljava/util/concurrent/Callable;)Ljava/lang/Object; (descriptor index 75)
+Human type: (java.util.concurrent.Callable): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 224
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name execute (index 60), type (Ljava/util/function/Supplier;)Ljava/lang/Object; (descriptor index 80)
+Human type: (java.util.function.Supplier): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 224
+Method attribute name Signature, size 2
+Method name execute (index 60), type (Lorg/wildfly/common/function/ExceptionSupplier;)Ljava/lang/Object; (descriptor index 85)
+Human type: (org.wildfly.common.function.ExceptionSupplier): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 224
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

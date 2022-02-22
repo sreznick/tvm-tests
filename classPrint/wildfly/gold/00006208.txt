@@ -1,0 +1,446 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 386
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+3: Tag 9 FieldRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricCollector"
+7: Tag 1 Utf8 Value "processStateNotifier"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ProcessStateNotifier;"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "java/lang/Object"
+13: Tag 1 Utf8 Value "<init>"
+14: Tag 1 Utf8 Value "()V"
+15: Tag 9 FieldRef Class index 4, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "modelControllerClient"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/controller/LocalModelControllerClient;"
+19: Tag 9 FieldRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+23: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+24: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+25: Tag 10 MethodRef Class index 4, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "collectResourceMetrics0"
+28: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;Lorg/jboss/as/controller/PathAddress;Ljava/util/function/Function;Lorg/wildfly/extension/metrics/MetricRegistration;ZLjava/util/List;Ljava/lang/String;)V"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricCollector$1"
+31: Tag 10 MethodRef Class index 29, Name and type index 32
+32: Tag 12 NameAndType Name index 13, Description index 33
+33: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricCollector;Lorg/wildfly/extension/metrics/MetricRegistration;)V"
+34: Tag 11 InterfaceMethodRef Class index 35, Name and type index 36
+35: Tag 7 Class Name index 37
+36: Tag 12 NameAndType Name index 38, Description index 39
+37: Tag 1 Utf8 Value "org/jboss/as/controller/ProcessStateNotifier"
+38: Tag 1 Utf8 Value "addPropertyChangeListener"
+39: Tag 1 Utf8 Value "(Ljava/beans/PropertyChangeListener;)V"
+40: Tag 9 FieldRef Class index 41, Name and type index 42
+41: Tag 7 Class Name index 43
+42: Tag 12 NameAndType Name index 44, Description index 45
+43: Tag 1 Utf8 Value "org/jboss/as/controller/ControlledProcessState$State"
+44: Tag 1 Utf8 Value "RUNNING"
+45: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ControlledProcessState$State;"
+46: Tag 11 InterfaceMethodRef Class index 35, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "getCurrentState"
+49: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/ControlledProcessState$State;"
+50: Tag 10 MethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 14
+53: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricRegistration"
+54: Tag 1 Utf8 Value "register"
+55: Tag 10 MethodRef Class index 4, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "isExposingMetrics"
+58: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;ZLjava/util/List;)Z"
+59: Tag 11 InterfaceMethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ImmutableManagementResourceRegistration"
+63: Tag 1 Utf8 Value "getAttributes"
+64: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Ljava/util/Map;"
+65: Tag 11 InterfaceMethodRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 69, Description index 70
+68: Tag 1 Utf8 Value "java/util/Map"
+69: Tag 1 Utf8 Value "entrySet"
+70: Tag 1 Utf8 Value "()Ljava/util/Set;"
+71: Tag 11 InterfaceMethodRef Class index 72, Name and type index 73
+72: Tag 7 Class Name index 74
+73: Tag 12 NameAndType Name index 75, Description index 76
+74: Tag 1 Utf8 Value "java/util/Set"
+75: Tag 1 Utf8 Value "iterator"
+76: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+77: Tag 11 InterfaceMethodRef Class index 78, Name and type index 79
+78: Tag 7 Class Name index 80
+79: Tag 12 NameAndType Name index 81, Description index 82
+80: Tag 1 Utf8 Value "java/util/Iterator"
+81: Tag 1 Utf8 Value "hasNext"
+82: Tag 1 Utf8 Value "()Z"
+83: Tag 11 InterfaceMethodRef Class index 78, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 86
+85: Tag 1 Utf8 Value "next"
+86: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+87: Tag 7 Class Name index 88
+88: Tag 1 Utf8 Value "java/util/Map$Entry"
+89: Tag 11 InterfaceMethodRef Class index 87, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 86
+91: Tag 1 Utf8 Value "getKey"
+92: Tag 7 Class Name index 93
+93: Tag 1 Utf8 Value "java/lang/String"
+94: Tag 11 InterfaceMethodRef Class index 87, Name and type index 95
+95: Tag 12 NameAndType Name index 96, Description index 86
+96: Tag 1 Utf8 Value "getValue"
+97: Tag 7 Class Name index 98
+98: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess"
+99: Tag 10 MethodRef Class index 4, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 102
+101: Tag 1 Utf8 Value "isCollectibleMetric"
+102: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/AttributeAccess;)Z"
+103: Tag 11 InterfaceMethodRef Class index 60, Name and type index 104
+104: Tag 12 NameAndType Name index 105, Description index 106
+105: Tag 1 Utf8 Value "getModelDescription"
+106: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/descriptions/DescriptionProvider;"
+107: Tag 10 MethodRef Class index 108, Name and type index 109
+108: Tag 7 Class Name index 110
+109: Tag 12 NameAndType Name index 111, Description index 112
+110: Tag 1 Utf8 Value "java/util/Locale"
+111: Tag 1 Utf8 Value "getDefault"
+112: Tag 1 Utf8 Value "()Ljava/util/Locale;"
+113: Tag 11 InterfaceMethodRef Class index 114, Name and type index 115
+114: Tag 7 Class Name index 116
+115: Tag 12 NameAndType Name index 105, Description index 117
+116: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/DescriptionProvider"
+117: Tag 1 Utf8 Value "(Ljava/util/Locale;)Lorg/jboss/dmr/ModelNode;"
+118: Tag 11 InterfaceMethodRef Class index 119, Name and type index 120
+119: Tag 7 Class Name index 121
+120: Tag 12 NameAndType Name index 122, Description index 123
+121: Tag 1 Utf8 Value "java/util/function/Function"
+122: Tag 1 Utf8 Value "apply"
+123: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+124: Tag 10 MethodRef Class index 97, Name and type index 125
+125: Tag 12 NameAndType Name index 126, Description index 127
+126: Tag 1 Utf8 Value "getAttributeDefinition"
+127: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AttributeDefinition;"
+128: Tag 10 MethodRef Class index 129, Name and type index 130
+129: Tag 7 Class Name index 131
+130: Tag 12 NameAndType Name index 132, Description index 133
+131: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+132: Tag 1 Utf8 Value "getMeasurementUnit"
+133: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+134: Tag 10 MethodRef Class index 97, Name and type index 135
+135: Tag 12 NameAndType Name index 136, Description index 70
+136: Tag 1 Utf8 Value "getFlags"
+137: Tag 9 FieldRef Class index 138, Name and type index 139
+138: Tag 7 Class Name index 140
+139: Tag 12 NameAndType Name index 141, Description index 142
+140: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess$Flag"
+141: Tag 1 Utf8 Value "COUNTER_METRIC"
+142: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess$Flag;"
+143: Tag 11 InterfaceMethodRef Class index 72, Name and type index 144
+144: Tag 12 NameAndType Name index 145, Description index 146
+145: Tag 1 Utf8 Value "contains"
+146: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+147: Tag 8 String Contents 148
+148: Tag 1 Utf8 Value "attributes"
+149: Tag 8 String Contents 150
+150: Tag 1 Utf8 Value "description"
+151: Tag 10 MethodRef Class index 152, Name and type index 153
+152: Tag 7 Class Name index 154
+153: Tag 12 NameAndType Name index 155, Description index 156
+154: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+155: Tag 1 Utf8 Value "get"
+156: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+157: Tag 10 MethodRef Class index 152, Name and type index 158
+158: Tag 12 NameAndType Name index 159, Description index 160
+159: Tag 1 Utf8 Value "asStringOrNull"
+160: Tag 1 Utf8 Value "()Ljava/lang/String;"
+161: Tag 7 Class Name index 162
+162: Tag 1 Utf8 Value "org/wildfly/extension/metrics/WildFlyMetric"
+163: Tag 10 MethodRef Class index 161, Name and type index 164
+164: Tag 12 NameAndType Name index 13, Description index 165
+165: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/LocalModelControllerClient;Lorg/jboss/as/controller/PathAddress;Ljava/lang/String;)V"
+166: Tag 7 Class Name index 167
+167: Tag 1 Utf8 Value "org/wildfly/extension/metrics/WildFlyMetricMetadata"
+168: Tag 9 FieldRef Class index 169, Name and type index 170
+169: Tag 7 Class Name index 171
+170: Tag 12 NameAndType Name index 172, Description index 173
+171: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata$Type"
+172: Tag 1 Utf8 Value "COUNTER"
+173: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricMetadata$Type;"
+174: Tag 9 FieldRef Class index 169, Name and type index 175
+175: Tag 12 NameAndType Name index 176, Description index 173
+176: Tag 1 Utf8 Value "GAUGE"
+177: Tag 10 MethodRef Class index 166, Name and type index 178
+178: Tag 12 NameAndType Name index 13, Description index 179
+179: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/PathAddress;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/as/controller/client/helpers/MeasurementUnit;Lorg/wildfly/extension/metrics/MetricMetadata$Type;)V"
+180: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 181
+181: Tag 12 NameAndType Name index 182, Description index 183
+182: Tag 1 Utf8 Value "run"
+183: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricRegistration;Lorg/wildfly/extension/metrics/WildFlyMetric;Lorg/wildfly/extension/metrics/WildFlyMetricMetadata;)Ljava/lang/Runnable;"
+184: Tag 10 MethodRef Class index 51, Name and type index 185
+185: Tag 12 NameAndType Name index 186, Description index 187
+186: Tag 1 Utf8 Value "addRegistrationTask"
+187: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)V"
+188: Tag 10 MethodRef Class index 166, Name and type index 189
+189: Tag 12 NameAndType Name index 190, Description index 191
+190: Tag 1 Utf8 Value "getMetricID"
+191: Tag 1 Utf8 Value "()Lorg/wildfly/extension/metrics/MetricID;"
+192: Tag 10 MethodRef Class index 51, Name and type index 193
+193: Tag 12 NameAndType Name index 194, Description index 195
+194: Tag 1 Utf8 Value "addUnregistrationTask"
+195: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricID;)V"
+196: Tag 11 InterfaceMethodRef Class index 197, Name and type index 198
+197: Tag 7 Class Name index 199
+198: Tag 12 NameAndType Name index 200, Description index 70
+199: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+200: Tag 1 Utf8 Value "getChildTypes"
+201: Tag 11 InterfaceMethodRef Class index 197, Name and type index 202
+202: Tag 12 NameAndType Name index 203, Description index 204
+203: Tag 1 Utf8 Value "getChildren"
+204: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Set;"
+205: Tag 7 Class Name index 206
+206: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource$ResourceEntry"
+207: Tag 11 InterfaceMethodRef Class index 205, Name and type index 208
+208: Tag 12 NameAndType Name index 209, Description index 210
+209: Tag 1 Utf8 Value "getPathElement"
+210: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathElement;"
+211: Tag 7 Class Name index 212
+212: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+213: Tag 10 MethodRef Class index 20, Name and type index 214
+214: Tag 12 NameAndType Name index 215, Description index 216
+215: Tag 1 Utf8 Value "append"
+216: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/PathElement;)Lorg/jboss/as/controller/PathAddress;"
+217: Tag 10 MethodRef Class index 20, Name and type index 218
+218: Tag 12 NameAndType Name index 219, Description index 220
+219: Tag 1 Utf8 Value "size"
+220: Tag 1 Utf8 Value "()I"
+221: Tag 10 MethodRef Class index 4, Name and type index 222
+222: Tag 12 NameAndType Name index 223, Description index 224
+223: Tag 1 Utf8 Value "getSubsystemName"
+224: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String;"
+225: Tag 11 InterfaceMethodRef Class index 226, Name and type index 144
+226: Tag 7 Class Name index 227
+227: Tag 1 Utf8 Value "java/util/List"
+228: Tag 10 MethodRef Class index 20, Name and type index 229
+229: Tag 12 NameAndType Name index 230, Description index 231
+230: Tag 1 Utf8 Value "getElement"
+231: Tag 1 Utf8 Value "(I)Lorg/jboss/as/controller/PathElement;"
+232: Tag 10 MethodRef Class index 211, Name and type index 233
+233: Tag 12 NameAndType Name index 91, Description index 160
+234: Tag 8 String Contents 235
+235: Tag 1 Utf8 Value "subsystem"
+236: Tag 10 MethodRef Class index 92, Name and type index 237
+237: Tag 12 NameAndType Name index 238, Description index 146
+238: Tag 1 Utf8 Value "equals"
+239: Tag 10 MethodRef Class index 211, Name and type index 240
+240: Tag 12 NameAndType Name index 96, Description index 160
+241: Tag 10 MethodRef Class index 20, Name and type index 242
+242: Tag 12 NameAndType Name index 243, Description index 244
+243: Tag 1 Utf8 Value "subAddress"
+244: Tag 1 Utf8 Value "(I)Lorg/jboss/as/controller/PathAddress;"
+245: Tag 10 MethodRef Class index 97, Name and type index 246
+246: Tag 12 NameAndType Name index 247, Description index 248
+247: Tag 1 Utf8 Value "getAccessType"
+248: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/registry/AttributeAccess$AccessType;"
+249: Tag 9 FieldRef Class index 250, Name and type index 251
+250: Tag 7 Class Name index 252
+251: Tag 12 NameAndType Name index 253, Description index 254
+252: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess$AccessType"
+253: Tag 1 Utf8 Value "METRIC"
+254: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess$AccessType;"
+255: Tag 10 MethodRef Class index 97, Name and type index 256
+256: Tag 12 NameAndType Name index 257, Description index 258
+257: Tag 1 Utf8 Value "getStorageType"
+258: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/registry/AttributeAccess$Storage;"
+259: Tag 9 FieldRef Class index 260, Name and type index 261
+260: Tag 7 Class Name index 262
+261: Tag 12 NameAndType Name index 263, Description index 264
+262: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess$Storage"
+263: Tag 1 Utf8 Value "RUNTIME"
+264: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess$Storage;"
+265: Tag 10 MethodRef Class index 129, Name and type index 266
+266: Tag 12 NameAndType Name index 267, Description index 268
+267: Tag 1 Utf8 Value "getType"
+268: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelType;"
+269: Tag 9 FieldRef Class index 270, Name and type index 271
+270: Tag 7 Class Name index 272
+271: Tag 12 NameAndType Name index 273, Description index 274
+272: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+273: Tag 1 Utf8 Value "INT"
+274: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+275: Tag 9 FieldRef Class index 270, Name and type index 276
+276: Tag 12 NameAndType Name index 277, Description index 274
+277: Tag 1 Utf8 Value "LONG"
+278: Tag 9 FieldRef Class index 270, Name and type index 279
+279: Tag 12 NameAndType Name index 280, Description index 274
+280: Tag 1 Utf8 Value "DOUBLE"
+281: Tag 10 MethodRef Class index 51, Name and type index 282
+282: Tag 12 NameAndType Name index 283, Description index 284
+283: Tag 1 Utf8 Value "registerMetric"
+284: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/WildFlyMetric;Lorg/wildfly/extension/metrics/WildFlyMetricMetadata;)V"
+285: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/LocalModelControllerClient;Lorg/jboss/as/controller/ProcessStateNotifier;)V"
+286: Tag 1 Utf8 Value "Code"
+287: Tag 1 Utf8 Value "LineNumberTable"
+288: Tag 1 Utf8 Value "LocalVariableTable"
+289: Tag 1 Utf8 Value "this"
+290: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricCollector;"
+291: Tag 1 Utf8 Value "collectResourceMetrics"
+292: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;Ljava/util/function/Function;ZLjava/util/List;Ljava/lang/String;Lorg/wildfly/extension/metrics/MetricRegistration;)V"
+293: Tag 1 Utf8 Value "resource"
+294: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+295: Tag 1 Utf8 Value "managementResourceRegistration"
+296: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;"
+297: Tag 1 Utf8 Value "resourceAddressResolver"
+298: Tag 1 Utf8 Value "Ljava/util/function/Function;"
+299: Tag 1 Utf8 Value "exposeAnySubsystem"
+300: Tag 1 Utf8 Value "Z"
+301: Tag 1 Utf8 Value "exposedSubsystems"
+302: Tag 1 Utf8 Value "Ljava/util/List;"
+303: Tag 1 Utf8 Value "prefix"
+304: Tag 1 Utf8 Value "Ljava/lang/String;"
+305: Tag 1 Utf8 Value "registration"
+306: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricRegistration;"
+307: Tag 1 Utf8 Value "listener"
+308: Tag 1 Utf8 Value "Ljava/beans/PropertyChangeListener;"
+309: Tag 1 Utf8 Value "LocalVariableTypeTable"
+310: Tag 1 Utf8 Value "Ljava/util/function/Function<Lorg/jboss/as/controller/PathAddress;Lorg/jboss/as/controller/PathAddress;>;"
+311: Tag 1 Utf8 Value "Ljava/util/List<Ljava/lang/String;>;"
+312: Tag 1 Utf8 Value "StackMapTable"
+313: Tag 7 Class Name index 314
+314: Tag 1 Utf8 Value "java/beans/PropertyChangeListener"
+315: Tag 1 Utf8 Value "Signature"
+316: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;Ljava/util/function/Function<Lorg/jboss/as/controller/PathAddress;Lorg/jboss/as/controller/PathAddress;>;ZLjava/util/List<Ljava/lang/String;>;Ljava/lang/String;Lorg/wildfly/extension/metrics/MetricRegistration;)V"
+317: Tag 1 Utf8 Value "modelDescription"
+318: Tag 1 Utf8 Value "Lorg/jboss/as/controller/descriptions/DescriptionProvider;"
+319: Tag 1 Utf8 Value "attributeName"
+320: Tag 1 Utf8 Value "attributeAccess"
+321: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess;"
+322: Tag 1 Utf8 Value "resourceAddress"
+323: Tag 1 Utf8 Value "unit"
+324: Tag 1 Utf8 Value "Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+325: Tag 1 Utf8 Value "isCounter"
+326: Tag 1 Utf8 Value "attributeDescription"
+327: Tag 1 Utf8 Value "metric"
+328: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/WildFlyMetric;"
+329: Tag 1 Utf8 Value "metadata"
+330: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/WildFlyMetricMetadata;"
+331: Tag 1 Utf8 Value "entry"
+332: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+333: Tag 1 Utf8 Value "pathElement"
+334: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+335: Tag 1 Utf8 Value "childAddress"
+336: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource$ResourceEntry;"
+337: Tag 1 Utf8 Value "type"
+338: Tag 1 Utf8 Value "current"
+339: Tag 1 Utf8 Value "address"
+340: Tag 1 Utf8 Value "Ljava/util/Map;"
+341: Tag 1 Utf8 Value "resourceDescription"
+342: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+343: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Ljava/lang/String;Lorg/jboss/as/controller/registry/AttributeAccess;>;"
+344: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/jboss/as/controller/registry/AttributeAccess;>;"
+345: Tag 7 Class Name index 346
+346: Tag 1 Utf8 Value "org/jboss/as/controller/client/helpers/MeasurementUnit"
+347: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;Lorg/jboss/as/controller/PathAddress;Ljava/util/function/Function<Lorg/jboss/as/controller/PathAddress;Lorg/jboss/as/controller/PathAddress;>;Lorg/wildfly/extension/metrics/MetricRegistration;ZLjava/util/List<Ljava/lang/String;>;Ljava/lang/String;)V"
+348: Tag 1 Utf8 Value "subsystemName"
+349: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;ZLjava/util/List<Ljava/lang/String;>;)Z"
+350: Tag 1 Utf8 Value "lambda$collectResourceMetrics0$0"
+351: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricRegistration;Lorg/wildfly/extension/metrics/WildFlyMetric;Lorg/wildfly/extension/metrics/WildFlyMetricMetadata;)V"
+352: Tag 1 Utf8 Value "access$000"
+353: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricCollector;)Lorg/jboss/as/controller/ProcessStateNotifier;"
+354: Tag 1 Utf8 Value "x0"
+355: Tag 1 Utf8 Value "SourceFile"
+356: Tag 1 Utf8 Value "MetricCollector.java"
+357: Tag 1 Utf8 Value "BootstrapMethods"
+358: Tag 15 MethodHandle Kind 6, Index 359
+359: Tag 10 MethodRef Class index 360, Name and type index 361
+360: Tag 7 Class Name index 362
+361: Tag 12 NameAndType Name index 363, Description index 364
+362: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+363: Tag 1 Utf8 Value "metafactory"
+364: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+365: Tag 16 MethodType Descriptor index 14
+366: Tag 15 MethodHandle Kind 6, Index 367
+367: Tag 10 MethodRef Class index 4, Name and type index 368
+368: Tag 12 NameAndType Name index 350, Description index 351
+369: Tag 1 Utf8 Value "InnerClasses"
+370: Tag 7 Class Name index 371
+371: Tag 1 Utf8 Value "org/jboss/as/controller/ControlledProcessState"
+372: Tag 1 Utf8 Value "State"
+373: Tag 1 Utf8 Value "Entry"
+374: Tag 1 Utf8 Value "Flag"
+375: Tag 7 Class Name index 376
+376: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata"
+377: Tag 1 Utf8 Value "Type"
+378: Tag 1 Utf8 Value "ResourceEntry"
+379: Tag 1 Utf8 Value "AccessType"
+380: Tag 1 Utf8 Value "Storage"
+381: Tag 7 Class Name index 382
+382: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+383: Tag 7 Class Name index 384
+384: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+385: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 4, name org.wildfly.extension.metrics.MetricCollector
+
+Super class: id 10, name java.lang.Object
+
+No interfaces
+
+Field name modelControllerClient (index 17), type Lorg/jboss/as/controller/LocalModelControllerClient; (descriptor index 18)
+Human type: org.jboss.as.controller.LocalModelControllerClient
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name processStateNotifier (index 7), type Lorg/jboss/as/controller/ProcessStateNotifier; (descriptor index 8)
+Human type: org.jboss.as.controller.ProcessStateNotifier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 13), type (Lorg/jboss/as/controller/LocalModelControllerClient;Lorg/jboss/as/controller/ProcessStateNotifier;)V (descriptor index 285)
+Human type: (org.jboss.as.controller.LocalModelControllerClient, org.jboss.as.controller.ProcessStateNotifier): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name collectResourceMetrics (index 291), type (Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;Ljava/util/function/Function;ZLjava/util/List;Ljava/lang/String;Lorg/wildfly/extension/metrics/MetricRegistration;)V (descriptor index 292)
+Human type: (org.jboss.as.controller.registry.Resource, org.jboss.as.controller.registry.ImmutableManagementResourceRegistration, java.util.function.Function, boolean, java.util.List, java.lang.String, org.wildfly.extension.metrics.MetricRegistration): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 246
+Method attribute name Signature, size 2
+Method name collectResourceMetrics0 (index 27), type (Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;Lorg/jboss/as/controller/PathAddress;Ljava/util/function/Function;Lorg/wildfly/extension/metrics/MetricRegistration;ZLjava/util/List;Ljava/lang/String;)V (descriptor index 28)
+Human type: (org.jboss.as.controller.registry.Resource, org.jboss.as.controller.registry.ImmutableManagementResourceRegistration, org.jboss.as.controller.PathAddress, java.util.function.Function, org.wildfly.extension.metrics.MetricRegistration, boolean, java.util.List, java.lang.String): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 1114
+Method attribute name Signature, size 2
+Method name isExposingMetrics (index 57), type (Lorg/jboss/as/controller/PathAddress;ZLjava/util/List;)Z (descriptor index 58)
+Human type: (org.jboss.as.controller.PathAddress, boolean, java.util.List): boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 183
+Method attribute name Signature, size 2
+Method name getSubsystemName (index 223), type (Lorg/jboss/as/controller/PathAddress;)Ljava/lang/String; (descriptor index 224)
+Human type: (org.jboss.as.controller.PathAddress): java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 122
+Method name isCollectibleMetric (index 101), type (Lorg/jboss/as/controller/registry/AttributeAccess;)Z (descriptor index 102)
+Human type: (org.jboss.as.controller.registry.AttributeAccess): boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 152
+Method name lambda$collectResourceMetrics0$0 (index 350), type (Lorg/wildfly/extension/metrics/MetricRegistration;Lorg/wildfly/extension/metrics/WildFlyMetric;Lorg/wildfly/extension/metrics/WildFlyMetricMetadata;)V (descriptor index 351)
+Human type: (org.wildfly.extension.metrics.MetricRegistration, org.wildfly.extension.metrics.WildFlyMetric, org.wildfly.extension.metrics.WildFlyMetricMetadata): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 69
+Method name access$000 (index 352), type (Lorg/wildfly/extension/metrics/MetricCollector;)Lorg/jboss/as/controller/ProcessStateNotifier; (descriptor index 353)
+Human type: (org.wildfly.extension.metrics.MetricCollector): org.jboss.as.controller.ProcessStateNotifier
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 74

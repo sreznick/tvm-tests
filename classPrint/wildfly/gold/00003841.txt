@@ -1,0 +1,127 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 89
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/deployment/SingletonDeploymentUnitPhaseBuilder"
+11: Tag 1 Utf8 Value "support"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "policy"
+16: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/SingletonPolicy;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/SingletonPolicy"
+21: Tag 1 Utf8 Value "createSingletonServiceBuilder"
+22: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/wildfly/clustering/service/Builder;"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/wildfly/clustering/service/Builder"
+27: Tag 1 Utf8 Value "build"
+28: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+29: Tag 9 FieldRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+33: Tag 1 Utf8 Value "ACTIVE"
+34: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+35: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+39: Tag 1 Utf8 Value "setInitialMode"
+40: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)Lorg/jboss/msc/service/ServiceBuilder;"
+41: Tag 8 String Contents 42
+42: Tag 1 Utf8 Value "org.wildfly.ejb.remote"
+43: Tag 11 InterfaceMethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/jboss/as/controller/capability/CapabilityServiceSupport"
+47: Tag 1 Utf8 Value "hasCapability"
+48: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+49: Tag 11 InterfaceMethodRef Class index 44, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "getCapabilityServiceName"
+52: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+53: Tag 11 InterfaceMethodRef Class index 36, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "requires"
+56: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitPhaseBuilder"
+59: Tag 1 Utf8 Value "EJB_REMOTE_CAPABILITY"
+60: Tag 1 Utf8 Value "Ljava/lang/String;"
+61: Tag 1 Utf8 Value "ConstantValue"
+62: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/CapabilityServiceSupport;Lorg/wildfly/clustering/singleton/SingletonPolicy;)V"
+63: Tag 1 Utf8 Value "Code"
+64: Tag 1 Utf8 Value "LineNumberTable"
+65: Tag 1 Utf8 Value "LocalVariableTable"
+66: Tag 1 Utf8 Value "this"
+67: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/singleton/deployment/SingletonDeploymentUnitPhaseBuilder;"
+68: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+69: Tag 1 Utf8 Value "target"
+70: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+71: Tag 1 Utf8 Value "name"
+72: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+73: Tag 1 Utf8 Value "service"
+74: Tag 1 Utf8 Value "Lorg/jboss/msc/service/Service;"
+75: Tag 1 Utf8 Value "builder"
+76: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+77: Tag 1 Utf8 Value "LocalVariableTypeTable"
+78: Tag 1 Utf8 Value "Lorg/jboss/msc/service/Service<TT;>;"
+79: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<TT;>;"
+80: Tag 1 Utf8 Value "StackMapTable"
+81: Tag 1 Utf8 Value "Signature"
+82: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service<TT;>;)Lorg/jboss/msc/service/ServiceBuilder<TT;>;"
+83: Tag 1 Utf8 Value "SourceFile"
+84: Tag 1 Utf8 Value "SingletonDeploymentUnitPhaseBuilder.java"
+85: Tag 1 Utf8 Value "InnerClasses"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+88: Tag 1 Utf8 Value "Mode"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.clustering.singleton.deployment.SingletonDeploymentUnitPhaseBuilder
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 57
+Implements names org.jboss.as.server.deployment.DeploymentUnitPhaseBuilder
+
+Field name EJB_REMOTE_CAPABILITY (index 59), type Ljava/lang/String; (descriptor index 60)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name support (index 11), type Lorg/jboss/as/controller/capability/CapabilityServiceSupport; (descriptor index 12)
+Human type: org.jboss.as.controller.capability.CapabilityServiceSupport
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name policy (index 15), type Lorg/wildfly/clustering/singleton/SingletonPolicy; (descriptor index 16)
+Human type: org.wildfly.clustering.singleton.SingletonPolicy
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/controller/capability/CapabilityServiceSupport;Lorg/wildfly/clustering/singleton/SingletonPolicy;)V (descriptor index 62)
+Human type: (org.jboss.as.controller.capability.CapabilityServiceSupport, org.wildfly.clustering.singleton.SingletonPolicy): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name build (index 27), type (Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 68)
+Human type: (org.jboss.msc.service.ServiceTarget, org.jboss.msc.service.ServiceName, org.jboss.msc.service.Service): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 199
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

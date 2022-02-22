@@ -1,0 +1,217 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 102
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailSessionConfig"
+11: Tag 1 Utf8 Value "debug"
+12: Tag 1 Utf8 Value "Z"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "from"
+16: Tag 1 Utf8 Value "Ljava/lang/String;"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/as/mail/extension/CustomServerConfig"
+19: Tag 9 FieldRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "customServers"
+22: Tag 1 Utf8 Value "[Lorg/jboss/as/mail/extension/CustomServerConfig;"
+23: Tag 9 FieldRef Class index 8, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 16
+25: Tag 1 Utf8 Value "jndiName"
+26: Tag 9 FieldRef Class index 8, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "imapServer"
+29: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/ServerConfig;"
+30: Tag 9 FieldRef Class index 8, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 29
+32: Tag 1 Utf8 Value "pop3Server"
+33: Tag 9 FieldRef Class index 8, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 29
+35: Tag 1 Utf8 Value "smtpServer"
+36: Tag 10 MethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 41
+39: Tag 1 Utf8 Value "java/util/Arrays"
+40: Tag 1 Utf8 Value "copyOf"
+41: Tag 1 Utf8 Value "([Ljava/lang/Object;I)[Ljava/lang/Object;"
+42: Tag 7 Class Name index 22
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "java/lang/StringBuilder"
+45: Tag 10 MethodRef Class index 43, Name and type index 3
+46: Tag 8 String Contents 47
+47: Tag 1 Utf8 Value "MailSessionConfig{imapServer="
+48: Tag 10 MethodRef Class index 43, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "append"
+51: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+52: Tag 10 MethodRef Class index 43, Name and type index 53
+53: Tag 12 NameAndType Name index 50, Description index 54
+54: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+55: Tag 8 String Contents 56
+56: Tag 1 Utf8 Value ", jndiName='"
+57: Tag 10 MethodRef Class index 43, Name and type index 58
+58: Tag 12 NameAndType Name index 50, Description index 59
+59: Tag 1 Utf8 Value "(C)Ljava/lang/StringBuilder;"
+60: Tag 8 String Contents 61
+61: Tag 1 Utf8 Value ", smtpServer="
+62: Tag 8 String Contents 63
+63: Tag 1 Utf8 Value ", pop3Server="
+64: Tag 10 MethodRef Class index 43, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "toString"
+67: Tag 1 Utf8 Value "()Ljava/lang/String;"
+68: Tag 1 Utf8 Value "Code"
+69: Tag 1 Utf8 Value "LineNumberTable"
+70: Tag 1 Utf8 Value "LocalVariableTable"
+71: Tag 1 Utf8 Value "this"
+72: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/MailSessionConfig;"
+73: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+74: Tag 1 Utf8 Value "getFrom"
+75: Tag 1 Utf8 Value "setFrom"
+76: Tag 1 Utf8 Value "getJndiName"
+77: Tag 1 Utf8 Value "setJndiName"
+78: Tag 1 Utf8 Value "isDebug"
+79: Tag 1 Utf8 Value "()Z"
+80: Tag 1 Utf8 Value "setDebug"
+81: Tag 1 Utf8 Value "(Z)V"
+82: Tag 1 Utf8 Value "getImapServer"
+83: Tag 1 Utf8 Value "()Lorg/jboss/as/mail/extension/ServerConfig;"
+84: Tag 1 Utf8 Value "setImapServer"
+85: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/ServerConfig;)V"
+86: Tag 1 Utf8 Value "getPop3Server"
+87: Tag 1 Utf8 Value "setPop3Server"
+88: Tag 1 Utf8 Value "getSmtpServer"
+89: Tag 1 Utf8 Value "setSmtpServer"
+90: Tag 1 Utf8 Value "getCustomServers"
+91: Tag 1 Utf8 Value "()[Lorg/jboss/as/mail/extension/CustomServerConfig;"
+92: Tag 1 Utf8 Value "setCustomServers"
+93: Tag 1 Utf8 Value "([Lorg/jboss/as/mail/extension/CustomServerConfig;)V"
+94: Tag 1 Utf8 Value "customServer"
+95: Tag 1 Utf8 Value "addCustomServer"
+96: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/CustomServerConfig;)V"
+97: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/CustomServerConfig;"
+98: Tag 1 Utf8 Value "i"
+99: Tag 1 Utf8 Value "I"
+100: Tag 1 Utf8 Value "SourceFile"
+101: Tag 1 Utf8 Value "MailSessionConfig.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.mail.extension.MailSessionConfig
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name jndiName (index 25), type Ljava/lang/String; (descriptor index 16)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name debug (index 11), type Z (descriptor index 12)
+Human type: boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name from (index 15), type Ljava/lang/String; (descriptor index 16)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name smtpServer (index 35), type Lorg/jboss/as/mail/extension/ServerConfig; (descriptor index 29)
+Human type: org.jboss.as.mail.extension.ServerConfig
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name pop3Server (index 32), type Lorg/jboss/as/mail/extension/ServerConfig; (descriptor index 29)
+Human type: org.jboss.as.mail.extension.ServerConfig
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name imapServer (index 28), type Lorg/jboss/as/mail/extension/ServerConfig; (descriptor index 29)
+Human type: org.jboss.as.mail.extension.ServerConfig
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name customServers (index 21), type [Lorg/jboss/as/mail/extension/CustomServerConfig; (descriptor index 22)
+Human type: org.jboss.as.mail.extension.CustomServerConfig[]
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 81
+Method name <init> (index 5), type (Ljava/lang/String;)V (descriptor index 73)
+Human type: (java.lang.String): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 100
+Method name getFrom (index 74), type ()Ljava/lang/String; (descriptor index 67)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setFrom (index 75), type (Ljava/lang/String;)V (descriptor index 73)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getJndiName (index 76), type ()Ljava/lang/String; (descriptor index 67)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setJndiName (index 77), type (Ljava/lang/String;)V (descriptor index 73)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name isDebug (index 78), type ()Z (descriptor index 79)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setDebug (index 80), type (Z)V (descriptor index 81)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getImapServer (index 82), type ()Lorg/jboss/as/mail/extension/ServerConfig; (descriptor index 83)
+Human type: (): org.jboss.as.mail.extension.ServerConfig
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setImapServer (index 84), type (Lorg/jboss/as/mail/extension/ServerConfig;)V (descriptor index 85)
+Human type: (org.jboss.as.mail.extension.ServerConfig): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getPop3Server (index 86), type ()Lorg/jboss/as/mail/extension/ServerConfig; (descriptor index 83)
+Human type: (): org.jboss.as.mail.extension.ServerConfig
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setPop3Server (index 87), type (Lorg/jboss/as/mail/extension/ServerConfig;)V (descriptor index 85)
+Human type: (org.jboss.as.mail.extension.ServerConfig): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getSmtpServer (index 88), type ()Lorg/jboss/as/mail/extension/ServerConfig; (descriptor index 83)
+Human type: (): org.jboss.as.mail.extension.ServerConfig
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setSmtpServer (index 89), type (Lorg/jboss/as/mail/extension/ServerConfig;)V (descriptor index 85)
+Human type: (org.jboss.as.mail.extension.ServerConfig): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getCustomServers (index 90), type ()[Lorg/jboss/as/mail/extension/CustomServerConfig; (descriptor index 91)
+Human type: (): org.jboss.as.mail.extension.CustomServerConfig[]
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setCustomServers (index 92), type ([Lorg/jboss/as/mail/extension/CustomServerConfig;)V (descriptor index 93)
+Human type: (org.jboss.as.mail.extension.CustomServerConfig[]): void
+Flags: decimal 129, hex 0081, binary 0000000010000001 public varargs
+Method attribute name Code, size 62
+Method name addCustomServer (index 95), type (Lorg/jboss/as/mail/extension/CustomServerConfig;)V (descriptor index 96)
+Human type: (org.jboss.as.mail.extension.CustomServerConfig): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 105
+Method name toString (index 66), type ()Ljava/lang/String; (descriptor index 67)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 111
+
+Class attribute name SourceFile, size 2

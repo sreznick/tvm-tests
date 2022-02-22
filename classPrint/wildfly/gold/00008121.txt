@@ -1,0 +1,111 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 74
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+11: Tag 1 Utf8 Value "getDeploymentUnit"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/ee/structure/DeploymentType"
+17: Tag 1 Utf8 Value "EAR"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/ee/structure/DeploymentType;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/ee/structure/DeploymentTypeMarker"
+23: Tag 1 Utf8 Value "isType"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/structure/DeploymentType;Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+29: Tag 1 Utf8 Value "MODULE_SPECIFICATION"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+35: Tag 1 Utf8 Value "getAttachment"
+36: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ModuleSpecification"
+39: Tag 9 FieldRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "org/jboss/as/ee/component/deployers/DefaultEarSubDeploymentsIsolationProcessor"
+43: Tag 1 Utf8 Value "earSubDeploymentsIsolated"
+44: Tag 1 Utf8 Value "Z"
+45: Tag 10 MethodRef Class index 37, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "setSubDeploymentModulesIsolated"
+48: Tag 1 Utf8 Value "(Z)V"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+51: Tag 1 Utf8 Value "Code"
+52: Tag 1 Utf8 Value "LineNumberTable"
+53: Tag 1 Utf8 Value "LocalVariableTable"
+54: Tag 1 Utf8 Value "this"
+55: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/deployers/DefaultEarSubDeploymentsIsolationProcessor;"
+56: Tag 1 Utf8 Value "deploy"
+57: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+58: Tag 1 Utf8 Value "phaseContext"
+59: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+60: Tag 1 Utf8 Value "deploymentUnit"
+61: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+62: Tag 1 Utf8 Value "moduleSpecification"
+63: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/module/ModuleSpecification;"
+64: Tag 1 Utf8 Value "StackMapTable"
+65: Tag 1 Utf8 Value "Exceptions"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+68: Tag 1 Utf8 Value "undeploy"
+69: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+70: Tag 1 Utf8 Value "context"
+71: Tag 1 Utf8 Value "setEarSubDeploymentsIsolated"
+72: Tag 1 Utf8 Value "SourceFile"
+73: Tag 1 Utf8 Value "DefaultEarSubDeploymentsIsolationProcessor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 40, name org.jboss.as.ee.component.deployers.DefaultEarSubDeploymentsIsolationProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 49
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name earSubDeploymentsIsolated (index 43), type Z (descriptor index 44)
+Human type: boolean
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method name deploy (index 56), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 57)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 146
+Method attribute name Exceptions, size 4
+Method name undeploy (index 68), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 69)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name setEarSubDeploymentsIsolated (index 71), type (Z)V (descriptor index 48)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+
+Class attribute name SourceFile, size 2

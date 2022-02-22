@@ -1,0 +1,132 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 80
+1: Tag 11 InterfaceMethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata"
+5: Tag 1 Utf8 Value "getMeasurementUnit"
+6: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+7: Tag 11 InterfaceMethodRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "baseMetricUnit"
+10: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/client/helpers/MeasurementUnit;)Ljava/lang/String;"
+11: Tag 8 String Contents 12
+12: Tag 1 Utf8 Value "none"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata$1"
+17: Tag 1 Utf8 Value "$SwitchMap$org$jboss$as$controller$client$helpers$MeasurementUnit"
+18: Tag 1 Utf8 Value "[I"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 6
+22: Tag 1 Utf8 Value "org/jboss/as/controller/client/helpers/MeasurementUnit"
+23: Tag 1 Utf8 Value "getBaseUnits"
+24: Tag 10 MethodRef Class index 20, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 27
+26: Tag 1 Utf8 Value "ordinal"
+27: Tag 1 Utf8 Value "()I"
+28: Tag 8 String Contents 29
+29: Tag 1 Utf8 Value "percent"
+30: Tag 8 String Contents 31
+31: Tag 1 Utf8 Value "bytes"
+32: Tag 8 String Contents 33
+33: Tag 1 Utf8 Value "bits"
+34: Tag 8 String Contents 35
+35: Tag 1 Utf8 Value "seconds"
+36: Tag 8 String Contents 37
+37: Tag 1 Utf8 Value "jiffys"
+38: Tag 8 String Contents 39
+39: Tag 1 Utf8 Value "per-jiffy"
+40: Tag 8 String Contents 41
+41: Tag 1 Utf8 Value "per_second"
+42: Tag 8 String Contents 43
+43: Tag 1 Utf8 Value "degree_celsius"
+44: Tag 8 String Contents 45
+45: Tag 1 Utf8 Value "kelvin"
+46: Tag 8 String Contents 47
+47: Tag 1 Utf8 Value "degree_fahrenheit"
+48: Tag 7 Class Name index 49
+49: Tag 1 Utf8 Value "java/lang/Object"
+50: Tag 1 Utf8 Value "NONE"
+51: Tag 1 Utf8 Value "Ljava/lang/String;"
+52: Tag 1 Utf8 Value "ConstantValue"
+53: Tag 1 Utf8 Value "getMetricName"
+54: Tag 1 Utf8 Value "()Ljava/lang/String;"
+55: Tag 1 Utf8 Value "getTags"
+56: Tag 1 Utf8 Value "()[Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag;"
+57: Tag 1 Utf8 Value "getDescription"
+58: Tag 1 Utf8 Value "getType"
+59: Tag 1 Utf8 Value "()Lorg/wildfly/extension/metrics/MetricMetadata$Type;"
+60: Tag 1 Utf8 Value "getMetricID"
+61: Tag 1 Utf8 Value "()Lorg/wildfly/extension/metrics/MetricID;"
+62: Tag 1 Utf8 Value "getBaseMetricUnit"
+63: Tag 1 Utf8 Value "Code"
+64: Tag 1 Utf8 Value "LineNumberTable"
+65: Tag 1 Utf8 Value "LocalVariableTable"
+66: Tag 1 Utf8 Value "this"
+67: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricMetadata;"
+68: Tag 1 Utf8 Value "unit"
+69: Tag 1 Utf8 Value "Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+70: Tag 1 Utf8 Value "StackMapTable"
+71: Tag 1 Utf8 Value "SourceFile"
+72: Tag 1 Utf8 Value "MetricMetadata.java"
+73: Tag 1 Utf8 Value "InnerClasses"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata$MetricTag"
+76: Tag 1 Utf8 Value "MetricTag"
+77: Tag 7 Class Name index 78
+78: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata$Type"
+79: Tag 1 Utf8 Value "Type"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 2, name org.wildfly.extension.metrics.MetricMetadata
+
+Super class: id 48, name java.lang.Object
+
+No interfaces
+
+Field name NONE (index 50), type Ljava/lang/String; (descriptor index 51)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+
+Method name getMetricName (index 53), type ()Ljava/lang/String; (descriptor index 54)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getTags (index 55), type ()[Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag; (descriptor index 56)
+Human type: (): org.wildfly.extension.metrics.MetricMetadata$MetricTag[]
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getDescription (index 57), type ()Ljava/lang/String; (descriptor index 54)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getMeasurementUnit (index 5), type ()Lorg/jboss/as/controller/client/helpers/MeasurementUnit; (descriptor index 6)
+Human type: (): org.jboss.as.controller.client.helpers.MeasurementUnit
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getType (index 58), type ()Lorg/wildfly/extension/metrics/MetricMetadata$Type; (descriptor index 59)
+Human type: (): org.wildfly.extension.metrics.MetricMetadata$Type
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getMetricID (index 60), type ()Lorg/wildfly/extension/metrics/MetricID; (descriptor index 61)
+Human type: (): org.wildfly.extension.metrics.MetricID
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getBaseMetricUnit (index 62), type ()Ljava/lang/String; (descriptor index 54)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name baseMetricUnit (index 9), type (Lorg/jboss/as/controller/client/helpers/MeasurementUnit;)Ljava/lang/String; (descriptor index 10)
+Human type: (org.jboss.as.controller.client.helpers.MeasurementUnit): java.lang.String
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 321
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

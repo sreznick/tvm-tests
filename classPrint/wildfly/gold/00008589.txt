@@ -1,0 +1,352 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 325
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 8 String Contents 8
+8: Tag 1 Utf8 Value "subsystem"
+9: Tag 8 String Contents 10
+10: Tag 1 Utf8 Value "microprofile-opentracing-smallrye"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+15: Tag 1 Utf8 Value "pathAddress"
+16: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/PathAddress;"
+17: Tag 8 String Contents 18
+18: Tag 1 Utf8 Value "jaeger-tracer"
+19: Tag 8 String Contents 20
+20: Tag 1 Utf8 Value "jaeger"
+21: Tag 10 MethodRef Class index 12, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 16
+23: Tag 1 Utf8 Value "append"
+24: Tag 10 MethodRef Class index 12, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 27
+26: Tag 1 Utf8 Value "toModelNode"
+27: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+28: Tag 10 MethodRef Class index 29, Name and type index 30
+29: Tag 7 Class Name index 31
+30: Tag 12 NameAndType Name index 32, Description index 33
+31: Tag 1 Utf8 Value "org/jboss/as/controller/client/helpers/Operations"
+32: Tag 1 Utf8 Value "createAddOperation"
+33: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+34: Tag 8 String Contents 35
+35: Tag 1 Utf8 Value "propagation"
+36: Tag 10 MethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 41
+39: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+40: Tag 1 Utf8 Value "get"
+41: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+42: Tag 8 String Contents 43
+43: Tag 1 Utf8 Value "B3"
+44: Tag 10 MethodRef Class index 37, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 41
+46: Tag 1 Utf8 Value "add"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "org/jboss/dmr/ValueExpression"
+49: Tag 8 String Contents 50
+50: Tag 1 Utf8 Value "${jaeger.propagation:JAEGER}"
+51: Tag 10 MethodRef Class index 47, Name and type index 52
+52: Tag 12 NameAndType Name index 5, Description index 53
+53: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+54: Tag 10 MethodRef Class index 37, Name and type index 55
+55: Tag 12 NameAndType Name index 46, Description index 56
+56: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ValueExpression;)Lorg/jboss/dmr/ModelNode;"
+57: Tag 8 String Contents 58
+58: Tag 1 Utf8 Value "sampler-type"
+59: Tag 8 String Contents 60
+60: Tag 1 Utf8 Value "${jaeger.sampler.type:const}"
+61: Tag 10 MethodRef Class index 37, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 56
+63: Tag 1 Utf8 Value "set"
+64: Tag 8 String Contents 65
+65: Tag 1 Utf8 Value "sampler-param"
+66: Tag 8 String Contents 67
+67: Tag 1 Utf8 Value "${jaeger.sampler-param:0.8}"
+68: Tag 8 String Contents 69
+69: Tag 1 Utf8 Value "sampler-manager-host-port"
+70: Tag 8 String Contents 71
+71: Tag 1 Utf8 Value "${jaeger.sampler-manager-host-port:localhost:4321}"
+72: Tag 8 String Contents 73
+73: Tag 1 Utf8 Value "sender-endpoint"
+74: Tag 8 String Contents 75
+75: Tag 1 Utf8 Value "${jaeger.sender.endpoint:http://localhost:14268/api/traces}"
+76: Tag 8 String Contents 77
+77: Tag 1 Utf8 Value "sender-auth-token"
+78: Tag 8 String Contents 79
+79: Tag 1 Utf8 Value "${jaeger.sender.auth-token:myAuthToken}"
+80: Tag 8 String Contents 81
+81: Tag 1 Utf8 Value "sender-auth-user"
+82: Tag 8 String Contents 83
+83: Tag 1 Utf8 Value "${jaeger.sender.user:sender}"
+84: Tag 8 String Contents 85
+85: Tag 1 Utf8 Value "sender-auth-password"
+86: Tag 8 String Contents 87
+87: Tag 1 Utf8 Value "${jaeger.sender.password:senderPassword}"
+88: Tag 8 String Contents 89
+89: Tag 1 Utf8 Value "reporter-log-spans"
+90: Tag 8 String Contents 91
+91: Tag 1 Utf8 Value "${jaeger.reporter.log-spans:false}"
+92: Tag 8 String Contents 93
+93: Tag 1 Utf8 Value "reporter-flush-interval"
+94: Tag 8 String Contents 95
+95: Tag 1 Utf8 Value "${jaeger.reporter.flush-interval:5}"
+96: Tag 8 String Contents 97
+97: Tag 1 Utf8 Value "reporter-max-queue-size"
+98: Tag 8 String Contents 99
+99: Tag 1 Utf8 Value "${jaeger.reporter.max-queue-size:10}"
+100: Tag 8 String Contents 101
+101: Tag 1 Utf8 Value "tracer_id_128bit"
+102: Tag 8 String Contents 103
+103: Tag 1 Utf8 Value "${jaeger.tracer_id_128bit:true}"
+104: Tag 8 String Contents 105
+105: Tag 1 Utf8 Value "tags"
+106: Tag 8 String Contents 107
+107: Tag 1 Utf8 Value "test"
+108: Tag 8 String Contents 109
+109: Tag 1 Utf8 Value "${jaeger.reporter.max-queue-sizesimple}"
+110: Tag 10 MethodRef Class index 37, Name and type index 111
+111: Tag 12 NameAndType Name index 46, Description index 112
+112: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+113: Tag 7 Class Name index 114
+114: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/resolver/JaegerTracerConfiguration"
+115: Tag 9 FieldRef Class index 116, Name and type index 117
+116: Tag 7 Class Name index 118
+117: Tag 12 NameAndType Name index 119, Description index 120
+118: Tag 1 Utf8 Value "org/jboss/as/controller/ExpressionResolver"
+119: Tag 1 Utf8 Value "TEST_RESOLVER"
+120: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ExpressionResolver;"
+121: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 122
+122: Tag 12 NameAndType Name index 40, Description index 123
+123: Tag 1 Utf8 Value "()Ljava/util/function/Supplier;"
+124: Tag 10 MethodRef Class index 113, Name and type index 125
+125: Tag 12 NameAndType Name index 5, Description index 126
+126: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExpressionResolver;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Ljava/util/function/Supplier;)V"
+127: Tag 8 String Contents 128
+128: Tag 1 Utf8 Value "myApplication.war"
+129: Tag 10 MethodRef Class index 113, Name and type index 130
+130: Tag 12 NameAndType Name index 131, Description index 132
+131: Tag 1 Utf8 Value "createConfiguration"
+132: Tag 1 Utf8 Value "(Ljava/lang/String;)Lio/jaegertracing/Configuration;"
+133: Tag 5 Long Value 2
+135: Tag 10 MethodRef Class index 136, Name and type index 137
+136: Tag 7 Class Name index 138
+137: Tag 12 NameAndType Name index 139, Description index 140
+138: Tag 1 Utf8 Value "io/jaegertracing/Configuration"
+139: Tag 1 Utf8 Value "getCodec"
+140: Tag 1 Utf8 Value "()Lio/jaegertracing/Configuration$CodecConfiguration;"
+141: Tag 10 MethodRef Class index 142, Name and type index 143
+142: Tag 7 Class Name index 144
+143: Tag 12 NameAndType Name index 145, Description index 146
+144: Tag 1 Utf8 Value "io/jaegertracing/Configuration$CodecConfiguration"
+145: Tag 1 Utf8 Value "getCodecs"
+146: Tag 1 Utf8 Value "()Ljava/util/Map;"
+147: Tag 11 InterfaceMethodRef Class index 148, Name and type index 149
+148: Tag 7 Class Name index 150
+149: Tag 12 NameAndType Name index 151, Description index 152
+150: Tag 1 Utf8 Value "java/util/Map"
+151: Tag 1 Utf8 Value "size"
+152: Tag 1 Utf8 Value "()I"
+153: Tag 10 MethodRef Class index 154, Name and type index 155
+154: Tag 7 Class Name index 156
+155: Tag 12 NameAndType Name index 157, Description index 158
+156: Tag 1 Utf8 Value "org/junit/Assert"
+157: Tag 1 Utf8 Value "assertEquals"
+158: Tag 1 Utf8 Value "(JJ)V"
+159: Tag 10 MethodRef Class index 142, Name and type index 160
+160: Tag 12 NameAndType Name index 161, Description index 146
+161: Tag 1 Utf8 Value "getBinaryCodecs"
+162: Tag 9 FieldRef Class index 163, Name and type index 164
+163: Tag 7 Class Name index 165
+164: Tag 12 NameAndType Name index 166, Description index 167
+165: Tag 1 Utf8 Value "io/opentracing/propagation/Format$Builtin"
+166: Tag 1 Utf8 Value "HTTP_HEADERS"
+167: Tag 1 Utf8 Value "Lio/opentracing/propagation/Format;"
+168: Tag 11 InterfaceMethodRef Class index 148, Name and type index 169
+169: Tag 12 NameAndType Name index 40, Description index 170
+170: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+171: Tag 7 Class Name index 172
+172: Tag 1 Utf8 Value "java/util/List"
+173: Tag 11 InterfaceMethodRef Class index 171, Name and type index 149
+174: Tag 9 FieldRef Class index 163, Name and type index 175
+175: Tag 12 NameAndType Name index 176, Description index 167
+176: Tag 1 Utf8 Value "TEXT_MAP"
+177: Tag 9 FieldRef Class index 163, Name and type index 178
+178: Tag 12 NameAndType Name index 179, Description index 167
+179: Tag 1 Utf8 Value "BINARY"
+180: Tag 8 String Contents 181
+181: Tag 1 Utf8 Value "const"
+182: Tag 10 MethodRef Class index 136, Name and type index 183
+183: Tag 12 NameAndType Name index 184, Description index 185
+184: Tag 1 Utf8 Value "getSampler"
+185: Tag 1 Utf8 Value "()Lio/jaegertracing/Configuration$SamplerConfiguration;"
+186: Tag 10 MethodRef Class index 187, Name and type index 188
+187: Tag 7 Class Name index 189
+188: Tag 12 NameAndType Name index 190, Description index 191
+189: Tag 1 Utf8 Value "io/jaegertracing/Configuration$SamplerConfiguration"
+190: Tag 1 Utf8 Value "getType"
+191: Tag 1 Utf8 Value "()Ljava/lang/String;"
+192: Tag 10 MethodRef Class index 154, Name and type index 193
+193: Tag 12 NameAndType Name index 157, Description index 194
+194: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+195: Tag 6 Double Bits 00111111111010011001100110011001100110011001100110011001100110100000000, hex: 0x3fe999999999999a
+197: Tag 10 MethodRef Class index 187, Name and type index 198
+198: Tag 12 NameAndType Name index 199, Description index 200
+199: Tag 1 Utf8 Value "getParam"
+200: Tag 1 Utf8 Value "()Ljava/lang/Number;"
+201: Tag 10 MethodRef Class index 202, Name and type index 203
+202: Tag 7 Class Name index 204
+203: Tag 12 NameAndType Name index 205, Description index 206
+204: Tag 1 Utf8 Value "java/lang/Number"
+205: Tag 1 Utf8 Value "doubleValue"
+206: Tag 1 Utf8 Value "()D"
+207: Tag 6 Double Bits 00111111100001000111101011100001010001111010111000010100011110110000000, hex: 0x3f847ae147ae147b
+209: Tag 10 MethodRef Class index 154, Name and type index 210
+210: Tag 12 NameAndType Name index 157, Description index 211
+211: Tag 1 Utf8 Value "(DDD)V"
+212: Tag 8 String Contents 213
+213: Tag 1 Utf8 Value "localhost:4321"
+214: Tag 10 MethodRef Class index 187, Name and type index 215
+215: Tag 12 NameAndType Name index 216, Description index 191
+216: Tag 1 Utf8 Value "getManagerHostPort"
+217: Tag 8 String Contents 218
+218: Tag 1 Utf8 Value "http://localhost:14268/api/traces"
+219: Tag 10 MethodRef Class index 136, Name and type index 220
+220: Tag 12 NameAndType Name index 221, Description index 222
+221: Tag 1 Utf8 Value "getReporter"
+222: Tag 1 Utf8 Value "()Lio/jaegertracing/Configuration$ReporterConfiguration;"
+223: Tag 10 MethodRef Class index 224, Name and type index 225
+224: Tag 7 Class Name index 226
+225: Tag 12 NameAndType Name index 227, Description index 228
+226: Tag 1 Utf8 Value "io/jaegertracing/Configuration$ReporterConfiguration"
+227: Tag 1 Utf8 Value "getSenderConfiguration"
+228: Tag 1 Utf8 Value "()Lio/jaegertracing/Configuration$SenderConfiguration;"
+229: Tag 10 MethodRef Class index 230, Name and type index 231
+230: Tag 7 Class Name index 232
+231: Tag 12 NameAndType Name index 233, Description index 191
+232: Tag 1 Utf8 Value "io/jaegertracing/Configuration$SenderConfiguration"
+233: Tag 1 Utf8 Value "getEndpoint"
+234: Tag 8 String Contents 235
+235: Tag 1 Utf8 Value "myAuthToken"
+236: Tag 10 MethodRef Class index 230, Name and type index 237
+237: Tag 12 NameAndType Name index 238, Description index 191
+238: Tag 1 Utf8 Value "getAuthToken"
+239: Tag 8 String Contents 240
+240: Tag 1 Utf8 Value "sender"
+241: Tag 10 MethodRef Class index 230, Name and type index 242
+242: Tag 12 NameAndType Name index 243, Description index 191
+243: Tag 1 Utf8 Value "getAuthUsername"
+244: Tag 8 String Contents 245
+245: Tag 1 Utf8 Value "senderPassword"
+246: Tag 10 MethodRef Class index 230, Name and type index 247
+247: Tag 12 NameAndType Name index 248, Description index 191
+248: Tag 1 Utf8 Value "getAuthPassword"
+249: Tag 10 MethodRef Class index 250, Name and type index 251
+250: Tag 7 Class Name index 252
+251: Tag 12 NameAndType Name index 253, Description index 254
+252: Tag 1 Utf8 Value "java/lang/Boolean"
+253: Tag 1 Utf8 Value "valueOf"
+254: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+255: Tag 10 MethodRef Class index 224, Name and type index 256
+256: Tag 12 NameAndType Name index 257, Description index 258
+257: Tag 1 Utf8 Value "getLogSpans"
+258: Tag 1 Utf8 Value "()Ljava/lang/Boolean;"
+259: Tag 5 Long Value 5
+261: Tag 10 MethodRef Class index 224, Name and type index 262
+262: Tag 12 NameAndType Name index 263, Description index 264
+263: Tag 1 Utf8 Value "getFlushIntervalMs"
+264: Tag 1 Utf8 Value "()Ljava/lang/Integer;"
+265: Tag 10 MethodRef Class index 266, Name and type index 267
+266: Tag 7 Class Name index 268
+267: Tag 12 NameAndType Name index 269, Description index 152
+268: Tag 1 Utf8 Value "java/lang/Integer"
+269: Tag 1 Utf8 Value "intValue"
+270: Tag 5 Long Value 10
+272: Tag 10 MethodRef Class index 224, Name and type index 273
+273: Tag 12 NameAndType Name index 274, Description index 264
+274: Tag 1 Utf8 Value "getMaxQueueSize"
+275: Tag 7 Class Name index 276
+276: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/resolver/JaegerTracerConfigurationTest"
+277: Tag 1 Utf8 Value "Code"
+278: Tag 1 Utf8 Value "LineNumberTable"
+279: Tag 1 Utf8 Value "LocalVariableTable"
+280: Tag 1 Utf8 Value "this"
+281: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/resolver/JaegerTracerConfigurationTest;"
+282: Tag 1 Utf8 Value "testModelResolution"
+283: Tag 1 Utf8 Value "operation"
+284: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+285: Tag 1 Utf8 Value "tracerConfiguration"
+286: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/resolver/JaegerTracerConfiguration;"
+287: Tag 1 Utf8 Value "config"
+288: Tag 1 Utf8 Value "Lio/jaegertracing/Configuration;"
+289: Tag 1 Utf8 Value "Exceptions"
+290: Tag 7 Class Name index 291
+291: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+292: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+293: Tag 1 Utf8 Value "Lorg/junit/Test;"
+294: Tag 1 Utf8 Value "lambda$testModelResolution$0"
+295: Tag 1 Utf8 Value "()Lorg/jboss/as/network/OutboundSocketBinding;"
+296: Tag 1 Utf8 Value "SourceFile"
+297: Tag 1 Utf8 Value "JaegerTracerConfigurationTest.java"
+298: Tag 1 Utf8 Value "BootstrapMethods"
+299: Tag 15 MethodHandle Kind 6, Index 300
+300: Tag 10 MethodRef Class index 301, Name and type index 302
+301: Tag 7 Class Name index 303
+302: Tag 12 NameAndType Name index 304, Description index 305
+303: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+304: Tag 1 Utf8 Value "metafactory"
+305: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+306: Tag 16 MethodType Descriptor index 307
+307: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+308: Tag 15 MethodHandle Kind 6, Index 309
+309: Tag 10 MethodRef Class index 275, Name and type index 310
+310: Tag 12 NameAndType Name index 294, Description index 295
+311: Tag 16 MethodType Descriptor index 295
+312: Tag 1 Utf8 Value "InnerClasses"
+313: Tag 1 Utf8 Value "CodecConfiguration"
+314: Tag 7 Class Name index 315
+315: Tag 1 Utf8 Value "io/opentracing/propagation/Format"
+316: Tag 1 Utf8 Value "Builtin"
+317: Tag 1 Utf8 Value "SamplerConfiguration"
+318: Tag 1 Utf8 Value "ReporterConfiguration"
+319: Tag 1 Utf8 Value "SenderConfiguration"
+320: Tag 7 Class Name index 321
+321: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+322: Tag 7 Class Name index 323
+323: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+324: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 275, name org.wildfly.extension.microprofile.opentracing.resolver.JaegerTracerConfigurationTest
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name testModelResolution (index 282), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 782
+Method attribute name Exceptions, size 4
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name lambda$testModelResolution$0 (index 294), type ()Lorg/jboss/as/network/OutboundSocketBinding; (descriptor index 295)
+Human type: (): org.jboss.as.network.OutboundSocketBinding
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 26
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 50

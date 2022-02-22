@@ -1,0 +1,126 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 78
+1: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 2
+2: Tag 12 NameAndType Name index 3, Description index 4
+3: Tag 1 Utf8 Value "apply"
+4: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/RegistrationContext;)Ljava/util/function/Function;"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/DecoratingResourceRegistration"
+9: Tag 1 Utf8 Value "<init>"
+10: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;Ljava/util/function/Function;)V"
+11: Tag 9 FieldRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ContextualResourceRegistration"
+15: Tag 1 Utf8 Value "context"
+16: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/RegistrationContext;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/RegistrationContext"
+21: Tag 1 Utf8 Value "isRuntimeOnlyRegistrationValid"
+22: Tag 1 Utf8 Value "()Z"
+23: Tag 11 InterfaceMethodRef Class index 18, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "getPathManager"
+26: Tag 1 Utf8 Value "()Ljava/util/Optional;"
+27: Tag 10 MethodRef Class index 6, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "registerOverrideModel"
+30: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/descriptions/OverrideDescriptionProvider;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ManagementResourceRegistration"
+33: Tag 10 MethodRef Class index 6, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "registerSubModel"
+36: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ResourceDefinition;)Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+37: Tag 10 MethodRef Class index 12, Name and type index 38
+38: Tag 12 NameAndType Name index 9, Description index 39
+39: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;Lorg/jboss/as/clustering/controller/RegistrationContext;)V"
+40: Tag 1 Utf8 Value "Code"
+41: Tag 1 Utf8 Value "LineNumberTable"
+42: Tag 1 Utf8 Value "LocalVariableTable"
+43: Tag 1 Utf8 Value "this"
+44: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/ContextualResourceRegistration;"
+45: Tag 1 Utf8 Value "registration"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+47: Tag 1 Utf8 Value "Signature"
+48: Tag 1 Utf8 Value "()Ljava/util/Optional<Lorg/jboss/as/controller/services/path/PathManager;>;"
+49: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/descriptions/OverrideDescriptionProvider;)Lorg/jboss/as/clustering/controller/ManagementResourceRegistration;"
+50: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ResourceDefinition;)Lorg/jboss/as/clustering/controller/ManagementResourceRegistration;"
+51: Tag 1 Utf8 Value "lambda$new$0"
+52: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/RegistrationContext;Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)Lorg/jboss/as/clustering/controller/ManagementResourceRegistration;"
+53: Tag 1 Utf8 Value "r"
+54: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/DecoratingResourceRegistration<Lorg/jboss/as/clustering/controller/ManagementResourceRegistration;>;Lorg/jboss/as/clustering/controller/ManagementResourceRegistration;"
+55: Tag 1 Utf8 Value "SourceFile"
+56: Tag 1 Utf8 Value "ContextualResourceRegistration.java"
+57: Tag 1 Utf8 Value "BootstrapMethods"
+58: Tag 15 MethodHandle Kind 6, Index 59
+59: Tag 10 MethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+63: Tag 1 Utf8 Value "metafactory"
+64: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+65: Tag 16 MethodType Descriptor index 66
+66: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+67: Tag 15 MethodHandle Kind 6, Index 68
+68: Tag 10 MethodRef Class index 12, Name and type index 69
+69: Tag 12 NameAndType Name index 51, Description index 52
+70: Tag 16 MethodType Descriptor index 71
+71: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)Lorg/jboss/as/clustering/controller/ManagementResourceRegistration;"
+72: Tag 1 Utf8 Value "InnerClasses"
+73: Tag 7 Class Name index 74
+74: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+75: Tag 7 Class Name index 76
+76: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+77: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 12, name org.jboss.as.clustering.controller.ContextualResourceRegistration
+
+Super class: id 6, name org.jboss.as.clustering.controller.DecoratingResourceRegistration
+
+Implements class ids 31
+Implements names org.jboss.as.clustering.controller.ManagementResourceRegistration
+
+Field name context (index 15), type Lorg/jboss/as/clustering/controller/RegistrationContext; (descriptor index 16)
+Human type: org.jboss.as.clustering.controller.RegistrationContext
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 9), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;Lorg/jboss/as/clustering/controller/RegistrationContext;)V (descriptor index 39)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration, org.jboss.as.clustering.controller.RegistrationContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 87
+Method name isRuntimeOnlyRegistrationValid (index 21), type ()Z (descriptor index 22)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getPathManager (index 25), type ()Ljava/util/Optional; (descriptor index 26)
+Human type: (): java.util.Optional
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Signature, size 2
+Method name registerOverrideModel (index 29), type (Ljava/lang/String;Lorg/jboss/as/controller/descriptions/OverrideDescriptionProvider;)Lorg/jboss/as/clustering/controller/ManagementResourceRegistration; (descriptor index 49)
+Human type: (java.lang.String, org.jboss.as.controller.descriptions.OverrideDescriptionProvider): org.jboss.as.clustering.controller.ManagementResourceRegistration
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method name registerSubModel (index 35), type (Lorg/jboss/as/controller/ResourceDefinition;)Lorg/jboss/as/clustering/controller/ManagementResourceRegistration; (descriptor index 50)
+Human type: (org.jboss.as.controller.ResourceDefinition): org.jboss.as.clustering.controller.ManagementResourceRegistration
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+Method name lambda$new$0 (index 51), type (Lorg/jboss/as/clustering/controller/RegistrationContext;Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)Lorg/jboss/as/clustering/controller/ManagementResourceRegistration; (descriptor index 52)
+Human type: (org.jboss.as.clustering.controller.RegistrationContext, org.jboss.as.controller.registry.ManagementResourceRegistration): org.jboss.as.clustering.controller.ManagementResourceRegistration
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 62
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 10

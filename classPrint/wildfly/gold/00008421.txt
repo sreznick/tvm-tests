@@ -1,0 +1,127 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 96
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/web/WriteDefaultWebModule$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/web/WriteDefaultWebModule;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+17: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+23: Tag 1 Utf8 Value "readResource"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/registry/Resource;"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+29: Tag 1 Utf8 Value "getModel"
+30: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/as/web/Constants"
+33: Tag 8 String Contents 34
+34: Tag 1 Utf8 Value "default-web-module"
+35: Tag 10 MethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+39: Tag 1 Utf8 Value "hasDefined"
+40: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+41: Tag 8 String Contents 42
+42: Tag 1 Utf8 Value "enable-welcome-root"
+43: Tag 10 MethodRef Class index 36, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "get"
+46: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+47: Tag 10 MethodRef Class index 36, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "toString"
+50: Tag 1 Utf8 Value "()Ljava/lang/String;"
+51: Tag 10 MethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 40
+54: Tag 1 Utf8 Value "java/lang/Boolean"
+55: Tag 1 Utf8 Value "parseBoolean"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+58: Tag 9 FieldRef Class index 59, Name and type index 60
+59: Tag 7 Class Name index 61
+60: Tag 12 NameAndType Name index 62, Description index 63
+61: Tag 1 Utf8 Value "org/jboss/as/web/WebMessages"
+62: Tag 1 Utf8 Value "MESSAGES"
+63: Tag 1 Utf8 Value "Lorg/jboss/as/web/WebMessages;"
+64: Tag 11 InterfaceMethodRef Class index 59, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 50
+66: Tag 1 Utf8 Value "noWelcomeWebappWithDefaultWebModule"
+67: Tag 10 MethodRef Class index 56, Name and type index 68
+68: Tag 12 NameAndType Name index 11, Description index 69
+69: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+70: Tag 7 Class Name index 71
+71: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+72: Tag 1 Utf8 Value "(Lorg/jboss/as/web/WriteDefaultWebModule;)V"
+73: Tag 1 Utf8 Value "Code"
+74: Tag 1 Utf8 Value "LineNumberTable"
+75: Tag 1 Utf8 Value "LocalVariableTable"
+76: Tag 1 Utf8 Value "this"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/web/WriteDefaultWebModule$1;"
+78: Tag 1 Utf8 Value "execute"
+79: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+80: Tag 1 Utf8 Value "context"
+81: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+82: Tag 1 Utf8 Value "operation"
+83: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+84: Tag 1 Utf8 Value "virtualHost"
+85: Tag 1 Utf8 Value "StackMapTable"
+86: Tag 1 Utf8 Value "Exceptions"
+87: Tag 1 Utf8 Value "SourceFile"
+88: Tag 1 Utf8 Value "WriteDefaultWebModule.java"
+89: Tag 1 Utf8 Value "EnclosingMethod"
+90: Tag 7 Class Name index 91
+91: Tag 1 Utf8 Value "org/jboss/as/web/WriteDefaultWebModule"
+92: Tag 12 NameAndType Name index 93, Description index 94
+93: Tag 1 Utf8 Value "validateUpdatedModel"
+94: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/registry/Resource;)V"
+95: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.web.WriteDefaultWebModule$1
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 70
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name this$0 (index 5), type Lorg/jboss/as/web/WriteDefaultWebModule; (descriptor index 6)
+Human type: org.jboss.as.web.WriteDefaultWebModule
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 11), type (Lorg/jboss/as/web/WriteDefaultWebModule;)V (descriptor index 72)
+Human type: (org.jboss.as.web.WriteDefaultWebModule): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 62
+Method name execute (index 78), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 79)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 163
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

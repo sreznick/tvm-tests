@@ -1,0 +1,267 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 174
+1: Tag 10 MethodRef Class index 39, Name and type index 106
+2: Tag 7 Class Name index 107
+3: Tag 9 FieldRef Class index 2, Name and type index 108
+4: Tag 9 FieldRef Class index 2, Name and type index 109
+5: Tag 10 MethodRef Class index 110, Name and type index 111
+6: Tag 10 MethodRef Class index 2, Name and type index 112
+7: Tag 10 MethodRef Class index 110, Name and type index 113
+8: Tag 10 MethodRef Class index 2, Name and type index 114
+9: Tag 7 Class Name index 115
+10: Tag 10 MethodRef Class index 2, Name and type index 116
+11: Tag 7 Class Name index 117
+12: Tag 11 InterfaceMethodRef Class index 11, Name and type index 118
+13: Tag 7 Class Name index 119
+14: Tag 7 Class Name index 120
+15: Tag 10 MethodRef Class index 14, Name and type index 121
+16: Tag 7 Class Name index 122
+17: Tag 10 MethodRef Class index 16, Name and type index 123
+18: Tag 7 Class Name index 124
+19: Tag 7 Class Name index 125
+20: Tag 10 MethodRef Class index 19, Name and type index 121
+21: Tag 10 MethodRef Class index 2, Name and type index 126
+22: Tag 9 FieldRef Class index 2, Name and type index 127
+23: Tag 9 FieldRef Class index 2, Name and type index 128
+24: Tag 10 MethodRef Class index 39, Name and type index 129
+25: Tag 10 MethodRef Class index 39, Name and type index 130
+26: Tag 9 FieldRef Class index 131, Name and type index 132
+27: Tag 11 InterfaceMethodRef Class index 131, Name and type index 133
+28: Tag 10 MethodRef Class index 16, Name and type index 121
+29: Tag 10 MethodRef Class index 134, Name and type index 135
+30: Tag 10 MethodRef Class index 136, Name and type index 137
+31: Tag 10 MethodRef Class index 138, Name and type index 139
+32: Tag 11 InterfaceMethodRef Class index 131, Name and type index 140
+33: Tag 5 Long Value 999999
+35: Tag 5 Long Value 1000000
+37: Tag 10 MethodRef Class index 39, Name and type index 141
+38: Tag 10 MethodRef Class index 142, Name and type index 143
+39: Tag 7 Class Name index 144
+40: Tag 7 Class Name index 145
+41: Tag 1 Utf8 Value "cancelledFlag"
+42: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/interceptors/CancellationFlag;"
+43: Tag 1 Utf8 Value "ST_RUNNING"
+44: Tag 1 Utf8 Value "I"
+45: Tag 1 Utf8 Value "ConstantValue"
+46: Tag 3 Integer Value 0, hex: 0x0
+47: Tag 1 Utf8 Value "ST_DONE"
+48: Tag 3 Integer Value 1, hex: 0x1
+49: Tag 1 Utf8 Value "ST_CANCELLED"
+50: Tag 3 Integer Value 2, hex: 0x2
+51: Tag 1 Utf8 Value "ST_FAILED"
+52: Tag 3 Integer Value 3, hex: 0x3
+53: Tag 1 Utf8 Value "status"
+54: Tag 1 Utf8 Value "result"
+55: Tag 1 Utf8 Value "Ljava/lang/Object;"
+56: Tag 1 Utf8 Value "failed"
+57: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+58: Tag 1 Utf8 Value "<init>"
+59: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/component/interceptors/CancellationFlag;)V"
+60: Tag 1 Utf8 Value "Code"
+61: Tag 1 Utf8 Value "LineNumberTable"
+62: Tag 1 Utf8 Value "LocalVariableTable"
+63: Tag 1 Utf8 Value "this"
+64: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/interceptors/AsyncInvocationTask;"
+65: Tag 1 Utf8 Value "cancel"
+66: Tag 1 Utf8 Value "(Z)Z"
+67: Tag 1 Utf8 Value "mayInterruptIfRunning"
+68: Tag 1 Utf8 Value "Z"
+69: Tag 1 Utf8 Value "StackMapTable"
+70: Tag 1 Utf8 Value "runInvocation"
+71: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+72: Tag 1 Utf8 Value "Exceptions"
+73: Tag 1 Utf8 Value "run"
+74: Tag 1 Utf8 Value "()V"
+75: Tag 1 Utf8 Value "e"
+76: Tag 1 Utf8 Value "Ljava/lang/InterruptedException;"
+77: Tag 1 Utf8 Value "ex"
+78: Tag 1 Utf8 Value "throwable"
+79: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+80: Tag 1 Utf8 Value "Ljava/util/concurrent/ExecutionException;"
+81: Tag 1 Utf8 Value "asyncResult"
+82: Tag 1 Utf8 Value "Ljava/util/concurrent/Future;"
+83: Tag 1 Utf8 Value "LocalVariableTypeTable"
+84: Tag 1 Utf8 Value "Ljava/util/concurrent/Future<*>;"
+85: Tag 1 Utf8 Value "setResult"
+86: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+87: Tag 1 Utf8 Value "setFailed"
+88: Tag 1 Utf8 Value "(Ljava/lang/Exception;)V"
+89: Tag 1 Utf8 Value "done"
+90: Tag 1 Utf8 Value "isCancelled"
+91: Tag 1 Utf8 Value "()Z"
+92: Tag 1 Utf8 Value "isDone"
+93: Tag 1 Utf8 Value "get"
+94: Tag 1 Utf8 Value "(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;"
+95: Tag 1 Utf8 Value "timeout"
+96: Tag 1 Utf8 Value "J"
+97: Tag 1 Utf8 Value "unit"
+98: Tag 1 Utf8 Value "Ljava/util/concurrent/TimeUnit;"
+99: Tag 1 Utf8 Value "remaining"
+100: Tag 1 Utf8 Value "start"
+101: Tag 7 Class Name index 146
+102: Tag 1 Utf8 Value "Signature"
+103: Tag 1 Utf8 Value "Ljava/lang/Object;Ljava/lang/Runnable;Ljava/util/concurrent/Future<Ljava/lang/Object;>;"
+104: Tag 1 Utf8 Value "SourceFile"
+105: Tag 1 Utf8 Value "AsyncInvocationTask.java"
+106: Tag 12 NameAndType Name index 58, Description index 74
+107: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/interceptors/AsyncInvocationTask"
+108: Tag 12 NameAndType Name index 53, Description index 44
+109: Tag 12 NameAndType Name index 41, Description index 42
+110: Tag 7 Class Name index 147
+111: Tag 12 NameAndType Name index 65, Description index 66
+112: Tag 12 NameAndType Name index 89, Description index 74
+113: Tag 12 NameAndType Name index 148, Description index 91
+114: Tag 12 NameAndType Name index 70, Description index 71
+115: Tag 1 Utf8 Value "java/lang/Exception"
+116: Tag 12 NameAndType Name index 87, Description index 88
+117: Tag 1 Utf8 Value "java/util/concurrent/Future"
+118: Tag 12 NameAndType Name index 93, Description index 71
+119: Tag 1 Utf8 Value "java/lang/InterruptedException"
+120: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+121: Tag 12 NameAndType Name index 58, Description index 149
+122: Tag 1 Utf8 Value "java/util/concurrent/ExecutionException"
+123: Tag 12 NameAndType Name index 150, Description index 151
+124: Tag 1 Utf8 Value "java/lang/Throwable"
+125: Tag 1 Utf8 Value "java/lang/reflect/UndeclaredThrowableException"
+126: Tag 12 NameAndType Name index 85, Description index 86
+127: Tag 12 NameAndType Name index 54, Description index 55
+128: Tag 12 NameAndType Name index 56, Description index 57
+129: Tag 12 NameAndType Name index 152, Description index 74
+130: Tag 12 NameAndType Name index 153, Description index 74
+131: Tag 7 Class Name index 154
+132: Tag 12 NameAndType Name index 155, Description index 156
+133: Tag 12 NameAndType Name index 157, Description index 158
+134: Tag 7 Class Name index 159
+135: Tag 12 NameAndType Name index 160, Description index 161
+136: Tag 7 Class Name index 162
+137: Tag 12 NameAndType Name index 163, Description index 164
+138: Tag 7 Class Name index 165
+139: Tag 12 NameAndType Name index 166, Description index 167
+140: Tag 12 NameAndType Name index 168, Description index 169
+141: Tag 12 NameAndType Name index 153, Description index 170
+142: Tag 7 Class Name index 171
+143: Tag 12 NameAndType Name index 172, Description index 173
+144: Tag 1 Utf8 Value "java/lang/Object"
+145: Tag 1 Utf8 Value "java/lang/Runnable"
+146: Tag 1 Utf8 Value "java/util/concurrent/TimeoutException"
+147: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/interceptors/CancellationFlag"
+148: Tag 1 Utf8 Value "runIfNotCancelled"
+149: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+150: Tag 1 Utf8 Value "getCause"
+151: Tag 1 Utf8 Value "()Ljava/lang/Throwable;"
+152: Tag 1 Utf8 Value "notifyAll"
+153: Tag 1 Utf8 Value "wait"
+154: Tag 1 Utf8 Value "org/jboss/as/ejb3/logging/EjbLogger"
+155: Tag 1 Utf8 Value "ROOT_LOGGER"
+156: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/logging/EjbLogger;"
+157: Tag 1 Utf8 Value "taskWasCancelled"
+158: Tag 1 Utf8 Value "()Ljava/util/concurrent/CancellationException;"
+159: Tag 1 Utf8 Value "org/wildfly/common/Assert"
+160: Tag 1 Utf8 Value "impossibleSwitchCase"
+161: Tag 1 Utf8 Value "(I)Ljava/lang/IllegalStateException;"
+162: Tag 1 Utf8 Value "java/util/concurrent/TimeUnit"
+163: Tag 1 Utf8 Value "toNanos"
+164: Tag 1 Utf8 Value "(J)J"
+165: Tag 1 Utf8 Value "java/lang/System"
+166: Tag 1 Utf8 Value "nanoTime"
+167: Tag 1 Utf8 Value "()J"
+168: Tag 1 Utf8 Value "failToCompleteTaskBeforeTimeOut"
+169: Tag 1 Utf8 Value "(JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/TimeoutException;"
+170: Tag 1 Utf8 Value "(J)V"
+171: Tag 1 Utf8 Value "java/lang/Math"
+172: Tag 1 Utf8 Value "max"
+173: Tag 1 Utf8 Value "(JJ)J"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 2, name org.jboss.as.ejb3.component.interceptors.AsyncInvocationTask
+
+Super class: id 39, name java.lang.Object
+
+Implements class ids 40 11
+Implements names java.lang.Runnable java.util.concurrent.Future
+
+Field name cancelledFlag (index 41), type Lorg/jboss/as/ejb3/component/interceptors/CancellationFlag; (descriptor index 42)
+Human type: org.jboss.as.ejb3.component.interceptors.CancellationFlag
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name ST_RUNNING (index 43), type I (descriptor index 44)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ST_DONE (index 47), type I (descriptor index 44)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ST_CANCELLED (index 49), type I (descriptor index 44)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ST_FAILED (index 51), type I (descriptor index 44)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name status (index 53), type I (descriptor index 44)
+Human type: int
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name result (index 54), type Ljava/lang/Object; (descriptor index 55)
+Human type: java.lang.Object
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name failed (index 56), type Ljava/lang/Exception; (descriptor index 57)
+Human type: java.lang.Exception
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 58), type (Lorg/jboss/as/ejb3/component/interceptors/CancellationFlag;)V (descriptor index 59)
+Human type: (org.jboss.as.ejb3.component.interceptors.CancellationFlag): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 79
+Method name cancel (index 65), type (Z)Z (descriptor index 66)
+Human type: (boolean): boolean
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 134
+Method name runInvocation (index 70), type ()Ljava/lang/Object; (descriptor index 71)
+Human type: (): java.lang.Object
+Flags: decimal 1028, hex 0404, binary 0000010000000100 protected abstract
+Method attribute name Exceptions, size 4
+Method name run (index 73), type ()V (descriptor index 74)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 507
+Method name setResult (index 85), type (Ljava/lang/Object;)V (descriptor index 86)
+Human type: (java.lang.Object): void
+Flags: decimal 34, hex 0022, binary 0000000000100010 private synchronized
+Method attribute name Code, size 79
+Method name setFailed (index 87), type (Ljava/lang/Exception;)V (descriptor index 88)
+Human type: (java.lang.Exception): void
+Flags: decimal 34, hex 0022, binary 0000000000100010 private synchronized
+Method attribute name Code, size 79
+Method name done (index 89), type ()V (descriptor index 74)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name isCancelled (index 90), type ()Z (descriptor index 91)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name isDone (index 92), type ()Z (descriptor index 91)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+Method name get (index 93), type ()Ljava/lang/Object; (descriptor index 71)
+Human type: (): java.lang.Object
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 153
+Method attribute name Exceptions, size 6
+Method name get (index 93), type (JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object; (descriptor index 94)
+Human type: (long, java.util.concurrent.TimeUnit): java.lang.Object
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 277
+Method attribute name Exceptions, size 8
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

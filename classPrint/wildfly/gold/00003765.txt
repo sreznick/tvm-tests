@@ -1,0 +1,84 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 56
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/election/SocketAddressPreference"
+11: Tag 1 Utf8 Value "address"
+12: Tag 1 Utf8 Value "Ljava/net/InetSocketAddress;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/clustering/group/Node"
+17: Tag 1 Utf8 Value "getSocketAddress"
+18: Tag 1 Utf8 Value "()Ljava/net/InetSocketAddress;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "java/net/InetSocketAddress"
+23: Tag 1 Utf8 Value "getAddress"
+24: Tag 1 Utf8 Value "()Ljava/net/InetAddress;"
+25: Tag 10 MethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "java/net/InetAddress"
+29: Tag 1 Utf8 Value "getHostAddress"
+30: Tag 1 Utf8 Value "()Ljava/lang/String;"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "java/lang/String"
+35: Tag 1 Utf8 Value "equals"
+36: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+37: Tag 10 MethodRef Class index 20, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "getPort"
+40: Tag 1 Utf8 Value "()I"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/election/Preference"
+43: Tag 1 Utf8 Value "(Ljava/net/InetSocketAddress;)V"
+44: Tag 1 Utf8 Value "Code"
+45: Tag 1 Utf8 Value "LineNumberTable"
+46: Tag 1 Utf8 Value "LocalVariableTable"
+47: Tag 1 Utf8 Value "this"
+48: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/election/SocketAddressPreference;"
+49: Tag 1 Utf8 Value "preferred"
+50: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/group/Node;)Z"
+51: Tag 1 Utf8 Value "node"
+52: Tag 1 Utf8 Value "Lorg/wildfly/clustering/group/Node;"
+53: Tag 1 Utf8 Value "StackMapTable"
+54: Tag 1 Utf8 Value "SourceFile"
+55: Tag 1 Utf8 Value "SocketAddressPreference.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.singleton.election.SocketAddressPreference
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 41
+Implements names org.wildfly.clustering.singleton.election.Preference
+
+Field name address (index 11), type Ljava/net/InetSocketAddress; (descriptor index 12)
+Human type: java.net.InetSocketAddress
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/net/InetSocketAddress;)V (descriptor index 43)
+Human type: (java.net.InetSocketAddress): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name preferred (index 49), type (Lorg/wildfly/clustering/group/Node;)Z (descriptor index 50)
+Human type: (org.wildfly.clustering.group.Node): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 116
+
+Class attribute name SourceFile, size 2

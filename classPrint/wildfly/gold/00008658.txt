@@ -1,0 +1,108 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 70
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/faulttolerance/MicroProfileFaultToleranceLogger"
+11: Tag 1 Utf8 Value "ROOT_LOGGER"
+12: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/faulttolerance/MicroProfileFaultToleranceLogger;"
+13: Tag 11 InterfaceMethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 6
+15: Tag 1 Utf8 Value "activatingSubsystem"
+16: Tag 7 Class Name index 17
+17: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/faulttolerance/MicroProfileFaultToleranceExtension"
+18: Tag 8 String Contents 19
+19: Tag 1 Utf8 Value "microprofile-fault-tolerance-smallrye"
+20: Tag 9 FieldRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Phase"
+24: Tag 1 Utf8 Value "DEPENDENCIES"
+25: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/Phase;"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/faulttolerance/deployment/MicroProfileFaultToleranceDependenciesProcessor"
+28: Tag 10 MethodRef Class index 26, Name and type index 3
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/as/server/DeploymentProcessorTarget"
+33: Tag 1 Utf8 Value "addDeploymentProcessor"
+34: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/server/deployment/Phase;ILorg/jboss/as/server/deployment/DeploymentUnitProcessor;)V"
+35: Tag 9 FieldRef Class index 21, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 25
+37: Tag 1 Utf8 Value "POST_MODULE"
+38: Tag 7 Class Name index 39
+39: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/faulttolerance/deployment/MicroProfileFaultToleranceDeploymentProcessor"
+40: Tag 10 MethodRef Class index 38, Name and type index 3
+41: Tag 10 MethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/faulttolerance/MicroProfileFaultToleranceServiceHandler"
+45: Tag 1 Utf8 Value "accept"
+46: Tag 1 Utf8 Value "(Lorg/jboss/as/server/DeploymentProcessorTarget;)V"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceServiceHandler"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "java/util/function/Consumer"
+51: Tag 1 Utf8 Value "Code"
+52: Tag 1 Utf8 Value "LineNumberTable"
+53: Tag 1 Utf8 Value "LocalVariableTable"
+54: Tag 1 Utf8 Value "this"
+55: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/faulttolerance/MicroProfileFaultToleranceServiceHandler;"
+56: Tag 1 Utf8 Value "installServices"
+57: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+58: Tag 1 Utf8 Value "context"
+59: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+60: Tag 1 Utf8 Value "model"
+61: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+62: Tag 1 Utf8 Value "removeServices"
+63: Tag 1 Utf8 Value "deploymentProcessorTarget"
+64: Tag 1 Utf8 Value "Lorg/jboss/as/server/DeploymentProcessorTarget;"
+65: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+66: Tag 1 Utf8 Value "Signature"
+67: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/as/clustering/controller/ResourceServiceHandler;Ljava/util/function/Consumer<Lorg/jboss/as/server/DeploymentProcessorTarget;>;"
+68: Tag 1 Utf8 Value "SourceFile"
+69: Tag 1 Utf8 Value "MicroProfileFaultToleranceServiceHandler.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 42, name org.wildfly.extension.microprofile.faulttolerance.MicroProfileFaultToleranceServiceHandler
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 47 49
+Implements names org.jboss.as.clustering.controller.ResourceServiceHandler java.util.function.Consumer
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name installServices (index 56), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 57)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 75
+Method name removeServices (index 62), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 57)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name accept (index 45), type (Lorg/jboss/as/server/DeploymentProcessorTarget;)V (descriptor index 46)
+Human type: (org.jboss.as.server.DeploymentProcessorTarget): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 103
+Method name accept (index 45), type (Ljava/lang/Object;)V (descriptor index 65)
+Human type: (java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

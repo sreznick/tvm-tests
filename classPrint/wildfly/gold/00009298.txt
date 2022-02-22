@@ -1,0 +1,197 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 132
+1: Tag 10 MethodRef Class index 31, Name and type index 72
+2: Tag 9 FieldRef Class index 29, Name and type index 73
+3: Tag 8 String Contents 74
+4: Tag 10 MethodRef Class index 75, Name and type index 76
+5: Tag 7 Class Name index 77
+6: Tag 9 FieldRef Class index 29, Name and type index 78
+7: Tag 10 MethodRef Class index 5, Name and type index 79
+8: Tag 9 FieldRef Class index 29, Name and type index 80
+9: Tag 7 Class Name index 81
+10: Tag 10 MethodRef Class index 9, Name and type index 79
+11: Tag 9 FieldRef Class index 29, Name and type index 82
+12: Tag 10 MethodRef Class index 29, Name and type index 83
+13: Tag 10 MethodRef Class index 25, Name and type index 84
+14: Tag 8 String Contents 85
+15: Tag 10 MethodRef Class index 25, Name and type index 86
+16: Tag 8 String Contents 87
+17: Tag 10 MethodRef Class index 75, Name and type index 88
+18: Tag 7 Class Name index 89
+19: Tag 10 MethodRef Class index 90, Name and type index 91
+20: Tag 10 MethodRef Class index 90, Name and type index 92
+21: Tag 10 MethodRef Class index 93, Name and type index 94
+22: Tag 11 InterfaceMethodRef Class index 66, Name and type index 95
+23: Tag 11 InterfaceMethodRef Class index 66, Name and type index 96
+24: Tag 7 Class Name index 97
+25: Tag 7 Class Name index 98
+26: Tag 7 Class Name index 99
+27: Tag 8 String Contents 100
+28: Tag 10 MethodRef Class index 26, Name and type index 101
+29: Tag 7 Class Name index 102
+30: Tag 10 MethodRef Class index 75, Name and type index 103
+31: Tag 7 Class Name index 104
+32: Tag 7 Class Name index 105
+33: Tag 1 Utf8 Value "log"
+34: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+35: Tag 1 Utf8 Value "testXaResourceInstance"
+36: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/transactions/TestXAResource;"
+37: Tag 1 Utf8 Value "persistentTestXaResourceInstance"
+38: Tag 1 Utf8 Value "transactionCheckerSingleton"
+39: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/transactions/TransactionCheckerSingleton;"
+40: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+41: Tag 1 Utf8 Value "Ljavax/ejb/EJB;"
+42: Tag 1 Utf8 Value "<init>"
+43: Tag 1 Utf8 Value "()V"
+44: Tag 1 Utf8 Value "Code"
+45: Tag 1 Utf8 Value "LineNumberTable"
+46: Tag 1 Utf8 Value "LocalVariableTable"
+47: Tag 1 Utf8 Value "this"
+48: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/transactions/spi/TestXAResourceRecoveryHelper;"
+49: Tag 1 Utf8 Value "postConstruct"
+50: Tag 1 Utf8 Value "Ljavax/annotation/PostConstruct;"
+51: Tag 1 Utf8 Value "preDestroy"
+52: Tag 1 Utf8 Value "Ljavax/annotation/PreDestroy;"
+53: Tag 1 Utf8 Value "initialise"
+54: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+55: Tag 1 Utf8 Value "param"
+56: Tag 1 Utf8 Value "Ljava/lang/String;"
+57: Tag 1 Utf8 Value "Exceptions"
+58: Tag 7 Class Name index 106
+59: Tag 1 Utf8 Value "getXAResources"
+60: Tag 1 Utf8 Value "()[Ljavax/transaction/xa/XAResource;"
+61: Tag 1 Utf8 Value "getRecoveryModule"
+62: Tag 1 Utf8 Value "()Lcom/arjuna/ats/internal/jta/recovery/arjunacore/XARecoveryModule;"
+63: Tag 1 Utf8 Value "recoveryModule"
+64: Tag 1 Utf8 Value "Lcom/arjuna/ats/arjuna/recovery/RecoveryModule;"
+65: Tag 1 Utf8 Value "StackMapTable"
+66: Tag 7 Class Name index 107
+67: Tag 1 Utf8 Value "<clinit>"
+68: Tag 1 Utf8 Value "SourceFile"
+69: Tag 1 Utf8 Value "TestXAResourceRecoveryHelper.java"
+70: Tag 1 Utf8 Value "Ljavax/ejb/Singleton;"
+71: Tag 1 Utf8 Value "Ljavax/ejb/Startup;"
+72: Tag 12 NameAndType Name index 42, Description index 43
+73: Tag 12 NameAndType Name index 33, Description index 34
+74: Tag 1 Utf8 Value "TestXAResourceRecoveryHelper starting"
+75: Tag 7 Class Name index 108
+76: Tag 12 NameAndType Name index 109, Description index 110
+77: Tag 1 Utf8 Value "org/jboss/as/test/integration/transactions/TestXAResource"
+78: Tag 12 NameAndType Name index 38, Description index 39
+79: Tag 12 NameAndType Name index 42, Description index 111
+80: Tag 12 NameAndType Name index 35, Description index 36
+81: Tag 1 Utf8 Value "org/jboss/as/test/integration/transactions/PersistentTestXAResource"
+82: Tag 12 NameAndType Name index 37, Description index 36
+83: Tag 12 NameAndType Name index 61, Description index 62
+84: Tag 12 NameAndType Name index 112, Description index 113
+85: Tag 1 Utf8 Value "TestXAResourceRecoveryHelper stopping"
+86: Tag 12 NameAndType Name index 114, Description index 113
+87: Tag 1 Utf8 Value "getXAResources() instances: %s and %s"
+88: Tag 12 NameAndType Name index 115, Description index 116
+89: Tag 1 Utf8 Value "javax/transaction/xa/XAResource"
+90: Tag 7 Class Name index 117
+91: Tag 12 NameAndType Name index 118, Description index 119
+92: Tag 12 NameAndType Name index 120, Description index 121
+93: Tag 7 Class Name index 122
+94: Tag 12 NameAndType Name index 123, Description index 124
+95: Tag 12 NameAndType Name index 125, Description index 126
+96: Tag 12 NameAndType Name index 127, Description index 128
+97: Tag 1 Utf8 Value "com/arjuna/ats/arjuna/recovery/RecoveryModule"
+98: Tag 1 Utf8 Value "com/arjuna/ats/internal/jta/recovery/arjunacore/XARecoveryModule"
+99: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+100: Tag 1 Utf8 Value "Cannot find XARecoveryModule which is necessary for recovery initialization of the test XAResources"
+101: Tag 12 NameAndType Name index 42, Description index 129
+102: Tag 1 Utf8 Value "org/jboss/as/test/integration/transactions/spi/TestXAResourceRecoveryHelper"
+103: Tag 12 NameAndType Name index 130, Description index 131
+104: Tag 1 Utf8 Value "java/lang/Object"
+105: Tag 1 Utf8 Value "com/arjuna/ats/jta/recovery/XAResourceRecoveryHelper"
+106: Tag 1 Utf8 Value "java/lang/Exception"
+107: Tag 1 Utf8 Value "java/util/Iterator"
+108: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+109: Tag 1 Utf8 Value "debug"
+110: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+111: Tag 1 Utf8 Value "(Lorg/jboss/as/test/integration/transactions/TransactionCheckerSingleton;)V"
+112: Tag 1 Utf8 Value "addXAResourceRecoveryHelper"
+113: Tag 1 Utf8 Value "(Lcom/arjuna/ats/jta/recovery/XAResourceRecoveryHelper;)V"
+114: Tag 1 Utf8 Value "removeXAResourceRecoveryHelper"
+115: Tag 1 Utf8 Value "debugf"
+116: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+117: Tag 1 Utf8 Value "com/arjuna/ats/arjuna/recovery/RecoveryManager"
+118: Tag 1 Utf8 Value "manager"
+119: Tag 1 Utf8 Value "()Lcom/arjuna/ats/arjuna/recovery/RecoveryManager;"
+120: Tag 1 Utf8 Value "getModules"
+121: Tag 1 Utf8 Value "()Ljava/util/Vector;"
+122: Tag 1 Utf8 Value "java/util/Vector"
+123: Tag 1 Utf8 Value "iterator"
+124: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+125: Tag 1 Utf8 Value "hasNext"
+126: Tag 1 Utf8 Value "()Z"
+127: Tag 1 Utf8 Value "next"
+128: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+129: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+130: Tag 1 Utf8 Value "getLogger"
+131: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/logging/Logger;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 29, name org.jboss.as.test.integration.transactions.spi.TestXAResourceRecoveryHelper
+
+Super class: id 31, name java.lang.Object
+
+Implements class ids 32
+Implements names com.arjuna.ats.jta.recovery.XAResourceRecoveryHelper
+
+Field name log (index 33), type Lorg/jboss/logging/Logger; (descriptor index 34)
+Human type: org.jboss.logging.Logger
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name testXaResourceInstance (index 35), type Lorg/jboss/as/test/integration/transactions/TestXAResource; (descriptor index 36)
+Human type: org.jboss.as.test.integration.transactions.TestXAResource
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name persistentTestXaResourceInstance (index 37), type Lorg/jboss/as/test/integration/transactions/TestXAResource; (descriptor index 36)
+Human type: org.jboss.as.test.integration.transactions.TestXAResource
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name transactionCheckerSingleton (index 38), type Lorg/jboss/as/test/integration/transactions/TransactionCheckerSingleton; (descriptor index 39)
+Human type: org.jboss.as.test.integration.transactions.TransactionCheckerSingleton
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 6
+
+Method name <init> (index 42), type ()V (descriptor index 43)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name postConstruct (index 49), type ()V (descriptor index 43)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 105
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name preDestroy (index 51), type ()V (descriptor index 43)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name initialise (index 53), type (Ljava/lang/String;)Z (descriptor index 54)
+Human type: (java.lang.String): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 54
+Method attribute name Exceptions, size 4
+Method name getXAResources (index 59), type ()[Ljavax/transaction/xa/XAResource; (descriptor index 60)
+Human type: (): javax.transaction.xa.XAResource[]
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 81
+Method attribute name Exceptions, size 4
+Method name getRecoveryModule (index 61), type ()Lcom/arjuna/ats/internal/jta/recovery/arjunacore/XARecoveryModule; (descriptor index 62)
+Human type: (): com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 140
+Method name <clinit> (index 67), type ()V (descriptor index 43)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 10

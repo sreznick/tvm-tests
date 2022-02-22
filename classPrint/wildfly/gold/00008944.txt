@@ -1,0 +1,316 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 246
+1: Tag 10 MethodRef Class index 44, Name and type index 132
+2: Tag 9 FieldRef Class index 38, Name and type index 133
+3: Tag 9 FieldRef Class index 38, Name and type index 134
+4: Tag 9 FieldRef Class index 38, Name and type index 135
+5: Tag 9 FieldRef Class index 38, Name and type index 136
+6: Tag 9 FieldRef Class index 137, Name and type index 138
+7: Tag 11 InterfaceMethodRef Class index 137, Name and type index 139
+8: Tag 11 InterfaceMethodRef Class index 140, Name and type index 141
+9: Tag 7 Class Name index 142
+10: Tag 11 InterfaceMethodRef Class index 143, Name and type index 144
+11: Tag 10 MethodRef Class index 145, Name and type index 146
+12: Tag 9 FieldRef Class index 38, Name and type index 147
+13: Tag 11 InterfaceMethodRef Class index 148, Name and type index 149
+14: Tag 7 Class Name index 150
+15: Tag 7 Class Name index 151
+16: Tag 10 MethodRef Class index 15, Name and type index 152
+17: Tag 11 InterfaceMethodRef Class index 137, Name and type index 153
+18: Tag 10 MethodRef Class index 154, Name and type index 155
+19: Tag 11 InterfaceMethodRef Class index 82, Name and type index 156
+20: Tag 10 MethodRef Class index 145, Name and type index 157
+21: Tag 7 Class Name index 158
+22: Tag 10 MethodRef Class index 21, Name and type index 152
+23: Tag 10 MethodRef Class index 38, Name and type index 159
+24: Tag 10 MethodRef Class index 160, Name and type index 161
+25: Tag 9 FieldRef Class index 162, Name and type index 163
+26: Tag 7 Class Name index 164
+27: Tag 10 MethodRef Class index 35, Name and type index 165
+28: Tag 11 InterfaceMethodRef Class index 114, Name and type index 166
+29: Tag 9 FieldRef Class index 162, Name and type index 167
+30: Tag 11 InterfaceMethodRef Class index 122, Name and type index 168
+31: Tag 10 MethodRef Class index 169, Name and type index 170
+32: Tag 11 InterfaceMethodRef Class index 82, Name and type index 171
+33: Tag 11 InterfaceMethodRef Class index 123, Name and type index 172
+34: Tag 11 InterfaceMethodRef Class index 123, Name and type index 173
+35: Tag 7 Class Name index 174
+36: Tag 11 InterfaceMethodRef Class index 122, Name and type index 175
+37: Tag 9 FieldRef Class index 9, Name and type index 176
+38: Tag 7 Class Name index 177
+39: Tag 10 MethodRef Class index 38, Name and type index 178
+40: Tag 11 InterfaceMethodRef Class index 122, Name and type index 179
+41: Tag 10 MethodRef Class index 38, Name and type index 180
+42: Tag 10 MethodRef Class index 38, Name and type index 181
+43: Tag 11 InterfaceMethodRef Class index 122, Name and type index 182
+44: Tag 7 Class Name index 183
+45: Tag 7 Class Name index 184
+46: Tag 1 Utf8 Value "name"
+47: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+48: Tag 1 Utf8 Value "wsctx"
+49: Tag 1 Utf8 Value "Lorg/jboss/wsf/spi/publish/Context;"
+50: Tag 1 Utf8 Value "deploymentUnit"
+51: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+52: Tag 1 Utf8 Value "wsctxConsumer"
+53: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+54: Tag 1 Utf8 Value "Signature"
+55: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/jboss/wsf/spi/publish/Context;>;"
+56: Tag 1 Utf8 Value "hostSupplier"
+57: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+58: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/web/host/WebHost;>;"
+59: Tag 1 Utf8 Value "<init>"
+60: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V"
+61: Tag 1 Utf8 Value "Code"
+62: Tag 1 Utf8 Value "LineNumberTable"
+63: Tag 1 Utf8 Value "LocalVariableTable"
+64: Tag 1 Utf8 Value "this"
+65: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/service/EndpointPublishService;"
+66: Tag 1 Utf8 Value "LocalVariableTypeTable"
+67: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/util/function/Consumer<Lorg/jboss/wsf/spi/publish/Context;>;Ljava/util/function/Supplier<Lorg/jboss/as/web/host/WebHost;>;)V"
+68: Tag 1 Utf8 Value "start"
+69: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+70: Tag 1 Utf8 Value "e"
+71: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+72: Tag 1 Utf8 Value "ctx"
+73: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+74: Tag 1 Utf8 Value "StackMapTable"
+75: Tag 1 Utf8 Value "Exceptions"
+76: Tag 1 Utf8 Value "stop"
+77: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+78: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+79: Tag 1 Utf8 Value "eps"
+80: Tag 1 Utf8 Value "Ljava/util/List;"
+81: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/wsf/spi/deployment/Endpoint;>;"
+82: Tag 7 Class Name index 185
+83: Tag 1 Utf8 Value "createServiceBuilder"
+84: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;)Lorg/jboss/msc/service/ServiceBuilder;"
+85: Tag 1 Utf8 Value "serviceTarget"
+86: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+87: Tag 1 Utf8 Value "context"
+88: Tag 1 Utf8 Value "Ljava/lang/String;"
+89: Tag 1 Utf8 Value "loader"
+90: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+91: Tag 1 Utf8 Value "hostName"
+92: Tag 1 Utf8 Value "urlPatternToClassName"
+93: Tag 1 Utf8 Value "Ljava/util/Map;"
+94: Tag 1 Utf8 Value "jbwmd"
+95: Tag 1 Utf8 Value "Lorg/jboss/metadata/web/jboss/JBossWebMetaData;"
+96: Tag 1 Utf8 Value "wsmd"
+97: Tag 1 Utf8 Value "Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;"
+98: Tag 1 Utf8 Value "jbwsmd"
+99: Tag 1 Utf8 Value "Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;"
+100: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+101: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;)Lorg/jboss/msc/service/ServiceBuilder;"
+102: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;Ljava/util/Map;Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/jboss/msc/service/ServiceBuilder;"
+103: Tag 1 Utf8 Value "epServiceName"
+104: Tag 1 Utf8 Value "deploymentAttachments"
+105: Tag 1 Utf8 Value "capabilityServiceSupport"
+106: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+107: Tag 1 Utf8 Value "unit"
+108: Tag 1 Utf8 Value "serviceName"
+109: Tag 1 Utf8 Value "builder"
+110: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+111: Tag 1 Utf8 Value "contextConsumer"
+112: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Object;>;"
+113: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+114: Tag 7 Class Name index 186
+115: Tag 7 Class Name index 187
+116: Tag 7 Class Name index 188
+117: Tag 7 Class Name index 189
+118: Tag 7 Class Name index 190
+119: Tag 7 Class Name index 191
+120: Tag 7 Class Name index 192
+121: Tag 7 Class Name index 193
+122: Tag 7 Class Name index 194
+123: Tag 7 Class Name index 195
+124: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;Ljava/util/Map<Ljava/lang/Class<*>;Ljava/lang/Object;>;Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/jboss/msc/service/ServiceBuilder;"
+125: Tag 1 Utf8 Value "install"
+126: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map;)V"
+127: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V"
+128: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;)V"
+129: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;)V"
+130: Tag 1 Utf8 Value "SourceFile"
+131: Tag 1 Utf8 Value "EndpointPublishService.java"
+132: Tag 12 NameAndType Name index 59, Description index 196
+133: Tag 12 NameAndType Name index 46, Description index 47
+134: Tag 12 NameAndType Name index 50, Description index 51
+135: Tag 12 NameAndType Name index 52, Description index 53
+136: Tag 12 NameAndType Name index 56, Description index 57
+137: Tag 7 Class Name index 197
+138: Tag 12 NameAndType Name index 198, Description index 199
+139: Tag 12 NameAndType Name index 200, Description index 201
+140: Tag 7 Class Name index 202
+141: Tag 12 NameAndType Name index 203, Description index 204
+142: Tag 1 Utf8 Value "org/jboss/as/web/host/WebHost"
+143: Tag 7 Class Name index 205
+144: Tag 12 NameAndType Name index 206, Description index 207
+145: Tag 7 Class Name index 208
+146: Tag 12 NameAndType Name index 209, Description index 210
+147: Tag 12 NameAndType Name index 48, Description index 49
+148: Tag 7 Class Name index 211
+149: Tag 12 NameAndType Name index 212, Description index 201
+150: Tag 1 Utf8 Value "java/lang/Exception"
+151: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+152: Tag 12 NameAndType Name index 59, Description index 213
+153: Tag 12 NameAndType Name index 214, Description index 201
+154: Tag 7 Class Name index 215
+155: Tag 12 NameAndType Name index 216, Description index 217
+156: Tag 12 NameAndType Name index 218, Description index 219
+157: Tag 12 NameAndType Name index 220, Description index 221
+158: Tag 1 Utf8 Value "java/lang/RuntimeException"
+159: Tag 12 NameAndType Name index 83, Description index 102
+160: Tag 7 Class Name index 222
+161: Tag 12 NameAndType Name index 125, Description index 223
+162: Tag 7 Class Name index 224
+163: Tag 12 NameAndType Name index 225, Description index 47
+164: Tag 1 Utf8 Value "java/lang/String"
+165: Tag 12 NameAndType Name index 226, Description index 227
+166: Tag 12 NameAndType Name index 228, Description index 229
+167: Tag 12 NameAndType Name index 230, Description index 47
+168: Tag 12 NameAndType Name index 231, Description index 232
+169: Tag 7 Class Name index 233
+170: Tag 12 NameAndType Name index 234, Description index 235
+171: Tag 12 NameAndType Name index 236, Description index 237
+172: Tag 12 NameAndType Name index 238, Description index 219
+173: Tag 12 NameAndType Name index 239, Description index 204
+174: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+175: Tag 12 NameAndType Name index 240, Description index 241
+176: Tag 12 NameAndType Name index 242, Description index 47
+177: Tag 1 Utf8 Value "org/jboss/as/webservices/service/EndpointPublishService"
+178: Tag 12 NameAndType Name index 59, Description index 60
+179: Tag 12 NameAndType Name index 243, Description index 244
+180: Tag 12 NameAndType Name index 125, Description index 128
+181: Tag 12 NameAndType Name index 83, Description index 84
+182: Tag 12 NameAndType Name index 125, Description index 245
+183: Tag 1 Utf8 Value "java/lang/Object"
+184: Tag 1 Utf8 Value "org/jboss/msc/Service"
+185: Tag 1 Utf8 Value "java/util/List"
+186: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+187: Tag 1 Utf8 Value "java/lang/ClassLoader"
+188: Tag 1 Utf8 Value "java/util/Map"
+189: Tag 1 Utf8 Value "org/jboss/metadata/web/jboss/JBossWebMetaData"
+190: Tag 1 Utf8 Value "org/jboss/wsf/spi/metadata/webservices/WebservicesMetaData"
+191: Tag 1 Utf8 Value "org/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData"
+192: Tag 1 Utf8 Value "org/jboss/as/controller/capability/CapabilityServiceSupport"
+193: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+194: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+195: Tag 1 Utf8 Value "java/util/Iterator"
+196: Tag 1 Utf8 Value "()V"
+197: Tag 1 Utf8 Value "org/jboss/as/webservices/logging/WSLogger"
+198: Tag 1 Utf8 Value "ROOT_LOGGER"
+199: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/logging/WSLogger;"
+200: Tag 1 Utf8 Value "starting"
+201: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+202: Tag 1 Utf8 Value "java/util/function/Supplier"
+203: Tag 1 Utf8 Value "get"
+204: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+205: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+206: Tag 1 Utf8 Value "getChildTarget"
+207: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+208: Tag 1 Utf8 Value "org/jboss/as/webservices/publish/EndpointPublisherHelper"
+209: Tag 1 Utf8 Value "doPublishStep"
+210: Tag 1 Utf8 Value "(Lorg/jboss/as/web/host/WebHost;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/wsf/spi/publish/Context;"
+211: Tag 1 Utf8 Value "java/util/function/Consumer"
+212: Tag 1 Utf8 Value "accept"
+213: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+214: Tag 1 Utf8 Value "stopping"
+215: Tag 1 Utf8 Value "org/jboss/wsf/spi/publish/Context"
+216: Tag 1 Utf8 Value "getEndpoints"
+217: Tag 1 Utf8 Value "()Ljava/util/List;"
+218: Tag 1 Utf8 Value "isEmpty"
+219: Tag 1 Utf8 Value "()Z"
+220: Tag 1 Utf8 Value "undoPublishStep"
+221: Tag 1 Utf8 Value "(Lorg/jboss/as/web/host/WebHost;Lorg/jboss/wsf/spi/publish/Context;)V"
+222: Tag 1 Utf8 Value "org/jboss/as/webservices/service/EndpointDeployService"
+223: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;Ljava/util/Map;Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/jboss/as/server/deployment/DeploymentUnit;"
+224: Tag 1 Utf8 Value "org/jboss/as/webservices/util/WSServices"
+225: Tag 1 Utf8 Value "ENDPOINT_PUBLISH_SERVICE"
+226: Tag 1 Utf8 Value "append"
+227: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+228: Tag 1 Utf8 Value "addService"
+229: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+230: Tag 1 Utf8 Value "CONFIG_SERVICE"
+231: Tag 1 Utf8 Value "requires"
+232: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+233: Tag 1 Utf8 Value "org/jboss/as/webservices/service/EndpointService"
+234: Tag 1 Utf8 Value "getServiceNamesFromDeploymentUnit"
+235: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/util/List;"
+236: Tag 1 Utf8 Value "iterator"
+237: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+238: Tag 1 Utf8 Value "hasNext"
+239: Tag 1 Utf8 Value "next"
+240: Tag 1 Utf8 Value "provides"
+241: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+242: Tag 1 Utf8 Value "SERVICE_NAME"
+243: Tag 1 Utf8 Value "setInstance"
+244: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+245: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 38, name org.jboss.as.webservices.service.EndpointPublishService
+
+Super class: id 44, name java.lang.Object
+
+Implements class ids 45
+Implements names org.jboss.msc.Service
+
+Field name name (index 46), type Lorg/jboss/msc/service/ServiceName; (descriptor index 47)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name wsctx (index 48), type Lorg/jboss/wsf/spi/publish/Context; (descriptor index 49)
+Human type: org.jboss.wsf.spi.publish.Context
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name deploymentUnit (index 50), type Lorg/jboss/as/server/deployment/DeploymentUnit; (descriptor index 51)
+Human type: org.jboss.as.server.deployment.DeploymentUnit
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name wsctxConsumer (index 52), type Ljava/util/function/Consumer; (descriptor index 53)
+Human type: java.util.function.Consumer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name hostSupplier (index 56), type Ljava/util/function/Supplier; (descriptor index 57)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 59), type (Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V (descriptor index 60)
+Human type: (org.jboss.msc.service.ServiceName, org.jboss.as.server.deployment.DeploymentUnit, java.util.function.Consumer, java.util.function.Supplier): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 156
+Method attribute name Signature, size 2
+Method name start (index 68), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 69)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 168
+Method attribute name Exceptions, size 4
+Method name stop (index 76), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 77)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 231
+Method name createServiceBuilder (index 83), type (Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 84)
+Human type: (org.jboss.msc.service.ServiceTarget, java.lang.String, java.lang.ClassLoader, java.lang.String, java.util.Map, org.jboss.metadata.web.jboss.JBossWebMetaData, org.jboss.wsf.spi.metadata.webservices.WebservicesMetaData, org.jboss.wsf.spi.metadata.webservices.JBossWebservicesMetaData): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 148
+Method attribute name Signature, size 2
+Method name createServiceBuilder (index 83), type (Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;Ljava/util/Map;Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 102)
+Human type: (org.jboss.msc.service.ServiceTarget, java.lang.String, java.lang.ClassLoader, java.lang.String, java.util.Map, org.jboss.metadata.web.jboss.JBossWebMetaData, org.jboss.wsf.spi.metadata.webservices.WebservicesMetaData, org.jboss.wsf.spi.metadata.webservices.JBossWebservicesMetaData, java.util.Map, org.jboss.as.controller.capability.CapabilityServiceSupport): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 522
+Method attribute name Signature, size 2
+Method name install (index 125), type (Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map;)V (descriptor index 126)
+Human type: (org.jboss.msc.service.ServiceTarget, java.lang.String, java.lang.ClassLoader, java.lang.String, java.util.Map): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name install (index 125), type (Lorg/jboss/msc/service/ServiceTarget;Ljava/lang/String;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/util/Map;Lorg/jboss/metadata/web/jboss/JBossWebMetaData;Lorg/jboss/wsf/spi/metadata/webservices/WebservicesMetaData;Lorg/jboss/wsf/spi/metadata/webservices/JBossWebservicesMetaData;)V (descriptor index 128)
+Human type: (org.jboss.msc.service.ServiceTarget, java.lang.String, java.lang.ClassLoader, java.lang.String, java.util.Map, org.jboss.metadata.web.jboss.JBossWebMetaData, org.jboss.wsf.spi.metadata.webservices.WebservicesMetaData, org.jboss.wsf.spi.metadata.webservices.JBossWebservicesMetaData): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 174
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,123 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 68
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/service/ServiceNameFactory"
+11: Tag 1 Utf8 Value "newServiceName"
+12: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "java/lang/String"
+15: Tag 8 String Contents 16
+16: Tag 1 Utf8 Value "create"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+21: Tag 1 Utf8 Value "append"
+22: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+23: Tag 8 String Contents 24
+24: Tag 1 Utf8 Value "start"
+25: Tag 8 String Contents 26
+26: Tag 1 Utf8 Value "registration"
+27: Tag 9 FieldRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/jboss/as/service/logging/SarLogger"
+31: Tag 1 Utf8 Value "ROOT_LOGGER"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/service/logging/SarLogger;"
+33: Tag 8 String Contents 34
+34: Tag 1 Utf8 Value "name"
+35: Tag 11 InterfaceMethodRef Class index 28, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "nullVar"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+39: Tag 9 FieldRef Class index 8, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "MBEAN_SERVICE_NAME_BASE"
+42: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+43: Tag 9 FieldRef Class index 18, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 42
+45: Tag 1 Utf8 Value "JBOSS"
+46: Tag 8 String Contents 47
+47: Tag 1 Utf8 Value "mbean"
+48: Tag 8 String Contents 49
+49: Tag 1 Utf8 Value "service"
+50: Tag 1 Utf8 Value "CREATE_SUFFIX"
+51: Tag 1 Utf8 Value "Ljava/lang/String;"
+52: Tag 1 Utf8 Value "ConstantValue"
+53: Tag 1 Utf8 Value "START_SUFFIX"
+54: Tag 1 Utf8 Value "REGISTRATION_SUFFIX"
+55: Tag 1 Utf8 Value "Code"
+56: Tag 1 Utf8 Value "LineNumberTable"
+57: Tag 1 Utf8 Value "LocalVariableTable"
+58: Tag 1 Utf8 Value "this"
+59: Tag 1 Utf8 Value "Lorg/jboss/as/service/ServiceNameFactory;"
+60: Tag 1 Utf8 Value "newCreateDestroy"
+61: Tag 1 Utf8 Value "mBeanName"
+62: Tag 1 Utf8 Value "newStartStop"
+63: Tag 1 Utf8 Value "newRegisterUnregister"
+64: Tag 1 Utf8 Value "StackMapTable"
+65: Tag 1 Utf8 Value "<clinit>"
+66: Tag 1 Utf8 Value "SourceFile"
+67: Tag 1 Utf8 Value "ServiceNameFactory.java"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 8, name org.jboss.as.service.ServiceNameFactory
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name MBEAN_SERVICE_NAME_BASE (index 41), type Lorg/jboss/msc/service/ServiceName; (descriptor index 42)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name CREATE_SUFFIX (index 50), type Ljava/lang/String; (descriptor index 51)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name START_SUFFIX (index 53), type Ljava/lang/String; (descriptor index 51)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name REGISTRATION_SUFFIX (index 54), type Ljava/lang/String; (descriptor index 51)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name newCreateDestroy (index 60), type (Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName; (descriptor index 12)
+Human type: (java.lang.String): org.jboss.msc.service.ServiceName
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 59
+Method name newStartStop (index 62), type (Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName; (descriptor index 12)
+Human type: (java.lang.String): org.jboss.msc.service.ServiceName
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 59
+Method name newRegisterUnregister (index 63), type (Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName; (descriptor index 12)
+Human type: (java.lang.String): org.jboss.msc.service.ServiceName
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 59
+Method name newServiceName (index 11), type (Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName; (descriptor index 12)
+Human type: (java.lang.String): org.jboss.msc.service.ServiceName
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 89
+Method name <clinit> (index 65), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 48
+
+Class attribute name SourceFile, size 2

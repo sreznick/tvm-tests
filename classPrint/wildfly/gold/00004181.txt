@@ -1,0 +1,111 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 65
+1: Tag 11 InterfaceMethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceNameProvider"
+5: Tag 1 Utf8 Value "getServiceName"
+6: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/clustering/msc/InjectorDependency"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)V"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 11, Description index 17
+16: Tag 1 Utf8 Value "java/lang/Object"
+17: Tag 1 Utf8 Value "()V"
+18: Tag 9 FieldRef Class index 8, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "name"
+21: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+22: Tag 9 FieldRef Class index 8, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "targetClass"
+25: Tag 1 Utf8 Value "Ljava/lang/Class;"
+26: Tag 9 FieldRef Class index 8, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "injector"
+29: Tag 1 Utf8 Value "Lorg/jboss/msc/inject/Injector;"
+30: Tag 11 InterfaceMethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+34: Tag 1 Utf8 Value "addDependency"
+35: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)Lorg/jboss/msc/service/ServiceBuilder;"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "org/wildfly/clustering/service/Dependency"
+38: Tag 1 Utf8 Value "Signature"
+39: Tag 1 Utf8 Value "Ljava/lang/Class<TT;>;"
+40: Tag 1 Utf8 Value "Lorg/jboss/msc/inject/Injector<TT;>;"
+41: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/service/ServiceNameProvider;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)V"
+42: Tag 1 Utf8 Value "Code"
+43: Tag 1 Utf8 Value "LineNumberTable"
+44: Tag 1 Utf8 Value "LocalVariableTable"
+45: Tag 1 Utf8 Value "this"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/msc/InjectorDependency;"
+47: Tag 1 Utf8 Value "provider"
+48: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/ServiceNameProvider;"
+49: Tag 1 Utf8 Value "LocalVariableTypeTable"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/msc/InjectorDependency<TT;>;"
+51: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/service/ServiceNameProvider;Ljava/lang/Class<TT;>;Lorg/jboss/msc/inject/Injector<TT;>;)V"
+52: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class<TT;>;Lorg/jboss/msc/inject/Injector<TT;>;)V"
+53: Tag 1 Utf8 Value "register"
+54: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder;"
+55: Tag 1 Utf8 Value "builder"
+56: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+57: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<TX;>;"
+58: Tag 1 Utf8 Value "<X:Ljava/lang/Object;>(Lorg/jboss/msc/service/ServiceBuilder<TX;>;)Lorg/jboss/msc/service/ServiceBuilder<TX;>;"
+59: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/service/Dependency;"
+60: Tag 1 Utf8 Value "SourceFile"
+61: Tag 1 Utf8 Value "InjectorDependency.java"
+62: Tag 1 Utf8 Value "Deprecated"
+63: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+64: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.clustering.msc.InjectorDependency
+
+Super class: id 14, name java.lang.Object
+
+Implements class ids 36
+Implements names org.wildfly.clustering.service.Dependency
+
+Field name name (index 20), type Lorg/jboss/msc/service/ServiceName; (descriptor index 21)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name targetClass (index 24), type Ljava/lang/Class; (descriptor index 25)
+Human type: java.lang.Class
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name injector (index 28), type Lorg/jboss/msc/inject/Injector; (descriptor index 29)
+Human type: org.jboss.msc.inject.Injector
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 11), type (Lorg/wildfly/clustering/service/ServiceNameProvider;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)V (descriptor index 41)
+Human type: (org.wildfly.clustering.service.ServiceNameProvider, java.lang.Class, org.jboss.msc.inject.Injector): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 127
+Method attribute name Signature, size 2
+Method name <init> (index 11), type (Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)V (descriptor index 12)
+Human type: (org.jboss.msc.service.ServiceName, java.lang.Class, org.jboss.msc.inject.Injector): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 146
+Method attribute name Signature, size 2
+Method name register (index 53), type (Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 54)
+Human type: (org.jboss.msc.service.ServiceBuilder): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 99
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name Deprecated, size 0
+Class attribute name RuntimeVisibleAnnotations, size 6

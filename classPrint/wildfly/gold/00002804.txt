@@ -1,0 +1,253 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 154
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/clustering/server/group/IpAddressMarshaller"
+3: Tag 9 FieldRef Class index 1, Name and type index 4
+4: Tag 12 NameAndType Name index 5, Description index 6
+5: Tag 1 Utf8 Value "INSTANCE"
+6: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/group/IpAddressMarshaller;"
+7: Tag 9 FieldRef Class index 1, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "$VALUES"
+10: Tag 1 Utf8 Value "[Lorg/wildfly/clustering/server/group/IpAddressMarshaller;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 10
+13: Tag 12 NameAndType Name index 14, Description index 15
+14: Tag 1 Utf8 Value "clone"
+15: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+16: Tag 10 MethodRef Class index 17, Name and type index 18
+17: Tag 7 Class Name index 19
+18: Tag 12 NameAndType Name index 20, Description index 21
+19: Tag 1 Utf8 Value "java/lang/Enum"
+20: Tag 1 Utf8 Value "valueOf"
+21: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;"
+22: Tag 10 MethodRef Class index 17, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "<init>"
+25: Tag 1 Utf8 Value "(Ljava/lang/String;I)V"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "org/wildfly/clustering/server/group/IpAddressMarshaller$DefaultIpAddressBuilder"
+28: Tag 10 MethodRef Class index 26, Name and type index 29
+29: Tag 12 NameAndType Name index 24, Description index 30
+30: Tag 1 Utf8 Value "()V"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/ProtoStreamReader"
+35: Tag 1 Utf8 Value "readByteArray"
+36: Tag 1 Utf8 Value "()[B"
+37: Tag 11 InterfaceMethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/wildfly/clustering/server/group/IpAddressBuilder"
+41: Tag 1 Utf8 Value "setAddress"
+42: Tag 1 Utf8 Value "([B)Lorg/wildfly/clustering/server/group/IpAddressBuilder;"
+43: Tag 11 InterfaceMethodRef Class index 32, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "readUInt32"
+46: Tag 1 Utf8 Value "()I"
+47: Tag 11 InterfaceMethodRef Class index 38, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "setPort"
+50: Tag 1 Utf8 Value "(I)Lorg/wildfly/clustering/server/group/IpAddressBuilder;"
+51: Tag 10 MethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 56
+54: Tag 1 Utf8 Value "org/jgroups/stack/IpAddress"
+55: Tag 1 Utf8 Value "getIpAddress"
+56: Tag 1 Utf8 Value "()Ljava/net/InetAddress;"
+57: Tag 10 MethodRef Class index 58, Name and type index 59
+58: Tag 7 Class Name index 60
+59: Tag 12 NameAndType Name index 61, Description index 36
+60: Tag 1 Utf8 Value "java/net/InetAddress"
+61: Tag 1 Utf8 Value "getAddress"
+62: Tag 9 FieldRef Class index 1, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 65
+64: Tag 1 Utf8 Value "DEFAULT_ADDRESS"
+65: Tag 1 Utf8 Value "Ljava/net/InetAddress;"
+66: Tag 10 MethodRef Class index 67, Name and type index 68
+67: Tag 7 Class Name index 69
+68: Tag 12 NameAndType Name index 70, Description index 71
+69: Tag 1 Utf8 Value "java/util/Arrays"
+70: Tag 1 Utf8 Value "equals"
+71: Tag 1 Utf8 Value "([B[B)Z"
+72: Tag 11 InterfaceMethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/ProtoStreamWriter"
+76: Tag 1 Utf8 Value "writeBytes"
+77: Tag 1 Utf8 Value "(I[B)V"
+78: Tag 10 MethodRef Class index 52, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 46
+80: Tag 1 Utf8 Value "getPort"
+81: Tag 11 InterfaceMethodRef Class index 73, Name and type index 82
+82: Tag 12 NameAndType Name index 83, Description index 84
+83: Tag 1 Utf8 Value "writeUInt32"
+84: Tag 1 Utf8 Value "(II)V"
+85: Tag 10 MethodRef Class index 1, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 88
+87: Tag 1 Utf8 Value "writeFields"
+88: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;ILorg/jgroups/stack/IpAddress;)V"
+89: Tag 10 MethodRef Class index 1, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 92
+91: Tag 1 Utf8 Value "readField"
+92: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;ILorg/wildfly/clustering/server/group/IpAddressBuilder;)Lorg/wildfly/clustering/server/group/IpAddressBuilder;"
+93: Tag 10 MethodRef Class index 1, Name and type index 94
+94: Tag 12 NameAndType Name index 95, Description index 96
+95: Tag 1 Utf8 Value "getBuilder"
+96: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/server/group/IpAddressBuilder;"
+97: Tag 8 String Contents 5
+98: Tag 10 MethodRef Class index 1, Name and type index 23
+99: Tag 10 MethodRef Class index 1, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 102
+101: Tag 1 Utf8 Value "$values"
+102: Tag 1 Utf8 Value "()[Lorg/wildfly/clustering/server/group/IpAddressMarshaller;"
+103: Tag 10 MethodRef Class index 58, Name and type index 104
+104: Tag 12 NameAndType Name index 105, Description index 56
+105: Tag 1 Utf8 Value "getLoopbackAddress"
+106: Tag 7 Class Name index 107
+107: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/FieldSetMarshaller"
+108: Tag 1 Utf8 Value "DEFAULT_PORT"
+109: Tag 1 Utf8 Value "I"
+110: Tag 1 Utf8 Value "ConstantValue"
+111: Tag 3 Integer Value 7600, hex: 0x1db0
+112: Tag 1 Utf8 Value "ADDRESS_INDEX"
+113: Tag 3 Integer Value 0, hex: 0x0
+114: Tag 1 Utf8 Value "PORT_INDEX"
+115: Tag 3 Integer Value 1, hex: 0x1
+116: Tag 1 Utf8 Value "FIELDS"
+117: Tag 3 Integer Value 2, hex: 0x2
+118: Tag 1 Utf8 Value "values"
+119: Tag 1 Utf8 Value "Code"
+120: Tag 1 Utf8 Value "LineNumberTable"
+121: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/clustering/server/group/IpAddressMarshaller;"
+122: Tag 1 Utf8 Value "LocalVariableTable"
+123: Tag 1 Utf8 Value "name"
+124: Tag 1 Utf8 Value "Ljava/lang/String;"
+125: Tag 1 Utf8 Value "this"
+126: Tag 1 Utf8 Value "Signature"
+127: Tag 1 Utf8 Value "getFields"
+128: Tag 1 Utf8 Value "reader"
+129: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;"
+130: Tag 1 Utf8 Value "index"
+131: Tag 1 Utf8 Value "builder"
+132: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/group/IpAddressBuilder;"
+133: Tag 1 Utf8 Value "StackMapTable"
+134: Tag 1 Utf8 Value "Exceptions"
+135: Tag 7 Class Name index 136
+136: Tag 1 Utf8 Value "java/io/IOException"
+137: Tag 1 Utf8 Value "writer"
+138: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;"
+139: Tag 1 Utf8 Value "startIndex"
+140: Tag 1 Utf8 Value "address"
+141: Tag 1 Utf8 Value "Lorg/jgroups/stack/IpAddress;"
+142: Tag 1 Utf8 Value "bytes"
+143: Tag 1 Utf8 Value "[B"
+144: Tag 1 Utf8 Value "port"
+145: Tag 7 Class Name index 143
+146: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;ILjava/lang/Object;)V"
+147: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;ILjava/lang/Object;)Ljava/lang/Object;"
+148: Tag 1 Utf8 Value "<clinit>"
+149: Tag 1 Utf8 Value "Ljava/lang/Enum<Lorg/wildfly/clustering/server/group/IpAddressMarshaller;>;Lorg/wildfly/clustering/marshalling/protostream/FieldSetMarshaller<Lorg/jgroups/stack/IpAddress;Lorg/wildfly/clustering/server/group/IpAddressBuilder;>;"
+150: Tag 1 Utf8 Value "SourceFile"
+151: Tag 1 Utf8 Value "IpAddressMarshaller.java"
+152: Tag 1 Utf8 Value "InnerClasses"
+153: Tag 1 Utf8 Value "DefaultIpAddressBuilder"
+
+Flags: decimal 16433, hex 4031, binary 0100000000110001 public final super enum
+
+This class: id 1, name org.wildfly.clustering.server.group.IpAddressMarshaller
+
+Super class: id 17, name java.lang.Enum
+
+Implements class ids 106
+Implements names org.wildfly.clustering.marshalling.protostream.FieldSetMarshaller
+
+Field name INSTANCE (index 5), type Lorg/wildfly/clustering/server/group/IpAddressMarshaller; (descriptor index 6)
+Human type: org.wildfly.clustering.server.group.IpAddressMarshaller
+Flags: decimal 16409, hex 4019, binary 0100000000011001 public static final enum
+No field attributes
+Field name DEFAULT_ADDRESS (index 64), type Ljava/net/InetAddress; (descriptor index 65)
+Human type: java.net.InetAddress
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name DEFAULT_PORT (index 108), type I (descriptor index 109)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name ADDRESS_INDEX (index 112), type I (descriptor index 109)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name PORT_INDEX (index 114), type I (descriptor index 109)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name FIELDS (index 116), type I (descriptor index 109)
+Human type: int
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name $VALUES (index 9), type [Lorg/wildfly/clustering/server/group/IpAddressMarshaller; (descriptor index 10)
+Human type: org.wildfly.clustering.server.group.IpAddressMarshaller[]
+Flags: decimal 4122, hex 101a, binary 0001000000011010 private static final synthetic
+No field attributes
+
+Method name values (index 118), type ()[Lorg/wildfly/clustering/server/group/IpAddressMarshaller; (descriptor index 102)
+Human type: (): org.wildfly.clustering.server.group.IpAddressMarshaller[]
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 34
+Method name valueOf (index 20), type (Ljava/lang/String;)Lorg/wildfly/clustering/server/group/IpAddressMarshaller; (descriptor index 121)
+Human type: (java.lang.String): org.wildfly.clustering.server.group.IpAddressMarshaller
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 52
+Method name <init> (index 24), type (Ljava/lang/String;I)V (descriptor index 25)
+Human type: (java.lang.String, int): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 49
+Method attribute name Signature, size 2
+Method name getBuilder (index 95), type ()Lorg/wildfly/clustering/server/group/IpAddressBuilder; (descriptor index 96)
+Human type: (): org.wildfly.clustering.server.group.IpAddressBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name getFields (index 127), type ()I (descriptor index 46)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name readField (index 91), type (Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;ILorg/wildfly/clustering/server/group/IpAddressBuilder;)Lorg/wildfly/clustering/server/group/IpAddressBuilder; (descriptor index 92)
+Human type: (org.wildfly.clustering.marshalling.protostream.ProtoStreamReader, int, org.wildfly.clustering.server.group.IpAddressBuilder): org.wildfly.clustering.server.group.IpAddressBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 151
+Method attribute name Exceptions, size 4
+Method name writeFields (index 87), type (Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;ILorg/jgroups/stack/IpAddress;)V (descriptor index 88)
+Human type: (org.wildfly.clustering.marshalling.protostream.ProtoStreamWriter, int, org.jgroups.stack.IpAddress): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 194
+Method attribute name Exceptions, size 4
+Method name writeFields (index 87), type (Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;ILjava/lang/Object;)V (descriptor index 146)
+Human type: (org.wildfly.clustering.marshalling.protostream.ProtoStreamWriter, int, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 53
+Method attribute name Exceptions, size 4
+Method name readField (index 91), type (Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;ILjava/lang/Object;)Ljava/lang/Object; (descriptor index 147)
+Human type: (org.wildfly.clustering.marshalling.protostream.ProtoStreamReader, int, java.lang.Object): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 53
+Method attribute name Exceptions, size 4
+Method name getBuilder (index 95), type ()Ljava/lang/Object; (descriptor index 15)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method name $values (index 101), type ()[Lorg/wildfly/clustering/server/group/IpAddressMarshaller; (descriptor index 102)
+Human type: (): org.wildfly.clustering.server.group.IpAddressMarshaller[]
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 35
+Method name <clinit> (index 148), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 58
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

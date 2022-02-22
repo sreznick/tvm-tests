@@ -1,0 +1,760 @@
+AAAA 5
+Version 52.0
+
+Constant Pool size 595
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 5 Long Value 30
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "java/time/Duration"
+13: Tag 1 Utf8 Value "ofMinutes"
+14: Tag 1 Utf8 Value "(J)Ljava/time/Duration;"
+15: Tag 9 FieldRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/session/InfinispanSessionManager"
+19: Tag 1 Utf8 Value "defaultMaxInactiveInterval"
+20: Tag 1 Utf8 Value "Ljava/time/Duration;"
+21: Tag 9 FieldRef Class index 16, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "factory"
+24: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionFactory;"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/session/InfinispanSessionManagerConfiguration"
+29: Tag 1 Utf8 Value "getCache"
+30: Tag 1 Utf8 Value "()Lorg/infinispan/Cache;"
+31: Tag 9 FieldRef Class index 16, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "cache"
+34: Tag 1 Utf8 Value "Lorg/infinispan/Cache;"
+35: Tag 11 InterfaceMethodRef Class index 26, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "getProperties"
+38: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/cache/CacheProperties;"
+39: Tag 9 FieldRef Class index 16, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "properties"
+42: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/CacheProperties;"
+43: Tag 11 InterfaceMethodRef Class index 26, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "getExpirationRegistar"
+46: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/Registrar;"
+47: Tag 9 FieldRef Class index 16, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "expirationRegistrar"
+50: Tag 1 Utf8 Value "Lorg/wildfly/clustering/Registrar;"
+51: Tag 11 InterfaceMethodRef Class index 26, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 54
+53: Tag 1 Utf8 Value "getExpirationListener"
+54: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionExpirationListener;"
+55: Tag 9 FieldRef Class index 16, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "expirationListener"
+58: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/SessionExpirationListener;"
+59: Tag 11 InterfaceMethodRef Class index 26, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "getIdentifierFactory"
+62: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/cache/IdentifierFactory;"
+63: Tag 9 FieldRef Class index 16, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "identifierFactory"
+66: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/IdentifierFactory;"
+67: Tag 11 InterfaceMethodRef Class index 26, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "getBatcher"
+70: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batcher;"
+71: Tag 9 FieldRef Class index 16, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 74
+73: Tag 1 Utf8 Value "batcher"
+74: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher;"
+75: Tag 11 InterfaceMethodRef Class index 26, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 78
+77: Tag 1 Utf8 Value "getExpirationScheduler"
+78: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Scheduler;"
+79: Tag 9 FieldRef Class index 16, Name and type index 80
+80: Tag 12 NameAndType Name index 81, Description index 82
+81: Tag 1 Utf8 Value "expirationScheduler"
+82: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Scheduler;"
+83: Tag 11 InterfaceMethodRef Class index 26, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 86
+85: Tag 1 Utf8 Value "getInactiveSessionRecorder"
+86: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Recordable;"
+87: Tag 9 FieldRef Class index 16, Name and type index 88
+88: Tag 12 NameAndType Name index 89, Description index 90
+89: Tag 1 Utf8 Value "recorder"
+90: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Recordable;"
+91: Tag 11 InterfaceMethodRef Class index 26, Name and type index 92
+92: Tag 12 NameAndType Name index 93, Description index 94
+93: Tag 1 Utf8 Value "getServletContext"
+94: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+95: Tag 9 FieldRef Class index 16, Name and type index 96
+96: Tag 12 NameAndType Name index 97, Description index 98
+97: Tag 1 Utf8 Value "context"
+98: Tag 1 Utf8 Value "Ljava/lang/Object;"
+99: Tag 11 InterfaceMethodRef Class index 26, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 46
+101: Tag 1 Utf8 Value "getContextRegistrar"
+102: Tag 9 FieldRef Class index 16, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 50
+104: Tag 1 Utf8 Value "contextRegistrar"
+105: Tag 11 InterfaceMethodRef Class index 26, Name and type index 106
+106: Tag 12 NameAndType Name index 107, Description index 108
+107: Tag 1 Utf8 Value "getStartTask"
+108: Tag 1 Utf8 Value "()Ljava/lang/Runnable;"
+109: Tag 9 FieldRef Class index 16, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 112
+111: Tag 1 Utf8 Value "startTask"
+112: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+113: Tag 7 Class Name index 114
+114: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/session/InfinispanSessionManager$1"
+115: Tag 10 MethodRef Class index 113, Name and type index 116
+116: Tag 12 NameAndType Name index 5, Description index 117
+117: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/infinispan/session/InfinispanSessionManager;Lorg/wildfly/clustering/web/infinispan/session/InfinispanSessionManagerConfiguration;)V"
+118: Tag 9 FieldRef Class index 16, Name and type index 119
+119: Tag 12 NameAndType Name index 120, Description index 121
+120: Tag 1 Utf8 Value "closeTask"
+121: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+122: Tag 7 Class Name index 123
+123: Tag 1 Utf8 Value "java/util/AbstractMap$SimpleImmutableEntry"
+124: Tag 10 MethodRef Class index 122, Name and type index 125
+125: Tag 12 NameAndType Name index 5, Description index 126
+126: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+127: Tag 11 InterfaceMethodRef Class index 128, Name and type index 129
+128: Tag 7 Class Name index 130
+129: Tag 12 NameAndType Name index 131, Description index 132
+130: Tag 1 Utf8 Value "org/wildfly/clustering/Registrar"
+131: Tag 1 Utf8 Value "register"
+132: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/wildfly/clustering/Registration;"
+133: Tag 9 FieldRef Class index 16, Name and type index 134
+134: Tag 12 NameAndType Name index 135, Description index 136
+135: Tag 1 Utf8 Value "contextRegistration"
+136: Tag 1 Utf8 Value "Lorg/wildfly/clustering/Registration;"
+137: Tag 11 InterfaceMethodRef Class index 138, Name and type index 139
+138: Tag 7 Class Name index 140
+139: Tag 12 NameAndType Name index 141, Description index 6
+140: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Recordable"
+141: Tag 1 Utf8 Value "reset"
+142: Tag 7 Class Name index 143
+143: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/PredicateKeyFilter"
+144: Tag 9 FieldRef Class index 145, Name and type index 146
+145: Tag 7 Class Name index 147
+146: Tag 12 NameAndType Name index 148, Description index 149
+147: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/session/SessionCreationMetaDataKeyFilter"
+148: Tag 1 Utf8 Value "INSTANCE"
+149: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/session/SessionCreationMetaDataKeyFilter;"
+150: Tag 10 MethodRef Class index 142, Name and type index 151
+151: Tag 12 NameAndType Name index 5, Description index 152
+152: Tag 1 Utf8 Value "(Ljava/util/function/Predicate;)V"
+153: Tag 11 InterfaceMethodRef Class index 154, Name and type index 155
+154: Tag 7 Class Name index 156
+155: Tag 12 NameAndType Name index 157, Description index 158
+156: Tag 1 Utf8 Value "org/infinispan/Cache"
+157: Tag 1 Utf8 Value "addListener"
+158: Tag 1 Utf8 Value "(Ljava/lang/Object;Lorg/infinispan/notifications/cachelistener/filter/CacheEventFilter;Lorg/infinispan/notifications/cachelistener/filter/CacheEventConverter;)V"
+159: Tag 11 InterfaceMethodRef Class index 160, Name and type index 161
+160: Tag 7 Class Name index 162
+161: Tag 12 NameAndType Name index 163, Description index 6
+162: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/IdentifierFactory"
+163: Tag 1 Utf8 Value "start"
+164: Tag 9 FieldRef Class index 16, Name and type index 165
+165: Tag 12 NameAndType Name index 166, Description index 136
+166: Tag 1 Utf8 Value "expirationRegistration"
+167: Tag 11 InterfaceMethodRef Class index 168, Name and type index 169
+168: Tag 7 Class Name index 170
+169: Tag 12 NameAndType Name index 171, Description index 6
+170: Tag 1 Utf8 Value "java/lang/Runnable"
+171: Tag 1 Utf8 Value "run"
+172: Tag 11 InterfaceMethodRef Class index 173, Name and type index 174
+173: Tag 7 Class Name index 175
+174: Tag 12 NameAndType Name index 176, Description index 177
+175: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/CacheProperties"
+176: Tag 1 Utf8 Value "isPersistent"
+177: Tag 1 Utf8 Value "()Z"
+178: Tag 11 InterfaceMethodRef Class index 154, Name and type index 179
+179: Tag 12 NameAndType Name index 180, Description index 181
+180: Tag 1 Utf8 Value "getCacheConfiguration"
+181: Tag 1 Utf8 Value "()Lorg/infinispan/configuration/cache/Configuration;"
+182: Tag 10 MethodRef Class index 183, Name and type index 184
+183: Tag 7 Class Name index 185
+184: Tag 12 NameAndType Name index 186, Description index 187
+185: Tag 1 Utf8 Value "org/infinispan/configuration/cache/Configuration"
+186: Tag 1 Utf8 Value "persistence"
+187: Tag 1 Utf8 Value "()Lorg/infinispan/configuration/cache/PersistenceConfiguration;"
+188: Tag 10 MethodRef Class index 189, Name and type index 190
+189: Tag 7 Class Name index 191
+190: Tag 12 NameAndType Name index 192, Description index 177
+191: Tag 1 Utf8 Value "org/infinispan/configuration/cache/PersistenceConfiguration"
+192: Tag 1 Utf8 Value "passivation"
+193: Tag 10 MethodRef Class index 189, Name and type index 194
+194: Tag 12 NameAndType Name index 195, Description index 196
+195: Tag 1 Utf8 Value "stores"
+196: Tag 1 Utf8 Value "()Ljava/util/List;"
+197: Tag 11 InterfaceMethodRef Class index 198, Name and type index 199
+198: Tag 7 Class Name index 200
+199: Tag 12 NameAndType Name index 201, Description index 202
+200: Tag 1 Utf8 Value "java/util/List"
+201: Tag 1 Utf8 Value "stream"
+202: Tag 1 Utf8 Value "()Ljava/util/stream/Stream;"
+203: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 204
+204: Tag 12 NameAndType Name index 205, Description index 206
+205: Tag 1 Utf8 Value "test"
+206: Tag 1 Utf8 Value "()Ljava/util/function/Predicate;"
+207: Tag 11 InterfaceMethodRef Class index 208, Name and type index 209
+208: Tag 7 Class Name index 210
+209: Tag 12 NameAndType Name index 211, Description index 212
+210: Tag 1 Utf8 Value "java/util/stream/Stream"
+211: Tag 1 Utf8 Value "allMatch"
+212: Tag 1 Utf8 Value "(Ljava/util/function/Predicate;)Z"
+213: Tag 11 InterfaceMethodRef Class index 154, Name and type index 214
+214: Tag 12 NameAndType Name index 215, Description index 216
+215: Tag 1 Utf8 Value "getAdvancedCache"
+216: Tag 1 Utf8 Value "()Lorg/infinispan/AdvancedCache;"
+217: Tag 7 Class Name index 218
+218: Tag 1 Utf8 Value "org/infinispan/context/Flag"
+219: Tag 9 FieldRef Class index 217, Name and type index 220
+220: Tag 12 NameAndType Name index 221, Description index 222
+221: Tag 1 Utf8 Value "CACHE_MODE_LOCAL"
+222: Tag 1 Utf8 Value "Lorg/infinispan/context/Flag;"
+223: Tag 9 FieldRef Class index 217, Name and type index 224
+224: Tag 12 NameAndType Name index 225, Description index 222
+225: Tag 1 Utf8 Value "SKIP_CACHE_LOAD"
+226: Tag 9 FieldRef Class index 217, Name and type index 227
+227: Tag 12 NameAndType Name index 228, Description index 222
+228: Tag 1 Utf8 Value "SKIP_LOCKING"
+229: Tag 11 InterfaceMethodRef Class index 230, Name and type index 231
+230: Tag 7 Class Name index 232
+231: Tag 12 NameAndType Name index 233, Description index 234
+232: Tag 1 Utf8 Value "org/infinispan/AdvancedCache"
+233: Tag 1 Utf8 Value "withFlags"
+234: Tag 1 Utf8 Value "([Lorg/infinispan/context/Flag;)Lorg/infinispan/AdvancedCache;"
+235: Tag 11 InterfaceMethodRef Class index 230, Name and type index 236
+236: Tag 12 NameAndType Name index 237, Description index 238
+237: Tag 1 Utf8 Value "keySet"
+238: Tag 1 Utf8 Value "()Lorg/infinispan/CacheSet;"
+239: Tag 11 InterfaceMethodRef Class index 240, Name and type index 241
+240: Tag 7 Class Name index 242
+241: Tag 12 NameAndType Name index 201, Description index 243
+242: Tag 1 Utf8 Value "org/infinispan/CacheSet"
+243: Tag 1 Utf8 Value "()Lorg/infinispan/CacheStream;"
+244: Tag 11 InterfaceMethodRef Class index 208, Name and type index 245
+245: Tag 12 NameAndType Name index 246, Description index 247
+246: Tag 1 Utf8 Value "filter"
+247: Tag 1 Utf8 Value "(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;"
+248: Tag 10 MethodRef Class index 249, Name and type index 250
+249: Tag 7 Class Name index 251
+250: Tag 12 NameAndType Name index 252, Description index 253
+251: Tag 1 Utf8 Value "java/util/Objects"
+252: Tag 1 Utf8 Value "requireNonNull"
+253: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+254: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 255
+255: Tag 12 NameAndType Name index 256, Description index 257
+256: Tag 1 Utf8 Value "accept"
+257: Tag 1 Utf8 Value "(Lorg/infinispan/Cache;)Ljava/util/function/Consumer;"
+258: Tag 11 InterfaceMethodRef Class index 208, Name and type index 259
+259: Tag 12 NameAndType Name index 260, Description index 261
+260: Tag 1 Utf8 Value "forEach"
+261: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;)V"
+262: Tag 11 InterfaceMethodRef Class index 208, Name and type index 263
+263: Tag 12 NameAndType Name index 264, Description index 6
+264: Tag 1 Utf8 Value "close"
+265: Tag 7 Class Name index 266
+266: Tag 1 Utf8 Value "java/lang/Throwable"
+267: Tag 10 MethodRef Class index 265, Name and type index 268
+268: Tag 12 NameAndType Name index 269, Description index 270
+269: Tag 1 Utf8 Value "addSuppressed"
+270: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+271: Tag 11 InterfaceMethodRef Class index 272, Name and type index 263
+272: Tag 7 Class Name index 273
+273: Tag 1 Utf8 Value "org/wildfly/clustering/Registration"
+274: Tag 11 InterfaceMethodRef Class index 154, Name and type index 275
+275: Tag 12 NameAndType Name index 276, Description index 277
+276: Tag 1 Utf8 Value "removeListener"
+277: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+278: Tag 11 InterfaceMethodRef Class index 160, Name and type index 279
+279: Tag 12 NameAndType Name index 280, Description index 6
+280: Tag 1 Utf8 Value "stop"
+281: Tag 10 MethodRef Class index 183, Name and type index 282
+282: Tag 12 NameAndType Name index 283, Description index 284
+283: Tag 1 Utf8 Value "transaction"
+284: Tag 1 Utf8 Value "()Lorg/infinispan/configuration/cache/TransactionConfiguration;"
+285: Tag 10 MethodRef Class index 286, Name and type index 287
+286: Tag 7 Class Name index 288
+287: Tag 12 NameAndType Name index 289, Description index 290
+288: Tag 1 Utf8 Value "org/infinispan/configuration/cache/TransactionConfiguration"
+289: Tag 1 Utf8 Value "cacheStopTimeout"
+290: Tag 1 Utf8 Value "()J"
+291: Tag 10 MethodRef Class index 10, Name and type index 292
+292: Tag 12 NameAndType Name index 293, Description index 14
+293: Tag 1 Utf8 Value "ofMillis"
+294: Tag 11 InterfaceMethodRef Class index 295, Name and type index 296
+295: Tag 7 Class Name index 297
+296: Tag 12 NameAndType Name index 298, Description index 253
+297: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/SessionFactory"
+298: Tag 1 Utf8 Value "findValue"
+299: Tag 7 Class Name index 300
+300: Tag 1 Utf8 Value "java/util/Map$Entry"
+301: Tag 9 FieldRef Class index 302, Name and type index 303
+302: Tag 7 Class Name index 304
+303: Tag 12 NameAndType Name index 305, Description index 306
+304: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/logging/InfinispanWebLogger"
+305: Tag 1 Utf8 Value "ROOT_LOGGER"
+306: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/logging/InfinispanWebLogger;"
+307: Tag 8 String Contents 308
+308: Tag 1 Utf8 Value "Session %s not found"
+309: Tag 11 InterfaceMethodRef Class index 302, Name and type index 310
+310: Tag 12 NameAndType Name index 311, Description index 312
+311: Tag 1 Utf8 Value "tracef"
+312: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+313: Tag 11 InterfaceMethodRef Class index 295, Name and type index 314
+314: Tag 12 NameAndType Name index 315, Description index 316
+315: Tag 1 Utf8 Value "createImmutableSession"
+316: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/Map$Entry;)Lorg/wildfly/clustering/web/session/ImmutableSession;"
+317: Tag 11 InterfaceMethodRef Class index 318, Name and type index 319
+318: Tag 7 Class Name index 320
+319: Tag 12 NameAndType Name index 321, Description index 322
+320: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/ImmutableSession"
+321: Tag 1 Utf8 Value "getMetaData"
+322: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData;"
+323: Tag 11 InterfaceMethodRef Class index 324, Name and type index 325
+324: Tag 7 Class Name index 326
+325: Tag 12 NameAndType Name index 327, Description index 177
+326: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/ImmutableSessionMetaData"
+327: Tag 1 Utf8 Value "isExpired"
+328: Tag 8 String Contents 329
+329: Tag 1 Utf8 Value "Session %s was found, but has expired"
+330: Tag 11 InterfaceMethodRef Class index 331, Name and type index 332
+331: Tag 7 Class Name index 333
+332: Tag 12 NameAndType Name index 334, Description index 335
+333: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/SessionExpirationListener"
+334: Tag 1 Utf8 Value "sessionExpired"
+335: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/session/ImmutableSession;)V"
+336: Tag 11 InterfaceMethodRef Class index 295, Name and type index 337
+337: Tag 12 NameAndType Name index 338, Description index 339
+338: Tag 1 Utf8 Value "remove"
+339: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+340: Tag 11 InterfaceMethodRef Class index 341, Name and type index 342
+341: Tag 7 Class Name index 343
+342: Tag 12 NameAndType Name index 344, Description index 277
+343: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Scheduler"
+344: Tag 1 Utf8 Value "cancel"
+345: Tag 7 Class Name index 346
+346: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/ValidSession"
+347: Tag 11 InterfaceMethodRef Class index 295, Name and type index 348
+348: Tag 12 NameAndType Name index 349, Description index 350
+349: Tag 1 Utf8 Value "createSession"
+350: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/Map$Entry;Ljava/lang/Object;)Lorg/wildfly/clustering/web/session/Session;"
+351: Tag 10 MethodRef Class index 345, Name and type index 352
+352: Tag 12 NameAndType Name index 5, Description index 353
+353: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/session/Session;Ljava/util/function/Consumer;)V"
+354: Tag 11 InterfaceMethodRef Class index 295, Name and type index 355
+355: Tag 12 NameAndType Name index 356, Description index 357
+356: Tag 1 Utf8 Value "createValue"
+357: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+358: Tag 11 InterfaceMethodRef Class index 359, Name and type index 360
+359: Tag 7 Class Name index 361
+360: Tag 12 NameAndType Name index 321, Description index 362
+361: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/Session"
+362: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionMetaData;"
+363: Tag 11 InterfaceMethodRef Class index 364, Name and type index 365
+364: Tag 7 Class Name index 366
+365: Tag 12 NameAndType Name index 367, Description index 368
+366: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/SessionMetaData"
+367: Tag 1 Utf8 Value "setMaxInactiveInterval"
+368: Tag 1 Utf8 Value "(Ljava/time/Duration;)V"
+369: Tag 7 Class Name index 370
+370: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/SimpleImmutableSession"
+371: Tag 10 MethodRef Class index 369, Name and type index 372
+372: Tag 12 NameAndType Name index 5, Description index 335
+373: Tag 10 MethodRef Class index 16, Name and type index 374
+374: Tag 12 NameAndType Name index 375, Description index 376
+375: Tag 1 Utf8 Value "getSessions"
+376: Tag 1 Utf8 Value "([Lorg/infinispan/context/Flag;)Ljava/util/Set;"
+377: Tag 7 Class Name index 378
+378: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/CacheLocality"
+379: Tag 10 MethodRef Class index 377, Name and type index 380
+380: Tag 12 NameAndType Name index 5, Description index 381
+381: Tag 1 Utf8 Value "(Lorg/infinispan/Cache;)V"
+382: Tag 18 InvokeDynamic Bootstrap index 2, NameAndType index 383
+383: Tag 12 NameAndType Name index 205, Description index 384
+384: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;)Ljava/util/function/Predicate;"
+385: Tag 10 MethodRef Class index 145, Name and type index 386
+386: Tag 12 NameAndType Name index 387, Description index 388
+387: Tag 1 Utf8 Value "and"
+388: Tag 1 Utf8 Value "(Ljava/util/function/Predicate;)Ljava/util/function/Predicate;"
+389: Tag 18 InvokeDynamic Bootstrap index 3, NameAndType index 390
+390: Tag 12 NameAndType Name index 391, Description index 392
+391: Tag 1 Utf8 Value "apply"
+392: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+393: Tag 11 InterfaceMethodRef Class index 208, Name and type index 394
+394: Tag 12 NameAndType Name index 395, Description index 396
+395: Tag 1 Utf8 Value "map"
+396: Tag 1 Utf8 Value "(Ljava/util/function/Function;)Ljava/util/stream/Stream;"
+397: Tag 10 MethodRef Class index 398, Name and type index 399
+398: Tag 7 Class Name index 400
+399: Tag 12 NameAndType Name index 401, Description index 402
+400: Tag 1 Utf8 Value "java/util/stream/Collectors"
+401: Tag 1 Utf8 Value "toSet"
+402: Tag 1 Utf8 Value "()Ljava/util/stream/Collector;"
+403: Tag 11 InterfaceMethodRef Class index 208, Name and type index 404
+404: Tag 12 NameAndType Name index 405, Description index 406
+405: Tag 1 Utf8 Value "collect"
+406: Tag 1 Utf8 Value "(Ljava/util/stream/Collector;)Ljava/lang/Object;"
+407: Tag 7 Class Name index 408
+408: Tag 1 Utf8 Value "java/util/Set"
+409: Tag 10 MethodRef Class index 16, Name and type index 410
+410: Tag 12 NameAndType Name index 411, Description index 412
+411: Tag 1 Utf8 Value "getActiveSessions"
+412: Tag 1 Utf8 Value "()Ljava/util/Set;"
+413: Tag 11 InterfaceMethodRef Class index 407, Name and type index 414
+414: Tag 12 NameAndType Name index 415, Description index 416
+415: Tag 1 Utf8 Value "size"
+416: Tag 1 Utf8 Value "()I"
+417: Tag 11 InterfaceMethodRef Class index 418, Name and type index 419
+418: Tag 7 Class Name index 420
+419: Tag 12 NameAndType Name index 421, Description index 177
+420: Tag 1 Utf8 Value "org/infinispan/notifications/cachelistener/event/CacheEntryRemovedEvent"
+421: Tag 1 Utf8 Value "isPre"
+422: Tag 11 InterfaceMethodRef Class index 418, Name and type index 423
+423: Tag 12 NameAndType Name index 424, Description index 94
+424: Tag 1 Utf8 Value "getKey"
+425: Tag 7 Class Name index 426
+426: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/session/SessionCreationMetaDataKey"
+427: Tag 10 MethodRef Class index 425, Name and type index 428
+428: Tag 12 NameAndType Name index 429, Description index 94
+429: Tag 1 Utf8 Value "getId"
+430: Tag 7 Class Name index 431
+431: Tag 1 Utf8 Value "java/lang/String"
+432: Tag 8 String Contents 433
+433: Tag 1 Utf8 Value "Session %s will be removed"
+434: Tag 11 InterfaceMethodRef Class index 295, Name and type index 435
+435: Tag 12 NameAndType Name index 436, Description index 437
+436: Tag 1 Utf8 Value "getMetaDataFactory"
+437: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/SessionMetaDataFactory;"
+438: Tag 11 InterfaceMethodRef Class index 439, Name and type index 440
+439: Tag 7 Class Name index 441
+440: Tag 12 NameAndType Name index 442, Description index 253
+441: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/SessionMetaDataFactory"
+442: Tag 1 Utf8 Value "tryValue"
+443: Tag 11 InterfaceMethodRef Class index 439, Name and type index 444
+444: Tag 12 NameAndType Name index 445, Description index 446
+445: Tag 1 Utf8 Value "createImmutableSessionMetaData"
+446: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData;"
+447: Tag 11 InterfaceMethodRef Class index 138, Name and type index 448
+448: Tag 12 NameAndType Name index 449, Description index 277
+449: Tag 1 Utf8 Value "record"
+450: Tag 10 MethodRef Class index 451, Name and type index 452
+451: Tag 7 Class Name index 453
+452: Tag 12 NameAndType Name index 454, Description index 455
+453: Tag 1 Utf8 Value "org/infinispan/util/concurrent/CompletableFutures"
+454: Tag 1 Utf8 Value "completedNull"
+455: Tag 1 Utf8 Value "()Ljava/util/concurrent/CompletableFuture;"
+456: Tag 11 InterfaceMethodRef Class index 457, Name and type index 428
+457: Tag 7 Class Name index 458
+458: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Key"
+459: Tag 11 InterfaceMethodRef Class index 460, Name and type index 461
+460: Tag 7 Class Name index 462
+461: Tag 12 NameAndType Name index 463, Description index 339
+462: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/Locality"
+463: Tag 1 Utf8 Value "isLocal"
+464: Tag 7 Class Name index 465
+465: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/SessionManager"
+466: Tag 1 Utf8 Value "Signature"
+467: Tag 1 Utf8 Value "Lorg/wildfly/clustering/Registrar<Lorg/wildfly/clustering/web/session/SessionExpirationListener;>;"
+468: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher<Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;"
+469: Tag 1 Utf8 Value "Lorg/infinispan/Cache<Lorg/wildfly/clustering/ee/Key<Ljava/lang/String;>;*>;"
+470: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionFactory<TSC;TMV;TAV;TLC;>;"
+471: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/IdentifierFactory<Ljava/lang/String;>;"
+472: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Scheduler<Ljava/lang/String;Lorg/wildfly/clustering/web/session/SessionExpirationMetaData;>;"
+473: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Recordable<Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData;>;"
+474: Tag 1 Utf8 Value "TSC;"
+475: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/wildfly/clustering/web/session/ImmutableSession;>;"
+476: Tag 1 Utf8 Value "Lorg/wildfly/clustering/Registrar<Ljava/util/Map$Entry<TSC;Lorg/wildfly/clustering/web/session/SessionManager<TLC;Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;>;>;"
+477: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/cache/session/SessionFactory;Lorg/wildfly/clustering/web/infinispan/session/InfinispanSessionManagerConfiguration;)V"
+478: Tag 1 Utf8 Value "Code"
+479: Tag 1 Utf8 Value "LineNumberTable"
+480: Tag 1 Utf8 Value "LocalVariableTable"
+481: Tag 1 Utf8 Value "this"
+482: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/session/InfinispanSessionManager;"
+483: Tag 1 Utf8 Value "configuration"
+484: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/session/InfinispanSessionManagerConfiguration;"
+485: Tag 1 Utf8 Value "LocalVariableTypeTable"
+486: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/session/InfinispanSessionManager<TSC;TMV;TAV;TLC;>;"
+487: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/session/InfinispanSessionManagerConfiguration<TSC;TLC;>;"
+488: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/cache/session/SessionFactory<TSC;TMV;TAV;TLC;>;Lorg/wildfly/clustering/web/infinispan/session/InfinispanSessionManagerConfiguration<TSC;TLC;>;)V"
+489: Tag 1 Utf8 Value "StackMapTable"
+490: Tag 1 Utf8 Value "Ljava/util/stream/Stream;"
+491: Tag 1 Utf8 Value "Lorg/infinispan/configuration/cache/PersistenceConfiguration;"
+492: Tag 1 Utf8 Value "Ljava/util/stream/Stream<Lorg/wildfly/clustering/ee/Key<Ljava/lang/String;>;>;"
+493: Tag 1 Utf8 Value "getStopTimeout"
+494: Tag 1 Utf8 Value "()Ljava/time/Duration;"
+495: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batcher<Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;"
+496: Tag 1 Utf8 Value "getDefaultMaxInactiveInterval"
+497: Tag 1 Utf8 Value "setDefaultMaxInactiveInterval"
+498: Tag 1 Utf8 Value "duration"
+499: Tag 1 Utf8 Value "()Ljava/util/function/Supplier;"
+500: Tag 1 Utf8 Value "()Ljava/util/function/Supplier<Ljava/lang/String;>;"
+501: Tag 1 Utf8 Value "findSession"
+502: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/clustering/web/session/Session;"
+503: Tag 1 Utf8 Value "id"
+504: Tag 1 Utf8 Value "Ljava/lang/String;"
+505: Tag 1 Utf8 Value "value"
+506: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+507: Tag 1 Utf8 Value "session"
+508: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/ImmutableSession;"
+509: Tag 1 Utf8 Value "Ljava/util/Map$Entry<TMV;TAV;>;"
+510: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/clustering/web/session/Session<TLC;>;"
+511: Tag 1 Utf8 Value "entry"
+512: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/Session;"
+513: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/Session<TLC;>;"
+514: Tag 1 Utf8 Value "readSession"
+515: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/clustering/web/session/ImmutableSession;"
+516: Tag 1 Utf8 Value "()Ljava/util/Set<Ljava/lang/String;>;"
+517: Tag 1 Utf8 Value "getLocalSessions"
+518: Tag 1 Utf8 Value "keys"
+519: Tag 1 Utf8 Value "flags"
+520: Tag 1 Utf8 Value "[Lorg/infinispan/context/Flag;"
+521: Tag 1 Utf8 Value "locality"
+522: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;"
+523: Tag 7 Class Name index 520
+524: Tag 1 Utf8 Value "([Lorg/infinispan/context/Flag;)Ljava/util/Set<Ljava/lang/String;>;"
+525: Tag 1 Utf8 Value "getActiveSessionCount"
+526: Tag 1 Utf8 Value "removed"
+527: Tag 1 Utf8 Value "(Lorg/infinispan/notifications/cachelistener/event/CacheEntryRemovedEvent;)Ljava/util/concurrent/CompletionStage;"
+528: Tag 1 Utf8 Value "metaData"
+529: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData;"
+530: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionMetaDataFactory;"
+531: Tag 1 Utf8 Value "event"
+532: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/event/CacheEntryRemovedEvent;"
+533: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionMetaDataFactory<TMV;>;"
+534: Tag 1 Utf8 Value "TMV;"
+535: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/event/CacheEntryRemovedEvent<Lorg/wildfly/clustering/web/infinispan/session/SessionCreationMetaDataKey;*>;"
+536: Tag 1 Utf8 Value "(Lorg/infinispan/notifications/cachelistener/event/CacheEntryRemovedEvent<Lorg/wildfly/clustering/web/infinispan/session/SessionCreationMetaDataKey;*>;)Ljava/util/concurrent/CompletionStage<Ljava/lang/Void;>;"
+537: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+538: Tag 1 Utf8 Value "Lorg/infinispan/notifications/cachelistener/annotation/CacheEntryRemoved;"
+539: Tag 1 Utf8 Value "lambda$getSessions$1"
+540: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/ee/Key;)Ljava/lang/String;"
+541: Tag 1 Utf8 Value "key"
+542: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Key;"
+543: Tag 1 Utf8 Value "lambda$getSessions$0"
+544: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;Ljava/lang/Object;)Z"
+545: Tag 1 Utf8 Value "<SC:Ljava/lang/Object;MV:Ljava/lang/Object;AV:Ljava/lang/Object;LC:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/web/session/SessionManager<TLC;Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;"
+546: Tag 1 Utf8 Value "SourceFile"
+547: Tag 1 Utf8 Value "InfinispanSessionManager.java"
+548: Tag 1 Utf8 Value "Lorg/infinispan/notifications/Listener;"
+549: Tag 1 Utf8 Value "primaryOnly"
+550: Tag 3 Integer Value 1, hex: 0x1
+551: Tag 1 Utf8 Value "BootstrapMethods"
+552: Tag 15 MethodHandle Kind 6, Index 553
+553: Tag 10 MethodRef Class index 554, Name and type index 555
+554: Tag 7 Class Name index 556
+555: Tag 12 NameAndType Name index 557, Description index 558
+556: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+557: Tag 1 Utf8 Value "metafactory"
+558: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+559: Tag 16 MethodType Descriptor index 339
+560: Tag 15 MethodHandle Kind 9, Index 561
+561: Tag 11 InterfaceMethodRef Class index 562, Name and type index 563
+562: Tag 7 Class Name index 564
+563: Tag 12 NameAndType Name index 565, Description index 177
+564: Tag 1 Utf8 Value "org/infinispan/configuration/cache/StoreConfiguration"
+565: Tag 1 Utf8 Value "purgeOnStartup"
+566: Tag 16 MethodType Descriptor index 567
+567: Tag 1 Utf8 Value "(Lorg/infinispan/configuration/cache/StoreConfiguration;)Z"
+568: Tag 16 MethodType Descriptor index 277
+569: Tag 15 MethodHandle Kind 9, Index 570
+570: Tag 11 InterfaceMethodRef Class index 154, Name and type index 571
+571: Tag 12 NameAndType Name index 572, Description index 277
+572: Tag 1 Utf8 Value "evict"
+573: Tag 16 MethodType Descriptor index 574
+574: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/ee/Key;)V"
+575: Tag 15 MethodHandle Kind 6, Index 576
+576: Tag 10 MethodRef Class index 16, Name and type index 577
+577: Tag 12 NameAndType Name index 543, Description index 544
+578: Tag 16 MethodType Descriptor index 253
+579: Tag 15 MethodHandle Kind 6, Index 580
+580: Tag 10 MethodRef Class index 16, Name and type index 581
+581: Tag 12 NameAndType Name index 539, Description index 540
+582: Tag 16 MethodType Descriptor index 540
+583: Tag 1 Utf8 Value "InnerClasses"
+584: Tag 7 Class Name index 585
+585: Tag 1 Utf8 Value "java/util/AbstractMap"
+586: Tag 1 Utf8 Value "SimpleImmutableEntry"
+587: Tag 7 Class Name index 588
+588: Tag 1 Utf8 Value "java/util/Map"
+589: Tag 1 Utf8 Value "Entry"
+590: Tag 7 Class Name index 591
+591: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+592: Tag 7 Class Name index 593
+593: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+594: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 16, name org.wildfly.clustering.web.infinispan.session.InfinispanSessionManager
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 464
+Implements names org.wildfly.clustering.web.session.SessionManager
+
+Field name expirationRegistrar (index 49), type Lorg/wildfly/clustering/Registrar; (descriptor index 50)
+Human type: org.wildfly.clustering.Registrar
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name expirationListener (index 57), type Lorg/wildfly/clustering/web/session/SessionExpirationListener; (descriptor index 58)
+Human type: org.wildfly.clustering.web.session.SessionExpirationListener
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name batcher (index 73), type Lorg/wildfly/clustering/ee/Batcher; (descriptor index 74)
+Human type: org.wildfly.clustering.ee.Batcher
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name cache (index 33), type Lorg/infinispan/Cache; (descriptor index 34)
+Human type: org.infinispan.Cache
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name properties (index 41), type Lorg/wildfly/clustering/ee/cache/CacheProperties; (descriptor index 42)
+Human type: org.wildfly.clustering.ee.cache.CacheProperties
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name factory (index 23), type Lorg/wildfly/clustering/web/cache/session/SessionFactory; (descriptor index 24)
+Human type: org.wildfly.clustering.web.cache.session.SessionFactory
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name identifierFactory (index 65), type Lorg/wildfly/clustering/ee/cache/IdentifierFactory; (descriptor index 66)
+Human type: org.wildfly.clustering.ee.cache.IdentifierFactory
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name expirationScheduler (index 81), type Lorg/wildfly/clustering/ee/Scheduler; (descriptor index 82)
+Human type: org.wildfly.clustering.ee.Scheduler
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name recorder (index 89), type Lorg/wildfly/clustering/ee/Recordable; (descriptor index 90)
+Human type: org.wildfly.clustering.ee.Recordable
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name context (index 97), type Ljava/lang/Object; (descriptor index 98)
+Human type: java.lang.Object
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name startTask (index 111), type Ljava/lang/Runnable; (descriptor index 112)
+Human type: java.lang.Runnable
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name closeTask (index 120), type Ljava/util/function/Consumer; (descriptor index 121)
+Human type: java.util.function.Consumer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name contextRegistrar (index 104), type Lorg/wildfly/clustering/Registrar; (descriptor index 50)
+Human type: org.wildfly.clustering.Registrar
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name defaultMaxInactiveInterval (index 19), type Ljava/time/Duration; (descriptor index 20)
+Human type: java.time.Duration
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name expirationRegistration (index 166), type Lorg/wildfly/clustering/Registration; (descriptor index 136)
+Human type: org.wildfly.clustering.Registration
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name contextRegistration (index 135), type Lorg/wildfly/clustering/Registration; (descriptor index 136)
+Human type: org.wildfly.clustering.Registration
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/web/cache/session/SessionFactory;Lorg/wildfly/clustering/web/infinispan/session/InfinispanSessionManagerConfiguration;)V (descriptor index 477)
+Human type: (org.wildfly.clustering.web.cache.session.SessionFactory, org.wildfly.clustering.web.infinispan.session.InfinispanSessionManagerConfiguration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 303
+Method attribute name Signature, size 2
+Method name start (index 163), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 195
+Method name stop (index 280), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 419
+Method name getStopTimeout (index 493), type ()Ljava/time/Duration; (descriptor index 494)
+Human type: (): java.time.Duration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 79
+Method name getBatcher (index 69), type ()Lorg/wildfly/clustering/ee/Batcher; (descriptor index 70)
+Human type: (): org.wildfly.clustering.ee.Batcher
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+Method name getDefaultMaxInactiveInterval (index 496), type ()Ljava/time/Duration; (descriptor index 494)
+Human type: (): java.time.Duration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name setDefaultMaxInactiveInterval (index 497), type (Ljava/time/Duration;)V (descriptor index 368)
+Human type: (java.time.Duration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 80
+Method name getIdentifierFactory (index 61), type ()Ljava/util/function/Supplier; (descriptor index 499)
+Human type: (): java.util.function.Supplier
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+Method name findSession (index 501), type (Ljava/lang/String;)Lorg/wildfly/clustering/web/session/Session; (descriptor index 502)
+Human type: (java.lang.String): org.wildfly.clustering.web.session.Session
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 294
+Method attribute name Signature, size 2
+Method name createSession (index 349), type (Ljava/lang/String;)Lorg/wildfly/clustering/web/session/Session; (descriptor index 502)
+Human type: (java.lang.String): org.wildfly.clustering.web.session.Session
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 205
+Method attribute name Signature, size 2
+Method name readSession (index 514), type (Ljava/lang/String;)Lorg/wildfly/clustering/web/session/ImmutableSession; (descriptor index 515)
+Human type: (java.lang.String): org.wildfly.clustering.web.session.ImmutableSession
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 153
+Method name getActiveSessions (index 411), type ()Ljava/util/Set; (descriptor index 412)
+Human type: (): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 81
+Method attribute name Signature, size 2
+Method name getLocalSessions (index 517), type ()Ljava/util/Set; (descriptor index 412)
+Human type: (): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 75
+Method attribute name Signature, size 2
+Method name getSessions (index 375), type ([Lorg/infinispan/context/Flag;)Ljava/util/Set; (descriptor index 376)
+Human type: (org.infinispan.context.Flag[]): java.util.Set
+Flags: decimal 130, hex 0082, binary 0000000010000010 private varargs
+Method attribute name Code, size 323
+Method attribute name Signature, size 2
+Method name getActiveSessionCount (index 525), type ()J (descriptor index 290)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 71
+Method name removed (index 526), type (Lorg/infinispan/notifications/cachelistener/event/CacheEntryRemovedEvent;)Ljava/util/concurrent/CompletionStage; (descriptor index 527)
+Human type: (org.infinispan.notifications.cachelistener.event.CacheEntryRemovedEvent): java.util.concurrent.CompletionStage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 270
+Method attribute name Signature, size 2
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name lambda$getSessions$1 (index 539), type (Lorg/wildfly/clustering/ee/Key;)Ljava/lang/String; (descriptor index 540)
+Human type: (org.wildfly.clustering.ee.Key): java.lang.String
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 52
+Method name lambda$getSessions$0 (index 543), type (Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;Ljava/lang/Object;)Z (descriptor index 544)
+Human type: (org.wildfly.clustering.infinispan.spi.distribution.Locality, java.lang.Object): boolean
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 60
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 11
+Class attribute name BootstrapMethods, size 42
+Class attribute name InnerClasses, size 34

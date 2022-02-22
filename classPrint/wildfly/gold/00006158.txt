@@ -1,0 +1,154 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 107
+1: Tag 9 FieldRef Class index 18, Name and type index 53
+2: Tag 9 FieldRef Class index 18, Name and type index 54
+3: Tag 9 FieldRef Class index 18, Name and type index 55
+4: Tag 9 FieldRef Class index 18, Name and type index 56
+5: Tag 10 MethodRef Class index 19, Name and type index 57
+6: Tag 10 MethodRef Class index 58, Name and type index 59
+7: Tag 10 MethodRef Class index 60, Name and type index 61
+8: Tag 10 MethodRef Class index 62, Name and type index 63
+9: Tag 10 MethodRef Class index 51, Name and type index 64
+10: Tag 10 MethodRef Class index 65, Name and type index 66
+11: Tag 9 FieldRef Class index 67, Name and type index 68
+12: Tag 10 MethodRef Class index 69, Name and type index 70
+13: Tag 9 FieldRef Class index 18, Name and type index 71
+14: Tag 7 Class Name index 72
+15: Tag 10 MethodRef Class index 58, Name and type index 73
+16: Tag 11 InterfaceMethodRef Class index 74, Name and type index 75
+17: Tag 7 Class Name index 76
+18: Tag 7 Class Name index 77
+19: Tag 7 Class Name index 78
+20: Tag 7 Class Name index 79
+21: Tag 1 Utf8 Value "fileChannel"
+22: Tag 1 Utf8 Value "Ljava/nio/channels/FileChannel;"
+23: Tag 1 Utf8 Value "val$exchange"
+24: Tag 1 Utf8 Value "Lio/undertow/server/HttpServerExchange;"
+25: Tag 1 Utf8 Value "val$callback"
+26: Tag 1 Utf8 Value "Lio/undertow/io/IoCallback;"
+27: Tag 1 Utf8 Value "val$sender"
+28: Tag 1 Utf8 Value "Lio/undertow/io/Sender;"
+29: Tag 1 Utf8 Value "this$0"
+30: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/deployment/VirtualFileResource;"
+31: Tag 1 Utf8 Value "<init>"
+32: Tag 1 Utf8 Value "(Lorg/wildfly/extension/undertow/deployment/VirtualFileResource;Lio/undertow/server/HttpServerExchange;Lio/undertow/io/IoCallback;Lio/undertow/io/Sender;)V"
+33: Tag 1 Utf8 Value "Code"
+34: Tag 1 Utf8 Value "LineNumberTable"
+35: Tag 1 Utf8 Value "LocalVariableTable"
+36: Tag 1 Utf8 Value "this"
+37: Tag 1 Utf8 Value "BaseFileTask"
+38: Tag 1 Utf8 Value "InnerClasses"
+39: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/deployment/VirtualFileResource$1BaseFileTask;"
+40: Tag 1 Utf8 Value "Signature"
+41: Tag 1 Utf8 Value "()V"
+42: Tag 1 Utf8 Value "openFile"
+43: Tag 1 Utf8 Value "()Z"
+44: Tag 1 Utf8 Value "e"
+45: Tag 1 Utf8 Value "Ljava/io/FileNotFoundException;"
+46: Tag 1 Utf8 Value "Ljava/io/IOException;"
+47: Tag 1 Utf8 Value "StackMapTable"
+48: Tag 1 Utf8 Value "SourceFile"
+49: Tag 1 Utf8 Value "VirtualFileResource.java"
+50: Tag 1 Utf8 Value "EnclosingMethod"
+51: Tag 7 Class Name index 80
+52: Tag 12 NameAndType Name index 81, Description index 82
+53: Tag 12 NameAndType Name index 29, Description index 30
+54: Tag 12 NameAndType Name index 23, Description index 24
+55: Tag 12 NameAndType Name index 25, Description index 26
+56: Tag 12 NameAndType Name index 27, Description index 28
+57: Tag 12 NameAndType Name index 31, Description index 41
+58: Tag 7 Class Name index 83
+59: Tag 12 NameAndType Name index 84, Description index 85
+60: Tag 7 Class Name index 86
+61: Tag 12 NameAndType Name index 87, Description index 88
+62: Tag 7 Class Name index 89
+63: Tag 12 NameAndType Name index 90, Description index 91
+64: Tag 12 NameAndType Name index 92, Description index 93
+65: Tag 7 Class Name index 94
+66: Tag 12 NameAndType Name index 95, Description index 96
+67: Tag 7 Class Name index 97
+68: Tag 12 NameAndType Name index 98, Description index 99
+69: Tag 7 Class Name index 100
+70: Tag 12 NameAndType Name index 42, Description index 101
+71: Tag 12 NameAndType Name index 21, Description index 22
+72: Tag 1 Utf8 Value "java/io/FileNotFoundException"
+73: Tag 12 NameAndType Name index 102, Description index 103
+74: Tag 7 Class Name index 104
+75: Tag 12 NameAndType Name index 105, Description index 106
+76: Tag 1 Utf8 Value "java/io/IOException"
+77: Tag 1 Utf8 Value "org/wildfly/extension/undertow/deployment/VirtualFileResource$1BaseFileTask"
+78: Tag 1 Utf8 Value "java/lang/Object"
+79: Tag 1 Utf8 Value "java/lang/Runnable"
+80: Tag 1 Utf8 Value "org/wildfly/extension/undertow/deployment/VirtualFileResource"
+81: Tag 1 Utf8 Value "serve"
+82: Tag 1 Utf8 Value "(Lio/undertow/io/Sender;Lio/undertow/server/HttpServerExchange;Lio/undertow/io/IoCallback;)V"
+83: Tag 1 Utf8 Value "io/undertow/server/HttpServerExchange"
+84: Tag 1 Utf8 Value "getConnection"
+85: Tag 1 Utf8 Value "()Lio/undertow/server/ServerConnection;"
+86: Tag 1 Utf8 Value "io/undertow/server/ServerConnection"
+87: Tag 1 Utf8 Value "getWorker"
+88: Tag 1 Utf8 Value "()Lorg/xnio/XnioWorker;"
+89: Tag 1 Utf8 Value "org/xnio/XnioWorker"
+90: Tag 1 Utf8 Value "getXnio"
+91: Tag 1 Utf8 Value "()Lorg/xnio/Xnio;"
+92: Tag 1 Utf8 Value "access$000"
+93: Tag 1 Utf8 Value "(Lorg/wildfly/extension/undertow/deployment/VirtualFileResource;)Lorg/jboss/vfs/VirtualFile;"
+94: Tag 1 Utf8 Value "org/jboss/vfs/VirtualFile"
+95: Tag 1 Utf8 Value "getPhysicalFile"
+96: Tag 1 Utf8 Value "()Ljava/io/File;"
+97: Tag 1 Utf8 Value "org/xnio/FileAccess"
+98: Tag 1 Utf8 Value "READ_ONLY"
+99: Tag 1 Utf8 Value "Lorg/xnio/FileAccess;"
+100: Tag 1 Utf8 Value "org/xnio/Xnio"
+101: Tag 1 Utf8 Value "(Ljava/io/File;Lorg/xnio/FileAccess;)Ljava/nio/channels/FileChannel;"
+102: Tag 1 Utf8 Value "setResponseCode"
+103: Tag 1 Utf8 Value "(I)Lio/undertow/server/HttpServerExchange;"
+104: Tag 1 Utf8 Value "io/undertow/io/IoCallback"
+105: Tag 1 Utf8 Value "onException"
+106: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;Lio/undertow/io/Sender;Ljava/io/IOException;)V"
+
+Flags: decimal 1056, hex 0420, binary 0000010000100000 super abstract
+
+This class: id 18, name org.wildfly.extension.undertow.deployment.VirtualFileResource$1BaseFileTask
+
+Super class: id 19, name java.lang.Object
+
+Implements class ids 20
+Implements names java.lang.Runnable
+
+Field name fileChannel (index 21), type Ljava/nio/channels/FileChannel; (descriptor index 22)
+Human type: java.nio.channels.FileChannel
+Flags: decimal 68, hex 0044, binary 0000000001000100 protected volatile
+No field attributes
+Field name val$exchange (index 23), type Lio/undertow/server/HttpServerExchange; (descriptor index 24)
+Human type: io.undertow.server.HttpServerExchange
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$callback (index 25), type Lio/undertow/io/IoCallback; (descriptor index 26)
+Human type: io.undertow.io.IoCallback
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$sender (index 27), type Lio/undertow/io/Sender; (descriptor index 28)
+Human type: io.undertow.io.Sender
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 29), type Lorg/wildfly/extension/undertow/deployment/VirtualFileResource; (descriptor index 30)
+Human type: org.wildfly.extension.undertow.deployment.VirtualFileResource
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 31), type (Lorg/wildfly/extension/undertow/deployment/VirtualFileResource;Lio/undertow/server/HttpServerExchange;Lio/undertow/io/IoCallback;Lio/undertow/io/Sender;)V (descriptor index 32)
+Human type: (org.wildfly.extension.undertow.deployment.VirtualFileResource, io.undertow.server.HttpServerExchange, io.undertow.io.IoCallback, io.undertow.io.Sender): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 78
+Method attribute name Signature, size 2
+Method name openFile (index 42), type ()Z (descriptor index 43)
+Human type: (): boolean
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 237
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

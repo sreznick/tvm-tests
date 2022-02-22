@@ -1,0 +1,115 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 66
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/ee/component/EEModuleDescription"
+11: Tag 1 Utf8 Value "getApplicationName"
+12: Tag 1 Utf8 Value "()Ljava/lang/String;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/ee/component/EEModuleConfiguration"
+17: Tag 1 Utf8 Value "applicationName"
+18: Tag 1 Utf8 Value "Ljava/lang/String;"
+19: Tag 10 MethodRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 12
+21: Tag 1 Utf8 Value "getModuleName"
+22: Tag 9 FieldRef Class index 14, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 18
+24: Tag 1 Utf8 Value "moduleName"
+25: Tag 7 Class Name index 26
+26: Tag 1 Utf8 Value "java/util/ArrayList"
+27: Tag 10 MethodRef Class index 25, Name and type index 3
+28: Tag 9 FieldRef Class index 14, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "componentConfigurations"
+31: Tag 1 Utf8 Value "Ljava/util/List;"
+32: Tag 10 MethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "java/util/Collections"
+36: Tag 1 Utf8 Value "unmodifiableList"
+37: Tag 1 Utf8 Value "(Ljava/util/List;)Ljava/util/List;"
+38: Tag 11 InterfaceMethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "java/util/List"
+42: Tag 1 Utf8 Value "add"
+43: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+44: Tag 1 Utf8 Value "Signature"
+45: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/ee/component/ComponentConfiguration;>;"
+46: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/EEModuleDescription;)V"
+47: Tag 1 Utf8 Value "Code"
+48: Tag 1 Utf8 Value "LineNumberTable"
+49: Tag 1 Utf8 Value "LocalVariableTable"
+50: Tag 1 Utf8 Value "this"
+51: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEModuleConfiguration;"
+52: Tag 1 Utf8 Value "description"
+53: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEModuleDescription;"
+54: Tag 1 Utf8 Value "Exceptions"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+57: Tag 1 Utf8 Value "getComponentConfigurations"
+58: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+59: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/jboss/as/ee/component/ComponentConfiguration;>;"
+60: Tag 1 Utf8 Value "addComponentConfiguration"
+61: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentConfiguration;)V"
+62: Tag 1 Utf8 Value "configuration"
+63: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentConfiguration;"
+64: Tag 1 Utf8 Value "SourceFile"
+65: Tag 1 Utf8 Value "EEModuleConfiguration.java"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 14, name org.jboss.as.ee.component.EEModuleConfiguration
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name applicationName (index 17), type Ljava/lang/String; (descriptor index 18)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name moduleName (index 24), type Ljava/lang/String; (descriptor index 18)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name componentConfigurations (index 30), type Ljava/util/List; (descriptor index 31)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Lorg/jboss/as/ee/component/EEModuleDescription;)V (descriptor index 46)
+Human type: (org.jboss.as.ee.component.EEModuleDescription): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 100
+Method attribute name Exceptions, size 4
+Method name getApplicationName (index 11), type ()Ljava/lang/String; (descriptor index 12)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getModuleName (index 21), type ()Ljava/lang/String; (descriptor index 12)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getComponentConfigurations (index 57), type ()Ljava/util/Collection; (descriptor index 58)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method attribute name Signature, size 2
+Method name addComponentConfiguration (index 60), type (Lorg/jboss/as/ee/component/ComponentConfiguration;)V (descriptor index 61)
+Human type: (org.jboss.as.ee.component.ComponentConfiguration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 68
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,141 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 82
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/TracingExtensionLogger"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "java/lang/Class"
+7: Tag 1 Utf8 Value "getPackage"
+8: Tag 1 Utf8 Value "()Ljava/lang/Package;"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "java/lang/Package"
+13: Tag 1 Utf8 Value "getName"
+14: Tag 1 Utf8 Value "()Ljava/lang/String;"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+19: Tag 1 Utf8 Value "getMessageLogger"
+20: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+21: Tag 9 FieldRef Class index 1, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "ROOT_LOGGER"
+24: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/TracingExtensionLogger;"
+25: Tag 7 Class Name index 26
+26: Tag 1 Utf8 Value "java/lang/Object"
+27: Tag 7 Class Name index 28
+28: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+29: Tag 1 Utf8 Value "activatingSubsystem"
+30: Tag 1 Utf8 Value "()V"
+31: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+32: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+33: Tag 1 Utf8 Value "level"
+34: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+35: Tag 1 Utf8 Value "INFO"
+36: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+37: Tag 1 Utf8 Value "id"
+38: Tag 3 Integer Value 1, hex: 0x1
+39: Tag 1 Utf8 Value "value"
+40: Tag 1 Utf8 Value "Activating MicroProfile OpenTracing Subsystem"
+41: Tag 1 Utf8 Value "processingDeployment"
+42: Tag 1 Utf8 Value "DEBUG"
+43: Tag 3 Integer Value 2, hex: 0x2
+44: Tag 1 Utf8 Value "MicroProfile OpenTracing Subsystem is processing deployment"
+45: Tag 1 Utf8 Value "noCdiDeployment"
+46: Tag 3 Integer Value 3, hex: 0x3
+47: Tag 1 Utf8 Value "The deployment does not have Jakarta Contexts and Dependency Injection enabled. Skipping MicroProfile OpenTracing integration."
+48: Tag 1 Utf8 Value "serviceNameDerivedFromDeploymentUnit"
+49: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+50: Tag 3 Integer Value 4, hex: 0x4
+51: Tag 1 Utf8 Value "Deriving service name based on the deployment unit's name: %s"
+52: Tag 1 Utf8 Value "registeringTracerInitializer"
+53: Tag 3 Integer Value 5, hex: 0x5
+54: Tag 1 Utf8 Value "Registering the TracerInitializer filter"
+55: Tag 1 Utf8 Value "deploymentRequiresCapability"
+56: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+57: Tag 3 Integer Value 6, hex: 0x6
+58: Tag 1 Utf8 Value "Deployment %s requires use of the '%s' capability but it is not currently registered"
+59: Tag 1 Utf8 Value "tracerResolverDeployementModuleNotFound"
+60: Tag 3 Integer Value 7, hex: 0x7
+61: Tag 1 Utf8 Value "No module found for deployment %s for resolving the tracer."
+62: Tag 1 Utf8 Value "errorResolvingTracer"
+63: Tag 1 Utf8 Value "(Ljava/lang/Exception;)V"
+64: Tag 1 Utf8 Value "ERROR"
+65: Tag 3 Integer Value 8, hex: 0x8
+66: Tag 1 Utf8 Value "Error using tracer resolver to resolve the tracer."
+67: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+68: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+69: Tag 1 Utf8 Value "<clinit>"
+70: Tag 1 Utf8 Value "Code"
+71: Tag 1 Utf8 Value "LineNumberTable"
+72: Tag 1 Utf8 Value "SourceFile"
+73: Tag 1 Utf8 Value "TracingExtensionLogger.java"
+74: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+75: Tag 1 Utf8 Value "projectCode"
+76: Tag 1 Utf8 Value "WFLYTRACEXT"
+77: Tag 1 Utf8 Value "length"
+78: Tag 1 Utf8 Value "InnerClasses"
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+81: Tag 1 Utf8 Value "Level"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.wildfly.extension.microprofile.opentracing.TracingExtensionLogger
+
+Super class: id 25, name java.lang.Object
+
+Implements class ids 27
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 23), type Lorg/wildfly/extension/microprofile/opentracing/TracingExtensionLogger; (descriptor index 24)
+Human type: org.wildfly.extension.microprofile.opentracing.TracingExtensionLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name activatingSubsystem (index 29), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name processingDeployment (index 41), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name noCdiDeployment (index 45), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name serviceNameDerivedFromDeploymentUnit (index 48), type (Ljava/lang/String;)V (descriptor index 49)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name registeringTracerInitializer (index 52), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name deploymentRequiresCapability (index 55), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; (descriptor index 56)
+Human type: (java.lang.String, java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name tracerResolverDeployementModuleNotFound (index 59), type (Ljava/lang/String;)V (descriptor index 49)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name errorResolvingTracer (index 62), type (Ljava/lang/Exception;)V (descriptor index 63)
+Human type: (java.lang.Exception): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name <clinit> (index 69), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 44
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

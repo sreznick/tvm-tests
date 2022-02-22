@@ -1,0 +1,100 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 65
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/broadcast/CommandDispatcherBroadcastEndpointFactory"
+11: Tag 1 Utf8 Value "factory"
+12: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "name"
+16: Tag 1 Utf8 Value "Ljava/lang/String;"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/broadcast/CommandDispatcherBroadcastEndpoint"
+19: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "apply"
+22: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+23: Tag 10 MethodRef Class index 17, Name and type index 24
+24: Tag 12 NameAndType Name index 5, Description index 25
+25: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/dispatcher/CommandDispatcherFactory;Ljava/lang/String;Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastReceiverRegistrar;Ljava/util/function/Function;)V"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/BroadcastEndpointFactory"
+28: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory;Ljava/lang/String;)V"
+29: Tag 1 Utf8 Value "Code"
+30: Tag 1 Utf8 Value "LineNumberTable"
+31: Tag 1 Utf8 Value "LocalVariableTable"
+32: Tag 1 Utf8 Value "this"
+33: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/broadcast/CommandDispatcherBroadcastEndpointFactory;"
+34: Tag 1 Utf8 Value "createBroadcastEndpoint"
+35: Tag 1 Utf8 Value "()Lorg/apache/activemq/artemis/api/core/BroadcastEndpoint;"
+36: Tag 1 Utf8 Value "Exceptions"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "java/lang/Exception"
+39: Tag 1 Utf8 Value "SourceFile"
+40: Tag 1 Utf8 Value "CommandDispatcherBroadcastEndpointFactory.java"
+41: Tag 1 Utf8 Value "BootstrapMethods"
+42: Tag 15 MethodHandle Kind 6, Index 43
+43: Tag 10 MethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+47: Tag 1 Utf8 Value "metafactory"
+48: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+49: Tag 16 MethodType Descriptor index 50
+50: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+51: Tag 15 MethodHandle Kind 8, Index 52
+52: Tag 10 MethodRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 5, Description index 56
+55: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/broadcast/QueueBroadcastManager"
+56: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+57: Tag 16 MethodType Descriptor index 58
+58: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastManager;"
+59: Tag 1 Utf8 Value "InnerClasses"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+62: Tag 7 Class Name index 63
+63: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+64: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.messaging.activemq.broadcast.CommandDispatcherBroadcastEndpointFactory
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 26
+Implements names org.apache.activemq.artemis.api.core.BroadcastEndpointFactory
+
+Field name factory (index 11), type Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory; (descriptor index 12)
+Human type: org.wildfly.extension.messaging.activemq.broadcast.BroadcastCommandDispatcherFactory
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name name (index 15), type Ljava/lang/String; (descriptor index 16)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory;Ljava/lang/String;)V (descriptor index 28)
+Human type: (org.wildfly.extension.messaging.activemq.broadcast.BroadcastCommandDispatcherFactory, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name createBroadcastEndpoint (index 34), type ()Lorg/apache/activemq/artemis/api/core/BroadcastEndpoint; (descriptor index 35)
+Human type: (): org.apache.activemq.artemis.api.core.BroadcastEndpoint
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 10

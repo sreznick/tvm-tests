@@ -1,0 +1,124 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 88
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/service/DelegatingSupplier"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/service/ValueFactorySupplier"
+11: Tag 1 Utf8 Value "methodName"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "paramTypes"
+16: Tag 1 Utf8 Value "[Ljava/lang/Class;"
+17: Tag 9 FieldRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "args"
+20: Tag 1 Utf8 Value "[Ljava/lang/Object;"
+21: Tag 9 FieldRef Class index 8, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "objectSupplier"
+24: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+25: Tag 7 Class Name index 26
+26: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+27: Tag 8 String Contents 28
+28: Tag 1 Utf8 Value "Object supplier not available"
+29: Tag 10 MethodRef Class index 25, Name and type index 30
+30: Tag 12 NameAndType Name index 5, Description index 31
+31: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+32: Tag 11 InterfaceMethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "java/util/function/Supplier"
+36: Tag 1 Utf8 Value "get"
+37: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+38: Tag 8 String Contents 39
+39: Tag 1 Utf8 Value "Object not available"
+40: Tag 10 MethodRef Class index 41, Name and type index 42
+41: Tag 7 Class Name index 43
+42: Tag 12 NameAndType Name index 44, Description index 45
+43: Tag 1 Utf8 Value "java/lang/Object"
+44: Tag 1 Utf8 Value "getClass"
+45: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+46: Tag 10 MethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "org/jboss/as/service/ReflectionUtils"
+50: Tag 1 Utf8 Value "getMethod"
+51: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+52: Tag 10 MethodRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 56, Description index 57
+55: Tag 1 Utf8 Value "java/lang/reflect/Method"
+56: Tag 1 Utf8 Value "invoke"
+57: Tag 1 Utf8 Value "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "java/lang/IllegalAccessException"
+60: Tag 8 String Contents 61
+61: Tag 1 Utf8 Value "Method is not accessible"
+62: Tag 10 MethodRef Class index 25, Name and type index 63
+63: Tag 12 NameAndType Name index 5, Description index 64
+64: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)V"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "java/lang/reflect/InvocationTargetException"
+67: Tag 8 String Contents 68
+68: Tag 1 Utf8 Value "Failed to invoke method"
+69: Tag 1 Utf8 Value "Signature"
+70: Tag 1 Utf8 Value "[Ljava/lang/Class<*>;"
+71: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)V"
+72: Tag 1 Utf8 Value "Code"
+73: Tag 1 Utf8 Value "LineNumberTable"
+74: Tag 1 Utf8 Value "LocalVariableTable"
+75: Tag 1 Utf8 Value "this"
+76: Tag 1 Utf8 Value "Lorg/jboss/as/service/ValueFactorySupplier;"
+77: Tag 1 Utf8 Value "LocalVariableTypeTable"
+78: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/Class<*>;[Ljava/lang/Object;)V"
+79: Tag 1 Utf8 Value "e"
+80: Tag 1 Utf8 Value "Ljava/lang/IllegalAccessException;"
+81: Tag 1 Utf8 Value "Ljava/lang/reflect/InvocationTargetException;"
+82: Tag 1 Utf8 Value "o"
+83: Tag 1 Utf8 Value "Ljava/lang/Object;"
+84: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Ljava/lang/Object;>;"
+85: Tag 1 Utf8 Value "StackMapTable"
+86: Tag 1 Utf8 Value "SourceFile"
+87: Tag 1 Utf8 Value "ValueFactorySupplier.java"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 8, name org.jboss.as.service.ValueFactorySupplier
+
+Super class: id 2, name org.jboss.as.service.DelegatingSupplier
+
+No interfaces
+
+Field name methodName (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name paramTypes (index 15), type [Ljava/lang/Class; (descriptor index 16)
+Human type: java.lang.Class[]
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name args (index 19), type [Ljava/lang/Object; (descriptor index 20)
+Human type: java.lang.Object[]
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)V (descriptor index 71)
+Human type: (java.lang.String, java.lang.Class[], java.lang.Object[]): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 126
+Method attribute name Signature, size 2
+Method name get (index 36), type ()Ljava/lang/Object; (descriptor index 37)
+Human type: (): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 272
+
+Class attribute name SourceFile, size 2

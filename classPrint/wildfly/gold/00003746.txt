@@ -1,0 +1,151 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 120
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactory"
+11: Tag 1 Utf8 Value "configuration"
+12: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryConfiguration;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryConfiguration"
+17: Tag 1 Utf8 Value "getCache"
+18: Tag 1 Utf8 Value "()Lorg/infinispan/Cache;"
+19: Tag 7 Class Name index 20
+20: Tag 1 Utf8 Value "org/wildfly/clustering/ee/infinispan/InfinispanCacheProperties"
+21: Tag 11 InterfaceMethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/infinispan/Cache"
+25: Tag 1 Utf8 Value "getCacheConfiguration"
+26: Tag 1 Utf8 Value "()Lorg/infinispan/configuration/cache/Configuration;"
+27: Tag 10 MethodRef Class index 19, Name and type index 28
+28: Tag 12 NameAndType Name index 5, Description index 29
+29: Tag 1 Utf8 Value "(Lorg/infinispan/configuration/cache/Configuration;)V"
+30: Tag 7 Class Name index 31
+31: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/sso/coarse/CoarseSessionsFactory"
+32: Tag 10 MethodRef Class index 30, Name and type index 33
+33: Tag 12 NameAndType Name index 5, Description index 34
+34: Tag 1 Utf8 Value "(Lorg/infinispan/Cache;Lorg/wildfly/clustering/ee/cache/CacheProperties;)V"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/sso/InfinispanSSOFactory"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/MarshalledValueMarshaller"
+39: Tag 11 InterfaceMethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "org/wildfly/clustering/web/sso/SSOManagerConfiguration"
+43: Tag 1 Utf8 Value "getMarshalledValueFactory"
+44: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/marshalling/spi/MarshalledValueFactory;"
+45: Tag 10 MethodRef Class index 37, Name and type index 46
+46: Tag 12 NameAndType Name index 5, Description index 47
+47: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/spi/MarshalledValueFactory;)V"
+48: Tag 11 InterfaceMethodRef Class index 40, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "getLocalContextFactory"
+51: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/LocalContextFactory;"
+52: Tag 10 MethodRef Class index 35, Name and type index 53
+53: Tag 12 NameAndType Name index 5, Description index 54
+54: Tag 1 Utf8 Value "(Lorg/infinispan/Cache;Lorg/wildfly/clustering/ee/cache/CacheProperties;Lorg/wildfly/clustering/marshalling/spi/Marshaller;Lorg/wildfly/clustering/web/LocalContextFactory;Lorg/wildfly/clustering/web/cache/sso/SessionsFactory;)V"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/wildfly/clustering/ee/infinispan/affinity/AffinityIdentifierFactory"
+57: Tag 11 InterfaceMethodRef Class index 40, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "getIdentifierFactory"
+60: Tag 1 Utf8 Value "()Ljava/util/function/Supplier;"
+61: Tag 11 InterfaceMethodRef Class index 14, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "getKeyAffinityServiceFactory"
+64: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/infinispan/spi/affinity/KeyAffinityServiceFactory;"
+65: Tag 10 MethodRef Class index 55, Name and type index 66
+66: Tag 12 NameAndType Name index 5, Description index 67
+67: Tag 1 Utf8 Value "(Ljava/util/function/Supplier;Lorg/infinispan/Cache;Lorg/wildfly/clustering/infinispan/spi/affinity/KeyAffinityServiceFactory;)V"
+68: Tag 7 Class Name index 69
+69: Tag 1 Utf8 Value "org/wildfly/clustering/ee/infinispan/tx/InfinispanBatcher"
+70: Tag 10 MethodRef Class index 68, Name and type index 71
+71: Tag 12 NameAndType Name index 5, Description index 72
+72: Tag 1 Utf8 Value "(Lorg/infinispan/Cache;)V"
+73: Tag 7 Class Name index 74
+74: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/sso/CompositeSSOManager"
+75: Tag 10 MethodRef Class index 73, Name and type index 76
+76: Tag 12 NameAndType Name index 5, Description index 77
+77: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/cache/sso/SSOFactory;Lorg/wildfly/clustering/ee/cache/IdentifierFactory;Lorg/wildfly/clustering/ee/Batcher;)V"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "org/wildfly/clustering/web/sso/SSOManagerFactory"
+80: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryConfiguration;)V"
+81: Tag 1 Utf8 Value "Code"
+82: Tag 1 Utf8 Value "LineNumberTable"
+83: Tag 1 Utf8 Value "LocalVariableTable"
+84: Tag 1 Utf8 Value "this"
+85: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactory;"
+86: Tag 1 Utf8 Value "LocalVariableTypeTable"
+87: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactory<TA;TD;TS;>;"
+88: Tag 1 Utf8 Value "createSSOManager"
+89: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/sso/SSOManagerConfiguration;)Lorg/wildfly/clustering/web/sso/SSOManager;"
+90: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/sso/SSOManagerConfiguration;"
+91: Tag 1 Utf8 Value "cache"
+92: Tag 1 Utf8 Value "Lorg/infinispan/Cache;"
+93: Tag 1 Utf8 Value "properties"
+94: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/CacheProperties;"
+95: Tag 1 Utf8 Value "sessionsFactory"
+96: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/sso/SessionsFactory;"
+97: Tag 1 Utf8 Value "factory"
+98: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/sso/SSOFactory;"
+99: Tag 1 Utf8 Value "idFactory"
+100: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/IdentifierFactory;"
+101: Tag 1 Utf8 Value "batcher"
+102: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher;"
+103: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/sso/SSOManagerConfiguration<TC;TL;>;"
+104: Tag 1 Utf8 Value "Lorg/infinispan/Cache<Lorg/wildfly/clustering/ee/Key<Ljava/lang/String;>;*>;"
+105: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/sso/SessionsFactory<Ljava/util/Map<TD;TS;>;TD;TS;>;"
+106: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/sso/SSOFactory<Ljava/util/Map$Entry<TA;Ljava/util/concurrent/atomic/AtomicReference<TL;>;>;Ljava/util/Map<TD;TS;>;TA;TD;TS;TL;>;"
+107: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/IdentifierFactory<Ljava/lang/String;>;"
+108: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher<Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;"
+109: Tag 1 Utf8 Value "Signature"
+110: Tag 1 Utf8 Value "<C:Ljava/lang/Object;L:Ljava/lang/Object;>(Lorg/wildfly/clustering/web/sso/SSOManagerConfiguration<TC;TL;>;)Lorg/wildfly/clustering/web/sso/SSOManager<TA;TD;TS;TL;Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;"
+111: Tag 1 Utf8 Value "<A:Ljava/lang/Object;D:Ljava/lang/Object;S:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/web/sso/SSOManagerFactory<TA;TD;TS;Lorg/wildfly/clustering/ee/cache/tx/TransactionBatch;>;"
+112: Tag 1 Utf8 Value "SourceFile"
+113: Tag 1 Utf8 Value "InfinispanSSOManagerFactory.java"
+114: Tag 1 Utf8 Value "InnerClasses"
+115: Tag 7 Class Name index 116
+116: Tag 1 Utf8 Value "java/util/Map$Entry"
+117: Tag 7 Class Name index 118
+118: Tag 1 Utf8 Value "java/util/Map"
+119: Tag 1 Utf8 Value "Entry"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.web.infinispan.sso.InfinispanSSOManagerFactory
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 78
+Implements names org.wildfly.clustering.web.sso.SSOManagerFactory
+
+Field name configuration (index 11), type Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryConfiguration; (descriptor index 12)
+Human type: org.wildfly.clustering.web.infinispan.sso.InfinispanSSOManagerFactoryConfiguration
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/web/infinispan/sso/InfinispanSSOManagerFactoryConfiguration;)V (descriptor index 80)
+Human type: (org.wildfly.clustering.web.infinispan.sso.InfinispanSSOManagerFactoryConfiguration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method name createSSOManager (index 88), type (Lorg/wildfly/clustering/web/sso/SSOManagerConfiguration;)Lorg/wildfly/clustering/web/sso/SSOManager; (descriptor index 89)
+Human type: (org.wildfly.clustering.web.sso.SSOManagerConfiguration): org.wildfly.clustering.web.sso.SSOManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 346
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

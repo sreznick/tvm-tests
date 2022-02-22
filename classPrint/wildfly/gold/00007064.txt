@@ -1,0 +1,77 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 48
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldInjectionContextInterceptor"
+11: Tag 1 Utf8 Value "weldComponentService"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/weld/injection/WeldComponentService;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldInjectionContext"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldComponentService"
+19: Tag 1 Utf8 Value "createInjectionContext"
+20: Tag 1 Utf8 Value "()Lorg/jboss/as/weld/injection/WeldInjectionContext;"
+21: Tag 10 MethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+25: Tag 1 Utf8 Value "putPrivateData"
+26: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;"
+27: Tag 10 MethodRef Class index 22, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "proceed"
+30: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/invocation/Interceptor"
+33: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/injection/WeldComponentService;)V"
+34: Tag 1 Utf8 Value "Code"
+35: Tag 1 Utf8 Value "LineNumberTable"
+36: Tag 1 Utf8 Value "LocalVariableTable"
+37: Tag 1 Utf8 Value "this"
+38: Tag 1 Utf8 Value "Lorg/jboss/as/weld/injection/WeldInjectionContextInterceptor;"
+39: Tag 1 Utf8 Value "processInvocation"
+40: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object;"
+41: Tag 1 Utf8 Value "context"
+42: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+43: Tag 1 Utf8 Value "Exceptions"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "java/lang/Exception"
+46: Tag 1 Utf8 Value "SourceFile"
+47: Tag 1 Utf8 Value "WeldInjectionContextInterceptor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.weld.injection.WeldInjectionContextInterceptor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 31
+Implements names org.jboss.invocation.Interceptor
+
+Field name weldComponentService (index 11), type Lorg/jboss/as/weld/injection/WeldComponentService; (descriptor index 12)
+Human type: org.jboss.as.weld.injection.WeldComponentService
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/weld/injection/WeldComponentService;)V (descriptor index 33)
+Human type: (org.jboss.as.weld.injection.WeldComponentService): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name processInvocation (index 39), type (Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object; (descriptor index 40)
+Human type: (org.jboss.invocation.InterceptorContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 75
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

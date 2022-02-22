@@ -1,0 +1,209 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 158
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemAdd$2"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemAdd;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$context"
+10: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "val$vendorMetricRegistry"
+14: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;"
+15: Tag 9 FieldRef Class index 2, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "val$exposeAnySubsystem"
+18: Tag 1 Utf8 Value "Z"
+19: Tag 9 FieldRef Class index 2, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "val$exposedSubsystems"
+22: Tag 1 Utf8 Value "Ljava/util/List;"
+23: Tag 9 FieldRef Class index 2, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "val$prefix"
+26: Tag 1 Utf8 Value "Ljava/lang/String;"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "java/lang/Object"
+31: Tag 1 Utf8 Value "<init>"
+32: Tag 1 Utf8 Value "()V"
+33: Tag 11 InterfaceMethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+37: Tag 1 Utf8 Value "getServiceRegistry"
+38: Tag 1 Utf8 Value "(Z)Lorg/jboss/msc/service/ServiceRegistry;"
+39: Tag 9 FieldRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemDefinition"
+43: Tag 1 Utf8 Value "WILDFLY_COLLECTOR"
+44: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+45: Tag 11 InterfaceMethodRef Class index 46, Name and type index 47
+46: Tag 7 Class Name index 48
+47: Tag 12 NameAndType Name index 49, Description index 50
+48: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+49: Tag 1 Utf8 Value "getService"
+50: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+51: Tag 7 Class Name index 52
+52: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricCollector"
+53: Tag 11 InterfaceMethodRef Class index 54, Name and type index 55
+54: Tag 7 Class Name index 56
+55: Tag 12 NameAndType Name index 57, Description index 58
+56: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+57: Tag 1 Utf8 Value "getValue"
+58: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+59: Tag 10 MethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "java/lang/Class"
+63: Tag 1 Utf8 Value "cast"
+64: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+65: Tag 11 InterfaceMethodRef Class index 34, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 68
+67: Tag 1 Utf8 Value "getRootResourceRegistration"
+68: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;"
+69: Tag 9 FieldRef Class index 70, Name and type index 71
+70: Tag 7 Class Name index 72
+71: Tag 12 NameAndType Name index 73, Description index 74
+72: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+73: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+74: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+75: Tag 11 InterfaceMethodRef Class index 34, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 78
+77: Tag 1 Utf8 Value "readResourceFromRoot"
+78: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/registry/Resource;"
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricRegistration"
+81: Tag 10 MethodRef Class index 79, Name and type index 82
+82: Tag 12 NameAndType Name index 31, Description index 83
+83: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricRegistry;)V"
+84: Tag 11 InterfaceMethodRef Class index 85, Name and type index 86
+85: Tag 7 Class Name index 87
+86: Tag 12 NameAndType Name index 88, Description index 89
+87: Tag 1 Utf8 Value "java/util/function/Function"
+88: Tag 1 Utf8 Value "identity"
+89: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+90: Tag 10 MethodRef Class index 51, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 93
+92: Tag 1 Utf8 Value "collectResourceMetrics"
+93: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/Resource;Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;Ljava/util/function/Function;ZLjava/util/List;Ljava/lang/String;Lorg/wildfly/extension/metrics/MetricRegistration;)V"
+94: Tag 7 Class Name index 95
+95: Tag 1 Utf8 Value "io/smallrye/metrics/setup/JmxRegistrar"
+96: Tag 10 MethodRef Class index 94, Name and type index 29
+97: Tag 10 MethodRef Class index 94, Name and type index 98
+98: Tag 12 NameAndType Name index 99, Description index 32
+99: Tag 1 Utf8 Value "init"
+100: Tag 7 Class Name index 101
+101: Tag 1 Utf8 Value "java/io/IOException"
+102: Tag 9 FieldRef Class index 103, Name and type index 104
+103: Tag 7 Class Name index 105
+104: Tag 12 NameAndType Name index 106, Description index 107
+105: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/_private/MicroProfileMetricsLogger"
+106: Tag 1 Utf8 Value "LOGGER"
+107: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/_private/MicroProfileMetricsLogger;"
+108: Tag 11 InterfaceMethodRef Class index 103, Name and type index 109
+109: Tag 12 NameAndType Name index 110, Description index 111
+110: Tag 1 Utf8 Value "failedInitializeJMXRegistrar"
+111: Tag 1 Utf8 Value "(Ljava/io/IOException;)Ljava/lang/IllegalArgumentException;"
+112: Tag 7 Class Name index 113
+113: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+114: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemAdd;Lorg/jboss/as/controller/OperationContext;Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;ZLjava/util/List;Ljava/lang/String;)V"
+115: Tag 1 Utf8 Value "Code"
+116: Tag 1 Utf8 Value "LineNumberTable"
+117: Tag 1 Utf8 Value "LocalVariableTable"
+118: Tag 1 Utf8 Value "this"
+119: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemAdd$2;"
+120: Tag 1 Utf8 Value "Signature"
+121: Tag 1 Utf8 Value "execute"
+122: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+123: Tag 1 Utf8 Value "e"
+124: Tag 1 Utf8 Value "Ljava/io/IOException;"
+125: Tag 1 Utf8 Value "operationContext"
+126: Tag 1 Utf8 Value "modelNode"
+127: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+128: Tag 1 Utf8 Value "serviceController"
+129: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+130: Tag 1 Utf8 Value "metricCollector"
+131: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricCollector;"
+132: Tag 1 Utf8 Value "rootResourceRegistration"
+133: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ImmutableManagementResourceRegistration;"
+134: Tag 1 Utf8 Value "rootResource"
+135: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+136: Tag 1 Utf8 Value "registration"
+137: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricRegistration;"
+138: Tag 1 Utf8 Value "jmxRegistrar"
+139: Tag 1 Utf8 Value "Lio/smallrye/metrics/setup/JmxRegistrar;"
+140: Tag 1 Utf8 Value "LocalVariableTypeTable"
+141: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+142: Tag 1 Utf8 Value "StackMapTable"
+143: Tag 7 Class Name index 144
+144: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+145: Tag 7 Class Name index 146
+146: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ImmutableManagementResourceRegistration"
+147: Tag 7 Class Name index 148
+148: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+149: Tag 1 Utf8 Value "SourceFile"
+150: Tag 1 Utf8 Value "MicroProfileMetricsSubsystemAdd.java"
+151: Tag 1 Utf8 Value "EnclosingMethod"
+152: Tag 7 Class Name index 153
+153: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemAdd"
+154: Tag 12 NameAndType Name index 155, Description index 156
+155: Tag 1 Utf8 Value "performBoottime"
+156: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+157: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.microprofile.metrics.MicroProfileMetricsSubsystemAdd$2
+
+Super class: id 28, name java.lang.Object
+
+Implements class ids 112
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name val$context (index 9), type Lorg/jboss/as/controller/OperationContext; (descriptor index 10)
+Human type: org.jboss.as.controller.OperationContext
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$vendorMetricRegistry (index 13), type Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry; (descriptor index 14)
+Human type: org.wildfly.extension.microprofile.metrics.MicroProfileVendorMetricRegistry
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$exposeAnySubsystem (index 17), type Z (descriptor index 18)
+Human type: boolean
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$exposedSubsystems (index 21), type Ljava/util/List; (descriptor index 22)
+Human type: java.util.List
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$prefix (index 25), type Ljava/lang/String; (descriptor index 26)
+Human type: java.lang.String
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemAdd; (descriptor index 6)
+Human type: org.wildfly.extension.microprofile.metrics.MicroProfileMetricsSubsystemAdd
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 31), type (Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemAdd;Lorg/jboss/as/controller/OperationContext;Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;ZLjava/util/List;Ljava/lang/String;)V (descriptor index 114)
+Human type: (org.wildfly.extension.microprofile.metrics.MicroProfileMetricsSubsystemAdd, org.jboss.as.controller.OperationContext, org.wildfly.extension.microprofile.metrics.MicroProfileVendorMetricRegistry, boolean, java.util.List, java.lang.String): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 90
+Method attribute name Signature, size 2
+Method name execute (index 121), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 122)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 378
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

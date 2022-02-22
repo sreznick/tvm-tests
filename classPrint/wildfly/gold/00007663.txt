@@ -1,0 +1,412 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 341
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "java/lang/Object"
+7: Tag 1 Utf8 Value "<init>"
+8: Tag 1 Utf8 Value "()V"
+9: Tag 9 FieldRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ha/HAPolicyConfigurationBuilder"
+13: Tag 1 Utf8 Value "INSTANCE"
+14: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/ha/HAPolicyConfigurationBuilder;"
+15: Tag 8 String Contents 16
+16: Tag 1 Utf8 Value "ha-policy"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+21: Tag 1 Utf8 Value "hasDefined"
+22: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+23: Tag 10 MethodRef Class index 18, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "get"
+26: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+27: Tag 10 MethodRef Class index 18, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "asProperty"
+30: Tag 1 Utf8 Value "()Lorg/jboss/dmr/Property;"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/dmr/Property"
+35: Tag 1 Utf8 Value "getValue"
+36: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+37: Tag 10 MethodRef Class index 32, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "getName"
+40: Tag 1 Utf8 Value "()Ljava/lang/String;"
+41: Tag 10 MethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "java/lang/String"
+45: Tag 1 Utf8 Value "hashCode"
+46: Tag 1 Utf8 Value "()I"
+47: Tag 8 String Contents 48
+48: Tag 1 Utf8 Value "live-only"
+49: Tag 10 MethodRef Class index 42, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "equals"
+52: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+53: Tag 8 String Contents 54
+54: Tag 1 Utf8 Value "replication-master"
+55: Tag 8 String Contents 56
+56: Tag 1 Utf8 Value "replication-slave"
+57: Tag 8 String Contents 58
+58: Tag 1 Utf8 Value "replication-colocated"
+59: Tag 8 String Contents 60
+60: Tag 1 Utf8 Value "shared-store-master"
+61: Tag 8 String Contents 62
+62: Tag 1 Utf8 Value "shared-store-slave"
+63: Tag 8 String Contents 64
+64: Tag 1 Utf8 Value "shared-store-colocated"
+65: Tag 10 MethodRef Class index 10, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 68
+67: Tag 1 Utf8 Value "buildLiveOnlyConfiguration"
+68: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration;"
+69: Tag 10 MethodRef Class index 10, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 68
+71: Tag 1 Utf8 Value "buildReplicationMasterConfiguration"
+72: Tag 10 MethodRef Class index 10, Name and type index 73
+73: Tag 12 NameAndType Name index 74, Description index 68
+74: Tag 1 Utf8 Value "buildReplicationSlaveConfiguration"
+75: Tag 10 MethodRef Class index 10, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 68
+77: Tag 1 Utf8 Value "buildReplicationColocatedConfiguration"
+78: Tag 10 MethodRef Class index 10, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 68
+80: Tag 1 Utf8 Value "buildSharedStoreMasterConfiguration"
+81: Tag 10 MethodRef Class index 10, Name and type index 82
+82: Tag 12 NameAndType Name index 83, Description index 68
+83: Tag 1 Utf8 Value "buildSharedStoreSlaveConfiguration"
+84: Tag 10 MethodRef Class index 10, Name and type index 85
+85: Tag 12 NameAndType Name index 86, Description index 68
+86: Tag 1 Utf8 Value "buildSharedStoreColocatedConfiguration"
+87: Tag 7 Class Name index 88
+88: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+89: Tag 8 String Contents 90
+90: Tag 1 Utf8 Value "unknown ha policy type"
+91: Tag 10 MethodRef Class index 87, Name and type index 92
+92: Tag 12 NameAndType Name index 7, Description index 93
+93: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+94: Tag 11 InterfaceMethodRef Class index 95, Name and type index 96
+95: Tag 7 Class Name index 97
+96: Tag 12 NameAndType Name index 98, Description index 99
+97: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/config/Configuration"
+98: Tag 1 Utf8 Value "setHAPolicyConfiguration"
+99: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration;)Lorg/apache/activemq/artemis/core/config/Configuration;"
+100: Tag 10 MethodRef Class index 101, Name and type index 102
+101: Tag 7 Class Name index 103
+102: Tag 12 NameAndType Name index 104, Description index 105
+103: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ha/ScaleDownAttributes"
+104: Tag 1 Utf8 Value "addScaleDownConfiguration"
+105: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/config/ScaleDownConfiguration;"
+106: Tag 7 Class Name index 107
+107: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/config/ha/LiveOnlyPolicyConfiguration"
+108: Tag 10 MethodRef Class index 106, Name and type index 109
+109: Tag 12 NameAndType Name index 7, Description index 110
+110: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/config/ScaleDownConfiguration;)V"
+111: Tag 7 Class Name index 112
+112: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/config/ha/ReplicatedPolicyConfiguration"
+113: Tag 10 MethodRef Class index 111, Name and type index 5
+114: Tag 9 FieldRef Class index 115, Name and type index 116
+115: Tag 7 Class Name index 117
+116: Tag 12 NameAndType Name index 118, Description index 119
+117: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ha/HAAttributes"
+118: Tag 1 Utf8 Value "CHECK_FOR_LIVE_SERVER"
+119: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+120: Tag 10 MethodRef Class index 121, Name and type index 122
+121: Tag 7 Class Name index 123
+122: Tag 12 NameAndType Name index 124, Description index 125
+123: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+124: Tag 1 Utf8 Value "resolveModelAttribute"
+125: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+126: Tag 10 MethodRef Class index 18, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 129
+128: Tag 1 Utf8 Value "asBoolean"
+129: Tag 1 Utf8 Value "()Z"
+130: Tag 10 MethodRef Class index 111, Name and type index 131
+131: Tag 12 NameAndType Name index 132, Description index 133
+132: Tag 1 Utf8 Value "setCheckForLiveServer"
+133: Tag 1 Utf8 Value "(Z)Lorg/apache/activemq/artemis/core/config/ha/ReplicatedPolicyConfiguration;"
+134: Tag 9 FieldRef Class index 115, Name and type index 135
+135: Tag 12 NameAndType Name index 136, Description index 119
+136: Tag 1 Utf8 Value "INITIAL_REPLICATION_SYNC_TIMEOUT"
+137: Tag 10 MethodRef Class index 18, Name and type index 138
+138: Tag 12 NameAndType Name index 139, Description index 140
+139: Tag 1 Utf8 Value "asLong"
+140: Tag 1 Utf8 Value "()J"
+141: Tag 10 MethodRef Class index 111, Name and type index 142
+142: Tag 12 NameAndType Name index 143, Description index 144
+143: Tag 1 Utf8 Value "setInitialReplicationSyncTimeout"
+144: Tag 1 Utf8 Value "(J)Lorg/apache/activemq/artemis/core/config/ha/ReplicatedPolicyConfiguration;"
+145: Tag 9 FieldRef Class index 115, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 119
+147: Tag 1 Utf8 Value "CLUSTER_NAME"
+148: Tag 10 MethodRef Class index 18, Name and type index 149
+149: Tag 12 NameAndType Name index 150, Description index 129
+150: Tag 1 Utf8 Value "isDefined"
+151: Tag 10 MethodRef Class index 18, Name and type index 152
+152: Tag 12 NameAndType Name index 153, Description index 40
+153: Tag 1 Utf8 Value "asString"
+154: Tag 10 MethodRef Class index 111, Name and type index 155
+155: Tag 12 NameAndType Name index 156, Description index 157
+156: Tag 1 Utf8 Value "setClusterName"
+157: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/apache/activemq/artemis/core/config/ha/ReplicatedPolicyConfiguration;"
+158: Tag 9 FieldRef Class index 115, Name and type index 159
+159: Tag 12 NameAndType Name index 160, Description index 119
+160: Tag 1 Utf8 Value "GROUP_NAME"
+161: Tag 10 MethodRef Class index 111, Name and type index 162
+162: Tag 12 NameAndType Name index 163, Description index 157
+163: Tag 1 Utf8 Value "setGroupName"
+164: Tag 7 Class Name index 165
+165: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/config/ha/ReplicaPolicyConfiguration"
+166: Tag 10 MethodRef Class index 164, Name and type index 5
+167: Tag 9 FieldRef Class index 115, Name and type index 168
+168: Tag 12 NameAndType Name index 169, Description index 119
+169: Tag 1 Utf8 Value "ALLOW_FAILBACK"
+170: Tag 10 MethodRef Class index 164, Name and type index 171
+171: Tag 12 NameAndType Name index 172, Description index 173
+172: Tag 1 Utf8 Value "setAllowFailBack"
+173: Tag 1 Utf8 Value "(Z)Lorg/apache/activemq/artemis/core/config/ha/ReplicaPolicyConfiguration;"
+174: Tag 10 MethodRef Class index 164, Name and type index 175
+175: Tag 12 NameAndType Name index 143, Description index 176
+176: Tag 1 Utf8 Value "(J)Lorg/apache/activemq/artemis/core/config/ha/ReplicaPolicyConfiguration;"
+177: Tag 9 FieldRef Class index 115, Name and type index 178
+178: Tag 12 NameAndType Name index 179, Description index 119
+179: Tag 1 Utf8 Value "MAX_SAVED_REPLICATED_JOURNAL_SIZE"
+180: Tag 10 MethodRef Class index 18, Name and type index 181
+181: Tag 12 NameAndType Name index 182, Description index 46
+182: Tag 1 Utf8 Value "asInt"
+183: Tag 10 MethodRef Class index 164, Name and type index 184
+184: Tag 12 NameAndType Name index 185, Description index 186
+185: Tag 1 Utf8 Value "setMaxSavedReplicatedJournalsSize"
+186: Tag 1 Utf8 Value "(I)Lorg/apache/activemq/artemis/core/config/ha/ReplicaPolicyConfiguration;"
+187: Tag 10 MethodRef Class index 164, Name and type index 188
+188: Tag 12 NameAndType Name index 189, Description index 190
+189: Tag 1 Utf8 Value "setScaleDownConfiguration"
+190: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/config/ScaleDownConfiguration;)Lorg/apache/activemq/artemis/core/config/ha/ReplicaPolicyConfiguration;"
+191: Tag 9 FieldRef Class index 115, Name and type index 192
+192: Tag 12 NameAndType Name index 193, Description index 119
+193: Tag 1 Utf8 Value "RESTART_BACKUP"
+194: Tag 10 MethodRef Class index 164, Name and type index 195
+195: Tag 12 NameAndType Name index 196, Description index 173
+196: Tag 1 Utf8 Value "setRestartBackup"
+197: Tag 10 MethodRef Class index 164, Name and type index 198
+198: Tag 12 NameAndType Name index 156, Description index 199
+199: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/apache/activemq/artemis/core/config/ha/ReplicaPolicyConfiguration;"
+200: Tag 10 MethodRef Class index 164, Name and type index 201
+201: Tag 12 NameAndType Name index 163, Description index 199
+202: Tag 7 Class Name index 203
+203: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/config/ha/ColocatedPolicyConfiguration"
+204: Tag 10 MethodRef Class index 202, Name and type index 5
+205: Tag 9 FieldRef Class index 115, Name and type index 206
+206: Tag 12 NameAndType Name index 207, Description index 119
+207: Tag 1 Utf8 Value "REQUEST_BACKUP"
+208: Tag 10 MethodRef Class index 202, Name and type index 209
+209: Tag 12 NameAndType Name index 210, Description index 211
+210: Tag 1 Utf8 Value "setRequestBackup"
+211: Tag 1 Utf8 Value "(Z)Lorg/apache/activemq/artemis/core/config/ha/ColocatedPolicyConfiguration;"
+212: Tag 9 FieldRef Class index 115, Name and type index 213
+213: Tag 12 NameAndType Name index 214, Description index 119
+214: Tag 1 Utf8 Value "BACKUP_REQUEST_RETRIES"
+215: Tag 10 MethodRef Class index 202, Name and type index 216
+216: Tag 12 NameAndType Name index 217, Description index 218
+217: Tag 1 Utf8 Value "setBackupRequestRetries"
+218: Tag 1 Utf8 Value "(I)Lorg/apache/activemq/artemis/core/config/ha/ColocatedPolicyConfiguration;"
+219: Tag 9 FieldRef Class index 115, Name and type index 220
+220: Tag 12 NameAndType Name index 221, Description index 119
+221: Tag 1 Utf8 Value "BACKUP_REQUEST_RETRY_INTERVAL"
+222: Tag 10 MethodRef Class index 202, Name and type index 223
+223: Tag 12 NameAndType Name index 224, Description index 225
+224: Tag 1 Utf8 Value "setBackupRequestRetryInterval"
+225: Tag 1 Utf8 Value "(J)Lorg/apache/activemq/artemis/core/config/ha/ColocatedPolicyConfiguration;"
+226: Tag 9 FieldRef Class index 115, Name and type index 227
+227: Tag 12 NameAndType Name index 228, Description index 119
+228: Tag 1 Utf8 Value "MAX_BACKUPS"
+229: Tag 10 MethodRef Class index 202, Name and type index 230
+230: Tag 12 NameAndType Name index 231, Description index 218
+231: Tag 1 Utf8 Value "setMaxBackups"
+232: Tag 9 FieldRef Class index 115, Name and type index 233
+233: Tag 12 NameAndType Name index 234, Description index 119
+234: Tag 1 Utf8 Value "BACKUP_PORT_OFFSET"
+235: Tag 10 MethodRef Class index 202, Name and type index 236
+236: Tag 12 NameAndType Name index 237, Description index 218
+237: Tag 1 Utf8 Value "setBackupPortOffset"
+238: Tag 9 FieldRef Class index 115, Name and type index 239
+239: Tag 12 NameAndType Name index 240, Description index 241
+240: Tag 1 Utf8 Value "EXCLUDED_CONNECTORS"
+241: Tag 1 Utf8 Value "Lorg/jboss/as/controller/StringListAttributeDefinition;"
+242: Tag 10 MethodRef Class index 243, Name and type index 244
+243: Tag 7 Class Name index 245
+244: Tag 12 NameAndType Name index 246, Description index 247
+245: Tag 1 Utf8 Value "org/jboss/as/controller/StringListAttributeDefinition"
+246: Tag 1 Utf8 Value "unwrap"
+247: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;)Ljava/util/List;"
+248: Tag 11 InterfaceMethodRef Class index 249, Name and type index 250
+249: Tag 7 Class Name index 251
+250: Tag 12 NameAndType Name index 252, Description index 129
+251: Tag 1 Utf8 Value "java/util/List"
+252: Tag 1 Utf8 Value "isEmpty"
+253: Tag 10 MethodRef Class index 202, Name and type index 254
+254: Tag 12 NameAndType Name index 255, Description index 256
+255: Tag 1 Utf8 Value "setExcludedConnectors"
+256: Tag 1 Utf8 Value "(Ljava/util/List;)Lorg/apache/activemq/artemis/core/config/ha/ColocatedPolicyConfiguration;"
+257: Tag 8 String Contents 258
+258: Tag 1 Utf8 Value "configuration"
+259: Tag 8 String Contents 260
+260: Tag 1 Utf8 Value "master"
+261: Tag 10 MethodRef Class index 18, Name and type index 262
+262: Tag 12 NameAndType Name index 25, Description index 263
+263: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+264: Tag 10 MethodRef Class index 202, Name and type index 265
+265: Tag 12 NameAndType Name index 266, Description index 267
+266: Tag 1 Utf8 Value "setLiveConfig"
+267: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration;)Lorg/apache/activemq/artemis/core/config/ha/ColocatedPolicyConfiguration;"
+268: Tag 8 String Contents 269
+269: Tag 1 Utf8 Value "slave"
+270: Tag 10 MethodRef Class index 202, Name and type index 271
+271: Tag 12 NameAndType Name index 272, Description index 267
+272: Tag 1 Utf8 Value "setBackupConfig"
+273: Tag 7 Class Name index 274
+274: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/config/ha/SharedStoreMasterPolicyConfiguration"
+275: Tag 10 MethodRef Class index 273, Name and type index 5
+276: Tag 9 FieldRef Class index 115, Name and type index 277
+277: Tag 12 NameAndType Name index 278, Description index 119
+278: Tag 1 Utf8 Value "FAILOVER_ON_SERVER_SHUTDOWN"
+279: Tag 10 MethodRef Class index 273, Name and type index 280
+280: Tag 12 NameAndType Name index 281, Description index 282
+281: Tag 1 Utf8 Value "setFailoverOnServerShutdown"
+282: Tag 1 Utf8 Value "(Z)Lorg/apache/activemq/artemis/core/config/ha/SharedStoreMasterPolicyConfiguration;"
+283: Tag 7 Class Name index 284
+284: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/config/ha/SharedStoreSlavePolicyConfiguration"
+285: Tag 10 MethodRef Class index 283, Name and type index 5
+286: Tag 10 MethodRef Class index 283, Name and type index 287
+287: Tag 12 NameAndType Name index 172, Description index 288
+288: Tag 1 Utf8 Value "(Z)Lorg/apache/activemq/artemis/core/config/ha/SharedStoreSlavePolicyConfiguration;"
+289: Tag 10 MethodRef Class index 283, Name and type index 290
+290: Tag 12 NameAndType Name index 281, Description index 288
+291: Tag 10 MethodRef Class index 283, Name and type index 292
+292: Tag 12 NameAndType Name index 196, Description index 288
+293: Tag 10 MethodRef Class index 283, Name and type index 294
+294: Tag 12 NameAndType Name index 189, Description index 295
+295: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/config/ScaleDownConfiguration;)Lorg/apache/activemq/artemis/core/config/ha/SharedStoreSlavePolicyConfiguration;"
+296: Tag 10 MethodRef Class index 10, Name and type index 5
+297: Tag 1 Utf8 Value "Code"
+298: Tag 1 Utf8 Value "LineNumberTable"
+299: Tag 1 Utf8 Value "LocalVariableTable"
+300: Tag 1 Utf8 Value "this"
+301: Tag 1 Utf8 Value "getInstance"
+302: Tag 1 Utf8 Value "()Lorg/wildfly/extension/messaging/activemq/ha/HAPolicyConfigurationBuilder;"
+303: Tag 1 Utf8 Value "addHAPolicyConfiguration"
+304: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/apache/activemq/artemis/core/config/Configuration;Lorg/jboss/dmr/ModelNode;)V"
+305: Tag 1 Utf8 Value "haPolicyConfiguration"
+306: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration;"
+307: Tag 1 Utf8 Value "context"
+308: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+309: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/config/Configuration;"
+310: Tag 1 Utf8 Value "model"
+311: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+312: Tag 1 Utf8 Value "prop"
+313: Tag 1 Utf8 Value "Lorg/jboss/dmr/Property;"
+314: Tag 1 Utf8 Value "haPolicy"
+315: Tag 1 Utf8 Value "type"
+316: Tag 1 Utf8 Value "Ljava/lang/String;"
+317: Tag 1 Utf8 Value "StackMapTable"
+318: Tag 7 Class Name index 319
+319: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+320: Tag 7 Class Name index 321
+321: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/config/HAPolicyConfiguration"
+322: Tag 1 Utf8 Value "Exceptions"
+323: Tag 1 Utf8 Value "scaleDownConfiguration"
+324: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/config/ScaleDownConfiguration;"
+325: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/config/ha/ReplicatedPolicyConfiguration;"
+326: Tag 1 Utf8 Value "clusterName"
+327: Tag 1 Utf8 Value "groupName"
+328: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/config/ha/ReplicaPolicyConfiguration;"
+329: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/config/ha/ColocatedPolicyConfiguration;"
+330: Tag 1 Utf8 Value "connectors"
+331: Tag 1 Utf8 Value "Ljava/util/List;"
+332: Tag 1 Utf8 Value "masterConfigurationModel"
+333: Tag 1 Utf8 Value "masterConfiguration"
+334: Tag 1 Utf8 Value "slaveConfigurationModel"
+335: Tag 1 Utf8 Value "slaveConfiguration"
+336: Tag 1 Utf8 Value "LocalVariableTypeTable"
+337: Tag 1 Utf8 Value "Ljava/util/List<Ljava/lang/String;>;"
+338: Tag 1 Utf8 Value "<clinit>"
+339: Tag 1 Utf8 Value "SourceFile"
+340: Tag 1 Utf8 Value "HAPolicyConfigurationBuilder.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 10, name org.wildfly.extension.messaging.activemq.ha.HAPolicyConfigurationBuilder
+
+Super class: id 4, name java.lang.Object
+
+No interfaces
+
+Field name INSTANCE (index 13), type Lorg/wildfly/extension/messaging/activemq/ha/HAPolicyConfigurationBuilder; (descriptor index 14)
+Human type: org.wildfly.extension.messaging.activemq.ha.HAPolicyConfigurationBuilder
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 7), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name getInstance (index 301), type ()Lorg/wildfly/extension/messaging/activemq/ha/HAPolicyConfigurationBuilder; (descriptor index 302)
+Human type: (): org.wildfly.extension.messaging.activemq.ha.HAPolicyConfigurationBuilder
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 28
+Method name addHAPolicyConfiguration (index 303), type (Lorg/jboss/as/controller/OperationContext;Lorg/apache/activemq/artemis/core/config/Configuration;Lorg/jboss/dmr/ModelNode;)V (descriptor index 304)
+Human type: (org.jboss.as.controller.OperationContext, org.apache.activemq.artemis.core.config.Configuration, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 730
+Method attribute name Exceptions, size 4
+Method name buildLiveOnlyConfiguration (index 67), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration; (descriptor index 68)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.apache.activemq.artemis.core.config.HAPolicyConfiguration
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 91
+Method attribute name Exceptions, size 4
+Method name buildReplicationMasterConfiguration (index 71), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration; (descriptor index 68)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.apache.activemq.artemis.core.config.HAPolicyConfiguration
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 247
+Method attribute name Exceptions, size 4
+Method name buildReplicationSlaveConfiguration (index 74), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration; (descriptor index 68)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.apache.activemq.artemis.core.config.HAPolicyConfiguration
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 293
+Method attribute name Exceptions, size 4
+Method name buildReplicationColocatedConfiguration (index 77), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration; (descriptor index 68)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.apache.activemq.artemis.core.config.HAPolicyConfiguration
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 400
+Method attribute name Exceptions, size 4
+Method name buildSharedStoreMasterConfiguration (index 80), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration; (descriptor index 68)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.apache.activemq.artemis.core.config.HAPolicyConfiguration
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 92
+Method attribute name Exceptions, size 4
+Method name buildSharedStoreSlaveConfiguration (index 83), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration; (descriptor index 68)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.apache.activemq.artemis.core.config.HAPolicyConfiguration
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 140
+Method attribute name Exceptions, size 4
+Method name buildSharedStoreColocatedConfiguration (index 86), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/config/HAPolicyConfiguration; (descriptor index 68)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.apache.activemq.artemis.core.config.HAPolicyConfiguration
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 316
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 338), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2

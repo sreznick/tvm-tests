@@ -1,0 +1,228 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 167
+1: Tag 10 MethodRef Class index 30, Name and type index 92
+2: Tag 7 Class Name index 93
+3: Tag 10 MethodRef Class index 2, Name and type index 92
+4: Tag 9 FieldRef Class index 29, Name and type index 94
+5: Tag 7 Class Name index 95
+6: Tag 10 MethodRef Class index 5, Name and type index 92
+7: Tag 9 FieldRef Class index 29, Name and type index 96
+8: Tag 11 InterfaceMethodRef Class index 97, Name and type index 98
+9: Tag 11 InterfaceMethodRef Class index 62, Name and type index 99
+10: Tag 11 InterfaceMethodRef Class index 62, Name and type index 100
+11: Tag 7 Class Name index 101
+12: Tag 10 MethodRef Class index 11, Name and type index 102
+13: Tag 7 Class Name index 103
+14: Tag 10 MethodRef Class index 5, Name and type index 104
+15: Tag 11 InterfaceMethodRef Class index 74, Name and type index 105
+16: Tag 11 InterfaceMethodRef Class index 74, Name and type index 106
+17: Tag 10 MethodRef Class index 5, Name and type index 107
+18: Tag 11 InterfaceMethodRef Class index 74, Name and type index 98
+19: Tag 10 MethodRef Class index 13, Name and type index 108
+20: Tag 10 MethodRef Class index 109, Name and type index 110
+21: Tag 10 MethodRef Class index 109, Name and type index 111
+22: Tag 11 InterfaceMethodRef Class index 74, Name and type index 104
+23: Tag 7 Class Name index 112
+24: Tag 7 Class Name index 113
+25: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 119
+26: Tag 10 MethodRef Class index 11, Name and type index 92
+27: Tag 11 InterfaceMethodRef Class index 97, Name and type index 104
+28: Tag 10 MethodRef Class index 29, Name and type index 120
+29: Tag 7 Class Name index 122
+30: Tag 7 Class Name index 123
+31: Tag 7 Class Name index 124
+32: Tag 1 Utf8 Value "outflowSecurityDomainInjectors"
+33: Tag 1 Utf8 Value "Ljava/util/List;"
+34: Tag 1 Utf8 Value "Signature"
+35: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/security/auth/server/SecurityDomain;>;>;"
+36: Tag 1 Utf8 Value "outflowSecurityDomains"
+37: Tag 1 Utf8 Value "Ljava/util/Set;"
+38: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/wildfly/security/auth/server/SecurityDomain;>;"
+39: Tag 1 Utf8 Value "<init>"
+40: Tag 1 Utf8 Value "()V"
+41: Tag 1 Utf8 Value "Code"
+42: Tag 1 Utf8 Value "LineNumberTable"
+43: Tag 1 Utf8 Value "LocalVariableTable"
+44: Tag 1 Utf8 Value "this"
+45: Tag 1 Utf8 Value "IdentityService"
+46: Tag 1 Utf8 Value "InnerClasses"
+47: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/subsystem/IdentityResourceDefinition$IdentityService;"
+48: Tag 1 Utf8 Value "start"
+49: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+50: Tag 1 Utf8 Value "value"
+51: Tag 1 Utf8 Value "Lorg/wildfly/security/auth/server/SecurityDomain;"
+52: Tag 1 Utf8 Value "outflowSecurityDomainInjector"
+53: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+54: Tag 1 Utf8 Value "context"
+55: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+56: Tag 1 Utf8 Value "securityDomains"
+57: Tag 1 Utf8 Value "Ljava/util/HashSet;"
+58: Tag 1 Utf8 Value "LocalVariableTypeTable"
+59: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/security/auth/server/SecurityDomain;>;"
+60: Tag 1 Utf8 Value "Ljava/util/HashSet<Lorg/wildfly/security/auth/server/SecurityDomain;>;"
+61: Tag 1 Utf8 Value "StackMapTable"
+62: Tag 7 Class Name index 125
+63: Tag 1 Utf8 Value "Exceptions"
+64: Tag 7 Class Name index 126
+65: Tag 1 Utf8 Value "outflowIdentity"
+66: Tag 1 Utf8 Value "(Lorg/wildfly/security/auth/server/SecurityIdentity;)Ljava/util/Set;"
+67: Tag 1 Utf8 Value "serverAuthenticationContext"
+68: Tag 1 Utf8 Value "Lorg/wildfly/security/auth/server/ServerAuthenticationContext;"
+69: Tag 1 Utf8 Value "outflowSecurityDomain"
+70: Tag 1 Utf8 Value "securityIdentity"
+71: Tag 1 Utf8 Value "Lorg/wildfly/security/auth/server/SecurityIdentity;"
+72: Tag 1 Utf8 Value "outflowedIdentities"
+73: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/wildfly/security/auth/server/SecurityIdentity;>;"
+74: Tag 7 Class Name index 127
+75: Tag 7 Class Name index 128
+76: Tag 1 Utf8 Value "(Lorg/wildfly/security/auth/server/SecurityIdentity;)Ljava/util/Set<Lorg/wildfly/security/auth/server/SecurityIdentity;>;"
+77: Tag 1 Utf8 Value "stop"
+78: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+79: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+80: Tag 1 Utf8 Value "getValue"
+81: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+82: Tag 7 Class Name index 129
+83: Tag 1 Utf8 Value "()Ljava/util/function/Function<Lorg/wildfly/security/auth/server/SecurityIdentity;Ljava/util/Set<Lorg/wildfly/security/auth/server/SecurityIdentity;>;>;"
+84: Tag 1 Utf8 Value "createOutflowSecurityDomainInjector"
+85: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+86: Tag 1 Utf8 Value "injectedValue"
+87: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/wildfly/security/auth/server/SecurityDomain;>;"
+88: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+89: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Ljava/util/function/Function<Lorg/wildfly/security/auth/server/SecurityIdentity;Ljava/util/Set<Lorg/wildfly/security/auth/server/SecurityIdentity;>;>;>;"
+90: Tag 1 Utf8 Value "SourceFile"
+91: Tag 1 Utf8 Value "IdentityResourceDefinition.java"
+92: Tag 12 NameAndType Name index 39, Description index 40
+93: Tag 1 Utf8 Value "java/util/ArrayList"
+94: Tag 12 NameAndType Name index 32, Description index 33
+95: Tag 1 Utf8 Value "java/util/HashSet"
+96: Tag 12 NameAndType Name index 36, Description index 37
+97: Tag 7 Class Name index 130
+98: Tag 12 NameAndType Name index 131, Description index 132
+99: Tag 12 NameAndType Name index 133, Description index 134
+100: Tag 12 NameAndType Name index 135, Description index 88
+101: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+102: Tag 12 NameAndType Name index 80, Description index 88
+103: Tag 1 Utf8 Value "org/wildfly/security/auth/server/SecurityDomain"
+104: Tag 12 NameAndType Name index 136, Description index 137
+105: Tag 12 NameAndType Name index 138, Description index 139
+106: Tag 12 NameAndType Name index 140, Description index 141
+107: Tag 12 NameAndType Name index 39, Description index 142
+108: Tag 12 NameAndType Name index 143, Description index 144
+109: Tag 7 Class Name index 145
+110: Tag 12 NameAndType Name index 146, Description index 147
+111: Tag 12 NameAndType Name index 148, Description index 149
+112: Tag 1 Utf8 Value "org/wildfly/security/auth/server/RealmUnavailableException"
+113: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+114: Tag 1 Utf8 Value "BootstrapMethods"
+115: Tag 15 MethodHandle Kind 6, Index 150
+116: Tag 16 MethodType Descriptor index 151
+117: Tag 15 MethodHandle Kind 7, Index 152
+118: Tag 16 MethodType Descriptor index 66
+119: Tag 12 NameAndType Name index 153, Description index 154
+120: Tag 12 NameAndType Name index 80, Description index 81
+121: Tag 7 Class Name index 155
+122: Tag 1 Utf8 Value "org/jboss/as/ejb3/subsystem/IdentityResourceDefinition$IdentityService"
+123: Tag 1 Utf8 Value "java/lang/Object"
+124: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+125: Tag 1 Utf8 Value "java/util/Iterator"
+126: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+127: Tag 1 Utf8 Value "java/util/Set"
+128: Tag 1 Utf8 Value "java/lang/Exception"
+129: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+130: Tag 1 Utf8 Value "java/util/List"
+131: Tag 1 Utf8 Value "iterator"
+132: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+133: Tag 1 Utf8 Value "hasNext"
+134: Tag 1 Utf8 Value "()Z"
+135: Tag 1 Utf8 Value "next"
+136: Tag 1 Utf8 Value "add"
+137: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+138: Tag 1 Utf8 Value "addAll"
+139: Tag 1 Utf8 Value "(Ljava/util/Collection;)Z"
+140: Tag 1 Utf8 Value "size"
+141: Tag 1 Utf8 Value "()I"
+142: Tag 1 Utf8 Value "(I)V"
+143: Tag 1 Utf8 Value "createNewAuthenticationContext"
+144: Tag 1 Utf8 Value "()Lorg/wildfly/security/auth/server/ServerAuthenticationContext;"
+145: Tag 1 Utf8 Value "org/wildfly/security/auth/server/ServerAuthenticationContext"
+146: Tag 1 Utf8 Value "importIdentity"
+147: Tag 1 Utf8 Value "(Lorg/wildfly/security/auth/server/SecurityIdentity;)Z"
+148: Tag 1 Utf8 Value "getAuthorizedIdentity"
+149: Tag 1 Utf8 Value "()Lorg/wildfly/security/auth/server/SecurityIdentity;"
+150: Tag 10 MethodRef Class index 156, Name and type index 157
+151: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+152: Tag 10 MethodRef Class index 29, Name and type index 158
+153: Tag 1 Utf8 Value "apply"
+154: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/subsystem/IdentityResourceDefinition$IdentityService;)Ljava/util/function/Function;"
+155: Tag 1 Utf8 Value "org/jboss/as/ejb3/subsystem/IdentityResourceDefinition"
+156: Tag 7 Class Name index 159
+157: Tag 12 NameAndType Name index 160, Description index 163
+158: Tag 12 NameAndType Name index 65, Description index 66
+159: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+160: Tag 1 Utf8 Value "metafactory"
+161: Tag 7 Class Name index 165
+162: Tag 1 Utf8 Value "Lookup"
+163: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+164: Tag 7 Class Name index 166
+165: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+166: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 29, name org.jboss.as.ejb3.subsystem.IdentityResourceDefinition$IdentityService
+
+Super class: id 30, name java.lang.Object
+
+Implements class ids 31
+Implements names org.jboss.msc.service.Service
+
+Field name outflowSecurityDomainInjectors (index 32), type Ljava/util/List; (descriptor index 33)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name outflowSecurityDomains (index 36), type Ljava/util/Set; (descriptor index 37)
+Human type: java.util.Set
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+
+Method name <init> (index 39), type ()V (descriptor index 40)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 77
+Method name start (index 48), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 49)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 224
+Method attribute name Exceptions, size 4
+Method name outflowIdentity (index 65), type (Lorg/wildfly/security/auth/server/SecurityIdentity;)Ljava/util/Set; (descriptor index 66)
+Human type: (org.wildfly.security.auth.server.SecurityIdentity): java.util.Set
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 274
+Method attribute name Signature, size 2
+Method name stop (index 77), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 78)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getValue (index 80), type ()Ljava/util/function/Function; (descriptor index 81)
+Human type: (): java.util.function.Function
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 49
+Method attribute name Exceptions, size 6
+Method attribute name Signature, size 2
+Method name createOutflowSecurityDomainInjector (index 84), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 85)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 99
+Method attribute name Signature, size 2
+Method name getValue (index 80), type ()Ljava/lang/Object; (descriptor index 88)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18
+Class attribute name BootstrapMethods, size 12

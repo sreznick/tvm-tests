@@ -1,0 +1,348 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 208
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/logging/DelegatingBasicLogger"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/logging/Logger;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/deployment/OpenTelemetryExtensionLogger_$logger"
+11: Tag 1 Utf8 Value "LOCALE"
+12: Tag 1 Utf8 Value "Ljava/util/Locale;"
+13: Tag 9 FieldRef Class index 2, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "log"
+16: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+17: Tag 9 FieldRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "FQCN"
+20: Tag 1 Utf8 Value "Ljava/lang/String;"
+21: Tag 9 FieldRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+25: Tag 1 Utf8 Value "INFO"
+26: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+27: Tag 10 MethodRef Class index 8, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "activatingSubsystem$str"
+30: Tag 1 Utf8 Value "()Ljava/lang/String;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "java/lang/Object"
+33: Tag 10 MethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+37: Tag 1 Utf8 Value "logf"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/logging/Logger$Level;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V"
+39: Tag 8 String Contents 40
+40: Tag 1 Utf8 Value "WFLYOTELEXT0001: Activating OpenTelemetry Subsystem"
+41: Tag 9 FieldRef Class index 22, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 26
+43: Tag 1 Utf8 Value "DEBUG"
+44: Tag 10 MethodRef Class index 8, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 30
+46: Tag 1 Utf8 Value "processingDeployment$str"
+47: Tag 8 String Contents 48
+48: Tag 1 Utf8 Value "WFLYOTELEXT0002: OpenTelemetry Subsystem is processing deployment"
+49: Tag 10 MethodRef Class index 8, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 30
+51: Tag 1 Utf8 Value "noCdiDeployment$str"
+52: Tag 8 String Contents 53
+53: Tag 1 Utf8 Value "WFLYOTELEXT0003: The deployment does not have Jakarta Contexts and Dependency Injection enabled. Skipping OpenTelemetry integration."
+54: Tag 8 String Contents 55
+55: Tag 1 Utf8 Value "WFLYOTELEXT0004: Deployment %s requires use of the '%s' capability but it is not currently registered"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+58: Tag 10 MethodRef Class index 8, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "getLoggingLocale"
+61: Tag 1 Utf8 Value "()Ljava/util/Locale;"
+62: Tag 10 MethodRef Class index 8, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 30
+64: Tag 1 Utf8 Value "deploymentRequiresCapability$str"
+65: Tag 10 MethodRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 69, Description index 70
+68: Tag 1 Utf8 Value "java/lang/String"
+69: Tag 1 Utf8 Value "format"
+70: Tag 1 Utf8 Value "(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;"
+71: Tag 10 MethodRef Class index 56, Name and type index 72
+72: Tag 12 NameAndType Name index 5, Description index 73
+73: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+74: Tag 10 MethodRef Class index 8, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "_copyStackTraceMinusOne"
+77: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+78: Tag 10 MethodRef Class index 79, Name and type index 80
+79: Tag 7 Class Name index 81
+80: Tag 12 NameAndType Name index 82, Description index 83
+81: Tag 1 Utf8 Value "java/lang/Throwable"
+82: Tag 1 Utf8 Value "getStackTrace"
+83: Tag 1 Utf8 Value "()[Ljava/lang/StackTraceElement;"
+84: Tag 10 MethodRef Class index 85, Name and type index 86
+85: Tag 7 Class Name index 87
+86: Tag 12 NameAndType Name index 88, Description index 89
+87: Tag 1 Utf8 Value "java/util/Arrays"
+88: Tag 1 Utf8 Value "copyOfRange"
+89: Tag 1 Utf8 Value "([Ljava/lang/Object;II)[Ljava/lang/Object;"
+90: Tag 7 Class Name index 91
+91: Tag 1 Utf8 Value "[Ljava/lang/StackTraceElement;"
+92: Tag 10 MethodRef Class index 79, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 95
+94: Tag 1 Utf8 Value "setStackTrace"
+95: Tag 1 Utf8 Value "([Ljava/lang/StackTraceElement;)V"
+96: Tag 9 FieldRef Class index 22, Name and type index 97
+97: Tag 12 NameAndType Name index 98, Description index 26
+98: Tag 1 Utf8 Value "ERROR"
+99: Tag 10 MethodRef Class index 8, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 30
+101: Tag 1 Utf8 Value "errorResolvingTelemetry$str"
+102: Tag 8 String Contents 103
+103: Tag 1 Utf8 Value "WFLYOTELEXT0005: Error resolving the OpenTelemetry instance."
+104: Tag 10 MethodRef Class index 8, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 30
+106: Tag 1 Utf8 Value "serviceNameDerivedFromDeploymentUnit$str"
+107: Tag 10 MethodRef Class index 34, Name and type index 108
+108: Tag 12 NameAndType Name index 37, Description index 109
+109: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/logging/Logger$Level;Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/Object;)V"
+110: Tag 8 String Contents 111
+111: Tag 1 Utf8 Value "WFLYOTELEXT0006: Deriving service name based on the deployment unit's name: %s"
+112: Tag 10 MethodRef Class index 8, Name and type index 113
+113: Tag 12 NameAndType Name index 114, Description index 30
+114: Tag 1 Utf8 Value "registeringTracer$str"
+115: Tag 8 String Contents 116
+116: Tag 1 Utf8 Value "WFLYOTELEXT0007: Registering %s as the OpenTelemetry Tracer"
+117: Tag 8 String Contents 118
+118: Tag 1 Utf8 Value "WFLYOTELEXT0008: An unsupported exporter was specified: '%s'."
+119: Tag 7 Class Name index 120
+120: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+121: Tag 10 MethodRef Class index 8, Name and type index 122
+122: Tag 12 NameAndType Name index 123, Description index 30
+123: Tag 1 Utf8 Value "unsupportedExporter$str"
+124: Tag 10 MethodRef Class index 119, Name and type index 72
+125: Tag 10 MethodRef Class index 8, Name and type index 126
+126: Tag 12 NameAndType Name index 127, Description index 30
+127: Tag 1 Utf8 Value "errorResolvingTracer$str"
+128: Tag 8 String Contents 129
+129: Tag 1 Utf8 Value "WFLYOTELEXT0009: Error resolving the tracer."
+130: Tag 8 String Contents 131
+131: Tag 1 Utf8 Value "WFLYOTELEXT0010: An unsupported span processor was specified: '%s'."
+132: Tag 10 MethodRef Class index 8, Name and type index 133
+133: Tag 12 NameAndType Name index 134, Description index 30
+134: Tag 1 Utf8 Value "unsupportedSpanProcessor$str"
+135: Tag 8 String Contents 136
+136: Tag 1 Utf8 Value "WFLYOTELEXT0011: Unrecognized value for sampler: '%s'."
+137: Tag 10 MethodRef Class index 8, Name and type index 138
+138: Tag 12 NameAndType Name index 139, Description index 30
+139: Tag 1 Utf8 Value "unsupportedSampler$str"
+140: Tag 8 String Contents 141
+141: Tag 1 Utf8 Value "WFLYOTELEXT0012: Invalid ratio. Must be between 0.0 and 1.0 inclusive"
+142: Tag 10 MethodRef Class index 8, Name and type index 143
+143: Tag 12 NameAndType Name index 144, Description index 30
+144: Tag 1 Utf8 Value "invalidRatio$str"
+145: Tag 10 MethodRef Class index 146, Name and type index 147
+146: Tag 7 Class Name index 148
+147: Tag 12 NameAndType Name index 149, Description index 30
+148: Tag 1 Utf8 Value "java/lang/Class"
+149: Tag 1 Utf8 Value "getName"
+150: Tag 9 FieldRef Class index 151, Name and type index 152
+151: Tag 7 Class Name index 153
+152: Tag 12 NameAndType Name index 154, Description index 12
+153: Tag 1 Utf8 Value "java/util/Locale"
+154: Tag 1 Utf8 Value "ROOT"
+155: Tag 7 Class Name index 156
+156: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/deployment/OpenTelemetryExtensionLogger"
+157: Tag 7 Class Name index 158
+158: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+159: Tag 7 Class Name index 160
+160: Tag 1 Utf8 Value "java/io/Serializable"
+161: Tag 1 Utf8 Value "serialVersionUID"
+162: Tag 1 Utf8 Value "J"
+163: Tag 1 Utf8 Value "ConstantValue"
+164: Tag 5 Long Value 1
+166: Tag 1 Utf8 Value "Code"
+167: Tag 1 Utf8 Value "LineNumberTable"
+168: Tag 1 Utf8 Value "LocalVariableTable"
+169: Tag 1 Utf8 Value "this"
+170: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/deployment/OpenTelemetryExtensionLogger_$logger;"
+171: Tag 1 Utf8 Value "activatingSubsystem"
+172: Tag 1 Utf8 Value "()V"
+173: Tag 1 Utf8 Value "processingDeployment"
+174: Tag 1 Utf8 Value "noCdiDeployment"
+175: Tag 1 Utf8 Value "deploymentRequiresCapability"
+176: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+177: Tag 1 Utf8 Value "deploymentName"
+178: Tag 1 Utf8 Value "capabilityName"
+179: Tag 1 Utf8 Value "result"
+180: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+181: Tag 1 Utf8 Value "e"
+182: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+183: Tag 1 Utf8 Value "st"
+184: Tag 1 Utf8 Value "errorResolvingTelemetry"
+185: Tag 1 Utf8 Value "(Ljava/lang/Exception;)V"
+186: Tag 1 Utf8 Value "ex"
+187: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+188: Tag 1 Utf8 Value "serviceNameDerivedFromDeploymentUnit"
+189: Tag 1 Utf8 Value "serviceName"
+190: Tag 1 Utf8 Value "registeringTracer"
+191: Tag 1 Utf8 Value "message"
+192: Tag 1 Utf8 Value "unsupportedExporter"
+193: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+194: Tag 1 Utf8 Value "exporterType"
+195: Tag 1 Utf8 Value "Ljava/lang/IllegalArgumentException;"
+196: Tag 1 Utf8 Value "errorResolvingTracer"
+197: Tag 1 Utf8 Value "unsupportedSpanProcessor"
+198: Tag 1 Utf8 Value "spanProcessor"
+199: Tag 1 Utf8 Value "unsupportedSampler"
+200: Tag 1 Utf8 Value "sampler"
+201: Tag 1 Utf8 Value "invalidRatio"
+202: Tag 1 Utf8 Value "()Ljava/lang/IllegalArgumentException;"
+203: Tag 1 Utf8 Value "<clinit>"
+204: Tag 1 Utf8 Value "SourceFile"
+205: Tag 1 Utf8 Value "OpenTelemetryExtensionLogger_$logger.java"
+206: Tag 1 Utf8 Value "InnerClasses"
+207: Tag 1 Utf8 Value "Level"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.opentelemetry.deployment.OpenTelemetryExtensionLogger_$logger
+
+Super class: id 2, name org.jboss.logging.DelegatingBasicLogger
+
+Implements class ids 155 157 159
+Implements names org.wildfly.extension.opentelemetry.deployment.OpenTelemetryExtensionLogger org.jboss.logging.BasicLogger java.io.Serializable
+
+Field name serialVersionUID (index 161), type J (descriptor index 162)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name FQCN (index 19), type Ljava/lang/String; (descriptor index 20)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name LOCALE (index 11), type Ljava/util/Locale; (descriptor index 12)
+Human type: java.util.Locale
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/logging/Logger;)V (descriptor index 6)
+Human type: (org.jboss.logging.Logger): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getLoggingLocale (index 60), type ()Ljava/util/Locale; (descriptor index 61)
+Human type: (): java.util.Locale
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 46
+Method name activatingSubsystem (index 171), type ()V (descriptor index 172)
+Human type: (): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 69
+Method name activatingSubsystem$str (index 29), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name processingDeployment (index 173), type ()V (descriptor index 172)
+Human type: (): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 69
+Method name processingDeployment$str (index 46), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name noCdiDeployment (index 174), type ()V (descriptor index 172)
+Human type: (): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 69
+Method name noCdiDeployment$str (index 51), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name deploymentRequiresCapability$str (index 64), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name deploymentRequiresCapability (index 175), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 176)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 117
+Method name _copyStackTraceMinusOne (index 76), type (Ljava/lang/Throwable;)V (descriptor index 77)
+Human type: (java.lang.Throwable): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 80
+Method name errorResolvingTelemetry (index 184), type (Ljava/lang/Exception;)V (descriptor index 185)
+Human type: (java.lang.Exception): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 79
+Method name errorResolvingTelemetry$str (index 101), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name serviceNameDerivedFromDeploymentUnit (index 188), type (Ljava/lang/String;)V (descriptor index 73)
+Human type: (java.lang.String): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 76
+Method name serviceNameDerivedFromDeploymentUnit$str (index 106), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name registeringTracer (index 190), type (Ljava/lang/String;)V (descriptor index 73)
+Human type: (java.lang.String): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 76
+Method name registeringTracer$str (index 114), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name unsupportedExporter$str (index 123), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name unsupportedExporter (index 192), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 193)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 103
+Method name errorResolvingTracer (index 196), type (Ljava/lang/Exception;)V (descriptor index 185)
+Human type: (java.lang.Exception): void
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 79
+Method name errorResolvingTracer$str (index 127), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name unsupportedSpanProcessor$str (index 134), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name unsupportedSpanProcessor (index 197), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 193)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 103
+Method name unsupportedSampler$str (index 139), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name unsupportedSampler (index 199), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 193)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 103
+Method name invalidRatio$str (index 144), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 45
+Method name invalidRatio (index 201), type ()Ljava/lang/IllegalArgumentException; (descriptor index 202)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 17, hex 0011, binary 0000000000010001 public final
+Method attribute name Code, size 89
+Method name <clinit> (index 203), type ()V (descriptor index 172)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 43
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

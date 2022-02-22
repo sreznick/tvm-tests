@@ -1,0 +1,147 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 99
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/pojo/descriptor/AbstractConfigVisitorNode"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 9 FieldRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/jboss/as/pojo/descriptor/ModuleConfig"
+14: Tag 1 Utf8 Value "injectedModule"
+15: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+16: Tag 9 FieldRef Class index 11, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "moduleName"
+19: Tag 1 Utf8 Value "Ljava/lang/String;"
+20: Tag 10 MethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/jboss/modules/ModuleIdentifier"
+24: Tag 1 Utf8 Value "fromString"
+25: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/modules/ModuleIdentifier;"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "org/jboss/as/server/moduleservice/ServiceModuleLoader"
+28: Tag 8 String Contents 29
+29: Tag 1 Utf8 Value "deployment."
+30: Tag 10 MethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "java/lang/String"
+34: Tag 1 Utf8 Value "startsWith"
+35: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+36: Tag 10 MethodRef Class index 26, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 39
+38: Tag 1 Utf8 Value "moduleServiceName"
+39: Tag 1 Utf8 Value "(Lorg/jboss/modules/ModuleIdentifier;)Lorg/jboss/msc/service/ServiceName;"
+40: Tag 10 MethodRef Class index 11, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 43
+42: Tag 1 Utf8 Value "getInjectedModule"
+43: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue;"
+44: Tag 11 InterfaceMethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "org/jboss/as/pojo/descriptor/ConfigVisitor"
+48: Tag 1 Utf8 Value "addDependency"
+49: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/inject/Injector;)V"
+50: Tag 11 InterfaceMethodRef Class index 45, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "loadModule"
+53: Tag 1 Utf8 Value "(Lorg/jboss/modules/ModuleIdentifier;)Lorg/jboss/modules/Module;"
+54: Tag 7 Class Name index 55
+55: Tag 1 Utf8 Value "org/jboss/msc/value/ImmediateValue"
+56: Tag 10 MethodRef Class index 54, Name and type index 57
+57: Tag 12 NameAndType Name index 5, Description index 58
+58: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+59: Tag 10 MethodRef Class index 7, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "setValue"
+62: Tag 1 Utf8 Value "(Lorg/jboss/msc/value/Value;)V"
+63: Tag 11 InterfaceMethodRef Class index 45, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "getModule"
+66: Tag 1 Utf8 Value "()Lorg/jboss/modules/Module;"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "java/io/Serializable"
+69: Tag 1 Utf8 Value "serialVersionUID"
+70: Tag 1 Utf8 Value "J"
+71: Tag 1 Utf8 Value "ConstantValue"
+72: Tag 5 Long Value 1
+74: Tag 1 Utf8 Value "Signature"
+75: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/modules/Module;>;"
+76: Tag 1 Utf8 Value "Code"
+77: Tag 1 Utf8 Value "LineNumberTable"
+78: Tag 1 Utf8 Value "LocalVariableTable"
+79: Tag 1 Utf8 Value "this"
+80: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/descriptor/ModuleConfig;"
+81: Tag 1 Utf8 Value "visit"
+82: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/descriptor/ConfigVisitor;)V"
+83: Tag 1 Utf8 Value "serviceName"
+84: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+85: Tag 1 Utf8 Value "dm"
+86: Tag 1 Utf8 Value "Lorg/jboss/modules/Module;"
+87: Tag 1 Utf8 Value "identifier"
+88: Tag 1 Utf8 Value "Lorg/jboss/modules/ModuleIdentifier;"
+89: Tag 1 Utf8 Value "visitor"
+90: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/descriptor/ConfigVisitor;"
+91: Tag 1 Utf8 Value "StackMapTable"
+92: Tag 1 Utf8 Value "getModuleName"
+93: Tag 1 Utf8 Value "()Ljava/lang/String;"
+94: Tag 1 Utf8 Value "setModuleName"
+95: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+96: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/modules/Module;>;"
+97: Tag 1 Utf8 Value "SourceFile"
+98: Tag 1 Utf8 Value "ModuleConfig.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.jboss.as.pojo.descriptor.ModuleConfig
+
+Super class: id 2, name org.jboss.as.pojo.descriptor.AbstractConfigVisitorNode
+
+Implements class ids 67
+Implements names java.io.Serializable
+
+Field name serialVersionUID (index 69), type J (descriptor index 70)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name moduleName (index 18), type Ljava/lang/String; (descriptor index 19)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name injectedModule (index 14), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 15)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name visit (index 81), type (Lorg/jboss/as/pojo/descriptor/ConfigVisitor;)V (descriptor index 82)
+Human type: (org.jboss.as.pojo.descriptor.ConfigVisitor): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 234
+Method name getModuleName (index 92), type ()Ljava/lang/String; (descriptor index 93)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setModuleName (index 94), type (Ljava/lang/String;)V (descriptor index 95)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getInjectedModule (index 42), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 43)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2

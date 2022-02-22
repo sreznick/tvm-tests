@@ -1,0 +1,106 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 81
+1: Tag 10 MethodRef Class index 15, Name and type index 45
+2: Tag 8 String Contents 46
+3: Tag 10 MethodRef Class index 38, Name and type index 47
+4: Tag 11 InterfaceMethodRef Class index 40, Name and type index 48
+5: Tag 9 FieldRef Class index 49, Name and type index 50
+6: Tag 11 InterfaceMethodRef Class index 40, Name and type index 51
+7: Tag 11 InterfaceMethodRef Class index 49, Name and type index 52
+8: Tag 11 InterfaceMethodRef Class index 40, Name and type index 53
+9: Tag 10 MethodRef Class index 38, Name and type index 54
+10: Tag 7 Class Name index 55
+11: Tag 11 InterfaceMethodRef Class index 49, Name and type index 56
+12: Tag 7 Class Name index 57
+13: Tag 7 Class Name index 58
+14: Tag 7 Class Name index 59
+15: Tag 7 Class Name index 60
+16: Tag 1 Utf8 Value "<init>"
+17: Tag 1 Utf8 Value "()V"
+18: Tag 1 Utf8 Value "Code"
+19: Tag 1 Utf8 Value "LineNumberTable"
+20: Tag 1 Utf8 Value "LocalVariableTable"
+21: Tag 1 Utf8 Value "this"
+22: Tag 1 Utf8 Value "Lorg/wildfly/iiop/openjdk/security/Util;"
+23: Tag 1 Utf8 Value "forDomain"
+24: Tag 1 Utf8 Value "(Lorg/jboss/security/JSSESecurityDomain;)Ljavax/net/ssl/SSLContext;"
+25: Tag 1 Utf8 Value "keyManagers"
+26: Tag 1 Utf8 Value "[Ljavax/net/ssl/KeyManager;"
+27: Tag 1 Utf8 Value "trustManagers"
+28: Tag 1 Utf8 Value "[Ljavax/net/ssl/TrustManager;"
+29: Tag 1 Utf8 Value "e"
+30: Tag 1 Utf8 Value "Ljava/security/NoSuchAlgorithmException;"
+31: Tag 1 Utf8 Value "Ljava/security/KeyManagementException;"
+32: Tag 1 Utf8 Value "Ljava/lang/SecurityException;"
+33: Tag 1 Utf8 Value "securityDomain"
+34: Tag 1 Utf8 Value "Lorg/jboss/security/JSSESecurityDomain;"
+35: Tag 1 Utf8 Value "sslCtx"
+36: Tag 1 Utf8 Value "Ljavax/net/ssl/SSLContext;"
+37: Tag 1 Utf8 Value "StackMapTable"
+38: Tag 7 Class Name index 61
+39: Tag 7 Class Name index 26
+40: Tag 7 Class Name index 62
+41: Tag 1 Utf8 Value "Exceptions"
+42: Tag 7 Class Name index 63
+43: Tag 1 Utf8 Value "SourceFile"
+44: Tag 1 Utf8 Value "Util.java"
+45: Tag 12 NameAndType Name index 16, Description index 17
+46: Tag 1 Utf8 Value "TLS"
+47: Tag 12 NameAndType Name index 64, Description index 65
+48: Tag 12 NameAndType Name index 66, Description index 67
+49: Tag 7 Class Name index 68
+50: Tag 12 NameAndType Name index 69, Description index 70
+51: Tag 12 NameAndType Name index 71, Description index 72
+52: Tag 12 NameAndType Name index 73, Description index 74
+53: Tag 12 NameAndType Name index 75, Description index 76
+54: Tag 12 NameAndType Name index 77, Description index 78
+55: Tag 1 Utf8 Value "java/security/NoSuchAlgorithmException"
+56: Tag 12 NameAndType Name index 79, Description index 80
+57: Tag 1 Utf8 Value "java/security/KeyManagementException"
+58: Tag 1 Utf8 Value "java/lang/SecurityException"
+59: Tag 1 Utf8 Value "org/wildfly/iiop/openjdk/security/Util"
+60: Tag 1 Utf8 Value "java/lang/Object"
+61: Tag 1 Utf8 Value "javax/net/ssl/SSLContext"
+62: Tag 1 Utf8 Value "org/jboss/security/JSSESecurityDomain"
+63: Tag 1 Utf8 Value "java/io/IOException"
+64: Tag 1 Utf8 Value "getInstance"
+65: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;"
+66: Tag 1 Utf8 Value "getKeyManagers"
+67: Tag 1 Utf8 Value "()[Ljavax/net/ssl/KeyManager;"
+68: Tag 1 Utf8 Value "org/wildfly/iiop/openjdk/logging/IIOPLogger"
+69: Tag 1 Utf8 Value "ROOT_LOGGER"
+70: Tag 1 Utf8 Value "Lorg/wildfly/iiop/openjdk/logging/IIOPLogger;"
+71: Tag 1 Utf8 Value "getSecurityDomain"
+72: Tag 1 Utf8 Value "()Ljava/lang/String;"
+73: Tag 1 Utf8 Value "errorObtainingKeyManagers"
+74: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/io/IOException;"
+75: Tag 1 Utf8 Value "getTrustManagers"
+76: Tag 1 Utf8 Value "()[Ljavax/net/ssl/TrustManager;"
+77: Tag 1 Utf8 Value "init"
+78: Tag 1 Utf8 Value "([Ljavax/net/ssl/KeyManager;[Ljavax/net/ssl/TrustManager;Ljava/security/SecureRandom;)V"
+79: Tag 1 Utf8 Value "failedToGetSSLContext"
+80: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/io/IOException;"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 14, name org.wildfly.iiop.openjdk.security.Util
+
+Super class: id 15, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name <init> (index 16), type ()V (descriptor index 17)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method name forDomain (index 23), type (Lorg/jboss/security/JSSESecurityDomain;)Ljavax/net/ssl/SSLContext; (descriptor index 24)
+Human type: (org.jboss.security.JSSESecurityDomain): javax.net.ssl.SSLContext
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 302
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

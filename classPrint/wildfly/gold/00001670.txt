@@ -1,0 +1,141 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 97
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+3: Tag 7 Class Name index 4
+4: Tag 1 Utf8 Value "org/jboss/as/pojo/PojoExtension"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "java/lang/Object"
+9: Tag 1 Utf8 Value "<init>"
+10: Tag 1 Utf8 Value "()V"
+11: Tag 8 String Contents 12
+12: Tag 1 Utf8 Value "urn:jboss:domain:pojo:1.0"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/controller/persistence/SubsystemMarshallingContext"
+17: Tag 1 Utf8 Value "startSubsystemElement"
+18: Tag 1 Utf8 Value "(Ljava/lang/String;Z)V"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/controller/parsing/ParseUtils"
+23: Tag 1 Utf8 Value "requireNoContent"
+24: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;)V"
+25: Tag 7 Class Name index 26
+26: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+27: Tag 10 MethodRef Class index 25, Name and type index 7
+28: Tag 8 String Contents 29
+29: Tag 1 Utf8 Value "operation"
+30: Tag 10 MethodRef Class index 25, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "get"
+33: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+34: Tag 8 String Contents 35
+35: Tag 1 Utf8 Value "add"
+36: Tag 10 MethodRef Class index 25, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 33
+38: Tag 1 Utf8 Value "set"
+39: Tag 8 String Contents 40
+40: Tag 1 Utf8 Value "address"
+41: Tag 8 String Contents 42
+42: Tag 1 Utf8 Value "subsystem"
+43: Tag 8 String Contents 44
+44: Tag 1 Utf8 Value "pojo"
+45: Tag 10 MethodRef Class index 25, Name and type index 46
+46: Tag 12 NameAndType Name index 35, Description index 47
+47: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+48: Tag 11 InterfaceMethodRef Class index 49, Name and type index 50
+49: Tag 7 Class Name index 51
+50: Tag 12 NameAndType Name index 35, Description index 52
+51: Tag 1 Utf8 Value "java/util/List"
+52: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+53: Tag 10 MethodRef Class index 54, Name and type index 55
+54: Tag 7 Class Name index 56
+55: Tag 12 NameAndType Name index 57, Description index 58
+56: Tag 1 Utf8 Value "org/jboss/as/pojo/PojoExtension$PojoSubsystemParser"
+57: Tag 1 Utf8 Value "readElement"
+58: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;Ljava/util/List;)V"
+59: Tag 10 MethodRef Class index 54, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "writeContent"
+62: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamWriter;Lorg/jboss/as/controller/persistence/SubsystemMarshallingContext;)V"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "javax/xml/stream/XMLStreamConstants"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "org/jboss/staxmapper/XMLElementReader"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "org/jboss/staxmapper/XMLElementWriter"
+69: Tag 1 Utf8 Value "Code"
+70: Tag 1 Utf8 Value "LineNumberTable"
+71: Tag 1 Utf8 Value "LocalVariableTable"
+72: Tag 1 Utf8 Value "this"
+73: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/PojoExtension$PojoSubsystemParser;"
+74: Tag 1 Utf8 Value "writer"
+75: Tag 1 Utf8 Value "Lorg/jboss/staxmapper/XMLExtendedStreamWriter;"
+76: Tag 1 Utf8 Value "context"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/controller/persistence/SubsystemMarshallingContext;"
+78: Tag 1 Utf8 Value "Exceptions"
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "javax/xml/stream/XMLStreamException"
+81: Tag 1 Utf8 Value "reader"
+82: Tag 1 Utf8 Value "Lorg/jboss/staxmapper/XMLExtendedStreamReader;"
+83: Tag 1 Utf8 Value "list"
+84: Tag 1 Utf8 Value "Ljava/util/List;"
+85: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+86: Tag 1 Utf8 Value "LocalVariableTypeTable"
+87: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/dmr/ModelNode;>;"
+88: Tag 1 Utf8 Value "Signature"
+89: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;Ljava/util/List<Lorg/jboss/dmr/ModelNode;>;)V"
+90: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;Ljava/lang/Object;)V"
+91: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamWriter;Ljava/lang/Object;)V"
+92: Tag 1 Utf8 Value "Ljava/lang/Object;Ljavax/xml/stream/XMLStreamConstants;Lorg/jboss/staxmapper/XMLElementReader<Ljava/util/List<Lorg/jboss/dmr/ModelNode;>;>;Lorg/jboss/staxmapper/XMLElementWriter<Lorg/jboss/as/controller/persistence/SubsystemMarshallingContext;>;"
+93: Tag 1 Utf8 Value "SourceFile"
+94: Tag 1 Utf8 Value "PojoExtension.java"
+95: Tag 1 Utf8 Value "InnerClasses"
+96: Tag 1 Utf8 Value "PojoSubsystemParser"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 54, name org.jboss.as.pojo.PojoExtension$PojoSubsystemParser
+
+Super class: id 6, name java.lang.Object
+
+Implements class ids 63 65 67
+Implements names javax.xml.stream.XMLStreamConstants org.jboss.staxmapper.XMLElementReader org.jboss.staxmapper.XMLElementWriter
+
+No fields
+
+Method name <init> (index 9), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method name writeContent (index 61), type (Lorg/jboss/staxmapper/XMLExtendedStreamWriter;Lorg/jboss/as/controller/persistence/SubsystemMarshallingContext;)V (descriptor index 62)
+Human type: (org.jboss.staxmapper.XMLExtendedStreamWriter, org.jboss.as.controller.persistence.SubsystemMarshallingContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method attribute name Exceptions, size 4
+Method name readElement (index 57), type (Lorg/jboss/staxmapper/XMLExtendedStreamReader;Ljava/util/List;)V (descriptor index 58)
+Human type: (org.jboss.staxmapper.XMLExtendedStreamReader, java.util.List): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 157
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name readElement (index 57), type (Lorg/jboss/staxmapper/XMLExtendedStreamReader;Ljava/lang/Object;)V (descriptor index 90)
+Human type: (org.jboss.staxmapper.XMLExtendedStreamReader, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name writeContent (index 61), type (Lorg/jboss/staxmapper/XMLExtendedStreamWriter;Ljava/lang/Object;)V (descriptor index 91)
+Human type: (org.jboss.staxmapper.XMLExtendedStreamWriter, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,120 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 88
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/parser/AbstractIDMSubsystemReader$6"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/idm/model/parser/AbstractIDMSubsystemReader;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/parser/AbstractIDMSubsystemReader$8"
+17: Tag 1 Utf8 Value "$SwitchMap$org$wildfly$extension$picketlink$common$model$ModelElement"
+18: Tag 1 Utf8 Value "[I"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/common/model/ModelElement"
+23: Tag 1 Utf8 Value "ordinal"
+24: Tag 1 Utf8 Value "()I"
+25: Tag 9 FieldRef Class index 20, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "LDAP_STORE_ATTRIBUTE"
+28: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/common/model/ModelElement;"
+29: Tag 9 FieldRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/LDAPStoreAttributeResourceDefinition"
+33: Tag 1 Utf8 Value "NAME"
+34: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+35: Tag 10 MethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+39: Tag 1 Utf8 Value "getName"
+40: Tag 1 Utf8 Value "()Ljava/lang/String;"
+41: Tag 9 FieldRef Class index 30, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "INSTANCE"
+44: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/idm/model/LDAPStoreAttributeResourceDefinition;"
+45: Tag 10 MethodRef Class index 30, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "getAttributes"
+48: Tag 1 Utf8 Value "()Ljava/util/List;"
+49: Tag 10 MethodRef Class index 50, Name and type index 51
+50: Tag 7 Class Name index 52
+51: Tag 12 NameAndType Name index 53, Description index 54
+52: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/parser/AbstractIDMSubsystemReader"
+53: Tag 1 Utf8 Value "parseConfig"
+54: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;Lorg/wildfly/extension/picketlink/common/model/ModelElement;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Ljava/util/List;Ljava/util/List;)Lorg/jboss/dmr/ModelNode;"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/parser/AbstractIDMSubsystemReader$ElementParser"
+57: Tag 1 Utf8 Value "(Lorg/wildfly/extension/picketlink/idm/model/parser/AbstractIDMSubsystemReader;)V"
+58: Tag 1 Utf8 Value "Code"
+59: Tag 1 Utf8 Value "LineNumberTable"
+60: Tag 1 Utf8 Value "LocalVariableTable"
+61: Tag 1 Utf8 Value "this"
+62: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/idm/model/parser/AbstractIDMSubsystemReader$6;"
+63: Tag 1 Utf8 Value "parse"
+64: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;Lorg/wildfly/extension/picketlink/common/model/ModelElement;Lorg/jboss/dmr/ModelNode;Ljava/util/List;)V"
+65: Tag 1 Utf8 Value "reader"
+66: Tag 1 Utf8 Value "Lorg/jboss/staxmapper/XMLExtendedStreamReader;"
+67: Tag 1 Utf8 Value "element"
+68: Tag 1 Utf8 Value "parentNode"
+69: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+70: Tag 1 Utf8 Value "addOperations"
+71: Tag 1 Utf8 Value "Ljava/util/List;"
+72: Tag 1 Utf8 Value "LocalVariableTypeTable"
+73: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/dmr/ModelNode;>;"
+74: Tag 1 Utf8 Value "StackMapTable"
+75: Tag 1 Utf8 Value "Exceptions"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "javax/xml/stream/XMLStreamException"
+78: Tag 1 Utf8 Value "Signature"
+79: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;Lorg/wildfly/extension/picketlink/common/model/ModelElement;Lorg/jboss/dmr/ModelNode;Ljava/util/List<Lorg/jboss/dmr/ModelNode;>;)V"
+80: Tag 1 Utf8 Value "SourceFile"
+81: Tag 1 Utf8 Value "AbstractIDMSubsystemReader.java"
+82: Tag 1 Utf8 Value "EnclosingMethod"
+83: Tag 12 NameAndType Name index 84, Description index 85
+84: Tag 1 Utf8 Value "parseLDAPMappingConfig"
+85: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLExtendedStreamReader;Lorg/jboss/dmr/ModelNode;Ljava/util/List;)V"
+86: Tag 1 Utf8 Value "InnerClasses"
+87: Tag 1 Utf8 Value "ElementParser"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.picketlink.idm.model.parser.AbstractIDMSubsystemReader$6
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 55
+Implements names org.wildfly.extension.picketlink.idm.model.parser.AbstractIDMSubsystemReader$ElementParser
+
+Field name this$0 (index 5), type Lorg/wildfly/extension/picketlink/idm/model/parser/AbstractIDMSubsystemReader; (descriptor index 6)
+Human type: org.wildfly.extension.picketlink.idm.model.parser.AbstractIDMSubsystemReader
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 11), type (Lorg/wildfly/extension/picketlink/idm/model/parser/AbstractIDMSubsystemReader;)V (descriptor index 57)
+Human type: (org.wildfly.extension.picketlink.idm.model.parser.AbstractIDMSubsystemReader): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 62
+Method name parse (index 63), type (Lorg/jboss/staxmapper/XMLExtendedStreamReader;Lorg/wildfly/extension/picketlink/common/model/ModelElement;Lorg/jboss/dmr/ModelNode;Ljava/util/List;)V (descriptor index 64)
+Human type: (org.jboss.staxmapper.XMLExtendedStreamReader, org.wildfly.extension.picketlink.common.model.ModelElement, org.jboss.dmr.ModelNode, java.util.List): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 182
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 26

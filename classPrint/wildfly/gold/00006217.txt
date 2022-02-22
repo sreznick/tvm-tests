@@ -1,0 +1,121 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 90
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricsContextService$2"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricsContextService;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricsContextService"
+17: Tag 1 Utf8 Value "access$000"
+18: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricsContextService;)Lio/undertow/server/HttpHandler;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "io/undertow/server/HttpHandler"
+23: Tag 1 Utf8 Value "handleRequest"
+24: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;)V"
+25: Tag 10 MethodRef Class index 14, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "access$100"
+28: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricsContextService;)Ljava/util/function/Supplier;"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "java/util/function/Supplier"
+33: Tag 1 Utf8 Value "get"
+34: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "org/wildfly/extension/metrics/WildFlyMetricRegistry"
+37: Tag 10 MethodRef Class index 35, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 12
+39: Tag 1 Utf8 Value "readLock"
+40: Tag 10 MethodRef Class index 14, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 43
+42: Tag 1 Utf8 Value "access$200"
+43: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricsContextService;)Lorg/wildfly/extension/metrics/PrometheusExporter;"
+44: Tag 10 MethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "org/wildfly/extension/metrics/PrometheusExporter"
+48: Tag 1 Utf8 Value "export"
+49: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/WildFlyMetricRegistry;)Ljava/lang/String;"
+50: Tag 10 MethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 55
+53: Tag 1 Utf8 Value "io/undertow/server/HttpServerExchange"
+54: Tag 1 Utf8 Value "getResponseSender"
+55: Tag 1 Utf8 Value "()Lio/undertow/io/Sender;"
+56: Tag 11 InterfaceMethodRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 60, Description index 61
+59: Tag 1 Utf8 Value "io/undertow/io/Sender"
+60: Tag 1 Utf8 Value "send"
+61: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+62: Tag 10 MethodRef Class index 35, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 12
+64: Tag 1 Utf8 Value "unlock"
+65: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/MetricsContextService;)V"
+66: Tag 1 Utf8 Value "Code"
+67: Tag 1 Utf8 Value "LineNumberTable"
+68: Tag 1 Utf8 Value "LocalVariableTable"
+69: Tag 1 Utf8 Value "this"
+70: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricsContextService$2;"
+71: Tag 1 Utf8 Value "wildFlyMetrics"
+72: Tag 1 Utf8 Value "Ljava/lang/String;"
+73: Tag 1 Utf8 Value "exchange"
+74: Tag 1 Utf8 Value "Lio/undertow/server/HttpServerExchange;"
+75: Tag 1 Utf8 Value "metricRegistry"
+76: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/WildFlyMetricRegistry;"
+77: Tag 1 Utf8 Value "StackMapTable"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "java/lang/Throwable"
+80: Tag 1 Utf8 Value "Exceptions"
+81: Tag 7 Class Name index 82
+82: Tag 1 Utf8 Value "java/lang/Exception"
+83: Tag 1 Utf8 Value "SourceFile"
+84: Tag 1 Utf8 Value "MetricsContextService.java"
+85: Tag 1 Utf8 Value "EnclosingMethod"
+86: Tag 12 NameAndType Name index 87, Description index 88
+87: Tag 1 Utf8 Value "start"
+88: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+89: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.metrics.MetricsContextService$2
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 20
+Implements names io.undertow.server.HttpHandler
+
+Field name this$0 (index 5), type Lorg/wildfly/extension/metrics/MetricsContextService; (descriptor index 6)
+Human type: org.wildfly.extension.metrics.MetricsContextService
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 11), type (Lorg/wildfly/extension/metrics/MetricsContextService;)V (descriptor index 65)
+Human type: (org.wildfly.extension.metrics.MetricsContextService): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 62
+Method name handleRequest (index 23), type (Lio/undertow/server/HttpServerExchange;)V (descriptor index 24)
+Human type: (io.undertow.server.HttpServerExchange): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 244
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

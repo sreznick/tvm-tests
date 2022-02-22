@@ -1,0 +1,182 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 138
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyOperation"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Ljava/lang/String;ILjava/lang/String;Lorg/wildfly/extension/mod_cluster/ProxyOperation$1;)V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+9: Tag 9 FieldRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyOperationExecutor"
+13: Tag 1 Utf8 Value "VIRTUAL_HOST"
+14: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+15: Tag 9 FieldRef Class index 10, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 14
+17: Tag 1 Utf8 Value "CONTEXT"
+18: Tag 9 FieldRef Class index 10, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 14
+20: Tag 1 Utf8 Value "WAIT_TIME"
+21: Tag 10 MethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleOperationDefinitionBuilder"
+25: Tag 1 Utf8 Value "setParameters"
+26: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+27: Tag 9 FieldRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+31: Tag 1 Utf8 Value "BOOLEAN"
+32: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+33: Tag 10 MethodRef Class index 22, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "setReplyType"
+36: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelType;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+37: Tag 10 MethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+41: Tag 1 Utf8 Value "resolveModelAttribute"
+42: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+43: Tag 10 MethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+47: Tag 1 Utf8 Value "asString"
+48: Tag 1 Utf8 Value "()Ljava/lang/String;"
+49: Tag 10 MethodRef Class index 44, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "asInt"
+52: Tag 1 Utf8 Value "()I"
+53: Tag 9 FieldRef Class index 54, Name and type index 55
+54: Tag 7 Class Name index 56
+55: Tag 12 NameAndType Name index 57, Description index 58
+56: Tag 1 Utf8 Value "java/util/concurrent/TimeUnit"
+57: Tag 1 Utf8 Value "SECONDS"
+58: Tag 1 Utf8 Value "Ljava/util/concurrent/TimeUnit;"
+59: Tag 11 InterfaceMethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "org/jboss/modcluster/ModClusterServiceMBean"
+63: Tag 1 Utf8 Value "stopContext"
+64: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;JLjava/util/concurrent/TimeUnit;)Z"
+65: Tag 10 MethodRef Class index 44, Name and type index 66
+66: Tag 12 NameAndType Name index 5, Description index 67
+67: Tag 1 Utf8 Value "(Z)V"
+68: Tag 7 Class Name index 69
+69: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+70: Tag 7 Class Name index 71
+71: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+72: Tag 9 FieldRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ModClusterLogger"
+76: Tag 1 Utf8 Value "ROOT_LOGGER"
+77: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/ModClusterLogger;"
+78: Tag 11 InterfaceMethodRef Class index 73, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "contextOrHostNotFound"
+81: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+82: Tag 10 MethodRef Class index 70, Name and type index 83
+83: Tag 12 NameAndType Name index 5, Description index 84
+84: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+85: Tag 10 MethodRef Class index 86, Name and type index 87
+86: Tag 7 Class Name index 88
+87: Tag 12 NameAndType Name index 89, Description index 90
+88: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyOperation$13"
+89: Tag 1 Utf8 Value "execute"
+90: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;Lorg/jboss/modcluster/ModClusterServiceMBean;)Lorg/jboss/dmr/ModelNode;"
+91: Tag 10 MethodRef Class index 2, Name and type index 92
+92: Tag 12 NameAndType Name index 93, Description index 94
+93: Tag 1 Utf8 Value "getDefinition"
+94: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/OperationDefinition;"
+95: Tag 10 MethodRef Class index 86, Name and type index 96
+96: Tag 12 NameAndType Name index 97, Description index 98
+97: Tag 1 Utf8 Value "apply"
+98: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+99: Tag 1 Utf8 Value "(Ljava/lang/String;ILjava/lang/String;)V"
+100: Tag 1 Utf8 Value "Code"
+101: Tag 1 Utf8 Value "LineNumberTable"
+102: Tag 1 Utf8 Value "LocalVariableTable"
+103: Tag 1 Utf8 Value "this"
+104: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/ProxyOperation$13;"
+105: Tag 1 Utf8 Value "name"
+106: Tag 1 Utf8 Value "Ljava/lang/String;"
+107: Tag 1 Utf8 Value "builder"
+108: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+109: Tag 1 Utf8 Value "success"
+110: Tag 1 Utf8 Value "Z"
+111: Tag 1 Utf8 Value "e"
+112: Tag 1 Utf8 Value "Ljava/lang/IllegalArgumentException;"
+113: Tag 1 Utf8 Value "expressionResolver"
+114: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ExpressionResolver;"
+115: Tag 1 Utf8 Value "operation"
+116: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+117: Tag 1 Utf8 Value "service"
+118: Tag 1 Utf8 Value "Lorg/jboss/modcluster/ModClusterServiceMBean;"
+119: Tag 1 Utf8 Value "virtualHost"
+120: Tag 1 Utf8 Value "webContext"
+121: Tag 1 Utf8 Value "waitTime"
+122: Tag 1 Utf8 Value "I"
+123: Tag 1 Utf8 Value "StackMapTable"
+124: Tag 7 Class Name index 125
+125: Tag 1 Utf8 Value "org/jboss/as/controller/ExpressionResolver"
+126: Tag 7 Class Name index 127
+127: Tag 1 Utf8 Value "java/lang/String"
+128: Tag 1 Utf8 Value "Exceptions"
+129: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;Ljava/lang/Object;)Lorg/jboss/dmr/ModelNode;"
+130: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+131: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+132: Tag 1 Utf8 Value "SourceFile"
+133: Tag 1 Utf8 Value "ProxyOperation.java"
+134: Tag 1 Utf8 Value "EnclosingMethod"
+135: Tag 1 Utf8 Value "InnerClasses"
+136: Tag 7 Class Name index 137
+137: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyOperation$1"
+
+Flags: decimal 16432, hex 4030, binary 0100000000110000 final super enum
+
+This class: id 86, name org.wildfly.extension.mod_cluster.ProxyOperation$13
+
+Super class: id 2, name org.wildfly.extension.mod_cluster.ProxyOperation
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type (Ljava/lang/String;ILjava/lang/String;)V (descriptor index 99)
+Human type: (java.lang.String, int, java.lang.String): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 61
+Method name apply (index 97), type (Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder; (descriptor index 98)
+Human type: (org.jboss.as.controller.SimpleOperationDefinitionBuilder): org.jboss.as.controller.SimpleOperationDefinitionBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 85
+Method name execute (index 89), type (Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;Lorg/jboss/modcluster/ModClusterServiceMBean;)Lorg/jboss/dmr/ModelNode; (descriptor index 90)
+Human type: (org.jboss.as.controller.ExpressionResolver, org.jboss.dmr.ModelNode, org.jboss.modcluster.ModClusterServiceMBean): org.jboss.dmr.ModelNode
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 280
+Method attribute name Exceptions, size 4
+Method name execute (index 89), type (Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;Ljava/lang/Object;)Lorg/jboss/dmr/ModelNode; (descriptor index 129)
+Human type: (org.jboss.as.controller.ExpressionResolver, org.jboss.dmr.ModelNode, java.lang.Object): org.jboss.dmr.ModelNode
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 53
+Method attribute name Exceptions, size 4
+Method name getDefinition (index 93), type ()Ljava/lang/Object; (descriptor index 130)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method name apply (index 97), type (Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 131)
+Human type: (java.lang.Object): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

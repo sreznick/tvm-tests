@@ -1,0 +1,80 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 48
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/AddStepHandler"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor;)V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+11: Tag 1 Utf8 Value "isBooting"
+12: Tag 1 Utf8 Value "()Z"
+13: Tag 11 InterfaceMethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "isDefaultRequiresRuntime"
+16: Tag 11 InterfaceMethodRef Class index 8, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "reloadRequired"
+19: Tag 1 Utf8 Value "()V"
+20: Tag 11 InterfaceMethodRef Class index 8, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 19
+22: Tag 1 Utf8 Value "revertReloadRequired"
+23: Tag 7 Class Name index 24
+24: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ReloadRequiredAddStepHandler"
+25: Tag 1 Utf8 Value "Code"
+26: Tag 1 Utf8 Value "LineNumberTable"
+27: Tag 1 Utf8 Value "LocalVariableTable"
+28: Tag 1 Utf8 Value "this"
+29: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/ReloadRequiredAddStepHandler;"
+30: Tag 1 Utf8 Value "descriptor"
+31: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor;"
+32: Tag 1 Utf8 Value "requiresRuntime"
+33: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)Z"
+34: Tag 1 Utf8 Value "context"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+36: Tag 1 Utf8 Value "StackMapTable"
+37: Tag 1 Utf8 Value "performRuntime"
+38: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+39: Tag 1 Utf8 Value "operation"
+40: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+41: Tag 1 Utf8 Value "model"
+42: Tag 1 Utf8 Value "rollbackRuntime"
+43: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V"
+44: Tag 1 Utf8 Value "resource"
+45: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+46: Tag 1 Utf8 Value "SourceFile"
+47: Tag 1 Utf8 Value "ReloadRequiredAddStepHandler.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 23, name org.jboss.as.clustering.controller.ReloadRequiredAddStepHandler
+
+Super class: id 2, name org.jboss.as.clustering.controller.AddStepHandler
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type (Lorg/jboss/as/clustering/controller/AddStepHandlerDescriptor;)V (descriptor index 6)
+Human type: (org.jboss.as.clustering.controller.AddStepHandlerDescriptor): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name requiresRuntime (index 32), type (Lorg/jboss/as/controller/OperationContext;)Z (descriptor index 33)
+Human type: (org.jboss.as.controller.OperationContext): boolean
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 87
+Method name performRuntime (index 37), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 38)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 83
+Method name rollbackRuntime (index 42), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V (descriptor index 43)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 83
+
+Class attribute name SourceFile, size 2

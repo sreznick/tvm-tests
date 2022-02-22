@@ -1,0 +1,249 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 204
+1: Tag 10 MethodRef Class index 58, Name and type index 108
+2: Tag 9 FieldRef Class index 56, Name and type index 109
+3: Tag 10 MethodRef Class index 56, Name and type index 110
+4: Tag 7 Class Name index 111
+5: Tag 11 InterfaceMethodRef Class index 85, Name and type index 112
+6: Tag 10 MethodRef Class index 4, Name and type index 113
+7: Tag 7 Class Name index 114
+8: Tag 10 MethodRef Class index 7, Name and type index 115
+9: Tag 10 MethodRef Class index 7, Name and type index 116
+10: Tag 9 FieldRef Class index 56, Name and type index 117
+11: Tag 8 String Contents 118
+12: Tag 10 MethodRef Class index 119, Name and type index 120
+13: Tag 10 MethodRef Class index 4, Name and type index 121
+14: Tag 7 Class Name index 122
+15: Tag 8 String Contents 123
+16: Tag 10 MethodRef Class index 119, Name and type index 124
+17: Tag 8 String Contents 125
+18: Tag 10 MethodRef Class index 119, Name and type index 126
+19: Tag 10 MethodRef Class index 40, Name and type index 127
+20: Tag 8 String Contents 128
+21: Tag 10 MethodRef Class index 119, Name and type index 129
+22: Tag 7 Class Name index 130
+23: Tag 10 MethodRef Class index 22, Name and type index 108
+24: Tag 8 String Contents 131
+25: Tag 7 Class Name index 132
+26: Tag 10 MethodRef Class index 25, Name and type index 113
+27: Tag 7 Class Name index 133
+28: Tag 10 MethodRef Class index 27, Name and type index 134
+29: Tag 10 MethodRef Class index 27, Name and type index 135
+30: Tag 7 Class Name index 136
+31: Tag 8 String Contents 137
+32: Tag 11 InterfaceMethodRef Class index 30, Name and type index 138
+33: Tag 10 MethodRef Class index 139, Name and type index 140
+34: Tag 10 MethodRef Class index 119, Name and type index 141
+35: Tag 10 MethodRef Class index 25, Name and type index 121
+36: Tag 8 String Contents 142
+37: Tag 7 Class Name index 143
+38: Tag 8 String Contents 144
+39: Tag 10 MethodRef Class index 119, Name and type index 145
+40: Tag 7 Class Name index 146
+41: Tag 8 String Contents 147
+42: Tag 10 MethodRef Class index 148, Name and type index 149
+43: Tag 10 MethodRef Class index 40, Name and type index 150
+44: Tag 10 MethodRef Class index 40, Name and type index 151
+45: Tag 10 MethodRef Class index 40, Name and type index 152
+46: Tag 11 InterfaceMethodRef Class index 85, Name and type index 153
+47: Tag 7 Class Name index 154
+48: Tag 7 Class Name index 155
+49: Tag 7 Class Name index 156
+50: Tag 10 MethodRef Class index 49, Name and type index 108
+51: Tag 8 String Contents 157
+52: Tag 10 MethodRef Class index 49, Name and type index 158
+53: Tag 8 String Contents 159
+54: Tag 10 MethodRef Class index 49, Name and type index 160
+55: Tag 10 MethodRef Class index 48, Name and type index 150
+56: Tag 7 Class Name index 161
+57: Tag 10 MethodRef Class index 119, Name and type index 162
+58: Tag 7 Class Name index 163
+59: Tag 1 Utf8 Value "log"
+60: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+61: Tag 1 Utf8 Value "fileToPersit"
+62: Tag 1 Utf8 Value "Ljava/lang/String;"
+63: Tag 1 Utf8 Value "<init>"
+64: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+65: Tag 1 Utf8 Value "Code"
+66: Tag 1 Utf8 Value "LineNumberTable"
+67: Tag 1 Utf8 Value "LocalVariableTable"
+68: Tag 1 Utf8 Value "this"
+69: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/transactions/XidsPersister;"
+70: Tag 1 Utf8 Value "writeToDisk"
+71: Tag 1 Utf8 Value "(Ljava/util/Collection;)V"
+72: Tag 1 Utf8 Value "oos"
+73: Tag 1 Utf8 Value "Ljava/io/ObjectOutputStream;"
+74: Tag 1 Utf8 Value "ioe"
+75: Tag 1 Utf8 Value "Ljava/io/IOException;"
+76: Tag 1 Utf8 Value "xidsToSave"
+77: Tag 1 Utf8 Value "Ljava/util/Collection;"
+78: Tag 1 Utf8 Value "logFile"
+79: Tag 1 Utf8 Value "Ljava/nio/file/Path;"
+80: Tag 1 Utf8 Value "fos"
+81: Tag 1 Utf8 Value "Ljava/io/FileOutputStream;"
+82: Tag 1 Utf8 Value "LocalVariableTypeTable"
+83: Tag 1 Utf8 Value "Ljava/util/Collection<Ljavax/transaction/xa/Xid;>;"
+84: Tag 1 Utf8 Value "StackMapTable"
+85: Tag 7 Class Name index 164
+86: Tag 7 Class Name index 165
+87: Tag 1 Utf8 Value "Signature"
+88: Tag 1 Utf8 Value "(Ljava/util/Collection<Ljavax/transaction/xa/Xid;>;)V"
+89: Tag 1 Utf8 Value "recoverFromDisk"
+90: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+91: Tag 1 Utf8 Value "ois"
+92: Tag 1 Utf8 Value "Ljava/io/ObjectInputStream;"
+93: Tag 1 Utf8 Value "xids"
+94: Tag 1 Utf8 Value "e"
+95: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+96: Tag 1 Utf8 Value "fis"
+97: Tag 1 Utf8 Value "Ljava/io/FileInputStream;"
+98: Tag 1 Utf8 Value "()Ljava/util/Collection<Ljavax/transaction/xa/Xid;>;"
+99: Tag 1 Utf8 Value "getLogFile"
+100: Tag 1 Utf8 Value "()Ljava/nio/file/Path;"
+101: Tag 1 Utf8 Value "dataDir"
+102: Tag 1 Utf8 Value "Ljava/io/File;"
+103: Tag 1 Utf8 Value "Ljava/nio/file/InvalidPathException;"
+104: Tag 1 Utf8 Value "<clinit>"
+105: Tag 1 Utf8 Value "()V"
+106: Tag 1 Utf8 Value "SourceFile"
+107: Tag 1 Utf8 Value "XidsPersister.java"
+108: Tag 12 NameAndType Name index 63, Description index 105
+109: Tag 12 NameAndType Name index 61, Description index 62
+110: Tag 12 NameAndType Name index 99, Description index 100
+111: Tag 1 Utf8 Value "java/io/FileOutputStream"
+112: Tag 12 NameAndType Name index 166, Description index 167
+113: Tag 12 NameAndType Name index 63, Description index 168
+114: Tag 1 Utf8 Value "java/io/ObjectOutputStream"
+115: Tag 12 NameAndType Name index 63, Description index 169
+116: Tag 12 NameAndType Name index 170, Description index 171
+117: Tag 12 NameAndType Name index 59, Description index 60
+118: Tag 1 Utf8 Value "Xids %s were written as the new state of the file %s"
+119: Tag 7 Class Name index 172
+120: Tag 12 NameAndType Name index 173, Description index 174
+121: Tag 12 NameAndType Name index 175, Description index 105
+122: Tag 1 Utf8 Value "java/io/IOException"
+123: Tag 1 Utf8 Value "Cannot close FileOutputStream for file %s"
+124: Tag 12 NameAndType Name index 173, Description index 176
+125: Tag 1 Utf8 Value "Cannot write xids %s to persistent file %s"
+126: Tag 12 NameAndType Name index 177, Description index 178
+127: Tag 12 NameAndType Name index 179, Description index 180
+128: Tag 1 Utf8 Value "There is no file %s with recovery data for the test XAResource, no data for recovery"
+129: Tag 12 NameAndType Name index 173, Description index 181
+130: Tag 1 Utf8 Value "java/util/ArrayList"
+131: Tag 1 Utf8 Value "There is found file %s for transaction recovery of the test XAResource"
+132: Tag 1 Utf8 Value "java/io/FileInputStream"
+133: Tag 1 Utf8 Value "java/io/ObjectInputStream"
+134: Tag 12 NameAndType Name index 63, Description index 182
+135: Tag 12 NameAndType Name index 183, Description index 184
+136: Tag 1 Utf8 Value "java/util/Collection"
+137: Tag 1 Utf8 Value "Number of xids for recovery is %d.%nContent: %s"
+138: Tag 12 NameAndType Name index 185, Description index 186
+139: Tag 7 Class Name index 187
+140: Tag 12 NameAndType Name index 188, Description index 189
+141: Tag 12 NameAndType Name index 190, Description index 174
+142: Tag 1 Utf8 Value "Cannot close FileInputStrem for file %s"
+143: Tag 1 Utf8 Value "java/lang/Exception"
+144: Tag 1 Utf8 Value "Cannot load recovery data for test XAResource from file %s"
+145: Tag 12 NameAndType Name index 177, Description index 176
+146: Tag 1 Utf8 Value "java/io/File"
+147: Tag 1 Utf8 Value "jboss.server.data.dir"
+148: Tag 7 Class Name index 191
+149: Tag 12 NameAndType Name index 192, Description index 193
+150: Tag 12 NameAndType Name index 63, Description index 64
+151: Tag 12 NameAndType Name index 194, Description index 180
+152: Tag 12 NameAndType Name index 195, Description index 100
+153: Tag 12 NameAndType Name index 196, Description index 197
+154: Tag 1 Utf8 Value "java/nio/file/InvalidPathException"
+155: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+156: Tag 1 Utf8 Value "java/lang/StringBuilder"
+157: Tag 1 Utf8 Value "Cannot resolve path of recovery file "
+158: Tag 12 NameAndType Name index 198, Description index 199
+159: Tag 1 Utf8 Value " for storing test XAResource data persistently"
+160: Tag 12 NameAndType Name index 200, Description index 201
+161: Tag 1 Utf8 Value "org/jboss/as/test/integration/transactions/XidsPersister"
+162: Tag 12 NameAndType Name index 202, Description index 203
+163: Tag 1 Utf8 Value "java/lang/Object"
+164: Tag 1 Utf8 Value "java/nio/file/Path"
+165: Tag 1 Utf8 Value "java/lang/Throwable"
+166: Tag 1 Utf8 Value "toFile"
+167: Tag 1 Utf8 Value "()Ljava/io/File;"
+168: Tag 1 Utf8 Value "(Ljava/io/File;)V"
+169: Tag 1 Utf8 Value "(Ljava/io/OutputStream;)V"
+170: Tag 1 Utf8 Value "writeObject"
+171: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+172: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+173: Tag 1 Utf8 Value "debugf"
+174: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+175: Tag 1 Utf8 Value "close"
+176: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/Object;)V"
+177: Tag 1 Utf8 Value "errorf"
+178: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+179: Tag 1 Utf8 Value "exists"
+180: Tag 1 Utf8 Value "()Z"
+181: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+182: Tag 1 Utf8 Value "(Ljava/io/InputStream;)V"
+183: Tag 1 Utf8 Value "readObject"
+184: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+185: Tag 1 Utf8 Value "size"
+186: Tag 1 Utf8 Value "()I"
+187: Tag 1 Utf8 Value "java/lang/Integer"
+188: Tag 1 Utf8 Value "valueOf"
+189: Tag 1 Utf8 Value "(I)Ljava/lang/Integer;"
+190: Tag 1 Utf8 Value "infof"
+191: Tag 1 Utf8 Value "java/lang/System"
+192: Tag 1 Utf8 Value "getProperty"
+193: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+194: Tag 1 Utf8 Value "mkdirs"
+195: Tag 1 Utf8 Value "toPath"
+196: Tag 1 Utf8 Value "resolve"
+197: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/nio/file/Path;"
+198: Tag 1 Utf8 Value "append"
+199: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+200: Tag 1 Utf8 Value "toString"
+201: Tag 1 Utf8 Value "()Ljava/lang/String;"
+202: Tag 1 Utf8 Value "getLogger"
+203: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/logging/Logger;"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 56, name org.jboss.as.test.integration.transactions.XidsPersister
+
+Super class: id 58, name java.lang.Object
+
+No interfaces
+
+Field name log (index 59), type Lorg/jboss/logging/Logger; (descriptor index 60)
+Human type: org.jboss.logging.Logger
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name fileToPersit (index 61), type Ljava/lang/String; (descriptor index 62)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 63), type (Ljava/lang/String;)V (descriptor index 64)
+Human type: (java.lang.String): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 70
+Method name writeToDisk (index 70), type (Ljava/util/Collection;)V (descriptor index 71)
+Human type: (java.util.Collection): void
+Flags: decimal 32, hex 0020, binary 0000000000100000 synchronized
+Method attribute name Code, size 486
+Method attribute name Signature, size 2
+Method name recoverFromDisk (index 89), type ()Ljava/util/Collection; (descriptor index 90)
+Human type: (): java.util.Collection
+Flags: decimal 32, hex 0020, binary 0000000000100000 synchronized
+Method attribute name Code, size 640
+Method attribute name Signature, size 2
+Method name getLogFile (index 99), type ()Ljava/nio/file/Path; (descriptor index 100)
+Human type: (): java.nio.file.Path
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 166
+Method name <clinit> (index 104), type ()V (descriptor index 105)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2

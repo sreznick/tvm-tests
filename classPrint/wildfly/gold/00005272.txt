@@ -1,0 +1,275 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 131
+1: Tag 7 Class Name index 120
+2: Tag 8 String Contents 121
+3: Tag 10 MethodRef Class index 122, Name and type index 123
+4: Tag 9 FieldRef Class index 1, Name and type index 124
+5: Tag 7 Class Name index 125
+6: Tag 7 Class Name index 126
+7: Tag 1 Utf8 Value "ROOT_LOGGER"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/appclient/logging/AppClientLogger;"
+9: Tag 1 Utf8 Value "exceptionRunningAppClient"
+10: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)V"
+11: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+12: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+13: Tag 1 Utf8 Value "level"
+14: Tag 7 Class Name index 127
+15: Tag 1 Utf8 Value "Level"
+16: Tag 1 Utf8 Value "InnerClasses"
+17: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+18: Tag 1 Utf8 Value "ERROR"
+19: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+20: Tag 1 Utf8 Value "id"
+21: Tag 3 Integer Value 2, hex: 0x2
+22: Tag 1 Utf8 Value "value"
+23: Tag 1 Utf8 Value "%s running app client main"
+24: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+25: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+26: Tag 1 Utf8 Value "argAppClientConfig"
+27: Tag 1 Utf8 Value "()Ljava/lang/String;"
+28: Tag 3 Integer Value 0, hex: 0x0
+29: Tag 1 Utf8 Value "Name of the app client configuration file to use (default is "appclient.xml")"
+30: Tag 1 Utf8 Value "argHelp"
+31: Tag 1 Utf8 Value "Display this message and exit"
+32: Tag 1 Utf8 Value "argHost"
+33: Tag 1 Utf8 Value "Set the url of the application server instance to connect to"
+34: Tag 1 Utf8 Value "argConnectionProperties"
+35: Tag 1 Utf8 Value "Load ejb-client.properties file from the given url"
+36: Tag 1 Utf8 Value "argProperties"
+37: Tag 1 Utf8 Value "Load system properties from the given url"
+38: Tag 1 Utf8 Value "argSystemProperty"
+39: Tag 1 Utf8 Value "Set a system property"
+40: Tag 1 Utf8 Value "argVersion"
+41: Tag 1 Utf8 Value "Print version and exit"
+42: Tag 1 Utf8 Value "argSecMgr"
+43: Tag 1 Utf8 Value "Runs the container with the security manager enabled."
+44: Tag 1 Utf8 Value "usageDescription"
+45: Tag 1 Utf8 Value "The appclient script starts an application client which can be used to test and access the deployed Jakarta Enterprise Beans."
+46: Tag 1 Utf8 Value "appClientNotSpecified"
+47: Tag 3 Integer Value 4, hex: 0x4
+48: Tag 1 Utf8 Value "You must specify the application client to execute"
+49: Tag 1 Utf8 Value "argumentExpected"
+50: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+51: Tag 3 Integer Value 5, hex: 0x5
+52: Tag 1 Utf8 Value "Argument expected for option %s"
+53: Tag 1 Utf8 Value "cannotFindAppClient"
+54: Tag 1 Utf8 Value "()Ljava/lang/RuntimeException;"
+55: Tag 3 Integer Value 6, hex: 0x6
+56: Tag 1 Utf8 Value "Could not find application client jar in deployment"
+57: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+58: Tag 3 Integer Value 7, hex: 0x7
+59: Tag 1 Utf8 Value "Could not find application client %s"
+60: Tag 1 Utf8 Value "cannotLoadAppClientMainClass"
+61: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+62: Tag 3 Integer Value 8, hex: 0x8
+63: Tag 1 Utf8 Value "Could not load application client main class"
+64: Tag 1 Utf8 Value "cannotLoadProperties"
+65: Tag 1 Utf8 Value "(Ljava/net/URL;)Ljava/lang/String;"
+66: Tag 3 Integer Value 10, hex: 0xa
+67: Tag 1 Utf8 Value "Unable to load properties from URL %s"
+68: Tag 1 Utf8 Value "cannotStartAppClient"
+69: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/RuntimeException;"
+70: Tag 3 Integer Value 11, hex: 0xb
+71: Tag 1 Utf8 Value "Could not start app client %s as no main class was found"
+72: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/RuntimeException;"
+73: Tag 1 Utf8 Value "Signature"
+74: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class<*>;)Ljava/lang/RuntimeException;"
+75: Tag 3 Integer Value 12, hex: 0xc
+76: Tag 1 Utf8 Value "Could not start app client %s as no main method was found on main class %s"
+77: Tag 1 Utf8 Value "duplicateSubsystemDeclaration"
+78: Tag 1 Utf8 Value "(Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException;"
+79: Tag 3 Integer Value 13, hex: 0xd
+80: Tag 1 Utf8 Value "Duplicate subsystem declaration"
+81: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Param;"
+82: Tag 1 Utf8 Value "failedToParseXml"
+83: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Lorg/jboss/vfs/VirtualFile;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+84: Tag 3 Integer Value 15, hex: 0xf
+85: Tag 1 Utf8 Value "Failed to parse %s"
+86: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Lorg/jboss/vfs/VirtualFile;II)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+87: Tag 3 Integer Value 16, hex: 0x10
+88: Tag 1 Utf8 Value "Failed to parse %s at [%d,%d]"
+89: Tag 1 Utf8 Value "malformedUrl"
+90: Tag 3 Integer Value 17, hex: 0x11
+91: Tag 1 Utf8 Value "Malformed URL provided for option %s"
+92: Tag 1 Utf8 Value "multipleAppClientsFound"
+93: Tag 3 Integer Value 18, hex: 0x12
+94: Tag 1 Utf8 Value "More than one application client found and no app client name specified"
+95: Tag 1 Utf8 Value "unknownOption"
+96: Tag 3 Integer Value 20, hex: 0x14
+97: Tag 1 Utf8 Value "Unknown option %s"
+98: Tag 1 Utf8 Value "couldNotLoadCallbackClass"
+99: Tag 3 Integer Value 21, hex: 0x15
+100: Tag 1 Utf8 Value "Could not load callback-handler class %s"
+101: Tag 1 Utf8 Value "couldNotCreateCallbackHandler"
+102: Tag 3 Integer Value 22, hex: 0x16
+103: Tag 1 Utf8 Value "Could not create instance of callback-handler class %s"
+104: Tag 1 Utf8 Value "cannotFindAppClientFile"
+105: Tag 1 Utf8 Value "(Ljava/io/File;)Ljava/lang/RuntimeException;"
+106: Tag 3 Integer Value 23, hex: 0x17
+107: Tag 1 Utf8 Value "cannotSpecifyBothHostAndPropertiesFile"
+108: Tag 3 Integer Value 24, hex: 0x18
+109: Tag 1 Utf8 Value "Cannot specify both a host to connect to and an ejb-client.properties file. "
+110: Tag 1 Utf8 Value "<clinit>"
+111: Tag 1 Utf8 Value "()V"
+112: Tag 1 Utf8 Value "Code"
+113: Tag 1 Utf8 Value "LineNumberTable"
+114: Tag 1 Utf8 Value "SourceFile"
+115: Tag 1 Utf8 Value "AppClientLogger.java"
+116: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+117: Tag 1 Utf8 Value "projectCode"
+118: Tag 1 Utf8 Value "WFLYAC"
+119: Tag 1 Utf8 Value "length"
+120: Tag 1 Utf8 Value "org/jboss/as/appclient/logging/AppClientLogger"
+121: Tag 1 Utf8 Value "org.jboss.as.appclient"
+122: Tag 7 Class Name index 128
+123: Tag 12 NameAndType Name index 129, Description index 130
+124: Tag 12 NameAndType Name index 7, Description index 8
+125: Tag 1 Utf8 Value "java/lang/Object"
+126: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+127: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+128: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+129: Tag 1 Utf8 Value "getMessageLogger"
+130: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.jboss.as.appclient.logging.AppClientLogger
+
+Super class: id 5, name java.lang.Object
+
+Implements class ids 6
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 7), type Lorg/jboss/as/appclient/logging/AppClientLogger; (descriptor index 8)
+Human type: org.jboss.as.appclient.logging.AppClientLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name exceptionRunningAppClient (index 9), type (Ljava/lang/Throwable;Ljava/lang/String;)V (descriptor index 10)
+Human type: (java.lang.Throwable, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name argAppClientConfig (index 26), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name argHelp (index 30), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name argHost (index 32), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name argConnectionProperties (index 34), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name argProperties (index 36), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name argSystemProperty (index 38), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name argVersion (index 40), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name argSecMgr (index 42), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name usageDescription (index 44), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name appClientNotSpecified (index 46), type ()Ljava/lang/String; (descriptor index 27)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name argumentExpected (index 49), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 50)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotFindAppClient (index 53), type ()Ljava/lang/RuntimeException; (descriptor index 54)
+Human type: (): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotFindAppClient (index 53), type (Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 57)
+Human type: (java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotLoadAppClientMainClass (index 60), type (Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 61)
+Human type: (java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name cannotLoadProperties (index 64), type (Ljava/net/URL;)Ljava/lang/String; (descriptor index 65)
+Human type: (java.net.URL): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotStartAppClient (index 68), type (Ljava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 69)
+Human type: (java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotStartAppClient (index 68), type (Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/RuntimeException; (descriptor index 72)
+Human type: (java.lang.String, java.lang.Class): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name duplicateSubsystemDeclaration (index 77), type (Ljavax/xml/stream/Location;)Ljavax/xml/stream/XMLStreamException; (descriptor index 78)
+Human type: (javax.xml.stream.Location): javax.xml.stream.XMLStreamException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name failedToParseXml (index 82), type (Ljava/lang/Throwable;Lorg/jboss/vfs/VirtualFile;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 83)
+Human type: (java.lang.Throwable, org.jboss.vfs.VirtualFile): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name failedToParseXml (index 82), type (Ljava/lang/Throwable;Lorg/jboss/vfs/VirtualFile;II)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 86)
+Human type: (java.lang.Throwable, org.jboss.vfs.VirtualFile, int, int): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 13
+Method name malformedUrl (index 89), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 50)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name multipleAppClientsFound (index 92), type ()Ljava/lang/RuntimeException; (descriptor index 54)
+Human type: (): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unknownOption (index 95), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 50)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotLoadCallbackClass (index 98), type (Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 57)
+Human type: (java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotCreateCallbackHandler (index 101), type (Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 57)
+Human type: (java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotFindAppClientFile (index 104), type (Ljava/io/File;)Ljava/lang/RuntimeException; (descriptor index 105)
+Human type: (java.io.File): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotSpecifyBothHostAndPropertiesFile (index 107), type ()Ljava/lang/RuntimeException; (descriptor index 54)
+Human type: (): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name <clinit> (index 110), type ()V (descriptor index 111)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

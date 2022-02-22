@@ -1,0 +1,121 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 86
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource$2"
+17: Tag 1 Utf8 Value "$SwitchMap$org$jboss$msc$service$LifecycleEvent"
+18: Tag 1 Utf8 Value "[I"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/msc/service/LifecycleEvent"
+23: Tag 1 Utf8 Value "ordinal"
+24: Tag 1 Utf8 Value "()I"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/logging/MessagingLogger"
+29: Tag 1 Utf8 Value "ROOT_LOGGER"
+30: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/logging/MessagingLogger;"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource"
+35: Tag 1 Utf8 Value "access$000"
+36: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource;)Ljava/lang/String;"
+37: Tag 11 InterfaceMethodRef Class index 26, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "boundJndiName"
+40: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+41: Tag 9 FieldRef Class index 2, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "bound"
+44: Tag 1 Utf8 Value "Z"
+45: Tag 10 MethodRef Class index 32, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 36
+47: Tag 1 Utf8 Value "access$100"
+48: Tag 11 InterfaceMethodRef Class index 26, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 40
+50: Tag 1 Utf8 Value "unboundJndiName"
+51: Tag 8 String Contents 52
+52: Tag 1 Utf8 Value "Removed messaging object [%s]"
+53: Tag 10 MethodRef Class index 32, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 36
+55: Tag 1 Utf8 Value "access$200"
+56: Tag 11 InterfaceMethodRef Class index 26, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "debugf"
+59: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "org/jboss/msc/service/LifecycleListener"
+62: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource;)V"
+63: Tag 1 Utf8 Value "Code"
+64: Tag 1 Utf8 Value "LineNumberTable"
+65: Tag 1 Utf8 Value "LocalVariableTable"
+66: Tag 1 Utf8 Value "this"
+67: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource$1;"
+68: Tag 1 Utf8 Value "handleEvent"
+69: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController;Lorg/jboss/msc/service/LifecycleEvent;)V"
+70: Tag 1 Utf8 Value "controller"
+71: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+72: Tag 1 Utf8 Value "event"
+73: Tag 1 Utf8 Value "Lorg/jboss/msc/service/LifecycleEvent;"
+74: Tag 1 Utf8 Value "LocalVariableTypeTable"
+75: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+76: Tag 1 Utf8 Value "StackMapTable"
+77: Tag 1 Utf8 Value "Signature"
+78: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController<*>;Lorg/jboss/msc/service/LifecycleEvent;)V"
+79: Tag 1 Utf8 Value "SourceFile"
+80: Tag 1 Utf8 Value "JMSDestinationDefinitionInjectionSource.java"
+81: Tag 1 Utf8 Value "EnclosingMethod"
+82: Tag 12 NameAndType Name index 83, Description index 84
+83: Tag 1 Utf8 Value "inject"
+84: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/inject/Injector;Lorg/jboss/msc/service/Service;)V"
+85: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.messaging.activemq.deployment.JMSDestinationDefinitionInjectionSource$1
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 60
+Implements names org.jboss.msc.service.LifecycleListener
+
+Field name bound (index 43), type Z (descriptor index 44)
+Human type: boolean
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource; (descriptor index 6)
+Human type: org.wildfly.extension.messaging.activemq.deployment.JMSDestinationDefinitionInjectionSource
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 11), type (Lorg/wildfly/extension/messaging/activemq/deployment/JMSDestinationDefinitionInjectionSource;)V (descriptor index 62)
+Human type: (org.wildfly.extension.messaging.activemq.deployment.JMSDestinationDefinitionInjectionSource): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 62
+Method name handleEvent (index 68), type (Lorg/jboss/msc/service/ServiceController;Lorg/jboss/msc/service/LifecycleEvent;)V (descriptor index 69)
+Human type: (org.jboss.msc.service.ServiceController, org.jboss.msc.service.LifecycleEvent): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 222
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

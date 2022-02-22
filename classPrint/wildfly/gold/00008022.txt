@@ -1,0 +1,95 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 62
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/String"
+11: Tag 1 Utf8 Value "trim"
+12: Tag 1 Utf8 Value "()Ljava/lang/String;"
+13: Tag 10 MethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "isEmpty"
+16: Tag 1 Utf8 Value "()Z"
+17: Tag 9 FieldRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+21: Tag 1 Utf8 Value "ROOT_LOGGER"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+23: Tag 11 InterfaceMethodRef Class index 18, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "nullOrEmptyManagedBeanClassName"
+26: Tag 1 Utf8 Value "()Ljava/lang/IllegalArgumentException;"
+27: Tag 9 FieldRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/jboss/as/ee/managedbean/component/ManagedBeanResourceReferenceProcessor"
+31: Tag 1 Utf8 Value "managedBeanClassName"
+32: Tag 1 Utf8 Value "Ljava/lang/String;"
+33: Tag 8 String Contents 34
+34: Tag 1 Utf8 Value "Processing @Resource of type: %s"
+35: Tag 11 InterfaceMethodRef Class index 18, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "debugf"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentTypeInjectionSource"
+41: Tag 10 MethodRef Class index 39, Name and type index 42
+42: Tag 12 NameAndType Name index 5, Description index 43
+43: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "org/jboss/as/ee/component/deployers/EEResourceReferenceProcessor"
+46: Tag 1 Utf8 Value "Code"
+47: Tag 1 Utf8 Value "LineNumberTable"
+48: Tag 1 Utf8 Value "LocalVariableTable"
+49: Tag 1 Utf8 Value "this"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/ee/managedbean/component/ManagedBeanResourceReferenceProcessor;"
+51: Tag 1 Utf8 Value "StackMapTable"
+52: Tag 1 Utf8 Value "getResourceReferenceType"
+53: Tag 1 Utf8 Value "getResourceReferenceBindingSource"
+54: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/component/InjectionSource;"
+55: Tag 1 Utf8 Value "bindingSource"
+56: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/InjectionSource;"
+57: Tag 1 Utf8 Value "Exceptions"
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+60: Tag 1 Utf8 Value "SourceFile"
+61: Tag 1 Utf8 Value "ManagedBeanResourceReferenceProcessor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 28, name org.jboss.as.ee.managedbean.component.ManagedBeanResourceReferenceProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 44
+Implements names org.jboss.as.ee.component.deployers.EEResourceReferenceProcessor
+
+Field name managedBeanClassName (index 31), type Ljava/lang/String; (descriptor index 32)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;)V (descriptor index 43)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 123
+Method name getResourceReferenceType (index 52), type ()Ljava/lang/String; (descriptor index 12)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getResourceReferenceBindingSource (index 53), type ()Lorg/jboss/as/ee/component/InjectionSource; (descriptor index 54)
+Human type: (): org.jboss.as.ee.component.InjectionSource
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

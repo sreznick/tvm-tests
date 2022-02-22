@@ -1,0 +1,193 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 140
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicBoolean"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 9 FieldRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/jboss/as/weld/WeldStartCompletionService"
+14: Tag 1 Utf8 Value "runOnce"
+15: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicBoolean;"
+16: Tag 9 FieldRef Class index 11, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "bootstrapSupplier"
+19: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+20: Tag 9 FieldRef Class index 11, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 23
+22: Tag 1 Utf8 Value "setupActions"
+23: Tag 1 Utf8 Value "Ljava/util/List;"
+24: Tag 9 FieldRef Class index 11, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 27
+26: Tag 1 Utf8 Value "classLoader"
+27: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+28: Tag 10 MethodRef Class index 7, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "compareAndSet"
+31: Tag 1 Utf8 Value "(ZZ)Z"
+32: Tag 10 MethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+36: Tag 1 Utf8 Value "getCurrentContextClassLoaderPrivileged"
+37: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+38: Tag 11 InterfaceMethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "java/util/List"
+42: Tag 1 Utf8 Value "iterator"
+43: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+44: Tag 11 InterfaceMethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "java/util/Iterator"
+48: Tag 1 Utf8 Value "hasNext"
+49: Tag 1 Utf8 Value "()Z"
+50: Tag 11 InterfaceMethodRef Class index 45, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "next"
+53: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+54: Tag 7 Class Name index 55
+55: Tag 1 Utf8 Value "org/jboss/as/server/deployment/SetupAction"
+56: Tag 11 InterfaceMethodRef Class index 54, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "setup"
+59: Tag 1 Utf8 Value "(Ljava/util/Map;)V"
+60: Tag 10 MethodRef Class index 33, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "setCurrentContextClassLoaderPrivileged"
+63: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;"
+64: Tag 11 InterfaceMethodRef Class index 65, Name and type index 66
+65: Tag 7 Class Name index 67
+66: Tag 12 NameAndType Name index 68, Description index 53
+67: Tag 1 Utf8 Value "java/util/function/Supplier"
+68: Tag 1 Utf8 Value "get"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "org/jboss/as/weld/WeldBootstrapService"
+71: Tag 10 MethodRef Class index 69, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 74
+73: Tag 1 Utf8 Value "getBootstrap"
+74: Tag 1 Utf8 Value "()Lorg/jboss/weld/bootstrap/WeldBootstrap;"
+75: Tag 10 MethodRef Class index 76, Name and type index 77
+76: Tag 7 Class Name index 78
+77: Tag 12 NameAndType Name index 79, Description index 80
+78: Tag 1 Utf8 Value "org/jboss/weld/bootstrap/WeldBootstrap"
+79: Tag 1 Utf8 Value "endInitialization"
+80: Tag 1 Utf8 Value "()Lorg/jboss/weld/bootstrap/api/Bootstrap;"
+81: Tag 11 InterfaceMethodRef Class index 54, Name and type index 82
+82: Tag 12 NameAndType Name index 83, Description index 59
+83: Tag 1 Utf8 Value "teardown"
+84: Tag 7 Class Name index 85
+85: Tag 1 Utf8 Value "java/lang/Exception"
+86: Tag 9 FieldRef Class index 87, Name and type index 88
+87: Tag 7 Class Name index 89
+88: Tag 12 NameAndType Name index 90, Description index 91
+89: Tag 1 Utf8 Value "org/jboss/as/weld/logging/WeldLogger"
+90: Tag 1 Utf8 Value "DEPLOYMENT_LOGGER"
+91: Tag 1 Utf8 Value "Lorg/jboss/as/weld/logging/WeldLogger;"
+92: Tag 11 InterfaceMethodRef Class index 87, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 95
+94: Tag 1 Utf8 Value "exceptionClearingThreadState"
+95: Tag 1 Utf8 Value "(Ljava/lang/Exception;)V"
+96: Tag 9 FieldRef Class index 97, Name and type index 98
+97: Tag 7 Class Name index 99
+98: Tag 12 NameAndType Name index 100, Description index 101
+99: Tag 1 Utf8 Value "org/jboss/as/weld/ServiceNames"
+100: Tag 1 Utf8 Value "WELD_START_COMPLETION_SERVICE_NAME"
+101: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+102: Tag 9 FieldRef Class index 11, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 101
+104: Tag 1 Utf8 Value "SERVICE_NAME"
+105: Tag 7 Class Name index 106
+106: Tag 1 Utf8 Value "org/jboss/msc/Service"
+107: Tag 1 Utf8 Value "Signature"
+108: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/weld/WeldBootstrapService;>;"
+109: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;"
+110: Tag 1 Utf8 Value "(Ljava/util/function/Supplier;Ljava/util/List;Ljava/lang/ClassLoader;)V"
+111: Tag 1 Utf8 Value "Code"
+112: Tag 1 Utf8 Value "LineNumberTable"
+113: Tag 1 Utf8 Value "LocalVariableTable"
+114: Tag 1 Utf8 Value "this"
+115: Tag 1 Utf8 Value "Lorg/jboss/as/weld/WeldStartCompletionService;"
+116: Tag 1 Utf8 Value "LocalVariableTypeTable"
+117: Tag 1 Utf8 Value "(Ljava/util/function/Supplier<Lorg/jboss/as/weld/WeldBootstrapService;>;Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;Ljava/lang/ClassLoader;)V"
+118: Tag 1 Utf8 Value "start"
+119: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+120: Tag 1 Utf8 Value "action"
+121: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/SetupAction;"
+122: Tag 1 Utf8 Value "e"
+123: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+124: Tag 1 Utf8 Value "context"
+125: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+126: Tag 1 Utf8 Value "oldTccl"
+127: Tag 1 Utf8 Value "StackMapTable"
+128: Tag 7 Class Name index 129
+129: Tag 1 Utf8 Value "java/lang/ClassLoader"
+130: Tag 7 Class Name index 131
+131: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+132: Tag 7 Class Name index 133
+133: Tag 1 Utf8 Value "java/lang/Throwable"
+134: Tag 1 Utf8 Value "stop"
+135: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+136: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+137: Tag 1 Utf8 Value "<clinit>"
+138: Tag 1 Utf8 Value "SourceFile"
+139: Tag 1 Utf8 Value "WeldStartCompletionService.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.jboss.as.weld.WeldStartCompletionService
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 105
+Implements names org.jboss.msc.Service
+
+Field name SERVICE_NAME (index 104), type Lorg/jboss/msc/service/ServiceName; (descriptor index 101)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name bootstrapSupplier (index 18), type Ljava/util/function/Supplier; (descriptor index 19)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name setupActions (index 22), type Ljava/util/List; (descriptor index 23)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name classLoader (index 26), type Ljava/lang/ClassLoader; (descriptor index 27)
+Human type: java.lang.ClassLoader
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name runOnce (index 14), type Ljava/util/concurrent/atomic/AtomicBoolean; (descriptor index 15)
+Human type: java.util.concurrent.atomic.AtomicBoolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/util/function/Supplier;Ljava/util/List;Ljava/lang/ClassLoader;)V (descriptor index 110)
+Human type: (java.util.function.Supplier, java.util.List, java.lang.ClassLoader): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 151
+Method attribute name Signature, size 2
+Method name start (index 118), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 119)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 599
+Method name stop (index 134), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 135)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name <clinit> (index 137), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 31
+
+Class attribute name SourceFile, size 2

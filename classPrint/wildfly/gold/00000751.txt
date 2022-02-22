@@ -1,0 +1,104 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 63
+1: Tag 9 FieldRef Class index 11, Name and type index 37
+2: Tag 10 MethodRef Class index 12, Name and type index 38
+3: Tag 9 FieldRef Class index 11, Name and type index 39
+4: Tag 9 FieldRef Class index 11, Name and type index 40
+5: Tag 9 FieldRef Class index 11, Name and type index 41
+6: Tag 11 InterfaceMethodRef Class index 42, Name and type index 43
+7: Tag 10 MethodRef Class index 44, Name and type index 45
+8: Tag 11 InterfaceMethodRef Class index 42, Name and type index 46
+9: Tag 10 MethodRef Class index 47, Name and type index 48
+10: Tag 7 Class Name index 49
+11: Tag 7 Class Name index 51
+12: Tag 7 Class Name index 52
+13: Tag 7 Class Name index 53
+14: Tag 1 Utf8 Value "lock"
+15: Tag 1 Utf8 Value "Ljava/util/concurrent/locks/Lock;"
+16: Tag 1 Utf8 Value "processingTime"
+17: Tag 1 Utf8 Value "J"
+18: Tag 1 Utf8 Value "latch"
+19: Tag 1 Utf8 Value "Ljava/util/concurrent/CountDownLatch;"
+20: Tag 1 Utf8 Value "this$0"
+21: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/concurrency/EJBReadWriteLockTest;"
+22: Tag 1 Utf8 Value "<init>"
+23: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/concurrency/EJBReadWriteLockTest;Ljava/util/concurrent/CountDownLatch;Ljava/util/concurrent/locks/Lock;J)V"
+24: Tag 1 Utf8 Value "Code"
+25: Tag 1 Utf8 Value "LineNumberTable"
+26: Tag 1 Utf8 Value "LocalVariableTable"
+27: Tag 1 Utf8 Value "this"
+28: Tag 1 Utf8 Value "ThreadHoldingWriteLock"
+29: Tag 1 Utf8 Value "InnerClasses"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/concurrency/EJBReadWriteLockTest$ThreadHoldingWriteLock;"
+31: Tag 1 Utf8 Value "run"
+32: Tag 1 Utf8 Value "()V"
+33: Tag 1 Utf8 Value "StackMapTable"
+34: Tag 7 Class Name index 54
+35: Tag 1 Utf8 Value "SourceFile"
+36: Tag 1 Utf8 Value "EJBReadWriteLockTest.java"
+37: Tag 12 NameAndType Name index 20, Description index 21
+38: Tag 12 NameAndType Name index 22, Description index 32
+39: Tag 12 NameAndType Name index 14, Description index 15
+40: Tag 12 NameAndType Name index 16, Description index 17
+41: Tag 12 NameAndType Name index 18, Description index 19
+42: Tag 7 Class Name index 55
+43: Tag 12 NameAndType Name index 14, Description index 32
+44: Tag 7 Class Name index 56
+45: Tag 12 NameAndType Name index 57, Description index 58
+46: Tag 12 NameAndType Name index 59, Description index 32
+47: Tag 7 Class Name index 60
+48: Tag 12 NameAndType Name index 61, Description index 32
+49: Tag 1 Utf8 Value "java/lang/InterruptedException"
+50: Tag 7 Class Name index 62
+51: Tag 1 Utf8 Value "org/jboss/as/ejb3/concurrency/EJBReadWriteLockTest$ThreadHoldingWriteLock"
+52: Tag 1 Utf8 Value "java/lang/Object"
+53: Tag 1 Utf8 Value "java/lang/Runnable"
+54: Tag 1 Utf8 Value "java/lang/Throwable"
+55: Tag 1 Utf8 Value "java/util/concurrent/locks/Lock"
+56: Tag 1 Utf8 Value "java/lang/Thread"
+57: Tag 1 Utf8 Value "sleep"
+58: Tag 1 Utf8 Value "(J)V"
+59: Tag 1 Utf8 Value "unlock"
+60: Tag 1 Utf8 Value "java/util/concurrent/CountDownLatch"
+61: Tag 1 Utf8 Value "countDown"
+62: Tag 1 Utf8 Value "org/jboss/as/ejb3/concurrency/EJBReadWriteLockTest"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 11, name org.jboss.as.ejb3.concurrency.EJBReadWriteLockTest$ThreadHoldingWriteLock
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 13
+Implements names java.lang.Runnable
+
+Field name lock (index 14), type Ljava/util/concurrent/locks/Lock; (descriptor index 15)
+Human type: java.util.concurrent.locks.Lock
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name processingTime (index 16), type J (descriptor index 17)
+Human type: long
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name latch (index 18), type Ljava/util/concurrent/CountDownLatch; (descriptor index 19)
+Human type: java.util.concurrent.CountDownLatch
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name this$0 (index 20), type Lorg/jboss/as/ejb3/concurrency/EJBReadWriteLockTest; (descriptor index 21)
+Human type: org.jboss.as.ejb3.concurrency.EJBReadWriteLockTest
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 22), type (Lorg/jboss/as/ejb3/concurrency/EJBReadWriteLockTest;Ljava/util/concurrent/CountDownLatch;Ljava/util/concurrent/locks/Lock;J)V (descriptor index 23)
+Human type: (org.jboss.as.ejb3.concurrency.EJBReadWriteLockTest, java.util.concurrent.CountDownLatch, java.util.concurrent.locks.Lock, long): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 114
+Method name run (index 31), type ()V (descriptor index 32)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 198
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

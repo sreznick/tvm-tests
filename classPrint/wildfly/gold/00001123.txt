@@ -1,0 +1,193 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 136
+1: Tag 10 MethodRef Class index 28, Name and type index 69
+2: Tag 10 MethodRef Class index 70, Name and type index 71
+3: Tag 9 FieldRef Class index 27, Name and type index 72
+4: Tag 10 MethodRef Class index 70, Name and type index 73
+5: Tag 10 MethodRef Class index 74, Name and type index 75
+6: Tag 7 Class Name index 76
+7: Tag 9 FieldRef Class index 27, Name and type index 77
+8: Tag 9 FieldRef Class index 78, Name and type index 79
+9: Tag 11 InterfaceMethodRef Class index 78, Name and type index 80
+10: Tag 10 MethodRef Class index 81, Name and type index 82
+11: Tag 10 MethodRef Class index 27, Name and type index 83
+12: Tag 10 MethodRef Class index 27, Name and type index 84
+13: Tag 10 MethodRef Class index 27, Name and type index 85
+14: Tag 8 String Contents 86
+15: Tag 11 InterfaceMethodRef Class index 78, Name and type index 87
+16: Tag 7 Class Name index 88
+17: Tag 10 MethodRef Class index 27, Name and type index 89
+18: Tag 10 MethodRef Class index 27, Name and type index 90
+19: Tag 8 String Contents 91
+20: Tag 7 Class Name index 92
+21: Tag 10 MethodRef Class index 27, Name and type index 93
+22: Tag 9 FieldRef Class index 94, Name and type index 95
+23: Tag 11 InterfaceMethodRef Class index 78, Name and type index 96
+24: Tag 10 MethodRef Class index 28, Name and type index 97
+25: Tag 11 InterfaceMethodRef Class index 78, Name and type index 98
+26: Tag 10 MethodRef Class index 28, Name and type index 99
+27: Tag 7 Class Name index 100
+28: Tag 7 Class Name index 101
+29: Tag 1 Utf8 Value "beanLevelAccessTimeout"
+30: Tag 1 Utf8 Value "Ljava/util/Map;"
+31: Tag 1 Utf8 Value "Signature"
+32: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/jboss/as/ejb3/concurrency/AccessTimeoutDetails;>;"
+33: Tag 1 Utf8 Value "asyncExecutor"
+34: Tag 1 Utf8 Value "Ljava/util/concurrent/ExecutorService;"
+35: Tag 1 Utf8 Value "<init>"
+36: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/component/session/SessionBeanComponentCreateService;)V"
+37: Tag 1 Utf8 Value "Code"
+38: Tag 1 Utf8 Value "LineNumberTable"
+39: Tag 1 Utf8 Value "LocalVariableTable"
+40: Tag 1 Utf8 Value "this"
+41: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/session/SessionBeanComponent;"
+42: Tag 1 Utf8 Value "ejbComponentCreateService"
+43: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/component/session/SessionBeanComponentCreateService;"
+44: Tag 1 Utf8 Value "getBusinessObject"
+45: Tag 1 Utf8 Value "(Ljava/lang/Class;Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object;"
+46: Tag 1 Utf8 Value "businessInterface"
+47: Tag 1 Utf8 Value "Ljava/lang/Class;"
+48: Tag 1 Utf8 Value "context"
+49: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+50: Tag 1 Utf8 Value "LocalVariableTypeTable"
+51: Tag 1 Utf8 Value "Ljava/lang/Class<TT;>;"
+52: Tag 1 Utf8 Value "StackMapTable"
+53: Tag 1 Utf8 Value "Exceptions"
+54: Tag 7 Class Name index 102
+55: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Ljava/lang/Class<TT;>;Lorg/jboss/invocation/InterceptorContext;)TT;"
+56: Tag 1 Utf8 Value "getEJBLocalObject"
+57: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Ljavax/ejb/EJBLocalObject;"
+58: Tag 1 Utf8 Value "ctx"
+59: Tag 1 Utf8 Value "getEJBObject"
+60: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Ljavax/ejb/EJBObject;"
+61: Tag 1 Utf8 Value "getAsynchronousExecutor"
+62: Tag 1 Utf8 Value "()Ljava/util/concurrent/ExecutorService;"
+63: Tag 1 Utf8 Value "getRollbackOnly"
+64: Tag 1 Utf8 Value "()Z"
+65: Tag 1 Utf8 Value "setRollbackOnly"
+66: Tag 1 Utf8 Value "()V"
+67: Tag 1 Utf8 Value "SourceFile"
+68: Tag 1 Utf8 Value "SessionBeanComponent.java"
+69: Tag 12 NameAndType Name index 35, Description index 103
+70: Tag 7 Class Name index 104
+71: Tag 12 NameAndType Name index 105, Description index 106
+72: Tag 12 NameAndType Name index 29, Description index 30
+73: Tag 12 NameAndType Name index 107, Description index 108
+74: Tag 7 Class Name index 109
+75: Tag 12 NameAndType Name index 110, Description index 111
+76: Tag 1 Utf8 Value "java/util/concurrent/ExecutorService"
+77: Tag 12 NameAndType Name index 33, Description index 34
+78: Tag 7 Class Name index 112
+79: Tag 12 NameAndType Name index 113, Description index 114
+80: Tag 12 NameAndType Name index 115, Description index 116
+81: Tag 7 Class Name index 117
+82: Tag 12 NameAndType Name index 118, Description index 106
+83: Tag 12 NameAndType Name index 119, Description index 120
+84: Tag 12 NameAndType Name index 121, Description index 122
+85: Tag 12 NameAndType Name index 123, Description index 124
+86: Tag 1 Utf8 Value "EJBLocalObject"
+87: Tag 12 NameAndType Name index 125, Description index 126
+88: Tag 1 Utf8 Value "javax/ejb/EJBLocalObject"
+89: Tag 12 NameAndType Name index 119, Description index 127
+90: Tag 12 NameAndType Name index 128, Description index 122
+91: Tag 1 Utf8 Value "EJBObject"
+92: Tag 1 Utf8 Value "javax/ejb/EJBObject"
+93: Tag 12 NameAndType Name index 129, Description index 130
+94: Tag 7 Class Name index 131
+95: Tag 12 NameAndType Name index 132, Description index 133
+96: Tag 12 NameAndType Name index 134, Description index 116
+97: Tag 12 NameAndType Name index 63, Description index 64
+98: Tag 12 NameAndType Name index 135, Description index 116
+99: Tag 12 NameAndType Name index 65, Description index 66
+100: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/session/SessionBeanComponent"
+101: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/EJBComponent"
+102: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+103: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/component/EJBComponentCreateService;)V"
+104: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/session/SessionBeanComponentCreateService"
+105: Tag 1 Utf8 Value "getBeanAccessTimeout"
+106: Tag 1 Utf8 Value "()Ljava/util/Map;"
+107: Tag 1 Utf8 Value "getAsyncExecutorService"
+108: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue;"
+109: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+110: Tag 1 Utf8 Value "getOptionalValue"
+111: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+112: Tag 1 Utf8 Value "org/jboss/as/ejb3/logging/EjbLogger"
+113: Tag 1 Utf8 Value "ROOT_LOGGER"
+114: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/logging/EjbLogger;"
+115: Tag 1 Utf8 Value "businessInterfaceIsNull"
+116: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+117: Tag 1 Utf8 Value "java/util/Collections"
+118: Tag 1 Utf8 Value "emptyMap"
+119: Tag 1 Utf8 Value "createViewInstanceProxy"
+120: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/util/Map;)Ljava/lang/Object;"
+121: Tag 1 Utf8 Value "getEjbLocalObjectViewServiceName"
+122: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+123: Tag 1 Utf8 Value "getComponentName"
+124: Tag 1 Utf8 Value "()Ljava/lang/String;"
+125: Tag 1 Utf8 Value "beanComponentMissingEjbObject"
+126: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+127: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/util/Map;Lorg/jboss/msc/service/ServiceName;)Ljava/lang/Object;"
+128: Tag 1 Utf8 Value "getEjbObjectViewServiceName"
+129: Tag 1 Utf8 Value "getCurrentTransactionAttribute"
+130: Tag 1 Utf8 Value "()Ljavax/ejb/TransactionAttributeType;"
+131: Tag 1 Utf8 Value "javax/ejb/TransactionAttributeType"
+132: Tag 1 Utf8 Value "SUPPORTS"
+133: Tag 1 Utf8 Value "Ljavax/ejb/TransactionAttributeType;"
+134: Tag 1 Utf8 Value "getRollBackOnlyIsNotAllowWithSupportsAttribute"
+135: Tag 1 Utf8 Value "setRollbackOnlyNotAllowedForSupportsTxAttr"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 27, name org.jboss.as.ejb3.component.session.SessionBeanComponent
+
+Super class: id 28, name org.jboss.as.ejb3.component.EJBComponent
+
+No interfaces
+
+Field name beanLevelAccessTimeout (index 29), type Ljava/util/Map; (descriptor index 30)
+Human type: java.util.Map
+Flags: decimal 20, hex 0014, binary 0000000000010100 protected final
+Field attribute name Signature, size 2
+Field name asyncExecutor (index 33), type Ljava/util/concurrent/ExecutorService; (descriptor index 34)
+Human type: java.util.concurrent.ExecutorService
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 35), type (Lorg/jboss/as/ejb3/component/session/SessionBeanComponentCreateService;)V (descriptor index 36)
+Human type: (org.jboss.as.ejb3.component.session.SessionBeanComponentCreateService): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 92
+Method name getBusinessObject (index 44), type (Ljava/lang/Class;Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object; (descriptor index 45)
+Human type: (java.lang.Class, org.jboss.invocation.InterceptorContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 119
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name getEJBLocalObject (index 56), type (Lorg/jboss/invocation/InterceptorContext;)Ljavax/ejb/EJBLocalObject; (descriptor index 57)
+Human type: (org.jboss.invocation.InterceptorContext): javax.ejb.EJBLocalObject
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 108
+Method attribute name Exceptions, size 4
+Method name getEJBObject (index 59), type (Lorg/jboss/invocation/InterceptorContext;)Ljavax/ejb/EJBObject; (descriptor index 60)
+Human type: (org.jboss.invocation.InterceptorContext): javax.ejb.EJBObject
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 108
+Method attribute name Exceptions, size 4
+Method name getAsynchronousExecutor (index 61), type ()Ljava/util/concurrent/ExecutorService; (descriptor index 62)
+Human type: (): java.util.concurrent.ExecutorService
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getRollbackOnly (index 63), type ()Z (descriptor index 64)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 83
+Method attribute name Exceptions, size 4
+Method name setRollbackOnly (index 65), type ()V (descriptor index 66)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 87
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

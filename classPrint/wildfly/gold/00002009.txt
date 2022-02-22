@@ -1,0 +1,185 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 101
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jipijapa/plugin/spi/PersistenceUnitMetadata"
+11: Tag 1 Utf8 Value "getProperties"
+12: Tag 1 Utf8 Value "()Ljava/util/Properties;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/jboss/as/jpa/openjpa/OpenJPAPersistenceProviderAdaptor"
+15: Tag 8 String Contents 16
+16: Tag 1 Utf8 Value "openjpa.TransactionMode"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "java/util/Properties"
+21: Tag 1 Utf8 Value "containsKey"
+22: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+23: Tag 8 String Contents 24
+24: Tag 1 Utf8 Value "managed"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "java/util/Map"
+29: Tag 1 Utf8 Value "put"
+30: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+31: Tag 8 String Contents 32
+32: Tag 1 Utf8 Value "openjpa.ManagedRuntime"
+33: Tag 8 String Contents 34
+34: Tag 1 Utf8 Value "jndi(TransactionManagerName=java:jboss/TransactionManager)"
+35: Tag 8 String Contents 36
+36: Tag 1 Utf8 Value "openjpa.MetaDataFactory"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/jboss/as/jpa/openjpa/JBossPersistenceMetaDataFactory"
+39: Tag 10 MethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "java/lang/Class"
+43: Tag 1 Utf8 Value "getName"
+44: Tag 1 Utf8 Value "()Ljava/lang/String;"
+45: Tag 10 MethodRef Class index 37, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "setThreadLocalPersistenceUnitMetadata"
+48: Tag 1 Utf8 Value "(Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)V"
+49: Tag 10 MethodRef Class index 37, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 6
+51: Tag 1 Utf8 Value "clearThreadLocalPersistenceUnitMetadata"
+52: Tag 10 MethodRef Class index 37, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 48
+54: Tag 1 Utf8 Value "cleanup"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jipijapa/plugin/spi/PersistenceProviderAdaptor"
+57: Tag 1 Utf8 Value "TRANSACTION_MODE"
+58: Tag 1 Utf8 Value "Ljava/lang/String;"
+59: Tag 1 Utf8 Value "ConstantValue"
+60: Tag 1 Utf8 Value "MANAGED_RUNTIME"
+61: Tag 1 Utf8 Value "METADATA_FACTORY"
+62: Tag 1 Utf8 Value "MANAGED"
+63: Tag 1 Utf8 Value "JNDI_TRANSACTION_MANAGER_NAME_JAVA_JBOSS_TRANSACTION_MANAGER"
+64: Tag 1 Utf8 Value "Code"
+65: Tag 1 Utf8 Value "LineNumberTable"
+66: Tag 1 Utf8 Value "LocalVariableTable"
+67: Tag 1 Utf8 Value "this"
+68: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/openjpa/OpenJPAPersistenceProviderAdaptor;"
+69: Tag 1 Utf8 Value "addProviderProperties"
+70: Tag 1 Utf8 Value "(Ljava/util/Map;Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)V"
+71: Tag 1 Utf8 Value "properties"
+72: Tag 1 Utf8 Value "Ljava/util/Map;"
+73: Tag 1 Utf8 Value "pu"
+74: Tag 1 Utf8 Value "Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;"
+75: Tag 1 Utf8 Value "StackMapTable"
+76: Tag 1 Utf8 Value "beforeCreateContainerEntityManagerFactory"
+77: Tag 1 Utf8 Value "afterCreateContainerEntityManagerFactory"
+78: Tag 1 Utf8 Value "injectJtaManager"
+79: Tag 1 Utf8 Value "(Lorg/jipijapa/plugin/spi/JtaManager;)V"
+80: Tag 1 Utf8 Value "jtaManager"
+81: Tag 1 Utf8 Value "Lorg/jipijapa/plugin/spi/JtaManager;"
+82: Tag 1 Utf8 Value "injectPlatform"
+83: Tag 1 Utf8 Value "(Lorg/jipijapa/plugin/spi/Platform;)V"
+84: Tag 1 Utf8 Value "platform"
+85: Tag 1 Utf8 Value "Lorg/jipijapa/plugin/spi/Platform;"
+86: Tag 1 Utf8 Value "addProviderDependencies"
+87: Tag 1 Utf8 Value "getManagementAdaptor"
+88: Tag 1 Utf8 Value "()Lorg/jipijapa/plugin/spi/ManagementAdaptor;"
+89: Tag 1 Utf8 Value "doesScopedPersistenceUnitNameIdentifyCacheRegionName"
+90: Tag 1 Utf8 Value "(Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)Z"
+91: Tag 1 Utf8 Value "beanManagerLifeCycle"
+92: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/BeanManager;)Ljava/lang/Object;"
+93: Tag 1 Utf8 Value "beanManager"
+94: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/BeanManager;"
+95: Tag 1 Utf8 Value "markPersistenceUnitAvailable"
+96: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+97: Tag 1 Utf8 Value "wrapperBeanManagerLifeCycle"
+98: Tag 1 Utf8 Value "Ljava/lang/Object;"
+99: Tag 1 Utf8 Value "SourceFile"
+100: Tag 1 Utf8 Value "OpenJPAPersistenceProviderAdaptor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 13, name org.jboss.as.jpa.openjpa.OpenJPAPersistenceProviderAdaptor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 55
+Implements names org.jipijapa.plugin.spi.PersistenceProviderAdaptor
+
+Field name TRANSACTION_MODE (index 57), type Ljava/lang/String; (descriptor index 58)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name MANAGED_RUNTIME (index 60), type Ljava/lang/String; (descriptor index 58)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name METADATA_FACTORY (index 61), type Ljava/lang/String; (descriptor index 58)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name MANAGED (index 62), type Ljava/lang/String; (descriptor index 58)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name JNDI_TRANSACTION_MANAGER_NAME_JAVA_JBOSS_TRANSACTION_MANAGER (index 63), type Ljava/lang/String; (descriptor index 58)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name addProviderProperties (index 69), type (Ljava/util/Map;Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)V (descriptor index 70)
+Human type: (java.util.Map, org.jipijapa.plugin.spi.PersistenceUnitMetadata): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 176
+Method name beforeCreateContainerEntityManagerFactory (index 76), type (Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)V (descriptor index 48)
+Human type: (org.jipijapa.plugin.spi.PersistenceUnitMetadata): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 61
+Method name afterCreateContainerEntityManagerFactory (index 77), type (Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)V (descriptor index 48)
+Human type: (org.jipijapa.plugin.spi.PersistenceUnitMetadata): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 60
+Method name injectJtaManager (index 78), type (Lorg/jipijapa/plugin/spi/JtaManager;)V (descriptor index 79)
+Human type: (org.jipijapa.plugin.spi.JtaManager): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name injectPlatform (index 82), type (Lorg/jipijapa/plugin/spi/Platform;)V (descriptor index 83)
+Human type: (org.jipijapa.plugin.spi.Platform): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name addProviderDependencies (index 86), type (Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)V (descriptor index 48)
+Human type: (org.jipijapa.plugin.spi.PersistenceUnitMetadata): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name getManagementAdaptor (index 87), type ()Lorg/jipijapa/plugin/spi/ManagementAdaptor; (descriptor index 88)
+Human type: (): org.jipijapa.plugin.spi.ManagementAdaptor
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name doesScopedPersistenceUnitNameIdentifyCacheRegionName (index 89), type (Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)Z (descriptor index 90)
+Human type: (org.jipijapa.plugin.spi.PersistenceUnitMetadata): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 54
+Method name cleanup (index 54), type (Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)V (descriptor index 48)
+Human type: (org.jipijapa.plugin.spi.PersistenceUnitMetadata): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 61
+Method name beanManagerLifeCycle (index 91), type (Ljavax/enterprise/inject/spi/BeanManager;)Ljava/lang/Object; (descriptor index 92)
+Human type: (javax.enterprise.inject.spi.BeanManager): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 54
+Method name markPersistenceUnitAvailable (index 95), type (Ljava/lang/Object;)V (descriptor index 96)
+Human type: (java.lang.Object): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+
+Class attribute name SourceFile, size 2

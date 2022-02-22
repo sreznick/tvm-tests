@@ -1,0 +1,593 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 456
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/session/DistributableSession"
+11: Tag 1 Utf8 Value "id"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "localContext"
+16: Tag 1 Utf8 Value "Ljava/util/Map;"
+17: Tag 9 FieldRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "manager"
+20: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/session/UndertowSessionManager;"
+21: Tag 11 InterfaceMethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/Session"
+25: Tag 1 Utf8 Value "getId"
+26: Tag 1 Utf8 Value "()Ljava/lang/String;"
+27: Tag 7 Class Name index 28
+28: Tag 1 Utf8 Value "java/util/AbstractMap$SimpleImmutableEntry"
+29: Tag 10 MethodRef Class index 27, Name and type index 30
+30: Tag 12 NameAndType Name index 5, Description index 31
+31: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+32: Tag 9 FieldRef Class index 8, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "entry"
+35: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+36: Tag 9 FieldRef Class index 8, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 39
+38: Tag 1 Utf8 Value "batch"
+39: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batch;"
+40: Tag 9 FieldRef Class index 8, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 43
+42: Tag 1 Utf8 Value "closeTask"
+43: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+44: Tag 11 InterfaceMethodRef Class index 22, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "getMetaData"
+47: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionMetaData;"
+48: Tag 11 InterfaceMethodRef Class index 49, Name and type index 50
+49: Tag 7 Class Name index 51
+50: Tag 12 NameAndType Name index 52, Description index 53
+51: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/SessionMetaData"
+52: Tag 1 Utf8 Value "isNew"
+53: Tag 1 Utf8 Value "()Z"
+54: Tag 11 InterfaceMethodRef Class index 49, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 57
+56: Tag 1 Utf8 Value "getCreationTime"
+57: Tag 1 Utf8 Value "()Ljava/time/Instant;"
+58: Tag 10 MethodRef Class index 59, Name and type index 60
+59: Tag 7 Class Name index 61
+60: Tag 12 NameAndType Name index 62, Description index 57
+61: Tag 1 Utf8 Value "java/time/Instant"
+62: Tag 1 Utf8 Value "now"
+63: Tag 9 FieldRef Class index 8, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "startTime"
+66: Tag 1 Utf8 Value "Ljava/time/Instant;"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/oob/OOBSession"
+69: Tag 11 InterfaceMethodRef Class index 70, Name and type index 71
+70: Tag 7 Class Name index 72
+71: Tag 12 NameAndType Name index 73, Description index 74
+72: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/session/UndertowSessionManager"
+73: Tag 1 Utf8 Value "getSessionManager"
+74: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionManager;"
+75: Tag 10 MethodRef Class index 67, Name and type index 76
+76: Tag 12 NameAndType Name index 5, Description index 77
+77: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/session/SessionManager;Ljava/lang/String;Ljava/lang/Object;)V"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/session/SimpleSessionConfig"
+80: Tag 10 MethodRef Class index 78, Name and type index 81
+81: Tag 12 NameAndType Name index 5, Description index 82
+82: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+83: Tag 10 MethodRef Class index 8, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 86
+85: Tag 1 Utf8 Value "getSessionEntry"
+86: Tag 1 Utf8 Value "()Ljava/util/Map$Entry;"
+87: Tag 11 InterfaceMethodRef Class index 88, Name and type index 89
+88: Tag 7 Class Name index 90
+89: Tag 12 NameAndType Name index 91, Description index 92
+90: Tag 1 Utf8 Value "java/util/Map$Entry"
+91: Tag 1 Utf8 Value "getKey"
+92: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+93: Tag 11 InterfaceMethodRef Class index 94, Name and type index 95
+94: Tag 7 Class Name index 96
+95: Tag 12 NameAndType Name index 97, Description index 98
+96: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/SessionManager"
+97: Tag 1 Utf8 Value "getBatcher"
+98: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batcher;"
+99: Tag 11 InterfaceMethodRef Class index 100, Name and type index 101
+100: Tag 7 Class Name index 102
+101: Tag 12 NameAndType Name index 103, Description index 104
+102: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batcher"
+103: Tag 1 Utf8 Value "resumeBatch"
+104: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/ee/Batch;)Lorg/wildfly/clustering/ee/BatchContext;"
+105: Tag 11 InterfaceMethodRef Class index 106, Name and type index 107
+106: Tag 7 Class Name index 108
+107: Tag 12 NameAndType Name index 109, Description index 110
+108: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batch"
+109: Tag 1 Utf8 Value "getState"
+110: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batch$State;"
+111: Tag 9 FieldRef Class index 112, Name and type index 113
+112: Tag 7 Class Name index 114
+113: Tag 12 NameAndType Name index 115, Description index 116
+114: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Batch$State"
+115: Tag 1 Utf8 Value "DISCARDED"
+116: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batch$State;"
+117: Tag 11 InterfaceMethodRef Class index 106, Name and type index 118
+118: Tag 12 NameAndType Name index 119, Description index 6
+119: Tag 1 Utf8 Value "close"
+120: Tag 9 FieldRef Class index 112, Name and type index 121
+121: Tag 12 NameAndType Name index 122, Description index 116
+122: Tag 1 Utf8 Value "CLOSED"
+123: Tag 11 InterfaceMethodRef Class index 22, Name and type index 124
+124: Tag 12 NameAndType Name index 125, Description index 53
+125: Tag 1 Utf8 Value "isValid"
+126: Tag 11 InterfaceMethodRef Class index 100, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 129
+128: Tag 1 Utf8 Value "createBatch"
+129: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/Batch;"
+130: Tag 11 InterfaceMethodRef Class index 49, Name and type index 131
+131: Tag 12 NameAndType Name index 132, Description index 133
+132: Tag 1 Utf8 Value "setLastAccess"
+133: Tag 1 Utf8 Value "(Ljava/time/Instant;Ljava/time/Instant;)V"
+134: Tag 11 InterfaceMethodRef Class index 22, Name and type index 118
+135: Tag 7 Class Name index 136
+136: Tag 1 Utf8 Value "java/lang/Throwable"
+137: Tag 10 MethodRef Class index 135, Name and type index 138
+138: Tag 12 NameAndType Name index 139, Description index 140
+139: Tag 1 Utf8 Value "addSuppressed"
+140: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+141: Tag 11 InterfaceMethodRef Class index 142, Name and type index 118
+142: Tag 7 Class Name index 143
+143: Tag 1 Utf8 Value "org/wildfly/clustering/ee/BatchContext"
+144: Tag 11 InterfaceMethodRef Class index 22, Name and type index 145
+145: Tag 12 NameAndType Name index 146, Description index 92
+146: Tag 1 Utf8 Value "getLocalContext"
+147: Tag 7 Class Name index 148
+148: Tag 1 Utf8 Value "java/util/Map"
+149: Tag 11 InterfaceMethodRef Class index 150, Name and type index 151
+150: Tag 7 Class Name index 152
+151: Tag 12 NameAndType Name index 153, Description index 154
+152: Tag 1 Utf8 Value "java/util/function/Consumer"
+153: Tag 1 Utf8 Value "accept"
+154: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+155: Tag 9 FieldRef Class index 156, Name and type index 157
+156: Tag 7 Class Name index 158
+157: Tag 12 NameAndType Name index 159, Description index 160
+158: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/logging/UndertowClusteringLogger"
+159: Tag 1 Utf8 Value "ROOT_LOGGER"
+160: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/logging/UndertowClusteringLogger;"
+161: Tag 10 MethodRef Class index 135, Name and type index 162
+162: Tag 12 NameAndType Name index 163, Description index 26
+163: Tag 1 Utf8 Value "getLocalizedMessage"
+164: Tag 11 InterfaceMethodRef Class index 156, Name and type index 165
+165: Tag 12 NameAndType Name index 166, Description index 167
+166: Tag 1 Utf8 Value "warn"
+167: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Throwable;)V"
+168: Tag 10 MethodRef Class index 8, Name and type index 169
+169: Tag 12 NameAndType Name index 103, Description index 170
+170: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/ee/BatchContext;"
+171: Tag 10 MethodRef Class index 59, Name and type index 172
+172: Tag 12 NameAndType Name index 173, Description index 174
+173: Tag 1 Utf8 Value "toEpochMilli"
+174: Tag 1 Utf8 Value "()J"
+175: Tag 7 Class Name index 176
+176: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+177: Tag 10 MethodRef Class index 8, Name and type index 178
+178: Tag 12 NameAndType Name index 179, Description index 180
+179: Tag 1 Utf8 Value "closeIfInvalid"
+180: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;Lorg/wildfly/clustering/web/session/Session;)V"
+181: Tag 11 InterfaceMethodRef Class index 49, Name and type index 182
+182: Tag 12 NameAndType Name index 183, Description index 57
+183: Tag 1 Utf8 Value "getLastAccessStartTime"
+184: Tag 11 InterfaceMethodRef Class index 49, Name and type index 185
+185: Tag 12 NameAndType Name index 186, Description index 187
+186: Tag 1 Utf8 Value "getMaxInactiveInterval"
+187: Tag 1 Utf8 Value "()Ljava/time/Duration;"
+188: Tag 10 MethodRef Class index 189, Name and type index 190
+189: Tag 7 Class Name index 191
+190: Tag 12 NameAndType Name index 192, Description index 174
+191: Tag 1 Utf8 Value "java/time/Duration"
+192: Tag 1 Utf8 Value "getSeconds"
+193: Tag 10 MethodRef Class index 189, Name and type index 194
+194: Tag 12 NameAndType Name index 195, Description index 196
+195: Tag 1 Utf8 Value "ofSeconds"
+196: Tag 1 Utf8 Value "(J)Ljava/time/Duration;"
+197: Tag 11 InterfaceMethodRef Class index 49, Name and type index 198
+198: Tag 12 NameAndType Name index 199, Description index 200
+199: Tag 1 Utf8 Value "setMaxInactiveInterval"
+200: Tag 1 Utf8 Value "(Ljava/time/Duration;)V"
+201: Tag 11 InterfaceMethodRef Class index 22, Name and type index 202
+202: Tag 12 NameAndType Name index 203, Description index 204
+203: Tag 1 Utf8 Value "getAttributes"
+204: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionAttributes;"
+205: Tag 11 InterfaceMethodRef Class index 206, Name and type index 207
+206: Tag 7 Class Name index 208
+207: Tag 12 NameAndType Name index 209, Description index 210
+208: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/SessionAttributes"
+209: Tag 1 Utf8 Value "getAttributeNames"
+210: Tag 1 Utf8 Value "()Ljava/util/Set;"
+211: Tag 9 FieldRef Class index 212, Name and type index 213
+212: Tag 7 Class Name index 214
+213: Tag 12 NameAndType Name index 215, Description index 12
+214: Tag 1 Utf8 Value "io/undertow/servlet/handlers/security/CachedAuthenticatedSessionHandler"
+215: Tag 1 Utf8 Value "ATTRIBUTE_NAME"
+216: Tag 10 MethodRef Class index 217, Name and type index 218
+217: Tag 7 Class Name index 219
+218: Tag 12 NameAndType Name index 220, Description index 221
+219: Tag 1 Utf8 Value "java/lang/String"
+220: Tag 1 Utf8 Value "equals"
+221: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+222: Tag 11 InterfaceMethodRef Class index 206, Name and type index 223
+223: Tag 12 NameAndType Name index 224, Description index 225
+224: Tag 1 Utf8 Value "getAttribute"
+225: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+226: Tag 7 Class Name index 227
+227: Tag 1 Utf8 Value "io/undertow/security/api/AuthenticatedSessionManager$AuthenticatedSession"
+228: Tag 11 InterfaceMethodRef Class index 147, Name and type index 229
+229: Tag 12 NameAndType Name index 230, Description index 231
+230: Tag 1 Utf8 Value "get"
+231: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+232: Tag 9 FieldRef Class index 8, Name and type index 233
+233: Tag 12 NameAndType Name index 234, Description index 235
+234: Tag 1 Utf8 Value "LOCAL_CONTEXT_ATTRIBUTES"
+235: Tag 1 Utf8 Value "Ljava/util/Set;"
+236: Tag 11 InterfaceMethodRef Class index 237, Name and type index 238
+237: Tag 7 Class Name index 239
+238: Tag 12 NameAndType Name index 240, Description index 221
+239: Tag 1 Utf8 Value "java/util/Set"
+240: Tag 1 Utf8 Value "contains"
+241: Tag 10 MethodRef Class index 8, Name and type index 242
+242: Tag 12 NameAndType Name index 243, Description index 225
+243: Tag 1 Utf8 Value "removeAttribute"
+244: Tag 9 FieldRef Class index 8, Name and type index 245
+245: Tag 12 NameAndType Name index 246, Description index 235
+246: Tag 1 Utf8 Value "AUTO_REAUTHENTICATING_MECHANISMS"
+247: Tag 10 MethodRef Class index 226, Name and type index 248
+248: Tag 12 NameAndType Name index 249, Description index 26
+249: Tag 1 Utf8 Value "getMechanism"
+250: Tag 11 InterfaceMethodRef Class index 147, Name and type index 251
+251: Tag 12 NameAndType Name index 252, Description index 253
+252: Tag 1 Utf8 Value "put"
+253: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+254: Tag 11 InterfaceMethodRef Class index 206, Name and type index 255
+255: Tag 12 NameAndType Name index 256, Description index 257
+256: Tag 1 Utf8 Value "setAttribute"
+257: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+258: Tag 11 InterfaceMethodRef Class index 70, Name and type index 259
+259: Tag 12 NameAndType Name index 260, Description index 261
+260: Tag 1 Utf8 Value "getSessionListeners"
+261: Tag 1 Utf8 Value "()Lio/undertow/server/session/SessionListeners;"
+262: Tag 10 MethodRef Class index 263, Name and type index 264
+263: Tag 7 Class Name index 265
+264: Tag 12 NameAndType Name index 266, Description index 267
+265: Tag 1 Utf8 Value "io/undertow/server/session/SessionListeners"
+266: Tag 1 Utf8 Value "attributeAdded"
+267: Tag 1 Utf8 Value "(Lio/undertow/server/session/Session;Ljava/lang/String;Ljava/lang/Object;)V"
+268: Tag 10 MethodRef Class index 263, Name and type index 269
+269: Tag 12 NameAndType Name index 270, Description index 271
+270: Tag 1 Utf8 Value "attributeUpdated"
+271: Tag 1 Utf8 Value "(Lio/undertow/server/session/Session;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+272: Tag 11 InterfaceMethodRef Class index 206, Name and type index 242
+273: Tag 11 InterfaceMethodRef Class index 147, Name and type index 274
+274: Tag 12 NameAndType Name index 275, Description index 231
+275: Tag 1 Utf8 Value "remove"
+276: Tag 10 MethodRef Class index 263, Name and type index 277
+277: Tag 12 NameAndType Name index 278, Description index 267
+278: Tag 1 Utf8 Value "attributeRemoved"
+279: Tag 9 FieldRef Class index 280, Name and type index 281
+280: Tag 7 Class Name index 282
+281: Tag 12 NameAndType Name index 283, Description index 284
+282: Tag 1 Utf8 Value "io/undertow/server/session/SessionListener$SessionDestroyedReason"
+283: Tag 1 Utf8 Value "INVALIDATED"
+284: Tag 1 Utf8 Value "Lio/undertow/server/session/SessionListener$SessionDestroyedReason;"
+285: Tag 10 MethodRef Class index 263, Name and type index 286
+286: Tag 12 NameAndType Name index 287, Description index 288
+287: Tag 1 Utf8 Value "sessionDestroyed"
+288: Tag 1 Utf8 Value "(Lio/undertow/server/session/Session;Lio/undertow/server/HttpServerExchange;Lio/undertow/server/session/SessionListener$SessionDestroyedReason;)V"
+289: Tag 11 InterfaceMethodRef Class index 290, Name and type index 207
+290: Tag 7 Class Name index 291
+291: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/ImmutableSessionAttributes"
+292: Tag 11 InterfaceMethodRef Class index 237, Name and type index 293
+293: Tag 12 NameAndType Name index 294, Description index 295
+294: Tag 1 Utf8 Value "iterator"
+295: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+296: Tag 11 InterfaceMethodRef Class index 297, Name and type index 298
+297: Tag 7 Class Name index 299
+298: Tag 12 NameAndType Name index 300, Description index 53
+299: Tag 1 Utf8 Value "java/util/Iterator"
+300: Tag 1 Utf8 Value "hasNext"
+301: Tag 11 InterfaceMethodRef Class index 297, Name and type index 302
+302: Tag 12 NameAndType Name index 303, Description index 92
+303: Tag 1 Utf8 Value "next"
+304: Tag 11 InterfaceMethodRef Class index 290, Name and type index 223
+305: Tag 11 InterfaceMethodRef Class index 22, Name and type index 306
+306: Tag 12 NameAndType Name index 307, Description index 6
+307: Tag 1 Utf8 Value "invalidate"
+308: Tag 11 InterfaceMethodRef Class index 88, Name and type index 309
+309: Tag 12 NameAndType Name index 310, Description index 92
+310: Tag 1 Utf8 Value "getValue"
+311: Tag 7 Class Name index 312
+312: Tag 1 Utf8 Value "io/undertow/server/session/SessionConfig"
+313: Tag 11 InterfaceMethodRef Class index 311, Name and type index 314
+314: Tag 12 NameAndType Name index 315, Description index 316
+315: Tag 1 Utf8 Value "clearSession"
+316: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;Ljava/lang/String;)V"
+317: Tag 10 MethodRef Class index 318, Name and type index 319
+318: Tag 7 Class Name index 320
+319: Tag 12 NameAndType Name index 321, Description index 53
+320: Tag 1 Utf8 Value "io/undertow/server/HttpServerExchange"
+321: Tag 1 Utf8 Value "isResponseStarted"
+322: Tag 9 FieldRef Class index 323, Name and type index 324
+323: Tag 7 Class Name index 325
+324: Tag 12 NameAndType Name index 326, Description index 327
+325: Tag 1 Utf8 Value "io/undertow/servlet/UndertowServletMessages"
+326: Tag 1 Utf8 Value "MESSAGES"
+327: Tag 1 Utf8 Value "Lio/undertow/servlet/UndertowServletMessages;"
+328: Tag 11 InterfaceMethodRef Class index 323, Name and type index 329
+329: Tag 12 NameAndType Name index 330, Description index 331
+330: Tag 1 Utf8 Value "responseAlreadyCommited"
+331: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+332: Tag 11 InterfaceMethodRef Class index 94, Name and type index 333
+333: Tag 12 NameAndType Name index 334, Description index 335
+334: Tag 1 Utf8 Value "getIdentifierFactory"
+335: Tag 1 Utf8 Value "()Ljava/util/function/Supplier;"
+336: Tag 11 InterfaceMethodRef Class index 337, Name and type index 338
+337: Tag 7 Class Name index 339
+338: Tag 12 NameAndType Name index 230, Description index 92
+339: Tag 1 Utf8 Value "java/util/function/Supplier"
+340: Tag 11 InterfaceMethodRef Class index 94, Name and type index 341
+341: Tag 12 NameAndType Name index 342, Description index 343
+342: Tag 1 Utf8 Value "createSession"
+343: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/clustering/web/session/Session;"
+344: Tag 11 InterfaceMethodRef Class index 49, Name and type index 345
+345: Tag 12 NameAndType Name index 346, Description index 57
+346: Tag 1 Utf8 Value "getLastAccessEndTime"
+347: Tag 11 InterfaceMethodRef Class index 147, Name and type index 348
+348: Tag 12 NameAndType Name index 349, Description index 350
+349: Tag 1 Utf8 Value "putAll"
+350: Tag 1 Utf8 Value "(Ljava/util/Map;)V"
+351: Tag 11 InterfaceMethodRef Class index 311, Name and type index 352
+352: Tag 12 NameAndType Name index 353, Description index 316
+353: Tag 1 Utf8 Value "setSessionId"
+354: Tag 10 MethodRef Class index 263, Name and type index 355
+355: Tag 12 NameAndType Name index 356, Description index 357
+356: Tag 1 Utf8 Value "sessionIdChanged"
+357: Tag 1 Utf8 Value "(Lio/undertow/server/session/Session;Ljava/lang/String;)V"
+358: Tag 7 Class Name index 359
+359: Tag 1 Utf8 Value "java/util/HashSet"
+360: Tag 7 Class Name index 361
+361: Tag 1 Utf8 Value "javax/servlet/http/HttpServletRequest"
+362: Tag 8 String Contents 363
+363: Tag 1 Utf8 Value "BASIC"
+364: Tag 8 String Contents 365
+365: Tag 1 Utf8 Value "DIGEST"
+366: Tag 8 String Contents 367
+367: Tag 1 Utf8 Value "CLIENT_CERT"
+368: Tag 10 MethodRef Class index 369, Name and type index 370
+369: Tag 7 Class Name index 371
+370: Tag 12 NameAndType Name index 372, Description index 373
+371: Tag 1 Utf8 Value "java/util/Arrays"
+372: Tag 1 Utf8 Value "asList"
+373: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+374: Tag 10 MethodRef Class index 358, Name and type index 375
+375: Tag 12 NameAndType Name index 5, Description index 376
+376: Tag 1 Utf8 Value "(Ljava/util/Collection;)V"
+377: Tag 8 String Contents 378
+378: Tag 1 Utf8 Value "io.undertow.websocket.current-connections"
+379: Tag 8 String Contents 380
+380: Tag 1 Utf8 Value "org.wildfly.elytron.web.undertow.server.servlet.ServletSecurityContextImpl$IdentityContainer"
+381: Tag 7 Class Name index 382
+382: Tag 1 Utf8 Value "io/undertow/server/session/Session"
+383: Tag 1 Utf8 Value "Signature"
+384: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/String;>;"
+385: Tag 1 Utf8 Value "WEB_SOCKET_CHANNELS_ATTRIBUTE"
+386: Tag 1 Utf8 Value "ConstantValue"
+387: Tag 1 Utf8 Value "IDENTITY_CONTAINER_ATTRIBUTE"
+388: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lio/undertow/server/HttpServerExchange;>;"
+389: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Lorg/wildfly/clustering/web/session/Session<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;Lio/undertow/server/session/SessionConfig;>;"
+390: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;"
+391: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/undertow/session/UndertowSessionManager;Lorg/wildfly/clustering/web/session/Session;Lio/undertow/server/session/SessionConfig;Lorg/wildfly/clustering/ee/Batch;Ljava/util/function/Consumer;)V"
+392: Tag 1 Utf8 Value "Code"
+393: Tag 1 Utf8 Value "LineNumberTable"
+394: Tag 1 Utf8 Value "LocalVariableTable"
+395: Tag 1 Utf8 Value "this"
+396: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/session/DistributableSession;"
+397: Tag 1 Utf8 Value "session"
+398: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/Session;"
+399: Tag 1 Utf8 Value "config"
+400: Tag 1 Utf8 Value "Lio/undertow/server/session/SessionConfig;"
+401: Tag 1 Utf8 Value "LocalVariableTypeTable"
+402: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/Session<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;"
+403: Tag 1 Utf8 Value "StackMapTable"
+404: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/undertow/session/UndertowSessionManager;Lorg/wildfly/clustering/web/session/Session<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;Lio/undertow/server/session/SessionConfig;Lorg/wildfly/clustering/ee/Batch;Ljava/util/function/Consumer<Lio/undertow/server/HttpServerExchange;>;)V"
+405: Tag 1 Utf8 Value "()Ljava/util/Map$Entry<Lorg/wildfly/clustering/web/session/Session<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;Lio/undertow/server/session/SessionConfig;>;"
+406: Tag 1 Utf8 Value "()Lio/undertow/server/session/SessionManager;"
+407: Tag 1 Utf8 Value "requestDone"
+408: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;)V"
+409: Tag 1 Utf8 Value "context"
+410: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/BatchContext;"
+411: Tag 1 Utf8 Value "e"
+412: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+413: Tag 1 Utf8 Value "exchange"
+414: Tag 1 Utf8 Value "Lio/undertow/server/HttpServerExchange;"
+415: Tag 1 Utf8 Value "requestSession"
+416: Tag 1 Utf8 Value "batcher"
+417: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher;"
+418: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Batcher<Lorg/wildfly/clustering/ee/Batch;>;"
+419: Tag 1 Utf8 Value "Ljava/lang/IllegalStateException;"
+420: Tag 1 Utf8 Value "getLastAccessedTime"
+421: Tag 1 Utf8 Value "()I"
+422: Tag 1 Utf8 Value "(I)V"
+423: Tag 1 Utf8 Value "interval"
+424: Tag 1 Utf8 Value "I"
+425: Tag 1 Utf8 Value "()Ljava/util/Set<Ljava/lang/String;>;"
+426: Tag 1 Utf8 Value "auth"
+427: Tag 1 Utf8 Value "Lio/undertow/security/api/AuthenticatedSessionManager$AuthenticatedSession;"
+428: Tag 1 Utf8 Value "name"
+429: Tag 1 Utf8 Value "old"
+430: Tag 1 Utf8 Value "Ljava/lang/Object;"
+431: Tag 1 Utf8 Value "value"
+432: Tag 1 Utf8 Value "attributes"
+433: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/ImmutableSessionAttributes;"
+434: Tag 1 Utf8 Value "changeSessionId"
+435: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;Lio/undertow/server/session/SessionConfig;)Ljava/lang/String;"
+436: Tag 1 Utf8 Value "newSession"
+437: Tag 1 Utf8 Value "oldSession"
+438: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/SessionManager;"
+439: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/SessionManager<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;Lorg/wildfly/clustering/ee/Batch;>;"
+440: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;Lorg/wildfly/clustering/web/session/Session<Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;>;)V"
+441: Tag 1 Utf8 Value "<clinit>"
+442: Tag 1 Utf8 Value "SourceFile"
+443: Tag 1 Utf8 Value "DistributableSession.java"
+444: Tag 1 Utf8 Value "InnerClasses"
+445: Tag 7 Class Name index 446
+446: Tag 1 Utf8 Value "java/util/AbstractMap"
+447: Tag 1 Utf8 Value "SimpleImmutableEntry"
+448: Tag 1 Utf8 Value "Entry"
+449: Tag 1 Utf8 Value "State"
+450: Tag 7 Class Name index 451
+451: Tag 1 Utf8 Value "io/undertow/security/api/AuthenticatedSessionManager"
+452: Tag 1 Utf8 Value "AuthenticatedSession"
+453: Tag 7 Class Name index 454
+454: Tag 1 Utf8 Value "io/undertow/server/session/SessionListener"
+455: Tag 1 Utf8 Value "SessionDestroyedReason"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.web.undertow.session.DistributableSession
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 381
+Implements names io.undertow.server.session.Session
+
+Field name AUTO_REAUTHENTICATING_MECHANISMS (index 246), type Ljava/util/Set; (descriptor index 235)
+Human type: java.util.Set
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+Field name WEB_SOCKET_CHANNELS_ATTRIBUTE (index 385), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+Field name IDENTITY_CONTAINER_ATTRIBUTE (index 387), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+Field name LOCAL_CONTEXT_ATTRIBUTES (index 234), type Ljava/util/Set; (descriptor index 235)
+Human type: java.util.Set
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+Field name manager (index 19), type Lorg/wildfly/clustering/web/undertow/session/UndertowSessionManager; (descriptor index 20)
+Human type: org.wildfly.clustering.web.undertow.session.UndertowSessionManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name batch (index 38), type Lorg/wildfly/clustering/ee/Batch; (descriptor index 39)
+Human type: org.wildfly.clustering.ee.Batch
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name closeTask (index 42), type Ljava/util/function/Consumer; (descriptor index 43)
+Human type: java.util.function.Consumer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name startTime (index 65), type Ljava/time/Instant; (descriptor index 66)
+Human type: java.time.Instant
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name entry (index 34), type Ljava/util/Map$Entry; (descriptor index 35)
+Human type: java.util.Map$Entry
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+Field name id (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name localContext (index 15), type Ljava/util/Map; (descriptor index 16)
+Human type: java.util.Map
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/web/undertow/session/UndertowSessionManager;Lorg/wildfly/clustering/web/session/Session;Lio/undertow/server/session/SessionConfig;Lorg/wildfly/clustering/ee/Batch;Ljava/util/function/Consumer;)V (descriptor index 391)
+Human type: (org.wildfly.clustering.web.undertow.session.UndertowSessionManager, org.wildfly.clustering.web.session.Session, io.undertow.server.session.SessionConfig, org.wildfly.clustering.ee.Batch, java.util.function.Consumer): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 313
+Method attribute name Signature, size 2
+Method name getSessionEntry (index 85), type ()Ljava/util/Map$Entry; (descriptor index 86)
+Human type: (): java.util.Map$Entry
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 221
+Method attribute name Signature, size 2
+Method name getSessionManager (index 73), type ()Lio/undertow/server/session/SessionManager; (descriptor index 406)
+Human type: (): io.undertow.server.session.SessionManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name requestDone (index 407), type (Lio/undertow/server/HttpServerExchange;)V (descriptor index 408)
+Human type: (io.undertow.server.HttpServerExchange): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 928
+Method name getId (index 25), type ()Ljava/lang/String; (descriptor index 26)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 94
+Method name getCreationTime (index 56), type ()J (descriptor index 174)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 308
+Method name getLastAccessedTime (index 420), type ()J (descriptor index 174)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 308
+Method name getMaxInactiveInterval (index 186), type ()I (descriptor index 421)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 309
+Method name setMaxInactiveInterval (index 199), type (I)V (descriptor index 422)
+Human type: (int): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 307
+Method name getAttributeNames (index 209), type ()Ljava/util/Set; (descriptor index 210)
+Human type: (): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 307
+Method attribute name Signature, size 2
+Method name getAttribute (index 224), type (Ljava/lang/String;)Ljava/lang/Object; (descriptor index 225)
+Human type: (java.lang.String): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 547
+Method name setAttribute (index 256), type (Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 257)
+Human type: (java.lang.String, java.lang.Object): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 699
+Method name removeAttribute (index 243), type (Ljava/lang/String;)Ljava/lang/Object; (descriptor index 225)
+Human type: (java.lang.String): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 600
+Method name invalidate (index 307), type (Lio/undertow/server/HttpServerExchange;)V (descriptor index 408)
+Human type: (io.undertow.server.HttpServerExchange): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 682
+Method name changeSessionId (index 434), type (Lio/undertow/server/HttpServerExchange;Lio/undertow/server/session/SessionConfig;)Ljava/lang/String; (descriptor index 435)
+Human type: (io.undertow.server.HttpServerExchange, io.undertow.server.session.SessionConfig): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 743
+Method name resumeBatch (index 103), type ()Lorg/wildfly/clustering/ee/BatchContext; (descriptor index 170)
+Human type: (): org.wildfly.clustering.ee.BatchContext
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 121
+Method name closeIfInvalid (index 179), type (Lio/undertow/server/HttpServerExchange;Lorg/wildfly/clustering/web/session/Session;)V (descriptor index 180)
+Human type: (io.undertow.server.HttpServerExchange, org.wildfly.clustering.web.session.Session): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 167
+Method attribute name Signature, size 2
+Method name <clinit> (index 441), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 93
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 42

@@ -1,0 +1,108 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 67
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/wildfly/naming/java/permission/JndiPermissionNameParser$ParsingIterator"
+9: Tag 10 MethodRef Class index 7, Name and type index 10
+10: Tag 12 NameAndType Name index 5, Description index 11
+11: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+12: Tag 7 Class Name index 13
+13: Tag 1 Utf8 Value "org/wildfly/naming/java/permission/JndiPermissionNameParser$SegmentsIterator"
+14: Tag 10 MethodRef Class index 12, Name and type index 15
+15: Tag 12 NameAndType Name index 5, Description index 16
+16: Tag 1 Utf8 Value "([Ljava/lang/String;)V"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/naming/java/permission/JndiPermissionNameParser"
+21: Tag 1 Utf8 Value "toArray"
+22: Tag 1 Utf8 Value "(Ljava/util/Iterator;I)[Ljava/lang/String;"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "java/util/Iterator"
+27: Tag 1 Utf8 Value "hasNext"
+28: Tag 1 Utf8 Value "()Z"
+29: Tag 11 InterfaceMethodRef Class index 24, Name and type index 30
+30: Tag 12 NameAndType Name index 31, Description index 32
+31: Tag 1 Utf8 Value "next"
+32: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+33: Tag 7 Class Name index 34
+34: Tag 1 Utf8 Value "java/lang/String"
+35: Tag 1 Utf8 Value "Code"
+36: Tag 1 Utf8 Value "LineNumberTable"
+37: Tag 1 Utf8 Value "LocalVariableTable"
+38: Tag 1 Utf8 Value "this"
+39: Tag 1 Utf8 Value "Lorg/wildfly/naming/java/permission/JndiPermissionNameParser;"
+40: Tag 1 Utf8 Value "nameIterator"
+41: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Iterator;"
+42: Tag 1 Utf8 Value "string"
+43: Tag 1 Utf8 Value "Ljava/lang/String;"
+44: Tag 1 Utf8 Value "Signature"
+45: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Iterator<Ljava/lang/String;>;"
+46: Tag 1 Utf8 Value "segmentsIterator"
+47: Tag 1 Utf8 Value "([Ljava/lang/String;)Ljava/util/Iterator;"
+48: Tag 1 Utf8 Value "segments"
+49: Tag 1 Utf8 Value "[Ljava/lang/String;"
+50: Tag 1 Utf8 Value "([Ljava/lang/String;)Ljava/util/Iterator<Ljava/lang/String;>;"
+51: Tag 1 Utf8 Value "(Ljava/util/Iterator;)[Ljava/lang/String;"
+52: Tag 1 Utf8 Value "iter"
+53: Tag 1 Utf8 Value "Ljava/util/Iterator;"
+54: Tag 1 Utf8 Value "LocalVariableTypeTable"
+55: Tag 1 Utf8 Value "Ljava/util/Iterator<Ljava/lang/String;>;"
+56: Tag 1 Utf8 Value "(Ljava/util/Iterator<Ljava/lang/String;>;)[Ljava/lang/String;"
+57: Tag 1 Utf8 Value "array"
+58: Tag 1 Utf8 Value "size"
+59: Tag 1 Utf8 Value "I"
+60: Tag 1 Utf8 Value "StackMapTable"
+61: Tag 1 Utf8 Value "(Ljava/util/Iterator<Ljava/lang/String;>;I)[Ljava/lang/String;"
+62: Tag 1 Utf8 Value "SourceFile"
+63: Tag 1 Utf8 Value "JndiPermissionNameParser.java"
+64: Tag 1 Utf8 Value "InnerClasses"
+65: Tag 1 Utf8 Value "ParsingIterator"
+66: Tag 1 Utf8 Value "SegmentsIterator"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 18, name org.wildfly.naming.java.permission.JndiPermissionNameParser
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name nameIterator (index 40), type (Ljava/lang/String;)Ljava/util/Iterator; (descriptor index 41)
+Human type: (java.lang.String): java.util.Iterator
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 51
+Method attribute name Signature, size 2
+Method name segmentsIterator (index 46), type ([Ljava/lang/String;)Ljava/util/Iterator; (descriptor index 47)
+Human type: (java.lang.String[]): java.util.Iterator
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 51
+Method attribute name Signature, size 2
+Method name toArray (index 21), type (Ljava/util/Iterator;)[Ljava/lang/String; (descriptor index 51)
+Human type: (java.util.Iterator): java.lang.String[]
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 66
+Method attribute name Signature, size 2
+Method name toArray (index 21), type (Ljava/util/Iterator;I)[Ljava/lang/String; (descriptor index 22)
+Human type: (java.util.Iterator, int): java.lang.String[]
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 157
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

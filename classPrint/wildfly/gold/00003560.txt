@@ -1,0 +1,119 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 73
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/web/IdentifierMarshaller"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Ljava/lang/String;ILorg/wildfly/clustering/web/IdentifierMarshaller$1;)V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/nio/ByteBuffer"
+11: Tag 1 Utf8 Value "arrayOffset"
+12: Tag 1 Utf8 Value "()I"
+13: Tag 10 MethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "limit"
+16: Tag 7 Class Name index 17
+17: Tag 1 Utf8 Value "java/lang/String"
+18: Tag 10 MethodRef Class index 8, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "array"
+21: Tag 1 Utf8 Value "()[B"
+22: Tag 9 FieldRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "java/nio/charset/StandardCharsets"
+26: Tag 1 Utf8 Value "ISO_8859_1"
+27: Tag 1 Utf8 Value "Ljava/nio/charset/Charset;"
+28: Tag 10 MethodRef Class index 16, Name and type index 29
+29: Tag 12 NameAndType Name index 5, Description index 30
+30: Tag 1 Utf8 Value "([BIILjava/nio/charset/Charset;)V"
+31: Tag 10 MethodRef Class index 16, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "getBytes"
+34: Tag 1 Utf8 Value "(Ljava/nio/charset/Charset;)[B"
+35: Tag 10 MethodRef Class index 8, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "wrap"
+38: Tag 1 Utf8 Value "([B)Ljava/nio/ByteBuffer;"
+39: Tag 10 MethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "org/wildfly/clustering/web/IdentifierMarshaller$1"
+43: Tag 1 Utf8 Value "write"
+44: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/nio/ByteBuffer;"
+45: Tag 10 MethodRef Class index 40, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "read"
+48: Tag 1 Utf8 Value "(Ljava/nio/ByteBuffer;)Ljava/lang/String;"
+49: Tag 1 Utf8 Value "(Ljava/lang/String;I)V"
+50: Tag 1 Utf8 Value "Code"
+51: Tag 1 Utf8 Value "LineNumberTable"
+52: Tag 1 Utf8 Value "LocalVariableTable"
+53: Tag 1 Utf8 Value "this"
+54: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/IdentifierMarshaller$1;"
+55: Tag 1 Utf8 Value "buffer"
+56: Tag 1 Utf8 Value "Ljava/nio/ByteBuffer;"
+57: Tag 1 Utf8 Value "offset"
+58: Tag 1 Utf8 Value "I"
+59: Tag 1 Utf8 Value "length"
+60: Tag 1 Utf8 Value "Exceptions"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "java/io/IOException"
+63: Tag 1 Utf8 Value "value"
+64: Tag 1 Utf8 Value "Ljava/lang/String;"
+65: Tag 1 Utf8 Value "validate"
+66: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+67: Tag 1 Utf8 Value "id"
+68: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+69: Tag 1 Utf8 Value "SourceFile"
+70: Tag 1 Utf8 Value "IdentifierMarshaller.java"
+71: Tag 1 Utf8 Value "EnclosingMethod"
+72: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 16432, hex 4030, binary 0100000000110000 final super enum
+
+This class: id 40, name org.wildfly.clustering.web.IdentifierMarshaller$1
+
+Super class: id 2, name org.wildfly.clustering.web.IdentifierMarshaller
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type (Ljava/lang/String;I)V (descriptor index 49)
+Human type: (java.lang.String, int): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 50
+Method name read (index 47), type (Ljava/nio/ByteBuffer;)Ljava/lang/String; (descriptor index 48)
+Human type: (java.nio.ByteBuffer): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 109
+Method attribute name Exceptions, size 4
+Method name write (index 43), type (Ljava/lang/String;)Ljava/nio/ByteBuffer; (descriptor index 44)
+Human type: (java.lang.String): java.nio.ByteBuffer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Exceptions, size 4
+Method name validate (index 65), type (Ljava/lang/String;)Z (descriptor index 66)
+Human type: (java.lang.String): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 54
+Method name write (index 43), type (Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 68)
+Human type: (java.lang.Object): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+Method attribute name Exceptions, size 4
+Method name read (index 47), type (Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 68)
+Human type: (java.lang.Object): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

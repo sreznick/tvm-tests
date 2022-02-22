@@ -1,0 +1,201 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 111
+1: Tag 10 MethodRef Class index 14, Name and type index 95
+2: Tag 10 MethodRef Class index 15, Name and type index 95
+3: Tag 9 FieldRef Class index 96, Name and type index 97
+4: Tag 8 String Contents 36
+5: Tag 11 InterfaceMethodRef Class index 96, Name and type index 98
+6: Tag 8 String Contents 99
+7: Tag 8 String Contents 61
+8: Tag 8 String Contents 66
+9: Tag 8 String Contents 73
+10: Tag 8 String Contents 79
+11: Tag 8 String Contents 82
+12: Tag 8 String Contents 84
+13: Tag 8 String Contents 85
+14: Tag 7 Class Name index 101
+15: Tag 7 Class Name index 102
+16: Tag 7 Class Name index 103
+17: Tag 1 Utf8 Value "<init>"
+18: Tag 1 Utf8 Value "()V"
+19: Tag 1 Utf8 Value "Code"
+20: Tag 1 Utf8 Value "LineNumberTable"
+21: Tag 1 Utf8 Value "LocalVariableTable"
+22: Tag 1 Utf8 Value "this"
+23: Tag 1 Utf8 Value "NoopTransactionIntegration"
+24: Tag 1 Utf8 Value "InnerClasses"
+25: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/jca/NonTxCachedConnectionManagerService$NoopTransactionIntegration;"
+26: Tag 1 Utf8 Value "getTransactionManager"
+27: Tag 1 Utf8 Value "()Ljavax/transaction/TransactionManager;"
+28: Tag 1 Utf8 Value "getTransactionSynchronizationRegistry"
+29: Tag 1 Utf8 Value "()Ljavax/transaction/TransactionSynchronizationRegistry;"
+30: Tag 1 Utf8 Value "getUserTransactionRegistry"
+31: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/spi/transaction/usertx/UserTransactionRegistry;"
+32: Tag 1 Utf8 Value "getRecoveryRegistry"
+33: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/spi/transaction/recovery/XAResourceRecoveryRegistry;"
+34: Tag 1 Utf8 Value "getXATerminator"
+35: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/spi/transaction/xa/XATerminator;"
+36: Tag 1 Utf8 Value "createXAResourceRecovery"
+37: Tag 1 Utf8 Value "(Ljavax/resource/spi/ResourceAdapter;Ljavax/resource/spi/ActivationSpec;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/jca/core/spi/transaction/recovery/XAResourceRecovery;"
+38: Tag 1 Utf8 Value "rar"
+39: Tag 1 Utf8 Value "Ljavax/resource/spi/ResourceAdapter;"
+40: Tag 1 Utf8 Value "as"
+41: Tag 1 Utf8 Value "Ljavax/resource/spi/ActivationSpec;"
+42: Tag 1 Utf8 Value "productName"
+43: Tag 1 Utf8 Value "Ljava/lang/String;"
+44: Tag 1 Utf8 Value "productVersion"
+45: Tag 1 Utf8 Value "(Ljavax/resource/spi/ManagedConnectionFactory;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/jca/core/spi/security/SubjectFactory;Lorg/jboss/jca/core/spi/recovery/RecoveryPlugin;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/recovery/XAResourceRecovery;"
+46: Tag 1 Utf8 Value "mcf"
+47: Tag 1 Utf8 Value "Ljavax/resource/spi/ManagedConnectionFactory;"
+48: Tag 1 Utf8 Value "pad"
+49: Tag 1 Utf8 Value "Ljava/lang/Boolean;"
+50: Tag 1 Utf8 Value "override"
+51: Tag 1 Utf8 Value "wrapXAResource"
+52: Tag 1 Utf8 Value "recoverUserName"
+53: Tag 1 Utf8 Value "recoverPassword"
+54: Tag 1 Utf8 Value "recoverSecurityDomain"
+55: Tag 1 Utf8 Value "subjectFactory"
+56: Tag 1 Utf8 Value "Lorg/jboss/jca/core/spi/security/SubjectFactory;"
+57: Tag 1 Utf8 Value "plugin"
+58: Tag 1 Utf8 Value "Lorg/jboss/jca/core/spi/recovery/RecoveryPlugin;"
+59: Tag 1 Utf8 Value "xastat"
+60: Tag 1 Utf8 Value "Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;"
+61: Tag 1 Utf8 Value "createLocalXAResource"
+62: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/api/connectionmanager/ConnectionManager;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/local/LocalXAResource;"
+63: Tag 1 Utf8 Value "cm"
+64: Tag 1 Utf8 Value "Lorg/jboss/jca/core/api/connectionmanager/ConnectionManager;"
+65: Tag 1 Utf8 Value "jndiName"
+66: Tag 1 Utf8 Value "createConnectableLocalXAResource"
+67: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/api/connectionmanager/ConnectionManager;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/jca/core/spi/transaction/ConnectableResource;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/local/LocalXAResource;"
+68: Tag 1 Utf8 Value "cr"
+69: Tag 1 Utf8 Value "Lorg/jboss/jca/core/spi/transaction/ConnectableResource;"
+70: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/api/connectionmanager/ConnectionManager;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/resource/spi/ManagedConnection;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/local/LocalXAResource;"
+71: Tag 1 Utf8 Value "mc"
+72: Tag 1 Utf8 Value "Ljavax/resource/spi/ManagedConnection;"
+73: Tag 1 Utf8 Value "createXAResourceWrapper"
+74: Tag 1 Utf8 Value "(Ljavax/transaction/xa/XAResource;ZLjava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/xa/XAResourceWrapper;"
+75: Tag 1 Utf8 Value "xares"
+76: Tag 1 Utf8 Value "Ljavax/transaction/xa/XAResource;"
+77: Tag 1 Utf8 Value "Z"
+78: Tag 1 Utf8 Value "firstResource"
+79: Tag 1 Utf8 Value "createConnectableXAResourceWrapper"
+80: Tag 1 Utf8 Value "(Ljavax/transaction/xa/XAResource;ZLjava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/jca/core/spi/transaction/ConnectableResource;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/xa/XAResourceWrapper;"
+81: Tag 1 Utf8 Value "(Ljavax/transaction/xa/XAResource;ZLjava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/resource/spi/ManagedConnection;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/xa/XAResourceWrapper;"
+82: Tag 1 Utf8 Value "isFirstResource"
+83: Tag 1 Utf8 Value "(Ljavax/resource/spi/ManagedConnection;)Z"
+84: Tag 1 Utf8 Value "isConnectableResource"
+85: Tag 1 Utf8 Value "getIdentifier"
+86: Tag 1 Utf8 Value "(Ljavax/transaction/Transaction;)Ljava/lang/Object;"
+87: Tag 1 Utf8 Value "tx"
+88: Tag 1 Utf8 Value "Ljavax/transaction/Transaction;"
+89: Tag 7 Class Name index 104
+90: Tag 1 Utf8 Value "(Lorg/jboss/as/connector/services/jca/NonTxCachedConnectionManagerService$1;)V"
+91: Tag 1 Utf8 Value "x0"
+92: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/jca/NonTxCachedConnectionManagerService$1;"
+93: Tag 1 Utf8 Value "SourceFile"
+94: Tag 1 Utf8 Value "NonTxCachedConnectionManagerService.java"
+95: Tag 12 NameAndType Name index 17, Description index 18
+96: Tag 7 Class Name index 105
+97: Tag 12 NameAndType Name index 106, Description index 107
+98: Tag 12 NameAndType Name index 108, Description index 109
+99: Tag 1 Utf8 Value "createXAResourceRecovery-Security"
+100: Tag 7 Class Name index 110
+101: Tag 1 Utf8 Value "org/jboss/as/connector/services/jca/NonTxCachedConnectionManagerService$NoopTransactionIntegration"
+102: Tag 1 Utf8 Value "java/lang/Object"
+103: Tag 1 Utf8 Value "org/jboss/jca/core/spi/transaction/TransactionIntegration"
+104: Tag 1 Utf8 Value "org/jboss/as/connector/services/jca/NonTxCachedConnectionManagerService$1"
+105: Tag 1 Utf8 Value "org/jboss/as/connector/logging/ConnectorLogger"
+106: Tag 1 Utf8 Value "ROOT_LOGGER"
+107: Tag 1 Utf8 Value "Lorg/jboss/as/connector/logging/ConnectorLogger;"
+108: Tag 1 Utf8 Value "noSupportedOperation"
+109: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/UnsupportedOperationException;"
+110: Tag 1 Utf8 Value "org/jboss/as/connector/services/jca/NonTxCachedConnectionManagerService"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 14, name org.jboss.as.connector.services.jca.NonTxCachedConnectionManagerService$NoopTransactionIntegration
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 16
+Implements names org.jboss.jca.core.spi.transaction.TransactionIntegration
+
+No fields
+
+Method name <init> (index 17), type ()V (descriptor index 18)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 47
+Method name getTransactionManager (index 26), type ()Ljavax/transaction/TransactionManager; (descriptor index 27)
+Human type: (): javax.transaction.TransactionManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name getTransactionSynchronizationRegistry (index 28), type ()Ljavax/transaction/TransactionSynchronizationRegistry; (descriptor index 29)
+Human type: (): javax.transaction.TransactionSynchronizationRegistry
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name getUserTransactionRegistry (index 30), type ()Lorg/jboss/jca/core/spi/transaction/usertx/UserTransactionRegistry; (descriptor index 31)
+Human type: (): org.jboss.jca.core.spi.transaction.usertx.UserTransactionRegistry
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name getRecoveryRegistry (index 32), type ()Lorg/jboss/jca/core/spi/transaction/recovery/XAResourceRecoveryRegistry; (descriptor index 33)
+Human type: (): org.jboss.jca.core.spi.transaction.recovery.XAResourceRecoveryRegistry
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name getXATerminator (index 34), type ()Lorg/jboss/jca/core/spi/transaction/xa/XATerminator; (descriptor index 35)
+Human type: (): org.jboss.jca.core.spi.transaction.xa.XATerminator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name createXAResourceRecovery (index 36), type (Ljavax/resource/spi/ResourceAdapter;Ljavax/resource/spi/ActivationSpec;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/jca/core/spi/transaction/recovery/XAResourceRecovery; (descriptor index 37)
+Human type: (javax.resource.spi.ResourceAdapter, javax.resource.spi.ActivationSpec, java.lang.String, java.lang.String): org.jboss.jca.core.spi.transaction.recovery.XAResourceRecovery
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 93
+Method name createXAResourceRecovery (index 36), type (Ljavax/resource/spi/ManagedConnectionFactory;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/jca/core/spi/security/SubjectFactory;Lorg/jboss/jca/core/spi/recovery/RecoveryPlugin;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/recovery/XAResourceRecovery; (descriptor index 45)
+Human type: (javax.resource.spi.ManagedConnectionFactory, java.lang.Boolean, java.lang.Boolean, java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, org.jboss.jca.core.spi.security.SubjectFactory, org.jboss.jca.core.spi.recovery.RecoveryPlugin, org.jboss.jca.core.spi.transaction.XAResourceStatistics): org.jboss.jca.core.spi.transaction.recovery.XAResourceRecovery
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 153
+Method name createLocalXAResource (index 61), type (Lorg/jboss/jca/core/api/connectionmanager/ConnectionManager;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/local/LocalXAResource; (descriptor index 62)
+Human type: (org.jboss.jca.core.api.connectionmanager.ConnectionManager, java.lang.String, java.lang.String, java.lang.String, org.jboss.jca.core.spi.transaction.XAResourceStatistics): org.jboss.jca.core.spi.transaction.local.LocalXAResource
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 103
+Method name createConnectableLocalXAResource (index 66), type (Lorg/jboss/jca/core/api/connectionmanager/ConnectionManager;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/jca/core/spi/transaction/ConnectableResource;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/local/LocalXAResource; (descriptor index 67)
+Human type: (org.jboss.jca.core.api.connectionmanager.ConnectionManager, java.lang.String, java.lang.String, java.lang.String, org.jboss.jca.core.spi.transaction.ConnectableResource, org.jboss.jca.core.spi.transaction.XAResourceStatistics): org.jboss.jca.core.spi.transaction.local.LocalXAResource
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 113
+Method name createConnectableLocalXAResource (index 66), type (Lorg/jboss/jca/core/api/connectionmanager/ConnectionManager;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/resource/spi/ManagedConnection;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/local/LocalXAResource; (descriptor index 70)
+Human type: (org.jboss.jca.core.api.connectionmanager.ConnectionManager, java.lang.String, java.lang.String, java.lang.String, javax.resource.spi.ManagedConnection, org.jboss.jca.core.spi.transaction.XAResourceStatistics): org.jboss.jca.core.spi.transaction.local.LocalXAResource
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 104
+Method name createXAResourceWrapper (index 73), type (Ljavax/transaction/xa/XAResource;ZLjava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/xa/XAResourceWrapper; (descriptor index 74)
+Human type: (javax.transaction.xa.XAResource, boolean, java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, boolean, org.jboss.jca.core.spi.transaction.XAResourceStatistics): org.jboss.jca.core.spi.transaction.xa.XAResourceWrapper
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 133
+Method name createConnectableXAResourceWrapper (index 79), type (Ljavax/transaction/xa/XAResource;ZLjava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/jca/core/spi/transaction/ConnectableResource;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/xa/XAResourceWrapper; (descriptor index 80)
+Human type: (javax.transaction.xa.XAResource, boolean, java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, org.jboss.jca.core.spi.transaction.ConnectableResource, org.jboss.jca.core.spi.transaction.XAResourceStatistics): org.jboss.jca.core.spi.transaction.xa.XAResourceWrapper
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 133
+Method name createConnectableXAResourceWrapper (index 79), type (Ljavax/transaction/xa/XAResource;ZLjava/lang/Boolean;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljavax/resource/spi/ManagedConnection;Lorg/jboss/jca/core/spi/transaction/XAResourceStatistics;)Lorg/jboss/jca/core/spi/transaction/xa/XAResourceWrapper; (descriptor index 81)
+Human type: (javax.transaction.xa.XAResource, boolean, java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, javax.resource.spi.ManagedConnection, org.jboss.jca.core.spi.transaction.XAResourceStatistics): org.jboss.jca.core.spi.transaction.xa.XAResourceWrapper
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 133
+Method name isFirstResource (index 82), type (Ljavax/resource/spi/ManagedConnection;)Z (descriptor index 83)
+Human type: (javax.resource.spi.ManagedConnection): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name isConnectableResource (index 84), type (Ljavax/resource/spi/ManagedConnection;)Z (descriptor index 83)
+Human type: (javax.resource.spi.ManagedConnection): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name getIdentifier (index 85), type (Ljavax/transaction/Transaction;)Ljava/lang/Object; (descriptor index 86)
+Human type: (javax.transaction.Transaction): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name <init> (index 17), type (Lorg/jboss/as/connector/services/jca/NonTxCachedConnectionManagerService$1;)V (descriptor index 90)
+Human type: (org.jboss.as.connector.services.jca.NonTxCachedConnectionManagerService$1): void
+Flags: decimal 4096, hex 1000, binary 0001000000000000 synthetic
+Method attribute name Code, size 57
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

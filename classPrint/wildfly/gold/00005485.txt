@@ -1,0 +1,133 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 100
+1: Tag 7 Class Name index 53
+2: Tag 10 MethodRef Class index 23, Name and type index 54
+3: Tag 7 Class Name index 55
+4: Tag 10 MethodRef Class index 3, Name and type index 54
+5: Tag 9 FieldRef Class index 22, Name and type index 56
+6: Tag 9 FieldRef Class index 22, Name and type index 57
+7: Tag 10 MethodRef Class index 3, Name and type index 58
+8: Tag 8 String Contents 59
+9: Tag 10 MethodRef Class index 14, Name and type index 60
+10: Tag 10 MethodRef Class index 14, Name and type index 61
+11: Tag 8 String Contents 62
+12: Tag 10 MethodRef Class index 14, Name and type index 63
+13: Tag 10 MethodRef Class index 14, Name and type index 64
+14: Tag 7 Class Name index 65
+15: Tag 10 MethodRef Class index 14, Name and type index 54
+16: Tag 10 MethodRef Class index 14, Name and type index 66
+17: Tag 10 MethodRef Class index 47, Name and type index 67
+18: Tag 8 String Contents 68
+19: Tag 10 MethodRef Class index 47, Name and type index 69
+20: Tag 10 MethodRef Class index 14, Name and type index 70
+21: Tag 11 InterfaceMethodRef Class index 71, Name and type index 72
+22: Tag 7 Class Name index 73
+23: Tag 7 Class Name index 74
+24: Tag 7 Class Name index 75
+25: Tag 1 Utf8 Value "stats"
+26: Tag 1 Utf8 Value "Lorg/jboss/jca/core/spi/statistics/StatisticsPlugin;"
+27: Tag 1 Utf8 Value "nameValidator"
+28: Tag 1 Utf8 Value "Lorg/jboss/as/controller/operations/validation/ParametersValidator;"
+29: Tag 1 Utf8 Value "<init>"
+30: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/spi/statistics/StatisticsPlugin;)V"
+31: Tag 1 Utf8 Value "Code"
+32: Tag 1 Utf8 Value "LineNumberTable"
+33: Tag 1 Utf8 Value "LocalVariableTable"
+34: Tag 1 Utf8 Value "this"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/connector/subsystems/common/pool/PoolStatisticsRuntimeAttributeWriteHandler;"
+36: Tag 1 Utf8 Value "execute"
+37: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+38: Tag 1 Utf8 Value "context"
+39: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+40: Tag 1 Utf8 Value "operation"
+41: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+42: Tag 1 Utf8 Value "attributeName"
+43: Tag 1 Utf8 Value "Ljava/lang/String;"
+44: Tag 1 Utf8 Value "newValue"
+45: Tag 1 Utf8 Value "resolvedValue"
+46: Tag 1 Utf8 Value "StackMapTable"
+47: Tag 7 Class Name index 76
+48: Tag 7 Class Name index 77
+49: Tag 1 Utf8 Value "Exceptions"
+50: Tag 7 Class Name index 78
+51: Tag 1 Utf8 Value "SourceFile"
+52: Tag 1 Utf8 Value "PoolStatisticsRuntimeAttributeWriteHandler.java"
+53: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+54: Tag 12 NameAndType Name index 29, Description index 79
+55: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/ParametersValidator"
+56: Tag 12 NameAndType Name index 27, Description index 28
+57: Tag 12 NameAndType Name index 25, Description index 26
+58: Tag 12 NameAndType Name index 80, Description index 81
+59: Tag 1 Utf8 Value "name"
+60: Tag 12 NameAndType Name index 82, Description index 83
+61: Tag 12 NameAndType Name index 84, Description index 85
+62: Tag 1 Utf8 Value "value"
+63: Tag 12 NameAndType Name index 86, Description index 87
+64: Tag 12 NameAndType Name index 88, Description index 83
+65: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+66: Tag 12 NameAndType Name index 89, Description index 90
+67: Tag 12 NameAndType Name index 91, Description index 92
+68: Tag 1 Utf8 Value "statistics-enabled"
+69: Tag 12 NameAndType Name index 93, Description index 94
+70: Tag 12 NameAndType Name index 95, Description index 96
+71: Tag 7 Class Name index 97
+72: Tag 12 NameAndType Name index 98, Description index 99
+73: Tag 1 Utf8 Value "org/jboss/as/connector/subsystems/common/pool/PoolStatisticsRuntimeAttributeWriteHandler"
+74: Tag 1 Utf8 Value "java/lang/Object"
+75: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+76: Tag 1 Utf8 Value "java/lang/String"
+77: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+78: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+79: Tag 1 Utf8 Value "()V"
+80: Tag 1 Utf8 Value "validate"
+81: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)V"
+82: Tag 1 Utf8 Value "require"
+83: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+84: Tag 1 Utf8 Value "asString"
+85: Tag 1 Utf8 Value "()Ljava/lang/String;"
+86: Tag 1 Utf8 Value "hasDefined"
+87: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+88: Tag 1 Utf8 Value "get"
+89: Tag 1 Utf8 Value "resolve"
+90: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+91: Tag 1 Utf8 Value "hashCode"
+92: Tag 1 Utf8 Value "()I"
+93: Tag 1 Utf8 Value "equals"
+94: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+95: Tag 1 Utf8 Value "asBoolean"
+96: Tag 1 Utf8 Value "()Z"
+97: Tag 1 Utf8 Value "org/jboss/jca/core/spi/statistics/StatisticsPlugin"
+98: Tag 1 Utf8 Value "setEnabled"
+99: Tag 1 Utf8 Value "(Z)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 22, name org.jboss.as.connector.subsystems.common.pool.PoolStatisticsRuntimeAttributeWriteHandler
+
+Super class: id 23, name java.lang.Object
+
+Implements class ids 24
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name stats (index 25), type Lorg/jboss/jca/core/spi/statistics/StatisticsPlugin; (descriptor index 26)
+Human type: org.jboss.jca.core.spi.statistics.StatisticsPlugin
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name nameValidator (index 27), type Lorg/jboss/as/controller/operations/validation/ParametersValidator; (descriptor index 28)
+Human type: org.jboss.as.controller.operations.validation.ParametersValidator
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 29), type (Lorg/jboss/jca/core/spi/statistics/StatisticsPlugin;)V (descriptor index 30)
+Human type: (org.jboss.jca.core.spi.statistics.StatisticsPlugin): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 85
+Method name execute (index 36), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 37)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 295
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

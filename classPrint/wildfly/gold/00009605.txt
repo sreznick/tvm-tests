@@ -1,0 +1,143 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 93
+1: Tag 10 MethodRef Class index 19, Name and type index 51
+2: Tag 9 FieldRef Class index 17, Name and type index 52
+3: Tag 7 Class Name index 53
+4: Tag 8 String Contents 54
+5: Tag 8 String Contents 55
+6: Tag 10 MethodRef Class index 3, Name and type index 56
+7: Tag 8 String Contents 57
+8: Tag 10 MethodRef Class index 58, Name and type index 59
+9: Tag 9 FieldRef Class index 17, Name and type index 60
+10: Tag 9 FieldRef Class index 17, Name and type index 61
+11: Tag 10 MethodRef Class index 62, Name and type index 63
+12: Tag 8 String Contents 64
+13: Tag 10 MethodRef Class index 65, Name and type index 66
+14: Tag 10 MethodRef Class index 65, Name and type index 67
+15: Tag 10 MethodRef Class index 68, Name and type index 69
+16: Tag 10 MethodRef Class index 62, Name and type index 70
+17: Tag 7 Class Name index 71
+18: Tag 10 MethodRef Class index 17, Name and type index 72
+19: Tag 7 Class Name index 73
+20: Tag 7 Class Name index 74
+21: Tag 1 Utf8 Value "address"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+23: Tag 1 Utf8 Value "name"
+24: Tag 1 Utf8 Value "Ljava/lang/String;"
+25: Tag 1 Utf8 Value "realm"
+26: Tag 1 Utf8 Value "<init>"
+27: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+28: Tag 1 Utf8 Value "Code"
+29: Tag 1 Utf8 Value "LineNumberTable"
+30: Tag 1 Utf8 Value "LocalVariableTable"
+31: Tag 1 Utf8 Value "this"
+32: Tag 1 Utf8 Value "Lorg/wildfly/test/security/common/elytron/ConstantRealmMapper;"
+33: Tag 1 Utf8 Value "getName"
+34: Tag 1 Utf8 Value "()Ljava/lang/String;"
+35: Tag 1 Utf8 Value "create"
+36: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/client/ModelControllerClient;Lorg/jboss/as/test/integration/management/util/CLIWrapper;)V"
+37: Tag 1 Utf8 Value "client"
+38: Tag 1 Utf8 Value "Lorg/jboss/as/controller/client/ModelControllerClient;"
+39: Tag 1 Utf8 Value "cli"
+40: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/management/util/CLIWrapper;"
+41: Tag 1 Utf8 Value "addOperation"
+42: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+43: Tag 1 Utf8 Value "Exceptions"
+44: Tag 7 Class Name index 75
+45: Tag 1 Utf8 Value "remove"
+46: Tag 1 Utf8 Value "removeOperation"
+47: Tag 1 Utf8 Value "newInstance"
+48: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/test/security/common/elytron/ConfigurableElement;"
+49: Tag 1 Utf8 Value "SourceFile"
+50: Tag 1 Utf8 Value "ConstantRealmMapper.java"
+51: Tag 12 NameAndType Name index 26, Description index 76
+52: Tag 12 NameAndType Name index 23, Description index 24
+53: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+54: Tag 1 Utf8 Value "subsystem"
+55: Tag 1 Utf8 Value "elytron"
+56: Tag 12 NameAndType Name index 77, Description index 78
+57: Tag 1 Utf8 Value "constant-realm-mapper"
+58: Tag 7 Class Name index 79
+59: Tag 12 NameAndType Name index 80, Description index 81
+60: Tag 12 NameAndType Name index 21, Description index 22
+61: Tag 12 NameAndType Name index 25, Description index 24
+62: Tag 7 Class Name index 82
+63: Tag 12 NameAndType Name index 83, Description index 84
+64: Tag 1 Utf8 Value "realm-name"
+65: Tag 7 Class Name index 85
+66: Tag 12 NameAndType Name index 86, Description index 87
+67: Tag 12 NameAndType Name index 88, Description index 87
+68: Tag 7 Class Name index 89
+69: Tag 12 NameAndType Name index 90, Description index 91
+70: Tag 12 NameAndType Name index 92, Description index 84
+71: Tag 1 Utf8 Value "org/wildfly/test/security/common/elytron/ConstantRealmMapper"
+72: Tag 12 NameAndType Name index 26, Description index 27
+73: Tag 1 Utf8 Value "java/lang/Object"
+74: Tag 1 Utf8 Value "org/wildfly/test/security/common/elytron/ConfigurableElement"
+75: Tag 1 Utf8 Value "java/lang/Exception"
+76: Tag 1 Utf8 Value "()V"
+77: Tag 1 Utf8 Value "pathElement"
+78: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/PathElement;"
+79: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+80: Tag 1 Utf8 Value "pathAddress"
+81: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/PathElement;)Lorg/jboss/as/controller/PathAddress;"
+82: Tag 1 Utf8 Value "org/jboss/as/controller/operations/common/Util"
+83: Tag 1 Utf8 Value "createAddOperation"
+84: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/dmr/ModelNode;"
+85: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+86: Tag 1 Utf8 Value "get"
+87: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+88: Tag 1 Utf8 Value "set"
+89: Tag 1 Utf8 Value "org/jboss/as/test/integration/security/common/Utils"
+90: Tag 1 Utf8 Value "applyUpdate"
+91: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/client/ModelControllerClient;)V"
+92: Tag 1 Utf8 Value "createRemoveOperation"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 17, name org.wildfly.test.security.common.elytron.ConstantRealmMapper
+
+Super class: id 19, name java.lang.Object
+
+Implements class ids 20
+Implements names org.wildfly.test.security.common.elytron.ConfigurableElement
+
+Field name address (index 21), type Lorg/jboss/as/controller/PathAddress; (descriptor index 22)
+Human type: org.jboss.as.controller.PathAddress
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name name (index 23), type Ljava/lang/String; (descriptor index 24)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name realm (index 25), type Ljava/lang/String; (descriptor index 24)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 26), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 27)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 123
+Method name getName (index 33), type ()Ljava/lang/String; (descriptor index 34)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name create (index 35), type (Lorg/jboss/as/controller/client/ModelControllerClient;Lorg/jboss/as/test/integration/management/util/CLIWrapper;)V (descriptor index 36)
+Human type: (org.jboss.as.controller.client.ModelControllerClient, org.jboss.as.test.integration.management.util.CLIWrapper): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 112
+Method attribute name Exceptions, size 4
+Method name remove (index 45), type (Lorg/jboss/as/controller/client/ModelControllerClient;Lorg/jboss/as/test/integration/management/util/CLIWrapper;)V (descriptor index 36)
+Human type: (org.jboss.as.controller.client.ModelControllerClient, org.jboss.as.test.integration.management.util.CLIWrapper): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 94
+Method attribute name Exceptions, size 4
+Method name newInstance (index 47), type (Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/test/security/common/elytron/ConfigurableElement; (descriptor index 48)
+Human type: (java.lang.String, java.lang.String): org.wildfly.test.security.common.elytron.ConfigurableElement
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 62
+
+Class attribute name SourceFile, size 2

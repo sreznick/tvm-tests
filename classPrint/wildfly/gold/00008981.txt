@@ -1,0 +1,629 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 302
+1: Tag 7 Class Name index 290
+2: Tag 8 String Contents 291
+3: Tag 10 MethodRef Class index 292, Name and type index 293
+4: Tag 9 FieldRef Class index 1, Name and type index 294
+5: Tag 7 Class Name index 295
+6: Tag 7 Class Name index 296
+7: Tag 1 Utf8 Value "ROOT_LOGGER"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/logging/WSLogger;"
+9: Tag 1 Utf8 Value "WS_SPEC_REF_5_3_2_4_2"
+10: Tag 1 Utf8 Value "Ljava/lang/String;"
+11: Tag 1 Utf8 Value "ConstantValue"
+12: Tag 8 String Contents 297
+13: Tag 1 Utf8 Value "cannotLoadDeploymentAspectsDefinitionFile"
+14: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+15: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+16: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+17: Tag 1 Utf8 Value "level"
+18: Tag 7 Class Name index 298
+19: Tag 1 Utf8 Value "Level"
+20: Tag 1 Utf8 Value "InnerClasses"
+21: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+22: Tag 1 Utf8 Value "WARN"
+23: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+24: Tag 1 Utf8 Value "id"
+25: Tag 3 Integer Value 1, hex: 0x1
+26: Tag 1 Utf8 Value "value"
+27: Tag 1 Utf8 Value "Cannot load WS deployment aspects from %s"
+28: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/RuntimeException;"
+29: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+30: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+31: Tag 1 Utf8 Value "activatingWebservicesExtension"
+32: Tag 1 Utf8 Value "()V"
+33: Tag 1 Utf8 Value "INFO"
+34: Tag 3 Integer Value 2, hex: 0x2
+35: Tag 1 Utf8 Value "Activating WebServices Extension"
+36: Tag 1 Utf8 Value "starting"
+37: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+38: Tag 3 Integer Value 3, hex: 0x3
+39: Tag 1 Utf8 Value "Starting %s"
+40: Tag 1 Utf8 Value "stopping"
+41: Tag 3 Integer Value 4, hex: 0x4
+42: Tag 1 Utf8 Value "Stopping %s"
+43: Tag 1 Utf8 Value "configServiceCreationFailed"
+44: Tag 1 Utf8 Value "FATAL"
+45: Tag 3 Integer Value 5, hex: 0x5
+46: Tag 1 Utf8 Value "Error while creating configuration service"
+47: Tag 1 Utf8 Value "configServiceDestroyFailed"
+48: Tag 1 Utf8 Value "ERROR"
+49: Tag 3 Integer Value 6, hex: 0x6
+50: Tag 1 Utf8 Value "Error while destroying configuration service"
+51: Tag 1 Utf8 Value "cannotReadWsdl"
+52: Tag 3 Integer Value 7, hex: 0x7
+53: Tag 1 Utf8 Value "Could not read WSDL from: %s"
+54: Tag 1 Utf8 Value "mutuallyExclusiveAnnotations"
+55: Tag 3 Integer Value 8, hex: 0x8
+56: Tag 1 Utf8 Value "[JAXWS 2.2 spec, section 7.7] The @WebService and @WebServiceProvider annotations are mutually exclusive - %s won't be considered as a webservice endpoint, since it doesn't meet that requirement"
+57: Tag 1 Utf8 Value "finalEndpointClassDetected"
+58: Tag 3 Integer Value 9, hex: 0x9
+59: Tag 1 Utf8 Value "WebService endpoint class cannot be final - %s won't be considered as a webservice endpoint"
+60: Tag 1 Utf8 Value "ignoringPortComponentRef"
+61: Tag 3 Integer Value 10, hex: 0xa
+62: Tag 1 Utf8 Value "Ignoring <port-component-ref> without <service-endpoint-interface> and <port-qname>: %s"
+63: Tag 1 Utf8 Value "cannotRegisterRecordProcessor"
+64: Tag 3 Integer Value 11, hex: 0xb
+65: Tag 1 Utf8 Value "Cannot register record processor in JMX server"
+66: Tag 1 Utf8 Value "cannotUnregisterRecordProcessor"
+67: Tag 3 Integer Value 12, hex: 0xc
+68: Tag 1 Utf8 Value "Cannot unregister record processor from JMX server"
+69: Tag 1 Utf8 Value "mBeanServerNotAvailable"
+70: Tag 3 Integer Value 13, hex: 0xd
+71: Tag 1 Utf8 Value "MBeanServer not available, skipping registration/unregistration of %s"
+72: Tag 1 Utf8 Value "multipleEndpointsWithDifferentDeclaredSecurityRoles"
+73: Tag 3 Integer Value 14, hex: 0xe
+74: Tag 1 Utf8 Value "Multiple Enterprise Beans 3 endpoints in the same deployment with different declared security roles; be aware this might be a security risk if you're not controlling allowed roles (@RolesAllowed) on each ws endpoint method."
+75: Tag 1 Utf8 Value "cannotRegisterEndpoint"
+76: Tag 3 Integer Value 15, hex: 0xf
+77: Tag 1 Utf8 Value "Cannot register endpoint: %s in JMX server"
+78: Tag 1 Utf8 Value "cannotUnregisterEndpoint"
+79: Tag 3 Integer Value 16, hex: 0x10
+80: Tag 1 Utf8 Value "Cannot unregister endpoint: %s from JMX server"
+81: Tag 1 Utf8 Value "invalidHandlerChainFile"
+82: Tag 3 Integer Value 17, hex: 0x11
+83: Tag 1 Utf8 Value "Invalid handler chain file: %s"
+84: Tag 1 Utf8 Value "webMethodMustNotBeStaticOrFinal"
+85: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;)V"
+86: Tag 3 Integer Value 18, hex: 0x12
+87: Tag 1 Utf8 Value "Web service method %s must not be static or final. See section 5.3.2.4.2 of "Jakarta Enterprise Web Services 2.0"."
+88: Tag 1 Utf8 Value "webMethodMustBePublic"
+89: Tag 3 Integer Value 19, hex: 0x13
+90: Tag 1 Utf8 Value "Web service method %s must be public. See section 5.3.2.4.2 of "Jakarta Enterprise Web Services 2.0"."
+91: Tag 1 Utf8 Value "webServiceMethodNotFound"
+92: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/reflect/Method;)V"
+93: Tag 1 Utf8 Value "Signature"
+94: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;Ljava/lang/reflect/Method;)V"
+95: Tag 3 Integer Value 20, hex: 0x14
+96: Tag 1 Utf8 Value "Web service implementation class %s does not contain method %s"
+97: Tag 1 Utf8 Value "accessibleWebServiceMethodNotFound"
+98: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/reflect/Method;Ljava/lang/SecurityException;)V"
+99: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;Ljava/lang/reflect/Method;Ljava/lang/SecurityException;)V"
+100: Tag 3 Integer Value 21, hex: 0x15
+101: Tag 1 Utf8 Value "Web service implementation class %s does not contain an accessible method %s"
+102: Tag 1 Utf8 Value "finalizeMethodNotAllowed"
+103: Tag 1 Utf8 Value "(Ljava/lang/Class;)V"
+104: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;)V"
+105: Tag 3 Integer Value 22, hex: 0x16
+106: Tag 1 Utf8 Value "Web service implementation class %s may not declare a finalize() method. See section 5.3.2.4.2 of "Jakarta Enterprise Web Services 2.0"."
+107: Tag 1 Utf8 Value "nullEndpointName"
+108: Tag 1 Utf8 Value "()Ljava/lang/NullPointerException;"
+109: Tag 3 Integer Value 23, hex: 0x17
+110: Tag 1 Utf8 Value "Null endpoint name"
+111: Tag 1 Utf8 Value "nullEndpointClass"
+112: Tag 3 Integer Value 24, hex: 0x18
+113: Tag 1 Utf8 Value "Null endpoint class"
+114: Tag 1 Utf8 Value "classLoaderResolutionFailed"
+115: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/IllegalStateException;"
+116: Tag 3 Integer Value 25, hex: 0x19
+117: Tag 1 Utf8 Value "Cannot resolve module or classloader for deployment %s"
+118: Tag 1 Utf8 Value "missingHandlerChainConfigFile"
+119: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/server/deployment/module/ResourceRoot;)Ljavax/xml/ws/WebServiceException;"
+120: Tag 3 Integer Value 26, hex: 0x1a
+121: Tag 1 Utf8 Value "Handler chain config file %s not found in %s"
+122: Tag 1 Utf8 Value "unexpectedElement"
+123: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+124: Tag 3 Integer Value 27, hex: 0x1b
+125: Tag 1 Utf8 Value "Unexpected element: %s"
+126: Tag 1 Utf8 Value "unexpectedEndTag"
+127: Tag 3 Integer Value 28, hex: 0x1c
+128: Tag 1 Utf8 Value "Unexpected end tag: %s"
+129: Tag 1 Utf8 Value "unexpectedEndOfDocument"
+130: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+131: Tag 3 Integer Value 29, hex: 0x1d
+132: Tag 1 Utf8 Value "Reached end of xml document unexpectedly"
+133: Tag 1 Utf8 Value "missingDeploymentAspectClassAttribute"
+134: Tag 3 Integer Value 30, hex: 0x1e
+135: Tag 1 Utf8 Value "Could not find class attribute for deployment aspect"
+136: Tag 1 Utf8 Value "cannotInstantiateDeploymentAspect"
+137: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+138: Tag 3 Integer Value 31, hex: 0x1f
+139: Tag 1 Utf8 Value "Could not create a deployment aspect of class: %s"
+140: Tag 1 Utf8 Value "missingPropertyNameAttribute"
+141: Tag 1 Utf8 Value "(Lorg/jboss/wsf/spi/deployment/DeploymentAspect;)Ljava/lang/IllegalStateException;"
+142: Tag 3 Integer Value 32, hex: 0x20
+143: Tag 1 Utf8 Value "Could not find property name attribute for deployment aspect: %s"
+144: Tag 1 Utf8 Value "missingPropertyClassAttribute"
+145: Tag 3 Integer Value 33, hex: 0x21
+146: Tag 1 Utf8 Value "Could not find property class attribute for deployment aspect: %s"
+147: Tag 1 Utf8 Value "unsupportedPropertyClass"
+148: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+149: Tag 3 Integer Value 34, hex: 0x22
+150: Tag 1 Utf8 Value "Unsupported property class: %s"
+151: Tag 1 Utf8 Value "cannotInstantiateList"
+152: Tag 3 Integer Value 35, hex: 0x23
+153: Tag 1 Utf8 Value "Could not create list of type: %s"
+154: Tag 1 Utf8 Value "cannotInstantiateMap"
+155: Tag 3 Integer Value 36, hex: 0x24
+156: Tag 1 Utf8 Value "Could not create map of type: %s"
+157: Tag 1 Utf8 Value "noMetricsAvailable"
+158: Tag 1 Utf8 Value "()Ljava/lang/String;"
+159: Tag 3 Integer Value 37, hex: 0x25
+160: Tag 1 Utf8 Value "No metrics available"
+161: Tag 1 Utf8 Value "cannotFindComponentView"
+162: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/lang/IllegalStateException;"
+163: Tag 3 Integer Value 38, hex: 0x26
+164: Tag 1 Utf8 Value "Cannot find component view: %s"
+165: Tag 1 Utf8 Value "missingChild"
+166: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/vfs/VirtualFile;)Ljava/io/IOException;"
+167: Tag 3 Integer Value 39, hex: 0x27
+168: Tag 1 Utf8 Value "Child '%s' not found for VirtualFile: %s"
+169: Tag 1 Utf8 Value "createContextPhaseFailed"
+170: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/lang/Exception;"
+171: Tag 3 Integer Value 40, hex: 0x28
+172: Tag 1 Utf8 Value "Failed to create context"
+173: Tag 1 Utf8 Value "startContextPhaseFailed"
+174: Tag 3 Integer Value 41, hex: 0x29
+175: Tag 1 Utf8 Value "Failed to start context"
+176: Tag 1 Utf8 Value "stopContextPhaseFailed"
+177: Tag 3 Integer Value 42, hex: 0x2a
+178: Tag 1 Utf8 Value "Failed to stop context"
+179: Tag 1 Utf8 Value "destroyContextPhaseFailed"
+180: Tag 3 Integer Value 43, hex: 0x2b
+181: Tag 1 Utf8 Value "Failed to destroy context"
+182: Tag 1 Utf8 Value "cannotInstantiateServletDelegate"
+183: Tag 3 Integer Value 44, hex: 0x2c
+184: Tag 1 Utf8 Value "Cannot create servlet delegate: %s"
+185: Tag 1 Utf8 Value "missingDeploymentProperty"
+186: Tag 3 Integer Value 45, hex: 0x2d
+187: Tag 1 Utf8 Value "Cannot obtain deployment property: %s"
+188: Tag 1 Utf8 Value "multipleSecurityDomainsDetected"
+189: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+190: Tag 3 Integer Value 46, hex: 0x2e
+191: Tag 1 Utf8 Value "Multiple security domains not supported. First domain: '%s' second domain: '%s'"
+192: Tag 1 Utf8 Value "sameUrlPatternRequested"
+193: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+194: Tag 3 Integer Value 47, hex: 0x2f
+195: Tag 1 Utf8 Value "Web Service endpoint %s with URL pattern %s is already registered. Web service endpoint %s is requesting the same URL pattern."
+196: Tag 1 Utf8 Value "invalidServiceRefSetterMethodName"
+197: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+198: Tag 3 Integer Value 48, hex: 0x30
+199: Tag 1 Utf8 Value "@WebServiceRef injection target is invalid.  Only setter methods are allowed: %s"
+200: Tag 1 Utf8 Value "requiredServiceRefName"
+201: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+202: Tag 3 Integer Value 49, hex: 0x31
+203: Tag 1 Utf8 Value "@WebServiceRef attribute 'name' is required for class level annotations."
+204: Tag 1 Utf8 Value "requiredServiceRefType"
+205: Tag 3 Integer Value 50, hex: 0x32
+206: Tag 1 Utf8 Value "@WebServiceRef attribute 'type' is required for class level annotations."
+207: Tag 1 Utf8 Value "missingConfig"
+208: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+209: Tag 3 Integer Value 51, hex: 0x33
+210: Tag 1 Utf8 Value "Config %s doesn't exist"
+211: Tag 1 Utf8 Value "wrongHandlerChainType"
+212: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+213: Tag 3 Integer Value 52, hex: 0x34
+214: Tag 1 Utf8 Value "Unsupported handler chain type: %s. Supported types are either %s or %s"
+215: Tag 1 Utf8 Value "missingHandlerChain"
+216: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+217: Tag 3 Integer Value 54, hex: 0x36
+218: Tag 1 Utf8 Value "Config %s: %s handler chain with id %s doesn't exist"
+219: Tag 1 Utf8 Value "cannotGetURLForDescriptor"
+220: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+221: Tag 3 Integer Value 57, hex: 0x39
+222: Tag 1 Utf8 Value "Unable to get URL for: %s"
+223: Tag 1 Utf8 Value "jaxRpcNotSupported"
+224: Tag 3 Integer Value 58, hex: 0x3a
+225: Tag 1 Utf8 Value "Jakarta XML RPC not supported"
+226: Tag 1 Utf8 Value "invalidLibraryInDeployment"
+227: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+228: Tag 3 Integer Value 59, hex: 0x3b
+229: Tag 1 Utf8 Value "%s library (%s) detected in ws endpoint deployment; either provide a proper deployment replacing embedded libraries with container module dependencies or disable the webservices subsystem for the current deployment adding a proper jboss-deployment-structure.xml descriptor to it. The former approach is recommended, as the latter approach causes most of the webservices Jakarta EE and any JBossWS specific functionality to be disabled."
+230: Tag 1 Utf8 Value "endpointClassNotFound"
+231: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+232: Tag 3 Integer Value 60, hex: 0x3c
+233: Tag 1 Utf8 Value "Web service endpoint class %s not found"
+234: Tag 1 Utf8 Value "declaredEndpointInterfaceClassNotFound"
+235: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+236: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class<*>;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+237: Tag 3 Integer Value 61, hex: 0x3d
+238: Tag 1 Utf8 Value "The endpointInterface %s declared in the @WebService annotation on web service implementation bean %s was not found."
+239: Tag 1 Utf8 Value "jwsWebServiceClassVerificationFailed"
+240: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+241: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+242: Tag 3 Integer Value 62, hex: 0x3e
+243: Tag 1 Utf8 Value "Class verification of Java Web Service implementation class %s failed."
+244: Tag 1 Utf8 Value "couldNotUpdateServerConfigBecauseOfReloadRequired"
+245: Tag 1 Utf8 Value "()Lorg/jboss/as/webservices/config/DisabledOperationException;"
+246: Tag 3 Integer Value 63, hex: 0x3f
+247: Tag 1 Utf8 Value "Could not update WS server configuration because of pending former model update(s) requiring reload."
+248: Tag 1 Utf8 Value "couldNotUpdateServerConfigBecauseOfExistingWSDeployment"
+249: Tag 3 Integer Value 64, hex: 0x40
+250: Tag 1 Utf8 Value "Could not update WS server configuration because of existing WS deployment on the server."
+251: Tag 1 Utf8 Value "missingModuleDependency"
+252: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+253: Tag 3 Integer Value 65, hex: 0x41
+254: Tag 1 Utf8 Value "Annotation '@%s' found on class '%s'. Perhaps you forgot to add a '%s' module dependency to your deployment?"
+255: Tag 1 Utf8 Value "invalidWSServlet"
+256: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/wsf/spi/WSFException;"
+257: Tag 3 Integer Value 66, hex: 0x42
+258: Tag 1 Utf8 Value "Servlet class %s declared in web.xml; either provide a proper deployment relying on JBossWS or disable the webservices subsystem for the current deployment adding a proper jboss-deployment-structure.xml descriptor to it. The former approach is recommended, as the latter approach causes most of the webservices Jakarta EE and any JBossWS specific functionality to be disabled."
+259: Tag 1 Utf8 Value "couldNotActivateSubsystem"
+260: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+261: Tag 3 Integer Value 67, hex: 0x43
+262: Tag 1 Utf8 Value "Could not activate the webservices subsystem."
+263: Tag 1 Utf8 Value "failedAuthorization"
+264: Tag 1 Utf8 Value "DEBUG"
+265: Tag 3 Integer Value 70, hex: 0x46
+266: Tag 1 Utf8 Value "Authorization failed for user: %s"
+267: Tag 1 Utf8 Value "failedAuthentication"
+268: Tag 3 Integer Value 71, hex: 0x47
+269: Tag 1 Utf8 Value "Failed to authenticate username %s:, incorrect username/password"
+270: Tag 1 Utf8 Value "failedAuthenticationWithException"
+271: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V"
+272: Tag 3 Integer Value 72, hex: 0x48
+273: Tag 1 Utf8 Value "Error occured when authenticate username %s. Exception message: %s"
+274: Tag 1 Utf8 Value "endpointAlreadyStopped"
+275: Tag 3 Integer Value 73, hex: 0x49
+276: Tag 1 Utf8 Value "The target endpoint %s is undeploying or stopped"
+277: Tag 1 Utf8 Value "warningLibraryInDeployment"
+278: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+279: Tag 3 Integer Value 68, hex: 0x44
+280: Tag 1 Utf8 Value "A potentially problematic %s library (%s) detected in ws endpoint deployment; Check if this library can be replaced with container module"
+281: Tag 1 Utf8 Value "<clinit>"
+282: Tag 1 Utf8 Value "Code"
+283: Tag 1 Utf8 Value "LineNumberTable"
+284: Tag 1 Utf8 Value "SourceFile"
+285: Tag 1 Utf8 Value "WSLogger.java"
+286: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+287: Tag 1 Utf8 Value "projectCode"
+288: Tag 1 Utf8 Value "WFLYWS"
+289: Tag 1 Utf8 Value "length"
+290: Tag 1 Utf8 Value "org/jboss/as/webservices/logging/WSLogger"
+291: Tag 1 Utf8 Value "org.jboss.as.webservices"
+292: Tag 7 Class Name index 299
+293: Tag 12 NameAndType Name index 300, Description index 301
+294: Tag 12 NameAndType Name index 7, Description index 8
+295: Tag 1 Utf8 Value "java/lang/Object"
+296: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+297: Tag 1 Utf8 Value ". See section 5.3.2.4.2 of "Jakarta Enterprise Web Services 2.0"."
+298: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+299: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+300: Tag 1 Utf8 Value "getMessageLogger"
+301: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.jboss.as.webservices.logging.WSLogger
+
+Super class: id 5, name java.lang.Object
+
+Implements class ids 6
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 7), type Lorg/jboss/as/webservices/logging/WSLogger; (descriptor index 8)
+Human type: org.jboss.as.webservices.logging.WSLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name WS_SPEC_REF_5_3_2_4_2 (index 9), type Ljava/lang/String; (descriptor index 10)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+
+Method name cannotLoadDeploymentAspectsDefinitionFile (index 13), type (Ljava/lang/String;)V (descriptor index 14)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotLoadDeploymentAspectsDefinitionFile (index 13), type (Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 28)
+Human type: (java.lang.Throwable, java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name activatingWebservicesExtension (index 31), type ()V (descriptor index 32)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name starting (index 36), type (Ljava/lang/Object;)V (descriptor index 37)
+Human type: (java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name stopping (index 40), type (Ljava/lang/Object;)V (descriptor index 37)
+Human type: (java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name configServiceCreationFailed (index 43), type ()V (descriptor index 32)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name configServiceDestroyFailed (index 47), type ()V (descriptor index 32)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotReadWsdl (index 51), type (Ljava/lang/String;)V (descriptor index 14)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name mutuallyExclusiveAnnotations (index 54), type (Ljava/lang/String;)V (descriptor index 14)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name finalEndpointClassDetected (index 57), type (Ljava/lang/String;)V (descriptor index 14)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name ignoringPortComponentRef (index 60), type (Ljava/lang/Object;)V (descriptor index 37)
+Human type: (java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotRegisterRecordProcessor (index 63), type ()V (descriptor index 32)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotUnregisterRecordProcessor (index 66), type ()V (descriptor index 32)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name mBeanServerNotAvailable (index 69), type (Ljava/lang/Object;)V (descriptor index 37)
+Human type: (java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name multipleEndpointsWithDifferentDeclaredSecurityRoles (index 72), type ()V (descriptor index 32)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotRegisterEndpoint (index 75), type (Ljava/lang/Object;)V (descriptor index 37)
+Human type: (java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotUnregisterEndpoint (index 78), type (Ljava/lang/Object;)V (descriptor index 37)
+Human type: (java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name invalidHandlerChainFile (index 81), type (Ljava/lang/String;)V (descriptor index 14)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name webMethodMustNotBeStaticOrFinal (index 84), type (Ljava/lang/reflect/Method;)V (descriptor index 85)
+Human type: (java.lang.reflect.Method): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name webMethodMustBePublic (index 88), type (Ljava/lang/reflect/Method;)V (descriptor index 85)
+Human type: (java.lang.reflect.Method): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name webServiceMethodNotFound (index 91), type (Ljava/lang/Class;Ljava/lang/reflect/Method;)V (descriptor index 92)
+Human type: (java.lang.Class, java.lang.reflect.Method): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name accessibleWebServiceMethodNotFound (index 97), type (Ljava/lang/Class;Ljava/lang/reflect/Method;Ljava/lang/SecurityException;)V (descriptor index 98)
+Human type: (java.lang.Class, java.lang.reflect.Method, java.lang.SecurityException): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name finalizeMethodNotAllowed (index 102), type (Ljava/lang/Class;)V (descriptor index 103)
+Human type: (java.lang.Class): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name nullEndpointName (index 107), type ()Ljava/lang/NullPointerException; (descriptor index 108)
+Human type: (): java.lang.NullPointerException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name nullEndpointClass (index 111), type ()Ljava/lang/NullPointerException; (descriptor index 108)
+Human type: (): java.lang.NullPointerException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name classLoaderResolutionFailed (index 114), type (Ljava/lang/Object;)Ljava/lang/IllegalStateException; (descriptor index 115)
+Human type: (java.lang.Object): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name missingHandlerChainConfigFile (index 118), type (Ljava/lang/String;Lorg/jboss/as/server/deployment/module/ResourceRoot;)Ljavax/xml/ws/WebServiceException; (descriptor index 119)
+Human type: (java.lang.String, org.jboss.as.server.deployment.module.ResourceRoot): javax.xml.ws.WebServiceException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unexpectedElement (index 122), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 123)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unexpectedEndTag (index 126), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 123)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unexpectedEndOfDocument (index 129), type ()Ljava/lang/IllegalStateException; (descriptor index 130)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name missingDeploymentAspectClassAttribute (index 133), type ()Ljava/lang/IllegalStateException; (descriptor index 130)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotInstantiateDeploymentAspect (index 136), type (Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 137)
+Human type: (java.lang.Throwable, java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name missingPropertyNameAttribute (index 140), type (Lorg/jboss/wsf/spi/deployment/DeploymentAspect;)Ljava/lang/IllegalStateException; (descriptor index 141)
+Human type: (org.jboss.wsf.spi.deployment.DeploymentAspect): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name missingPropertyClassAttribute (index 144), type (Lorg/jboss/wsf/spi/deployment/DeploymentAspect;)Ljava/lang/IllegalStateException; (descriptor index 141)
+Human type: (org.jboss.wsf.spi.deployment.DeploymentAspect): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unsupportedPropertyClass (index 147), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 148)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotInstantiateList (index 151), type (Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 137)
+Human type: (java.lang.Throwable, java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name cannotInstantiateMap (index 154), type (Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 137)
+Human type: (java.lang.Throwable, java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name noMetricsAvailable (index 157), type ()Ljava/lang/String; (descriptor index 158)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotFindComponentView (index 161), type (Lorg/jboss/msc/service/ServiceName;)Ljava/lang/IllegalStateException; (descriptor index 162)
+Human type: (org.jboss.msc.service.ServiceName): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name missingChild (index 165), type (Ljava/lang/String;Lorg/jboss/vfs/VirtualFile;)Ljava/io/IOException; (descriptor index 166)
+Human type: (java.lang.String, org.jboss.vfs.VirtualFile): java.io.IOException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name createContextPhaseFailed (index 169), type (Ljava/lang/Throwable;)Ljava/lang/Exception; (descriptor index 170)
+Human type: (java.lang.Throwable): java.lang.Exception
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name startContextPhaseFailed (index 173), type (Ljava/lang/Throwable;)Ljava/lang/Exception; (descriptor index 170)
+Human type: (java.lang.Throwable): java.lang.Exception
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name stopContextPhaseFailed (index 176), type (Ljava/lang/Throwable;)Ljava/lang/Exception; (descriptor index 170)
+Human type: (java.lang.Throwable): java.lang.Exception
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name destroyContextPhaseFailed (index 179), type (Ljava/lang/Throwable;)Ljava/lang/Exception; (descriptor index 170)
+Human type: (java.lang.Throwable): java.lang.Exception
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name cannotInstantiateServletDelegate (index 182), type (Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 137)
+Human type: (java.lang.Throwable, java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name missingDeploymentProperty (index 185), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 123)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name multipleSecurityDomainsDetected (index 188), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 189)
+Human type: (java.lang.String, java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name sameUrlPatternRequested (index 192), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 193)
+Human type: (java.lang.String, java.lang.String, java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidServiceRefSetterMethodName (index 196), type (Ljava/lang/Object;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 197)
+Human type: (java.lang.Object): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name requiredServiceRefName (index 200), type ()Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 201)
+Human type: (): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name requiredServiceRefType (index 204), type ()Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 201)
+Human type: (): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name missingConfig (index 207), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 208)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name wrongHandlerChainType (index 211), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/StartException; (descriptor index 212)
+Human type: (java.lang.String, java.lang.String, java.lang.String): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name missingHandlerChain (index 215), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 216)
+Human type: (java.lang.String, java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotGetURLForDescriptor (index 219), type (Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 220)
+Human type: (java.lang.Throwable, java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name jaxRpcNotSupported (index 223), type ()Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 201)
+Human type: (): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidLibraryInDeployment (index 226), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 227)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name endpointClassNotFound (index 230), type (Ljava/lang/String;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 231)
+Human type: (java.lang.String): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name declaredEndpointInterfaceClassNotFound (index 234), type (Ljava/lang/String;Ljava/lang/Class;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 235)
+Human type: (java.lang.String, java.lang.Class): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name jwsWebServiceClassVerificationFailed (index 239), type (Ljava/lang/Class;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 240)
+Human type: (java.lang.Class): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotUpdateServerConfigBecauseOfReloadRequired (index 244), type ()Lorg/jboss/as/webservices/config/DisabledOperationException; (descriptor index 245)
+Human type: (): org.jboss.as.webservices.config.DisabledOperationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotUpdateServerConfigBecauseOfExistingWSDeployment (index 248), type ()Lorg/jboss/as/webservices/config/DisabledOperationException; (descriptor index 245)
+Human type: (): org.jboss.as.webservices.config.DisabledOperationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name missingModuleDependency (index 251), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V (descriptor index 252)
+Human type: (java.lang.String, java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name invalidWSServlet (index 255), type (Ljava/lang/String;)Lorg/jboss/wsf/spi/WSFException; (descriptor index 256)
+Human type: (java.lang.String): org.jboss.wsf.spi.WSFException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotActivateSubsystem (index 259), type (Ljava/lang/Throwable;)V (descriptor index 260)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name failedAuthorization (index 263), type (Ljava/lang/String;)V (descriptor index 14)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name failedAuthentication (index 267), type (Ljava/lang/String;)V (descriptor index 14)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name failedAuthenticationWithException (index 270), type (Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V (descriptor index 271)
+Human type: (java.lang.Throwable, java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name endpointAlreadyStopped (index 274), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 123)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name warningLibraryInDeployment (index 277), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 278)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name <clinit> (index 281), type ()V (descriptor index 32)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

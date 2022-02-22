@@ -1,0 +1,105 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 60
+1: Tag 9 FieldRef Class index 7, Name and type index 44
+2: Tag 10 MethodRef Class index 8, Name and type index 45
+3: Tag 9 FieldRef Class index 7, Name and type index 46
+4: Tag 11 InterfaceMethodRef Class index 9, Name and type index 47
+5: Tag 11 InterfaceMethodRef Class index 32, Name and type index 48
+6: Tag 11 InterfaceMethodRef Class index 9, Name and type index 49
+7: Tag 7 Class Name index 51
+8: Tag 7 Class Name index 52
+9: Tag 7 Class Name index 53
+10: Tag 1 Utf8 Value "trigger"
+11: Tag 1 Utf8 Value "Ljakarta/enterprise/concurrent/Trigger;"
+12: Tag 1 Utf8 Value "future"
+13: Tag 1 Utf8 Value "Ljava/util/concurrent/ScheduledFuture;"
+14: Tag 1 Utf8 Value "<init>"
+15: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/Trigger;)V"
+16: Tag 1 Utf8 Value "Code"
+17: Tag 1 Utf8 Value "LineNumberTable"
+18: Tag 1 Utf8 Value "LocalVariableTable"
+19: Tag 1 Utf8 Value "this"
+20: Tag 1 Utf8 Value "CancellableTrigger"
+21: Tag 1 Utf8 Value "InnerClasses"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger;"
+23: Tag 1 Utf8 Value "getNextRunTime"
+24: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/LastExecution;Ljava/util/Date;)Ljava/util/Date;"
+25: Tag 1 Utf8 Value "lastExecution"
+26: Tag 1 Utf8 Value "Ljakarta/enterprise/concurrent/LastExecution;"
+27: Tag 1 Utf8 Value "taskScheduledTime"
+28: Tag 1 Utf8 Value "Ljava/util/Date;"
+29: Tag 1 Utf8 Value "nextRunTime"
+30: Tag 1 Utf8 Value "StackMapTable"
+31: Tag 7 Class Name index 54
+32: Tag 7 Class Name index 55
+33: Tag 1 Utf8 Value "skipRun"
+34: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/LastExecution;Ljava/util/Date;)Z"
+35: Tag 1 Utf8 Value "date"
+36: Tag 1 Utf8 Value "access$002"
+37: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture;"
+38: Tag 1 Utf8 Value "x0"
+39: Tag 1 Utf8 Value "x1"
+40: Tag 1 Utf8 Value "access$000"
+41: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger;)Ljava/util/concurrent/ScheduledFuture;"
+42: Tag 1 Utf8 Value "SourceFile"
+43: Tag 1 Utf8 Value "ManagedScheduledExecutorServiceImpl.java"
+44: Tag 12 NameAndType Name index 12, Description index 13
+45: Tag 12 NameAndType Name index 14, Description index 56
+46: Tag 12 NameAndType Name index 10, Description index 11
+47: Tag 12 NameAndType Name index 23, Description index 24
+48: Tag 12 NameAndType Name index 57, Description index 58
+49: Tag 12 NameAndType Name index 33, Description index 34
+50: Tag 7 Class Name index 59
+51: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger"
+52: Tag 1 Utf8 Value "java/lang/Object"
+53: Tag 1 Utf8 Value "jakarta/enterprise/concurrent/Trigger"
+54: Tag 1 Utf8 Value "java/util/Date"
+55: Tag 1 Utf8 Value "java/util/concurrent/ScheduledFuture"
+56: Tag 1 Utf8 Value "()V"
+57: Tag 1 Utf8 Value "isCancelled"
+58: Tag 1 Utf8 Value "()Z"
+59: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 7, name org.jboss.as.ee.concurrent.ManagedScheduledExecutorServiceImpl$CancellableTrigger
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 9
+Implements names jakarta.enterprise.concurrent.Trigger
+
+Field name trigger (index 10), type Ljakarta/enterprise/concurrent/Trigger; (descriptor index 11)
+Human type: jakarta.enterprise.concurrent.Trigger
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name future (index 12), type Ljava/util/concurrent/ScheduledFuture; (descriptor index 13)
+Human type: java.util.concurrent.ScheduledFuture
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 14), type (Ljakarta/enterprise/concurrent/Trigger;)V (descriptor index 15)
+Human type: (jakarta.enterprise.concurrent.Trigger): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 70
+Method name getNextRunTime (index 23), type (Ljakarta/enterprise/concurrent/LastExecution;Ljava/util/Date;)Ljava/util/Date; (descriptor index 24)
+Human type: (jakarta.enterprise.concurrent.LastExecution, java.util.Date): java.util.Date
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 152
+Method name skipRun (index 33), type (Ljakarta/enterprise/concurrent/LastExecution;Ljava/util/Date;)Z (descriptor index 34)
+Human type: (jakarta.enterprise.concurrent.LastExecution, java.util.Date): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method name access$002 (index 36), type (Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture; (descriptor index 37)
+Human type: (org.jboss.as.ee.concurrent.ManagedScheduledExecutorServiceImpl$CancellableTrigger, java.util.concurrent.ScheduledFuture): java.util.concurrent.ScheduledFuture
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 59
+Method name access$000 (index 40), type (Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger;)Ljava/util/concurrent/ScheduledFuture; (descriptor index 41)
+Human type: (org.jboss.as.ee.concurrent.ManagedScheduledExecutorServiceImpl$CancellableTrigger): java.util.concurrent.ScheduledFuture
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

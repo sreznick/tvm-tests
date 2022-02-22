@@ -1,0 +1,345 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 195
+1: Tag 9 FieldRef Class index 39, Name and type index 133
+2: Tag 9 FieldRef Class index 39, Name and type index 134
+3: Tag 9 FieldRef Class index 39, Name and type index 135
+4: Tag 9 FieldRef Class index 39, Name and type index 136
+5: Tag 9 FieldRef Class index 39, Name and type index 137
+6: Tag 9 FieldRef Class index 39, Name and type index 138
+7: Tag 9 FieldRef Class index 39, Name and type index 139
+8: Tag 10 MethodRef Class index 40, Name and type index 140
+9: Tag 7 Class Name index 141
+10: Tag 10 MethodRef Class index 9, Name and type index 140
+11: Tag 9 FieldRef Class index 39, Name and type index 142
+12: Tag 9 FieldRef Class index 39, Name and type index 143
+13: Tag 9 FieldRef Class index 39, Name and type index 144
+14: Tag 9 FieldRef Class index 39, Name and type index 145
+15: Tag 9 FieldRef Class index 39, Name and type index 146
+16: Tag 9 FieldRef Class index 39, Name and type index 147
+17: Tag 9 FieldRef Class index 148, Name and type index 149
+18: Tag 8 String Contents 150
+19: Tag 11 InterfaceMethodRef Class index 148, Name and type index 151
+20: Tag 10 MethodRef Class index 9, Name and type index 152
+21: Tag 7 Class Name index 153
+22: Tag 10 MethodRef Class index 9, Name and type index 154
+23: Tag 7 Class Name index 155
+24: Tag 11 InterfaceMethodRef Class index 21, Name and type index 156
+25: Tag 7 Class Name index 157
+26: Tag 11 InterfaceMethodRef Class index 21, Name and type index 158
+27: Tag 7 Class Name index 159
+28: Tag 7 Class Name index 160
+29: Tag 10 MethodRef Class index 161, Name and type index 162
+30: Tag 10 MethodRef Class index 27, Name and type index 163
+31: Tag 7 Class Name index 164
+32: Tag 8 String Contents 165
+33: Tag 10 MethodRef Class index 31, Name and type index 166
+34: Tag 8 String Contents 167
+35: Tag 10 MethodRef Class index 31, Name and type index 168
+36: Tag 10 MethodRef Class index 39, Name and type index 169
+37: Tag 7 Class Name index 170
+38: Tag 10 MethodRef Class index 37, Name and type index 140
+39: Tag 7 Class Name index 171
+40: Tag 7 Class Name index 172
+41: Tag 7 Class Name index 173
+42: Tag 1 Utf8 Value "WildFlyBatchEnvironment"
+43: Tag 1 Utf8 Value "InnerClasses"
+44: Tag 1 Utf8 Value "PROPS"
+45: Tag 1 Utf8 Value "Ljava/util/Properties;"
+46: Tag 1 Utf8 Value "artifactFactoryInjector"
+47: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+48: Tag 1 Utf8 Value "Signature"
+49: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/extension/batch/jberet/deployment/WildFlyArtifactFactory;>;"
+50: Tag 1 Utf8 Value "jobExecutorInjector"
+51: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jberet/spi/JobExecutor;>;"
+52: Tag 1 Utf8 Value "requestControllerInjector"
+53: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/extension/requestcontroller/RequestController;>;"
+54: Tag 1 Utf8 Value "jobRepositoryInjector"
+55: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jberet/repository/JobRepository;>;"
+56: Tag 1 Utf8 Value "batchConfigurationInjector"
+57: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/extension/batch/jberet/BatchConfiguration;>;"
+58: Tag 1 Utf8 Value "classLoader"
+59: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+60: Tag 1 Utf8 Value "jobXmlResolver"
+61: Tag 1 Utf8 Value "Lorg/jberet/spi/JobXmlResolver;"
+62: Tag 1 Utf8 Value "deploymentName"
+63: Tag 1 Utf8 Value "Ljava/lang/String;"
+64: Tag 1 Utf8 Value "namespaceContextSelector"
+65: Tag 1 Utf8 Value "Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+66: Tag 1 Utf8 Value "legacySecurityPresent"
+67: Tag 1 Utf8 Value "Z"
+68: Tag 1 Utf8 Value "batchEnvironment"
+69: Tag 1 Utf8 Value "Lorg/wildfly/extension/batch/jberet/deployment/SecurityAwareBatchEnvironment;"
+70: Tag 1 Utf8 Value "controlPoint"
+71: Tag 1 Utf8 Value "Lorg/wildfly/extension/requestcontroller/ControlPoint;"
+72: Tag 1 Utf8 Value "<init>"
+73: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;Lorg/jberet/spi/JobXmlResolver;Ljava/lang/String;Lorg/jboss/as/naming/context/NamespaceContextSelector;Z)V"
+74: Tag 1 Utf8 Value "Code"
+75: Tag 1 Utf8 Value "LineNumberTable"
+76: Tag 1 Utf8 Value "LocalVariableTable"
+77: Tag 1 Utf8 Value "this"
+78: Tag 1 Utf8 Value "Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;"
+79: Tag 1 Utf8 Value "start"
+80: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+81: Tag 1 Utf8 Value "context"
+82: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+83: Tag 1 Utf8 Value "batchConfiguration"
+84: Tag 1 Utf8 Value "Lorg/wildfly/extension/batch/jberet/BatchConfiguration;"
+85: Tag 1 Utf8 Value "jobExecutor"
+86: Tag 1 Utf8 Value "Lorg/jberet/spi/JobExecutor;"
+87: Tag 1 Utf8 Value "jobRepository"
+88: Tag 1 Utf8 Value "Lorg/jberet/repository/JobRepository;"
+89: Tag 1 Utf8 Value "requestController"
+90: Tag 1 Utf8 Value "Lorg/wildfly/extension/requestcontroller/RequestController;"
+91: Tag 1 Utf8 Value "StackMapTable"
+92: Tag 1 Utf8 Value "Exceptions"
+93: Tag 7 Class Name index 174
+94: Tag 1 Utf8 Value "stop"
+95: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+96: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+97: Tag 1 Utf8 Value "getValue"
+98: Tag 1 Utf8 Value "()Lorg/wildfly/extension/batch/jberet/deployment/SecurityAwareBatchEnvironment;"
+99: Tag 7 Class Name index 175
+100: Tag 7 Class Name index 176
+101: Tag 1 Utf8 Value "getArtifactFactoryInjector"
+102: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue;"
+103: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/extension/batch/jberet/deployment/WildFlyArtifactFactory;>;"
+104: Tag 1 Utf8 Value "getJobExecutorInjector"
+105: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lorg/jberet/spi/JobExecutor;>;"
+106: Tag 1 Utf8 Value "getRequestControllerInjector"
+107: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/extension/requestcontroller/RequestController;>;"
+108: Tag 1 Utf8 Value "getJobRepositoryInjector"
+109: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lorg/jberet/repository/JobRepository;>;"
+110: Tag 1 Utf8 Value "getBatchConfigurationInjector"
+111: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/extension/batch/jberet/BatchConfiguration;>;"
+112: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+113: Tag 1 Utf8 Value "access$000"
+114: Tag 1 Utf8 Value "(Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Ljava/lang/ClassLoader;"
+115: Tag 1 Utf8 Value "x0"
+116: Tag 1 Utf8 Value "access$100"
+117: Tag 1 Utf8 Value "(Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Lorg/wildfly/extension/requestcontroller/ControlPoint;"
+118: Tag 1 Utf8 Value "access$200"
+119: Tag 1 Utf8 Value "()Ljava/util/Properties;"
+120: Tag 1 Utf8 Value "access$300"
+121: Tag 1 Utf8 Value "(Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Ljava/lang/String;"
+122: Tag 1 Utf8 Value "access$400"
+123: Tag 1 Utf8 Value "(Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Lorg/jboss/msc/value/InjectedValue;"
+124: Tag 1 Utf8 Value "access$500"
+125: Tag 1 Utf8 Value "(Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Z"
+126: Tag 1 Utf8 Value "access$600"
+127: Tag 1 Utf8 Value "(Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+128: Tag 1 Utf8 Value "<clinit>"
+129: Tag 1 Utf8 Value "()V"
+130: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/wildfly/extension/batch/jberet/deployment/SecurityAwareBatchEnvironment;>;"
+131: Tag 1 Utf8 Value "SourceFile"
+132: Tag 1 Utf8 Value "BatchEnvironmentService.java"
+133: Tag 12 NameAndType Name index 64, Description index 65
+134: Tag 12 NameAndType Name index 66, Description index 67
+135: Tag 12 NameAndType Name index 56, Description index 47
+136: Tag 12 NameAndType Name index 62, Description index 63
+137: Tag 12 NameAndType Name index 44, Description index 45
+138: Tag 12 NameAndType Name index 70, Description index 71
+139: Tag 12 NameAndType Name index 58, Description index 59
+140: Tag 12 NameAndType Name index 72, Description index 129
+141: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+142: Tag 12 NameAndType Name index 46, Description index 47
+143: Tag 12 NameAndType Name index 50, Description index 47
+144: Tag 12 NameAndType Name index 52, Description index 47
+145: Tag 12 NameAndType Name index 54, Description index 47
+146: Tag 12 NameAndType Name index 68, Description index 69
+147: Tag 12 NameAndType Name index 60, Description index 61
+148: Tag 7 Class Name index 177
+149: Tag 12 NameAndType Name index 178, Description index 179
+150: Tag 1 Utf8 Value "Creating batch environment; %s"
+151: Tag 12 NameAndType Name index 180, Description index 181
+152: Tag 12 NameAndType Name index 97, Description index 112
+153: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/BatchConfiguration"
+154: Tag 12 NameAndType Name index 182, Description index 112
+155: Tag 1 Utf8 Value "org/jberet/spi/JobExecutor"
+156: Tag 12 NameAndType Name index 183, Description index 184
+157: Tag 1 Utf8 Value "org/jberet/repository/JobRepository"
+158: Tag 12 NameAndType Name index 185, Description index 186
+159: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService$WildFlyBatchEnvironment"
+160: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/deployment/WildFlyArtifactFactory"
+161: Tag 7 Class Name index 187
+162: Tag 12 NameAndType Name index 188, Description index 189
+163: Tag 12 NameAndType Name index 72, Description index 190
+164: Tag 1 Utf8 Value "org/wildfly/extension/requestcontroller/RequestController"
+165: Tag 1 Utf8 Value "batch-executor-service"
+166: Tag 12 NameAndType Name index 191, Description index 192
+167: Tag 1 Utf8 Value "Removing batch environment; %s"
+168: Tag 12 NameAndType Name index 193, Description index 194
+169: Tag 12 NameAndType Name index 97, Description index 98
+170: Tag 1 Utf8 Value "java/util/Properties"
+171: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService"
+172: Tag 1 Utf8 Value "java/lang/Object"
+173: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+174: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+175: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+176: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+177: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/_private/BatchLogger"
+178: Tag 1 Utf8 Value "LOGGER"
+179: Tag 1 Utf8 Value "Lorg/wildfly/extension/batch/jberet/_private/BatchLogger;"
+180: Tag 1 Utf8 Value "debugf"
+181: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+182: Tag 1 Utf8 Value "getOptionalValue"
+183: Tag 1 Utf8 Value "getDefaultJobExecutor"
+184: Tag 1 Utf8 Value "()Lorg/jberet/spi/JobExecutor;"
+185: Tag 1 Utf8 Value "getDefaultJobRepository"
+186: Tag 1 Utf8 Value "()Lorg/jberet/repository/JobRepository;"
+187: Tag 1 Utf8 Value "org/wildfly/transaction/client/ContextTransactionManager"
+188: Tag 1 Utf8 Value "getInstance"
+189: Tag 1 Utf8 Value "()Lorg/wildfly/transaction/client/ContextTransactionManager;"
+190: Tag 1 Utf8 Value "(Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;Lorg/wildfly/extension/batch/jberet/deployment/WildFlyArtifactFactory;Lorg/jberet/spi/JobExecutor;Ljavax/transaction/TransactionManager;Lorg/jberet/repository/JobRepository;Lorg/jberet/spi/JobXmlResolver;)V"
+191: Tag 1 Utf8 Value "getControlPoint"
+192: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/extension/requestcontroller/ControlPoint;"
+193: Tag 1 Utf8 Value "removeControlPoint"
+194: Tag 1 Utf8 Value "(Lorg/wildfly/extension/requestcontroller/ControlPoint;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 39, name org.wildfly.extension.batch.jberet.deployment.BatchEnvironmentService
+
+Super class: id 40, name java.lang.Object
+
+Implements class ids 41
+Implements names org.jboss.msc.service.Service
+
+Field name PROPS (index 44), type Ljava/util/Properties; (descriptor index 45)
+Human type: java.util.Properties
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name artifactFactoryInjector (index 46), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 47)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name jobExecutorInjector (index 50), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 47)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name requestControllerInjector (index 52), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 47)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name jobRepositoryInjector (index 54), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 47)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name batchConfigurationInjector (index 56), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 47)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name classLoader (index 58), type Ljava/lang/ClassLoader; (descriptor index 59)
+Human type: java.lang.ClassLoader
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name jobXmlResolver (index 60), type Lorg/jberet/spi/JobXmlResolver; (descriptor index 61)
+Human type: org.jberet.spi.JobXmlResolver
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name deploymentName (index 62), type Ljava/lang/String; (descriptor index 63)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name namespaceContextSelector (index 64), type Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 65)
+Human type: org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name legacySecurityPresent (index 66), type Z (descriptor index 67)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name batchEnvironment (index 68), type Lorg/wildfly/extension/batch/jberet/deployment/SecurityAwareBatchEnvironment; (descriptor index 69)
+Human type: org.wildfly.extension.batch.jberet.deployment.SecurityAwareBatchEnvironment
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name controlPoint (index 70), type Lorg/wildfly/extension/requestcontroller/ControlPoint; (descriptor index 71)
+Human type: org.wildfly.extension.requestcontroller.ControlPoint
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 72), type (Ljava/lang/ClassLoader;Lorg/jberet/spi/JobXmlResolver;Ljava/lang/String;Lorg/jboss/as/naming/context/NamespaceContextSelector;Z)V (descriptor index 73)
+Human type: (java.lang.ClassLoader, org.jberet.spi.JobXmlResolver, java.lang.String, org.jboss.as.naming.context.NamespaceContextSelector, boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 232
+Method name start (index 79), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 80)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 323
+Method attribute name Exceptions, size 4
+Method name stop (index 94), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 95)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 121
+Method name getValue (index 97), type ()Lorg/wildfly/extension/batch/jberet/deployment/SecurityAwareBatchEnvironment; (descriptor index 98)
+Human type: (): org.wildfly.extension.batch.jberet.deployment.SecurityAwareBatchEnvironment
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name getArtifactFactoryInjector (index 101), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 102)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getJobExecutorInjector (index 104), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 102)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getRequestControllerInjector (index 106), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 102)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getJobRepositoryInjector (index 108), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 102)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getBatchConfigurationInjector (index 110), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 102)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getValue (index 97), type ()Ljava/lang/Object; (descriptor index 112)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name access$000 (index 113), type (Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Ljava/lang/ClassLoader; (descriptor index 114)
+Human type: (org.wildfly.extension.batch.jberet.deployment.BatchEnvironmentService): java.lang.ClassLoader
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$100 (index 116), type (Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Lorg/wildfly/extension/requestcontroller/ControlPoint; (descriptor index 117)
+Human type: (org.wildfly.extension.batch.jberet.deployment.BatchEnvironmentService): org.wildfly.extension.requestcontroller.ControlPoint
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$200 (index 118), type ()Ljava/util/Properties; (descriptor index 119)
+Human type: (): java.util.Properties
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 28
+Method name access$300 (index 120), type (Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Ljava/lang/String; (descriptor index 121)
+Human type: (org.wildfly.extension.batch.jberet.deployment.BatchEnvironmentService): java.lang.String
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$400 (index 122), type (Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Lorg/jboss/msc/value/InjectedValue; (descriptor index 123)
+Human type: (org.wildfly.extension.batch.jberet.deployment.BatchEnvironmentService): org.jboss.msc.value.InjectedValue
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$500 (index 124), type (Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Z (descriptor index 125)
+Human type: (org.wildfly.extension.batch.jberet.deployment.BatchEnvironmentService): boolean
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$600 (index 126), type (Lorg/wildfly/extension/batch/jberet/deployment/BatchEnvironmentService;)Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 127)
+Human type: (org.wildfly.extension.batch.jberet.deployment.BatchEnvironmentService): org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name <clinit> (index 128), type ()V (descriptor index 129)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

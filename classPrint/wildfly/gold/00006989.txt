@@ -1,0 +1,146 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 96
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldJpaInjectionServices$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/weld/services/bootstrap/WeldJpaInjectionServices;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$scopedPuName"
+10: Tag 1 Utf8 Value "Ljava/lang/String;"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "val$persistenceUnitService"
+14: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/service/PersistenceUnitServiceImpl;"
+15: Tag 9 FieldRef Class index 2, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "val$context"
+18: Tag 1 Utf8 Value "Ljavax/persistence/PersistenceContext;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "java/lang/Object"
+23: Tag 1 Utf8 Value "<init>"
+24: Tag 1 Utf8 Value "()V"
+25: Tag 7 Class Name index 26
+26: Tag 1 Utf8 Value "org/jboss/as/jpa/container/TransactionScopedEntityManager"
+27: Tag 7 Class Name index 28
+28: Tag 1 Utf8 Value "java/util/HashMap"
+29: Tag 10 MethodRef Class index 27, Name and type index 21
+30: Tag 10 MethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/as/jpa/service/PersistenceUnitServiceImpl"
+34: Tag 1 Utf8 Value "getEntityManagerFactory"
+35: Tag 1 Utf8 Value "()Ljavax/persistence/EntityManagerFactory;"
+36: Tag 11 InterfaceMethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 41
+39: Tag 1 Utf8 Value "javax/persistence/PersistenceContext"
+40: Tag 1 Utf8 Value "synchronization"
+41: Tag 1 Utf8 Value "()Ljavax/persistence/SynchronizationType;"
+42: Tag 10 MethodRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 47
+45: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldJpaInjectionServices"
+46: Tag 1 Utf8 Value "access$000"
+47: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/services/bootstrap/WeldJpaInjectionServices;)Lorg/jboss/as/server/deployment/DeploymentUnit;"
+48: Tag 9 FieldRef Class index 49, Name and type index 50
+49: Tag 7 Class Name index 51
+50: Tag 12 NameAndType Name index 52, Description index 53
+51: Tag 1 Utf8 Value "org/jboss/as/jpa/processor/JpaAttachments"
+52: Tag 1 Utf8 Value "TRANSACTION_SYNCHRONIZATION_REGISTRY"
+53: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+54: Tag 11 InterfaceMethodRef Class index 55, Name and type index 56
+55: Tag 7 Class Name index 57
+56: Tag 12 NameAndType Name index 58, Description index 59
+57: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+58: Tag 1 Utf8 Value "getAttachment"
+59: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "javax/transaction/TransactionSynchronizationRegistry"
+62: Tag 10 MethodRef Class index 63, Name and type index 64
+63: Tag 7 Class Name index 65
+64: Tag 12 NameAndType Name index 66, Description index 67
+65: Tag 1 Utf8 Value "org/wildfly/transaction/client/ContextTransactionManager"
+66: Tag 1 Utf8 Value "getInstance"
+67: Tag 1 Utf8 Value "()Lorg/wildfly/transaction/client/ContextTransactionManager;"
+68: Tag 10 MethodRef Class index 25, Name and type index 69
+69: Tag 12 NameAndType Name index 23, Description index 70
+70: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/Map;Ljavax/persistence/EntityManagerFactory;Ljavax/persistence/SynchronizationType;Ljavax/transaction/TransactionSynchronizationRegistry;Ljavax/transaction/TransactionManager;)V"
+71: Tag 10 MethodRef Class index 2, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 74
+73: Tag 1 Utf8 Value "call"
+74: Tag 1 Utf8 Value "()Ljavax/persistence/EntityManager;"
+75: Tag 7 Class Name index 76
+76: Tag 1 Utf8 Value "java/util/concurrent/Callable"
+77: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/services/bootstrap/WeldJpaInjectionServices;Ljava/lang/String;Lorg/jboss/as/jpa/service/PersistenceUnitServiceImpl;Ljavax/persistence/PersistenceContext;)V"
+78: Tag 1 Utf8 Value "Code"
+79: Tag 1 Utf8 Value "LineNumberTable"
+80: Tag 1 Utf8 Value "LocalVariableTable"
+81: Tag 1 Utf8 Value "this"
+82: Tag 1 Utf8 Value "Lorg/jboss/as/weld/services/bootstrap/WeldJpaInjectionServices$1;"
+83: Tag 1 Utf8 Value "Signature"
+84: Tag 1 Utf8 Value "Exceptions"
+85: Tag 7 Class Name index 86
+86: Tag 1 Utf8 Value "java/lang/Exception"
+87: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+88: Tag 1 Utf8 Value "Ljava/lang/Object;Ljava/util/concurrent/Callable<Ljavax/persistence/EntityManager;>;"
+89: Tag 1 Utf8 Value "SourceFile"
+90: Tag 1 Utf8 Value "WeldJpaInjectionServices.java"
+91: Tag 1 Utf8 Value "EnclosingMethod"
+92: Tag 12 NameAndType Name index 93, Description index 94
+93: Tag 1 Utf8 Value "registerPersistenceContextInjectionPoint"
+94: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/InjectionPoint;)Lorg/jboss/weld/injection/spi/ResourceReferenceFactory;"
+95: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.weld.services.bootstrap.WeldJpaInjectionServices$1
+
+Super class: id 20, name java.lang.Object
+
+Implements class ids 75
+Implements names java.util.concurrent.Callable
+
+Field name val$scopedPuName (index 9), type Ljava/lang/String; (descriptor index 10)
+Human type: java.lang.String
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$persistenceUnitService (index 13), type Lorg/jboss/as/jpa/service/PersistenceUnitServiceImpl; (descriptor index 14)
+Human type: org.jboss.as.jpa.service.PersistenceUnitServiceImpl
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$context (index 17), type Ljavax/persistence/PersistenceContext; (descriptor index 18)
+Human type: javax.persistence.PersistenceContext
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/jboss/as/weld/services/bootstrap/WeldJpaInjectionServices; (descriptor index 6)
+Human type: org.jboss.as.weld.services.bootstrap.WeldJpaInjectionServices
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 23), type (Lorg/jboss/as/weld/services/bootstrap/WeldJpaInjectionServices;Ljava/lang/String;Lorg/jboss/as/jpa/service/PersistenceUnitServiceImpl;Ljavax/persistence/PersistenceContext;)V (descriptor index 77)
+Human type: (org.jboss.as.weld.services.bootstrap.WeldJpaInjectionServices, java.lang.String, org.jboss.as.jpa.service.PersistenceUnitServiceImpl, javax.persistence.PersistenceContext): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 78
+Method attribute name Signature, size 2
+Method name call (index 73), type ()Ljavax/persistence/EntityManager; (descriptor index 74)
+Human type: (): javax.persistence.EntityManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 118
+Method attribute name Exceptions, size 4
+Method name call (index 73), type ()Ljava/lang/Object; (descriptor index 87)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

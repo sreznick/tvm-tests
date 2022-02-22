@@ -1,0 +1,598 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 490
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/util/Collections"
+5: Tag 1 Utf8 Value "emptyMap"
+6: Tag 1 Utf8 Value "()Ljava/util/Map;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ExternalConnectionFactoryService"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "(ZZLorg/apache/activemq/artemis/api/jms/JMSFactoryType;Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;[Lorg/apache/activemq/artemis/api/core/TransportConfiguration;Lorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;)V"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 11, Description index 17
+16: Tag 1 Utf8 Value "java/lang/Object"
+17: Tag 1 Utf8 Value "()V"
+18: Tag 9 FieldRef Class index 8, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "$assertionsDisabled"
+21: Tag 1 Utf8 Value "Z"
+22: Tag 7 Class Name index 23
+23: Tag 1 Utf8 Value "java/lang/AssertionError"
+24: Tag 10 MethodRef Class index 22, Name and type index 15
+25: Tag 9 FieldRef Class index 8, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 21
+27: Tag 1 Utf8 Value "ha"
+28: Tag 9 FieldRef Class index 8, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 21
+30: Tag 1 Utf8 Value "enable1Prefixes"
+31: Tag 9 FieldRef Class index 8, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "type"
+34: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/api/jms/JMSFactoryType;"
+35: Tag 9 FieldRef Class index 8, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "groupConfiguration"
+38: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;"
+39: Tag 9 FieldRef Class index 8, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "connectors"
+42: Tag 1 Utf8 Value "[Lorg/apache/activemq/artemis/api/core/TransportConfiguration;"
+43: Tag 9 FieldRef Class index 8, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "socketBindings"
+46: Tag 1 Utf8 Value "Ljava/util/Map;"
+47: Tag 9 FieldRef Class index 8, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 46
+49: Tag 1 Utf8 Value "outboundSocketBindings"
+50: Tag 9 FieldRef Class index 8, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 46
+52: Tag 1 Utf8 Value "clusterNames"
+53: Tag 9 FieldRef Class index 8, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 46
+55: Tag 1 Utf8 Value "commandDispatcherFactories"
+56: Tag 9 FieldRef Class index 8, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 46
+58: Tag 1 Utf8 Value "groupBindings"
+59: Tag 9 FieldRef Class index 8, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "config"
+62: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;"
+63: Tag 10 MethodRef Class index 64, Name and type index 65
+64: Tag 7 Class Name index 66
+65: Tag 12 NameAndType Name index 67, Description index 68
+66: Tag 1 Utf8 Value "java/util/Arrays"
+67: Tag 1 Utf8 Value "asList"
+68: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+69: Tag 10 MethodRef Class index 70, Name and type index 71
+70: Tag 7 Class Name index 72
+71: Tag 12 NameAndType Name index 73, Description index 74
+72: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/TransportConfigOperationHandlers"
+73: Tag 1 Utf8 Value "processConnectorBindings"
+74: Tag 1 Utf8 Value "(Ljava/util/Collection;Ljava/util/Map;Ljava/util/Map;)V"
+75: Tag 10 MethodRef Class index 76, Name and type index 77
+76: Tag 7 Class Name index 78
+77: Tag 12 NameAndType Name index 79, Description index 80
+78: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/jms/ActiveMQJMSClient"
+79: Tag 1 Utf8 Value "createConnectionFactoryWithHA"
+80: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/api/jms/JMSFactoryType;[Lorg/apache/activemq/artemis/api/core/TransportConfiguration;)Lorg/apache/activemq/artemis/jms/client/ActiveMQConnectionFactory;"
+81: Tag 9 FieldRef Class index 8, Name and type index 82
+82: Tag 12 NameAndType Name index 83, Description index 84
+83: Tag 1 Utf8 Value "factory"
+84: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/jms/client/ActiveMQConnectionFactory;"
+85: Tag 10 MethodRef Class index 76, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 80
+87: Tag 1 Utf8 Value "createConnectionFactoryWithoutHA"
+88: Tag 10 MethodRef Class index 89, Name and type index 90
+89: Tag 7 Class Name index 91
+90: Tag 12 NameAndType Name index 92, Description index 93
+91: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration"
+92: Tag 1 Utf8 Value "getName"
+93: Tag 1 Utf8 Value "()Ljava/lang/String;"
+94: Tag 7 Class Name index 95
+95: Tag 1 Utf8 Value "java/lang/StringBuilder"
+96: Tag 10 MethodRef Class index 94, Name and type index 15
+97: Tag 8 String Contents 98
+98: Tag 1 Utf8 Value "discovery"
+99: Tag 10 MethodRef Class index 94, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 102
+101: Tag 1 Utf8 Value "append"
+102: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+103: Tag 10 MethodRef Class index 94, Name and type index 104
+104: Tag 12 NameAndType Name index 105, Description index 93
+105: Tag 1 Utf8 Value "toString"
+106: Tag 11 InterfaceMethodRef Class index 107, Name and type index 108
+107: Tag 7 Class Name index 109
+108: Tag 12 NameAndType Name index 110, Description index 111
+109: Tag 1 Utf8 Value "java/util/Map"
+110: Tag 1 Utf8 Value "containsKey"
+111: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+112: Tag 11 InterfaceMethodRef Class index 107, Name and type index 113
+113: Tag 12 NameAndType Name index 114, Description index 115
+114: Tag 1 Utf8 Value "get"
+115: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "java/util/function/Supplier"
+118: Tag 11 InterfaceMethodRef Class index 116, Name and type index 119
+119: Tag 12 NameAndType Name index 114, Description index 120
+120: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+121: Tag 7 Class Name index 122
+122: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory"
+123: Tag 7 Class Name index 124
+124: Tag 1 Utf8 Value "java/lang/String"
+125: Tag 10 MethodRef Class index 126, Name and type index 127
+126: Tag 7 Class Name index 128
+127: Tag 12 NameAndType Name index 129, Description index 130
+128: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/JGroupsDiscoveryGroupAdd"
+129: Tag 1 Utf8 Value "createDiscoveryGroupConfiguration"
+130: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory;Ljava/lang/String;)Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;"
+131: Tag 7 Class Name index 132
+132: Tag 1 Utf8 Value "org/jboss/as/network/SocketBinding"
+133: Tag 9 FieldRef Class index 134, Name and type index 135
+134: Tag 7 Class Name index 136
+135: Tag 12 NameAndType Name index 137, Description index 138
+136: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/logging/MessagingLogger"
+137: Tag 1 Utf8 Value "ROOT_LOGGER"
+138: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/logging/MessagingLogger;"
+139: Tag 11 InterfaceMethodRef Class index 134, Name and type index 140
+140: Tag 12 NameAndType Name index 141, Description index 142
+141: Tag 1 Utf8 Value "failedToFindDiscoverySocketBinding"
+142: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+143: Tag 10 MethodRef Class index 144, Name and type index 145
+144: Tag 7 Class Name index 146
+145: Tag 12 NameAndType Name index 129, Description index 147
+146: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/SocketDiscoveryGroupAdd"
+147: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;Lorg/jboss/as/network/SocketBinding;)Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;"
+148: Tag 10 MethodRef Class index 131, Name and type index 149
+149: Tag 12 NameAndType Name index 150, Description index 151
+150: Tag 1 Utf8 Value "getSocketBindings"
+151: Tag 1 Utf8 Value "()Lorg/jboss/as/network/SocketBindingManager;"
+152: Tag 11 InterfaceMethodRef Class index 153, Name and type index 154
+153: Tag 7 Class Name index 155
+154: Tag 12 NameAndType Name index 156, Description index 157
+155: Tag 1 Utf8 Value "org/jboss/as/network/SocketBindingManager"
+156: Tag 1 Utf8 Value "getNamedRegistry"
+157: Tag 1 Utf8 Value "()Lorg/jboss/as/network/SocketBindingManager$NamedManagedBindingRegistry;"
+158: Tag 10 MethodRef Class index 159, Name and type index 160
+159: Tag 7 Class Name index 161
+160: Tag 12 NameAndType Name index 162, Description index 163
+161: Tag 1 Utf8 Value "org/jboss/as/network/ManagedBinding$Factory"
+162: Tag 1 Utf8 Value "createSimpleManagedBinding"
+163: Tag 1 Utf8 Value "(Lorg/jboss/as/network/SocketBinding;)Lorg/jboss/as/network/ManagedBinding;"
+164: Tag 11 InterfaceMethodRef Class index 165, Name and type index 166
+165: Tag 7 Class Name index 167
+166: Tag 12 NameAndType Name index 168, Description index 169
+167: Tag 1 Utf8 Value "org/jboss/as/network/SocketBindingManager$NamedManagedBindingRegistry"
+168: Tag 1 Utf8 Value "registerBinding"
+169: Tag 1 Utf8 Value "(Lorg/jboss/as/network/ManagedBinding;)V"
+170: Tag 10 MethodRef Class index 76, Name and type index 171
+171: Tag 12 NameAndType Name index 79, Description index 172
+172: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;Lorg/apache/activemq/artemis/api/jms/JMSFactoryType;)Lorg/apache/activemq/artemis/jms/client/ActiveMQConnectionFactory;"
+173: Tag 10 MethodRef Class index 76, Name and type index 174
+174: Tag 12 NameAndType Name index 87, Description index 172
+175: Tag 11 InterfaceMethodRef Class index 176, Name and type index 177
+176: Tag 7 Class Name index 178
+177: Tag 12 NameAndType Name index 179, Description index 180
+178: Tag 1 Utf8 Value "org/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration"
+179: Tag 1 Utf8 Value "isAutoGroup"
+180: Tag 1 Utf8 Value "()Z"
+181: Tag 10 MethodRef Class index 182, Name and type index 183
+182: Tag 7 Class Name index 184
+183: Tag 12 NameAndType Name index 185, Description index 186
+184: Tag 1 Utf8 Value "org/apache/activemq/artemis/jms/client/ActiveMQConnectionFactory"
+185: Tag 1 Utf8 Value "setAutoGroup"
+186: Tag 1 Utf8 Value "(Z)V"
+187: Tag 11 InterfaceMethodRef Class index 176, Name and type index 188
+188: Tag 12 NameAndType Name index 189, Description index 180
+189: Tag 1 Utf8 Value "isBlockOnAcknowledge"
+190: Tag 10 MethodRef Class index 182, Name and type index 191
+191: Tag 12 NameAndType Name index 192, Description index 186
+192: Tag 1 Utf8 Value "setBlockOnAcknowledge"
+193: Tag 11 InterfaceMethodRef Class index 176, Name and type index 194
+194: Tag 12 NameAndType Name index 195, Description index 180
+195: Tag 1 Utf8 Value "isBlockOnDurableSend"
+196: Tag 10 MethodRef Class index 182, Name and type index 197
+197: Tag 12 NameAndType Name index 198, Description index 186
+198: Tag 1 Utf8 Value "setBlockOnDurableSend"
+199: Tag 11 InterfaceMethodRef Class index 176, Name and type index 200
+200: Tag 12 NameAndType Name index 201, Description index 180
+201: Tag 1 Utf8 Value "isBlockOnNonDurableSend"
+202: Tag 10 MethodRef Class index 182, Name and type index 203
+203: Tag 12 NameAndType Name index 204, Description index 186
+204: Tag 1 Utf8 Value "setBlockOnNonDurableSend"
+205: Tag 11 InterfaceMethodRef Class index 176, Name and type index 206
+206: Tag 12 NameAndType Name index 207, Description index 180
+207: Tag 1 Utf8 Value "isCacheLargeMessagesClient"
+208: Tag 10 MethodRef Class index 182, Name and type index 209
+209: Tag 12 NameAndType Name index 210, Description index 186
+210: Tag 1 Utf8 Value "setCacheLargeMessagesClient"
+211: Tag 11 InterfaceMethodRef Class index 176, Name and type index 212
+212: Tag 12 NameAndType Name index 213, Description index 214
+213: Tag 1 Utf8 Value "getCallFailoverTimeout"
+214: Tag 1 Utf8 Value "()J"
+215: Tag 10 MethodRef Class index 182, Name and type index 216
+216: Tag 12 NameAndType Name index 217, Description index 218
+217: Tag 1 Utf8 Value "setCallFailoverTimeout"
+218: Tag 1 Utf8 Value "(J)V"
+219: Tag 11 InterfaceMethodRef Class index 176, Name and type index 220
+220: Tag 12 NameAndType Name index 221, Description index 214
+221: Tag 1 Utf8 Value "getCallTimeout"
+222: Tag 10 MethodRef Class index 182, Name and type index 223
+223: Tag 12 NameAndType Name index 224, Description index 218
+224: Tag 1 Utf8 Value "setCallTimeout"
+225: Tag 11 InterfaceMethodRef Class index 176, Name and type index 226
+226: Tag 12 NameAndType Name index 227, Description index 93
+227: Tag 1 Utf8 Value "getClientID"
+228: Tag 10 MethodRef Class index 182, Name and type index 229
+229: Tag 12 NameAndType Name index 230, Description index 231
+230: Tag 1 Utf8 Value "setClientID"
+231: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+232: Tag 11 InterfaceMethodRef Class index 176, Name and type index 233
+233: Tag 12 NameAndType Name index 234, Description index 214
+234: Tag 1 Utf8 Value "getClientFailureCheckPeriod"
+235: Tag 10 MethodRef Class index 182, Name and type index 236
+236: Tag 12 NameAndType Name index 237, Description index 218
+237: Tag 1 Utf8 Value "setClientFailureCheckPeriod"
+238: Tag 11 InterfaceMethodRef Class index 176, Name and type index 239
+239: Tag 12 NameAndType Name index 240, Description index 180
+240: Tag 1 Utf8 Value "isCompressLargeMessages"
+241: Tag 10 MethodRef Class index 182, Name and type index 242
+242: Tag 12 NameAndType Name index 243, Description index 186
+243: Tag 1 Utf8 Value "setCompressLargeMessage"
+244: Tag 11 InterfaceMethodRef Class index 176, Name and type index 245
+245: Tag 12 NameAndType Name index 246, Description index 247
+246: Tag 1 Utf8 Value "getConfirmationWindowSize"
+247: Tag 1 Utf8 Value "()I"
+248: Tag 10 MethodRef Class index 182, Name and type index 249
+249: Tag 12 NameAndType Name index 250, Description index 251
+250: Tag 1 Utf8 Value "setConfirmationWindowSize"
+251: Tag 1 Utf8 Value "(I)V"
+252: Tag 11 InterfaceMethodRef Class index 176, Name and type index 253
+253: Tag 12 NameAndType Name index 254, Description index 214
+254: Tag 1 Utf8 Value "getConnectionTTL"
+255: Tag 10 MethodRef Class index 182, Name and type index 256
+256: Tag 12 NameAndType Name index 257, Description index 218
+257: Tag 1 Utf8 Value "setConnectionTTL"
+258: Tag 11 InterfaceMethodRef Class index 176, Name and type index 259
+259: Tag 12 NameAndType Name index 260, Description index 247
+260: Tag 1 Utf8 Value "getConsumerMaxRate"
+261: Tag 10 MethodRef Class index 182, Name and type index 262
+262: Tag 12 NameAndType Name index 263, Description index 251
+263: Tag 1 Utf8 Value "setConsumerMaxRate"
+264: Tag 11 InterfaceMethodRef Class index 176, Name and type index 265
+265: Tag 12 NameAndType Name index 266, Description index 247
+266: Tag 1 Utf8 Value "getConsumerWindowSize"
+267: Tag 10 MethodRef Class index 182, Name and type index 268
+268: Tag 12 NameAndType Name index 269, Description index 251
+269: Tag 1 Utf8 Value "setConsumerWindowSize"
+270: Tag 11 InterfaceMethodRef Class index 176, Name and type index 271
+271: Tag 12 NameAndType Name index 272, Description index 93
+272: Tag 1 Utf8 Value "getDeserializationBlackList"
+273: Tag 10 MethodRef Class index 182, Name and type index 274
+274: Tag 12 NameAndType Name index 275, Description index 231
+275: Tag 1 Utf8 Value "setDeserializationBlackList"
+276: Tag 11 InterfaceMethodRef Class index 176, Name and type index 277
+277: Tag 12 NameAndType Name index 278, Description index 93
+278: Tag 1 Utf8 Value "getDeserializationWhiteList"
+279: Tag 10 MethodRef Class index 182, Name and type index 280
+280: Tag 12 NameAndType Name index 281, Description index 231
+281: Tag 1 Utf8 Value "setDeserializationWhiteList"
+282: Tag 11 InterfaceMethodRef Class index 176, Name and type index 283
+283: Tag 12 NameAndType Name index 284, Description index 247
+284: Tag 1 Utf8 Value "getDupsOKBatchSize"
+285: Tag 10 MethodRef Class index 182, Name and type index 286
+286: Tag 12 NameAndType Name index 287, Description index 251
+287: Tag 1 Utf8 Value "setDupsOKBatchSize"
+288: Tag 11 InterfaceMethodRef Class index 176, Name and type index 289
+289: Tag 12 NameAndType Name index 290, Description index 180
+290: Tag 1 Utf8 Value "isEnableSharedClientID"
+291: Tag 10 MethodRef Class index 182, Name and type index 292
+292: Tag 12 NameAndType Name index 293, Description index 186
+293: Tag 1 Utf8 Value "setEnableSharedClientID"
+294: Tag 11 InterfaceMethodRef Class index 176, Name and type index 295
+295: Tag 12 NameAndType Name index 296, Description index 180
+296: Tag 1 Utf8 Value "isFailoverOnInitialConnection"
+297: Tag 10 MethodRef Class index 182, Name and type index 298
+298: Tag 12 NameAndType Name index 299, Description index 186
+299: Tag 1 Utf8 Value "setFailoverOnInitialConnection"
+300: Tag 11 InterfaceMethodRef Class index 176, Name and type index 301
+301: Tag 12 NameAndType Name index 302, Description index 93
+302: Tag 1 Utf8 Value "getGroupID"
+303: Tag 10 MethodRef Class index 182, Name and type index 304
+304: Tag 12 NameAndType Name index 305, Description index 231
+305: Tag 1 Utf8 Value "setGroupID"
+306: Tag 11 InterfaceMethodRef Class index 176, Name and type index 307
+307: Tag 12 NameAndType Name index 308, Description index 247
+308: Tag 1 Utf8 Value "getInitialMessagePacketSize"
+309: Tag 10 MethodRef Class index 182, Name and type index 310
+310: Tag 12 NameAndType Name index 311, Description index 251
+311: Tag 1 Utf8 Value "setInitialMessagePacketSize"
+312: Tag 11 InterfaceMethodRef Class index 176, Name and type index 313
+313: Tag 12 NameAndType Name index 314, Description index 214
+314: Tag 1 Utf8 Value "getMaxRetryInterval"
+315: Tag 10 MethodRef Class index 182, Name and type index 316
+316: Tag 12 NameAndType Name index 317, Description index 218
+317: Tag 1 Utf8 Value "setMaxRetryInterval"
+318: Tag 11 InterfaceMethodRef Class index 176, Name and type index 319
+319: Tag 12 NameAndType Name index 320, Description index 247
+320: Tag 1 Utf8 Value "getMinLargeMessageSize"
+321: Tag 10 MethodRef Class index 182, Name and type index 322
+322: Tag 12 NameAndType Name index 323, Description index 251
+323: Tag 1 Utf8 Value "setMinLargeMessageSize"
+324: Tag 11 InterfaceMethodRef Class index 176, Name and type index 325
+325: Tag 12 NameAndType Name index 326, Description index 180
+326: Tag 1 Utf8 Value "isPreAcknowledge"
+327: Tag 10 MethodRef Class index 182, Name and type index 328
+328: Tag 12 NameAndType Name index 329, Description index 186
+329: Tag 1 Utf8 Value "setPreAcknowledge"
+330: Tag 11 InterfaceMethodRef Class index 176, Name and type index 331
+331: Tag 12 NameAndType Name index 332, Description index 247
+332: Tag 1 Utf8 Value "getProducerMaxRate"
+333: Tag 10 MethodRef Class index 182, Name and type index 334
+334: Tag 12 NameAndType Name index 335, Description index 251
+335: Tag 1 Utf8 Value "setProducerMaxRate"
+336: Tag 11 InterfaceMethodRef Class index 176, Name and type index 337
+337: Tag 12 NameAndType Name index 338, Description index 247
+338: Tag 1 Utf8 Value "getProducerWindowSize"
+339: Tag 10 MethodRef Class index 182, Name and type index 340
+340: Tag 12 NameAndType Name index 341, Description index 251
+341: Tag 1 Utf8 Value "setProducerWindowSize"
+342: Tag 11 InterfaceMethodRef Class index 176, Name and type index 343
+343: Tag 12 NameAndType Name index 344, Description index 93
+344: Tag 1 Utf8 Value "getProtocolManagerFactoryStr"
+345: Tag 10 MethodRef Class index 182, Name and type index 346
+346: Tag 12 NameAndType Name index 347, Description index 231
+347: Tag 1 Utf8 Value "setProtocolManagerFactoryStr"
+348: Tag 11 InterfaceMethodRef Class index 176, Name and type index 349
+349: Tag 12 NameAndType Name index 350, Description index 93
+350: Tag 1 Utf8 Value "getLoadBalancingPolicyClassName"
+351: Tag 10 MethodRef Class index 182, Name and type index 352
+352: Tag 12 NameAndType Name index 353, Description index 231
+353: Tag 1 Utf8 Value "setConnectionLoadBalancingPolicyClassName"
+354: Tag 11 InterfaceMethodRef Class index 176, Name and type index 355
+355: Tag 12 NameAndType Name index 356, Description index 247
+356: Tag 1 Utf8 Value "getReconnectAttempts"
+357: Tag 10 MethodRef Class index 182, Name and type index 358
+358: Tag 12 NameAndType Name index 359, Description index 251
+359: Tag 1 Utf8 Value "setReconnectAttempts"
+360: Tag 11 InterfaceMethodRef Class index 176, Name and type index 361
+361: Tag 12 NameAndType Name index 362, Description index 214
+362: Tag 1 Utf8 Value "getRetryInterval"
+363: Tag 10 MethodRef Class index 182, Name and type index 364
+364: Tag 12 NameAndType Name index 365, Description index 218
+365: Tag 1 Utf8 Value "setRetryInterval"
+366: Tag 11 InterfaceMethodRef Class index 176, Name and type index 367
+367: Tag 12 NameAndType Name index 368, Description index 369
+368: Tag 1 Utf8 Value "getRetryIntervalMultiplier"
+369: Tag 1 Utf8 Value "()D"
+370: Tag 10 MethodRef Class index 182, Name and type index 371
+371: Tag 12 NameAndType Name index 372, Description index 373
+372: Tag 1 Utf8 Value "setRetryIntervalMultiplier"
+373: Tag 1 Utf8 Value "(D)V"
+374: Tag 11 InterfaceMethodRef Class index 176, Name and type index 375
+375: Tag 12 NameAndType Name index 376, Description index 247
+376: Tag 1 Utf8 Value "getScheduledThreadPoolMaxSize"
+377: Tag 10 MethodRef Class index 182, Name and type index 378
+378: Tag 12 NameAndType Name index 379, Description index 251
+379: Tag 1 Utf8 Value "setScheduledThreadPoolMaxSize"
+380: Tag 11 InterfaceMethodRef Class index 176, Name and type index 381
+381: Tag 12 NameAndType Name index 382, Description index 247
+382: Tag 1 Utf8 Value "getThreadPoolMaxSize"
+383: Tag 10 MethodRef Class index 182, Name and type index 384
+384: Tag 12 NameAndType Name index 385, Description index 251
+385: Tag 1 Utf8 Value "setThreadPoolMaxSize"
+386: Tag 11 InterfaceMethodRef Class index 176, Name and type index 387
+387: Tag 12 NameAndType Name index 388, Description index 247
+388: Tag 1 Utf8 Value "getTransactionBatchSize"
+389: Tag 10 MethodRef Class index 182, Name and type index 390
+390: Tag 12 NameAndType Name index 391, Description index 251
+391: Tag 1 Utf8 Value "setTransactionBatchSize"
+392: Tag 11 InterfaceMethodRef Class index 176, Name and type index 393
+393: Tag 12 NameAndType Name index 394, Description index 180
+394: Tag 1 Utf8 Value "isUseGlobalPools"
+395: Tag 10 MethodRef Class index 182, Name and type index 396
+396: Tag 12 NameAndType Name index 397, Description index 186
+397: Tag 1 Utf8 Value "setUseGlobalPools"
+398: Tag 11 InterfaceMethodRef Class index 176, Name and type index 399
+399: Tag 12 NameAndType Name index 400, Description index 180
+400: Tag 1 Utf8 Value "getUseTopologyForLoadBalancing"
+401: Tag 10 MethodRef Class index 182, Name and type index 402
+402: Tag 12 NameAndType Name index 403, Description index 186
+403: Tag 1 Utf8 Value "setUseTopologyForLoadBalancing"
+404: Tag 10 MethodRef Class index 182, Name and type index 405
+405: Tag 12 NameAndType Name index 406, Description index 186
+406: Tag 1 Utf8 Value "setEnable1xPrefixes"
+407: Tag 7 Class Name index 408
+408: Tag 1 Utf8 Value "java/lang/Throwable"
+409: Tag 8 String Contents 410
+410: Tag 1 Utf8 Value "connection-factory"
+411: Tag 11 InterfaceMethodRef Class index 134, Name and type index 412
+412: Tag 12 NameAndType Name index 413, Description index 414
+413: Tag 1 Utf8 Value "failedToCreate"
+414: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+415: Tag 10 MethodRef Class index 182, Name and type index 416
+416: Tag 12 NameAndType Name index 417, Description index 17
+417: Tag 1 Utf8 Value "close"
+418: Tag 8 String Contents 419
+419: Tag 1 Utf8 Value ""
+420: Tag 11 InterfaceMethodRef Class index 134, Name and type index 421
+421: Tag 12 NameAndType Name index 422, Description index 423
+422: Tag 1 Utf8 Value "failedToDestroy"
+423: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+424: Tag 10 MethodRef Class index 8, Name and type index 425
+425: Tag 12 NameAndType Name index 426, Description index 427
+426: Tag 1 Utf8 Value "getValue"
+427: Tag 1 Utf8 Value "()Ljavax/jms/ConnectionFactory;"
+428: Tag 10 MethodRef Class index 429, Name and type index 430
+429: Tag 7 Class Name index 431
+430: Tag 12 NameAndType Name index 432, Description index 180
+431: Tag 1 Utf8 Value "java/lang/Class"
+432: Tag 1 Utf8 Value "desiredAssertionStatus"
+433: Tag 7 Class Name index 434
+434: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+435: Tag 1 Utf8 Value "Signature"
+436: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/jboss/as/network/SocketBinding;>;>;"
+437: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/jboss/as/network/OutboundSocketBinding;>;>;"
+438: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+439: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory;>;>;"
+440: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lorg/apache/activemq/artemis/api/jms/JMSFactoryType;ZZLorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;)V"
+441: Tag 1 Utf8 Value "Code"
+442: Tag 1 Utf8 Value "LineNumberTable"
+443: Tag 1 Utf8 Value "LocalVariableTable"
+444: Tag 1 Utf8 Value "this"
+445: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/ExternalConnectionFactoryService;"
+446: Tag 1 Utf8 Value "LocalVariableTypeTable"
+447: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory;>;>;Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/jboss/as/network/SocketBinding;>;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;Lorg/apache/activemq/artemis/api/jms/JMSFactoryType;ZZLorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;)V"
+448: Tag 1 Utf8 Value "([Lorg/apache/activemq/artemis/api/core/TransportConfiguration;Ljava/util/Map;Ljava/util/Map;Lorg/apache/activemq/artemis/api/jms/JMSFactoryType;ZZLorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;)V"
+449: Tag 1 Utf8 Value "([Lorg/apache/activemq/artemis/api/core/TransportConfiguration;Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/jboss/as/network/SocketBinding;>;>;Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/jboss/as/network/OutboundSocketBinding;>;>;Lorg/apache/activemq/artemis/api/jms/JMSFactoryType;ZZLorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;)V"
+450: Tag 1 Utf8 Value "StackMapTable"
+451: Tag 7 Class Name index 452
+452: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/jms/JMSFactoryType"
+453: Tag 7 Class Name index 42
+454: Tag 1 Utf8 Value "(ZZLorg/apache/activemq/artemis/api/jms/JMSFactoryType;Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/jboss/as/network/SocketBinding;>;>;Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/jboss/as/network/OutboundSocketBinding;>;>;Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory;>;>;Ljava/util/Map<Ljava/lang/String;Ljava/util/function/Supplier<Lorg/jboss/as/network/SocketBinding;>;>;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;[Lorg/apache/activemq/artemis/api/core/TransportConfiguration;Lorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;)V"
+455: Tag 1 Utf8 Value "start"
+456: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+457: Tag 1 Utf8 Value "commandDispatcherFactory"
+458: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/broadcast/BroadcastCommandDispatcherFactory;"
+459: Tag 1 Utf8 Value "clusterName"
+460: Tag 1 Utf8 Value "Ljava/lang/String;"
+461: Tag 1 Utf8 Value "binding"
+462: Tag 1 Utf8 Value "Lorg/jboss/as/network/SocketBinding;"
+463: Tag 1 Utf8 Value "name"
+464: Tag 1 Utf8 Value "key"
+465: Tag 1 Utf8 Value "e"
+466: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+467: Tag 1 Utf8 Value "context"
+468: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+469: Tag 7 Class Name index 470
+470: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+471: Tag 1 Utf8 Value "Exceptions"
+472: Tag 7 Class Name index 473
+473: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+474: Tag 1 Utf8 Value "stop"
+475: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+476: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+477: Tag 7 Class Name index 478
+478: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+479: Tag 7 Class Name index 480
+480: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+481: Tag 1 Utf8 Value "<clinit>"
+482: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Ljavax/jms/ConnectionFactory;>;"
+483: Tag 1 Utf8 Value "SourceFile"
+484: Tag 1 Utf8 Value "ExternalConnectionFactoryService.java"
+485: Tag 1 Utf8 Value "InnerClasses"
+486: Tag 1 Utf8 Value "NamedManagedBindingRegistry"
+487: Tag 7 Class Name index 488
+488: Tag 1 Utf8 Value "org/jboss/as/network/ManagedBinding"
+489: Tag 1 Utf8 Value "Factory"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.messaging.activemq.jms.ExternalConnectionFactoryService
+
+Super class: id 14, name java.lang.Object
+
+Implements class ids 433
+Implements names org.jboss.msc.service.Service
+
+Field name ha (index 27), type Z (descriptor index 21)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name enable1Prefixes (index 30), type Z (descriptor index 21)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name groupConfiguration (index 37), type Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration; (descriptor index 38)
+Human type: org.apache.activemq.artemis.api.core.DiscoveryGroupConfiguration
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name connectors (index 41), type [Lorg/apache/activemq/artemis/api/core/TransportConfiguration; (descriptor index 42)
+Human type: org.apache.activemq.artemis.api.core.TransportConfiguration[]
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name type (index 33), type Lorg/apache/activemq/artemis/api/jms/JMSFactoryType; (descriptor index 34)
+Human type: org.apache.activemq.artemis.api.jms.JMSFactoryType
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name socketBindings (index 45), type Ljava/util/Map; (descriptor index 46)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name outboundSocketBindings (index 49), type Ljava/util/Map; (descriptor index 46)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name groupBindings (index 58), type Ljava/util/Map; (descriptor index 46)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name clusterNames (index 52), type Ljava/util/Map; (descriptor index 46)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name commandDispatcherFactories (index 55), type Ljava/util/Map; (descriptor index 46)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name factory (index 83), type Lorg/apache/activemq/artemis/jms/client/ActiveMQConnectionFactory; (descriptor index 84)
+Human type: org.apache.activemq.artemis.jms.client.ActiveMQConnectionFactory
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name config (index 61), type Lorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration; (descriptor index 62)
+Human type: org.apache.activemq.artemis.jms.server.config.ConnectionFactoryConfiguration
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name $assertionsDisabled (index 20), type Z (descriptor index 21)
+Human type: boolean
+Flags: decimal 4120, hex 1018, binary 0001000000011000 static final synthetic
+No field attributes
+
+Method name <init> (index 11), type (Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lorg/apache/activemq/artemis/api/jms/JMSFactoryType;ZZLorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;)V (descriptor index 440)
+Human type: (org.apache.activemq.artemis.api.core.DiscoveryGroupConfiguration, java.util.Map, java.util.Map, java.util.Map, org.apache.activemq.artemis.api.jms.JMSFactoryType, boolean, boolean, org.apache.activemq.artemis.jms.server.config.ConnectionFactoryConfiguration): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 189
+Method attribute name Signature, size 2
+Method name <init> (index 11), type ([Lorg/apache/activemq/artemis/api/core/TransportConfiguration;Ljava/util/Map;Ljava/util/Map;Lorg/apache/activemq/artemis/api/jms/JMSFactoryType;ZZLorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;)V (descriptor index 448)
+Human type: (org.apache.activemq.artemis.api.core.TransportConfiguration[], java.util.Map, java.util.Map, org.apache.activemq.artemis.api.jms.JMSFactoryType, boolean, boolean, org.apache.activemq.artemis.jms.server.config.ConnectionFactoryConfiguration): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 170
+Method attribute name Signature, size 2
+Method name <init> (index 11), type (ZZLorg/apache/activemq/artemis/api/jms/JMSFactoryType;Lorg/apache/activemq/artemis/api/core/DiscoveryGroupConfiguration;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;[Lorg/apache/activemq/artemis/api/core/TransportConfiguration;Lorg/apache/activemq/artemis/jms/server/config/ConnectionFactoryConfiguration;)V (descriptor index 12)
+Human type: (boolean, boolean, org.apache.activemq.artemis.api.jms.JMSFactoryType, org.apache.activemq.artemis.api.core.DiscoveryGroupConfiguration, java.util.Map, java.util.Map, java.util.Map, java.util.Map, java.util.Map, org.apache.activemq.artemis.api.core.TransportConfiguration[], org.apache.activemq.artemis.jms.server.config.ConnectionFactoryConfiguration): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 408
+Method attribute name Signature, size 2
+Method name start (index 455), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 456)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 1334
+Method attribute name Exceptions, size 4
+Method name stop (index 474), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 475)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 125
+Method name getValue (index 426), type ()Ljavax/jms/ConnectionFactory; (descriptor index 427)
+Human type: (): javax.jms.ConnectionFactory
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name getValue (index 426), type ()Ljava/lang/Object; (descriptor index 120)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name <clinit> (index 481), type ()V (descriptor index 17)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 52
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

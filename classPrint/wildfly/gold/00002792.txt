@@ -1,0 +1,102 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 53
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/server/group/SingletonMembership"
+11: Tag 1 Utf8 Value "member"
+12: Tag 1 Utf8 Value "Lorg/wildfly/clustering/group/Node;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/util/Collections"
+17: Tag 1 Utf8 Value "singletonList"
+18: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/List;"
+19: Tag 10 MethodRef Class index 2, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "hashCode"
+22: Tag 1 Utf8 Value "()I"
+23: Tag 10 MethodRef Class index 2, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "equals"
+26: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+27: Tag 10 MethodRef Class index 2, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "toString"
+30: Tag 1 Utf8 Value "()Ljava/lang/String;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/wildfly/clustering/group/Membership"
+33: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/group/Node;)V"
+34: Tag 1 Utf8 Value "Code"
+35: Tag 1 Utf8 Value "LineNumberTable"
+36: Tag 1 Utf8 Value "LocalVariableTable"
+37: Tag 1 Utf8 Value "this"
+38: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/group/SingletonMembership;"
+39: Tag 1 Utf8 Value "isCoordinator"
+40: Tag 1 Utf8 Value "()Z"
+41: Tag 1 Utf8 Value "getCoordinator"
+42: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/group/Node;"
+43: Tag 1 Utf8 Value "getMembers"
+44: Tag 1 Utf8 Value "()Ljava/util/List;"
+45: Tag 1 Utf8 Value "Signature"
+46: Tag 1 Utf8 Value "()Ljava/util/List<Lorg/wildfly/clustering/group/Node;>;"
+47: Tag 1 Utf8 Value "object"
+48: Tag 1 Utf8 Value "Ljava/lang/Object;"
+49: Tag 1 Utf8 Value "membership"
+50: Tag 1 Utf8 Value "StackMapTable"
+51: Tag 1 Utf8 Value "SourceFile"
+52: Tag 1 Utf8 Value "SingletonMembership.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.server.group.SingletonMembership
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 31
+Implements names org.wildfly.clustering.group.Membership
+
+Field name member (index 11), type Lorg/wildfly/clustering/group/Node; (descriptor index 12)
+Human type: org.wildfly.clustering.group.Node
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/group/Node;)V (descriptor index 33)
+Human type: (org.wildfly.clustering.group.Node): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name isCoordinator (index 39), type ()Z (descriptor index 40)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name getCoordinator (index 41), type ()Lorg/wildfly/clustering/group/Node; (descriptor index 42)
+Human type: (): org.wildfly.clustering.group.Node
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getMembers (index 43), type ()Ljava/util/List; (descriptor index 44)
+Human type: (): java.util.List
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method attribute name Signature, size 2
+Method name hashCode (index 21), type ()I (descriptor index 22)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name equals (index 25), type (Ljava/lang/Object;)Z (descriptor index 26)
+Human type: (java.lang.Object): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 105
+Method name toString (index 29), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+
+Class attribute name SourceFile, size 2

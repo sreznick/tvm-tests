@@ -1,0 +1,108 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 71
+1: Tag 10 MethodRef Class index 15, Name and type index 38
+2: Tag 7 Class Name index 39
+3: Tag 10 MethodRef Class index 2, Name and type index 38
+4: Tag 9 FieldRef Class index 14, Name and type index 40
+5: Tag 8 String Contents 30
+6: Tag 10 MethodRef Class index 41, Name and type index 42
+7: Tag 9 FieldRef Class index 43, Name and type index 44
+8: Tag 8 String Contents 45
+9: Tag 11 InterfaceMethodRef Class index 43, Name and type index 46
+10: Tag 11 InterfaceMethodRef Class index 47, Name and type index 48
+11: Tag 8 String Contents 49
+12: Tag 11 InterfaceMethodRef Class index 47, Name and type index 50
+13: Tag 10 MethodRef Class index 51, Name and type index 52
+14: Tag 7 Class Name index 53
+15: Tag 7 Class Name index 54
+16: Tag 7 Class Name index 55
+17: Tag 1 Utf8 Value "deployments"
+18: Tag 1 Utf8 Value "Ljava/util/Set;"
+19: Tag 1 Utf8 Value "Signature"
+20: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/jboss/as/connector/metadata/deployment/ResourceAdapterDeployment;>;"
+21: Tag 1 Utf8 Value "<init>"
+22: Tag 1 Utf8 Value "()V"
+23: Tag 1 Utf8 Value "Code"
+24: Tag 1 Utf8 Value "LineNumberTable"
+25: Tag 1 Utf8 Value "LocalVariableTable"
+26: Tag 1 Utf8 Value "this"
+27: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/resourceadapters/deployment/registry/ResourceAdapterDeploymentRegistryImpl;"
+28: Tag 1 Utf8 Value "registerResourceAdapterDeployment"
+29: Tag 1 Utf8 Value "(Lorg/jboss/as/connector/metadata/deployment/ResourceAdapterDeployment;)V"
+30: Tag 1 Utf8 Value "deployment"
+31: Tag 1 Utf8 Value "Lorg/jboss/as/connector/metadata/deployment/ResourceAdapterDeployment;"
+32: Tag 1 Utf8 Value "unregisterResourceAdapterDeployment"
+33: Tag 1 Utf8 Value "getResourceAdapterDeployments"
+34: Tag 1 Utf8 Value "()Ljava/util/Set;"
+35: Tag 1 Utf8 Value "()Ljava/util/Set<Lorg/jboss/as/connector/metadata/deployment/ResourceAdapterDeployment;>;"
+36: Tag 1 Utf8 Value "SourceFile"
+37: Tag 1 Utf8 Value "ResourceAdapterDeploymentRegistryImpl.java"
+38: Tag 12 NameAndType Name index 21, Description index 22
+39: Tag 1 Utf8 Value "java/util/HashSet"
+40: Tag 12 NameAndType Name index 17, Description index 18
+41: Tag 7 Class Name index 56
+42: Tag 12 NameAndType Name index 57, Description index 58
+43: Tag 7 Class Name index 59
+44: Tag 12 NameAndType Name index 60, Description index 61
+45: Tag 1 Utf8 Value "Adding deployment: %s"
+46: Tag 12 NameAndType Name index 62, Description index 63
+47: Tag 7 Class Name index 64
+48: Tag 12 NameAndType Name index 65, Description index 66
+49: Tag 1 Utf8 Value "Removing deployment: %s"
+50: Tag 12 NameAndType Name index 67, Description index 66
+51: Tag 7 Class Name index 68
+52: Tag 12 NameAndType Name index 69, Description index 70
+53: Tag 1 Utf8 Value "org/jboss/as/connector/services/resourceadapters/deployment/registry/ResourceAdapterDeploymentRegistryImpl"
+54: Tag 1 Utf8 Value "java/lang/Object"
+55: Tag 1 Utf8 Value "org/jboss/as/connector/services/resourceadapters/deployment/registry/ResourceAdapterDeploymentRegistry"
+56: Tag 1 Utf8 Value "org/wildfly/common/Assert"
+57: Tag 1 Utf8 Value "checkNotNullParam"
+58: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+59: Tag 1 Utf8 Value "org/jboss/as/connector/logging/ConnectorLogger"
+60: Tag 1 Utf8 Value "DEPLOYMENT_CONNECTOR_REGISTRY_LOGGER"
+61: Tag 1 Utf8 Value "Lorg/jboss/as/connector/logging/ConnectorLogger;"
+62: Tag 1 Utf8 Value "tracef"
+63: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+64: Tag 1 Utf8 Value "java/util/Set"
+65: Tag 1 Utf8 Value "add"
+66: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+67: Tag 1 Utf8 Value "remove"
+68: Tag 1 Utf8 Value "java/util/Collections"
+69: Tag 1 Utf8 Value "unmodifiableSet"
+70: Tag 1 Utf8 Value "(Ljava/util/Set;)Ljava/util/Set;"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 14, name org.jboss.as.connector.services.resourceadapters.deployment.registry.ResourceAdapterDeploymentRegistryImpl
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 16
+Implements names org.jboss.as.connector.services.resourceadapters.deployment.registry.ResourceAdapterDeploymentRegistry
+
+Field name deployments (index 17), type Ljava/util/Set; (descriptor index 18)
+Human type: java.util.Set
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+
+Method name <init> (index 21), type ()V (descriptor index 22)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+Method name registerResourceAdapterDeployment (index 28), type (Lorg/jboss/as/connector/metadata/deployment/ResourceAdapterDeployment;)V (descriptor index 29)
+Human type: (org.jboss.as.connector.metadata.deployment.ResourceAdapterDeployment): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 94
+Method name unregisterResourceAdapterDeployment (index 32), type (Lorg/jboss/as/connector/metadata/deployment/ResourceAdapterDeployment;)V (descriptor index 29)
+Human type: (org.jboss.as.connector.metadata.deployment.ResourceAdapterDeployment): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 94
+Method name getResourceAdapterDeployments (index 33), type ()Ljava/util/Set; (descriptor index 34)
+Human type: (): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,163 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 98
+1: Tag 10 MethodRef Class index 21, Name and type index 61
+2: Tag 7 Class Name index 62
+3: Tag 10 MethodRef Class index 2, Name and type index 61
+4: Tag 9 FieldRef Class index 20, Name and type index 63
+5: Tag 10 MethodRef Class index 2, Name and type index 64
+6: Tag 9 FieldRef Class index 20, Name and type index 65
+7: Tag 11 InterfaceMethodRef Class index 66, Name and type index 67
+8: Tag 7 Class Name index 24
+9: Tag 10 MethodRef Class index 68, Name and type index 69
+10: Tag 9 FieldRef Class index 20, Name and type index 70
+11: Tag 10 MethodRef Class index 2, Name and type index 71
+12: Tag 10 MethodRef Class index 20, Name and type index 72
+13: Tag 7 Class Name index 73
+14: Tag 9 FieldRef Class index 74, Name and type index 75
+15: Tag 7 Class Name index 76
+16: Tag 8 String Contents 77
+17: Tag 8 String Contents 31
+18: Tag 10 MethodRef Class index 74, Name and type index 78
+19: Tag 9 FieldRef Class index 20, Name and type index 79
+20: Tag 7 Class Name index 80
+21: Tag 7 Class Name index 81
+22: Tag 7 Class Name index 82
+23: Tag 1 Utf8 Value "NO_PROVIDERS"
+24: Tag 1 Utf8 Value "[Lorg/wildfly/discovery/spi/DiscoveryProvider;"
+25: Tag 1 Utf8 Value "BASE_NAME"
+26: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+27: Tag 1 Utf8 Value "providerInjectors"
+28: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedSetValue;"
+29: Tag 1 Utf8 Value "Signature"
+30: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedSetValue<Lorg/wildfly/discovery/spi/DiscoveryProvider;>;"
+31: Tag 1 Utf8 Value "discovery"
+32: Tag 1 Utf8 Value "Lorg/wildfly/discovery/Discovery;"
+33: Tag 1 Utf8 Value "<init>"
+34: Tag 1 Utf8 Value "()V"
+35: Tag 1 Utf8 Value "Code"
+36: Tag 1 Utf8 Value "LineNumberTable"
+37: Tag 1 Utf8 Value "LocalVariableTable"
+38: Tag 1 Utf8 Value "this"
+39: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/deployment/processors/DiscoveryService;"
+40: Tag 1 Utf8 Value "start"
+41: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+42: Tag 1 Utf8 Value "context"
+43: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+44: Tag 1 Utf8 Value "Exceptions"
+45: Tag 7 Class Name index 83
+46: Tag 1 Utf8 Value "stop"
+47: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+48: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+49: Tag 1 Utf8 Value "getDiscoveryProviderInjector"
+50: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+51: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/wildfly/discovery/spi/DiscoveryProvider;>;"
+52: Tag 1 Utf8 Value "getValue"
+53: Tag 1 Utf8 Value "()Lorg/wildfly/discovery/Discovery;"
+54: Tag 7 Class Name index 84
+55: Tag 7 Class Name index 85
+56: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+57: Tag 1 Utf8 Value "<clinit>"
+58: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/wildfly/discovery/Discovery;>;"
+59: Tag 1 Utf8 Value "SourceFile"
+60: Tag 1 Utf8 Value "DiscoveryService.java"
+61: Tag 12 NameAndType Name index 33, Description index 34
+62: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedSetValue"
+63: Tag 12 NameAndType Name index 27, Description index 28
+64: Tag 12 NameAndType Name index 52, Description index 86
+65: Tag 12 NameAndType Name index 23, Description index 24
+66: Tag 7 Class Name index 87
+67: Tag 12 NameAndType Name index 88, Description index 89
+68: Tag 7 Class Name index 90
+69: Tag 12 NameAndType Name index 91, Description index 92
+70: Tag 12 NameAndType Name index 31, Description index 32
+71: Tag 12 NameAndType Name index 93, Description index 50
+72: Tag 12 NameAndType Name index 52, Description index 53
+73: Tag 1 Utf8 Value "org/wildfly/discovery/spi/DiscoveryProvider"
+74: Tag 7 Class Name index 94
+75: Tag 12 NameAndType Name index 95, Description index 26
+76: Tag 1 Utf8 Value "java/lang/String"
+77: Tag 1 Utf8 Value "deployment"
+78: Tag 12 NameAndType Name index 96, Description index 97
+79: Tag 12 NameAndType Name index 25, Description index 26
+80: Tag 1 Utf8 Value "org/jboss/as/ejb3/deployment/processors/DiscoveryService"
+81: Tag 1 Utf8 Value "java/lang/Object"
+82: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+83: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+84: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+85: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+86: Tag 1 Utf8 Value "()Ljava/util/Set;"
+87: Tag 1 Utf8 Value "java/util/Set"
+88: Tag 1 Utf8 Value "toArray"
+89: Tag 1 Utf8 Value "([Ljava/lang/Object;)[Ljava/lang/Object;"
+90: Tag 1 Utf8 Value "org/wildfly/discovery/Discovery"
+91: Tag 1 Utf8 Value "create"
+92: Tag 1 Utf8 Value "([Lorg/wildfly/discovery/spi/DiscoveryProvider;)Lorg/wildfly/discovery/Discovery;"
+93: Tag 1 Utf8 Value "injector"
+94: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+95: Tag 1 Utf8 Value "JBOSS"
+96: Tag 1 Utf8 Value "append"
+97: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 20, name org.jboss.as.ejb3.deployment.processors.DiscoveryService
+
+Super class: id 21, name java.lang.Object
+
+Implements class ids 22
+Implements names org.jboss.msc.service.Service
+
+Field name NO_PROVIDERS (index 23), type [Lorg/wildfly/discovery/spi/DiscoveryProvider; (descriptor index 24)
+Human type: org.wildfly.discovery.spi.DiscoveryProvider[]
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name BASE_NAME (index 25), type Lorg/jboss/msc/service/ServiceName; (descriptor index 26)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name providerInjectors (index 27), type Lorg/jboss/msc/value/InjectedSetValue; (descriptor index 28)
+Human type: org.jboss.msc.value.InjectedSetValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name discovery (index 31), type Lorg/wildfly/discovery/Discovery; (descriptor index 32)
+Human type: org.wildfly.discovery.Discovery
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 33), type ()V (descriptor index 34)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name start (index 40), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 41)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 82
+Method attribute name Exceptions, size 4
+Method name stop (index 46), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 47)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getDiscoveryProviderInjector (index 49), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 50)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method attribute name Signature, size 2
+Method name getValue (index 52), type ()Lorg/wildfly/discovery/Discovery; (descriptor index 53)
+Human type: (): org.wildfly.discovery.Discovery
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name getValue (index 52), type ()Ljava/lang/Object; (descriptor index 56)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name <clinit> (index 57), type ()V (descriptor index 34)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 59
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

@@ -1,0 +1,188 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 140
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ModClusterExtension"
+9: Tag 8 String Contents 10
+10: Tag 1 Utf8 Value "modcluster"
+11: Tag 9 FieldRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ModClusterModel"
+15: Tag 1 Utf8 Value "CURRENT"
+16: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/ModClusterModel;"
+17: Tag 10 MethodRef Class index 12, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "getVersion"
+20: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/ModelVersion;"
+21: Tag 11 InterfaceMethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/jboss/as/controller/ExtensionContext"
+25: Tag 1 Utf8 Value "registerSubsystem"
+26: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/ModelVersion;)Lorg/jboss/as/controller/SubsystemRegistration;"
+27: Tag 7 Class Name index 28
+28: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ModClusterSubsystemResourceDefinition"
+29: Tag 10 MethodRef Class index 27, Name and type index 3
+30: Tag 7 Class Name index 31
+31: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ContextualSubsystemRegistration"
+32: Tag 10 MethodRef Class index 30, Name and type index 33
+33: Tag 12 NameAndType Name index 5, Description index 34
+34: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SubsystemRegistration;Lorg/jboss/as/controller/ExtensionContext;)V"
+35: Tag 10 MethodRef Class index 27, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "register"
+38: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/SubsystemRegistration;)V"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ModClusterSubsystemXMLWriter"
+41: Tag 10 MethodRef Class index 39, Name and type index 3
+42: Tag 11 InterfaceMethodRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 47
+45: Tag 1 Utf8 Value "org/jboss/as/controller/SubsystemRegistration"
+46: Tag 1 Utf8 Value "registerXMLElementWriter"
+47: Tag 1 Utf8 Value "(Lorg/jboss/staxmapper/XMLElementWriter;)V"
+48: Tag 7 Class Name index 49
+49: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ModClusterSchema"
+50: Tag 10 MethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 55
+53: Tag 1 Utf8 Value "java/util/EnumSet"
+54: Tag 1 Utf8 Value "allOf"
+55: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/util/EnumSet;"
+56: Tag 10 MethodRef Class index 51, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "iterator"
+59: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+60: Tag 11 InterfaceMethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "java/util/Iterator"
+64: Tag 1 Utf8 Value "hasNext"
+65: Tag 1 Utf8 Value "()Z"
+66: Tag 11 InterfaceMethodRef Class index 61, Name and type index 67
+67: Tag 12 NameAndType Name index 68, Description index 69
+68: Tag 1 Utf8 Value "next"
+69: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+70: Tag 10 MethodRef Class index 48, Name and type index 71
+71: Tag 12 NameAndType Name index 72, Description index 73
+72: Tag 1 Utf8 Value "getNamespaceUri"
+73: Tag 1 Utf8 Value "()Ljava/lang/String;"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ModClusterSubsystemXMLReader"
+76: Tag 10 MethodRef Class index 74, Name and type index 77
+77: Tag 12 NameAndType Name index 5, Description index 78
+78: Tag 1 Utf8 Value "(Lorg/wildfly/extension/mod_cluster/ModClusterSchema;)V"
+79: Tag 11 InterfaceMethodRef Class index 80, Name and type index 81
+80: Tag 7 Class Name index 82
+81: Tag 12 NameAndType Name index 83, Description index 84
+82: Tag 1 Utf8 Value "org/jboss/as/controller/parsing/ExtensionParsingContext"
+83: Tag 1 Utf8 Value "setSubsystemXmlMapping"
+84: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Lorg/jboss/staxmapper/XMLElementReader;)V"
+85: Tag 7 Class Name index 86
+86: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/descriptions/SubsystemResourceDescriptionResolver"
+87: Tag 10 MethodRef Class index 85, Name and type index 88
+88: Tag 12 NameAndType Name index 5, Description index 89
+89: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)V"
+90: Tag 9 FieldRef Class index 7, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 93
+92: Tag 1 Utf8 Value "SUBSYSTEM_RESOLVER"
+93: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/descriptions/SubsystemResourceDescriptionResolver;"
+94: Tag 7 Class Name index 95
+95: Tag 1 Utf8 Value "org/jboss/as/controller/access/management/SensitiveTargetAccessConstraintDefinition"
+96: Tag 7 Class Name index 97
+97: Tag 1 Utf8 Value "org/jboss/as/controller/access/constraint/SensitivityClassification"
+98: Tag 8 String Contents 99
+99: Tag 1 Utf8 Value "mod_cluster-security"
+100: Tag 10 MethodRef Class index 96, Name and type index 101
+101: Tag 12 NameAndType Name index 5, Description index 102
+102: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;ZZZ)V"
+103: Tag 10 MethodRef Class index 94, Name and type index 104
+104: Tag 12 NameAndType Name index 5, Description index 105
+105: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/access/constraint/SensitivityClassification;)V"
+106: Tag 9 FieldRef Class index 7, Name and type index 107
+107: Tag 12 NameAndType Name index 108, Description index 109
+108: Tag 1 Utf8 Value "MOD_CLUSTER_SECURITY_DEF"
+109: Tag 1 Utf8 Value "Lorg/jboss/as/controller/access/management/SensitiveTargetAccessConstraintDefinition;"
+110: Tag 8 String Contents 111
+111: Tag 1 Utf8 Value "mod_cluster-proxies"
+112: Tag 9 FieldRef Class index 7, Name and type index 113
+113: Tag 12 NameAndType Name index 114, Description index 109
+114: Tag 1 Utf8 Value "MOD_CLUSTER_PROXIES_DEF"
+115: Tag 7 Class Name index 116
+116: Tag 1 Utf8 Value "org/jboss/as/controller/Extension"
+117: Tag 1 Utf8 Value "SUBSYSTEM_NAME"
+118: Tag 1 Utf8 Value "Ljava/lang/String;"
+119: Tag 1 Utf8 Value "ConstantValue"
+120: Tag 1 Utf8 Value "Code"
+121: Tag 1 Utf8 Value "LineNumberTable"
+122: Tag 1 Utf8 Value "LocalVariableTable"
+123: Tag 1 Utf8 Value "this"
+124: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/ModClusterExtension;"
+125: Tag 1 Utf8 Value "initialize"
+126: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExtensionContext;)V"
+127: Tag 1 Utf8 Value "context"
+128: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ExtensionContext;"
+129: Tag 1 Utf8 Value "registration"
+130: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SubsystemRegistration;"
+131: Tag 1 Utf8 Value "initializeParsers"
+132: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/parsing/ExtensionParsingContext;)V"
+133: Tag 1 Utf8 Value "schema"
+134: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/ModClusterSchema;"
+135: Tag 1 Utf8 Value "Lorg/jboss/as/controller/parsing/ExtensionParsingContext;"
+136: Tag 1 Utf8 Value "StackMapTable"
+137: Tag 1 Utf8 Value "<clinit>"
+138: Tag 1 Utf8 Value "SourceFile"
+139: Tag 1 Utf8 Value "ModClusterExtension.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 7, name org.wildfly.extension.mod_cluster.ModClusterExtension
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 115
+Implements names org.jboss.as.controller.Extension
+
+Field name SUBSYSTEM_NAME (index 117), type Ljava/lang/String; (descriptor index 118)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name SUBSYSTEM_RESOLVER (index 92), type Lorg/jboss/as/clustering/controller/descriptions/SubsystemResourceDescriptionResolver; (descriptor index 93)
+Human type: org.jboss.as.clustering.controller.descriptions.SubsystemResourceDescriptionResolver
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name MOD_CLUSTER_SECURITY_DEF (index 108), type Lorg/jboss/as/controller/access/management/SensitiveTargetAccessConstraintDefinition; (descriptor index 109)
+Human type: org.jboss.as.controller.access.management.SensitiveTargetAccessConstraintDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MOD_CLUSTER_PROXIES_DEF (index 114), type Lorg/jboss/as/controller/access/management/SensitiveTargetAccessConstraintDefinition; (descriptor index 109)
+Human type: org.jboss.as.controller.access.management.SensitiveTargetAccessConstraintDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name initialize (index 125), type (Lorg/jboss/as/controller/ExtensionContext;)V (descriptor index 126)
+Human type: (org.jboss.as.controller.ExtensionContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 122
+Method name initializeParsers (index 131), type (Lorg/jboss/as/controller/parsing/ExtensionParsingContext;)V (descriptor index 132)
+Human type: (org.jboss.as.controller.parsing.ExtensionParsingContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 143
+Method name <clinit> (index 137), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 95
+
+Class attribute name SourceFile, size 2

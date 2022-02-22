@@ -1,0 +1,124 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 71
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/OtherEESetupActionsContextHandleFactory"
+11: Tag 1 Utf8 Value "setupActions"
+12: Tag 1 Utf8 Value "Ljava/util/List;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/OtherEESetupActionsContextHandleFactory$OtherEESetupActionsSetupContextHandle"
+15: Tag 10 MethodRef Class index 13, Name and type index 16
+16: Tag 12 NameAndType Name index 5, Description index 17
+17: Tag 1 Utf8 Value "(Ljava/util/List;Lorg/jboss/as/ee/concurrent/handle/OtherEESetupActionsContextHandleFactory$1;)V"
+18: Tag 8 String Contents 19
+19: Tag 1 Utf8 Value "EE_SETUP_ACTIONS"
+20: Tag 7 Class Name index 21
+21: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ContextHandleFactory"
+22: Tag 1 Utf8 Value "NAME"
+23: Tag 1 Utf8 Value "Ljava/lang/String;"
+24: Tag 1 Utf8 Value "ConstantValue"
+25: Tag 1 Utf8 Value "Signature"
+26: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;"
+27: Tag 1 Utf8 Value "(Ljava/util/List;)V"
+28: Tag 1 Utf8 Value "Code"
+29: Tag 1 Utf8 Value "LineNumberTable"
+30: Tag 1 Utf8 Value "LocalVariableTable"
+31: Tag 1 Utf8 Value "this"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/handle/OtherEESetupActionsContextHandleFactory;"
+33: Tag 1 Utf8 Value "LocalVariableTypeTable"
+34: Tag 1 Utf8 Value "(Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;)V"
+35: Tag 1 Utf8 Value "saveContext"
+36: Tag 1 Utf8 Value "(Ljavax/enterprise/concurrent/ContextService;Ljava/util/Map;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;"
+37: Tag 1 Utf8 Value "contextService"
+38: Tag 1 Utf8 Value "Ljavax/enterprise/concurrent/ContextService;"
+39: Tag 1 Utf8 Value "contextObjectProperties"
+40: Tag 1 Utf8 Value "Ljava/util/Map;"
+41: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+42: Tag 1 Utf8 Value "(Ljavax/enterprise/concurrent/ContextService;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;"
+43: Tag 1 Utf8 Value "getName"
+44: Tag 1 Utf8 Value "()Ljava/lang/String;"
+45: Tag 1 Utf8 Value "getChainPriority"
+46: Tag 1 Utf8 Value "()I"
+47: Tag 1 Utf8 Value "writeSetupContextHandle"
+48: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;Ljava/io/ObjectOutputStream;)V"
+49: Tag 1 Utf8 Value "contextHandle"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;"
+51: Tag 1 Utf8 Value "out"
+52: Tag 1 Utf8 Value "Ljava/io/ObjectOutputStream;"
+53: Tag 1 Utf8 Value "Exceptions"
+54: Tag 7 Class Name index 55
+55: Tag 1 Utf8 Value "java/io/IOException"
+56: Tag 1 Utf8 Value "readSetupContextHandle"
+57: Tag 1 Utf8 Value "(Ljava/io/ObjectInputStream;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;"
+58: Tag 1 Utf8 Value "in"
+59: Tag 1 Utf8 Value "Ljava/io/ObjectInputStream;"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+62: Tag 1 Utf8 Value "SourceFile"
+63: Tag 1 Utf8 Value "OtherEESetupActionsContextHandleFactory.java"
+64: Tag 1 Utf8 Value "InnerClasses"
+65: Tag 1 Utf8 Value "OtherEESetupActionsSetupContextHandle"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/OtherEESetupActionsContextHandleFactory$1"
+68: Tag 7 Class Name index 69
+69: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/OtherEESetupActionsContextHandleFactory$OtherEESetupActionsResetContextHandle"
+70: Tag 1 Utf8 Value "OtherEESetupActionsResetContextHandle"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.ee.concurrent.handle.OtherEESetupActionsContextHandleFactory
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 20
+Implements names org.jboss.as.ee.concurrent.handle.ContextHandleFactory
+
+Field name NAME (index 22), type Ljava/lang/String; (descriptor index 23)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name setupActions (index 11), type Ljava/util/List; (descriptor index 12)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/util/List;)V (descriptor index 27)
+Human type: (java.util.List): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method attribute name Signature, size 2
+Method name saveContext (index 35), type (Ljavax/enterprise/concurrent/ContextService;Ljava/util/Map;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle; (descriptor index 36)
+Human type: (javax.enterprise.concurrent.ContextService, java.util.Map): org.jboss.as.ee.concurrent.handle.SetupContextHandle
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 93
+Method attribute name Signature, size 2
+Method name getName (index 43), type ()Ljava/lang/String; (descriptor index 44)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method name getChainPriority (index 45), type ()I (descriptor index 46)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 46
+Method name writeSetupContextHandle (index 47), type (Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;Ljava/io/ObjectOutputStream;)V (descriptor index 48)
+Human type: (org.jboss.as.ee.concurrent.handle.SetupContextHandle, java.io.ObjectOutputStream): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Exceptions, size 4
+Method name readSetupContextHandle (index 56), type (Ljava/io/ObjectInputStream;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle; (descriptor index 57)
+Human type: (java.io.ObjectInputStream): org.jboss.as.ee.concurrent.handle.SetupContextHandle
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Exceptions, size 6
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

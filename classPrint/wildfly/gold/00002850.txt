@@ -1,0 +1,101 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 69
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/IdentityLegacyCapabilityServiceConfigurator"
+9: Tag 9 FieldRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/wildfly/clustering/spi/ClusteringCacheRequirement"
+13: Tag 1 Utf8 Value "SINGLETON_SERVICE_BUILDER_FACTORY"
+14: Tag 1 Utf8 Value "Lorg/wildfly/clustering/spi/ClusteringCacheRequirement;"
+15: Tag 11 InterfaceMethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceNameRegistry"
+19: Tag 1 Utf8 Value "getServiceName"
+20: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/service/Requirement;)Lorg/jboss/msc/service/ServiceName;"
+21: Tag 7 Class Name index 22
+22: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/SingletonServiceBuilderFactory"
+23: Tag 10 MethodRef Class index 7, Name and type index 24
+24: Tag 12 NameAndType Name index 5, Description index 25
+25: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/as/clustering/controller/BinaryServiceNameFactory;Ljava/lang/String;Ljava/lang/String;)V"
+26: Tag 10 MethodRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 30, Description index 31
+29: Tag 1 Utf8 Value "java/util/Collections"
+30: Tag 1 Utf8 Value "singleton"
+31: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/Set;"
+32: Tag 10 MethodRef Class index 2, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "getClass"
+35: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+36: Tag 10 MethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 41
+39: Tag 1 Utf8 Value "java/lang/Class"
+40: Tag 1 Utf8 Value "getName"
+41: Tag 1 Utf8 Value "()Ljava/lang/String;"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/IdentitySingletonServiceBuilderFactoryBuilderProvider"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "org/wildfly/clustering/spi/IdentityCacheServiceConfiguratorProvider"
+46: Tag 1 Utf8 Value "Code"
+47: Tag 1 Utf8 Value "LineNumberTable"
+48: Tag 1 Utf8 Value "LocalVariableTable"
+49: Tag 1 Utf8 Value "this"
+50: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/IdentitySingletonServiceBuilderFactoryBuilderProvider;"
+51: Tag 1 Utf8 Value "getServiceConfigurators"
+52: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/service/ServiceNameRegistry;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Iterable;"
+53: Tag 1 Utf8 Value "registry"
+54: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/ServiceNameRegistry;"
+55: Tag 1 Utf8 Value "containerName"
+56: Tag 1 Utf8 Value "Ljava/lang/String;"
+57: Tag 1 Utf8 Value "cacheName"
+58: Tag 1 Utf8 Value "targetCacheName"
+59: Tag 1 Utf8 Value "LocalVariableTypeTable"
+60: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/ServiceNameRegistry<Lorg/wildfly/clustering/spi/ClusteringCacheRequirement;>;"
+61: Tag 1 Utf8 Value "Signature"
+62: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/service/ServiceNameRegistry<Lorg/wildfly/clustering/spi/ClusteringCacheRequirement;>;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Iterable<Lorg/jboss/as/clustering/controller/CapabilityServiceConfigurator;>;"
+63: Tag 1 Utf8 Value "toString"
+64: Tag 1 Utf8 Value "SourceFile"
+65: Tag 1 Utf8 Value "IdentitySingletonServiceBuilderFactoryBuilderProvider.java"
+66: Tag 1 Utf8 Value "Deprecated"
+67: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+68: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 42, name org.wildfly.clustering.server.singleton.IdentitySingletonServiceBuilderFactoryBuilderProvider
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 44
+Implements names org.wildfly.clustering.spi.IdentityCacheServiceConfiguratorProvider
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getServiceConfigurators (index 51), type (Lorg/wildfly/clustering/service/ServiceNameRegistry;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Iterable; (descriptor index 52)
+Human type: (org.wildfly.clustering.service.ServiceNameRegistry, java.lang.String, java.lang.String, java.lang.String): java.lang.Iterable
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 128
+Method attribute name Signature, size 2
+Method name toString (index 63), type ()Ljava/lang/String; (descriptor index 41)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+
+Class attribute name SourceFile, size 2
+Class attribute name Deprecated, size 0
+Class attribute name RuntimeVisibleAnnotations, size 6

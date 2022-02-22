@@ -1,0 +1,139 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 107
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "javax/enterprise/inject/spi/CDI"
+11: Tag 1 Utf8 Value "current"
+12: Tag 1 Utf8 Value "()Ljavax/enterprise/inject/spi/CDI;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "io/opentelemetry/api/OpenTelemetry"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/lang/annotation/Annotation"
+17: Tag 10 MethodRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "select"
+20: Tag 1 Utf8 Value "(Ljava/lang/Class;[Ljava/lang/annotation/Annotation;)Ljavax/enterprise/inject/Instance;"
+21: Tag 11 InterfaceMethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "javax/enterprise/inject/Instance"
+25: Tag 1 Utf8 Value "get"
+26: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+27: Tag 11 InterfaceMethodRef Class index 13, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "getPropagators"
+30: Tag 1 Utf8 Value "()Lio/opentelemetry/context/propagation/ContextPropagators;"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "io/opentelemetry/context/propagation/ContextPropagators"
+35: Tag 1 Utf8 Value "getTextMapPropagator"
+36: Tag 1 Utf8 Value "()Lio/opentelemetry/context/propagation/TextMapPropagator;"
+37: Tag 11 InterfaceMethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 11, Description index 41
+40: Tag 1 Utf8 Value "io/opentelemetry/context/Context"
+41: Tag 1 Utf8 Value "()Lio/opentelemetry/context/Context;"
+42: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 43
+43: Tag 12 NameAndType Name index 44, Description index 45
+44: Tag 1 Utf8 Value "set"
+45: Tag 1 Utf8 Value "()Lio/opentelemetry/context/propagation/TextMapSetter;"
+46: Tag 11 InterfaceMethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "io/opentelemetry/context/propagation/TextMapPropagator"
+50: Tag 1 Utf8 Value "inject"
+51: Tag 1 Utf8 Value "(Lio/opentelemetry/context/Context;Ljava/lang/Object;Lio/opentelemetry/context/propagation/TextMapSetter;)V"
+52: Tag 11 InterfaceMethodRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 56, Description index 57
+55: Tag 1 Utf8 Value "javax/ws/rs/client/ClientRequestContext"
+56: Tag 1 Utf8 Value "getHeaders"
+57: Tag 1 Utf8 Value "()Ljavax/ws/rs/core/MultivaluedMap;"
+58: Tag 11 InterfaceMethodRef Class index 59, Name and type index 60
+59: Tag 7 Class Name index 61
+60: Tag 12 NameAndType Name index 62, Description index 63
+61: Tag 1 Utf8 Value "javax/ws/rs/core/MultivaluedMap"
+62: Tag 1 Utf8 Value "add"
+63: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+64: Tag 7 Class Name index 65
+65: Tag 1 Utf8 Value "org/wildfly/extension/opentelemetry/api/OpenTelemetryClientRequestFilter"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "javax/ws/rs/client/ClientRequestFilter"
+68: Tag 1 Utf8 Value "Code"
+69: Tag 1 Utf8 Value "LineNumberTable"
+70: Tag 1 Utf8 Value "LocalVariableTable"
+71: Tag 1 Utf8 Value "this"
+72: Tag 1 Utf8 Value "Lorg/wildfly/extension/opentelemetry/api/OpenTelemetryClientRequestFilter;"
+73: Tag 1 Utf8 Value "filter"
+74: Tag 1 Utf8 Value "(Ljavax/ws/rs/client/ClientRequestContext;)V"
+75: Tag 1 Utf8 Value "requestContext"
+76: Tag 1 Utf8 Value "Ljavax/ws/rs/client/ClientRequestContext;"
+77: Tag 1 Utf8 Value "lambda$filter$0"
+78: Tag 1 Utf8 Value "(Ljavax/ws/rs/client/ClientRequestContext;Ljava/lang/String;Ljava/lang/String;)V"
+79: Tag 1 Utf8 Value "request"
+80: Tag 1 Utf8 Value "key"
+81: Tag 1 Utf8 Value "Ljava/lang/String;"
+82: Tag 1 Utf8 Value "value"
+83: Tag 1 Utf8 Value "SourceFile"
+84: Tag 1 Utf8 Value "OpenTelemetryClientRequestFilter.java"
+85: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+86: Tag 1 Utf8 Value "Ljavax/ws/rs/ext/Provider;"
+87: Tag 1 Utf8 Value "BootstrapMethods"
+88: Tag 15 MethodHandle Kind 6, Index 89
+89: Tag 10 MethodRef Class index 90, Name and type index 91
+90: Tag 7 Class Name index 92
+91: Tag 12 NameAndType Name index 93, Description index 94
+92: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+93: Tag 1 Utf8 Value "metafactory"
+94: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+95: Tag 16 MethodType Descriptor index 96
+96: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)V"
+97: Tag 15 MethodHandle Kind 6, Index 98
+98: Tag 10 MethodRef Class index 64, Name and type index 99
+99: Tag 12 NameAndType Name index 77, Description index 78
+100: Tag 16 MethodType Descriptor index 78
+101: Tag 1 Utf8 Value "InnerClasses"
+102: Tag 7 Class Name index 103
+103: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+104: Tag 7 Class Name index 105
+105: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+106: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 64, name org.wildfly.extension.opentelemetry.api.OpenTelemetryClientRequestFilter
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 66
+Implements names javax.ws.rs.client.ClientRequestFilter
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name filter (index 73), type (Ljavax/ws/rs/client/ClientRequestContext;)V (descriptor index 74)
+Human type: (javax.ws.rs.client.ClientRequestContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 113
+Method name lambda$filter$0 (index 77), type (Ljavax/ws/rs/client/ClientRequestContext;Ljava/lang/String;Ljava/lang/String;)V (descriptor index 78)
+Human type: (javax.ws.rs.client.ClientRequestContext, java.lang.String, java.lang.String): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 76
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 6
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,236 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 190
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/SecurityRoleDefinition"
+5: Tag 1 Utf8 Value "ATTRIBUTES"
+6: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractWriteAttributeHandler"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)V"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/ActiveMQActivationService"
+17: Tag 1 Utf8 Value "getActiveMQServer"
+18: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/server/ActiveMQServer;"
+19: Tag 7 Class Name index 20
+20: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+21: Tag 8 String Contents 22
+22: Tag 1 Utf8 Value "address"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+27: Tag 1 Utf8 Value "require"
+28: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+33: Tag 1 Utf8 Value "pathAddress"
+34: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/PathAddress;"
+35: Tag 10 MethodRef Class index 30, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "size"
+38: Tag 1 Utf8 Value "()I"
+39: Tag 10 MethodRef Class index 30, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "getElement"
+42: Tag 1 Utf8 Value "(I)Lorg/jboss/as/controller/PathElement;"
+43: Tag 10 MethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+47: Tag 1 Utf8 Value "getValue"
+48: Tag 1 Utf8 Value "()Ljava/lang/String;"
+49: Tag 10 MethodRef Class index 30, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "getLastElement"
+52: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathElement;"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "java/util/HashSet"
+55: Tag 10 MethodRef Class index 53, Name and type index 56
+56: Tag 12 NameAndType Name index 11, Description index 57
+57: Tag 1 Utf8 Value "()V"
+58: Tag 11 InterfaceMethodRef Class index 59, Name and type index 60
+59: Tag 7 Class Name index 61
+60: Tag 12 NameAndType Name index 62, Description index 63
+61: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/server/ActiveMQServer"
+62: Tag 1 Utf8 Value "getSecurityRepository"
+63: Tag 1 Utf8 Value "()Lorg/apache/activemq/artemis/core/settings/HierarchicalRepository;"
+64: Tag 11 InterfaceMethodRef Class index 65, Name and type index 66
+65: Tag 7 Class Name index 67
+66: Tag 12 NameAndType Name index 68, Description index 69
+67: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/settings/HierarchicalRepository"
+68: Tag 1 Utf8 Value "getMatch"
+69: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+70: Tag 7 Class Name index 71
+71: Tag 1 Utf8 Value "java/util/Set"
+72: Tag 10 MethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder"
+76: Tag 1 Utf8 Value "setHandback"
+77: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+78: Tag 11 InterfaceMethodRef Class index 70, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "iterator"
+81: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+82: Tag 11 InterfaceMethodRef Class index 83, Name and type index 84
+83: Tag 7 Class Name index 85
+84: Tag 12 NameAndType Name index 86, Description index 87
+85: Tag 1 Utf8 Value "java/util/Iterator"
+86: Tag 1 Utf8 Value "hasNext"
+87: Tag 1 Utf8 Value "()Z"
+88: Tag 11 InterfaceMethodRef Class index 83, Name and type index 89
+89: Tag 12 NameAndType Name index 90, Description index 91
+90: Tag 1 Utf8 Value "next"
+91: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+92: Tag 7 Class Name index 93
+93: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/security/Role"
+94: Tag 10 MethodRef Class index 92, Name and type index 95
+95: Tag 12 NameAndType Name index 96, Description index 48
+96: Tag 1 Utf8 Value "getName"
+97: Tag 10 MethodRef Class index 98, Name and type index 99
+98: Tag 7 Class Name index 100
+99: Tag 12 NameAndType Name index 101, Description index 102
+100: Tag 1 Utf8 Value "java/lang/String"
+101: Tag 1 Utf8 Value "equals"
+102: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+103: Tag 11 InterfaceMethodRef Class index 70, Name and type index 104
+104: Tag 12 NameAndType Name index 105, Description index 102
+105: Tag 1 Utf8 Value "add"
+106: Tag 9 FieldRef Class index 30, Name and type index 107
+107: Tag 12 NameAndType Name index 108, Description index 109
+108: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+109: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+110: Tag 11 InterfaceMethodRef Class index 111, Name and type index 112
+111: Tag 7 Class Name index 113
+112: Tag 12 NameAndType Name index 114, Description index 115
+113: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+114: Tag 1 Utf8 Value "readResource"
+115: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/registry/Resource;"
+116: Tag 11 InterfaceMethodRef Class index 117, Name and type index 118
+117: Tag 7 Class Name index 119
+118: Tag 12 NameAndType Name index 120, Description index 121
+119: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+120: Tag 1 Utf8 Value "getModel"
+121: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+122: Tag 10 MethodRef Class index 2, Name and type index 123
+123: Tag 12 NameAndType Name index 124, Description index 125
+124: Tag 1 Utf8 Value "transform"
+125: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;)Lorg/apache/activemq/artemis/core/security/Role;"
+126: Tag 11 InterfaceMethodRef Class index 65, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 129
+128: Tag 1 Utf8 Value "addMatch"
+129: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+130: Tag 10 MethodRef Class index 131, Name and type index 132
+131: Tag 7 Class Name index 133
+132: Tag 12 NameAndType Name index 134, Description index 135
+133: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/SecurityRoleAttributeHandler"
+134: Tag 1 Utf8 Value "revertUpdateToRuntime"
+135: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Ljava/util/Set;)V"
+136: Tag 10 MethodRef Class index 131, Name and type index 56
+137: Tag 9 FieldRef Class index 131, Name and type index 138
+138: Tag 12 NameAndType Name index 139, Description index 140
+139: Tag 1 Utf8 Value "INSTANCE"
+140: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/SecurityRoleAttributeHandler;"
+141: Tag 1 Utf8 Value "Code"
+142: Tag 1 Utf8 Value "LineNumberTable"
+143: Tag 1 Utf8 Value "LocalVariableTable"
+144: Tag 1 Utf8 Value "this"
+145: Tag 1 Utf8 Value "applyUpdateToRuntime"
+146: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder;)Z"
+147: Tag 1 Utf8 Value "role"
+148: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/security/Role;"
+149: Tag 1 Utf8 Value "match"
+150: Tag 1 Utf8 Value "Ljava/lang/String;"
+151: Tag 1 Utf8 Value "roleName"
+152: Tag 1 Utf8 Value "newRoles"
+153: Tag 1 Utf8 Value "Ljava/util/Set;"
+154: Tag 1 Utf8 Value "roles"
+155: Tag 1 Utf8 Value "resource"
+156: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+157: Tag 1 Utf8 Value "subModel"
+158: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+159: Tag 1 Utf8 Value "updatedRole"
+160: Tag 1 Utf8 Value "context"
+161: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+162: Tag 1 Utf8 Value "operation"
+163: Tag 1 Utf8 Value "attributeName"
+164: Tag 1 Utf8 Value "newValue"
+165: Tag 1 Utf8 Value "currentValue"
+166: Tag 1 Utf8 Value "handbackHolder"
+167: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder;"
+168: Tag 1 Utf8 Value "server"
+169: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/server/ActiveMQServer;"
+170: Tag 1 Utf8 Value "LocalVariableTypeTable"
+171: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/apache/activemq/artemis/core/security/Role;>;"
+172: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder<Ljava/util/Set<Lorg/apache/activemq/artemis/core/security/Role;>;>;"
+173: Tag 1 Utf8 Value "StackMapTable"
+174: Tag 1 Utf8 Value "Exceptions"
+175: Tag 7 Class Name index 176
+176: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+177: Tag 1 Utf8 Value "Signature"
+178: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder<Ljava/util/Set<Lorg/apache/activemq/artemis/core/security/Role;>;>;)Z"
+179: Tag 1 Utf8 Value "valueToRestore"
+180: Tag 1 Utf8 Value "valueToRevert"
+181: Tag 1 Utf8 Value "handback"
+182: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Ljava/util/Set<Lorg/apache/activemq/artemis/core/security/Role;>;)V"
+183: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Ljava/lang/Object;)V"
+184: Tag 1 Utf8 Value "<clinit>"
+185: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AbstractWriteAttributeHandler<Ljava/util/Set<Lorg/apache/activemq/artemis/core/security/Role;>;>;"
+186: Tag 1 Utf8 Value "SourceFile"
+187: Tag 1 Utf8 Value "SecurityRoleAttributeHandler.java"
+188: Tag 1 Utf8 Value "InnerClasses"
+189: Tag 1 Utf8 Value "HandbackHolder"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 131, name org.wildfly.extension.messaging.activemq.SecurityRoleAttributeHandler
+
+Super class: id 8, name org.jboss.as.controller.AbstractWriteAttributeHandler
+
+No interfaces
+
+Field name INSTANCE (index 139), type Lorg/wildfly/extension/messaging/activemq/SecurityRoleAttributeHandler; (descriptor index 140)
+Human type: org.wildfly.extension.messaging.activemq.SecurityRoleAttributeHandler
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 11), type ()V (descriptor index 57)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 54
+Method name applyUpdateToRuntime (index 145), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/AbstractWriteAttributeHandler$HandbackHolder;)Z (descriptor index 146)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, java.lang.String, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode, org.jboss.as.controller.AbstractWriteAttributeHandler$HandbackHolder): boolean
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 600
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name revertUpdateToRuntime (index 134), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Ljava/util/Set;)V (descriptor index 135)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, java.lang.String, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode, java.util.Set): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 245
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name revertUpdateToRuntime (index 134), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;Ljava/lang/Object;)V (descriptor index 183)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, java.lang.String, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode, java.lang.Object): void
+Flags: decimal 4164, hex 1044, binary 0001000001000100 protected bridge synthetic
+Method attribute name Code, size 59
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 184), type ()V (descriptor index 57)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

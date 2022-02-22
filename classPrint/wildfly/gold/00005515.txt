@@ -1,0 +1,147 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 111
+1: Tag 10 MethodRef Class index 18, Name and type index 53
+2: Tag 10 MethodRef Class index 18, Name and type index 54
+3: Tag 9 FieldRef Class index 17, Name and type index 55
+4: Tag 11 InterfaceMethodRef Class index 56, Name and type index 57
+5: Tag 9 FieldRef Class index 17, Name and type index 58
+6: Tag 10 MethodRef Class index 59, Name and type index 60
+7: Tag 7 Class Name index 61
+8: Tag 10 MethodRef Class index 7, Name and type index 62
+9: Tag 7 Class Name index 63
+10: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 68
+11: Tag 10 MethodRef Class index 9, Name and type index 69
+12: Tag 10 MethodRef Class index 17, Name and type index 70
+13: Tag 7 Class Name index 71
+14: Tag 9 FieldRef Class index 72, Name and type index 73
+15: Tag 10 MethodRef Class index 13, Name and type index 74
+16: Tag 11 InterfaceMethodRef Class index 72, Name and type index 75
+17: Tag 7 Class Name index 76
+18: Tag 7 Class Name index 77
+19: Tag 1 Utf8 Value "<init>"
+20: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/workmanager/WorkManagerImpl;Lorg/jboss/jca/core/spi/security/SecurityIntegration;Ljavax/resource/spi/work/Work;Ljavax/resource/spi/work/ExecutionContext;Ljavax/resource/spi/work/WorkListener;Ljava/util/concurrent/CountDownLatch;Ljava/util/concurrent/CountDownLatch;J)V"
+21: Tag 1 Utf8 Value "Code"
+22: Tag 1 Utf8 Value "LineNumberTable"
+23: Tag 1 Utf8 Value "LocalVariableTable"
+24: Tag 1 Utf8 Value "this"
+25: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/workmanager/WildflyWorkWrapper;"
+26: Tag 1 Utf8 Value "workManager"
+27: Tag 1 Utf8 Value "Lorg/jboss/jca/core/workmanager/WorkManagerImpl;"
+28: Tag 1 Utf8 Value "si"
+29: Tag 1 Utf8 Value "Lorg/jboss/jca/core/spi/security/SecurityIntegration;"
+30: Tag 1 Utf8 Value "work"
+31: Tag 1 Utf8 Value "Ljavax/resource/spi/work/Work;"
+32: Tag 1 Utf8 Value "executionContext"
+33: Tag 1 Utf8 Value "Ljavax/resource/spi/work/ExecutionContext;"
+34: Tag 1 Utf8 Value "workListener"
+35: Tag 1 Utf8 Value "Ljavax/resource/spi/work/WorkListener;"
+36: Tag 1 Utf8 Value "startedLatch"
+37: Tag 1 Utf8 Value "Ljava/util/concurrent/CountDownLatch;"
+38: Tag 1 Utf8 Value "completedLatch"
+39: Tag 1 Utf8 Value "startTime"
+40: Tag 1 Utf8 Value "J"
+41: Tag 1 Utf8 Value "runWork"
+42: Tag 1 Utf8 Value "()V"
+43: Tag 1 Utf8 Value "StackMapTable"
+44: Tag 1 Utf8 Value "Exceptions"
+45: Tag 1 Utf8 Value "lambda$runWork$0"
+46: Tag 1 Utf8 Value "e"
+47: Tag 1 Utf8 Value "Ljavax/resource/spi/work/WorkCompletedException;"
+48: Tag 1 Utf8 Value "access$001"
+49: Tag 1 Utf8 Value "(Lorg/jboss/as/connector/services/workmanager/WildflyWorkWrapper;)V"
+50: Tag 1 Utf8 Value "x0"
+51: Tag 1 Utf8 Value "SourceFile"
+52: Tag 1 Utf8 Value "WildflyWorkWrapper.java"
+53: Tag 12 NameAndType Name index 41, Description index 42
+54: Tag 12 NameAndType Name index 19, Description index 20
+55: Tag 12 NameAndType Name index 78, Description index 29
+56: Tag 7 Class Name index 79
+57: Tag 12 NameAndType Name index 80, Description index 81
+58: Tag 12 NameAndType Name index 26, Description index 27
+59: Tag 7 Class Name index 82
+60: Tag 12 NameAndType Name index 83, Description index 84
+61: Tag 1 Utf8 Value "org/jboss/as/connector/security/CallbackImpl"
+62: Tag 12 NameAndType Name index 85, Description index 86
+63: Tag 1 Utf8 Value "org/jboss/as/connector/security/ElytronSecurityContext"
+64: Tag 1 Utf8 Value "BootstrapMethods"
+65: Tag 15 MethodHandle Kind 6, Index 87
+66: Tag 16 MethodType Descriptor index 42
+67: Tag 15 MethodHandle Kind 7, Index 88
+68: Tag 12 NameAndType Name index 89, Description index 90
+69: Tag 12 NameAndType Name index 41, Description index 91
+70: Tag 12 NameAndType Name index 48, Description index 49
+71: Tag 1 Utf8 Value "javax/resource/spi/work/WorkCompletedException"
+72: Tag 7 Class Name index 92
+73: Tag 12 NameAndType Name index 93, Description index 94
+74: Tag 12 NameAndType Name index 95, Description index 96
+75: Tag 12 NameAndType Name index 97, Description index 98
+76: Tag 1 Utf8 Value "org/jboss/as/connector/services/workmanager/WildflyWorkWrapper"
+77: Tag 1 Utf8 Value "org/jboss/jca/core/workmanager/WorkWrapper"
+78: Tag 1 Utf8 Value "securityIntegration"
+79: Tag 1 Utf8 Value "org/jboss/jca/core/spi/security/SecurityIntegration"
+80: Tag 1 Utf8 Value "getSecurityContext"
+81: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/spi/security/SecurityContext;"
+82: Tag 1 Utf8 Value "org/jboss/jca/core/workmanager/WorkManagerImpl"
+83: Tag 1 Utf8 Value "getCallbackSecurity"
+84: Tag 1 Utf8 Value "()Lorg/jboss/jca/core/spi/security/Callback;"
+85: Tag 1 Utf8 Value "isElytronEnabled"
+86: Tag 1 Utf8 Value "()Z"
+87: Tag 10 MethodRef Class index 99, Name and type index 100
+88: Tag 10 MethodRef Class index 17, Name and type index 101
+89: Tag 1 Utf8 Value "run"
+90: Tag 1 Utf8 Value "(Lorg/jboss/as/connector/services/workmanager/WildflyWorkWrapper;)Ljava/lang/Runnable;"
+91: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)V"
+92: Tag 1 Utf8 Value "org/jboss/as/connector/logging/ConnectorLogger"
+93: Tag 1 Utf8 Value "ROOT_LOGGER"
+94: Tag 1 Utf8 Value "Lorg/jboss/as/connector/logging/ConnectorLogger;"
+95: Tag 1 Utf8 Value "getLocalizedMessage"
+96: Tag 1 Utf8 Value "()Ljava/lang/String;"
+97: Tag 1 Utf8 Value "unexceptedWorkerCompletionError"
+98: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)V"
+99: Tag 7 Class Name index 102
+100: Tag 12 NameAndType Name index 103, Description index 107
+101: Tag 12 NameAndType Name index 45, Description index 42
+102: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+103: Tag 1 Utf8 Value "metafactory"
+104: Tag 7 Class Name index 109
+105: Tag 1 Utf8 Value "Lookup"
+106: Tag 1 Utf8 Value "InnerClasses"
+107: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+108: Tag 7 Class Name index 110
+109: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+110: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 17, name org.jboss.as.connector.services.workmanager.WildflyWorkWrapper
+
+Super class: id 18, name org.jboss.jca.core.workmanager.WorkWrapper
+
+No interfaces
+
+No fields
+
+Method name <init> (index 19), type (Lorg/jboss/jca/core/workmanager/WorkManagerImpl;Lorg/jboss/jca/core/spi/security/SecurityIntegration;Ljavax/resource/spi/work/Work;Ljavax/resource/spi/work/ExecutionContext;Ljavax/resource/spi/work/WorkListener;Ljava/util/concurrent/CountDownLatch;Ljava/util/concurrent/CountDownLatch;J)V (descriptor index 20)
+Human type: (org.jboss.jca.core.workmanager.WorkManagerImpl, org.jboss.jca.core.spi.security.SecurityIntegration, javax.resource.spi.work.Work, javax.resource.spi.work.ExecutionContext, javax.resource.spi.work.WorkListener, java.util.concurrent.CountDownLatch, java.util.concurrent.CountDownLatch, long): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 144
+Method name runWork (index 41), type ()V (descriptor index 42)
+Human type: (): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 125
+Method attribute name Exceptions, size 4
+Method name lambda$runWork$0 (index 45), type ()V (descriptor index 42)
+Human type: (): void
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 111
+Method name access$001 (index 48), type (Lorg/jboss/as/connector/services/workmanager/WildflyWorkWrapper;)V (descriptor index 49)
+Human type: (org.jboss.as.connector.services.workmanager.WildflyWorkWrapper): void
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10
+Class attribute name BootstrapMethods, size 12

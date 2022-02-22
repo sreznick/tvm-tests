@@ -1,0 +1,117 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 86
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+11: Tag 1 Utf8 Value "getDeploymentUnit"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/faulttolerance/deployment/MicroProfileFaultToleranceMarker"
+17: Tag 1 Utf8 Value "isMarked"
+18: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+19: Tag 9 FieldRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+23: Tag 1 Utf8 Value "CAPABILITY_SERVICE_SUPPORT"
+24: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+29: Tag 1 Utf8 Value "getAttachment"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/as/controller/capability/CapabilityServiceSupport"
+33: Tag 7 Class Name index 34
+34: Tag 1 Utf8 Value "org/jboss/as/weld/Capabilities"
+35: Tag 8 String Contents 36
+36: Tag 1 Utf8 Value "org.wildfly.weld"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/jboss/as/weld/WeldCapability"
+39: Tag 11 InterfaceMethodRef Class index 31, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "getCapabilityRuntimeAPI"
+42: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "org/jboss/as/controller/capability/CapabilityServiceSupport$NoSuchCapabilityException"
+45: Tag 7 Class Name index 46
+46: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+47: Tag 10 MethodRef Class index 45, Name and type index 3
+48: Tag 7 Class Name index 49
+49: Tag 1 Utf8 Value "io/smallrye/faulttolerance/FaultToleranceExtension"
+50: Tag 10 MethodRef Class index 48, Name and type index 3
+51: Tag 11 InterfaceMethodRef Class index 37, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 54
+53: Tag 1 Utf8 Value "registerExtensionInstance"
+54: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/Extension;Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/faulttolerance/deployment/MicroProfileFaultToleranceDeploymentProcessor"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+59: Tag 1 Utf8 Value "Code"
+60: Tag 1 Utf8 Value "LineNumberTable"
+61: Tag 1 Utf8 Value "LocalVariableTable"
+62: Tag 1 Utf8 Value "this"
+63: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/faulttolerance/deployment/MicroProfileFaultToleranceDeploymentProcessor;"
+64: Tag 1 Utf8 Value "deploy"
+65: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+66: Tag 1 Utf8 Value "weldCapability"
+67: Tag 1 Utf8 Value "Lorg/jboss/as/weld/WeldCapability;"
+68: Tag 1 Utf8 Value "e"
+69: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport$NoSuchCapabilityException;"
+70: Tag 1 Utf8 Value "phaseContext"
+71: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+72: Tag 1 Utf8 Value "deploymentUnit"
+73: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+74: Tag 1 Utf8 Value "support"
+75: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+76: Tag 1 Utf8 Value "StackMapTable"
+77: Tag 1 Utf8 Value "Exceptions"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+80: Tag 1 Utf8 Value "undeploy"
+81: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+82: Tag 1 Utf8 Value "SourceFile"
+83: Tag 1 Utf8 Value "MicroProfileFaultToleranceDeploymentProcessor.java"
+84: Tag 1 Utf8 Value "InnerClasses"
+85: Tag 1 Utf8 Value "NoSuchCapabilityException"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 55, name org.wildfly.extension.microprofile.faulttolerance.deployment.MicroProfileFaultToleranceDeploymentProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 57
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name deploy (index 64), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 65)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 260
+Method attribute name Exceptions, size 4
+Method name undeploy (index 80), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 81)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

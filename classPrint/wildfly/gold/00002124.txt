@@ -1,0 +1,122 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 74
+1: Tag 10 MethodRef Class index 13, Name and type index 46
+2: Tag 10 MethodRef Class index 6, Name and type index 47
+3: Tag 11 InterfaceMethodRef Class index 10, Name and type index 48
+4: Tag 11 InterfaceMethodRef Class index 10, Name and type index 49
+5: Tag 9 FieldRef Class index 6, Name and type index 50
+6: Tag 7 Class Name index 51
+7: Tag 10 MethodRef Class index 6, Name and type index 52
+8: Tag 8 String Contents 53
+9: Tag 11 InterfaceMethodRef Class index 54, Name and type index 55
+10: Tag 7 Class Name index 56
+11: Tag 8 String Contents 43
+12: Tag 10 MethodRef Class index 57, Name and type index 58
+13: Tag 7 Class Name index 59
+14: Tag 7 Class Name index 60
+15: Tag 1 Utf8 Value "transactionSynchronizationRegistry"
+16: Tag 1 Utf8 Value "Ljavax/transaction/TransactionSynchronizationRegistry;"
+17: Tag 1 Utf8 Value "TSR_NAME"
+18: Tag 1 Utf8 Value "Ljava/lang/String;"
+19: Tag 1 Utf8 Value "ConstantValue"
+20: Tag 1 Utf8 Value "<init>"
+21: Tag 1 Utf8 Value "()V"
+22: Tag 1 Utf8 Value "Code"
+23: Tag 1 Utf8 Value "LineNumberTable"
+24: Tag 1 Utf8 Value "LocalVariableTable"
+25: Tag 1 Utf8 Value "this"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/hibernate5/service/WildFlyCustomJtaPlatform;"
+27: Tag 1 Utf8 Value "registerSynchronization"
+28: Tag 1 Utf8 Value "(Ljavax/transaction/Synchronization;)V"
+29: Tag 1 Utf8 Value "synchronization"
+30: Tag 1 Utf8 Value "Ljavax/transaction/Synchronization;"
+31: Tag 1 Utf8 Value "canRegisterSynchronization"
+32: Tag 1 Utf8 Value "()Z"
+33: Tag 1 Utf8 Value "StackMapTable"
+34: Tag 1 Utf8 Value "getSynchronizationStrategy"
+35: Tag 1 Utf8 Value "()Lorg/hibernate/engine/transaction/jta/platform/internal/JtaSynchronizationStrategy;"
+36: Tag 1 Utf8 Value "locateTransactionSynchronizationRegistry"
+37: Tag 1 Utf8 Value "()Ljavax/transaction/TransactionSynchronizationRegistry;"
+38: Tag 1 Utf8 Value "curTsr"
+39: Tag 7 Class Name index 61
+40: Tag 7 Class Name index 62
+41: Tag 1 Utf8 Value "setTransactionSynchronizationRegistry"
+42: Tag 1 Utf8 Value "(Ljavax/transaction/TransactionSynchronizationRegistry;)V"
+43: Tag 1 Utf8 Value "tsr"
+44: Tag 1 Utf8 Value "SourceFile"
+45: Tag 1 Utf8 Value "WildFlyCustomJtaPlatform.java"
+46: Tag 12 NameAndType Name index 20, Description index 21
+47: Tag 12 NameAndType Name index 36, Description index 37
+48: Tag 12 NameAndType Name index 63, Description index 28
+49: Tag 12 NameAndType Name index 64, Description index 65
+50: Tag 12 NameAndType Name index 15, Description index 16
+51: Tag 1 Utf8 Value "org/jboss/as/jpa/hibernate5/service/WildFlyCustomJtaPlatform"
+52: Tag 12 NameAndType Name index 66, Description index 67
+53: Tag 1 Utf8 Value "java:jboss/TransactionSynchronizationRegistry"
+54: Tag 7 Class Name index 68
+55: Tag 12 NameAndType Name index 69, Description index 70
+56: Tag 1 Utf8 Value "javax/transaction/TransactionSynchronizationRegistry"
+57: Tag 7 Class Name index 71
+58: Tag 12 NameAndType Name index 72, Description index 73
+59: Tag 1 Utf8 Value "org/hibernate/engine/transaction/jta/platform/internal/JBossAppServerJtaPlatform"
+60: Tag 1 Utf8 Value "org/hibernate/engine/transaction/jta/platform/internal/JtaSynchronizationStrategy"
+61: Tag 1 Utf8 Value "java/lang/Object"
+62: Tag 1 Utf8 Value "java/lang/Throwable"
+63: Tag 1 Utf8 Value "registerInterposedSynchronization"
+64: Tag 1 Utf8 Value "getTransactionStatus"
+65: Tag 1 Utf8 Value "()I"
+66: Tag 1 Utf8 Value "jndiService"
+67: Tag 1 Utf8 Value "()Lorg/hibernate/engine/jndi/spi/JndiService;"
+68: Tag 1 Utf8 Value "org/hibernate/engine/jndi/spi/JndiService"
+69: Tag 1 Utf8 Value "locate"
+70: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+71: Tag 1 Utf8 Value "org/wildfly/common/Assert"
+72: Tag 1 Utf8 Value "checkNotNullParam"
+73: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 6, name org.jboss.as.jpa.hibernate5.service.WildFlyCustomJtaPlatform
+
+Super class: id 13, name org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform
+
+Implements class ids 14
+Implements names org.hibernate.engine.transaction.jta.platform.internal.JtaSynchronizationStrategy
+
+Field name transactionSynchronizationRegistry (index 15), type Ljavax/transaction/TransactionSynchronizationRegistry; (descriptor index 16)
+Human type: javax.transaction.TransactionSynchronizationRegistry
+Flags: decimal 74, hex 004a, binary 0000000001001010 private static volatile
+No field attributes
+Field name TSR_NAME (index 17), type Ljava/lang/String; (descriptor index 18)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 20), type ()V (descriptor index 21)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name registerSynchronization (index 27), type (Ljavax/transaction/Synchronization;)V (descriptor index 28)
+Human type: (javax.transaction.Synchronization): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 71
+Method name canRegisterSynchronization (index 31), type ()Z (descriptor index 32)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 79
+Method name getSynchronizationStrategy (index 34), type ()Lorg/hibernate/engine/transaction/jta/platform/internal/JtaSynchronizationStrategy; (descriptor index 35)
+Human type: (): org.hibernate.engine.transaction.jta.platform.internal.JtaSynchronizationStrategy
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 44
+Method name locateTransactionSynchronizationRegistry (index 36), type ()Ljavax/transaction/TransactionSynchronizationRegistry; (descriptor index 37)
+Human type: (): javax.transaction.TransactionSynchronizationRegistry
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 185
+Method name setTransactionSynchronizationRegistry (index 41), type (Ljavax/transaction/TransactionSynchronizationRegistry;)V (descriptor index 42)
+Human type: (javax.transaction.TransactionSynchronizationRegistry): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 138
+
+Class attribute name SourceFile, size 2

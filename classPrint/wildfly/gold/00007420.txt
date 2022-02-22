@@ -1,0 +1,106 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 60
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailLogger"
+3: Tag 8 String Contents 4
+4: Tag 1 Utf8 Value "org.jboss.as.mail.extension"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+9: Tag 1 Utf8 Value "getMessageLogger"
+10: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+11: Tag 9 FieldRef Class index 1, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "ROOT_LOGGER"
+14: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/MailLogger;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/lang/Object"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+19: Tag 1 Utf8 Value "boundMailSession"
+20: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+21: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+22: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+23: Tag 1 Utf8 Value "level"
+24: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+25: Tag 1 Utf8 Value "INFO"
+26: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+27: Tag 1 Utf8 Value "id"
+28: Tag 3 Integer Value 1, hex: 0x1
+29: Tag 1 Utf8 Value "value"
+30: Tag 1 Utf8 Value "Bound mail session [%s]"
+31: Tag 1 Utf8 Value "unboundMailSession"
+32: Tag 3 Integer Value 2, hex: 0x2
+33: Tag 1 Utf8 Value "Unbound mail session [%s]"
+34: Tag 1 Utf8 Value "removedMailSession"
+35: Tag 1 Utf8 Value "DEBUG"
+36: Tag 3 Integer Value 3, hex: 0x3
+37: Tag 1 Utf8 Value "Removed mail session [%s]"
+38: Tag 1 Utf8 Value "outboundSocketBindingNotAvailable"
+39: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+40: Tag 3 Integer Value 4, hex: 0x4
+41: Tag 1 Utf8 Value "No outbound socket binding configuration '%s' is available."
+42: Tag 1 Utf8 Value "hostUnknown"
+43: Tag 1 Utf8 Value "WARN"
+44: Tag 3 Integer Value 9, hex: 0x9
+45: Tag 1 Utf8 Value "Host name [%s] could not be resolved!"
+46: Tag 1 Utf8 Value "<clinit>"
+47: Tag 1 Utf8 Value "()V"
+48: Tag 1 Utf8 Value "Code"
+49: Tag 1 Utf8 Value "LineNumberTable"
+50: Tag 1 Utf8 Value "SourceFile"
+51: Tag 1 Utf8 Value "MailLogger.java"
+52: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+53: Tag 1 Utf8 Value "projectCode"
+54: Tag 1 Utf8 Value "WFLYMAIL"
+55: Tag 1 Utf8 Value "length"
+56: Tag 1 Utf8 Value "InnerClasses"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+59: Tag 1 Utf8 Value "Level"
+
+Flags: decimal 1536, hex 0600, binary 0000011000000000 interface abstract
+
+This class: id 1, name org.jboss.as.mail.extension.MailLogger
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 17
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 13), type Lorg/jboss/as/mail/extension/MailLogger; (descriptor index 14)
+Human type: org.jboss.as.mail.extension.MailLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name boundMailSession (index 19), type (Ljava/lang/String;)V (descriptor index 20)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name unboundMailSession (index 31), type (Ljava/lang/String;)V (descriptor index 20)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name removedMailSession (index 34), type (Ljava/lang/String;)V (descriptor index 20)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name outboundSocketBindingNotAvailable (index 38), type (Ljava/lang/String;)Lorg/jboss/msc/service/StartException; (descriptor index 39)
+Human type: (java.lang.String): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name hostUnknown (index 42), type (Ljava/lang/String;)V (descriptor index 20)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name <clinit> (index 46), type ()V (descriptor index 47)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

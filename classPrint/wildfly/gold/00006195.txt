@@ -1,0 +1,175 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 88
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/metrics/jmx/JmxMetricMetadata"
+11: Tag 1 Utf8 Value "name"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "description"
+16: Tag 9 FieldRef Class index 8, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "unit"
+19: Tag 1 Utf8 Value "Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+20: Tag 9 FieldRef Class index 8, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 23
+22: Tag 1 Utf8 Value "type"
+23: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricMetadata$Type;"
+24: Tag 9 FieldRef Class index 8, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 12
+26: Tag 1 Utf8 Value "mbean"
+27: Tag 9 FieldRef Class index 8, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "tagsToFill"
+30: Tag 1 Utf8 Value "Ljava/util/List;"
+31: Tag 9 FieldRef Class index 8, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 30
+33: Tag 1 Utf8 Value "tags"
+34: Tag 7 Class Name index 35
+35: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricID"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata$MetricTag"
+38: Tag 11 InterfaceMethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "java/util/List"
+42: Tag 1 Utf8 Value "toArray"
+43: Tag 1 Utf8 Value "([Ljava/lang/Object;)[Ljava/lang/Object;"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "[Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag;"
+46: Tag 10 MethodRef Class index 34, Name and type index 47
+47: Tag 12 NameAndType Name index 5, Description index 48
+48: Tag 1 Utf8 Value "(Ljava/lang/String;[Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag;)V"
+49: Tag 9 FieldRef Class index 8, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "metricID"
+52: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/MetricID;"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata"
+55: Tag 1 Utf8 Value "Signature"
+56: Tag 1 Utf8 Value "Ljava/util/List<Ljava/lang/String;>;"
+57: Tag 1 Utf8 Value "Ljava/util/List<Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag;>;"
+58: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Lorg/jboss/as/controller/client/helpers/MeasurementUnit;Lorg/wildfly/extension/metrics/MetricMetadata$Type;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V"
+59: Tag 1 Utf8 Value "Code"
+60: Tag 1 Utf8 Value "LineNumberTable"
+61: Tag 1 Utf8 Value "LocalVariableTable"
+62: Tag 1 Utf8 Value "this"
+63: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/jmx/JmxMetricMetadata;"
+64: Tag 1 Utf8 Value "LocalVariableTypeTable"
+65: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Lorg/jboss/as/controller/client/helpers/MeasurementUnit;Lorg/wildfly/extension/metrics/MetricMetadata$Type;Ljava/lang/String;Ljava/util/List<Ljava/lang/String;>;Ljava/util/List<Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag;>;)V"
+66: Tag 1 Utf8 Value "getMBean"
+67: Tag 1 Utf8 Value "()Ljava/lang/String;"
+68: Tag 1 Utf8 Value "getTagsToFill"
+69: Tag 1 Utf8 Value "()Ljava/util/List;"
+70: Tag 1 Utf8 Value "()Ljava/util/List<Ljava/lang/String;>;"
+71: Tag 1 Utf8 Value "getMetricID"
+72: Tag 1 Utf8 Value "()Lorg/wildfly/extension/metrics/MetricID;"
+73: Tag 1 Utf8 Value "getMetricName"
+74: Tag 1 Utf8 Value "getTags"
+75: Tag 1 Utf8 Value "()[Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag;"
+76: Tag 1 Utf8 Value "getDescription"
+77: Tag 1 Utf8 Value "getType"
+78: Tag 1 Utf8 Value "()Lorg/wildfly/extension/metrics/MetricMetadata$Type;"
+79: Tag 1 Utf8 Value "getMeasurementUnit"
+80: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+81: Tag 1 Utf8 Value "SourceFile"
+82: Tag 1 Utf8 Value "JmxMetricMetadata.java"
+83: Tag 1 Utf8 Value "InnerClasses"
+84: Tag 7 Class Name index 85
+85: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricMetadata$Type"
+86: Tag 1 Utf8 Value "Type"
+87: Tag 1 Utf8 Value "MetricTag"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 8, name org.wildfly.extension.metrics.jmx.JmxMetricMetadata
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 53
+Implements names org.wildfly.extension.metrics.MetricMetadata
+
+Field name name (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name description (index 15), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name unit (index 18), type Lorg/jboss/as/controller/client/helpers/MeasurementUnit; (descriptor index 19)
+Human type: org.jboss.as.controller.client.helpers.MeasurementUnit
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name type (index 22), type Lorg/wildfly/extension/metrics/MetricMetadata$Type; (descriptor index 23)
+Human type: org.wildfly.extension.metrics.MetricMetadata$Type
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name mbean (index 26), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name metricID (index 51), type Lorg/wildfly/extension/metrics/MetricID; (descriptor index 52)
+Human type: org.wildfly.extension.metrics.MetricID
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name tagsToFill (index 29), type Ljava/util/List; (descriptor index 30)
+Human type: java.util.List
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name tags (index 33), type Ljava/util/List; (descriptor index 30)
+Human type: java.util.List
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/lang/String;Ljava/lang/String;Lorg/jboss/as/controller/client/helpers/MeasurementUnit;Lorg/wildfly/extension/metrics/MetricMetadata$Type;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V (descriptor index 58)
+Human type: (java.lang.String, java.lang.String, org.jboss.as.controller.client.helpers.MeasurementUnit, org.wildfly.extension.metrics.MetricMetadata$Type, java.lang.String, java.util.List, java.util.List): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 246
+Method attribute name Signature, size 2
+Method name getMBean (index 66), type ()Ljava/lang/String; (descriptor index 67)
+Human type: (): java.lang.String
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method name getTagsToFill (index 68), type ()Ljava/util/List; (descriptor index 69)
+Human type: (): java.util.List
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getMetricID (index 71), type ()Lorg/wildfly/extension/metrics/MetricID; (descriptor index 72)
+Human type: (): org.wildfly.extension.metrics.MetricID
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getMetricName (index 73), type ()Ljava/lang/String; (descriptor index 67)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getTags (index 74), type ()[Lorg/wildfly/extension/metrics/MetricMetadata$MetricTag; (descriptor index 75)
+Human type: (): org.wildfly.extension.metrics.MetricMetadata$MetricTag[]
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 59
+Method name getDescription (index 76), type ()Ljava/lang/String; (descriptor index 67)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getType (index 77), type ()Lorg/wildfly/extension/metrics/MetricMetadata$Type; (descriptor index 78)
+Human type: (): org.wildfly.extension.metrics.MetricMetadata$Type
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getMeasurementUnit (index 79), type ()Lorg/jboss/as/controller/client/helpers/MeasurementUnit; (descriptor index 80)
+Human type: (): org.jboss.as.controller.client.helpers.MeasurementUnit
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

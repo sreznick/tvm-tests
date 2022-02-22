@@ -1,0 +1,200 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 141
+1: Tag 10 MethodRef Class index 30, Name and type index 79
+2: Tag 9 FieldRef Class index 21, Name and type index 80
+3: Tag 8 String Contents 81
+4: Tag 11 InterfaceMethodRef Class index 82, Name and type index 83
+5: Tag 9 FieldRef Class index 21, Name and type index 84
+6: Tag 7 Class Name index 85
+7: Tag 10 MethodRef Class index 6, Name and type index 79
+8: Tag 10 MethodRef Class index 6, Name and type index 86
+9: Tag 10 MethodRef Class index 21, Name and type index 87
+10: Tag 9 FieldRef Class index 21, Name and type index 88
+11: Tag 11 InterfaceMethodRef Class index 20, Name and type index 89
+12: Tag 7 Class Name index 90
+13: Tag 10 MethodRef Class index 12, Name and type index 91
+14: Tag 9 FieldRef Class index 21, Name and type index 92
+15: Tag 11 InterfaceMethodRef Class index 93, Name and type index 94
+16: Tag 11 InterfaceMethodRef Class index 93, Name and type index 95
+17: Tag 11 InterfaceMethodRef Class index 96, Name and type index 97
+18: Tag 11 InterfaceMethodRef Class index 69, Name and type index 98
+19: Tag 11 InterfaceMethodRef Class index 69, Name and type index 99
+20: Tag 7 Class Name index 100
+21: Tag 7 Class Name index 101
+22: Tag 10 MethodRef Class index 102, Name and type index 103
+23: Tag 7 Class Name index 104
+24: Tag 10 MethodRef Class index 23, Name and type index 79
+25: Tag 10 MethodRef Class index 105, Name and type index 106
+26: Tag 10 MethodRef Class index 23, Name and type index 107
+27: Tag 8 String Contents 108
+28: Tag 10 MethodRef Class index 23, Name and type index 109
+29: Tag 8 String Contents 110
+30: Tag 7 Class Name index 111
+31: Tag 1 Utf8 Value "LOG"
+32: Tag 1 Utf8 Value "Lorg/slf4j/Logger;"
+33: Tag 1 Utf8 Value "TIMER_NAME"
+34: Tag 1 Utf8 Value "Ljava/lang/String;"
+35: Tag 1 Utf8 Value "TIMER_CANCEL_NAME"
+36: Tag 1 Utf8 Value "ts"
+37: Tag 1 Utf8 Value "Ljavax/ejb/TimerService;"
+38: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+39: Tag 1 Utf8 Value "Ljavax/annotation/Resource;"
+40: Tag 1 Utf8 Value "<init>"
+41: Tag 1 Utf8 Value "()V"
+42: Tag 1 Utf8 Value "Code"
+43: Tag 1 Utf8 Value "LineNumberTable"
+44: Tag 1 Utf8 Value "LocalVariableTable"
+45: Tag 1 Utf8 Value "this"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/ejb3/timers/TimerStartup;"
+47: Tag 1 Utf8 Value "timeout"
+48: Tag 1 Utf8 Value "(Ljavax/ejb/Timer;)V"
+49: Tag 1 Utf8 Value "t"
+50: Tag 1 Utf8 Value "Ljavax/ejb/Timer;"
+51: Tag 1 Utf8 Value "Ljavax/ejb/Timeout;"
+52: Tag 1 Utf8 Value "Ljavax/ejb/Lock;"
+53: Tag 1 Utf8 Value "value"
+54: Tag 1 Utf8 Value "Ljavax/ejb/LockType;"
+55: Tag 1 Utf8 Value "READ"
+56: Tag 1 Utf8 Value "init"
+57: Tag 1 Utf8 Value "normalTimer"
+58: Tag 1 Utf8 Value "cancelTimer"
+59: Tag 1 Utf8 Value "Ljavax/annotation/PostConstruct;"
+60: Tag 1 Utf8 Value "createPersistenceTimer"
+61: Tag 1 Utf8 Value "(Ljava/lang/String;Ljavax/ejb/ScheduleExpression;)Ljavax/ejb/Timer;"
+62: Tag 1 Utf8 Value "timerName"
+63: Tag 1 Utf8 Value "schedule"
+64: Tag 1 Utf8 Value "Ljavax/ejb/ScheduleExpression;"
+65: Tag 1 Utf8 Value "persistentTimerConfiguration"
+66: Tag 1 Utf8 Value "Ljavax/ejb/TimerConfig;"
+67: Tag 1 Utf8 Value "clearTimers"
+68: Tag 1 Utf8 Value "StackMapTable"
+69: Tag 7 Class Name index 112
+70: Tag 1 Utf8 Value "Ljavax/annotation/PreDestroy;"
+71: Tag 1 Utf8 Value "<clinit>"
+72: Tag 1 Utf8 Value "SourceFile"
+73: Tag 1 Utf8 Value "TimerStartup.java"
+74: Tag 1 Utf8 Value "Ljavax/ejb/Singleton;"
+75: Tag 1 Utf8 Value "Ljavax/ejb/Startup;"
+76: Tag 1 Utf8 Value "Ljavax/ejb/ConcurrencyManagement;"
+77: Tag 1 Utf8 Value "Ljavax/ejb/ConcurrencyManagementType;"
+78: Tag 1 Utf8 Value "BEAN"
+79: Tag 12 NameAndType Name index 40, Description index 41
+80: Tag 12 NameAndType Name index 31, Description index 32
+81: Tag 1 Utf8 Value "executing timer {}"
+82: Tag 7 Class Name index 113
+83: Tag 12 NameAndType Name index 114, Description index 115
+84: Tag 12 NameAndType Name index 33, Description index 34
+85: Tag 1 Utf8 Value "javax/ejb/ScheduleExpression"
+86: Tag 12 NameAndType Name index 116, Description index 117
+87: Tag 12 NameAndType Name index 60, Description index 61
+88: Tag 12 NameAndType Name index 35, Description index 34
+89: Tag 12 NameAndType Name index 118, Description index 41
+90: Tag 1 Utf8 Value "javax/ejb/TimerConfig"
+91: Tag 12 NameAndType Name index 40, Description index 119
+92: Tag 12 NameAndType Name index 36, Description index 37
+93: Tag 7 Class Name index 120
+94: Tag 12 NameAndType Name index 121, Description index 122
+95: Tag 12 NameAndType Name index 123, Description index 124
+96: Tag 7 Class Name index 125
+97: Tag 12 NameAndType Name index 126, Description index 127
+98: Tag 12 NameAndType Name index 128, Description index 129
+99: Tag 12 NameAndType Name index 130, Description index 131
+100: Tag 1 Utf8 Value "javax/ejb/Timer"
+101: Tag 1 Utf8 Value "org/jboss/as/test/smoke/ejb3/timers/TimerStartup"
+102: Tag 7 Class Name index 132
+103: Tag 12 NameAndType Name index 133, Description index 134
+104: Tag 1 Utf8 Value "java/lang/StringBuilder"
+105: Tag 7 Class Name index 135
+106: Tag 12 NameAndType Name index 136, Description index 137
+107: Tag 12 NameAndType Name index 138, Description index 139
+108: Tag 1 Utf8 Value "-T1"
+109: Tag 12 NameAndType Name index 140, Description index 137
+110: Tag 1 Utf8 Value "-CANCEL"
+111: Tag 1 Utf8 Value "java/lang/Object"
+112: Tag 1 Utf8 Value "java/util/Iterator"
+113: Tag 1 Utf8 Value "org/slf4j/Logger"
+114: Tag 1 Utf8 Value "info"
+115: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+116: Tag 1 Utf8 Value "hour"
+117: Tag 1 Utf8 Value "(I)Ljavax/ejb/ScheduleExpression;"
+118: Tag 1 Utf8 Value "cancel"
+119: Tag 1 Utf8 Value "(Ljava/io/Serializable;Z)V"
+120: Tag 1 Utf8 Value "javax/ejb/TimerService"
+121: Tag 1 Utf8 Value "createCalendarTimer"
+122: Tag 1 Utf8 Value "(Ljavax/ejb/ScheduleExpression;Ljavax/ejb/TimerConfig;)Ljavax/ejb/Timer;"
+123: Tag 1 Utf8 Value "getAllTimers"
+124: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+125: Tag 1 Utf8 Value "java/util/Collection"
+126: Tag 1 Utf8 Value "iterator"
+127: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+128: Tag 1 Utf8 Value "hasNext"
+129: Tag 1 Utf8 Value "()Z"
+130: Tag 1 Utf8 Value "next"
+131: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+132: Tag 1 Utf8 Value "org/slf4j/LoggerFactory"
+133: Tag 1 Utf8 Value "getLogger"
+134: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/slf4j/Logger;"
+135: Tag 1 Utf8 Value "java/lang/Class"
+136: Tag 1 Utf8 Value "getName"
+137: Tag 1 Utf8 Value "()Ljava/lang/String;"
+138: Tag 1 Utf8 Value "append"
+139: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+140: Tag 1 Utf8 Value "toString"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 21, name org.jboss.as.test.smoke.ejb3.timers.TimerStartup
+
+Super class: id 30, name java.lang.Object
+
+No interfaces
+
+Field name LOG (index 31), type Lorg/slf4j/Logger; (descriptor index 32)
+Human type: org.slf4j.Logger
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name TIMER_NAME (index 33), type Ljava/lang/String; (descriptor index 34)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name TIMER_CANCEL_NAME (index 35), type Ljava/lang/String; (descriptor index 34)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name ts (index 36), type Ljavax/ejb/TimerService; (descriptor index 37)
+Human type: javax.ejb.TimerService
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Field attribute name RuntimeVisibleAnnotations, size 6
+
+Method name <init> (index 40), type ()V (descriptor index 41)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name timeout (index 47), type (Ljavax/ejb/Timer;)V (descriptor index 48)
+Human type: (javax.ejb.Timer): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 68
+Method attribute name RuntimeVisibleAnnotations, size 17
+Method name init (index 56), type ()V (descriptor index 41)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 119
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name createPersistenceTimer (index 60), type (Ljava/lang/String;Ljavax/ejb/ScheduleExpression;)Ljavax/ejb/Timer; (descriptor index 61)
+Human type: (java.lang.String, javax.ejb.ScheduleExpression): javax.ejb.Timer
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 98
+Method name clearTimers (index 67), type ()V (descriptor index 41)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 125
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name <clinit> (index 71), type ()V (descriptor index 41)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 91
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 21

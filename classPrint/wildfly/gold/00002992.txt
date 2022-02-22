@@ -1,0 +1,108 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 61
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/TestInvocationHandler"
+11: Tag 1 Utf8 Value "getValue"
+12: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/io/ObjectOutput"
+17: Tag 1 Utf8 Value "writeObject"
+18: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 12
+22: Tag 1 Utf8 Value "java/io/ObjectInput"
+23: Tag 1 Utf8 Value "readObject"
+24: Tag 10 MethodRef Class index 8, Name and type index 25
+25: Tag 12 NameAndType Name index 5, Description index 18
+26: Tag 10 MethodRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 23, Description index 30
+29: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/TestInvocationHandlerExternalizer"
+30: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Lorg/wildfly/clustering/marshalling/TestInvocationHandler;"
+31: Tag 10 MethodRef Class index 27, Name and type index 32
+32: Tag 12 NameAndType Name index 17, Description index 33
+33: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Lorg/wildfly/clustering/marshalling/TestInvocationHandler;)V"
+34: Tag 7 Class Name index 35
+35: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Externalizer"
+36: Tag 1 Utf8 Value "Code"
+37: Tag 1 Utf8 Value "LineNumberTable"
+38: Tag 1 Utf8 Value "LocalVariableTable"
+39: Tag 1 Utf8 Value "this"
+40: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/TestInvocationHandlerExternalizer;"
+41: Tag 1 Utf8 Value "output"
+42: Tag 1 Utf8 Value "Ljava/io/ObjectOutput;"
+43: Tag 1 Utf8 Value "handler"
+44: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/TestInvocationHandler;"
+45: Tag 1 Utf8 Value "Exceptions"
+46: Tag 7 Class Name index 47
+47: Tag 1 Utf8 Value "java/io/IOException"
+48: Tag 1 Utf8 Value "input"
+49: Tag 1 Utf8 Value "Ljava/io/ObjectInput;"
+50: Tag 7 Class Name index 51
+51: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+52: Tag 1 Utf8 Value "getTargetClass"
+53: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+54: Tag 1 Utf8 Value "Signature"
+55: Tag 1 Utf8 Value "()Ljava/lang/Class<Lorg/wildfly/clustering/marshalling/TestInvocationHandler;>;"
+56: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/lang/Object;"
+57: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/lang/Object;)V"
+58: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/Externalizer<Lorg/wildfly/clustering/marshalling/TestInvocationHandler;>;"
+59: Tag 1 Utf8 Value "SourceFile"
+60: Tag 1 Utf8 Value "TestInvocationHandlerExternalizer.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 27, name org.wildfly.clustering.marshalling.TestInvocationHandlerExternalizer
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 34
+Implements names org.wildfly.clustering.marshalling.Externalizer
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name writeObject (index 17), type (Ljava/io/ObjectOutput;Lorg/wildfly/clustering/marshalling/TestInvocationHandler;)V (descriptor index 33)
+Human type: (java.io.ObjectOutput, org.wildfly.clustering.marshalling.TestInvocationHandler): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 77
+Method attribute name Exceptions, size 4
+Method name readObject (index 23), type (Ljava/io/ObjectInput;)Lorg/wildfly/clustering/marshalling/TestInvocationHandler; (descriptor index 30)
+Human type: (java.io.ObjectInput): org.wildfly.clustering.marshalling.TestInvocationHandler
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+Method attribute name Exceptions, size 6
+Method name getTargetClass (index 52), type ()Ljava/lang/Class; (descriptor index 53)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method attribute name Signature, size 2
+Method name readObject (index 23), type (Ljava/io/ObjectInput;)Ljava/lang/Object; (descriptor index 56)
+Human type: (java.io.ObjectInput): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method attribute name Exceptions, size 6
+Method name writeObject (index 17), type (Ljava/io/ObjectOutput;Ljava/lang/Object;)V (descriptor index 57)
+Human type: (java.io.ObjectOutput, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

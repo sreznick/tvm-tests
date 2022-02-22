@@ -1,0 +1,108 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 68
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/weld/WeldBootstrapService$2"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/weld/WeldBootstrapService;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$provider"
+10: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "java/lang/Object"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "()V"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "java/util/function/Consumer"
+21: Tag 1 Utf8 Value "accept"
+22: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/jboss/msc/service/StopContext"
+27: Tag 1 Utf8 Value "getController"
+28: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+29: Tag 9 FieldRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+33: Tag 1 Utf8 Value "REMOVE"
+34: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+35: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+39: Tag 1 Utf8 Value "setMode"
+40: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)V"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/msc/Service"
+43: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/WeldBootstrapService;Ljava/util/function/Consumer;)V"
+44: Tag 1 Utf8 Value "Code"
+45: Tag 1 Utf8 Value "LineNumberTable"
+46: Tag 1 Utf8 Value "LocalVariableTable"
+47: Tag 1 Utf8 Value "this"
+48: Tag 1 Utf8 Value "Lorg/jboss/as/weld/WeldBootstrapService$2;"
+49: Tag 1 Utf8 Value "Signature"
+50: Tag 1 Utf8 Value "start"
+51: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+52: Tag 1 Utf8 Value "context"
+53: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+54: Tag 1 Utf8 Value "Exceptions"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+57: Tag 1 Utf8 Value "stop"
+58: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+59: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+60: Tag 1 Utf8 Value "SourceFile"
+61: Tag 1 Utf8 Value "WeldBootstrapService.java"
+62: Tag 1 Utf8 Value "EnclosingMethod"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "org/jboss/as/weld/WeldBootstrapService"
+65: Tag 12 NameAndType Name index 50, Description index 51
+66: Tag 1 Utf8 Value "InnerClasses"
+67: Tag 1 Utf8 Value "Mode"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.weld.WeldBootstrapService$2
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 41
+Implements names org.jboss.msc.Service
+
+Field name val$provider (index 9), type Ljava/util/function/Consumer; (descriptor index 10)
+Human type: java.util.function.Consumer
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/jboss/as/weld/WeldBootstrapService; (descriptor index 6)
+Human type: org.jboss.as.weld.WeldBootstrapService
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 15), type (Lorg/jboss/as/weld/WeldBootstrapService;Ljava/util/function/Consumer;)V (descriptor index 43)
+Human type: (org.jboss.as.weld.WeldBootstrapService, java.util.function.Consumer): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 67
+Method attribute name Signature, size 2
+Method name start (index 50), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 51)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method attribute name Exceptions, size 4
+Method name stop (index 57), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 58)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 71
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

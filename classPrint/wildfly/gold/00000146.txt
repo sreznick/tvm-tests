@@ -1,0 +1,207 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 107
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/logging/PicketLinkLogger"
+3: Tag 8 String Contents 4
+4: Tag 1 Utf8 Value "org.wildfly.extension.picketlink"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+9: Tag 1 Utf8 Value "getMessageLogger"
+10: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+11: Tag 9 FieldRef Class index 1, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "ROOT_LOGGER"
+14: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/logging/PicketLinkLogger;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/lang/Object"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+19: Tag 1 Utf8 Value "activatingSubsystem"
+20: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+21: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+22: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+23: Tag 1 Utf8 Value "level"
+24: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+25: Tag 1 Utf8 Value "INFO"
+26: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+27: Tag 1 Utf8 Value "id"
+28: Tag 3 Integer Value 1, hex: 0x1
+29: Tag 1 Utf8 Value "value"
+30: Tag 1 Utf8 Value "Activating PicketLink %s Subsystem"
+31: Tag 1 Utf8 Value "boundToJndi"
+32: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+33: Tag 3 Integer Value 3, hex: 0x3
+34: Tag 1 Utf8 Value "Bound [%s] to [%s]"
+35: Tag 1 Utf8 Value "moduleCouldNotLoad"
+36: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+37: Tag 3 Integer Value 7, hex: 0x7
+38: Tag 1 Utf8 Value "Could not load module [%s]."
+39: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+40: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+41: Tag 1 Utf8 Value "couldNotLoadClass"
+42: Tag 3 Integer Value 9, hex: 0x9
+43: Tag 1 Utf8 Value "Could not load class [%s]."
+44: Tag 1 Utf8 Value "typeNotProvided"
+45: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+46: Tag 3 Integer Value 10, hex: 0xa
+47: Tag 1 Utf8 Value "No type provided for %s. You must specify a class-name or code."
+48: Tag 1 Utf8 Value "attributeNoLongerSupported"
+49: Tag 3 Integer Value 12, hex: 0xc
+50: Tag 1 Utf8 Value "Attribute [%s] is not longer supported."
+51: Tag 1 Utf8 Value "invalidChildTypeOccurrence"
+52: Tag 1 Utf8 Value "(Ljava/lang/String;ILjava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+53: Tag 3 Integer Value 13, hex: 0xd
+54: Tag 1 Utf8 Value "[%s] can only have [%d] child of type [%s]."
+55: Tag 1 Utf8 Value "invalidAlternativeAttributeOccurrence"
+56: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+57: Tag 3 Integer Value 14, hex: 0xe
+58: Tag 1 Utf8 Value "Invalid attribute [%s] definition for [%s]. Only one of the following attributes are allowed: [%s]."
+59: Tag 1 Utf8 Value "requiredAttribute"
+60: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException;"
+61: Tag 3 Integer Value 15, hex: 0xf
+62: Tag 1 Utf8 Value "Required attribute [%s] for [%s]."
+63: Tag 1 Utf8 Value "requiredAlternativeAttributes"
+64: Tag 3 Integer Value 16, hex: 0x10
+65: Tag 1 Utf8 Value "[%s] requires one of the given attributes [%s]."
+66: Tag 1 Utf8 Value "typeAlreadyDefined"
+67: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+68: Tag 3 Integer Value 17, hex: 0x11
+69: Tag 1 Utf8 Value "Type [%s] already defined."
+70: Tag 1 Utf8 Value "emptyResource"
+71: Tag 3 Integer Value 18, hex: 0x12
+72: Tag 1 Utf8 Value "[%s] can not be empty."
+73: Tag 1 Utf8 Value "requiredChild"
+74: Tag 3 Integer Value 19, hex: 0x13
+75: Tag 1 Utf8 Value "[%s] requires child [%s]."
+76: Tag 1 Utf8 Value "idmNoIdentityConfigurationProvided"
+77: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/OperationFailedException;"
+78: Tag 3 Integer Value 54, hex: 0x36
+79: Tag 1 Utf8 Value "You must provide at least one identity configuration."
+80: Tag 1 Utf8 Value "idmNoIdentityStoreProvided"
+81: Tag 3 Integer Value 55, hex: 0x37
+82: Tag 1 Utf8 Value "You must provide at least one identity store for identity configuration [%s]."
+83: Tag 1 Utf8 Value "idmNoSupportedTypesDefined"
+84: Tag 3 Integer Value 56, hex: 0x38
+85: Tag 1 Utf8 Value "No supported type provided."
+86: Tag 1 Utf8 Value "idmLdapNoMappingDefined"
+87: Tag 3 Integer Value 57, hex: 0x39
+88: Tag 1 Utf8 Value "No mapping was defined."
+89: Tag 1 Utf8 Value "federationHandlerTypeNotProvided"
+90: Tag 3 Integer Value 101, hex: 0x65
+91: Tag 1 Utf8 Value "No type provided for the handler. You must specify a class-name or code."
+92: Tag 1 Utf8 Value "<clinit>"
+93: Tag 1 Utf8 Value "()V"
+94: Tag 1 Utf8 Value "Code"
+95: Tag 1 Utf8 Value "LineNumberTable"
+96: Tag 1 Utf8 Value "SourceFile"
+97: Tag 1 Utf8 Value "PicketLinkLogger.java"
+98: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+99: Tag 1 Utf8 Value "projectCode"
+100: Tag 1 Utf8 Value "WFLYPL"
+101: Tag 1 Utf8 Value "length"
+102: Tag 3 Integer Value 4, hex: 0x4
+103: Tag 1 Utf8 Value "InnerClasses"
+104: Tag 7 Class Name index 105
+105: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+106: Tag 1 Utf8 Value "Level"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.wildfly.extension.picketlink.logging.PicketLinkLogger
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 17
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 13), type Lorg/wildfly/extension/picketlink/logging/PicketLinkLogger; (descriptor index 14)
+Human type: org.wildfly.extension.picketlink.logging.PicketLinkLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name activatingSubsystem (index 19), type (Ljava/lang/String;)V (descriptor index 20)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name boundToJndi (index 31), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 32)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name moduleCouldNotLoad (index 35), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 36)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name couldNotLoadClass (index 41), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 36)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name typeNotProvided (index 44), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 45)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name attributeNoLongerSupported (index 48), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 45)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidChildTypeOccurrence (index 51), type (Ljava/lang/String;ILjava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 52)
+Human type: (java.lang.String, int, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidAlternativeAttributeOccurrence (index 55), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 56)
+Human type: (java.lang.String, java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name requiredAttribute (index 59), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 60)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name requiredAlternativeAttributes (index 63), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 60)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name typeAlreadyDefined (index 66), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 67)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name emptyResource (index 70), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 45)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name requiredChild (index 73), type (Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 60)
+Human type: (java.lang.String, java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name idmNoIdentityConfigurationProvided (index 76), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 77)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name idmNoIdentityStoreProvided (index 80), type (Ljava/lang/String;)Lorg/jboss/as/controller/OperationFailedException; (descriptor index 45)
+Human type: (java.lang.String): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name idmNoSupportedTypesDefined (index 83), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 77)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name idmLdapNoMappingDefined (index 86), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 77)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name federationHandlerTypeNotProvided (index 89), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 77)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name <clinit> (index 92), type ()V (descriptor index 93)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

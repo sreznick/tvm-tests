@@ -1,0 +1,128 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 59
+1: Tag 7 Class Name index 51
+2: Tag 10 MethodRef Class index 1, Name and type index 52
+3: Tag 9 FieldRef Class index 4, Name and type index 53
+4: Tag 7 Class Name index 54
+5: Tag 7 Class Name index 55
+6: Tag 7 Class Name index 56
+7: Tag 7 Class Name index 57
+8: Tag 1 Utf8 Value "CURRENT_GROUP"
+9: Tag 1 Utf8 Value "Ljava/lang/ThreadLocal;"
+10: Tag 1 Utf8 Value "Signature"
+11: Tag 1 Utf8 Value "Ljava/lang/ThreadLocal<Ljava/lang/Object;>;"
+12: Tag 1 Utf8 Value "create"
+13: Tag 1 Utf8 Value "()Lorg/jboss/as/ejb3/cache/Identifiable;"
+14: Tag 1 Utf8 Value "()TV;"
+15: Tag 1 Utf8 Value "get"
+16: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/jboss/as/ejb3/cache/Identifiable;"
+17: Tag 1 Utf8 Value "(TK;)TV;"
+18: Tag 1 Utf8 Value "release"
+19: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/cache/Identifiable;)V"
+20: Tag 1 Utf8 Value "(TV;)V"
+21: Tag 1 Utf8 Value "contains"
+22: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+23: Tag 1 Utf8 Value "(TK;)Z"
+24: Tag 1 Utf8 Value "discard"
+25: Tag 1 Utf8 Value "remove"
+26: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+27: Tag 1 Utf8 Value "(TK;)V"
+28: Tag 1 Utf8 Value "getCacheSize"
+29: Tag 1 Utf8 Value "()I"
+30: Tag 1 Utf8 Value "getPassivatedCount"
+31: Tag 1 Utf8 Value "getTotalSize"
+32: Tag 1 Utf8 Value "isRemotable"
+33: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Z"
+34: Tag 1 Utf8 Value "Code"
+35: Tag 1 Utf8 Value "LineNumberTable"
+36: Tag 1 Utf8 Value "LocalVariableTable"
+37: Tag 1 Utf8 Value "this"
+38: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/cache/Cache;"
+39: Tag 1 Utf8 Value "throwable"
+40: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+41: Tag 1 Utf8 Value "LocalVariableTypeTable"
+42: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/cache/Cache<TK;TV;>;"
+43: Tag 1 Utf8 Value "getIdentifierFactory"
+44: Tag 1 Utf8 Value "()Ljava/util/function/Supplier;"
+45: Tag 1 Utf8 Value "()Ljava/util/function/Supplier<TK;>;"
+46: Tag 1 Utf8 Value "<clinit>"
+47: Tag 1 Utf8 Value "()V"
+48: Tag 1 Utf8 Value "<K:Ljava/lang/Object;V::Lorg/jboss/as/ejb3/cache/Identifiable<TK;>;>Ljava/lang/Object;Lorg/wildfly/clustering/ee/Restartable;Lorg/wildfly/clustering/ejb/AffinitySupport<TK;>;"
+49: Tag 1 Utf8 Value "SourceFile"
+50: Tag 1 Utf8 Value "Cache.java"
+51: Tag 1 Utf8 Value "java/lang/ThreadLocal"
+52: Tag 12 NameAndType Name index 58, Description index 47
+53: Tag 12 NameAndType Name index 8, Description index 9
+54: Tag 1 Utf8 Value "org/jboss/as/ejb3/cache/Cache"
+55: Tag 1 Utf8 Value "java/lang/Object"
+56: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Restartable"
+57: Tag 1 Utf8 Value "org/wildfly/clustering/ejb/AffinitySupport"
+58: Tag 1 Utf8 Value "<init>"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 4, name org.jboss.as.ejb3.cache.Cache
+
+Super class: id 5, name java.lang.Object
+
+Implements class ids 6 7
+Implements names org.wildfly.clustering.ee.Restartable org.wildfly.clustering.ejb.AffinitySupport
+
+Field name CURRENT_GROUP (index 8), type Ljava/lang/ThreadLocal; (descriptor index 9)
+Human type: java.lang.ThreadLocal
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Signature, size 2
+
+Method name create (index 12), type ()Lorg/jboss/as/ejb3/cache/Identifiable; (descriptor index 13)
+Human type: (): org.jboss.as.ejb3.cache.Identifiable
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name get (index 15), type (Ljava/lang/Object;)Lorg/jboss/as/ejb3/cache/Identifiable; (descriptor index 16)
+Human type: (java.lang.Object): org.jboss.as.ejb3.cache.Identifiable
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name release (index 18), type (Lorg/jboss/as/ejb3/cache/Identifiable;)V (descriptor index 19)
+Human type: (org.jboss.as.ejb3.cache.Identifiable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name contains (index 21), type (Ljava/lang/Object;)Z (descriptor index 22)
+Human type: (java.lang.Object): boolean
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name discard (index 24), type (Lorg/jboss/as/ejb3/cache/Identifiable;)V (descriptor index 19)
+Human type: (org.jboss.as.ejb3.cache.Identifiable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name remove (index 25), type (Ljava/lang/Object;)V (descriptor index 26)
+Human type: (java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name getCacheSize (index 28), type ()I (descriptor index 29)
+Human type: (): int
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getPassivatedCount (index 30), type ()I (descriptor index 29)
+Human type: (): int
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name getTotalSize (index 31), type ()I (descriptor index 29)
+Human type: (): int
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+No method attributes
+Method name isRemotable (index 32), type (Ljava/lang/Throwable;)Z (descriptor index 33)
+Human type: (java.lang.Throwable): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 72
+Method name getIdentifierFactory (index 43), type ()Ljava/util/function/Supplier; (descriptor index 44)
+Human type: (): java.util.function.Supplier
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method name <clinit> (index 46), type ()V (descriptor index 47)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

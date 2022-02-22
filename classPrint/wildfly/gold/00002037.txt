@@ -1,0 +1,183 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 113
+1: Tag 10 MethodRef Class index 9, Name and type index 100
+2: Tag 7 Class Name index 101
+3: Tag 10 MethodRef Class index 2, Name and type index 100
+4: Tag 9 FieldRef Class index 8, Name and type index 102
+5: Tag 9 FieldRef Class index 8, Name and type index 103
+6: Tag 9 FieldRef Class index 8, Name and type index 104
+7: Tag 11 InterfaceMethodRef Class index 105, Name and type index 106
+8: Tag 7 Class Name index 107
+9: Tag 7 Class Name index 108
+10: Tag 7 Class Name index 109
+11: Tag 1 Utf8 Value "name"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 1 Utf8 Value "descr"
+14: Tag 1 Utf8 Value "distributors"
+15: Tag 1 Utf8 Value "Ljava/util/Set;"
+16: Tag 1 Utf8 Value "Signature"
+17: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/hibernate/jpa/test/pack/Distributor;>;"
+18: Tag 1 Utf8 Value "<init>"
+19: Tag 1 Utf8 Value "()V"
+20: Tag 1 Utf8 Value "Code"
+21: Tag 1 Utf8 Value "LineNumberTable"
+22: Tag 1 Utf8 Value "LocalVariableTable"
+23: Tag 1 Utf8 Value "this"
+24: Tag 1 Utf8 Value "Lorg/hibernate/jpa/test/pack/Item;"
+25: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+26: Tag 1 Utf8 Value "desc"
+27: Tag 1 Utf8 Value "getDescr"
+28: Tag 1 Utf8 Value "()Ljava/lang/String;"
+29: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+30: Tag 1 Utf8 Value "Ljavax/persistence/Column;"
+31: Tag 1 Utf8 Value "length"
+32: Tag 3 Integer Value 200, hex: 0xc8
+33: Tag 1 Utf8 Value "setDescr"
+34: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+35: Tag 1 Utf8 Value "getName"
+36: Tag 1 Utf8 Value "Ljavax/persistence/Id;"
+37: Tag 3 Integer Value 30, hex: 0x1e
+38: Tag 1 Utf8 Value "setName"
+39: Tag 1 Utf8 Value "getDistributors"
+40: Tag 1 Utf8 Value "()Ljava/util/Set;"
+41: Tag 1 Utf8 Value "()Ljava/util/Set<Lorg/hibernate/jpa/test/pack/Distributor;>;"
+42: Tag 1 Utf8 Value "Ljavax/persistence/OneToMany;"
+43: Tag 1 Utf8 Value "setDistributors"
+44: Tag 1 Utf8 Value "(Ljava/util/Set;)V"
+45: Tag 1 Utf8 Value "LocalVariableTypeTable"
+46: Tag 1 Utf8 Value "(Ljava/util/Set<Lorg/hibernate/jpa/test/pack/Distributor;>;)V"
+47: Tag 1 Utf8 Value "addDistributor"
+48: Tag 1 Utf8 Value "(Lorg/hibernate/jpa/test/pack/Distributor;)V"
+49: Tag 1 Utf8 Value "d"
+50: Tag 1 Utf8 Value "Lorg/hibernate/jpa/test/pack/Distributor;"
+51: Tag 1 Utf8 Value "StackMapTable"
+52: Tag 1 Utf8 Value "SourceFile"
+53: Tag 1 Utf8 Value "Item.java"
+54: Tag 1 Utf8 Value "Ljavax/persistence/Entity;"
+55: Tag 1 Utf8 Value "Item"
+56: Tag 1 Utf8 Value "Ljavax/persistence/SqlResultSetMapping;"
+57: Tag 1 Utf8 Value "getItem"
+58: Tag 1 Utf8 Value "entities"
+59: Tag 1 Utf8 Value "Ljavax/persistence/EntityResult;"
+60: Tag 1 Utf8 Value "entityClass"
+61: Tag 1 Utf8 Value "fields"
+62: Tag 1 Utf8 Value "Ljavax/persistence/FieldResult;"
+63: Tag 1 Utf8 Value "column"
+64: Tag 1 Utf8 Value "itemname"
+65: Tag 1 Utf8 Value "itemdescription"
+66: Tag 1 Utf8 Value "Ljavax/persistence/NamedNativeQueries;"
+67: Tag 1 Utf8 Value "value"
+68: Tag 1 Utf8 Value "Ljavax/persistence/NamedNativeQuery;"
+69: Tag 1 Utf8 Value "nativeItem1"
+70: Tag 1 Utf8 Value "query"
+71: Tag 1 Utf8 Value "select name as itemname, descr as itemdescription from Item"
+72: Tag 1 Utf8 Value "resultSetMapping"
+73: Tag 1 Utf8 Value "nativeItem2"
+74: Tag 1 Utf8 Value "select * from Item"
+75: Tag 1 Utf8 Value "resultClass"
+76: Tag 1 Utf8 Value "Ljavax/persistence/NamedQueries;"
+77: Tag 1 Utf8 Value "Ljavax/persistence/NamedQuery;"
+78: Tag 1 Utf8 Value "itemJpaQueryWithLockModeAndHints"
+79: Tag 1 Utf8 Value "select i from Item i"
+80: Tag 1 Utf8 Value "lockMode"
+81: Tag 1 Utf8 Value "Ljavax/persistence/LockModeType;"
+82: Tag 1 Utf8 Value "PESSIMISTIC_WRITE"
+83: Tag 1 Utf8 Value "hints"
+84: Tag 1 Utf8 Value "Ljavax/persistence/QueryHint;"
+85: Tag 1 Utf8 Value "javax.persistence.query.timeout"
+86: Tag 1 Utf8 Value "3000"
+87: Tag 1 Utf8 Value "org.hibernate.cacheMode"
+88: Tag 1 Utf8 Value "ignore"
+89: Tag 1 Utf8 Value "org.hibernate.cacheable"
+90: Tag 1 Utf8 Value "true"
+91: Tag 1 Utf8 Value "org.hibernate.readOnly"
+92: Tag 1 Utf8 Value "org.hibernate.comment"
+93: Tag 1 Utf8 Value "custom static comment"
+94: Tag 1 Utf8 Value "org.hibernate.fetchSize"
+95: Tag 1 Utf8 Value "512"
+96: Tag 1 Utf8 Value "org.hibernate.flushMode"
+97: Tag 1 Utf8 Value "manual"
+98: Tag 1 Utf8 Value "query-construct"
+99: Tag 1 Utf8 Value "select new Item(i.name,i.descr) from Item i"
+100: Tag 12 NameAndType Name index 18, Description index 19
+101: Tag 1 Utf8 Value "java/util/HashSet"
+102: Tag 12 NameAndType Name index 14, Description index 15
+103: Tag 12 NameAndType Name index 11, Description index 12
+104: Tag 12 NameAndType Name index 13, Description index 12
+105: Tag 7 Class Name index 110
+106: Tag 12 NameAndType Name index 111, Description index 112
+107: Tag 1 Utf8 Value "org/hibernate/jpa/test/pack/Item"
+108: Tag 1 Utf8 Value "java/lang/Object"
+109: Tag 1 Utf8 Value "java/io/Serializable"
+110: Tag 1 Utf8 Value "java/util/Set"
+111: Tag 1 Utf8 Value "add"
+112: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.hibernate.jpa.test.pack.Item
+
+Super class: id 9, name java.lang.Object
+
+Implements class ids 10
+Implements names java.io.Serializable
+
+Field name name (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name descr (index 13), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name distributors (index 14), type Ljava/util/Set; (descriptor index 15)
+Human type: java.util.Set
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+
+Method name <init> (index 18), type ()V (descriptor index 19)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+Method name <init> (index 18), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 25)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 104
+Method name getDescr (index 27), type ()Ljava/lang/String; (descriptor index 28)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name RuntimeVisibleAnnotations, size 11
+Method name setDescr (index 33), type (Ljava/lang/String;)V (descriptor index 34)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getName (index 35), type ()Ljava/lang/String; (descriptor index 28)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name RuntimeVisibleAnnotations, size 15
+Method name setName (index 38), type (Ljava/lang/String;)V (descriptor index 34)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getDistributors (index 39), type ()Ljava/util/Set; (descriptor index 40)
+Human type: (): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name setDistributors (index 43), type (Ljava/util/Set;)V (descriptor index 44)
+Human type: (java.util.Set): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 80
+Method attribute name Signature, size 2
+Method name addDistributor (index 47), type (Lorg/hibernate/jpa/test/pack/Distributor;)V (descriptor index 48)
+Human type: (org.hibernate.jpa.test.pack.Distributor): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 99
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 275

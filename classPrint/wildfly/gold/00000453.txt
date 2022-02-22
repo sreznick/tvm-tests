@@ -1,0 +1,137 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 73
+1: Tag 10 MethodRef Class index 11, Name and type index 50
+2: Tag 9 FieldRef Class index 10, Name and type index 51
+3: Tag 11 InterfaceMethodRef Class index 43, Name and type index 52
+4: Tag 10 MethodRef Class index 10, Name and type index 53
+5: Tag 9 FieldRef Class index 54, Name and type index 55
+6: Tag 7 Class Name index 56
+7: Tag 8 String Contents 57
+8: Tag 10 MethodRef Class index 58, Name and type index 59
+9: Tag 9 FieldRef Class index 10, Name and type index 60
+10: Tag 7 Class Name index 61
+11: Tag 7 Class Name index 62
+12: Tag 7 Class Name index 63
+13: Tag 1 Utf8 Value "SERVICE_NAME"
+14: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+15: Tag 1 Utf8 Value "accessControl"
+16: Tag 1 Utf8 Value "Lorg/jboss/as/txn/service/UserTransactionAccessControl;"
+17: Tag 1 Utf8 Value "<init>"
+18: Tag 1 Utf8 Value "()V"
+19: Tag 1 Utf8 Value "Code"
+20: Tag 1 Utf8 Value "LineNumberTable"
+21: Tag 1 Utf8 Value "LocalVariableTable"
+22: Tag 1 Utf8 Value "this"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/txn/service/UserTransactionAccessControlService;"
+24: Tag 1 Utf8 Value "start"
+25: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+26: Tag 1 Utf8 Value "context"
+27: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+28: Tag 1 Utf8 Value "Exceptions"
+29: Tag 7 Class Name index 64
+30: Tag 1 Utf8 Value "stop"
+31: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+32: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+33: Tag 1 Utf8 Value "getValue"
+34: Tag 1 Utf8 Value "()Lorg/jboss/as/txn/service/UserTransactionAccessControlService;"
+35: Tag 7 Class Name index 65
+36: Tag 7 Class Name index 66
+37: Tag 1 Utf8 Value "getAccessControl"
+38: Tag 1 Utf8 Value "()Lorg/jboss/as/txn/service/UserTransactionAccessControl;"
+39: Tag 1 Utf8 Value "setAccessControl"
+40: Tag 1 Utf8 Value "(Lorg/jboss/as/txn/service/UserTransactionAccessControl;)V"
+41: Tag 1 Utf8 Value "authorizeAccess"
+42: Tag 1 Utf8 Value "StackMapTable"
+43: Tag 7 Class Name index 67
+44: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+45: Tag 1 Utf8 Value "<clinit>"
+46: Tag 1 Utf8 Value "Signature"
+47: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/jboss/as/txn/service/UserTransactionAccessControlService;>;"
+48: Tag 1 Utf8 Value "SourceFile"
+49: Tag 1 Utf8 Value "UserTransactionAccessControlService.java"
+50: Tag 12 NameAndType Name index 17, Description index 18
+51: Tag 12 NameAndType Name index 15, Description index 16
+52: Tag 12 NameAndType Name index 41, Description index 18
+53: Tag 12 NameAndType Name index 33, Description index 34
+54: Tag 7 Class Name index 68
+55: Tag 12 NameAndType Name index 69, Description index 14
+56: Tag 1 Utf8 Value "java/lang/String"
+57: Tag 1 Utf8 Value "UserTransactionAccessControlService"
+58: Tag 7 Class Name index 70
+59: Tag 12 NameAndType Name index 71, Description index 72
+60: Tag 12 NameAndType Name index 13, Description index 14
+61: Tag 1 Utf8 Value "org/jboss/as/txn/service/UserTransactionAccessControlService"
+62: Tag 1 Utf8 Value "java/lang/Object"
+63: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+64: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+65: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+66: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+67: Tag 1 Utf8 Value "org/jboss/as/txn/service/UserTransactionAccessControl"
+68: Tag 1 Utf8 Value "org/jboss/as/txn/service/TxnServices"
+69: Tag 1 Utf8 Value "JBOSS_TXN"
+70: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+71: Tag 1 Utf8 Value "append"
+72: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 10, name org.jboss.as.txn.service.UserTransactionAccessControlService
+
+Super class: id 11, name java.lang.Object
+
+Implements class ids 12
+Implements names org.jboss.msc.service.Service
+
+Field name SERVICE_NAME (index 13), type Lorg/jboss/msc/service/ServiceName; (descriptor index 14)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name accessControl (index 15), type Lorg/jboss/as/txn/service/UserTransactionAccessControl; (descriptor index 16)
+Human type: org.jboss.as.txn.service.UserTransactionAccessControl
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 17), type ()V (descriptor index 18)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name start (index 24), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 25)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method attribute name Exceptions, size 4
+Method name stop (index 30), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 31)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name getValue (index 33), type ()Lorg/jboss/as/txn/service/UserTransactionAccessControlService; (descriptor index 34)
+Human type: (): org.jboss.as.txn.service.UserTransactionAccessControlService
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method attribute name Exceptions, size 6
+Method name getAccessControl (index 37), type ()Lorg/jboss/as/txn/service/UserTransactionAccessControl; (descriptor index 38)
+Human type: (): org.jboss.as.txn.service.UserTransactionAccessControl
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setAccessControl (index 39), type (Lorg/jboss/as/txn/service/UserTransactionAccessControl;)V (descriptor index 40)
+Human type: (org.jboss.as.txn.service.UserTransactionAccessControl): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name authorizeAccess (index 41), type ()V (descriptor index 18)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 94
+Method name getValue (index 33), type ()Ljava/lang/Object; (descriptor index 44)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name <clinit> (index 45), type ()V (descriptor index 18)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 43
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

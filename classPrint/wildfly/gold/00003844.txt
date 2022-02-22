@@ -1,0 +1,96 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 52
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/deployment/MutableSingletonDeploymentConfiguration"
+11: Tag 1 Utf8 Value "replacer"
+12: Tag 1 Utf8 Value "Lorg/jboss/metadata/property/PropertyReplacer;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/ee/structure/JBossDescriptorPropertyReplacement"
+17: Tag 1 Utf8 Value "propertyReplacer"
+18: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/metadata/property/PropertyReplacer;"
+19: Tag 10 MethodRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 5, Description index 21
+21: Tag 1 Utf8 Value "(Lorg/jboss/metadata/property/PropertyReplacer;)V"
+22: Tag 11 InterfaceMethodRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "org/jboss/metadata/property/PropertyReplacer"
+26: Tag 1 Utf8 Value "replaceProperties"
+27: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+28: Tag 9 FieldRef Class index 8, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "policy"
+31: Tag 1 Utf8 Value "Ljava/lang/String;"
+32: Tag 7 Class Name index 33
+33: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/deployment/SingletonDeploymentConfiguration"
+34: Tag 1 Utf8 Value "Code"
+35: Tag 1 Utf8 Value "LineNumberTable"
+36: Tag 1 Utf8 Value "LocalVariableTable"
+37: Tag 1 Utf8 Value "this"
+38: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/singleton/deployment/MutableSingletonDeploymentConfiguration;"
+39: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+40: Tag 1 Utf8 Value "unit"
+41: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+42: Tag 1 Utf8 Value "setPolicy"
+43: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+44: Tag 1 Utf8 Value "value"
+45: Tag 1 Utf8 Value "StackMapTable"
+46: Tag 7 Class Name index 47
+47: Tag 1 Utf8 Value "java/lang/String"
+48: Tag 1 Utf8 Value "getPolicy"
+49: Tag 1 Utf8 Value "()Ljava/lang/String;"
+50: Tag 1 Utf8 Value "SourceFile"
+51: Tag 1 Utf8 Value "MutableSingletonDeploymentConfiguration.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.clustering.singleton.deployment.MutableSingletonDeploymentConfiguration
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 32
+Implements names org.wildfly.extension.clustering.singleton.deployment.SingletonDeploymentConfiguration
+
+Field name replacer (index 11), type Lorg/jboss/metadata/property/PropertyReplacer; (descriptor index 12)
+Human type: org.jboss.metadata.property.PropertyReplacer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name policy (index 30), type Ljava/lang/String; (descriptor index 31)
+Human type: java.lang.String
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 60
+Method name <init> (index 5), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 39)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name <init> (index 5), type (Lorg/jboss/metadata/property/PropertyReplacer;)V (descriptor index 21)
+Human type: (org.jboss.metadata.property.PropertyReplacer): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name setPolicy (index 42), type (Ljava/lang/String;)V (descriptor index 43)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 113
+Method name getPolicy (index 48), type ()Ljava/lang/String; (descriptor index 49)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2

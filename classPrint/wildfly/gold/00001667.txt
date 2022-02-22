@@ -1,0 +1,188 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 111
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/pojo/descriptor/AbstractConfigVisitorNode"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/pojo/descriptor/PropertyConfig"
+11: Tag 1 Utf8 Value "value"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/descriptor/ValueConfig;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/pojo/logging/PojoLogger"
+17: Tag 1 Utf8 Value "ROOT_LOGGER"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/logging/PojoLogger;"
+19: Tag 11 InterfaceMethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "nullValue"
+22: Tag 1 Utf8 Value "()Ljava/lang/IllegalArgumentException;"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/jboss/as/pojo/descriptor/ConfigVisitor"
+27: Tag 1 Utf8 Value "getBeanInfo"
+28: Tag 1 Utf8 Value "()Lorg/jboss/as/pojo/service/BeanInfo;"
+29: Tag 9 FieldRef Class index 8, Name and type index 30
+30: Tag 12 NameAndType Name index 31, Description index 32
+31: Tag 1 Utf8 Value "beanInfo"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/service/BeanInfo;"
+33: Tag 10 MethodRef Class index 2, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "visit"
+36: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/descriptor/ConfigVisitor;)V"
+37: Tag 11 InterfaceMethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "java/util/List"
+41: Tag 1 Utf8 Value "add"
+42: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+43: Tag 9 FieldRef Class index 8, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "type"
+46: Tag 1 Utf8 Value "Ljava/lang/String;"
+47: Tag 10 MethodRef Class index 8, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "getType"
+50: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/descriptor/ConfigVisitor;Ljava/lang/String;)Ljava/lang/Class;"
+51: Tag 9 FieldRef Class index 8, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 46
+53: Tag 1 Utf8 Value "propertyName"
+54: Tag 11 InterfaceMethodRef Class index 55, Name and type index 56
+55: Tag 7 Class Name index 57
+56: Tag 12 NameAndType Name index 58, Description index 59
+57: Tag 1 Utf8 Value "org/jboss/as/pojo/service/BeanInfo"
+58: Tag 1 Utf8 Value "getGetter"
+59: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+60: Tag 10 MethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "java/lang/reflect/Method"
+64: Tag 1 Utf8 Value "getReturnType"
+65: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "java/io/Serializable"
+68: Tag 1 Utf8 Value "serialVersionUID"
+69: Tag 1 Utf8 Value "J"
+70: Tag 1 Utf8 Value "ConstantValue"
+71: Tag 5 Long Value 1
+73: Tag 1 Utf8 Value "Code"
+74: Tag 1 Utf8 Value "LineNumberTable"
+75: Tag 1 Utf8 Value "LocalVariableTable"
+76: Tag 1 Utf8 Value "this"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/descriptor/PropertyConfig;"
+78: Tag 1 Utf8 Value "visitor"
+79: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/descriptor/ConfigVisitor;"
+80: Tag 1 Utf8 Value "StackMapTable"
+81: Tag 1 Utf8 Value "addChildren"
+82: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/descriptor/ConfigVisitor;Ljava/util/List;)V"
+83: Tag 1 Utf8 Value "nodes"
+84: Tag 1 Utf8 Value "Ljava/util/List;"
+85: Tag 1 Utf8 Value "LocalVariableTypeTable"
+86: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/pojo/descriptor/ConfigVisitorNode;>;"
+87: Tag 1 Utf8 Value "Signature"
+88: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/descriptor/ConfigVisitor;Ljava/util/List<Lorg/jboss/as/pojo/descriptor/ConfigVisitorNode;>;)V"
+89: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/descriptor/ConfigVisitor;Lorg/jboss/as/pojo/descriptor/ConfigVisitorNode;)Ljava/lang/Class;"
+90: Tag 1 Utf8 Value "m"
+91: Tag 1 Utf8 Value "Ljava/lang/reflect/Method;"
+92: Tag 1 Utf8 Value "previous"
+93: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/descriptor/ConfigVisitorNode;"
+94: Tag 1 Utf8 Value "clazz"
+95: Tag 1 Utf8 Value "Ljava/lang/Class;"
+96: Tag 1 Utf8 Value "Ljava/lang/Class<*>;"
+97: Tag 7 Class Name index 98
+98: Tag 1 Utf8 Value "java/lang/Class"
+99: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/descriptor/ConfigVisitor;Lorg/jboss/as/pojo/descriptor/ConfigVisitorNode;)Ljava/lang/Class<*>;"
+100: Tag 1 Utf8 Value "getPropertyName"
+101: Tag 1 Utf8 Value "()Ljava/lang/String;"
+102: Tag 1 Utf8 Value "setPropertyName"
+103: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+104: Tag 1 Utf8 Value "setType"
+105: Tag 1 Utf8 Value "getValue"
+106: Tag 1 Utf8 Value "()Lorg/jboss/as/pojo/descriptor/ValueConfig;"
+107: Tag 1 Utf8 Value "setValue"
+108: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/descriptor/ValueConfig;)V"
+109: Tag 1 Utf8 Value "SourceFile"
+110: Tag 1 Utf8 Value "PropertyConfig.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.pojo.descriptor.PropertyConfig
+
+Super class: id 2, name org.jboss.as.pojo.descriptor.AbstractConfigVisitorNode
+
+Implements class ids 66
+Implements names java.io.Serializable
+
+Field name serialVersionUID (index 68), type J (descriptor index 69)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name propertyName (index 53), type Ljava/lang/String; (descriptor index 46)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name type (index 45), type Ljava/lang/String; (descriptor index 46)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name value (index 11), type Lorg/jboss/as/pojo/descriptor/ValueConfig; (descriptor index 12)
+Human type: org.jboss.as.pojo.descriptor.ValueConfig
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name beanInfo (index 31), type Lorg/jboss/as/pojo/service/BeanInfo; (descriptor index 32)
+Human type: org.jboss.as.pojo.service.BeanInfo
+Flags: decimal 130, hex 0082, binary 0000000010000010 private transient
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name visit (index 35), type (Lorg/jboss/as/pojo/descriptor/ConfigVisitor;)V (descriptor index 36)
+Human type: (org.jboss.as.pojo.descriptor.ConfigVisitor): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 109
+Method name addChildren (index 81), type (Lorg/jboss/as/pojo/descriptor/ConfigVisitor;Ljava/util/List;)V (descriptor index 82)
+Human type: (org.jboss.as.pojo.descriptor.ConfigVisitor, java.util.List): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 96
+Method attribute name Signature, size 2
+Method name getType (index 49), type (Lorg/jboss/as/pojo/descriptor/ConfigVisitor;Lorg/jboss/as/pojo/descriptor/ConfigVisitorNode;)Ljava/lang/Class; (descriptor index 89)
+Human type: (org.jboss.as.pojo.descriptor.ConfigVisitor, org.jboss.as.pojo.descriptor.ConfigVisitorNode): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 167
+Method attribute name Signature, size 2
+Method name getPropertyName (index 100), type ()Ljava/lang/String; (descriptor index 101)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setPropertyName (index 102), type (Ljava/lang/String;)V (descriptor index 103)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getType (index 49), type ()Ljava/lang/String; (descriptor index 101)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setType (index 104), type (Ljava/lang/String;)V (descriptor index 103)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getValue (index 105), type ()Lorg/jboss/as/pojo/descriptor/ValueConfig; (descriptor index 106)
+Human type: (): org.jboss.as.pojo.descriptor.ValueConfig
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setValue (index 107), type (Lorg/jboss/as/pojo/descriptor/ValueConfig;)V (descriptor index 108)
+Human type: (org.jboss.as.pojo.descriptor.ValueConfig): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,197 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 154
+1: Tag 10 MethodRef Class index 29, Name and type index 77
+2: Tag 9 FieldRef Class index 28, Name and type index 78
+3: Tag 9 FieldRef Class index 28, Name and type index 79
+4: Tag 9 FieldRef Class index 28, Name and type index 80
+5: Tag 11 InterfaceMethodRef Class index 81, Name and type index 82
+6: Tag 9 FieldRef Class index 83, Name and type index 84
+7: Tag 11 InterfaceMethodRef Class index 85, Name and type index 86
+8: Tag 11 InterfaceMethodRef Class index 85, Name and type index 87
+9: Tag 11 InterfaceMethodRef Class index 88, Name and type index 89
+10: Tag 11 InterfaceMethodRef Class index 90, Name and type index 91
+11: Tag 11 InterfaceMethodRef Class index 71, Name and type index 92
+12: Tag 11 InterfaceMethodRef Class index 72, Name and type index 93
+13: Tag 10 MethodRef Class index 94, Name and type index 95
+14: Tag 10 MethodRef Class index 94, Name and type index 96
+15: Tag 11 InterfaceMethodRef Class index 72, Name and type index 97
+16: Tag 7 Class Name index 99
+17: Tag 11 InterfaceMethodRef Class index 16, Name and type index 100
+18: Tag 7 Class Name index 101
+19: Tag 11 InterfaceMethodRef Class index 26, Name and type index 102
+20: Tag 11 InterfaceMethodRef Class index 18, Name and type index 103
+21: Tag 11 InterfaceMethodRef Class index 16, Name and type index 104
+22: Tag 11 InterfaceMethodRef Class index 105, Name and type index 106
+23: Tag 11 InterfaceMethodRef Class index 71, Name and type index 107
+24: Tag 7 Class Name index 108
+25: Tag 10 MethodRef Class index 24, Name and type index 109
+26: Tag 7 Class Name index 110
+27: Tag 10 MethodRef Class index 28, Name and type index 111
+28: Tag 7 Class Name index 112
+29: Tag 7 Class Name index 113
+30: Tag 7 Class Name index 114
+31: Tag 1 Utf8 Value "cache"
+32: Tag 1 Utf8 Value "Lorg/infinispan/Cache;"
+33: Tag 1 Utf8 Value "Signature"
+34: Tag 1 Utf8 Value "Lorg/infinispan/Cache<TK;TV;>;"
+35: Tag 1 Utf8 Value "filter"
+36: Tag 1 Utf8 Value "Ljava/util/function/Predicate;"
+37: Tag 1 Utf8 Value "Entry"
+38: Tag 1 Utf8 Value "InnerClasses"
+39: Tag 1 Utf8 Value "Ljava/util/function/Predicate<Ljava/util/Map$Entry<-TK;-TV;>;>;"
+40: Tag 1 Utf8 Value "scheduler"
+41: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/infinispan/scheduler/Scheduler;"
+42: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/infinispan/scheduler/Scheduler<TI;TM;>;"
+43: Tag 1 Utf8 Value "<init>"
+44: Tag 1 Utf8 Value "(Lorg/infinispan/Cache;Ljava/util/function/Predicate;Lorg/wildfly/clustering/ee/infinispan/scheduler/Scheduler;)V"
+45: Tag 1 Utf8 Value "Code"
+46: Tag 1 Utf8 Value "LineNumberTable"
+47: Tag 1 Utf8 Value "LocalVariableTable"
+48: Tag 1 Utf8 Value "this"
+49: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/infinispan/scheduler/ScheduleLocalEntriesTask;"
+50: Tag 1 Utf8 Value "LocalVariableTypeTable"
+51: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/infinispan/scheduler/ScheduleLocalEntriesTask<TI;TM;TK;TV;>;"
+52: Tag 1 Utf8 Value "(Lorg/infinispan/Cache<TK;TV;>;Ljava/util/function/Predicate<Ljava/util/Map$Entry<-TK;-TV;>;>;Lorg/wildfly/clustering/ee/infinispan/scheduler/Scheduler<TI;TM;>;)V"
+53: Tag 1 Utf8 Value "accept"
+54: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;)V"
+55: Tag 1 Utf8 Value "entry"
+56: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+57: Tag 1 Utf8 Value "key"
+58: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Key;"
+59: Tag 1 Utf8 Value "entries"
+60: Tag 1 Utf8 Value "Ljava/util/Iterator;"
+61: Tag 1 Utf8 Value "stream"
+62: Tag 1 Utf8 Value "Ljava/util/stream/Stream;"
+63: Tag 1 Utf8 Value "oldLocality"
+64: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;"
+65: Tag 1 Utf8 Value "newLocality"
+66: Tag 1 Utf8 Value "Ljava/util/Map$Entry<TK;TV;>;"
+67: Tag 1 Utf8 Value "TK;"
+68: Tag 1 Utf8 Value "Ljava/util/Iterator<Ljava/util/Map$Entry<TK;TV;>;>;"
+69: Tag 1 Utf8 Value "Ljava/util/stream/Stream<Ljava/util/Map$Entry<TK;TV;>;>;"
+70: Tag 1 Utf8 Value "StackMapTable"
+71: Tag 7 Class Name index 115
+72: Tag 7 Class Name index 116
+73: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+74: Tag 1 Utf8 Value "<I:Ljava/lang/Object;M:Ljava/lang/Object;K::Lorg/wildfly/clustering/ee/Key<TI;>;V:TM;>Ljava/lang/Object;Ljava/util/function/BiConsumer<Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;>;"
+75: Tag 1 Utf8 Value "SourceFile"
+76: Tag 1 Utf8 Value "ScheduleLocalEntriesTask.java"
+77: Tag 12 NameAndType Name index 43, Description index 117
+78: Tag 12 NameAndType Name index 31, Description index 32
+79: Tag 12 NameAndType Name index 35, Description index 36
+80: Tag 12 NameAndType Name index 40, Description index 41
+81: Tag 7 Class Name index 118
+82: Tag 12 NameAndType Name index 119, Description index 120
+83: Tag 7 Class Name index 121
+84: Tag 12 NameAndType Name index 122, Description index 123
+85: Tag 7 Class Name index 124
+86: Tag 12 NameAndType Name index 125, Description index 126
+87: Tag 12 NameAndType Name index 127, Description index 128
+88: Tag 7 Class Name index 129
+89: Tag 12 NameAndType Name index 61, Description index 130
+90: Tag 7 Class Name index 131
+91: Tag 12 NameAndType Name index 35, Description index 132
+92: Tag 12 NameAndType Name index 133, Description index 134
+93: Tag 12 NameAndType Name index 135, Description index 136
+94: Tag 7 Class Name index 137
+95: Tag 12 NameAndType Name index 138, Description index 139
+96: Tag 12 NameAndType Name index 140, Description index 136
+97: Tag 12 NameAndType Name index 141, Description index 142
+98: Tag 7 Class Name index 143
+99: Tag 1 Utf8 Value "java/util/Map$Entry"
+100: Tag 12 NameAndType Name index 144, Description index 142
+101: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Key"
+102: Tag 12 NameAndType Name index 145, Description index 146
+103: Tag 12 NameAndType Name index 147, Description index 142
+104: Tag 12 NameAndType Name index 148, Description index 142
+105: Tag 7 Class Name index 149
+106: Tag 12 NameAndType Name index 150, Description index 73
+107: Tag 12 NameAndType Name index 151, Description index 117
+108: Tag 1 Utf8 Value "java/lang/Throwable"
+109: Tag 12 NameAndType Name index 152, Description index 153
+110: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/Locality"
+111: Tag 12 NameAndType Name index 53, Description index 54
+112: Tag 1 Utf8 Value "org/wildfly/clustering/ee/infinispan/scheduler/ScheduleLocalEntriesTask"
+113: Tag 1 Utf8 Value "java/lang/Object"
+114: Tag 1 Utf8 Value "java/util/function/BiConsumer"
+115: Tag 1 Utf8 Value "java/util/stream/Stream"
+116: Tag 1 Utf8 Value "java/util/Iterator"
+117: Tag 1 Utf8 Value "()V"
+118: Tag 1 Utf8 Value "org/infinispan/Cache"
+119: Tag 1 Utf8 Value "getAdvancedCache"
+120: Tag 1 Utf8 Value "()Lorg/infinispan/AdvancedCache;"
+121: Tag 1 Utf8 Value "org/infinispan/context/Flag"
+122: Tag 1 Utf8 Value "CACHE_MODE_LOCAL"
+123: Tag 1 Utf8 Value "Lorg/infinispan/context/Flag;"
+124: Tag 1 Utf8 Value "org/infinispan/AdvancedCache"
+125: Tag 1 Utf8 Value "withFlags"
+126: Tag 1 Utf8 Value "(Lorg/infinispan/context/Flag;)Lorg/infinispan/AdvancedCache;"
+127: Tag 1 Utf8 Value "entrySet"
+128: Tag 1 Utf8 Value "()Lorg/infinispan/CacheSet;"
+129: Tag 1 Utf8 Value "org/infinispan/CacheSet"
+130: Tag 1 Utf8 Value "()Lorg/infinispan/CacheStream;"
+131: Tag 1 Utf8 Value "org/infinispan/CacheStream"
+132: Tag 1 Utf8 Value "(Ljava/util/function/Predicate;)Lorg/infinispan/CacheStream;"
+133: Tag 1 Utf8 Value "iterator"
+134: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+135: Tag 1 Utf8 Value "hasNext"
+136: Tag 1 Utf8 Value "()Z"
+137: Tag 1 Utf8 Value "java/lang/Thread"
+138: Tag 1 Utf8 Value "currentThread"
+139: Tag 1 Utf8 Value "()Ljava/lang/Thread;"
+140: Tag 1 Utf8 Value "isInterrupted"
+141: Tag 1 Utf8 Value "next"
+142: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+143: Tag 1 Utf8 Value "java/util/Map"
+144: Tag 1 Utf8 Value "getKey"
+145: Tag 1 Utf8 Value "isLocal"
+146: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+147: Tag 1 Utf8 Value "getId"
+148: Tag 1 Utf8 Value "getValue"
+149: Tag 1 Utf8 Value "org/wildfly/clustering/ee/infinispan/scheduler/Scheduler"
+150: Tag 1 Utf8 Value "schedule"
+151: Tag 1 Utf8 Value "close"
+152: Tag 1 Utf8 Value "addSuppressed"
+153: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 28, name org.wildfly.clustering.ee.infinispan.scheduler.ScheduleLocalEntriesTask
+
+Super class: id 29, name java.lang.Object
+
+Implements class ids 30
+Implements names java.util.function.BiConsumer
+
+Field name cache (index 31), type Lorg/infinispan/Cache; (descriptor index 32)
+Human type: org.infinispan.Cache
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name filter (index 35), type Ljava/util/function/Predicate; (descriptor index 36)
+Human type: java.util.function.Predicate
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name scheduler (index 40), type Lorg/wildfly/clustering/ee/infinispan/scheduler/Scheduler; (descriptor index 41)
+Human type: org.wildfly.clustering.ee.infinispan.scheduler.Scheduler
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 43), type (Lorg/infinispan/Cache;Ljava/util/function/Predicate;Lorg/wildfly/clustering/ee/infinispan/scheduler/Scheduler;)V (descriptor index 44)
+Human type: (org.infinispan.Cache, java.util.function.Predicate, org.wildfly.clustering.ee.infinispan.scheduler.Scheduler): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 156
+Method attribute name Signature, size 2
+Method name accept (index 53), type (Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;Lorg/wildfly/clustering/infinispan/spi/distribution/Locality;)V (descriptor index 54)
+Human type: (org.wildfly.clustering.infinispan.spi.distribution.Locality, org.wildfly.clustering.infinispan.spi.distribution.Locality): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 457
+Method name accept (index 53), type (Ljava/lang/Object;Ljava/lang/Object;)V (descriptor index 73)
+Human type: (java.lang.Object, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 73
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

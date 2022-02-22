@@ -1,0 +1,148 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 111
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/jdr/util/AbstractSanitizer"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/util/regex/Pattern"
+11: Tag 1 Utf8 Value "compile"
+12: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/regex/Pattern;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/jdr/util/PatternSanitizer"
+17: Tag 1 Utf8 Value "pattern"
+18: Tag 1 Utf8 Value "Ljava/util/regex/Pattern;"
+19: Tag 9 FieldRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "replacement"
+22: Tag 1 Utf8 Value "Ljava/lang/String;"
+23: Tag 9 FieldRef Class index 14, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "filter"
+26: Tag 1 Utf8 Value "Lorg/jboss/vfs/VirtualFileFilter;"
+27: Tag 7 Class Name index 28
+28: Tag 1 Utf8 Value "java/io/ByteArrayOutputStream"
+29: Tag 10 MethodRef Class index 27, Name and type index 3
+30: Tag 7 Class Name index 31
+31: Tag 1 Utf8 Value "java/io/PrintWriter"
+32: Tag 10 MethodRef Class index 30, Name and type index 33
+33: Tag 12 NameAndType Name index 5, Description index 34
+34: Tag 1 Utf8 Value "(Ljava/io/OutputStream;)V"
+35: Tag 10 MethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/jboss/as/jdr/util/Utils"
+39: Tag 1 Utf8 Value "readLines"
+40: Tag 1 Utf8 Value "(Ljava/io/InputStream;)Ljava/util/List;"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "java/lang/String"
+43: Tag 11 InterfaceMethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "java/util/List"
+47: Tag 1 Utf8 Value "toArray"
+48: Tag 1 Utf8 Value "([Ljava/lang/Object;)[Ljava/lang/Object;"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "[Ljava/lang/String;"
+51: Tag 10 MethodRef Class index 8, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 54
+53: Tag 1 Utf8 Value "matcher"
+54: Tag 1 Utf8 Value "(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;"
+55: Tag 10 MethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "java/util/regex/Matcher"
+59: Tag 1 Utf8 Value "replaceAll"
+60: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+61: Tag 10 MethodRef Class index 30, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "write"
+64: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+65: Tag 9 FieldRef Class index 36, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 22
+67: Tag 1 Utf8 Value "LINE_SEP"
+68: Tag 10 MethodRef Class index 30, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 6
+70: Tag 1 Utf8 Value "close"
+71: Tag 7 Class Name index 72
+72: Tag 1 Utf8 Value "java/io/ByteArrayInputStream"
+73: Tag 10 MethodRef Class index 27, Name and type index 74
+74: Tag 12 NameAndType Name index 75, Description index 76
+75: Tag 1 Utf8 Value "toByteArray"
+76: Tag 1 Utf8 Value "()[B"
+77: Tag 10 MethodRef Class index 71, Name and type index 78
+78: Tag 12 NameAndType Name index 5, Description index 79
+79: Tag 1 Utf8 Value "([B)V"
+80: Tag 10 MethodRef Class index 2, Name and type index 81
+81: Tag 12 NameAndType Name index 82, Description index 83
+82: Tag 1 Utf8 Value "accepts"
+83: Tag 1 Utf8 Value "(Lorg/jboss/vfs/VirtualFile;)Z"
+84: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Lorg/jboss/vfs/VirtualFileFilter;)V"
+85: Tag 1 Utf8 Value "Code"
+86: Tag 1 Utf8 Value "LineNumberTable"
+87: Tag 1 Utf8 Value "LocalVariableTable"
+88: Tag 1 Utf8 Value "this"
+89: Tag 1 Utf8 Value "Lorg/jboss/as/jdr/util/PatternSanitizer;"
+90: Tag 1 Utf8 Value "Exceptions"
+91: Tag 7 Class Name index 92
+92: Tag 1 Utf8 Value "java/lang/Exception"
+93: Tag 1 Utf8 Value "sanitize"
+94: Tag 1 Utf8 Value "(Ljava/io/InputStream;)Ljava/io/InputStream;"
+95: Tag 1 Utf8 Value "Ljava/util/regex/Matcher;"
+96: Tag 1 Utf8 Value "i"
+97: Tag 1 Utf8 Value "I"
+98: Tag 1 Utf8 Value "in"
+99: Tag 1 Utf8 Value "Ljava/io/InputStream;"
+100: Tag 1 Utf8 Value "output"
+101: Tag 1 Utf8 Value "Ljava/io/ByteArrayOutputStream;"
+102: Tag 1 Utf8 Value "writer"
+103: Tag 1 Utf8 Value "Ljava/io/PrintWriter;"
+104: Tag 1 Utf8 Value "lines"
+105: Tag 1 Utf8 Value "lineCount"
+106: Tag 1 Utf8 Value "StackMapTable"
+107: Tag 7 Class Name index 108
+108: Tag 1 Utf8 Value "java/io/InputStream"
+109: Tag 1 Utf8 Value "SourceFile"
+110: Tag 1 Utf8 Value "PatternSanitizer.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.jboss.as.jdr.util.PatternSanitizer
+
+Super class: id 2, name org.jboss.as.jdr.util.AbstractSanitizer
+
+No interfaces
+
+Field name pattern (index 17), type Ljava/util/regex/Pattern; (descriptor index 18)
+Human type: java.util.regex.Pattern
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name replacement (index 21), type Ljava/lang/String; (descriptor index 22)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;Ljava/lang/String;Lorg/jboss/vfs/VirtualFileFilter;)V (descriptor index 84)
+Human type: (java.lang.String, java.lang.String, org.jboss.vfs.VirtualFileFilter): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 111
+Method attribute name Exceptions, size 4
+Method name sanitize (index 93), type (Ljava/io/InputStream;)Ljava/io/InputStream; (descriptor index 94)
+Human type: (java.io.InputStream): java.io.InputStream
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 307
+Method attribute name Exceptions, size 4
+Method name accepts (index 82), type (Lorg/jboss/vfs/VirtualFile;)Z (descriptor index 83)
+Human type: (org.jboss.vfs.VirtualFile): boolean
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+
+Class attribute name SourceFile, size 2

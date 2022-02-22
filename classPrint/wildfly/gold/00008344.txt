@@ -1,0 +1,176 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 107
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/service/EEConcurrentAbstractService"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/service/ManagedThreadFactoryService"
+11: Tag 1 Utf8 Value "name"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+15: Tag 10 MethodRef Class index 13, Name and type index 16
+16: Tag 12 NameAndType Name index 5, Description index 17
+17: Tag 1 Utf8 Value "()V"
+18: Tag 9 FieldRef Class index 8, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "contextService"
+21: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+22: Tag 9 FieldRef Class index 8, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "priority"
+25: Tag 1 Utf8 Value "I"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "java/lang/StringBuilder"
+28: Tag 10 MethodRef Class index 26, Name and type index 16
+29: Tag 8 String Contents 30
+30: Tag 1 Utf8 Value "EE-ManagedThreadFactory-"
+31: Tag 10 MethodRef Class index 26, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "append"
+34: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+35: Tag 10 MethodRef Class index 26, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "toString"
+38: Tag 1 Utf8 Value "()Ljava/lang/String;"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedThreadFactoryImpl"
+41: Tag 10 MethodRef Class index 13, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "getOptionalValue"
+44: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+45: Tag 7 Class Name index 46
+46: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/ContextServiceImpl"
+47: Tag 10 MethodRef Class index 39, Name and type index 48
+48: Tag 12 NameAndType Name index 5, Description index 49
+49: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;I)V"
+50: Tag 9 FieldRef Class index 8, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "managedThreadFactory"
+53: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl;"
+54: Tag 10 MethodRef Class index 39, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 17
+56: Tag 1 Utf8 Value "stop"
+57: Tag 9 FieldRef Class index 58, Name and type index 59
+58: Tag 7 Class Name index 60
+59: Tag 12 NameAndType Name index 61, Description index 62
+60: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+61: Tag 1 Utf8 Value "ROOT_LOGGER"
+62: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+63: Tag 11 InterfaceMethodRef Class index 58, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "concurrentServiceValueUninitialized"
+66: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+67: Tag 10 MethodRef Class index 2, Name and type index 68
+68: Tag 12 NameAndType Name index 56, Description index 69
+69: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+70: Tag 10 MethodRef Class index 2, Name and type index 71
+71: Tag 12 NameAndType Name index 72, Description index 73
+72: Tag 1 Utf8 Value "start"
+73: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+74: Tag 10 MethodRef Class index 8, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "getValue"
+77: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl;"
+78: Tag 1 Utf8 Value "Signature"
+79: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;>;"
+80: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;I)V"
+81: Tag 1 Utf8 Value "Code"
+82: Tag 1 Utf8 Value "LineNumberTable"
+83: Tag 1 Utf8 Value "LocalVariableTable"
+84: Tag 1 Utf8 Value "this"
+85: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/service/ManagedThreadFactoryService;"
+86: Tag 1 Utf8 Value "jndiName"
+87: Tag 1 Utf8 Value "startValue"
+88: Tag 1 Utf8 Value "context"
+89: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+90: Tag 1 Utf8 Value "threadFactoryName"
+91: Tag 1 Utf8 Value "Exceptions"
+92: Tag 7 Class Name index 93
+93: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+94: Tag 1 Utf8 Value "stopValue"
+95: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+96: Tag 1 Utf8 Value "StackMapTable"
+97: Tag 7 Class Name index 98
+98: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+99: Tag 1 Utf8 Value "getContextServiceInjector"
+100: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+101: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;>;"
+102: Tag 7 Class Name index 103
+103: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+104: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/service/EEConcurrentAbstractService<Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl;>;"
+105: Tag 1 Utf8 Value "SourceFile"
+106: Tag 1 Utf8 Value "ManagedThreadFactoryService.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.ee.concurrent.service.ManagedThreadFactoryService
+
+Super class: id 2, name org.jboss.as.ee.concurrent.service.EEConcurrentAbstractService
+
+No interfaces
+
+Field name managedThreadFactory (index 52), type Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl; (descriptor index 53)
+Human type: org.jboss.as.ee.concurrent.ManagedThreadFactoryImpl
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name name (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name contextService (index 20), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 21)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name priority (index 24), type I (descriptor index 25)
+Human type: int
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;Ljava/lang/String;I)V (descriptor index 80)
+Human type: (java.lang.String, java.lang.String, int): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 115
+Method name startValue (index 87), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 73)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 120
+Method attribute name Exceptions, size 4
+Method name stopValue (index 94), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 69)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 73
+Method name getValue (index 76), type ()Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl; (descriptor index 77)
+Human type: (): org.jboss.as.ee.concurrent.ManagedThreadFactoryImpl
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 80
+Method attribute name Exceptions, size 4
+Method name getContextServiceInjector (index 99), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 100)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name stop (index 56), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 69)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name start (index 72), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 73)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method attribute name Exceptions, size 4
+Method name getValue (index 76), type ()Ljava/lang/Object; (descriptor index 44)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

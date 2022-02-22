@@ -1,0 +1,214 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 176
+1: Tag 7 Class Name index 73
+2: Tag 10 MethodRef Class index 34, Name and type index 74
+3: Tag 9 FieldRef Class index 75, Name and type index 76
+4: Tag 10 MethodRef Class index 75, Name and type index 77
+5: Tag 11 InterfaceMethodRef Class index 78, Name and type index 79
+6: Tag 11 InterfaceMethodRef Class index 51, Name and type index 80
+7: Tag 11 InterfaceMethodRef Class index 51, Name and type index 81
+8: Tag 7 Class Name index 82
+9: Tag 10 MethodRef Class index 8, Name and type index 83
+10: Tag 8 String Contents 58
+11: Tag 10 MethodRef Class index 84, Name and type index 85
+12: Tag 10 MethodRef Class index 86, Name and type index 87
+13: Tag 10 MethodRef Class index 86, Name and type index 88
+14: Tag 10 MethodRef Class index 89, Name and type index 90
+15: Tag 9 FieldRef Class index 75, Name and type index 91
+16: Tag 10 MethodRef Class index 92, Name and type index 93
+17: Tag 10 MethodRef Class index 84, Name and type index 94
+18: Tag 9 FieldRef Class index 75, Name and type index 95
+19: Tag 9 FieldRef Class index 75, Name and type index 96
+20: Tag 7 Class Name index 97
+21: Tag 10 MethodRef Class index 20, Name and type index 98
+22: Tag 11 InterfaceMethodRef Class index 99, Name and type index 100
+23: Tag 9 FieldRef Class index 20, Name and type index 101
+24: Tag 7 Class Name index 102
+25: Tag 10 MethodRef Class index 103, Name and type index 104
+26: Tag 11 InterfaceMethodRef Class index 105, Name and type index 106
+27: Tag 11 InterfaceMethodRef Class index 107, Name and type index 108
+28: Tag 9 FieldRef Class index 109, Name and type index 110
+29: Tag 11 InterfaceMethodRef Class index 107, Name and type index 111
+30: Tag 11 InterfaceMethodRef Class index 107, Name and type index 112
+31: Tag 7 Class Name index 113
+32: Tag 10 MethodRef Class index 31, Name and type index 74
+33: Tag 9 FieldRef Class index 31, Name and type index 114
+34: Tag 7 Class Name index 115
+35: Tag 1 Utf8 Value "INSTANCE"
+36: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/BufferCacheAdd;"
+37: Tag 1 Utf8 Value "<init>"
+38: Tag 1 Utf8 Value "()V"
+39: Tag 1 Utf8 Value "Code"
+40: Tag 1 Utf8 Value "LineNumberTable"
+41: Tag 1 Utf8 Value "LocalVariableTable"
+42: Tag 1 Utf8 Value "this"
+43: Tag 1 Utf8 Value "populateModel"
+44: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+45: Tag 1 Utf8 Value "def"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+47: Tag 1 Utf8 Value "operation"
+48: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+49: Tag 1 Utf8 Value "model"
+50: Tag 1 Utf8 Value "StackMapTable"
+51: Tag 7 Class Name index 116
+52: Tag 1 Utf8 Value "Exceptions"
+53: Tag 7 Class Name index 117
+54: Tag 1 Utf8 Value "performRuntime"
+55: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+56: Tag 1 Utf8 Value "context"
+57: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+58: Tag 1 Utf8 Value "address"
+59: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+60: Tag 1 Utf8 Value "name"
+61: Tag 1 Utf8 Value "Ljava/lang/String;"
+62: Tag 1 Utf8 Value "bufferSize"
+63: Tag 1 Utf8 Value "I"
+64: Tag 1 Utf8 Value "buffersPerRegions"
+65: Tag 1 Utf8 Value "maxRegions"
+66: Tag 1 Utf8 Value "service"
+67: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/BufferCacheService;"
+68: Tag 1 Utf8 Value "target"
+69: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+70: Tag 1 Utf8 Value "<clinit>"
+71: Tag 1 Utf8 Value "SourceFile"
+72: Tag 1 Utf8 Value "BufferCacheAdd.java"
+73: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+74: Tag 12 NameAndType Name index 37, Description index 38
+75: Tag 7 Class Name index 118
+76: Tag 12 NameAndType Name index 35, Description index 119
+77: Tag 12 NameAndType Name index 120, Description index 121
+78: Tag 7 Class Name index 122
+79: Tag 12 NameAndType Name index 123, Description index 124
+80: Tag 12 NameAndType Name index 125, Description index 126
+81: Tag 12 NameAndType Name index 127, Description index 128
+82: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+83: Tag 12 NameAndType Name index 129, Description index 44
+84: Tag 7 Class Name index 130
+85: Tag 12 NameAndType Name index 131, Description index 132
+86: Tag 7 Class Name index 133
+87: Tag 12 NameAndType Name index 134, Description index 135
+88: Tag 12 NameAndType Name index 136, Description index 137
+89: Tag 7 Class Name index 138
+90: Tag 12 NameAndType Name index 139, Description index 140
+91: Tag 12 NameAndType Name index 141, Description index 142
+92: Tag 7 Class Name index 143
+93: Tag 12 NameAndType Name index 144, Description index 145
+94: Tag 12 NameAndType Name index 146, Description index 147
+95: Tag 12 NameAndType Name index 148, Description index 142
+96: Tag 12 NameAndType Name index 149, Description index 142
+97: Tag 1 Utf8 Value "org/wildfly/extension/undertow/BufferCacheService"
+98: Tag 12 NameAndType Name index 37, Description index 150
+99: Tag 7 Class Name index 151
+100: Tag 12 NameAndType Name index 152, Description index 153
+101: Tag 12 NameAndType Name index 154, Description index 155
+102: Tag 1 Utf8 Value "java/lang/String"
+103: Tag 7 Class Name index 156
+104: Tag 12 NameAndType Name index 157, Description index 158
+105: Tag 7 Class Name index 159
+106: Tag 12 NameAndType Name index 160, Description index 161
+107: Tag 7 Class Name index 162
+108: Tag 12 NameAndType Name index 163, Description index 164
+109: Tag 7 Class Name index 166
+110: Tag 12 NameAndType Name index 169, Description index 170
+111: Tag 12 NameAndType Name index 171, Description index 172
+112: Tag 12 NameAndType Name index 173, Description index 174
+113: Tag 1 Utf8 Value "org/wildfly/extension/undertow/BufferCacheAdd"
+114: Tag 12 NameAndType Name index 35, Description index 36
+115: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractAddStepHandler"
+116: Tag 1 Utf8 Value "java/util/Iterator"
+117: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+118: Tag 1 Utf8 Value "org/wildfly/extension/undertow/BufferCacheDefinition"
+119: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/BufferCacheDefinition;"
+120: Tag 1 Utf8 Value "getAttributes"
+121: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+122: Tag 1 Utf8 Value "java/util/Collection"
+123: Tag 1 Utf8 Value "iterator"
+124: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+125: Tag 1 Utf8 Value "hasNext"
+126: Tag 1 Utf8 Value "()Z"
+127: Tag 1 Utf8 Value "next"
+128: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+129: Tag 1 Utf8 Value "validateAndSet"
+130: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+131: Tag 1 Utf8 Value "get"
+132: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+133: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+134: Tag 1 Utf8 Value "pathAddress"
+135: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/PathAddress;"
+136: Tag 1 Utf8 Value "getLastElement"
+137: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathElement;"
+138: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+139: Tag 1 Utf8 Value "getValue"
+140: Tag 1 Utf8 Value "()Ljava/lang/String;"
+141: Tag 1 Utf8 Value "BUFFER_SIZE"
+142: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+143: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+144: Tag 1 Utf8 Value "resolveModelAttribute"
+145: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+146: Tag 1 Utf8 Value "asInt"
+147: Tag 1 Utf8 Value "()I"
+148: Tag 1 Utf8 Value "BUFFERS_PER_REGION"
+149: Tag 1 Utf8 Value "MAX_REGIONS"
+150: Tag 1 Utf8 Value "(III)V"
+151: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+152: Tag 1 Utf8 Value "getServiceTarget"
+153: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+154: Tag 1 Utf8 Value "SERVICE_NAME"
+155: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+156: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+157: Tag 1 Utf8 Value "append"
+158: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+159: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+160: Tag 1 Utf8 Value "addService"
+161: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+162: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+163: Tag 1 Utf8 Value "setInstance"
+164: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+165: Tag 7 Class Name index 175
+166: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+167: Tag 1 Utf8 Value "Mode"
+168: Tag 1 Utf8 Value "InnerClasses"
+169: Tag 1 Utf8 Value "ON_DEMAND"
+170: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+171: Tag 1 Utf8 Value "setInitialMode"
+172: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)Lorg/jboss/msc/service/ServiceBuilder;"
+173: Tag 1 Utf8 Value "install"
+174: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+175: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 31, name org.wildfly.extension.undertow.BufferCacheAdd
+
+Super class: id 34, name org.jboss.as.controller.AbstractAddStepHandler
+
+No interfaces
+
+Field name INSTANCE (index 35), type Lorg/wildfly/extension/undertow/BufferCacheAdd; (descriptor index 36)
+Human type: org.wildfly.extension.undertow.BufferCacheAdd
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 37), type ()V (descriptor index 38)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 51
+Method name populateModel (index 43), type (Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 44)
+Human type: (org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 144
+Method attribute name Exceptions, size 4
+Method name performRuntime (index 54), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 55)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 305
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 70), type ()V (descriptor index 38)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

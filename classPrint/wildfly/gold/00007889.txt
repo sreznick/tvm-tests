@@ -1,0 +1,172 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 132
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/HTTPUpgradeService$2$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/HTTPUpgradeService$2;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$exchange"
+10: Tag 1 Utf8 Value "Lio/undertow/server/HttpServerExchange;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "java/lang/Object"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "()V"
+17: Tag 9 FieldRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/logging/MessagingLogger"
+21: Tag 1 Utf8 Value "ROOT_LOGGER"
+22: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/logging/MessagingLogger;"
+23: Tag 8 String Contents 24
+24: Tag 1 Utf8 Value "Switching to %s protocol for %s http-acceptor"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/HTTPUpgradeService$2"
+29: Tag 1 Utf8 Value "val$protocolName"
+30: Tag 1 Utf8 Value "Ljava/lang/String;"
+31: Tag 9 FieldRef Class index 26, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 30
+33: Tag 1 Utf8 Value "val$acceptorName"
+34: Tag 11 InterfaceMethodRef Class index 18, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "debugf"
+37: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V"
+38: Tag 9 FieldRef Class index 26, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "val$activemqServer"
+41: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/server/ActiveMQServer;"
+42: Tag 10 MethodRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 47
+45: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/HTTPUpgradeService"
+46: Tag 1 Utf8 Value "access$000"
+47: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;Lorg/apache/activemq/artemis/core/server/ActiveMQServer;)Lorg/apache/activemq/artemis/core/server/ActiveMQServer;"
+48: Tag 10 MethodRef Class index 49, Name and type index 50
+49: Tag 7 Class Name index 51
+50: Tag 12 NameAndType Name index 52, Description index 53
+51: Tag 1 Utf8 Value "org/xnio/IoUtils"
+52: Tag 1 Utf8 Value "safeClose"
+53: Tag 1 Utf8 Value "(Ljava/io/Closeable;)V"
+54: Tag 11 InterfaceMethodRef Class index 55, Name and type index 56
+55: Tag 7 Class Name index 57
+56: Tag 12 NameAndType Name index 58, Description index 59
+57: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/server/ActiveMQServer"
+58: Tag 1 Utf8 Value "getRemotingService"
+59: Tag 1 Utf8 Value "()Lorg/apache/activemq/artemis/core/remoting/server/RemotingService;"
+60: Tag 11 InterfaceMethodRef Class index 55, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "isActive"
+63: Tag 1 Utf8 Value "()Z"
+64: Tag 11 InterfaceMethodRef Class index 65, Name and type index 66
+65: Tag 7 Class Name index 67
+66: Tag 12 NameAndType Name index 68, Description index 63
+67: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/remoting/server/RemotingService"
+68: Tag 1 Utf8 Value "isStarted"
+69: Tag 11 InterfaceMethodRef Class index 65, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 72
+71: Tag 1 Utf8 Value "getAcceptor"
+72: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/apache/activemq/artemis/spi/core/remoting/Acceptor;"
+73: Tag 7 Class Name index 74
+74: Tag 1 Utf8 Value "org/apache/activemq/artemis/core/remoting/impl/netty/NettyAcceptor"
+75: Tag 7 Class Name index 76
+76: Tag 1 Utf8 Value "org/xnio/netty/transport/WrappingXnioSocketChannel"
+77: Tag 10 MethodRef Class index 75, Name and type index 78
+78: Tag 12 NameAndType Name index 15, Description index 79
+79: Tag 1 Utf8 Value "(Lorg/xnio/StreamConnection;)V"
+80: Tag 10 MethodRef Class index 73, Name and type index 81
+81: Tag 12 NameAndType Name index 82, Description index 83
+82: Tag 1 Utf8 Value "transfer"
+83: Tag 1 Utf8 Value "(Lio/netty/channel/Channel;)V"
+84: Tag 10 MethodRef Class index 85, Name and type index 86
+85: Tag 7 Class Name index 87
+86: Tag 12 NameAndType Name index 88, Description index 89
+87: Tag 1 Utf8 Value "org/xnio/StreamConnection"
+88: Tag 1 Utf8 Value "getSourceChannel"
+89: Tag 1 Utf8 Value "()Lorg/xnio/conduits/ConduitStreamSourceChannel;"
+90: Tag 10 MethodRef Class index 91, Name and type index 92
+91: Tag 7 Class Name index 93
+92: Tag 12 NameAndType Name index 94, Description index 16
+93: Tag 1 Utf8 Value "org/xnio/conduits/ConduitStreamSourceChannel"
+94: Tag 1 Utf8 Value "resumeReads"
+95: Tag 7 Class Name index 96
+96: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+97: Tag 10 MethodRef Class index 2, Name and type index 98
+98: Tag 12 NameAndType Name index 99, Description index 79
+99: Tag 1 Utf8 Value "handleEvent"
+100: Tag 7 Class Name index 101
+101: Tag 1 Utf8 Value "org/xnio/ChannelListener"
+102: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/HTTPUpgradeService$2;Lio/undertow/server/HttpServerExchange;)V"
+103: Tag 1 Utf8 Value "Code"
+104: Tag 1 Utf8 Value "LineNumberTable"
+105: Tag 1 Utf8 Value "LocalVariableTable"
+106: Tag 1 Utf8 Value "this"
+107: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/HTTPUpgradeService$2$1;"
+108: Tag 1 Utf8 Value "Signature"
+109: Tag 1 Utf8 Value "e"
+110: Tag 1 Utf8 Value "Ljava/lang/IllegalStateException;"
+111: Tag 1 Utf8 Value "connection"
+112: Tag 1 Utf8 Value "Lorg/xnio/StreamConnection;"
+113: Tag 1 Utf8 Value "server"
+114: Tag 1 Utf8 Value "remotingService"
+115: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/remoting/server/RemotingService;"
+116: Tag 1 Utf8 Value "acceptor"
+117: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/core/remoting/impl/netty/NettyAcceptor;"
+118: Tag 1 Utf8 Value "channel"
+119: Tag 1 Utf8 Value "Lio/netty/channel/socket/SocketChannel;"
+120: Tag 1 Utf8 Value "StackMapTable"
+121: Tag 7 Class Name index 122
+122: Tag 1 Utf8 Value "io/netty/channel/socket/SocketChannel"
+123: Tag 1 Utf8 Value "(Ljava/nio/channels/Channel;)V"
+124: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/xnio/ChannelListener<Lorg/xnio/StreamConnection;>;"
+125: Tag 1 Utf8 Value "SourceFile"
+126: Tag 1 Utf8 Value "HTTPUpgradeService.java"
+127: Tag 1 Utf8 Value "EnclosingMethod"
+128: Tag 12 NameAndType Name index 129, Description index 130
+129: Tag 1 Utf8 Value "handleUpgrade"
+130: Tag 1 Utf8 Value "(Lorg/xnio/StreamConnection;Lio/undertow/server/HttpServerExchange;)V"
+131: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.messaging.activemq.HTTPUpgradeService$2$1
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 100
+Implements names org.xnio.ChannelListener
+
+Field name val$exchange (index 9), type Lio/undertow/server/HttpServerExchange; (descriptor index 10)
+Human type: io.undertow.server.HttpServerExchange
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/extension/messaging/activemq/HTTPUpgradeService$2; (descriptor index 6)
+Human type: org.wildfly.extension.messaging.activemq.HTTPUpgradeService$2
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 15), type (Lorg/wildfly/extension/messaging/activemq/HTTPUpgradeService$2;Lio/undertow/server/HttpServerExchange;)V (descriptor index 102)
+Human type: (org.wildfly.extension.messaging.activemq.HTTPUpgradeService$2, io.undertow.server.HttpServerExchange): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 67
+Method attribute name Signature, size 2
+Method name handleEvent (index 99), type (Lorg/xnio/StreamConnection;)V (descriptor index 79)
+Human type: (org.xnio.StreamConnection): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 354
+Method name handleEvent (index 99), type (Ljava/nio/channels/Channel;)V (descriptor index 123)
+Human type: (java.nio.channels.Channel): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

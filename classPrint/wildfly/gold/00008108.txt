@@ -1,0 +1,95 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 62
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/ee/component/NamespaceContextInterceptor"
+11: Tag 1 Utf8 Value "selector"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "deploymentUnitServiceName"
+16: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/naming/context/NamespaceContextSelector"
+21: Tag 1 Utf8 Value "pushCurrentSelector"
+22: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/context/NamespaceContextSelector;)V"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/jboss/as/naming/WritableServiceBasedNamingStore"
+27: Tag 1 Utf8 Value "pushOwner"
+28: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+33: Tag 1 Utf8 Value "proceed"
+34: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+35: Tag 10 MethodRef Class index 24, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 6
+37: Tag 1 Utf8 Value "popOwner"
+38: Tag 10 MethodRef Class index 18, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "popCurrentSelector"
+41: Tag 1 Utf8 Value "()Lorg/jboss/as/naming/context/NamespaceContextSelector;"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "org/jboss/invocation/Interceptor"
+44: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/context/NamespaceContextSelector;Lorg/jboss/msc/service/ServiceName;)V"
+45: Tag 1 Utf8 Value "Code"
+46: Tag 1 Utf8 Value "LineNumberTable"
+47: Tag 1 Utf8 Value "LocalVariableTable"
+48: Tag 1 Utf8 Value "this"
+49: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/NamespaceContextInterceptor;"
+50: Tag 1 Utf8 Value "processInvocation"
+51: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object;"
+52: Tag 1 Utf8 Value "context"
+53: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+54: Tag 1 Utf8 Value "StackMapTable"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "java/lang/Throwable"
+57: Tag 1 Utf8 Value "Exceptions"
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "java/lang/Exception"
+60: Tag 1 Utf8 Value "SourceFile"
+61: Tag 1 Utf8 Value "NamespaceContextInterceptor.java"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 8, name org.jboss.as.ee.component.NamespaceContextInterceptor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 42
+Implements names org.jboss.invocation.Interceptor
+
+Field name selector (index 11), type Lorg/jboss/as/naming/context/NamespaceContextSelector; (descriptor index 12)
+Human type: org.jboss.as.naming.context.NamespaceContextSelector
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name deploymentUnitServiceName (index 15), type Lorg/jboss/msc/service/ServiceName; (descriptor index 16)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/naming/context/NamespaceContextSelector;Lorg/jboss/msc/service/ServiceName;)V (descriptor index 44)
+Human type: (org.jboss.as.naming.context.NamespaceContextSelector, org.jboss.msc.service.ServiceName): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name processInvocation (index 50), type (Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object; (descriptor index 51)
+Human type: (org.jboss.invocation.InterceptorContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 171
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

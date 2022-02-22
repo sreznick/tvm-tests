@@ -1,0 +1,136 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 86
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/pojo/service/AbstractPojoPhase"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/pojo/service/LifecyclePojoPhase"
+11: Tag 1 Utf8 Value "getBeanInfo"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/pojo/service/BeanInfo;"
+13: Tag 10 MethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "getBean"
+16: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/pojo/service/BeanUtils"
+21: Tag 1 Utf8 Value "dispatchLifecycleJoinpoint"
+22: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/service/BeanInfo;Ljava/lang/Object;Lorg/jboss/as/pojo/descriptor/LifecycleConfig;Ljava/lang/String;)V"
+23: Tag 10 MethodRef Class index 8, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "getUpConfig"
+26: Tag 1 Utf8 Value "()Lorg/jboss/as/pojo/descriptor/LifecycleConfig;"
+27: Tag 10 MethodRef Class index 8, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "defaultUp"
+30: Tag 1 Utf8 Value "()Ljava/lang/String;"
+31: Tag 10 MethodRef Class index 8, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "dispatchJoinpoint"
+34: Tag 1 Utf8 Value "(Lorg/jboss/as/pojo/descriptor/LifecycleConfig;Ljava/lang/String;)V"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "java/lang/Throwable"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+39: Tag 10 MethodRef Class index 37, Name and type index 40
+40: Tag 12 NameAndType Name index 5, Description index 41
+41: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+42: Tag 10 MethodRef Class index 2, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 45
+44: Tag 1 Utf8 Value "startInternal"
+45: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+46: Tag 10 MethodRef Class index 2, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "stopInternal"
+49: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+50: Tag 10 MethodRef Class index 8, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 26
+52: Tag 1 Utf8 Value "getDownConfig"
+53: Tag 10 MethodRef Class index 8, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 30
+55: Tag 1 Utf8 Value "defaultDown"
+56: Tag 9 FieldRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 60, Description index 61
+59: Tag 1 Utf8 Value "org/jboss/as/pojo/logging/PojoLogger"
+60: Tag 1 Utf8 Value "ROOT_LOGGER"
+61: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/logging/PojoLogger;"
+62: Tag 8 String Contents 63
+63: Tag 1 Utf8 Value "Exception at %s phase."
+64: Tag 11 InterfaceMethodRef Class index 57, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "debugf"
+67: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/Object;)V"
+68: Tag 1 Utf8 Value "Code"
+69: Tag 1 Utf8 Value "LineNumberTable"
+70: Tag 1 Utf8 Value "LocalVariableTable"
+71: Tag 1 Utf8 Value "this"
+72: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/service/LifecyclePojoPhase;"
+73: Tag 1 Utf8 Value "config"
+74: Tag 1 Utf8 Value "Lorg/jboss/as/pojo/descriptor/LifecycleConfig;"
+75: Tag 1 Utf8 Value "defaultMethod"
+76: Tag 1 Utf8 Value "Ljava/lang/String;"
+77: Tag 1 Utf8 Value "Exceptions"
+78: Tag 1 Utf8 Value "t"
+79: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+80: Tag 1 Utf8 Value "context"
+81: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+82: Tag 1 Utf8 Value "StackMapTable"
+83: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+84: Tag 1 Utf8 Value "SourceFile"
+85: Tag 1 Utf8 Value "LifecyclePojoPhase.java"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 8, name org.jboss.as.pojo.service.LifecyclePojoPhase
+
+Super class: id 2, name org.jboss.as.pojo.service.AbstractPojoPhase
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getUpConfig (index 25), type ()Lorg/jboss/as/pojo/descriptor/LifecycleConfig; (descriptor index 26)
+Human type: (): org.jboss.as.pojo.descriptor.LifecycleConfig
+Flags: decimal 1028, hex 0404, binary 0000010000000100 protected abstract
+No method attributes
+Method name getDownConfig (index 52), type ()Lorg/jboss/as/pojo/descriptor/LifecycleConfig; (descriptor index 26)
+Human type: (): org.jboss.as.pojo.descriptor.LifecycleConfig
+Flags: decimal 1028, hex 0404, binary 0000010000000100 protected abstract
+No method attributes
+Method name defaultUp (index 29), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 1028, hex 0404, binary 0000010000000100 protected abstract
+No method attributes
+Method name defaultDown (index 55), type ()Ljava/lang/String; (descriptor index 30)
+Human type: (): java.lang.String
+Flags: decimal 1028, hex 0404, binary 0000010000000100 protected abstract
+No method attributes
+Method name dispatchJoinpoint (index 33), type (Lorg/jboss/as/pojo/descriptor/LifecycleConfig;Ljava/lang/String;)V (descriptor index 34)
+Human type: (org.jboss.as.pojo.descriptor.LifecycleConfig, java.lang.String): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 80
+Method attribute name Exceptions, size 4
+Method name startInternal (index 44), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 45)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 134
+Method attribute name Exceptions, size 4
+Method name stopInternal (index 48), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 49)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 140
+
+Class attribute name SourceFile, size 2

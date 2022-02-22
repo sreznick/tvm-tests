@@ -1,0 +1,131 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 79
+1: Tag 10 MethodRef Class index 14, Name and type index 48
+2: Tag 9 FieldRef Class index 12, Name and type index 49
+3: Tag 9 FieldRef Class index 12, Name and type index 50
+4: Tag 11 InterfaceMethodRef Class index 51, Name and type index 52
+5: Tag 9 FieldRef Class index 53, Name and type index 54
+6: Tag 11 InterfaceMethodRef Class index 55, Name and type index 56
+7: Tag 11 InterfaceMethodRef Class index 55, Name and type index 57
+8: Tag 10 MethodRef Class index 58, Name and type index 59
+9: Tag 10 MethodRef Class index 12, Name and type index 60
+10: Tag 9 FieldRef Class index 53, Name and type index 61
+11: Tag 9 FieldRef Class index 12, Name and type index 62
+12: Tag 7 Class Name index 63
+13: Tag 10 MethodRef Class index 12, Name and type index 48
+14: Tag 7 Class Name index 64
+15: Tag 1 Utf8 Value "SERVICE_NAME"
+16: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+17: Tag 1 Utf8 Value "Deprecated"
+18: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+19: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+20: Tag 1 Utf8 Value "INTERNAL_SERVICE_NAME"
+21: Tag 1 Utf8 Value "INSTANCE"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/txn/service/UserTransactionService;"
+23: Tag 1 Utf8 Value "<init>"
+24: Tag 1 Utf8 Value "()V"
+25: Tag 1 Utf8 Value "Code"
+26: Tag 1 Utf8 Value "LineNumberTable"
+27: Tag 1 Utf8 Value "LocalVariableTable"
+28: Tag 1 Utf8 Value "this"
+29: Tag 1 Utf8 Value "addService"
+30: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceController;"
+31: Tag 1 Utf8 Value "target"
+32: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+33: Tag 1 Utf8 Value "serviceBuilder"
+34: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+35: Tag 1 Utf8 Value "LocalVariableTypeTable"
+36: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<Ljavax/transaction/UserTransaction;>;"
+37: Tag 1 Utf8 Value "Signature"
+38: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceController<Ljavax/transaction/UserTransaction;>;"
+39: Tag 1 Utf8 Value "getValue"
+40: Tag 1 Utf8 Value "()Ljavax/transaction/UserTransaction;"
+41: Tag 1 Utf8 Value "Exceptions"
+42: Tag 7 Class Name index 65
+43: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+44: Tag 1 Utf8 Value "<clinit>"
+45: Tag 1 Utf8 Value "Lorg/jboss/msc/service/AbstractService<Ljavax/transaction/UserTransaction;>;"
+46: Tag 1 Utf8 Value "SourceFile"
+47: Tag 1 Utf8 Value "UserTransactionService.java"
+48: Tag 12 NameAndType Name index 23, Description index 24
+49: Tag 12 NameAndType Name index 20, Description index 16
+50: Tag 12 NameAndType Name index 21, Description index 22
+51: Tag 7 Class Name index 66
+52: Tag 12 NameAndType Name index 29, Description index 67
+53: Tag 7 Class Name index 68
+54: Tag 12 NameAndType Name index 69, Description index 16
+55: Tag 7 Class Name index 70
+56: Tag 12 NameAndType Name index 71, Description index 72
+57: Tag 12 NameAndType Name index 73, Description index 74
+58: Tag 7 Class Name index 75
+59: Tag 12 NameAndType Name index 76, Description index 77
+60: Tag 12 NameAndType Name index 39, Description index 40
+61: Tag 12 NameAndType Name index 78, Description index 16
+62: Tag 12 NameAndType Name index 15, Description index 16
+63: Tag 1 Utf8 Value "org/jboss/as/txn/service/UserTransactionService"
+64: Tag 1 Utf8 Value "org/jboss/msc/service/AbstractService"
+65: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+66: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+67: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+68: Tag 1 Utf8 Value "org/jboss/as/txn/service/TxnServices"
+69: Tag 1 Utf8 Value "JBOSS_TXN_LOCAL_TRANSACTION_CONTEXT"
+70: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+71: Tag 1 Utf8 Value "requires"
+72: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+73: Tag 1 Utf8 Value "install"
+74: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+75: Tag 1 Utf8 Value "org/wildfly/transaction/client/LocalUserTransaction"
+76: Tag 1 Utf8 Value "getInstance"
+77: Tag 1 Utf8 Value "()Lorg/wildfly/transaction/client/LocalUserTransaction;"
+78: Tag 1 Utf8 Value "JBOSS_TXN_USER_TRANSACTION"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 12, name org.jboss.as.txn.service.UserTransactionService
+
+Super class: id 14, name org.jboss.msc.service.AbstractService
+
+No interfaces
+
+Field name SERVICE_NAME (index 15), type Lorg/jboss/msc/service/ServiceName; (descriptor index 16)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Deprecated, size 0
+Field attribute name RuntimeVisibleAnnotations, size 6
+Field name INTERNAL_SERVICE_NAME (index 20), type Lorg/jboss/msc/service/ServiceName; (descriptor index 16)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name INSTANCE (index 21), type Lorg/jboss/as/txn/service/UserTransactionService; (descriptor index 22)
+Human type: org.jboss.as.txn.service.UserTransactionService
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 23), type ()V (descriptor index 24)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name addService (index 29), type (Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceController; (descriptor index 30)
+Human type: (org.jboss.msc.service.ServiceTarget): org.jboss.msc.service.ServiceController
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 108
+Method attribute name Signature, size 2
+Method name getValue (index 39), type ()Ljavax/transaction/UserTransaction; (descriptor index 40)
+Human type: (): javax.transaction.UserTransaction
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 46
+Method attribute name Exceptions, size 4
+Method name getValue (index 39), type ()Ljava/lang/Object; (descriptor index 43)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 44), type ()V (descriptor index 24)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 55
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

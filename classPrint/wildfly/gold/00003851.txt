@@ -1,0 +1,148 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 106
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/SingletonMetricExecutor"
+11: Tag 1 Utf8 Value "serviceNameFactory"
+12: Tag 1 Utf8 Value "Ljava/util/function/Function;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "executors"
+16: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+21: Tag 1 Utf8 Value "getCurrentAddressValue"
+22: Tag 1 Utf8 Value "()Ljava/lang/String;"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "java/util/function/Function"
+27: Tag 1 Utf8 Value "apply"
+28: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "java/lang/String"
+33: Tag 8 String Contents 34
+34: Tag 1 Utf8 Value "singleton"
+35: Tag 10 MethodRef Class index 29, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "append"
+38: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+39: Tag 11 InterfaceMethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/FunctionExecutorRegistry"
+43: Tag 1 Utf8 Value "get"
+44: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/as/clustering/controller/FunctionExecutor;"
+45: Tag 7 Class Name index 46
+46: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/SingletonMetricExecutor$LegacySingletonFunctionExecutor"
+47: Tag 10 MethodRef Class index 45, Name and type index 48
+48: Tag 12 NameAndType Name index 5, Description index 49
+49: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/msc/service/ServiceName;)V"
+50: Tag 7 Class Name index 51
+51: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/MetricFunction"
+52: Tag 11 InterfaceMethodRef Class index 24, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "identity"
+55: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+56: Tag 10 MethodRef Class index 50, Name and type index 57
+57: Tag 12 NameAndType Name index 5, Description index 58
+58: Tag 1 Utf8 Value "(Ljava/util/function/Function;Lorg/jboss/as/clustering/controller/Metric;)V"
+59: Tag 11 InterfaceMethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/FunctionExecutor"
+63: Tag 1 Utf8 Value "execute"
+64: Tag 1 Utf8 Value "(Lorg/wildfly/common/function/ExceptionFunction;)Ljava/lang/Object;"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/Metric"
+69: Tag 10 MethodRef Class index 8, Name and type index 70
+70: Tag 12 NameAndType Name index 63, Description index 71
+71: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Metric;)Lorg/jboss/dmr/ModelNode;"
+72: Tag 7 Class Name index 73
+73: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/MetricExecutor"
+74: Tag 1 Utf8 Value "Signature"
+75: Tag 1 Utf8 Value "Ljava/util/function/Function<Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;>;"
+76: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry<Lorg/wildfly/clustering/singleton/Singleton;>;"
+77: Tag 1 Utf8 Value "(Ljava/util/function/Function;Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry;)V"
+78: Tag 1 Utf8 Value "Code"
+79: Tag 1 Utf8 Value "LineNumberTable"
+80: Tag 1 Utf8 Value "LocalVariableTable"
+81: Tag 1 Utf8 Value "this"
+82: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/singleton/SingletonMetricExecutor;"
+83: Tag 1 Utf8 Value "LocalVariableTypeTable"
+84: Tag 1 Utf8 Value "(Ljava/util/function/Function<Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;>;Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry<Lorg/wildfly/clustering/singleton/Singleton;>;)V"
+85: Tag 1 Utf8 Value "context"
+86: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+87: Tag 1 Utf8 Value "metric"
+88: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Metric;"
+89: Tag 1 Utf8 Value "name"
+90: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+91: Tag 1 Utf8 Value "executor"
+92: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/FunctionExecutor;"
+93: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Metric<Lorg/wildfly/clustering/singleton/Singleton;>;"
+94: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/FunctionExecutor<Lorg/wildfly/clustering/singleton/Singleton;>;"
+95: Tag 1 Utf8 Value "StackMapTable"
+96: Tag 1 Utf8 Value "Exceptions"
+97: Tag 7 Class Name index 98
+98: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+99: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Metric<Lorg/wildfly/clustering/singleton/Singleton;>;)Lorg/jboss/dmr/ModelNode;"
+100: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Executable;)Lorg/jboss/dmr/ModelNode;"
+101: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/as/clustering/controller/MetricExecutor<Lorg/wildfly/clustering/singleton/Singleton;>;"
+102: Tag 1 Utf8 Value "SourceFile"
+103: Tag 1 Utf8 Value "SingletonMetricExecutor.java"
+104: Tag 1 Utf8 Value "InnerClasses"
+105: Tag 1 Utf8 Value "LegacySingletonFunctionExecutor"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.extension.clustering.singleton.SingletonMetricExecutor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 72
+Implements names org.jboss.as.clustering.controller.MetricExecutor
+
+Field name serviceNameFactory (index 11), type Ljava/util/function/Function; (descriptor index 12)
+Human type: java.util.function.Function
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name executors (index 15), type Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry; (descriptor index 16)
+Human type: org.jboss.as.clustering.controller.FunctionExecutorRegistry
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/util/function/Function;Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry;)V (descriptor index 77)
+Human type: (java.util.function.Function, org.jboss.as.clustering.controller.FunctionExecutorRegistry): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name execute (index 63), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Metric;)Lorg/jboss/dmr/ModelNode; (descriptor index 71)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.clustering.controller.Metric): org.jboss.dmr.ModelNode
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 221
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name execute (index 63), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Executable;)Lorg/jboss/dmr/ModelNode; (descriptor index 100)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.clustering.controller.Executable): org.jboss.dmr.ModelNode
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

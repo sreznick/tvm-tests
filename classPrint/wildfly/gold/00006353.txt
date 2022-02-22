@@ -1,0 +1,113 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 88
+1: Tag 10 MethodRef Class index 17, Name and type index 45
+2: Tag 11 InterfaceMethodRef Class index 46, Name and type index 47
+3: Tag 9 FieldRef Class index 12, Name and type index 48
+4: Tag 10 MethodRef Class index 6, Name and type index 49
+5: Tag 11 InterfaceMethodRef Class index 50, Name and type index 51
+6: Tag 7 Class Name index 52
+7: Tag 11 InterfaceMethodRef Class index 53, Name and type index 54
+8: Tag 8 String Contents 55
+9: Tag 7 Class Name index 56
+10: Tag 10 MethodRef Class index 57, Name and type index 58
+11: Tag 11 InterfaceMethodRef Class index 53, Name and type index 59
+12: Tag 7 Class Name index 60
+13: Tag 10 MethodRef Class index 12, Name and type index 61
+14: Tag 11 InterfaceMethodRef Class index 53, Name and type index 62
+15: Tag 11 InterfaceMethodRef Class index 53, Name and type index 63
+16: Tag 7 Class Name index 64
+17: Tag 7 Class Name index 65
+18: Tag 7 Class Name index 66
+19: Tag 1 Utf8 Value "<init>"
+20: Tag 1 Utf8 Value "()V"
+21: Tag 1 Utf8 Value "Code"
+22: Tag 1 Utf8 Value "LineNumberTable"
+23: Tag 1 Utf8 Value "LocalVariableTable"
+24: Tag 1 Utf8 Value "this"
+25: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/processor/TransactionsBootstrapDependencyInstaller;"
+26: Tag 1 Utf8 Value "install"
+27: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/server/deployment/DeploymentUnit;Z)Lorg/jboss/msc/service/ServiceName;"
+28: Tag 1 Utf8 Value "serviceTarget"
+29: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+30: Tag 1 Utf8 Value "deploymentUnit"
+31: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+32: Tag 1 Utf8 Value "jtsEnabled"
+33: Tag 1 Utf8 Value "Z"
+34: Tag 1 Utf8 Value "weldTransactionServiceName"
+35: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+36: Tag 1 Utf8 Value "sb"
+37: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+38: Tag 1 Utf8 Value "weldTransactionServicesConsumer"
+39: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+40: Tag 1 Utf8 Value "LocalVariableTypeTable"
+41: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+42: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/jboss/as/weld/services/bootstrap/WeldTransactionServices;>;"
+43: Tag 1 Utf8 Value "SourceFile"
+44: Tag 1 Utf8 Value "TransactionsBootstrapDependencyInstaller.java"
+45: Tag 12 NameAndType Name index 19, Description index 20
+46: Tag 7 Class Name index 67
+47: Tag 12 NameAndType Name index 68, Description index 69
+48: Tag 12 NameAndType Name index 70, Description index 35
+49: Tag 12 NameAndType Name index 71, Description index 72
+50: Tag 7 Class Name index 73
+51: Tag 12 NameAndType Name index 74, Description index 75
+52: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+53: Tag 7 Class Name index 76
+54: Tag 12 NameAndType Name index 77, Description index 78
+55: Tag 1 Utf8 Value "org.wildfly.transactions.global-default-local-provider"
+56: Tag 1 Utf8 Value "java/lang/String"
+57: Tag 7 Class Name index 79
+58: Tag 12 NameAndType Name index 80, Description index 81
+59: Tag 12 NameAndType Name index 82, Description index 83
+60: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldTransactionServices"
+61: Tag 12 NameAndType Name index 19, Description index 84
+62: Tag 12 NameAndType Name index 85, Description index 86
+63: Tag 12 NameAndType Name index 26, Description index 87
+64: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processor/TransactionsBootstrapDependencyInstaller"
+65: Tag 1 Utf8 Value "java/lang/Object"
+66: Tag 1 Utf8 Value "org/jboss/as/weld/spi/BootstrapDependencyInstaller"
+67: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+68: Tag 1 Utf8 Value "getServiceName"
+69: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+70: Tag 1 Utf8 Value "SERVICE_NAME"
+71: Tag 1 Utf8 Value "append"
+72: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceName;"
+73: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+74: Tag 1 Utf8 Value "addService"
+75: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+76: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+77: Tag 1 Utf8 Value "provides"
+78: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+79: Tag 1 Utf8 Value "org/jboss/as/weld/ServiceNames"
+80: Tag 1 Utf8 Value "capabilityServiceName"
+81: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/lang/String;[Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+82: Tag 1 Utf8 Value "requires"
+83: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+84: Tag 1 Utf8 Value "(ZLjava/util/function/Consumer;)V"
+85: Tag 1 Utf8 Value "setInstance"
+86: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+87: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 16, name org.jboss.as.weld.deployment.processor.TransactionsBootstrapDependencyInstaller
+
+Super class: id 17, name java.lang.Object
+
+Implements class ids 18
+Implements names org.jboss.as.weld.spi.BootstrapDependencyInstaller
+
+No fields
+
+Method name <init> (index 19), type ()V (descriptor index 20)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name install (index 26), type (Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/server/deployment/DeploymentUnit;Z)Lorg/jboss/msc/service/ServiceName; (descriptor index 27)
+Human type: (org.jboss.msc.service.ServiceTarget, org.jboss.as.server.deployment.DeploymentUnit, boolean): org.jboss.msc.service.ServiceName
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 243
+
+Class attribute name SourceFile, size 2

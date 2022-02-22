@@ -1,0 +1,129 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 97
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/controller/ModelOnlyAddStepHandler"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+11: Tag 1 Utf8 Value "setEmptyObject"
+12: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/messaging/BroadcastGroupDefinition"
+17: Tag 1 Utf8 Value "access$000"
+18: Tag 1 Utf8 Value "()Lorg/jboss/as/messaging/OperationValidator;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/messaging/OperationValidator"
+23: Tag 1 Utf8 Value "validateAndSet"
+24: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+25: Tag 10 MethodRef Class index 2, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "populateModel"
+28: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 12
+32: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+33: Tag 1 Utf8 Value "getModel"
+34: Tag 9 FieldRef Class index 14, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "CONNECTOR_REFS"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PrimitiveListAttributeDefinition;"
+38: Tag 10 MethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "org/jboss/as/controller/PrimitiveListAttributeDefinition"
+42: Tag 1 Utf8 Value "getName"
+43: Tag 1 Utf8 Value "()Ljava/lang/String;"
+44: Tag 10 MethodRef Class index 8, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "get"
+47: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+48: Tag 10 MethodRef Class index 8, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "isDefined"
+51: Tag 1 Utf8 Value "()Z"
+52: Tag 7 Class Name index 53
+53: Tag 1 Utf8 Value "org/jboss/as/messaging/BroadcastGroupDefinition$1$1"
+54: Tag 10 MethodRef Class index 52, Name and type index 55
+55: Tag 12 NameAndType Name index 5, Description index 56
+56: Tag 1 Utf8 Value "(Lorg/jboss/as/messaging/BroadcastGroupDefinition$1;Lorg/jboss/dmr/ModelNode;)V"
+57: Tag 9 FieldRef Class index 58, Name and type index 59
+58: Tag 7 Class Name index 60
+59: Tag 12 NameAndType Name index 61, Description index 62
+60: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext$Stage"
+61: Tag 1 Utf8 Value "MODEL"
+62: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext$Stage;"
+63: Tag 11 InterfaceMethodRef Class index 64, Name and type index 65
+64: Tag 7 Class Name index 66
+65: Tag 12 NameAndType Name index 67, Description index 68
+66: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+67: Tag 1 Utf8 Value "addStep"
+68: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationContext$Stage;)V"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "org/jboss/as/messaging/BroadcastGroupDefinition$1"
+71: Tag 1 Utf8 Value "Code"
+72: Tag 1 Utf8 Value "LineNumberTable"
+73: Tag 1 Utf8 Value "LocalVariableTable"
+74: Tag 1 Utf8 Value "this"
+75: Tag 1 Utf8 Value "Lorg/jboss/as/messaging/BroadcastGroupDefinition$1;"
+76: Tag 1 Utf8 Value "attributes"
+77: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+78: Tag 1 Utf8 Value "operation"
+79: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+80: Tag 1 Utf8 Value "model"
+81: Tag 1 Utf8 Value "Exceptions"
+82: Tag 7 Class Name index 83
+83: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+84: Tag 1 Utf8 Value "context"
+85: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+86: Tag 1 Utf8 Value "resource"
+87: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+88: Tag 1 Utf8 Value "connectorRefs"
+89: Tag 1 Utf8 Value "StackMapTable"
+90: Tag 1 Utf8 Value "SourceFile"
+91: Tag 1 Utf8 Value "BroadcastGroupDefinition.java"
+92: Tag 1 Utf8 Value "EnclosingMethod"
+93: Tag 12 NameAndType Name index 5, Description index 94
+94: Tag 1 Utf8 Value "()V"
+95: Tag 1 Utf8 Value "InnerClasses"
+96: Tag 1 Utf8 Value "Stage"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 69, name org.jboss.as.messaging.BroadcastGroupDefinition$1
+
+Super class: id 2, name org.jboss.as.controller.ModelOnlyAddStepHandler
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ([Lorg/jboss/as/controller/AttributeDefinition;)V (descriptor index 6)
+Human type: (org.jboss.as.controller.AttributeDefinition[]): void
+Flags: decimal 128, hex 0080, binary 0000000010000000 varargs
+Method attribute name Code, size 58
+Method name populateModel (index 27), type (Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V (descriptor index 24)
+Human type: (org.jboss.dmr.ModelNode, org.jboss.dmr.ModelNode): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 86
+Method attribute name Exceptions, size 4
+Method name populateModel (index 27), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/as/controller/registry/Resource;)V (descriptor index 28)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode, org.jboss.as.controller.registry.Resource): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 164
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 26

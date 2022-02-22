@@ -1,0 +1,154 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 104
+1: Tag 10 MethodRef Class index 22, Name and type index 60
+2: Tag 9 FieldRef Class index 12, Name and type index 61
+3: Tag 9 FieldRef Class index 12, Name and type index 62
+4: Tag 11 InterfaceMethodRef Class index 63, Name and type index 64
+5: Tag 7 Class Name index 65
+6: Tag 9 FieldRef Class index 66, Name and type index 67
+7: Tag 8 String Contents 68
+8: Tag 10 MethodRef Class index 5, Name and type index 69
+9: Tag 11 InterfaceMethodRef Class index 66, Name and type index 70
+10: Tag 7 Class Name index 71
+11: Tag 11 InterfaceMethodRef Class index 10, Name and type index 72
+12: Tag 7 Class Name index 73
+13: Tag 8 String Contents 74
+14: Tag 7 Class Name index 75
+15: Tag 10 MethodRef Class index 14, Name and type index 76
+16: Tag 10 MethodRef Class index 5, Name and type index 77
+17: Tag 7 Class Name index 78
+18: Tag 8 String Contents 79
+19: Tag 10 MethodRef Class index 17, Name and type index 80
+20: Tag 8 String Contents 81
+21: Tag 10 MethodRef Class index 5, Name and type index 82
+22: Tag 7 Class Name index 83
+23: Tag 7 Class Name index 84
+24: Tag 1 Utf8 Value "ConsoleRedirectHandler"
+25: Tag 1 Utf8 Value "InnerClasses"
+26: Tag 1 Utf8 Value "CONSOLE_PATH"
+27: Tag 1 Utf8 Value "Ljava/lang/String;"
+28: Tag 1 Utf8 Value "ConstantValue"
+29: Tag 1 Utf8 Value "NO_CONSOLE"
+30: Tag 1 Utf8 Value "NO_REDIRECT"
+31: Tag 8 String Contents 85
+32: Tag 1 Utf8 Value "httpManagement"
+33: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+34: Tag 1 Utf8 Value "Signature"
+35: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/server/mgmt/domain/HttpManagement;>;"
+36: Tag 1 Utf8 Value "host"
+37: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/wildfly/extension/undertow/Host;>;"
+38: Tag 1 Utf8 Value "<init>"
+39: Tag 1 Utf8 Value "(Ljava/util/function/Supplier;Ljava/util/function/Supplier;)V"
+40: Tag 1 Utf8 Value "Code"
+41: Tag 1 Utf8 Value "LineNumberTable"
+42: Tag 1 Utf8 Value "LocalVariableTable"
+43: Tag 1 Utf8 Value "this"
+44: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/ConsoleRedirectService;"
+45: Tag 1 Utf8 Value "LocalVariableTypeTable"
+46: Tag 1 Utf8 Value "(Ljava/util/function/Supplier<Lorg/jboss/as/server/mgmt/domain/HttpManagement;>;Ljava/util/function/Supplier<Lorg/wildfly/extension/undertow/Host;>;)V"
+47: Tag 1 Utf8 Value "start"
+48: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+49: Tag 1 Utf8 Value "startContext"
+50: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+51: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/Host;"
+52: Tag 1 Utf8 Value "Lorg/jboss/as/server/mgmt/domain/HttpManagement;"
+53: Tag 1 Utf8 Value "StackMapTable"
+54: Tag 1 Utf8 Value "stop"
+55: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+56: Tag 1 Utf8 Value "stopContext"
+57: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+58: Tag 1 Utf8 Value "SourceFile"
+59: Tag 1 Utf8 Value "ConsoleRedirectService.java"
+60: Tag 12 NameAndType Name index 38, Description index 86
+61: Tag 12 NameAndType Name index 32, Description index 33
+62: Tag 12 NameAndType Name index 36, Description index 33
+63: Tag 7 Class Name index 87
+64: Tag 12 NameAndType Name index 88, Description index 89
+65: Tag 1 Utf8 Value "org/wildfly/extension/undertow/Host"
+66: Tag 7 Class Name index 90
+67: Tag 12 NameAndType Name index 91, Description index 92
+68: Tag 1 Utf8 Value "Starting console redirect for %s"
+69: Tag 12 NameAndType Name index 93, Description index 94
+70: Tag 12 NameAndType Name index 95, Description index 96
+71: Tag 1 Utf8 Value "org/jboss/as/server/mgmt/domain/HttpManagement"
+72: Tag 12 NameAndType Name index 97, Description index 98
+73: Tag 1 Utf8 Value "org/wildfly/extension/undertow/ConsoleRedirectService"
+74: Tag 1 Utf8 Value "/console"
+75: Tag 1 Utf8 Value "org/wildfly/extension/undertow/ConsoleRedirectService$ConsoleRedirectHandler"
+76: Tag 12 NameAndType Name index 38, Description index 99
+77: Tag 12 NameAndType Name index 100, Description index 101
+78: Tag 1 Utf8 Value "io/undertow/server/handlers/RedirectHandler"
+79: Tag 1 Utf8 Value "/noconsole.html"
+80: Tag 12 NameAndType Name index 38, Description index 102
+81: Tag 1 Utf8 Value "Stopping console redirect for %s"
+82: Tag 12 NameAndType Name index 103, Description index 102
+83: Tag 1 Utf8 Value "java/lang/Object"
+84: Tag 1 Utf8 Value "org/jboss/msc/Service"
+85: Tag 1 Utf8 Value "/noredirect.html"
+86: Tag 1 Utf8 Value "()V"
+87: Tag 1 Utf8 Value "java/util/function/Supplier"
+88: Tag 1 Utf8 Value "get"
+89: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+90: Tag 1 Utf8 Value "org/wildfly/extension/undertow/logging/UndertowLogger"
+91: Tag 1 Utf8 Value "ROOT_LOGGER"
+92: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/logging/UndertowLogger;"
+93: Tag 1 Utf8 Value "getName"
+94: Tag 1 Utf8 Value "()Ljava/lang/String;"
+95: Tag 1 Utf8 Value "debugf"
+96: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+97: Tag 1 Utf8 Value "hasConsole"
+98: Tag 1 Utf8 Value "()Z"
+99: Tag 1 Utf8 Value "(Lorg/jboss/as/server/mgmt/domain/HttpManagement;)V"
+100: Tag 1 Utf8 Value "registerHandler"
+101: Tag 1 Utf8 Value "(Ljava/lang/String;Lio/undertow/server/HttpHandler;)V"
+102: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+103: Tag 1 Utf8 Value "unregisterHandler"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 12, name org.wildfly.extension.undertow.ConsoleRedirectService
+
+Super class: id 22, name java.lang.Object
+
+Implements class ids 23
+Implements names org.jboss.msc.Service
+
+Field name CONSOLE_PATH (index 26), type Ljava/lang/String; (descriptor index 27)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name NO_CONSOLE (index 29), type Ljava/lang/String; (descriptor index 27)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name NO_REDIRECT (index 30), type Ljava/lang/String; (descriptor index 27)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name httpManagement (index 32), type Ljava/util/function/Supplier; (descriptor index 33)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name host (index 36), type Ljava/util/function/Supplier; (descriptor index 33)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 38), type (Ljava/util/function/Supplier;Ljava/util/function/Supplier;)V (descriptor index 39)
+Human type: (java.util.function.Supplier, java.util.function.Supplier): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name start (index 47), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 48)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 245
+Method name stop (index 54), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 55)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 108
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

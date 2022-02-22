@@ -1,0 +1,104 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 71
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+11: Tag 1 Utf8 Value "getDeploymentUnit"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/health/deployment/DependencyProcessor"
+17: Tag 1 Utf8 Value "addModuleDependencies"
+18: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+19: Tag 9 FieldRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+23: Tag 1 Utf8 Value "MODULE_SPECIFICATION"
+24: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+29: Tag 1 Utf8 Value "getAttachment"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ModuleSpecification"
+33: Tag 10 MethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/modules/Module"
+37: Tag 1 Utf8 Value "getBootModuleLoader"
+38: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleLoader;"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ModuleDependency"
+41: Tag 8 String Contents 42
+42: Tag 1 Utf8 Value "org.eclipse.microprofile.health.api"
+43: Tag 10 MethodRef Class index 39, Name and type index 44
+44: Tag 12 NameAndType Name index 5, Description index 45
+45: Tag 1 Utf8 Value "(Lorg/jboss/modules/ModuleLoader;Ljava/lang/String;ZZZZ)V"
+46: Tag 10 MethodRef Class index 31, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "addSystemDependency"
+49: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/module/ModuleDependency;)V"
+50: Tag 7 Class Name index 51
+51: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+52: Tag 1 Utf8 Value "Code"
+53: Tag 1 Utf8 Value "LineNumberTable"
+54: Tag 1 Utf8 Value "LocalVariableTable"
+55: Tag 1 Utf8 Value "this"
+56: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/health/deployment/DependencyProcessor;"
+57: Tag 1 Utf8 Value "deploy"
+58: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+59: Tag 1 Utf8 Value "phaseContext"
+60: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+61: Tag 1 Utf8 Value "deploymentUnit"
+62: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+63: Tag 1 Utf8 Value "undeploy"
+64: Tag 1 Utf8 Value "context"
+65: Tag 1 Utf8 Value "moduleSpecification"
+66: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/module/ModuleSpecification;"
+67: Tag 1 Utf8 Value "moduleLoader"
+68: Tag 1 Utf8 Value "Lorg/jboss/modules/ModuleLoader;"
+69: Tag 1 Utf8 Value "SourceFile"
+70: Tag 1 Utf8 Value "DependencyProcessor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.wildfly.extension.microprofile.health.deployment.DependencyProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 50
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name deploy (index 57), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 58)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 82
+Method name undeploy (index 63), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 18)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name addModuleDependencies (index 17), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 18)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 110
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,189 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 119
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 9 FieldRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/jboss/as/mail/extension/ServerConfig"
+14: Tag 1 Utf8 Value "credentialSourceSupplierInjector"
+15: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+16: Tag 9 FieldRef Class index 11, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "sslEnabled"
+19: Tag 1 Utf8 Value "Z"
+20: Tag 9 FieldRef Class index 11, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 19
+22: Tag 1 Utf8 Value "tlsEnabled"
+23: Tag 9 FieldRef Class index 11, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "outgoingSocketBinding"
+26: Tag 1 Utf8 Value "Ljava/lang/String;"
+27: Tag 9 FieldRef Class index 11, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "credentials"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/Credentials;"
+31: Tag 9 FieldRef Class index 11, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "properties"
+34: Tag 1 Utf8 Value "Ljava/util/Map;"
+35: Tag 10 MethodRef Class index 7, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "getOptionalValue"
+38: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/wildfly/common/function/ExceptionSupplier"
+41: Tag 11 InterfaceMethodRef Class index 39, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 38
+43: Tag 1 Utf8 Value "get"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "org/wildfly/security/credential/source/CredentialSource"
+46: Tag 7 Class Name index 47
+47: Tag 1 Utf8 Value "org/wildfly/security/credential/PasswordCredential"
+48: Tag 11 InterfaceMethodRef Class index 44, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "getCredential"
+51: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/wildfly/security/credential/Credential;"
+52: Tag 7 Class Name index 53
+53: Tag 1 Utf8 Value "org/wildfly/security/password/interfaces/ClearPassword"
+54: Tag 10 MethodRef Class index 46, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 57
+56: Tag 1 Utf8 Value "getPassword"
+57: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/wildfly/security/password/Password;"
+58: Tag 11 InterfaceMethodRef Class index 52, Name and type index 59
+59: Tag 12 NameAndType Name index 56, Description index 60
+60: Tag 1 Utf8 Value "()[C"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "org/jboss/as/mail/extension/Credentials"
+63: Tag 10 MethodRef Class index 61, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "getUsername"
+66: Tag 1 Utf8 Value "()Ljava/lang/String;"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "java/lang/String"
+69: Tag 10 MethodRef Class index 67, Name and type index 70
+70: Tag 12 NameAndType Name index 5, Description index 71
+71: Tag 1 Utf8 Value "([C)V"
+72: Tag 10 MethodRef Class index 61, Name and type index 73
+73: Tag 12 NameAndType Name index 5, Description index 74
+74: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+75: Tag 7 Class Name index 76
+76: Tag 1 Utf8 Value "java/lang/Exception"
+77: Tag 7 Class Name index 78
+78: Tag 1 Utf8 Value "java/lang/RuntimeException"
+79: Tag 10 MethodRef Class index 77, Name and type index 80
+80: Tag 12 NameAndType Name index 5, Description index 81
+81: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+82: Tag 1 Utf8 Value "Signature"
+83: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/common/function/ExceptionSupplier<Lorg/wildfly/security/credential/source/CredentialSource;Ljava/lang/Exception;>;>;"
+84: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+85: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/mail/extension/Credentials;ZZLjava/util/Map;)V"
+86: Tag 1 Utf8 Value "Code"
+87: Tag 1 Utf8 Value "LineNumberTable"
+88: Tag 1 Utf8 Value "LocalVariableTable"
+89: Tag 1 Utf8 Value "this"
+90: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/ServerConfig;"
+91: Tag 1 Utf8 Value "ssl"
+92: Tag 1 Utf8 Value "tls"
+93: Tag 1 Utf8 Value "LocalVariableTypeTable"
+94: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/mail/extension/Credentials;ZZLjava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)V"
+95: Tag 1 Utf8 Value "getOutgoingSocketBinding"
+96: Tag 1 Utf8 Value "getCredentials"
+97: Tag 1 Utf8 Value "()Lorg/jboss/as/mail/extension/Credentials;"
+98: Tag 1 Utf8 Value "credentialSource"
+99: Tag 1 Utf8 Value "Lorg/wildfly/security/credential/source/CredentialSource;"
+100: Tag 1 Utf8 Value "password"
+101: Tag 1 Utf8 Value "[C"
+102: Tag 1 Utf8 Value "e"
+103: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+104: Tag 1 Utf8 Value "credentialSourceSupplier"
+105: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionSupplier;"
+106: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionSupplier<Lorg/wildfly/security/credential/source/CredentialSource;Ljava/lang/Exception;>;"
+107: Tag 1 Utf8 Value "StackMapTable"
+108: Tag 1 Utf8 Value "isSslEnabled"
+109: Tag 1 Utf8 Value "()Z"
+110: Tag 1 Utf8 Value "isTlsEnabled"
+111: Tag 1 Utf8 Value "getProperties"
+112: Tag 1 Utf8 Value "()Ljava/util/Map;"
+113: Tag 1 Utf8 Value "()Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+114: Tag 1 Utf8 Value "getCredentialSourceSupplierInjector"
+115: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+116: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/wildfly/common/function/ExceptionSupplier<Lorg/wildfly/security/credential/source/CredentialSource;Ljava/lang/Exception;>;>;"
+117: Tag 1 Utf8 Value "SourceFile"
+118: Tag 1 Utf8 Value "ServerConfig.java"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 11, name org.jboss.as.mail.extension.ServerConfig
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name outgoingSocketBinding (index 25), type Ljava/lang/String; (descriptor index 26)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name credentials (index 29), type Lorg/jboss/as/mail/extension/Credentials; (descriptor index 30)
+Human type: org.jboss.as.mail.extension.Credentials
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name credentialSourceSupplierInjector (index 14), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 15)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name sslEnabled (index 18), type Z (descriptor index 19)
+Human type: boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name tlsEnabled (index 22), type Z (descriptor index 19)
+Human type: boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name properties (index 33), type Ljava/util/Map; (descriptor index 34)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/lang/String;Lorg/jboss/as/mail/extension/Credentials;ZZLjava/util/Map;)V (descriptor index 85)
+Human type: (java.lang.String, org.jboss.as.mail.extension.Credentials, boolean, boolean, java.util.Map): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 199
+Method attribute name Signature, size 2
+Method name getOutgoingSocketBinding (index 95), type ()Ljava/lang/String; (descriptor index 66)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getCredentials (index 96), type ()Lorg/jboss/as/mail/extension/Credentials; (descriptor index 97)
+Human type: (): org.jboss.as.mail.extension.Credentials
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 283
+Method name isSslEnabled (index 108), type ()Z (descriptor index 109)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name isTlsEnabled (index 110), type ()Z (descriptor index 109)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getProperties (index 111), type ()Ljava/util/Map; (descriptor index 112)
+Human type: (): java.util.Map
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getCredentialSourceSupplierInjector (index 114), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 115)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2

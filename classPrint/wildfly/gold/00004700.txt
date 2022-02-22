@@ -1,0 +1,90 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 53
+1: Tag 10 MethodRef Class index 8, Name and type index 33
+2: Tag 9 FieldRef Class index 7, Name and type index 34
+3: Tag 9 FieldRef Class index 7, Name and type index 35
+4: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+5: Tag 11 InterfaceMethodRef Class index 38, Name and type index 39
+6: Tag 11 InterfaceMethodRef Class index 38, Name and type index 40
+7: Tag 7 Class Name index 41
+8: Tag 7 Class Name index 42
+9: Tag 7 Class Name index 43
+10: Tag 1 Utf8 Value "partitioner"
+11: Tag 1 Utf8 Value "Lorg/infinispan/distribution/ch/KeyPartitioner;"
+12: Tag 1 Utf8 Value "hash"
+13: Tag 1 Utf8 Value "Lorg/infinispan/distribution/ch/ConsistentHash;"
+14: Tag 1 Utf8 Value "<init>"
+15: Tag 1 Utf8 Value "(Lorg/infinispan/distribution/ch/KeyPartitioner;Lorg/infinispan/distribution/ch/ConsistentHash;)V"
+16: Tag 1 Utf8 Value "Code"
+17: Tag 1 Utf8 Value "LineNumberTable"
+18: Tag 1 Utf8 Value "LocalVariableTable"
+19: Tag 1 Utf8 Value "this"
+20: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/spi/distribution/ConsistentHashKeyDistribution;"
+21: Tag 1 Utf8 Value "getPrimaryOwner"
+22: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/infinispan/remoting/transport/Address;"
+23: Tag 1 Utf8 Value "key"
+24: Tag 1 Utf8 Value "Ljava/lang/Object;"
+25: Tag 1 Utf8 Value "segment"
+26: Tag 1 Utf8 Value "I"
+27: Tag 1 Utf8 Value "getOwners"
+28: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/List;"
+29: Tag 1 Utf8 Value "Signature"
+30: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/List<Lorg/infinispan/remoting/transport/Address;>;"
+31: Tag 1 Utf8 Value "SourceFile"
+32: Tag 1 Utf8 Value "ConsistentHashKeyDistribution.java"
+33: Tag 12 NameAndType Name index 14, Description index 44
+34: Tag 12 NameAndType Name index 10, Description index 11
+35: Tag 12 NameAndType Name index 12, Description index 13
+36: Tag 7 Class Name index 45
+37: Tag 12 NameAndType Name index 46, Description index 47
+38: Tag 7 Class Name index 48
+39: Tag 12 NameAndType Name index 49, Description index 50
+40: Tag 12 NameAndType Name index 51, Description index 52
+41: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/ConsistentHashKeyDistribution"
+42: Tag 1 Utf8 Value "java/lang/Object"
+43: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/KeyDistribution"
+44: Tag 1 Utf8 Value "()V"
+45: Tag 1 Utf8 Value "org/infinispan/distribution/ch/KeyPartitioner"
+46: Tag 1 Utf8 Value "getSegment"
+47: Tag 1 Utf8 Value "(Ljava/lang/Object;)I"
+48: Tag 1 Utf8 Value "org/infinispan/distribution/ch/ConsistentHash"
+49: Tag 1 Utf8 Value "locatePrimaryOwnerForSegment"
+50: Tag 1 Utf8 Value "(I)Lorg/infinispan/remoting/transport/Address;"
+51: Tag 1 Utf8 Value "locateOwnersForSegment"
+52: Tag 1 Utf8 Value "(I)Ljava/util/List;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 7, name org.wildfly.clustering.infinispan.spi.distribution.ConsistentHashKeyDistribution
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 9
+Implements names org.wildfly.clustering.infinispan.spi.distribution.KeyDistribution
+
+Field name partitioner (index 10), type Lorg/infinispan/distribution/ch/KeyPartitioner; (descriptor index 11)
+Human type: org.infinispan.distribution.ch.KeyPartitioner
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name hash (index 12), type Lorg/infinispan/distribution/ch/ConsistentHash; (descriptor index 13)
+Human type: org.infinispan.distribution.ch.ConsistentHash
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 14), type (Lorg/infinispan/distribution/ch/KeyPartitioner;Lorg/infinispan/distribution/ch/ConsistentHash;)V (descriptor index 15)
+Human type: (org.infinispan.distribution.ch.KeyPartitioner, org.infinispan.distribution.ch.ConsistentHash): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name getPrimaryOwner (index 21), type (Ljava/lang/Object;)Lorg/infinispan/remoting/transport/Address; (descriptor index 22)
+Human type: (java.lang.Object): org.infinispan.remoting.transport.Address
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method name getOwners (index 27), type (Ljava/lang/Object;)Ljava/util/List; (descriptor index 28)
+Human type: (java.lang.Object): java.util.List
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2

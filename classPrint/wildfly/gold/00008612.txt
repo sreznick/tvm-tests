@@ -1,0 +1,107 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 64
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationAddHandler$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationAddHandler;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$injector"
+10: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "val$config"
+14: Tag 1 Utf8 Value "Lorg/wildfly/microprofile/opentracing/smallrye/TracerConfiguration;"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "java/lang/Object"
+19: Tag 1 Utf8 Value "<init>"
+20: Tag 1 Utf8 Value "()V"
+21: Tag 11 InterfaceMethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "java/util/function/Consumer"
+25: Tag 1 Utf8 Value "accept"
+26: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+27: Tag 11 InterfaceMethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/TracerConfiguration"
+31: Tag 1 Utf8 Value "getName"
+32: Tag 1 Utf8 Value "()Ljava/lang/String;"
+33: Tag 10 MethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/WildFlyTracerFactory"
+37: Tag 1 Utf8 Value "registerTracer"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/function/Consumer;"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/msc/Service"
+41: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationAddHandler;Ljava/util/function/Consumer;Lorg/wildfly/microprofile/opentracing/smallrye/TracerConfiguration;)V"
+42: Tag 1 Utf8 Value "Code"
+43: Tag 1 Utf8 Value "LineNumberTable"
+44: Tag 1 Utf8 Value "LocalVariableTable"
+45: Tag 1 Utf8 Value "this"
+46: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationAddHandler$1;"
+47: Tag 1 Utf8 Value "Signature"
+48: Tag 1 Utf8 Value "start"
+49: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+50: Tag 1 Utf8 Value "context"
+51: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+52: Tag 1 Utf8 Value "stop"
+53: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+54: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+55: Tag 1 Utf8 Value "SourceFile"
+56: Tag 1 Utf8 Value "JaegerTracerConfigurationAddHandler.java"
+57: Tag 1 Utf8 Value "EnclosingMethod"
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationAddHandler"
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "performRuntime"
+62: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+63: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.microprofile.opentracing.JaegerTracerConfigurationAddHandler$1
+
+Super class: id 16, name java.lang.Object
+
+Implements class ids 39
+Implements names org.jboss.msc.Service
+
+Field name val$injector (index 9), type Ljava/util/function/Consumer; (descriptor index 10)
+Human type: java.util.function.Consumer
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$config (index 13), type Lorg/wildfly/microprofile/opentracing/smallrye/TracerConfiguration; (descriptor index 14)
+Human type: org.wildfly.microprofile.opentracing.smallrye.TracerConfiguration
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationAddHandler; (descriptor index 6)
+Human type: org.wildfly.extension.microprofile.opentracing.JaegerTracerConfigurationAddHandler
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 19), type (Lorg/wildfly/extension/microprofile/opentracing/JaegerTracerConfigurationAddHandler;Ljava/util/function/Consumer;Lorg/wildfly/microprofile/opentracing/smallrye/TracerConfiguration;)V (descriptor index 41)
+Human type: (org.wildfly.extension.microprofile.opentracing.JaegerTracerConfigurationAddHandler, java.util.function.Consumer, org.wildfly.microprofile.opentracing.smallrye.TracerConfiguration): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 72
+Method attribute name Signature, size 2
+Method name start (index 48), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 49)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 95
+Method name stop (index 52), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 53)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 75
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

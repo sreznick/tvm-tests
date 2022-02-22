@@ -1,0 +1,220 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 163
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/config/smallrye/DirConfigSourceRegistrationService"
+11: Tag 1 Utf8 Value "name"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "path"
+16: Tag 9 FieldRef Class index 8, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 12
+18: Tag 1 Utf8 Value "relativeTo"
+19: Tag 9 FieldRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "ordinal"
+22: Tag 1 Utf8 Value "I"
+23: Tag 9 FieldRef Class index 8, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "pathManager"
+26: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+27: Tag 9 FieldRef Class index 8, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "sources"
+30: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/config/smallrye/Registry;"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+35: Tag 1 Utf8 Value "getServiceTarget"
+36: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+37: Tag 9 FieldRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/config/smallrye/ServiceNames"
+41: Tag 1 Utf8 Value "CONFIG_SOURCE"
+42: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "java/lang/String"
+45: Tag 10 MethodRef Class index 46, Name and type index 47
+46: Tag 7 Class Name index 48
+47: Tag 12 NameAndType Name index 49, Description index 50
+48: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+49: Tag 1 Utf8 Value "append"
+50: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+51: Tag 11 InterfaceMethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 56
+54: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+55: Tag 1 Utf8 Value "addService"
+56: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+57: Tag 8 String Contents 58
+58: Tag 1 Utf8 Value "org.wildfly.management.path-manager"
+59: Tag 7 Class Name index 60
+60: Tag 1 Utf8 Value "org/jboss/as/controller/services/path/PathManager"
+61: Tag 11 InterfaceMethodRef Class index 32, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "getCapabilityServiceName"
+64: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Lorg/jboss/msc/service/ServiceName;"
+65: Tag 11 InterfaceMethodRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 69, Description index 70
+68: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+69: Tag 1 Utf8 Value "requires"
+70: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+71: Tag 10 MethodRef Class index 8, Name and type index 72
+72: Tag 12 NameAndType Name index 5, Description index 73
+73: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Supplier;Lorg/wildfly/extension/microprofile/config/smallrye/Registry;)V"
+74: Tag 11 InterfaceMethodRef Class index 66, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "setInstance"
+77: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+78: Tag 11 InterfaceMethodRef Class index 66, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "install"
+81: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+82: Tag 10 MethodRef Class index 83, Name and type index 84
+83: Tag 7 Class Name index 85
+84: Tag 12 NameAndType Name index 86, Description index 87
+85: Tag 1 Utf8 Value "org/jboss/as/controller/services/path/AbsolutePathService"
+86: Tag 1 Utf8 Value "isAbsoluteUnixOrWindowsPath"
+87: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+88: Tag 11 InterfaceMethodRef Class index 89, Name and type index 90
+89: Tag 7 Class Name index 91
+90: Tag 12 NameAndType Name index 92, Description index 93
+91: Tag 1 Utf8 Value "java/util/function/Supplier"
+92: Tag 1 Utf8 Value "get"
+93: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+94: Tag 11 InterfaceMethodRef Class index 59, Name and type index 95
+95: Tag 12 NameAndType Name index 96, Description index 97
+96: Tag 1 Utf8 Value "resolveRelativePathEntry"
+97: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+98: Tag 7 Class Name index 99
+99: Tag 1 Utf8 Value "java/io/File"
+100: Tag 10 MethodRef Class index 98, Name and type index 101
+101: Tag 12 NameAndType Name index 5, Description index 102
+102: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+103: Tag 9 FieldRef Class index 104, Name and type index 105
+104: Tag 7 Class Name index 106
+105: Tag 12 NameAndType Name index 107, Description index 108
+106: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/config/smallrye/_private/MicroProfileConfigLogger"
+107: Tag 1 Utf8 Value "ROOT_LOGGER"
+108: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/config/smallrye/_private/MicroProfileConfigLogger;"
+109: Tag 10 MethodRef Class index 98, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 112
+111: Tag 1 Utf8 Value "getAbsolutePath"
+112: Tag 1 Utf8 Value "()Ljava/lang/String;"
+113: Tag 11 InterfaceMethodRef Class index 104, Name and type index 114
+114: Tag 12 NameAndType Name index 115, Description index 102
+115: Tag 1 Utf8 Value "loadConfigSourceFromDir"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "io/smallrye/config/source/file/FileSystemConfigSource"
+118: Tag 10 MethodRef Class index 116, Name and type index 119
+119: Tag 12 NameAndType Name index 5, Description index 120
+120: Tag 1 Utf8 Value "(Ljava/io/File;I)V"
+121: Tag 11 InterfaceMethodRef Class index 122, Name and type index 123
+122: Tag 7 Class Name index 124
+123: Tag 12 NameAndType Name index 125, Description index 126
+124: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/config/smallrye/Registry"
+125: Tag 1 Utf8 Value "register"
+126: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+127: Tag 11 InterfaceMethodRef Class index 122, Name and type index 128
+128: Tag 12 NameAndType Name index 129, Description index 102
+129: Tag 1 Utf8 Value "unregister"
+130: Tag 7 Class Name index 131
+131: Tag 1 Utf8 Value "org/jboss/msc/Service"
+132: Tag 1 Utf8 Value "Signature"
+133: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/controller/services/path/PathManager;>;"
+134: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/config/smallrye/Registry<Lorg/eclipse/microprofile/config/spi/ConfigSource;>;"
+135: Tag 1 Utf8 Value "Code"
+136: Tag 1 Utf8 Value "LineNumberTable"
+137: Tag 1 Utf8 Value "LocalVariableTable"
+138: Tag 1 Utf8 Value "this"
+139: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/config/smallrye/DirConfigSourceRegistrationService;"
+140: Tag 1 Utf8 Value "LocalVariableTypeTable"
+141: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Supplier<Lorg/jboss/as/controller/services/path/PathManager;>;Lorg/wildfly/extension/microprofile/config/smallrye/Registry<Lorg/eclipse/microprofile/config/spi/ConfigSource;>;)V"
+142: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILorg/wildfly/extension/microprofile/config/smallrye/Registry;)V"
+143: Tag 1 Utf8 Value "context"
+144: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+145: Tag 1 Utf8 Value "registry"
+146: Tag 1 Utf8 Value "builder"
+147: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+148: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+149: Tag 1 Utf8 Value "start"
+150: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+151: Tag 1 Utf8 Value "startContext"
+152: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+153: Tag 1 Utf8 Value "relativeToPath"
+154: Tag 1 Utf8 Value "dirPath"
+155: Tag 1 Utf8 Value "dir"
+156: Tag 1 Utf8 Value "Ljava/io/File;"
+157: Tag 1 Utf8 Value "StackMapTable"
+158: Tag 1 Utf8 Value "stop"
+159: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+160: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+161: Tag 1 Utf8 Value "SourceFile"
+162: Tag 1 Utf8 Value "DirConfigSourceRegistrationService.java"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 8, name org.wildfly.extension.microprofile.config.smallrye.DirConfigSourceRegistrationService
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 130
+Implements names org.jboss.msc.Service
+
+Field name name (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name path (index 15), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name relativeTo (index 18), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name ordinal (index 21), type I (descriptor index 22)
+Human type: int
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name pathManager (index 25), type Ljava/util/function/Supplier; (descriptor index 26)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name sources (index 29), type Lorg/wildfly/extension/microprofile/config/smallrye/Registry; (descriptor index 30)
+Human type: org.wildfly.extension.microprofile.config.smallrye.Registry
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/util/function/Supplier;Lorg/wildfly/extension/microprofile/config/smallrye/Registry;)V (descriptor index 73)
+Human type: (java.lang.String, java.lang.String, java.lang.String, int, java.util.function.Supplier, org.wildfly.extension.microprofile.config.smallrye.Registry): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 196
+Method attribute name Signature, size 2
+Method name install (index 80), type (Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILorg/wildfly/extension/microprofile/config/smallrye/Registry;)V (descriptor index 142)
+Human type: (org.jboss.as.controller.OperationContext, java.lang.String, java.lang.String, java.lang.String, int, org.wildfly.extension.microprofile.config.smallrye.Registry): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 236
+Method name start (index 149), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 150)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 207
+Method name stop (index 158), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 159)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+
+Class attribute name SourceFile, size 2

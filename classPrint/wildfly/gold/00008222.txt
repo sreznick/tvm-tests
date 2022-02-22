@@ -1,0 +1,474 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 402
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "java/lang/Object"
+7: Tag 1 Utf8 Value "<init>"
+8: Tag 1 Utf8 Value "()V"
+9: Tag 7 Class Name index 10
+10: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+11: Tag 10 MethodRef Class index 9, Name and type index 5
+12: Tag 9 FieldRef Class index 13, Name and type index 14
+13: Tag 7 Class Name index 15
+14: Tag 12 NameAndType Name index 16, Description index 17
+15: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/EEJndiViewExtension"
+16: Tag 1 Utf8 Value "registry"
+17: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+18: Tag 10 MethodRef Class index 9, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "getValue"
+21: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+22: Tag 7 Class Name index 23
+23: Tag 1 Utf8 Value "org/jboss/as/naming/management/JndiViewExtensionRegistry"
+24: Tag 10 MethodRef Class index 22, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 27
+26: Tag 1 Utf8 Value "addExtension"
+27: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/management/JndiViewExtension;)V"
+28: Tag 10 MethodRef Class index 22, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 27
+30: Tag 1 Utf8 Value "removeExtension"
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/as/naming/management/JndiViewExtensionContext"
+35: Tag 1 Utf8 Value "getResult"
+36: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+37: Tag 8 String Contents 38
+38: Tag 1 Utf8 Value "applications"
+39: Tag 10 MethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+43: Tag 1 Utf8 Value "get"
+44: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+45: Tag 11 InterfaceMethodRef Class index 32, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "getOperationContext"
+48: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/OperationContext;"
+49: Tag 11 InterfaceMethodRef Class index 50, Name and type index 51
+50: Tag 7 Class Name index 52
+51: Tag 12 NameAndType Name index 53, Description index 54
+52: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+53: Tag 1 Utf8 Value "getServiceRegistry"
+54: Tag 1 Utf8 Value "(Z)Lorg/jboss/msc/service/ServiceRegistry;"
+55: Tag 9 FieldRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+59: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+60: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+61: Tag 11 InterfaceMethodRef Class index 50, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "readResourceFromRoot"
+64: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;Z)Lorg/jboss/as/controller/registry/Resource;"
+65: Tag 8 String Contents 66
+66: Tag 1 Utf8 Value "deployment"
+67: Tag 11 InterfaceMethodRef Class index 68, Name and type index 69
+68: Tag 7 Class Name index 70
+69: Tag 12 NameAndType Name index 71, Description index 72
+70: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+71: Tag 1 Utf8 Value "getChildren"
+72: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Set;"
+73: Tag 11 InterfaceMethodRef Class index 74, Name and type index 75
+74: Tag 7 Class Name index 76
+75: Tag 12 NameAndType Name index 77, Description index 78
+76: Tag 1 Utf8 Value "java/util/Set"
+77: Tag 1 Utf8 Value "iterator"
+78: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+79: Tag 11 InterfaceMethodRef Class index 80, Name and type index 81
+80: Tag 7 Class Name index 82
+81: Tag 12 NameAndType Name index 83, Description index 84
+82: Tag 1 Utf8 Value "java/util/Iterator"
+83: Tag 1 Utf8 Value "hasNext"
+84: Tag 1 Utf8 Value "()Z"
+85: Tag 11 InterfaceMethodRef Class index 80, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 21
+87: Tag 1 Utf8 Value "next"
+88: Tag 7 Class Name index 89
+89: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource$ResourceEntry"
+90: Tag 9 FieldRef Class index 91, Name and type index 92
+91: Tag 7 Class Name index 93
+92: Tag 12 NameAndType Name index 94, Description index 95
+93: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+94: Tag 1 Utf8 Value "JBOSS"
+95: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+96: Tag 7 Class Name index 97
+97: Tag 1 Utf8 Value "java/lang/String"
+98: Tag 8 String Contents 99
+99: Tag 1 Utf8 Value "unit"
+100: Tag 11 InterfaceMethodRef Class index 88, Name and type index 101
+101: Tag 12 NameAndType Name index 102, Description index 103
+102: Tag 1 Utf8 Value "getName"
+103: Tag 1 Utf8 Value "()Ljava/lang/String;"
+104: Tag 10 MethodRef Class index 91, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 107
+106: Tag 1 Utf8 Value "append"
+107: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+108: Tag 11 InterfaceMethodRef Class index 109, Name and type index 110
+109: Tag 7 Class Name index 111
+110: Tag 12 NameAndType Name index 112, Description index 113
+111: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+112: Tag 1 Utf8 Value "getService"
+113: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+114: Tag 7 Class Name index 115
+115: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+116: Tag 11 InterfaceMethodRef Class index 117, Name and type index 19
+117: Tag 7 Class Name index 118
+118: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+119: Tag 10 MethodRef Class index 120, Name and type index 121
+120: Tag 7 Class Name index 122
+121: Tag 12 NameAndType Name index 123, Description index 124
+122: Tag 1 Utf8 Value "java/lang/Class"
+123: Tag 1 Utf8 Value "cast"
+124: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+125: Tag 11 InterfaceMethodRef Class index 114, Name and type index 101
+126: Tag 10 MethodRef Class index 13, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 129
+128: Tag 1 Utf8 Value "cleanName"
+129: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+130: Tag 10 MethodRef Class index 131, Name and type index 132
+131: Tag 7 Class Name index 133
+132: Tag 12 NameAndType Name index 134, Description index 135
+133: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames"
+134: Tag 1 Utf8 Value "contextServiceNameOfApplication"
+135: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+136: Tag 7 Class Name index 137
+137: Tag 1 Utf8 Value "org/jboss/as/naming/NamingStore"
+138: Tag 8 String Contents 139
+139: Tag 1 Utf8 Value "java:app"
+140: Tag 7 Class Name index 141
+141: Tag 1 Utf8 Value "org/jboss/as/naming/NamingContext"
+142: Tag 10 MethodRef Class index 140, Name and type index 143
+143: Tag 12 NameAndType Name index 7, Description index 144
+144: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/NamingStore;Ljava/util/Hashtable;)V"
+145: Tag 11 InterfaceMethodRef Class index 32, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 148
+147: Tag 1 Utf8 Value "addEntries"
+148: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Ljavax/naming/Context;)V"
+149: Tag 7 Class Name index 150
+150: Tag 1 Utf8 Value "javax/naming/NamingException"
+151: Tag 7 Class Name index 152
+152: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+153: Tag 10 MethodRef Class index 40, Name and type index 5
+154: Tag 9 FieldRef Class index 155, Name and type index 156
+155: Tag 7 Class Name index 157
+156: Tag 12 NameAndType Name index 158, Description index 159
+157: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+158: Tag 1 Utf8 Value "ROOT_LOGGER"
+159: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+160: Tag 11 InterfaceMethodRef Class index 155, Name and type index 161
+161: Tag 12 NameAndType Name index 162, Description index 163
+162: Tag 1 Utf8 Value "failedToRead"
+163: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+164: Tag 10 MethodRef Class index 40, Name and type index 165
+165: Tag 12 NameAndType Name index 166, Description index 44
+166: Tag 1 Utf8 Value "set"
+167: Tag 10 MethodRef Class index 151, Name and type index 168
+168: Tag 12 NameAndType Name index 7, Description index 169
+169: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Lorg/jboss/dmr/ModelNode;)V"
+170: Tag 9 FieldRef Class index 171, Name and type index 172
+171: Tag 7 Class Name index 173
+172: Tag 12 NameAndType Name index 174, Description index 175
+173: Tag 1 Utf8 Value "org/jboss/as/ee/structure/DeploymentType"
+174: Tag 1 Utf8 Value "EAR"
+175: Tag 1 Utf8 Value "Lorg/jboss/as/ee/structure/DeploymentType;"
+176: Tag 10 MethodRef Class index 177, Name and type index 178
+177: Tag 7 Class Name index 179
+178: Tag 12 NameAndType Name index 180, Description index 181
+179: Tag 1 Utf8 Value "org/jboss/as/ee/structure/DeploymentTypeMarker"
+180: Tag 1 Utf8 Value "isType"
+181: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/structure/DeploymentType;Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+182: Tag 9 FieldRef Class index 183, Name and type index 184
+183: Tag 7 Class Name index 185
+184: Tag 12 NameAndType Name index 186, Description index 187
+185: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+186: Tag 1 Utf8 Value "RESOURCE_ROOTS"
+187: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+188: Tag 11 InterfaceMethodRef Class index 114, Name and type index 189
+189: Tag 12 NameAndType Name index 190, Description index 191
+190: Tag 1 Utf8 Value "getAttachmentList"
+191: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/util/List;"
+192: Tag 11 InterfaceMethodRef Class index 193, Name and type index 75
+193: Tag 7 Class Name index 194
+194: Tag 1 Utf8 Value "java/util/List"
+195: Tag 7 Class Name index 196
+196: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ResourceRoot"
+197: Tag 10 MethodRef Class index 198, Name and type index 199
+198: Tag 7 Class Name index 200
+199: Tag 12 NameAndType Name index 201, Description index 202
+200: Tag 1 Utf8 Value "org/jboss/as/server/deployment/SubDeploymentMarker"
+201: Tag 1 Utf8 Value "isSubDeployment"
+202: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/module/ResourceRoot;)Z"
+203: Tag 9 FieldRef Class index 183, Name and type index 204
+204: Tag 12 NameAndType Name index 205, Description index 187
+205: Tag 1 Utf8 Value "DEPLOYMENT_ROOT"
+206: Tag 11 InterfaceMethodRef Class index 114, Name and type index 207
+207: Tag 12 NameAndType Name index 208, Description index 209
+208: Tag 1 Utf8 Value "getAttachment"
+209: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+210: Tag 10 MethodRef Class index 195, Name and type index 211
+211: Tag 12 NameAndType Name index 212, Description index 213
+212: Tag 1 Utf8 Value "getRoot"
+213: Tag 1 Utf8 Value "()Lorg/jboss/vfs/VirtualFile;"
+214: Tag 10 MethodRef Class index 215, Name and type index 216
+215: Tag 7 Class Name index 217
+216: Tag 12 NameAndType Name index 218, Description index 219
+217: Tag 1 Utf8 Value "org/jboss/vfs/VirtualFile"
+218: Tag 1 Utf8 Value "getPathNameRelativeTo"
+219: Tag 1 Utf8 Value "(Lorg/jboss/vfs/VirtualFile;)Ljava/lang/String;"
+220: Tag 10 MethodRef Class index 221, Name and type index 222
+221: Tag 7 Class Name index 223
+222: Tag 12 NameAndType Name index 224, Description index 225
+223: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Services"
+224: Tag 1 Utf8 Value "deploymentUnitName"
+225: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+226: Tag 8 String Contents 227
+227: Tag 1 Utf8 Value "modules"
+228: Tag 10 MethodRef Class index 13, Name and type index 229
+229: Tag 12 NameAndType Name index 230, Description index 231
+230: Tag 1 Utf8 Value "handleModule"
+231: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/management/JndiViewExtensionContext;Lorg/jboss/as/server/deployment/DeploymentUnit;Lorg/jboss/dmr/ModelNode;Lorg/jboss/msc/service/ServiceRegistry;)V"
+232: Tag 9 FieldRef Class index 233, Name and type index 234
+233: Tag 7 Class Name index 235
+234: Tag 12 NameAndType Name index 236, Description index 187
+235: Tag 1 Utf8 Value "org/jboss/as/ee/component/Attachments"
+236: Tag 1 Utf8 Value "EE_MODULE_DESCRIPTION"
+237: Tag 7 Class Name index 238
+238: Tag 1 Utf8 Value "org/jboss/as/ee/component/EEModuleDescription"
+239: Tag 10 MethodRef Class index 237, Name and type index 240
+240: Tag 12 NameAndType Name index 241, Description index 103
+241: Tag 1 Utf8 Value "getApplicationName"
+242: Tag 10 MethodRef Class index 237, Name and type index 243
+243: Tag 12 NameAndType Name index 244, Description index 103
+244: Tag 1 Utf8 Value "getModuleName"
+245: Tag 10 MethodRef Class index 131, Name and type index 246
+246: Tag 12 NameAndType Name index 247, Description index 225
+247: Tag 1 Utf8 Value "contextServiceNameOfModule"
+248: Tag 8 String Contents 249
+249: Tag 1 Utf8 Value "java:module"
+250: Tag 11 InterfaceMethodRef Class index 155, Name and type index 251
+251: Tag 12 NameAndType Name index 162, Description index 252
+252: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+253: Tag 10 MethodRef Class index 237, Name and type index 254
+254: Tag 12 NameAndType Name index 255, Description index 256
+255: Tag 1 Utf8 Value "getComponentDescriptions"
+256: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+257: Tag 11 InterfaceMethodRef Class index 258, Name and type index 75
+258: Tag 7 Class Name index 259
+259: Tag 1 Utf8 Value "java/util/Collection"
+260: Tag 7 Class Name index 261
+261: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentDescription"
+262: Tag 10 MethodRef Class index 260, Name and type index 263
+263: Tag 12 NameAndType Name index 264, Description index 103
+264: Tag 1 Utf8 Value "getComponentName"
+265: Tag 10 MethodRef Class index 131, Name and type index 266
+266: Tag 12 NameAndType Name index 267, Description index 268
+267: Tag 1 Utf8 Value "contextServiceNameOfComponent"
+268: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+269: Tag 8 String Contents 270
+270: Tag 1 Utf8 Value "components"
+271: Tag 8 String Contents 272
+272: Tag 1 Utf8 Value "java:comp"
+273: Tag 11 InterfaceMethodRef Class index 155, Name and type index 274
+274: Tag 12 NameAndType Name index 162, Description index 275
+275: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+276: Tag 8 String Contents 277
+277: Tag 1 Utf8 Value ".war"
+278: Tag 10 MethodRef Class index 96, Name and type index 279
+279: Tag 12 NameAndType Name index 280, Description index 281
+280: Tag 1 Utf8 Value "endsWith"
+281: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+282: Tag 8 String Contents 283
+283: Tag 1 Utf8 Value ".jar"
+284: Tag 8 String Contents 285
+285: Tag 1 Utf8 Value ".ear"
+286: Tag 8 String Contents 287
+287: Tag 1 Utf8 Value ".rar"
+288: Tag 10 MethodRef Class index 96, Name and type index 289
+289: Tag 12 NameAndType Name index 290, Description index 291
+290: Tag 1 Utf8 Value "length"
+291: Tag 1 Utf8 Value "()I"
+292: Tag 10 MethodRef Class index 96, Name and type index 293
+293: Tag 12 NameAndType Name index 294, Description index 295
+294: Tag 1 Utf8 Value "substring"
+295: Tag 1 Utf8 Value "(II)Ljava/lang/String;"
+296: Tag 10 MethodRef Class index 13, Name and type index 297
+297: Tag 12 NameAndType Name index 20, Description index 298
+298: Tag 1 Utf8 Value "()Ljava/lang/Void;"
+299: Tag 8 String Contents 300
+300: Tag 1 Utf8 Value "jndi-view"
+301: Tag 8 String Contents 302
+302: Tag 1 Utf8 Value "extension"
+303: Tag 8 String Contents 304
+304: Tag 1 Utf8 Value "ee"
+305: Tag 9 FieldRef Class index 13, Name and type index 306
+306: Tag 12 NameAndType Name index 307, Description index 95
+307: Tag 1 Utf8 Value "SERVICE_NAME"
+308: Tag 7 Class Name index 309
+309: Tag 1 Utf8 Value "org/jboss/as/naming/management/JndiViewExtension"
+310: Tag 7 Class Name index 311
+311: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+312: Tag 1 Utf8 Value "Signature"
+313: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/as/naming/management/JndiViewExtensionRegistry;>;"
+314: Tag 1 Utf8 Value "Code"
+315: Tag 1 Utf8 Value "LineNumberTable"
+316: Tag 1 Utf8 Value "LocalVariableTable"
+317: Tag 1 Utf8 Value "this"
+318: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/EEJndiViewExtension;"
+319: Tag 1 Utf8 Value "start"
+320: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+321: Tag 1 Utf8 Value "startContext"
+322: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+323: Tag 1 Utf8 Value "Exceptions"
+324: Tag 7 Class Name index 325
+325: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+326: Tag 1 Utf8 Value "stop"
+327: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+328: Tag 1 Utf8 Value "stopContext"
+329: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+330: Tag 7 Class Name index 331
+331: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+332: Tag 7 Class Name index 333
+333: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+334: Tag 1 Utf8 Value "execute"
+335: Tag 1 Utf8 Value "(Lorg/jboss/as/naming/management/JndiViewExtensionContext;)V"
+336: Tag 1 Utf8 Value "e"
+337: Tag 1 Utf8 Value "Ljavax/naming/NamingException;"
+338: Tag 1 Utf8 Value "appStore"
+339: Tag 1 Utf8 Value "Lorg/jboss/as/naming/NamingStore;"
+340: Tag 1 Utf8 Value "subDeploymentUnit"
+341: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+342: Tag 1 Utf8 Value "parentRoot"
+343: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/module/ResourceRoot;"
+344: Tag 1 Utf8 Value "relativePath"
+345: Tag 1 Utf8 Value "Ljava/lang/String;"
+346: Tag 1 Utf8 Value "subDeploymentServiceName"
+347: Tag 1 Utf8 Value "subDeploymentController"
+348: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+349: Tag 1 Utf8 Value "root"
+350: Tag 1 Utf8 Value "roots"
+351: Tag 1 Utf8 Value "Ljava/util/List;"
+352: Tag 1 Utf8 Value "deploymentNode"
+353: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+354: Tag 1 Utf8 Value "deploymentUnit"
+355: Tag 1 Utf8 Value "appName"
+356: Tag 1 Utf8 Value "appContextName"
+357: Tag 1 Utf8 Value "appContextController"
+358: Tag 1 Utf8 Value "deploymentUnitServiceController"
+359: Tag 1 Utf8 Value "entry"
+360: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource$ResourceEntry;"
+361: Tag 1 Utf8 Value "context"
+362: Tag 1 Utf8 Value "Lorg/jboss/as/naming/management/JndiViewExtensionContext;"
+363: Tag 1 Utf8 Value "applicationsNode"
+364: Tag 1 Utf8 Value "serviceRegistry"
+365: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceRegistry;"
+366: Tag 1 Utf8 Value "deploymentResource"
+367: Tag 1 Utf8 Value "Ljava/util/Set;"
+368: Tag 1 Utf8 Value "LocalVariableTypeTable"
+369: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+370: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/server/deployment/module/ResourceRoot;>;"
+371: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/jboss/as/controller/registry/Resource$ResourceEntry;>;"
+372: Tag 1 Utf8 Value "StackMapTable"
+373: Tag 1 Utf8 Value "componentNode"
+374: Tag 1 Utf8 Value "compStore"
+375: Tag 1 Utf8 Value "componentName"
+376: Tag 1 Utf8 Value "compContextServiceName"
+377: Tag 1 Utf8 Value "compContextController"
+378: Tag 1 Utf8 Value "componentDescription"
+379: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentDescription;"
+380: Tag 1 Utf8 Value "moduleStore"
+381: Tag 1 Utf8 Value "componentDescriptions"
+382: Tag 1 Utf8 Value "Ljava/util/Collection;"
+383: Tag 1 Utf8 Value "modulesNode"
+384: Tag 1 Utf8 Value "moduleDescription"
+385: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEModuleDescription;"
+386: Tag 1 Utf8 Value "moduleName"
+387: Tag 1 Utf8 Value "moduleNode"
+388: Tag 1 Utf8 Value "moduleContextName"
+389: Tag 1 Utf8 Value "moduleContextController"
+390: Tag 1 Utf8 Value "Ljava/util/Collection<Lorg/jboss/as/ee/component/ComponentDescription;>;"
+391: Tag 1 Utf8 Value "cleaned"
+392: Tag 1 Utf8 Value "name"
+393: Tag 1 Utf8 Value "getRegistryInjector"
+394: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+395: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Lorg/jboss/as/naming/management/JndiViewExtensionRegistry;>;"
+396: Tag 1 Utf8 Value "<clinit>"
+397: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/as/naming/management/JndiViewExtension;Lorg/jboss/msc/service/Service<Ljava/lang/Void;>;"
+398: Tag 1 Utf8 Value "SourceFile"
+399: Tag 1 Utf8 Value "EEJndiViewExtension.java"
+400: Tag 1 Utf8 Value "InnerClasses"
+401: Tag 1 Utf8 Value "ResourceEntry"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 13, name org.jboss.as.ee.subsystem.EEJndiViewExtension
+
+Super class: id 4, name java.lang.Object
+
+Implements class ids 308 310
+Implements names org.jboss.as.naming.management.JndiViewExtension org.jboss.msc.service.Service
+
+Field name SERVICE_NAME (index 307), type Lorg/jboss/msc/service/ServiceName; (descriptor index 95)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name registry (index 16), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 17)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 7), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name start (index 319), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 320)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 71
+Method attribute name Exceptions, size 4
+Method name stop (index 326), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 327)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 71
+Method name getValue (index 20), type ()Ljava/lang/Void; (descriptor index 298)
+Human type: (): java.lang.Void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method attribute name Exceptions, size 6
+Method name execute (index 334), type (Lorg/jboss/as/naming/management/JndiViewExtensionContext;)V (descriptor index 335)
+Human type: (org.jboss.as.naming.management.JndiViewExtensionContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 1016
+Method attribute name Exceptions, size 4
+Method name handleModule (index 230), type (Lorg/jboss/as/naming/management/JndiViewExtensionContext;Lorg/jboss/as/server/deployment/DeploymentUnit;Lorg/jboss/dmr/ModelNode;Lorg/jboss/msc/service/ServiceRegistry;)V (descriptor index 231)
+Human type: (org.jboss.as.naming.management.JndiViewExtensionContext, org.jboss.as.server.deployment.DeploymentUnit, org.jboss.dmr.ModelNode, org.jboss.msc.service.ServiceRegistry): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 919
+Method attribute name Exceptions, size 4
+Method name cleanName (index 128), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 129)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 159
+Method name getRegistryInjector (index 393), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 394)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getValue (index 20), type ()Ljava/lang/Object; (descriptor index 21)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name <clinit> (index 396), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 56
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

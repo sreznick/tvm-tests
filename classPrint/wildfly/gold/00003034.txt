@@ -1,0 +1,147 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 92
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/util/OptionalInt"
+11: Tag 1 Utf8 Value "isPresent"
+12: Tag 1 Utf8 Value "()Z"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/io/ObjectOutput"
+17: Tag 1 Utf8 Value "writeBoolean"
+18: Tag 1 Utf8 Value "(Z)V"
+19: Tag 10 MethodRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "getAsInt"
+22: Tag 1 Utf8 Value "()I"
+23: Tag 11 InterfaceMethodRef Class index 14, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "writeInt"
+26: Tag 1 Utf8 Value "(I)V"
+27: Tag 11 InterfaceMethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 12
+30: Tag 1 Utf8 Value "java/io/ObjectInput"
+31: Tag 1 Utf8 Value "readBoolean"
+32: Tag 11 InterfaceMethodRef Class index 28, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 22
+34: Tag 1 Utf8 Value "readInt"
+35: Tag 10 MethodRef Class index 8, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "of"
+38: Tag 1 Utf8 Value "(I)Ljava/util/OptionalInt;"
+39: Tag 10 MethodRef Class index 8, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "empty"
+42: Tag 1 Utf8 Value "()Ljava/util/OptionalInt;"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "java/lang/Integer"
+45: Tag 7 Class Name index 46
+46: Tag 1 Utf8 Value "java/lang/Byte"
+47: Tag 10 MethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/util/OptionalIntExternalizer"
+51: Tag 1 Utf8 Value "size"
+52: Tag 1 Utf8 Value "(Ljava/util/OptionalInt;)Ljava/util/OptionalInt;"
+53: Tag 10 MethodRef Class index 48, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "readObject"
+56: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/util/OptionalInt;"
+57: Tag 10 MethodRef Class index 48, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "writeObject"
+60: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/util/OptionalInt;)V"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Externalizer"
+63: Tag 1 Utf8 Value "Code"
+64: Tag 1 Utf8 Value "LineNumberTable"
+65: Tag 1 Utf8 Value "LocalVariableTable"
+66: Tag 1 Utf8 Value "this"
+67: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/util/OptionalIntExternalizer;"
+68: Tag 1 Utf8 Value "output"
+69: Tag 1 Utf8 Value "Ljava/io/ObjectOutput;"
+70: Tag 1 Utf8 Value "value"
+71: Tag 1 Utf8 Value "Ljava/util/OptionalInt;"
+72: Tag 1 Utf8 Value "present"
+73: Tag 1 Utf8 Value "Z"
+74: Tag 1 Utf8 Value "StackMapTable"
+75: Tag 1 Utf8 Value "Exceptions"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "java/io/IOException"
+78: Tag 1 Utf8 Value "input"
+79: Tag 1 Utf8 Value "Ljava/io/ObjectInput;"
+80: Tag 7 Class Name index 81
+81: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+82: Tag 1 Utf8 Value "getTargetClass"
+83: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+84: Tag 1 Utf8 Value "Signature"
+85: Tag 1 Utf8 Value "()Ljava/lang/Class<Ljava/util/OptionalInt;>;"
+86: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/OptionalInt;"
+87: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/lang/Object;"
+88: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/lang/Object;)V"
+89: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/Externalizer<Ljava/util/OptionalInt;>;"
+90: Tag 1 Utf8 Value "SourceFile"
+91: Tag 1 Utf8 Value "OptionalIntExternalizer.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 48, name org.wildfly.clustering.marshalling.spi.util.OptionalIntExternalizer
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 61
+Implements names org.wildfly.clustering.marshalling.Externalizer
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name writeObject (index 59), type (Ljava/io/ObjectOutput;Ljava/util/OptionalInt;)V (descriptor index 60)
+Human type: (java.io.ObjectOutput, java.util.OptionalInt): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 127
+Method attribute name Exceptions, size 4
+Method name readObject (index 55), type (Ljava/io/ObjectInput;)Ljava/util/OptionalInt; (descriptor index 56)
+Human type: (java.io.ObjectInput): java.util.OptionalInt
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 90
+Method attribute name Exceptions, size 6
+Method name size (index 51), type (Ljava/util/OptionalInt;)Ljava/util/OptionalInt; (descriptor index 52)
+Human type: (java.util.OptionalInt): java.util.OptionalInt
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 79
+Method name getTargetClass (index 82), type ()Ljava/lang/Class; (descriptor index 83)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method attribute name Signature, size 2
+Method name size (index 51), type (Ljava/lang/Object;)Ljava/util/OptionalInt; (descriptor index 86)
+Human type: (java.lang.Object): java.util.OptionalInt
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+Method name readObject (index 55), type (Ljava/io/ObjectInput;)Ljava/lang/Object; (descriptor index 87)
+Human type: (java.io.ObjectInput): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method attribute name Exceptions, size 6
+Method name writeObject (index 59), type (Ljava/io/ObjectOutput;Ljava/lang/Object;)V (descriptor index 88)
+Human type: (java.io.ObjectOutput, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

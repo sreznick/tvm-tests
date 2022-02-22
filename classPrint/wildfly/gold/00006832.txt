@@ -1,0 +1,120 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 68
+1: Tag 10 MethodRef Class index 7, Name and type index 55
+2: Tag 9 FieldRef Class index 5, Name and type index 56
+3: Tag 7 Class Name index 57
+4: Tag 10 MethodRef Class index 3, Name and type index 58
+5: Tag 7 Class Name index 59
+6: Tag 8 String Contents 60
+7: Tag 7 Class Name index 61
+8: Tag 7 Class Name index 62
+9: Tag 7 Class Name index 63
+10: Tag 1 Utf8 Value "InnerClasses"
+11: Tag 7 Class Name index 64
+12: Tag 1 Utf8 Value "ClassLoaderResetContextHandle"
+13: Tag 1 Utf8 Value "ClassLoaderSetupContextHandle"
+14: Tag 1 Utf8 Value "NAME"
+15: Tag 1 Utf8 Value "Ljava/lang/String;"
+16: Tag 1 Utf8 Value "ConstantValue"
+17: Tag 1 Utf8 Value "classLoader"
+18: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+19: Tag 1 Utf8 Value "<init>"
+20: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)V"
+21: Tag 1 Utf8 Value "Code"
+22: Tag 1 Utf8 Value "LineNumberTable"
+23: Tag 1 Utf8 Value "LocalVariableTable"
+24: Tag 1 Utf8 Value "this"
+25: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory;"
+26: Tag 1 Utf8 Value "saveContext"
+27: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/ContextService;Ljava/util/Map;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;"
+28: Tag 1 Utf8 Value "contextService"
+29: Tag 1 Utf8 Value "Ljakarta/enterprise/concurrent/ContextService;"
+30: Tag 1 Utf8 Value "contextObjectProperties"
+31: Tag 1 Utf8 Value "Ljava/util/Map;"
+32: Tag 1 Utf8 Value "LocalVariableTypeTable"
+33: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+34: Tag 1 Utf8 Value "Signature"
+35: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/ContextService;Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;"
+36: Tag 1 Utf8 Value "getName"
+37: Tag 1 Utf8 Value "()Ljava/lang/String;"
+38: Tag 1 Utf8 Value "getChainPriority"
+39: Tag 1 Utf8 Value "()I"
+40: Tag 1 Utf8 Value "writeSetupContextHandle"
+41: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;Ljava/io/ObjectOutputStream;)V"
+42: Tag 1 Utf8 Value "contextHandle"
+43: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;"
+44: Tag 1 Utf8 Value "out"
+45: Tag 1 Utf8 Value "Ljava/io/ObjectOutputStream;"
+46: Tag 1 Utf8 Value "Exceptions"
+47: Tag 7 Class Name index 65
+48: Tag 1 Utf8 Value "readSetupContextHandle"
+49: Tag 1 Utf8 Value "(Ljava/io/ObjectInputStream;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;"
+50: Tag 1 Utf8 Value "in"
+51: Tag 1 Utf8 Value "Ljava/io/ObjectInputStream;"
+52: Tag 7 Class Name index 66
+53: Tag 1 Utf8 Value "SourceFile"
+54: Tag 1 Utf8 Value "ClassLoaderContextHandleFactory.java"
+55: Tag 12 NameAndType Name index 19, Description index 67
+56: Tag 12 NameAndType Name index 17, Description index 18
+57: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory$ClassLoaderSetupContextHandle"
+58: Tag 12 NameAndType Name index 19, Description index 20
+59: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory"
+60: Tag 1 Utf8 Value "CLASSLOADER"
+61: Tag 1 Utf8 Value "java/lang/Object"
+62: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ContextHandleFactory"
+63: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory$1"
+64: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory$ClassLoaderResetContextHandle"
+65: Tag 1 Utf8 Value "java/io/IOException"
+66: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+67: Tag 1 Utf8 Value "()V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 5, name org.jboss.as.ee.concurrent.handle.ClassLoaderContextHandleFactory
+
+Super class: id 7, name java.lang.Object
+
+Implements class ids 8
+Implements names org.jboss.as.ee.concurrent.handle.ContextHandleFactory
+
+Field name NAME (index 14), type Ljava/lang/String; (descriptor index 15)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name classLoader (index 17), type Ljava/lang/ClassLoader; (descriptor index 18)
+Human type: java.lang.ClassLoader
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 19), type (Ljava/lang/ClassLoader;)V (descriptor index 20)
+Human type: (java.lang.ClassLoader): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name saveContext (index 26), type (Ljakarta/enterprise/concurrent/ContextService;Ljava/util/Map;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle; (descriptor index 27)
+Human type: (jakarta.enterprise.concurrent.ContextService, java.util.Map): org.jboss.as.ee.concurrent.handle.SetupContextHandle
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 92
+Method attribute name Signature, size 2
+Method name getName (index 36), type ()Ljava/lang/String; (descriptor index 37)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method name getChainPriority (index 38), type ()I (descriptor index 39)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method name writeSetupContextHandle (index 40), type (Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle;Ljava/io/ObjectOutputStream;)V (descriptor index 41)
+Human type: (org.jboss.as.ee.concurrent.handle.SetupContextHandle, java.io.ObjectOutputStream): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Exceptions, size 4
+Method name readSetupContextHandle (index 48), type (Ljava/io/ObjectInputStream;)Lorg/jboss/as/ee/concurrent/handle/SetupContextHandle; (descriptor index 49)
+Human type: (java.io.ObjectInputStream): org.jboss.as.ee.concurrent.handle.SetupContextHandle
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 64
+Method attribute name Exceptions, size 6
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

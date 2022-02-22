@@ -1,0 +1,140 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 93
+1: Tag 10 MethodRef Class index 23, Name and type index 54
+2: Tag 9 FieldRef Class index 19, Name and type index 55
+3: Tag 10 MethodRef Class index 21, Name and type index 56
+4: Tag 7 Class Name index 57
+5: Tag 10 MethodRef Class index 19, Name and type index 58
+6: Tag 9 FieldRef Class index 59, Name and type index 60
+7: Tag 11 InterfaceMethodRef Class index 59, Name and type index 61
+8: Tag 7 Class Name index 62
+9: Tag 10 MethodRef Class index 4, Name and type index 63
+10: Tag 7 Class Name index 64
+11: Tag 11 InterfaceMethodRef Class index 59, Name and type index 65
+12: Tag 10 MethodRef Class index 10, Name and type index 66
+13: Tag 10 MethodRef Class index 21, Name and type index 67
+14: Tag 9 FieldRef Class index 19, Name and type index 68
+15: Tag 7 Class Name index 69
+16: Tag 8 String Contents 70
+17: Tag 10 MethodRef Class index 15, Name and type index 71
+18: Tag 10 MethodRef Class index 21, Name and type index 72
+19: Tag 7 Class Name index 73
+20: Tag 10 MethodRef Class index 74, Name and type index 75
+21: Tag 7 Class Name index 76
+22: Tag 10 MethodRef Class index 21, Name and type index 54
+23: Tag 7 Class Name index 77
+24: Tag 1 Utf8 Value "stack"
+25: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/util/ThreadLocalStack;"
+26: Tag 1 Utf8 Value "Signature"
+27: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/util/ThreadLocalStack<Lorg/jboss/invocation/InterceptorContext;>;"
+28: Tag 1 Utf8 Value "$assertionsDisabled"
+29: Tag 1 Utf8 Value "Z"
+30: Tag 1 Utf8 Value "<init>"
+31: Tag 1 Utf8 Value "()V"
+32: Tag 1 Utf8 Value "Code"
+33: Tag 1 Utf8 Value "LineNumberTable"
+34: Tag 1 Utf8 Value "LocalVariableTable"
+35: Tag 1 Utf8 Value "this"
+36: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/context/CurrentInvocationContext;"
+37: Tag 1 Utf8 Value "get"
+38: Tag 1 Utf8 Value "()Lorg/jboss/invocation/InterceptorContext;"
+39: Tag 1 Utf8 Value "current"
+40: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+41: Tag 1 Utf8 Value "getEjbContext"
+42: Tag 1 Utf8 Value "()Lorg/jboss/as/ejb3/context/EJBContextImpl;"
+43: Tag 1 Utf8 Value "context"
+44: Tag 1 Utf8 Value "component"
+45: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentInstance;"
+46: Tag 1 Utf8 Value "StackMapTable"
+47: Tag 1 Utf8 Value "pop"
+48: Tag 1 Utf8 Value "push"
+49: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)V"
+50: Tag 1 Utf8 Value "invocation"
+51: Tag 1 Utf8 Value "<clinit>"
+52: Tag 1 Utf8 Value "SourceFile"
+53: Tag 1 Utf8 Value "CurrentInvocationContext.java"
+54: Tag 12 NameAndType Name index 30, Description index 31
+55: Tag 12 NameAndType Name index 24, Description index 25
+56: Tag 12 NameAndType Name index 78, Description index 79
+57: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+58: Tag 12 NameAndType Name index 37, Description index 38
+59: Tag 7 Class Name index 80
+60: Tag 12 NameAndType Name index 81, Description index 82
+61: Tag 12 NameAndType Name index 83, Description index 84
+62: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentInstance"
+63: Tag 12 NameAndType Name index 85, Description index 86
+64: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/EjbComponentInstance"
+65: Tag 12 NameAndType Name index 87, Description index 88
+66: Tag 12 NameAndType Name index 41, Description index 42
+67: Tag 12 NameAndType Name index 47, Description index 79
+68: Tag 12 NameAndType Name index 28, Description index 29
+69: Tag 1 Utf8 Value "java/lang/AssertionError"
+70: Tag 1 Utf8 Value "invocation is null"
+71: Tag 12 NameAndType Name index 30, Description index 89
+72: Tag 12 NameAndType Name index 48, Description index 89
+73: Tag 1 Utf8 Value "org/jboss/as/ejb3/context/CurrentInvocationContext"
+74: Tag 7 Class Name index 90
+75: Tag 12 NameAndType Name index 91, Description index 92
+76: Tag 1 Utf8 Value "org/jboss/as/ejb3/util/ThreadLocalStack"
+77: Tag 1 Utf8 Value "java/lang/Object"
+78: Tag 1 Utf8 Value "peek"
+79: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+80: Tag 1 Utf8 Value "org/jboss/as/ejb3/logging/EjbLogger"
+81: Tag 1 Utf8 Value "ROOT_LOGGER"
+82: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/logging/EjbLogger;"
+83: Tag 1 Utf8 Value "noEjbContextAvailable"
+84: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+85: Tag 1 Utf8 Value "getPrivateData"
+86: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+87: Tag 1 Utf8 Value "currentComponentNotAEjb"
+88: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentInstance;)Ljava/lang/IllegalStateException;"
+89: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+90: Tag 1 Utf8 Value "java/lang/Class"
+91: Tag 1 Utf8 Value "desiredAssertionStatus"
+92: Tag 1 Utf8 Value "()Z"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 19, name org.jboss.as.ejb3.context.CurrentInvocationContext
+
+Super class: id 23, name java.lang.Object
+
+No interfaces
+
+Field name stack (index 24), type Lorg/jboss/as/ejb3/util/ThreadLocalStack; (descriptor index 25)
+Human type: org.jboss.as.ejb3.util.ThreadLocalStack
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+Field name $assertionsDisabled (index 28), type Z (descriptor index 29)
+Human type: boolean
+Flags: decimal 4120, hex 1018, binary 0001000000011000 static final synthetic
+No field attributes
+
+Method name <init> (index 30), type ()V (descriptor index 31)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name get (index 37), type ()Lorg/jboss/invocation/InterceptorContext; (descriptor index 38)
+Human type: (): org.jboss.invocation.InterceptorContext
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 58
+Method name getEjbContext (index 41), type ()Lorg/jboss/as/ejb3/context/EJBContextImpl; (descriptor index 42)
+Human type: (): org.jboss.as.ejb3.context.EJBContextImpl
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 148
+Method name pop (index 47), type ()Lorg/jboss/invocation/InterceptorContext; (descriptor index 38)
+Human type: (): org.jboss.invocation.InterceptorContext
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 34
+Method name push (index 48), type (Lorg/jboss/invocation/InterceptorContext;)V (descriptor index 49)
+Human type: (org.jboss.invocation.InterceptorContext): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 87
+Method name <clinit> (index 51), type ()V (descriptor index 31)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 66
+
+Class attribute name SourceFile, size 2

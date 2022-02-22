@@ -1,0 +1,116 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 79
+1: Tag 10 MethodRef Class index 13, Name and type index 44
+2: Tag 9 FieldRef Class index 12, Name and type index 45
+3: Tag 9 FieldRef Class index 12, Name and type index 46
+4: Tag 11 InterfaceMethodRef Class index 14, Name and type index 47
+5: Tag 10 MethodRef Class index 48, Name and type index 49
+6: Tag 9 FieldRef Class index 50, Name and type index 51
+7: Tag 10 MethodRef Class index 48, Name and type index 52
+8: Tag 7 Class Name index 53
+9: Tag 9 FieldRef Class index 54, Name and type index 55
+10: Tag 11 InterfaceMethodRef Class index 54, Name and type index 56
+11: Tag 11 InterfaceMethodRef Class index 54, Name and type index 57
+12: Tag 7 Class Name index 59
+13: Tag 7 Class Name index 60
+14: Tag 7 Class Name index 61
+15: Tag 1 Utf8 Value "callable"
+16: Tag 1 Utf8 Value "Ljava/util/concurrent/Callable;"
+17: Tag 1 Utf8 Value "Signature"
+18: Tag 1 Utf8 Value "Ljava/util/concurrent/Callable<TT;>;"
+19: Tag 1 Utf8 Value "controlPoint"
+20: Tag 1 Utf8 Value "Lorg/wildfly/extension/requestcontroller/ControlPoint;"
+21: Tag 1 Utf8 Value "<init>"
+22: Tag 1 Utf8 Value "(Ljava/util/concurrent/Callable;Lorg/wildfly/extension/requestcontroller/ControlPoint;)V"
+23: Tag 1 Utf8 Value "Code"
+24: Tag 1 Utf8 Value "LineNumberTable"
+25: Tag 1 Utf8 Value "LocalVariableTable"
+26: Tag 1 Utf8 Value "this"
+27: Tag 1 Utf8 Value "ControlledScheduledCallable"
+28: Tag 1 Utf8 Value "InnerClasses"
+29: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ControlPointUtils$ControlledScheduledCallable;"
+30: Tag 1 Utf8 Value "LocalVariableTypeTable"
+31: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ControlPointUtils$ControlledScheduledCallable<TT;>;"
+32: Tag 1 Utf8 Value "(Ljava/util/concurrent/Callable<TT;>;Lorg/wildfly/extension/requestcontroller/ControlPoint;)V"
+33: Tag 1 Utf8 Value "call"
+34: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+35: Tag 1 Utf8 Value "e"
+36: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+37: Tag 1 Utf8 Value "StackMapTable"
+38: Tag 7 Class Name index 62
+39: Tag 1 Utf8 Value "Exceptions"
+40: Tag 1 Utf8 Value "()TT;"
+41: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Ljava/util/concurrent/Callable<TT;>;"
+42: Tag 1 Utf8 Value "SourceFile"
+43: Tag 1 Utf8 Value "ControlPointUtils.java"
+44: Tag 12 NameAndType Name index 21, Description index 63
+45: Tag 12 NameAndType Name index 15, Description index 16
+46: Tag 12 NameAndType Name index 19, Description index 20
+47: Tag 12 NameAndType Name index 33, Description index 34
+48: Tag 7 Class Name index 64
+49: Tag 12 NameAndType Name index 65, Description index 66
+50: Tag 7 Class Name index 67
+51: Tag 12 NameAndType Name index 68, Description index 69
+52: Tag 12 NameAndType Name index 70, Description index 63
+53: Tag 1 Utf8 Value "java/lang/Exception"
+54: Tag 7 Class Name index 71
+55: Tag 12 NameAndType Name index 72, Description index 73
+56: Tag 12 NameAndType Name index 74, Description index 75
+57: Tag 12 NameAndType Name index 76, Description index 77
+58: Tag 7 Class Name index 78
+59: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ControlPointUtils$ControlledScheduledCallable"
+60: Tag 1 Utf8 Value "java/lang/Object"
+61: Tag 1 Utf8 Value "java/util/concurrent/Callable"
+62: Tag 1 Utf8 Value "java/lang/Throwable"
+63: Tag 1 Utf8 Value "()V"
+64: Tag 1 Utf8 Value "org/wildfly/extension/requestcontroller/ControlPoint"
+65: Tag 1 Utf8 Value "beginRequest"
+66: Tag 1 Utf8 Value "()Lorg/wildfly/extension/requestcontroller/RunResult;"
+67: Tag 1 Utf8 Value "org/wildfly/extension/requestcontroller/RunResult"
+68: Tag 1 Utf8 Value "RUN"
+69: Tag 1 Utf8 Value "Lorg/wildfly/extension/requestcontroller/RunResult;"
+70: Tag 1 Utf8 Value "requestComplete"
+71: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+72: Tag 1 Utf8 Value "ROOT_LOGGER"
+73: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+74: Tag 1 Utf8 Value "failedToRunTask"
+75: Tag 1 Utf8 Value "(Ljava/lang/Exception;)V"
+76: Tag 1 Utf8 Value "cannotRunScheduledTask"
+77: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/IllegalStateException;"
+78: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ControlPointUtils"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 12, name org.jboss.as.ee.concurrent.ControlPointUtils$ControlledScheduledCallable
+
+Super class: id 13, name java.lang.Object
+
+Implements class ids 14
+Implements names java.util.concurrent.Callable
+
+Field name callable (index 15), type Ljava/util/concurrent/Callable; (descriptor index 16)
+Human type: java.util.concurrent.Callable
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name controlPoint (index 19), type Lorg/wildfly/extension/requestcontroller/ControlPoint; (descriptor index 20)
+Human type: org.wildfly.extension.requestcontroller.ControlPoint
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 21), type (Ljava/util/concurrent/Callable;Lorg/wildfly/extension/requestcontroller/ControlPoint;)V (descriptor index 22)
+Human type: (java.util.concurrent.Callable, org.wildfly.extension.requestcontroller.ControlPoint): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name call (index 33), type ()Ljava/lang/Object; (descriptor index 34)
+Human type: (): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 242
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,388 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 331
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AbstractTransportDefinition"
+3: Tag 7 Class Name index 4
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute"
+5: Tag 10 MethodRef Class index 3, Name and type index 6
+6: Tag 12 NameAndType Name index 7, Description index 8
+7: Tag 1 Utf8 Value "getDefinition"
+8: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AttributeDefinition;"
+9: Tag 9 FieldRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttributes$Pooled"
+13: Tag 1 Utf8 Value "INITIAL_CONNECT_ATTEMPTS"
+14: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+19: Tag 1 Utf8 Value "create"
+20: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleAttributeDefinition;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+21: Tag 7 Class Name index 22
+22: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+23: Tag 10 MethodRef Class index 21, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "<init>"
+26: Tag 1 Utf8 Value "(I)V"
+27: Tag 10 MethodRef Class index 16, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "setDefaultValue"
+30: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+31: Tag 10 MethodRef Class index 16, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "build"
+34: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+35: Tag 10 MethodRef Class index 3, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "getPropertyName"
+38: Tag 1 Utf8 Value "()Ljava/lang/String;"
+39: Tag 10 MethodRef Class index 3, Name and type index 40
+40: Tag 12 NameAndType Name index 19, Description index 41
+41: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Ljava/lang/String;Z)Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;"
+42: Tag 9 FieldRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 14
+45: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttributes$Common"
+46: Tag 1 Utf8 Value "RECONNECT_ATTEMPTS"
+47: Tag 9 FieldRef Class index 10, Name and type index 48
+48: Tag 12 NameAndType Name index 46, Description index 49
+49: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+50: Tag 9 FieldRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 55
+53: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess$Flag"
+54: Tag 1 Utf8 Value "RESTART_ALL_SERVICES"
+55: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess$Flag;"
+56: Tag 10 MethodRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 60, Description index 61
+59: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ExternalPooledConnectionFactoryDefinition"
+60: Tag 1 Utf8 Value "copy"
+61: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/controller/registry/AttributeAccess$Flag;)Lorg/jboss/as/controller/AttributeDefinition;"
+62: Tag 8 String Contents 63
+63: Tag 1 Utf8 Value "reconnectAttempts"
+64: Tag 9 FieldRef Class index 65, Name and type index 66
+65: Tag 7 Class Name index 67
+66: Tag 12 NameAndType Name index 68, Description index 14
+67: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+68: Tag 1 Utf8 Value "HA"
+69: Tag 9 FieldRef Class index 21, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 72
+71: Tag 1 Utf8 Value "TRUE"
+72: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+73: Tag 10 MethodRef Class index 16, Name and type index 74
+74: Tag 12 NameAndType Name index 75, Description index 76
+75: Tag 1 Utf8 Value "setFlags"
+76: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/registry/AttributeAccess$Flag;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+77: Tag 9 FieldRef Class index 43, Name and type index 78
+78: Tag 12 NameAndType Name index 79, Description index 80
+79: Tag 1 Utf8 Value "CONNECTORS"
+80: Tag 1 Utf8 Value "Lorg/jboss/as/controller/StringListAttributeDefinition;"
+81: Tag 7 Class Name index 82
+82: Tag 1 Utf8 Value "org/jboss/as/controller/StringListAttributeDefinition$Builder"
+83: Tag 10 MethodRef Class index 81, Name and type index 84
+84: Tag 12 NameAndType Name index 25, Description index 85
+85: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/StringListAttributeDefinition;)V"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "java/lang/String"
+88: Tag 8 String Contents 89
+89: Tag 1 Utf8 Value "discovery-group"
+90: Tag 10 MethodRef Class index 81, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 93
+92: Tag 1 Utf8 Value "setAlternatives"
+93: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+94: Tag 10 MethodRef Class index 81, Name and type index 95
+95: Tag 12 NameAndType Name index 96, Description index 97
+96: Tag 1 Utf8 Value "setRequired"
+97: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+98: Tag 9 FieldRef Class index 99, Name and type index 100
+99: Tag 7 Class Name index 101
+100: Tag 12 NameAndType Name index 102, Description index 103
+101: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeParser"
+102: Tag 1 Utf8 Value "STRING_LIST"
+103: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeParser;"
+104: Tag 10 MethodRef Class index 81, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 107
+106: Tag 1 Utf8 Value "setAttributeParser"
+107: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeParser;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+108: Tag 9 FieldRef Class index 109, Name and type index 110
+109: Tag 7 Class Name index 111
+110: Tag 12 NameAndType Name index 102, Description index 112
+111: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeMarshaller"
+112: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeMarshaller;"
+113: Tag 10 MethodRef Class index 81, Name and type index 114
+114: Tag 12 NameAndType Name index 115, Description index 116
+115: Tag 1 Utf8 Value "setAttributeMarshaller"
+116: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeMarshaller;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+117: Tag 7 Class Name index 118
+118: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AbstractTransportDefinition$TransportCapabilityReferenceRecorder"
+119: Tag 8 String Contents 120
+120: Tag 1 Utf8 Value "org.wildfly.messaging.activemq.external.connection-factory"
+121: Tag 8 String Contents 122
+122: Tag 1 Utf8 Value "org.wildfly.messaging.activemq.connector"
+123: Tag 10 MethodRef Class index 117, Name and type index 124
+124: Tag 12 NameAndType Name index 25, Description index 125
+125: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Z)V"
+126: Tag 10 MethodRef Class index 81, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 129
+128: Tag 1 Utf8 Value "setCapabilityReference"
+129: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/CapabilityReferenceRecorder;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+130: Tag 10 MethodRef Class index 81, Name and type index 131
+131: Tag 12 NameAndType Name index 132, Description index 133
+132: Tag 1 Utf8 Value "setRestartAllServices"
+133: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+134: Tag 10 MethodRef Class index 81, Name and type index 135
+135: Tag 12 NameAndType Name index 33, Description index 136
+136: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/StringListAttributeDefinition;"
+137: Tag 10 MethodRef Class index 3, Name and type index 138
+138: Tag 12 NameAndType Name index 139, Description index 140
+139: Tag 1 Utf8 Value "isResourceAdapterProperty"
+140: Tag 1 Utf8 Value "()Z"
+141: Tag 10 MethodRef Class index 3, Name and type index 142
+142: Tag 12 NameAndType Name index 143, Description index 144
+143: Tag 1 Utf8 Value "getConfigType"
+144: Tag 1 Utf8 Value "()Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute$ConfigType;"
+145: Tag 10 MethodRef Class index 3, Name and type index 146
+146: Tag 12 NameAndType Name index 19, Description index 147
+147: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Ljava/lang/String;ZLorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute$ConfigType;)Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;"
+148: Tag 9 FieldRef Class index 149, Name and type index 150
+149: Tag 7 Class Name index 151
+150: Tag 12 NameAndType Name index 152, Description index 49
+151: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttributes$External"
+152: Tag 1 Utf8 Value "ENABLE_AMQ1_PREFIX"
+153: Tag 8 String Contents 154
+154: Tag 1 Utf8 Value "enable1xPrefixes"
+155: Tag 7 Class Name index 156
+156: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleListAttributeDefinition"
+157: Tag 7 Class Name index 158
+158: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleListAttributeDefinition$Builder"
+159: Tag 10 MethodRef Class index 157, Name and type index 160
+160: Tag 12 NameAndType Name index 25, Description index 161
+161: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleListAttributeDefinition;)V"
+162: Tag 7 Class Name index 163
+163: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleMapAttributeDefinition"
+164: Tag 7 Class Name index 165
+165: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleMapAttributeDefinition$Builder"
+166: Tag 10 MethodRef Class index 164, Name and type index 167
+167: Tag 12 NameAndType Name index 25, Description index 168
+168: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleMapAttributeDefinition;)V"
+169: Tag 7 Class Name index 170
+170: Tag 1 Utf8 Value "org/jboss/as/controller/PrimitiveListAttributeDefinition"
+171: Tag 7 Class Name index 172
+172: Tag 1 Utf8 Value "org/jboss/as/controller/PrimitiveListAttributeDefinition$Builder"
+173: Tag 10 MethodRef Class index 171, Name and type index 174
+174: Tag 12 NameAndType Name index 25, Description index 175
+175: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PrimitiveListAttributeDefinition;)V"
+176: Tag 7 Class Name index 177
+177: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+178: Tag 10 MethodRef Class index 16, Name and type index 179
+179: Tag 12 NameAndType Name index 25, Description index 180
+180: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleAttributeDefinition;)V"
+181: Tag 10 MethodRef Class index 182, Name and type index 74
+182: Tag 7 Class Name index 183
+183: Tag 1 Utf8 Value "org/jboss/as/controller/AbstractAttributeDefinitionBuilder"
+184: Tag 10 MethodRef Class index 182, Name and type index 185
+185: Tag 12 NameAndType Name index 33, Description index 8
+186: Tag 7 Class Name index 187
+187: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition$Parameters"
+188: Tag 9 FieldRef Class index 189, Name and type index 190
+189: Tag 7 Class Name index 191
+190: Tag 12 NameAndType Name index 192, Description index 193
+191: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingExtension"
+192: Tag 1 Utf8 Value "POOLED_CONNECTION_FACTORY_PATH"
+193: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+194: Tag 8 String Contents 195
+195: Tag 1 Utf8 Value "pooled-connection-factory"
+196: Tag 10 MethodRef Class index 189, Name and type index 197
+197: Tag 12 NameAndType Name index 198, Description index 199
+198: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+199: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+200: Tag 10 MethodRef Class index 186, Name and type index 201
+201: Tag 12 NameAndType Name index 25, Description index 202
+202: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+203: Tag 9 FieldRef Class index 204, Name and type index 205
+204: Tag 7 Class Name index 206
+205: Tag 12 NameAndType Name index 207, Description index 208
+206: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ExternalPooledConnectionFactoryAdd"
+207: Tag 1 Utf8 Value "INSTANCE"
+208: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/ExternalPooledConnectionFactoryAdd;"
+209: Tag 10 MethodRef Class index 186, Name and type index 210
+210: Tag 12 NameAndType Name index 211, Description index 212
+211: Tag 1 Utf8 Value "setAddHandler"
+212: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+213: Tag 9 FieldRef Class index 214, Name and type index 215
+214: Tag 7 Class Name index 216
+215: Tag 12 NameAndType Name index 207, Description index 217
+216: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ExternalPooledConnectionFactoryRemove"
+217: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/ExternalPooledConnectionFactoryRemove;"
+218: Tag 10 MethodRef Class index 186, Name and type index 219
+219: Tag 12 NameAndType Name index 220, Description index 212
+220: Tag 1 Utf8 Value "setRemoveHandler"
+221: Tag 7 Class Name index 222
+222: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+223: Tag 9 FieldRef Class index 57, Name and type index 224
+224: Tag 12 NameAndType Name index 225, Description index 226
+225: Tag 1 Utf8 Value "CAPABILITY"
+226: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+227: Tag 10 MethodRef Class index 186, Name and type index 228
+228: Tag 12 NameAndType Name index 229, Description index 230
+229: Tag 1 Utf8 Value "setCapabilities"
+230: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/capability/RuntimeCapability;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+231: Tag 10 MethodRef Class index 232, Name and type index 233
+232: Tag 7 Class Name index 234
+233: Tag 12 NameAndType Name index 25, Description index 235
+234: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/PooledConnectionFactoryDefinition"
+235: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;Z)V"
+236: Tag 9 FieldRef Class index 57, Name and type index 237
+237: Tag 12 NameAndType Name index 238, Description index 239
+238: Tag 1 Utf8 Value "ATTRIBUTES"
+239: Tag 1 Utf8 Value "[Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;"
+240: Tag 10 MethodRef Class index 3, Name and type index 241
+241: Tag 12 NameAndType Name index 242, Description index 243
+242: Tag 1 Utf8 Value "getDefinitions"
+243: Tag 1 Utf8 Value "([Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;)[Lorg/jboss/as/controller/AttributeDefinition;"
+244: Tag 10 MethodRef Class index 245, Name and type index 246
+245: Tag 7 Class Name index 247
+246: Tag 12 NameAndType Name index 248, Description index 249
+247: Tag 1 Utf8 Value "java/util/Arrays"
+248: Tag 1 Utf8 Value "asList"
+249: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+250: Tag 7 Class Name index 251
+251: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ExternalConnectionFactoryService"
+252: Tag 10 MethodRef Class index 253, Name and type index 254
+253: Tag 7 Class Name index 255
+254: Tag 12 NameAndType Name index 256, Description index 257
+255: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability$Builder"
+256: Tag 1 Utf8 Value "of"
+257: Tag 1 Utf8 Value "(Ljava/lang/String;ZLjava/lang/Class;)Lorg/jboss/as/controller/capability/RuntimeCapability$Builder;"
+258: Tag 10 MethodRef Class index 253, Name and type index 259
+259: Tag 12 NameAndType Name index 33, Description index 260
+260: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/capability/RuntimeCapability;"
+261: Tag 9 FieldRef Class index 10, Name and type index 237
+262: Tag 9 FieldRef Class index 43, Name and type index 237
+263: Tag 10 MethodRef Class index 57, Name and type index 264
+264: Tag 12 NameAndType Name index 265, Description index 266
+265: Tag 1 Utf8 Value "define"
+266: Tag 1 Utf8 Value "([Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;[Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;)[Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;"
+267: Tag 10 MethodRef Class index 57, Name and type index 268
+268: Tag 12 NameAndType Name index 25, Description index 269
+269: Tag 1 Utf8 Value "(Z)V"
+270: Tag 9 FieldRef Class index 57, Name and type index 271
+271: Tag 12 NameAndType Name index 207, Description index 272
+272: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/ExternalPooledConnectionFactoryDefinition;"
+273: Tag 9 FieldRef Class index 57, Name and type index 274
+274: Tag 12 NameAndType Name index 275, Description index 272
+275: Tag 1 Utf8 Value "DEPLOYMENT_INSTANCE"
+276: Tag 1 Utf8 Value "CAPABILITY_NAME"
+277: Tag 1 Utf8 Value "Ljava/lang/String;"
+278: Tag 1 Utf8 Value "ConstantValue"
+279: Tag 1 Utf8 Value "Signature"
+280: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability<Ljava/lang/Void;>;"
+281: Tag 1 Utf8 Value "Code"
+282: Tag 1 Utf8 Value "LineNumberTable"
+283: Tag 1 Utf8 Value "LocalVariableTable"
+284: Tag 1 Utf8 Value "attr"
+285: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;"
+286: Tag 1 Utf8 Value "definition"
+287: Tag 1 Utf8 Value "i"
+288: Tag 1 Utf8 Value "I"
+289: Tag 1 Utf8 Value "newAttr"
+290: Tag 1 Utf8 Value "specific"
+291: Tag 1 Utf8 Value "common"
+292: Tag 1 Utf8 Value "size"
+293: Tag 1 Utf8 Value "result"
+294: Tag 1 Utf8 Value "StackMapTable"
+295: Tag 7 Class Name index 239
+296: Tag 7 Class Name index 297
+297: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+298: Tag 1 Utf8 Value "builder"
+299: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+300: Tag 1 Utf8 Value "attribute"
+301: Tag 1 Utf8 Value "flag"
+302: Tag 1 Utf8 Value "this"
+303: Tag 1 Utf8 Value "deployed"
+304: Tag 1 Utf8 Value "Z"
+305: Tag 1 Utf8 Value "getAttributes"
+306: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+307: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/jboss/as/controller/AttributeDefinition;>;"
+308: Tag 1 Utf8 Value "<clinit>"
+309: Tag 1 Utf8 Value "()V"
+310: Tag 1 Utf8 Value "SourceFile"
+311: Tag 1 Utf8 Value "ExternalPooledConnectionFactoryDefinition.java"
+312: Tag 1 Utf8 Value "InnerClasses"
+313: Tag 7 Class Name index 314
+314: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttributes"
+315: Tag 1 Utf8 Value "Pooled"
+316: Tag 1 Utf8 Value "Common"
+317: Tag 7 Class Name index 318
+318: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess"
+319: Tag 1 Utf8 Value "Flag"
+320: Tag 7 Class Name index 321
+321: Tag 1 Utf8 Value "org/jboss/as/controller/StringListAttributeDefinition"
+322: Tag 1 Utf8 Value "Builder"
+323: Tag 1 Utf8 Value "TransportCapabilityReferenceRecorder"
+324: Tag 7 Class Name index 325
+325: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute$ConfigType"
+326: Tag 1 Utf8 Value "ConfigType"
+327: Tag 1 Utf8 Value "External"
+328: Tag 7 Class Name index 329
+329: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition"
+330: Tag 1 Utf8 Value "Parameters"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 57, name org.wildfly.extension.messaging.activemq.jms.ExternalPooledConnectionFactoryDefinition
+
+Super class: id 232, name org.wildfly.extension.messaging.activemq.jms.PooledConnectionFactoryDefinition
+
+No interfaces
+
+Field name CAPABILITY_NAME (index 276), type Ljava/lang/String; (descriptor index 277)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+Field name CAPABILITY (index 225), type Lorg/jboss/as/controller/capability/RuntimeCapability; (descriptor index 226)
+Human type: org.jboss.as.controller.capability.RuntimeCapability
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name Signature, size 2
+Field name ATTRIBUTES (index 238), type [Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute; (descriptor index 239)
+Human type: org.wildfly.extension.messaging.activemq.jms.ConnectionFactoryAttribute[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name INSTANCE (index 207), type Lorg/wildfly/extension/messaging/activemq/jms/ExternalPooledConnectionFactoryDefinition; (descriptor index 272)
+Human type: org.wildfly.extension.messaging.activemq.jms.ExternalPooledConnectionFactoryDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name DEPLOYMENT_INSTANCE (index 275), type Lorg/wildfly/extension/messaging/activemq/jms/ExternalPooledConnectionFactoryDefinition; (descriptor index 272)
+Human type: org.wildfly.extension.messaging.activemq.jms.ExternalPooledConnectionFactoryDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name define (index 265), type ([Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;[Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute;)[Lorg/wildfly/extension/messaging/activemq/jms/ConnectionFactoryAttribute; (descriptor index 266)
+Human type: (org.wildfly.extension.messaging.activemq.jms.ConnectionFactoryAttribute[], org.wildfly.extension.messaging.activemq.jms.ConnectionFactoryAttribute[]): org.wildfly.extension.messaging.activemq.jms.ConnectionFactoryAttribute[]
+Flags: decimal 138, hex 008a, binary 0000000010001010 private static varargs
+Method attribute name Code, size 830
+Method name copy (index 60), type (Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/controller/registry/AttributeAccess$Flag;)Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 61)
+Human type: (org.jboss.as.controller.AttributeDefinition, org.jboss.as.controller.registry.AttributeAccess$Flag): org.jboss.as.controller.AttributeDefinition
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 237
+Method name <init> (index 25), type (Z)V (descriptor index 269)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 125
+Method name getAttributes (index 305), type ()Ljava/util/Collection; (descriptor index 306)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Signature, size 2
+Method name <clinit> (index 308), type ()V (descriptor index 309)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 89
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 98

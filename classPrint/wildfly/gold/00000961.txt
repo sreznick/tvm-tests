@@ -1,0 +1,318 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 235
+1: Tag 10 MethodRef Class index 59, Name and type index 122
+2: Tag 7 Class Name index 123
+3: Tag 10 MethodRef Class index 2, Name and type index 124
+4: Tag 9 FieldRef Class index 34, Name and type index 125
+5: Tag 9 FieldRef Class index 34, Name and type index 126
+6: Tag 9 FieldRef Class index 34, Name and type index 127
+7: Tag 9 FieldRef Class index 34, Name and type index 128
+8: Tag 10 MethodRef Class index 34, Name and type index 129
+9: Tag 9 FieldRef Class index 34, Name and type index 130
+10: Tag 11 InterfaceMethodRef Class index 131, Name and type index 132
+11: Tag 7 Class Name index 133
+12: Tag 11 InterfaceMethodRef Class index 92, Name and type index 134
+13: Tag 11 InterfaceMethodRef Class index 92, Name and type index 135
+14: Tag 9 FieldRef Class index 34, Name and type index 136
+15: Tag 11 InterfaceMethodRef Class index 92, Name and type index 137
+16: Tag 9 FieldRef Class index 34, Name and type index 138
+17: Tag 10 MethodRef Class index 139, Name and type index 140
+18: Tag 7 Class Name index 141
+19: Tag 7 Class Name index 142
+20: Tag 10 MethodRef Class index 19, Name and type index 143
+21: Tag 7 Class Name index 144
+22: Tag 7 Class Name index 145
+23: Tag 7 Class Name index 146
+24: Tag 7 Class Name index 147
+25: Tag 10 MethodRef Class index 34, Name and type index 148
+26: Tag 11 InterfaceMethodRef Class index 92, Name and type index 149
+27: Tag 11 InterfaceMethodRef Class index 150, Name and type index 151
+28: Tag 11 InterfaceMethodRef Class index 92, Name and type index 152
+29: Tag 11 InterfaceMethodRef Class index 92, Name and type index 153
+30: Tag 11 InterfaceMethodRef Class index 131, Name and type index 154
+31: Tag 7 Class Name index 155
+32: Tag 7 Class Name index 156
+33: Tag 10 MethodRef Class index 32, Name and type index 143
+34: Tag 7 Class Name index 157
+35: Tag 10 MethodRef Class index 158, Name and type index 159
+36: Tag 10 MethodRef Class index 2, Name and type index 160
+37: Tag 9 FieldRef Class index 161, Name and type index 162
+38: Tag 11 InterfaceMethodRef Class index 161, Name and type index 163
+39: Tag 10 MethodRef Class index 164, Name and type index 165
+40: Tag 7 Class Name index 166
+41: Tag 10 MethodRef Class index 34, Name and type index 167
+42: Tag 10 MethodRef Class index 164, Name and type index 168
+43: Tag 7 Class Name index 169
+44: Tag 10 MethodRef Class index 43, Name and type index 170
+45: Tag 10 MethodRef Class index 158, Name and type index 171
+46: Tag 11 InterfaceMethodRef Class index 150, Name and type index 172
+47: Tag 11 InterfaceMethodRef Class index 150, Name and type index 129
+48: Tag 10 MethodRef Class index 2, Name and type index 173
+49: Tag 7 Class Name index 174
+50: Tag 7 Class Name index 175
+51: Tag 10 MethodRef Class index 50, Name and type index 122
+52: Tag 8 String Contents 176
+53: Tag 10 MethodRef Class index 50, Name and type index 177
+54: Tag 10 MethodRef Class index 50, Name and type index 178
+55: Tag 8 String Contents 179
+56: Tag 10 MethodRef Class index 50, Name and type index 180
+57: Tag 10 MethodRef Class index 49, Name and type index 181
+58: Tag 11 InterfaceMethodRef Class index 150, Name and type index 182
+59: Tag 7 Class Name index 183
+60: Tag 1 Utf8 Value "service"
+61: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/inflow/MessageEndpointService;"
+62: Tag 1 Utf8 Value "delegate"
+63: Tag 1 Utf8 Value "Ljava/lang/Object;"
+64: Tag 1 Utf8 Value "xaRes"
+65: Tag 1 Utf8 Value "Ljavax/transaction/xa/XAResource;"
+66: Tag 1 Utf8 Value "released"
+67: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicBoolean;"
+68: Tag 1 Utf8 Value "currentTx"
+69: Tag 1 Utf8 Value "Ljavax/transaction/Transaction;"
+70: Tag 1 Utf8 Value "previousClassLoader"
+71: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+72: Tag 1 Utf8 Value "previousTx"
+73: Tag 1 Utf8 Value "<init>"
+74: Tag 1 Utf8 Value "(Lorg/jboss/as/ejb3/inflow/MessageEndpointService;Ljava/lang/Object;Ljavax/transaction/xa/XAResource;)V"
+75: Tag 1 Utf8 Value "Code"
+76: Tag 1 Utf8 Value "LineNumberTable"
+77: Tag 1 Utf8 Value "LocalVariableTable"
+78: Tag 1 Utf8 Value "this"
+79: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/inflow/MessageEndpointInvocationHandler;"
+80: Tag 1 Utf8 Value "xaResource"
+81: Tag 1 Utf8 Value "afterDelivery"
+82: Tag 1 Utf8 Value "()V"
+83: Tag 1 Utf8 Value "e"
+84: Tag 1 Utf8 Value "Ljavax/transaction/InvalidTransactionException;"
+85: Tag 1 Utf8 Value "Ljavax/transaction/HeuristicMixedException;"
+86: Tag 1 Utf8 Value "Ljavax/transaction/SystemException;"
+87: Tag 1 Utf8 Value "Ljavax/transaction/HeuristicRollbackException;"
+88: Tag 1 Utf8 Value "Ljavax/transaction/RollbackException;"
+89: Tag 1 Utf8 Value "tm"
+90: Tag 1 Utf8 Value "Ljavax/transaction/TransactionManager;"
+91: Tag 1 Utf8 Value "StackMapTable"
+92: Tag 7 Class Name index 184
+93: Tag 1 Utf8 Value "Exceptions"
+94: Tag 7 Class Name index 185
+95: Tag 1 Utf8 Value "beforeDelivery"
+96: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;)V"
+97: Tag 1 Utf8 Value "isTransacted"
+98: Tag 1 Utf8 Value "Z"
+99: Tag 1 Utf8 Value "t"
+100: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+101: Tag 1 Utf8 Value "method"
+102: Tag 1 Utf8 Value "Ljava/lang/reflect/Method;"
+103: Tag 7 Class Name index 186
+104: Tag 1 Utf8 Value "doEquals"
+105: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+106: Tag 1 Utf8 Value "obj"
+107: Tag 1 Utf8 Value "doInvoke"
+108: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;"
+109: Tag 1 Utf8 Value "Ljava/lang/reflect/InvocationTargetException;"
+110: Tag 1 Utf8 Value "proxy"
+111: Tag 1 Utf8 Value "args"
+112: Tag 1 Utf8 Value "[Ljava/lang/Object;"
+113: Tag 1 Utf8 Value "hashCode"
+114: Tag 1 Utf8 Value "()I"
+115: Tag 1 Utf8 Value "getApplicationClassLoader"
+116: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+117: Tag 1 Utf8 Value "getTransactionManager"
+118: Tag 1 Utf8 Value "()Ljavax/transaction/TransactionManager;"
+119: Tag 1 Utf8 Value "release"
+120: Tag 1 Utf8 Value "SourceFile"
+121: Tag 1 Utf8 Value "MessageEndpointInvocationHandler.java"
+122: Tag 12 NameAndType Name index 73, Description index 82
+123: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicBoolean"
+124: Tag 12 NameAndType Name index 73, Description index 187
+125: Tag 12 NameAndType Name index 66, Description index 67
+126: Tag 12 NameAndType Name index 60, Description index 61
+127: Tag 12 NameAndType Name index 62, Description index 63
+128: Tag 12 NameAndType Name index 64, Description index 65
+129: Tag 12 NameAndType Name index 117, Description index 118
+130: Tag 12 NameAndType Name index 68, Description index 69
+131: Tag 7 Class Name index 188
+132: Tag 12 NameAndType Name index 189, Description index 114
+133: Tag 1 Utf8 Value "javax/transaction/Status"
+134: Tag 12 NameAndType Name index 190, Description index 82
+135: Tag 12 NameAndType Name index 191, Description index 82
+136: Tag 12 NameAndType Name index 72, Description index 69
+137: Tag 12 NameAndType Name index 192, Description index 193
+138: Tag 12 NameAndType Name index 70, Description index 71
+139: Tag 7 Class Name index 194
+140: Tag 12 NameAndType Name index 195, Description index 196
+141: Tag 1 Utf8 Value "javax/transaction/InvalidTransactionException"
+142: Tag 1 Utf8 Value "javax/resource/spi/LocalTransactionException"
+143: Tag 12 NameAndType Name index 73, Description index 197
+144: Tag 1 Utf8 Value "javax/transaction/HeuristicMixedException"
+145: Tag 1 Utf8 Value "javax/transaction/SystemException"
+146: Tag 1 Utf8 Value "javax/transaction/HeuristicRollbackException"
+147: Tag 1 Utf8 Value "javax/transaction/RollbackException"
+148: Tag 12 NameAndType Name index 115, Description index 116
+149: Tag 12 NameAndType Name index 198, Description index 199
+150: Tag 7 Class Name index 200
+151: Tag 12 NameAndType Name index 201, Description index 202
+152: Tag 12 NameAndType Name index 203, Description index 82
+153: Tag 12 NameAndType Name index 204, Description index 199
+154: Tag 12 NameAndType Name index 205, Description index 206
+155: Tag 1 Utf8 Value "java/lang/Throwable"
+156: Tag 1 Utf8 Value "javax/resource/spi/ApplicationServerInternalException"
+157: Tag 1 Utf8 Value "org/jboss/as/ejb3/inflow/MessageEndpointInvocationHandler"
+158: Tag 7 Class Name index 207
+159: Tag 12 NameAndType Name index 208, Description index 105
+160: Tag 12 NameAndType Name index 209, Description index 210
+161: Tag 7 Class Name index 211
+162: Tag 12 NameAndType Name index 212, Description index 213
+163: Tag 12 NameAndType Name index 214, Description index 215
+164: Tag 7 Class Name index 216
+165: Tag 12 NameAndType Name index 217, Description index 218
+166: Tag 1 Utf8 Value "javax/resource/spi/endpoint/MessageEndpoint"
+167: Tag 12 NameAndType Name index 219, Description index 220
+168: Tag 12 NameAndType Name index 221, Description index 222
+169: Tag 1 Utf8 Value "java/lang/reflect/InvocationTargetException"
+170: Tag 12 NameAndType Name index 223, Description index 224
+171: Tag 12 NameAndType Name index 113, Description index 114
+172: Tag 12 NameAndType Name index 225, Description index 116
+173: Tag 12 NameAndType Name index 226, Description index 227
+174: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+175: Tag 1 Utf8 Value "java/lang/StringBuilder"
+176: Tag 1 Utf8 Value "Message endpoint "
+177: Tag 12 NameAndType Name index 228, Description index 229
+178: Tag 12 NameAndType Name index 228, Description index 230
+179: Tag 1 Utf8 Value " has already been released"
+180: Tag 12 NameAndType Name index 231, Description index 232
+181: Tag 12 NameAndType Name index 73, Description index 233
+182: Tag 12 NameAndType Name index 119, Description index 234
+183: Tag 1 Utf8 Value "org/jboss/as/ejb3/inflow/AbstractInvocationHandler"
+184: Tag 1 Utf8 Value "javax/transaction/TransactionManager"
+185: Tag 1 Utf8 Value "javax/resource/ResourceException"
+186: Tag 1 Utf8 Value "java/lang/NoSuchMethodException"
+187: Tag 1 Utf8 Value "(Z)V"
+188: Tag 1 Utf8 Value "javax/transaction/Transaction"
+189: Tag 1 Utf8 Value "getStatus"
+190: Tag 1 Utf8 Value "rollback"
+191: Tag 1 Utf8 Value "commit"
+192: Tag 1 Utf8 Value "resume"
+193: Tag 1 Utf8 Value "(Ljavax/transaction/Transaction;)V"
+194: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+195: Tag 1 Utf8 Value "setCurrentContextClassLoaderPrivileged"
+196: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;"
+197: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+198: Tag 1 Utf8 Value "suspend"
+199: Tag 1 Utf8 Value "()Ljavax/transaction/Transaction;"
+200: Tag 1 Utf8 Value "org/jboss/as/ejb3/inflow/MessageEndpointService"
+201: Tag 1 Utf8 Value "isDeliveryTransacted"
+202: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;)Z"
+203: Tag 1 Utf8 Value "begin"
+204: Tag 1 Utf8 Value "getTransaction"
+205: Tag 1 Utf8 Value "enlistResource"
+206: Tag 1 Utf8 Value "(Ljavax/transaction/xa/XAResource;)Z"
+207: Tag 1 Utf8 Value "java/lang/Object"
+208: Tag 1 Utf8 Value "equals"
+209: Tag 1 Utf8 Value "get"
+210: Tag 1 Utf8 Value "()Z"
+211: Tag 1 Utf8 Value "org/jboss/as/ejb3/logging/EjbLogger"
+212: Tag 1 Utf8 Value "ROOT_LOGGER"
+213: Tag 1 Utf8 Value "Lorg/jboss/as/ejb3/logging/EjbLogger;"
+214: Tag 1 Utf8 Value "messageEndpointAlreadyReleased"
+215: Tag 1 Utf8 Value "(Ljavax/resource/spi/endpoint/MessageEndpoint;)Ljavax/resource/spi/UnavailableException;"
+216: Tag 1 Utf8 Value "java/lang/reflect/Method"
+217: Tag 1 Utf8 Value "getDeclaringClass"
+218: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+219: Tag 1 Utf8 Value "handle"
+220: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;"
+221: Tag 1 Utf8 Value "invoke"
+222: Tag 1 Utf8 Value "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+223: Tag 1 Utf8 Value "getCause"
+224: Tag 1 Utf8 Value "()Ljava/lang/Throwable;"
+225: Tag 1 Utf8 Value "getClassLoader"
+226: Tag 1 Utf8 Value "getAndSet"
+227: Tag 1 Utf8 Value "(Z)Z"
+228: Tag 1 Utf8 Value "append"
+229: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+230: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+231: Tag 1 Utf8 Value "toString"
+232: Tag 1 Utf8 Value "()Ljava/lang/String;"
+233: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+234: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 34, name org.jboss.as.ejb3.inflow.MessageEndpointInvocationHandler
+
+Super class: id 59, name org.jboss.as.ejb3.inflow.AbstractInvocationHandler
+
+Implements class ids 40
+Implements names javax.resource.spi.endpoint.MessageEndpoint
+
+Field name service (index 60), type Lorg/jboss/as/ejb3/inflow/MessageEndpointService; (descriptor index 61)
+Human type: org.jboss.as.ejb3.inflow.MessageEndpointService
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name delegate (index 62), type Ljava/lang/Object; (descriptor index 63)
+Human type: java.lang.Object
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name xaRes (index 64), type Ljavax/transaction/xa/XAResource; (descriptor index 65)
+Human type: javax.transaction.xa.XAResource
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name released (index 66), type Ljava/util/concurrent/atomic/AtomicBoolean; (descriptor index 67)
+Human type: java.util.concurrent.atomic.AtomicBoolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name currentTx (index 68), type Ljavax/transaction/Transaction; (descriptor index 69)
+Human type: javax.transaction.Transaction
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name previousClassLoader (index 70), type Ljava/lang/ClassLoader; (descriptor index 71)
+Human type: java.lang.ClassLoader
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name previousTx (index 72), type Ljavax/transaction/Transaction; (descriptor index 69)
+Human type: javax.transaction.Transaction
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 73), type (Lorg/jboss/as/ejb3/inflow/MessageEndpointService;Ljava/lang/Object;Ljavax/transaction/xa/XAResource;)V (descriptor index 74)
+Human type: (org.jboss.as.ejb3.inflow.MessageEndpointService, java.lang.Object, javax.transaction.xa.XAResource): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 124
+Method name afterDelivery (index 81), type ()V (descriptor index 82)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 450
+Method attribute name Exceptions, size 4
+Method name beforeDelivery (index 95), type (Ljava/lang/reflect/Method;)V (descriptor index 96)
+Human type: (java.lang.reflect.Method): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 299
+Method attribute name Exceptions, size 6
+Method name doEquals (index 104), type (Ljava/lang/Object;)Z (descriptor index 105)
+Human type: (java.lang.Object): boolean
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 93
+Method name doInvoke (index 107), type (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 108)
+Human type: (java.lang.Object, java.lang.reflect.Method, java.lang.Object[]): java.lang.Object
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 185
+Method attribute name Exceptions, size 4
+Method name hashCode (index 113), type ()I (descriptor index 114)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name getApplicationClassLoader (index 115), type ()Ljava/lang/ClassLoader; (descriptor index 116)
+Human type: (): java.lang.ClassLoader
+Flags: decimal 20, hex 0014, binary 0000000000010100 protected final
+Method attribute name Code, size 52
+Method name getTransactionManager (index 117), type ()Ljavax/transaction/TransactionManager; (descriptor index 118)
+Human type: (): javax.transaction.TransactionManager
+Flags: decimal 20, hex 0014, binary 0000000000010100 protected final
+Method attribute name Code, size 52
+Method name release (index 119), type ()V (descriptor index 82)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 120
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,143 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 97
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/service/SimpleServiceNameProvider"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorFactoryServiceConfigurator"
+11: Tag 1 Utf8 Value "containerName"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "cacheName"
+16: Tag 9 FieldRef Class index 17, Name and type index 18
+17: Tag 7 Class Name index 19
+18: Tag 12 NameAndType Name index 20, Description index 21
+19: Tag 1 Utf8 Value "org/wildfly/clustering/spi/ClusteringCacheRequirement"
+20: Tag 1 Utf8 Value "GROUP"
+21: Tag 1 Utf8 Value "Lorg/wildfly/clustering/spi/ClusteringCacheRequirement;"
+22: Tag 10 MethodRef Class index 17, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "getServiceName"
+25: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/CapabilityServiceSupport;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+26: Tag 9 FieldRef Class index 8, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "groupServiceName"
+29: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+30: Tag 10 MethodRef Class index 8, Name and type index 31
+31: Tag 12 NameAndType Name index 24, Description index 32
+32: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+33: Tag 11 InterfaceMethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+37: Tag 1 Utf8 Value "addService"
+38: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+41: Tag 11 InterfaceMethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+45: Tag 1 Utf8 Value "provides"
+46: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/LocalSingletonServiceBuilderFactory"
+49: Tag 10 MethodRef Class index 47, Name and type index 50
+50: Tag 12 NameAndType Name index 5, Description index 51
+51: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorFactoryContext;)V"
+52: Tag 11 InterfaceMethodRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 56, Description index 57
+55: Tag 1 Utf8 Value "org/jboss/msc/Service"
+56: Tag 1 Utf8 Value "newInstance"
+57: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;Ljava/lang/Object;)Lorg/jboss/msc/Service;"
+58: Tag 11 InterfaceMethodRef Class index 42, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "setInstance"
+61: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+62: Tag 7 Class Name index 63
+63: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/CapabilityServiceConfigurator"
+64: Tag 7 Class Name index 65
+65: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorFactoryContext"
+66: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Ljava/lang/String;)V"
+67: Tag 1 Utf8 Value "Code"
+68: Tag 1 Utf8 Value "LineNumberTable"
+69: Tag 1 Utf8 Value "LocalVariableTable"
+70: Tag 1 Utf8 Value "this"
+71: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorFactoryServiceConfigurator;"
+72: Tag 1 Utf8 Value "name"
+73: Tag 1 Utf8 Value "LocalVariableTypeTable"
+74: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorFactoryServiceConfigurator<TT;>;"
+75: Tag 1 Utf8 Value "configure"
+76: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/wildfly/clustering/service/ServiceConfigurator;"
+77: Tag 1 Utf8 Value "support"
+78: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+79: Tag 1 Utf8 Value "build"
+80: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+81: Tag 1 Utf8 Value "target"
+82: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+83: Tag 1 Utf8 Value "builder"
+84: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+85: Tag 1 Utf8 Value "factory"
+86: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+87: Tag 1 Utf8 Value "service"
+88: Tag 1 Utf8 Value "Lorg/jboss/msc/Service;"
+89: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+90: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/wildfly/clustering/singleton/service/SingletonServiceConfiguratorFactory;>;"
+91: Tag 1 Utf8 Value "Signature"
+92: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder<*>;"
+93: Tag 1 Utf8 Value "getGroupServiceName"
+94: Tag 1 Utf8 Value "<T::Ljava/io/Serializable;>Lorg/wildfly/clustering/service/SimpleServiceNameProvider;Lorg/jboss/as/clustering/controller/CapabilityServiceConfigurator;Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorFactoryContext;"
+95: Tag 1 Utf8 Value "SourceFile"
+96: Tag 1 Utf8 Value "LocalSingletonServiceConfiguratorFactoryServiceConfigurator.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.server.singleton.LocalSingletonServiceConfiguratorFactoryServiceConfigurator
+
+Super class: id 2, name org.wildfly.clustering.service.SimpleServiceNameProvider
+
+Implements class ids 62 64
+Implements names org.jboss.as.clustering.controller.CapabilityServiceConfigurator org.wildfly.clustering.server.singleton.LocalSingletonServiceConfiguratorFactoryContext
+
+Field name containerName (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name cacheName (index 15), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name groupServiceName (index 28), type Lorg/jboss/msc/service/ServiceName; (descriptor index 29)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Ljava/lang/String;)V (descriptor index 66)
+Human type: (org.jboss.msc.service.ServiceName, java.lang.String, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 118
+Method name configure (index 75), type (Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/wildfly/clustering/service/ServiceConfigurator; (descriptor index 76)
+Human type: (org.jboss.as.controller.capability.CapabilityServiceSupport): org.wildfly.clustering.service.ServiceConfigurator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 95
+Method name build (index 79), type (Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 80)
+Human type: (org.jboss.msc.service.ServiceTarget): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 184
+Method attribute name Signature, size 2
+Method name getGroupServiceName (index 93), type ()Lorg/jboss/msc/service/ServiceName; (descriptor index 32)
+Human type: (): org.jboss.msc.service.ServiceName
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

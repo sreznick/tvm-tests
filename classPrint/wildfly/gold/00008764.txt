@@ -1,0 +1,180 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 126
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemDefinition"
+3: Tag 9 FieldRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsContextService"
+7: Tag 1 Utf8 Value "metricsRequestHandler"
+8: Tag 1 Utf8 Value "Lio/smallrye/metrics/MetricsRequestHandler;"
+9: Tag 9 FieldRef Class index 4, Name and type index 10
+10: Tag 12 NameAndType Name index 11, Description index 12
+11: Tag 1 Utf8 Value "vendorMetricsRegistry"
+12: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+17: Tag 1 Utf8 Value "getServiceTarget"
+18: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+19: Tag 9 FieldRef Class index 1, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "MICROPROFILE_METRIC_HTTP_CONTEXT_CAPABILITY"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+27: Tag 1 Utf8 Value "getCapabilityServiceName"
+28: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+33: Tag 1 Utf8 Value "addService"
+34: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+35: Tag 8 String Contents 36
+36: Tag 1 Utf8 Value "org.wildfly.extension.metrics.http-context"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricsContextService"
+39: Tag 11 InterfaceMethodRef Class index 14, Name and type index 40
+40: Tag 12 NameAndType Name index 27, Description index 41
+41: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Lorg/jboss/msc/service/ServiceName;"
+42: Tag 11 InterfaceMethodRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 47
+45: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+46: Tag 1 Utf8 Value "requires"
+47: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+48: Tag 10 MethodRef Class index 4, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "<init>"
+51: Tag 1 Utf8 Value "(Ljava/util/function/Supplier;Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;)V"
+52: Tag 11 InterfaceMethodRef Class index 43, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "setInstance"
+55: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+56: Tag 11 InterfaceMethodRef Class index 43, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "install"
+59: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+60: Tag 10 MethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 50, Description index 64
+63: Tag 1 Utf8 Value "java/lang/Object"
+64: Tag 1 Utf8 Value "()V"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "io/smallrye/metrics/MetricsRequestHandler"
+67: Tag 10 MethodRef Class index 65, Name and type index 62
+68: Tag 9 FieldRef Class index 4, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "metricsContextService"
+71: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+72: Tag 11 InterfaceMethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "java/util/function/Supplier"
+76: Tag 1 Utf8 Value "get"
+77: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsContextService$1"
+80: Tag 10 MethodRef Class index 78, Name and type index 81
+81: Tag 12 NameAndType Name index 50, Description index 82
+82: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsContextService;)V"
+83: Tag 10 MethodRef Class index 37, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 86
+85: Tag 1 Utf8 Value "setOverrideableMetricHandler"
+86: Tag 1 Utf8 Value "(Lio/undertow/server/HttpHandler;)V"
+87: Tag 10 MethodRef Class index 88, Name and type index 89
+88: Tag 7 Class Name index 90
+89: Tag 12 NameAndType Name index 91, Description index 64
+90: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry"
+91: Tag 1 Utf8 Value "removeAllMetrics"
+92: Tag 7 Class Name index 93
+93: Tag 1 Utf8 Value "org/jboss/msc/Service"
+94: Tag 1 Utf8 Value "Signature"
+95: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/wildfly/extension/metrics/MetricsContextService;>;"
+96: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;)V"
+97: Tag 1 Utf8 Value "Code"
+98: Tag 1 Utf8 Value "LineNumberTable"
+99: Tag 1 Utf8 Value "LocalVariableTable"
+100: Tag 1 Utf8 Value "context"
+101: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+102: Tag 1 Utf8 Value "vendorMetricRegistry"
+103: Tag 1 Utf8 Value "serviceBuilder"
+104: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+105: Tag 1 Utf8 Value "microprofileMetricsContextService"
+106: Tag 1 Utf8 Value "Lorg/jboss/msc/Service;"
+107: Tag 1 Utf8 Value "LocalVariableTypeTable"
+108: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+109: Tag 1 Utf8 Value "this"
+110: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsContextService;"
+111: Tag 1 Utf8 Value "(Ljava/util/function/Supplier<Lorg/wildfly/extension/metrics/MetricsContextService;>;Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;)V"
+112: Tag 1 Utf8 Value "start"
+113: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+114: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+115: Tag 1 Utf8 Value "stop"
+116: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+117: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+118: Tag 1 Utf8 Value "access$000"
+119: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsContextService;)Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;"
+120: Tag 1 Utf8 Value "x0"
+121: Tag 1 Utf8 Value "access$100"
+122: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsContextService;)Lio/smallrye/metrics/MetricsRequestHandler;"
+123: Tag 1 Utf8 Value "SourceFile"
+124: Tag 1 Utf8 Value "MicroProfileMetricsContextService.java"
+125: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 4, name org.wildfly.extension.microprofile.metrics.MicroProfileMetricsContextService
+
+Super class: id 61, name java.lang.Object
+
+Implements class ids 92
+Implements names org.jboss.msc.Service
+
+Field name metricsContextService (index 70), type Ljava/util/function/Supplier; (descriptor index 71)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name metricsRequestHandler (index 7), type Lio/smallrye/metrics/MetricsRequestHandler; (descriptor index 8)
+Human type: io.smallrye.metrics.MetricsRequestHandler
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name vendorMetricsRegistry (index 11), type Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry; (descriptor index 12)
+Human type: org.wildfly.extension.microprofile.metrics.MicroProfileVendorMetricRegistry
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name install (index 58), type (Lorg/jboss/as/controller/OperationContext;Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;)V (descriptor index 96)
+Human type: (org.jboss.as.controller.OperationContext, org.wildfly.extension.microprofile.metrics.MicroProfileVendorMetricRegistry): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 187
+Method name <init> (index 50), type (Ljava/util/function/Supplier;Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;)V (descriptor index 51)
+Human type: (java.util.function.Supplier, org.wildfly.extension.microprofile.metrics.MicroProfileVendorMetricRegistry): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 122
+Method attribute name Signature, size 2
+Method name start (index 112), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 113)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 80
+Method name stop (index 115), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 116)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 84
+Method name access$000 (index 118), type (Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsContextService;)Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry; (descriptor index 119)
+Human type: (org.wildfly.extension.microprofile.metrics.MicroProfileMetricsContextService): org.wildfly.extension.microprofile.metrics.MicroProfileVendorMetricRegistry
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$100 (index 121), type (Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsContextService;)Lio/smallrye/metrics/MetricsRequestHandler; (descriptor index 122)
+Human type: (org.wildfly.extension.microprofile.metrics.MicroProfileMetricsContextService): io.smallrye.metrics.MetricsRequestHandler
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

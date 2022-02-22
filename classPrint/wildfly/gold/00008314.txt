@@ -1,0 +1,77 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 48
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ConcurrentContextInterceptor"
+11: Tag 1 Utf8 Value "concurrentContext"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ConcurrentContext;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ConcurrentContext"
+17: Tag 1 Utf8 Value "pushCurrent"
+18: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ConcurrentContext;)V"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/invocation/InterceptorContext"
+23: Tag 1 Utf8 Value "proceed"
+24: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+25: Tag 10 MethodRef Class index 14, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "popCurrent"
+28: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/concurrent/ConcurrentContext;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "org/jboss/invocation/Interceptor"
+31: Tag 1 Utf8 Value "Code"
+32: Tag 1 Utf8 Value "LineNumberTable"
+33: Tag 1 Utf8 Value "LocalVariableTable"
+34: Tag 1 Utf8 Value "this"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ConcurrentContextInterceptor;"
+36: Tag 1 Utf8 Value "processInvocation"
+37: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object;"
+38: Tag 1 Utf8 Value "context"
+39: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorContext;"
+40: Tag 1 Utf8 Value "StackMapTable"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "java/lang/Throwable"
+43: Tag 1 Utf8 Value "Exceptions"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "java/lang/Exception"
+46: Tag 1 Utf8 Value "SourceFile"
+47: Tag 1 Utf8 Value "ConcurrentContextInterceptor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.ee.concurrent.ConcurrentContextInterceptor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 29
+Implements names org.jboss.invocation.Interceptor
+
+Field name concurrentContext (index 11), type Lorg/jboss/as/ee/concurrent/ConcurrentContext; (descriptor index 12)
+Human type: org.jboss.as.ee.concurrent.ConcurrentContext
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/ee/concurrent/ConcurrentContext;)V (descriptor index 18)
+Human type: (org.jboss.as.ee.concurrent.ConcurrentContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name processInvocation (index 36), type (Lorg/jboss/invocation/InterceptorContext;)Ljava/lang/Object; (descriptor index 37)
+Human type: (org.jboss.invocation.InterceptorContext): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 117
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

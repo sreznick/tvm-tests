@@ -1,0 +1,152 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 101
+1: Tag 10 MethodRef Class index 17, Name and type index 59
+2: Tag 9 FieldRef Class index 14, Name and type index 60
+3: Tag 10 MethodRef Class index 14, Name and type index 61
+4: Tag 9 FieldRef Class index 14, Name and type index 62
+5: Tag 11 InterfaceMethodRef Class index 63, Name and type index 64
+6: Tag 7 Class Name index 65
+7: Tag 11 InterfaceMethodRef Class index 66, Name and type index 67
+8: Tag 11 InterfaceMethodRef Class index 6, Name and type index 68
+9: Tag 11 InterfaceMethodRef Class index 6, Name and type index 69
+10: Tag 7 Class Name index 70
+11: Tag 11 InterfaceMethodRef Class index 71, Name and type index 72
+12: Tag 11 InterfaceMethodRef Class index 73, Name and type index 74
+13: Tag 11 InterfaceMethodRef Class index 66, Name and type index 75
+14: Tag 7 Class Name index 76
+15: Tag 10 MethodRef Class index 77, Name and type index 78
+16: Tag 9 FieldRef Class index 14, Name and type index 79
+17: Tag 7 Class Name index 80
+18: Tag 1 Utf8 Value "logger"
+19: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger;"
+20: Tag 1 Utf8 Value "defaultConnectionFactory"
+21: Tag 1 Utf8 Value "Ljavax/jms/ConnectionFactory;"
+22: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+23: Tag 1 Utf8 Value "Ljavax/annotation/Resource;"
+24: Tag 1 Utf8 Value "regularConnectionFactory"
+25: Tag 1 Utf8 Value "lookup"
+26: Tag 1 Utf8 Value "java:/ConnectionFactory"
+27: Tag 1 Utf8 Value "<init>"
+28: Tag 1 Utf8 Value "()V"
+29: Tag 1 Utf8 Value "Code"
+30: Tag 1 Utf8 Value "LineNumberTable"
+31: Tag 1 Utf8 Value "LocalVariableTable"
+32: Tag 1 Utf8 Value "this"
+33: Tag 1 Utf8 Value "Lorg/jboss/as/test/smoke/jms/auxiliary/SimplifiedMessageProducer;"
+34: Tag 1 Utf8 Value "sendWithDefaultJMSConnectionFactory"
+35: Tag 1 Utf8 Value "(Ljavax/jms/Destination;Ljava/lang/String;)V"
+36: Tag 1 Utf8 Value "destination"
+37: Tag 1 Utf8 Value "Ljavax/jms/Destination;"
+38: Tag 1 Utf8 Value "text"
+39: Tag 1 Utf8 Value "Ljava/lang/String;"
+40: Tag 1 Utf8 Value "Exceptions"
+41: Tag 7 Class Name index 81
+42: Tag 1 Utf8 Value "sendWithRegularConnectionFactory"
+43: Tag 1 Utf8 Value "send"
+44: Tag 1 Utf8 Value "(Ljavax/jms/ConnectionFactory;Ljavax/jms/Destination;Ljava/lang/String;)V"
+45: Tag 1 Utf8 Value "cf"
+46: Tag 1 Utf8 Value "connection"
+47: Tag 1 Utf8 Value "Ljavax/jms/Connection;"
+48: Tag 1 Utf8 Value "session"
+49: Tag 1 Utf8 Value "Ljavax/jms/Session;"
+50: Tag 1 Utf8 Value "producer"
+51: Tag 1 Utf8 Value "Ljavax/jms/MessageProducer;"
+52: Tag 1 Utf8 Value "message"
+53: Tag 1 Utf8 Value "Ljavax/jms/Message;"
+54: Tag 1 Utf8 Value "<clinit>"
+55: Tag 1 Utf8 Value "SourceFile"
+56: Tag 1 Utf8 Value "SimplifiedMessageProducer.java"
+57: Tag 1 Utf8 Value "Ljavax/ejb/Stateful;"
+58: Tag 1 Utf8 Value "Ljavax/enterprise/context/RequestScoped;"
+59: Tag 12 NameAndType Name index 27, Description index 28
+60: Tag 12 NameAndType Name index 20, Description index 21
+61: Tag 12 NameAndType Name index 43, Description index 44
+62: Tag 12 NameAndType Name index 24, Description index 21
+63: Tag 7 Class Name index 82
+64: Tag 12 NameAndType Name index 83, Description index 84
+65: Tag 1 Utf8 Value "javax/jms/Session"
+66: Tag 7 Class Name index 85
+67: Tag 12 NameAndType Name index 86, Description index 87
+68: Tag 12 NameAndType Name index 88, Description index 89
+69: Tag 12 NameAndType Name index 90, Description index 91
+70: Tag 1 Utf8 Value "javax/jms/DeliveryMode"
+71: Tag 7 Class Name index 92
+72: Tag 12 NameAndType Name index 93, Description index 94
+73: Tag 7 Class Name index 95
+74: Tag 12 NameAndType Name index 43, Description index 96
+75: Tag 12 NameAndType Name index 97, Description index 28
+76: Tag 1 Utf8 Value "org/jboss/as/test/smoke/jms/auxiliary/SimplifiedMessageProducer"
+77: Tag 7 Class Name index 98
+78: Tag 12 NameAndType Name index 99, Description index 100
+79: Tag 12 NameAndType Name index 18, Description index 19
+80: Tag 1 Utf8 Value "java/lang/Object"
+81: Tag 1 Utf8 Value "java/lang/Exception"
+82: Tag 1 Utf8 Value "javax/jms/ConnectionFactory"
+83: Tag 1 Utf8 Value "createConnection"
+84: Tag 1 Utf8 Value "()Ljavax/jms/Connection;"
+85: Tag 1 Utf8 Value "javax/jms/Connection"
+86: Tag 1 Utf8 Value "createSession"
+87: Tag 1 Utf8 Value "(ZI)Ljavax/jms/Session;"
+88: Tag 1 Utf8 Value "createProducer"
+89: Tag 1 Utf8 Value "(Ljavax/jms/Destination;)Ljavax/jms/MessageProducer;"
+90: Tag 1 Utf8 Value "createTextMessage"
+91: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/jms/TextMessage;"
+92: Tag 1 Utf8 Value "javax/jms/Message"
+93: Tag 1 Utf8 Value "setJMSDeliveryMode"
+94: Tag 1 Utf8 Value "(I)V"
+95: Tag 1 Utf8 Value "javax/jms/MessageProducer"
+96: Tag 1 Utf8 Value "(Ljavax/jms/Message;)V"
+97: Tag 1 Utf8 Value "close"
+98: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+99: Tag 1 Utf8 Value "getLogger"
+100: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/logging/Logger;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.jboss.as.test.smoke.jms.auxiliary.SimplifiedMessageProducer
+
+Super class: id 17, name java.lang.Object
+
+No interfaces
+
+Field name logger (index 18), type Lorg/jboss/logging/Logger; (descriptor index 19)
+Human type: org.jboss.logging.Logger
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name defaultConnectionFactory (index 20), type Ljavax/jms/ConnectionFactory; (descriptor index 21)
+Human type: javax.jms.ConnectionFactory
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 6
+Field name regularConnectionFactory (index 24), type Ljavax/jms/ConnectionFactory; (descriptor index 21)
+Human type: javax.jms.ConnectionFactory
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name RuntimeVisibleAnnotations, size 11
+
+Method name <init> (index 27), type ()V (descriptor index 28)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name sendWithDefaultJMSConnectionFactory (index 34), type (Ljavax/jms/Destination;Ljava/lang/String;)V (descriptor index 35)
+Human type: (javax.jms.Destination, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 77
+Method attribute name Exceptions, size 4
+Method name sendWithRegularConnectionFactory (index 42), type (Ljavax/jms/Destination;Ljava/lang/String;)V (descriptor index 35)
+Human type: (javax.jms.Destination, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 77
+Method attribute name Exceptions, size 4
+Method name send (index 43), type (Ljavax/jms/ConnectionFactory;Ljavax/jms/Destination;Ljava/lang/String;)V (descriptor index 44)
+Human type: (javax.jms.ConnectionFactory, javax.jms.Destination, java.lang.String): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 204
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 54), type ()V (descriptor index 28)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 10

@@ -1,0 +1,153 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 90
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/ee/component/DefaultComponentConfigurator$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/DefaultComponentConfigurator;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$configuration"
+10: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentConfiguration;"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "val$moduleDescription"
+14: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEModuleDescription;"
+15: Tag 9 FieldRef Class index 2, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "val$deploymentReflectionIndex"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;"
+19: Tag 9 FieldRef Class index 2, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "val$description"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentDescription;"
+23: Tag 9 FieldRef Class index 2, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "val$context"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+27: Tag 9 FieldRef Class index 2, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "val$injectors"
+30: Tag 1 Utf8 Value "Ljava/util/Deque;"
+31: Tag 9 FieldRef Class index 2, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 30
+33: Tag 1 Utf8 Value "val$uninjectors"
+34: Tag 9 FieldRef Class index 2, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "val$metadataComplete"
+37: Tag 1 Utf8 Value "Z"
+38: Tag 10 MethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "org/jboss/as/ee/component/ClassDescriptionTraversal"
+42: Tag 1 Utf8 Value "<init>"
+43: Tag 1 Utf8 Value "(Ljava/lang/Class;Lorg/jboss/as/ee/component/EEApplicationClasses;)V"
+44: Tag 10 MethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentConfiguration"
+48: Tag 1 Utf8 Value "getComponentClass"
+49: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+50: Tag 9 FieldRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 55
+53: Tag 1 Utf8 Value "org/jboss/as/ee/component/BasicComponentInstance"
+54: Tag 1 Utf8 Value "INSTANCE_KEY"
+55: Tag 1 Utf8 Value "Ljava/lang/Object;"
+56: Tag 10 MethodRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 60, Description index 61
+59: Tag 1 Utf8 Value "org/jboss/as/ee/component/DefaultComponentConfigurator"
+60: Tag 1 Utf8 Value "mergeInjectionsForClass"
+61: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/Class;Lorg/jboss/as/ee/component/EEModuleClassDescription;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Ljava/util/Deque;Ljava/lang/Object;Ljava/util/Deque;Z)V"
+62: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/DefaultComponentConfigurator;Ljava/lang/Class;Lorg/jboss/as/ee/component/EEApplicationClasses;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Ljava/util/Deque;Ljava/util/Deque;Z)V"
+63: Tag 1 Utf8 Value "Code"
+64: Tag 1 Utf8 Value "LineNumberTable"
+65: Tag 1 Utf8 Value "LocalVariableTable"
+66: Tag 1 Utf8 Value "this"
+67: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/DefaultComponentConfigurator$1;"
+68: Tag 1 Utf8 Value "clazz"
+69: Tag 1 Utf8 Value "Ljava/lang/Class;"
+70: Tag 1 Utf8 Value "applicationClasses"
+71: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEApplicationClasses;"
+72: Tag 1 Utf8 Value "LocalVariableTypeTable"
+73: Tag 1 Utf8 Value "Ljava/lang/Class<*>;"
+74: Tag 1 Utf8 Value "handle"
+75: Tag 1 Utf8 Value "(Ljava/lang/Class;Lorg/jboss/as/ee/component/EEModuleClassDescription;)V"
+76: Tag 1 Utf8 Value "classDescription"
+77: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEModuleClassDescription;"
+78: Tag 1 Utf8 Value "Exceptions"
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+81: Tag 1 Utf8 Value "Signature"
+82: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;Lorg/jboss/as/ee/component/EEModuleClassDescription;)V"
+83: Tag 1 Utf8 Value "SourceFile"
+84: Tag 1 Utf8 Value "DefaultComponentConfigurator.java"
+85: Tag 1 Utf8 Value "EnclosingMethod"
+86: Tag 12 NameAndType Name index 87, Description index 88
+87: Tag 1 Utf8 Value "configure"
+88: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/ee/component/ComponentConfiguration;)V"
+89: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.ee.component.DefaultComponentConfigurator$1
+
+Super class: id 39, name org.jboss.as.ee.component.ClassDescriptionTraversal
+
+No interfaces
+
+Field name val$configuration (index 9), type Lorg/jboss/as/ee/component/ComponentConfiguration; (descriptor index 10)
+Human type: org.jboss.as.ee.component.ComponentConfiguration
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$moduleDescription (index 13), type Lorg/jboss/as/ee/component/EEModuleDescription; (descriptor index 14)
+Human type: org.jboss.as.ee.component.EEModuleDescription
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$deploymentReflectionIndex (index 17), type Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex; (descriptor index 18)
+Human type: org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$description (index 21), type Lorg/jboss/as/ee/component/ComponentDescription; (descriptor index 22)
+Human type: org.jboss.as.ee.component.ComponentDescription
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$context (index 25), type Lorg/jboss/as/server/deployment/DeploymentPhaseContext; (descriptor index 26)
+Human type: org.jboss.as.server.deployment.DeploymentPhaseContext
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$injectors (index 29), type Ljava/util/Deque; (descriptor index 30)
+Human type: java.util.Deque
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$uninjectors (index 33), type Ljava/util/Deque; (descriptor index 30)
+Human type: java.util.Deque
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$metadataComplete (index 36), type Z (descriptor index 37)
+Human type: boolean
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/jboss/as/ee/component/DefaultComponentConfigurator; (descriptor index 6)
+Human type: org.jboss.as.ee.component.DefaultComponentConfigurator
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 42), type (Lorg/jboss/as/ee/component/DefaultComponentConfigurator;Ljava/lang/Class;Lorg/jboss/as/ee/component/EEApplicationClasses;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Ljava/util/Deque;Ljava/util/Deque;Z)V (descriptor index 62)
+Human type: (org.jboss.as.ee.component.DefaultComponentConfigurator, java.lang.Class, org.jboss.as.ee.component.EEApplicationClasses, org.jboss.as.ee.component.ComponentConfiguration, org.jboss.as.ee.component.EEModuleDescription, org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex, org.jboss.as.ee.component.ComponentDescription, org.jboss.as.server.deployment.DeploymentPhaseContext, java.util.Deque, java.util.Deque, boolean): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 150
+Method name handle (index 74), type (Ljava/lang/Class;Lorg/jboss/as/ee/component/EEModuleClassDescription;)V (descriptor index 75)
+Human type: (java.lang.Class, org.jboss.as.ee.component.EEModuleClassDescription): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 136
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

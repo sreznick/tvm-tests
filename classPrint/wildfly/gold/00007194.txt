@@ -1,0 +1,130 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 88
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/util/Collections"
+11: Tag 1 Utf8 Value "emptyMap"
+12: Tag 1 Utf8 Value "()Ljava/util/Map;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldEjbServices"
+17: Tag 1 Utf8 Value "bindings"
+18: Tag 1 Utf8 Value "Ljava/util/Map;"
+19: Tag 7 Class Name index 20
+20: Tag 1 Utf8 Value "java/util/HashMap"
+21: Tag 10 MethodRef Class index 19, Name and type index 22
+22: Tag 12 NameAndType Name index 5, Description index 23
+23: Tag 1 Utf8 Value "(Ljava/util/Map;)V"
+24: Tag 11 InterfaceMethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "org/jboss/weld/ejb/spi/EjbDescriptor"
+28: Tag 1 Utf8 Value "getEjbName"
+29: Tag 1 Utf8 Value "()Ljava/lang/String;"
+30: Tag 11 InterfaceMethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "java/util/Map"
+34: Tag 1 Utf8 Value "put"
+35: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+36: Tag 11 InterfaceMethodRef Class index 25, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 39
+38: Tag 1 Utf8 Value "isStateful"
+39: Tag 1 Utf8 Value "()Z"
+40: Tag 7 Class Name index 41
+41: Tag 1 Utf8 Value "org/jboss/as/weld/ejb/StatefulSessionObjectReferenceImpl"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "org/jboss/as/weld/ejb/EjbDescriptorImpl"
+44: Tag 10 MethodRef Class index 40, Name and type index 45
+45: Tag 12 NameAndType Name index 5, Description index 46
+46: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/ejb/EjbDescriptorImpl;)V"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "org/jboss/as/weld/ejb/SessionObjectReferenceImpl"
+49: Tag 10 MethodRef Class index 47, Name and type index 45
+50: Tag 11 InterfaceMethodRef Class index 31, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 6
+52: Tag 1 Utf8 Value "clear"
+53: Tag 11 InterfaceMethodRef Class index 31, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "get"
+56: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "org/jboss/weld/ejb/spi/InterceptorBindings"
+59: Tag 7 Class Name index 60
+60: Tag 1 Utf8 Value "org/jboss/weld/ejb/spi/EjbServices"
+61: Tag 1 Utf8 Value "Signature"
+62: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/jboss/weld/ejb/spi/InterceptorBindings;>;"
+63: Tag 1 Utf8 Value "Code"
+64: Tag 1 Utf8 Value "LineNumberTable"
+65: Tag 1 Utf8 Value "LocalVariableTable"
+66: Tag 1 Utf8 Value "this"
+67: Tag 1 Utf8 Value "Lorg/jboss/as/weld/services/bootstrap/WeldEjbServices;"
+68: Tag 1 Utf8 Value "registerInterceptors"
+69: Tag 1 Utf8 Value "(Lorg/jboss/weld/ejb/spi/EjbDescriptor;Lorg/jboss/weld/ejb/spi/InterceptorBindings;)V"
+70: Tag 1 Utf8 Value "ejbDescriptor"
+71: Tag 1 Utf8 Value "Lorg/jboss/weld/ejb/spi/EjbDescriptor;"
+72: Tag 1 Utf8 Value "interceptorBindings"
+73: Tag 1 Utf8 Value "Lorg/jboss/weld/ejb/spi/InterceptorBindings;"
+74: Tag 1 Utf8 Value "LocalVariableTypeTable"
+75: Tag 1 Utf8 Value "Lorg/jboss/weld/ejb/spi/EjbDescriptor<*>;"
+76: Tag 1 Utf8 Value "(Lorg/jboss/weld/ejb/spi/EjbDescriptor<*>;Lorg/jboss/weld/ejb/spi/InterceptorBindings;)V"
+77: Tag 1 Utf8 Value "resolveEjb"
+78: Tag 1 Utf8 Value "(Lorg/jboss/weld/ejb/spi/EjbDescriptor;)Lorg/jboss/weld/ejb/api/SessionObjectReference;"
+79: Tag 1 Utf8 Value "StackMapTable"
+80: Tag 1 Utf8 Value "(Lorg/jboss/weld/ejb/spi/EjbDescriptor<*>;)Lorg/jboss/weld/ejb/api/SessionObjectReference;"
+81: Tag 1 Utf8 Value "cleanup"
+82: Tag 1 Utf8 Value "getBindings"
+83: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/weld/ejb/spi/InterceptorBindings;"
+84: Tag 1 Utf8 Value "ejbName"
+85: Tag 1 Utf8 Value "Ljava/lang/String;"
+86: Tag 1 Utf8 Value "SourceFile"
+87: Tag 1 Utf8 Value "WeldEjbServices.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.jboss.as.weld.services.bootstrap.WeldEjbServices
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 59
+Implements names org.jboss.weld.ejb.spi.EjbServices
+
+Field name bindings (index 17), type Ljava/util/Map; (descriptor index 18)
+Human type: java.util.Map
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 58
+Method name registerInterceptors (index 68), type (Lorg/jboss/weld/ejb/spi/EjbDescriptor;Lorg/jboss/weld/ejb/spi/InterceptorBindings;)V (descriptor index 69)
+Human type: (org.jboss.weld.ejb.spi.EjbDescriptor, org.jboss.weld.ejb.spi.InterceptorBindings): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 144
+Method attribute name Signature, size 2
+Method name resolveEjb (index 77), type (Lorg/jboss/weld/ejb/spi/EjbDescriptor;)Lorg/jboss/weld/ejb/api/SessionObjectReference; (descriptor index 78)
+Human type: (org.jboss.weld.ejb.spi.EjbDescriptor): org.jboss.weld.ejb.api.SessionObjectReference
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 120
+Method attribute name Signature, size 2
+Method name cleanup (index 81), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 56
+Method name getBindings (index 82), type (Ljava/lang/String;)Lorg/jboss/weld/ejb/spi/InterceptorBindings; (descriptor index 83)
+Human type: (java.lang.String): org.jboss.weld.ejb.spi.InterceptorBindings
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,126 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 75
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/ObjectExternalizer"
+11: Tag 1 Utf8 Value "targetClass"
+12: Tag 1 Utf8 Value "Ljava/lang/Class;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "reader"
+16: Tag 1 Utf8 Value "Ljava/util/function/Function;"
+17: Tag 9 FieldRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 16
+19: Tag 1 Utf8 Value "writer"
+20: Tag 11 InterfaceMethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "java/util/function/Function"
+24: Tag 1 Utf8 Value "apply"
+25: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+26: Tag 11 InterfaceMethodRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 30, Description index 31
+29: Tag 1 Utf8 Value "java/io/ObjectOutput"
+30: Tag 1 Utf8 Value "writeObject"
+31: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+32: Tag 11 InterfaceMethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "java/io/ObjectInput"
+36: Tag 1 Utf8 Value "readObject"
+37: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+38: Tag 7 Class Name index 39
+39: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Externalizer"
+40: Tag 1 Utf8 Value "Signature"
+41: Tag 1 Utf8 Value "Ljava/util/function/Function<Ljava/lang/Object;TT;>;"
+42: Tag 1 Utf8 Value "Ljava/util/function/Function<TT;Ljava/lang/Object;>;"
+43: Tag 1 Utf8 Value "Ljava/lang/Class<TT;>;"
+44: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/util/function/Function;Ljava/util/function/Function;)V"
+45: Tag 1 Utf8 Value "Code"
+46: Tag 1 Utf8 Value "LineNumberTable"
+47: Tag 1 Utf8 Value "LocalVariableTable"
+48: Tag 1 Utf8 Value "this"
+49: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/ObjectExternalizer;"
+50: Tag 1 Utf8 Value "LocalVariableTypeTable"
+51: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/ObjectExternalizer<TT;>;"
+52: Tag 1 Utf8 Value "(Ljava/lang/Class<TT;>;Ljava/util/function/Function<Ljava/lang/Object;TT;>;Ljava/util/function/Function<TT;Ljava/lang/Object;>;)V"
+53: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/lang/Object;)V"
+54: Tag 1 Utf8 Value "output"
+55: Tag 1 Utf8 Value "Ljava/io/ObjectOutput;"
+56: Tag 1 Utf8 Value "object"
+57: Tag 1 Utf8 Value "Ljava/lang/Object;"
+58: Tag 1 Utf8 Value "TT;"
+59: Tag 1 Utf8 Value "Exceptions"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "java/io/IOException"
+62: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;TT;)V"
+63: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/lang/Object;"
+64: Tag 1 Utf8 Value "input"
+65: Tag 1 Utf8 Value "Ljava/io/ObjectInput;"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+68: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)TT;"
+69: Tag 1 Utf8 Value "getTargetClass"
+70: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+71: Tag 1 Utf8 Value "()Ljava/lang/Class<TT;>;"
+72: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/Externalizer<TT;>;"
+73: Tag 1 Utf8 Value "SourceFile"
+74: Tag 1 Utf8 Value "ObjectExternalizer.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.marshalling.spi.ObjectExternalizer
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 38
+Implements names org.wildfly.clustering.marshalling.Externalizer
+
+Field name reader (index 15), type Ljava/util/function/Function; (descriptor index 16)
+Human type: java.util.function.Function
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name writer (index 19), type Ljava/util/function/Function; (descriptor index 16)
+Human type: java.util.function.Function
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name targetClass (index 11), type Ljava/lang/Class; (descriptor index 12)
+Human type: java.lang.Class
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/lang/Class;Ljava/util/function/Function;Ljava/util/function/Function;)V (descriptor index 44)
+Human type: (java.lang.Class, java.util.function.Function, java.util.function.Function): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 156
+Method attribute name Signature, size 2
+Method name writeObject (index 30), type (Ljava/io/ObjectOutput;Ljava/lang/Object;)V (descriptor index 53)
+Human type: (java.io.ObjectOutput, java.lang.Object): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 111
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name readObject (index 36), type (Ljava/io/ObjectInput;)Ljava/lang/Object; (descriptor index 63)
+Human type: (java.io.ObjectInput): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 86
+Method attribute name Exceptions, size 6
+Method attribute name Signature, size 2
+Method name getTargetClass (index 69), type ()Ljava/lang/Class; (descriptor index 70)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

@@ -1,0 +1,299 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 149
+1: Tag 10 MethodRef Class index 34, Name and type index 114
+2: Tag 7 Class Name index 115
+3: Tag 10 MethodRef Class index 2, Name and type index 114
+4: Tag 9 FieldRef Class index 33, Name and type index 116
+5: Tag 10 MethodRef Class index 34, Name and type index 117
+6: Tag 10 MethodRef Class index 34, Name and type index 118
+7: Tag 10 MethodRef Class index 34, Name and type index 119
+8: Tag 10 MethodRef Class index 34, Name and type index 120
+9: Tag 10 MethodRef Class index 34, Name and type index 121
+10: Tag 10 MethodRef Class index 34, Name and type index 122
+11: Tag 10 MethodRef Class index 34, Name and type index 123
+12: Tag 10 MethodRef Class index 34, Name and type index 124
+13: Tag 10 MethodRef Class index 34, Name and type index 125
+14: Tag 10 MethodRef Class index 34, Name and type index 126
+15: Tag 10 MethodRef Class index 34, Name and type index 127
+16: Tag 10 MethodRef Class index 34, Name and type index 128
+17: Tag 10 MethodRef Class index 34, Name and type index 129
+18: Tag 10 MethodRef Class index 34, Name and type index 130
+19: Tag 10 MethodRef Class index 34, Name and type index 131
+20: Tag 10 MethodRef Class index 34, Name and type index 132
+21: Tag 10 MethodRef Class index 34, Name and type index 133
+22: Tag 10 MethodRef Class index 34, Name and type index 134
+23: Tag 10 MethodRef Class index 34, Name and type index 135
+24: Tag 10 MethodRef Class index 34, Name and type index 136
+25: Tag 10 MethodRef Class index 34, Name and type index 137
+26: Tag 10 MethodRef Class index 34, Name and type index 138
+27: Tag 10 MethodRef Class index 34, Name and type index 139
+28: Tag 10 MethodRef Class index 34, Name and type index 140
+29: Tag 10 MethodRef Class index 34, Name and type index 141
+30: Tag 10 MethodRef Class index 34, Name and type index 142
+31: Tag 10 MethodRef Class index 34, Name and type index 143
+32: Tag 10 MethodRef Class index 34, Name and type index 144
+33: Tag 7 Class Name index 145
+34: Tag 7 Class Name index 146
+35: Tag 7 Class Name index 147
+36: Tag 1 Utf8 Value "repository"
+37: Tag 1 Utf8 Value "Lorg/jberet/repository/InMemoryRepository;"
+38: Tag 1 Utf8 Value "<init>"
+39: Tag 1 Utf8 Value "()V"
+40: Tag 1 Utf8 Value "Code"
+41: Tag 1 Utf8 Value "LineNumberTable"
+42: Tag 1 Utf8 Value "LocalVariableTable"
+43: Tag 1 Utf8 Value "this"
+44: Tag 1 Utf8 Value "Lorg/wildfly/extension/batch/jberet/job/repository/InMemoryJobRepositoryService;"
+45: Tag 1 Utf8 Value "startJobRepository"
+46: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+47: Tag 1 Utf8 Value "context"
+48: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+49: Tag 1 Utf8 Value "Exceptions"
+50: Tag 7 Class Name index 148
+51: Tag 1 Utf8 Value "stopJobRepository"
+52: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+53: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+54: Tag 1 Utf8 Value "getDelegate"
+55: Tag 1 Utf8 Value "()Lorg/jberet/repository/JobRepository;"
+56: Tag 1 Utf8 Value "getJobExecutionsByJob"
+57: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/List;"
+58: Tag 1 Utf8 Value "savePersistentDataIfNotStopping"
+59: Tag 1 Utf8 Value "(Ljavax/batch/runtime/JobExecution;Lorg/jberet/runtime/AbstractStepExecution;)I"
+60: Tag 1 Utf8 Value "savePersistentData"
+61: Tag 1 Utf8 Value "(Ljavax/batch/runtime/JobExecution;Lorg/jberet/runtime/AbstractStepExecution;)V"
+62: Tag 1 Utf8 Value "getPartitionExecutions"
+63: Tag 1 Utf8 Value "(JLorg/jberet/runtime/StepExecutionImpl;ZLjava/lang/ClassLoader;)Ljava/util/List;"
+64: Tag 1 Utf8 Value "addPartitionExecution"
+65: Tag 1 Utf8 Value "(Lorg/jberet/runtime/StepExecutionImpl;Lorg/jberet/runtime/PartitionExecutionImpl;)V"
+66: Tag 1 Utf8 Value "countStepStartTimes"
+67: Tag 1 Utf8 Value "(Ljava/lang/String;J)I"
+68: Tag 1 Utf8 Value "findOriginalStepExecutionForRestart"
+69: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jberet/runtime/JobExecutionImpl;Ljava/lang/ClassLoader;)Lorg/jberet/runtime/StepExecutionImpl;"
+70: Tag 1 Utf8 Value "updateStepExecution"
+71: Tag 1 Utf8 Value "(Ljavax/batch/runtime/StepExecution;)V"
+72: Tag 1 Utf8 Value "addStepExecution"
+73: Tag 1 Utf8 Value "(Lorg/jberet/runtime/JobExecutionImpl;Lorg/jberet/runtime/StepExecutionImpl;)V"
+74: Tag 1 Utf8 Value "createStepExecution"
+75: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jberet/runtime/StepExecutionImpl;"
+76: Tag 1 Utf8 Value "getStepExecutions"
+77: Tag 1 Utf8 Value "(JLjava/lang/ClassLoader;)Ljava/util/List;"
+78: Tag 1 Utf8 Value "removeJobExecutions"
+79: Tag 1 Utf8 Value "(Lorg/jberet/repository/JobExecutionSelector;)V"
+80: Tag 1 Utf8 Value "getRunningExecutions"
+81: Tag 1 Utf8 Value "stopJobExecution"
+82: Tag 1 Utf8 Value "(Lorg/jberet/runtime/JobExecutionImpl;)V"
+83: Tag 1 Utf8 Value "updateJobExecution"
+84: Tag 1 Utf8 Value "(Lorg/jberet/runtime/JobExecutionImpl;ZZ)V"
+85: Tag 1 Utf8 Value "getJobExecutions"
+86: Tag 1 Utf8 Value "(Ljavax/batch/runtime/JobInstance;)Ljava/util/List;"
+87: Tag 1 Utf8 Value "getJobExecution"
+88: Tag 1 Utf8 Value "(J)Ljavax/batch/runtime/JobExecution;"
+89: Tag 1 Utf8 Value "createJobExecution"
+90: Tag 1 Utf8 Value "(Lorg/jberet/runtime/JobInstanceImpl;Ljava/util/Properties;)Lorg/jberet/runtime/JobExecutionImpl;"
+91: Tag 1 Utf8 Value "getJobInstanceCount"
+92: Tag 1 Utf8 Value "(Ljava/lang/String;)I"
+93: Tag 1 Utf8 Value "getJobInstances"
+94: Tag 1 Utf8 Value "getJobInstance"
+95: Tag 1 Utf8 Value "(J)Ljavax/batch/runtime/JobInstance;"
+96: Tag 1 Utf8 Value "removeJobInstance"
+97: Tag 1 Utf8 Value "(J)V"
+98: Tag 1 Utf8 Value "createJobInstance"
+99: Tag 1 Utf8 Value "(Lorg/jberet/job/model/Job;Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/jberet/runtime/JobInstanceImpl;"
+100: Tag 1 Utf8 Value "jobExists"
+101: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+102: Tag 1 Utf8 Value "getJobNames"
+103: Tag 1 Utf8 Value "()Ljava/util/Set;"
+104: Tag 1 Utf8 Value "getJob"
+105: Tag 1 Utf8 Value "(Lorg/jberet/repository/ApplicationAndJobName;)Lorg/jberet/job/model/Job;"
+106: Tag 1 Utf8 Value "removeJob"
+107: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+108: Tag 1 Utf8 Value "addJob"
+109: Tag 1 Utf8 Value "(Lorg/jberet/repository/ApplicationAndJobName;Lorg/jberet/job/model/Job;)V"
+110: Tag 1 Utf8 Value "Signature"
+111: Tag 1 Utf8 Value "Lorg/wildfly/extension/batch/jberet/job/repository/JobRepositoryService;Lorg/jboss/msc/service/Service<Lorg/jberet/repository/JobRepository;>;"
+112: Tag 1 Utf8 Value "SourceFile"
+113: Tag 1 Utf8 Value "InMemoryJobRepositoryService.java"
+114: Tag 12 NameAndType Name index 38, Description index 39
+115: Tag 1 Utf8 Value "org/jberet/repository/InMemoryRepository"
+116: Tag 12 NameAndType Name index 36, Description index 37
+117: Tag 12 NameAndType Name index 56, Description index 57
+118: Tag 12 NameAndType Name index 58, Description index 59
+119: Tag 12 NameAndType Name index 60, Description index 61
+120: Tag 12 NameAndType Name index 62, Description index 63
+121: Tag 12 NameAndType Name index 64, Description index 65
+122: Tag 12 NameAndType Name index 66, Description index 67
+123: Tag 12 NameAndType Name index 68, Description index 69
+124: Tag 12 NameAndType Name index 70, Description index 71
+125: Tag 12 NameAndType Name index 72, Description index 73
+126: Tag 12 NameAndType Name index 74, Description index 75
+127: Tag 12 NameAndType Name index 76, Description index 77
+128: Tag 12 NameAndType Name index 78, Description index 79
+129: Tag 12 NameAndType Name index 80, Description index 57
+130: Tag 12 NameAndType Name index 81, Description index 82
+131: Tag 12 NameAndType Name index 83, Description index 84
+132: Tag 12 NameAndType Name index 85, Description index 86
+133: Tag 12 NameAndType Name index 87, Description index 88
+134: Tag 12 NameAndType Name index 89, Description index 90
+135: Tag 12 NameAndType Name index 91, Description index 92
+136: Tag 12 NameAndType Name index 93, Description index 57
+137: Tag 12 NameAndType Name index 94, Description index 95
+138: Tag 12 NameAndType Name index 96, Description index 97
+139: Tag 12 NameAndType Name index 98, Description index 99
+140: Tag 12 NameAndType Name index 100, Description index 101
+141: Tag 12 NameAndType Name index 102, Description index 103
+142: Tag 12 NameAndType Name index 104, Description index 105
+143: Tag 12 NameAndType Name index 106, Description index 107
+144: Tag 12 NameAndType Name index 108, Description index 109
+145: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/job/repository/InMemoryJobRepositoryService"
+146: Tag 1 Utf8 Value "org/wildfly/extension/batch/jberet/job/repository/JobRepositoryService"
+147: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+148: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 33, name org.wildfly.extension.batch.jberet.job.repository.InMemoryJobRepositoryService
+
+Super class: id 34, name org.wildfly.extension.batch.jberet.job.repository.JobRepositoryService
+
+Implements class ids 35
+Implements names org.jboss.msc.service.Service
+
+Field name repository (index 36), type Lorg/jberet/repository/InMemoryRepository; (descriptor index 37)
+Human type: org.jberet.repository.InMemoryRepository
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 38), type ()V (descriptor index 39)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name startJobRepository (index 45), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 46)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 68
+Method attribute name Exceptions, size 4
+Method name stopJobRepository (index 51), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 52)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getDelegate (index 54), type ()Lorg/jberet/repository/JobRepository; (descriptor index 55)
+Human type: (): org.jberet.repository.JobRepository
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 47
+Method name getJobExecutionsByJob (index 56), type (Ljava/lang/String;)Ljava/util/List; (descriptor index 57)
+Human type: (java.lang.String): java.util.List
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name savePersistentDataIfNotStopping (index 58), type (Ljavax/batch/runtime/JobExecution;Lorg/jberet/runtime/AbstractStepExecution;)I (descriptor index 59)
+Human type: (javax.batch.runtime.JobExecution, org.jberet.runtime.AbstractStepExecution): int
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 49
+Method name savePersistentData (index 60), type (Ljavax/batch/runtime/JobExecution;Lorg/jberet/runtime/AbstractStepExecution;)V (descriptor index 61)
+Human type: (javax.batch.runtime.JobExecution, org.jberet.runtime.AbstractStepExecution): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 49
+Method name getPartitionExecutions (index 62), type (JLorg/jberet/runtime/StepExecutionImpl;ZLjava/lang/ClassLoader;)Ljava/util/List; (descriptor index 63)
+Human type: (long, org.jberet.runtime.StepExecutionImpl, boolean, java.lang.ClassLoader): java.util.List
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 53
+Method name addPartitionExecution (index 64), type (Lorg/jberet/runtime/StepExecutionImpl;Lorg/jberet/runtime/PartitionExecutionImpl;)V (descriptor index 65)
+Human type: (org.jberet.runtime.StepExecutionImpl, org.jberet.runtime.PartitionExecutionImpl): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 49
+Method name countStepStartTimes (index 66), type (Ljava/lang/String;J)I (descriptor index 67)
+Human type: (java.lang.String, long): int
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 49
+Method name findOriginalStepExecutionForRestart (index 68), type (Ljava/lang/String;Lorg/jberet/runtime/JobExecutionImpl;Ljava/lang/ClassLoader;)Lorg/jberet/runtime/StepExecutionImpl; (descriptor index 69)
+Human type: (java.lang.String, org.jberet.runtime.JobExecutionImpl, java.lang.ClassLoader): org.jberet.runtime.StepExecutionImpl
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 50
+Method name updateStepExecution (index 70), type (Ljavax/batch/runtime/StepExecution;)V (descriptor index 71)
+Human type: (javax.batch.runtime.StepExecution): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name addStepExecution (index 72), type (Lorg/jberet/runtime/JobExecutionImpl;Lorg/jberet/runtime/StepExecutionImpl;)V (descriptor index 73)
+Human type: (org.jberet.runtime.JobExecutionImpl, org.jberet.runtime.StepExecutionImpl): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 49
+Method name createStepExecution (index 74), type (Ljava/lang/String;)Lorg/jberet/runtime/StepExecutionImpl; (descriptor index 75)
+Human type: (java.lang.String): org.jberet.runtime.StepExecutionImpl
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name getStepExecutions (index 76), type (JLjava/lang/ClassLoader;)Ljava/util/List; (descriptor index 77)
+Human type: (long, java.lang.ClassLoader): java.util.List
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 49
+Method name removeJobExecutions (index 78), type (Lorg/jberet/repository/JobExecutionSelector;)V (descriptor index 79)
+Human type: (org.jberet.repository.JobExecutionSelector): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name getRunningExecutions (index 80), type (Ljava/lang/String;)Ljava/util/List; (descriptor index 57)
+Human type: (java.lang.String): java.util.List
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name stopJobExecution (index 81), type (Lorg/jberet/runtime/JobExecutionImpl;)V (descriptor index 82)
+Human type: (org.jberet.runtime.JobExecutionImpl): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name updateJobExecution (index 83), type (Lorg/jberet/runtime/JobExecutionImpl;ZZ)V (descriptor index 84)
+Human type: (org.jberet.runtime.JobExecutionImpl, boolean, boolean): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 50
+Method name getJobExecutions (index 85), type (Ljavax/batch/runtime/JobInstance;)Ljava/util/List; (descriptor index 86)
+Human type: (javax.batch.runtime.JobInstance): java.util.List
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name getJobExecution (index 87), type (J)Ljavax/batch/runtime/JobExecution; (descriptor index 88)
+Human type: (long): javax.batch.runtime.JobExecution
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name createJobExecution (index 89), type (Lorg/jberet/runtime/JobInstanceImpl;Ljava/util/Properties;)Lorg/jberet/runtime/JobExecutionImpl; (descriptor index 90)
+Human type: (org.jberet.runtime.JobInstanceImpl, java.util.Properties): org.jberet.runtime.JobExecutionImpl
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 49
+Method name getJobInstanceCount (index 91), type (Ljava/lang/String;)I (descriptor index 92)
+Human type: (java.lang.String): int
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name getJobInstances (index 93), type (Ljava/lang/String;)Ljava/util/List; (descriptor index 57)
+Human type: (java.lang.String): java.util.List
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name getJobInstance (index 94), type (J)Ljavax/batch/runtime/JobInstance; (descriptor index 95)
+Human type: (long): javax.batch.runtime.JobInstance
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name removeJobInstance (index 96), type (J)V (descriptor index 97)
+Human type: (long): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name createJobInstance (index 98), type (Lorg/jberet/job/model/Job;Ljava/lang/String;Ljava/lang/ClassLoader;)Lorg/jberet/runtime/JobInstanceImpl; (descriptor index 99)
+Human type: (org.jberet.job.model.Job, java.lang.String, java.lang.ClassLoader): org.jberet.runtime.JobInstanceImpl
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 50
+Method name jobExists (index 100), type (Ljava/lang/String;)Z (descriptor index 101)
+Human type: (java.lang.String): boolean
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name getJobNames (index 102), type ()Ljava/util/Set; (descriptor index 103)
+Human type: (): java.util.Set
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method name getJob (index 104), type (Lorg/jberet/repository/ApplicationAndJobName;)Lorg/jberet/job/model/Job; (descriptor index 105)
+Human type: (org.jberet.repository.ApplicationAndJobName): org.jberet.job.model.Job
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name removeJob (index 106), type (Ljava/lang/String;)V (descriptor index 107)
+Human type: (java.lang.String): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name addJob (index 108), type (Lorg/jberet/repository/ApplicationAndJobName;Lorg/jberet/job/model/Job;)V (descriptor index 109)
+Human type: (org.jberet.repository.ApplicationAndJobName, org.jberet.job.model.Job): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 49
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

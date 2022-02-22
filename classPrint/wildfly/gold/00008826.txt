@@ -1,0 +1,129 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 82
+1: Tag 9 FieldRef Class index 13, Name and type index 46
+2: Tag 9 FieldRef Class index 13, Name and type index 47
+3: Tag 9 FieldRef Class index 13, Name and type index 48
+4: Tag 9 FieldRef Class index 13, Name and type index 49
+5: Tag 10 MethodRef Class index 14, Name and type index 50
+6: Tag 10 MethodRef Class index 51, Name and type index 52
+7: Tag 10 MethodRef Class index 44, Name and type index 53
+8: Tag 10 MethodRef Class index 44, Name and type index 54
+9: Tag 10 MethodRef Class index 44, Name and type index 55
+10: Tag 11 InterfaceMethodRef Class index 37, Name and type index 56
+11: Tag 10 MethodRef Class index 57, Name and type index 58
+12: Tag 10 MethodRef Class index 13, Name and type index 59
+13: Tag 7 Class Name index 60
+14: Tag 7 Class Name index 61
+15: Tag 7 Class Name index 62
+16: Tag 1 Utf8 Value "val$principal"
+17: Tag 1 Utf8 Value "Ljava/security/Principal;"
+18: Tag 1 Utf8 Value "val$credential"
+19: Tag 1 Utf8 Value "Ljava/lang/Object;"
+20: Tag 1 Utf8 Value "val$subject"
+21: Tag 1 Utf8 Value "Ljavax/security/auth/Subject;"
+22: Tag 1 Utf8 Value "this$0"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/security/SecurityDomainContextImpl;"
+24: Tag 1 Utf8 Value "<init>"
+25: Tag 1 Utf8 Value "(Lorg/jboss/as/webservices/security/SecurityDomainContextImpl;Ljava/security/Principal;Ljava/lang/Object;Ljavax/security/auth/Subject;)V"
+26: Tag 1 Utf8 Value "Code"
+27: Tag 1 Utf8 Value "LineNumberTable"
+28: Tag 1 Utf8 Value "LocalVariableTable"
+29: Tag 1 Utf8 Value "this"
+30: Tag 1 Utf8 Value "InnerClasses"
+31: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/security/SecurityDomainContextImpl$1;"
+32: Tag 1 Utf8 Value "run"
+33: Tag 1 Utf8 Value "()Ljava/lang/Void;"
+34: Tag 1 Utf8 Value "securityContext"
+35: Tag 1 Utf8 Value "Lorg/jboss/security/SecurityContext;"
+36: Tag 1 Utf8 Value "StackMapTable"
+37: Tag 7 Class Name index 63
+38: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+39: Tag 1 Utf8 Value "Signature"
+40: Tag 1 Utf8 Value "Ljava/lang/Object;Ljava/security/PrivilegedAction<Ljava/lang/Void;>;"
+41: Tag 1 Utf8 Value "SourceFile"
+42: Tag 1 Utf8 Value "SecurityDomainContextImpl.java"
+43: Tag 1 Utf8 Value "EnclosingMethod"
+44: Tag 7 Class Name index 64
+45: Tag 12 NameAndType Name index 65, Description index 66
+46: Tag 12 NameAndType Name index 22, Description index 23
+47: Tag 12 NameAndType Name index 16, Description index 17
+48: Tag 12 NameAndType Name index 18, Description index 19
+49: Tag 12 NameAndType Name index 20, Description index 21
+50: Tag 12 NameAndType Name index 24, Description index 67
+51: Tag 7 Class Name index 68
+52: Tag 12 NameAndType Name index 69, Description index 70
+53: Tag 12 NameAndType Name index 71, Description index 72
+54: Tag 12 NameAndType Name index 73, Description index 74
+55: Tag 12 NameAndType Name index 75, Description index 76
+56: Tag 12 NameAndType Name index 77, Description index 78
+57: Tag 7 Class Name index 79
+58: Tag 12 NameAndType Name index 80, Description index 81
+59: Tag 12 NameAndType Name index 32, Description index 33
+60: Tag 1 Utf8 Value "org/jboss/as/webservices/security/SecurityDomainContextImpl$1"
+61: Tag 1 Utf8 Value "java/lang/Object"
+62: Tag 1 Utf8 Value "java/security/PrivilegedAction"
+63: Tag 1 Utf8 Value "org/jboss/security/SecurityContext"
+64: Tag 1 Utf8 Value "org/jboss/as/webservices/security/SecurityDomainContextImpl"
+65: Tag 1 Utf8 Value "pushSubjectContext"
+66: Tag 1 Utf8 Value "(Ljavax/security/auth/Subject;Ljava/security/Principal;Ljava/lang/Object;)V"
+67: Tag 1 Utf8 Value "()V"
+68: Tag 1 Utf8 Value "org/jboss/security/SecurityContextAssociation"
+69: Tag 1 Utf8 Value "getSecurityContext"
+70: Tag 1 Utf8 Value "()Lorg/jboss/security/SecurityContext;"
+71: Tag 1 Utf8 Value "getSecurityDomain"
+72: Tag 1 Utf8 Value "()Ljava/lang/String;"
+73: Tag 1 Utf8 Value "access$000"
+74: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/security/SecurityContext;"
+75: Tag 1 Utf8 Value "access$100"
+76: Tag 1 Utf8 Value "(Lorg/jboss/security/SecurityContext;)V"
+77: Tag 1 Utf8 Value "getUtil"
+78: Tag 1 Utf8 Value "()Lorg/jboss/security/SecurityContextUtil;"
+79: Tag 1 Utf8 Value "org/jboss/security/SecurityContextUtil"
+80: Tag 1 Utf8 Value "createSubjectInfo"
+81: Tag 1 Utf8 Value "(Ljava/security/Principal;Ljava/lang/Object;Ljavax/security/auth/Subject;)V"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 13, name org.jboss.as.webservices.security.SecurityDomainContextImpl$1
+
+Super class: id 14, name java.lang.Object
+
+Implements class ids 15
+Implements names java.security.PrivilegedAction
+
+Field name val$principal (index 16), type Ljava/security/Principal; (descriptor index 17)
+Human type: java.security.Principal
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$credential (index 18), type Ljava/lang/Object; (descriptor index 19)
+Human type: java.lang.Object
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$subject (index 20), type Ljavax/security/auth/Subject; (descriptor index 21)
+Human type: javax.security.auth.Subject
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 22), type Lorg/jboss/as/webservices/security/SecurityDomainContextImpl; (descriptor index 23)
+Human type: org.jboss.as.webservices.security.SecurityDomainContextImpl
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 24), type (Lorg/jboss/as/webservices/security/SecurityDomainContextImpl;Ljava/security/Principal;Ljava/lang/Object;Ljavax/security/auth/Subject;)V (descriptor index 25)
+Human type: (org.jboss.as.webservices.security.SecurityDomainContextImpl, java.security.Principal, java.lang.Object, javax.security.auth.Subject): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 78
+Method name run (index 32), type ()Ljava/lang/Void; (descriptor index 33)
+Human type: (): java.lang.Void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 132
+Method name run (index 32), type ()Ljava/lang/Object; (descriptor index 38)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

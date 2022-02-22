@@ -1,0 +1,121 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 74
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/server/dispatcher/ChannelCommandDispatcherFactory$5"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/dispatcher/ChannelCommandDispatcherFactory;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$listener"
+10: Tag 1 Utf8 Value "Lorg/wildfly/clustering/group/GroupListener;"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "val$oldMembership"
+14: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/dispatcher/ViewMembership;"
+15: Tag 9 FieldRef Class index 2, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 14
+17: Tag 1 Utf8 Value "val$membership"
+18: Tag 9 FieldRef Class index 2, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "val$view"
+21: Tag 1 Utf8 Value "Lorg/jgroups/View;"
+22: Tag 10 MethodRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "java/lang/Object"
+26: Tag 1 Utf8 Value "<init>"
+27: Tag 1 Utf8 Value "()V"
+28: Tag 7 Class Name index 29
+29: Tag 1 Utf8 Value "org/jgroups/MergeView"
+30: Tag 11 InterfaceMethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/wildfly/clustering/group/GroupListener"
+34: Tag 1 Utf8 Value "membershipChanged"
+35: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/group/Membership;Lorg/wildfly/clustering/group/Membership;Z)V"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "java/lang/Throwable"
+38: Tag 9 FieldRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "org/jboss/as/clustering/logging/ClusteringLogger"
+42: Tag 1 Utf8 Value "ROOT_LOGGER"
+43: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/logging/ClusteringLogger;"
+44: Tag 10 MethodRef Class index 36, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "getLocalizedMessage"
+47: Tag 1 Utf8 Value "()Ljava/lang/String;"
+48: Tag 11 InterfaceMethodRef Class index 39, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "warn"
+51: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Throwable;)V"
+52: Tag 7 Class Name index 53
+53: Tag 1 Utf8 Value "java/lang/Runnable"
+54: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/dispatcher/ChannelCommandDispatcherFactory;Lorg/wildfly/clustering/group/GroupListener;Lorg/wildfly/clustering/server/dispatcher/ViewMembership;Lorg/wildfly/clustering/server/dispatcher/ViewMembership;Lorg/jgroups/View;)V"
+55: Tag 1 Utf8 Value "Code"
+56: Tag 1 Utf8 Value "LineNumberTable"
+57: Tag 1 Utf8 Value "LocalVariableTable"
+58: Tag 1 Utf8 Value "this"
+59: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/dispatcher/ChannelCommandDispatcherFactory$5;"
+60: Tag 1 Utf8 Value "Signature"
+61: Tag 1 Utf8 Value "run"
+62: Tag 1 Utf8 Value "e"
+63: Tag 1 Utf8 Value "Ljava/lang/Throwable;"
+64: Tag 1 Utf8 Value "StackMapTable"
+65: Tag 1 Utf8 Value "SourceFile"
+66: Tag 1 Utf8 Value "ChannelCommandDispatcherFactory.java"
+67: Tag 1 Utf8 Value "EnclosingMethod"
+68: Tag 7 Class Name index 69
+69: Tag 1 Utf8 Value "org/wildfly/clustering/server/dispatcher/ChannelCommandDispatcherFactory"
+70: Tag 12 NameAndType Name index 71, Description index 72
+71: Tag 1 Utf8 Value "viewAccepted"
+72: Tag 1 Utf8 Value "(Lorg/jgroups/View;)V"
+73: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.clustering.server.dispatcher.ChannelCommandDispatcherFactory$5
+
+Super class: id 23, name java.lang.Object
+
+Implements class ids 52
+Implements names java.lang.Runnable
+
+Field name val$listener (index 9), type Lorg/wildfly/clustering/group/GroupListener; (descriptor index 10)
+Human type: org.wildfly.clustering.group.GroupListener
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$oldMembership (index 13), type Lorg/wildfly/clustering/server/dispatcher/ViewMembership; (descriptor index 14)
+Human type: org.wildfly.clustering.server.dispatcher.ViewMembership
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$membership (index 17), type Lorg/wildfly/clustering/server/dispatcher/ViewMembership; (descriptor index 14)
+Human type: org.wildfly.clustering.server.dispatcher.ViewMembership
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$view (index 20), type Lorg/jgroups/View; (descriptor index 21)
+Human type: org.jgroups.View
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/clustering/server/dispatcher/ChannelCommandDispatcherFactory; (descriptor index 6)
+Human type: org.wildfly.clustering.server.dispatcher.ChannelCommandDispatcherFactory
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 26), type (Lorg/wildfly/clustering/server/dispatcher/ChannelCommandDispatcherFactory;Lorg/wildfly/clustering/group/GroupListener;Lorg/wildfly/clustering/server/dispatcher/ViewMembership;Lorg/wildfly/clustering/server/dispatcher/ViewMembership;Lorg/jgroups/View;)V (descriptor index 54)
+Human type: (org.wildfly.clustering.server.dispatcher.ChannelCommandDispatcherFactory, org.wildfly.clustering.group.GroupListener, org.wildfly.clustering.server.dispatcher.ViewMembership, org.wildfly.clustering.server.dispatcher.ViewMembership, org.jgroups.View): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 84
+Method attribute name Signature, size 2
+Method name run (index 61), type ()V (descriptor index 27)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 131
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

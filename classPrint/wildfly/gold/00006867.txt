@@ -1,0 +1,256 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 166
+1: Tag 10 MethodRef Class index 30, Name and type index 114
+2: Tag 9 FieldRef Class index 29, Name and type index 115
+3: Tag 7 Class Name index 116
+4: Tag 10 MethodRef Class index 3, Name and type index 117
+5: Tag 9 FieldRef Class index 29, Name and type index 118
+6: Tag 10 MethodRef Class index 119, Name and type index 120
+7: Tag 10 MethodRef Class index 121, Name and type index 122
+8: Tag 10 MethodRef Class index 30, Name and type index 123
+9: Tag 10 MethodRef Class index 30, Name and type index 124
+10: Tag 10 MethodRef Class index 30, Name and type index 125
+11: Tag 10 MethodRef Class index 119, Name and type index 126
+12: Tag 10 MethodRef Class index 121, Name and type index 127
+13: Tag 10 MethodRef Class index 30, Name and type index 128
+14: Tag 7 Class Name index 129
+15: Tag 10 MethodRef Class index 14, Name and type index 130
+16: Tag 10 MethodRef Class index 119, Name and type index 131
+17: Tag 10 MethodRef Class index 30, Name and type index 132
+18: Tag 10 MethodRef Class index 14, Name and type index 133
+19: Tag 10 MethodRef Class index 14, Name and type index 134
+20: Tag 10 MethodRef Class index 119, Name and type index 135
+21: Tag 10 MethodRef Class index 30, Name and type index 136
+22: Tag 10 MethodRef Class index 30, Name and type index 137
+23: Tag 10 MethodRef Class index 30, Name and type index 138
+24: Tag 10 MethodRef Class index 30, Name and type index 139
+25: Tag 10 MethodRef Class index 30, Name and type index 140
+26: Tag 10 MethodRef Class index 30, Name and type index 141
+27: Tag 7 Class Name index 142
+28: Tag 10 MethodRef Class index 29, Name and type index 143
+29: Tag 7 Class Name index 144
+30: Tag 7 Class Name index 145
+31: Tag 7 Class Name index 146
+32: Tag 1 Utf8 Value "CancellableTrigger"
+33: Tag 1 Utf8 Value "InnerClasses"
+34: Tag 1 Utf8 Value "controlPoint"
+35: Tag 1 Utf8 Value "Lorg/wildfly/extension/requestcontroller/ControlPoint;"
+36: Tag 1 Utf8 Value "runtimeStats"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ManagedExecutorRuntimeStats;"
+38: Tag 1 Utf8 Value "<init>"
+39: Tag 7 Class Name index 148
+40: Tag 1 Utf8 Value "RejectPolicy"
+41: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl;JZIJLjava/util/concurrent/TimeUnit;JLorg/glassfish/enterprise/concurrent/ContextServiceImpl;Lorg/glassfish/enterprise/concurrent/AbstractManagedExecutorService$RejectPolicy;Lorg/wildfly/extension/requestcontroller/ControlPoint;)V"
+42: Tag 1 Utf8 Value "Code"
+43: Tag 1 Utf8 Value "LineNumberTable"
+44: Tag 1 Utf8 Value "LocalVariableTable"
+45: Tag 1 Utf8 Value "this"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl;"
+47: Tag 1 Utf8 Value "name"
+48: Tag 1 Utf8 Value "Ljava/lang/String;"
+49: Tag 1 Utf8 Value "managedThreadFactory"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl;"
+51: Tag 1 Utf8 Value "hungTaskThreshold"
+52: Tag 1 Utf8 Value "J"
+53: Tag 1 Utf8 Value "longRunningTasks"
+54: Tag 1 Utf8 Value "Z"
+55: Tag 1 Utf8 Value "corePoolSize"
+56: Tag 1 Utf8 Value "I"
+57: Tag 1 Utf8 Value "keepAliveTime"
+58: Tag 1 Utf8 Value "keepAliveTimeUnit"
+59: Tag 1 Utf8 Value "Ljava/util/concurrent/TimeUnit;"
+60: Tag 1 Utf8 Value "threadLifeTime"
+61: Tag 1 Utf8 Value "contextService"
+62: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;"
+63: Tag 1 Utf8 Value "rejectPolicy"
+64: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/AbstractManagedExecutorService$RejectPolicy;"
+65: Tag 1 Utf8 Value "execute"
+66: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)V"
+67: Tag 1 Utf8 Value "command"
+68: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+69: Tag 1 Utf8 Value "submit"
+70: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;"
+71: Tag 1 Utf8 Value "task"
+72: Tag 1 Utf8 Value "Signature"
+73: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)Ljava/util/concurrent/Future<*>;"
+74: Tag 1 Utf8 Value "(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;"
+75: Tag 1 Utf8 Value "result"
+76: Tag 1 Utf8 Value "Ljava/lang/Object;"
+77: Tag 1 Utf8 Value "LocalVariableTypeTable"
+78: Tag 1 Utf8 Value "TT;"
+79: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Ljava/lang/Runnable;TT;)Ljava/util/concurrent/Future<TT;>;"
+80: Tag 1 Utf8 Value "(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;"
+81: Tag 1 Utf8 Value "Ljava/util/concurrent/Callable;"
+82: Tag 1 Utf8 Value "Ljava/util/concurrent/Callable<TT;>;"
+83: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TT;>;)Ljava/util/concurrent/Future<TT;>;"
+84: Tag 1 Utf8 Value "schedule"
+85: Tag 1 Utf8 Value "(Ljava/lang/Runnable;Ljakarta/enterprise/concurrent/Trigger;)Ljava/util/concurrent/ScheduledFuture;"
+86: Tag 1 Utf8 Value "trigger"
+87: Tag 1 Utf8 Value "Ljakarta/enterprise/concurrent/Trigger;"
+88: Tag 1 Utf8 Value "ctrigger"
+89: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger;"
+90: Tag 1 Utf8 Value "(Ljava/lang/Runnable;Ljakarta/enterprise/concurrent/Trigger;)Ljava/util/concurrent/ScheduledFuture<*>;"
+91: Tag 1 Utf8 Value "(Ljava/util/concurrent/Callable;Ljakarta/enterprise/concurrent/Trigger;)Ljava/util/concurrent/ScheduledFuture;"
+92: Tag 1 Utf8 Value "callable"
+93: Tag 1 Utf8 Value "Ljava/util/concurrent/Callable<TV;>;"
+94: Tag 1 Utf8 Value "<V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;Ljakarta/enterprise/concurrent/Trigger;)Ljava/util/concurrent/ScheduledFuture<TV;>;"
+95: Tag 1 Utf8 Value "(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;"
+96: Tag 1 Utf8 Value "delay"
+97: Tag 1 Utf8 Value "unit"
+98: Tag 1 Utf8 Value "(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<*>;"
+99: Tag 1 Utf8 Value "(Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;"
+100: Tag 1 Utf8 Value "<V:Ljava/lang/Object;>(Ljava/util/concurrent/Callable<TV;>;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<TV;>;"
+101: Tag 1 Utf8 Value "scheduleAtFixedRate"
+102: Tag 1 Utf8 Value "(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;"
+103: Tag 1 Utf8 Value "initialDelay"
+104: Tag 1 Utf8 Value "period"
+105: Tag 1 Utf8 Value "(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture<*>;"
+106: Tag 1 Utf8 Value "scheduleWithFixedDelay"
+107: Tag 1 Utf8 Value "getThreadPoolExecutor"
+108: Tag 1 Utf8 Value "()Ljava/util/concurrent/ThreadPoolExecutor;"
+109: Tag 1 Utf8 Value "getRuntimeStats"
+110: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/concurrent/ManagedExecutorRuntimeStats;"
+111: Tag 1 Utf8 Value "()Ljava/util/concurrent/ExecutorService;"
+112: Tag 1 Utf8 Value "SourceFile"
+113: Tag 1 Utf8 Value "ManagedScheduledExecutorServiceImpl.java"
+114: Tag 12 NameAndType Name index 38, Description index 149
+115: Tag 12 NameAndType Name index 34, Description index 35
+116: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedExecutorRuntimeStatsImpl"
+117: Tag 12 NameAndType Name index 38, Description index 150
+118: Tag 12 NameAndType Name index 36, Description index 37
+119: Tag 7 Class Name index 151
+120: Tag 12 NameAndType Name index 152, Description index 153
+121: Tag 7 Class Name index 154
+122: Tag 12 NameAndType Name index 155, Description index 156
+123: Tag 12 NameAndType Name index 65, Description index 66
+124: Tag 12 NameAndType Name index 69, Description index 70
+125: Tag 12 NameAndType Name index 69, Description index 74
+126: Tag 12 NameAndType Name index 152, Description index 157
+127: Tag 12 NameAndType Name index 155, Description index 158
+128: Tag 12 NameAndType Name index 69, Description index 80
+129: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger"
+130: Tag 12 NameAndType Name index 38, Description index 159
+131: Tag 12 NameAndType Name index 160, Description index 153
+132: Tag 12 NameAndType Name index 84, Description index 85
+133: Tag 12 NameAndType Name index 161, Description index 162
+134: Tag 12 NameAndType Name index 163, Description index 164
+135: Tag 12 NameAndType Name index 160, Description index 157
+136: Tag 12 NameAndType Name index 84, Description index 91
+137: Tag 12 NameAndType Name index 84, Description index 95
+138: Tag 12 NameAndType Name index 84, Description index 99
+139: Tag 12 NameAndType Name index 101, Description index 102
+140: Tag 12 NameAndType Name index 106, Description index 102
+141: Tag 12 NameAndType Name index 107, Description index 111
+142: Tag 1 Utf8 Value "java/util/concurrent/ThreadPoolExecutor"
+143: Tag 12 NameAndType Name index 107, Description index 108
+144: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl"
+145: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/ManagedScheduledExecutorServiceImpl"
+146: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads"
+147: Tag 7 Class Name index 165
+148: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/AbstractManagedExecutorService$RejectPolicy"
+149: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/glassfish/enterprise/concurrent/ManagedThreadFactoryImpl;JZIJLjava/util/concurrent/TimeUnit;JLorg/glassfish/enterprise/concurrent/ContextServiceImpl;Lorg/glassfish/enterprise/concurrent/AbstractManagedExecutorService$RejectPolicy;)V"
+150: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl;)V"
+151: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ControlPointUtils"
+152: Tag 1 Utf8 Value "doWrap"
+153: Tag 1 Utf8 Value "(Ljava/lang/Runnable;Lorg/wildfly/extension/requestcontroller/ControlPoint;)Ljava/lang/Runnable;"
+154: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/SecurityIdentityUtils"
+155: Tag 1 Utf8 Value "doIdentityWrap"
+156: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)Ljava/lang/Runnable;"
+157: Tag 1 Utf8 Value "(Ljava/util/concurrent/Callable;Lorg/wildfly/extension/requestcontroller/ControlPoint;)Ljava/util/concurrent/Callable;"
+158: Tag 1 Utf8 Value "(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Callable;"
+159: Tag 1 Utf8 Value "(Ljakarta/enterprise/concurrent/Trigger;)V"
+160: Tag 1 Utf8 Value "doScheduledWrap"
+161: Tag 1 Utf8 Value "access$002"
+162: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger;Ljava/util/concurrent/ScheduledFuture;)Ljava/util/concurrent/ScheduledFuture;"
+163: Tag 1 Utf8 Value "access$000"
+164: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ManagedScheduledExecutorServiceImpl$CancellableTrigger;)Ljava/util/concurrent/ScheduledFuture;"
+165: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/AbstractManagedExecutorService"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 29, name org.jboss.as.ee.concurrent.ManagedScheduledExecutorServiceImpl
+
+Super class: id 30, name org.glassfish.enterprise.concurrent.ManagedScheduledExecutorServiceImpl
+
+Implements class ids 31
+Implements names org.jboss.as.ee.concurrent.ManagedExecutorWithHungThreads
+
+Field name controlPoint (index 34), type Lorg/wildfly/extension/requestcontroller/ControlPoint; (descriptor index 35)
+Human type: org.wildfly.extension.requestcontroller.ControlPoint
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name runtimeStats (index 36), type Lorg/jboss/as/ee/concurrent/ManagedExecutorRuntimeStats; (descriptor index 37)
+Human type: org.jboss.as.ee.concurrent.ManagedExecutorRuntimeStats
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 38), type (Ljava/lang/String;Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl;JZIJLjava/util/concurrent/TimeUnit;JLorg/glassfish/enterprise/concurrent/ContextServiceImpl;Lorg/glassfish/enterprise/concurrent/AbstractManagedExecutorService$RejectPolicy;Lorg/wildfly/extension/requestcontroller/ControlPoint;)V (descriptor index 41)
+Human type: (java.lang.String, org.jboss.as.ee.concurrent.ManagedThreadFactoryImpl, long, boolean, int, long, java.util.concurrent.TimeUnit, long, org.glassfish.enterprise.concurrent.ContextServiceImpl, org.glassfish.enterprise.concurrent.AbstractManagedExecutorService$RejectPolicy, org.wildfly.extension.requestcontroller.ControlPoint): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 204
+Method name execute (index 65), type (Ljava/lang/Runnable;)V (descriptor index 66)
+Human type: (java.lang.Runnable): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 72
+Method name submit (index 69), type (Ljava/lang/Runnable;)Ljava/util/concurrent/Future; (descriptor index 70)
+Human type: (java.lang.Runnable): java.util.concurrent.Future
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 68
+Method attribute name Signature, size 2
+Method name submit (index 69), type (Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future; (descriptor index 74)
+Human type: (java.lang.Runnable, java.lang.Object): java.util.concurrent.Future
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 97
+Method attribute name Signature, size 2
+Method name submit (index 69), type (Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future; (descriptor index 80)
+Human type: (java.util.concurrent.Callable): java.util.concurrent.Future
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 86
+Method attribute name Signature, size 2
+Method name schedule (index 84), type (Ljava/lang/Runnable;Ljakarta/enterprise/concurrent/Trigger;)Ljava/util/concurrent/ScheduledFuture; (descriptor index 85)
+Human type: (java.lang.Runnable, jakarta.enterprise.concurrent.Trigger): java.util.concurrent.ScheduledFuture
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 115
+Method attribute name Signature, size 2
+Method name schedule (index 84), type (Ljava/util/concurrent/Callable;Ljakarta/enterprise/concurrent/Trigger;)Ljava/util/concurrent/ScheduledFuture; (descriptor index 91)
+Human type: (java.util.concurrent.Callable, jakarta.enterprise.concurrent.Trigger): java.util.concurrent.ScheduledFuture
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 133
+Method attribute name Signature, size 2
+Method name schedule (index 84), type (Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture; (descriptor index 95)
+Human type: (java.lang.Runnable, long, java.util.concurrent.TimeUnit): java.util.concurrent.ScheduledFuture
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 91
+Method attribute name Signature, size 2
+Method name schedule (index 84), type (Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture; (descriptor index 99)
+Human type: (java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit): java.util.concurrent.ScheduledFuture
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 109
+Method attribute name Signature, size 2
+Method name scheduleAtFixedRate (index 101), type (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture; (descriptor index 102)
+Human type: (java.lang.Runnable, long, long, java.util.concurrent.TimeUnit): java.util.concurrent.ScheduledFuture
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 103
+Method attribute name Signature, size 2
+Method name scheduleWithFixedDelay (index 106), type (Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture; (descriptor index 102)
+Human type: (java.lang.Runnable, long, long, java.util.concurrent.TimeUnit): java.util.concurrent.ScheduledFuture
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 103
+Method attribute name Signature, size 2
+Method name getThreadPoolExecutor (index 107), type ()Ljava/util/concurrent/ThreadPoolExecutor; (descriptor index 108)
+Human type: (): java.util.concurrent.ThreadPoolExecutor
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 50
+Method name getRuntimeStats (index 109), type ()Lorg/jboss/as/ee/concurrent/ManagedExecutorRuntimeStats; (descriptor index 110)
+Human type: (): org.jboss.as.ee.concurrent.ManagedExecutorRuntimeStats
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getThreadPoolExecutor (index 107), type ()Ljava/util/concurrent/ExecutorService; (descriptor index 111)
+Human type: (): java.util.concurrent.ExecutorService
+Flags: decimal 4164, hex 1044, binary 0001000001000100 protected bridge synthetic
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

@@ -1,0 +1,113 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 80
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/RandomElectionPolicyResourceDefinition"
+5: Tag 1 Utf8 Value "PATH"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/SingletonExtension"
+11: Tag 1 Utf8 Value "SUBSYSTEM_RESOLVER"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/descriptions/SubsystemResourceDescriptionResolver;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+15: Tag 9 FieldRef Class index 2, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 6
+17: Tag 1 Utf8 Value "WILDCARD_PATH"
+18: Tag 10 MethodRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 22, Description index 23
+21: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/descriptions/SubsystemResourceDescriptionResolver"
+22: Tag 1 Utf8 Value "createChildResolver"
+23: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/PathElement;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+24: Tag 11 InterfaceMethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "java/util/function/UnaryOperator"
+28: Tag 1 Utf8 Value "identity"
+29: Tag 1 Utf8 Value "()Ljava/util/function/UnaryOperator;"
+30: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "createServiceConfigurator"
+33: Tag 1 Utf8 Value "()Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;"
+34: Tag 10 MethodRef Class index 35, Name and type index 36
+35: Tag 7 Class Name index 37
+36: Tag 12 NameAndType Name index 38, Description index 39
+37: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/ElectionPolicyResourceDefinition"
+38: Tag 1 Utf8 Value "<init>"
+39: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;Ljava/util/function/UnaryOperator;Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;)V"
+40: Tag 8 String Contents 41
+41: Tag 1 Utf8 Value "random"
+42: Tag 10 MethodRef Class index 2, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 45
+44: Tag 1 Utf8 Value "pathElement"
+45: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/PathElement;"
+46: Tag 1 Utf8 Value "PATH_VALUE"
+47: Tag 1 Utf8 Value "Ljava/lang/String;"
+48: Tag 1 Utf8 Value "ConstantValue"
+49: Tag 1 Utf8 Value "()V"
+50: Tag 1 Utf8 Value "Code"
+51: Tag 1 Utf8 Value "LineNumberTable"
+52: Tag 1 Utf8 Value "LocalVariableTable"
+53: Tag 1 Utf8 Value "this"
+54: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/singleton/RandomElectionPolicyResourceDefinition;"
+55: Tag 1 Utf8 Value "<clinit>"
+56: Tag 1 Utf8 Value "SourceFile"
+57: Tag 1 Utf8 Value "RandomElectionPolicyResourceDefinition.java"
+58: Tag 1 Utf8 Value "BootstrapMethods"
+59: Tag 15 MethodHandle Kind 6, Index 60
+60: Tag 10 MethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+64: Tag 1 Utf8 Value "metafactory"
+65: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+66: Tag 16 MethodType Descriptor index 67
+67: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/clustering/controller/ResourceServiceConfigurator;"
+68: Tag 15 MethodHandle Kind 8, Index 69
+69: Tag 10 MethodRef Class index 70, Name and type index 71
+70: Tag 7 Class Name index 72
+71: Tag 12 NameAndType Name index 38, Description index 73
+72: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/RandomElectionPolicyServiceConfigurator"
+73: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)V"
+74: Tag 1 Utf8 Value "InnerClasses"
+75: Tag 7 Class Name index 76
+76: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+77: Tag 7 Class Name index 78
+78: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+79: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 2, name org.wildfly.extension.clustering.singleton.RandomElectionPolicyResourceDefinition
+
+Super class: id 35, name org.wildfly.extension.clustering.singleton.ElectionPolicyResourceDefinition
+
+No interfaces
+
+Field name PATH_VALUE (index 46), type Ljava/lang/String; (descriptor index 47)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+Field name PATH (index 5), type Lorg/jboss/as/controller/PathElement; (descriptor index 6)
+Human type: org.jboss.as.controller.PathElement
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 38), type ()V (descriptor index 49)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 84
+Method name <clinit> (index 55), type ()V (descriptor index 49)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,187 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 108
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/CompositeImmutableSession"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData;Lorg/wildfly/clustering/web/session/ImmutableSessionAttributes;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/CompositeSession"
+11: Tag 1 Utf8 Value "metaData"
+12: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/InvalidatableSessionMetaData;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "attributes"
+16: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/SessionAttributes;"
+17: Tag 9 FieldRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "localContext"
+20: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicReference;"
+21: Tag 9 FieldRef Class index 8, Name and type index 22
+22: Tag 12 NameAndType Name index 23, Description index 24
+23: Tag 1 Utf8 Value "localContextFactory"
+24: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/LocalContextFactory;"
+25: Tag 9 FieldRef Class index 8, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "remover"
+28: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Remover;"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/InvalidatableSessionMetaData"
+33: Tag 1 Utf8 Value "isValid"
+34: Tag 1 Utf8 Value "()Z"
+35: Tag 11 InterfaceMethodRef Class index 30, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 34
+37: Tag 1 Utf8 Value "invalidate"
+38: Tag 10 MethodRef Class index 8, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "getId"
+41: Tag 1 Utf8 Value "()Ljava/lang/String;"
+42: Tag 11 InterfaceMethodRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 47
+45: Tag 1 Utf8 Value "org/wildfly/clustering/ee/Remover"
+46: Tag 1 Utf8 Value "remove"
+47: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+48: Tag 11 InterfaceMethodRef Class index 49, Name and type index 50
+49: Tag 7 Class Name index 51
+50: Tag 12 NameAndType Name index 52, Description index 53
+51: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/SessionAttributes"
+52: Tag 1 Utf8 Value "close"
+53: Tag 1 Utf8 Value "()V"
+54: Tag 11 InterfaceMethodRef Class index 30, Name and type index 50
+55: Tag 10 MethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicReference"
+59: Tag 1 Utf8 Value "get"
+60: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+61: Tag 11 InterfaceMethodRef Class index 62, Name and type index 63
+62: Tag 7 Class Name index 64
+63: Tag 12 NameAndType Name index 65, Description index 60
+64: Tag 1 Utf8 Value "org/wildfly/clustering/web/LocalContextFactory"
+65: Tag 1 Utf8 Value "createLocalContext"
+66: Tag 10 MethodRef Class index 56, Name and type index 67
+67: Tag 12 NameAndType Name index 68, Description index 69
+68: Tag 1 Utf8 Value "compareAndSet"
+69: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Z"
+70: Tag 10 MethodRef Class index 8, Name and type index 71
+71: Tag 12 NameAndType Name index 72, Description index 73
+72: Tag 1 Utf8 Value "getMetaData"
+73: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionMetaData;"
+74: Tag 10 MethodRef Class index 8, Name and type index 75
+75: Tag 12 NameAndType Name index 76, Description index 77
+76: Tag 1 Utf8 Value "getAttributes"
+77: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/cache/session/SessionAttributes;"
+78: Tag 7 Class Name index 79
+79: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/Session"
+80: Tag 1 Utf8 Value "Signature"
+81: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicReference<TL;>;"
+82: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/LocalContextFactory<TL;>;"
+83: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/Remover<Ljava/lang/String;>;"
+84: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/clustering/web/cache/session/InvalidatableSessionMetaData;Lorg/wildfly/clustering/web/cache/session/SessionAttributes;Ljava/util/concurrent/atomic/AtomicReference;Lorg/wildfly/clustering/web/LocalContextFactory;Lorg/wildfly/clustering/ee/Remover;)V"
+85: Tag 1 Utf8 Value "Code"
+86: Tag 1 Utf8 Value "LineNumberTable"
+87: Tag 1 Utf8 Value "LocalVariableTable"
+88: Tag 1 Utf8 Value "this"
+89: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/CompositeSession;"
+90: Tag 1 Utf8 Value "id"
+91: Tag 1 Utf8 Value "Ljava/lang/String;"
+92: Tag 1 Utf8 Value "LocalVariableTypeTable"
+93: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/CompositeSession<TL;>;"
+94: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/wildfly/clustering/web/cache/session/InvalidatableSessionMetaData;Lorg/wildfly/clustering/web/cache/session/SessionAttributes;Ljava/util/concurrent/atomic/AtomicReference<TL;>;Lorg/wildfly/clustering/web/LocalContextFactory<TL;>;Lorg/wildfly/clustering/ee/Remover<Ljava/lang/String;>;)V"
+95: Tag 1 Utf8 Value "StackMapTable"
+96: Tag 1 Utf8 Value "getLocalContext"
+97: Tag 1 Utf8 Value "Ljava/lang/Object;"
+98: Tag 1 Utf8 Value "TL;"
+99: Tag 7 Class Name index 100
+100: Tag 1 Utf8 Value "java/lang/Object"
+101: Tag 1 Utf8 Value "()TL;"
+102: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData;"
+103: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/ImmutableSessionAttributes;"
+104: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/web/session/SessionAttributes;"
+105: Tag 1 Utf8 Value "<L:Ljava/lang/Object;>Lorg/wildfly/clustering/web/cache/session/CompositeImmutableSession;Lorg/wildfly/clustering/web/session/Session<TL;>;"
+106: Tag 1 Utf8 Value "SourceFile"
+107: Tag 1 Utf8 Value "CompositeSession.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.web.cache.session.CompositeSession
+
+Super class: id 2, name org.wildfly.clustering.web.cache.session.CompositeImmutableSession
+
+Implements class ids 78
+Implements names org.wildfly.clustering.web.session.Session
+
+Field name metaData (index 11), type Lorg/wildfly/clustering/web/cache/session/InvalidatableSessionMetaData; (descriptor index 12)
+Human type: org.wildfly.clustering.web.cache.session.InvalidatableSessionMetaData
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name attributes (index 15), type Lorg/wildfly/clustering/web/cache/session/SessionAttributes; (descriptor index 16)
+Human type: org.wildfly.clustering.web.cache.session.SessionAttributes
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name localContext (index 19), type Ljava/util/concurrent/atomic/AtomicReference; (descriptor index 20)
+Human type: java.util.concurrent.atomic.AtomicReference
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name localContextFactory (index 23), type Lorg/wildfly/clustering/web/LocalContextFactory; (descriptor index 24)
+Human type: org.wildfly.clustering.web.LocalContextFactory
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name remover (index 27), type Lorg/wildfly/clustering/ee/Remover; (descriptor index 28)
+Human type: org.wildfly.clustering.ee.Remover
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/lang/String;Lorg/wildfly/clustering/web/cache/session/InvalidatableSessionMetaData;Lorg/wildfly/clustering/web/cache/session/SessionAttributes;Ljava/util/concurrent/atomic/AtomicReference;Lorg/wildfly/clustering/web/LocalContextFactory;Lorg/wildfly/clustering/ee/Remover;)V (descriptor index 84)
+Human type: (java.lang.String, org.wildfly.clustering.web.cache.session.InvalidatableSessionMetaData, org.wildfly.clustering.web.cache.session.SessionAttributes, java.util.concurrent.atomic.AtomicReference, org.wildfly.clustering.web.LocalContextFactory, org.wildfly.clustering.ee.Remover): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 210
+Method attribute name Signature, size 2
+Method name getAttributes (index 76), type ()Lorg/wildfly/clustering/web/cache/session/SessionAttributes; (descriptor index 77)
+Human type: (): org.wildfly.clustering.web.cache.session.SessionAttributes
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name isValid (index 33), type ()Z (descriptor index 34)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name invalidate (index 37), type ()V (descriptor index 53)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 104
+Method name getMetaData (index 72), type ()Lorg/wildfly/clustering/web/session/SessionMetaData; (descriptor index 73)
+Human type: (): org.wildfly.clustering.web.session.SessionMetaData
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name close (index 52), type ()V (descriptor index 53)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 112
+Method name getLocalContext (index 96), type ()Ljava/lang/Object; (descriptor index 60)
+Human type: (): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 172
+Method attribute name Signature, size 2
+Method name getMetaData (index 72), type ()Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData; (descriptor index 102)
+Human type: (): org.wildfly.clustering.web.session.ImmutableSessionMetaData
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 65
+Method name getAttributes (index 76), type ()Lorg/wildfly/clustering/web/session/ImmutableSessionAttributes; (descriptor index 103)
+Human type: (): org.wildfly.clustering.web.session.ImmutableSessionAttributes
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 65
+Method name getAttributes (index 76), type ()Lorg/wildfly/clustering/web/session/SessionAttributes; (descriptor index 104)
+Human type: (): org.wildfly.clustering.web.session.SessionAttributes
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 65
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

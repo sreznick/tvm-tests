@@ -1,0 +1,112 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 82
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+11: Tag 1 Utf8 Value "getDeploymentUnit"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/server/security/SecurityMetaData"
+17: Tag 1 Utf8 Value "ATTACHMENT_KEY"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+23: Tag 1 Utf8 Value "getAttachment"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+25: Tag 10 MethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/web/common/VirtualHttpServerMechanismFactoryMarkerUtility"
+29: Tag 1 Utf8 Value "isVirtualMechanismFactoryRequired"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/as/web/common/AdvancedSecurityMetaData"
+33: Tag 10 MethodRef Class index 31, Name and type index 3
+34: Tag 10 MethodRef Class index 26, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "virtualMechanismFactoryName"
+37: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/msc/service/ServiceName;"
+38: Tag 10 MethodRef Class index 31, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "setHttpServerAuthenticationMechanismFactory"
+41: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+42: Tag 10 MethodRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 37
+45: Tag 1 Utf8 Value "org/jboss/as/server/security/VirtualDomainMarkerUtility"
+46: Tag 1 Utf8 Value "virtualDomainName"
+47: Tag 10 MethodRef Class index 31, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 41
+49: Tag 1 Utf8 Value "setSecurityDomain"
+50: Tag 11 InterfaceMethodRef Class index 20, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "putAttachment"
+53: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)Ljava/lang/Object;"
+54: Tag 7 Class Name index 55
+55: Tag 1 Utf8 Value "org/wildfly/extension/elytron/oidc/VirtualHttpServerMechanismFactoryNameProcessor"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+58: Tag 1 Utf8 Value "Code"
+59: Tag 1 Utf8 Value "LineNumberTable"
+60: Tag 1 Utf8 Value "LocalVariableTable"
+61: Tag 1 Utf8 Value "this"
+62: Tag 1 Utf8 Value "Lorg/wildfly/extension/elytron/oidc/VirtualHttpServerMechanismFactoryNameProcessor;"
+63: Tag 1 Utf8 Value "deploy"
+64: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+65: Tag 1 Utf8 Value "advancedSecurityMetaData"
+66: Tag 1 Utf8 Value "Lorg/jboss/as/web/common/AdvancedSecurityMetaData;"
+67: Tag 1 Utf8 Value "phaseContext"
+68: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+69: Tag 1 Utf8 Value "deploymentUnit"
+70: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+71: Tag 1 Utf8 Value "securityMetaData"
+72: Tag 1 Utf8 Value "Lorg/jboss/as/server/security/SecurityMetaData;"
+73: Tag 1 Utf8 Value "StackMapTable"
+74: Tag 1 Utf8 Value "Exceptions"
+75: Tag 7 Class Name index 76
+76: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+77: Tag 1 Utf8 Value "undeploy"
+78: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+79: Tag 1 Utf8 Value "context"
+80: Tag 1 Utf8 Value "SourceFile"
+81: Tag 1 Utf8 Value "VirtualHttpServerMechanismFactoryNameProcessor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 54, name org.wildfly.extension.elytron.oidc.VirtualHttpServerMechanismFactoryNameProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 56
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name deploy (index 63), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 64)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 198
+Method attribute name Exceptions, size 4
+Method name undeploy (index 77), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 78)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+
+Class attribute name SourceFile, size 2

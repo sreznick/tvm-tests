@@ -1,0 +1,101 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 58
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/LegacyProxyOperation$10$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/LegacyProxyOperation$10;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$service"
+10: Tag 1 Utf8 Value "Lorg/jboss/modcluster/ModClusterServiceMBean;"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "val$host"
+14: Tag 1 Utf8 Value "Ljava/lang/String;"
+15: Tag 9 FieldRef Class index 2, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "val$port"
+18: Tag 1 Utf8 Value "I"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "java/lang/Object"
+23: Tag 1 Utf8 Value "<init>"
+24: Tag 1 Utf8 Value "()V"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/modcluster/ModClusterServiceMBean"
+29: Tag 1 Utf8 Value "addProxy"
+30: Tag 1 Utf8 Value "(Ljava/lang/String;I)V"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext$RollbackHandler"
+33: Tag 1 Utf8 Value "(Lorg/wildfly/extension/mod_cluster/LegacyProxyOperation$10;Lorg/jboss/modcluster/ModClusterServiceMBean;Ljava/lang/String;I)V"
+34: Tag 1 Utf8 Value "Code"
+35: Tag 1 Utf8 Value "LineNumberTable"
+36: Tag 1 Utf8 Value "LocalVariableTable"
+37: Tag 1 Utf8 Value "this"
+38: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/LegacyProxyOperation$10$1;"
+39: Tag 1 Utf8 Value "Signature"
+40: Tag 1 Utf8 Value "handleRollback"
+41: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+42: Tag 1 Utf8 Value "context"
+43: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+44: Tag 1 Utf8 Value "operation"
+45: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+46: Tag 1 Utf8 Value "SourceFile"
+47: Tag 1 Utf8 Value "LegacyProxyOperation.java"
+48: Tag 1 Utf8 Value "EnclosingMethod"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/LegacyProxyOperation$10"
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "execute"
+53: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/modcluster/ModClusterServiceMBean;)V"
+54: Tag 1 Utf8 Value "InnerClasses"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+57: Tag 1 Utf8 Value "RollbackHandler"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.mod_cluster.LegacyProxyOperation$10$1
+
+Super class: id 20, name java.lang.Object
+
+Implements class ids 31
+Implements names org.jboss.as.controller.OperationContext$RollbackHandler
+
+Field name val$service (index 9), type Lorg/jboss/modcluster/ModClusterServiceMBean; (descriptor index 10)
+Human type: org.jboss.modcluster.ModClusterServiceMBean
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$host (index 13), type Ljava/lang/String; (descriptor index 14)
+Human type: java.lang.String
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$port (index 17), type I (descriptor index 18)
+Human type: int
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/extension/mod_cluster/LegacyProxyOperation$10; (descriptor index 6)
+Human type: org.wildfly.extension.mod_cluster.LegacyProxyOperation$10
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 23), type (Lorg/wildfly/extension/mod_cluster/LegacyProxyOperation$10;Lorg/jboss/modcluster/ModClusterServiceMBean;Ljava/lang/String;I)V (descriptor index 33)
+Human type: (org.wildfly.extension.mod_cluster.LegacyProxyOperation$10, org.jboss.modcluster.ModClusterServiceMBean, java.lang.String, int): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 78
+Method attribute name Signature, size 2
+Method name handleRollback (index 40), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 41)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 84
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 26

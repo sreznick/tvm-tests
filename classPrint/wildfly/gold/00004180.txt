@@ -1,0 +1,104 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 61
+1: Tag 11 InterfaceMethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceNameProvider"
+5: Tag 1 Utf8 Value "getServiceName"
+6: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+9: Tag 10 MethodRef Class index 7, Name and type index 10
+10: Tag 12 NameAndType Name index 11, Description index 12
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 11, Description index 17
+16: Tag 1 Utf8 Value "org/jboss/as/clustering/msc/InjectedValueDependency"
+17: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/value/InjectedValue;)V"
+18: Tag 10 MethodRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 11, Description index 22
+21: Tag 1 Utf8 Value "org/jboss/as/clustering/msc/InjectorDependency"
+22: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/inject/Injector;)V"
+23: Tag 9 FieldRef Class index 14, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "value"
+26: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+27: Tag 10 MethodRef Class index 7, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "getValue"
+30: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/as/clustering/msc/ValueDependency"
+33: Tag 1 Utf8 Value "Signature"
+34: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<TT;>;"
+35: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/service/ServiceNameProvider;Ljava/lang/Class;)V"
+36: Tag 1 Utf8 Value "Code"
+37: Tag 1 Utf8 Value "LineNumberTable"
+38: Tag 1 Utf8 Value "LocalVariableTable"
+39: Tag 1 Utf8 Value "this"
+40: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/msc/InjectedValueDependency;"
+41: Tag 1 Utf8 Value "provider"
+42: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/ServiceNameProvider;"
+43: Tag 1 Utf8 Value "targetClass"
+44: Tag 1 Utf8 Value "Ljava/lang/Class;"
+45: Tag 1 Utf8 Value "LocalVariableTypeTable"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/msc/InjectedValueDependency<TT;>;"
+47: Tag 1 Utf8 Value "Ljava/lang/Class<TT;>;"
+48: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/service/ServiceNameProvider;Ljava/lang/Class<TT;>;)V"
+49: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;)V"
+50: Tag 1 Utf8 Value "name"
+51: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+52: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class<TT;>;)V"
+53: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class<TT;>;Lorg/jboss/msc/value/InjectedValue<TT;>;)V"
+54: Tag 1 Utf8 Value "()TT;"
+55: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Lorg/jboss/as/clustering/msc/InjectorDependency<TT;>;Lorg/jboss/as/clustering/msc/ValueDependency<TT;>;"
+56: Tag 1 Utf8 Value "SourceFile"
+57: Tag 1 Utf8 Value "InjectedValueDependency.java"
+58: Tag 1 Utf8 Value "Deprecated"
+59: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+60: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.jboss.as.clustering.msc.InjectedValueDependency
+
+Super class: id 19, name org.jboss.as.clustering.msc.InjectorDependency
+
+Implements class ids 31
+Implements names org.jboss.as.clustering.msc.ValueDependency
+
+Field name value (index 25), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 26)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 11), type (Lorg/wildfly/clustering/service/ServiceNameProvider;Ljava/lang/Class;)V (descriptor index 35)
+Human type: (org.wildfly.clustering.service.ServiceNameProvider, java.lang.Class): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 113
+Method attribute name Signature, size 2
+Method name <init> (index 11), type (Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;)V (descriptor index 49)
+Human type: (org.jboss.msc.service.ServiceName, java.lang.Class): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 108
+Method attribute name Signature, size 2
+Method name <init> (index 11), type (Lorg/jboss/msc/service/ServiceName;Ljava/lang/Class;Lorg/jboss/msc/value/InjectedValue;)V (descriptor index 17)
+Human type: (org.jboss.msc.service.ServiceName, java.lang.Class, org.jboss.msc.value.InjectedValue): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 131
+Method attribute name Signature, size 2
+Method name getValue (index 29), type ()Ljava/lang/Object; (descriptor index 30)
+Human type: (): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 68
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name Deprecated, size 0
+Class attribute name RuntimeVisibleAnnotations, size 6

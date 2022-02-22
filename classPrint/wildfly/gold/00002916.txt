@@ -1,0 +1,192 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 129
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/util/concurrent/ConcurrentHashMap"
+11: Tag 1 Utf8 Value "newKeySet"
+12: Tag 1 Utf8 Value "()Ljava/util/concurrent/ConcurrentHashMap$KeySetView;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/LocalServiceProviderRegistry"
+17: Tag 1 Utf8 Value "services"
+18: Tag 1 Utf8 Value "Ljava/util/Set;"
+19: Tag 9 FieldRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "group"
+22: Tag 1 Utf8 Value "Lorg/wildfly/clustering/group/Group;"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "java/util/Set"
+27: Tag 1 Utf8 Value "add"
+28: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "org/wildfly/clustering/server/provider/SimpleServiceProviderRegistration"
+31: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "run"
+34: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/server/provider/LocalServiceProviderRegistry;Ljava/lang/Object;)Ljava/lang/Runnable;"
+35: Tag 10 MethodRef Class index 29, Name and type index 36
+36: Tag 12 NameAndType Name index 5, Description index 37
+37: Tag 1 Utf8 Value "(Ljava/lang/Object;Lorg/wildfly/clustering/provider/ServiceProviderRegistry;Ljava/lang/Runnable;)V"
+38: Tag 10 MethodRef Class index 14, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "register"
+41: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration;"
+42: Tag 11 InterfaceMethodRef Class index 24, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 28
+44: Tag 1 Utf8 Value "contains"
+45: Tag 10 MethodRef Class index 14, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "getGroup"
+48: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/group/Group;"
+49: Tag 11 InterfaceMethodRef Class index 50, Name and type index 51
+50: Tag 7 Class Name index 52
+51: Tag 12 NameAndType Name index 53, Description index 54
+52: Tag 1 Utf8 Value "org/wildfly/clustering/group/Group"
+53: Tag 1 Utf8 Value "getLocalMember"
+54: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/group/Node;"
+55: Tag 10 MethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "java/util/Collections"
+59: Tag 1 Utf8 Value "singleton"
+60: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/Set;"
+61: Tag 10 MethodRef Class index 56, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "emptySet"
+64: Tag 1 Utf8 Value "()Ljava/util/Set;"
+65: Tag 10 MethodRef Class index 56, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 68
+67: Tag 1 Utf8 Value "unmodifiableSet"
+68: Tag 1 Utf8 Value "(Ljava/util/Set;)Ljava/util/Set;"
+69: Tag 11 InterfaceMethodRef Class index 24, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 28
+71: Tag 1 Utf8 Value "remove"
+72: Tag 7 Class Name index 73
+73: Tag 1 Utf8 Value "org/wildfly/clustering/provider/ServiceProviderRegistry"
+74: Tag 1 Utf8 Value "Signature"
+75: Tag 1 Utf8 Value "Ljava/util/Set<TT;>;"
+76: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/group/Group;)V"
+77: Tag 1 Utf8 Value "Code"
+78: Tag 1 Utf8 Value "LineNumberTable"
+79: Tag 1 Utf8 Value "LocalVariableTable"
+80: Tag 1 Utf8 Value "this"
+81: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/provider/LocalServiceProviderRegistry;"
+82: Tag 1 Utf8 Value "LocalVariableTypeTable"
+83: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/provider/LocalServiceProviderRegistry<TT;>;"
+84: Tag 1 Utf8 Value "service"
+85: Tag 1 Utf8 Value "Ljava/lang/Object;"
+86: Tag 1 Utf8 Value "TT;"
+87: Tag 1 Utf8 Value "(TT;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration<TT;>;"
+88: Tag 1 Utf8 Value "(Ljava/lang/Object;Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration;"
+89: Tag 1 Utf8 Value "listener"
+90: Tag 1 Utf8 Value "Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;"
+91: Tag 1 Utf8 Value "(TT;Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration<TT;>;"
+92: Tag 1 Utf8 Value "getProviders"
+93: Tag 1 Utf8 Value "StackMapTable"
+94: Tag 1 Utf8 Value "(TT;)Ljava/util/Set<Lorg/wildfly/clustering/group/Node;>;"
+95: Tag 1 Utf8 Value "getServices"
+96: Tag 1 Utf8 Value "()Ljava/util/Set<TT;>;"
+97: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/wildfly/clustering/Registration;"
+98: Tag 1 Utf8 Value "lambda$register$0"
+99: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+100: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/provider/ServiceProviderRegistry<TT;>;"
+101: Tag 1 Utf8 Value "SourceFile"
+102: Tag 1 Utf8 Value "LocalServiceProviderRegistry.java"
+103: Tag 1 Utf8 Value "BootstrapMethods"
+104: Tag 15 MethodHandle Kind 6, Index 105
+105: Tag 10 MethodRef Class index 106, Name and type index 107
+106: Tag 7 Class Name index 108
+107: Tag 12 NameAndType Name index 109, Description index 110
+108: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+109: Tag 1 Utf8 Value "metafactory"
+110: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+111: Tag 16 MethodType Descriptor index 6
+112: Tag 15 MethodHandle Kind 7, Index 113
+113: Tag 10 MethodRef Class index 14, Name and type index 114
+114: Tag 12 NameAndType Name index 98, Description index 99
+115: Tag 1 Utf8 Value "InnerClasses"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "java/util/concurrent/ConcurrentHashMap$KeySetView"
+118: Tag 1 Utf8 Value "KeySetView"
+119: Tag 7 Class Name index 120
+120: Tag 1 Utf8 Value "org/wildfly/clustering/provider/ServiceProviderRegistration$Listener"
+121: Tag 7 Class Name index 122
+122: Tag 1 Utf8 Value "org/wildfly/clustering/provider/ServiceProviderRegistration"
+123: Tag 1 Utf8 Value "Listener"
+124: Tag 7 Class Name index 125
+125: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+126: Tag 7 Class Name index 127
+127: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+128: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.wildfly.clustering.server.provider.LocalServiceProviderRegistry
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 72
+Implements names org.wildfly.clustering.provider.ServiceProviderRegistry
+
+Field name services (index 17), type Ljava/util/Set; (descriptor index 18)
+Human type: java.util.Set
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name group (index 21), type Lorg/wildfly/clustering/group/Group; (descriptor index 22)
+Human type: org.wildfly.clustering.group.Group
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/group/Group;)V (descriptor index 76)
+Human type: (org.wildfly.clustering.group.Group): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 99
+Method name getGroup (index 47), type ()Lorg/wildfly/clustering/group/Group; (descriptor index 48)
+Human type: (): org.wildfly.clustering.group.Group
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name register (index 40), type (Ljava/lang/Object;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration; (descriptor index 41)
+Human type: (java.lang.Object): org.wildfly.clustering.provider.ServiceProviderRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 112
+Method attribute name Signature, size 2
+Method name register (index 40), type (Ljava/lang/Object;Lorg/wildfly/clustering/provider/ServiceProviderRegistration$Listener;)Lorg/wildfly/clustering/provider/ServiceProviderRegistration; (descriptor index 88)
+Human type: (java.lang.Object, org.wildfly.clustering.provider.ServiceProviderRegistration$Listener): org.wildfly.clustering.provider.ServiceProviderRegistration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 96
+Method attribute name Signature, size 2
+Method name getProviders (index 92), type (Ljava/lang/Object;)Ljava/util/Set; (descriptor index 60)
+Human type: (java.lang.Object): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 125
+Method attribute name Signature, size 2
+Method name getServices (index 95), type ()Ljava/util/Set; (descriptor index 64)
+Human type: (): java.util.Set
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 68
+Method attribute name Signature, size 2
+Method name register (index 40), type (Ljava/lang/Object;)Lorg/wildfly/clustering/Registration; (descriptor index 97)
+Human type: (java.lang.Object): org.wildfly.clustering.Registration
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 66
+Method name lambda$register$0 (index 98), type (Ljava/lang/Object;)V (descriptor index 99)
+Human type: (java.lang.Object): void
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 82
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 26

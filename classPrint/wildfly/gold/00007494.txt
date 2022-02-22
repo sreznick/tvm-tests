@@ -1,0 +1,104 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 75
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/injection/JMSCDIExtension"
+11: Tag 1 Utf8 Value "propertyReplacer"
+12: Tag 1 Utf8 Value "Lorg/jboss/metadata/property/PropertyReplacer;"
+13: Tag 7 Class Name index 14
+14: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/injection/RequestedJMSContext"
+15: Tag 11 InterfaceMethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "javax/enterprise/inject/spi/BeanManager"
+19: Tag 1 Utf8 Value "createAnnotatedType"
+20: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljavax/enterprise/inject/spi/AnnotatedType;"
+21: Tag 7 Class Name index 22
+22: Tag 1 Utf8 Value "java/lang/StringBuilder"
+23: Tag 10 MethodRef Class index 21, Name and type index 3
+24: Tag 10 MethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "java/lang/Class"
+28: Tag 1 Utf8 Value "getName"
+29: Tag 1 Utf8 Value "()Ljava/lang/String;"
+30: Tag 10 MethodRef Class index 21, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "append"
+33: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+34: Tag 8 String Contents 35
+35: Tag 1 Utf8 Value "-"
+36: Tag 10 MethodRef Class index 21, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 29
+38: Tag 1 Utf8 Value "toString"
+39: Tag 11 InterfaceMethodRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "javax/enterprise/inject/spi/BeforeBeanDiscovery"
+43: Tag 1 Utf8 Value "addAnnotatedType"
+44: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/AnnotatedType;Ljava/lang/String;)V"
+45: Tag 7 Class Name index 46
+46: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/injection/TransactedJMSContext"
+47: Tag 7 Class Name index 48
+48: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/injection/InjectedJMSContext"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "javax/enterprise/inject/spi/Extension"
+51: Tag 1 Utf8 Value "(Lorg/jboss/metadata/property/PropertyReplacer;)V"
+52: Tag 1 Utf8 Value "Code"
+53: Tag 1 Utf8 Value "LineNumberTable"
+54: Tag 1 Utf8 Value "LocalVariableTable"
+55: Tag 1 Utf8 Value "this"
+56: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/deployment/injection/JMSCDIExtension;"
+57: Tag 1 Utf8 Value "beforeBeanDiscovery"
+58: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/BeforeBeanDiscovery;Ljavax/enterprise/inject/spi/BeanManager;)V"
+59: Tag 1 Utf8 Value "bbd"
+60: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/BeforeBeanDiscovery;"
+61: Tag 1 Utf8 Value "bm"
+62: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/BeanManager;"
+63: Tag 1 Utf8 Value "requestedContextBean"
+64: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/AnnotatedType;"
+65: Tag 1 Utf8 Value "transactedContextBean"
+66: Tag 1 Utf8 Value "contextBean"
+67: Tag 1 Utf8 Value "LocalVariableTypeTable"
+68: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/AnnotatedType<Lorg/wildfly/extension/messaging/activemq/deployment/injection/RequestedJMSContext;>;"
+69: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/AnnotatedType<Lorg/wildfly/extension/messaging/activemq/deployment/injection/TransactedJMSContext;>;"
+70: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/AnnotatedType<Lorg/wildfly/extension/messaging/activemq/deployment/injection/InjectedJMSContext;>;"
+71: Tag 1 Utf8 Value "RuntimeVisibleParameterAnnotations"
+72: Tag 1 Utf8 Value "Ljavax/enterprise/event/Observes;"
+73: Tag 1 Utf8 Value "SourceFile"
+74: Tag 1 Utf8 Value "JMSCDIExtension.java"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 8, name org.wildfly.extension.messaging.activemq.deployment.injection.JMSCDIExtension
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 49
+Implements names javax.enterprise.inject.spi.Extension
+
+Field name propertyReplacer (index 11), type Lorg/jboss/metadata/property/PropertyReplacer; (descriptor index 12)
+Human type: org.jboss.metadata.property.PropertyReplacer
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/metadata/property/PropertyReplacer;)V (descriptor index 51)
+Human type: (org.jboss.metadata.property.PropertyReplacer): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 69
+Method name beforeBeanDiscovery (index 57), type (Ljavax/enterprise/inject/spi/BeforeBeanDiscovery;Ljavax/enterprise/inject/spi/BeanManager;)V (descriptor index 58)
+Human type: (javax.enterprise.inject.spi.BeforeBeanDiscovery, javax.enterprise.inject.spi.BeanManager): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 300
+Method attribute name RuntimeVisibleParameterAnnotations, size 9
+
+Class attribute name SourceFile, size 2

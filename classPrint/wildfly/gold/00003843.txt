@@ -1,0 +1,131 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 94
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+11: Tag 1 Utf8 Value "getDeploymentUnit"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 12
+16: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+17: Tag 1 Utf8 Value "getParent"
+18: Tag 9 FieldRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 22, Description index 23
+21: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/deployment/SingletonDeploymentDependencyProcessor"
+22: Tag 1 Utf8 Value "CONFIGURATION_KEY"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+24: Tag 11 InterfaceMethodRef Class index 14, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 27
+26: Tag 1 Utf8 Value "getAttachment"
+27: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+28: Tag 7 Class Name index 29
+29: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/deployment/SingletonDeploymentConfiguration"
+30: Tag 9 FieldRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 23
+33: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+34: Tag 1 Utf8 Value "CAPABILITY_SERVICE_SUPPORT"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "org/jboss/as/controller/capability/CapabilityServiceSupport"
+37: Tag 9 FieldRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/SingletonServiceNameFactory"
+41: Tag 1 Utf8 Value "SINGLETON_POLICY"
+42: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/singleton/SingletonServiceNameFactory;"
+43: Tag 11 InterfaceMethodRef Class index 28, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "getPolicy"
+46: Tag 1 Utf8 Value "()Ljava/lang/String;"
+47: Tag 10 MethodRef Class index 38, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "getServiceName"
+50: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/CapabilityServiceSupport;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+51: Tag 9 FieldRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 23
+54: Tag 1 Utf8 Value "org/wildfly/extension/clustering/singleton/deployment/SingletonDeploymentProcessor"
+55: Tag 1 Utf8 Value "POLICY_KEY"
+56: Tag 11 InterfaceMethodRef Class index 8, Name and type index 57
+57: Tag 12 NameAndType Name index 58, Description index 59
+58: Tag 1 Utf8 Value "addDependency"
+59: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/server/deployment/AttachmentKey;)V"
+60: Tag 10 MethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "org/jboss/as/server/deployment/AttachmentKey"
+64: Tag 1 Utf8 Value "create"
+65: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/server/deployment/AttachmentKey;"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+68: Tag 1 Utf8 Value "Signature"
+69: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey<Lorg/wildfly/extension/clustering/singleton/deployment/SingletonDeploymentConfiguration;>;"
+70: Tag 1 Utf8 Value "Code"
+71: Tag 1 Utf8 Value "LineNumberTable"
+72: Tag 1 Utf8 Value "LocalVariableTable"
+73: Tag 1 Utf8 Value "this"
+74: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/singleton/deployment/SingletonDeploymentDependencyProcessor;"
+75: Tag 1 Utf8 Value "deploy"
+76: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+77: Tag 1 Utf8 Value "support"
+78: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+79: Tag 1 Utf8 Value "config"
+80: Tag 1 Utf8 Value "Lorg/wildfly/extension/clustering/singleton/deployment/SingletonDeploymentConfiguration;"
+81: Tag 1 Utf8 Value "context"
+82: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+83: Tag 1 Utf8 Value "unit"
+84: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+85: Tag 1 Utf8 Value "StackMapTable"
+86: Tag 1 Utf8 Value "Exceptions"
+87: Tag 7 Class Name index 88
+88: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+89: Tag 1 Utf8 Value "undeploy"
+90: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+91: Tag 1 Utf8 Value "<clinit>"
+92: Tag 1 Utf8 Value "SourceFile"
+93: Tag 1 Utf8 Value "SingletonDeploymentDependencyProcessor.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 19, name org.wildfly.extension.clustering.singleton.deployment.SingletonDeploymentDependencyProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 66
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name CONFIGURATION_KEY (index 22), type Lorg/jboss/as/server/deployment/AttachmentKey; (descriptor index 23)
+Human type: org.jboss.as.server.deployment.AttachmentKey
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name deploy (index 75), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 76)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 191
+Method attribute name Exceptions, size 4
+Method name undeploy (index 89), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 90)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name <clinit> (index 91), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2

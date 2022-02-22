@@ -1,0 +1,169 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 104
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/service/SimpleServiceNameProvider"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/LocalSingletonServiceBuilder"
+11: Tag 1 Utf8 Value "service"
+12: Tag 1 Utf8 Value "Lorg/jboss/msc/service/Service;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorContext"
+17: Tag 1 Utf8 Value "getGroupDependency"
+18: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/service/SupplierDependency;"
+19: Tag 9 FieldRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "group"
+22: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency;"
+23: Tag 7 Class Name index 24
+24: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/DefaultSingletonElectionListener"
+25: Tag 10 MethodRef Class index 23, Name and type index 26
+26: Tag 12 NameAndType Name index 5, Description index 27
+27: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/util/function/Supplier;)V"
+28: Tag 9 FieldRef Class index 8, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "listener"
+31: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/SingletonElectionListener;"
+32: Tag 7 Class Name index 33
+33: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/LocalLegacySingletonService"
+34: Tag 10 MethodRef Class index 32, Name and type index 35
+35: Tag 12 NameAndType Name index 5, Description index 36
+36: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/Service;Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceContext;)V"
+37: Tag 10 MethodRef Class index 8, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "getServiceName"
+40: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+41: Tag 11 InterfaceMethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+45: Tag 1 Utf8 Value "addService"
+46: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+47: Tag 11 InterfaceMethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "org/wildfly/clustering/service/SupplierDependency"
+51: Tag 1 Utf8 Value "register"
+52: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder;"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/SingletonServiceBuilder"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/wildfly/clustering/server/singleton/LocalSingletonServiceContext"
+57: Tag 1 Utf8 Value "Signature"
+58: Tag 1 Utf8 Value "Lorg/jboss/msc/service/Service<TT;>;"
+59: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency<Lorg/wildfly/clustering/group/Group;>;"
+60: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorContext;)V"
+61: Tag 1 Utf8 Value "Code"
+62: Tag 1 Utf8 Value "LineNumberTable"
+63: Tag 1 Utf8 Value "LocalVariableTable"
+64: Tag 1 Utf8 Value "this"
+65: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceBuilder;"
+66: Tag 1 Utf8 Value "name"
+67: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+68: Tag 1 Utf8 Value "context"
+69: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorContext;"
+70: Tag 1 Utf8 Value "LocalVariableTypeTable"
+71: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceBuilder<TT;>;"
+72: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service<TT;>;Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorContext;)V"
+73: Tag 1 Utf8 Value "requireQuorum"
+74: Tag 1 Utf8 Value "(I)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder;"
+75: Tag 1 Utf8 Value "quorum"
+76: Tag 1 Utf8 Value "I"
+77: Tag 1 Utf8 Value "(I)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder<TT;>;"
+78: Tag 1 Utf8 Value "electionPolicy"
+79: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder;"
+80: Tag 1 Utf8 Value "policy"
+81: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;"
+82: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder<TT;>;"
+83: Tag 1 Utf8 Value "electionListener"
+84: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/singleton/SingletonElectionListener;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder;"
+85: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/singleton/SingletonElectionListener;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder<TT;>;"
+86: Tag 1 Utf8 Value "build"
+87: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+88: Tag 1 Utf8 Value "target"
+89: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+90: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/SingletonService;"
+91: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/SingletonService<TT;>;"
+92: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder<TT;>;"
+93: Tag 1 Utf8 Value "getGroup"
+94: Tag 1 Utf8 Value "()Ljava/util/function/Supplier;"
+95: Tag 1 Utf8 Value "()Ljava/util/function/Supplier<Lorg/wildfly/clustering/group/Group;>;"
+96: Tag 1 Utf8 Value "getElectionListener"
+97: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/singleton/SingletonElectionListener;"
+98: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Lorg/wildfly/clustering/service/SimpleServiceNameProvider;Lorg/wildfly/clustering/singleton/SingletonServiceBuilder<TT;>;Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceContext;"
+99: Tag 1 Utf8 Value "SourceFile"
+100: Tag 1 Utf8 Value "LocalSingletonServiceBuilder.java"
+101: Tag 1 Utf8 Value "Deprecated"
+102: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+103: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.server.singleton.LocalSingletonServiceBuilder
+
+Super class: id 2, name org.wildfly.clustering.service.SimpleServiceNameProvider
+
+Implements class ids 53 55
+Implements names org.wildfly.clustering.singleton.SingletonServiceBuilder org.wildfly.clustering.server.singleton.LocalSingletonServiceContext
+
+Field name service (index 11), type Lorg/jboss/msc/service/Service; (descriptor index 12)
+Human type: org.jboss.msc.service.Service
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name group (index 21), type Lorg/wildfly/clustering/service/SupplierDependency; (descriptor index 22)
+Human type: org.wildfly.clustering.service.SupplierDependency
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name listener (index 30), type Lorg/wildfly/clustering/singleton/SingletonElectionListener; (descriptor index 31)
+Human type: org.wildfly.clustering.singleton.SingletonElectionListener
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/Service;Lorg/wildfly/clustering/server/singleton/LocalSingletonServiceConfiguratorContext;)V (descriptor index 60)
+Human type: (org.jboss.msc.service.ServiceName, org.jboss.msc.service.Service, org.wildfly.clustering.server.singleton.LocalSingletonServiceConfiguratorContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 153
+Method attribute name Signature, size 2
+Method name requireQuorum (index 73), type (I)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder; (descriptor index 74)
+Human type: (int): org.wildfly.clustering.singleton.SingletonServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 72
+Method attribute name Signature, size 2
+Method name electionPolicy (index 78), type (Lorg/wildfly/clustering/singleton/SingletonElectionPolicy;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder; (descriptor index 79)
+Human type: (org.wildfly.clustering.singleton.SingletonElectionPolicy): org.wildfly.clustering.singleton.SingletonServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 72
+Method attribute name Signature, size 2
+Method name electionListener (index 83), type (Lorg/wildfly/clustering/singleton/SingletonElectionListener;)Lorg/wildfly/clustering/singleton/SingletonServiceBuilder; (descriptor index 84)
+Human type: (org.wildfly.clustering.singleton.SingletonElectionListener): org.wildfly.clustering.singleton.SingletonServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 81
+Method attribute name Signature, size 2
+Method name build (index 86), type (Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 87)
+Human type: (org.jboss.msc.service.ServiceTarget): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 128
+Method attribute name Signature, size 2
+Method name getGroup (index 93), type ()Ljava/util/function/Supplier; (descriptor index 94)
+Human type: (): java.util.function.Supplier
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+Method name getElectionListener (index 96), type ()Lorg/wildfly/clustering/singleton/SingletonElectionListener; (descriptor index 97)
+Human type: (): org.wildfly.clustering.singleton.SingletonElectionListener
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name Deprecated, size 0
+Class attribute name RuntimeVisibleAnnotations, size 6

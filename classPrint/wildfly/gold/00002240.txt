@@ -1,0 +1,157 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 114
+1: Tag 10 MethodRef Class index 27, Name and type index 61
+2: Tag 9 FieldRef Class index 26, Name and type index 62
+3: Tag 10 MethodRef Class index 24, Name and type index 63
+4: Tag 10 MethodRef Class index 24, Name and type index 64
+5: Tag 7 Class Name index 65
+6: Tag 11 InterfaceMethodRef Class index 5, Name and type index 66
+7: Tag 11 InterfaceMethodRef Class index 67, Name and type index 68
+8: Tag 11 InterfaceMethodRef Class index 50, Name and type index 69
+9: Tag 11 InterfaceMethodRef Class index 50, Name and type index 70
+10: Tag 7 Class Name index 71
+11: Tag 11 InterfaceMethodRef Class index 10, Name and type index 72
+12: Tag 11 InterfaceMethodRef Class index 10, Name and type index 73
+13: Tag 7 Class Name index 74
+14: Tag 9 FieldRef Class index 75, Name and type index 76
+15: Tag 11 InterfaceMethodRef Class index 75, Name and type index 77
+16: Tag 8 String Contents 78
+17: Tag 11 InterfaceMethodRef Class index 75, Name and type index 79
+18: Tag 10 MethodRef Class index 24, Name and type index 80
+19: Tag 11 InterfaceMethodRef Class index 5, Name and type index 81
+20: Tag 10 MethodRef Class index 24, Name and type index 82
+21: Tag 7 Class Name index 83
+22: Tag 10 MethodRef Class index 21, Name and type index 61
+23: Tag 11 InterfaceMethodRef Class index 5, Name and type index 84
+24: Tag 7 Class Name index 85
+25: Tag 10 MethodRef Class index 24, Name and type index 61
+26: Tag 7 Class Name index 86
+27: Tag 7 Class Name index 87
+28: Tag 1 Utf8 Value "nonTxStack"
+29: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/container/ThreadLocalStack;"
+30: Tag 1 Utf8 Value "Signature"
+31: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/container/ThreadLocalStack<Ljava/util/Map<Ljava/lang/String;Ljavax/persistence/EntityManager;>;>;"
+32: Tag 1 Utf8 Value "<init>"
+33: Tag 1 Utf8 Value "()V"
+34: Tag 1 Utf8 Value "Code"
+35: Tag 1 Utf8 Value "LineNumberTable"
+36: Tag 1 Utf8 Value "LocalVariableTable"
+37: Tag 1 Utf8 Value "this"
+38: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/container/NonTxEmCloser;"
+39: Tag 1 Utf8 Value "pushCall"
+40: Tag 1 Utf8 Value "popCall"
+41: Tag 1 Utf8 Value "safeToIgnore"
+42: Tag 1 Utf8 Value "Ljava/lang/RuntimeException;"
+43: Tag 1 Utf8 Value "entityManager"
+44: Tag 1 Utf8 Value "Ljavax/persistence/EntityManager;"
+45: Tag 1 Utf8 Value "emStack"
+46: Tag 1 Utf8 Value "Ljava/util/Map;"
+47: Tag 1 Utf8 Value "LocalVariableTypeTable"
+48: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljavax/persistence/EntityManager;>;"
+49: Tag 1 Utf8 Value "StackMapTable"
+50: Tag 7 Class Name index 88
+51: Tag 1 Utf8 Value "get"
+52: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/persistence/EntityManager;"
+53: Tag 1 Utf8 Value "puScopedName"
+54: Tag 1 Utf8 Value "Ljava/lang/String;"
+55: Tag 1 Utf8 Value "map"
+56: Tag 1 Utf8 Value "add"
+57: Tag 1 Utf8 Value "(Ljava/lang/String;Ljavax/persistence/EntityManager;)V"
+58: Tag 1 Utf8 Value "<clinit>"
+59: Tag 1 Utf8 Value "SourceFile"
+60: Tag 1 Utf8 Value "NonTxEmCloser.java"
+61: Tag 12 NameAndType Name index 32, Description index 33
+62: Tag 12 NameAndType Name index 28, Description index 29
+63: Tag 12 NameAndType Name index 89, Description index 90
+64: Tag 12 NameAndType Name index 91, Description index 92
+65: Tag 1 Utf8 Value "java/util/Map"
+66: Tag 12 NameAndType Name index 93, Description index 94
+67: Tag 7 Class Name index 95
+68: Tag 12 NameAndType Name index 96, Description index 97
+69: Tag 12 NameAndType Name index 98, Description index 99
+70: Tag 12 NameAndType Name index 100, Description index 92
+71: Tag 1 Utf8 Value "javax/persistence/EntityManager"
+72: Tag 12 NameAndType Name index 101, Description index 99
+73: Tag 12 NameAndType Name index 102, Description index 33
+74: Tag 1 Utf8 Value "java/lang/RuntimeException"
+75: Tag 7 Class Name index 103
+76: Tag 12 NameAndType Name index 104, Description index 105
+77: Tag 12 NameAndType Name index 106, Description index 99
+78: Tag 1 Utf8 Value "Could not close (non-transactional) container managed entity manager.  This shouldn't impact application functionality (only read operations occur in non-transactional mode)"
+79: Tag 12 NameAndType Name index 107, Description index 108
+80: Tag 12 NameAndType Name index 109, Description index 92
+81: Tag 12 NameAndType Name index 51, Description index 110
+82: Tag 12 NameAndType Name index 111, Description index 99
+83: Tag 1 Utf8 Value "java/util/HashMap"
+84: Tag 12 NameAndType Name index 112, Description index 113
+85: Tag 1 Utf8 Value "org/jboss/as/jpa/container/ThreadLocalStack"
+86: Tag 1 Utf8 Value "org/jboss/as/jpa/container/NonTxEmCloser"
+87: Tag 1 Utf8 Value "java/lang/Object"
+88: Tag 1 Utf8 Value "java/util/Iterator"
+89: Tag 1 Utf8 Value "push"
+90: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+91: Tag 1 Utf8 Value "pop"
+92: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+93: Tag 1 Utf8 Value "values"
+94: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+95: Tag 1 Utf8 Value "java/util/Collection"
+96: Tag 1 Utf8 Value "iterator"
+97: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+98: Tag 1 Utf8 Value "hasNext"
+99: Tag 1 Utf8 Value "()Z"
+100: Tag 1 Utf8 Value "next"
+101: Tag 1 Utf8 Value "isOpen"
+102: Tag 1 Utf8 Value "close"
+103: Tag 1 Utf8 Value "org/jboss/as/jpa/messages/JpaLogger"
+104: Tag 1 Utf8 Value "ROOT_LOGGER"
+105: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/messages/JpaLogger;"
+106: Tag 1 Utf8 Value "isTraceEnabled"
+107: Tag 1 Utf8 Value "trace"
+108: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Throwable;)V"
+109: Tag 1 Utf8 Value "peek"
+110: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+111: Tag 1 Utf8 Value "isEmpty"
+112: Tag 1 Utf8 Value "put"
+113: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 26, name org.jboss.as.jpa.container.NonTxEmCloser
+
+Super class: id 27, name java.lang.Object
+
+No interfaces
+
+Field name nonTxStack (index 28), type Lorg/jboss/as/jpa/container/ThreadLocalStack; (descriptor index 29)
+Human type: org.jboss.as.jpa.container.ThreadLocalStack
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Signature, size 2
+
+Method name <init> (index 32), type ()V (descriptor index 33)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name pushCall (index 39), type ()V (descriptor index 33)
+Human type: (): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 36
+Method name popCall (index 40), type ()V (descriptor index 33)
+Human type: (): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 251
+Method name get (index 51), type (Ljava/lang/String;)Ljavax/persistence/EntityManager; (descriptor index 52)
+Human type: (java.lang.String): javax.persistence.EntityManager
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 123
+Method name add (index 56), type (Ljava/lang/String;Ljavax/persistence/EntityManager;)V (descriptor index 57)
+Human type: (java.lang.String, javax.persistence.EntityManager): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 182
+Method name <clinit> (index 58), type ()V (descriptor index 33)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2

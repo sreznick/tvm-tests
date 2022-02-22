@@ -1,0 +1,177 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 132
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/service/StartStopService"
+5: Tag 1 Utf8 Value "stopMethod"
+6: Tag 1 Utf8 Value "Ljava/lang/reflect/Method;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 6
+9: Tag 1 Utf8 Value "startMethod"
+10: Tag 10 MethodRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/jboss/as/service/AbstractService"
+14: Tag 1 Utf8 Value "<init>"
+15: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/util/List;Ljava/lang/ClassLoader;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V"
+16: Tag 10 MethodRef Class index 11, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "start"
+19: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+20: Tag 9 FieldRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/jboss/as/service/logging/SarLogger"
+24: Tag 1 Utf8 Value "ROOT_LOGGER"
+25: Tag 1 Utf8 Value "Lorg/jboss/as/service/logging/SarLogger;"
+26: Tag 11 InterfaceMethodRef Class index 21, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "isTraceEnabled"
+29: Tag 1 Utf8 Value "()Z"
+30: Tag 8 String Contents 31
+31: Tag 1 Utf8 Value "Starting Service: %s"
+32: Tag 11 InterfaceMethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+36: Tag 1 Utf8 Value "getController"
+37: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+38: Tag 11 InterfaceMethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+42: Tag 1 Utf8 Value "getName"
+43: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+44: Tag 11 InterfaceMethodRef Class index 21, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "tracef"
+47: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+48: Tag 7 Class Name index 49
+49: Tag 1 Utf8 Value "org/jboss/as/service/StartStopService$1"
+50: Tag 10 MethodRef Class index 48, Name and type index 51
+51: Tag 12 NameAndType Name index 14, Description index 52
+52: Tag 1 Utf8 Value "(Lorg/jboss/as/service/StartStopService;Lorg/jboss/msc/service/StartContext;)V"
+53: Tag 9 FieldRef Class index 2, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "executorSupplier"
+56: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+57: Tag 11 InterfaceMethodRef Class index 58, Name and type index 59
+58: Tag 7 Class Name index 60
+59: Tag 12 NameAndType Name index 61, Description index 62
+60: Tag 1 Utf8 Value "java/util/function/Supplier"
+61: Tag 1 Utf8 Value "get"
+62: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "java/util/concurrent/ExecutorService"
+65: Tag 11 InterfaceMethodRef Class index 63, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 68
+67: Tag 1 Utf8 Value "submit"
+68: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;"
+69: Tag 11 InterfaceMethodRef Class index 33, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 72
+71: Tag 1 Utf8 Value "asynchronous"
+72: Tag 1 Utf8 Value "()V"
+73: Tag 7 Class Name index 74
+74: Tag 1 Utf8 Value "java/util/concurrent/RejectedExecutionException"
+75: Tag 11 InterfaceMethodRef Class index 76, Name and type index 77
+76: Tag 7 Class Name index 78
+77: Tag 12 NameAndType Name index 79, Description index 72
+78: Tag 1 Utf8 Value "java/lang/Runnable"
+79: Tag 1 Utf8 Value "run"
+80: Tag 10 MethodRef Class index 11, Name and type index 81
+81: Tag 12 NameAndType Name index 82, Description index 83
+82: Tag 1 Utf8 Value "stop"
+83: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+84: Tag 8 String Contents 85
+85: Tag 1 Utf8 Value "Stopping Service: %s"
+86: Tag 11 InterfaceMethodRef Class index 87, Name and type index 34
+87: Tag 7 Class Name index 88
+88: Tag 1 Utf8 Value "org/jboss/msc/service/StopContext"
+89: Tag 7 Class Name index 90
+90: Tag 1 Utf8 Value "org/jboss/as/service/StartStopService$2"
+91: Tag 10 MethodRef Class index 89, Name and type index 92
+92: Tag 12 NameAndType Name index 14, Description index 93
+93: Tag 1 Utf8 Value "(Lorg/jboss/as/service/StartStopService;Lorg/jboss/msc/service/StopContext;)V"
+94: Tag 11 InterfaceMethodRef Class index 87, Name and type index 70
+95: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/util/List;Ljava/lang/ClassLoader;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V"
+96: Tag 1 Utf8 Value "Code"
+97: Tag 1 Utf8 Value "LineNumberTable"
+98: Tag 1 Utf8 Value "LocalVariableTable"
+99: Tag 1 Utf8 Value "this"
+100: Tag 1 Utf8 Value "Lorg/jboss/as/service/StartStopService;"
+101: Tag 1 Utf8 Value "mBeanInstance"
+102: Tag 1 Utf8 Value "Ljava/lang/Object;"
+103: Tag 1 Utf8 Value "setupActions"
+104: Tag 1 Utf8 Value "Ljava/util/List;"
+105: Tag 1 Utf8 Value "mbeanContextClassLoader"
+106: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+107: Tag 1 Utf8 Value "mBeanInstanceConsumer"
+108: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+109: Tag 1 Utf8 Value "LocalVariableTypeTable"
+110: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;"
+111: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Ljava/lang/Object;>;"
+112: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Ljava/util/concurrent/ExecutorService;>;"
+113: Tag 1 Utf8 Value "Signature"
+114: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;Ljava/lang/ClassLoader;Ljava/util/function/Consumer<Ljava/lang/Object;>;Ljava/util/function/Supplier<Ljava/util/concurrent/ExecutorService;>;)V"
+115: Tag 1 Utf8 Value "e"
+116: Tag 1 Utf8 Value "Ljava/util/concurrent/RejectedExecutionException;"
+117: Tag 1 Utf8 Value "context"
+118: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+119: Tag 1 Utf8 Value "task"
+120: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+121: Tag 1 Utf8 Value "StackMapTable"
+122: Tag 7 Class Name index 123
+123: Tag 1 Utf8 Value "java/lang/Throwable"
+124: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+125: Tag 1 Utf8 Value "access$000"
+126: Tag 1 Utf8 Value "(Lorg/jboss/as/service/StartStopService;)Ljava/lang/reflect/Method;"
+127: Tag 1 Utf8 Value "x0"
+128: Tag 1 Utf8 Value "access$100"
+129: Tag 1 Utf8 Value "SourceFile"
+130: Tag 1 Utf8 Value "StartStopService.java"
+131: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 2, name org.jboss.as.service.StartStopService
+
+Super class: id 11, name org.jboss.as.service.AbstractService
+
+No interfaces
+
+Field name startMethod (index 9), type Ljava/lang/reflect/Method; (descriptor index 6)
+Human type: java.lang.reflect.Method
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name stopMethod (index 5), type Ljava/lang/reflect/Method; (descriptor index 6)
+Human type: java.lang.reflect.Method
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 14), type (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Ljava/util/List;Ljava/lang/ClassLoader;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V (descriptor index 95)
+Human type: (java.lang.Object, java.lang.reflect.Method, java.lang.reflect.Method, java.util.List, java.lang.ClassLoader, java.util.function.Consumer, java.util.function.Supplier): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 186
+Method attribute name Signature, size 2
+Method name start (index 18), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 19)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 292
+Method name stop (index 82), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 83)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 292
+Method name access$000 (index 125), type (Lorg/jboss/as/service/StartStopService;)Ljava/lang/reflect/Method; (descriptor index 126)
+Human type: (org.jboss.as.service.StartStopService): java.lang.reflect.Method
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$100 (index 128), type (Lorg/jboss/as/service/StartStopService;)Ljava/lang/reflect/Method; (descriptor index 126)
+Human type: (org.jboss.as.service.StartStopService): java.lang.reflect.Method
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

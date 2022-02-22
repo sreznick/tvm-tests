@@ -1,0 +1,159 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 125
+1: Tag 7 Class Name index 60
+2: Tag 10 MethodRef Class index 23, Name and type index 61
+3: Tag 10 MethodRef Class index 62, Name and type index 63
+4: Tag 8 String Contents 64
+5: Tag 10 MethodRef Class index 65, Name and type index 66
+6: Tag 10 MethodRef Class index 65, Name and type index 67
+7: Tag 10 MethodRef Class index 52, Name and type index 68
+8: Tag 11 InterfaceMethodRef Class index 69, Name and type index 70
+9: Tag 10 MethodRef Class index 38, Name and type index 71
+10: Tag 9 FieldRef Class index 72, Name and type index 73
+11: Tag 10 MethodRef Class index 38, Name and type index 74
+12: Tag 11 InterfaceMethodRef Class index 75, Name and type index 76
+13: Tag 11 InterfaceMethodRef Class index 54, Name and type index 77
+14: Tag 10 MethodRef Class index 65, Name and type index 78
+15: Tag 11 InterfaceMethodRef Class index 54, Name and type index 79
+16: Tag 11 InterfaceMethodRef Class index 54, Name and type index 80
+17: Tag 11 InterfaceMethodRef Class index 54, Name and type index 81
+18: Tag 11 InterfaceMethodRef Class index 54, Name and type index 82
+19: Tag 11 InterfaceMethodRef Class index 54, Name and type index 83
+20: Tag 7 Class Name index 84
+21: Tag 10 MethodRef Class index 20, Name and type index 61
+22: Tag 9 FieldRef Class index 20, Name and type index 85
+23: Tag 7 Class Name index 86
+24: Tag 7 Class Name index 87
+25: Tag 1 Utf8 Value "INSTANCE"
+26: Tag 1 Utf8 Value "ReadStatisticHandler"
+27: Tag 1 Utf8 Value "InnerClasses"
+28: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/ListenerResourceDefinition$ReadStatisticHandler;"
+29: Tag 1 Utf8 Value "<init>"
+30: Tag 1 Utf8 Value "()V"
+31: Tag 1 Utf8 Value "Code"
+32: Tag 1 Utf8 Value "LineNumberTable"
+33: Tag 1 Utf8 Value "LocalVariableTable"
+34: Tag 1 Utf8 Value "this"
+35: Tag 1 Utf8 Value "execute"
+36: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+37: Tag 1 Utf8 Value "element"
+38: Tag 7 Class Name index 88
+39: Tag 1 Utf8 Value "ConnectorStat"
+40: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/ListenerResourceDefinition$ConnectorStat;"
+41: Tag 1 Utf8 Value "context"
+42: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+43: Tag 1 Utf8 Value "operation"
+44: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+45: Tag 1 Utf8 Value "service"
+46: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/ListenerService;"
+47: Tag 1 Utf8 Value "op"
+48: Tag 1 Utf8 Value "Ljava/lang/String;"
+49: Tag 1 Utf8 Value "stats"
+50: Tag 1 Utf8 Value "Lio/undertow/server/ConnectorStatistics;"
+51: Tag 1 Utf8 Value "StackMapTable"
+52: Tag 7 Class Name index 89
+53: Tag 7 Class Name index 90
+54: Tag 7 Class Name index 91
+55: Tag 1 Utf8 Value "Exceptions"
+56: Tag 7 Class Name index 92
+57: Tag 1 Utf8 Value "<clinit>"
+58: Tag 1 Utf8 Value "SourceFile"
+59: Tag 1 Utf8 Value "ListenerResourceDefinition.java"
+60: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+61: Tag 12 NameAndType Name index 29, Description index 30
+62: Tag 7 Class Name index 93
+63: Tag 12 NameAndType Name index 94, Description index 95
+64: Tag 1 Utf8 Value "name"
+65: Tag 7 Class Name index 96
+66: Tag 12 NameAndType Name index 97, Description index 98
+67: Tag 12 NameAndType Name index 99, Description index 100
+68: Tag 12 NameAndType Name index 101, Description index 102
+69: Tag 7 Class Name index 103
+70: Tag 12 NameAndType Name index 104, Description index 105
+71: Tag 12 NameAndType Name index 106, Description index 107
+72: Tag 7 Class Name index 108
+73: Tag 12 NameAndType Name index 109, Description index 110
+74: Tag 12 NameAndType Name index 111, Description index 112
+75: Tag 7 Class Name index 113
+76: Tag 12 NameAndType Name index 114, Description index 115
+77: Tag 12 NameAndType Name index 116, Description index 117
+78: Tag 12 NameAndType Name index 118, Description index 119
+79: Tag 12 NameAndType Name index 120, Description index 117
+80: Tag 12 NameAndType Name index 121, Description index 117
+81: Tag 12 NameAndType Name index 122, Description index 117
+82: Tag 12 NameAndType Name index 123, Description index 117
+83: Tag 12 NameAndType Name index 124, Description index 117
+84: Tag 1 Utf8 Value "org/wildfly/extension/undertow/ListenerResourceDefinition$ReadStatisticHandler"
+85: Tag 12 NameAndType Name index 25, Description index 28
+86: Tag 1 Utf8 Value "java/lang/Object"
+87: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+88: Tag 1 Utf8 Value "org/wildfly/extension/undertow/ListenerResourceDefinition$ConnectorStat"
+89: Tag 1 Utf8 Value "org/wildfly/extension/undertow/ListenerService"
+90: Tag 1 Utf8 Value "java/lang/String"
+91: Tag 1 Utf8 Value "io/undertow/server/ConnectorStatistics"
+92: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+93: Tag 1 Utf8 Value "org/wildfly/extension/undertow/ListenerResourceDefinition"
+94: Tag 1 Utf8 Value "getListenerService"
+95: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)Lorg/wildfly/extension/undertow/ListenerService;"
+96: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+97: Tag 1 Utf8 Value "get"
+98: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+99: Tag 1 Utf8 Value "asString"
+100: Tag 1 Utf8 Value "()Ljava/lang/String;"
+101: Tag 1 Utf8 Value "getOpenListener"
+102: Tag 1 Utf8 Value "()Lio/undertow/server/OpenListener;"
+103: Tag 1 Utf8 Value "io/undertow/server/OpenListener"
+104: Tag 1 Utf8 Value "getConnectorStatistics"
+105: Tag 1 Utf8 Value "()Lio/undertow/server/ConnectorStatistics;"
+106: Tag 1 Utf8 Value "getStat"
+107: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/extension/undertow/ListenerResourceDefinition$ConnectorStat;"
+108: Tag 1 Utf8 Value "org/wildfly/extension/undertow/ListenerResourceDefinition$1"
+109: Tag 1 Utf8 Value "$SwitchMap$org$wildfly$extension$undertow$ListenerResourceDefinition$ConnectorStat"
+110: Tag 1 Utf8 Value "[I"
+111: Tag 1 Utf8 Value "ordinal"
+112: Tag 1 Utf8 Value "()I"
+113: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+114: Tag 1 Utf8 Value "getResult"
+115: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+116: Tag 1 Utf8 Value "getBytesReceived"
+117: Tag 1 Utf8 Value "()J"
+118: Tag 1 Utf8 Value "set"
+119: Tag 1 Utf8 Value "(J)Lorg/jboss/dmr/ModelNode;"
+120: Tag 1 Utf8 Value "getBytesSent"
+121: Tag 1 Utf8 Value "getErrorCount"
+122: Tag 1 Utf8 Value "getMaxProcessingTime"
+123: Tag 1 Utf8 Value "getProcessingTime"
+124: Tag 1 Utf8 Value "getRequestCount"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 20, name org.wildfly.extension.undertow.ListenerResourceDefinition$ReadStatisticHandler
+
+Super class: id 23, name java.lang.Object
+
+Implements class ids 24
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name INSTANCE (index 25), type Lorg/wildfly/extension/undertow/ListenerResourceDefinition$ReadStatisticHandler; (descriptor index 28)
+Human type: org.wildfly.extension.undertow.ListenerResourceDefinition$ReadStatisticHandler
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 29), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name execute (index 35), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 36)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 422
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 57), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

@@ -1,0 +1,278 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 209
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition$Parameters"
+3: Tag 9 FieldRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsExtension"
+7: Tag 1 Utf8 Value "SUBSYSTEM_PATH"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+9: Tag 7 Class Name index 10
+10: Tag 1 Utf8 Value "java/lang/String"
+11: Tag 8 String Contents 12
+12: Tag 1 Utf8 Value "microprofile-metrics-smallrye"
+13: Tag 10 MethodRef Class index 4, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+16: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+17: Tag 10 MethodRef Class index 1, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "<init>"
+20: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+21: Tag 9 FieldRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemAdd"
+25: Tag 1 Utf8 Value "INSTANCE"
+26: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemAdd;"
+27: Tag 10 MethodRef Class index 1, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 30
+29: Tag 1 Utf8 Value "setAddHandler"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/as/controller/ReloadRequiredRemoveStepHandler"
+33: Tag 10 MethodRef Class index 31, Name and type index 34
+34: Tag 12 NameAndType Name index 19, Description index 35
+35: Tag 1 Utf8 Value "()V"
+36: Tag 10 MethodRef Class index 1, Name and type index 37
+37: Tag 12 NameAndType Name index 38, Description index 30
+38: Tag 1 Utf8 Value "setRemoveHandler"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+41: Tag 9 FieldRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemDefinition"
+45: Tag 1 Utf8 Value "MICROPROFILE_METRIC_HTTP_CONTEXT_CAPABILITY"
+46: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+47: Tag 9 FieldRef Class index 42, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 46
+49: Tag 1 Utf8 Value "MICROPROFILE_METRICS_HTTP_SECURITY_CAPABILITY"
+50: Tag 9 FieldRef Class index 42, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 46
+52: Tag 1 Utf8 Value "MICROPROFILE_METRICS_SCAN"
+53: Tag 10 MethodRef Class index 1, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "setCapabilities"
+56: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/capability/RuntimeCapability;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+57: Tag 10 MethodRef Class index 58, Name and type index 59
+58: Tag 7 Class Name index 60
+59: Tag 12 NameAndType Name index 19, Description index 61
+60: Tag 1 Utf8 Value "org/jboss/as/controller/PersistentResourceDefinition"
+61: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;)V"
+62: Tag 9 FieldRef Class index 42, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 65
+64: Tag 1 Utf8 Value "ATTRIBUTES"
+65: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+66: Tag 10 MethodRef Class index 67, Name and type index 68
+67: Tag 7 Class Name index 69
+68: Tag 12 NameAndType Name index 70, Description index 71
+69: Tag 1 Utf8 Value "java/util/Arrays"
+70: Tag 1 Utf8 Value "asList"
+71: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+72: Tag 8 String Contents 73
+73: Tag 1 Utf8 Value "org.wildfly.extension.metrics.wildfly-collector"
+74: Tag 10 MethodRef Class index 75, Name and type index 76
+75: Tag 7 Class Name index 77
+76: Tag 12 NameAndType Name index 78, Description index 79
+77: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+78: Tag 1 Utf8 Value "parse"
+79: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+80: Tag 9 FieldRef Class index 42, Name and type index 81
+81: Tag 12 NameAndType Name index 82, Description index 83
+82: Tag 1 Utf8 Value "WILDFLY_COLLECTOR"
+83: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+84: Tag 8 String Contents 85
+85: Tag 1 Utf8 Value "org.wildfly.extension.microprofile.metrics.http-context"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileMetricsContextService"
+88: Tag 10 MethodRef Class index 89, Name and type index 90
+89: Tag 7 Class Name index 91
+90: Tag 12 NameAndType Name index 92, Description index 93
+91: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability$Builder"
+92: Tag 1 Utf8 Value "of"
+93: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Lorg/jboss/as/controller/capability/RuntimeCapability$Builder;"
+94: Tag 8 String Contents 95
+95: Tag 1 Utf8 Value "org.wildfly.extension.metrics.http-context"
+96: Tag 8 String Contents 97
+97: Tag 1 Utf8 Value "org.wildfly.microprofile.config"
+98: Tag 10 MethodRef Class index 89, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 101
+100: Tag 1 Utf8 Value "addRequirements"
+101: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/capability/RuntimeCapability$Builder;"
+102: Tag 10 MethodRef Class index 89, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 105
+104: Tag 1 Utf8 Value "build"
+105: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/capability/RuntimeCapability;"
+106: Tag 7 Class Name index 107
+107: Tag 1 Utf8 Value "org/wildfly/extension/metrics/MetricsSubsystemDefinition"
+108: Tag 8 String Contents 109
+109: Tag 1 Utf8 Value "org.wildfly.extension.metrics.http-context.security-enabled"
+110: Tag 7 Class Name index 111
+111: Tag 1 Utf8 Value "java/lang/Boolean"
+112: Tag 8 String Contents 113
+113: Tag 1 Utf8 Value "org.wildfly.extension.metrics.scan"
+114: Tag 10 MethodRef Class index 89, Name and type index 115
+115: Tag 12 NameAndType Name index 92, Description index 116
+116: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/capability/RuntimeCapability$Builder;"
+117: Tag 8 String Contents 118
+118: Tag 1 Utf8 Value "security-enabled"
+119: Tag 9 FieldRef Class index 120, Name and type index 121
+120: Tag 7 Class Name index 122
+121: Tag 12 NameAndType Name index 123, Description index 124
+122: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+123: Tag 1 Utf8 Value "BOOLEAN"
+124: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+125: Tag 10 MethodRef Class index 126, Name and type index 127
+126: Tag 7 Class Name index 128
+127: Tag 12 NameAndType Name index 129, Description index 130
+128: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+129: Tag 1 Utf8 Value "create"
+130: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+131: Tag 9 FieldRef Class index 132, Name and type index 133
+132: Tag 7 Class Name index 134
+133: Tag 12 NameAndType Name index 135, Description index 136
+134: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+135: Tag 1 Utf8 Value "TRUE"
+136: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+137: Tag 10 MethodRef Class index 126, Name and type index 138
+138: Tag 12 NameAndType Name index 139, Description index 140
+139: Tag 1 Utf8 Value "setDefaultValue"
+140: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+141: Tag 10 MethodRef Class index 126, Name and type index 142
+142: Tag 12 NameAndType Name index 143, Description index 144
+143: Tag 1 Utf8 Value "setRequired"
+144: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+145: Tag 10 MethodRef Class index 126, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 148
+147: Tag 1 Utf8 Value "setRestartAllServices"
+148: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+149: Tag 10 MethodRef Class index 126, Name and type index 150
+150: Tag 12 NameAndType Name index 151, Description index 144
+151: Tag 1 Utf8 Value "setAllowExpression"
+152: Tag 10 MethodRef Class index 126, Name and type index 153
+153: Tag 12 NameAndType Name index 104, Description index 154
+154: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+155: Tag 9 FieldRef Class index 42, Name and type index 156
+156: Tag 12 NameAndType Name index 157, Description index 158
+157: Tag 1 Utf8 Value "SECURITY_ENABLED"
+158: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+159: Tag 7 Class Name index 160
+160: Tag 1 Utf8 Value "org/jboss/as/controller/StringListAttributeDefinition$Builder"
+161: Tag 8 String Contents 162
+162: Tag 1 Utf8 Value "exposed-subsystems"
+163: Tag 10 MethodRef Class index 159, Name and type index 164
+164: Tag 12 NameAndType Name index 19, Description index 165
+165: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+166: Tag 10 MethodRef Class index 159, Name and type index 142
+167: Tag 10 MethodRef Class index 159, Name and type index 146
+168: Tag 10 MethodRef Class index 159, Name and type index 169
+169: Tag 12 NameAndType Name index 104, Description index 170
+170: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/StringListAttributeDefinition;"
+171: Tag 9 FieldRef Class index 42, Name and type index 172
+172: Tag 12 NameAndType Name index 173, Description index 174
+173: Tag 1 Utf8 Value "EXPOSED_SUBSYSTEMS"
+174: Tag 1 Utf8 Value "Lorg/jboss/as/controller/StringListAttributeDefinition;"
+175: Tag 8 String Contents 176
+176: Tag 1 Utf8 Value "prefix"
+177: Tag 9 FieldRef Class index 120, Name and type index 178
+178: Tag 12 NameAndType Name index 179, Description index 124
+179: Tag 1 Utf8 Value "STRING"
+180: Tag 9 FieldRef Class index 42, Name and type index 181
+181: Tag 12 NameAndType Name index 182, Description index 158
+182: Tag 1 Utf8 Value "PREFIX"
+183: Tag 7 Class Name index 184
+184: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+185: Tag 1 Utf8 Value "MP_CONFIG"
+186: Tag 1 Utf8 Value "Ljava/lang/String;"
+187: Tag 1 Utf8 Value "ConstantValue"
+188: Tag 1 Utf8 Value "METRICS_HTTP_CONTEXT_CAPABILITY"
+189: Tag 1 Utf8 Value "Signature"
+190: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability<Ljava/lang/Void;>;"
+191: Tag 1 Utf8 Value "Code"
+192: Tag 1 Utf8 Value "LineNumberTable"
+193: Tag 1 Utf8 Value "LocalVariableTable"
+194: Tag 1 Utf8 Value "this"
+195: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/MicroProfileMetricsSubsystemDefinition;"
+196: Tag 1 Utf8 Value "getAttributes"
+197: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+198: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/jboss/as/controller/AttributeDefinition;>;"
+199: Tag 1 Utf8 Value "<clinit>"
+200: Tag 1 Utf8 Value "SourceFile"
+201: Tag 1 Utf8 Value "MicroProfileMetricsSubsystemDefinition.java"
+202: Tag 1 Utf8 Value "InnerClasses"
+203: Tag 7 Class Name index 204
+204: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition"
+205: Tag 1 Utf8 Value "Parameters"
+206: Tag 1 Utf8 Value "Builder"
+207: Tag 7 Class Name index 208
+208: Tag 1 Utf8 Value "org/jboss/as/controller/StringListAttributeDefinition"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 42, name org.wildfly.extension.microprofile.metrics.MicroProfileMetricsSubsystemDefinition
+
+Super class: id 58, name org.jboss.as.controller.PersistentResourceDefinition
+
+No interfaces
+
+Field name MP_CONFIG (index 185), type Ljava/lang/String; (descriptor index 186)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+Field name WILDFLY_COLLECTOR (index 82), type Lorg/jboss/msc/service/ServiceName; (descriptor index 83)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name METRICS_HTTP_CONTEXT_CAPABILITY (index 188), type Ljava/lang/String; (descriptor index 186)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+Field name MICROPROFILE_METRIC_HTTP_CONTEXT_CAPABILITY (index 45), type Lorg/jboss/as/controller/capability/RuntimeCapability; (descriptor index 46)
+Human type: org.jboss.as.controller.capability.RuntimeCapability
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name Signature, size 2
+Field name MICROPROFILE_METRICS_HTTP_SECURITY_CAPABILITY (index 49), type Lorg/jboss/as/controller/capability/RuntimeCapability; (descriptor index 46)
+Human type: org.jboss.as.controller.capability.RuntimeCapability
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name Signature, size 2
+Field name MICROPROFILE_METRICS_SCAN (index 52), type Lorg/jboss/as/controller/capability/RuntimeCapability; (descriptor index 46)
+Human type: org.jboss.as.controller.capability.RuntimeCapability
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name Signature, size 2
+Field name SECURITY_ENABLED (index 157), type Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 158)
+Human type: org.jboss.as.controller.AttributeDefinition
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name EXPOSED_SUBSYSTEMS (index 173), type Lorg/jboss/as/controller/StringListAttributeDefinition; (descriptor index 174)
+Human type: org.jboss.as.controller.StringListAttributeDefinition
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name PREFIX (index 182), type Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 158)
+Human type: org.jboss.as.controller.AttributeDefinition
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name ATTRIBUTES (index 64), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 65)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+
+Method name <init> (index 19), type ()V (descriptor index 35)
+Human type: (): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 134
+Method name getAttributes (index 196), type ()Ljava/util/Collection; (descriptor index 197)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 49
+Method attribute name Signature, size 2
+Method name <clinit> (index 199), type ()V (descriptor index 35)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 330
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

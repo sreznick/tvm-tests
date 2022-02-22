@@ -1,0 +1,387 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 323
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/mail/extension/SessionProviderFactory$ManagedSession"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/MailSessionConfig;Ljava/util/Map;)V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 5, Description index 11
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "()V"
+12: Tag 7 Class Name index 13
+13: Tag 1 Utf8 Value "java/util/Properties"
+14: Tag 10 MethodRef Class index 12, Name and type index 9
+15: Tag 9 FieldRef Class index 2, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "properties"
+18: Tag 1 Utf8 Value "Ljava/util/Properties;"
+19: Tag 9 FieldRef Class index 2, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "socketBindings"
+22: Tag 1 Utf8 Value "Ljava/util/Map;"
+23: Tag 9 FieldRef Class index 2, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "sessionConfig"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/MailSessionConfig;"
+27: Tag 10 MethodRef Class index 2, Name and type index 28
+28: Tag 12 NameAndType Name index 29, Description index 11
+29: Tag 1 Utf8 Value "configure"
+30: Tag 10 MethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailSessionConfig"
+34: Tag 1 Utf8 Value "getSmtpServer"
+35: Tag 1 Utf8 Value "()Lorg/jboss/as/mail/extension/ServerConfig;"
+36: Tag 8 String Contents 37
+37: Tag 1 Utf8 Value "mail.transport.protocol"
+38: Tag 8 String Contents 39
+39: Tag 1 Utf8 Value "smtp"
+40: Tag 10 MethodRef Class index 12, Name and type index 41
+41: Tag 12 NameAndType Name index 42, Description index 43
+42: Tag 1 Utf8 Value "setProperty"
+43: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;"
+44: Tag 10 MethodRef Class index 2, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "setServerProps"
+47: Tag 1 Utf8 Value "(Ljava/util/Properties;Lorg/jboss/as/mail/extension/ServerConfig;Ljava/lang/String;)V"
+48: Tag 10 MethodRef Class index 31, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 35
+50: Tag 1 Utf8 Value "getImapServer"
+51: Tag 8 String Contents 52
+52: Tag 1 Utf8 Value "mail.store.protocol"
+53: Tag 8 String Contents 54
+54: Tag 1 Utf8 Value "imap"
+55: Tag 10 MethodRef Class index 31, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 35
+57: Tag 1 Utf8 Value "getPop3Server"
+58: Tag 8 String Contents 59
+59: Tag 1 Utf8 Value "pop3"
+60: Tag 10 MethodRef Class index 31, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 63
+62: Tag 1 Utf8 Value "getCustomServers"
+63: Tag 1 Utf8 Value "()[Lorg/jboss/as/mail/extension/CustomServerConfig;"
+64: Tag 10 MethodRef Class index 2, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "configureCustomServers"
+67: Tag 1 Utf8 Value "(Ljava/util/Properties;[Lorg/jboss/as/mail/extension/CustomServerConfig;)V"
+68: Tag 10 MethodRef Class index 31, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "getFrom"
+71: Tag 1 Utf8 Value "()Ljava/lang/String;"
+72: Tag 8 String Contents 73
+73: Tag 1 Utf8 Value "mail.from"
+74: Tag 8 String Contents 75
+75: Tag 1 Utf8 Value "mail.debug"
+76: Tag 10 MethodRef Class index 31, Name and type index 77
+77: Tag 12 NameAndType Name index 78, Description index 79
+78: Tag 1 Utf8 Value "isDebug"
+79: Tag 1 Utf8 Value "()Z"
+80: Tag 10 MethodRef Class index 81, Name and type index 82
+81: Tag 7 Class Name index 83
+82: Tag 12 NameAndType Name index 84, Description index 85
+83: Tag 1 Utf8 Value "java/lang/String"
+84: Tag 1 Utf8 Value "valueOf"
+85: Tag 1 Utf8 Value "(Z)Ljava/lang/String;"
+86: Tag 9 FieldRef Class index 87, Name and type index 88
+87: Tag 7 Class Name index 89
+88: Tag 12 NameAndType Name index 90, Description index 91
+89: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailLogger"
+90: Tag 1 Utf8 Value "ROOT_LOGGER"
+91: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/MailLogger;"
+92: Tag 8 String Contents 93
+93: Tag 1 Utf8 Value "props: %s"
+94: Tag 11 InterfaceMethodRef Class index 87, Name and type index 95
+95: Tag 12 NameAndType Name index 96, Description index 97
+96: Tag 1 Utf8 Value "tracef"
+97: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+98: Tag 10 MethodRef Class index 99, Name and type index 100
+99: Tag 7 Class Name index 101
+100: Tag 12 NameAndType Name index 102, Description index 71
+101: Tag 1 Utf8 Value "org/jboss/as/mail/extension/CustomServerConfig"
+102: Tag 1 Utf8 Value "getProtocol"
+103: Tag 10 MethodRef Class index 104, Name and type index 105
+104: Tag 7 Class Name index 106
+105: Tag 12 NameAndType Name index 107, Description index 79
+106: Tag 1 Utf8 Value "org/jboss/as/mail/extension/ServerConfig"
+107: Tag 1 Utf8 Value "isSslEnabled"
+108: Tag 8 String Contents 109
+109: Tag 1 Utf8 Value "ssl.enable"
+110: Tag 10 MethodRef Class index 111, Name and type index 112
+111: Tag 7 Class Name index 113
+112: Tag 12 NameAndType Name index 114, Description index 115
+113: Tag 1 Utf8 Value "org/jboss/as/mail/extension/SessionProviderFactory"
+114: Tag 1 Utf8 Value "access$200"
+115: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+116: Tag 8 String Contents 117
+117: Tag 1 Utf8 Value "true"
+118: Tag 10 MethodRef Class index 104, Name and type index 119
+119: Tag 12 NameAndType Name index 120, Description index 79
+120: Tag 1 Utf8 Value "isTlsEnabled"
+121: Tag 8 String Contents 122
+122: Tag 1 Utf8 Value "starttls.enable"
+123: Tag 10 MethodRef Class index 104, Name and type index 124
+124: Tag 12 NameAndType Name index 125, Description index 126
+125: Tag 1 Utf8 Value "getCredentials"
+126: Tag 1 Utf8 Value "()Lorg/jboss/as/mail/extension/Credentials;"
+127: Tag 8 String Contents 128
+128: Tag 1 Utf8 Value "auth"
+129: Tag 8 String Contents 130
+130: Tag 1 Utf8 Value "user"
+131: Tag 10 MethodRef Class index 132, Name and type index 133
+132: Tag 7 Class Name index 134
+133: Tag 12 NameAndType Name index 135, Description index 71
+134: Tag 1 Utf8 Value "org/jboss/as/mail/extension/Credentials"
+135: Tag 1 Utf8 Value "getUsername"
+136: Tag 8 String Contents 137
+137: Tag 1 Utf8 Value "debug"
+138: Tag 10 MethodRef Class index 104, Name and type index 139
+139: Tag 12 NameAndType Name index 140, Description index 141
+140: Tag 1 Utf8 Value "getProperties"
+141: Tag 1 Utf8 Value "()Ljava/util/Map;"
+142: Tag 10 MethodRef Class index 104, Name and type index 143
+143: Tag 12 NameAndType Name index 144, Description index 71
+144: Tag 1 Utf8 Value "getOutgoingSocketBinding"
+145: Tag 10 MethodRef Class index 2, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 148
+147: Tag 1 Utf8 Value "getServerSocketAddress"
+148: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/ServerConfig;)Ljava/net/InetSocketAddress;"
+149: Tag 10 MethodRef Class index 150, Name and type index 151
+150: Tag 7 Class Name index 152
+151: Tag 12 NameAndType Name index 153, Description index 154
+152: Tag 1 Utf8 Value "java/net/InetSocketAddress"
+153: Tag 1 Utf8 Value "getAddress"
+154: Tag 1 Utf8 Value "()Ljava/net/InetAddress;"
+155: Tag 10 MethodRef Class index 150, Name and type index 156
+156: Tag 12 NameAndType Name index 157, Description index 71
+157: Tag 1 Utf8 Value "getHostName"
+158: Tag 11 InterfaceMethodRef Class index 87, Name and type index 159
+159: Tag 12 NameAndType Name index 160, Description index 161
+160: Tag 1 Utf8 Value "hostUnknown"
+161: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+162: Tag 10 MethodRef Class index 111, Name and type index 163
+163: Tag 12 NameAndType Name index 164, Description index 165
+164: Tag 1 Utf8 Value "access$300"
+165: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+166: Tag 10 MethodRef Class index 167, Name and type index 168
+167: Tag 7 Class Name index 169
+168: Tag 12 NameAndType Name index 170, Description index 165
+169: Tag 1 Utf8 Value "org/jboss/as/network/NetworkUtils"
+170: Tag 1 Utf8 Value "canonize"
+171: Tag 10 MethodRef Class index 172, Name and type index 156
+172: Tag 7 Class Name index 173
+173: Tag 1 Utf8 Value "java/net/InetAddress"
+174: Tag 10 MethodRef Class index 111, Name and type index 175
+175: Tag 12 NameAndType Name index 176, Description index 165
+176: Tag 1 Utf8 Value "access$400"
+177: Tag 10 MethodRef Class index 150, Name and type index 178
+178: Tag 12 NameAndType Name index 179, Description index 180
+179: Tag 1 Utf8 Value "getPort"
+180: Tag 1 Utf8 Value "()I"
+181: Tag 10 MethodRef Class index 81, Name and type index 182
+182: Tag 12 NameAndType Name index 84, Description index 183
+183: Tag 1 Utf8 Value "(I)Ljava/lang/String;"
+184: Tag 8 String Contents 185
+185: Tag 1 Utf8 Value "host"
+186: Tag 11 InterfaceMethodRef Class index 187, Name and type index 188
+187: Tag 7 Class Name index 189
+188: Tag 12 NameAndType Name index 190, Description index 191
+189: Tag 1 Utf8 Value "java/util/Map"
+190: Tag 1 Utf8 Value "get"
+191: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+192: Tag 8 String Contents 193
+193: Tag 1 Utf8 Value ""
+194: Tag 10 MethodRef Class index 81, Name and type index 195
+195: Tag 12 NameAndType Name index 196, Description index 71
+196: Tag 1 Utf8 Value "trim"
+197: Tag 10 MethodRef Class index 81, Name and type index 198
+198: Tag 12 NameAndType Name index 199, Description index 200
+199: Tag 1 Utf8 Value "equals"
+200: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+201: Tag 8 String Contents 202
+202: Tag 1 Utf8 Value "port"
+203: Tag 11 InterfaceMethodRef Class index 187, Name and type index 204
+204: Tag 12 NameAndType Name index 205, Description index 79
+205: Tag 1 Utf8 Value "isEmpty"
+206: Tag 11 InterfaceMethodRef Class index 187, Name and type index 207
+207: Tag 12 NameAndType Name index 208, Description index 209
+208: Tag 1 Utf8 Value "entrySet"
+209: Tag 1 Utf8 Value "()Ljava/util/Set;"
+210: Tag 11 InterfaceMethodRef Class index 211, Name and type index 212
+211: Tag 7 Class Name index 213
+212: Tag 12 NameAndType Name index 214, Description index 215
+213: Tag 1 Utf8 Value "java/util/Set"
+214: Tag 1 Utf8 Value "iterator"
+215: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+216: Tag 11 InterfaceMethodRef Class index 217, Name and type index 218
+217: Tag 7 Class Name index 219
+218: Tag 12 NameAndType Name index 220, Description index 79
+219: Tag 1 Utf8 Value "java/util/Iterator"
+220: Tag 1 Utf8 Value "hasNext"
+221: Tag 11 InterfaceMethodRef Class index 217, Name and type index 222
+222: Tag 12 NameAndType Name index 223, Description index 224
+223: Tag 1 Utf8 Value "next"
+224: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+225: Tag 7 Class Name index 226
+226: Tag 1 Utf8 Value "java/util/Map$Entry"
+227: Tag 11 InterfaceMethodRef Class index 225, Name and type index 228
+228: Tag 12 NameAndType Name index 229, Description index 224
+229: Tag 1 Utf8 Value "getKey"
+230: Tag 10 MethodRef Class index 12, Name and type index 231
+231: Tag 12 NameAndType Name index 232, Description index 200
+232: Tag 1 Utf8 Value "contains"
+233: Tag 8 String Contents 234
+234: Tag 1 Utf8 Value "."
+235: Tag 10 MethodRef Class index 81, Name and type index 236
+236: Tag 12 NameAndType Name index 232, Description index 237
+237: Tag 1 Utf8 Value "(Ljava/lang/CharSequence;)Z"
+238: Tag 11 InterfaceMethodRef Class index 225, Name and type index 239
+239: Tag 12 NameAndType Name index 240, Description index 224
+240: Tag 1 Utf8 Value "getValue"
+241: Tag 10 MethodRef Class index 12, Name and type index 242
+242: Tag 12 NameAndType Name index 243, Description index 244
+243: Tag 1 Utf8 Value "put"
+244: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+245: Tag 7 Class Name index 246
+246: Tag 1 Utf8 Value "org/jboss/as/network/OutboundSocketBinding"
+247: Tag 11 InterfaceMethodRef Class index 87, Name and type index 248
+248: Tag 12 NameAndType Name index 249, Description index 250
+249: Tag 1 Utf8 Value "outboundSocketBindingNotAvailable"
+250: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/StartException;"
+251: Tag 10 MethodRef Class index 245, Name and type index 252
+252: Tag 12 NameAndType Name index 253, Description index 71
+253: Tag 1 Utf8 Value "getUnresolvedDestinationAddress"
+254: Tag 10 MethodRef Class index 245, Name and type index 255
+255: Tag 12 NameAndType Name index 256, Description index 180
+256: Tag 1 Utf8 Value "getDestinationPort"
+257: Tag 10 MethodRef Class index 150, Name and type index 258
+258: Tag 12 NameAndType Name index 5, Description index 259
+259: Tag 1 Utf8 Value "(Ljava/lang/String;I)V"
+260: Tag 7 Class Name index 261
+261: Tag 1 Utf8 Value "org/jboss/as/mail/extension/SessionProviderFactory$ManagedPasswordAuthenticator"
+262: Tag 10 MethodRef Class index 260, Name and type index 263
+263: Tag 12 NameAndType Name index 5, Description index 264
+264: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/MailSessionConfig;)V"
+265: Tag 10 MethodRef Class index 266, Name and type index 267
+266: Tag 7 Class Name index 268
+267: Tag 12 NameAndType Name index 269, Description index 270
+268: Tag 1 Utf8 Value "javax/mail/Session"
+269: Tag 1 Utf8 Value "getInstance"
+270: Tag 1 Utf8 Value "(Ljava/util/Properties;Ljavax/mail/Authenticator;)Ljavax/mail/Session;"
+271: Tag 7 Class Name index 272
+272: Tag 1 Utf8 Value "org/jboss/as/mail/extension/SessionProvider"
+273: Tag 1 Utf8 Value "Signature"
+274: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/jboss/as/network/OutboundSocketBinding;>;"
+275: Tag 1 Utf8 Value "Code"
+276: Tag 1 Utf8 Value "LineNumberTable"
+277: Tag 1 Utf8 Value "LocalVariableTable"
+278: Tag 1 Utf8 Value "this"
+279: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/SessionProviderFactory$ManagedSession;"
+280: Tag 1 Utf8 Value "LocalVariableTypeTable"
+281: Tag 1 Utf8 Value "Exceptions"
+282: Tag 7 Class Name index 283
+283: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+284: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/MailSessionConfig;Ljava/util/Map<Ljava/lang/String;Lorg/jboss/as/network/OutboundSocketBinding;>;)V"
+285: Tag 1 Utf8 Value "StackMapTable"
+286: Tag 1 Utf8 Value "serverConfig"
+287: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/CustomServerConfig;"
+288: Tag 1 Utf8 Value "props"
+289: Tag 1 Utf8 Value "serverConfigs"
+290: Tag 1 Utf8 Value "[Lorg/jboss/as/mail/extension/CustomServerConfig;"
+291: Tag 7 Class Name index 290
+292: Tag 1 Utf8 Value "socketAddress"
+293: Tag 1 Utf8 Value "Ljava/net/InetSocketAddress;"
+294: Tag 1 Utf8 Value "Ljava/lang/String;"
+295: Tag 1 Utf8 Value "prop"
+296: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+297: Tag 1 Utf8 Value "server"
+298: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/ServerConfig;"
+299: Tag 1 Utf8 Value "protocol"
+300: Tag 1 Utf8 Value "customProps"
+301: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Ljava/lang/String;Ljava/lang/String;>;"
+302: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/lang/String;>;"
+303: Tag 1 Utf8 Value "ref"
+304: Tag 1 Utf8 Value "binding"
+305: Tag 1 Utf8 Value "Lorg/jboss/as/network/OutboundSocketBinding;"
+306: Tag 1 Utf8 Value "getSession"
+307: Tag 1 Utf8 Value "()Ljavax/mail/Session;"
+308: Tag 1 Utf8 Value "session"
+309: Tag 1 Utf8 Value "Ljavax/mail/Session;"
+310: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/MailSessionConfig;Ljava/util/Map;Lorg/jboss/as/mail/extension/SessionProviderFactory$1;)V"
+311: Tag 1 Utf8 Value "x0"
+312: Tag 1 Utf8 Value "x1"
+313: Tag 1 Utf8 Value "x2"
+314: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/SessionProviderFactory$1;"
+315: Tag 1 Utf8 Value "SourceFile"
+316: Tag 1 Utf8 Value "SessionProviderFactory.java"
+317: Tag 1 Utf8 Value "InnerClasses"
+318: Tag 1 Utf8 Value "ManagedSession"
+319: Tag 1 Utf8 Value "Entry"
+320: Tag 1 Utf8 Value "ManagedPasswordAuthenticator"
+321: Tag 7 Class Name index 322
+322: Tag 1 Utf8 Value "org/jboss/as/mail/extension/SessionProviderFactory$1"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.mail.extension.SessionProviderFactory$ManagedSession
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 271
+Implements names org.jboss.as.mail.extension.SessionProvider
+
+Field name socketBindings (index 21), type Ljava/util/Map; (descriptor index 22)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name sessionConfig (index 25), type Lorg/jboss/as/mail/extension/MailSessionConfig; (descriptor index 26)
+Human type: org.jboss.as.mail.extension.MailSessionConfig
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name properties (index 17), type Ljava/util/Properties; (descriptor index 18)
+Human type: java.util.Properties
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/mail/extension/MailSessionConfig;Ljava/util/Map;)V (descriptor index 6)
+Human type: (org.jboss.as.mail.extension.MailSessionConfig, java.util.Map): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 130
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name configure (index 29), type ()V (descriptor index 11)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 319
+Method attribute name Exceptions, size 4
+Method name configureCustomServers (index 66), type (Ljava/util/Properties;[Lorg/jboss/as/mail/extension/CustomServerConfig;)V (descriptor index 67)
+Human type: (java.util.Properties, org.jboss.as.mail.extension.CustomServerConfig[]): void
+Flags: decimal 130, hex 0082, binary 0000000010000010 private varargs
+Method attribute name Code, size 144
+Method attribute name Exceptions, size 4
+Method name setServerProps (index 46), type (Ljava/util/Properties;Lorg/jboss/as/mail/extension/ServerConfig;Ljava/lang/String;)V (descriptor index 47)
+Human type: (java.util.Properties, org.jboss.as.mail.extension.ServerConfig, java.lang.String): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 745
+Method attribute name Exceptions, size 4
+Method name getServerSocketAddress (index 147), type (Lorg/jboss/as/mail/extension/ServerConfig;)Ljava/net/InetSocketAddress; (descriptor index 148)
+Human type: (org.jboss.as.mail.extension.ServerConfig): java.net.InetSocketAddress
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 154
+Method attribute name Exceptions, size 4
+Method name getSession (index 306), type ()Ljavax/mail/Session; (descriptor index 307)
+Human type: (): javax.mail.Session
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 77
+Method name <init> (index 5), type (Lorg/jboss/as/mail/extension/MailSessionConfig;Ljava/util/Map;Lorg/jboss/as/mail/extension/SessionProviderFactory$1;)V (descriptor index 310)
+Human type: (org.jboss.as.mail.extension.MailSessionConfig, java.util.Map, org.jboss.as.mail.extension.SessionProviderFactory$1): void
+Flags: decimal 4096, hex 1000, binary 0001000000000000 synthetic
+Method attribute name Code, size 79
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 34

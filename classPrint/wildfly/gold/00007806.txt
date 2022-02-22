@@ -1,0 +1,680 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 517
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/security/CredentialReference"
+3: Tag 7 Class Name index 4
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+5: Tag 9 FieldRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingExtension"
+9: Tag 1 Utf8 Value "JMS_BRIDGE_PATH"
+10: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+11: Tag 7 Class Name index 12
+12: Tag 1 Utf8 Value "java/lang/String"
+13: Tag 8 String Contents 14
+14: Tag 1 Utf8 Value "jms-bridge"
+15: Tag 10 MethodRef Class index 6, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+18: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+19: Tag 9 FieldRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeAdd"
+23: Tag 1 Utf8 Value "INSTANCE"
+24: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeAdd;"
+25: Tag 9 FieldRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 23, Description index 29
+28: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeRemove"
+29: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeRemove;"
+30: Tag 10 MethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/as/controller/PersistentResourceDefinition"
+34: Tag 1 Utf8 Value "<init>"
+35: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationStepHandler;)V"
+36: Tag 9 FieldRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 41
+39: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeDefinition"
+40: Tag 1 Utf8 Value "ATTRIBUTES"
+41: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/AttributeDefinition;"
+42: Tag 10 MethodRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 47
+45: Tag 1 Utf8 Value "java/util/Arrays"
+46: Tag 1 Utf8 Value "asList"
+47: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+48: Tag 7 Class Name index 49
+49: Tag 1 Utf8 Value "org/jboss/as/controller/ReloadRequiredWriteAttributeHandler"
+50: Tag 10 MethodRef Class index 48, Name and type index 51
+51: Tag 12 NameAndType Name index 34, Description index 52
+52: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)V"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/jboss/as/controller/security/CredentialReferenceWriteAttributeHandler"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+57: Tag 9 FieldRef Class index 37, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "SOURCE_CREDENTIAL_REFERENCE"
+60: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ObjectTypeAttributeDefinition;"
+61: Tag 9 FieldRef Class index 37, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 60
+63: Tag 1 Utf8 Value "TARGET_CREDENTIAL_REFERENCE"
+64: Tag 10 MethodRef Class index 53, Name and type index 51
+65: Tag 10 MethodRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 69, Description index 70
+68: Tag 1 Utf8 Value "java/lang/Object"
+69: Tag 1 Utf8 Value "equals"
+70: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+71: Tag 11 InterfaceMethodRef Class index 72, Name and type index 73
+72: Tag 7 Class Name index 74
+73: Tag 12 NameAndType Name index 75, Description index 76
+74: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ManagementResourceRegistration"
+75: Tag 1 Utf8 Value "registerReadWriteAttribute"
+76: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationStepHandler;)V"
+77: Tag 9 FieldRef Class index 37, Name and type index 78
+78: Tag 12 NameAndType Name index 79, Description index 41
+79: Tag 1 Utf8 Value "READONLY_ATTRIBUTES"
+80: Tag 9 FieldRef Class index 81, Name and type index 82
+81: Tag 7 Class Name index 83
+82: Tag 12 NameAndType Name index 23, Description index 84
+83: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeHandler"
+84: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeHandler;"
+85: Tag 11 InterfaceMethodRef Class index 72, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 88
+87: Tag 1 Utf8 Value "registerReadOnlyAttribute"
+88: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/controller/OperationStepHandler;)V"
+89: Tag 9 FieldRef Class index 37, Name and type index 90
+90: Tag 12 NameAndType Name index 91, Description index 41
+91: Tag 1 Utf8 Value "METRICS"
+92: Tag 9 FieldRef Class index 81, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 84
+94: Tag 1 Utf8 Value "READ_ONLY_INSTANCE"
+95: Tag 11 InterfaceMethodRef Class index 72, Name and type index 96
+96: Tag 12 NameAndType Name index 97, Description index 88
+97: Tag 1 Utf8 Value "registerMetric"
+98: Tag 10 MethodRef Class index 31, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 101
+100: Tag 1 Utf8 Value "registerOperations"
+101: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+102: Tag 9 FieldRef Class index 37, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 105
+104: Tag 1 Utf8 Value "OPERATIONS"
+105: Tag 1 Utf8 Value "[Ljava/lang/String;"
+106: Tag 10 MethodRef Class index 37, Name and type index 107
+107: Tag 12 NameAndType Name index 17, Description index 108
+108: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+109: Tag 10 MethodRef Class index 110, Name and type index 111
+110: Tag 7 Class Name index 112
+111: Tag 12 NameAndType Name index 113, Description index 114
+112: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleOperationDefinitionBuilder"
+113: Tag 1 Utf8 Value "of"
+114: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+115: Tag 10 MethodRef Class index 110, Name and type index 116
+116: Tag 12 NameAndType Name index 117, Description index 118
+117: Tag 1 Utf8 Value "build"
+118: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleOperationDefinition;"
+119: Tag 11 InterfaceMethodRef Class index 72, Name and type index 120
+120: Tag 12 NameAndType Name index 121, Description index 122
+121: Tag 1 Utf8 Value "registerOperationHandler"
+122: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationDefinition;Lorg/jboss/as/controller/OperationStepHandler;)V"
+123: Tag 8 String Contents 124
+124: Tag 1 Utf8 Value "module"
+125: Tag 9 FieldRef Class index 126, Name and type index 127
+126: Tag 7 Class Name index 128
+127: Tag 12 NameAndType Name index 129, Description index 130
+128: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+129: Tag 1 Utf8 Value "STRING"
+130: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+131: Tag 10 MethodRef Class index 132, Name and type index 133
+132: Tag 7 Class Name index 134
+133: Tag 12 NameAndType Name index 135, Description index 136
+134: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+135: Tag 1 Utf8 Value "create"
+136: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;Z)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+137: Tag 10 MethodRef Class index 132, Name and type index 138
+138: Tag 12 NameAndType Name index 117, Description index 139
+139: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+140: Tag 9 FieldRef Class index 37, Name and type index 141
+141: Tag 12 NameAndType Name index 142, Description index 143
+142: Tag 1 Utf8 Value "MODULE"
+143: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+144: Tag 8 String Contents 145
+145: Tag 1 Utf8 Value "source-connection-factory"
+146: Tag 10 MethodRef Class index 132, Name and type index 147
+147: Tag 12 NameAndType Name index 135, Description index 148
+148: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+149: Tag 8 String Contents 150
+150: Tag 1 Utf8 Value "source"
+151: Tag 10 MethodRef Class index 132, Name and type index 152
+152: Tag 12 NameAndType Name index 153, Description index 154
+153: Tag 1 Utf8 Value "setAttributeGroup"
+154: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+155: Tag 8 String Contents 156
+156: Tag 1 Utf8 Value "connection-factory"
+157: Tag 10 MethodRef Class index 132, Name and type index 158
+158: Tag 12 NameAndType Name index 159, Description index 154
+159: Tag 1 Utf8 Value "setXmlName"
+160: Tag 9 FieldRef Class index 37, Name and type index 161
+161: Tag 12 NameAndType Name index 162, Description index 143
+162: Tag 1 Utf8 Value "SOURCE_CONNECTION_FACTORY"
+163: Tag 8 String Contents 164
+164: Tag 1 Utf8 Value "source-destination"
+165: Tag 8 String Contents 166
+166: Tag 1 Utf8 Value "destination"
+167: Tag 9 FieldRef Class index 37, Name and type index 168
+168: Tag 12 NameAndType Name index 169, Description index 143
+169: Tag 1 Utf8 Value "SOURCE_DESTINATION"
+170: Tag 8 String Contents 171
+171: Tag 1 Utf8 Value "source-user"
+172: Tag 8 String Contents 173
+173: Tag 1 Utf8 Value "user"
+174: Tag 10 MethodRef Class index 132, Name and type index 175
+175: Tag 12 NameAndType Name index 176, Description index 177
+176: Tag 1 Utf8 Value "setRequired"
+177: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+178: Tag 10 MethodRef Class index 132, Name and type index 179
+179: Tag 12 NameAndType Name index 180, Description index 177
+180: Tag 1 Utf8 Value "setAllowExpression"
+181: Tag 9 FieldRef Class index 182, Name and type index 183
+182: Tag 7 Class Name index 184
+183: Tag 12 NameAndType Name index 185, Description index 186
+184: Tag 1 Utf8 Value "org/jboss/as/controller/access/management/SensitiveTargetAccessConstraintDefinition"
+185: Tag 1 Utf8 Value "CREDENTIAL"
+186: Tag 1 Utf8 Value "Lorg/jboss/as/controller/access/management/SensitiveTargetAccessConstraintDefinition;"
+187: Tag 10 MethodRef Class index 132, Name and type index 188
+188: Tag 12 NameAndType Name index 189, Description index 190
+189: Tag 1 Utf8 Value "addAccessConstraint"
+190: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/access/management/AccessConstraintDefinition;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+191: Tag 9 FieldRef Class index 6, Name and type index 192
+192: Tag 12 NameAndType Name index 193, Description index 186
+193: Tag 1 Utf8 Value "MESSAGING_SECURITY_SENSITIVE_TARGET"
+194: Tag 9 FieldRef Class index 37, Name and type index 195
+195: Tag 12 NameAndType Name index 196, Description index 143
+196: Tag 1 Utf8 Value "SOURCE_USER"
+197: Tag 8 String Contents 198
+198: Tag 1 Utf8 Value "source-password"
+199: Tag 8 String Contents 200
+200: Tag 1 Utf8 Value "password"
+201: Tag 8 String Contents 202
+202: Tag 1 Utf8 Value "source-credential-reference"
+203: Tag 10 MethodRef Class index 132, Name and type index 204
+204: Tag 12 NameAndType Name index 205, Description index 206
+205: Tag 1 Utf8 Value "setAlternatives"
+206: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+207: Tag 9 FieldRef Class index 37, Name and type index 208
+208: Tag 12 NameAndType Name index 209, Description index 143
+209: Tag 1 Utf8 Value "SOURCE_PASSWORD"
+210: Tag 10 MethodRef Class index 1, Name and type index 211
+211: Tag 12 NameAndType Name index 212, Description index 213
+212: Tag 1 Utf8 Value "getAttributeBuilder"
+213: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Z)Lorg/jboss/as/controller/ObjectTypeAttributeDefinition$Builder;"
+214: Tag 10 MethodRef Class index 215, Name and type index 152
+215: Tag 7 Class Name index 216
+216: Tag 1 Utf8 Value "org/jboss/as/controller/ObjectTypeAttributeDefinition$Builder"
+217: Tag 10 MethodRef Class index 215, Name and type index 188
+218: Tag 10 MethodRef Class index 219, Name and type index 220
+219: Tag 7 Class Name index 221
+220: Tag 12 NameAndType Name index 222, Description index 223
+221: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+222: Tag 1 Utf8 Value "getName"
+223: Tag 1 Utf8 Value "()Ljava/lang/String;"
+224: Tag 10 MethodRef Class index 215, Name and type index 204
+225: Tag 10 MethodRef Class index 215, Name and type index 226
+226: Tag 12 NameAndType Name index 117, Description index 227
+227: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/ObjectTypeAttributeDefinition;"
+228: Tag 7 Class Name index 229
+229: Tag 1 Utf8 Value "org/jboss/as/controller/PropertiesAttributeDefinition$Builder"
+230: Tag 8 String Contents 231
+231: Tag 1 Utf8 Value "source-context"
+232: Tag 10 MethodRef Class index 228, Name and type index 233
+233: Tag 12 NameAndType Name index 34, Description index 234
+234: Tag 1 Utf8 Value "(Ljava/lang/String;Z)V"
+235: Tag 10 MethodRef Class index 228, Name and type index 152
+236: Tag 7 Class Name index 237
+237: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeParsers$PropertiesParser"
+238: Tag 10 MethodRef Class index 236, Name and type index 239
+239: Tag 12 NameAndType Name index 34, Description index 240
+240: Tag 1 Utf8 Value "()V"
+241: Tag 10 MethodRef Class index 228, Name and type index 242
+242: Tag 12 NameAndType Name index 243, Description index 244
+243: Tag 1 Utf8 Value "setAttributeParser"
+244: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeParser;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+245: Tag 7 Class Name index 246
+246: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeMarshallers$PropertiesAttributeMarshaller"
+247: Tag 10 MethodRef Class index 245, Name and type index 239
+248: Tag 10 MethodRef Class index 228, Name and type index 249
+249: Tag 12 NameAndType Name index 250, Description index 251
+250: Tag 1 Utf8 Value "setAttributeMarshaller"
+251: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeMarshaller;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+252: Tag 10 MethodRef Class index 228, Name and type index 179
+253: Tag 10 MethodRef Class index 228, Name and type index 254
+254: Tag 12 NameAndType Name index 117, Description index 255
+255: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PropertiesAttributeDefinition;"
+256: Tag 9 FieldRef Class index 37, Name and type index 257
+257: Tag 12 NameAndType Name index 258, Description index 259
+258: Tag 1 Utf8 Value "SOURCE_CONTEXT"
+259: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PropertiesAttributeDefinition;"
+260: Tag 8 String Contents 261
+261: Tag 1 Utf8 Value "target-connection-factory"
+262: Tag 8 String Contents 263
+263: Tag 1 Utf8 Value "target"
+264: Tag 9 FieldRef Class index 37, Name and type index 265
+265: Tag 12 NameAndType Name index 266, Description index 143
+266: Tag 1 Utf8 Value "TARGET_CONNECTION_FACTORY"
+267: Tag 8 String Contents 268
+268: Tag 1 Utf8 Value "target-destination"
+269: Tag 9 FieldRef Class index 37, Name and type index 270
+270: Tag 12 NameAndType Name index 271, Description index 143
+271: Tag 1 Utf8 Value "TARGET_DESTINATION"
+272: Tag 8 String Contents 273
+273: Tag 1 Utf8 Value "target-user"
+274: Tag 9 FieldRef Class index 37, Name and type index 275
+275: Tag 12 NameAndType Name index 276, Description index 143
+276: Tag 1 Utf8 Value "TARGET_USER"
+277: Tag 8 String Contents 278
+278: Tag 1 Utf8 Value "target-password"
+279: Tag 8 String Contents 280
+280: Tag 1 Utf8 Value "target-credential-reference"
+281: Tag 9 FieldRef Class index 37, Name and type index 282
+282: Tag 12 NameAndType Name index 283, Description index 143
+283: Tag 1 Utf8 Value "TARGET_PASSWORD"
+284: Tag 8 String Contents 285
+285: Tag 1 Utf8 Value "target-context"
+286: Tag 9 FieldRef Class index 37, Name and type index 287
+287: Tag 12 NameAndType Name index 288, Description index 259
+288: Tag 1 Utf8 Value "TARGET_CONTEXT"
+289: Tag 8 String Contents 290
+290: Tag 1 Utf8 Value "quality-of-service"
+291: Tag 7 Class Name index 292
+292: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/EnumValidator"
+293: Tag 7 Class Name index 294
+294: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeDefinition$QualityOfServiceMode"
+295: Tag 10 MethodRef Class index 296, Name and type index 297
+296: Tag 7 Class Name index 298
+297: Tag 12 NameAndType Name index 299, Description index 300
+298: Tag 1 Utf8 Value "java/util/EnumSet"
+299: Tag 1 Utf8 Value "allOf"
+300: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/util/EnumSet;"
+301: Tag 10 MethodRef Class index 291, Name and type index 302
+302: Tag 12 NameAndType Name index 34, Description index 303
+303: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/util/EnumSet;)V"
+304: Tag 10 MethodRef Class index 132, Name and type index 305
+305: Tag 12 NameAndType Name index 306, Description index 307
+306: Tag 1 Utf8 Value "setValidator"
+307: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/operations/validation/ParameterValidator;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+308: Tag 7 Class Name index 309
+309: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+310: Tag 9 FieldRef Class index 293, Name and type index 311
+311: Tag 12 NameAndType Name index 312, Description index 313
+312: Tag 1 Utf8 Value "AT_MOST_ONCE"
+313: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeDefinition$QualityOfServiceMode;"
+314: Tag 10 MethodRef Class index 293, Name and type index 315
+315: Tag 12 NameAndType Name index 316, Description index 223
+316: Tag 1 Utf8 Value "name"
+317: Tag 10 MethodRef Class index 308, Name and type index 318
+318: Tag 12 NameAndType Name index 34, Description index 319
+319: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+320: Tag 10 MethodRef Class index 132, Name and type index 321
+321: Tag 12 NameAndType Name index 322, Description index 323
+322: Tag 1 Utf8 Value "setDefaultValue"
+323: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+324: Tag 9 FieldRef Class index 37, Name and type index 325
+325: Tag 12 NameAndType Name index 326, Description index 143
+326: Tag 1 Utf8 Value "QUALITY_OF_SERVICE"
+327: Tag 8 String Contents 328
+328: Tag 1 Utf8 Value "failure-retry-interval"
+329: Tag 9 FieldRef Class index 126, Name and type index 330
+330: Tag 12 NameAndType Name index 331, Description index 130
+331: Tag 1 Utf8 Value "LONG"
+332: Tag 9 FieldRef Class index 333, Name and type index 334
+333: Tag 7 Class Name index 335
+334: Tag 12 NameAndType Name index 336, Description index 337
+335: Tag 1 Utf8 Value "org/jboss/as/controller/client/helpers/MeasurementUnit"
+336: Tag 1 Utf8 Value "MILLISECONDS"
+337: Tag 1 Utf8 Value "Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+338: Tag 10 MethodRef Class index 132, Name and type index 339
+339: Tag 12 NameAndType Name index 340, Description index 341
+340: Tag 1 Utf8 Value "setMeasurementUnit"
+341: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/client/helpers/MeasurementUnit;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+342: Tag 9 FieldRef Class index 343, Name and type index 344
+343: Tag 7 Class Name index 345
+344: Tag 12 NameAndType Name index 346, Description index 347
+345: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/InfiniteOrPositiveValidators"
+346: Tag 1 Utf8 Value "LONG_INSTANCE"
+347: Tag 1 Utf8 Value "Lorg/jboss/as/controller/operations/validation/ModelTypeValidator;"
+348: Tag 5 Long Value 5000
+350: Tag 10 MethodRef Class index 308, Name and type index 351
+351: Tag 12 NameAndType Name index 34, Description index 352
+352: Tag 1 Utf8 Value "(J)V"
+353: Tag 9 FieldRef Class index 37, Name and type index 354
+354: Tag 12 NameAndType Name index 355, Description index 143
+355: Tag 1 Utf8 Value "FAILURE_RETRY_INTERVAL"
+356: Tag 8 String Contents 357
+357: Tag 1 Utf8 Value "max-retries"
+358: Tag 9 FieldRef Class index 126, Name and type index 359
+359: Tag 12 NameAndType Name index 360, Description index 130
+360: Tag 1 Utf8 Value "INT"
+361: Tag 9 FieldRef Class index 343, Name and type index 362
+362: Tag 12 NameAndType Name index 363, Description index 364
+363: Tag 1 Utf8 Value "NEGATIVE_VALUE_CORRECTOR"
+364: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ParameterCorrector;"
+365: Tag 10 MethodRef Class index 132, Name and type index 366
+366: Tag 12 NameAndType Name index 367, Description index 368
+367: Tag 1 Utf8 Value "setCorrector"
+368: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ParameterCorrector;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+369: Tag 9 FieldRef Class index 343, Name and type index 370
+370: Tag 12 NameAndType Name index 371, Description index 347
+371: Tag 1 Utf8 Value "INT_INSTANCE"
+372: Tag 10 MethodRef Class index 308, Name and type index 373
+373: Tag 12 NameAndType Name index 34, Description index 374
+374: Tag 1 Utf8 Value "(I)V"
+375: Tag 9 FieldRef Class index 37, Name and type index 376
+376: Tag 12 NameAndType Name index 377, Description index 143
+377: Tag 1 Utf8 Value "MAX_RETRIES"
+378: Tag 8 String Contents 379
+379: Tag 1 Utf8 Value "max-batch-size"
+380: Tag 7 Class Name index 381
+381: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/IntRangeValidator"
+382: Tag 7 Class Name index 383
+383: Tag 1 Utf8 Value "java/lang/Integer"
+384: Tag 3 Integer Value 2147483647, hex: 0x7fffffff
+385: Tag 10 MethodRef Class index 380, Name and type index 386
+386: Tag 12 NameAndType Name index 34, Description index 387
+387: Tag 1 Utf8 Value "(IIZZ)V"
+388: Tag 9 FieldRef Class index 37, Name and type index 389
+389: Tag 12 NameAndType Name index 390, Description index 143
+390: Tag 1 Utf8 Value "MAX_BATCH_SIZE"
+391: Tag 8 String Contents 392
+392: Tag 1 Utf8 Value "max-batch-time"
+393: Tag 5 Long Value -1
+395: Tag 9 FieldRef Class index 37, Name and type index 396
+396: Tag 12 NameAndType Name index 397, Description index 143
+397: Tag 1 Utf8 Value "MAX_BATCH_TIME"
+398: Tag 8 String Contents 399
+399: Tag 1 Utf8 Value "subscription-name"
+400: Tag 9 FieldRef Class index 37, Name and type index 401
+401: Tag 12 NameAndType Name index 402, Description index 143
+402: Tag 1 Utf8 Value "SUBSCRIPTION_NAME"
+403: Tag 8 String Contents 404
+404: Tag 1 Utf8 Value "client-id"
+405: Tag 9 FieldRef Class index 37, Name and type index 406
+406: Tag 12 NameAndType Name index 407, Description index 143
+407: Tag 1 Utf8 Value "CLIENT_ID"
+408: Tag 8 String Contents 409
+409: Tag 1 Utf8 Value "add-messageID-in-header"
+410: Tag 9 FieldRef Class index 126, Name and type index 411
+411: Tag 12 NameAndType Name index 412, Description index 130
+412: Tag 1 Utf8 Value "BOOLEAN"
+413: Tag 9 FieldRef Class index 308, Name and type index 414
+414: Tag 12 NameAndType Name index 415, Description index 416
+415: Tag 1 Utf8 Value "FALSE"
+416: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+417: Tag 9 FieldRef Class index 37, Name and type index 418
+418: Tag 12 NameAndType Name index 419, Description index 143
+419: Tag 1 Utf8 Value "ADD_MESSAGE_ID_IN_HEADER"
+420: Tag 8 String Contents 421
+421: Tag 1 Utf8 Value "started"
+422: Tag 10 MethodRef Class index 132, Name and type index 423
+423: Tag 12 NameAndType Name index 424, Description index 425
+424: Tag 1 Utf8 Value "setStorageRuntime"
+425: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+426: Tag 9 FieldRef Class index 37, Name and type index 427
+427: Tag 12 NameAndType Name index 428, Description index 143
+428: Tag 1 Utf8 Value "STARTED"
+429: Tag 8 String Contents 430
+430: Tag 1 Utf8 Value "aborted-message-count"
+431: Tag 10 MethodRef Class index 132, Name and type index 432
+432: Tag 12 NameAndType Name index 433, Description index 323
+433: Tag 1 Utf8 Value "setUndefinedMetricValue"
+434: Tag 9 FieldRef Class index 435, Name and type index 436
+435: Tag 7 Class Name index 437
+436: Tag 12 NameAndType Name index 438, Description index 439
+437: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess$Flag"
+438: Tag 1 Utf8 Value "COUNTER_METRIC"
+439: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess$Flag;"
+440: Tag 10 MethodRef Class index 132, Name and type index 441
+441: Tag 12 NameAndType Name index 442, Description index 443
+442: Tag 1 Utf8 Value "addFlag"
+443: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/AttributeAccess$Flag;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+444: Tag 9 FieldRef Class index 37, Name and type index 445
+445: Tag 12 NameAndType Name index 446, Description index 143
+446: Tag 1 Utf8 Value "ABORTED_MESSAGE_COUNT"
+447: Tag 9 FieldRef Class index 3, Name and type index 448
+448: Tag 12 NameAndType Name index 449, Description index 143
+449: Tag 1 Utf8 Value "SELECTOR"
+450: Tag 9 FieldRef Class index 3, Name and type index 406
+451: Tag 9 FieldRef Class index 3, Name and type index 452
+452: Tag 12 NameAndType Name index 453, Description index 454
+453: Tag 1 Utf8 Value "PAUSED"
+454: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+455: Tag 9 FieldRef Class index 3, Name and type index 456
+456: Tag 12 NameAndType Name index 457, Description index 454
+457: Tag 1 Utf8 Value "MESSAGE_COUNT"
+458: Tag 7 Class Name index 459
+459: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+460: Tag 8 String Contents 461
+461: Tag 1 Utf8 Value "start"
+462: Tag 8 String Contents 463
+463: Tag 1 Utf8 Value "stop"
+464: Tag 8 String Contents 465
+465: Tag 1 Utf8 Value "pause"
+466: Tag 8 String Contents 467
+467: Tag 1 Utf8 Value "resume"
+468: Tag 10 MethodRef Class index 37, Name and type index 239
+469: Tag 9 FieldRef Class index 37, Name and type index 470
+470: Tag 12 NameAndType Name index 23, Description index 471
+471: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeDefinition;"
+472: Tag 1 Utf8 Value "PAUSE"
+473: Tag 1 Utf8 Value "Ljava/lang/String;"
+474: Tag 1 Utf8 Value "ConstantValue"
+475: Tag 1 Utf8 Value "RESUME"
+476: Tag 1 Utf8 Value "SOURCE_CREDENTIAL_REFERENCE_NAME"
+477: Tag 1 Utf8 Value "TARGET_CREDENTIAL_REFERENCE_NAME"
+478: Tag 1 Utf8 Value "Code"
+479: Tag 1 Utf8 Value "LineNumberTable"
+480: Tag 1 Utf8 Value "LocalVariableTable"
+481: Tag 1 Utf8 Value "this"
+482: Tag 1 Utf8 Value "getAttributes"
+483: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+484: Tag 1 Utf8 Value "Signature"
+485: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/jboss/as/controller/AttributeDefinition;>;"
+486: Tag 1 Utf8 Value "registerAttributes"
+487: Tag 1 Utf8 Value "attr"
+488: Tag 1 Utf8 Value "registry"
+489: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+490: Tag 1 Utf8 Value "reloadRequiredWriteAttributeHandler"
+491: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ReloadRequiredWriteAttributeHandler;"
+492: Tag 1 Utf8 Value "credentialReferenceWriteAttributeHandler"
+493: Tag 1 Utf8 Value "Lorg/jboss/as/controller/security/CredentialReferenceWriteAttributeHandler;"
+494: Tag 1 Utf8 Value "StackMapTable"
+495: Tag 7 Class Name index 41
+496: Tag 1 Utf8 Value "operationName"
+497: Tag 7 Class Name index 105
+498: Tag 1 Utf8 Value "<clinit>"
+499: Tag 1 Utf8 Value "SourceFile"
+500: Tag 1 Utf8 Value "JMSBridgeDefinition.java"
+501: Tag 1 Utf8 Value "InnerClasses"
+502: Tag 7 Class Name index 503
+503: Tag 1 Utf8 Value "org/jboss/as/controller/ObjectTypeAttributeDefinition"
+504: Tag 1 Utf8 Value "Builder"
+505: Tag 7 Class Name index 506
+506: Tag 1 Utf8 Value "org/jboss/as/controller/PropertiesAttributeDefinition"
+507: Tag 7 Class Name index 508
+508: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeParsers"
+509: Tag 1 Utf8 Value "PropertiesParser"
+510: Tag 7 Class Name index 511
+511: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeMarshallers"
+512: Tag 1 Utf8 Value "PropertiesAttributeMarshaller"
+513: Tag 1 Utf8 Value "QualityOfServiceMode"
+514: Tag 7 Class Name index 515
+515: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess"
+516: Tag 1 Utf8 Value "Flag"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 37, name org.wildfly.extension.messaging.activemq.jms.bridge.JMSBridgeDefinition
+
+Super class: id 31, name org.jboss.as.controller.PersistentResourceDefinition
+
+No interfaces
+
+Field name PAUSE (index 472), type Ljava/lang/String; (descriptor index 473)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name RESUME (index 475), type Ljava/lang/String; (descriptor index 473)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name SOURCE_CREDENTIAL_REFERENCE_NAME (index 476), type Ljava/lang/String; (descriptor index 473)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name TARGET_CREDENTIAL_REFERENCE_NAME (index 477), type Ljava/lang/String; (descriptor index 473)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name MODULE (index 142), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SOURCE_CONNECTION_FACTORY (index 162), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SOURCE_DESTINATION (index 169), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SOURCE_USER (index 196), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SOURCE_PASSWORD (index 209), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SOURCE_CREDENTIAL_REFERENCE (index 59), type Lorg/jboss/as/controller/ObjectTypeAttributeDefinition; (descriptor index 60)
+Human type: org.jboss.as.controller.ObjectTypeAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SOURCE_CONTEXT (index 258), type Lorg/jboss/as/controller/PropertiesAttributeDefinition; (descriptor index 259)
+Human type: org.jboss.as.controller.PropertiesAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name TARGET_CONNECTION_FACTORY (index 266), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name TARGET_DESTINATION (index 271), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name TARGET_USER (index 276), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name TARGET_PASSWORD (index 283), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name TARGET_CREDENTIAL_REFERENCE (index 63), type Lorg/jboss/as/controller/ObjectTypeAttributeDefinition; (descriptor index 60)
+Human type: org.jboss.as.controller.ObjectTypeAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name TARGET_CONTEXT (index 288), type Lorg/jboss/as/controller/PropertiesAttributeDefinition; (descriptor index 259)
+Human type: org.jboss.as.controller.PropertiesAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name QUALITY_OF_SERVICE (index 326), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name FAILURE_RETRY_INTERVAL (index 355), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_RETRIES (index 377), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_BATCH_SIZE (index 390), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_BATCH_TIME (index 397), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SUBSCRIPTION_NAME (index 402), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name CLIENT_ID (index 407), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ADD_MESSAGE_ID_IN_HEADER (index 419), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name STARTED (index 428), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ABORTED_MESSAGE_COUNT (index 446), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 143)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ATTRIBUTES (index 40), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 41)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name READONLY_ATTRIBUTES (index 79), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 41)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name METRICS (index 91), type [Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 41)
+Human type: org.jboss.as.controller.AttributeDefinition[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name OPERATIONS (index 104), type [Ljava/lang/String; (descriptor index 105)
+Human type: java.lang.String[]
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name INSTANCE (index 23), type Lorg/wildfly/extension/messaging/activemq/jms/bridge/JMSBridgeDefinition; (descriptor index 471)
+Human type: org.wildfly.extension.messaging.activemq.jms.bridge.JMSBridgeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 34), type ()V (descriptor index 240)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 80
+Method name getAttributes (index 482), type ()Ljava/util/Collection; (descriptor index 483)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 49
+Method attribute name Signature, size 2
+Method name registerAttributes (index 486), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 101)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 423
+Method name registerOperations (index 100), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 101)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 152
+Method name <clinit> (index 498), type ()V (descriptor index 240)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 1886
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 50

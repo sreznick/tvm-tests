@@ -1,0 +1,335 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 294
+1: Tag 10 MethodRef Class index 61, Name and type index 121
+2: Tag 11 InterfaceMethodRef Class index 113, Name and type index 122
+3: Tag 9 FieldRef Class index 123, Name and type index 124
+4: Tag 10 MethodRef Class index 125, Name and type index 126
+5: Tag 9 FieldRef Class index 7, Name and type index 127
+6: Tag 11 InterfaceMethodRef Class index 106, Name and type index 128
+7: Tag 7 Class Name index 129
+8: Tag 9 FieldRef Class index 27, Name and type index 130
+9: Tag 7 Class Name index 131
+10: Tag 10 MethodRef Class index 9, Name and type index 121
+11: Tag 10 MethodRef Class index 7, Name and type index 132
+12: Tag 7 Class Name index 133
+13: Tag 10 MethodRef Class index 12, Name and type index 121
+14: Tag 10 MethodRef Class index 7, Name and type index 134
+15: Tag 9 FieldRef Class index 135, Name and type index 136
+16: Tag 11 InterfaceMethodRef Class index 106, Name and type index 137
+17: Tag 11 InterfaceMethodRef Class index 108, Name and type index 138
+18: Tag 11 InterfaceMethodRef Class index 109, Name and type index 139
+19: Tag 11 InterfaceMethodRef Class index 109, Name and type index 140
+20: Tag 7 Class Name index 141
+21: Tag 10 MethodRef Class index 20, Name and type index 142
+22: Tag 10 MethodRef Class index 110, Name and type index 143
+23: Tag 9 FieldRef Class index 144, Name and type index 145
+24: Tag 10 MethodRef Class index 146, Name and type index 147
+25: Tag 8 String Contents 148
+26: Tag 10 MethodRef Class index 146, Name and type index 149
+27: Tag 7 Class Name index 150
+28: Tag 8 String Contents 151
+29: Tag 10 MethodRef Class index 110, Name and type index 152
+30: Tag 10 MethodRef Class index 110, Name and type index 153
+31: Tag 10 MethodRef Class index 110, Name and type index 154
+32: Tag 10 MethodRef Class index 110, Name and type index 155
+33: Tag 10 MethodRef Class index 156, Name and type index 157
+34: Tag 10 MethodRef Class index 158, Name and type index 159
+35: Tag 10 MethodRef Class index 156, Name and type index 160
+36: Tag 10 MethodRef Class index 156, Name and type index 161
+37: Tag 10 MethodRef Class index 162, Name and type index 163
+38: Tag 10 MethodRef Class index 164, Name and type index 165
+39: Tag 10 MethodRef Class index 20, Name and type index 166
+40: Tag 11 InterfaceMethodRef Class index 107, Name and type index 167
+41: Tag 10 MethodRef Class index 7, Name and type index 168
+42: Tag 10 MethodRef Class index 169, Name and type index 170
+43: Tag 10 MethodRef Class index 171, Name and type index 170
+44: Tag 9 FieldRef Class index 172, Name and type index 173
+45: Tag 11 InterfaceMethodRef Class index 106, Name and type index 143
+46: Tag 11 InterfaceMethodRef Class index 172, Name and type index 174
+47: Tag 10 MethodRef Class index 111, Name and type index 175
+48: Tag 7 Class Name index 176
+49: Tag 7 Class Name index 177
+50: Tag 7 Class Name index 178
+51: Tag 10 MethodRef Class index 110, Name and type index 179
+52: Tag 10 MethodRef Class index 49, Name and type index 180
+53: Tag 11 InterfaceMethodRef Class index 181, Name and type index 182
+54: Tag 10 MethodRef Class index 183, Name and type index 184
+55: Tag 11 InterfaceMethodRef Class index 181, Name and type index 185
+56: Tag 11 InterfaceMethodRef Class index 172, Name and type index 186
+57: Tag 10 MethodRef Class index 50, Name and type index 187
+58: Tag 11 InterfaceMethodRef Class index 172, Name and type index 188
+59: Tag 10 MethodRef Class index 50, Name and type index 189
+60: Tag 10 MethodRef Class index 190, Name and type index 191
+61: Tag 7 Class Name index 192
+62: Tag 7 Class Name index 193
+63: Tag 1 Utf8 Value "WEB_FRAGMENT_XML"
+64: Tag 1 Utf8 Value "Ljava/lang/String;"
+65: Tag 1 Utf8 Value "ConstantValue"
+66: Tag 1 Utf8 Value "$assertionsDisabled"
+67: Tag 1 Utf8 Value "Z"
+68: Tag 1 Utf8 Value "<init>"
+69: Tag 1 Utf8 Value "()V"
+70: Tag 1 Utf8 Value "Code"
+71: Tag 1 Utf8 Value "LineNumberTable"
+72: Tag 1 Utf8 Value "LocalVariableTable"
+73: Tag 1 Utf8 Value "this"
+74: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/deployment/WebFragmentParsingDeploymentProcessor;"
+75: Tag 1 Utf8 Value "deploy"
+76: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+77: Tag 1 Utf8 Value "inputFactory"
+78: Tag 1 Utf8 Value "Ljavax/xml/stream/XMLInputFactory;"
+79: Tag 1 Utf8 Value "xmlReader"
+80: Tag 1 Utf8 Value "Ljavax/xml/stream/XMLStreamReader;"
+81: Tag 1 Utf8 Value "webFragmentMetaData"
+82: Tag 1 Utf8 Value "Lorg/jboss/metadata/web/spec/WebFragmentMetaData;"
+83: Tag 1 Utf8 Value "e"
+84: Tag 1 Utf8 Value "Ljavax/xml/stream/XMLStreamException;"
+85: Tag 1 Utf8 Value "Ljava/io/IOException;"
+86: Tag 1 Utf8 Value "is"
+87: Tag 1 Utf8 Value "Ljava/io/InputStream;"
+88: Tag 1 Utf8 Value "webFragment"
+89: Tag 1 Utf8 Value "Lorg/jboss/vfs/VirtualFile;"
+90: Tag 1 Utf8 Value "resourceRoot"
+91: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/module/ResourceRoot;"
+92: Tag 1 Utf8 Value "phaseContext"
+93: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+94: Tag 1 Utf8 Value "deploymentUnit"
+95: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+96: Tag 1 Utf8 Value "warMetaData"
+97: Tag 1 Utf8 Value "Lorg/jboss/as/web/common/WarMetaData;"
+98: Tag 1 Utf8 Value "webFragments"
+99: Tag 1 Utf8 Value "Ljava/util/Map;"
+100: Tag 1 Utf8 Value "resourceRoots"
+101: Tag 1 Utf8 Value "Ljava/util/List;"
+102: Tag 1 Utf8 Value "LocalVariableTypeTable"
+103: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/jboss/metadata/web/spec/WebFragmentMetaData;>;"
+104: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/server/deployment/module/ResourceRoot;>;"
+105: Tag 1 Utf8 Value "StackMapTable"
+106: Tag 7 Class Name index 194
+107: Tag 7 Class Name index 195
+108: Tag 7 Class Name index 196
+109: Tag 7 Class Name index 197
+110: Tag 7 Class Name index 198
+111: Tag 7 Class Name index 199
+112: Tag 7 Class Name index 200
+113: Tag 7 Class Name index 201
+114: Tag 1 Utf8 Value "Exceptions"
+115: Tag 1 Utf8 Value "undeploy"
+116: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+117: Tag 1 Utf8 Value "context"
+118: Tag 1 Utf8 Value "<clinit>"
+119: Tag 1 Utf8 Value "SourceFile"
+120: Tag 1 Utf8 Value "WebFragmentParsingDeploymentProcessor.java"
+121: Tag 12 NameAndType Name index 68, Description index 69
+122: Tag 12 NameAndType Name index 202, Description index 203
+123: Tag 7 Class Name index 204
+124: Tag 12 NameAndType Name index 205, Description index 206
+125: Tag 7 Class Name index 207
+126: Tag 12 NameAndType Name index 208, Description index 209
+127: Tag 12 NameAndType Name index 210, Description index 211
+128: Tag 12 NameAndType Name index 212, Description index 213
+129: Tag 1 Utf8 Value "org/jboss/as/web/common/WarMetaData"
+130: Tag 12 NameAndType Name index 66, Description index 67
+131: Tag 1 Utf8 Value "java/lang/AssertionError"
+132: Tag 12 NameAndType Name index 214, Description index 215
+133: Tag 1 Utf8 Value "java/util/HashMap"
+134: Tag 12 NameAndType Name index 216, Description index 217
+135: Tag 7 Class Name index 218
+136: Tag 12 NameAndType Name index 219, Description index 211
+137: Tag 12 NameAndType Name index 220, Description index 221
+138: Tag 12 NameAndType Name index 222, Description index 223
+139: Tag 12 NameAndType Name index 224, Description index 225
+140: Tag 12 NameAndType Name index 226, Description index 227
+141: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ResourceRoot"
+142: Tag 12 NameAndType Name index 228, Description index 229
+143: Tag 12 NameAndType Name index 230, Description index 231
+144: Tag 7 Class Name index 232
+145: Tag 12 NameAndType Name index 233, Description index 234
+146: Tag 7 Class Name index 235
+147: Tag 12 NameAndType Name index 236, Description index 237
+148: Tag 1 Utf8 Value ".jar"
+149: Tag 12 NameAndType Name index 238, Description index 239
+150: Tag 1 Utf8 Value "org/wildfly/extension/undertow/deployment/WebFragmentParsingDeploymentProcessor"
+151: Tag 1 Utf8 Value "META-INF/web-fragment.xml"
+152: Tag 12 NameAndType Name index 240, Description index 241
+153: Tag 12 NameAndType Name index 242, Description index 225
+154: Tag 12 NameAndType Name index 243, Description index 225
+155: Tag 12 NameAndType Name index 244, Description index 245
+156: Tag 7 Class Name index 246
+157: Tag 12 NameAndType Name index 247, Description index 248
+158: Tag 7 Class Name index 249
+159: Tag 12 NameAndType Name index 250, Description index 251
+160: Tag 12 NameAndType Name index 252, Description index 253
+161: Tag 12 NameAndType Name index 254, Description index 255
+162: Tag 7 Class Name index 256
+163: Tag 12 NameAndType Name index 257, Description index 258
+164: Tag 7 Class Name index 259
+165: Tag 12 NameAndType Name index 260, Description index 261
+166: Tag 12 NameAndType Name index 262, Description index 231
+167: Tag 12 NameAndType Name index 263, Description index 264
+168: Tag 12 NameAndType Name index 265, Description index 266
+169: Tag 7 Class Name index 267
+170: Tag 12 NameAndType Name index 268, Description index 269
+171: Tag 7 Class Name index 270
+172: Tag 7 Class Name index 271
+173: Tag 12 NameAndType Name index 272, Description index 273
+174: Tag 12 NameAndType Name index 274, Description index 275
+175: Tag 12 NameAndType Name index 276, Description index 69
+176: Tag 1 Utf8 Value "java/io/IOException"
+177: Tag 1 Utf8 Value "javax/xml/stream/XMLStreamException"
+178: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+179: Tag 12 NameAndType Name index 277, Description index 231
+180: Tag 12 NameAndType Name index 278, Description index 279
+181: Tag 7 Class Name index 280
+182: Tag 12 NameAndType Name index 281, Description index 282
+183: Tag 7 Class Name index 283
+184: Tag 12 NameAndType Name index 284, Description index 285
+185: Tag 12 NameAndType Name index 286, Description index 282
+186: Tag 12 NameAndType Name index 287, Description index 288
+187: Tag 12 NameAndType Name index 68, Description index 289
+188: Tag 12 NameAndType Name index 287, Description index 290
+189: Tag 12 NameAndType Name index 68, Description index 291
+190: Tag 7 Class Name index 292
+191: Tag 12 NameAndType Name index 293, Description index 225
+192: Tag 1 Utf8 Value "java/lang/Object"
+193: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+194: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+195: Tag 1 Utf8 Value "java/util/Map"
+196: Tag 1 Utf8 Value "java/util/List"
+197: Tag 1 Utf8 Value "java/util/Iterator"
+198: Tag 1 Utf8 Value "org/jboss/vfs/VirtualFile"
+199: Tag 1 Utf8 Value "java/io/InputStream"
+200: Tag 1 Utf8 Value "java/lang/Throwable"
+201: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+202: Tag 1 Utf8 Value "getDeploymentUnit"
+203: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+204: Tag 1 Utf8 Value "org/jboss/as/ee/structure/DeploymentType"
+205: Tag 1 Utf8 Value "WAR"
+206: Tag 1 Utf8 Value "Lorg/jboss/as/ee/structure/DeploymentType;"
+207: Tag 1 Utf8 Value "org/jboss/as/ee/structure/DeploymentTypeMarker"
+208: Tag 1 Utf8 Value "isType"
+209: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/structure/DeploymentType;Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+210: Tag 1 Utf8 Value "ATTACHMENT_KEY"
+211: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+212: Tag 1 Utf8 Value "getAttachment"
+213: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+214: Tag 1 Utf8 Value "getWebFragmentsMetaData"
+215: Tag 1 Utf8 Value "()Ljava/util/Map;"
+216: Tag 1 Utf8 Value "setWebFragmentsMetaData"
+217: Tag 1 Utf8 Value "(Ljava/util/Map;)V"
+218: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+219: Tag 1 Utf8 Value "RESOURCE_ROOTS"
+220: Tag 1 Utf8 Value "getAttachmentList"
+221: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/util/List;"
+222: Tag 1 Utf8 Value "iterator"
+223: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+224: Tag 1 Utf8 Value "hasNext"
+225: Tag 1 Utf8 Value "()Z"
+226: Tag 1 Utf8 Value "next"
+227: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+228: Tag 1 Utf8 Value "getRoot"
+229: Tag 1 Utf8 Value "()Lorg/jboss/vfs/VirtualFile;"
+230: Tag 1 Utf8 Value "getName"
+231: Tag 1 Utf8 Value "()Ljava/lang/String;"
+232: Tag 1 Utf8 Value "java/util/Locale"
+233: Tag 1 Utf8 Value "ENGLISH"
+234: Tag 1 Utf8 Value "Ljava/util/Locale;"
+235: Tag 1 Utf8 Value "java/lang/String"
+236: Tag 1 Utf8 Value "toLowerCase"
+237: Tag 1 Utf8 Value "(Ljava/util/Locale;)Ljava/lang/String;"
+238: Tag 1 Utf8 Value "endsWith"
+239: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+240: Tag 1 Utf8 Value "getChild"
+241: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/vfs/VirtualFile;"
+242: Tag 1 Utf8 Value "exists"
+243: Tag 1 Utf8 Value "isFile"
+244: Tag 1 Utf8 Value "openStream"
+245: Tag 1 Utf8 Value "()Ljava/io/InputStream;"
+246: Tag 1 Utf8 Value "javax/xml/stream/XMLInputFactory"
+247: Tag 1 Utf8 Value "newInstance"
+248: Tag 1 Utf8 Value "()Ljavax/xml/stream/XMLInputFactory;"
+249: Tag 1 Utf8 Value "org/jboss/metadata/parser/util/NoopXMLResolver"
+250: Tag 1 Utf8 Value "create"
+251: Tag 1 Utf8 Value "()Ljavax/xml/stream/XMLResolver;"
+252: Tag 1 Utf8 Value "setXMLResolver"
+253: Tag 1 Utf8 Value "(Ljavax/xml/stream/XMLResolver;)V"
+254: Tag 1 Utf8 Value "createXMLStreamReader"
+255: Tag 1 Utf8 Value "(Ljava/io/InputStream;)Ljavax/xml/stream/XMLStreamReader;"
+256: Tag 1 Utf8 Value "org/jboss/as/ee/structure/SpecDescriptorPropertyReplacement"
+257: Tag 1 Utf8 Value "propertyReplacer"
+258: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/metadata/property/PropertyReplacer;"
+259: Tag 1 Utf8 Value "org/jboss/metadata/parser/servlet/WebFragmentMetaDataParser"
+260: Tag 1 Utf8 Value "parse"
+261: Tag 1 Utf8 Value "(Ljavax/xml/stream/XMLStreamReader;Lorg/jboss/metadata/property/PropertyReplacer;)Lorg/jboss/metadata/web/spec/WebFragmentMetaData;"
+262: Tag 1 Utf8 Value "getRootName"
+263: Tag 1 Utf8 Value "put"
+264: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+265: Tag 1 Utf8 Value "getWebMetaData"
+266: Tag 1 Utf8 Value "()Lorg/jboss/metadata/web/spec/WebMetaData;"
+267: Tag 1 Utf8 Value "org/jboss/metadata/web/spec/WebMetaData"
+268: Tag 1 Utf8 Value "getDistributable"
+269: Tag 1 Utf8 Value "()Lorg/jboss/metadata/javaee/spec/EmptyMetaData;"
+270: Tag 1 Utf8 Value "org/jboss/metadata/web/spec/WebFragmentMetaData"
+271: Tag 1 Utf8 Value "org/wildfly/extension/undertow/logging/UndertowLogger"
+272: Tag 1 Utf8 Value "ROOT_LOGGER"
+273: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/logging/UndertowLogger;"
+274: Tag 1 Utf8 Value "distributableDisabledInFragmentXml"
+275: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+276: Tag 1 Utf8 Value "close"
+277: Tag 1 Utf8 Value "toString"
+278: Tag 1 Utf8 Value "getLocation"
+279: Tag 1 Utf8 Value "()Ljavax/xml/stream/Location;"
+280: Tag 1 Utf8 Value "javax/xml/stream/Location"
+281: Tag 1 Utf8 Value "getLineNumber"
+282: Tag 1 Utf8 Value "()I"
+283: Tag 1 Utf8 Value "java/lang/Integer"
+284: Tag 1 Utf8 Value "valueOf"
+285: Tag 1 Utf8 Value "(I)Ljava/lang/Integer;"
+286: Tag 1 Utf8 Value "getColumnNumber"
+287: Tag 1 Utf8 Value "failToParseXMLDescriptor"
+288: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Integer;)Ljava/lang/String;"
+289: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+290: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+291: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)V"
+292: Tag 1 Utf8 Value "java/lang/Class"
+293: Tag 1 Utf8 Value "desiredAssertionStatus"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 27, name org.wildfly.extension.undertow.deployment.WebFragmentParsingDeploymentProcessor
+
+Super class: id 61, name java.lang.Object
+
+Implements class ids 62
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name WEB_FRAGMENT_XML (index 63), type Ljava/lang/String; (descriptor index 64)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name $assertionsDisabled (index 66), type Z (descriptor index 67)
+Human type: boolean
+Flags: decimal 4120, hex 1018, binary 0001000000011000 static final synthetic
+No field attributes
+
+Method name <init> (index 68), type ()V (descriptor index 69)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name deploy (index 75), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 76)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 932
+Method attribute name Exceptions, size 4
+Method name undeploy (index 115), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 116)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name <clinit> (index 118), type ()V (descriptor index 69)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 52
+
+Class attribute name SourceFile, size 2

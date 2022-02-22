@@ -1,0 +1,144 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 107
+1: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 2
+2: Tag 12 NameAndType Name index 3, Description index 4
+3: Tag 1 Utf8 Value "apply"
+4: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/AbstractIDMResourceDefinition"
+9: Tag 1 Utf8 Value "<init>"
+10: Tag 1 Utf8 Value "(Lorg/wildfly/extension/picketlink/common/model/ModelElement;[Lorg/wildfly/extension/picketlink/common/model/validator/ModelValidationStepHandler;Ljava/util/function/Function;[Lorg/jboss/as/controller/SimpleAttributeDefinition;)V"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+15: Tag 1 Utf8 Value "getParent"
+16: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+19: Tag 9 FieldRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/common/model/ModelElement"
+23: Tag 1 Utf8 Value "IDENTITY_STORE_SUPPORT_ATTRIBUTE"
+24: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/common/model/ModelElement;"
+25: Tag 10 MethodRef Class index 20, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "getName"
+28: Tag 1 Utf8 Value "()Ljava/lang/String;"
+29: Tag 9 FieldRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+33: Tag 1 Utf8 Value "BOOLEAN"
+34: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+35: Tag 10 MethodRef Class index 17, Name and type index 36
+36: Tag 12 NameAndType Name index 9, Description index 37
+37: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;Z)V"
+38: Tag 9 FieldRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+42: Tag 1 Utf8 Value "TRUE"
+43: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+44: Tag 10 MethodRef Class index 17, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "setDefaultValue"
+47: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+48: Tag 10 MethodRef Class index 17, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "setAllowExpression"
+51: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+52: Tag 10 MethodRef Class index 17, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "build"
+55: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+56: Tag 9 FieldRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 60, Description index 61
+59: Tag 1 Utf8 Value "org/wildfly/extension/picketlink/idm/model/AbstractIdentityStoreResourceDefinition"
+60: Tag 1 Utf8 Value "SUPPORT_ATTRIBUTE"
+61: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+62: Tag 9 FieldRef Class index 20, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 24
+64: Tag 1 Utf8 Value "IDENTITY_STORE_SUPPORT_CREDENTIAL"
+65: Tag 9 FieldRef Class index 57, Name and type index 66
+66: Tag 12 NameAndType Name index 67, Description index 61
+67: Tag 1 Utf8 Value "SUPPORT_CREDENTIAL"
+68: Tag 1 Utf8 Value "(Lorg/wildfly/extension/picketlink/common/model/ModelElement;[Lorg/wildfly/extension/picketlink/common/model/validator/ModelValidationStepHandler;[Lorg/jboss/as/controller/SimpleAttributeDefinition;)V"
+69: Tag 1 Utf8 Value "Code"
+70: Tag 1 Utf8 Value "LineNumberTable"
+71: Tag 1 Utf8 Value "LocalVariableTable"
+72: Tag 1 Utf8 Value "this"
+73: Tag 1 Utf8 Value "Lorg/wildfly/extension/picketlink/idm/model/AbstractIdentityStoreResourceDefinition;"
+74: Tag 1 Utf8 Value "modelElement"
+75: Tag 1 Utf8 Value "modelValidators"
+76: Tag 1 Utf8 Value "[Lorg/wildfly/extension/picketlink/common/model/validator/ModelValidationStepHandler;"
+77: Tag 1 Utf8 Value "attributes"
+78: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+79: Tag 1 Utf8 Value "lambda$new$0"
+80: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/PathAddress;"
+81: Tag 1 Utf8 Value "address"
+82: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+83: Tag 1 Utf8 Value "<clinit>"
+84: Tag 1 Utf8 Value "()V"
+85: Tag 1 Utf8 Value "SourceFile"
+86: Tag 1 Utf8 Value "AbstractIdentityStoreResourceDefinition.java"
+87: Tag 1 Utf8 Value "BootstrapMethods"
+88: Tag 15 MethodHandle Kind 6, Index 89
+89: Tag 10 MethodRef Class index 90, Name and type index 91
+90: Tag 7 Class Name index 92
+91: Tag 12 NameAndType Name index 93, Description index 94
+92: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+93: Tag 1 Utf8 Value "metafactory"
+94: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+95: Tag 16 MethodType Descriptor index 96
+96: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+97: Tag 15 MethodHandle Kind 6, Index 98
+98: Tag 10 MethodRef Class index 57, Name and type index 99
+99: Tag 12 NameAndType Name index 79, Description index 80
+100: Tag 16 MethodType Descriptor index 80
+101: Tag 1 Utf8 Value "InnerClasses"
+102: Tag 7 Class Name index 103
+103: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+104: Tag 7 Class Name index 105
+105: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+106: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 1057, hex 0421, binary 0000010000100001 public super abstract
+
+This class: id 57, name org.wildfly.extension.picketlink.idm.model.AbstractIdentityStoreResourceDefinition
+
+Super class: id 6, name org.wildfly.extension.picketlink.idm.model.AbstractIDMResourceDefinition
+
+No interfaces
+
+Field name SUPPORT_ATTRIBUTE (index 60), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 61)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name SUPPORT_CREDENTIAL (index 67), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 61)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 9), type (Lorg/wildfly/extension/picketlink/common/model/ModelElement;[Lorg/wildfly/extension/picketlink/common/model/validator/ModelValidationStepHandler;[Lorg/jboss/as/controller/SimpleAttributeDefinition;)V (descriptor index 68)
+Human type: (org.wildfly.extension.picketlink.common.model.ModelElement, org.wildfly.extension.picketlink.common.model.validator.ModelValidationStepHandler[], org.jboss.as.controller.SimpleAttributeDefinition[]): void
+Flags: decimal 132, hex 0084, binary 0000000010000100 protected varargs
+Method attribute name Code, size 89
+Method name lambda$new$0 (index 79), type (Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/PathAddress; (descriptor index 80)
+Human type: (org.jboss.as.controller.PathAddress): org.jboss.as.controller.PathAddress
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 50
+Method name <clinit> (index 83), type ()V (descriptor index 84)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 135
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 10

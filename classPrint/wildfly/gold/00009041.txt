@@ -1,0 +1,151 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 123
+1: Tag 10 MethodRef Class index 29, Name and type index 70
+2: Tag 8 String Contents 48
+3: Tag 11 InterfaceMethodRef Class index 71, Name and type index 72
+4: Tag 8 String Contents 50
+5: Tag 11 InterfaceMethodRef Class index 71, Name and type index 73
+6: Tag 11 InterfaceMethodRef Class index 71, Name and type index 74
+7: Tag 7 Class Name index 75
+8: Tag 8 String Contents 76
+9: Tag 10 MethodRef Class index 7, Name and type index 77
+10: Tag 11 InterfaceMethodRef Class index 71, Name and type index 78
+11: Tag 8 String Contents 79
+12: Tag 11 InterfaceMethodRef Class index 71, Name and type index 80
+13: Tag 8 String Contents 81
+14: Tag 10 MethodRef Class index 56, Name and type index 82
+15: Tag 8 String Contents 83
+16: Tag 8 String Contents 84
+17: Tag 7 Class Name index 85
+18: Tag 10 MethodRef Class index 56, Name and type index 86
+19: Tag 8 String Contents 87
+20: Tag 11 InterfaceMethodRef Class index 71, Name and type index 88
+21: Tag 11 InterfaceMethodRef Class index 89, Name and type index 90
+22: Tag 11 InterfaceMethodRef Class index 71, Name and type index 91
+23: Tag 8 String Contents 92
+24: Tag 8 String Contents 93
+25: Tag 8 String Contents 94
+26: Tag 8 String Contents 95
+27: Tag 8 String Contents 96
+28: Tag 7 Class Name index 97
+29: Tag 7 Class Name index 98
+30: Tag 1 Utf8 Value "serialVersionUID"
+31: Tag 1 Utf8 Value "J"
+32: Tag 1 Utf8 Value "ConstantValue"
+33: Tag 5 Long Value 5442257117956926577
+35: Tag 1 Utf8 Value "<init>"
+36: Tag 1 Utf8 Value "()V"
+37: Tag 1 Utf8 Value "Code"
+38: Tag 1 Utf8 Value "LineNumberTable"
+39: Tag 1 Utf8 Value "LocalVariableTable"
+40: Tag 1 Utf8 Value "this"
+41: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/web/security/servlet3/LoginServlet;"
+42: Tag 1 Utf8 Value "doGet"
+43: Tag 1 Utf8 Value "(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V"
+44: Tag 1 Utf8 Value "req"
+45: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletRequest;"
+46: Tag 1 Utf8 Value "resp"
+47: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpServletResponse;"
+48: Tag 1 Utf8 Value "username"
+49: Tag 1 Utf8 Value "Ljava/lang/String;"
+50: Tag 1 Utf8 Value "password"
+51: Tag 1 Utf8 Value "principal"
+52: Tag 1 Utf8 Value "Ljava/security/Principal;"
+53: Tag 1 Utf8 Value "remoteUser"
+54: Tag 1 Utf8 Value "authType"
+55: Tag 1 Utf8 Value "StackMapTable"
+56: Tag 7 Class Name index 99
+57: Tag 7 Class Name index 100
+58: Tag 1 Utf8 Value "Exceptions"
+59: Tag 7 Class Name index 101
+60: Tag 1 Utf8 Value "SourceFile"
+61: Tag 1 Utf8 Value "LoginServlet.java"
+62: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+63: Tag 1 Utf8 Value "Ljavax/servlet/annotation/WebServlet;"
+64: Tag 1 Utf8 Value "name"
+65: Tag 1 Utf8 Value "LoginServlet"
+66: Tag 1 Utf8 Value "urlPatterns"
+67: Tag 1 Utf8 Value "/login/"
+68: Tag 1 Utf8 Value "loadOnStartup"
+69: Tag 3 Integer Value 1, hex: 0x1
+70: Tag 12 NameAndType Name index 35, Description index 36
+71: Tag 7 Class Name index 102
+72: Tag 12 NameAndType Name index 103, Description index 104
+73: Tag 12 NameAndType Name index 105, Description index 106
+74: Tag 12 NameAndType Name index 107, Description index 108
+75: Tag 1 Utf8 Value "javax/servlet/ServletException"
+76: Tag 1 Utf8 Value "getUserPrincipal returned null"
+77: Tag 12 NameAndType Name index 35, Description index 109
+78: Tag 12 NameAndType Name index 110, Description index 111
+79: Tag 1 Utf8 Value "getRemoteUser returned null"
+80: Tag 12 NameAndType Name index 112, Description index 111
+81: Tag 1 Utf8 Value "Programmatic"
+82: Tag 12 NameAndType Name index 113, Description index 114
+83: Tag 1 Utf8 Value "Programatic"
+84: Tag 1 Utf8 Value "getAuthType returned wrong type '%s'"
+85: Tag 1 Utf8 Value "java/lang/Object"
+86: Tag 12 NameAndType Name index 115, Description index 116
+87: Tag 1 Utf8 Value "gooduser"
+88: Tag 12 NameAndType Name index 117, Description index 118
+89: Tag 7 Class Name index 119
+90: Tag 12 NameAndType Name index 120, Description index 121
+91: Tag 12 NameAndType Name index 122, Description index 36
+92: Tag 1 Utf8 Value "getUserPrincipal didn't return null after logout"
+93: Tag 1 Utf8 Value "getRemoteUser didn't return null after logout"
+94: Tag 1 Utf8 Value "getAuthType didn't return null after logout"
+95: Tag 1 Utf8 Value "superuser"
+96: Tag 1 Utf8 Value "User shouldn't be in any roles after logout"
+97: Tag 1 Utf8 Value "org/jboss/as/test/integration/web/security/servlet3/LoginServlet"
+98: Tag 1 Utf8 Value "javax/servlet/http/HttpServlet"
+99: Tag 1 Utf8 Value "java/lang/String"
+100: Tag 1 Utf8 Value "java/security/Principal"
+101: Tag 1 Utf8 Value "java/io/IOException"
+102: Tag 1 Utf8 Value "javax/servlet/http/HttpServletRequest"
+103: Tag 1 Utf8 Value "getParameter"
+104: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+105: Tag 1 Utf8 Value "login"
+106: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+107: Tag 1 Utf8 Value "getUserPrincipal"
+108: Tag 1 Utf8 Value "()Ljava/security/Principal;"
+109: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+110: Tag 1 Utf8 Value "getRemoteUser"
+111: Tag 1 Utf8 Value "()Ljava/lang/String;"
+112: Tag 1 Utf8 Value "getAuthType"
+113: Tag 1 Utf8 Value "equals"
+114: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+115: Tag 1 Utf8 Value "format"
+116: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;"
+117: Tag 1 Utf8 Value "isUserInRole"
+118: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+119: Tag 1 Utf8 Value "javax/servlet/http/HttpServletResponse"
+120: Tag 1 Utf8 Value "sendError"
+121: Tag 1 Utf8 Value "(I)V"
+122: Tag 1 Utf8 Value "logout"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 28, name org.jboss.as.test.integration.web.security.servlet3.LoginServlet
+
+Super class: id 29, name javax.servlet.http.HttpServlet
+
+No interfaces
+
+Field name serialVersionUID (index 30), type J (descriptor index 31)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 35), type ()V (descriptor index 36)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name doGet (index 42), type (Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V (descriptor index 43)
+Human type: (javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 512
+Method attribute name Exceptions, size 6
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeVisibleAnnotations, size 24

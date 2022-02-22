@@ -1,0 +1,179 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 110
+1: Tag 10 MethodRef Class index 17, Name and type index 67
+2: Tag 9 FieldRef Class index 16, Name and type index 68
+3: Tag 10 MethodRef Class index 69, Name and type index 70
+4: Tag 10 MethodRef Class index 71, Name and type index 72
+5: Tag 10 MethodRef Class index 73, Name and type index 74
+6: Tag 9 FieldRef Class index 16, Name and type index 75
+7: Tag 7 Class Name index 76
+8: Tag 9 FieldRef Class index 16, Name and type index 77
+9: Tag 11 InterfaceMethodRef Class index 7, Name and type index 78
+10: Tag 11 InterfaceMethodRef Class index 79, Name and type index 80
+11: Tag 11 InterfaceMethodRef Class index 7, Name and type index 81
+12: Tag 11 InterfaceMethodRef Class index 7, Name and type index 82
+13: Tag 9 FieldRef Class index 16, Name and type index 83
+14: Tag 9 FieldRef Class index 84, Name and type index 85
+15: Tag 11 InterfaceMethodRef Class index 86, Name and type index 87
+16: Tag 7 Class Name index 88
+17: Tag 7 Class Name index 89
+18: Tag 7 Class Name index 90
+19: Tag 1 Utf8 Value "registry"
+20: Tag 1 Utf8 Value "Lorg/infinispan/factories/GlobalComponentRegistry;"
+21: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+22: Tag 1 Utf8 Value "Lorg/infinispan/factories/annotations/Inject;"
+23: Tag 1 Utf8 Value "contextRegistry"
+24: Tag 1 Utf8 Value "Lorg/infinispan/marshall/protostream/impl/SerializationContextRegistry;"
+25: Tag 1 Utf8 Value "streamAwareUserMarshaller"
+26: Tag 1 Utf8 Value "Lorg/infinispan/commons/marshall/StreamAwareMarshaller;"
+27: Tag 1 Utf8 Value "userMarshaller"
+28: Tag 1 Utf8 Value "Lorg/infinispan/commons/marshall/Marshaller;"
+29: Tag 1 Utf8 Value "<init>"
+30: Tag 1 Utf8 Value "()V"
+31: Tag 1 Utf8 Value "Code"
+32: Tag 1 Utf8 Value "LineNumberTable"
+33: Tag 1 Utf8 Value "LocalVariableTable"
+34: Tag 1 Utf8 Value "this"
+35: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/spi/persistence/PersistenceMarshaller;"
+36: Tag 1 Utf8 Value "start"
+37: Tag 1 Utf8 Value "Lorg/infinispan/factories/annotations/Start;"
+38: Tag 1 Utf8 Value "isMarshallable"
+39: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+40: Tag 1 Utf8 Value "object"
+41: Tag 1 Utf8 Value "Ljava/lang/Object;"
+42: Tag 1 Utf8 Value "mediaType"
+43: Tag 1 Utf8 Value "()Lorg/infinispan/commons/dataconversion/MediaType;"
+44: Tag 1 Utf8 Value "writeObject"
+45: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/io/OutputStream;)V"
+46: Tag 1 Utf8 Value "output"
+47: Tag 1 Utf8 Value "Ljava/io/OutputStream;"
+48: Tag 1 Utf8 Value "Exceptions"
+49: Tag 7 Class Name index 91
+50: Tag 1 Utf8 Value "readObject"
+51: Tag 1 Utf8 Value "(Ljava/io/InputStream;)Ljava/lang/Object;"
+52: Tag 1 Utf8 Value "input"
+53: Tag 1 Utf8 Value "Ljava/io/InputStream;"
+54: Tag 7 Class Name index 92
+55: Tag 1 Utf8 Value "register"
+56: Tag 1 Utf8 Value "(Lorg/infinispan/protostream/SerializationContextInitializer;)V"
+57: Tag 1 Utf8 Value "initializer"
+58: Tag 1 Utf8 Value "Lorg/infinispan/protostream/SerializationContextInitializer;"
+59: Tag 1 Utf8 Value "getUserMarshaller"
+60: Tag 1 Utf8 Value "()Lorg/infinispan/commons/marshall/Marshaller;"
+61: Tag 1 Utf8 Value "SourceFile"
+62: Tag 1 Utf8 Value "PersistenceMarshaller.java"
+63: Tag 1 Utf8 Value "Lorg/infinispan/factories/scopes/Scope;"
+64: Tag 1 Utf8 Value "value"
+65: Tag 1 Utf8 Value "Lorg/infinispan/factories/scopes/Scopes;"
+66: Tag 1 Utf8 Value "GLOBAL"
+67: Tag 12 NameAndType Name index 29, Description index 30
+68: Tag 12 NameAndType Name index 19, Description index 20
+69: Tag 7 Class Name index 93
+70: Tag 12 NameAndType Name index 94, Description index 95
+71: Tag 7 Class Name index 96
+72: Tag 12 NameAndType Name index 97, Description index 98
+73: Tag 7 Class Name index 99
+74: Tag 12 NameAndType Name index 100, Description index 60
+75: Tag 12 NameAndType Name index 27, Description index 28
+76: Tag 1 Utf8 Value "org/infinispan/commons/marshall/StreamAwareMarshaller"
+77: Tag 12 NameAndType Name index 25, Description index 26
+78: Tag 12 NameAndType Name index 38, Description index 39
+79: Tag 7 Class Name index 101
+80: Tag 12 NameAndType Name index 42, Description index 43
+81: Tag 12 NameAndType Name index 44, Description index 45
+82: Tag 12 NameAndType Name index 50, Description index 51
+83: Tag 12 NameAndType Name index 23, Description index 24
+84: Tag 7 Class Name index 102
+85: Tag 12 NameAndType Name index 105, Description index 106
+86: Tag 7 Class Name index 107
+87: Tag 12 NameAndType Name index 108, Description index 109
+88: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/persistence/PersistenceMarshaller"
+89: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/marshalling/AbstractMarshaller"
+90: Tag 1 Utf8 Value "org/infinispan/marshall/persistence/PersistenceMarshaller"
+91: Tag 1 Utf8 Value "java/io/IOException"
+92: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+93: Tag 1 Utf8 Value "org/infinispan/factories/GlobalComponentRegistry"
+94: Tag 1 Utf8 Value "getGlobalConfiguration"
+95: Tag 1 Utf8 Value "()Lorg/infinispan/configuration/global/GlobalConfiguration;"
+96: Tag 1 Utf8 Value "org/infinispan/configuration/global/GlobalConfiguration"
+97: Tag 1 Utf8 Value "serialization"
+98: Tag 1 Utf8 Value "()Lorg/infinispan/configuration/global/SerializationConfiguration;"
+99: Tag 1 Utf8 Value "org/infinispan/configuration/global/SerializationConfiguration"
+100: Tag 1 Utf8 Value "marshaller"
+101: Tag 1 Utf8 Value "org/infinispan/commons/marshall/Marshaller"
+102: Tag 1 Utf8 Value "org/infinispan/marshall/protostream/impl/SerializationContextRegistry$MarshallerType"
+103: Tag 1 Utf8 Value "MarshallerType"
+104: Tag 1 Utf8 Value "InnerClasses"
+105: Tag 1 Utf8 Value "PERSISTENCE"
+106: Tag 1 Utf8 Value "Lorg/infinispan/marshall/protostream/impl/SerializationContextRegistry$MarshallerType;"
+107: Tag 1 Utf8 Value "org/infinispan/marshall/protostream/impl/SerializationContextRegistry"
+108: Tag 1 Utf8 Value "addContextInitializer"
+109: Tag 1 Utf8 Value "(Lorg/infinispan/marshall/protostream/impl/SerializationContextRegistry$MarshallerType;Lorg/infinispan/protostream/SerializationContextInitializer;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 16, name org.wildfly.clustering.infinispan.spi.persistence.PersistenceMarshaller
+
+Super class: id 17, name org.wildfly.clustering.infinispan.marshalling.AbstractMarshaller
+
+Implements class ids 18
+Implements names org.infinispan.marshall.persistence.PersistenceMarshaller
+
+Field name registry (index 19), type Lorg/infinispan/factories/GlobalComponentRegistry; (descriptor index 20)
+Human type: org.infinispan.factories.GlobalComponentRegistry
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Field attribute name RuntimeInvisibleAnnotations, size 6
+Field name contextRegistry (index 23), type Lorg/infinispan/marshall/protostream/impl/SerializationContextRegistry; (descriptor index 24)
+Human type: org.infinispan.marshall.protostream.impl.SerializationContextRegistry
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Field attribute name RuntimeInvisibleAnnotations, size 6
+Field name streamAwareUserMarshaller (index 25), type Lorg/infinispan/commons/marshall/StreamAwareMarshaller; (descriptor index 26)
+Human type: org.infinispan.commons.marshall.StreamAwareMarshaller
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name userMarshaller (index 27), type Lorg/infinispan/commons/marshall/Marshaller; (descriptor index 28)
+Human type: org.infinispan.commons.marshall.Marshaller
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 29), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name start (index 36), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 79
+Method attribute name RuntimeInvisibleAnnotations, size 6
+Method name isMarshallable (index 38), type (Ljava/lang/Object;)Z (descriptor index 39)
+Human type: (java.lang.Object): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name mediaType (index 42), type ()Lorg/infinispan/commons/dataconversion/MediaType; (descriptor index 43)
+Human type: (): org.infinispan.commons.dataconversion.MediaType
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name writeObject (index 44), type (Ljava/lang/Object;Ljava/io/OutputStream;)V (descriptor index 45)
+Human type: (java.lang.Object, java.io.OutputStream): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 78
+Method attribute name Exceptions, size 4
+Method name readObject (index 50), type (Ljava/io/InputStream;)Ljava/lang/Object; (descriptor index 51)
+Human type: (java.io.InputStream): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Exceptions, size 6
+Method name register (index 55), type (Lorg/infinispan/protostream/SerializationContextInitializer;)V (descriptor index 56)
+Human type: (org.infinispan.protostream.SerializationContextInitializer): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name getUserMarshaller (index 59), type ()Lorg/infinispan/commons/marshall/Marshaller; (descriptor index 60)
+Human type: (): org.infinispan.commons.marshall.Marshaller
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 13
+Class attribute name InnerClasses, size 10

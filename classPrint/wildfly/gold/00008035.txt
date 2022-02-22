@@ -1,0 +1,279 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 239
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/as/ee/component/AbstractComponentConfigurator$1"
+9: Tag 10 MethodRef Class index 7, Name and type index 10
+10: Tag 12 NameAndType Name index 5, Description index 11
+11: Tag 1 Utf8 Value "(Ljava/util/Collection;)V"
+12: Tag 7 Class Name index 13
+13: Tag 1 Utf8 Value "java/util/HashMap"
+14: Tag 10 MethodRef Class index 12, Name and type index 3
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/jboss/as/ee/component/EEModuleClassDescription"
+19: Tag 1 Utf8 Value "getInjectionConfigurations"
+20: Tag 1 Utf8 Value "()Ljava/util/Map;"
+21: Tag 11 InterfaceMethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "java/util/Map"
+25: Tag 1 Utf8 Value "putAll"
+26: Tag 1 Utf8 Value "(Ljava/util/Map;)V"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "java/lang/Class"
+31: Tag 1 Utf8 Value "getName"
+32: Tag 1 Utf8 Value "()Ljava/lang/String;"
+33: Tag 10 MethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/as/ee/component/EEModuleDescription"
+37: Tag 1 Utf8 Value "getResourceInjections"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Map;"
+39: Tag 10 MethodRef Class index 40, Name and type index 35
+40: Tag 7 Class Name index 41
+41: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentDescription"
+42: Tag 11 InterfaceMethodRef Class index 22, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 45
+44: Tag 1 Utf8 Value "values"
+45: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+46: Tag 11 InterfaceMethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "java/util/Collection"
+50: Tag 1 Utf8 Value "iterator"
+51: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+52: Tag 11 InterfaceMethodRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 56, Description index 57
+55: Tag 1 Utf8 Value "java/util/Iterator"
+56: Tag 1 Utf8 Value "hasNext"
+57: Tag 1 Utf8 Value "()Z"
+58: Tag 11 InterfaceMethodRef Class index 53, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "next"
+61: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+62: Tag 7 Class Name index 63
+63: Tag 1 Utf8 Value "org/jboss/as/ee/component/ResourceInjectionConfiguration"
+64: Tag 10 MethodRef Class index 34, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 57
+66: Tag 1 Utf8 Value "isAppClient"
+67: Tag 10 MethodRef Class index 62, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "getTarget"
+70: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/component/InjectionTarget;"
+71: Tag 11 InterfaceMethodRef Class index 72, Name and type index 73
+72: Tag 7 Class Name index 74
+73: Tag 12 NameAndType Name index 75, Description index 76
+74: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+75: Tag 1 Utf8 Value "getDeploymentUnit"
+76: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+77: Tag 10 MethodRef Class index 78, Name and type index 79
+78: Tag 7 Class Name index 80
+79: Tag 12 NameAndType Name index 81, Description index 82
+80: Tag 1 Utf8 Value "org/jboss/as/ee/component/InjectionTarget"
+81: Tag 1 Utf8 Value "isStatic"
+82: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+83: Tag 9 FieldRef Class index 84, Name and type index 85
+84: Tag 7 Class Name index 86
+85: Tag 12 NameAndType Name index 87, Description index 88
+86: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+87: Tag 1 Utf8 Value "ROOT_LOGGER"
+88: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+89: Tag 8 String Contents 90
+90: Tag 1 Utf8 Value "Injection for a member with static modifier is only acceptable on application clients, ignoring injection for target %s"
+91: Tag 11 InterfaceMethodRef Class index 84, Name and type index 92
+92: Tag 12 NameAndType Name index 93, Description index 94
+93: Tag 1 Utf8 Value "debugf"
+94: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+95: Tag 7 Class Name index 96
+96: Tag 1 Utf8 Value "org/jboss/as/ee/component/MethodInjectionTarget"
+97: Tag 10 MethodRef Class index 95, Name and type index 98
+98: Tag 12 NameAndType Name index 99, Description index 100
+99: Tag 1 Utf8 Value "getMethod"
+100: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+101: Tag 10 MethodRef Class index 102, Name and type index 103
+102: Tag 7 Class Name index 104
+103: Tag 12 NameAndType Name index 105, Description index 106
+104: Tag 1 Utf8 Value "org/jboss/as/ee/component/AbstractComponentConfigurator"
+105: Tag 1 Utf8 Value "isNotOverriden"
+106: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/reflect/Method;Ljava/lang/Class;Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;)Z"
+107: Tag 7 Class Name index 108
+108: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+109: Tag 10 MethodRef Class index 107, Name and type index 3
+110: Tag 10 MethodRef Class index 111, Name and type index 112
+111: Tag 7 Class Name index 113
+112: Tag 12 NameAndType Name index 114, Description index 115
+113: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentConfiguration"
+114: Tag 1 Utf8 Value "getStartDependencies"
+115: Tag 1 Utf8 Value "()Ljava/util/List;"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentDescription$InjectedConfigurator"
+118: Tag 10 MethodRef Class index 116, Name and type index 119
+119: Tag 12 NameAndType Name index 5, Description index 120
+120: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ResourceInjectionConfiguration;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Lorg/jboss/msc/value/InjectedValue;)V"
+121: Tag 11 InterfaceMethodRef Class index 122, Name and type index 123
+122: Tag 7 Class Name index 124
+123: Tag 12 NameAndType Name index 125, Description index 126
+124: Tag 1 Utf8 Value "java/util/List"
+125: Tag 1 Utf8 Value "add"
+126: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+127: Tag 10 MethodRef Class index 62, Name and type index 128
+128: Tag 12 NameAndType Name index 129, Description index 57
+129: Tag 1 Utf8 Value "isOptional"
+130: Tag 10 MethodRef Class index 78, Name and type index 131
+131: Tag 12 NameAndType Name index 132, Description index 133
+132: Tag 1 Utf8 Value "createInjectionInterceptorFactory"
+133: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;Lorg/jboss/msc/value/Value;Lorg/jboss/as/server/deployment/DeploymentUnit;Z)Lorg/jboss/invocation/InterceptorFactory;"
+134: Tag 11 InterfaceMethodRef Class index 135, Name and type index 136
+135: Tag 7 Class Name index 137
+136: Tag 12 NameAndType Name index 138, Description index 139
+137: Tag 1 Utf8 Value "java/util/Deque"
+138: Tag 1 Utf8 Value "addFirst"
+139: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+140: Tag 7 Class Name index 141
+141: Tag 1 Utf8 Value "org/jboss/invocation/ImmediateInterceptorFactory"
+142: Tag 7 Class Name index 143
+143: Tag 1 Utf8 Value "org/jboss/as/ee/component/ManagedReferenceReleaseInterceptor"
+144: Tag 10 MethodRef Class index 142, Name and type index 145
+145: Tag 12 NameAndType Name index 5, Description index 139
+146: Tag 10 MethodRef Class index 140, Name and type index 147
+147: Tag 12 NameAndType Name index 5, Description index 148
+148: Tag 1 Utf8 Value "(Lorg/jboss/invocation/Interceptor;)V"
+149: Tag 11 InterfaceMethodRef Class index 135, Name and type index 150
+150: Tag 12 NameAndType Name index 151, Description index 139
+151: Tag 1 Utf8 Value "addLast"
+152: Tag 10 MethodRef Class index 153, Name and type index 154
+153: Tag 7 Class Name index 155
+154: Tag 12 NameAndType Name index 156, Description index 157
+155: Tag 1 Utf8 Value "java/lang/reflect/Method"
+156: Tag 1 Utf8 Value "getModifiers"
+157: Tag 1 Utf8 Value "()I"
+158: Tag 10 MethodRef Class index 159, Name and type index 160
+159: Tag 7 Class Name index 161
+160: Tag 12 NameAndType Name index 162, Description index 163
+161: Tag 1 Utf8 Value "java/lang/reflect/Modifier"
+162: Tag 1 Utf8 Value "isPrivate"
+163: Tag 1 Utf8 Value "(I)Z"
+164: Tag 10 MethodRef Class index 165, Name and type index 166
+165: Tag 7 Class Name index 167
+166: Tag 12 NameAndType Name index 168, Description index 169
+167: Tag 1 Utf8 Value "org/jboss/as/server/deployment/reflect/ClassReflectionIndexUtil"
+168: Tag 1 Utf8 Value "findRequiredMethod"
+169: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;Ljava/lang/Class;Ljava/lang/reflect/Method;)Ljava/lang/reflect/Method;"
+170: Tag 10 MethodRef Class index 153, Name and type index 171
+171: Tag 12 NameAndType Name index 172, Description index 173
+172: Tag 1 Utf8 Value "getDeclaringClass"
+173: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+174: Tag 1 Utf8 Value "Code"
+175: Tag 1 Utf8 Value "LineNumberTable"
+176: Tag 1 Utf8 Value "LocalVariableTable"
+177: Tag 1 Utf8 Value "this"
+178: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/AbstractComponentConfigurator;"
+179: Tag 1 Utf8 Value "weaved"
+180: Tag 1 Utf8 Value "(Ljava/util/Collection;)Lorg/jboss/invocation/InterceptorFactory;"
+181: Tag 1 Utf8 Value "interceptorFactories"
+182: Tag 1 Utf8 Value "Ljava/util/Collection;"
+183: Tag 1 Utf8 Value "LocalVariableTypeTable"
+184: Tag 1 Utf8 Value "Ljava/util/Collection<Lorg/jboss/invocation/InterceptorFactory;>;"
+185: Tag 1 Utf8 Value "StackMapTable"
+186: Tag 1 Utf8 Value "Deprecated"
+187: Tag 1 Utf8 Value "Signature"
+188: Tag 1 Utf8 Value "(Ljava/util/Collection<Lorg/jboss/invocation/InterceptorFactory;>;)Lorg/jboss/invocation/InterceptorFactory;"
+189: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+190: Tag 1 Utf8 Value "Ljava/lang/Deprecated;"
+191: Tag 1 Utf8 Value "mergeInjectionsForClass"
+192: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/Class;Lorg/jboss/as/ee/component/EEModuleClassDescription;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Ljava/util/Deque;Ljava/lang/Object;Ljava/util/Deque;Z)V"
+193: Tag 1 Utf8 Value "mt"
+194: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/MethodInjectionTarget;"
+195: Tag 1 Utf8 Value "method"
+196: Tag 1 Utf8 Value "Ljava/lang/reflect/Method;"
+197: Tag 1 Utf8 Value "valueContextKey"
+198: Tag 1 Utf8 Value "Ljava/lang/Object;"
+199: Tag 1 Utf8 Value "managedReferenceFactoryValue"
+200: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+201: Tag 1 Utf8 Value "injectionConfiguration"
+202: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ResourceInjectionConfiguration;"
+203: Tag 1 Utf8 Value "clazz"
+204: Tag 1 Utf8 Value "Ljava/lang/Class;"
+205: Tag 1 Utf8 Value "actualClass"
+206: Tag 1 Utf8 Value "classDescription"
+207: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEModuleClassDescription;"
+208: Tag 1 Utf8 Value "moduleDescription"
+209: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEModuleDescription;"
+210: Tag 1 Utf8 Value "deploymentReflectionIndex"
+211: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;"
+212: Tag 1 Utf8 Value "description"
+213: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentDescription;"
+214: Tag 1 Utf8 Value "configuration"
+215: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentConfiguration;"
+216: Tag 1 Utf8 Value "context"
+217: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+218: Tag 1 Utf8 Value "injectors"
+219: Tag 1 Utf8 Value "Ljava/util/Deque;"
+220: Tag 1 Utf8 Value "instanceKey"
+221: Tag 1 Utf8 Value "uninjectors"
+222: Tag 1 Utf8 Value "metadataComplete"
+223: Tag 1 Utf8 Value "Z"
+224: Tag 1 Utf8 Value "mergedInjections"
+225: Tag 1 Utf8 Value "Ljava/util/Map;"
+226: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/jboss/as/naming/ManagedReferenceFactory;>;"
+227: Tag 1 Utf8 Value "Ljava/lang/Class<*>;"
+228: Tag 1 Utf8 Value "Ljava/util/Deque<Lorg/jboss/invocation/InterceptorFactory;>;"
+229: Tag 1 Utf8 Value "Ljava/util/Map<Lorg/jboss/as/ee/component/InjectionTarget;Lorg/jboss/as/ee/component/ResourceInjectionConfiguration;>;"
+230: Tag 1 Utf8 Value "Exceptions"
+231: Tag 7 Class Name index 232
+232: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+233: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;Ljava/lang/Class<*>;Lorg/jboss/as/ee/component/EEModuleClassDescription;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Ljava/util/Deque<Lorg/jboss/invocation/InterceptorFactory;>;Ljava/lang/Object;Ljava/util/Deque<Lorg/jboss/invocation/InterceptorFactory;>;Z)V"
+234: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;Ljava/lang/reflect/Method;Ljava/lang/Class<*>;Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;)Z"
+235: Tag 1 Utf8 Value "SourceFile"
+236: Tag 1 Utf8 Value "AbstractComponentConfigurator.java"
+237: Tag 1 Utf8 Value "InnerClasses"
+238: Tag 1 Utf8 Value "InjectedConfigurator"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 102, name org.jboss.as.ee.component.AbstractComponentConfigurator
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name weaved (index 179), type (Ljava/util/Collection;)Lorg/jboss/invocation/InterceptorFactory; (descriptor index 180)
+Human type: (java.util.Collection): org.jboss.invocation.InterceptorFactory
+Flags: decimal 12, hex 000c, binary 0000000000001100 protected static
+Method attribute name Code, size 92
+Method attribute name Deprecated, size 0
+Method attribute name Signature, size 2
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name mergeInjectionsForClass (index 191), type (Ljava/lang/Class;Ljava/lang/Class;Lorg/jboss/as/ee/component/EEModuleClassDescription;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Ljava/util/Deque;Ljava/lang/Object;Ljava/util/Deque;Z)V (descriptor index 192)
+Human type: (java.lang.Class, java.lang.Class, org.jboss.as.ee.component.EEModuleClassDescription, org.jboss.as.ee.component.EEModuleDescription, org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex, org.jboss.as.ee.component.ComponentDescription, org.jboss.as.ee.component.ComponentConfiguration, org.jboss.as.server.deployment.DeploymentPhaseContext, java.util.Deque, java.lang.Object, java.util.Deque, boolean): void
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 692
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name isNotOverriden (index 105), type (Ljava/lang/Class;Ljava/lang/reflect/Method;Ljava/lang/Class;Lorg/jboss/as/server/deployment/reflect/DeploymentReflectionIndex;)Z (descriptor index 106)
+Human type: (java.lang.Class, java.lang.reflect.Method, java.lang.Class, org.jboss.as.server.deployment.reflect.DeploymentReflectionIndex): boolean
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 152
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

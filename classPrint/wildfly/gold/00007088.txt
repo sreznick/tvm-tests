@@ -1,0 +1,137 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 101
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/weld/webtier/jsp/WeldJspExpressionFactoryWrapper"
+11: Tag 1 Utf8 Value "getBeanManager"
+12: Tag 1 Utf8 Value "()Ljavax/enterprise/inject/spi/BeanManager;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "javax/servlet/jsp/JspFactory"
+17: Tag 1 Utf8 Value "getDefaultFactory"
+18: Tag 1 Utf8 Value "()Ljavax/servlet/jsp/JspFactory;"
+19: Tag 10 MethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "getJspApplicationContext"
+22: Tag 1 Utf8 Value "(Ljavax/servlet/ServletContext;)Ljavax/servlet/jsp/JspApplicationContext;"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "javax/enterprise/inject/spi/BeanManager"
+27: Tag 1 Utf8 Value "getELResolver"
+28: Tag 1 Utf8 Value "()Ljavax/el/ELResolver;"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "javax/servlet/jsp/JspApplicationContext"
+33: Tag 1 Utf8 Value "addELResolver"
+34: Tag 1 Utf8 Value "(Ljavax/el/ELResolver;)V"
+35: Tag 8 String Contents 36
+36: Tag 1 Utf8 Value "org.jboss.weld.module.web.el.WeldELContextListener"
+37: Tag 10 MethodRef Class index 2, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "getClass"
+40: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+41: Tag 10 MethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "java/lang/Class"
+45: Tag 1 Utf8 Value "getClassLoader"
+46: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+47: Tag 10 MethodRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "org/jboss/as/weld/util/Reflections"
+51: Tag 1 Utf8 Value "newInstance"
+52: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/Object;"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "javax/el/ELContextListener"
+55: Tag 11 InterfaceMethodRef Class index 30, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "addELContextListener"
+58: Tag 1 Utf8 Value "(Ljavax/el/ELContextListener;)V"
+59: Tag 11 InterfaceMethodRef Class index 24, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "wrapExpressionFactory"
+62: Tag 1 Utf8 Value "(Ljavax/el/ExpressionFactory;)Ljavax/el/ExpressionFactory;"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "javax/naming/InitialContext"
+65: Tag 10 MethodRef Class index 63, Name and type index 3
+66: Tag 8 String Contents 67
+67: Tag 1 Utf8 Value "java:comp/BeanManager"
+68: Tag 10 MethodRef Class index 63, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "lookup"
+71: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+72: Tag 7 Class Name index 73
+73: Tag 1 Utf8 Value "javax/naming/NamingException"
+74: Tag 10 MethodRef Class index 8, Name and type index 3
+75: Tag 9 FieldRef Class index 8, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 78
+77: Tag 1 Utf8 Value "INSTANCE"
+78: Tag 1 Utf8 Value "Lorg/jboss/as/weld/webtier/jsp/WeldJspExpressionFactoryWrapper;"
+79: Tag 7 Class Name index 80
+80: Tag 1 Utf8 Value "org/jboss/as/web/common/ExpressionFactoryWrapper"
+81: Tag 1 Utf8 Value "Code"
+82: Tag 1 Utf8 Value "LineNumberTable"
+83: Tag 1 Utf8 Value "LocalVariableTable"
+84: Tag 1 Utf8 Value "this"
+85: Tag 1 Utf8 Value "wrap"
+86: Tag 1 Utf8 Value "(Ljavax/el/ExpressionFactory;Ljavax/servlet/ServletContext;)Ljavax/el/ExpressionFactory;"
+87: Tag 1 Utf8 Value "expressionFactory"
+88: Tag 1 Utf8 Value "Ljavax/el/ExpressionFactory;"
+89: Tag 1 Utf8 Value "servletContext"
+90: Tag 1 Utf8 Value "Ljavax/servlet/ServletContext;"
+91: Tag 1 Utf8 Value "beanManager"
+92: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/BeanManager;"
+93: Tag 1 Utf8 Value "jspAppContext"
+94: Tag 1 Utf8 Value "Ljavax/servlet/jsp/JspApplicationContext;"
+95: Tag 1 Utf8 Value "StackMapTable"
+96: Tag 1 Utf8 Value "e"
+97: Tag 1 Utf8 Value "Ljavax/naming/NamingException;"
+98: Tag 1 Utf8 Value "<clinit>"
+99: Tag 1 Utf8 Value "SourceFile"
+100: Tag 1 Utf8 Value "WeldJspExpressionFactoryWrapper.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.weld.webtier.jsp.WeldJspExpressionFactoryWrapper
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 79
+Implements names org.jboss.as.web.common.ExpressionFactoryWrapper
+
+Field name INSTANCE (index 77), type Lorg/jboss/as/weld/webtier/jsp/WeldJspExpressionFactoryWrapper; (descriptor index 78)
+Human type: org.jboss.as.weld.webtier.jsp.WeldJspExpressionFactoryWrapper
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name wrap (index 85), type (Ljavax/el/ExpressionFactory;Ljavax/servlet/ServletContext;)Ljavax/el/ExpressionFactory; (descriptor index 86)
+Human type: (javax.el.ExpressionFactory, javax.servlet.ServletContext): javax.el.ExpressionFactory
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 183
+Method name getBeanManager (index 11), type ()Ljavax/enterprise/inject/spi/BeanManager; (descriptor index 12)
+Human type: (): javax.enterprise.inject.spi.BeanManager
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 99
+Method name <clinit> (index 98), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2

@@ -1,0 +1,167 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 99
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/weld/services/BeanManagerService"
+11: Tag 1 Utf8 Value "beanDeploymentArchiveId"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "beanManagerConsumer"
+16: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+17: Tag 9 FieldRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "weldContainerSupplier"
+20: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+21: Tag 7 Class Name index 22
+22: Tag 1 Utf8 Value "org/jboss/weld/bean/builtin/BeanManagerProxy"
+23: Tag 11 InterfaceMethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "java/util/function/Supplier"
+27: Tag 1 Utf8 Value "get"
+28: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "org/jboss/as/weld/WeldBootstrapService"
+31: Tag 10 MethodRef Class index 29, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "getBeanManager"
+34: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/weld/manager/BeanManagerImpl;"
+35: Tag 10 MethodRef Class index 21, Name and type index 36
+36: Tag 12 NameAndType Name index 5, Description index 37
+37: Tag 1 Utf8 Value "(Lorg/jboss/weld/manager/BeanManagerImpl;)V"
+38: Tag 9 FieldRef Class index 8, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "beanManager"
+41: Tag 1 Utf8 Value "Lorg/jboss/weld/bean/builtin/BeanManagerProxy;"
+42: Tag 11 InterfaceMethodRef Class index 43, Name and type index 44
+43: Tag 7 Class Name index 45
+44: Tag 12 NameAndType Name index 46, Description index 47
+45: Tag 1 Utf8 Value "java/util/function/Consumer"
+46: Tag 1 Utf8 Value "accept"
+47: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+48: Tag 10 MethodRef Class index 49, Name and type index 50
+49: Tag 7 Class Name index 51
+50: Tag 12 NameAndType Name index 52, Description index 53
+51: Tag 1 Utf8 Value "org/jboss/as/weld/ServiceNames"
+52: Tag 1 Utf8 Value "beanManagerServiceName"
+53: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/msc/service/ServiceName;"
+54: Tag 10 MethodRef Class index 8, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 57
+56: Tag 1 Utf8 Value "getValue"
+57: Tag 1 Utf8 Value "()Ljavax/enterprise/inject/spi/BeanManager;"
+58: Tag 9 FieldRef Class index 49, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "BEAN_MANAGER_SERVICE_NAME"
+61: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+62: Tag 9 FieldRef Class index 8, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 61
+64: Tag 1 Utf8 Value "NAME"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+67: Tag 1 Utf8 Value "Signature"
+68: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Ljavax/enterprise/inject/spi/BeanManager;>;"
+69: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/weld/WeldBootstrapService;>;"
+70: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V"
+71: Tag 1 Utf8 Value "Code"
+72: Tag 1 Utf8 Value "LineNumberTable"
+73: Tag 1 Utf8 Value "LocalVariableTable"
+74: Tag 1 Utf8 Value "this"
+75: Tag 1 Utf8 Value "Lorg/jboss/as/weld/services/BeanManagerService;"
+76: Tag 1 Utf8 Value "LocalVariableTypeTable"
+77: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/function/Consumer<Ljavax/enterprise/inject/spi/BeanManager;>;Ljava/util/function/Supplier<Lorg/jboss/as/weld/WeldBootstrapService;>;)V"
+78: Tag 1 Utf8 Value "start"
+79: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+80: Tag 1 Utf8 Value "context"
+81: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+82: Tag 1 Utf8 Value "Exceptions"
+83: Tag 7 Class Name index 84
+84: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+85: Tag 1 Utf8 Value "stop"
+86: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+87: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+88: Tag 1 Utf8 Value "serviceName"
+89: Tag 1 Utf8 Value "deploymentUnit"
+90: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+91: Tag 7 Class Name index 92
+92: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+93: Tag 7 Class Name index 94
+94: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+95: Tag 1 Utf8 Value "<clinit>"
+96: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Ljavax/enterprise/inject/spi/BeanManager;>;"
+97: Tag 1 Utf8 Value "SourceFile"
+98: Tag 1 Utf8 Value "BeanManagerService.java"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 8, name org.jboss.as.weld.services.BeanManagerService
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 65
+Implements names org.jboss.msc.service.Service
+
+Field name NAME (index 64), type Lorg/jboss/msc/service/ServiceName; (descriptor index 61)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name beanManagerConsumer (index 15), type Ljava/util/function/Consumer; (descriptor index 16)
+Human type: java.util.function.Consumer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name weldContainerSupplier (index 19), type Ljava/util/function/Supplier; (descriptor index 20)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name beanDeploymentArchiveId (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name beanManager (index 40), type Lorg/jboss/weld/bean/builtin/BeanManagerProxy; (descriptor index 41)
+Human type: org.jboss.weld.bean.builtin.BeanManagerProxy
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V (descriptor index 70)
+Human type: (java.lang.String, java.util.function.Consumer, java.util.function.Supplier): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 136
+Method attribute name Signature, size 2
+Method name start (index 78), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 79)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 104
+Method attribute name Exceptions, size 4
+Method name stop (index 85), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 86)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 76
+Method name getValue (index 56), type ()Ljavax/enterprise/inject/spi/BeanManager; (descriptor index 57)
+Human type: (): javax.enterprise.inject.spi.BeanManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name serviceName (index 88), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/msc/service/ServiceName; (descriptor index 53)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): org.jboss.msc.service.ServiceName
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 47
+Method name getValue (index 56), type ()Ljava/lang/Object; (descriptor index 28)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name <clinit> (index 95), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 31
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

@@ -1,0 +1,175 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 118
+1: Tag 8 String Contents 58
+2: Tag 10 MethodRef Class index 30, Name and type index 59
+3: Tag 7 Class Name index 60
+4: Tag 9 FieldRef Class index 13, Name and type index 61
+5: Tag 9 FieldRef Class index 13, Name and type index 62
+6: Tag 10 MethodRef Class index 63, Name and type index 64
+7: Tag 7 Class Name index 65
+8: Tag 7 Class Name index 66
+9: Tag 9 FieldRef Class index 67, Name and type index 68
+10: Tag 7 Class Name index 69
+11: Tag 10 MethodRef Class index 30, Name and type index 70
+12: Tag 10 MethodRef Class index 30, Name and type index 71
+13: Tag 7 Class Name index 72
+14: Tag 10 MethodRef Class index 13, Name and type index 73
+15: Tag 9 FieldRef Class index 13, Name and type index 74
+16: Tag 7 Class Name index 75
+17: Tag 8 String Contents 76
+18: Tag 9 FieldRef Class index 77, Name and type index 78
+19: Tag 10 MethodRef Class index 16, Name and type index 79
+20: Tag 7 Class Name index 80
+21: Tag 10 MethodRef Class index 20, Name and type index 81
+22: Tag 10 MethodRef Class index 16, Name and type index 82
+23: Tag 10 MethodRef Class index 16, Name and type index 83
+24: Tag 10 MethodRef Class index 16, Name and type index 84
+25: Tag 10 MethodRef Class index 16, Name and type index 85
+26: Tag 10 MethodRef Class index 16, Name and type index 86
+27: Tag 8 String Contents 87
+28: Tag 9 FieldRef Class index 88, Name and type index 89
+29: Tag 10 MethodRef Class index 16, Name and type index 90
+30: Tag 7 Class Name index 91
+31: Tag 1 Utf8 Value "INSTANCE"
+32: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/filters/RequestLimitHandler;"
+33: Tag 1 Utf8 Value "MAX_CONCURRENT_REQUESTS"
+34: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+35: Tag 1 Utf8 Value "QUEUE_SIZE"
+36: Tag 1 Utf8 Value "<init>"
+37: Tag 1 Utf8 Value "()V"
+38: Tag 1 Utf8 Value "Code"
+39: Tag 1 Utf8 Value "LineNumberTable"
+40: Tag 1 Utf8 Value "LocalVariableTable"
+41: Tag 1 Utf8 Value "this"
+42: Tag 1 Utf8 Value "getAttributes"
+43: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+44: Tag 1 Utf8 Value "Signature"
+45: Tag 1 Utf8 Value "()Ljava/util/Collection<Lorg/jboss/as/controller/AttributeDefinition;>;"
+46: Tag 1 Utf8 Value "getHandlerClass"
+47: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+48: Tag 1 Utf8 Value "()Ljava/lang/Class<+Lio/undertow/server/HttpHandler;>;"
+49: Tag 1 Utf8 Value "getConstructorSignature"
+50: Tag 1 Utf8 Value "()[Ljava/lang/Class;"
+51: Tag 1 Utf8 Value "createHttpHandler"
+52: Tag 1 Utf8 Value "(Lio/undertow/predicate/Predicate;Lorg/jboss/dmr/ModelNode;Lio/undertow/server/HttpHandler;)Lio/undertow/server/HttpHandler;"
+53: Tag 1 Utf8 Value "registerOperations"
+54: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+55: Tag 1 Utf8 Value "<clinit>"
+56: Tag 1 Utf8 Value "SourceFile"
+57: Tag 1 Utf8 Value "RequestLimitHandler.java"
+58: Tag 1 Utf8 Value "request-limit"
+59: Tag 12 NameAndType Name index 36, Description index 92
+60: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+61: Tag 12 NameAndType Name index 33, Description index 34
+62: Tag 12 NameAndType Name index 35, Description index 34
+63: Tag 7 Class Name index 93
+64: Tag 12 NameAndType Name index 94, Description index 95
+65: Tag 1 Utf8 Value "io/undertow/server/handlers/RequestLimitingHandler"
+66: Tag 1 Utf8 Value "java/lang/Class"
+67: Tag 7 Class Name index 96
+68: Tag 12 NameAndType Name index 97, Description index 98
+69: Tag 1 Utf8 Value "io/undertow/server/HttpHandler"
+70: Tag 12 NameAndType Name index 51, Description index 52
+71: Tag 12 NameAndType Name index 53, Description index 54
+72: Tag 1 Utf8 Value "org/wildfly/extension/undertow/filters/RequestLimitHandler"
+73: Tag 12 NameAndType Name index 36, Description index 37
+74: Tag 12 NameAndType Name index 31, Description index 32
+75: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+76: Tag 1 Utf8 Value "max-concurrent-requests"
+77: Tag 7 Class Name index 99
+78: Tag 12 NameAndType Name index 100, Description index 101
+79: Tag 12 NameAndType Name index 36, Description index 102
+80: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/IntRangeValidator"
+81: Tag 12 NameAndType Name index 36, Description index 103
+82: Tag 12 NameAndType Name index 104, Description index 105
+83: Tag 12 NameAndType Name index 106, Description index 107
+84: Tag 12 NameAndType Name index 108, Description index 107
+85: Tag 12 NameAndType Name index 109, Description index 110
+86: Tag 12 NameAndType Name index 111, Description index 112
+87: Tag 1 Utf8 Value "queue-size"
+88: Tag 7 Class Name index 113
+89: Tag 12 NameAndType Name index 114, Description index 115
+90: Tag 12 NameAndType Name index 116, Description index 117
+91: Tag 1 Utf8 Value "org/wildfly/extension/undertow/filters/Filter"
+92: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+93: Tag 1 Utf8 Value "java/util/Arrays"
+94: Tag 1 Utf8 Value "asList"
+95: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+96: Tag 1 Utf8 Value "java/lang/Integer"
+97: Tag 1 Utf8 Value "TYPE"
+98: Tag 1 Utf8 Value "Ljava/lang/Class;"
+99: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+100: Tag 1 Utf8 Value "INT"
+101: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+102: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;)V"
+103: Tag 1 Utf8 Value "(IZZ)V"
+104: Tag 1 Utf8 Value "setValidator"
+105: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/operations/validation/ParameterValidator;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+106: Tag 1 Utf8 Value "setAllowExpression"
+107: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+108: Tag 1 Utf8 Value "setRequired"
+109: Tag 1 Utf8 Value "setRestartAllServices"
+110: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+111: Tag 1 Utf8 Value "build"
+112: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+113: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+114: Tag 1 Utf8 Value "ZERO"
+115: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+116: Tag 1 Utf8 Value "setDefaultValue"
+117: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 13, name org.wildfly.extension.undertow.filters.RequestLimitHandler
+
+Super class: id 30, name org.wildfly.extension.undertow.filters.Filter
+
+No interfaces
+
+Field name INSTANCE (index 31), type Lorg/wildfly/extension/undertow/filters/RequestLimitHandler; (descriptor index 32)
+Human type: org.wildfly.extension.undertow.filters.RequestLimitHandler
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_CONCURRENT_REQUESTS (index 33), type Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 34)
+Human type: org.jboss.as.controller.AttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name QUEUE_SIZE (index 35), type Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 34)
+Human type: org.jboss.as.controller.AttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 36), type ()V (descriptor index 37)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 53
+Method name getAttributes (index 42), type ()Ljava/util/Collection; (descriptor index 43)
+Human type: (): java.util.Collection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method attribute name Signature, size 2
+Method name getHandlerClass (index 46), type ()Ljava/lang/Class; (descriptor index 47)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method attribute name Signature, size 2
+Method name getConstructorSignature (index 49), type ()[Ljava/lang/Class; (descriptor index 50)
+Human type: (): java.lang.Class[]
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 64
+Method name createHttpHandler (index 51), type (Lio/undertow/predicate/Predicate;Lorg/jboss/dmr/ModelNode;Lio/undertow/server/HttpHandler;)Lio/undertow/server/HttpHandler; (descriptor index 52)
+Human type: (io.undertow.predicate.Predicate, org.jboss.dmr.ModelNode, io.undertow.server.HttpHandler): io.undertow.server.HttpHandler
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 50
+Method name registerOperations (index 53), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 54)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name <clinit> (index 55), type ()V (descriptor index 37)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 208
+
+Class attribute name SourceFile, size 2

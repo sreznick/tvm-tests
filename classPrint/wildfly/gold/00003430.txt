@@ -1,0 +1,134 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 109
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/session/RecordableInactiveSessionStatistics"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 9 FieldRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/session/RecordableInactiveSessionStatisticsTestCase"
+14: Tag 1 Utf8 Value "statistics"
+15: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/session/RecordableInactiveSessionStatistics;"
+16: Tag 7 Class Name index 17
+17: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/ImmutableSessionMetaData"
+18: Tag 10 MethodRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 22, Description index 23
+21: Tag 1 Utf8 Value "org/mockito/Mockito"
+22: Tag 1 Utf8 Value "mock"
+23: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+24: Tag 10 MethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "java/time/Instant"
+28: Tag 1 Utf8 Value "now"
+29: Tag 1 Utf8 Value "()Ljava/time/Instant;"
+30: Tag 5 Long Value 20
+32: Tag 10 MethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "java/time/Duration"
+36: Tag 1 Utf8 Value "ofMinutes"
+37: Tag 1 Utf8 Value "(J)Ljava/time/Duration;"
+38: Tag 10 MethodRef Class index 25, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "minus"
+41: Tag 1 Utf8 Value "(Ljava/time/temporal/TemporalAmount;)Ljava/time/Instant;"
+42: Tag 11 InterfaceMethodRef Class index 16, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 45
+44: Tag 1 Utf8 Value "isExpired"
+45: Tag 1 Utf8 Value "()Z"
+46: Tag 10 MethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "java/lang/Boolean"
+50: Tag 1 Utf8 Value "valueOf"
+51: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+52: Tag 10 MethodRef Class index 19, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "when"
+55: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/mockito/stubbing/OngoingStubbing;"
+56: Tag 11 InterfaceMethodRef Class index 57, Name and type index 58
+57: Tag 7 Class Name index 59
+58: Tag 12 NameAndType Name index 60, Description index 55
+59: Tag 1 Utf8 Value "org/mockito/stubbing/OngoingStubbing"
+60: Tag 1 Utf8 Value "thenReturn"
+61: Tag 11 InterfaceMethodRef Class index 16, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 29
+63: Tag 1 Utf8 Value "getCreationTime"
+64: Tag 10 MethodRef Class index 7, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "record"
+67: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData;)V"
+68: Tag 10 MethodRef Class index 7, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "getExpiredSessionCount"
+71: Tag 1 Utf8 Value "()J"
+72: Tag 10 MethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "org/junit/Assert"
+76: Tag 1 Utf8 Value "assertEquals"
+77: Tag 1 Utf8 Value "(JJ)V"
+78: Tag 10 MethodRef Class index 7, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 81
+80: Tag 1 Utf8 Value "getMaxSessionLifetime"
+81: Tag 1 Utf8 Value "()Ljava/time/Duration;"
+82: Tag 10 MethodRef Class index 33, Name and type index 83
+83: Tag 12 NameAndType Name index 84, Description index 71
+84: Tag 1 Utf8 Value "toMinutes"
+85: Tag 10 MethodRef Class index 7, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 81
+87: Tag 1 Utf8 Value "getMeanSessionLifetime"
+88: Tag 5 Long Value 10
+90: Tag 5 Long Value 15
+92: Tag 10 MethodRef Class index 7, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 6
+94: Tag 1 Utf8 Value "reset"
+95: Tag 1 Utf8 Value "Code"
+96: Tag 1 Utf8 Value "LineNumberTable"
+97: Tag 1 Utf8 Value "LocalVariableTable"
+98: Tag 1 Utf8 Value "this"
+99: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/session/RecordableInactiveSessionStatisticsTestCase;"
+100: Tag 1 Utf8 Value "test"
+101: Tag 1 Utf8 Value "metaData"
+102: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/ImmutableSessionMetaData;"
+103: Tag 1 Utf8 Value "Ljava/time/Instant;"
+104: Tag 1 Utf8 Value "created"
+105: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+106: Tag 1 Utf8 Value "Lorg/junit/Test;"
+107: Tag 1 Utf8 Value "SourceFile"
+108: Tag 1 Utf8 Value "RecordableInactiveSessionStatisticsTestCase.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.wildfly.clustering.web.undertow.session.RecordableInactiveSessionStatisticsTestCase
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name statistics (index 14), type Lorg/wildfly/clustering/web/undertow/session/RecordableInactiveSessionStatistics; (descriptor index 15)
+Human type: org.wildfly.clustering.web.undertow.session.RecordableInactiveSessionStatistics
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name test (index 100), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 420
+Method attribute name RuntimeVisibleAnnotations, size 6
+
+Class attribute name SourceFile, size 2

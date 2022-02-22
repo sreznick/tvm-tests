@@ -1,0 +1,176 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 115
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldTransactionServices"
+11: Tag 1 Utf8 Value "jtsEnabled"
+12: Tag 1 Utf8 Value "Z"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "weldTransactionServicesConsumer"
+16: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/transaction/client/LocalUserTransaction"
+21: Tag 1 Utf8 Value "getInstance"
+22: Tag 1 Utf8 Value "()Lorg/wildfly/transaction/client/LocalUserTransaction;"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 21, Description index 27
+26: Tag 1 Utf8 Value "org/wildfly/transaction/client/ContextTransactionManager"
+27: Tag 1 Utf8 Value "()Lorg/wildfly/transaction/client/ContextTransactionManager;"
+28: Tag 10 MethodRef Class index 24, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "getStatus"
+31: Tag 1 Utf8 Value "()I"
+32: Tag 7 Class Name index 33
+33: Tag 1 Utf8 Value "javax/transaction/Status"
+34: Tag 7 Class Name index 35
+35: Tag 1 Utf8 Value "javax/transaction/SystemException"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "java/lang/RuntimeException"
+38: Tag 10 MethodRef Class index 36, Name and type index 39
+39: Tag 12 NameAndType Name index 5, Description index 40
+40: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/JTSSynchronizationWrapper"
+43: Tag 10 MethodRef Class index 41, Name and type index 44
+44: Tag 12 NameAndType Name index 5, Description index 45
+45: Tag 1 Utf8 Value "(Ljavax/transaction/Synchronization;)V"
+46: Tag 10 MethodRef Class index 24, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "getTransaction"
+49: Tag 1 Utf8 Value "()Lorg/wildfly/transaction/client/AbstractTransaction;"
+50: Tag 10 MethodRef Class index 51, Name and type index 52
+51: Tag 7 Class Name index 53
+52: Tag 12 NameAndType Name index 54, Description index 45
+53: Tag 1 Utf8 Value "org/wildfly/transaction/client/AbstractTransaction"
+54: Tag 1 Utf8 Value "registerSynchronization"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+57: Tag 7 Class Name index 58
+58: Tag 1 Utf8 Value "javax/transaction/RollbackException"
+59: Tag 11 InterfaceMethodRef Class index 60, Name and type index 61
+60: Tag 7 Class Name index 62
+61: Tag 12 NameAndType Name index 63, Description index 64
+62: Tag 1 Utf8 Value "java/util/function/Consumer"
+63: Tag 1 Utf8 Value "accept"
+64: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+65: Tag 9 FieldRef Class index 66, Name and type index 67
+66: Tag 7 Class Name index 68
+67: Tag 12 NameAndType Name index 69, Description index 70
+68: Tag 1 Utf8 Value "org/jboss/as/weld/ServiceNames"
+69: Tag 1 Utf8 Value "WELD_TRANSACTION_SERVICES_SERVICE_NAME"
+70: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+71: Tag 9 FieldRef Class index 8, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 70
+73: Tag 1 Utf8 Value "SERVICE_NAME"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "org/jboss/weld/transaction/spi/TransactionServices"
+76: Tag 7 Class Name index 77
+77: Tag 1 Utf8 Value "org/jboss/msc/Service"
+78: Tag 1 Utf8 Value "Signature"
+79: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/jboss/as/weld/services/bootstrap/WeldTransactionServices;>;"
+80: Tag 1 Utf8 Value "(ZLjava/util/function/Consumer;)V"
+81: Tag 1 Utf8 Value "Code"
+82: Tag 1 Utf8 Value "LineNumberTable"
+83: Tag 1 Utf8 Value "LocalVariableTable"
+84: Tag 1 Utf8 Value "this"
+85: Tag 1 Utf8 Value "Lorg/jboss/as/weld/services/bootstrap/WeldTransactionServices;"
+86: Tag 1 Utf8 Value "LocalVariableTypeTable"
+87: Tag 1 Utf8 Value "(ZLjava/util/function/Consumer<Lorg/jboss/as/weld/services/bootstrap/WeldTransactionServices;>;)V"
+88: Tag 1 Utf8 Value "getUserTransaction"
+89: Tag 1 Utf8 Value "()Ljavax/transaction/UserTransaction;"
+90: Tag 1 Utf8 Value "isTransactionActive"
+91: Tag 1 Utf8 Value "()Z"
+92: Tag 1 Utf8 Value "status"
+93: Tag 1 Utf8 Value "I"
+94: Tag 1 Utf8 Value "e"
+95: Tag 1 Utf8 Value "Ljavax/transaction/SystemException;"
+96: Tag 1 Utf8 Value "StackMapTable"
+97: Tag 1 Utf8 Value "cleanup"
+98: Tag 1 Utf8 Value "synchronization"
+99: Tag 1 Utf8 Value "Ljavax/transaction/Synchronization;"
+100: Tag 1 Utf8 Value "Ljava/lang/IllegalStateException;"
+101: Tag 1 Utf8 Value "Ljavax/transaction/RollbackException;"
+102: Tag 1 Utf8 Value "synchronizedObserver"
+103: Tag 7 Class Name index 104
+104: Tag 1 Utf8 Value "javax/transaction/Synchronization"
+105: Tag 1 Utf8 Value "start"
+106: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+107: Tag 1 Utf8 Value "context"
+108: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+109: Tag 1 Utf8 Value "stop"
+110: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+111: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+112: Tag 1 Utf8 Value "<clinit>"
+113: Tag 1 Utf8 Value "SourceFile"
+114: Tag 1 Utf8 Value "WeldTransactionServices.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.weld.services.bootstrap.WeldTransactionServices
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 74 76
+Implements names org.jboss.weld.transaction.spi.TransactionServices org.jboss.msc.Service
+
+Field name SERVICE_NAME (index 73), type Lorg/jboss/msc/service/ServiceName; (descriptor index 70)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name weldTransactionServicesConsumer (index 15), type Ljava/util/function/Consumer; (descriptor index 16)
+Human type: java.util.function.Consumer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name jtsEnabled (index 11), type Z (descriptor index 12)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (ZLjava/util/function/Consumer;)V (descriptor index 80)
+Human type: (boolean, java.util.function.Consumer): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 107
+Method attribute name Signature, size 2
+Method name getUserTransaction (index 88), type ()Ljavax/transaction/UserTransaction; (descriptor index 89)
+Human type: (): javax.transaction.UserTransaction
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 46
+Method name isTransactionActive (index 90), type ()Z (descriptor index 91)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 165
+Method name cleanup (index 97), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 43
+Method name registerSynchronization (index 54), type (Ljavax/transaction/Synchronization;)V (descriptor index 45)
+Human type: (javax.transaction.Synchronization): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 275
+Method name start (index 105), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 106)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name stop (index 109), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 110)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name <clinit> (index 112), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 31
+
+Class attribute name SourceFile, size 2

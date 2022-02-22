@@ -1,0 +1,152 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 108
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/CredentialSourceDependency$DependencyCollectingServiceBuilder"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 11 InterfaceMethodRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/Attribute"
+14: Tag 1 Utf8 Value "getDefinition"
+15: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+16: Tag 7 Class Name index 17
+17: Tag 1 Utf8 Value "org/jboss/as/controller/ObjectTypeAttributeDefinition"
+18: Tag 10 MethodRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 22, Description index 23
+21: Tag 1 Utf8 Value "org/jboss/as/controller/security/CredentialReference"
+22: Tag 1 Utf8 Value "getCredentialSourceSupplier"
+23: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/controller/ObjectTypeAttributeDefinition;Lorg/jboss/dmr/ModelNode;Lorg/jboss/msc/service/ServiceBuilder;)Lorg/wildfly/common/function/ExceptionSupplier;"
+24: Tag 9 FieldRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/CredentialSourceDependency"
+28: Tag 1 Utf8 Value "supplier"
+29: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionSupplier;"
+30: Tag 9 FieldRef Class index 25, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "dependencies"
+33: Tag 1 Utf8 Value "Ljava/lang/Iterable;"
+34: Tag 11 InterfaceMethodRef Class index 35, Name and type index 36
+35: Tag 7 Class Name index 37
+36: Tag 12 NameAndType Name index 38, Description index 39
+37: Tag 1 Utf8 Value "java/lang/Iterable"
+38: Tag 1 Utf8 Value "iterator"
+39: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+40: Tag 11 InterfaceMethodRef Class index 41, Name and type index 42
+41: Tag 7 Class Name index 43
+42: Tag 12 NameAndType Name index 44, Description index 45
+43: Tag 1 Utf8 Value "java/util/Iterator"
+44: Tag 1 Utf8 Value "hasNext"
+45: Tag 1 Utf8 Value "()Z"
+46: Tag 11 InterfaceMethodRef Class index 41, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 15
+48: Tag 1 Utf8 Value "next"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "org/wildfly/clustering/service/Dependency"
+51: Tag 11 InterfaceMethodRef Class index 49, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 54
+53: Tag 1 Utf8 Value "register"
+54: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder;"
+55: Tag 11 InterfaceMethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 15
+58: Tag 1 Utf8 Value "org/wildfly/common/function/ExceptionSupplier"
+59: Tag 1 Utf8 Value "get"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "org/wildfly/security/credential/source/CredentialSource"
+62: Tag 7 Class Name index 63
+63: Tag 1 Utf8 Value "java/lang/Exception"
+64: Tag 7 Class Name index 65
+65: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+66: Tag 10 MethodRef Class index 64, Name and type index 67
+67: Tag 12 NameAndType Name index 5, Description index 68
+68: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+69: Tag 10 MethodRef Class index 25, Name and type index 70
+70: Tag 12 NameAndType Name index 59, Description index 71
+71: Tag 1 Utf8 Value "()Lorg/wildfly/security/credential/source/CredentialSource;"
+72: Tag 7 Class Name index 73
+73: Tag 1 Utf8 Value "org/wildfly/clustering/service/SupplierDependency"
+74: Tag 1 Utf8 Value "Signature"
+75: Tag 1 Utf8 Value "Lorg/wildfly/common/function/ExceptionSupplier<Lorg/wildfly/security/credential/source/CredentialSource;Ljava/lang/Exception;>;"
+76: Tag 1 Utf8 Value "Ljava/lang/Iterable<Lorg/wildfly/clustering/service/Dependency;>;"
+77: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Attribute;Lorg/jboss/dmr/ModelNode;)V"
+78: Tag 1 Utf8 Value "Code"
+79: Tag 1 Utf8 Value "LineNumberTable"
+80: Tag 1 Utf8 Value "LocalVariableTable"
+81: Tag 1 Utf8 Value "this"
+82: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/CredentialSourceDependency;"
+83: Tag 1 Utf8 Value "context"
+84: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+85: Tag 1 Utf8 Value "attribute"
+86: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Attribute;"
+87: Tag 1 Utf8 Value "model"
+88: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+89: Tag 1 Utf8 Value "builder"
+90: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/CredentialSourceDependency$DependencyCollectingServiceBuilder;"
+91: Tag 1 Utf8 Value "Exceptions"
+92: Tag 7 Class Name index 93
+93: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+94: Tag 1 Utf8 Value "dependency"
+95: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/Dependency;"
+96: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+97: Tag 1 Utf8 Value "LocalVariableTypeTable"
+98: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<TT;>;"
+99: Tag 1 Utf8 Value "StackMapTable"
+100: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>(Lorg/jboss/msc/service/ServiceBuilder<TT;>;)Lorg/jboss/msc/service/ServiceBuilder<TT;>;"
+101: Tag 1 Utf8 Value "e"
+102: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+103: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/wildfly/clustering/service/SupplierDependency<Lorg/wildfly/security/credential/source/CredentialSource;>;"
+104: Tag 1 Utf8 Value "SourceFile"
+105: Tag 1 Utf8 Value "CredentialSourceDependency.java"
+106: Tag 1 Utf8 Value "InnerClasses"
+107: Tag 1 Utf8 Value "DependencyCollectingServiceBuilder"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 25, name org.jboss.as.clustering.controller.CredentialSourceDependency
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 72
+Implements names org.wildfly.clustering.service.SupplierDependency
+
+Field name supplier (index 28), type Lorg/wildfly/common/function/ExceptionSupplier; (descriptor index 29)
+Human type: org.wildfly.common.function.ExceptionSupplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name dependencies (index 32), type Ljava/lang/Iterable; (descriptor index 33)
+Human type: java.lang.Iterable
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Attribute;Lorg/jboss/dmr/ModelNode;)V (descriptor index 77)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.clustering.controller.Attribute, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 138
+Method attribute name Exceptions, size 4
+Method name register (index 53), type (Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 54)
+Human type: (org.jboss.msc.service.ServiceBuilder): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 151
+Method attribute name Signature, size 2
+Method name get (index 59), type ()Lorg/wildfly/security/credential/source/CredentialSource; (descriptor index 71)
+Human type: (): org.wildfly.security.credential.source.CredentialSource
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 103
+Method name get (index 59), type ()Ljava/lang/Object; (descriptor index 15)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

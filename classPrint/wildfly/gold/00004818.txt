@@ -1,0 +1,134 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 97
+1: Tag 10 MethodRef Class index 17, Name and type index 54
+2: Tag 9 FieldRef Class index 16, Name and type index 55
+3: Tag 9 FieldRef Class index 56, Name and type index 57
+4: Tag 9 FieldRef Class index 58, Name and type index 59
+5: Tag 10 MethodRef Class index 56, Name and type index 60
+6: Tag 11 InterfaceMethodRef Class index 61, Name and type index 62
+7: Tag 7 Class Name index 63
+8: Tag 7 Class Name index 64
+9: Tag 11 InterfaceMethodRef Class index 65, Name and type index 66
+10: Tag 10 MethodRef Class index 8, Name and type index 67
+11: Tag 10 MethodRef Class index 7, Name and type index 68
+12: Tag 11 InterfaceMethodRef Class index 46, Name and type index 69
+13: Tag 7 Class Name index 70
+14: Tag 7 Class Name index 71
+15: Tag 10 MethodRef Class index 16, Name and type index 72
+16: Tag 7 Class Name index 73
+17: Tag 7 Class Name index 74
+18: Tag 7 Class Name index 75
+19: Tag 1 Utf8 Value "executors"
+20: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry;"
+21: Tag 1 Utf8 Value "Signature"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry<Lorg/wildfly/clustering/infinispan/client/RemoteCacheContainer;>;"
+23: Tag 1 Utf8 Value "<init>"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry;)V"
+25: Tag 1 Utf8 Value "Code"
+26: Tag 1 Utf8 Value "LineNumberTable"
+27: Tag 1 Utf8 Value "LocalVariableTable"
+28: Tag 1 Utf8 Value "this"
+29: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/infinispan/subsystem/remote/RemoteCacheMetricExecutor;"
+30: Tag 1 Utf8 Value "LocalVariableTypeTable"
+31: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry<Lorg/wildfly/clustering/infinispan/client/RemoteCacheContainer;>;)V"
+32: Tag 1 Utf8 Value "execute"
+33: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Metric;)Lorg/jboss/dmr/ModelNode;"
+34: Tag 1 Utf8 Value "context"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+36: Tag 1 Utf8 Value "metric"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Metric;"
+38: Tag 1 Utf8 Value "name"
+39: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+40: Tag 1 Utf8 Value "executor"
+41: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/FunctionExecutor;"
+42: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/Metric<Lorg/infinispan/client/hotrod/jmx/RemoteCacheClientStatisticsMXBean;>;"
+43: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/FunctionExecutor<Lorg/wildfly/clustering/infinispan/client/RemoteCacheContainer;>;"
+44: Tag 1 Utf8 Value "StackMapTable"
+45: Tag 7 Class Name index 76
+46: Tag 7 Class Name index 77
+47: Tag 1 Utf8 Value "Exceptions"
+48: Tag 7 Class Name index 78
+49: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Metric<Lorg/infinispan/client/hotrod/jmx/RemoteCacheClientStatisticsMXBean;>;)Lorg/jboss/dmr/ModelNode;"
+50: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Executable;)Lorg/jboss/dmr/ModelNode;"
+51: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/as/clustering/controller/MetricExecutor<Lorg/infinispan/client/hotrod/jmx/RemoteCacheClientStatisticsMXBean;>;"
+52: Tag 1 Utf8 Value "SourceFile"
+53: Tag 1 Utf8 Value "RemoteCacheMetricExecutor.java"
+54: Tag 12 NameAndType Name index 23, Description index 79
+55: Tag 12 NameAndType Name index 19, Description index 20
+56: Tag 7 Class Name index 80
+57: Tag 12 NameAndType Name index 81, Description index 82
+58: Tag 7 Class Name index 83
+59: Tag 12 NameAndType Name index 84, Description index 85
+60: Tag 12 NameAndType Name index 86, Description index 87
+61: Tag 7 Class Name index 88
+62: Tag 12 NameAndType Name index 89, Description index 90
+63: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/MetricFunction"
+64: Tag 1 Utf8 Value "org/jboss/as/clustering/infinispan/subsystem/remote/RemoteCacheClientStatisticsFactory"
+65: Tag 7 Class Name index 91
+66: Tag 12 NameAndType Name index 92, Description index 93
+67: Tag 12 NameAndType Name index 23, Description index 94
+68: Tag 12 NameAndType Name index 23, Description index 95
+69: Tag 12 NameAndType Name index 32, Description index 96
+70: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+71: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/Metric"
+72: Tag 12 NameAndType Name index 32, Description index 33
+73: Tag 1 Utf8 Value "org/jboss/as/clustering/infinispan/subsystem/remote/RemoteCacheMetricExecutor"
+74: Tag 1 Utf8 Value "java/lang/Object"
+75: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/MetricExecutor"
+76: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+77: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/FunctionExecutor"
+78: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+79: Tag 1 Utf8 Value "()V"
+80: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/client/InfinispanClientRequirement"
+81: Tag 1 Utf8 Value "REMOTE_CONTAINER"
+82: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/client/InfinispanClientRequirement;"
+83: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/UnaryCapabilityNameResolver"
+84: Tag 1 Utf8 Value "PARENT"
+85: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/UnaryCapabilityNameResolver;"
+86: Tag 1 Utf8 Value "getServiceName"
+87: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/UnaryCapabilityNameResolver;)Lorg/jboss/msc/service/ServiceName;"
+88: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/FunctionExecutorRegistry"
+89: Tag 1 Utf8 Value "get"
+90: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/as/clustering/controller/FunctionExecutor;"
+91: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+92: Tag 1 Utf8 Value "getCurrentAddressValue"
+93: Tag 1 Utf8 Value "()Ljava/lang/String;"
+94: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+95: Tag 1 Utf8 Value "(Ljava/util/function/Function;Lorg/jboss/as/clustering/controller/Metric;)V"
+96: Tag 1 Utf8 Value "(Lorg/wildfly/common/function/ExceptionFunction;)Ljava/lang/Object;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 16, name org.jboss.as.clustering.infinispan.subsystem.remote.RemoteCacheMetricExecutor
+
+Super class: id 17, name java.lang.Object
+
+Implements class ids 18
+Implements names org.jboss.as.clustering.controller.MetricExecutor
+
+Field name executors (index 19), type Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry; (descriptor index 20)
+Human type: org.jboss.as.clustering.controller.FunctionExecutorRegistry
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 23), type (Lorg/jboss/as/clustering/controller/FunctionExecutorRegistry;)V (descriptor index 24)
+Human type: (org.jboss.as.clustering.controller.FunctionExecutorRegistry): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method attribute name Signature, size 2
+Method name execute (index 32), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Metric;)Lorg/jboss/dmr/ModelNode; (descriptor index 33)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.clustering.controller.Metric): org.jboss.dmr.ModelNode
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 203
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name execute (index 32), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/clustering/controller/Executable;)Lorg/jboss/dmr/ModelNode; (descriptor index 50)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.clustering.controller.Executable): org.jboss.dmr.ModelNode
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

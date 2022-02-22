@@ -1,0 +1,127 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 71
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/broadcast/ConcurrentBroadcastCommandDispatcherFactory$ConcurrentCommandDispatcher"
+11: Tag 1 Utf8 Value "dispatcher"
+12: Tag 1 Utf8 Value "Lorg/wildfly/clustering/dispatcher/CommandDispatcher;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "closeTask"
+16: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 6
+20: Tag 1 Utf8 Value "org/wildfly/clustering/dispatcher/CommandDispatcher"
+21: Tag 1 Utf8 Value "close"
+22: Tag 11 InterfaceMethodRef Class index 18, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "getContext"
+25: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+26: Tag 11 InterfaceMethodRef Class index 18, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "executeOnMember"
+29: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/dispatcher/Command;Lorg/wildfly/clustering/group/Node;)Ljava/util/concurrent/CompletionStage;"
+30: Tag 11 InterfaceMethodRef Class index 18, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "executeOnGroup"
+33: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/dispatcher/Command;[Lorg/wildfly/clustering/group/Node;)Ljava/util/Map;"
+34: Tag 11 InterfaceMethodRef Class index 35, Name and type index 36
+35: Tag 7 Class Name index 37
+36: Tag 12 NameAndType Name index 38, Description index 6
+37: Tag 1 Utf8 Value "java/lang/Runnable"
+38: Tag 1 Utf8 Value "run"
+39: Tag 1 Utf8 Value "Signature"
+40: Tag 1 Utf8 Value "Lorg/wildfly/clustering/dispatcher/CommandDispatcher<TC;>;"
+41: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/dispatcher/CommandDispatcher;Ljava/lang/Runnable;)V"
+42: Tag 1 Utf8 Value "Code"
+43: Tag 1 Utf8 Value "LineNumberTable"
+44: Tag 1 Utf8 Value "LocalVariableTable"
+45: Tag 1 Utf8 Value "this"
+46: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/broadcast/ConcurrentBroadcastCommandDispatcherFactory$ConcurrentCommandDispatcher;"
+47: Tag 1 Utf8 Value "LocalVariableTypeTable"
+48: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/broadcast/ConcurrentBroadcastCommandDispatcherFactory$ConcurrentCommandDispatcher<TC;>;"
+49: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/dispatcher/CommandDispatcher<TC;>;Ljava/lang/Runnable;)V"
+50: Tag 1 Utf8 Value "closeDispatcher"
+51: Tag 1 Utf8 Value "()TC;"
+52: Tag 1 Utf8 Value "command"
+53: Tag 1 Utf8 Value "Lorg/wildfly/clustering/dispatcher/Command;"
+54: Tag 1 Utf8 Value "member"
+55: Tag 1 Utf8 Value "Lorg/wildfly/clustering/group/Node;"
+56: Tag 1 Utf8 Value "Lorg/wildfly/clustering/dispatcher/Command<TR;-TC;>;"
+57: Tag 1 Utf8 Value "Exceptions"
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "org/wildfly/clustering/dispatcher/CommandDispatcherException"
+60: Tag 1 Utf8 Value "<R:Ljava/lang/Object;>(Lorg/wildfly/clustering/dispatcher/Command<TR;-TC;>;Lorg/wildfly/clustering/group/Node;)Ljava/util/concurrent/CompletionStage<TR;>;"
+61: Tag 1 Utf8 Value "excludedMembers"
+62: Tag 1 Utf8 Value "[Lorg/wildfly/clustering/group/Node;"
+63: Tag 1 Utf8 Value "<R:Ljava/lang/Object;>(Lorg/wildfly/clustering/dispatcher/Command<TR;-TC;>;[Lorg/wildfly/clustering/group/Node;)Ljava/util/Map<Lorg/wildfly/clustering/group/Node;Ljava/util/concurrent/CompletionStage<TR;>;>;"
+64: Tag 1 Utf8 Value "<C:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/dispatcher/CommandDispatcher<TC;>;"
+65: Tag 1 Utf8 Value "SourceFile"
+66: Tag 1 Utf8 Value "ConcurrentBroadcastCommandDispatcherFactory.java"
+67: Tag 1 Utf8 Value "InnerClasses"
+68: Tag 7 Class Name index 69
+69: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/broadcast/ConcurrentBroadcastCommandDispatcherFactory"
+70: Tag 1 Utf8 Value "ConcurrentCommandDispatcher"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 8, name org.wildfly.extension.messaging.activemq.broadcast.ConcurrentBroadcastCommandDispatcherFactory$ConcurrentCommandDispatcher
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 18
+Implements names org.wildfly.clustering.dispatcher.CommandDispatcher
+
+Field name dispatcher (index 11), type Lorg/wildfly/clustering/dispatcher/CommandDispatcher; (descriptor index 12)
+Human type: org.wildfly.clustering.dispatcher.CommandDispatcher
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name closeTask (index 15), type Ljava/lang/Runnable; (descriptor index 16)
+Human type: java.lang.Runnable
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/dispatcher/CommandDispatcher;Ljava/lang/Runnable;)V (descriptor index 41)
+Human type: (org.wildfly.clustering.dispatcher.CommandDispatcher, java.lang.Runnable): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 117
+Method attribute name Signature, size 2
+Method name closeDispatcher (index 50), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 74
+Method name getContext (index 24), type ()Ljava/lang/Object; (descriptor index 25)
+Human type: (): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method attribute name Signature, size 2
+Method name executeOnMember (index 28), type (Lorg/wildfly/clustering/dispatcher/Command;Lorg/wildfly/clustering/group/Node;)Ljava/util/concurrent/CompletionStage; (descriptor index 29)
+Human type: (org.wildfly.clustering.dispatcher.Command, org.wildfly.clustering.group.Node): java.util.concurrent.CompletionStage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 102
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name executeOnGroup (index 32), type (Lorg/wildfly/clustering/dispatcher/Command;[Lorg/wildfly/clustering/group/Node;)Ljava/util/Map; (descriptor index 33)
+Human type: (org.wildfly.clustering.dispatcher.Command, org.wildfly.clustering.group.Node[]): java.util.Map
+Flags: decimal 129, hex 0081, binary 0000000010000001 public varargs
+Method attribute name Code, size 102
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name close (index 21), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

@@ -1,0 +1,130 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 83
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "java/lang/Object"
+7: Tag 1 Utf8 Value "<init>"
+8: Tag 1 Utf8 Value "()V"
+9: Tag 9 FieldRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory$ClassLoaderSetupContextHandle"
+13: Tag 1 Utf8 Value "classLoader"
+14: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory$ClassLoaderResetContextHandle"
+17: Tag 10 MethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+21: Tag 1 Utf8 Value "getCurrentContextClassLoaderPrivileged"
+22: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+23: Tag 10 MethodRef Class index 15, Name and type index 24
+24: Tag 12 NameAndType Name index 7, Description index 25
+25: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;Lorg/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory$1;)V"
+26: Tag 10 MethodRef Class index 18, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "setCurrentContextClassLoaderPrivileged"
+29: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;"
+30: Tag 8 String Contents 31
+31: Tag 1 Utf8 Value "CLASSLOADER"
+32: Tag 9 FieldRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+36: Tag 1 Utf8 Value "ROOT_LOGGER"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+38: Tag 11 InterfaceMethodRef Class index 33, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "serializationMustBeHandledByTheFactory"
+41: Tag 1 Utf8 Value "()Ljava/io/IOException;"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/SetupContextHandle"
+44: Tag 1 Utf8 Value "serialVersionUID"
+45: Tag 1 Utf8 Value "J"
+46: Tag 1 Utf8 Value "ConstantValue"
+47: Tag 5 Long Value -2669625643479981561
+49: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)V"
+50: Tag 1 Utf8 Value "Code"
+51: Tag 1 Utf8 Value "LineNumberTable"
+52: Tag 1 Utf8 Value "LocalVariableTable"
+53: Tag 1 Utf8 Value "this"
+54: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory$ClassLoaderSetupContextHandle;"
+55: Tag 1 Utf8 Value "setup"
+56: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/concurrent/handle/ResetContextHandle;"
+57: Tag 1 Utf8 Value "resetContextHandle"
+58: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory$ClassLoaderResetContextHandle;"
+59: Tag 1 Utf8 Value "Exceptions"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+62: Tag 1 Utf8 Value "getFactoryName"
+63: Tag 1 Utf8 Value "()Ljava/lang/String;"
+64: Tag 1 Utf8 Value "writeObject"
+65: Tag 1 Utf8 Value "(Ljava/io/ObjectOutputStream;)V"
+66: Tag 1 Utf8 Value "out"
+67: Tag 1 Utf8 Value "Ljava/io/ObjectOutputStream;"
+68: Tag 7 Class Name index 69
+69: Tag 1 Utf8 Value "java/io/IOException"
+70: Tag 1 Utf8 Value "readObject"
+71: Tag 1 Utf8 Value "(Ljava/io/ObjectInputStream;)V"
+72: Tag 1 Utf8 Value "in"
+73: Tag 1 Utf8 Value "Ljava/io/ObjectInputStream;"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+76: Tag 1 Utf8 Value "SourceFile"
+77: Tag 1 Utf8 Value "ClassLoaderContextHandleFactory.java"
+78: Tag 1 Utf8 Value "InnerClasses"
+79: Tag 1 Utf8 Value "ClassLoaderSetupContextHandle"
+80: Tag 1 Utf8 Value "ClassLoaderResetContextHandle"
+81: Tag 7 Class Name index 82
+82: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/handle/ClassLoaderContextHandleFactory$1"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 10, name org.jboss.as.ee.concurrent.handle.ClassLoaderContextHandleFactory$ClassLoaderSetupContextHandle
+
+Super class: id 4, name java.lang.Object
+
+Implements class ids 42
+Implements names org.jboss.as.ee.concurrent.handle.SetupContextHandle
+
+Field name serialVersionUID (index 44), type J (descriptor index 45)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name classLoader (index 13), type Ljava/lang/ClassLoader; (descriptor index 14)
+Human type: java.lang.ClassLoader
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 7), type (Ljava/lang/ClassLoader;)V (descriptor index 49)
+Human type: (java.lang.ClassLoader): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 70
+Method name setup (index 55), type ()Lorg/jboss/as/ee/concurrent/handle/ResetContextHandle; (descriptor index 56)
+Human type: (): org.jboss.as.ee.concurrent.handle.ResetContextHandle
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 82
+Method attribute name Exceptions, size 4
+Method name getFactoryName (index 62), type ()Ljava/lang/String; (descriptor index 63)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method name writeObject (index 64), type (Ljava/io/ObjectOutputStream;)V (descriptor index 65)
+Human type: (java.io.ObjectOutputStream): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 61
+Method attribute name Exceptions, size 4
+Method name readObject (index 70), type (Ljava/io/ObjectInputStream;)V (descriptor index 71)
+Human type: (java.io.ObjectInputStream): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 61
+Method attribute name Exceptions, size 6
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

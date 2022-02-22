@@ -1,0 +1,309 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 149
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/QueueControlHandler$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/QueueControlHandler;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$control"
+10: Tag 1 Utf8 Value "Lorg/apache/activemq/artemis/api/core/management/QueueControl;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "java/lang/Object"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "()V"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/management/QueueControl"
+21: Tag 1 Utf8 Value "listMessagesAsJSON"
+22: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+23: Tag 11 InterfaceMethodRef Class index 18, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "countMessages"
+26: Tag 1 Utf8 Value "(Ljava/lang/String;)J"
+27: Tag 10 MethodRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+31: Tag 1 Utf8 Value "asLong"
+32: Tag 1 Utf8 Value "()J"
+33: Tag 11 InterfaceMethodRef Class index 18, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "removeMessage"
+36: Tag 1 Utf8 Value "(J)Z"
+37: Tag 11 InterfaceMethodRef Class index 18, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "removeMessages"
+40: Tag 1 Utf8 Value "(Ljava/lang/String;)I"
+41: Tag 11 InterfaceMethodRef Class index 18, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 40
+43: Tag 1 Utf8 Value "expireMessages"
+44: Tag 11 InterfaceMethodRef Class index 18, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 36
+46: Tag 1 Utf8 Value "expireMessage"
+47: Tag 11 InterfaceMethodRef Class index 18, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 36
+49: Tag 1 Utf8 Value "sendMessageToDeadLetterAddress"
+50: Tag 11 InterfaceMethodRef Class index 18, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 40
+52: Tag 1 Utf8 Value "sendMessagesToDeadLetterAddress"
+53: Tag 11 InterfaceMethodRef Class index 18, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "changeMessagePriority"
+56: Tag 1 Utf8 Value "(JI)Z"
+57: Tag 11 InterfaceMethodRef Class index 18, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "changeMessagesPriority"
+60: Tag 1 Utf8 Value "(Ljava/lang/String;I)I"
+61: Tag 11 InterfaceMethodRef Class index 18, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "moveMessage"
+64: Tag 1 Utf8 Value "(JLjava/lang/String;)Z"
+65: Tag 11 InterfaceMethodRef Class index 18, Name and type index 66
+66: Tag 12 NameAndType Name index 63, Description index 67
+67: Tag 1 Utf8 Value "(JLjava/lang/String;Z)Z"
+68: Tag 11 InterfaceMethodRef Class index 18, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "moveMessages"
+71: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)I"
+72: Tag 11 InterfaceMethodRef Class index 18, Name and type index 73
+73: Tag 12 NameAndType Name index 70, Description index 74
+74: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Z)I"
+75: Tag 11 InterfaceMethodRef Class index 18, Name and type index 76
+76: Tag 12 NameAndType Name index 77, Description index 78
+77: Tag 1 Utf8 Value "listMessageCounter"
+78: Tag 1 Utf8 Value "()Ljava/lang/String;"
+79: Tag 11 InterfaceMethodRef Class index 18, Name and type index 80
+80: Tag 12 NameAndType Name index 81, Description index 16
+81: Tag 1 Utf8 Value "resetMessageCounter"
+82: Tag 11 InterfaceMethodRef Class index 18, Name and type index 83
+83: Tag 12 NameAndType Name index 84, Description index 78
+84: Tag 1 Utf8 Value "listMessageCounterAsHTML"
+85: Tag 11 InterfaceMethodRef Class index 18, Name and type index 86
+86: Tag 12 NameAndType Name index 87, Description index 78
+87: Tag 1 Utf8 Value "listMessageCounterHistory"
+88: Tag 11 InterfaceMethodRef Class index 18, Name and type index 89
+89: Tag 12 NameAndType Name index 90, Description index 78
+90: Tag 1 Utf8 Value "listMessageCounterHistoryAsHTML"
+91: Tag 11 InterfaceMethodRef Class index 18, Name and type index 92
+92: Tag 12 NameAndType Name index 93, Description index 16
+93: Tag 1 Utf8 Value "pause"
+94: Tag 11 InterfaceMethodRef Class index 18, Name and type index 95
+95: Tag 12 NameAndType Name index 96, Description index 16
+96: Tag 1 Utf8 Value "resume"
+97: Tag 11 InterfaceMethodRef Class index 18, Name and type index 98
+98: Tag 12 NameAndType Name index 99, Description index 78
+99: Tag 1 Utf8 Value "listConsumersAsJSON"
+100: Tag 11 InterfaceMethodRef Class index 18, Name and type index 101
+101: Tag 12 NameAndType Name index 102, Description index 78
+102: Tag 1 Utf8 Value "listScheduledMessagesAsJSON"
+103: Tag 11 InterfaceMethodRef Class index 18, Name and type index 104
+104: Tag 12 NameAndType Name index 105, Description index 78
+105: Tag 1 Utf8 Value "listDeliveringMessagesAsJSON"
+106: Tag 10 MethodRef Class index 2, Name and type index 107
+107: Tag 12 NameAndType Name index 108, Description index 109
+108: Tag 1 Utf8 Value "getDelegate"
+109: Tag 1 Utf8 Value "()Lorg/apache/activemq/artemis/api/core/management/QueueControl;"
+110: Tag 7 Class Name index 111
+111: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AbstractQueueControlHandler$DelegatingQueueControl"
+112: Tag 1 Utf8 Value "(Lorg/wildfly/extension/messaging/activemq/QueueControlHandler;Lorg/apache/activemq/artemis/api/core/management/QueueControl;)V"
+113: Tag 1 Utf8 Value "Code"
+114: Tag 1 Utf8 Value "LineNumberTable"
+115: Tag 1 Utf8 Value "LocalVariableTable"
+116: Tag 1 Utf8 Value "this"
+117: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/QueueControlHandler$1;"
+118: Tag 1 Utf8 Value "Signature"
+119: Tag 1 Utf8 Value "filter"
+120: Tag 1 Utf8 Value "Ljava/lang/String;"
+121: Tag 1 Utf8 Value "Exceptions"
+122: Tag 7 Class Name index 123
+123: Tag 1 Utf8 Value "java/lang/Exception"
+124: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Z"
+125: Tag 1 Utf8 Value "id"
+126: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+127: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;I)Z"
+128: Tag 1 Utf8 Value "priority"
+129: Tag 1 Utf8 Value "I"
+130: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Ljava/lang/String;)Z"
+131: Tag 1 Utf8 Value "otherQueue"
+132: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Z)Z"
+133: Tag 1 Utf8 Value "rejectDuplicates"
+134: Tag 1 Utf8 Value "Z"
+135: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+136: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/wildfly/extension/messaging/activemq/AbstractQueueControlHandler$DelegatingQueueControl<Lorg/apache/activemq/artemis/api/core/management/QueueControl;>;"
+137: Tag 1 Utf8 Value "SourceFile"
+138: Tag 1 Utf8 Value "QueueControlHandler.java"
+139: Tag 1 Utf8 Value "EnclosingMethod"
+140: Tag 7 Class Name index 141
+141: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/QueueControlHandler"
+142: Tag 12 NameAndType Name index 143, Description index 144
+143: Tag 1 Utf8 Value "getQueueControl"
+144: Tag 1 Utf8 Value "(Lorg/apache/activemq/artemis/core/server/ActiveMQServer;Ljava/lang/String;)Lorg/wildfly/extension/messaging/activemq/AbstractQueueControlHandler$DelegatingQueueControl;"
+145: Tag 1 Utf8 Value "InnerClasses"
+146: Tag 7 Class Name index 147
+147: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/AbstractQueueControlHandler"
+148: Tag 1 Utf8 Value "DelegatingQueueControl"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.messaging.activemq.QueueControlHandler$1
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 110
+Implements names org.wildfly.extension.messaging.activemq.AbstractQueueControlHandler$DelegatingQueueControl
+
+Field name val$control (index 9), type Lorg/apache/activemq/artemis/api/core/management/QueueControl; (descriptor index 10)
+Human type: org.apache.activemq.artemis.api.core.management.QueueControl
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/extension/messaging/activemq/QueueControlHandler; (descriptor index 6)
+Human type: org.wildfly.extension.messaging.activemq.QueueControlHandler
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 15), type (Lorg/wildfly/extension/messaging/activemq/QueueControlHandler;Lorg/apache/activemq/artemis/api/core/management/QueueControl;)V (descriptor index 112)
+Human type: (org.wildfly.extension.messaging.activemq.QueueControlHandler, org.apache.activemq.artemis.api.core.management.QueueControl): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 67
+Method attribute name Signature, size 2
+Method name getDelegate (index 108), type ()Lorg/apache/activemq/artemis/api/core/management/QueueControl; (descriptor index 109)
+Human type: (): org.apache.activemq.artemis.api.core.management.QueueControl
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name listMessagesAsJSON (index 21), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 22)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Exceptions, size 4
+Method name countMessages (index 25), type (Ljava/lang/String;)J (descriptor index 26)
+Human type: (java.lang.String): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Exceptions, size 4
+Method name removeMessage (index 35), type (Lorg/jboss/dmr/ModelNode;)Z (descriptor index 124)
+Human type: (org.jboss.dmr.ModelNode): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+Method attribute name Exceptions, size 4
+Method name removeMessages (index 39), type (Ljava/lang/String;)I (descriptor index 40)
+Human type: (java.lang.String): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Exceptions, size 4
+Method name expireMessages (index 43), type (Ljava/lang/String;)I (descriptor index 40)
+Human type: (java.lang.String): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Exceptions, size 4
+Method name expireMessage (index 46), type (Lorg/jboss/dmr/ModelNode;)Z (descriptor index 124)
+Human type: (org.jboss.dmr.ModelNode): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+Method attribute name Exceptions, size 4
+Method name sendMessageToDeadLetterAddress (index 49), type (Lorg/jboss/dmr/ModelNode;)Z (descriptor index 124)
+Human type: (org.jboss.dmr.ModelNode): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+Method attribute name Exceptions, size 4
+Method name sendMessagesToDeadLetterAddress (index 52), type (Ljava/lang/String;)I (descriptor index 40)
+Human type: (java.lang.String): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Exceptions, size 4
+Method name changeMessagePriority (index 55), type (Lorg/jboss/dmr/ModelNode;I)Z (descriptor index 127)
+Human type: (org.jboss.dmr.ModelNode, int): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 77
+Method attribute name Exceptions, size 4
+Method name changeMessagesPriority (index 59), type (Ljava/lang/String;I)I (descriptor index 60)
+Human type: (java.lang.String, int): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method attribute name Exceptions, size 4
+Method name moveMessage (index 63), type (Lorg/jboss/dmr/ModelNode;Ljava/lang/String;)Z (descriptor index 130)
+Human type: (org.jboss.dmr.ModelNode, java.lang.String): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 77
+Method attribute name Exceptions, size 4
+Method name moveMessage (index 63), type (Lorg/jboss/dmr/ModelNode;Ljava/lang/String;Z)Z (descriptor index 132)
+Human type: (org.jboss.dmr.ModelNode, java.lang.String, boolean): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 88
+Method attribute name Exceptions, size 4
+Method name moveMessages (index 70), type (Ljava/lang/String;Ljava/lang/String;)I (descriptor index 71)
+Human type: (java.lang.String, java.lang.String): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method attribute name Exceptions, size 4
+Method name moveMessages (index 70), type (Ljava/lang/String;Ljava/lang/String;Z)I (descriptor index 74)
+Human type: (java.lang.String, java.lang.String, boolean): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 85
+Method attribute name Exceptions, size 4
+Method name listMessageCounter (index 77), type ()Ljava/lang/String; (descriptor index 78)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name resetMessageCounter (index 81), type ()V (descriptor index 16)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 56
+Method attribute name Exceptions, size 4
+Method name listMessageCounterAsHTML (index 84), type ()Ljava/lang/String; (descriptor index 78)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name listMessageCounterHistory (index 87), type ()Ljava/lang/String; (descriptor index 78)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name listMessageCounterHistoryAsHTML (index 90), type ()Ljava/lang/String; (descriptor index 78)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name pause (index 93), type ()V (descriptor index 16)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 56
+Method attribute name Exceptions, size 4
+Method name resume (index 96), type ()V (descriptor index 16)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 56
+Method attribute name Exceptions, size 4
+Method name listConsumersAsJSON (index 99), type ()Ljava/lang/String; (descriptor index 78)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name listScheduledMessagesAsJSON (index 102), type ()Ljava/lang/String; (descriptor index 78)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name listDeliveringMessagesAsJSON (index 105), type ()Ljava/lang/String; (descriptor index 78)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name getDelegate (index 108), type ()Ljava/lang/Object; (descriptor index 135)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 18

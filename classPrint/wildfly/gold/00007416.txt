@@ -1,0 +1,125 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 85
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailSessionDefinitionInjectionSource$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/MailSessionDefinitionInjectionSource;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$jndiName"
+10: Tag 1 Utf8 Value "Ljava/lang/String;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "java/lang/Object"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "()V"
+17: Tag 9 FieldRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailSessionDefinitionInjectionSource$2"
+21: Tag 1 Utf8 Value "$SwitchMap$org$jboss$msc$service$LifecycleEvent"
+22: Tag 1 Utf8 Value "[I"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/jboss/msc/service/LifecycleEvent"
+27: Tag 1 Utf8 Value "ordinal"
+28: Tag 1 Utf8 Value "()I"
+29: Tag 9 FieldRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailLogger"
+33: Tag 1 Utf8 Value "ROOT_LOGGER"
+34: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/MailLogger;"
+35: Tag 11 InterfaceMethodRef Class index 30, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "boundMailSession"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+39: Tag 9 FieldRef Class index 2, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "bound"
+42: Tag 1 Utf8 Value "Z"
+43: Tag 11 InterfaceMethodRef Class index 30, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 38
+45: Tag 1 Utf8 Value "unboundMailSession"
+46: Tag 8 String Contents 47
+47: Tag 1 Utf8 Value "Removed Mail Session [%s]"
+48: Tag 11 InterfaceMethodRef Class index 30, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "debugf"
+51: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+52: Tag 7 Class Name index 53
+53: Tag 1 Utf8 Value "org/jboss/msc/service/LifecycleListener"
+54: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/MailSessionDefinitionInjectionSource;Ljava/lang/String;)V"
+55: Tag 1 Utf8 Value "Code"
+56: Tag 1 Utf8 Value "LineNumberTable"
+57: Tag 1 Utf8 Value "LocalVariableTable"
+58: Tag 1 Utf8 Value "this"
+59: Tag 1 Utf8 Value "Lorg/jboss/as/mail/extension/MailSessionDefinitionInjectionSource$1;"
+60: Tag 1 Utf8 Value "Signature"
+61: Tag 1 Utf8 Value "handleEvent"
+62: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController;Lorg/jboss/msc/service/LifecycleEvent;)V"
+63: Tag 1 Utf8 Value "controller"
+64: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+65: Tag 1 Utf8 Value "event"
+66: Tag 1 Utf8 Value "Lorg/jboss/msc/service/LifecycleEvent;"
+67: Tag 1 Utf8 Value "LocalVariableTypeTable"
+68: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+69: Tag 1 Utf8 Value "StackMapTable"
+70: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController<*>;Lorg/jboss/msc/service/LifecycleEvent;)V"
+71: Tag 1 Utf8 Value "SourceFile"
+72: Tag 1 Utf8 Value "MailSessionDefinitionInjectionSource.java"
+73: Tag 1 Utf8 Value "EnclosingMethod"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "org/jboss/as/mail/extension/MailSessionDefinitionInjectionSource"
+76: Tag 12 NameAndType Name index 77, Description index 78
+77: Tag 1 Utf8 Value "startMailSession"
+78: Tag 1 Utf8 Value "(Lorg/jboss/as/mail/extension/MailSessionService;Ljava/lang/String;Lorg/jboss/as/ee/component/EEModuleDescription;Lorg/jboss/as/ee/component/InjectionSource$ResolutionContext;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/inject/Injector;)V"
+79: Tag 1 Utf8 Value "InnerClasses"
+80: Tag 7 Class Name index 81
+81: Tag 1 Utf8 Value "org/jboss/as/ee/component/InjectionSource$ResolutionContext"
+82: Tag 7 Class Name index 83
+83: Tag 1 Utf8 Value "org/jboss/as/ee/component/InjectionSource"
+84: Tag 1 Utf8 Value "ResolutionContext"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.jboss.as.mail.extension.MailSessionDefinitionInjectionSource$1
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 52
+Implements names org.jboss.msc.service.LifecycleListener
+
+Field name bound (index 41), type Z (descriptor index 42)
+Human type: boolean
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name val$jndiName (index 9), type Ljava/lang/String; (descriptor index 10)
+Human type: java.lang.String
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/jboss/as/mail/extension/MailSessionDefinitionInjectionSource; (descriptor index 6)
+Human type: org.jboss.as.mail.extension.MailSessionDefinitionInjectionSource
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 15), type (Lorg/jboss/as/mail/extension/MailSessionDefinitionInjectionSource;Ljava/lang/String;)V (descriptor index 54)
+Human type: (org.jboss.as.mail.extension.MailSessionDefinitionInjectionSource, java.lang.String): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 67
+Method attribute name Signature, size 2
+Method name handleEvent (index 61), type (Lorg/jboss/msc/service/ServiceController;Lorg/jboss/msc/service/LifecycleEvent;)V (descriptor index 62)
+Human type: (org.jboss.msc.service.ServiceController, org.jboss.msc.service.LifecycleEvent): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 213
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 26

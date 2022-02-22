@@ -1,0 +1,484 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 239
+1: Tag 7 Class Name index 226
+2: Tag 8 String Contents 227
+3: Tag 10 MethodRef Class index 228, Name and type index 229
+4: Tag 9 FieldRef Class index 1, Name and type index 230
+5: Tag 8 String Contents 231
+6: Tag 9 FieldRef Class index 1, Name and type index 232
+7: Tag 7 Class Name index 233
+8: Tag 7 Class Name index 234
+9: Tag 1 Utf8 Value "ROOT_LOGGER"
+10: Tag 1 Utf8 Value "Lorg/jboss/as/weld/logging/WeldLogger;"
+11: Tag 1 Utf8 Value "DEPLOYMENT_LOGGER"
+12: Tag 1 Utf8 Value "failedToSetupWeldContexts"
+13: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+14: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+15: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+16: Tag 1 Utf8 Value "level"
+17: Tag 7 Class Name index 235
+18: Tag 1 Utf8 Value "Level"
+19: Tag 1 Utf8 Value "InnerClasses"
+20: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+21: Tag 1 Utf8 Value "ERROR"
+22: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+23: Tag 1 Utf8 Value "id"
+24: Tag 3 Integer Value 1, hex: 0x1
+25: Tag 1 Utf8 Value "value"
+26: Tag 1 Utf8 Value "Failed to setup Weld contexts"
+27: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+28: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+29: Tag 1 Utf8 Value "failedToTearDownWeldContexts"
+30: Tag 3 Integer Value 2, hex: 0x2
+31: Tag 1 Utf8 Value "Failed to tear down Weld contexts"
+32: Tag 1 Utf8 Value "processingWeldDeployment"
+33: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+34: Tag 1 Utf8 Value "INFO"
+35: Tag 3 Integer Value 3, hex: 0x3
+36: Tag 1 Utf8 Value "Processing weld deployment %s"
+37: Tag 1 Utf8 Value "couldNotFindBeanManagerForDeployment"
+38: Tag 3 Integer Value 5, hex: 0x5
+39: Tag 1 Utf8 Value "Could not find BeanManager for deployment %s"
+40: Tag 1 Utf8 Value "startingServicesForCDIDeployment"
+41: Tag 1 Utf8 Value "DEBUG"
+42: Tag 3 Integer Value 6, hex: 0x6
+43: Tag 1 Utf8 Value "Starting Services for Jakarta Contexts and Dependency Injection deployment: %s"
+44: Tag 1 Utf8 Value "couldNotLoadPortableExceptionClass"
+45: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)V"
+46: Tag 1 Utf8 Value "WARN"
+47: Tag 3 Integer Value 7, hex: 0x7
+48: Tag 1 Utf8 Value "Could not load portable extension class %s"
+49: Tag 1 Utf8 Value "injectionTypeNotValue"
+50: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/reflect/Member;)V"
+51: Tag 3 Integer Value 8, hex: 0x8
+52: Tag 1 Utf8 Value "@Resource injection of type %s is not supported for non-Jakarta Enterprise Beans components. Injection point: %s"
+53: Tag 1 Utf8 Value "startingWeldService"
+54: Tag 3 Integer Value 9, hex: 0x9
+55: Tag 1 Utf8 Value "Starting weld service for deployment %s"
+56: Tag 1 Utf8 Value "stoppingWeldService"
+57: Tag 3 Integer Value 10, hex: 0xa
+58: Tag 1 Utf8 Value "Stopping weld service for deployment %s"
+59: Tag 1 Utf8 Value "beansXmlValidationWarning"
+60: Tag 1 Utf8 Value "(Ljava/net/URL;ILjava/lang/String;)V"
+61: Tag 3 Integer Value 11, hex: 0xb
+62: Tag 1 Utf8 Value "Warning while parsing %s:%s %s"
+63: Tag 1 Utf8 Value "beansXmlValidationError"
+64: Tag 3 Integer Value 12, hex: 0xc
+65: Tag 1 Utf8 Value "cdiAnnotationsButNotBeanArchive"
+66: Tag 3 Integer Value 13, hex: 0xd
+67: Tag 1 Utf8 Value "Deployment %s contains Jakarta Contexts and Dependency Injection annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present)."
+68: Tag 1 Utf8 Value "exceptionClearingThreadState"
+69: Tag 1 Utf8 Value "(Ljava/lang/Exception;)V"
+70: Tag 3 Integer Value 14, hex: 0xe
+71: Tag 1 Utf8 Value "Exception tearing down thread state"
+72: Tag 1 Utf8 Value "couldNotReadEntries"
+73: Tag 1 Utf8 Value "(Ljava/io/IOException;)V"
+74: Tag 3 Integer Value 16, hex: 0x10
+75: Tag 1 Utf8 Value "Could not read entries"
+76: Tag 1 Utf8 Value "doNotUnderstandProtocol"
+77: Tag 1 Utf8 Value "(Ljava/net/URL;)V"
+78: Tag 3 Integer Value 17, hex: 0x11
+79: Tag 1 Utf8 Value "URL scanner does not understand the URL protocol %s, Jakarta Contexts and Dependency Injection beans will not be scanned."
+80: Tag 1 Utf8 Value "duplicateBeansXml"
+81: Tag 1 Utf8 Value "()V"
+82: Tag 3 Integer Value 18, hex: 0x12
+83: Tag 1 Utf8 Value "Found both WEB-INF/beans.xml and WEB-INF/classes/META-INF/beans.xml. It is not portable to use both locations at the same time. Weld is going to use the former location for this deployment."
+84: Tag 1 Utf8 Value "couldNotGetBeansXmlAsURL"
+85: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+86: Tag 3 Integer Value 19, hex: 0x13
+87: Tag 1 Utf8 Value "Could get beans.xml file as URL when processing file: %s"
+88: Tag 1 Utf8 Value "couldNotLoadInterceptorClass"
+89: Tag 3 Integer Value 20, hex: 0x14
+90: Tag 1 Utf8 Value "Could not load interceptor class : %s"
+91: Tag 1 Utf8 Value "extensionDoesNotImplementExtension"
+92: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+93: Tag 1 Utf8 Value "Signature"
+94: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException;"
+95: Tag 3 Integer Value 21, hex: 0x15
+96: Tag 1 Utf8 Value "Service %s didn't implement the jakarta.enterprise.inject.spi.Extension interface"
+97: Tag 1 Utf8 Value "viewNotFoundOnEJB"
+98: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+99: Tag 3 Integer Value 22, hex: 0x16
+100: Tag 1 Utf8 Value "View of type %s not found on Jakarta Enterprise Beans %s"
+101: Tag 1 Utf8 Value "unknownInterceptorClassForCDIInjection"
+102: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/IllegalArgumentException;"
+103: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;)Ljava/lang/IllegalArgumentException;"
+104: Tag 3 Integer Value 30, hex: 0x1e
+105: Tag 1 Utf8 Value "Unknown interceptor class for Jakarta Contexts and Dependency Injection %s"
+106: Tag 1 Utf8 Value "parameterCannotBeNull"
+107: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+108: Tag 3 Integer Value 31, hex: 0x1f
+109: Tag 1 Utf8 Value "%s cannot be null"
+110: Tag 1 Utf8 Value "injectionPointNotAJavabean"
+111: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;)Ljava/lang/IllegalArgumentException;"
+112: Tag 3 Integer Value 32, hex: 0x20
+113: Tag 1 Utf8 Value "Injection point represents a method which doesn't follow JavaBean conventions (must have exactly one parameter) %s"
+114: Tag 1 Utf8 Value "annotationNotFound"
+115: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/reflect/Member;)Ljava/lang/IllegalArgumentException;"
+116: Tag 1 Utf8 Value "(Ljava/lang/Class<+Ljava/lang/annotation/Annotation;>;Ljava/lang/reflect/Member;)Ljava/lang/IllegalArgumentException;"
+117: Tag 3 Integer Value 33, hex: 0x21
+118: Tag 1 Utf8 Value "%s annotation not found on %s"
+119: Tag 1 Utf8 Value "ejbNotResolved"
+120: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Member;)Ljava/lang/IllegalStateException;"
+121: Tag 3 Integer Value 34, hex: 0x22
+122: Tag 1 Utf8 Value "Could not resolve @EJB injection for %s on %s"
+123: Tag 1 Utf8 Value "moreThanOneEjbResolved"
+124: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Member;Ljava/util/Set;)Ljava/lang/IllegalStateException;"
+125: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Member;Ljava/util/Set<Lorg/jboss/as/ee/component/ViewDescription;>;)Ljava/lang/IllegalStateException;"
+126: Tag 3 Integer Value 35, hex: 0x23
+127: Tag 1 Utf8 Value "Resolved more than one Jakarta Enterprise Beans for @EJB injection of %s on %s. Found %s"
+128: Tag 1 Utf8 Value "couldNotDetermineUnderlyingType"
+129: Tag 1 Utf8 Value "(Ljava/lang/reflect/Type;)Ljava/lang/IllegalArgumentException;"
+130: Tag 3 Integer Value 36, hex: 0x24
+131: Tag 1 Utf8 Value "Could not determine bean class from injection point type of %s"
+132: Tag 1 Utf8 Value "couldNotFindPersistenceUnit"
+133: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Member;)Ljava/lang/IllegalArgumentException;"
+134: Tag 3 Integer Value 37, hex: 0x25
+135: Tag 1 Utf8 Value "Error injecting persistence unit into Jakarta Contexts and Dependency Injection managed bean. Can't find a persistence unit named '%s' in deployment %s for injection point %s"
+136: Tag 1 Utf8 Value "securityNotEnabled"
+137: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+138: Tag 3 Integer Value 38, hex: 0x26
+139: Tag 1 Utf8 Value "Could not inject SecurityManager, security is not enabled"
+140: Tag 1 Utf8 Value "singletonNotSet"
+141: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Ljava/lang/IllegalStateException;"
+142: Tag 3 Integer Value 39, hex: 0x27
+143: Tag 1 Utf8 Value "Singleton not set for %s. This means that you are trying to access a weld deployment with a Thread Context ClassLoader that is not associated with the deployment."
+144: Tag 1 Utf8 Value "alreadyRunning"
+145: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+146: Tag 3 Integer Value 40, hex: 0x28
+147: Tag 1 Utf8 Value "%s is already running"
+148: Tag 1 Utf8 Value "notStarted"
+149: Tag 3 Integer Value 41, hex: 0x29
+150: Tag 1 Utf8 Value "%s is not started"
+151: Tag 1 Utf8 Value "beanDeploymentNotFound"
+152: Tag 3 Integer Value 43, hex: 0x2b
+153: Tag 1 Utf8 Value "BeanDeploymentArchive with id %s not found in deployment"
+154: Tag 1 Utf8 Value "couldNotFindResource"
+155: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalArgumentException;"
+156: Tag 3 Integer Value 44, hex: 0x2c
+157: Tag 1 Utf8 Value "Error injecting resource into Jakarta Contexts and Dependency Injection managed bean. Can't find a resource named %s"
+158: Tag 1 Utf8 Value "cannotDetermineResourceName"
+159: Tag 1 Utf8 Value "()Ljava/lang/IllegalArgumentException;"
+160: Tag 3 Integer Value 45, hex: 0x2d
+161: Tag 1 Utf8 Value "Cannot determine resource name. Both jndiName and mappedName are null"
+162: Tag 1 Utf8 Value "cannotInject"
+163: Tag 1 Utf8 Value "(Ljakarta/enterprise/inject/spi/InjectionPoint;)Ljava/lang/IllegalArgumentException;"
+164: Tag 3 Integer Value 46, hex: 0x2e
+165: Tag 1 Utf8 Value "Cannot inject injection point %s"
+166: Tag 1 Utf8 Value "cannotUseAtRuntime"
+167: Tag 3 Integer Value 47, hex: 0x2f
+168: Tag 1 Utf8 Value "%s cannot be used at runtime"
+169: Tag 1 Utf8 Value "rejectAttributesMustBeTrue"
+170: Tag 1 Utf8 Value "(Ljava/util/Set;)Ljava/lang/String;"
+171: Tag 1 Utf8 Value "(Ljava/util/Set<Ljava/lang/String;>;)Ljava/lang/String;"
+172: Tag 3 Integer Value 48, hex: 0x30
+173: Tag 1 Utf8 Value "These attributes must be 'true' for use with CDI 1.0 '%s'"
+174: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalArgumentException;"
+175: Tag 3 Integer Value 49, hex: 0x31
+176: Tag 1 Utf8 Value "Error injecting resource into Jakarta Contexts and Dependency Injection managed bean. Can't find a resource named %s defined on %s"
+177: Tag 1 Utf8 Value "beanArchiveDiscovered"
+178: Tag 1 Utf8 Value "(Lorg/jboss/weld/bootstrap/spi/BeanDeploymentArchive;)V"
+179: Tag 1 Utf8 Value "Discovered %s"
+180: Tag 1 Utf8 Value "nameNotFoundInIndex"
+181: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/weld/resources/spi/ClassFileInfoException;"
+182: Tag 3 Integer Value 50, hex: 0x32
+183: Tag 1 Utf8 Value "%s was not found in composite index"
+184: Tag 1 Utf8 Value "unableToLoadAnnotation"
+185: Tag 3 Integer Value 0, hex: 0x0
+186: Tag 1 Utf8 Value "Unable to load annotation %s"
+187: Tag 1 Utf8 Value "cannotLoadClass"
+188: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)Lorg/jboss/weld/resources/spi/ClassFileInfoException;"
+189: Tag 3 Integer Value 51, hex: 0x33
+190: Tag 1 Utf8 Value "Cannot load %s"
+191: Tag 1 Utf8 Value "loadingProxiesUsingDeploymentClassLoader"
+192: Tag 1 Utf8 Value "(Lorg/jboss/modules/ModuleIdentifier;Ljava/lang/String;)V"
+193: Tag 3 Integer Value 52, hex: 0x34
+194: Tag 1 Utf8 Value "Using deployment classloader to load proxy classes for module %s. Package-private access will not work. To fix this the module should declare dependencies on %s"
+195: Tag 1 Utf8 Value "componentInterceptorSupportNotAvailable"
+196: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/IllegalStateException;"
+197: Tag 3 Integer Value 53, hex: 0x35
+198: Tag 1 Utf8 Value "Component interceptor support not available for: %s"
+199: Tag 1 Utf8 Value "cannotLoadAnnotationIndexOfExternalBeanArchive"
+200: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+201: Tag 3 Integer Value 54, hex: 0x36
+202: Tag 1 Utf8 Value "Could not read provided index of an external bean archive: %s"
+203: Tag 1 Utf8 Value "cannotIndexClassName"
+204: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+205: Tag 3 Integer Value 55, hex: 0x37
+206: Tag 1 Utf8 Value "Could not index class [%s] from an external bean archive: %s"
+207: Tag 1 Utf8 Value "weldNotInitialized"
+208: Tag 3 Integer Value 56, hex: 0x38
+209: Tag 1 Utf8 Value "Weld is not initialized yet"
+210: Tag 1 Utf8 Value "persistenceUnitFailed"
+211: Tag 3 Integer Value 57, hex: 0x39
+212: Tag 1 Utf8 Value "Persistence unit '%s' failed."
+213: Tag 1 Utf8 Value "persistenceUnitRemoved"
+214: Tag 3 Integer Value 58, hex: 0x3a
+215: Tag 1 Utf8 Value "Persistence unit '%s' removed."
+216: Tag 1 Utf8 Value "<clinit>"
+217: Tag 1 Utf8 Value "Code"
+218: Tag 1 Utf8 Value "LineNumberTable"
+219: Tag 1 Utf8 Value "SourceFile"
+220: Tag 1 Utf8 Value "WeldLogger.java"
+221: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+222: Tag 1 Utf8 Value "projectCode"
+223: Tag 1 Utf8 Value "WFLYWELD"
+224: Tag 1 Utf8 Value "length"
+225: Tag 3 Integer Value 4, hex: 0x4
+226: Tag 1 Utf8 Value "org/jboss/as/weld/logging/WeldLogger"
+227: Tag 1 Utf8 Value "org.jboss.as.weld"
+228: Tag 7 Class Name index 236
+229: Tag 12 NameAndType Name index 237, Description index 238
+230: Tag 12 NameAndType Name index 9, Description index 10
+231: Tag 1 Utf8 Value "org.jboss.weld.deployer"
+232: Tag 12 NameAndType Name index 11, Description index 10
+233: Tag 1 Utf8 Value "java/lang/Object"
+234: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+235: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+236: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+237: Tag 1 Utf8 Value "getMessageLogger"
+238: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.jboss.as.weld.logging.WeldLogger
+
+Super class: id 7, name java.lang.Object
+
+Implements class ids 8
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 9), type Lorg/jboss/as/weld/logging/WeldLogger; (descriptor index 10)
+Human type: org.jboss.as.weld.logging.WeldLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name DEPLOYMENT_LOGGER (index 11), type Lorg/jboss/as/weld/logging/WeldLogger; (descriptor index 10)
+Human type: org.jboss.as.weld.logging.WeldLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name failedToSetupWeldContexts (index 12), type (Ljava/lang/Throwable;)V (descriptor index 13)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name failedToTearDownWeldContexts (index 29), type (Ljava/lang/Throwable;)V (descriptor index 13)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name processingWeldDeployment (index 32), type (Ljava/lang/String;)V (descriptor index 33)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name couldNotFindBeanManagerForDeployment (index 37), type (Ljava/lang/String;)V (descriptor index 33)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name startingServicesForCDIDeployment (index 40), type (Ljava/lang/String;)V (descriptor index 33)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name couldNotLoadPortableExceptionClass (index 44), type (Ljava/lang/String;Ljava/lang/Throwable;)V (descriptor index 45)
+Human type: (java.lang.String, java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name injectionTypeNotValue (index 49), type (Ljava/lang/String;Ljava/lang/reflect/Member;)V (descriptor index 50)
+Human type: (java.lang.String, java.lang.reflect.Member): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name startingWeldService (index 53), type (Ljava/lang/String;)V (descriptor index 33)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name stoppingWeldService (index 56), type (Ljava/lang/String;)V (descriptor index 33)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name beansXmlValidationWarning (index 59), type (Ljava/net/URL;ILjava/lang/String;)V (descriptor index 60)
+Human type: (java.net.URL, int, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name beansXmlValidationError (index 63), type (Ljava/net/URL;ILjava/lang/String;)V (descriptor index 60)
+Human type: (java.net.URL, int, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cdiAnnotationsButNotBeanArchive (index 65), type (Ljava/lang/String;)V (descriptor index 33)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name exceptionClearingThreadState (index 68), type (Ljava/lang/Exception;)V (descriptor index 69)
+Human type: (java.lang.Exception): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name couldNotReadEntries (index 72), type (Ljava/io/IOException;)V (descriptor index 73)
+Human type: (java.io.IOException): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name doNotUnderstandProtocol (index 76), type (Ljava/net/URL;)V (descriptor index 77)
+Human type: (java.net.URL): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name duplicateBeansXml (index 80), type ()V (descriptor index 81)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name couldNotGetBeansXmlAsURL (index 84), type (Ljava/lang/String;Ljava/lang/Throwable;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 85)
+Human type: (java.lang.String, java.lang.Throwable): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name couldNotLoadInterceptorClass (index 88), type (Ljava/lang/String;Ljava/lang/Throwable;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 85)
+Human type: (java.lang.String, java.lang.Throwable): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name extensionDoesNotImplementExtension (index 91), type (Ljava/lang/Class;)Lorg/jboss/as/server/deployment/DeploymentUnitProcessingException; (descriptor index 92)
+Human type: (java.lang.Class): org.jboss.as.server.deployment.DeploymentUnitProcessingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name viewNotFoundOnEJB (index 97), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 98)
+Human type: (java.lang.String, java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unknownInterceptorClassForCDIInjection (index 101), type (Ljava/lang/Class;)Ljava/lang/IllegalArgumentException; (descriptor index 102)
+Human type: (java.lang.Class): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name parameterCannotBeNull (index 106), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 107)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name injectionPointNotAJavabean (index 110), type (Ljava/lang/reflect/Method;)Ljava/lang/IllegalArgumentException; (descriptor index 111)
+Human type: (java.lang.reflect.Method): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name annotationNotFound (index 114), type (Ljava/lang/Class;Ljava/lang/reflect/Member;)Ljava/lang/IllegalArgumentException; (descriptor index 115)
+Human type: (java.lang.Class, java.lang.reflect.Member): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name ejbNotResolved (index 119), type (Ljava/lang/Object;Ljava/lang/reflect/Member;)Ljava/lang/IllegalStateException; (descriptor index 120)
+Human type: (java.lang.Object, java.lang.reflect.Member): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name moreThanOneEjbResolved (index 123), type (Ljava/lang/Object;Ljava/lang/reflect/Member;Ljava/util/Set;)Ljava/lang/IllegalStateException; (descriptor index 124)
+Human type: (java.lang.Object, java.lang.reflect.Member, java.util.Set): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotDetermineUnderlyingType (index 128), type (Ljava/lang/reflect/Type;)Ljava/lang/IllegalArgumentException; (descriptor index 129)
+Human type: (java.lang.reflect.Type): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotFindPersistenceUnit (index 132), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/reflect/Member;)Ljava/lang/IllegalArgumentException; (descriptor index 133)
+Human type: (java.lang.String, java.lang.String, java.lang.reflect.Member): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name securityNotEnabled (index 136), type ()Ljava/lang/IllegalStateException; (descriptor index 137)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name singletonNotSet (index 140), type (Ljava/lang/ClassLoader;)Ljava/lang/IllegalStateException; (descriptor index 141)
+Human type: (java.lang.ClassLoader): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name alreadyRunning (index 144), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 145)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name notStarted (index 148), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 145)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name beanDeploymentNotFound (index 151), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 107)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotFindResource (index 154), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalArgumentException; (descriptor index 155)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name cannotDetermineResourceName (index 158), type ()Ljava/lang/IllegalArgumentException; (descriptor index 159)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotInject (index 162), type (Ljakarta/enterprise/inject/spi/InjectionPoint;)Ljava/lang/IllegalArgumentException; (descriptor index 163)
+Human type: (jakarta.enterprise.inject.spi.InjectionPoint): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotUseAtRuntime (index 166), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 145)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name rejectAttributesMustBeTrue (index 169), type (Ljava/util/Set;)Ljava/lang/String; (descriptor index 170)
+Human type: (java.util.Set): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name couldNotFindResource (index 154), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/IllegalArgumentException; (descriptor index 174)
+Human type: (java.lang.String, java.lang.String, java.lang.Throwable): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name beanArchiveDiscovered (index 177), type (Lorg/jboss/weld/bootstrap/spi/BeanDeploymentArchive;)V (descriptor index 178)
+Human type: (org.jboss.weld.bootstrap.spi.BeanDeploymentArchive): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 22
+Method name nameNotFoundInIndex (index 180), type (Ljava/lang/String;)Lorg/jboss/weld/resources/spi/ClassFileInfoException; (descriptor index 181)
+Human type: (java.lang.String): org.jboss.weld.resources.spi.ClassFileInfoException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unableToLoadAnnotation (index 184), type (Ljava/lang/String;)V (descriptor index 33)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotLoadClass (index 187), type (Ljava/lang/String;Ljava/lang/Throwable;)Lorg/jboss/weld/resources/spi/ClassFileInfoException; (descriptor index 188)
+Human type: (java.lang.String, java.lang.Throwable): org.jboss.weld.resources.spi.ClassFileInfoException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name loadingProxiesUsingDeploymentClassLoader (index 191), type (Lorg/jboss/modules/ModuleIdentifier;Ljava/lang/String;)V (descriptor index 192)
+Human type: (org.jboss.modules.ModuleIdentifier, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name componentInterceptorSupportNotAvailable (index 195), type (Ljava/lang/Object;)Ljava/lang/IllegalStateException; (descriptor index 196)
+Human type: (java.lang.Object): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotLoadAnnotationIndexOfExternalBeanArchive (index 199), type (Ljava/lang/Object;)V (descriptor index 200)
+Human type: (java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name cannotIndexClassName (index 203), type (Ljava/lang/Object;Ljava/lang/Object;)V (descriptor index 204)
+Human type: (java.lang.Object, java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name weldNotInitialized (index 207), type ()Ljava/lang/IllegalStateException; (descriptor index 137)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name persistenceUnitFailed (index 210), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 145)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name persistenceUnitRemoved (index 213), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 145)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name <clinit> (index 216), type ()V (descriptor index 81)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 55
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

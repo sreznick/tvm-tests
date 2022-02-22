@@ -1,0 +1,173 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 129
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/ProtoStreamTesterFactory"
+11: Tag 1 Utf8 Value "INSTANCE"
+12: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamTesterFactory;"
+13: Tag 10 MethodRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "createTester"
+16: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/marshalling/MarshallingTester;"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/fine/ConcurrentSessionAttributeMapPutFunction"
+19: Tag 8 String Contents 20
+20: Tag 1 Utf8 Value "foo"
+21: Tag 10 MethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "java/util/UUID"
+25: Tag 1 Utf8 Value "randomUUID"
+26: Tag 1 Utf8 Value "()Ljava/util/UUID;"
+27: Tag 10 MethodRef Class index 17, Name and type index 28
+28: Tag 12 NameAndType Name index 5, Description index 29
+29: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/UUID;)V"
+30: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "accept"
+33: Tag 1 Utf8 Value "()Ljava/util/function/BiConsumer;"
+34: Tag 11 InterfaceMethodRef Class index 35, Name and type index 36
+35: Tag 7 Class Name index 37
+36: Tag 12 NameAndType Name index 38, Description index 39
+37: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Tester"
+38: Tag 1 Utf8 Value "test"
+39: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/util/function/BiConsumer;)V"
+40: Tag 7 Class Name index 41
+41: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/fine/CopyOnWriteSessionAttributeMapPutFunction"
+42: Tag 10 MethodRef Class index 40, Name and type index 28
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/fine/ConcurrentSessionAttributeMapRemoveFunction"
+45: Tag 10 MethodRef Class index 43, Name and type index 46
+46: Tag 12 NameAndType Name index 5, Description index 47
+47: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+48: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 31
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/fine/CopyOnWriteSessionAttributeMapRemoveFunction"
+51: Tag 10 MethodRef Class index 49, Name and type index 46
+52: Tag 10 MethodRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 56, Description index 57
+55: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/function/MapPutFunction"
+56: Tag 1 Utf8 Value "getOperand"
+57: Tag 1 Utf8 Value "()Ljava/util/Map$Entry;"
+58: Tag 10 MethodRef Class index 59, Name and type index 60
+59: Tag 7 Class Name index 61
+60: Tag 12 NameAndType Name index 62, Description index 63
+61: Tag 1 Utf8 Value "org/junit/Assert"
+62: Tag 1 Utf8 Value "assertEquals"
+63: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+64: Tag 10 MethodRef Class index 65, Name and type index 66
+65: Tag 7 Class Name index 67
+66: Tag 12 NameAndType Name index 56, Description index 68
+67: Tag 1 Utf8 Value "org/wildfly/clustering/ee/cache/function/MapRemoveFunction"
+68: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "org/wildfly/clustering/web/cache/session/fine/SessionAttributeMapFunctionMarshallerTestCase"
+71: Tag 1 Utf8 Value "Code"
+72: Tag 1 Utf8 Value "LineNumberTable"
+73: Tag 1 Utf8 Value "LocalVariableTable"
+74: Tag 1 Utf8 Value "this"
+75: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/cache/session/fine/SessionAttributeMapFunctionMarshallerTestCase;"
+76: Tag 1 Utf8 Value "testMapPutFunction"
+77: Tag 1 Utf8 Value "tester"
+78: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/Tester;"
+79: Tag 1 Utf8 Value "LocalVariableTypeTable"
+80: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/Tester<Lorg/wildfly/clustering/ee/cache/function/MapPutFunction<Ljava/lang/String;Ljava/util/UUID;>;>;"
+81: Tag 1 Utf8 Value "Exceptions"
+82: Tag 7 Class Name index 83
+83: Tag 1 Utf8 Value "java/io/IOException"
+84: Tag 1 Utf8 Value "RuntimeVisibleAnnotations"
+85: Tag 1 Utf8 Value "Lorg/junit/Test;"
+86: Tag 1 Utf8 Value "testMapRemoveFunction"
+87: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/Tester<Lorg/wildfly/clustering/ee/cache/function/MapRemoveFunction<Ljava/lang/String;Ljava/util/UUID;>;>;"
+88: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/ee/cache/function/MapPutFunction;Lorg/wildfly/clustering/ee/cache/function/MapPutFunction;)V"
+89: Tag 1 Utf8 Value "function1"
+90: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/function/MapPutFunction;"
+91: Tag 1 Utf8 Value "function2"
+92: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/function/MapPutFunction<TK;TV;>;"
+93: Tag 1 Utf8 Value "Signature"
+94: Tag 1 Utf8 Value "<K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lorg/wildfly/clustering/ee/cache/function/MapPutFunction<TK;TV;>;Lorg/wildfly/clustering/ee/cache/function/MapPutFunction<TK;TV;>;)V"
+95: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/ee/cache/function/MapRemoveFunction;Lorg/wildfly/clustering/ee/cache/function/MapRemoveFunction;)V"
+96: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/function/MapRemoveFunction;"
+97: Tag 1 Utf8 Value "Lorg/wildfly/clustering/ee/cache/function/MapRemoveFunction<TK;TV;>;"
+98: Tag 1 Utf8 Value "<K:Ljava/lang/Object;V:Ljava/lang/Object;>(Lorg/wildfly/clustering/ee/cache/function/MapRemoveFunction<TK;TV;>;Lorg/wildfly/clustering/ee/cache/function/MapRemoveFunction<TK;TV;>;)V"
+99: Tag 1 Utf8 Value "SourceFile"
+100: Tag 1 Utf8 Value "SessionAttributeMapFunctionMarshallerTestCase.java"
+101: Tag 1 Utf8 Value "BootstrapMethods"
+102: Tag 15 MethodHandle Kind 6, Index 103
+103: Tag 10 MethodRef Class index 104, Name and type index 105
+104: Tag 7 Class Name index 106
+105: Tag 12 NameAndType Name index 107, Description index 108
+106: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+107: Tag 1 Utf8 Value "metafactory"
+108: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+109: Tag 16 MethodType Descriptor index 63
+110: Tag 15 MethodHandle Kind 6, Index 111
+111: Tag 10 MethodRef Class index 69, Name and type index 112
+112: Tag 12 NameAndType Name index 62, Description index 88
+113: Tag 16 MethodType Descriptor index 88
+114: Tag 15 MethodHandle Kind 6, Index 115
+115: Tag 10 MethodRef Class index 69, Name and type index 116
+116: Tag 12 NameAndType Name index 62, Description index 95
+117: Tag 16 MethodType Descriptor index 95
+118: Tag 1 Utf8 Value "InnerClasses"
+119: Tag 7 Class Name index 120
+120: Tag 1 Utf8 Value "java/util/Map$Entry"
+121: Tag 7 Class Name index 122
+122: Tag 1 Utf8 Value "java/util/Map"
+123: Tag 1 Utf8 Value "Entry"
+124: Tag 7 Class Name index 125
+125: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+126: Tag 7 Class Name index 127
+127: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+128: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 69, name org.wildfly.clustering.web.cache.session.fine.SessionAttributeMapFunctionMarshallerTestCase
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name testMapPutFunction (index 76), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 136
+Method attribute name Exceptions, size 4
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name testMapRemoveFunction (index 86), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 130
+Method attribute name Exceptions, size 4
+Method attribute name RuntimeVisibleAnnotations, size 6
+Method name assertEquals (index 62), type (Lorg/wildfly/clustering/ee/cache/function/MapPutFunction;Lorg/wildfly/clustering/ee/cache/function/MapPutFunction;)V (descriptor index 88)
+Human type: (org.wildfly.clustering.ee.cache.function.MapPutFunction, org.wildfly.clustering.ee.cache.function.MapPutFunction): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 96
+Method attribute name Signature, size 2
+Method name assertEquals (index 62), type (Lorg/wildfly/clustering/ee/cache/function/MapRemoveFunction;Lorg/wildfly/clustering/ee/cache/function/MapRemoveFunction;)V (descriptor index 95)
+Human type: (org.wildfly.clustering.ee.cache.function.MapRemoveFunction, org.wildfly.clustering.ee.cache.function.MapRemoveFunction): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 96
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 22
+Class attribute name InnerClasses, size 18

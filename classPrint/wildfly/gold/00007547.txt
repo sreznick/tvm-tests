@@ -1,0 +1,131 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 94
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+11: Tag 1 Utf8 Value "STRING"
+12: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+17: Tag 1 Utf8 Value "create"
+18: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;)Lorg/jboss/as/controller/SimpleAttributeDefinitionBuilder;"
+19: Tag 10 MethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "setRequired"
+22: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+23: Tag 7 Class Name index 24
+24: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/StringLengthValidator"
+25: Tag 10 MethodRef Class index 23, Name and type index 26
+26: Tag 12 NameAndType Name index 5, Description index 27
+27: Tag 1 Utf8 Value "(I)V"
+28: Tag 10 MethodRef Class index 14, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "setValidator"
+31: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/operations/validation/ParameterValidator;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+32: Tag 10 MethodRef Class index 14, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "build"
+35: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleOperationDefinitionBuilder"
+38: Tag 10 MethodRef Class index 36, Name and type index 39
+39: Tag 12 NameAndType Name index 5, Description index 40
+40: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+41: Tag 10 MethodRef Class index 36, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "setRuntimeOnly"
+44: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+45: Tag 10 MethodRef Class index 36, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 44
+47: Tag 1 Utf8 Value "setReadOnly"
+48: Tag 9 FieldRef Class index 49, Name and type index 50
+49: Tag 7 Class Name index 51
+50: Tag 12 NameAndType Name index 52, Description index 53
+51: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/CommonAttributes"
+52: Tag 1 Utf8 Value "FILTER"
+53: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+54: Tag 10 MethodRef Class index 55, Name and type index 56
+55: Tag 7 Class Name index 57
+56: Tag 12 NameAndType Name index 58, Description index 59
+57: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+58: Tag 1 Utf8 Value "resolveModelAttribute"
+59: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+60: Tag 10 MethodRef Class index 61, Name and type index 62
+61: Tag 7 Class Name index 63
+62: Tag 12 NameAndType Name index 64, Description index 65
+63: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+64: Tag 1 Utf8 Value "asStringOrNull"
+65: Tag 1 Utf8 Value "()Ljava/lang/String;"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/OperationDefinitionHelper"
+68: Tag 1 Utf8 Value "Code"
+69: Tag 1 Utf8 Value "LineNumberTable"
+70: Tag 1 Utf8 Value "LocalVariableTable"
+71: Tag 1 Utf8 Value "this"
+72: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/OperationDefinitionHelper;"
+73: Tag 1 Utf8 Value "createNonEmptyStringAttribute"
+74: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/AttributeDefinition;"
+75: Tag 1 Utf8 Value "attributeName"
+76: Tag 1 Utf8 Value "Ljava/lang/String;"
+77: Tag 1 Utf8 Value "runtimeReadOnlyOperation"
+78: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder;"
+79: Tag 1 Utf8 Value "operationName"
+80: Tag 1 Utf8 Value "resolver"
+81: Tag 1 Utf8 Value "Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+82: Tag 1 Utf8 Value "runtimeOnlyOperation"
+83: Tag 1 Utf8 Value "resolveFilter"
+84: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Ljava/lang/String;"
+85: Tag 1 Utf8 Value "context"
+86: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+87: Tag 1 Utf8 Value "operation"
+88: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+89: Tag 1 Utf8 Value "Exceptions"
+90: Tag 7 Class Name index 91
+91: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+92: Tag 1 Utf8 Value "SourceFile"
+93: Tag 1 Utf8 Value "OperationDefinitionHelper.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 66, name org.wildfly.extension.messaging.activemq.OperationDefinitionHelper
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name createNonEmptyStringAttribute (index 73), type (Ljava/lang/String;)Lorg/jboss/as/controller/AttributeDefinition; (descriptor index 74)
+Human type: (java.lang.String): org.jboss.as.controller.AttributeDefinition
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 90
+Method name runtimeReadOnlyOperation (index 77), type (Ljava/lang/String;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder; (descriptor index 78)
+Human type: (java.lang.String, org.jboss.as.controller.descriptions.ResourceDescriptionResolver): org.jboss.as.controller.SimpleOperationDefinitionBuilder
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 80
+Method name runtimeOnlyOperation (index 82), type (Ljava/lang/String;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)Lorg/jboss/as/controller/SimpleOperationDefinitionBuilder; (descriptor index 78)
+Human type: (java.lang.String, org.jboss.as.controller.descriptions.ResourceDescriptionResolver): org.jboss.as.controller.SimpleOperationDefinitionBuilder
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 73
+Method name resolveFilter (index 83), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Ljava/lang/String; (descriptor index 84)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): java.lang.String
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 64
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

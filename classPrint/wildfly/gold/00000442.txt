@@ -1,0 +1,187 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 123
+1: Tag 10 MethodRef Class index 21, Name and type index 64
+2: Tag 7 Class Name index 65
+3: Tag 10 MethodRef Class index 2, Name and type index 64
+4: Tag 9 FieldRef Class index 20, Name and type index 66
+5: Tag 9 FieldRef Class index 20, Name and type index 67
+6: Tag 7 Class Name index 68
+7: Tag 10 MethodRef Class index 2, Name and type index 69
+8: Tag 7 Class Name index 70
+9: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 76
+10: Tag 10 MethodRef Class index 6, Name and type index 77
+11: Tag 7 Class Name index 78
+12: Tag 8 String Contents 79
+13: Tag 10 MethodRef Class index 6, Name and type index 80
+14: Tag 10 MethodRef Class index 11, Name and type index 81
+15: Tag 10 MethodRef Class index 11, Name and type index 82
+16: Tag 10 MethodRef Class index 20, Name and type index 83
+17: Tag 7 Class Name index 84
+18: Tag 10 MethodRef Class index 85, Name and type index 86
+19: Tag 11 InterfaceMethodRef Class index 17, Name and type index 87
+20: Tag 7 Class Name index 88
+21: Tag 7 Class Name index 89
+22: Tag 7 Class Name index 90
+23: Tag 1 Utf8 Value "pathHandlerInjectedValue"
+24: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+25: Tag 1 Utf8 Value "Signature"
+26: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lio/undertow/server/handlers/PathHandler;>;"
+27: Tag 1 Utf8 Value "localTransactionContextInjectedValue"
+28: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/transaction/client/LocalTransactionContext;>;"
+29: Tag 1 Utf8 Value "<init>"
+30: Tag 1 Utf8 Value "()V"
+31: Tag 1 Utf8 Value "Code"
+32: Tag 1 Utf8 Value "LineNumberTable"
+33: Tag 1 Utf8 Value "LocalVariableTable"
+34: Tag 1 Utf8 Value "this"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/txn/service/TransactionRemoteHTTPService;"
+36: Tag 1 Utf8 Value "start"
+37: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+38: Tag 1 Utf8 Value "context"
+39: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+40: Tag 1 Utf8 Value "transactionService"
+41: Tag 1 Utf8 Value "Lorg/wildfly/httpclient/transaction/HttpRemoteTransactionService;"
+42: Tag 1 Utf8 Value "Exceptions"
+43: Tag 7 Class Name index 91
+44: Tag 1 Utf8 Value "stop"
+45: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+46: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+47: Tag 1 Utf8 Value "getValue"
+48: Tag 1 Utf8 Value "()Lorg/jboss/as/txn/service/TransactionRemoteHTTPService;"
+49: Tag 7 Class Name index 92
+50: Tag 7 Class Name index 93
+51: Tag 1 Utf8 Value "getPathHandlerInjectedValue"
+52: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue;"
+53: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lio/undertow/server/handlers/PathHandler;>;"
+54: Tag 1 Utf8 Value "getLocalTransactionContextInjectedValue"
+55: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Lorg/wildfly/transaction/client/LocalTransactionContext;>;"
+56: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+57: Tag 1 Utf8 Value "lambda$start$0"
+58: Tag 1 Utf8 Value "(Lorg/wildfly/transaction/client/LocalTransaction;)Ljavax/transaction/xa/Xid;"
+59: Tag 1 Utf8 Value "transaction"
+60: Tag 1 Utf8 Value "Lorg/wildfly/transaction/client/LocalTransaction;"
+61: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/jboss/as/txn/service/TransactionRemoteHTTPService;>;"
+62: Tag 1 Utf8 Value "SourceFile"
+63: Tag 1 Utf8 Value "TransactionRemoteHTTPService.java"
+64: Tag 12 NameAndType Name index 29, Description index 30
+65: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+66: Tag 12 NameAndType Name index 23, Description index 24
+67: Tag 12 NameAndType Name index 27, Description index 24
+68: Tag 1 Utf8 Value "org/wildfly/httpclient/transaction/HttpRemoteTransactionService"
+69: Tag 12 NameAndType Name index 47, Description index 56
+70: Tag 1 Utf8 Value "org/wildfly/transaction/client/LocalTransactionContext"
+71: Tag 1 Utf8 Value "BootstrapMethods"
+72: Tag 15 MethodHandle Kind 6, Index 94
+73: Tag 16 MethodType Descriptor index 95
+74: Tag 15 MethodHandle Kind 6, Index 96
+75: Tag 16 MethodType Descriptor index 58
+76: Tag 12 NameAndType Name index 97, Description index 98
+77: Tag 12 NameAndType Name index 29, Description index 99
+78: Tag 1 Utf8 Value "io/undertow/server/handlers/PathHandler"
+79: Tag 1 Utf8 Value "/txn"
+80: Tag 12 NameAndType Name index 100, Description index 101
+81: Tag 12 NameAndType Name index 102, Description index 103
+82: Tag 12 NameAndType Name index 104, Description index 105
+83: Tag 12 NameAndType Name index 47, Description index 48
+84: Tag 1 Utf8 Value "com/arjuna/ats/jta/transaction/Transaction"
+85: Tag 7 Class Name index 106
+86: Tag 12 NameAndType Name index 107, Description index 108
+87: Tag 12 NameAndType Name index 109, Description index 110
+88: Tag 1 Utf8 Value "org/jboss/as/txn/service/TransactionRemoteHTTPService"
+89: Tag 1 Utf8 Value "java/lang/Object"
+90: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+91: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+92: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+93: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+94: Tag 10 MethodRef Class index 111, Name and type index 112
+95: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+96: Tag 10 MethodRef Class index 20, Name and type index 113
+97: Tag 1 Utf8 Value "apply"
+98: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+99: Tag 1 Utf8 Value "(Lorg/wildfly/transaction/client/LocalTransactionContext;Ljava/util/function/Function;)V"
+100: Tag 1 Utf8 Value "createHandler"
+101: Tag 1 Utf8 Value "()Lio/undertow/server/HttpHandler;"
+102: Tag 1 Utf8 Value "addPrefixPath"
+103: Tag 1 Utf8 Value "(Ljava/lang/String;Lio/undertow/server/HttpHandler;)Lio/undertow/server/handlers/PathHandler;"
+104: Tag 1 Utf8 Value "removePrefixPath"
+105: Tag 1 Utf8 Value "(Ljava/lang/String;)Lio/undertow/server/handlers/PathHandler;"
+106: Tag 1 Utf8 Value "org/wildfly/transaction/client/LocalTransaction"
+107: Tag 1 Utf8 Value "getProviderInterface"
+108: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+109: Tag 1 Utf8 Value "getTxId"
+110: Tag 1 Utf8 Value "()Ljavax/transaction/xa/Xid;"
+111: Tag 7 Class Name index 114
+112: Tag 12 NameAndType Name index 115, Description index 119
+113: Tag 12 NameAndType Name index 57, Description index 58
+114: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+115: Tag 1 Utf8 Value "metafactory"
+116: Tag 7 Class Name index 121
+117: Tag 1 Utf8 Value "Lookup"
+118: Tag 1 Utf8 Value "InnerClasses"
+119: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+120: Tag 7 Class Name index 122
+121: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+122: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 20, name org.jboss.as.txn.service.TransactionRemoteHTTPService
+
+Super class: id 21, name java.lang.Object
+
+Implements class ids 22
+Implements names org.jboss.msc.service.Service
+
+Field name pathHandlerInjectedValue (index 23), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 24)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name localTransactionContextInjectedValue (index 27), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 24)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 29), type ()V (descriptor index 30)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 77
+Method name start (index 36), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 37)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 114
+Method attribute name Exceptions, size 4
+Method name stop (index 44), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 45)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 73
+Method name getValue (index 47), type ()Lorg/jboss/as/txn/service/TransactionRemoteHTTPService; (descriptor index 48)
+Human type: (): org.jboss.as.txn.service.TransactionRemoteHTTPService
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method attribute name Exceptions, size 6
+Method name getPathHandlerInjectedValue (index 51), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 52)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getLocalTransactionContextInjectedValue (index 54), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 52)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getValue (index 47), type ()Ljava/lang/Object; (descriptor index 56)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name lambda$start$0 (index 57), type (Lorg/wildfly/transaction/client/LocalTransaction;)Ljavax/transaction/xa/Xid; (descriptor index 58)
+Human type: (org.wildfly.transaction.client.LocalTransaction): javax.transaction.xa.Xid
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 57
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10
+Class attribute name BootstrapMethods, size 12

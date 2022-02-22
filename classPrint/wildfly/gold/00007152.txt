@@ -1,0 +1,104 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 69
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 11 InterfaceMethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+11: Tag 1 Utf8 Value "getParent"
+12: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/CdiAnnotationMarker"
+17: Tag 1 Utf8 Value "ATTACHMENT_KEY"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "java/lang/Boolean"
+23: Tag 1 Utf8 Value "valueOf"
+24: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+25: Tag 11 InterfaceMethodRef Class index 8, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "putAttachment"
+28: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)Ljava/lang/Object;"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/as/weld/util/Utils"
+33: Tag 1 Utf8 Value "getRootDeploymentUnit"
+34: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/as/server/deployment/DeploymentUnit;"
+35: Tag 11 InterfaceMethodRef Class index 8, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "getAttachment"
+38: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+39: Tag 10 MethodRef Class index 20, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "booleanValue"
+42: Tag 1 Utf8 Value "()Z"
+43: Tag 10 MethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/jboss/as/server/deployment/AttachmentKey"
+47: Tag 1 Utf8 Value "create"
+48: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/server/deployment/AttachmentKey;"
+49: Tag 1 Utf8 Value "Signature"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey<Ljava/lang/Boolean;>;"
+51: Tag 1 Utf8 Value "Code"
+52: Tag 1 Utf8 Value "LineNumberTable"
+53: Tag 1 Utf8 Value "LocalVariableTable"
+54: Tag 1 Utf8 Value "this"
+55: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/CdiAnnotationMarker;"
+56: Tag 1 Utf8 Value "mark"
+57: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+58: Tag 1 Utf8 Value "deployment"
+59: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+60: Tag 1 Utf8 Value "StackMapTable"
+61: Tag 1 Utf8 Value "cdiAnnotationsPresent"
+62: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+63: Tag 1 Utf8 Value "deploymentUnit"
+64: Tag 1 Utf8 Value "val"
+65: Tag 1 Utf8 Value "Ljava/lang/Boolean;"
+66: Tag 1 Utf8 Value "<clinit>"
+67: Tag 1 Utf8 Value "SourceFile"
+68: Tag 1 Utf8 Value "CdiAnnotationMarker.java"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 14, name org.jboss.as.weld.deployment.CdiAnnotationMarker
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name ATTACHMENT_KEY (index 17), type Lorg/jboss/as/server/deployment/AttachmentKey; (descriptor index 18)
+Human type: org.jboss.as.server.deployment.AttachmentKey
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name mark (index 56), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 57)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 110
+Method name cdiAnnotationsPresent (index 61), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)Z (descriptor index 62)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): boolean
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 105
+Method name <clinit> (index 66), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2

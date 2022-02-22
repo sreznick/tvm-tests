@@ -1,0 +1,103 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 72
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/util/concurrent/ConcurrentHashMap"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 9 FieldRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/jboss/as/ee/component/deployers/EEResourceReferenceProcessorRegistry"
+14: Tag 1 Utf8 Value "resourceReferenceProcessors"
+15: Tag 1 Utf8 Value "Ljava/util/Map;"
+16: Tag 9 FieldRef Class index 17, Name and type index 18
+17: Tag 7 Class Name index 19
+18: Tag 12 NameAndType Name index 20, Description index 21
+19: Tag 1 Utf8 Value "org/jboss/as/ee/logging/EeLogger"
+20: Tag 1 Utf8 Value "ROOT_LOGGER"
+21: Tag 1 Utf8 Value "Lorg/jboss/as/ee/logging/EeLogger;"
+22: Tag 11 InterfaceMethodRef Class index 17, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "nullResourceReference"
+25: Tag 1 Utf8 Value "()Ljava/lang/IllegalArgumentException;"
+26: Tag 11 InterfaceMethodRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 30, Description index 31
+29: Tag 1 Utf8 Value "org/jboss/as/ee/component/deployers/EEResourceReferenceProcessor"
+30: Tag 1 Utf8 Value "getResourceReferenceType"
+31: Tag 1 Utf8 Value "()Ljava/lang/String;"
+32: Tag 10 MethodRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 31
+35: Tag 1 Utf8 Value "java/lang/String"
+36: Tag 1 Utf8 Value "trim"
+37: Tag 10 MethodRef Class index 33, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "isEmpty"
+40: Tag 1 Utf8 Value "()Z"
+41: Tag 11 InterfaceMethodRef Class index 17, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 25
+43: Tag 1 Utf8 Value "nullOrEmptyResourceReferenceType"
+44: Tag 11 InterfaceMethodRef Class index 45, Name and type index 46
+45: Tag 7 Class Name index 47
+46: Tag 12 NameAndType Name index 48, Description index 49
+47: Tag 1 Utf8 Value "java/util/Map"
+48: Tag 1 Utf8 Value "put"
+49: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+50: Tag 11 InterfaceMethodRef Class index 45, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "get"
+53: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+54: Tag 1 Utf8 Value "Signature"
+55: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Lorg/jboss/as/ee/component/deployers/EEResourceReferenceProcessor;>;"
+56: Tag 1 Utf8 Value "Code"
+57: Tag 1 Utf8 Value "LineNumberTable"
+58: Tag 1 Utf8 Value "LocalVariableTable"
+59: Tag 1 Utf8 Value "this"
+60: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/deployers/EEResourceReferenceProcessorRegistry;"
+61: Tag 1 Utf8 Value "registerResourceReferenceProcessor"
+62: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/deployers/EEResourceReferenceProcessor;)V"
+63: Tag 1 Utf8 Value "resourceReferenceProcessor"
+64: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/deployers/EEResourceReferenceProcessor;"
+65: Tag 1 Utf8 Value "resourceReferenceType"
+66: Tag 1 Utf8 Value "Ljava/lang/String;"
+67: Tag 1 Utf8 Value "StackMapTable"
+68: Tag 1 Utf8 Value "getResourceReferenceProcessor"
+69: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/ee/component/deployers/EEResourceReferenceProcessor;"
+70: Tag 1 Utf8 Value "SourceFile"
+71: Tag 1 Utf8 Value "EEResourceReferenceProcessorRegistry.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.jboss.as.ee.component.deployers.EEResourceReferenceProcessorRegistry
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name resourceReferenceProcessors (index 14), type Ljava/util/Map; (descriptor index 15)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name registerResourceReferenceProcessor (index 61), type (Lorg/jboss/as/ee/component/deployers/EEResourceReferenceProcessor;)V (descriptor index 62)
+Human type: (org.jboss.as.ee.component.deployers.EEResourceReferenceProcessor): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 158
+Method name getResourceReferenceProcessor (index 68), type (Ljava/lang/String;)Lorg/jboss/as/ee/component/deployers/EEResourceReferenceProcessor; (descriptor index 69)
+Human type: (java.lang.String): org.jboss.as.ee.component.deployers.EEResourceReferenceProcessor
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+
+Class attribute name SourceFile, size 2

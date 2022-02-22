@@ -1,0 +1,136 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 103
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "java/lang/Object"
+7: Tag 1 Utf8 Value "<init>"
+8: Tag 1 Utf8 Value "()V"
+9: Tag 9 FieldRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/wildfly/extension/health/ServerProbes$ServerStateCheck"
+13: Tag 1 Utf8 Value "modelControllerClient"
+14: Tag 1 Utf8 Value "Lorg/jboss/as/controller/LocalModelControllerClient;"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "org/wildfly/extension/health/ServerProbes"
+19: Tag 1 Utf8 Value "access$000"
+20: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+21: Tag 11 InterfaceMethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "org/jboss/as/controller/LocalModelControllerClient"
+25: Tag 1 Utf8 Value "execute"
+26: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+27: Tag 8 String Contents 28
+28: Tag 1 Utf8 Value "success"
+29: Tag 8 String Contents 30
+30: Tag 1 Utf8 Value "outcome"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+35: Tag 1 Utf8 Value "get"
+36: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+37: Tag 10 MethodRef Class index 32, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "asStringOrNull"
+40: Tag 1 Utf8 Value "()Ljava/lang/String;"
+41: Tag 10 MethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "java/lang/String"
+45: Tag 1 Utf8 Value "equals"
+46: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+47: Tag 9 FieldRef Class index 48, Name and type index 49
+48: Tag 7 Class Name index 50
+49: Tag 12 NameAndType Name index 51, Description index 52
+50: Tag 1 Utf8 Value "org/wildfly/extension/health/ServerProbe$Outcome"
+51: Tag 1 Utf8 Value "FAILURE"
+52: Tag 1 Utf8 Value "Lorg/wildfly/extension/health/ServerProbe$Outcome;"
+53: Tag 8 String Contents 54
+54: Tag 1 Utf8 Value "failure-description"
+55: Tag 10 MethodRef Class index 32, Name and type index 56
+56: Tag 12 NameAndType Name index 57, Description index 58
+57: Tag 1 Utf8 Value "hasDefined"
+58: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+59: Tag 10 MethodRef Class index 32, Name and type index 5
+60: Tag 10 MethodRef Class index 32, Name and type index 61
+61: Tag 12 NameAndType Name index 62, Description index 40
+62: Tag 1 Utf8 Value "asString"
+63: Tag 10 MethodRef Class index 32, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "add"
+66: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+67: Tag 10 MethodRef Class index 48, Name and type index 68
+68: Tag 12 NameAndType Name index 7, Description index 69
+69: Tag 1 Utf8 Value "(ZLorg/jboss/dmr/ModelNode;)V"
+70: Tag 8 String Contents 71
+71: Tag 1 Utf8 Value "result"
+72: Tag 10 MethodRef Class index 32, Name and type index 73
+73: Tag 12 NameAndType Name index 74, Description index 75
+74: Tag 1 Utf8 Value "isDefined"
+75: Tag 1 Utf8 Value "()Z"
+76: Tag 8 String Contents 77
+77: Tag 1 Utf8 Value "value"
+78: Tag 8 String Contents 79
+79: Tag 1 Utf8 Value "running"
+80: Tag 8 String Contents 81
+81: Tag 1 Utf8 Value "server-state"
+82: Tag 7 Class Name index 83
+83: Tag 1 Utf8 Value "org/wildfly/extension/health/ServerProbe"
+84: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/LocalModelControllerClient;)V"
+85: Tag 1 Utf8 Value "Code"
+86: Tag 1 Utf8 Value "LineNumberTable"
+87: Tag 1 Utf8 Value "LocalVariableTable"
+88: Tag 1 Utf8 Value "this"
+89: Tag 1 Utf8 Value "Lorg/wildfly/extension/health/ServerProbes$ServerStateCheck;"
+90: Tag 1 Utf8 Value "getOutcome"
+91: Tag 1 Utf8 Value "()Lorg/wildfly/extension/health/ServerProbe$Outcome;"
+92: Tag 1 Utf8 Value "data"
+93: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+94: Tag 1 Utf8 Value "response"
+95: Tag 1 Utf8 Value "Ljava/lang/String;"
+96: Tag 1 Utf8 Value "StackMapTable"
+97: Tag 1 Utf8 Value "getName"
+98: Tag 1 Utf8 Value "SourceFile"
+99: Tag 1 Utf8 Value "ServerProbes.java"
+100: Tag 1 Utf8 Value "InnerClasses"
+101: Tag 1 Utf8 Value "ServerStateCheck"
+102: Tag 1 Utf8 Value "Outcome"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 10, name org.wildfly.extension.health.ServerProbes$ServerStateCheck
+
+Super class: id 4, name java.lang.Object
+
+Implements class ids 82
+Implements names org.wildfly.extension.health.ServerProbe
+
+Field name modelControllerClient (index 13), type Lorg/jboss/as/controller/LocalModelControllerClient; (descriptor index 14)
+Human type: org.jboss.as.controller.LocalModelControllerClient
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 7), type (Lorg/jboss/as/controller/LocalModelControllerClient;)V (descriptor index 84)
+Human type: (org.jboss.as.controller.LocalModelControllerClient): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name getOutcome (index 90), type ()Lorg/wildfly/extension/health/ServerProbe$Outcome; (descriptor index 91)
+Human type: (): org.wildfly.extension.health.ServerProbe$Outcome
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 299
+Method name getName (index 97), type ()Ljava/lang/String; (descriptor index 40)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

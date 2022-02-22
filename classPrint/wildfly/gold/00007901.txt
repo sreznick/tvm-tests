@@ -1,0 +1,317 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 225
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/service/CreateDestroyService"
+5: Tag 1 Utf8 Value "destroyMethod"
+6: Tag 1 Utf8 Value "Ljava/lang/reflect/Method;"
+7: Tag 10 MethodRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "uninjectDependencies"
+10: Tag 1 Utf8 Value "()V"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "managedReference"
+14: Tag 1 Utf8 Value "Lorg/jboss/as/naming/ManagedReference;"
+15: Tag 9 FieldRef Class index 2, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "componentInstantiator"
+18: Tag 1 Utf8 Value "Lorg/jboss/as/service/component/ServiceComponentInstantiator;"
+19: Tag 9 FieldRef Class index 2, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 6
+21: Tag 1 Utf8 Value "createMethod"
+22: Tag 10 MethodRef Class index 2, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 10
+24: Tag 1 Utf8 Value "injectDependencies"
+25: Tag 10 MethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/service/AbstractService"
+29: Tag 1 Utf8 Value "<init>"
+30: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/util/List;Ljava/lang/ClassLoader;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "java/util/HashMap"
+33: Tag 10 MethodRef Class index 31, Name and type index 34
+34: Tag 12 NameAndType Name index 29, Description index 10
+35: Tag 9 FieldRef Class index 2, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "injections"
+38: Tag 1 Utf8 Value "Ljava/util/Map;"
+39: Tag 10 MethodRef Class index 26, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "start"
+42: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+43: Tag 9 FieldRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/jboss/as/service/logging/SarLogger"
+47: Tag 1 Utf8 Value "ROOT_LOGGER"
+48: Tag 1 Utf8 Value "Lorg/jboss/as/service/logging/SarLogger;"
+49: Tag 11 InterfaceMethodRef Class index 44, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "isTraceEnabled"
+52: Tag 1 Utf8 Value "()Z"
+53: Tag 8 String Contents 54
+54: Tag 1 Utf8 Value "Creating Service: %s"
+55: Tag 11 InterfaceMethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+59: Tag 1 Utf8 Value "getController"
+60: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+61: Tag 11 InterfaceMethodRef Class index 62, Name and type index 63
+62: Tag 7 Class Name index 64
+63: Tag 12 NameAndType Name index 65, Description index 66
+64: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+65: Tag 1 Utf8 Value "getName"
+66: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+67: Tag 11 InterfaceMethodRef Class index 44, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "tracef"
+70: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+71: Tag 7 Class Name index 72
+72: Tag 1 Utf8 Value "org/jboss/as/service/CreateDestroyService$1"
+73: Tag 10 MethodRef Class index 71, Name and type index 74
+74: Tag 12 NameAndType Name index 29, Description index 75
+75: Tag 1 Utf8 Value "(Lorg/jboss/as/service/CreateDestroyService;Lorg/jboss/msc/service/StartContext;)V"
+76: Tag 9 FieldRef Class index 2, Name and type index 77
+77: Tag 12 NameAndType Name index 78, Description index 79
+78: Tag 1 Utf8 Value "executorSupplier"
+79: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+80: Tag 11 InterfaceMethodRef Class index 81, Name and type index 82
+81: Tag 7 Class Name index 83
+82: Tag 12 NameAndType Name index 84, Description index 85
+83: Tag 1 Utf8 Value "java/util/function/Supplier"
+84: Tag 1 Utf8 Value "get"
+85: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "java/util/concurrent/ExecutorService"
+88: Tag 11 InterfaceMethodRef Class index 86, Name and type index 89
+89: Tag 12 NameAndType Name index 90, Description index 91
+90: Tag 1 Utf8 Value "submit"
+91: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;"
+92: Tag 11 InterfaceMethodRef Class index 56, Name and type index 93
+93: Tag 12 NameAndType Name index 94, Description index 10
+94: Tag 1 Utf8 Value "asynchronous"
+95: Tag 7 Class Name index 96
+96: Tag 1 Utf8 Value "java/util/concurrent/RejectedExecutionException"
+97: Tag 11 InterfaceMethodRef Class index 98, Name and type index 99
+98: Tag 7 Class Name index 100
+99: Tag 12 NameAndType Name index 101, Description index 10
+100: Tag 1 Utf8 Value "java/lang/Runnable"
+101: Tag 1 Utf8 Value "run"
+102: Tag 10 MethodRef Class index 26, Name and type index 103
+103: Tag 12 NameAndType Name index 104, Description index 105
+104: Tag 1 Utf8 Value "stop"
+105: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+106: Tag 8 String Contents 107
+107: Tag 1 Utf8 Value "Destroying Service: %s"
+108: Tag 11 InterfaceMethodRef Class index 109, Name and type index 57
+109: Tag 7 Class Name index 110
+110: Tag 1 Utf8 Value "org/jboss/msc/service/StopContext"
+111: Tag 7 Class Name index 112
+112: Tag 1 Utf8 Value "org/jboss/as/service/CreateDestroyService$2"
+113: Tag 10 MethodRef Class index 111, Name and type index 114
+114: Tag 12 NameAndType Name index 29, Description index 115
+115: Tag 1 Utf8 Value "(Lorg/jboss/as/service/CreateDestroyService;Lorg/jboss/msc/service/StopContext;)V"
+116: Tag 11 InterfaceMethodRef Class index 109, Name and type index 93
+117: Tag 11 InterfaceMethodRef Class index 118, Name and type index 119
+118: Tag 7 Class Name index 120
+119: Tag 12 NameAndType Name index 121, Description index 122
+120: Tag 1 Utf8 Value "java/util/Map"
+121: Tag 1 Utf8 Value "put"
+122: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+123: Tag 11 InterfaceMethodRef Class index 118, Name and type index 124
+124: Tag 12 NameAndType Name index 125, Description index 126
+125: Tag 1 Utf8 Value "entrySet"
+126: Tag 1 Utf8 Value "()Ljava/util/Set;"
+127: Tag 11 InterfaceMethodRef Class index 128, Name and type index 129
+128: Tag 7 Class Name index 130
+129: Tag 12 NameAndType Name index 131, Description index 132
+130: Tag 1 Utf8 Value "java/util/Set"
+131: Tag 1 Utf8 Value "iterator"
+132: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+133: Tag 11 InterfaceMethodRef Class index 134, Name and type index 135
+134: Tag 7 Class Name index 136
+135: Tag 12 NameAndType Name index 137, Description index 52
+136: Tag 1 Utf8 Value "java/util/Iterator"
+137: Tag 1 Utf8 Value "hasNext"
+138: Tag 11 InterfaceMethodRef Class index 134, Name and type index 139
+139: Tag 12 NameAndType Name index 140, Description index 85
+140: Tag 1 Utf8 Value "next"
+141: Tag 7 Class Name index 142
+142: Tag 1 Utf8 Value "java/util/Map$Entry"
+143: Tag 11 InterfaceMethodRef Class index 141, Name and type index 144
+144: Tag 12 NameAndType Name index 145, Description index 85
+145: Tag 1 Utf8 Value "getKey"
+146: Tag 7 Class Name index 147
+147: Tag 1 Utf8 Value "java/lang/reflect/Method"
+148: Tag 11 InterfaceMethodRef Class index 141, Name and type index 149
+149: Tag 12 NameAndType Name index 150, Description index 85
+150: Tag 1 Utf8 Value "getValue"
+151: Tag 9 FieldRef Class index 2, Name and type index 152
+152: Tag 12 NameAndType Name index 153, Description index 154
+153: Tag 1 Utf8 Value "mBeanInstance"
+154: Tag 1 Utf8 Value "Ljava/lang/Object;"
+155: Tag 7 Class Name index 156
+156: Tag 1 Utf8 Value "java/lang/Object"
+157: Tag 10 MethodRef Class index 146, Name and type index 158
+158: Tag 12 NameAndType Name index 159, Description index 160
+159: Tag 1 Utf8 Value "invoke"
+160: Tag 1 Utf8 Value "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+161: Tag 7 Class Name index 162
+162: Tag 1 Utf8 Value "[Ljava/lang/Object;"
+163: Tag 7 Class Name index 164
+164: Tag 1 Utf8 Value "java/lang/Throwable"
+165: Tag 1 Utf8 Value "Signature"
+166: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/reflect/Method;Ljava/util/function/Supplier<Ljava/lang/Object;>;>;"
+167: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Lorg/jboss/as/service/component/ServiceComponentInstantiator;Ljava/util/List;Ljava/lang/ClassLoader;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V"
+168: Tag 1 Utf8 Value "Code"
+169: Tag 1 Utf8 Value "LineNumberTable"
+170: Tag 1 Utf8 Value "LocalVariableTable"
+171: Tag 1 Utf8 Value "this"
+172: Tag 1 Utf8 Value "Lorg/jboss/as/service/CreateDestroyService;"
+173: Tag 1 Utf8 Value "setupActions"
+174: Tag 1 Utf8 Value "Ljava/util/List;"
+175: Tag 1 Utf8 Value "mbeanContextClassLoader"
+176: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+177: Tag 1 Utf8 Value "mBeanInstanceConsumer"
+178: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+179: Tag 1 Utf8 Value "LocalVariableTypeTable"
+180: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;"
+181: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Ljava/lang/Object;>;"
+182: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Ljava/util/concurrent/ExecutorService;>;"
+183: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Lorg/jboss/as/service/component/ServiceComponentInstantiator;Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;Ljava/lang/ClassLoader;Ljava/util/function/Consumer<Ljava/lang/Object;>;Ljava/util/function/Supplier<Ljava/util/concurrent/ExecutorService;>;)V"
+184: Tag 1 Utf8 Value "e"
+185: Tag 1 Utf8 Value "Ljava/util/concurrent/RejectedExecutionException;"
+186: Tag 1 Utf8 Value "context"
+187: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+188: Tag 1 Utf8 Value "task"
+189: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+190: Tag 1 Utf8 Value "StackMapTable"
+191: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+192: Tag 1 Utf8 Value "inject"
+193: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;Ljava/util/function/Supplier;)V"
+194: Tag 1 Utf8 Value "setter"
+195: Tag 1 Utf8 Value "injectionSupplier"
+196: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Ljava/lang/Object;>;"
+197: Tag 1 Utf8 Value "(Ljava/lang/reflect/Method;Ljava/util/function/Supplier<Ljava/lang/Object;>;)V"
+198: Tag 1 Utf8 Value "injection"
+199: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+200: Tag 1 Utf8 Value "arg"
+201: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Ljava/lang/reflect/Method;Ljava/util/function/Supplier<Ljava/lang/Object;>;>;"
+202: Tag 1 Utf8 Value "Exceptions"
+203: Tag 7 Class Name index 204
+204: Tag 1 Utf8 Value "java/lang/IllegalAccessException"
+205: Tag 7 Class Name index 206
+206: Tag 1 Utf8 Value "java/lang/reflect/InvocationTargetException"
+207: Tag 1 Utf8 Value "access$000"
+208: Tag 1 Utf8 Value "(Lorg/jboss/as/service/CreateDestroyService;)V"
+209: Tag 1 Utf8 Value "x0"
+210: Tag 1 Utf8 Value "access$100"
+211: Tag 1 Utf8 Value "(Lorg/jboss/as/service/CreateDestroyService;)Ljava/lang/reflect/Method;"
+212: Tag 1 Utf8 Value "access$200"
+213: Tag 1 Utf8 Value "(Lorg/jboss/as/service/CreateDestroyService;)Lorg/jboss/as/service/component/ServiceComponentInstantiator;"
+214: Tag 1 Utf8 Value "access$302"
+215: Tag 1 Utf8 Value "(Lorg/jboss/as/service/CreateDestroyService;Lorg/jboss/as/naming/ManagedReference;)Lorg/jboss/as/naming/ManagedReference;"
+216: Tag 1 Utf8 Value "x1"
+217: Tag 1 Utf8 Value "access$400"
+218: Tag 1 Utf8 Value "access$300"
+219: Tag 1 Utf8 Value "(Lorg/jboss/as/service/CreateDestroyService;)Lorg/jboss/as/naming/ManagedReference;"
+220: Tag 1 Utf8 Value "access$500"
+221: Tag 1 Utf8 Value "SourceFile"
+222: Tag 1 Utf8 Value "CreateDestroyService.java"
+223: Tag 1 Utf8 Value "InnerClasses"
+224: Tag 1 Utf8 Value "Entry"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 2, name org.jboss.as.service.CreateDestroyService
+
+Super class: id 26, name org.jboss.as.service.AbstractService
+
+No interfaces
+
+Field name createMethod (index 21), type Ljava/lang/reflect/Method; (descriptor index 6)
+Human type: java.lang.reflect.Method
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name destroyMethod (index 5), type Ljava/lang/reflect/Method; (descriptor index 6)
+Human type: java.lang.reflect.Method
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name componentInstantiator (index 17), type Lorg/jboss/as/service/component/ServiceComponentInstantiator; (descriptor index 18)
+Human type: org.jboss.as.service.component.ServiceComponentInstantiator
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name injections (index 37), type Ljava/util/Map; (descriptor index 38)
+Human type: java.util.Map
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name managedReference (index 13), type Lorg/jboss/as/naming/ManagedReference; (descriptor index 14)
+Human type: org.jboss.as.naming.ManagedReference
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 29), type (Ljava/lang/Object;Ljava/lang/reflect/Method;Ljava/lang/reflect/Method;Lorg/jboss/as/service/component/ServiceComponentInstantiator;Ljava/util/List;Ljava/lang/ClassLoader;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V (descriptor index 167)
+Human type: (java.lang.Object, java.lang.reflect.Method, java.lang.reflect.Method, org.jboss.as.service.component.ServiceComponentInstantiator, java.util.List, java.lang.ClassLoader, java.util.function.Consumer, java.util.function.Supplier): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 221
+Method attribute name Signature, size 2
+Method name start (index 41), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 42)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 292
+Method name stop (index 104), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 105)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 292
+Method name inject (index 192), type (Ljava/lang/reflect/Method;Ljava/util/function/Supplier;)V (descriptor index 193)
+Human type: (java.lang.reflect.Method, java.util.function.Supplier): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 97
+Method attribute name Signature, size 2
+Method name injectDependencies (index 24), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 212
+Method attribute name Exceptions, size 6
+Method name uninjectDependencies (index 9), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 215
+Method name access$000 (index 207), type (Lorg/jboss/as/service/CreateDestroyService;)V (descriptor index 208)
+Human type: (org.jboss.as.service.CreateDestroyService): void
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name access$100 (index 210), type (Lorg/jboss/as/service/CreateDestroyService;)Ljava/lang/reflect/Method; (descriptor index 211)
+Human type: (org.jboss.as.service.CreateDestroyService): java.lang.reflect.Method
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$200 (index 212), type (Lorg/jboss/as/service/CreateDestroyService;)Lorg/jboss/as/service/component/ServiceComponentInstantiator; (descriptor index 213)
+Human type: (org.jboss.as.service.CreateDestroyService): org.jboss.as.service.component.ServiceComponentInstantiator
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$302 (index 214), type (Lorg/jboss/as/service/CreateDestroyService;Lorg/jboss/as/naming/ManagedReference;)Lorg/jboss/as/naming/ManagedReference; (descriptor index 215)
+Human type: (org.jboss.as.service.CreateDestroyService, org.jboss.as.naming.ManagedReference): org.jboss.as.naming.ManagedReference
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 59
+Method name access$400 (index 217), type (Lorg/jboss/as/service/CreateDestroyService;)V (descriptor index 208)
+Human type: (org.jboss.as.service.CreateDestroyService): void
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$300 (index 218), type (Lorg/jboss/as/service/CreateDestroyService;)Lorg/jboss/as/naming/ManagedReference; (descriptor index 219)
+Human type: (org.jboss.as.service.CreateDestroyService): org.jboss.as.naming.ManagedReference
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$500 (index 220), type (Lorg/jboss/as/service/CreateDestroyService;)Ljava/lang/reflect/Method; (descriptor index 211)
+Human type: (org.jboss.as.service.CreateDestroyService): java.lang.reflect.Method
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 26

@@ -1,0 +1,140 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 101
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/as/ejb3/component/stateful/SerializedCdiInterceptorsKey"
+9: Tag 11 InterfaceMethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentInstance"
+13: Tag 1 Utf8 Value "getInstanceData"
+14: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "org/jboss/as/weld/interceptors/WeldInterceptorInstances"
+17: Tag 11 InterfaceMethodRef Class index 10, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 20
+19: Tag 1 Utf8 Value "setInstanceData"
+20: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+21: Tag 7 Class Name index 22
+22: Tag 1 Utf8 Value "org/jboss/as/weld/ejb/DelegatingInterceptorInvocationContext"
+23: Tag 10 MethodRef Class index 21, Name and type index 24
+24: Tag 12 NameAndType Name index 5, Description index 25
+25: Tag 1 Utf8 Value "(Ljavax/interceptor/InvocationContext;Ljava/util/List;Ljava/util/List;Ljavax/enterprise/inject/spi/InterceptionType;)V"
+26: Tag 10 MethodRef Class index 21, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "proceed"
+29: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+30: Tag 11 InterfaceMethodRef Class index 31, Name and type index 32
+31: Tag 7 Class Name index 33
+32: Tag 12 NameAndType Name index 34, Description index 35
+33: Tag 1 Utf8 Value "org/jboss/weld/manager/api/WeldManager"
+34: Tag 1 Utf8 Value "getServices"
+35: Tag 1 Utf8 Value "()Lorg/jboss/weld/bootstrap/api/ServiceRegistry;"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "org/jboss/weld/ejb/spi/EjbServices"
+38: Tag 11 InterfaceMethodRef Class index 39, Name and type index 40
+39: Tag 7 Class Name index 41
+40: Tag 12 NameAndType Name index 42, Description index 43
+41: Tag 1 Utf8 Value "org/jboss/weld/bootstrap/api/ServiceRegistry"
+42: Tag 1 Utf8 Value "get"
+43: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/weld/bootstrap/api/Service;"
+44: Tag 7 Class Name index 45
+45: Tag 1 Utf8 Value "org/jboss/weld/ejb/spi/helpers/ForwardingEjbServices"
+46: Tag 10 MethodRef Class index 44, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "delegate"
+49: Tag 1 Utf8 Value "()Lorg/jboss/weld/ejb/spi/EjbServices;"
+50: Tag 7 Class Name index 51
+51: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldEjbServices"
+52: Tag 10 MethodRef Class index 50, Name and type index 53
+53: Tag 12 NameAndType Name index 54, Description index 55
+54: Tag 1 Utf8 Value "getBindings"
+55: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/weld/ejb/spi/InterceptorBindings;"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "org/jboss/as/weld/interceptors/EjbComponentInterceptorSupport"
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "org/jboss/as/weld/spi/ComponentInterceptorSupport"
+60: Tag 1 Utf8 Value "Code"
+61: Tag 1 Utf8 Value "LineNumberTable"
+62: Tag 1 Utf8 Value "LocalVariableTable"
+63: Tag 1 Utf8 Value "this"
+64: Tag 1 Utf8 Value "Lorg/jboss/as/weld/interceptors/EjbComponentInterceptorSupport;"
+65: Tag 1 Utf8 Value "getInterceptorInstances"
+66: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentInstance;)Lorg/jboss/as/weld/spi/InterceptorInstances;"
+67: Tag 1 Utf8 Value "componentInstance"
+68: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentInstance;"
+69: Tag 1 Utf8 Value "setInterceptorInstances"
+70: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentInstance;Lorg/jboss/as/weld/spi/InterceptorInstances;)V"
+71: Tag 1 Utf8 Value "interceptorInstances"
+72: Tag 1 Utf8 Value "Lorg/jboss/as/weld/spi/InterceptorInstances;"
+73: Tag 1 Utf8 Value "delegateInterception"
+74: Tag 1 Utf8 Value "(Ljavax/interceptor/InvocationContext;Ljavax/enterprise/inject/spi/InterceptionType;Ljava/util/List;Ljava/util/List;)Ljava/lang/Object;"
+75: Tag 1 Utf8 Value "invocationContext"
+76: Tag 1 Utf8 Value "Ljavax/interceptor/InvocationContext;"
+77: Tag 1 Utf8 Value "interceptionType"
+78: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/InterceptionType;"
+79: Tag 1 Utf8 Value "currentInterceptors"
+80: Tag 1 Utf8 Value "Ljava/util/List;"
+81: Tag 1 Utf8 Value "currentInterceptorInstances"
+82: Tag 1 Utf8 Value "LocalVariableTypeTable"
+83: Tag 1 Utf8 Value "Ljava/util/List<Ljavax/enterprise/inject/spi/Interceptor<*>;>;"
+84: Tag 1 Utf8 Value "Ljava/util/List<Ljava/lang/Object;>;"
+85: Tag 1 Utf8 Value "Exceptions"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "java/lang/Exception"
+88: Tag 1 Utf8 Value "Signature"
+89: Tag 1 Utf8 Value "(Ljavax/interceptor/InvocationContext;Ljavax/enterprise/inject/spi/InterceptionType;Ljava/util/List<Ljavax/enterprise/inject/spi/Interceptor<*>;>;Ljava/util/List<Ljava/lang/Object;>;)Ljava/lang/Object;"
+90: Tag 1 Utf8 Value "getInterceptorBindings"
+91: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/weld/manager/api/WeldManager;)Lorg/jboss/weld/ejb/spi/InterceptorBindings;"
+92: Tag 1 Utf8 Value "ejbName"
+93: Tag 1 Utf8 Value "Ljava/lang/String;"
+94: Tag 1 Utf8 Value "manager"
+95: Tag 1 Utf8 Value "Lorg/jboss/weld/manager/api/WeldManager;"
+96: Tag 1 Utf8 Value "ejbServices"
+97: Tag 1 Utf8 Value "Lorg/jboss/weld/ejb/spi/EjbServices;"
+98: Tag 1 Utf8 Value "StackMapTable"
+99: Tag 1 Utf8 Value "SourceFile"
+100: Tag 1 Utf8 Value "EjbComponentInterceptorSupport.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 56, name org.jboss.as.weld.interceptors.EjbComponentInterceptorSupport
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 58
+Implements names org.jboss.as.weld.spi.ComponentInterceptorSupport
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getInterceptorInstances (index 65), type (Lorg/jboss/as/ee/component/ComponentInstance;)Lorg/jboss/as/weld/spi/InterceptorInstances; (descriptor index 66)
+Human type: (org.jboss.as.ee.component.ComponentInstance): org.jboss.as.weld.spi.InterceptorInstances
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 64
+Method name setInterceptorInstances (index 69), type (Lorg/jboss/as/ee/component/ComponentInstance;Lorg/jboss/as/weld/spi/InterceptorInstances;)V (descriptor index 70)
+Human type: (org.jboss.as.ee.component.ComponentInstance, org.jboss.as.weld.spi.InterceptorInstances): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 76
+Method name delegateInterception (index 73), type (Ljavax/interceptor/InvocationContext;Ljavax/enterprise/inject/spi/InterceptionType;Ljava/util/List;Ljava/util/List;)Ljava/lang/Object; (descriptor index 74)
+Human type: (javax.interceptor.InvocationContext, javax.enterprise.inject.spi.InterceptionType, java.util.List, java.util.List): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 126
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name getInterceptorBindings (index 90), type (Ljava/lang/String;Lorg/jboss/weld/manager/api/WeldManager;)Lorg/jboss/weld/ejb/spi/InterceptorBindings; (descriptor index 91)
+Human type: (java.lang.String, org.jboss.weld.manager.api.WeldManager): org.jboss.weld.ejb.spi.InterceptorBindings
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 157
+
+Class attribute name SourceFile, size 2

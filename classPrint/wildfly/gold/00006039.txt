@@ -1,0 +1,117 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 78
+1: Tag 8 String Contents 49
+2: Tag 10 MethodRef Class index 18, Name and type index 50
+3: Tag 7 Class Name index 51
+4: Tag 7 Class Name index 52
+5: Tag 10 MethodRef Class index 4, Name and type index 53
+6: Tag 7 Class Name index 54
+7: Tag 10 MethodRef Class index 6, Name and type index 53
+8: Tag 10 MethodRef Class index 55, Name and type index 56
+9: Tag 10 MethodRef Class index 4, Name and type index 57
+10: Tag 10 MethodRef Class index 3, Name and type index 58
+11: Tag 10 MethodRef Class index 3, Name and type index 59
+12: Tag 7 Class Name index 60
+13: Tag 10 MethodRef Class index 12, Name and type index 53
+14: Tag 10 MethodRef Class index 18, Name and type index 61
+15: Tag 7 Class Name index 62
+16: Tag 10 MethodRef Class index 15, Name and type index 53
+17: Tag 9 FieldRef Class index 15, Name and type index 63
+18: Tag 7 Class Name index 64
+19: Tag 1 Utf8 Value "INSTANCE"
+20: Tag 1 Utf8 Value "Lorg/wildfly/extension/undertow/filters/GzipFilter;"
+21: Tag 1 Utf8 Value "<init>"
+22: Tag 1 Utf8 Value "()V"
+23: Tag 1 Utf8 Value "Code"
+24: Tag 1 Utf8 Value "LineNumberTable"
+25: Tag 1 Utf8 Value "LocalVariableTable"
+26: Tag 1 Utf8 Value "this"
+27: Tag 1 Utf8 Value "createHttpHandler"
+28: Tag 1 Utf8 Value "(Lio/undertow/predicate/Predicate;Lorg/jboss/dmr/ModelNode;Lio/undertow/server/HttpHandler;)Lio/undertow/server/HttpHandler;"
+29: Tag 1 Utf8 Value "predicate"
+30: Tag 1 Utf8 Value "Lio/undertow/predicate/Predicate;"
+31: Tag 1 Utf8 Value "model"
+32: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+33: Tag 1 Utf8 Value "next"
+34: Tag 1 Utf8 Value "Lio/undertow/server/HttpHandler;"
+35: Tag 1 Utf8 Value "encodingHandler"
+36: Tag 1 Utf8 Value "Lio/undertow/server/handlers/encoding/EncodingHandler;"
+37: Tag 1 Utf8 Value "StackMapTable"
+38: Tag 7 Class Name index 65
+39: Tag 7 Class Name index 66
+40: Tag 7 Class Name index 67
+41: Tag 7 Class Name index 68
+42: Tag 1 Utf8 Value "getConstructorSignature"
+43: Tag 1 Utf8 Value "()[Ljava/lang/Class;"
+44: Tag 1 Utf8 Value "registerOperations"
+45: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+46: Tag 1 Utf8 Value "<clinit>"
+47: Tag 1 Utf8 Value "SourceFile"
+48: Tag 1 Utf8 Value "GzipFilter.java"
+49: Tag 1 Utf8 Value "gzip"
+50: Tag 12 NameAndType Name index 21, Description index 69
+51: Tag 1 Utf8 Value "io/undertow/server/handlers/encoding/EncodingHandler"
+52: Tag 1 Utf8 Value "io/undertow/server/handlers/encoding/ContentEncodingRepository"
+53: Tag 12 NameAndType Name index 21, Description index 22
+54: Tag 1 Utf8 Value "io/undertow/server/handlers/encoding/GzipEncodingProvider"
+55: Tag 7 Class Name index 70
+56: Tag 12 NameAndType Name index 71, Description index 72
+57: Tag 12 NameAndType Name index 73, Description index 74
+58: Tag 12 NameAndType Name index 21, Description index 75
+59: Tag 12 NameAndType Name index 76, Description index 77
+60: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+61: Tag 12 NameAndType Name index 44, Description index 45
+62: Tag 1 Utf8 Value "org/wildfly/extension/undertow/filters/GzipFilter"
+63: Tag 12 NameAndType Name index 19, Description index 20
+64: Tag 1 Utf8 Value "org/wildfly/extension/undertow/filters/Filter"
+65: Tag 1 Utf8 Value "io/undertow/predicate/Predicate"
+66: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+67: Tag 1 Utf8 Value "io/undertow/server/HttpHandler"
+68: Tag 1 Utf8 Value "java/lang/String"
+69: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+70: Tag 1 Utf8 Value "io/undertow/predicate/Predicates"
+71: Tag 1 Utf8 Value "truePredicate"
+72: Tag 1 Utf8 Value "()Lio/undertow/predicate/Predicate;"
+73: Tag 1 Utf8 Value "addEncodingHandler"
+74: Tag 1 Utf8 Value "(Ljava/lang/String;Lio/undertow/server/handlers/encoding/ContentEncodingProvider;ILio/undertow/predicate/Predicate;)Lio/undertow/server/handlers/encoding/ContentEncodingRepository;"
+75: Tag 1 Utf8 Value "(Lio/undertow/server/handlers/encoding/ContentEncodingRepository;)V"
+76: Tag 1 Utf8 Value "setNext"
+77: Tag 1 Utf8 Value "(Lio/undertow/server/HttpHandler;)Lio/undertow/server/handlers/encoding/EncodingHandler;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 15, name org.wildfly.extension.undertow.filters.GzipFilter
+
+Super class: id 18, name org.wildfly.extension.undertow.filters.Filter
+
+No interfaces
+
+Field name INSTANCE (index 19), type Lorg/wildfly/extension/undertow/filters/GzipFilter; (descriptor index 20)
+Human type: org.wildfly.extension.undertow.filters.GzipFilter
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 21), type ()V (descriptor index 22)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 53
+Method name createHttpHandler (index 27), type (Lio/undertow/predicate/Predicate;Lorg/jboss/dmr/ModelNode;Lio/undertow/server/HttpHandler;)Lio/undertow/server/HttpHandler; (descriptor index 28)
+Human type: (io.undertow.predicate.Predicate, org.jboss.dmr.ModelNode, io.undertow.server.HttpHandler): io.undertow.server.HttpHandler
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 226
+Method name getConstructorSignature (index 42), type ()[Ljava/lang/Class; (descriptor index 43)
+Human type: (): java.lang.Class[]
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 50
+Method name registerOperations (index 44), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 45)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method name <clinit> (index 46), type ()V (descriptor index 22)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2

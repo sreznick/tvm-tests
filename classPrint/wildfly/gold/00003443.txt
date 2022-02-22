@@ -1,0 +1,98 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 55
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/session/UndertowSpecificationProvider$4"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/session/UndertowSpecificationProvider;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$prePassivate"
+10: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 10
+13: Tag 1 Utf8 Value "val$postActivate"
+14: Tag 10 MethodRef Class index 15, Name and type index 16
+15: Tag 7 Class Name index 17
+16: Tag 12 NameAndType Name index 18, Description index 19
+17: Tag 1 Utf8 Value "java/lang/Object"
+18: Tag 1 Utf8 Value "<init>"
+19: Tag 1 Utf8 Value "()V"
+20: Tag 10 MethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "javax/servlet/http/HttpSessionEvent"
+24: Tag 1 Utf8 Value "getSession"
+25: Tag 1 Utf8 Value "()Ljavax/servlet/http/HttpSession;"
+26: Tag 11 InterfaceMethodRef Class index 27, Name and type index 28
+27: Tag 7 Class Name index 29
+28: Tag 12 NameAndType Name index 30, Description index 31
+29: Tag 1 Utf8 Value "java/util/function/Consumer"
+30: Tag 1 Utf8 Value "accept"
+31: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+32: Tag 7 Class Name index 33
+33: Tag 1 Utf8 Value "javax/servlet/http/HttpSessionActivationListener"
+34: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/undertow/session/UndertowSpecificationProvider;Ljava/util/function/Consumer;Ljava/util/function/Consumer;)V"
+35: Tag 1 Utf8 Value "Code"
+36: Tag 1 Utf8 Value "LineNumberTable"
+37: Tag 1 Utf8 Value "LocalVariableTable"
+38: Tag 1 Utf8 Value "this"
+39: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/session/UndertowSpecificationProvider$4;"
+40: Tag 1 Utf8 Value "Signature"
+41: Tag 1 Utf8 Value "sessionWillPassivate"
+42: Tag 1 Utf8 Value "(Ljavax/servlet/http/HttpSessionEvent;)V"
+43: Tag 1 Utf8 Value "event"
+44: Tag 1 Utf8 Value "Ljavax/servlet/http/HttpSessionEvent;"
+45: Tag 1 Utf8 Value "sessionDidActivate"
+46: Tag 1 Utf8 Value "SourceFile"
+47: Tag 1 Utf8 Value "UndertowSpecificationProvider.java"
+48: Tag 1 Utf8 Value "EnclosingMethod"
+49: Tag 7 Class Name index 50
+50: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/session/UndertowSpecificationProvider"
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "createListener"
+53: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;Ljava/util/function/Consumer;)Ljavax/servlet/http/HttpSessionActivationListener;"
+54: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.clustering.web.undertow.session.UndertowSpecificationProvider$4
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 32
+Implements names javax.servlet.http.HttpSessionActivationListener
+
+Field name val$prePassivate (index 9), type Ljava/util/function/Consumer; (descriptor index 10)
+Human type: java.util.function.Consumer
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$postActivate (index 13), type Ljava/util/function/Consumer; (descriptor index 10)
+Human type: java.util.function.Consumer
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/clustering/web/undertow/session/UndertowSpecificationProvider; (descriptor index 6)
+Human type: org.wildfly.clustering.web.undertow.session.UndertowSpecificationProvider
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 18), type (Lorg/wildfly/clustering/web/undertow/session/UndertowSpecificationProvider;Ljava/util/function/Consumer;Ljava/util/function/Consumer;)V (descriptor index 34)
+Human type: (org.wildfly.clustering.web.undertow.session.UndertowSpecificationProvider, java.util.function.Consumer, java.util.function.Consumer): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 72
+Method attribute name Signature, size 2
+Method name sessionWillPassivate (index 41), type (Ljavax/servlet/http/HttpSessionEvent;)V (descriptor index 42)
+Human type: (javax.servlet.http.HttpSessionEvent): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name sessionDidActivate (index 45), type (Ljavax/servlet/http/HttpSessionEvent;)V (descriptor index 42)
+Human type: (javax.servlet.http.HttpSessionEvent): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

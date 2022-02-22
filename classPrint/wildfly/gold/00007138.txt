@@ -1,0 +1,687 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 634
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldDeploymentProcessor"
+11: Tag 1 Utf8 Value "jtsEnabled"
+12: Tag 1 Utf8 Value "Z"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+17: Tag 1 Utf8 Value "getDeploymentUnit"
+18: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/weld/util/Utils"
+23: Tag 1 Utf8 Value "getRootDeploymentUnit"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/as/server/deployment/DeploymentUnit;"
+25: Tag 11 InterfaceMethodRef Class index 14, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "getServiceTarget"
+28: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+29: Tag 9 FieldRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+33: Tag 1 Utf8 Value "DEPLOYMENT_ROOT"
+34: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+35: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+39: Tag 1 Utf8 Value "getAttachment"
+40: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ResourceRoot"
+43: Tag 10 MethodRef Class index 44, Name and type index 45
+44: Tag 7 Class Name index 46
+45: Tag 12 NameAndType Name index 47, Description index 48
+46: Tag 1 Utf8 Value "org/jboss/as/weld/_private/WeldDeploymentMarker"
+47: Tag 1 Utf8 Value "isPartOfWeldDeployment"
+48: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+49: Tag 11 InterfaceMethodRef Class index 36, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 18
+51: Tag 1 Utf8 Value "getParent"
+52: Tag 10 MethodRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 56, Description index 48
+55: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/CdiAnnotationMarker"
+56: Tag 1 Utf8 Value "cdiAnnotationsPresent"
+57: Tag 9 FieldRef Class index 58, Name and type index 59
+58: Tag 7 Class Name index 60
+59: Tag 12 NameAndType Name index 61, Description index 62
+60: Tag 1 Utf8 Value "org/jboss/as/weld/logging/WeldLogger"
+61: Tag 1 Utf8 Value "DEPLOYMENT_LOGGER"
+62: Tag 1 Utf8 Value "Lorg/jboss/as/weld/logging/WeldLogger;"
+63: Tag 11 InterfaceMethodRef Class index 36, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "getName"
+66: Tag 1 Utf8 Value "()Ljava/lang/String;"
+67: Tag 11 InterfaceMethodRef Class index 58, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "cdiAnnotationsButNotBeanArchive"
+70: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+71: Tag 11 InterfaceMethodRef Class index 36, Name and type index 72
+72: Tag 12 NameAndType Name index 73, Description index 74
+73: Tag 1 Utf8 Value "getServiceName"
+74: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+75: Tag 9 FieldRef Class index 76, Name and type index 77
+76: Tag 7 Class Name index 78
+77: Tag 12 NameAndType Name index 79, Description index 80
+78: Tag 1 Utf8 Value "org/jboss/as/weld/WeldBootstrapService"
+79: Tag 1 Utf8 Value "SERVICE_NAME"
+80: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+81: Tag 10 MethodRef Class index 82, Name and type index 83
+82: Tag 7 Class Name index 84
+83: Tag 12 NameAndType Name index 85, Description index 86
+84: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+85: Tag 1 Utf8 Value "append"
+86: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceName;"
+87: Tag 9 FieldRef Class index 76, Name and type index 88
+88: Tag 12 NameAndType Name index 89, Description index 80
+89: Tag 1 Utf8 Value "INTERNAL_SERVICE_NAME"
+90: Tag 9 FieldRef Class index 91, Name and type index 77
+91: Tag 7 Class Name index 92
+92: Tag 1 Utf8 Value "org/jboss/as/weld/WeldStartService"
+93: Tag 9 FieldRef Class index 30, Name and type index 94
+94: Tag 12 NameAndType Name index 95, Description index 34
+95: Tag 1 Utf8 Value "WEB_DEPENDENCIES"
+96: Tag 11 InterfaceMethodRef Class index 36, Name and type index 97
+97: Tag 12 NameAndType Name index 98, Description index 99
+98: Tag 1 Utf8 Value "addToAttachmentList"
+99: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)V"
+100: Tag 7 Class Name index 101
+101: Tag 1 Utf8 Value "java/util/HashSet"
+102: Tag 10 MethodRef Class index 100, Name and type index 3
+103: Tag 11 InterfaceMethodRef Class index 58, Name and type index 104
+104: Tag 12 NameAndType Name index 105, Description index 70
+105: Tag 1 Utf8 Value "startingServicesForCDIDeployment"
+106: Tag 9 FieldRef Class index 30, Name and type index 107
+107: Tag 12 NameAndType Name index 108, Description index 34
+108: Tag 1 Utf8 Value "MODULE"
+109: Tag 7 Class Name index 110
+110: Tag 1 Utf8 Value "org/jboss/modules/Module"
+111: Tag 9 FieldRef Class index 30, Name and type index 112
+112: Tag 12 NameAndType Name index 113, Description index 34
+113: Tag 1 Utf8 Value "MODULE_SPECIFICATION"
+114: Tag 7 Class Name index 115
+115: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ModuleSpecification"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "java/util/HashMap"
+118: Tag 10 MethodRef Class index 116, Name and type index 3
+119: Tag 9 FieldRef Class index 120, Name and type index 121
+120: Tag 7 Class Name index 122
+121: Tag 12 NameAndType Name index 123, Description index 34
+122: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/WeldAttachments"
+123: Tag 1 Utf8 Value "BEAN_DEPLOYMENT_MODULE"
+124: Tag 7 Class Name index 125
+125: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/BeanDeploymentModule"
+126: Tag 10 MethodRef Class index 109, Name and type index 127
+127: Tag 12 NameAndType Name index 128, Description index 129
+128: Tag 1 Utf8 Value "getIdentifier"
+129: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleIdentifier;"
+130: Tag 10 MethodRef Class index 124, Name and type index 131
+131: Tag 12 NameAndType Name index 132, Description index 133
+132: Tag 1 Utf8 Value "getModuleDescriptor"
+133: Tag 1 Utf8 Value "()Lorg/jboss/weld/bootstrap/spi/EEModuleDescriptor;"
+134: Tag 10 MethodRef Class index 20, Name and type index 135
+135: Tag 12 NameAndType Name index 136, Description index 137
+136: Tag 1 Utf8 Value "putIfValueNotNull"
+137: Tag 1 Utf8 Value "(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;)V"
+138: Tag 11 InterfaceMethodRef Class index 139, Name and type index 140
+139: Tag 7 Class Name index 141
+140: Tag 12 NameAndType Name index 142, Description index 143
+141: Tag 1 Utf8 Value "java/util/Map"
+142: Tag 1 Utf8 Value "put"
+143: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+144: Tag 10 MethodRef Class index 124, Name and type index 145
+145: Tag 12 NameAndType Name index 146, Description index 147
+146: Tag 1 Utf8 Value "getBeanDeploymentArchives"
+147: Tag 1 Utf8 Value "()Ljava/util/Set;"
+148: Tag 11 InterfaceMethodRef Class index 149, Name and type index 150
+149: Tag 7 Class Name index 151
+150: Tag 12 NameAndType Name index 152, Description index 153
+151: Tag 1 Utf8 Value "java/util/Set"
+152: Tag 1 Utf8 Value "addAll"
+153: Tag 1 Utf8 Value "(Ljava/util/Collection;)Z"
+154: Tag 9 FieldRef Class index 30, Name and type index 155
+155: Tag 12 NameAndType Name index 156, Description index 34
+156: Tag 1 Utf8 Value "SUB_DEPLOYMENTS"
+157: Tag 11 InterfaceMethodRef Class index 36, Name and type index 158
+158: Tag 12 NameAndType Name index 159, Description index 160
+159: Tag 1 Utf8 Value "getAttachmentList"
+160: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/util/List;"
+161: Tag 7 Class Name index 162
+162: Tag 1 Utf8 Value "org/jboss/as/weld/spi/DeploymentUnitDependenciesProvider"
+163: Tag 10 MethodRef Class index 164, Name and type index 165
+164: Tag 7 Class Name index 166
+165: Tag 12 NameAndType Name index 167, Description index 168
+166: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+167: Tag 1 Utf8 Value "getClassLoaderPrivileged"
+168: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/ClassLoader;"
+169: Tag 10 MethodRef Class index 170, Name and type index 171
+170: Tag 7 Class Name index 172
+171: Tag 12 NameAndType Name index 173, Description index 174
+172: Tag 1 Utf8 Value "java/util/ServiceLoader"
+173: Tag 1 Utf8 Value "load"
+174: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;"
+175: Tag 7 Class Name index 176
+176: Tag 1 Utf8 Value "org/jboss/as/weld/spi/ModuleServicesProvider"
+177: Tag 10 MethodRef Class index 8, Name and type index 178
+178: Tag 12 NameAndType Name index 179, Description index 180
+179: Tag 1 Utf8 Value "getDependencies"
+180: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/util/Set;Ljava/util/ServiceLoader;)V"
+181: Tag 11 InterfaceMethodRef Class index 182, Name and type index 183
+182: Tag 7 Class Name index 184
+183: Tag 12 NameAndType Name index 185, Description index 186
+184: Tag 1 Utf8 Value "java/util/List"
+185: Tag 1 Utf8 Value "iterator"
+186: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+187: Tag 11 InterfaceMethodRef Class index 188, Name and type index 189
+188: Tag 7 Class Name index 190
+189: Tag 12 NameAndType Name index 191, Description index 192
+190: Tag 1 Utf8 Value "java/util/Iterator"
+191: Tag 1 Utf8 Value "hasNext"
+192: Tag 1 Utf8 Value "()Z"
+193: Tag 11 InterfaceMethodRef Class index 188, Name and type index 194
+194: Tag 12 NameAndType Name index 195, Description index 196
+195: Tag 1 Utf8 Value "next"
+196: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+197: Tag 10 MethodRef Class index 109, Name and type index 198
+198: Tag 12 NameAndType Name index 199, Description index 200
+199: Tag 1 Utf8 Value "getClassLoader"
+200: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleClassLoader;"
+201: Tag 11 InterfaceMethodRef Class index 149, Name and type index 202
+202: Tag 12 NameAndType Name index 203, Description index 204
+203: Tag 1 Utf8 Value "add"
+204: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+205: Tag 10 MethodRef Class index 206, Name and type index 207
+206: Tag 7 Class Name index 208
+207: Tag 12 NameAndType Name index 209, Description index 210
+208: Tag 1 Utf8 Value "org/jboss/as/weld/util/ServiceLoaders"
+209: Tag 1 Utf8 Value "loadModuleServices"
+210: Tag 1 Utf8 Value "(Ljava/util/ServiceLoader;Lorg/jboss/as/server/deployment/DeploymentUnit;Lorg/jboss/as/server/deployment/DeploymentUnit;Lorg/jboss/modules/Module;Lorg/jboss/as/server/deployment/module/ResourceRoot;)Ljava/util/Map;"
+211: Tag 11 InterfaceMethodRef Class index 139, Name and type index 212
+212: Tag 12 NameAndType Name index 213, Description index 147
+213: Tag 1 Utf8 Value "entrySet"
+214: Tag 11 InterfaceMethodRef Class index 149, Name and type index 183
+215: Tag 7 Class Name index 216
+216: Tag 1 Utf8 Value "java/util/Map$Entry"
+217: Tag 11 InterfaceMethodRef Class index 215, Name and type index 218
+218: Tag 12 NameAndType Name index 219, Description index 196
+219: Tag 1 Utf8 Value "getKey"
+220: Tag 7 Class Name index 221
+221: Tag 1 Utf8 Value "java/lang/Class"
+222: Tag 11 InterfaceMethodRef Class index 215, Name and type index 223
+223: Tag 12 NameAndType Name index 224, Description index 196
+224: Tag 1 Utf8 Value "getValue"
+225: Tag 10 MethodRef Class index 226, Name and type index 227
+226: Tag 7 Class Name index 228
+227: Tag 12 NameAndType Name index 229, Description index 230
+228: Tag 1 Utf8 Value "org/jboss/as/weld/util/Reflections"
+229: Tag 1 Utf8 Value "cast"
+230: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+231: Tag 7 Class Name index 232
+232: Tag 1 Utf8 Value "org/jboss/weld/bootstrap/api/Service"
+233: Tag 10 MethodRef Class index 124, Name and type index 234
+234: Tag 12 NameAndType Name index 235, Description index 236
+235: Tag 1 Utf8 Value "addService"
+236: Tag 1 Utf8 Value "(Ljava/lang/Class;Lorg/jboss/weld/bootstrap/api/Service;)V"
+237: Tag 11 InterfaceMethodRef Class index 139, Name and type index 238
+238: Tag 12 NameAndType Name index 239, Description index 230
+239: Tag 1 Utf8 Value "get"
+240: Tag 10 MethodRef Class index 114, Name and type index 241
+241: Tag 12 NameAndType Name index 242, Description index 243
+242: Tag 1 Utf8 Value "getSystemDependencies"
+243: Tag 1 Utf8 Value "()Ljava/util/List;"
+244: Tag 7 Class Name index 245
+245: Tag 1 Utf8 Value "org/jboss/as/server/deployment/module/ModuleDependency"
+246: Tag 10 MethodRef Class index 244, Name and type index 127
+247: Tag 10 MethodRef Class index 124, Name and type index 248
+248: Tag 12 NameAndType Name index 249, Description index 250
+249: Tag 1 Utf8 Value "addBeanDeploymentModule"
+250: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/BeanDeploymentModule;)V"
+251: Tag 9 FieldRef Class index 120, Name and type index 252
+252: Tag 12 NameAndType Name index 253, Description index 34
+253: Tag 1 Utf8 Value "ADDITIONAL_BEAN_DEPLOYMENT_MODULES"
+254: Tag 7 Class Name index 255
+255: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/BeanDeploymentArchiveImpl"
+256: Tag 10 MethodRef Class index 254, Name and type index 257
+257: Tag 12 NameAndType Name index 258, Description index 259
+258: Tag 1 Utf8 Value "getServices"
+259: Tag 1 Utf8 Value "()Lorg/jboss/weld/bootstrap/api/ServiceRegistry;"
+260: Tag 11 InterfaceMethodRef Class index 261, Name and type index 262
+261: Tag 7 Class Name index 263
+262: Tag 12 NameAndType Name index 203, Description index 236
+263: Tag 1 Utf8 Value "org/jboss/weld/bootstrap/api/ServiceRegistry"
+264: Tag 10 MethodRef Class index 265, Name and type index 266
+265: Tag 7 Class Name index 267
+266: Tag 12 NameAndType Name index 268, Description index 269
+267: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/WeldPortableExtensions"
+268: Tag 1 Utf8 Value "getPortableExtensions"
+269: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/as/weld/deployment/WeldPortableExtensions;"
+270: Tag 10 MethodRef Class index 265, Name and type index 271
+271: Tag 12 NameAndType Name index 272, Description index 273
+272: Tag 1 Utf8 Value "getExtensions"
+273: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+274: Tag 7 Class Name index 275
+275: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/WeldDeployment"
+276: Tag 10 MethodRef Class index 274, Name and type index 277
+277: Tag 12 NameAndType Name index 5, Description index 278
+278: Tag 1 Utf8 Value "(Ljava/util/Set;Ljava/util/Collection;Lorg/jboss/modules/Module;Ljava/util/Set;Lorg/jboss/as/server/deployment/DeploymentUnit;Lorg/jboss/as/weld/deployment/BeanDeploymentModule;Ljava/util/Map;)V"
+279: Tag 10 MethodRef Class index 8, Name and type index 280
+280: Tag 12 NameAndType Name index 281, Description index 282
+281: Tag 1 Utf8 Value "installBootstrapConfigurationService"
+282: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/WeldDeployment;Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+283: Tag 11 InterfaceMethodRef Class index 284, Name and type index 285
+284: Tag 7 Class Name index 286
+285: Tag 12 NameAndType Name index 235, Description index 287
+286: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+287: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+288: Tag 11 InterfaceMethodRef Class index 289, Name and type index 290
+289: Tag 7 Class Name index 291
+290: Tag 12 NameAndType Name index 292, Description index 293
+291: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+292: Tag 1 Utf8 Value "provides"
+293: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+294: Tag 9 FieldRef Class index 295, Name and type index 77
+295: Tag 7 Class Name index 296
+296: Tag 1 Utf8 Value "org/jboss/as/weld/services/TCCLSingletonService"
+297: Tag 11 InterfaceMethodRef Class index 289, Name and type index 298
+298: Tag 12 NameAndType Name index 299, Description index 300
+299: Tag 1 Utf8 Value "requires"
+300: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+301: Tag 9 FieldRef Class index 302, Name and type index 77
+302: Tag 7 Class Name index 303
+303: Tag 1 Utf8 Value "org/jboss/as/weld/services/bootstrap/WeldExecutorServices"
+304: Tag 9 FieldRef Class index 305, Name and type index 306
+305: Tag 7 Class Name index 307
+306: Tag 12 NameAndType Name index 308, Description index 80
+307: Tag 1 Utf8 Value "org/jboss/as/server/Services"
+308: Tag 1 Utf8 Value "JBOSS_SERVER_EXECUTOR"
+309: Tag 7 Class Name index 310
+310: Tag 1 Utf8 Value "org/jboss/as/weld/spi/BootstrapDependencyInstaller"
+311: Tag 10 MethodRef Class index 170, Name and type index 183
+312: Tag 11 InterfaceMethodRef Class index 309, Name and type index 313
+313: Tag 12 NameAndType Name index 314, Description index 315
+314: Tag 1 Utf8 Value "install"
+315: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/server/deployment/DeploymentUnit;Z)Lorg/jboss/msc/service/ServiceName;"
+316: Tag 9 FieldRef Class index 317, Name and type index 318
+317: Tag 7 Class Name index 319
+318: Tag 12 NameAndType Name index 320, Description index 80
+319: Tag 1 Utf8 Value "org/jboss/as/weld/ServiceNames"
+320: Tag 1 Utf8 Value "WELD_SECURITY_SERVICES_SERVICE_NAME"
+321: Tag 10 MethodRef Class index 82, Name and type index 322
+322: Tag 12 NameAndType Name index 323, Description index 66
+323: Tag 1 Utf8 Value "getSimpleName"
+324: Tag 10 MethodRef Class index 325, Name and type index 326
+325: Tag 7 Class Name index 327
+326: Tag 12 NameAndType Name index 328, Description index 204
+327: Tag 1 Utf8 Value "java/lang/String"
+328: Tag 1 Utf8 Value "equals"
+329: Tag 9 FieldRef Class index 317, Name and type index 330
+330: Tag 12 NameAndType Name index 331, Description index 80
+331: Tag 1 Utf8 Value "WELD_TRANSACTION_SERVICES_SERVICE_NAME"
+332: Tag 9 FieldRef Class index 333, Name and type index 334
+333: Tag 7 Class Name index 335
+334: Tag 12 NameAndType Name index 336, Description index 337
+335: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WildFlyWeldEnvironment"
+336: Tag 1 Utf8 Value "INSTANCE"
+337: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/processors/WildFlyWeldEnvironment;"
+338: Tag 10 MethodRef Class index 76, Name and type index 339
+339: Tag 12 NameAndType Name index 5, Description index 340
+340: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/WeldDeployment;Lorg/jboss/weld/bootstrap/api/Environment;Ljava/lang/String;Ljava/util/function/Consumer;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/util/function/Supplier;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;)V"
+341: Tag 10 MethodRef Class index 76, Name and type index 342
+342: Tag 12 NameAndType Name index 343, Description index 236
+343: Tag 1 Utf8 Value "addWeldService"
+344: Tag 11 InterfaceMethodRef Class index 289, Name and type index 345
+345: Tag 12 NameAndType Name index 346, Description index 347
+346: Tag 1 Utf8 Value "setInstance"
+347: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+348: Tag 11 InterfaceMethodRef Class index 289, Name and type index 349
+349: Tag 12 NameAndType Name index 314, Description index 350
+350: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+351: Tag 10 MethodRef Class index 8, Name and type index 352
+352: Tag 12 NameAndType Name index 353, Description index 354
+353: Tag 1 Utf8 Value "getSetupActions"
+354: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/util/List;"
+355: Tag 10 MethodRef Class index 356, Name and type index 357
+356: Tag 7 Class Name index 358
+357: Tag 12 NameAndType Name index 359, Description index 360
+358: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/JndiNamingDependencyProcessor"
+359: Tag 1 Utf8 Value "serviceName"
+360: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/msc/service/ServiceName;"
+361: Tag 9 FieldRef Class index 30, Name and type index 362
+362: Tag 12 NameAndType Name index 363, Description index 34
+363: Tag 1 Utf8 Value "CAPABILITY_SERVICE_SUPPORT"
+364: Tag 7 Class Name index 365
+365: Tag 1 Utf8 Value "org/jboss/as/controller/capability/CapabilityServiceSupport"
+366: Tag 8 String Contents 367
+367: Tag 1 Utf8 Value "org.wildfly.transactions"
+368: Tag 11 InterfaceMethodRef Class index 364, Name and type index 369
+369: Tag 12 NameAndType Name index 370, Description index 371
+370: Tag 1 Utf8 Value "hasCapability"
+371: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+372: Tag 10 MethodRef Class index 8, Name and type index 373
+373: Tag 12 NameAndType Name index 374, Description index 375
+374: Tag 1 Utf8 Value "getJNDISubsytemDependencies"
+375: Tag 1 Utf8 Value "(Z)Ljava/util/List;"
+376: Tag 9 FieldRef Class index 377, Name and type index 378
+377: Tag 7 Class Name index 379
+378: Tag 12 NameAndType Name index 380, Description index 34
+379: Tag 1 Utf8 Value "org/jboss/as/ee/structure/Attachments"
+380: Tag 1 Utf8 Value "EAR_METADATA"
+381: Tag 7 Class Name index 382
+382: Tag 1 Utf8 Value "org/jboss/metadata/ear/spec/EarMetaData"
+383: Tag 10 MethodRef Class index 381, Name and type index 384
+384: Tag 12 NameAndType Name index 385, Description index 192
+385: Tag 1 Utf8 Value "getInitializeInOrder"
+386: Tag 10 MethodRef Class index 91, Name and type index 387
+387: Tag 12 NameAndType Name index 5, Description index 388
+388: Tag 1 Utf8 Value "(Ljava/util/function/Supplier;Ljava/util/List;Ljava/lang/ClassLoader;Lorg/jboss/msc/service/ServiceName;)V"
+389: Tag 7 Class Name index 390
+390: Tag 1 Utf8 Value "java/util/ArrayList"
+391: Tag 10 MethodRef Class index 389, Name and type index 3
+392: Tag 9 FieldRef Class index 393, Name and type index 394
+393: Tag 7 Class Name index 395
+394: Tag 12 NameAndType Name index 396, Description index 80
+395: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/ContextNames"
+396: Tag 1 Utf8 Value "JBOSS_CONTEXT_SERVICE_NAME"
+397: Tag 8 String Contents 398
+398: Tag 1 Utf8 Value "UserTransaction"
+399: Tag 10 MethodRef Class index 82, Name and type index 400
+400: Tag 12 NameAndType Name index 401, Description index 402
+401: Tag 1 Utf8 Value "of"
+402: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+403: Tag 11 InterfaceMethodRef Class index 182, Name and type index 202
+404: Tag 8 String Contents 405
+405: Tag 1 Utf8 Value "TransactionSynchronizationRegistry"
+406: Tag 9 FieldRef Class index 407, Name and type index 77
+407: Tag 7 Class Name index 408
+408: Tag 1 Utf8 Value "org/jboss/as/naming/service/NamingService"
+409: Tag 9 FieldRef Class index 410, Name and type index 77
+410: Tag 7 Class Name index 411
+411: Tag 1 Utf8 Value "org/jboss/as/naming/service/DefaultNamespaceContextSelectorService"
+412: Tag 9 FieldRef Class index 413, Name and type index 414
+413: Tag 7 Class Name index 415
+414: Tag 12 NameAndType Name index 416, Description index 34
+415: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldConfiguration"
+416: Tag 1 Utf8 Value "ATTACHMENT_KEY"
+417: Tag 10 MethodRef Class index 413, Name and type index 418
+418: Tag 12 NameAndType Name index 419, Description index 192
+419: Tag 1 Utf8 Value "isNonPortableMode"
+420: Tag 7 Class Name index 421
+421: Tag 1 Utf8 Value "org/jboss/weld/configuration/spi/helpers/ExternalConfigurationBuilder"
+422: Tag 10 MethodRef Class index 420, Name and type index 3
+423: Tag 9 FieldRef Class index 424, Name and type index 425
+424: Tag 7 Class Name index 426
+425: Tag 12 NameAndType Name index 427, Description index 428
+426: Tag 1 Utf8 Value "org/jboss/weld/config/ConfigurationKey"
+427: Tag 1 Utf8 Value "NON_PORTABLE_MODE"
+428: Tag 1 Utf8 Value "Lorg/jboss/weld/config/ConfigurationKey;"
+429: Tag 10 MethodRef Class index 424, Name and type index 430
+430: Tag 12 NameAndType Name index 239, Description index 66
+431: Tag 10 MethodRef Class index 432, Name and type index 433
+432: Tag 7 Class Name index 434
+433: Tag 12 NameAndType Name index 435, Description index 436
+434: Tag 1 Utf8 Value "java/lang/Boolean"
+435: Tag 1 Utf8 Value "valueOf"
+436: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+437: Tag 10 MethodRef Class index 420, Name and type index 438
+438: Tag 12 NameAndType Name index 203, Description index 439
+439: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)Lorg/jboss/weld/configuration/spi/helpers/ExternalConfigurationBuilder;"
+440: Tag 9 FieldRef Class index 424, Name and type index 441
+441: Tag 12 NameAndType Name index 442, Description index 428
+442: Tag 1 Utf8 Value "ALLOW_OPTIMIZED_CLEANUP"
+443: Tag 10 MethodRef Class index 420, Name and type index 444
+444: Tag 12 NameAndType Name index 445, Description index 446
+445: Tag 1 Utf8 Value "build"
+446: Tag 1 Utf8 Value "()Lorg/jboss/weld/configuration/spi/ExternalConfiguration;"
+447: Tag 10 MethodRef Class index 274, Name and type index 257
+448: Tag 7 Class Name index 449
+449: Tag 1 Utf8 Value "org/jboss/weld/configuration/spi/ExternalConfiguration"
+450: Tag 11 InterfaceMethodRef Class index 161, Name and type index 451
+451: Tag 12 NameAndType Name index 179, Description index 452
+452: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/util/Set;"
+453: Tag 11 InterfaceMethodRef Class index 36, Name and type index 454
+454: Tag 12 NameAndType Name index 455, Description index 456
+455: Tag 1 Utf8 Value "getServiceRegistry"
+456: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceRegistry;"
+457: Tag 11 InterfaceMethodRef Class index 458, Name and type index 459
+458: Tag 7 Class Name index 460
+459: Tag 12 NameAndType Name index 461, Description index 462
+460: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceRegistry"
+461: Tag 1 Utf8 Value "getService"
+462: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+463: Tag 9 FieldRef Class index 464, Name and type index 465
+464: Tag 7 Class Name index 466
+465: Tag 12 NameAndType Name index 467, Description index 468
+466: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+467: Tag 1 Utf8 Value "REMOVE"
+468: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+469: Tag 11 InterfaceMethodRef Class index 470, Name and type index 471
+470: Tag 7 Class Name index 472
+471: Tag 12 NameAndType Name index 473, Description index 474
+472: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+473: Tag 1 Utf8 Value "setMode"
+474: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)V"
+475: Tag 9 FieldRef Class index 476, Name and type index 477
+476: Tag 7 Class Name index 478
+477: Tag 12 NameAndType Name index 479, Description index 34
+478: Tag 1 Utf8 Value "org/jboss/as/ee/naming/Attachments"
+479: Tag 1 Utf8 Value "JAVA_NAMESPACE_SETUP_ACTION"
+480: Tag 7 Class Name index 481
+481: Tag 1 Utf8 Value "org/jboss/as/ee/naming/JavaNamespaceSetup"
+482: Tag 9 FieldRef Class index 483, Name and type index 484
+483: Tag 7 Class Name index 485
+484: Tag 12 NameAndType Name index 486, Description index 34
+485: Tag 1 Utf8 Value "org/jboss/as/ee/component/Attachments"
+486: Tag 1 Utf8 Value "CONCURRENT_CONTEXT_SETUP_ACTION"
+487: Tag 7 Class Name index 488
+488: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ConcurrentContextSetupAction"
+489: Tag 7 Class Name index 490
+490: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+491: Tag 1 Utf8 Value "(Z)V"
+492: Tag 1 Utf8 Value "Code"
+493: Tag 1 Utf8 Value "LineNumberTable"
+494: Tag 1 Utf8 Value "LocalVariableTable"
+495: Tag 1 Utf8 Value "this"
+496: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/processors/WeldDeploymentProcessor;"
+497: Tag 1 Utf8 Value "deploy"
+498: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+499: Tag 1 Utf8 Value "entry"
+500: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+501: Tag 1 Utf8 Value "subDeploymentModule"
+502: Tag 1 Utf8 Value "Lorg/jboss/modules/Module;"
+503: Tag 1 Utf8 Value "subDeploymentModuleSpec"
+504: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/module/ModuleSpecification;"
+505: Tag 1 Utf8 Value "bdm"
+506: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/BeanDeploymentModule;"
+507: Tag 1 Utf8 Value "subDeploymentRoot"
+508: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/module/ResourceRoot;"
+509: Tag 1 Utf8 Value "subDeployment"
+510: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+511: Tag 1 Utf8 Value "other"
+512: Tag 1 Utf8 Value "dependency"
+513: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/module/ModuleDependency;"
+514: Tag 1 Utf8 Value "bdmSpec"
+515: Tag 1 Utf8 Value "additional"
+516: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/BeanDeploymentArchiveImpl;"
+517: Tag 1 Utf8 Value "installer"
+518: Tag 1 Utf8 Value "Lorg/jboss/as/weld/spi/BootstrapDependencyInstaller;"
+519: Tag 1 Utf8 Value "jndiSubsystemDependency"
+520: Tag 1 Utf8 Value "sub"
+521: Tag 1 Utf8 Value "phaseContext"
+522: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+523: Tag 1 Utf8 Value "deploymentUnit"
+524: Tag 1 Utf8 Value "parent"
+525: Tag 1 Utf8 Value "serviceTarget"
+526: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+527: Tag 1 Utf8 Value "deploymentRoot"
+528: Tag 1 Utf8 Value "weldBootstrapServiceName"
+529: Tag 1 Utf8 Value "weldBootstrapServiceInternalName"
+530: Tag 1 Utf8 Value "weldStartServiceName"
+531: Tag 1 Utf8 Value "dependencies"
+532: Tag 1 Utf8 Value "Ljava/util/Set;"
+533: Tag 1 Utf8 Value "module"
+534: Tag 1 Utf8 Value "moduleSpecification"
+535: Tag 1 Utf8 Value "beanDeploymentArchives"
+536: Tag 1 Utf8 Value "bdmsByIdentifier"
+537: Tag 1 Utf8 Value "Ljava/util/Map;"
+538: Tag 1 Utf8 Value "moduleSpecByIdentifier"
+539: Tag 1 Utf8 Value "eeModuleDescriptors"
+540: Tag 1 Utf8 Value "rootBeanDeploymentModule"
+541: Tag 1 Utf8 Value "subDeployments"
+542: Tag 1 Utf8 Value "Ljava/util/List;"
+543: Tag 1 Utf8 Value "subDeploymentLoaders"
+544: Tag 1 Utf8 Value "dependenciesProviders"
+545: Tag 1 Utf8 Value "Ljava/util/ServiceLoader;"
+546: Tag 1 Utf8 Value "moduleServicesProviders"
+547: Tag 1 Utf8 Value "rootModuleServices"
+548: Tag 1 Utf8 Value "extensions"
+549: Tag 1 Utf8 Value "Ljava/util/Collection;"
+550: Tag 1 Utf8 Value "deployment"
+551: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/WeldDeployment;"
+552: Tag 1 Utf8 Value "weldBootstrapServiceBuilder"
+553: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+554: Tag 1 Utf8 Value "weldBootstrapServiceConsumer"
+555: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+556: Tag 1 Utf8 Value "executorServicesSupplier"
+557: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+558: Tag 1 Utf8 Value "serverExecutorSupplier"
+559: Tag 1 Utf8 Value "securityServicesSupplier"
+560: Tag 1 Utf8 Value "weldTransactionServicesSupplier"
+561: Tag 1 Utf8 Value "installers"
+562: Tag 1 Utf8 Value "deploymentServiceName"
+563: Tag 1 Utf8 Value "weldBootstrapService"
+564: Tag 1 Utf8 Value "Lorg/jboss/as/weld/WeldBootstrapService;"
+565: Tag 1 Utf8 Value "setupActions"
+566: Tag 1 Utf8 Value "startService"
+567: Tag 1 Utf8 Value "capabilities"
+568: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+569: Tag 1 Utf8 Value "tx"
+570: Tag 1 Utf8 Value "earConfig"
+571: Tag 1 Utf8 Value "Lorg/jboss/metadata/ear/spec/EarMetaData;"
+572: Tag 1 Utf8 Value "bootstrapSupplier"
+573: Tag 1 Utf8 Value "LocalVariableTypeTable"
+574: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Ljava/lang/Class<+Lorg/jboss/weld/bootstrap/api/Service;>;Lorg/jboss/weld/bootstrap/api/Service;>;"
+575: Tag 1 Utf8 Value "Ljava/util/Map$Entry<Lorg/jboss/modules/ModuleIdentifier;Lorg/jboss/as/weld/deployment/BeanDeploymentModule;>;"
+576: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/jboss/msc/service/ServiceName;>;"
+577: Tag 1 Utf8 Value "Ljava/util/Set<Lorg/jboss/as/weld/deployment/BeanDeploymentArchiveImpl;>;"
+578: Tag 1 Utf8 Value "Ljava/util/Map<Lorg/jboss/modules/ModuleIdentifier;Lorg/jboss/as/weld/deployment/BeanDeploymentModule;>;"
+579: Tag 1 Utf8 Value "Ljava/util/Map<Lorg/jboss/modules/ModuleIdentifier;Lorg/jboss/as/server/deployment/module/ModuleSpecification;>;"
+580: Tag 1 Utf8 Value "Ljava/util/Map<Lorg/jboss/modules/ModuleIdentifier;Lorg/jboss/weld/bootstrap/spi/EEModuleDescriptor;>;"
+581: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/server/deployment/DeploymentUnit;>;"
+582: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/ClassLoader;>;"
+583: Tag 1 Utf8 Value "Ljava/util/ServiceLoader<Lorg/jboss/as/weld/spi/DeploymentUnitDependenciesProvider;>;"
+584: Tag 1 Utf8 Value "Ljava/util/ServiceLoader<Lorg/jboss/as/weld/spi/ModuleServicesProvider;>;"
+585: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/Class<+Lorg/jboss/weld/bootstrap/api/Service;>;Lorg/jboss/weld/bootstrap/api/Service;>;"
+586: Tag 1 Utf8 Value "Ljava/util/Collection<Lorg/jboss/weld/bootstrap/spi/Metadata<Ljavax/enterprise/inject/spi/Extension;>;>;"
+587: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+588: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/jboss/as/weld/WeldBootstrapService;>;"
+589: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/weld/manager/api/ExecutorServices;>;"
+590: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Ljava/util/concurrent/ExecutorService;>;"
+591: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/weld/security/spi/SecurityServices;>;"
+592: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/weld/transaction/spi/TransactionServices;>;"
+593: Tag 1 Utf8 Value "Ljava/util/ServiceLoader<Lorg/jboss/as/weld/spi/BootstrapDependencyInstaller;>;"
+594: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;"
+595: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/weld/WeldBootstrapService;>;"
+596: Tag 1 Utf8 Value "StackMapTable"
+597: Tag 7 Class Name index 598
+598: Tag 1 Utf8 Value "java/util/Collection"
+599: Tag 7 Class Name index 600
+600: Tag 1 Utf8 Value "java/util/function/Consumer"
+601: Tag 7 Class Name index 602
+602: Tag 1 Utf8 Value "java/util/function/Supplier"
+603: Tag 1 Utf8 Value "Exceptions"
+604: Tag 7 Class Name index 605
+605: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+606: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/msc/service/ServiceName;>;"
+607: Tag 1 Utf8 Value "Signature"
+608: Tag 1 Utf8 Value "(Z)Ljava/util/List<Lorg/jboss/msc/service/ServiceName;>;"
+609: Tag 1 Utf8 Value "parentDeploymentUnit"
+610: Tag 1 Utf8 Value "nonPortableMode"
+611: Tag 1 Utf8 Value "configuration"
+612: Tag 1 Utf8 Value "Lorg/jboss/weld/configuration/spi/ExternalConfiguration;"
+613: Tag 1 Utf8 Value "provider"
+614: Tag 1 Utf8 Value "Lorg/jboss/as/weld/spi/DeploymentUnitDependenciesProvider;"
+615: Tag 1 Utf8 Value "providers"
+616: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/util/Set<Lorg/jboss/msc/service/ServiceName;>;Ljava/util/ServiceLoader<Lorg/jboss/as/weld/spi/DeploymentUnitDependenciesProvider;>;)V"
+617: Tag 1 Utf8 Value "undeploy"
+618: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+619: Tag 1 Utf8 Value "context"
+620: Tag 1 Utf8 Value "weldTransactionServiceName"
+621: Tag 1 Utf8 Value "serviceController"
+622: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController;"
+623: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController<*>;"
+624: Tag 1 Utf8 Value "naming"
+625: Tag 1 Utf8 Value "Lorg/jboss/as/ee/naming/JavaNamespaceSetup;"
+626: Tag 1 Utf8 Value "concurrentContext"
+627: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ConcurrentContextSetupAction;"
+628: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/util/List<Lorg/jboss/as/server/deployment/SetupAction;>;"
+629: Tag 1 Utf8 Value "SourceFile"
+630: Tag 1 Utf8 Value "WeldDeploymentProcessor.java"
+631: Tag 1 Utf8 Value "InnerClasses"
+632: Tag 1 Utf8 Value "Entry"
+633: Tag 1 Utf8 Value "Mode"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.weld.deployment.processors.WeldDeploymentProcessor
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 489
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name jtsEnabled (index 11), type Z (descriptor index 12)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Z)V (descriptor index 491)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name deploy (index 497), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 498)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 3536
+Method attribute name Exceptions, size 4
+Method name getJNDISubsytemDependencies (index 374), type (Z)Ljava/util/List; (descriptor index 375)
+Human type: (boolean): java.util.List
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 204
+Method attribute name Signature, size 2
+Method name installBootstrapConfigurationService (index 281), type (Lorg/jboss/as/weld/deployment/WeldDeployment;Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 282)
+Human type: (org.jboss.as.weld.deployment.WeldDeployment, org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 175
+Method name getDependencies (index 179), type (Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/util/Set;Ljava/util/ServiceLoader;)V (descriptor index 180)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit, java.util.Set, java.util.ServiceLoader): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 186
+Method attribute name Signature, size 2
+Method name undeploy (index 617), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 618)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 163
+Method name getSetupActions (index 353), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/util/List; (descriptor index 354)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): java.util.List
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 201
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

@@ -1,0 +1,189 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 106
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/System"
+11: Tag 1 Utf8 Value "currentTimeMillis"
+12: Tag 1 Utf8 Value "()J"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/session/DistributableSessionManagerStatistics"
+17: Tag 1 Utf8 Value "startTime"
+18: Tag 1 Utf8 Value "J"
+19: Tag 7 Class Name index 20
+20: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicLong"
+21: Tag 10 MethodRef Class index 19, Name and type index 3
+22: Tag 9 FieldRef Class index 14, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 25
+24: Tag 1 Utf8 Value "createdSessionCount"
+25: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicLong;"
+26: Tag 9 FieldRef Class index 14, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "activeSessionStatistics"
+29: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/ActiveSessionStatistics;"
+30: Tag 9 FieldRef Class index 14, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "inactiveSessionStatistics"
+33: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/session/InactiveSessionStatistics;"
+34: Tag 9 FieldRef Class index 14, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "maxActiveSessions"
+37: Tag 1 Utf8 Value "Ljava/lang/Integer;"
+38: Tag 10 MethodRef Class index 14, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 6
+40: Tag 1 Utf8 Value "reset"
+41: Tag 10 MethodRef Class index 19, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 12
+43: Tag 1 Utf8 Value "incrementAndGet"
+44: Tag 10 MethodRef Class index 19, Name and type index 45
+45: Tag 12 NameAndType Name index 46, Description index 47
+46: Tag 1 Utf8 Value "set"
+47: Tag 1 Utf8 Value "(J)V"
+48: Tag 10 MethodRef Class index 19, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 12
+50: Tag 1 Utf8 Value "get"
+51: Tag 10 MethodRef Class index 52, Name and type index 53
+52: Tag 7 Class Name index 54
+53: Tag 12 NameAndType Name index 55, Description index 12
+54: Tag 1 Utf8 Value "java/lang/Integer"
+55: Tag 1 Utf8 Value "longValue"
+56: Tag 5 Long Value -1
+58: Tag 11 InterfaceMethodRef Class index 59, Name and type index 60
+59: Tag 7 Class Name index 61
+60: Tag 12 NameAndType Name index 62, Description index 12
+61: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/ActiveSessionStatistics"
+62: Tag 1 Utf8 Value "getActiveSessionCount"
+63: Tag 11 InterfaceMethodRef Class index 64, Name and type index 65
+64: Tag 7 Class Name index 66
+65: Tag 12 NameAndType Name index 67, Description index 12
+66: Tag 1 Utf8 Value "org/wildfly/clustering/web/session/InactiveSessionStatistics"
+67: Tag 1 Utf8 Value "getExpiredSessionCount"
+68: Tag 11 InterfaceMethodRef Class index 64, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "getMaxSessionLifetime"
+71: Tag 1 Utf8 Value "()Ljava/time/Duration;"
+72: Tag 10 MethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 12
+75: Tag 1 Utf8 Value "java/time/Duration"
+76: Tag 1 Utf8 Value "toMillis"
+77: Tag 11 InterfaceMethodRef Class index 64, Name and type index 78
+78: Tag 12 NameAndType Name index 79, Description index 71
+79: Tag 1 Utf8 Value "getMeanSessionLifetime"
+80: Tag 7 Class Name index 81
+81: Tag 1 Utf8 Value "io/undertow/server/session/Session"
+82: Tag 10 MethodRef Class index 14, Name and type index 83
+83: Tag 12 NameAndType Name index 84, Description index 85
+84: Tag 1 Utf8 Value "record"
+85: Tag 1 Utf8 Value "(Lio/undertow/server/session/Session;)V"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "org/wildfly/clustering/web/undertow/session/RecordableSessionManagerStatistics"
+88: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/web/session/ActiveSessionStatistics;Lorg/wildfly/clustering/web/session/InactiveSessionStatistics;Ljava/lang/Integer;)V"
+89: Tag 1 Utf8 Value "Code"
+90: Tag 1 Utf8 Value "LineNumberTable"
+91: Tag 1 Utf8 Value "LocalVariableTable"
+92: Tag 1 Utf8 Value "this"
+93: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/undertow/session/DistributableSessionManagerStatistics;"
+94: Tag 1 Utf8 Value "object"
+95: Tag 1 Utf8 Value "Lio/undertow/server/session/Session;"
+96: Tag 1 Utf8 Value "getCreatedSessionCount"
+97: Tag 1 Utf8 Value "getMaxActiveSessions"
+98: Tag 1 Utf8 Value "StackMapTable"
+99: Tag 1 Utf8 Value "getRejectedSessions"
+100: Tag 1 Utf8 Value "getMaxSessionAliveTime"
+101: Tag 1 Utf8 Value "getAverageSessionAliveTime"
+102: Tag 1 Utf8 Value "getStartTime"
+103: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+104: Tag 1 Utf8 Value "SourceFile"
+105: Tag 1 Utf8 Value "DistributableSessionManagerStatistics.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.wildfly.clustering.web.undertow.session.DistributableSessionManagerStatistics
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 86
+Implements names org.wildfly.clustering.web.undertow.session.RecordableSessionManagerStatistics
+
+Field name inactiveSessionStatistics (index 32), type Lorg/wildfly/clustering/web/session/InactiveSessionStatistics; (descriptor index 33)
+Human type: org.wildfly.clustering.web.session.InactiveSessionStatistics
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name activeSessionStatistics (index 28), type Lorg/wildfly/clustering/web/session/ActiveSessionStatistics; (descriptor index 29)
+Human type: org.wildfly.clustering.web.session.ActiveSessionStatistics
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name maxActiveSessions (index 36), type Ljava/lang/Integer; (descriptor index 37)
+Human type: java.lang.Integer
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name startTime (index 17), type J (descriptor index 18)
+Human type: long
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name createdSessionCount (index 24), type Ljava/util/concurrent/atomic/AtomicLong; (descriptor index 25)
+Human type: java.util.concurrent.atomic.AtomicLong
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/clustering/web/session/ActiveSessionStatistics;Lorg/wildfly/clustering/web/session/InactiveSessionStatistics;Ljava/lang/Integer;)V (descriptor index 88)
+Human type: (org.wildfly.clustering.web.session.ActiveSessionStatistics, org.wildfly.clustering.web.session.InactiveSessionStatistics, java.lang.Integer): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 142
+Method name record (index 84), type (Lio/undertow/server/session/Session;)V (descriptor index 85)
+Human type: (io.undertow.server.session.Session): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name reset (index 40), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 66
+Method name getCreatedSessionCount (index 96), type ()J (descriptor index 12)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 50
+Method name getMaxActiveSessions (index 97), type ()J (descriptor index 12)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method name getActiveSessionCount (index 62), type ()J (descriptor index 12)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getExpiredSessionCount (index 67), type ()J (descriptor index 12)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getRejectedSessions (index 99), type ()J (descriptor index 12)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method name getMaxSessionAliveTime (index 100), type ()J (descriptor index 12)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name getAverageSessionAliveTime (index 101), type ()J (descriptor index 12)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 55
+Method name getStartTime (index 102), type ()J (descriptor index 12)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name record (index 84), type (Ljava/lang/Object;)V (descriptor index 103)
+Human type: (java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+
+Class attribute name SourceFile, size 2

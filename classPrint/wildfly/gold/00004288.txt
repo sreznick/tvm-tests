@@ -1,0 +1,109 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 75
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/SimpleResourceServiceHandler"
+11: Tag 1 Utf8 Value "factory"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+17: Tag 1 Utf8 Value "getCurrentAddress"
+18: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/PathAddress;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory"
+23: Tag 1 Utf8 Value "createServiceConfigurator"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/clustering/controller/ResourceServiceConfigurator;"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceServiceConfigurator"
+29: Tag 1 Utf8 Value "configure"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/wildfly/clustering/service/ServiceConfigurator;"
+31: Tag 11 InterfaceMethodRef Class index 14, Name and type index 32
+32: Tag 12 NameAndType Name index 33, Description index 34
+33: Tag 1 Utf8 Value "getServiceTarget"
+34: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+35: Tag 11 InterfaceMethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceConfigurator"
+39: Tag 1 Utf8 Value "build"
+40: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+41: Tag 11 InterfaceMethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+45: Tag 1 Utf8 Value "install"
+46: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+47: Tag 11 InterfaceMethodRef Class index 26, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "getServiceName"
+50: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+51: Tag 11 InterfaceMethodRef Class index 14, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 54
+53: Tag 1 Utf8 Value "removeService"
+54: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceController;"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceServiceHandler"
+57: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;)V"
+58: Tag 1 Utf8 Value "Code"
+59: Tag 1 Utf8 Value "LineNumberTable"
+60: Tag 1 Utf8 Value "LocalVariableTable"
+61: Tag 1 Utf8 Value "this"
+62: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/SimpleResourceServiceHandler;"
+63: Tag 1 Utf8 Value "installServices"
+64: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+65: Tag 1 Utf8 Value "context"
+66: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+67: Tag 1 Utf8 Value "model"
+68: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+69: Tag 1 Utf8 Value "Exceptions"
+70: Tag 7 Class Name index 71
+71: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+72: Tag 1 Utf8 Value "removeServices"
+73: Tag 1 Utf8 Value "SourceFile"
+74: Tag 1 Utf8 Value "SimpleResourceServiceHandler.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.clustering.controller.SimpleResourceServiceHandler
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 55
+Implements names org.jboss.as.clustering.controller.ResourceServiceHandler
+
+Field name factory (index 11), type Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory; (descriptor index 12)
+Human type: org.jboss.as.clustering.controller.ResourceServiceConfiguratorFactory
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/as/clustering/controller/ResourceServiceConfiguratorFactory;)V (descriptor index 57)
+Human type: (org.jboss.as.clustering.controller.ResourceServiceConfiguratorFactory): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name installServices (index 63), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 64)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 106
+Method attribute name Exceptions, size 4
+Method name removeServices (index 72), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 64)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 94
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

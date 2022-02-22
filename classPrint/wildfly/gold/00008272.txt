@@ -1,0 +1,797 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 590
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition$Parameters"
+3: Tag 9 FieldRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorServiceResourceDefinition"
+7: Tag 1 Utf8 Value "PATH_ELEMENT"
+8: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+9: Tag 9 FieldRef Class index 4, Name and type index 10
+10: Tag 12 NameAndType Name index 11, Description index 12
+11: Tag 1 Utf8 Value "RESOLVER"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+13: Tag 10 MethodRef Class index 1, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;)V"
+17: Tag 9 FieldRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorServiceAdd"
+21: Tag 1 Utf8 Value "INSTANCE"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/ManagedExecutorServiceAdd;"
+23: Tag 10 MethodRef Class index 1, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "setAddHandler"
+26: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationStepHandler;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+27: Tag 7 Class Name index 28
+28: Tag 1 Utf8 Value "org/jboss/as/controller/ServiceRemoveStepHandler"
+29: Tag 10 MethodRef Class index 27, Name and type index 30
+30: Tag 12 NameAndType Name index 15, Description index 31
+31: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AbstractAddStepHandler;)V"
+32: Tag 10 MethodRef Class index 1, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 26
+34: Tag 1 Utf8 Value "setRemoveHandler"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+37: Tag 9 FieldRef Class index 4, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "CAPABILITY"
+40: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+41: Tag 10 MethodRef Class index 1, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "addCapabilities"
+44: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/capability/RuntimeCapability;)Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;"
+45: Tag 10 MethodRef Class index 46, Name and type index 47
+46: Tag 7 Class Name index 48
+47: Tag 12 NameAndType Name index 15, Description index 49
+48: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleResourceDefinition"
+49: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/SimpleResourceDefinition$Parameters;)V"
+50: Tag 9 FieldRef Class index 4, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "registerRuntimeOnly"
+53: Tag 1 Utf8 Value "Z"
+54: Tag 10 MethodRef Class index 46, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 57
+56: Tag 1 Utf8 Value "registerOperations"
+57: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V"
+58: Tag 9 FieldRef Class index 4, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "TERMINATE_HUNG_TASKS_OP"
+61: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/ManagedExecutorTerminateHungTasksOperation;"
+62: Tag 10 MethodRef Class index 63, Name and type index 64
+63: Tag 7 Class Name index 65
+64: Tag 12 NameAndType Name index 66, Description index 57
+65: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorTerminateHungTasksOperation"
+66: Tag 1 Utf8 Value "registerOperation"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorServiceResourceDefinition$ValidatingWriteHandler"
+69: Tag 9 FieldRef Class index 4, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 72
+71: Tag 1 Utf8 Value "ATTRIBUTES"
+72: Tag 1 Utf8 Value "[Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+73: Tag 10 MethodRef Class index 67, Name and type index 74
+74: Tag 12 NameAndType Name index 15, Description index 75
+75: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/AttributeDefinition;)V"
+76: Tag 11 InterfaceMethodRef Class index 77, Name and type index 78
+77: Tag 7 Class Name index 79
+78: Tag 12 NameAndType Name index 80, Description index 81
+79: Tag 1 Utf8 Value "org/jboss/as/controller/registry/ManagementResourceRegistration"
+80: Tag 1 Utf8 Value "registerReadWriteAttribute"
+81: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/controller/OperationStepHandler;Lorg/jboss/as/controller/OperationStepHandler;)V"
+82: Tag 9 FieldRef Class index 4, Name and type index 83
+83: Tag 12 NameAndType Name index 84, Description index 85
+84: Tag 1 Utf8 Value "METRICS_HANDLER"
+85: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsHandler;"
+86: Tag 10 MethodRef Class index 87, Name and type index 88
+87: Tag 7 Class Name index 89
+88: Tag 12 NameAndType Name index 90, Description index 57
+89: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsHandler"
+90: Tag 1 Utf8 Value "registerAttributes"
+91: Tag 11 InterfaceMethodRef Class index 92, Name and type index 93
+92: Tag 7 Class Name index 94
+93: Tag 12 NameAndType Name index 95, Description index 96
+94: Tag 1 Utf8 Value "org/jboss/as/controller/transform/description/ResourceTransformationDescriptionBuilder"
+95: Tag 1 Utf8 Value "addChildResource"
+96: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathElement;)Lorg/jboss/as/controller/transform/description/ResourceTransformationDescriptionBuilder;"
+97: Tag 11 InterfaceMethodRef Class index 92, Name and type index 98
+98: Tag 12 NameAndType Name index 99, Description index 100
+99: Tag 1 Utf8 Value "getAttributeBuilder"
+100: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/transform/description/AttributeTransformationDescriptionBuilder;"
+101: Tag 9 FieldRef Class index 102, Name and type index 103
+102: Tag 7 Class Name index 104
+103: Tag 12 NameAndType Name index 105, Description index 106
+104: Tag 1 Utf8 Value "org/jboss/as/controller/transform/description/RejectAttributeChecker"
+105: Tag 1 Utf8 Value "UNDEFINED"
+106: Tag 1 Utf8 Value "Lorg/jboss/as/controller/transform/description/RejectAttributeChecker;"
+107: Tag 7 Class Name index 108
+108: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+109: Tag 9 FieldRef Class index 4, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 112
+111: Tag 1 Utf8 Value "CORE_THREADS_AD"
+112: Tag 1 Utf8 Value "Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+113: Tag 11 InterfaceMethodRef Class index 114, Name and type index 115
+114: Tag 7 Class Name index 116
+115: Tag 12 NameAndType Name index 117, Description index 118
+116: Tag 1 Utf8 Value "org/jboss/as/controller/transform/description/AttributeTransformationDescriptionBuilder"
+117: Tag 1 Utf8 Value "addRejectCheck"
+118: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/transform/description/RejectAttributeChecker;[Lorg/jboss/as/controller/AttributeDefinition;)Lorg/jboss/as/controller/transform/description/BaseAttributeTransformationDescriptionBuilder;"
+119: Tag 11 InterfaceMethodRef Class index 114, Name and type index 120
+120: Tag 12 NameAndType Name index 121, Description index 122
+121: Tag 1 Utf8 Value "end"
+122: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/transform/description/ResourceTransformationDescriptionBuilder;"
+123: Tag 9 FieldRef Class index 124, Name and type index 125
+124: Tag 7 Class Name index 126
+125: Tag 12 NameAndType Name index 105, Description index 127
+126: Tag 1 Utf8 Value "org/jboss/as/controller/transform/description/DiscardAttributeChecker"
+127: Tag 1 Utf8 Value "Lorg/jboss/as/controller/transform/description/DiscardAttributeChecker;"
+128: Tag 9 FieldRef Class index 4, Name and type index 129
+129: Tag 12 NameAndType Name index 130, Description index 112
+130: Tag 1 Utf8 Value "THREAD_PRIORITY_AD"
+131: Tag 11 InterfaceMethodRef Class index 114, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 134
+133: Tag 1 Utf8 Value "setDiscard"
+134: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/transform/description/DiscardAttributeChecker;[Lorg/jboss/as/controller/AttributeDefinition;)Lorg/jboss/as/controller/transform/description/BaseAttributeTransformationDescriptionBuilder;"
+135: Tag 9 FieldRef Class index 102, Name and type index 136
+136: Tag 12 NameAndType Name index 137, Description index 106
+137: Tag 1 Utf8 Value "DEFINED"
+138: Tag 9 FieldRef Class index 4, Name and type index 139
+139: Tag 12 NameAndType Name index 140, Description index 112
+140: Tag 1 Utf8 Value "HUNG_TASK_TERMINATION_PERIOD_AD"
+141: Tag 10 MethodRef Class index 142, Name and type index 143
+142: Tag 7 Class Name index 144
+143: Tag 12 NameAndType Name index 145, Description index 146
+144: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/service/ManagedExecutorServiceService"
+145: Tag 1 Utf8 Value "getExecutorService"
+146: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/concurrent/ManagedExecutorServiceImpl;"
+147: Tag 11 InterfaceMethodRef Class index 148, Name and type index 149
+148: Tag 7 Class Name index 150
+149: Tag 12 NameAndType Name index 151, Description index 152
+150: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+151: Tag 1 Utf8 Value "getResult"
+152: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+153: Tag 10 MethodRef Class index 154, Name and type index 155
+154: Tag 7 Class Name index 156
+155: Tag 12 NameAndType Name index 157, Description index 158
+156: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedExecutorServiceImpl"
+157: Tag 1 Utf8 Value "getRuntimeStats"
+158: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/concurrent/ManagedExecutorRuntimeStats;"
+159: Tag 11 InterfaceMethodRef Class index 160, Name and type index 161
+160: Tag 7 Class Name index 162
+161: Tag 12 NameAndType Name index 163, Description index 164
+162: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedExecutorRuntimeStats"
+163: Tag 1 Utf8 Value "getThreadsCount"
+164: Tag 1 Utf8 Value "()I"
+165: Tag 10 MethodRef Class index 166, Name and type index 167
+166: Tag 7 Class Name index 168
+167: Tag 12 NameAndType Name index 169, Description index 170
+168: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+169: Tag 1 Utf8 Value "set"
+170: Tag 1 Utf8 Value "(I)Lorg/jboss/dmr/ModelNode;"
+171: Tag 11 InterfaceMethodRef Class index 160, Name and type index 172
+172: Tag 12 NameAndType Name index 173, Description index 174
+173: Tag 1 Utf8 Value "getTaskCount"
+174: Tag 1 Utf8 Value "()J"
+175: Tag 10 MethodRef Class index 166, Name and type index 176
+176: Tag 12 NameAndType Name index 169, Description index 177
+177: Tag 1 Utf8 Value "(J)Lorg/jboss/dmr/ModelNode;"
+178: Tag 11 InterfaceMethodRef Class index 160, Name and type index 179
+179: Tag 12 NameAndType Name index 180, Description index 164
+180: Tag 1 Utf8 Value "getMaxThreadsCount"
+181: Tag 11 InterfaceMethodRef Class index 160, Name and type index 182
+182: Tag 12 NameAndType Name index 183, Description index 164
+183: Tag 1 Utf8 Value "getHungThreadsCount"
+184: Tag 11 InterfaceMethodRef Class index 160, Name and type index 185
+185: Tag 12 NameAndType Name index 186, Description index 164
+186: Tag 1 Utf8 Value "getQueueSize"
+187: Tag 11 InterfaceMethodRef Class index 160, Name and type index 188
+188: Tag 12 NameAndType Name index 189, Description index 174
+189: Tag 1 Utf8 Value "getCompletedTaskCount"
+190: Tag 11 InterfaceMethodRef Class index 160, Name and type index 191
+191: Tag 12 NameAndType Name index 192, Description index 164
+192: Tag 1 Utf8 Value "getActiveThreadsCount"
+193: Tag 8 String Contents 194
+194: Tag 1 Utf8 Value "org.wildfly.ee.concurrent.executor"
+195: Tag 7 Class Name index 196
+196: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/ManagedExecutorServiceAdapter"
+197: Tag 10 MethodRef Class index 198, Name and type index 199
+198: Tag 7 Class Name index 200
+199: Tag 12 NameAndType Name index 201, Description index 202
+200: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability$Builder"
+201: Tag 1 Utf8 Value "of"
+202: Tag 1 Utf8 Value "(Ljava/lang/String;ZLjava/lang/Class;)Lorg/jboss/as/controller/capability/RuntimeCapability$Builder;"
+203: Tag 10 MethodRef Class index 198, Name and type index 204
+204: Tag 12 NameAndType Name index 205, Description index 206
+205: Tag 1 Utf8 Value "build"
+206: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/capability/RuntimeCapability;"
+207: Tag 7 Class Name index 208
+208: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinitionBuilder"
+209: Tag 8 String Contents 210
+210: Tag 1 Utf8 Value "jndi-name"
+211: Tag 9 FieldRef Class index 212, Name and type index 213
+212: Tag 7 Class Name index 214
+213: Tag 12 NameAndType Name index 215, Description index 216
+214: Tag 1 Utf8 Value "org/jboss/dmr/ModelType"
+215: Tag 1 Utf8 Value "STRING"
+216: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelType;"
+217: Tag 10 MethodRef Class index 207, Name and type index 218
+218: Tag 12 NameAndType Name index 15, Description index 219
+219: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/dmr/ModelType;Z)V"
+220: Tag 10 MethodRef Class index 207, Name and type index 221
+221: Tag 12 NameAndType Name index 222, Description index 223
+222: Tag 1 Utf8 Value "setAllowExpression"
+223: Tag 1 Utf8 Value "(Z)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+224: Tag 7 Class Name index 225
+225: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess$Flag"
+226: Tag 9 FieldRef Class index 224, Name and type index 227
+227: Tag 12 NameAndType Name index 228, Description index 229
+228: Tag 1 Utf8 Value "RESTART_RESOURCE_SERVICES"
+229: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/AttributeAccess$Flag;"
+230: Tag 10 MethodRef Class index 207, Name and type index 231
+231: Tag 12 NameAndType Name index 232, Description index 233
+232: Tag 1 Utf8 Value "setFlags"
+233: Tag 1 Utf8 Value "([Lorg/jboss/as/controller/registry/AttributeAccess$Flag;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+234: Tag 10 MethodRef Class index 207, Name and type index 235
+235: Tag 12 NameAndType Name index 205, Description index 236
+236: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/SimpleAttributeDefinition;"
+237: Tag 9 FieldRef Class index 4, Name and type index 238
+238: Tag 12 NameAndType Name index 239, Description index 112
+239: Tag 1 Utf8 Value "JNDI_NAME_AD"
+240: Tag 8 String Contents 241
+241: Tag 1 Utf8 Value "context-service"
+242: Tag 7 Class Name index 243
+243: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/StringLengthValidator"
+244: Tag 10 MethodRef Class index 242, Name and type index 245
+245: Tag 12 NameAndType Name index 15, Description index 246
+246: Tag 1 Utf8 Value "(IZ)V"
+247: Tag 10 MethodRef Class index 207, Name and type index 248
+248: Tag 12 NameAndType Name index 249, Description index 250
+249: Tag 1 Utf8 Value "setValidator"
+250: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/operations/validation/ParameterValidator;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+251: Tag 9 FieldRef Class index 252, Name and type index 38
+252: Tag 7 Class Name index 253
+253: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ContextServiceResourceDefinition"
+254: Tag 10 MethodRef Class index 35, Name and type index 255
+255: Tag 12 NameAndType Name index 256, Description index 257
+256: Tag 1 Utf8 Value "getName"
+257: Tag 1 Utf8 Value "()Ljava/lang/String;"
+258: Tag 10 MethodRef Class index 207, Name and type index 259
+259: Tag 12 NameAndType Name index 260, Description index 261
+260: Tag 1 Utf8 Value "setCapabilityReference"
+261: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/jboss/as/controller/capability/RuntimeCapability;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+262: Tag 9 FieldRef Class index 4, Name and type index 263
+263: Tag 12 NameAndType Name index 264, Description index 112
+264: Tag 1 Utf8 Value "CONTEXT_SERVICE_AD"
+265: Tag 8 String Contents 266
+266: Tag 1 Utf8 Value "thread-factory"
+267: Tag 9 FieldRef Class index 268, Name and type index 38
+268: Tag 7 Class Name index 269
+269: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedThreadFactoryResourceDefinition"
+270: Tag 9 FieldRef Class index 271, Name and type index 272
+271: Tag 7 Class Name index 273
+272: Tag 12 NameAndType Name index 274, Description index 275
+273: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/EESubsystemModel$Version"
+274: Tag 1 Utf8 Value "v5_0_0"
+275: Tag 1 Utf8 Value "Lorg/jboss/as/controller/ModelVersion;"
+276: Tag 10 MethodRef Class index 207, Name and type index 277
+277: Tag 12 NameAndType Name index 278, Description index 279
+278: Tag 1 Utf8 Value "setDeprecated"
+279: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ModelVersion;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+280: Tag 7 Class Name index 281
+281: Tag 1 Utf8 Value "java/lang/String"
+282: Tag 8 String Contents 283
+283: Tag 1 Utf8 Value "thread-priority"
+284: Tag 10 MethodRef Class index 207, Name and type index 285
+285: Tag 12 NameAndType Name index 286, Description index 287
+286: Tag 1 Utf8 Value "setAlternatives"
+287: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+288: Tag 9 FieldRef Class index 4, Name and type index 289
+289: Tag 12 NameAndType Name index 290, Description index 112
+290: Tag 1 Utf8 Value "THREAD_FACTORY_AD"
+291: Tag 9 FieldRef Class index 212, Name and type index 292
+292: Tag 12 NameAndType Name index 293, Description index 216
+293: Tag 1 Utf8 Value "INT"
+294: Tag 7 Class Name index 295
+295: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/IntRangeValidator"
+296: Tag 7 Class Name index 297
+297: Tag 1 Utf8 Value "java/lang/Thread"
+298: Tag 10 MethodRef Class index 294, Name and type index 299
+299: Tag 12 NameAndType Name index 15, Description index 300
+300: Tag 1 Utf8 Value "(IIZZ)V"
+301: Tag 10 MethodRef Class index 166, Name and type index 302
+302: Tag 12 NameAndType Name index 15, Description index 303
+303: Tag 1 Utf8 Value "(I)V"
+304: Tag 10 MethodRef Class index 207, Name and type index 305
+305: Tag 12 NameAndType Name index 306, Description index 307
+306: Tag 1 Utf8 Value "setDefaultValue"
+307: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+308: Tag 8 String Contents 309
+309: Tag 1 Utf8 Value "hung-task-termination-period"
+310: Tag 9 FieldRef Class index 212, Name and type index 311
+311: Tag 12 NameAndType Name index 312, Description index 216
+312: Tag 1 Utf8 Value "LONG"
+313: Tag 7 Class Name index 314
+314: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/LongRangeValidator"
+315: Tag 7 Class Name index 316
+316: Tag 1 Utf8 Value "java/lang/Long"
+317: Tag 5 Long Value 9223372036854775807
+319: Tag 10 MethodRef Class index 313, Name and type index 320
+320: Tag 12 NameAndType Name index 15, Description index 321
+321: Tag 1 Utf8 Value "(JJZZ)V"
+322: Tag 9 FieldRef Class index 323, Name and type index 324
+323: Tag 7 Class Name index 325
+324: Tag 12 NameAndType Name index 326, Description index 327
+325: Tag 1 Utf8 Value "org/jboss/as/controller/client/helpers/MeasurementUnit"
+326: Tag 1 Utf8 Value "MILLISECONDS"
+327: Tag 1 Utf8 Value "Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+328: Tag 10 MethodRef Class index 207, Name and type index 329
+329: Tag 12 NameAndType Name index 330, Description index 331
+330: Tag 1 Utf8 Value "setMeasurementUnit"
+331: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/client/helpers/MeasurementUnit;)Lorg/jboss/as/controller/AbstractAttributeDefinitionBuilder;"
+332: Tag 9 FieldRef Class index 166, Name and type index 333
+333: Tag 12 NameAndType Name index 334, Description index 335
+334: Tag 1 Utf8 Value "ZERO"
+335: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+336: Tag 8 String Contents 337
+337: Tag 1 Utf8 Value "hung-task-threshold"
+338: Tag 9 FieldRef Class index 4, Name and type index 339
+339: Tag 12 NameAndType Name index 340, Description index 112
+340: Tag 1 Utf8 Value "HUNG_TASK_THRESHOLD_AD"
+341: Tag 8 String Contents 342
+342: Tag 1 Utf8 Value "long-running-tasks"
+343: Tag 9 FieldRef Class index 212, Name and type index 344
+344: Tag 12 NameAndType Name index 345, Description index 216
+345: Tag 1 Utf8 Value "BOOLEAN"
+346: Tag 9 FieldRef Class index 166, Name and type index 347
+347: Tag 12 NameAndType Name index 348, Description index 335
+348: Tag 1 Utf8 Value "FALSE"
+349: Tag 9 FieldRef Class index 4, Name and type index 350
+350: Tag 12 NameAndType Name index 351, Description index 112
+351: Tag 1 Utf8 Value "LONG_RUNNING_TASKS_AD"
+352: Tag 8 String Contents 353
+353: Tag 1 Utf8 Value "core-threads"
+354: Tag 7 Class Name index 355
+355: Tag 1 Utf8 Value "java/lang/Integer"
+356: Tag 3 Integer Value 2147483647, hex: 0x7fffffff
+357: Tag 8 String Contents 358
+358: Tag 1 Utf8 Value "max-threads"
+359: Tag 9 FieldRef Class index 4, Name and type index 360
+360: Tag 12 NameAndType Name index 361, Description index 112
+361: Tag 1 Utf8 Value "MAX_THREADS_AD"
+362: Tag 8 String Contents 363
+363: Tag 1 Utf8 Value "keepalive-time"
+364: Tag 3 Integer Value 60000, hex: 0xea60
+365: Tag 9 FieldRef Class index 4, Name and type index 366
+366: Tag 12 NameAndType Name index 367, Description index 112
+367: Tag 1 Utf8 Value "KEEPALIVE_TIME_AD"
+368: Tag 8 String Contents 369
+369: Tag 1 Utf8 Value "queue-length"
+370: Tag 9 FieldRef Class index 4, Name and type index 371
+371: Tag 12 NameAndType Name index 372, Description index 112
+372: Tag 1 Utf8 Value "QUEUE_LENGTH_AD"
+373: Tag 8 String Contents 374
+374: Tag 1 Utf8 Value "reject-policy"
+375: Tag 9 FieldRef Class index 376, Name and type index 377
+376: Tag 7 Class Name index 378
+377: Tag 12 NameAndType Name index 379, Description index 380
+378: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/AbstractManagedExecutorService$RejectPolicy"
+379: Tag 1 Utf8 Value "ABORT"
+380: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/AbstractManagedExecutorService$RejectPolicy;"
+381: Tag 10 MethodRef Class index 376, Name and type index 382
+382: Tag 12 NameAndType Name index 383, Description index 257
+383: Tag 1 Utf8 Value "toString"
+384: Tag 10 MethodRef Class index 166, Name and type index 385
+385: Tag 12 NameAndType Name index 15, Description index 386
+386: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+387: Tag 10 MethodRef Class index 388, Name and type index 389
+388: Tag 7 Class Name index 390
+389: Tag 12 NameAndType Name index 391, Description index 392
+390: Tag 1 Utf8 Value "org/jboss/as/controller/operations/validation/EnumValidator"
+391: Tag 1 Utf8 Value "create"
+392: Tag 1 Utf8 Value "(Ljava/lang/Class;ZZ)Lorg/jboss/as/controller/operations/validation/EnumValidator;"
+393: Tag 9 FieldRef Class index 4, Name and type index 394
+394: Tag 12 NameAndType Name index 395, Description index 112
+395: Tag 1 Utf8 Value "REJECT_POLICY_AD"
+396: Tag 7 Class Name index 397
+397: Tag 1 Utf8 Value "org/jboss/as/controller/SimpleAttributeDefinition"
+398: Tag 7 Class Name index 399
+399: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/EESubsystemModel"
+400: Tag 8 String Contents 401
+401: Tag 1 Utf8 Value "managed-executor-service"
+402: Tag 10 MethodRef Class index 403, Name and type index 404
+403: Tag 7 Class Name index 405
+404: Tag 12 NameAndType Name index 406, Description index 407
+405: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+406: Tag 1 Utf8 Value "pathElement"
+407: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/PathElement;"
+408: Tag 10 MethodRef Class index 409, Name and type index 410
+409: Tag 7 Class Name index 411
+410: Tag 12 NameAndType Name index 412, Description index 413
+411: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/EeExtension"
+412: Tag 1 Utf8 Value "getResourceDescriptionResolver"
+413: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;"
+414: Tag 7 Class Name index 415
+415: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsHandler$Builder"
+416: Tag 10 MethodRef Class index 414, Name and type index 417
+417: Tag 12 NameAndType Name index 15, Description index 418
+418: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/RuntimeCapability;)V"
+419: Tag 9 FieldRef Class index 420, Name and type index 421
+420: Tag 7 Class Name index 422
+421: Tag 12 NameAndType Name index 423, Description index 424
+422: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsAttributes"
+423: Tag 1 Utf8 Value "ACTIVE_THREAD_COUNT_AD"
+424: Tag 1 Utf8 Value "Lorg/jboss/as/controller/AttributeDefinition;"
+425: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 426
+426: Tag 12 NameAndType Name index 427, Description index 428
+427: Tag 1 Utf8 Value "setResult"
+428: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsHandler$MetricResultSetter;"
+429: Tag 10 MethodRef Class index 414, Name and type index 430
+430: Tag 12 NameAndType Name index 431, Description index 432
+431: Tag 1 Utf8 Value "addMetric"
+432: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/AttributeDefinition;Lorg/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsHandler$MetricResultSetter;)Lorg/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsHandler$Builder;"
+433: Tag 9 FieldRef Class index 420, Name and type index 434
+434: Tag 12 NameAndType Name index 435, Description index 424
+435: Tag 1 Utf8 Value "COMPLETED_TASK_COUNT_AD"
+436: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 426
+437: Tag 9 FieldRef Class index 420, Name and type index 438
+438: Tag 12 NameAndType Name index 439, Description index 424
+439: Tag 1 Utf8 Value "CURRENT_QUEUE_SIZE_AD"
+440: Tag 18 InvokeDynamic Bootstrap index 2, NameAndType index 426
+441: Tag 9 FieldRef Class index 420, Name and type index 442
+442: Tag 12 NameAndType Name index 443, Description index 424
+443: Tag 1 Utf8 Value "HUNG_THREAD_COUNT_AD"
+444: Tag 18 InvokeDynamic Bootstrap index 3, NameAndType index 426
+445: Tag 9 FieldRef Class index 420, Name and type index 446
+446: Tag 12 NameAndType Name index 447, Description index 424
+447: Tag 1 Utf8 Value "MAX_THREAD_COUNT_AD"
+448: Tag 18 InvokeDynamic Bootstrap index 4, NameAndType index 426
+449: Tag 9 FieldRef Class index 420, Name and type index 450
+450: Tag 12 NameAndType Name index 451, Description index 424
+451: Tag 1 Utf8 Value "TASK_COUNT_AD"
+452: Tag 18 InvokeDynamic Bootstrap index 5, NameAndType index 426
+453: Tag 9 FieldRef Class index 420, Name and type index 454
+454: Tag 12 NameAndType Name index 455, Description index 424
+455: Tag 1 Utf8 Value "THREAD_COUNT_AD"
+456: Tag 18 InvokeDynamic Bootstrap index 6, NameAndType index 426
+457: Tag 10 MethodRef Class index 414, Name and type index 458
+458: Tag 12 NameAndType Name index 205, Description index 459
+459: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsHandler;"
+460: Tag 18 InvokeDynamic Bootstrap index 7, NameAndType index 461
+461: Tag 12 NameAndType Name index 462, Description index 463
+462: Tag 1 Utf8 Value "getExecutor"
+463: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/subsystem/ManagedExecutorTerminateHungTasksOperation$ExecutorProvider;"
+464: Tag 10 MethodRef Class index 63, Name and type index 465
+465: Tag 12 NameAndType Name index 15, Description index 466
+466: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/RuntimeCapability;Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver;Lorg/jboss/as/ee/subsystem/ManagedExecutorTerminateHungTasksOperation$ExecutorProvider;)V"
+467: Tag 1 Utf8 Value "Signature"
+468: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability<Ljava/lang/Void;>;"
+469: Tag 1 Utf8 Value "JNDI_NAME"
+470: Tag 1 Utf8 Value "Ljava/lang/String;"
+471: Tag 1 Utf8 Value "ConstantValue"
+472: Tag 1 Utf8 Value "CONTEXT_SERVICE"
+473: Tag 1 Utf8 Value "THREAD_FACTORY"
+474: Tag 1 Utf8 Value "THREAD_PRIORITY"
+475: Tag 1 Utf8 Value "HUNG_TASK_TERMINATION_PERIOD"
+476: Tag 1 Utf8 Value "HUNG_TASK_THRESHOLD"
+477: Tag 1 Utf8 Value "LONG_RUNNING_TASKS"
+478: Tag 1 Utf8 Value "CORE_THREADS"
+479: Tag 1 Utf8 Value "MAX_THREADS"
+480: Tag 1 Utf8 Value "KEEPALIVE_TIME"
+481: Tag 1 Utf8 Value "QUEUE_LENGTH"
+482: Tag 1 Utf8 Value "REJECT_POLICY"
+483: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/ManagedExecutorTerminateHungTasksOperation<Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;>;"
+484: Tag 1 Utf8 Value "(Z)V"
+485: Tag 1 Utf8 Value "Code"
+486: Tag 1 Utf8 Value "LineNumberTable"
+487: Tag 1 Utf8 Value "LocalVariableTable"
+488: Tag 1 Utf8 Value "this"
+489: Tag 1 Utf8 Value "Lorg/jboss/as/ee/subsystem/ManagedExecutorServiceResourceDefinition;"
+490: Tag 1 Utf8 Value "resourceRegistration"
+491: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/ManagementResourceRegistration;"
+492: Tag 1 Utf8 Value "attr"
+493: Tag 1 Utf8 Value "writeHandler"
+494: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationStepHandler;"
+495: Tag 1 Utf8 Value "StackMapTable"
+496: Tag 7 Class Name index 497
+497: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+498: Tag 7 Class Name index 72
+499: Tag 1 Utf8 Value "registerTransformers_4_0"
+500: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/transform/description/ResourceTransformationDescriptionBuilder;)V"
+501: Tag 1 Utf8 Value "builder"
+502: Tag 1 Utf8 Value "Lorg/jboss/as/controller/transform/description/ResourceTransformationDescriptionBuilder;"
+503: Tag 1 Utf8 Value "resourceBuilder"
+504: Tag 1 Utf8 Value "registerTransformers5_0"
+505: Tag 1 Utf8 Value "registerTransformers6_0"
+506: Tag 1 Utf8 Value "lambda$static$7"
+507: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads;"
+508: Tag 1 Utf8 Value "service"
+509: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;"
+510: Tag 1 Utf8 Value "lambda$static$6"
+511: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)V"
+512: Tag 1 Utf8 Value "context"
+513: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+514: Tag 1 Utf8 Value "Exceptions"
+515: Tag 7 Class Name index 516
+516: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+517: Tag 1 Utf8 Value "lambda$static$5"
+518: Tag 1 Utf8 Value "lambda$static$4"
+519: Tag 1 Utf8 Value "lambda$static$3"
+520: Tag 1 Utf8 Value "lambda$static$2"
+521: Tag 1 Utf8 Value "lambda$static$1"
+522: Tag 1 Utf8 Value "lambda$static$0"
+523: Tag 1 Utf8 Value "<clinit>"
+524: Tag 1 Utf8 Value "()V"
+525: Tag 1 Utf8 Value "SourceFile"
+526: Tag 1 Utf8 Value "ManagedExecutorServiceResourceDefinition.java"
+527: Tag 1 Utf8 Value "BootstrapMethods"
+528: Tag 15 MethodHandle Kind 6, Index 529
+529: Tag 10 MethodRef Class index 530, Name and type index 531
+530: Tag 7 Class Name index 532
+531: Tag 12 NameAndType Name index 533, Description index 534
+532: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+533: Tag 1 Utf8 Value "metafactory"
+534: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+535: Tag 16 MethodType Descriptor index 536
+536: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/lang/Object;)V"
+537: Tag 15 MethodHandle Kind 6, Index 538
+538: Tag 10 MethodRef Class index 4, Name and type index 539
+539: Tag 12 NameAndType Name index 522, Description index 511
+540: Tag 16 MethodType Descriptor index 511
+541: Tag 15 MethodHandle Kind 6, Index 542
+542: Tag 10 MethodRef Class index 4, Name and type index 543
+543: Tag 12 NameAndType Name index 521, Description index 511
+544: Tag 15 MethodHandle Kind 6, Index 545
+545: Tag 10 MethodRef Class index 4, Name and type index 546
+546: Tag 12 NameAndType Name index 520, Description index 511
+547: Tag 15 MethodHandle Kind 6, Index 548
+548: Tag 10 MethodRef Class index 4, Name and type index 549
+549: Tag 12 NameAndType Name index 519, Description index 511
+550: Tag 15 MethodHandle Kind 6, Index 551
+551: Tag 10 MethodRef Class index 4, Name and type index 552
+552: Tag 12 NameAndType Name index 518, Description index 511
+553: Tag 15 MethodHandle Kind 6, Index 554
+554: Tag 10 MethodRef Class index 4, Name and type index 555
+555: Tag 12 NameAndType Name index 517, Description index 511
+556: Tag 15 MethodHandle Kind 6, Index 557
+557: Tag 10 MethodRef Class index 4, Name and type index 558
+558: Tag 12 NameAndType Name index 510, Description index 511
+559: Tag 16 MethodType Descriptor index 560
+560: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads;"
+561: Tag 15 MethodHandle Kind 6, Index 562
+562: Tag 10 MethodRef Class index 4, Name and type index 563
+563: Tag 12 NameAndType Name index 506, Description index 507
+564: Tag 16 MethodType Descriptor index 507
+565: Tag 1 Utf8 Value "InnerClasses"
+566: Tag 1 Utf8 Value "Parameters"
+567: Tag 1 Utf8 Value "ValidatingWriteHandler"
+568: Tag 1 Utf8 Value "Builder"
+569: Tag 7 Class Name index 570
+570: Tag 1 Utf8 Value "org/jboss/as/controller/registry/AttributeAccess"
+571: Tag 1 Utf8 Value "Flag"
+572: Tag 1 Utf8 Value "Version"
+573: Tag 7 Class Name index 574
+574: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/AbstractManagedExecutorService"
+575: Tag 1 Utf8 Value "RejectPolicy"
+576: Tag 7 Class Name index 577
+577: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsHandler$MetricResultSetter"
+578: Tag 1 Utf8 Value "MetricResultSetter"
+579: Tag 7 Class Name index 580
+580: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorTerminateHungTasksOperation$ExecutorProvider"
+581: Tag 1 Utf8 Value "ExecutorProvider"
+582: Tag 7 Class Name index 583
+583: Tag 1 Utf8 Value "org/jboss/as/ee/subsystem/ManagedExecutorServiceResourceDefinition$ExecutorQueueValidationStepHandler"
+584: Tag 1 Utf8 Value "ExecutorQueueValidationStepHandler"
+585: Tag 7 Class Name index 586
+586: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+587: Tag 7 Class Name index 588
+588: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+589: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 4, name org.jboss.as.ee.subsystem.ManagedExecutorServiceResourceDefinition
+
+Super class: id 46, name org.jboss.as.controller.SimpleResourceDefinition
+
+No interfaces
+
+Field name CAPABILITY (index 39), type Lorg/jboss/as/controller/capability/RuntimeCapability; (descriptor index 40)
+Human type: org.jboss.as.controller.capability.RuntimeCapability
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name Signature, size 2
+Field name JNDI_NAME (index 469), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name CONTEXT_SERVICE (index 472), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name THREAD_FACTORY (index 473), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name THREAD_PRIORITY (index 474), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name HUNG_TASK_TERMINATION_PERIOD (index 475), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name HUNG_TASK_THRESHOLD (index 476), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name LONG_RUNNING_TASKS (index 477), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name CORE_THREADS (index 478), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name MAX_THREADS (index 479), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name KEEPALIVE_TIME (index 480), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name QUEUE_LENGTH (index 481), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name REJECT_POLICY (index 482), type Ljava/lang/String; (descriptor index 470)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name JNDI_NAME_AD (index 239), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name CONTEXT_SERVICE_AD (index 264), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name THREAD_FACTORY_AD (index 290), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name THREAD_PRIORITY_AD (index 130), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name HUNG_TASK_TERMINATION_PERIOD_AD (index 140), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name HUNG_TASK_THRESHOLD_AD (index 340), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name LONG_RUNNING_TASKS_AD (index 351), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name CORE_THREADS_AD (index 111), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name MAX_THREADS_AD (index 361), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name KEEPALIVE_TIME_AD (index 367), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name QUEUE_LENGTH_AD (index 372), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name REJECT_POLICY_AD (index 395), type Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 112)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name ATTRIBUTES (index 71), type [Lorg/jboss/as/controller/SimpleAttributeDefinition; (descriptor index 72)
+Human type: org.jboss.as.controller.SimpleAttributeDefinition[]
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+No field attributes
+Field name PATH_ELEMENT (index 7), type Lorg/jboss/as/controller/PathElement; (descriptor index 8)
+Human type: org.jboss.as.controller.PathElement
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+Field name RESOLVER (index 11), type Lorg/jboss/as/controller/descriptions/ResourceDescriptionResolver; (descriptor index 12)
+Human type: org.jboss.as.controller.descriptions.ResourceDescriptionResolver
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name METRICS_HANDLER (index 84), type Lorg/jboss/as/ee/subsystem/ManagedExecutorServiceMetricsHandler; (descriptor index 85)
+Human type: org.jboss.as.ee.subsystem.ManagedExecutorServiceMetricsHandler
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name TERMINATE_HUNG_TASKS_OP (index 60), type Lorg/jboss/as/ee/subsystem/ManagedExecutorTerminateHungTasksOperation; (descriptor index 61)
+Human type: org.jboss.as.ee.subsystem.ManagedExecutorTerminateHungTasksOperation
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+Field name registerRuntimeOnly (index 52), type Z (descriptor index 53)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 15), type (Z)V (descriptor index 484)
+Human type: (boolean): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 131
+Method name registerOperations (index 56), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 57)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 73
+Method name registerAttributes (index 90), type (Lorg/jboss/as/controller/registry/ManagementResourceRegistration;)V (descriptor index 57)
+Human type: (org.jboss.as.controller.registry.ManagementResourceRegistration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 195
+Method name registerTransformers_4_0 (index 499), type (Lorg/jboss/as/controller/transform/description/ResourceTransformationDescriptionBuilder;)V (descriptor index 500)
+Human type: (org.jboss.as.controller.transform.description.ResourceTransformationDescriptionBuilder): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 112
+Method name registerTransformers5_0 (index 504), type (Lorg/jboss/as/controller/transform/description/ResourceTransformationDescriptionBuilder;)V (descriptor index 500)
+Human type: (org.jboss.as.controller.transform.description.ResourceTransformationDescriptionBuilder): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 137
+Method name registerTransformers6_0 (index 505), type (Lorg/jboss/as/controller/transform/description/ResourceTransformationDescriptionBuilder;)V (descriptor index 500)
+Human type: (org.jboss.as.controller.transform.description.ResourceTransformationDescriptionBuilder): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 137
+Method name lambda$static$7 (index 506), type (Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)Lorg/jboss/as/ee/concurrent/ManagedExecutorWithHungThreads; (descriptor index 507)
+Human type: (org.jboss.as.ee.concurrent.service.ManagedExecutorServiceService): org.jboss.as.ee.concurrent.ManagedExecutorWithHungThreads
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 47
+Method name lambda$static$6 (index 510), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)V (descriptor index 511)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.ee.concurrent.service.ManagedExecutorServiceService): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 75
+Method attribute name Exceptions, size 4
+Method name lambda$static$5 (index 517), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)V (descriptor index 511)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.ee.concurrent.service.ManagedExecutorServiceService): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 75
+Method attribute name Exceptions, size 4
+Method name lambda$static$4 (index 518), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)V (descriptor index 511)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.ee.concurrent.service.ManagedExecutorServiceService): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 75
+Method attribute name Exceptions, size 4
+Method name lambda$static$3 (index 519), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)V (descriptor index 511)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.ee.concurrent.service.ManagedExecutorServiceService): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 75
+Method attribute name Exceptions, size 4
+Method name lambda$static$2 (index 520), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)V (descriptor index 511)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.ee.concurrent.service.ManagedExecutorServiceService): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 75
+Method attribute name Exceptions, size 4
+Method name lambda$static$1 (index 521), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)V (descriptor index 511)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.ee.concurrent.service.ManagedExecutorServiceService): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 75
+Method attribute name Exceptions, size 4
+Method name lambda$static$0 (index 522), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/as/ee/concurrent/service/ManagedExecutorServiceService;)V (descriptor index 511)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.as.ee.concurrent.service.ManagedExecutorServiceService): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 75
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 523), type ()V (descriptor index 524)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 1465
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 82
+Class attribute name InnerClasses, size 90

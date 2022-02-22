@@ -1,0 +1,116 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 65
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/jsf/deployment/JsfVersionMarker"
+11: Tag 1 Utf8 Value "VERSION_KEY"
+12: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+17: Tag 1 Utf8 Value "putAttachment"
+18: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)Ljava/lang/Object;"
+19: Tag 11 InterfaceMethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "getAttachment"
+22: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+23: Tag 7 Class Name index 24
+24: Tag 1 Utf8 Value "java/lang/String"
+25: Tag 8 String Contents 26
+26: Tag 1 Utf8 Value "Mojarra-2.0"
+27: Tag 8 String Contents 28
+28: Tag 1 Utf8 Value "NONE"
+29: Tag 10 MethodRef Class index 23, Name and type index 30
+30: Tag 12 NameAndType Name index 31, Description index 32
+31: Tag 1 Utf8 Value "equals"
+32: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+33: Tag 10 MethodRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/as/server/deployment/AttachmentKey"
+37: Tag 1 Utf8 Value "create"
+38: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/server/deployment/AttachmentKey;"
+39: Tag 1 Utf8 Value "JSF_2_0"
+40: Tag 1 Utf8 Value "Ljava/lang/String;"
+41: Tag 1 Utf8 Value "ConstantValue"
+42: Tag 1 Utf8 Value "WAR_BUNDLES_JSF_IMPL"
+43: Tag 8 String Contents 42
+44: Tag 1 Utf8 Value "Signature"
+45: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey<Ljava/lang/String;>;"
+46: Tag 1 Utf8 Value "Code"
+47: Tag 1 Utf8 Value "LineNumberTable"
+48: Tag 1 Utf8 Value "LocalVariableTable"
+49: Tag 1 Utf8 Value "this"
+50: Tag 1 Utf8 Value "Lorg/jboss/as/jsf/deployment/JsfVersionMarker;"
+51: Tag 1 Utf8 Value "setVersion"
+52: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/lang/String;)V"
+53: Tag 1 Utf8 Value "deploymentUnit"
+54: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+55: Tag 1 Utf8 Value "value"
+56: Tag 1 Utf8 Value "getVersion"
+57: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/String;"
+58: Tag 1 Utf8 Value "version"
+59: Tag 1 Utf8 Value "StackMapTable"
+60: Tag 1 Utf8 Value "isJsfDisabled"
+61: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+62: Tag 1 Utf8 Value "<clinit>"
+63: Tag 1 Utf8 Value "SourceFile"
+64: Tag 1 Utf8 Value "JsfVersionMarker.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.jsf.deployment.JsfVersionMarker
+
+Super class: id 2, name java.lang.Object
+
+No interfaces
+
+Field name JSF_2_0 (index 39), type Ljava/lang/String; (descriptor index 40)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name WAR_BUNDLES_JSF_IMPL (index 42), type Ljava/lang/String; (descriptor index 40)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name NONE (index 28), type Ljava/lang/String; (descriptor index 40)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name VERSION_KEY (index 11), type Lorg/jboss/as/server/deployment/AttachmentKey; (descriptor index 12)
+Human type: org.jboss.as.server.deployment.AttachmentKey
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name setVersion (index 51), type (Lorg/jboss/as/server/deployment/DeploymentUnit;Ljava/lang/String;)V (descriptor index 52)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit, java.lang.String): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 68
+Method name getVersion (index 56), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/String; (descriptor index 57)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): java.lang.String
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 98
+Method name isJsfDisabled (index 60), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)Z (descriptor index 61)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): boolean
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 76
+Method name <clinit> (index 62), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 33
+
+Class attribute name SourceFile, size 2

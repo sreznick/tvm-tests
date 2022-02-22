@@ -1,0 +1,114 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 73
+1: Tag 10 MethodRef Class index 14, Name and type index 43
+2: Tag 7 Class Name index 44
+3: Tag 10 MethodRef Class index 2, Name and type index 45
+4: Tag 9 FieldRef Class index 13, Name and type index 46
+5: Tag 11 InterfaceMethodRef Class index 47, Name and type index 48
+6: Tag 7 Class Name index 49
+7: Tag 7 Class Name index 50
+8: Tag 10 MethodRef Class index 7, Name and type index 51
+9: Tag 11 InterfaceMethodRef Class index 52, Name and type index 53
+10: Tag 9 FieldRef Class index 54, Name and type index 55
+11: Tag 10 MethodRef Class index 6, Name and type index 56
+12: Tag 11 InterfaceMethodRef Class index 54, Name and type index 57
+13: Tag 7 Class Name index 58
+14: Tag 7 Class Name index 59
+15: Tag 1 Utf8 Value "factory"
+16: Tag 1 Utf8 Value "Ljavax/sql/DataSource;"
+17: Tag 1 Utf8 Value "<init>"
+18: Tag 1 Utf8 Value "()V"
+19: Tag 1 Utf8 Value "Code"
+20: Tag 1 Utf8 Value "LineNumberTable"
+21: Tag 1 Utf8 Value "LocalVariableTable"
+22: Tag 1 Utf8 Value "this"
+23: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/infinispan/DataSourceConnectionFactory;"
+24: Tag 1 Utf8 Value "start"
+25: Tag 1 Utf8 Value "(Lorg/infinispan/persistence/jdbc/configuration/ConnectionFactoryConfiguration;Ljava/lang/ClassLoader;)V"
+26: Tag 1 Utf8 Value "configuration"
+27: Tag 1 Utf8 Value "Lorg/infinispan/persistence/jdbc/configuration/ConnectionFactoryConfiguration;"
+28: Tag 1 Utf8 Value "classLoader"
+29: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+30: Tag 1 Utf8 Value "Exceptions"
+31: Tag 1 Utf8 Value "stop"
+32: Tag 1 Utf8 Value "getConnection"
+33: Tag 1 Utf8 Value "()Ljava/sql/Connection;"
+34: Tag 1 Utf8 Value "e"
+35: Tag 1 Utf8 Value "Ljava/sql/SQLException;"
+36: Tag 1 Utf8 Value "StackMapTable"
+37: Tag 1 Utf8 Value "releaseConnection"
+38: Tag 1 Utf8 Value "(Ljava/sql/Connection;)V"
+39: Tag 1 Utf8 Value "connection"
+40: Tag 1 Utf8 Value "Ljava/sql/Connection;"
+41: Tag 1 Utf8 Value "SourceFile"
+42: Tag 1 Utf8 Value "DataSourceConnectionFactory.java"
+43: Tag 12 NameAndType Name index 17, Description index 18
+44: Tag 1 Utf8 Value "org/jboss/as/clustering/infinispan/DataSourceConnectionFactoryConfiguration"
+45: Tag 12 NameAndType Name index 60, Description index 61
+46: Tag 12 NameAndType Name index 15, Description index 16
+47: Tag 7 Class Name index 62
+48: Tag 12 NameAndType Name index 32, Description index 33
+49: Tag 1 Utf8 Value "java/sql/SQLException"
+50: Tag 1 Utf8 Value "org/infinispan/persistence/spi/PersistenceException"
+51: Tag 12 NameAndType Name index 17, Description index 63
+52: Tag 7 Class Name index 64
+53: Tag 12 NameAndType Name index 65, Description index 18
+54: Tag 7 Class Name index 66
+55: Tag 12 NameAndType Name index 67, Description index 68
+56: Tag 12 NameAndType Name index 69, Description index 70
+57: Tag 12 NameAndType Name index 71, Description index 72
+58: Tag 1 Utf8 Value "org/jboss/as/clustering/infinispan/DataSourceConnectionFactory"
+59: Tag 1 Utf8 Value "org/infinispan/persistence/jdbc/connectionfactory/ConnectionFactory"
+60: Tag 1 Utf8 Value "getDataSource"
+61: Tag 1 Utf8 Value "()Ljavax/sql/DataSource;"
+62: Tag 1 Utf8 Value "javax/sql/DataSource"
+63: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+64: Tag 1 Utf8 Value "java/sql/Connection"
+65: Tag 1 Utf8 Value "close"
+66: Tag 1 Utf8 Value "org/jboss/as/clustering/infinispan/InfinispanLogger"
+67: Tag 1 Utf8 Value "ROOT_LOGGER"
+68: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/infinispan/InfinispanLogger;"
+69: Tag 1 Utf8 Value "getMessage"
+70: Tag 1 Utf8 Value "()Ljava/lang/String;"
+71: Tag 1 Utf8 Value "debug"
+72: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Throwable;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 13, name org.jboss.as.clustering.infinispan.DataSourceConnectionFactory
+
+Super class: id 14, name org.infinispan.persistence.jdbc.connectionfactory.ConnectionFactory
+
+No interfaces
+
+Field name factory (index 15), type Ljavax/sql/DataSource; (descriptor index 16)
+Human type: javax.sql.DataSource
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 17), type ()V (descriptor index 18)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name start (index 24), type (Lorg/infinispan/persistence/jdbc/configuration/ConnectionFactoryConfiguration;Ljava/lang/ClassLoader;)V (descriptor index 25)
+Human type: (org.infinispan.persistence.jdbc.configuration.ConnectionFactoryConfiguration, java.lang.ClassLoader): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 78
+Method attribute name Exceptions, size 4
+Method name stop (index 31), type ()V (descriptor index 18)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getConnection (index 32), type ()Ljava/sql/Connection; (descriptor index 33)
+Human type: (): java.sql.Connection
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 100
+Method attribute name Exceptions, size 4
+Method name releaseConnection (index 37), type (Ljava/sql/Connection;)V (descriptor index 38)
+Human type: (java.sql.Connection): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 131
+
+Class attribute name SourceFile, size 2

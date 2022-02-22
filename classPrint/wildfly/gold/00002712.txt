@@ -1,0 +1,940 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 430
+1: Tag 7 Class Name index 419
+2: Tag 8 String Contents 420
+3: Tag 10 MethodRef Class index 421, Name and type index 422
+4: Tag 9 FieldRef Class index 1, Name and type index 423
+5: Tag 7 Class Name index 424
+6: Tag 7 Class Name index 425
+7: Tag 1 Utf8 Value "ROOT_LOGGER"
+8: Tag 1 Utf8 Value "Lorg/wildfly/iiop/openjdk/logging/IIOPLogger;"
+9: Tag 1 Utf8 Value "activatingSubsystem"
+10: Tag 1 Utf8 Value "()V"
+11: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+12: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+13: Tag 1 Utf8 Value "level"
+14: Tag 7 Class Name index 426
+15: Tag 1 Utf8 Value "Level"
+16: Tag 1 Utf8 Value "InnerClasses"
+17: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+18: Tag 1 Utf8 Value "INFO"
+19: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+20: Tag 1 Utf8 Value "id"
+21: Tag 3 Integer Value 1, hex: 0x1
+22: Tag 1 Utf8 Value "value"
+23: Tag 1 Utf8 Value "Activating IIOP Subsystem"
+24: Tag 1 Utf8 Value "failedToFetchCSIv2Policy"
+25: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+26: Tag 1 Utf8 Value "ERROR"
+27: Tag 3 Integer Value 2, hex: 0x2
+28: Tag 1 Utf8 Value "Error fetching CSIv2Policy"
+29: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+30: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+31: Tag 1 Utf8 Value "caughtExceptionEncodingGSSUPMechOID"
+32: Tag 1 Utf8 Value "WARN"
+33: Tag 3 Integer Value 3, hex: 0x3
+34: Tag 1 Utf8 Value "Caught exception while encoding GSSUPMechOID"
+35: Tag 1 Utf8 Value "logInternalError"
+36: Tag 1 Utf8 Value "(Ljava/lang/Exception;)V"
+37: Tag 3 Integer Value 4, hex: 0x4
+38: Tag 1 Utf8 Value "Internal error"
+39: Tag 1 Utf8 Value "failedToCreateNamingContext"
+40: Tag 3 Integer Value 5, hex: 0x5
+41: Tag 1 Utf8 Value "Failed to create CORBA naming context"
+42: Tag 1 Utf8 Value "failedToUnbindObject"
+43: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+44: Tag 3 Integer Value 6, hex: 0x6
+45: Tag 1 Utf8 Value "Unbind failed for %s"
+46: Tag 1 Utf8 Value "failedToObtainJSSEDomain"
+47: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+48: Tag 3 Integer Value 7, hex: 0x7
+49: Tag 1 Utf8 Value "Failed to obtain JSSE security domain with name %s"
+50: Tag 1 Utf8 Value "corbaNamingServiceStarted"
+51: Tag 3 Integer Value 8, hex: 0x8
+52: Tag 1 Utf8 Value "CORBA Naming Service started"
+53: Tag 1 Utf8 Value "corbaORBServiceStarted"
+54: Tag 3 Integer Value 9, hex: 0x9
+55: Tag 1 Utf8 Value "CORBA ORB Service started"
+56: Tag 1 Utf8 Value "warnClassDescDoesNotConformToSpec"
+57: Tag 3 Integer Value 10, hex: 0xa
+58: Tag 1 Utf8 Value "Compatibility problem: Class javax.rmi.CORBA.ClassDesc does not conform to the Java(TM) Language to IDL Mapping Specification (01-06-07), section 1.3.5.11"
+59: Tag 1 Utf8 Value "warnCouldNotDeactivateIRObject"
+60: Tag 3 Integer Value 11, hex: 0xb
+61: Tag 1 Utf8 Value "Could not deactivate IR object"
+62: Tag 1 Utf8 Value "warnCouldNotDeactivateAnonIRObject"
+63: Tag 3 Integer Value 12, hex: 0xc
+64: Tag 1 Utf8 Value "Could not deactivate anonymous IR object"
+65: Tag 1 Utf8 Value "noSecurityDomainOrSSLContextsSpecified"
+66: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/OperationFailedException;"
+67: Tag 3 Integer Value 13, hex: 0xd
+68: Tag 1 Utf8 Value "SSL support has been enabled but no security domain or client/server SSL contexts have been specified"
+69: Tag 1 Utf8 Value "unexpectedException"
+70: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+71: Tag 3 Integer Value 14, hex: 0xe
+72: Tag 1 Utf8 Value "Unexpected exception"
+73: Tag 1 Utf8 Value "unexpectedContextErrorInSASReply"
+74: Tag 1 Utf8 Value "(ILorg/omg/CORBA/CompletionStatus;)Lorg/omg/CORBA/NO_PERMISSION;"
+75: Tag 3 Integer Value 15, hex: 0xf
+76: Tag 1 Utf8 Value "Unexpected ContextError in SAS reply"
+77: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Param;"
+78: Tag 1 Utf8 Value "errorParsingSASReply"
+79: Tag 1 Utf8 Value "(Ljava/lang/Exception;ILorg/omg/CORBA/CompletionStatus;)Lorg/omg/CORBA/MARSHAL;"
+80: Tag 3 Integer Value 16, hex: 0x10
+81: Tag 1 Utf8 Value "Could not parse SAS reply: %s"
+82: Tag 1 Utf8 Value "errorRegisteringSASCurrentInitRef"
+83: Tag 3 Integer Value 17, hex: 0x11
+84: Tag 1 Utf8 Value "Could not register initial reference for SASCurrent"
+85: Tag 1 Utf8 Value "missingSASContext"
+86: Tag 1 Utf8 Value "()Lorg/omg/CORBA/NO_PERMISSION;"
+87: Tag 3 Integer Value 18, hex: 0x12
+88: Tag 1 Utf8 Value "SAS context does not exist"
+89: Tag 1 Utf8 Value "errorDecodingInitContextToken"
+90: Tag 3 Integer Value 19, hex: 0x13
+91: Tag 1 Utf8 Value "Could not decode initial context token"
+92: Tag 1 Utf8 Value "errorDecodingTargetInContextToken"
+93: Tag 3 Integer Value 20, hex: 0x14
+94: Tag 1 Utf8 Value "Could not decode target name in initial context token"
+95: Tag 1 Utf8 Value "errorDecodingPrincipalName"
+96: Tag 3 Integer Value 21, hex: 0x15
+97: Tag 1 Utf8 Value "Could not decode incoming principal name"
+98: Tag 1 Utf8 Value "errorDecodingContextData"
+99: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+100: Tag 3 Integer Value 22, hex: 0x16
+101: Tag 1 Utf8 Value "Exception decoding context data in %s"
+102: Tag 1 Utf8 Value "illegalBatchSize"
+103: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+104: Tag 3 Integer Value 23, hex: 0x17
+105: Tag 1 Utf8 Value "Batch size not numeric: %s"
+106: Tag 1 Utf8 Value "errorGettingBindingList"
+107: Tag 1 Utf8 Value "()Ljavax/naming/NamingException;"
+108: Tag 3 Integer Value 24, hex: 0x18
+109: Tag 1 Utf8 Value "Error getting binding list"
+110: Tag 1 Utf8 Value "errorGeneratingObjectViaFactory"
+111: Tag 3 Integer Value 25, hex: 0x19
+112: Tag 1 Utf8 Value "Error generating object via object factory"
+113: Tag 1 Utf8 Value "errorConstructingCNCtx"
+114: Tag 1 Utf8 Value "()Ljavax/naming/ConfigurationException;"
+115: Tag 3 Integer Value 26, hex: 0x1a
+116: Tag 1 Utf8 Value "Error constructing context: either ORB or NamingContext must be supplied"
+117: Tag 1 Utf8 Value "notANamingContext"
+118: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/naming/ConfigurationException;"
+119: Tag 3 Integer Value 27, hex: 0x1b
+120: Tag 1 Utf8 Value "%s does not name a NamingContext"
+121: Tag 1 Utf8 Value "errorConvertingIORToNamingCtx"
+122: Tag 3 Integer Value 28, hex: 0x1c
+123: Tag 1 Utf8 Value "Cannot convert IOR to NamingContext: %s"
+124: Tag 1 Utf8 Value "errorResolvingNSInitRef"
+125: Tag 3 Integer Value 29, hex: 0x1d
+126: Tag 1 Utf8 Value "ORB.resolve_initial_references("NameService") does not return a NamingContext"
+127: Tag 1 Utf8 Value "cosNamingNotRegisteredCorrectly"
+128: Tag 3 Integer Value 30, hex: 0x1e
+129: Tag 1 Utf8 Value "COS Name Service not registered with ORB under the name 'NameService'"
+130: Tag 1 Utf8 Value "errorConnectingToORB"
+131: Tag 3 Integer Value 31, hex: 0x1f
+132: Tag 1 Utf8 Value "Cannot connect to ORB"
+133: Tag 1 Utf8 Value "invalidURLOrIOR"
+134: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/naming/NamingException;"
+135: Tag 3 Integer Value 32, hex: 0x20
+136: Tag 1 Utf8 Value "Invalid IOR or URL: %s"
+137: Tag 1 Utf8 Value "invalidObjectReference"
+138: Tag 3 Integer Value 33, hex: 0x21
+139: Tag 1 Utf8 Value "Invalid object reference:  %s"
+140: Tag 1 Utf8 Value "urlDoesNotContainIOR"
+141: Tag 3 Integer Value 34, hex: 0x22
+142: Tag 1 Utf8 Value "%s does not contain an IOR"
+143: Tag 1 Utf8 Value "notACorbaObject"
+144: Tag 1 Utf8 Value "()Ljava/lang/IllegalArgumentException;"
+145: Tag 3 Integer Value 35, hex: 0x23
+146: Tag 1 Utf8 Value "Only instances of org.omg.CORBA.Object can be bound"
+147: Tag 1 Utf8 Value "noReferenceFound"
+148: Tag 3 Integer Value 36, hex: 0x24
+149: Tag 1 Utf8 Value "No object reference bound for specified name"
+150: Tag 1 Utf8 Value "invalidEmptyName"
+151: Tag 1 Utf8 Value "()Ljavax/naming/InvalidNameException;"
+152: Tag 3 Integer Value 37, hex: 0x25
+153: Tag 1 Utf8 Value "Invalid empty name"
+154: Tag 1 Utf8 Value "unescapedCharacter"
+155: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/naming/InvalidNameException;"
+156: Tag 3 Integer Value 38, hex: 0x26
+157: Tag 1 Utf8 Value "%s: unescaped \ at end of component"
+158: Tag 1 Utf8 Value "invalidEscapedCharacter"
+159: Tag 3 Integer Value 39, hex: 0x27
+160: Tag 1 Utf8 Value "%s: Invalid character being escaped"
+161: Tag 1 Utf8 Value "invalidURL"
+162: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/net/MalformedURLException;"
+163: Tag 3 Integer Value 40, hex: 0x28
+164: Tag 1 Utf8 Value "Invalid %s URL: %s"
+165: Tag 1 Utf8 Value "problemInvokingPortableRemoteObjectToStub"
+166: Tag 3 Integer Value 41, hex: 0x29
+167: Tag 1 Utf8 Value "Problem with PortableRemoteObject.toStub(); object not exported or stub not found"
+168: Tag 1 Utf8 Value "cannotInvokePortableRemoteObjectToStub"
+169: Tag 3 Integer Value 42, hex: 0x2a
+170: Tag 1 Utf8 Value "Cannot invoke javax.rmi.PortableRemoteObject.toStub(java.rmi.Remote)"
+171: Tag 1 Utf8 Value "noMethodDefForPortableRemoteObjectToStub"
+172: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+173: Tag 3 Integer Value 43, hex: 0x2b
+174: Tag 1 Utf8 Value "No method definition for javax.rmi.PortableRemoteObject.toStub(java.rmi.Remote)"
+175: Tag 1 Utf8 Value "problemInvokingStubConnect"
+176: Tag 3 Integer Value 44, hex: 0x2c
+177: Tag 1 Utf8 Value "Problem invoking javax.rmi.CORBA.Stub.connect()"
+178: Tag 1 Utf8 Value "cannotInvokeStubConnect"
+179: Tag 3 Integer Value 45, hex: 0x2d
+180: Tag 1 Utf8 Value "Cannot invoke javax.rmi.CORBA.Stub.connect()"
+181: Tag 1 Utf8 Value "noMethodDefForStubConnect"
+182: Tag 3 Integer Value 46, hex: 0x2e
+183: Tag 1 Utf8 Value "No method definition for javax.rmi.CORBA.Stub.connect(org.omg.CORBA.ORB)"
+184: Tag 1 Utf8 Value "invalidIIOPURLVersion"
+185: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/net/MalformedURLException;"
+186: Tag 3 Integer Value 47, hex: 0x2f
+187: Tag 1 Utf8 Value "Invalid IIOP URL version: %s"
+188: Tag 1 Utf8 Value "unavailableRMIPackages"
+189: Tag 3 Integer Value 48, hex: 0x30
+190: Tag 1 Utf8 Value "javax.rmi packages not available"
+191: Tag 1 Utf8 Value "unavailableISOLatin1Decoder"
+192: Tag 1 Utf8 Value "()Ljava/net/MalformedURLException;"
+193: Tag 3 Integer Value 49, hex: 0x31
+194: Tag 1 Utf8 Value "ISO-Latin-1 decoder unavailable"
+195: Tag 1 Utf8 Value "invalidURIEncoding"
+196: Tag 3 Integer Value 50, hex: 0x32
+197: Tag 1 Utf8 Value "Invalid URI encoding: %s"
+198: Tag 1 Utf8 Value "failedToLookupJSSEDomain"
+199: Tag 3 Integer Value 51, hex: 0x33
+200: Tag 1 Utf8 Value "Error configuring domain socket factory: failed to lookup JSSE security domain"
+201: Tag 1 Utf8 Value "errorObtainingKeyManagers"
+202: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/io/IOException;"
+203: Tag 3 Integer Value 52, hex: 0x34
+204: Tag 1 Utf8 Value "keyManager[] is null for security domain %s"
+205: Tag 1 Utf8 Value "failedToGetSSLContext"
+206: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Ljava/io/IOException;"
+207: Tag 3 Integer Value 53, hex: 0x35
+208: Tag 1 Utf8 Value "Failed to get SSL context"
+209: Tag 1 Utf8 Value "failedToStartJBossCOSNaming"
+210: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException;"
+211: Tag 3 Integer Value 54, hex: 0x36
+212: Tag 1 Utf8 Value "Failed to start the JBoss Corba Naming Service"
+213: Tag 1 Utf8 Value "foreignTransaction"
+214: Tag 1 Utf8 Value "()Ljava/lang/UnsupportedOperationException;"
+215: Tag 3 Integer Value 55, hex: 0x37
+216: Tag 1 Utf8 Value "Foreign Transaction"
+217: Tag 1 Utf8 Value "errorEncodingContext"
+218: Tag 3 Integer Value 56, hex: 0x38
+219: Tag 1 Utf8 Value "Exception raised during encoding"
+220: Tag 1 Utf8 Value "errorGettingSlotInTxInterceptor"
+221: Tag 3 Integer Value 57, hex: 0x39
+222: Tag 1 Utf8 Value "Exception getting slot in TxServerInterceptor"
+223: Tag 1 Utf8 Value "errorSettingSlotInTxInterceptor"
+224: Tag 3 Integer Value 58, hex: 0x3a
+225: Tag 1 Utf8 Value "Exception setting slot in TxServerInterceptor"
+226: Tag 1 Utf8 Value "cannotAnalyzeNullClass"
+227: Tag 3 Integer Value 59, hex: 0x3b
+228: Tag 1 Utf8 Value "Cannot analyze a null class"
+229: Tag 1 Utf8 Value "badConstantType"
+230: Tag 3 Integer Value 60, hex: 0x3c
+231: Tag 1 Utf8 Value "Bad type for a constant: %s"
+232: Tag 1 Utf8 Value "cannotAnalyzeSpecialClass"
+233: Tag 3 Integer Value 61, hex: 0x3d
+234: Tag 1 Utf8 Value "Cannot analyze special class: %s"
+235: Tag 1 Utf8 Value "notAnAccessor"
+236: Tag 3 Integer Value 62, hex: 0x3e
+237: Tag 1 Utf8 Value "Not an accessor: %s"
+238: Tag 1 Utf8 Value "notAnClassOrInterface"
+239: Tag 3 Integer Value 63, hex: 0x3f
+240: Tag 1 Utf8 Value "Not a class or interface: %s"
+241: Tag 1 Utf8 Value "notAnInterface"
+242: Tag 3 Integer Value 64, hex: 0x40
+243: Tag 1 Utf8 Value "Class %s is not an interface"
+244: Tag 1 Utf8 Value "notAPrimitive"
+245: Tag 3 Integer Value 65, hex: 0x41
+246: Tag 1 Utf8 Value "Not a primitive type: %s"
+247: Tag 1 Utf8 Value "badRMIIIOPConstantType"
+248: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/RMIIIOPViolationException;"
+249: Tag 3 Integer Value 66, hex: 0x42
+250: Tag 1 Utf8 Value "Field %s of interface %s is a constant, but it is not primitive or String"
+251: Tag 1 Utf8 Value "badRMIIIOPExceptionType"
+252: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/RMIIIOPViolationException;"
+253: Tag 3 Integer Value 67, hex: 0x43
+254: Tag 1 Utf8 Value "Exception type %s must be a checked exception class"
+255: Tag 1 Utf8 Value "badRMIIIOPMethodSignature"
+256: Tag 3 Integer Value 68, hex: 0x44
+257: Tag 1 Utf8 Value "All interface methods must throw javax.rmi.RemoteException but method %s of interface %s does not"
+258: Tag 1 Utf8 Value "nameCannotBeNullEmptyOrQualified"
+259: Tag 3 Integer Value 69, hex: 0x45
+260: Tag 1 Utf8 Value "Name cannot be null, empty or qualified"
+261: Tag 1 Utf8 Value "primitivesHaveNoIRIds"
+262: Tag 3 Integer Value 70, hex: 0x46
+263: Tag 1 Utf8 Value "Primitive types have no IR IDs"
+264: Tag 1 Utf8 Value "unavailableSHADigest"
+265: Tag 3 Integer Value 71, hex: 0x47
+266: Tag 1 Utf8 Value "No SHA message digest available"
+267: Tag 1 Utf8 Value "unknownPrimitiveType"
+268: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/RuntimeException;"
+269: Tag 3 Integer Value 72, hex: 0x48
+270: Tag 1 Utf8 Value "Unknown primitive type: %s"
+271: Tag 1 Utf8 Value "cannotAnalyzeStringType"
+272: Tag 3 Integer Value 73, hex: 0x49
+273: Tag 1 Utf8 Value "Cannot analyze java.lang.String: it is a special case"
+274: Tag 1 Utf8 Value "cannotAnalyzeClassType"
+275: Tag 3 Integer Value 74, hex: 0x4a
+276: Tag 1 Utf8 Value "Cannot analyze java.lang.Class: it is a special case"
+277: Tag 1 Utf8 Value "valueTypeCantImplementRemote"
+278: Tag 3 Integer Value 75, hex: 0x4b
+279: Tag 1 Utf8 Value "Value type %s cannot implement java.rmi.Remote"
+280: Tag 1 Utf8 Value "valueTypeCantBeProxy"
+281: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/RMIIIOPViolationException;"
+282: Tag 3 Integer Value 76, hex: 0x4c
+283: Tag 1 Utf8 Value "Value type %s cannot be a proxy or inner class"
+284: Tag 1 Utf8 Value "errorLoadingClass"
+285: Tag 3 Integer Value 77, hex: 0x4d
+286: Tag 1 Utf8 Value "Error loading class %s"
+287: Tag 1 Utf8 Value "noReadMethodInHelper"
+288: Tag 3 Integer Value 78, hex: 0x4e
+289: Tag 1 Utf8 Value "No read method in helper class %s"
+290: Tag 1 Utf8 Value "noWriteMethodInHelper"
+291: Tag 3 Integer Value 79, hex: 0x4f
+292: Tag 1 Utf8 Value "No write method in helper class %s"
+293: Tag 1 Utf8 Value "errorUnmarshaling"
+294: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+295: Tag 1 Utf8 Value "Signature"
+296: Tag 1 Utf8 Value "(Ljava/lang/Class<*>;Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+297: Tag 3 Integer Value 80, hex: 0x50
+298: Tag 1 Utf8 Value "Error unmarshaling %s"
+299: Tag 1 Utf8 Value "errorMarshaling"
+300: Tag 3 Integer Value 81, hex: 0x51
+301: Tag 1 Utf8 Value "Error marshaling %s"
+302: Tag 1 Utf8 Value "cannotObtainExceptionRepositoryID"
+303: Tag 3 Integer Value 82, hex: 0x52
+304: Tag 1 Utf8 Value "Cannot obtain exception repository id for %s"
+305: Tag 1 Utf8 Value "errorMashalingParams"
+306: Tag 1 Utf8 Value "()Ljava/lang/RuntimeException;"
+307: Tag 3 Integer Value 83, hex: 0x53
+308: Tag 1 Utf8 Value "Cannot marshal parameter: unexpected number of parameters"
+309: Tag 1 Utf8 Value "cannotChangeRMIIIOPMapping"
+310: Tag 1 Utf8 Value "()Lorg/omg/CORBA/BAD_INV_ORDER;"
+311: Tag 3 Integer Value 84, hex: 0x54
+312: Tag 1 Utf8 Value "Cannot change RMI/IIOP mapping"
+313: Tag 1 Utf8 Value "badKindForTypeCode"
+314: Tag 1 Utf8 Value "(I)Ljava/lang/RuntimeException;"
+315: Tag 3 Integer Value 85, hex: 0x55
+316: Tag 1 Utf8 Value "Bad kind %d for TypeCode"
+317: Tag 1 Utf8 Value "wrongInterfaceRepository"
+318: Tag 1 Utf8 Value "()Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException;"
+319: Tag 3 Integer Value 86, hex: 0x56
+320: Tag 1 Utf8 Value "Wrong interface repository"
+321: Tag 1 Utf8 Value "duplicateRepositoryName"
+322: Tag 3 Integer Value 87, hex: 0x57
+323: Tag 1 Utf8 Value "Duplicate repository name"
+324: Tag 1 Utf8 Value "invalidNullClass"
+325: Tag 3 Integer Value 88, hex: 0x58
+326: Tag 1 Utf8 Value "Invalid null class"
+327: Tag 1 Utf8 Value "badClassForConstant"
+328: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException;"
+329: Tag 3 Integer Value 89, hex: 0x59
+330: Tag 1 Utf8 Value "Bad class %s for a constant"
+331: Tag 1 Utf8 Value "unknownTypeCodeForClass"
+332: Tag 3 Integer Value 90, hex: 0x5a
+333: Tag 1 Utf8 Value "TypeCode for class %s is unknown"
+334: Tag 1 Utf8 Value "duplicateTypeCodeForClass"
+335: Tag 3 Integer Value 91, hex: 0x5b
+336: Tag 1 Utf8 Value "TypeCode for class %s already established"
+337: Tag 1 Utf8 Value "collisionWhileCreatingPackage"
+338: Tag 3 Integer Value 92, hex: 0x5c
+339: Tag 1 Utf8 Value "Name collision while creating package"
+340: Tag 1 Utf8 Value "classIsNotArray"
+341: Tag 3 Integer Value 93, hex: 0x5d
+342: Tag 1 Utf8 Value "Class %s is not an array class"
+343: Tag 1 Utf8 Value "cannotDestroyRMIIIOPMapping"
+344: Tag 3 Integer Value 94, hex: 0x5e
+345: Tag 1 Utf8 Value "Cannot destroy RMI/IIOP mapping"
+346: Tag 1 Utf8 Value "badKindForSuperValueType"
+347: Tag 3 Integer Value 95, hex: 0x5f
+348: Tag 1 Utf8 Value "Bad kind for super valuetype of %s"
+349: Tag 1 Utf8 Value "errorResolvingRefToImplementedInterface"
+350: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException;"
+351: Tag 3 Integer Value 96, hex: 0x60
+352: Tag 1 Utf8 Value "ValueDef %s unable to resolve reference to implemented interface %s"
+353: Tag 1 Utf8 Value "errorResolvingRefToAbstractValuetype"
+354: Tag 3 Integer Value 97, hex: 0x61
+355: Tag 1 Utf8 Value "ValueDef %s unable to resolve reference to abstract base valuetype %s"
+356: Tag 1 Utf8 Value "errorResolvingInitRef"
+357: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException;"
+358: Tag 3 Integer Value 98, hex: 0x62
+359: Tag 1 Utf8 Value "Failed to resolve initial reference %s"
+360: Tag 1 Utf8 Value "errorCreatingPOAFromParent"
+361: Tag 3 Integer Value 99, hex: 0x63
+362: Tag 1 Utf8 Value "Failed to create POA from parent"
+363: Tag 1 Utf8 Value "invalidPOACreationArgs"
+364: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/StartException;"
+365: Tag 3 Integer Value 100, hex: 0x64
+366: Tag 1 Utf8 Value "Unable to instantiate POA: either the running ORB or the parent POA must be specified"
+367: Tag 1 Utf8 Value "errorActivatingPOA"
+368: Tag 3 Integer Value 101, hex: 0x65
+369: Tag 1 Utf8 Value "Failed to activate POA"
+370: Tag 1 Utf8 Value "exceptionDestroingIterator"
+371: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/omg/CORBA/INTERNAL;"
+372: Tag 3 Integer Value 102, hex: 0x66
+373: Tag 1 Utf8 Value "Caught exception destroying Iterator %s"
+374: Tag 1 Utf8 Value "sslNotConfigured"
+375: Tag 3 Integer Value 103, hex: 0x67
+376: Tag 1 Utf8 Value "IOR settings imply ssl connections usage, but secure connections have not been configured"
+377: Tag 1 Utf8 Value "inconsistentSupportedTransportConfig"
+378: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+379: Tag 3 Integer Value 104, hex: 0x68
+380: Tag 1 Utf8 Value "Inconsistent transport-config configuration: %s is supported, please configure it to %s value"
+381: Tag 1 Utf8 Value "inconsistentUnsupportedTransportConfig"
+382: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+383: Tag 3 Integer Value 105, hex: 0x69
+384: Tag 1 Utf8 Value "Inconsistent transport-config configuration: %s is not supported, please remove it or configure it to none value"
+385: Tag 1 Utf8 Value "inconsistentRequiredTransportConfig"
+386: Tag 3 Integer Value 106, hex: 0x6a
+387: Tag 1 Utf8 Value "Inconsistent transport-config configuration: %s is set to true, please configure %s as required"
+388: Tag 1 Utf8 Value "cannotCreateSSLSocket"
+389: Tag 3 Integer Value 109, hex: 0x6d
+390: Tag 1 Utf8 Value "SSL socket is required by server but secure connections have not been configured"
+391: Tag 1 Utf8 Value "serverDoesNotSupportSsl"
+392: Tag 3 Integer Value 110, hex: 0x6e
+393: Tag 1 Utf8 Value "Client requires SSL but server does not support it"
+394: Tag 1 Utf8 Value "sslPortWithoutSslConfiguration"
+395: Tag 1 Utf8 Value "()Ljava/lang/String;"
+396: Tag 3 Integer Value 111, hex: 0x6f
+397: Tag 1 Utf8 Value "SSL has not been configured but ssl-port property has been specified - the connection will use clear-text protocol"
+398: Tag 1 Utf8 Value "ineffectiveAuthenticationContextConfiguration"
+399: Tag 3 Integer Value 113, hex: 0x71
+400: Tag 1 Utf8 Value "Authentication context has been defined but it is ineffective because the security initializer is not set to 'elytron'"
+401: Tag 1 Utf8 Value "elytronInitializerNotSupportedInPreviousVersions"
+402: Tag 3 Integer Value 114, hex: 0x72
+403: Tag 1 Utf8 Value "Elytron security initializer not supported in previous iiop-openjdk versions and can't be converted"
+404: Tag 1 Utf8 Value "noSocketBindingsConfigured"
+405: Tag 3 Integer Value 115, hex: 0x73
+406: Tag 1 Utf8 Value "No IIOP socket bindings have been configured"
+407: Tag 1 Utf8 Value "wontUseCleartextSocket"
+408: Tag 3 Integer Value 117, hex: 0x75
+409: Tag 1 Utf8 Value "CLEARTEXT in IIOP subsystem won't be used because server-requires-ssl parameter have been set to true"
+410: Tag 1 Utf8 Value "<clinit>"
+411: Tag 1 Utf8 Value "Code"
+412: Tag 1 Utf8 Value "LineNumberTable"
+413: Tag 1 Utf8 Value "SourceFile"
+414: Tag 1 Utf8 Value "IIOPLogger.java"
+415: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+416: Tag 1 Utf8 Value "projectCode"
+417: Tag 1 Utf8 Value "WFLYIIOP"
+418: Tag 1 Utf8 Value "length"
+419: Tag 1 Utf8 Value "org/wildfly/iiop/openjdk/logging/IIOPLogger"
+420: Tag 1 Utf8 Value "org.wildfly.iiop.openjdk"
+421: Tag 7 Class Name index 427
+422: Tag 12 NameAndType Name index 428, Description index 429
+423: Tag 12 NameAndType Name index 7, Description index 8
+424: Tag 1 Utf8 Value "java/lang/Object"
+425: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+426: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+427: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+428: Tag 1 Utf8 Value "getMessageLogger"
+429: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.wildfly.iiop.openjdk.logging.IIOPLogger
+
+Super class: id 5, name java.lang.Object
+
+Implements class ids 6
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER (index 7), type Lorg/wildfly/iiop/openjdk/logging/IIOPLogger; (descriptor index 8)
+Human type: org.wildfly.iiop.openjdk.logging.IIOPLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name activatingSubsystem (index 9), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name failedToFetchCSIv2Policy (index 24), type (Ljava/lang/Throwable;)V (descriptor index 25)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name caughtExceptionEncodingGSSUPMechOID (index 31), type (Ljava/lang/Throwable;)V (descriptor index 25)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name logInternalError (index 35), type (Ljava/lang/Exception;)V (descriptor index 36)
+Human type: (java.lang.Exception): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name failedToCreateNamingContext (index 39), type (Ljava/lang/Exception;)V (descriptor index 36)
+Human type: (java.lang.Exception): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name failedToUnbindObject (index 42), type (Ljava/lang/Object;)V (descriptor index 43)
+Human type: (java.lang.Object): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name failedToObtainJSSEDomain (index 46), type (Ljava/lang/String;)V (descriptor index 47)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name corbaNamingServiceStarted (index 50), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name corbaORBServiceStarted (index 53), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name warnClassDescDoesNotConformToSpec (index 56), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name warnCouldNotDeactivateIRObject (index 59), type (Ljava/lang/Throwable;)V (descriptor index 25)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name warnCouldNotDeactivateAnonIRObject (index 62), type (Ljava/lang/Throwable;)V (descriptor index 25)
+Human type: (java.lang.Throwable): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name noSecurityDomainOrSSLContextsSpecified (index 65), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 66)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unexpectedException (index 69), type (Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 70)
+Human type: (java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name unexpectedContextErrorInSASReply (index 73), type (ILorg/omg/CORBA/CompletionStatus;)Lorg/omg/CORBA/NO_PERMISSION; (descriptor index 74)
+Human type: (int, org.omg.CORBA.CompletionStatus): org.omg.CORBA.NO_PERMISSION
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 13
+Method name errorParsingSASReply (index 78), type (Ljava/lang/Exception;ILorg/omg/CORBA/CompletionStatus;)Lorg/omg/CORBA/MARSHAL; (descriptor index 79)
+Human type: (java.lang.Exception, int, org.omg.CORBA.CompletionStatus): org.omg.CORBA.MARSHAL
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 15
+Method name errorRegisteringSASCurrentInitRef (index 82), type (Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 70)
+Human type: (java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name missingSASContext (index 85), type ()Lorg/omg/CORBA/NO_PERMISSION; (descriptor index 86)
+Human type: (): org.omg.CORBA.NO_PERMISSION
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorDecodingInitContextToken (index 89), type ()Lorg/omg/CORBA/NO_PERMISSION; (descriptor index 86)
+Human type: (): org.omg.CORBA.NO_PERMISSION
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorDecodingTargetInContextToken (index 92), type ()Lorg/omg/CORBA/NO_PERMISSION; (descriptor index 86)
+Human type: (): org.omg.CORBA.NO_PERMISSION
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorDecodingPrincipalName (index 95), type ()Lorg/omg/CORBA/NO_PERMISSION; (descriptor index 86)
+Human type: (): org.omg.CORBA.NO_PERMISSION
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorDecodingContextData (index 98), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 99)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name illegalBatchSize (index 102), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 103)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorGettingBindingList (index 106), type ()Ljavax/naming/NamingException; (descriptor index 107)
+Human type: (): javax.naming.NamingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorGeneratingObjectViaFactory (index 110), type ()Ljavax/naming/NamingException; (descriptor index 107)
+Human type: (): javax.naming.NamingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorConstructingCNCtx (index 113), type ()Ljavax/naming/ConfigurationException; (descriptor index 114)
+Human type: (): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name notANamingContext (index 117), type (Ljava/lang/String;)Ljavax/naming/ConfigurationException; (descriptor index 118)
+Human type: (java.lang.String): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorConvertingIORToNamingCtx (index 121), type (Ljava/lang/String;)Ljavax/naming/ConfigurationException; (descriptor index 118)
+Human type: (java.lang.String): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorResolvingNSInitRef (index 124), type ()Ljavax/naming/ConfigurationException; (descriptor index 114)
+Human type: (): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cosNamingNotRegisteredCorrectly (index 127), type ()Ljavax/naming/NamingException; (descriptor index 107)
+Human type: (): javax.naming.NamingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorConnectingToORB (index 130), type ()Ljavax/naming/NamingException; (descriptor index 107)
+Human type: (): javax.naming.NamingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidURLOrIOR (index 133), type (Ljava/lang/String;)Ljavax/naming/NamingException; (descriptor index 134)
+Human type: (java.lang.String): javax.naming.NamingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidObjectReference (index 137), type (Ljava/lang/String;)Ljavax/naming/NamingException; (descriptor index 134)
+Human type: (java.lang.String): javax.naming.NamingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name urlDoesNotContainIOR (index 140), type (Ljava/lang/String;)Ljavax/naming/ConfigurationException; (descriptor index 118)
+Human type: (java.lang.String): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name notACorbaObject (index 143), type ()Ljava/lang/IllegalArgumentException; (descriptor index 144)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name noReferenceFound (index 147), type ()Ljavax/naming/NamingException; (descriptor index 107)
+Human type: (): javax.naming.NamingException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidEmptyName (index 150), type ()Ljavax/naming/InvalidNameException; (descriptor index 151)
+Human type: (): javax.naming.InvalidNameException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unescapedCharacter (index 154), type (Ljava/lang/String;)Ljavax/naming/InvalidNameException; (descriptor index 155)
+Human type: (java.lang.String): javax.naming.InvalidNameException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidEscapedCharacter (index 158), type (Ljava/lang/String;)Ljavax/naming/InvalidNameException; (descriptor index 155)
+Human type: (java.lang.String): javax.naming.InvalidNameException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidURL (index 161), type (Ljava/lang/String;Ljava/lang/String;)Ljava/net/MalformedURLException; (descriptor index 162)
+Human type: (java.lang.String, java.lang.String): java.net.MalformedURLException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name problemInvokingPortableRemoteObjectToStub (index 165), type ()Ljavax/naming/ConfigurationException; (descriptor index 114)
+Human type: (): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotInvokePortableRemoteObjectToStub (index 168), type ()Ljavax/naming/ConfigurationException; (descriptor index 114)
+Human type: (): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name noMethodDefForPortableRemoteObjectToStub (index 171), type ()Ljava/lang/IllegalStateException; (descriptor index 172)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name problemInvokingStubConnect (index 175), type ()Ljavax/naming/ConfigurationException; (descriptor index 114)
+Human type: (): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotInvokeStubConnect (index 178), type ()Ljavax/naming/ConfigurationException; (descriptor index 114)
+Human type: (): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name noMethodDefForStubConnect (index 181), type ()Ljava/lang/IllegalStateException; (descriptor index 172)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidIIOPURLVersion (index 184), type (Ljava/lang/String;)Ljava/net/MalformedURLException; (descriptor index 185)
+Human type: (java.lang.String): java.net.MalformedURLException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unavailableRMIPackages (index 188), type ()Ljavax/naming/ConfigurationException; (descriptor index 114)
+Human type: (): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unavailableISOLatin1Decoder (index 191), type ()Ljava/net/MalformedURLException; (descriptor index 192)
+Human type: (): java.net.MalformedURLException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidURIEncoding (index 195), type (Ljava/lang/String;)Ljava/net/MalformedURLException; (descriptor index 185)
+Human type: (java.lang.String): java.net.MalformedURLException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name failedToLookupJSSEDomain (index 198), type ()Ljavax/naming/ConfigurationException; (descriptor index 114)
+Human type: (): javax.naming.ConfigurationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorObtainingKeyManagers (index 201), type (Ljava/lang/String;)Ljava/io/IOException; (descriptor index 202)
+Human type: (java.lang.String): java.io.IOException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name failedToGetSSLContext (index 205), type (Ljava/lang/Throwable;)Ljava/io/IOException; (descriptor index 206)
+Human type: (java.lang.Throwable): java.io.IOException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name failedToStartJBossCOSNaming (index 209), type (Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException; (descriptor index 210)
+Human type: (java.lang.Throwable): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name foreignTransaction (index 213), type ()Ljava/lang/UnsupportedOperationException; (descriptor index 214)
+Human type: (): java.lang.UnsupportedOperationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorEncodingContext (index 217), type (Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 70)
+Human type: (java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name errorGettingSlotInTxInterceptor (index 220), type (Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 70)
+Human type: (java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name errorSettingSlotInTxInterceptor (index 223), type (Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 70)
+Human type: (java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name cannotAnalyzeNullClass (index 226), type ()Ljava/lang/IllegalArgumentException; (descriptor index 144)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name badConstantType (index 229), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 103)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotAnalyzeSpecialClass (index 232), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 103)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name notAnAccessor (index 235), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 103)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name notAnClassOrInterface (index 238), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 103)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name notAnInterface (index 241), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 103)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name notAPrimitive (index 244), type (Ljava/lang/String;)Ljava/lang/IllegalArgumentException; (descriptor index 103)
+Human type: (java.lang.String): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name badRMIIIOPConstantType (index 247), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/RMIIIOPViolationException; (descriptor index 248)
+Human type: (java.lang.String, java.lang.String, java.lang.String): org.wildfly.iiop.openjdk.rmi.RMIIIOPViolationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name badRMIIIOPExceptionType (index 251), type (Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/RMIIIOPViolationException; (descriptor index 252)
+Human type: (java.lang.String, java.lang.String): org.wildfly.iiop.openjdk.rmi.RMIIIOPViolationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name badRMIIIOPMethodSignature (index 255), type (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/RMIIIOPViolationException; (descriptor index 248)
+Human type: (java.lang.String, java.lang.String, java.lang.String): org.wildfly.iiop.openjdk.rmi.RMIIIOPViolationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name nameCannotBeNullEmptyOrQualified (index 258), type ()Ljava/lang/IllegalArgumentException; (descriptor index 144)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name primitivesHaveNoIRIds (index 261), type ()Ljava/lang/IllegalArgumentException; (descriptor index 144)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unavailableSHADigest (index 264), type (Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 70)
+Human type: (java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name unknownPrimitiveType (index 267), type (Ljava/lang/String;)Ljava/lang/RuntimeException; (descriptor index 268)
+Human type: (java.lang.String): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotAnalyzeStringType (index 271), type ()Ljava/lang/IllegalArgumentException; (descriptor index 144)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotAnalyzeClassType (index 274), type ()Ljava/lang/IllegalArgumentException; (descriptor index 144)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name valueTypeCantImplementRemote (index 277), type (Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/RMIIIOPViolationException; (descriptor index 252)
+Human type: (java.lang.String, java.lang.String): org.wildfly.iiop.openjdk.rmi.RMIIIOPViolationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name valueTypeCantBeProxy (index 280), type (Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/RMIIIOPViolationException; (descriptor index 281)
+Human type: (java.lang.String): org.wildfly.iiop.openjdk.rmi.RMIIIOPViolationException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorLoadingClass (index 284), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 99)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name noReadMethodInHelper (index 287), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 99)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name noWriteMethodInHelper (index 290), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 99)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name errorUnmarshaling (index 293), type (Ljava/lang/Class;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 294)
+Human type: (java.lang.Class, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name errorMarshaling (index 299), type (Ljava/lang/Class;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 294)
+Human type: (java.lang.Class, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name cannotObtainExceptionRepositoryID (index 302), type (Ljava/lang/String;Ljava/lang/Throwable;)Ljava/lang/RuntimeException; (descriptor index 99)
+Human type: (java.lang.String, java.lang.Throwable): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name errorMashalingParams (index 305), type ()Ljava/lang/RuntimeException; (descriptor index 306)
+Human type: (): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotChangeRMIIIOPMapping (index 309), type ()Lorg/omg/CORBA/BAD_INV_ORDER; (descriptor index 310)
+Human type: (): org.omg.CORBA.BAD_INV_ORDER
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name badKindForTypeCode (index 313), type (I)Ljava/lang/RuntimeException; (descriptor index 314)
+Human type: (int): java.lang.RuntimeException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name wrongInterfaceRepository (index 317), type ()Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 318)
+Human type: (): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name duplicateRepositoryName (index 321), type ()Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 318)
+Human type: (): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name invalidNullClass (index 324), type ()Ljava/lang/IllegalArgumentException; (descriptor index 144)
+Human type: (): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name badClassForConstant (index 327), type (Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 328)
+Human type: (java.lang.String): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name unknownTypeCodeForClass (index 331), type (Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 328)
+Human type: (java.lang.String): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name duplicateTypeCodeForClass (index 334), type (Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 328)
+Human type: (java.lang.String): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name collisionWhileCreatingPackage (index 337), type ()Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 318)
+Human type: (): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name classIsNotArray (index 340), type (Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 328)
+Human type: (java.lang.String): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotDestroyRMIIIOPMapping (index 343), type ()Lorg/omg/CORBA/BAD_INV_ORDER; (descriptor index 310)
+Human type: (): org.omg.CORBA.BAD_INV_ORDER
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name badKindForSuperValueType (index 346), type (Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 328)
+Human type: (java.lang.String): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorResolvingRefToImplementedInterface (index 349), type (Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 350)
+Human type: (java.lang.String, java.lang.String): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorResolvingRefToAbstractValuetype (index 353), type (Ljava/lang/String;Ljava/lang/String;)Lorg/wildfly/iiop/openjdk/rmi/ir/IRConstructionException; (descriptor index 350)
+Human type: (java.lang.String, java.lang.String): org.wildfly.iiop.openjdk.rmi.ir.IRConstructionException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorResolvingInitRef (index 356), type (Ljava/lang/String;Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException; (descriptor index 357)
+Human type: (java.lang.String, java.lang.Throwable): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name errorCreatingPOAFromParent (index 360), type (Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException; (descriptor index 210)
+Human type: (java.lang.Throwable): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name invalidPOACreationArgs (index 363), type ()Lorg/jboss/msc/service/StartException; (descriptor index 364)
+Human type: (): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name errorActivatingPOA (index 367), type (Ljava/lang/Throwable;)Lorg/jboss/msc/service/StartException; (descriptor index 210)
+Human type: (java.lang.Throwable): org.jboss.msc.service.StartException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method attribute name RuntimeInvisibleParameterAnnotations, size 7
+Method name exceptionDestroingIterator (index 370), type (Ljava/lang/String;)Lorg/omg/CORBA/INTERNAL; (descriptor index 371)
+Human type: (java.lang.String): org.omg.CORBA.INTERNAL
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name sslNotConfigured (index 374), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 66)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name inconsistentSupportedTransportConfig (index 377), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; (descriptor index 378)
+Human type: (java.lang.String, java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name inconsistentUnsupportedTransportConfig (index 381), type (Ljava/lang/String;)Ljava/lang/String; (descriptor index 382)
+Human type: (java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name inconsistentRequiredTransportConfig (index 385), type (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; (descriptor index 378)
+Human type: (java.lang.String, java.lang.String): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name cannotCreateSSLSocket (index 388), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name serverDoesNotSupportSsl (index 391), type ()Ljava/lang/IllegalStateException; (descriptor index 172)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name sslPortWithoutSslConfiguration (index 394), type ()Ljava/lang/String; (descriptor index 395)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name ineffectiveAuthenticationContextConfiguration (index 398), type ()Lorg/jboss/as/controller/OperationFailedException; (descriptor index 66)
+Human type: (): org.jboss.as.controller.OperationFailedException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name elytronInitializerNotSupportedInPreviousVersions (index 401), type ()Ljava/lang/String; (descriptor index 395)
+Human type: (): java.lang.String
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name noSocketBindingsConfigured (index 404), type ()Ljava/lang/IllegalStateException; (descriptor index 172)
+Human type: (): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name wontUseCleartextSocket (index 407), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name <clinit> (index 410), type ()V (descriptor index 10)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 10

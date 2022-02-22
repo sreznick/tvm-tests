@@ -1,0 +1,170 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 121
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/ManagedThreadFactoryImpl"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Ljava/lang/String;Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;I)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedThreadFactoryImpl"
+11: Tag 1 Utf8 Value "priority"
+12: Tag 1 Utf8 Value "I"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/security/AccessController"
+17: Tag 1 Utf8 Value "getContext"
+18: Tag 1 Utf8 Value "()Ljava/security/AccessControlContext;"
+19: Tag 9 FieldRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "accessControlContext"
+22: Tag 1 Utf8 Value "Ljava/security/AccessControlContext;"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/SecurityIdentityUtils"
+27: Tag 1 Utf8 Value "doIdentityWrap"
+28: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)Ljava/lang/Runnable;"
+29: Tag 7 Class Name index 30
+30: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedThreadFactoryImpl$CreateThreadAction"
+31: Tag 10 MethodRef Class index 29, Name and type index 32
+32: Tag 12 NameAndType Name index 5, Description index 33
+33: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl;Ljava/lang/Runnable;Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl$1;)V"
+34: Tag 10 MethodRef Class index 14, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "doPrivileged"
+37: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction;Ljava/security/AccessControlContext;)Ljava/lang/Object;"
+38: Tag 7 Class Name index 39
+39: Tag 1 Utf8 Value "org/glassfish/enterprise/concurrent/AbstractManagedThread"
+40: Tag 10 MethodRef Class index 41, Name and type index 42
+41: Tag 7 Class Name index 43
+42: Tag 12 NameAndType Name index 44, Description index 45
+43: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+44: Tag 1 Utf8 Value "isChecking"
+45: Tag 1 Utf8 Value "()Z"
+46: Tag 10 MethodRef Class index 38, Name and type index 47
+47: Tag 12 NameAndType Name index 48, Description index 49
+48: Tag 1 Utf8 Value "setContextClassLoader"
+49: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)V"
+50: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "run"
+53: Tag 1 Utf8 Value "(Lorg/glassfish/enterprise/concurrent/AbstractManagedThread;)Ljava/security/PrivilegedAction;"
+54: Tag 10 MethodRef Class index 14, Name and type index 55
+55: Tag 12 NameAndType Name index 36, Description index 56
+56: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction;)Ljava/lang/Object;"
+57: Tag 10 MethodRef Class index 2, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "taskStarting"
+60: Tag 1 Utf8 Value "(Ljava/lang/Thread;Lorg/glassfish/enterprise/concurrent/internal/ManagedFutureTask;)V"
+61: Tag 7 Class Name index 62
+62: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedThreadFactoryImpl$ManagedThread"
+63: Tag 9 FieldRef Class index 61, Name and type index 64
+64: Tag 12 NameAndType Name index 65, Description index 66
+65: Tag 1 Utf8 Value "task"
+66: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/internal/ManagedFutureTask;"
+67: Tag 10 MethodRef Class index 2, Name and type index 68
+68: Tag 12 NameAndType Name index 69, Description index 70
+69: Tag 1 Utf8 Value "taskDone"
+70: Tag 1 Utf8 Value "(Ljava/lang/Thread;)V"
+71: Tag 1 Utf8 Value "Code"
+72: Tag 1 Utf8 Value "LineNumberTable"
+73: Tag 1 Utf8 Value "LocalVariableTable"
+74: Tag 1 Utf8 Value "this"
+75: Tag 1 Utf8 Value "Lorg/jboss/as/ee/concurrent/ManagedThreadFactoryImpl;"
+76: Tag 1 Utf8 Value "name"
+77: Tag 1 Utf8 Value "Ljava/lang/String;"
+78: Tag 1 Utf8 Value "contextService"
+79: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;"
+80: Tag 1 Utf8 Value "getPriority"
+81: Tag 1 Utf8 Value "()I"
+82: Tag 1 Utf8 Value "createThread"
+83: Tag 1 Utf8 Value "(Ljava/lang/Runnable;Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;)Lorg/glassfish/enterprise/concurrent/AbstractManagedThread;"
+84: Tag 1 Utf8 Value "r"
+85: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+86: Tag 1 Utf8 Value "contextHandleForSetup"
+87: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;"
+88: Tag 1 Utf8 Value "t"
+89: Tag 1 Utf8 Value "Lorg/glassfish/enterprise/concurrent/AbstractManagedThread;"
+90: Tag 1 Utf8 Value "StackMapTable"
+91: Tag 1 Utf8 Value "Ljava/lang/Thread;"
+92: Tag 1 Utf8 Value "lambda$createThread$0"
+93: Tag 1 Utf8 Value "(Lorg/glassfish/enterprise/concurrent/AbstractManagedThread;)Ljava/lang/Void;"
+94: Tag 1 Utf8 Value "SourceFile"
+95: Tag 1 Utf8 Value "ManagedThreadFactoryImpl.java"
+96: Tag 1 Utf8 Value "BootstrapMethods"
+97: Tag 15 MethodHandle Kind 6, Index 98
+98: Tag 10 MethodRef Class index 99, Name and type index 100
+99: Tag 7 Class Name index 101
+100: Tag 12 NameAndType Name index 102, Description index 103
+101: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+102: Tag 1 Utf8 Value "metafactory"
+103: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+104: Tag 16 MethodType Descriptor index 105
+105: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+106: Tag 15 MethodHandle Kind 6, Index 107
+107: Tag 10 MethodRef Class index 8, Name and type index 108
+108: Tag 12 NameAndType Name index 92, Description index 93
+109: Tag 16 MethodType Descriptor index 110
+110: Tag 1 Utf8 Value "()Ljava/lang/Void;"
+111: Tag 1 Utf8 Value "InnerClasses"
+112: Tag 1 Utf8 Value "CreateThreadAction"
+113: Tag 7 Class Name index 114
+114: Tag 1 Utf8 Value "org/jboss/as/ee/concurrent/ManagedThreadFactoryImpl$1"
+115: Tag 1 Utf8 Value "ManagedThread"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+118: Tag 7 Class Name index 119
+119: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+120: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.ee.concurrent.ManagedThreadFactoryImpl
+
+Super class: id 2, name org.glassfish.enterprise.concurrent.ManagedThreadFactoryImpl
+
+No interfaces
+
+Field name priority (index 11), type I (descriptor index 12)
+Human type: int
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name accessControlContext (index 21), type Ljava/security/AccessControlContext; (descriptor index 22)
+Human type: java.security.AccessControlContext
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;Lorg/glassfish/enterprise/concurrent/ContextServiceImpl;I)V (descriptor index 6)
+Human type: (java.lang.String, org.glassfish.enterprise.concurrent.ContextServiceImpl, int): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 104
+Method name getPriority (index 80), type ()I (descriptor index 81)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name createThread (index 82), type (Ljava/lang/Runnable;Lorg/glassfish/enterprise/concurrent/spi/ContextHandle;)Lorg/glassfish/enterprise/concurrent/AbstractManagedThread; (descriptor index 83)
+Human type: (java.lang.Runnable, org.glassfish.enterprise.concurrent.spi.ContextHandle): org.glassfish.enterprise.concurrent.AbstractManagedThread
+Flags: decimal 4, hex 0004, binary 0000000000000100 protected
+Method attribute name Code, size 169
+Method name taskStarting (index 59), type (Ljava/lang/Thread;Lorg/glassfish/enterprise/concurrent/internal/ManagedFutureTask;)V (descriptor index 60)
+Human type: (java.lang.Thread, org.glassfish.enterprise.concurrent.internal.ManagedFutureTask): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 105
+Method name taskDone (index 69), type (Ljava/lang/Thread;)V (descriptor index 70)
+Human type: (java.lang.Thread): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 94
+Method name lambda$createThread$0 (index 92), type (Lorg/glassfish/enterprise/concurrent/AbstractManagedThread;)Ljava/lang/Void; (descriptor index 93)
+Human type: (org.glassfish.enterprise.concurrent.AbstractManagedThread): java.lang.Void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 53
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 12
+Class attribute name InnerClasses, size 34

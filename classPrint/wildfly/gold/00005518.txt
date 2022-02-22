@@ -1,0 +1,111 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 70
+1: Tag 10 MethodRef Class index 13, Name and type index 42
+2: Tag 9 FieldRef Class index 12, Name and type index 43
+3: Tag 9 FieldRef Class index 12, Name and type index 44
+4: Tag 10 MethodRef Class index 10, Name and type index 45
+5: Tag 10 MethodRef Class index 10, Name and type index 46
+6: Tag 10 MethodRef Class index 47, Name and type index 48
+7: Tag 10 MethodRef Class index 10, Name and type index 49
+8: Tag 10 MethodRef Class index 10, Name and type index 50
+9: Tag 10 MethodRef Class index 10, Name and type index 51
+10: Tag 7 Class Name index 52
+11: Tag 10 MethodRef Class index 12, Name and type index 53
+12: Tag 7 Class Name index 54
+13: Tag 7 Class Name index 55
+14: Tag 7 Class Name index 56
+15: Tag 1 Utf8 Value "serialVersionUID"
+16: Tag 1 Utf8 Value "J"
+17: Tag 1 Utf8 Value "ConstantValue"
+18: Tag 5 Long Value -6747024371979702527
+20: Tag 1 Utf8 Value "address"
+21: Tag 1 Utf8 Value "Lorg/jboss/jca/core/spi/workmanager/Address;"
+22: Tag 1 Utf8 Value "member"
+23: Tag 1 Utf8 Value "Lorg/wildfly/clustering/group/Node;"
+24: Tag 1 Utf8 Value "<init>"
+25: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/spi/workmanager/Address;Lorg/wildfly/clustering/group/Node;)V"
+26: Tag 1 Utf8 Value "Code"
+27: Tag 1 Utf8 Value "LineNumberTable"
+28: Tag 1 Utf8 Value "LocalVariableTable"
+29: Tag 1 Utf8 Value "this"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/workmanager/transport/AddWorkManagerCommand;"
+31: Tag 1 Utf8 Value "execute"
+32: Tag 1 Utf8 Value "(Lorg/jboss/as/connector/services/workmanager/transport/CommandDispatcherTransport;)Ljava/lang/Void;"
+33: Tag 1 Utf8 Value "transport"
+34: Tag 1 Utf8 Value "Lorg/jboss/as/connector/services/workmanager/transport/CommandDispatcherTransport;"
+35: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+36: Tag 1 Utf8 Value "Exceptions"
+37: Tag 7 Class Name index 57
+38: Tag 1 Utf8 Value "Signature"
+39: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/wildfly/clustering/dispatcher/Command<Ljava/lang/Void;Lorg/jboss/as/connector/services/workmanager/transport/CommandDispatcherTransport;>;"
+40: Tag 1 Utf8 Value "SourceFile"
+41: Tag 1 Utf8 Value "AddWorkManagerCommand.java"
+42: Tag 12 NameAndType Name index 24, Description index 58
+43: Tag 12 NameAndType Name index 20, Description index 21
+44: Tag 12 NameAndType Name index 22, Description index 23
+45: Tag 12 NameAndType Name index 59, Description index 60
+46: Tag 12 NameAndType Name index 61, Description index 62
+47: Tag 7 Class Name index 63
+48: Tag 12 NameAndType Name index 64, Description index 65
+49: Tag 12 NameAndType Name index 66, Description index 67
+50: Tag 12 NameAndType Name index 68, Description index 62
+51: Tag 12 NameAndType Name index 69, Description index 67
+52: Tag 1 Utf8 Value "org/jboss/as/connector/services/workmanager/transport/CommandDispatcherTransport"
+53: Tag 12 NameAndType Name index 31, Description index 32
+54: Tag 1 Utf8 Value "org/jboss/as/connector/services/workmanager/transport/AddWorkManagerCommand"
+55: Tag 1 Utf8 Value "java/lang/Object"
+56: Tag 1 Utf8 Value "org/wildfly/clustering/dispatcher/Command"
+57: Tag 1 Utf8 Value "java/lang/Exception"
+58: Tag 1 Utf8 Value "()V"
+59: Tag 1 Utf8 Value "localWorkManagerAdd"
+60: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/spi/workmanager/Address;Ljava/lang/Object;)V"
+61: Tag 1 Utf8 Value "getShortRunningFree"
+62: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/spi/workmanager/Address;)J"
+63: Tag 1 Utf8 Value "java/lang/Long"
+64: Tag 1 Utf8 Value "valueOf"
+65: Tag 1 Utf8 Value "(J)Ljava/lang/Long;"
+66: Tag 1 Utf8 Value "localUpdateShortRunningFree"
+67: Tag 1 Utf8 Value "(Lorg/jboss/jca/core/spi/workmanager/Address;Ljava/lang/Long;)V"
+68: Tag 1 Utf8 Value "getLongRunningFree"
+69: Tag 1 Utf8 Value "localUpdateLongRunningFree"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 12, name org.jboss.as.connector.services.workmanager.transport.AddWorkManagerCommand
+
+Super class: id 13, name java.lang.Object
+
+Implements class ids 14
+Implements names org.wildfly.clustering.dispatcher.Command
+
+Field name serialVersionUID (index 15), type J (descriptor index 16)
+Human type: long
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name address (index 20), type Lorg/jboss/jca/core/spi/workmanager/Address; (descriptor index 21)
+Human type: org.jboss.jca.core.spi.workmanager.Address
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name member (index 22), type Lorg/wildfly/clustering/group/Node; (descriptor index 23)
+Human type: org.wildfly.clustering.group.Node
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 24), type (Lorg/jboss/jca/core/spi/workmanager/Address;Lorg/wildfly/clustering/group/Node;)V (descriptor index 25)
+Human type: (org.jboss.jca.core.spi.workmanager.Address, org.wildfly.clustering.group.Node): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 89
+Method name execute (index 31), type (Lorg/jboss/as/connector/services/workmanager/transport/CommandDispatcherTransport;)Ljava/lang/Void; (descriptor index 32)
+Human type: (org.jboss.as.connector.services.workmanager.transport.CommandDispatcherTransport): java.lang.Void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 116
+Method name execute (index 31), type (Ljava/lang/Object;)Ljava/lang/Object; (descriptor index 35)
+Human type: (java.lang.Object): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

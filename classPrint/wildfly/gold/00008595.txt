@@ -1,0 +1,113 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 69
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/SubsystemAdd$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/SubsystemAdd;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$injector"
+10: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+11: Tag 9 FieldRef Class index 2, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "val$config"
+14: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+15: Tag 10 MethodRef Class index 16, Name and type index 17
+16: Tag 7 Class Name index 18
+17: Tag 12 NameAndType Name index 19, Description index 20
+18: Tag 1 Utf8 Value "java/lang/Object"
+19: Tag 1 Utf8 Value "<init>"
+20: Tag 1 Utf8 Value "()V"
+21: Tag 11 InterfaceMethodRef Class index 22, Name and type index 23
+22: Tag 7 Class Name index 24
+23: Tag 12 NameAndType Name index 25, Description index 26
+24: Tag 1 Utf8 Value "java/util/function/Supplier"
+25: Tag 1 Utf8 Value "get"
+26: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+27: Tag 7 Class Name index 28
+28: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/TracerConfiguration"
+29: Tag 11 InterfaceMethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "java/util/function/Consumer"
+33: Tag 1 Utf8 Value "accept"
+34: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+35: Tag 10 MethodRef Class index 36, Name and type index 37
+36: Tag 7 Class Name index 38
+37: Tag 12 NameAndType Name index 39, Description index 40
+38: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/WildFlyTracerFactory"
+39: Tag 1 Utf8 Value "registerDefaultTracer"
+40: Tag 1 Utf8 Value "()Ljava/util/function/Consumer;"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "org/jboss/msc/Service"
+43: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/opentracing/SubsystemAdd;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V"
+44: Tag 1 Utf8 Value "Code"
+45: Tag 1 Utf8 Value "LineNumberTable"
+46: Tag 1 Utf8 Value "LocalVariableTable"
+47: Tag 1 Utf8 Value "this"
+48: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/SubsystemAdd$1;"
+49: Tag 1 Utf8 Value "Signature"
+50: Tag 1 Utf8 Value "start"
+51: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+52: Tag 1 Utf8 Value "context"
+53: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+54: Tag 1 Utf8 Value "Exceptions"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+57: Tag 1 Utf8 Value "stop"
+58: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+59: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+60: Tag 1 Utf8 Value "SourceFile"
+61: Tag 1 Utf8 Value "SubsystemAdd.java"
+62: Tag 1 Utf8 Value "EnclosingMethod"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/SubsystemAdd"
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "performBoottime"
+67: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;Lorg/jboss/dmr/ModelNode;)V"
+68: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.microprofile.opentracing.SubsystemAdd$1
+
+Super class: id 16, name java.lang.Object
+
+Implements class ids 41
+Implements names org.jboss.msc.Service
+
+Field name val$injector (index 9), type Ljava/util/function/Consumer; (descriptor index 10)
+Human type: java.util.function.Consumer
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name val$config (index 13), type Ljava/util/function/Supplier; (descriptor index 14)
+Human type: java.util.function.Supplier
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/extension/microprofile/opentracing/SubsystemAdd; (descriptor index 6)
+Human type: org.wildfly.extension.microprofile.opentracing.SubsystemAdd
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 19), type (Lorg/wildfly/extension/microprofile/opentracing/SubsystemAdd;Ljava/util/function/Consumer;Ljava/util/function/Supplier;)V (descriptor index 43)
+Human type: (org.wildfly.extension.microprofile.opentracing.SubsystemAdd, java.util.function.Consumer, java.util.function.Supplier): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 72
+Method attribute name Signature, size 2
+Method name start (index 50), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 51)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 102
+Method attribute name Exceptions, size 4
+Method name stop (index 57), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 58)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 91
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10

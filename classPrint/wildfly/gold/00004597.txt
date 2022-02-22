@@ -1,0 +1,93 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 54
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/msc/service/DelegatingServiceBuilder"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/service/AsyncServiceConfigurator$AsyncServiceBuilder"
+11: Tag 1 Utf8 Value "executor"
+12: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 16
+15: Tag 1 Utf8 Value "asyncStart"
+16: Tag 1 Utf8 Value "Z"
+17: Tag 9 FieldRef Class index 8, Name and type index 18
+18: Tag 12 NameAndType Name index 19, Description index 16
+19: Tag 1 Utf8 Value "asyncStop"
+20: Tag 7 Class Name index 21
+21: Tag 1 Utf8 Value "org/wildfly/clustering/service/AsyncServiceConfigurator$AsyncService"
+22: Tag 10 MethodRef Class index 20, Name and type index 23
+23: Tag 12 NameAndType Name index 5, Description index 24
+24: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;Ljava/util/function/Supplier;ZZ)V"
+25: Tag 10 MethodRef Class index 2, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "setInstance"
+28: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+29: Tag 1 Utf8 Value "Signature"
+30: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Ljava/util/concurrent/Executor;>;"
+31: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;Ljava/util/function/Supplier;ZZ)V"
+32: Tag 1 Utf8 Value "Code"
+33: Tag 1 Utf8 Value "LineNumberTable"
+34: Tag 1 Utf8 Value "LocalVariableTable"
+35: Tag 1 Utf8 Value "this"
+36: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/AsyncServiceConfigurator$AsyncServiceBuilder;"
+37: Tag 1 Utf8 Value "delegate"
+38: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+39: Tag 1 Utf8 Value "LocalVariableTypeTable"
+40: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/AsyncServiceConfigurator$AsyncServiceBuilder<TT;>;"
+41: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<TT;>;"
+42: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder<TT;>;Ljava/util/function/Supplier<Ljava/util/concurrent/Executor;>;ZZ)V"
+43: Tag 1 Utf8 Value "service"
+44: Tag 1 Utf8 Value "Lorg/jboss/msc/Service;"
+45: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder<TT;>;"
+46: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Lorg/jboss/msc/service/DelegatingServiceBuilder<TT;>;"
+47: Tag 1 Utf8 Value "SourceFile"
+48: Tag 1 Utf8 Value "AsyncServiceConfigurator.java"
+49: Tag 1 Utf8 Value "InnerClasses"
+50: Tag 7 Class Name index 51
+51: Tag 1 Utf8 Value "org/wildfly/clustering/service/AsyncServiceConfigurator"
+52: Tag 1 Utf8 Value "AsyncServiceBuilder"
+53: Tag 1 Utf8 Value "AsyncService"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 8, name org.wildfly.clustering.service.AsyncServiceConfigurator$AsyncServiceBuilder
+
+Super class: id 2, name org.jboss.msc.service.DelegatingServiceBuilder
+
+No interfaces
+
+Field name executor (index 11), type Ljava/util/function/Supplier; (descriptor index 12)
+Human type: java.util.function.Supplier
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name asyncStart (index 15), type Z (descriptor index 16)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name asyncStop (index 19), type Z (descriptor index 16)
+Human type: boolean
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Lorg/jboss/msc/service/ServiceBuilder;Ljava/util/function/Supplier;ZZ)V (descriptor index 31)
+Human type: (org.jboss.msc.service.ServiceBuilder, java.util.function.Supplier, boolean, boolean): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 158
+Method attribute name Signature, size 2
+Method name setInstance (index 27), type (Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 28)
+Human type: (org.jboss.msc.Service): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 95
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

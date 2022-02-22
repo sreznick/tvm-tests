@@ -1,0 +1,189 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 151
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition"
+3: Tag 9 FieldRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader"
+7: Tag 1 Utf8 Value "INSTANCE"
+8: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader;"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "java/lang/Object"
+13: Tag 1 Utf8 Value "<init>"
+14: Tag 1 Utf8 Value "()V"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "org/jboss/as/controller/descriptions/ModelDescriptionConstants"
+17: Tag 8 String Contents 18
+18: Tag 1 Utf8 Value "name"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+23: Tag 1 Utf8 Value "require"
+24: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+25: Tag 10 MethodRef Class index 20, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "asString"
+28: Tag 1 Utf8 Value "()Ljava/lang/String;"
+29: Tag 8 String Contents 30
+30: Tag 1 Utf8 Value "global-client-thread-pool-"
+31: Tag 10 MethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "java/lang/String"
+35: Tag 1 Utf8 Value "startsWith"
+36: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+37: Tag 10 MethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/apache/activemq/artemis/api/core/client/ActiveMQClient"
+41: Tag 1 Utf8 Value "getGlobalThreadPool"
+42: Tag 1 Utf8 Value "()Ljava/util/concurrent/ExecutorService;"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "java/util/concurrent/ThreadPoolExecutor"
+45: Tag 10 MethodRef Class index 32, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "length"
+48: Tag 1 Utf8 Value "()I"
+49: Tag 10 MethodRef Class index 32, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "substring"
+52: Tag 1 Utf8 Value "(I)Ljava/lang/String;"
+53: Tag 10 MethodRef Class index 38, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "getGlobalScheduledThreadPool"
+56: Tag 1 Utf8 Value "()Ljava/util/concurrent/ScheduledExecutorService;"
+57: Tag 8 String Contents 58
+58: Tag 1 Utf8 Value "global-client-scheduled-thread-pool-"
+59: Tag 10 MethodRef Class index 32, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 48
+61: Tag 1 Utf8 Value "hashCode"
+62: Tag 8 String Contents 63
+63: Tag 1 Utf8 Value "active-count"
+64: Tag 10 MethodRef Class index 32, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "equals"
+67: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+68: Tag 8 String Contents 69
+69: Tag 1 Utf8 Value "completed-task-count"
+70: Tag 8 String Contents 71
+71: Tag 1 Utf8 Value "current-thread-count"
+72: Tag 8 String Contents 73
+73: Tag 1 Utf8 Value "largest-thread-count"
+74: Tag 8 String Contents 75
+75: Tag 1 Utf8 Value "task-count"
+76: Tag 8 String Contents 77
+77: Tag 1 Utf8 Value "keepalive-time"
+78: Tag 11 InterfaceMethodRef Class index 79, Name and type index 80
+79: Tag 7 Class Name index 81
+80: Tag 12 NameAndType Name index 82, Description index 83
+81: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+82: Tag 1 Utf8 Value "getResult"
+83: Tag 1 Utf8 Value "()Lorg/jboss/dmr/ModelNode;"
+84: Tag 10 MethodRef Class index 43, Name and type index 85
+85: Tag 12 NameAndType Name index 86, Description index 48
+86: Tag 1 Utf8 Value "getActiveCount"
+87: Tag 10 MethodRef Class index 20, Name and type index 88
+88: Tag 12 NameAndType Name index 89, Description index 90
+89: Tag 1 Utf8 Value "set"
+90: Tag 1 Utf8 Value "(I)Lorg/jboss/dmr/ModelNode;"
+91: Tag 10 MethodRef Class index 43, Name and type index 92
+92: Tag 12 NameAndType Name index 93, Description index 94
+93: Tag 1 Utf8 Value "getCompletedTaskCount"
+94: Tag 1 Utf8 Value "()J"
+95: Tag 10 MethodRef Class index 20, Name and type index 96
+96: Tag 12 NameAndType Name index 89, Description index 97
+97: Tag 1 Utf8 Value "(J)Lorg/jboss/dmr/ModelNode;"
+98: Tag 10 MethodRef Class index 43, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 48
+100: Tag 1 Utf8 Value "getPoolSize"
+101: Tag 10 MethodRef Class index 43, Name and type index 102
+102: Tag 12 NameAndType Name index 103, Description index 48
+103: Tag 1 Utf8 Value "getLargestPoolSize"
+104: Tag 10 MethodRef Class index 43, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 94
+106: Tag 1 Utf8 Value "getTaskCount"
+107: Tag 9 FieldRef Class index 108, Name and type index 109
+108: Tag 7 Class Name index 110
+109: Tag 12 NameAndType Name index 111, Description index 112
+110: Tag 1 Utf8 Value "java/util/concurrent/TimeUnit"
+111: Tag 1 Utf8 Value "NANOSECONDS"
+112: Tag 1 Utf8 Value "Ljava/util/concurrent/TimeUnit;"
+113: Tag 10 MethodRef Class index 43, Name and type index 114
+114: Tag 12 NameAndType Name index 115, Description index 116
+115: Tag 1 Utf8 Value "getKeepAliveTime"
+116: Tag 1 Utf8 Value "(Ljava/util/concurrent/TimeUnit;)J"
+117: Tag 7 Class Name index 118
+118: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+119: Tag 10 MethodRef Class index 117, Name and type index 120
+120: Tag 12 NameAndType Name index 13, Description index 121
+121: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+122: Tag 10 MethodRef Class index 4, Name and type index 11
+123: Tag 7 Class Name index 124
+124: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+125: Tag 1 Utf8 Value "Code"
+126: Tag 1 Utf8 Value "LineNumberTable"
+127: Tag 1 Utf8 Value "LocalVariableTable"
+128: Tag 1 Utf8 Value "this"
+129: Tag 1 Utf8 Value "execute"
+130: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+131: Tag 1 Utf8 Value "pool"
+132: Tag 1 Utf8 Value "Ljava/util/concurrent/ThreadPoolExecutor;"
+133: Tag 1 Utf8 Value "metric"
+134: Tag 1 Utf8 Value "Ljava/lang/String;"
+135: Tag 1 Utf8 Value "context"
+136: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+137: Tag 1 Utf8 Value "operation"
+138: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+139: Tag 1 Utf8 Value "attributeName"
+140: Tag 1 Utf8 Value "StackMapTable"
+141: Tag 1 Utf8 Value "Exceptions"
+142: Tag 7 Class Name index 143
+143: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+144: Tag 1 Utf8 Value "access$000"
+145: Tag 1 Utf8 Value "()Lorg/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader;"
+146: Tag 1 Utf8 Value "<clinit>"
+147: Tag 1 Utf8 Value "SourceFile"
+148: Tag 1 Utf8 Value "MessagingSubsystemRootResourceDefinition.java"
+149: Tag 1 Utf8 Value "InnerClasses"
+150: Tag 1 Utf8 Value "ClientThreadPoolMetricReader"
+
+Flags: decimal 48, hex 0030, binary 0000000000110000 final super
+
+This class: id 4, name org.wildfly.extension.messaging.activemq.MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader
+
+Super class: id 10, name java.lang.Object
+
+Implements class ids 123
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name INSTANCE (index 7), type Lorg/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader; (descriptor index 8)
+Human type: org.wildfly.extension.messaging.activemq.MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 13), type ()V (descriptor index 14)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 47
+Method name execute (index 129), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 130)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 624
+Method attribute name Exceptions, size 4
+Method name access$000 (index 144), type ()Lorg/wildfly/extension/messaging/activemq/MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader; (descriptor index 145)
+Human type: (): org.wildfly.extension.messaging.activemq.MessagingSubsystemRootResourceDefinition$ClientThreadPoolMetricReader
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 28
+Method name <clinit> (index 146), type ()V (descriptor index 14)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

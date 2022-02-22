@@ -1,0 +1,114 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 81
+1: Tag 10 MethodRef Class index 19, Name and type index 42
+2: Tag 9 FieldRef Class index 14, Name and type index 43
+3: Tag 7 Class Name index 44
+4: Tag 10 MethodRef Class index 3, Name and type index 42
+5: Tag 10 MethodRef Class index 45, Name and type index 46
+6: Tag 10 MethodRef Class index 3, Name and type index 47
+7: Tag 8 String Contents 48
+8: Tag 10 MethodRef Class index 3, Name and type index 49
+9: Tag 10 MethodRef Class index 45, Name and type index 50
+10: Tag 10 MethodRef Class index 45, Name and type index 51
+11: Tag 10 MethodRef Class index 3, Name and type index 52
+12: Tag 10 MethodRef Class index 45, Name and type index 53
+13: Tag 7 Class Name index 54
+14: Tag 7 Class Name index 55
+15: Tag 8 String Contents 56
+16: Tag 10 MethodRef Class index 13, Name and type index 57
+17: Tag 10 MethodRef Class index 58, Name and type index 59
+18: Tag 11 InterfaceMethodRef Class index 20, Name and type index 60
+19: Tag 7 Class Name index 61
+20: Tag 7 Class Name index 62
+21: Tag 1 Utf8 Value "FORWARD_TEST_HEADER"
+22: Tag 1 Utf8 Value "Ljava/lang/String;"
+23: Tag 1 Utf8 Value "ConstantValue"
+24: Tag 1 Utf8 Value "next"
+25: Tag 1 Utf8 Value "Lio/undertow/server/HttpHandler;"
+26: Tag 1 Utf8 Value "<init>"
+27: Tag 1 Utf8 Value "(Lio/undertow/server/HttpHandler;)V"
+28: Tag 1 Utf8 Value "Code"
+29: Tag 1 Utf8 Value "LineNumberTable"
+30: Tag 1 Utf8 Value "LocalVariableTable"
+31: Tag 1 Utf8 Value "this"
+32: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/web/handlers/ForwardedTestHelperHandler;"
+33: Tag 1 Utf8 Value "handleRequest"
+34: Tag 1 Utf8 Value "(Lio/undertow/server/HttpServerExchange;)V"
+35: Tag 1 Utf8 Value "exchange"
+36: Tag 1 Utf8 Value "Lio/undertow/server/HttpServerExchange;"
+37: Tag 1 Utf8 Value "value"
+38: Tag 1 Utf8 Value "Exceptions"
+39: Tag 7 Class Name index 63
+40: Tag 1 Utf8 Value "SourceFile"
+41: Tag 1 Utf8 Value "ForwardedTestHelperHandler.java"
+42: Tag 12 NameAndType Name index 26, Description index 64
+43: Tag 12 NameAndType Name index 24, Description index 25
+44: Tag 1 Utf8 Value "java/lang/StringBuilder"
+45: Tag 7 Class Name index 65
+46: Tag 12 NameAndType Name index 66, Description index 67
+47: Tag 12 NameAndType Name index 68, Description index 69
+48: Tag 1 Utf8 Value "|"
+49: Tag 12 NameAndType Name index 68, Description index 70
+50: Tag 12 NameAndType Name index 71, Description index 72
+51: Tag 12 NameAndType Name index 73, Description index 67
+52: Tag 12 NameAndType Name index 74, Description index 72
+53: Tag 12 NameAndType Name index 75, Description index 76
+54: Tag 1 Utf8 Value "io/undertow/util/HttpString"
+55: Tag 1 Utf8 Value "org/jboss/as/test/integration/web/handlers/ForwardedTestHelperHandler"
+56: Tag 1 Utf8 Value "forwarded-test-header"
+57: Tag 12 NameAndType Name index 26, Description index 77
+58: Tag 7 Class Name index 78
+59: Tag 12 NameAndType Name index 79, Description index 80
+60: Tag 12 NameAndType Name index 33, Description index 34
+61: Tag 1 Utf8 Value "java/lang/Object"
+62: Tag 1 Utf8 Value "io/undertow/server/HttpHandler"
+63: Tag 1 Utf8 Value "java/lang/Exception"
+64: Tag 1 Utf8 Value "()V"
+65: Tag 1 Utf8 Value "io/undertow/server/HttpServerExchange"
+66: Tag 1 Utf8 Value "getSourceAddress"
+67: Tag 1 Utf8 Value "()Ljava/net/InetSocketAddress;"
+68: Tag 1 Utf8 Value "append"
+69: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/StringBuilder;"
+70: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+71: Tag 1 Utf8 Value "getRequestScheme"
+72: Tag 1 Utf8 Value "()Ljava/lang/String;"
+73: Tag 1 Utf8 Value "getDestinationAddress"
+74: Tag 1 Utf8 Value "toString"
+75: Tag 1 Utf8 Value "getResponseHeaders"
+76: Tag 1 Utf8 Value "()Lio/undertow/util/HeaderMap;"
+77: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+78: Tag 1 Utf8 Value "io/undertow/util/HeaderMap"
+79: Tag 1 Utf8 Value "put"
+80: Tag 1 Utf8 Value "(Lio/undertow/util/HttpString;Ljava/lang/String;)Lio/undertow/util/HeaderMap;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.jboss.as.test.integration.web.handlers.ForwardedTestHelperHandler
+
+Super class: id 19, name java.lang.Object
+
+Implements class ids 20
+Implements names io.undertow.server.HttpHandler
+
+Field name FORWARD_TEST_HEADER (index 21), type Ljava/lang/String; (descriptor index 22)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name next (index 24), type Lio/undertow/server/HttpHandler; (descriptor index 25)
+Human type: io.undertow.server.HttpHandler
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 26), type (Lio/undertow/server/HttpHandler;)V (descriptor index 27)
+Human type: (io.undertow.server.HttpHandler): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name handleRequest (index 33), type (Lio/undertow/server/HttpServerExchange;)V (descriptor index 34)
+Human type: (io.undertow.server.HttpServerExchange): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 149
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

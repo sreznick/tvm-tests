@@ -1,0 +1,111 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 78
+1: Tag 10 MethodRef Class index 14, Name and type index 40
+2: Tag 11 InterfaceMethodRef Class index 41, Name and type index 42
+3: Tag 10 MethodRef Class index 43, Name and type index 44
+4: Tag 10 MethodRef Class index 43, Name and type index 45
+5: Tag 10 MethodRef Class index 13, Name and type index 46
+6: Tag 10 MethodRef Class index 47, Name and type index 48
+7: Tag 7 Class Name index 49
+8: Tag 10 MethodRef Class index 7, Name and type index 50
+9: Tag 10 MethodRef Class index 7, Name and type index 51
+10: Tag 9 FieldRef Class index 52, Name and type index 53
+11: Tag 11 InterfaceMethodRef Class index 32, Name and type index 54
+12: Tag 11 InterfaceMethodRef Class index 32, Name and type index 55
+13: Tag 7 Class Name index 56
+14: Tag 7 Class Name index 57
+15: Tag 7 Class Name index 58
+16: Tag 1 Utf8 Value "<init>"
+17: Tag 1 Utf8 Value "()V"
+18: Tag 1 Utf8 Value "Code"
+19: Tag 1 Utf8 Value "LineNumberTable"
+20: Tag 1 Utf8 Value "LocalVariableTable"
+21: Tag 1 Utf8 Value "this"
+22: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/deployers/WSModelDeploymentProcessor;"
+23: Tag 1 Utf8 Value "internalDeploy"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+25: Tag 1 Utf8 Value "config"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/webservices/config/ServerConfigImpl;"
+27: Tag 1 Utf8 Value "phaseContext"
+28: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+29: Tag 1 Utf8 Value "unit"
+30: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+31: Tag 1 Utf8 Value "StackMapTable"
+32: Tag 7 Class Name index 59
+33: Tag 1 Utf8 Value "internalUndeploy"
+34: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+35: Tag 1 Utf8 Value "context"
+36: Tag 1 Utf8 Value "isWebServiceDeployment"
+37: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+38: Tag 1 Utf8 Value "SourceFile"
+39: Tag 1 Utf8 Value "WSModelDeploymentProcessor.java"
+40: Tag 12 NameAndType Name index 16, Description index 17
+41: Tag 7 Class Name index 60
+42: Tag 12 NameAndType Name index 61, Description index 62
+43: Tag 7 Class Name index 63
+44: Tag 12 NameAndType Name index 64, Description index 65
+45: Tag 12 NameAndType Name index 66, Description index 34
+46: Tag 12 NameAndType Name index 36, Description index 37
+47: Tag 7 Class Name index 67
+48: Tag 12 NameAndType Name index 68, Description index 69
+49: Tag 1 Utf8 Value "org/jboss/as/webservices/config/ServerConfigImpl"
+50: Tag 12 NameAndType Name index 70, Description index 17
+51: Tag 12 NameAndType Name index 71, Description index 17
+52: Tag 7 Class Name index 72
+53: Tag 12 NameAndType Name index 73, Description index 74
+54: Tag 12 NameAndType Name index 75, Description index 76
+55: Tag 12 NameAndType Name index 77, Description index 76
+56: Tag 1 Utf8 Value "org/jboss/as/webservices/deployers/WSModelDeploymentProcessor"
+57: Tag 1 Utf8 Value "org/jboss/as/webservices/deployers/TCCLDeploymentProcessor"
+58: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+59: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+60: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+61: Tag 1 Utf8 Value "getDeploymentUnit"
+62: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+63: Tag 1 Utf8 Value "org/jboss/as/webservices/deployers/deployment/WSDeploymentBuilder"
+64: Tag 1 Utf8 Value "getInstance"
+65: Tag 1 Utf8 Value "()Lorg/jboss/as/webservices/deployers/deployment/WSDeploymentBuilder;"
+66: Tag 1 Utf8 Value "build"
+67: Tag 1 Utf8 Value "org/jboss/as/webservices/config/ServerConfigFactoryImpl"
+68: Tag 1 Utf8 Value "getConfig"
+69: Tag 1 Utf8 Value "()Lorg/jboss/wsf/spi/management/ServerConfig;"
+70: Tag 1 Utf8 Value "incrementWSDeploymentCount"
+71: Tag 1 Utf8 Value "decrementWSDeploymentCount"
+72: Tag 1 Utf8 Value "org/jboss/as/webservices/util/WSAttachmentKeys"
+73: Tag 1 Utf8 Value "DEPLOYMENT_KEY"
+74: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+75: Tag 1 Utf8 Value "removeAttachment"
+76: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+77: Tag 1 Utf8 Value "getAttachment"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 13, name org.jboss.as.webservices.deployers.WSModelDeploymentProcessor
+
+Super class: id 14, name org.jboss.as.webservices.deployers.TCCLDeploymentProcessor
+
+Implements class ids 15
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+No fields
+
+Method name <init> (index 16), type ()V (descriptor index 17)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name internalDeploy (index 23), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 24)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 139
+Method name internalUndeploy (index 33), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 34)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 116
+Method name isWebServiceDeployment (index 36), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)Z (descriptor index 37)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): boolean
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 71
+
+Class attribute name SourceFile, size 2

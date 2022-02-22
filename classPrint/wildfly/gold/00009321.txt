@@ -1,0 +1,185 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 149
+1: Tag 10 MethodRef Class index 38, Name and type index 79
+2: Tag 7 Class Name index 80
+3: Tag 10 MethodRef Class index 2, Name and type index 79
+4: Tag 7 Class Name index 81
+5: Tag 9 FieldRef Class index 15, Name and type index 82
+6: Tag 10 MethodRef Class index 4, Name and type index 83
+7: Tag 11 InterfaceMethodRef Class index 63, Name and type index 84
+8: Tag 9 FieldRef Class index 85, Name and type index 86
+9: Tag 10 MethodRef Class index 87, Name and type index 88
+10: Tag 7 Class Name index 89
+11: Tag 7 Class Name index 90
+12: Tag 10 MethodRef Class index 11, Name and type index 79
+13: Tag 10 MethodRef Class index 10, Name and type index 91
+14: Tag 10 MethodRef Class index 11, Name and type index 92
+15: Tag 7 Class Name index 93
+16: Tag 8 String Contents 94
+17: Tag 10 MethodRef Class index 64, Name and type index 95
+18: Tag 8 String Contents 96
+19: Tag 10 MethodRef Class index 11, Name and type index 97
+20: Tag 10 MethodRef Class index 10, Name and type index 98
+21: Tag 7 Class Name index 99
+22: Tag 7 Class Name index 100
+23: Tag 10 MethodRef Class index 22, Name and type index 101
+24: Tag 10 MethodRef Class index 102, Name and type index 103
+25: Tag 11 InterfaceMethodRef Class index 63, Name and type index 104
+26: Tag 10 MethodRef Class index 37, Name and type index 105
+27: Tag 10 MethodRef Class index 37, Name and type index 106
+28: Tag 11 InterfaceMethodRef Class index 63, Name and type index 107
+29: Tag 8 String Contents 108
+30: Tag 10 MethodRef Class index 22, Name and type index 98
+31: Tag 8 String Contents 109
+32: Tag 10 MethodRef Class index 110, Name and type index 111
+33: Tag 8 String Contents 112
+34: Tag 8 String Contents 113
+35: Tag 10 MethodRef Class index 114, Name and type index 115
+36: Tag 8 String Contents 116
+37: Tag 7 Class Name index 117
+38: Tag 7 Class Name index 118
+39: Tag 1 Utf8 Value "<init>"
+40: Tag 1 Utf8 Value "()V"
+41: Tag 1 Utf8 Value "Code"
+42: Tag 1 Utf8 Value "LineNumberTable"
+43: Tag 1 Utf8 Value "LocalVariableTable"
+44: Tag 1 Utf8 Value "this"
+45: Tag 1 Utf8 Value "Lorg/jboss/as/test/integration/security/common/RolesPrintingServletUtils;"
+46: Tag 1 Utf8 Value "prepareRolePrintingUrl"
+47: Tag 1 Utf8 Value "(Ljava/net/URL;[Ljava/lang/String;)Ljava/net/URL;"
+48: Tag 1 Utf8 Value "role"
+49: Tag 1 Utf8 Value "Ljava/lang/String;"
+50: Tag 1 Utf8 Value "ex"
+51: Tag 1 Utf8 Value "Ljava/net/MalformedURLException;"
+52: Tag 1 Utf8 Value "webAppURL"
+53: Tag 1 Utf8 Value "Ljava/net/URL;"
+54: Tag 1 Utf8 Value "allPossibleRoles"
+55: Tag 1 Utf8 Value "[Ljava/lang/String;"
+56: Tag 1 Utf8 Value "qparams"
+57: Tag 1 Utf8 Value "Ljava/util/List;"
+58: Tag 1 Utf8 Value "queryRoles"
+59: Tag 1 Utf8 Value "LocalVariableTypeTable"
+60: Tag 1 Utf8 Value "Ljava/util/List<Lorg/apache/http/NameValuePair;>;"
+61: Tag 1 Utf8 Value "StackMapTable"
+62: Tag 7 Class Name index 55
+63: Tag 7 Class Name index 119
+64: Tag 7 Class Name index 120
+65: Tag 1 Utf8 Value "assertExpectedRoles"
+66: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V"
+67: Tag 1 Utf8 Value "rolesResponse"
+68: Tag 1 Utf8 Value "expectedAssignedRoles"
+69: Tag 1 Utf8 Value "assignedRolesList"
+70: Tag 1 Utf8 Value "checkedRoles"
+71: Tag 1 Utf8 Value "I"
+72: Tag 1 Utf8 Value "Ljava/util/List<Ljava/lang/String;>;"
+73: Tag 1 Utf8 Value "assertInRole"
+74: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+75: Tag 1 Utf8 Value "rolePrintResponse"
+76: Tag 1 Utf8 Value "assertNotInRole"
+77: Tag 1 Utf8 Value "SourceFile"
+78: Tag 1 Utf8 Value "RolesPrintingServletUtils.java"
+79: Tag 12 NameAndType Name index 39, Description index 40
+80: Tag 1 Utf8 Value "java/util/ArrayList"
+81: Tag 1 Utf8 Value "org/apache/http/message/BasicNameValuePair"
+82: Tag 12 NameAndType Name index 121, Description index 49
+83: Tag 12 NameAndType Name index 39, Description index 74
+84: Tag 12 NameAndType Name index 122, Description index 123
+85: Tag 7 Class Name index 124
+86: Tag 12 NameAndType Name index 125, Description index 126
+87: Tag 7 Class Name index 127
+88: Tag 12 NameAndType Name index 128, Description index 129
+89: Tag 1 Utf8 Value "java/net/URL"
+90: Tag 1 Utf8 Value "java/lang/StringBuilder"
+91: Tag 12 NameAndType Name index 130, Description index 131
+92: Tag 12 NameAndType Name index 132, Description index 133
+93: Tag 1 Utf8 Value "org/jboss/as/test/integration/security/common/servlets/RolePrintingServlet"
+94: Tag 1 Utf8 Value "/printRoles"
+95: Tag 12 NameAndType Name index 134, Description index 135
+96: Tag 1 Utf8 Value "?"
+97: Tag 12 NameAndType Name index 136, Description index 131
+98: Tag 12 NameAndType Name index 39, Description index 137
+99: Tag 1 Utf8 Value "java/net/MalformedURLException"
+100: Tag 1 Utf8 Value "java/lang/RuntimeException"
+101: Tag 12 NameAndType Name index 39, Description index 138
+102: Tag 7 Class Name index 139
+103: Tag 12 NameAndType Name index 140, Description index 141
+104: Tag 12 NameAndType Name index 142, Description index 123
+105: Tag 12 NameAndType Name index 73, Description index 74
+106: Tag 12 NameAndType Name index 76, Description index 74
+107: Tag 12 NameAndType Name index 143, Description index 144
+108: Tag 1 Utf8 Value "There are some roles which have not been checked. It is probably test case issue - you try to check some roles which are missing in all possible roles array."
+109: Tag 1 Utf8 Value ","
+110: Tag 7 Class Name index 145
+111: Tag 12 NameAndType Name index 142, Description index 146
+112: Tag 1 Utf8 Value "Missing role '"
+113: Tag 1 Utf8 Value "' assignment"
+114: Tag 7 Class Name index 147
+115: Tag 12 NameAndType Name index 148, Description index 137
+116: Tag 1 Utf8 Value "Unexpected role '"
+117: Tag 1 Utf8 Value "org/jboss/as/test/integration/security/common/RolesPrintingServletUtils"
+118: Tag 1 Utf8 Value "java/lang/Object"
+119: Tag 1 Utf8 Value "java/util/List"
+120: Tag 1 Utf8 Value "java/lang/String"
+121: Tag 1 Utf8 Value "PARAM_ROLE_NAME"
+122: Tag 1 Utf8 Value "add"
+123: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+124: Tag 1 Utf8 Value "java/nio/charset/StandardCharsets"
+125: Tag 1 Utf8 Value "UTF_8"
+126: Tag 1 Utf8 Value "Ljava/nio/charset/Charset;"
+127: Tag 1 Utf8 Value "org/apache/http/client/utils/URLEncodedUtils"
+128: Tag 1 Utf8 Value "format"
+129: Tag 1 Utf8 Value "(Ljava/lang/Iterable;Ljava/nio/charset/Charset;)Ljava/lang/String;"
+130: Tag 1 Utf8 Value "toExternalForm"
+131: Tag 1 Utf8 Value "()Ljava/lang/String;"
+132: Tag 1 Utf8 Value "append"
+133: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+134: Tag 1 Utf8 Value "substring"
+135: Tag 1 Utf8 Value "(I)Ljava/lang/String;"
+136: Tag 1 Utf8 Value "toString"
+137: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+138: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+139: Tag 1 Utf8 Value "java/util/Arrays"
+140: Tag 1 Utf8 Value "asList"
+141: Tag 1 Utf8 Value "([Ljava/lang/Object;)Ljava/util/List;"
+142: Tag 1 Utf8 Value "contains"
+143: Tag 1 Utf8 Value "size"
+144: Tag 1 Utf8 Value "()I"
+145: Tag 1 Utf8 Value "org/apache/commons/lang3/StringUtils"
+146: Tag 1 Utf8 Value "(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z"
+147: Tag 1 Utf8 Value "org/junit/Assert"
+148: Tag 1 Utf8 Value "fail"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 37, name org.jboss.as.test.integration.security.common.RolesPrintingServletUtils
+
+Super class: id 38, name java.lang.Object
+
+No interfaces
+
+No fields
+
+Method name <init> (index 39), type ()V (descriptor index 40)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name prepareRolePrintingUrl (index 46), type (Ljava/net/URL;[Ljava/lang/String;)Ljava/net/URL; (descriptor index 47)
+Human type: (java.net.URL, java.lang.String[]): java.net.URL
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 318
+Method name assertExpectedRoles (index 65), type (Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V (descriptor index 66)
+Human type: (java.lang.String, java.lang.String[], java.lang.String[]): void
+Flags: decimal 9, hex 0009, binary 0000000000001001 public static
+Method attribute name Code, size 286
+Method name assertInRole (index 73), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 74)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 128
+Method name assertNotInRole (index 76), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 74)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 128
+
+Class attribute name SourceFile, size 2

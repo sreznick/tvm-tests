@@ -1,0 +1,643 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 576
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/TracerConfigurationConstants"
+3: Tag 7 Class Name index 4
+4: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/SubsystemDefinition"
+5: Tag 7 Class Name index 6
+6: Tag 1 Utf8 Value "org/jboss/as/weld/Capabilities"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/TracingExtensionLogger"
+17: Tag 1 Utf8 Value "ROOT_LOGGER"
+18: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/TracingExtensionLogger;"
+19: Tag 11 InterfaceMethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 12
+21: Tag 1 Utf8 Value "processingDeployment"
+22: Tag 11 InterfaceMethodRef Class index 23, Name and type index 24
+23: Tag 7 Class Name index 25
+24: Tag 12 NameAndType Name index 26, Description index 27
+25: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+26: Tag 1 Utf8 Value "getDeploymentUnit"
+27: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+28: Tag 9 FieldRef Class index 29, Name and type index 30
+29: Tag 7 Class Name index 31
+30: Tag 12 NameAndType Name index 32, Description index 33
+31: Tag 1 Utf8 Value "org/jboss/as/ee/structure/DeploymentType"
+32: Tag 1 Utf8 Value "EAR"
+33: Tag 1 Utf8 Value "Lorg/jboss/as/ee/structure/DeploymentType;"
+34: Tag 10 MethodRef Class index 35, Name and type index 36
+35: Tag 7 Class Name index 37
+36: Tag 12 NameAndType Name index 38, Description index 39
+37: Tag 1 Utf8 Value "org/jboss/as/ee/structure/DeploymentTypeMarker"
+38: Tag 1 Utf8 Value "isType"
+39: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/structure/DeploymentType;Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+40: Tag 9 FieldRef Class index 41, Name and type index 42
+41: Tag 7 Class Name index 43
+42: Tag 12 NameAndType Name index 44, Description index 45
+43: Tag 1 Utf8 Value "org/jboss/as/server/deployment/Attachments"
+44: Tag 1 Utf8 Value "CAPABILITY_SERVICE_SUPPORT"
+45: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+46: Tag 11 InterfaceMethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+50: Tag 1 Utf8 Value "getAttachment"
+51: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+52: Tag 7 Class Name index 53
+53: Tag 1 Utf8 Value "org/jboss/as/controller/capability/CapabilityServiceSupport"
+54: Tag 8 String Contents 55
+55: Tag 1 Utf8 Value "org.wildfly.weld"
+56: Tag 7 Class Name index 57
+57: Tag 1 Utf8 Value "org/jboss/as/weld/WeldCapability"
+58: Tag 11 InterfaceMethodRef Class index 52, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "getCapabilityRuntimeAPI"
+61: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;"
+62: Tag 11 InterfaceMethodRef Class index 56, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 65
+64: Tag 1 Utf8 Value "isPartOfWeldDeployment"
+65: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+66: Tag 11 InterfaceMethodRef Class index 14, Name and type index 67
+67: Tag 12 NameAndType Name index 68, Description index 12
+68: Tag 1 Utf8 Value "noCdiDeployment"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "org/jboss/as/controller/capability/CapabilityServiceSupport$NoSuchCapabilityException"
+71: Tag 7 Class Name index 72
+72: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+73: Tag 11 InterfaceMethodRef Class index 47, Name and type index 74
+74: Tag 12 NameAndType Name index 75, Description index 76
+75: Tag 1 Utf8 Value "getName"
+76: Tag 1 Utf8 Value "()Ljava/lang/String;"
+77: Tag 11 InterfaceMethodRef Class index 14, Name and type index 78
+78: Tag 12 NameAndType Name index 79, Description index 80
+79: Tag 1 Utf8 Value "deploymentRequiresCapability"
+80: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+81: Tag 10 MethodRef Class index 71, Name and type index 82
+82: Tag 12 NameAndType Name index 11, Description index 83
+83: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+84: Tag 10 MethodRef Class index 85, Name and type index 86
+85: Tag 7 Class Name index 87
+86: Tag 12 NameAndType Name index 88, Description index 89
+87: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/TracingDeploymentProcessor"
+88: Tag 1 Utf8 Value "injectTracer"
+89: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)V"
+90: Tag 10 MethodRef Class index 85, Name and type index 91
+91: Tag 12 NameAndType Name index 92, Description index 93
+92: Tag 1 Utf8 Value "getJBossWebMetaData"
+93: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/metadata/web/jboss/JBossWebMetaData;"
+94: Tag 8 String Contents 95
+95: Tag 1 Utf8 Value ""
+96: Tag 10 MethodRef Class index 97, Name and type index 98
+97: Tag 7 Class Name index 99
+98: Tag 12 NameAndType Name index 100, Description index 101
+99: Tag 1 Utf8 Value "org/jboss/metadata/web/jboss/JBossWebMetaData"
+100: Tag 1 Utf8 Value "getContextParams"
+101: Tag 1 Utf8 Value "()Ljava/util/List;"
+102: Tag 11 InterfaceMethodRef Class index 103, Name and type index 104
+103: Tag 7 Class Name index 105
+104: Tag 12 NameAndType Name index 106, Description index 107
+105: Tag 1 Utf8 Value "java/util/List"
+106: Tag 1 Utf8 Value "iterator"
+107: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+108: Tag 11 InterfaceMethodRef Class index 109, Name and type index 110
+109: Tag 7 Class Name index 111
+110: Tag 12 NameAndType Name index 112, Description index 113
+111: Tag 1 Utf8 Value "java/util/Iterator"
+112: Tag 1 Utf8 Value "hasNext"
+113: Tag 1 Utf8 Value "()Z"
+114: Tag 11 InterfaceMethodRef Class index 109, Name and type index 115
+115: Tag 12 NameAndType Name index 116, Description index 117
+116: Tag 1 Utf8 Value "next"
+117: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+118: Tag 7 Class Name index 119
+119: Tag 1 Utf8 Value "org/jboss/metadata/javaee/spec/ParamValueMetaData"
+120: Tag 8 String Contents 121
+121: Tag 1 Utf8 Value "smallrye.opentracing.serviceName"
+122: Tag 10 MethodRef Class index 118, Name and type index 123
+123: Tag 12 NameAndType Name index 124, Description index 76
+124: Tag 1 Utf8 Value "getParamName"
+125: Tag 10 MethodRef Class index 126, Name and type index 127
+126: Tag 7 Class Name index 128
+127: Tag 12 NameAndType Name index 129, Description index 130
+128: Tag 1 Utf8 Value "java/lang/String"
+129: Tag 1 Utf8 Value "equals"
+130: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+131: Tag 10 MethodRef Class index 118, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 76
+133: Tag 1 Utf8 Value "getParamValue"
+134: Tag 8 String Contents 135
+135: Tag 1 Utf8 Value "JAEGER_SERVICE_NAME"
+136: Tag 10 MethodRef Class index 137, Name and type index 138
+137: Tag 7 Class Name index 139
+138: Tag 12 NameAndType Name index 140, Description index 80
+139: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+140: Tag 1 Utf8 Value "getPropertyPrivileged"
+141: Tag 10 MethodRef Class index 126, Name and type index 142
+142: Tag 12 NameAndType Name index 143, Description index 113
+143: Tag 1 Utf8 Value "isEmpty"
+144: Tag 10 MethodRef Class index 137, Name and type index 145
+145: Tag 12 NameAndType Name index 146, Description index 80
+146: Tag 1 Utf8 Value "getEnvPropertyPrivileged"
+147: Tag 11 InterfaceMethodRef Class index 47, Name and type index 148
+148: Tag 12 NameAndType Name index 149, Description index 27
+149: Tag 1 Utf8 Value "getParent"
+150: Tag 7 Class Name index 151
+151: Tag 1 Utf8 Value "java/lang/StringBuilder"
+152: Tag 10 MethodRef Class index 150, Name and type index 9
+153: Tag 11 InterfaceMethodRef Class index 47, Name and type index 154
+154: Tag 12 NameAndType Name index 155, Description index 156
+155: Tag 1 Utf8 Value "getServiceName"
+156: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+157: Tag 10 MethodRef Class index 158, Name and type index 159
+158: Tag 7 Class Name index 160
+159: Tag 12 NameAndType Name index 161, Description index 76
+160: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+161: Tag 1 Utf8 Value "getSimpleName"
+162: Tag 10 MethodRef Class index 150, Name and type index 163
+163: Tag 12 NameAndType Name index 164, Description index 165
+164: Tag 1 Utf8 Value "append"
+165: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+166: Tag 8 String Contents 167
+167: Tag 1 Utf8 Value "!"
+168: Tag 10 MethodRef Class index 150, Name and type index 169
+169: Tag 12 NameAndType Name index 170, Description index 76
+170: Tag 1 Utf8 Value "toString"
+171: Tag 11 InterfaceMethodRef Class index 14, Name and type index 172
+172: Tag 12 NameAndType Name index 173, Description index 83
+173: Tag 1 Utf8 Value "serviceNameDerivedFromDeploymentUnit"
+174: Tag 9 FieldRef Class index 175, Name and type index 176
+175: Tag 7 Class Name index 177
+176: Tag 12 NameAndType Name index 178, Description index 45
+177: Tag 1 Utf8 Value "org/jboss/as/web/common/WarMetaData"
+178: Tag 1 Utf8 Value "ATTACHMENT_KEY"
+179: Tag 10 MethodRef Class index 175, Name and type index 180
+180: Tag 12 NameAndType Name index 181, Description index 182
+181: Tag 1 Utf8 Value "getMergedJBossWebMetaData"
+182: Tag 1 Utf8 Value "()Lorg/jboss/metadata/web/jboss/JBossWebMetaData;"
+183: Tag 8 String Contents 184
+184: Tag 1 Utf8 Value "mp.opentracing.extensions.tracer.configuration"
+185: Tag 9 FieldRef Class index 3, Name and type index 186
+186: Tag 12 NameAndType Name index 187, Description index 188
+187: Tag 1 Utf8 Value "TRACER_CAPABILITY"
+188: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/RuntimeCapability;"
+189: Tag 10 MethodRef Class index 190, Name and type index 191
+190: Tag 7 Class Name index 192
+191: Tag 12 NameAndType Name index 193, Description index 194
+192: Tag 1 Utf8 Value "org/jboss/as/controller/capability/RuntimeCapability"
+193: Tag 1 Utf8 Value "getDynamicName"
+194: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/String;"
+195: Tag 8 String Contents 196
+196: Tag 1 Utf8 Value "org.wildfly.microprofile.opentracing.default-tracer"
+197: Tag 11 InterfaceMethodRef Class index 52, Name and type index 198
+198: Tag 12 NameAndType Name index 199, Description index 200
+199: Tag 1 Utf8 Value "hasCapability"
+200: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+201: Tag 10 MethodRef Class index 202, Name and type index 203
+202: Tag 7 Class Name index 204
+203: Tag 12 NameAndType Name index 205, Description index 76
+204: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/WildFlyTracerFactory"
+205: Tag 1 Utf8 Value "getDefaultTracerName"
+206: Tag 10 MethodRef Class index 85, Name and type index 207
+207: Tag 12 NameAndType Name index 208, Description index 209
+208: Tag 1 Utf8 Value "getResteasyProvidersParam"
+209: Tag 1 Utf8 Value "(Lorg/jboss/metadata/web/jboss/JBossWebMetaData;)Lorg/jboss/metadata/javaee/spec/ParamValueMetaData;"
+210: Tag 10 MethodRef Class index 126, Name and type index 211
+211: Tag 12 NameAndType Name index 212, Description index 76
+212: Tag 1 Utf8 Value "trim"
+213: Tag 8 String Contents 214
+214: Tag 1 Utf8 Value ",org.wildfly.microprofile.opentracing.smallrye.TracerDynamicFeature"
+215: Tag 10 MethodRef Class index 118, Name and type index 216
+216: Tag 12 NameAndType Name index 217, Description index 83
+217: Tag 1 Utf8 Value "setParamValue"
+218: Tag 8 String Contents 219
+219: Tag 1 Utf8 Value "org.wildfly.microprofile.opentracing.smallrye.TracerDynamicFeature"
+220: Tag 10 MethodRef Class index 118, Name and type index 9
+221: Tag 8 String Contents 222
+222: Tag 1 Utf8 Value "resteasy.providers"
+223: Tag 10 MethodRef Class index 118, Name and type index 224
+224: Tag 12 NameAndType Name index 225, Description index 83
+225: Tag 1 Utf8 Value "setParamName"
+226: Tag 7 Class Name index 227
+227: Tag 1 Utf8 Value "java/util/ArrayList"
+228: Tag 10 MethodRef Class index 226, Name and type index 9
+229: Tag 10 MethodRef Class index 97, Name and type index 230
+230: Tag 12 NameAndType Name index 231, Description index 232
+231: Tag 1 Utf8 Value "setContextParams"
+232: Tag 1 Utf8 Value "(Ljava/util/List;)V"
+233: Tag 11 InterfaceMethodRef Class index 103, Name and type index 234
+234: Tag 12 NameAndType Name index 235, Description index 130
+235: Tag 1 Utf8 Value "add"
+236: Tag 10 MethodRef Class index 137, Name and type index 237
+237: Tag 12 NameAndType Name index 238, Description index 239
+238: Tag 1 Utf8 Value "getCurrentContextClassLoaderPrivileged"
+239: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+240: Tag 9 FieldRef Class index 41, Name and type index 241
+241: Tag 12 NameAndType Name index 242, Description index 45
+242: Tag 1 Utf8 Value "MODULE"
+243: Tag 7 Class Name index 244
+244: Tag 1 Utf8 Value "org/jboss/modules/Module"
+245: Tag 10 MethodRef Class index 243, Name and type index 246
+246: Tag 12 NameAndType Name index 247, Description index 248
+247: Tag 1 Utf8 Value "getClassLoader"
+248: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleClassLoader;"
+249: Tag 10 MethodRef Class index 137, Name and type index 250
+250: Tag 12 NameAndType Name index 251, Description index 252
+251: Tag 1 Utf8 Value "setCurrentContextClassLoaderPrivileged"
+252: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;"
+253: Tag 8 String Contents 254
+254: Tag 1 Utf8 Value "io.opentracing.util.GlobalTracer"
+255: Tag 10 MethodRef Class index 256, Name and type index 257
+256: Tag 7 Class Name index 258
+257: Tag 12 NameAndType Name index 259, Description index 260
+258: Tag 1 Utf8 Value "org/jboss/modules/ModuleClassLoader"
+259: Tag 1 Utf8 Value "loadClass"
+260: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Class;"
+261: Tag 8 String Contents 262
+262: Tag 1 Utf8 Value "isRegistered"
+263: Tag 7 Class Name index 264
+264: Tag 1 Utf8 Value "java/lang/Class"
+265: Tag 10 MethodRef Class index 263, Name and type index 266
+266: Tag 12 NameAndType Name index 267, Description index 268
+267: Tag 1 Utf8 Value "getMethod"
+268: Tag 1 Utf8 Value "(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+269: Tag 10 MethodRef Class index 270, Name and type index 271
+270: Tag 7 Class Name index 272
+271: Tag 12 NameAndType Name index 273, Description index 274
+272: Tag 1 Utf8 Value "java/lang/reflect/Method"
+273: Tag 1 Utf8 Value "invoke"
+274: Tag 1 Utf8 Value "(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+275: Tag 7 Class Name index 276
+276: Tag 1 Utf8 Value "java/lang/Boolean"
+277: Tag 10 MethodRef Class index 275, Name and type index 278
+278: Tag 12 NameAndType Name index 279, Description index 113
+279: Tag 1 Utf8 Value "booleanValue"
+280: Tag 9 FieldRef Class index 281, Name and type index 282
+281: Tag 7 Class Name index 283
+282: Tag 12 NameAndType Name index 17, Description index 284
+283: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/TracingLogger"
+284: Tag 1 Utf8 Value "Lorg/wildfly/microprofile/opentracing/smallrye/TracingLogger;"
+285: Tag 11 InterfaceMethodRef Class index 281, Name and type index 286
+286: Tag 12 NameAndType Name index 287, Description index 12
+287: Tag 1 Utf8 Value "alreadyRegistered"
+288: Tag 8 String Contents 289
+289: Tag 1 Utf8 Value "get"
+290: Tag 7 Class Name index 291
+291: Tag 1 Utf8 Value "io/opentracing/Tracer"
+292: Tag 8 String Contents 293
+293: Tag 1 Utf8 Value "io.opentracing.contrib.tracerresolver.TracerResolver"
+294: Tag 8 String Contents 295
+295: Tag 1 Utf8 Value "resolveTracer"
+296: Tag 7 Class Name index 297
+297: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+298: Tag 7 Class Name index 299
+299: Tag 1 Utf8 Value "java/lang/NoSuchMethodException"
+300: Tag 7 Class Name index 301
+301: Tag 1 Utf8 Value "java/lang/SecurityException"
+302: Tag 7 Class Name index 303
+303: Tag 1 Utf8 Value "java/lang/IllegalAccessException"
+304: Tag 7 Class Name index 305
+305: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+306: Tag 7 Class Name index 307
+307: Tag 1 Utf8 Value "java/lang/reflect/InvocationTargetException"
+308: Tag 11 InterfaceMethodRef Class index 14, Name and type index 309
+309: Tag 12 NameAndType Name index 310, Description index 311
+310: Tag 1 Utf8 Value "errorResolvingTracer"
+311: Tag 1 Utf8 Value "(Ljava/lang/Exception;)V"
+312: Tag 10 MethodRef Class index 85, Name and type index 313
+313: Tag 12 NameAndType Name index 155, Description index 314
+314: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/String;"
+315: Tag 11 InterfaceMethodRef Class index 281, Name and type index 316
+316: Tag 12 NameAndType Name index 317, Description index 12
+317: Tag 1 Utf8 Value "noServiceName"
+318: Tag 10 MethodRef Class index 319, Name and type index 320
+319: Tag 7 Class Name index 321
+320: Tag 12 NameAndType Name index 322, Description index 323
+321: Tag 1 Utf8 Value "io/opentracing/noop/NoopTracerFactory"
+322: Tag 1 Utf8 Value "create"
+323: Tag 1 Utf8 Value "()Lio/opentracing/noop/NoopTracer;"
+324: Tag 10 MethodRef Class index 85, Name and type index 325
+325: Tag 12 NameAndType Name index 326, Description index 327
+326: Tag 1 Utf8 Value "getTracerConfiguration"
+327: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)Ljava/lang/String;"
+328: Tag 11 InterfaceMethodRef Class index 23, Name and type index 329
+329: Tag 12 NameAndType Name index 330, Description index 331
+330: Tag 1 Utf8 Value "getServiceTarget"
+331: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+332: Tag 10 MethodRef Class index 158, Name and type index 333
+333: Tag 12 NameAndType Name index 334, Description index 335
+334: Tag 1 Utf8 Value "parse"
+335: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+336: Tag 11 InterfaceMethodRef Class index 337, Name and type index 338
+337: Tag 7 Class Name index 339
+338: Tag 12 NameAndType Name index 340, Description index 341
+339: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+340: Tag 1 Utf8 Value "addDependency"
+341: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceTarget;"
+342: Tag 10 MethodRef Class index 202, Name and type index 343
+343: Tag 12 NameAndType Name index 344, Description index 345
+344: Tag 1 Utf8 Value "getTracer"
+345: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lio/opentracing/Tracer;"
+346: Tag 10 MethodRef Class index 347, Name and type index 348
+347: Tag 7 Class Name index 349
+348: Tag 12 NameAndType Name index 350, Description index 351
+349: Tag 1 Utf8 Value "org/wildfly/microprofile/opentracing/smallrye/TracingCDIExtension"
+350: Tag 1 Utf8 Value "registerApplicationTracer"
+351: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;Lio/opentracing/Tracer;)V"
+352: Tag 9 FieldRef Class index 353, Name and type index 176
+353: Tag 7 Class Name index 354
+354: Tag 1 Utf8 Value "org/jboss/as/web/common/ServletContextAttribute"
+355: Tag 10 MethodRef Class index 353, Name and type index 356
+356: Tag 12 NameAndType Name index 11, Description index 357
+357: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Object;)V"
+358: Tag 11 InterfaceMethodRef Class index 47, Name and type index 359
+359: Tag 12 NameAndType Name index 360, Description index 361
+360: Tag 1 Utf8 Value "addToAttachmentList"
+361: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)V"
+362: Tag 8 String Contents 363
+363: Tag 1 Utf8 Value "mp.opentracing.extensions.tracer"
+364: Tag 8 String Contents 365
+365: Tag 1 Utf8 Value "mp.opentracing.extensions.tracer.managed"
+366: Tag 10 MethodRef Class index 275, Name and type index 367
+367: Tag 12 NameAndType Name index 368, Description index 369
+368: Tag 1 Utf8 Value "valueOf"
+369: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+370: Tag 9 FieldRef Class index 85, Name and type index 176
+371: Tag 11 InterfaceMethodRef Class index 47, Name and type index 372
+372: Tag 12 NameAndType Name index 373, Description index 374
+373: Tag 1 Utf8 Value "putAttachment"
+374: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;Ljava/lang/Object;)Ljava/lang/Object;"
+375: Tag 10 MethodRef Class index 8, Name and type index 376
+376: Tag 12 NameAndType Name index 377, Description index 378
+377: Tag 1 Utf8 Value "getClass"
+378: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+379: Tag 10 MethodRef Class index 263, Name and type index 74
+380: Tag 11 InterfaceMethodRef Class index 281, Name and type index 381
+381: Tag 12 NameAndType Name index 382, Description index 83
+382: Tag 1 Utf8 Value "registeringTracer"
+383: Tag 10 MethodRef Class index 85, Name and type index 384
+384: Tag 12 NameAndType Name index 385, Description index 386
+385: Tag 1 Utf8 Value "addJaxRsIntegration"
+386: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+387: Tag 10 MethodRef Class index 8, Name and type index 169
+388: Tag 11 InterfaceMethodRef Class index 281, Name and type index 389
+389: Tag 12 NameAndType Name index 390, Description index 83
+390: Tag 1 Utf8 Value "initializing"
+391: Tag 9 FieldRef Class index 41, Name and type index 392
+392: Tag 12 NameAndType Name index 393, Description index 45
+393: Tag 1 Utf8 Value "DEPLOYMENT_RESOURCE_SUPPORT"
+394: Tag 7 Class Name index 395
+395: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentResourceSupport"
+396: Tag 7 Class Name index 397
+397: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/opentracing/SubsystemExtension"
+398: Tag 8 String Contents 399
+399: Tag 1 Utf8 Value "microprofile-opentracing-smallrye"
+400: Tag 10 MethodRef Class index 394, Name and type index 401
+401: Tag 12 NameAndType Name index 402, Description index 403
+402: Tag 1 Utf8 Value "getDeploymentSubsystemModel"
+403: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+404: Tag 8 String Contents 405
+405: Tag 1 Utf8 Value "tracer-configuration-name"
+406: Tag 10 MethodRef Class index 407, Name and type index 408
+407: Tag 7 Class Name index 409
+408: Tag 12 NameAndType Name index 289, Description index 403
+409: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+410: Tag 8 String Contents 411
+411: Tag 1 Utf8 Value "io.opentracing.Tracer"
+412: Tag 10 MethodRef Class index 407, Name and type index 413
+413: Tag 12 NameAndType Name index 414, Description index 403
+414: Tag 1 Utf8 Value "set"
+415: Tag 8 String Contents 416
+416: Tag 1 Utf8 Value "tracer-configuration"
+417: Tag 10 MethodRef Class index 202, Name and type index 418
+418: Tag 12 NameAndType Name index 419, Description index 420
+419: Tag 1 Utf8 Value "getModel"
+420: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+421: Tag 10 MethodRef Class index 407, Name and type index 422
+422: Tag 12 NameAndType Name index 414, Description index 423
+423: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+424: Tag 10 MethodRef Class index 85, Name and type index 425
+425: Tag 12 NameAndType Name index 426, Description index 427
+426: Tag 1 Utf8 Value "addResteasyProvidersParameter"
+427: Tag 1 Utf8 Value "(Lorg/jboss/metadata/web/jboss/JBossWebMetaData;)V"
+428: Tag 10 MethodRef Class index 97, Name and type index 429
+429: Tag 12 NameAndType Name index 430, Description index 431
+430: Tag 1 Utf8 Value "getFilters"
+431: Tag 1 Utf8 Value "()Lorg/jboss/metadata/web/spec/FiltersMetaData;"
+432: Tag 7 Class Name index 433
+433: Tag 1 Utf8 Value "org/jboss/metadata/web/spec/FiltersMetaData"
+434: Tag 10 MethodRef Class index 432, Name and type index 9
+435: Tag 10 MethodRef Class index 97, Name and type index 436
+436: Tag 12 NameAndType Name index 437, Description index 438
+437: Tag 1 Utf8 Value "setFilters"
+438: Tag 1 Utf8 Value "(Lorg/jboss/metadata/web/spec/FiltersMetaData;)V"
+439: Tag 7 Class Name index 440
+440: Tag 1 Utf8 Value "org/jboss/metadata/web/spec/FilterMetaData"
+441: Tag 10 MethodRef Class index 439, Name and type index 9
+442: Tag 8 String Contents 443
+443: Tag 1 Utf8 Value "io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter"
+444: Tag 10 MethodRef Class index 439, Name and type index 445
+445: Tag 12 NameAndType Name index 446, Description index 83
+446: Tag 1 Utf8 Value "setFilterClass"
+447: Tag 10 MethodRef Class index 439, Name and type index 448
+448: Tag 12 NameAndType Name index 449, Description index 450
+449: Tag 1 Utf8 Value "setAsyncSupported"
+450: Tag 1 Utf8 Value "(Z)V"
+451: Tag 10 MethodRef Class index 439, Name and type index 452
+452: Tag 12 NameAndType Name index 453, Description index 83
+453: Tag 1 Utf8 Value "setFilterName"
+454: Tag 10 MethodRef Class index 432, Name and type index 455
+455: Tag 12 NameAndType Name index 235, Description index 456
+456: Tag 1 Utf8 Value "(Lorg/jboss/metadata/javaee/support/MappableMetaData;)Z"
+457: Tag 7 Class Name index 458
+458: Tag 1 Utf8 Value "org/jboss/metadata/web/spec/FilterMappingMetaData"
+459: Tag 10 MethodRef Class index 457, Name and type index 9
+460: Tag 10 MethodRef Class index 457, Name and type index 452
+461: Tag 9 FieldRef Class index 462, Name and type index 463
+462: Tag 7 Class Name index 464
+463: Tag 12 NameAndType Name index 465, Description index 466
+464: Tag 1 Utf8 Value "org/jboss/metadata/web/spec/DispatcherType"
+465: Tag 1 Utf8 Value "REQUEST"
+466: Tag 1 Utf8 Value "Lorg/jboss/metadata/web/spec/DispatcherType;"
+467: Tag 10 MethodRef Class index 468, Name and type index 469
+468: Tag 7 Class Name index 470
+469: Tag 12 NameAndType Name index 471, Description index 472
+470: Tag 1 Utf8 Value "java/util/Collections"
+471: Tag 1 Utf8 Value "singletonList"
+472: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/List;"
+473: Tag 10 MethodRef Class index 457, Name and type index 474
+474: Tag 12 NameAndType Name index 475, Description index 232
+475: Tag 1 Utf8 Value "setDispatchers"
+476: Tag 8 String Contents 477
+477: Tag 1 Utf8 Value "*"
+478: Tag 10 MethodRef Class index 457, Name and type index 479
+479: Tag 12 NameAndType Name index 480, Description index 232
+480: Tag 1 Utf8 Value "setUrlPatterns"
+481: Tag 10 MethodRef Class index 97, Name and type index 482
+482: Tag 12 NameAndType Name index 483, Description index 101
+483: Tag 1 Utf8 Value "getFilterMappings"
+484: Tag 10 MethodRef Class index 97, Name and type index 485
+485: Tag 12 NameAndType Name index 486, Description index 232
+486: Tag 1 Utf8 Value "setFilterMappings"
+487: Tag 11 InterfaceMethodRef Class index 290, Name and type index 488
+488: Tag 12 NameAndType Name index 489, Description index 12
+489: Tag 1 Utf8 Value "close"
+490: Tag 7 Class Name index 491
+491: Tag 1 Utf8 Value "java/lang/Exception"
+492: Tag 10 MethodRef Class index 490, Name and type index 493
+493: Tag 12 NameAndType Name index 494, Description index 76
+494: Tag 1 Utf8 Value "getMessage"
+495: Tag 11 InterfaceMethodRef Class index 281, Name and type index 496
+496: Tag 12 NameAndType Name index 497, Description index 498
+497: Tag 1 Utf8 Value "error"
+498: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Throwable;)V"
+499: Tag 11 InterfaceMethodRef Class index 47, Name and type index 500
+500: Tag 12 NameAndType Name index 501, Description index 51
+501: Tag 1 Utf8 Value "removeAttachment"
+502: Tag 10 MethodRef Class index 503, Name and type index 504
+503: Tag 7 Class Name index 505
+504: Tag 12 NameAndType Name index 322, Description index 506
+505: Tag 1 Utf8 Value "org/jboss/as/server/deployment/AttachmentKey"
+506: Tag 1 Utf8 Value "(Ljava/lang/Class;)Lorg/jboss/as/server/deployment/AttachmentKey;"
+507: Tag 7 Class Name index 508
+508: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+509: Tag 1 Utf8 Value "Signature"
+510: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey<Lio/opentracing/Tracer;>;"
+511: Tag 1 Utf8 Value "Code"
+512: Tag 1 Utf8 Value "LineNumberTable"
+513: Tag 1 Utf8 Value "LocalVariableTable"
+514: Tag 1 Utf8 Value "this"
+515: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/opentracing/TracingDeploymentProcessor;"
+516: Tag 1 Utf8 Value "deploy"
+517: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+518: Tag 1 Utf8 Value "weldCapability"
+519: Tag 1 Utf8 Value "Lorg/jboss/as/weld/WeldCapability;"
+520: Tag 1 Utf8 Value "e"
+521: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport$NoSuchCapabilityException;"
+522: Tag 1 Utf8 Value "deploymentPhaseContext"
+523: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+524: Tag 1 Utf8 Value "deploymentUnit"
+525: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+526: Tag 1 Utf8 Value "support"
+527: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+528: Tag 1 Utf8 Value "StackMapTable"
+529: Tag 1 Utf8 Value "Exceptions"
+530: Tag 1 Utf8 Value "param"
+531: Tag 1 Utf8 Value "Lorg/jboss/metadata/javaee/spec/ParamValueMetaData;"
+532: Tag 1 Utf8 Value "jbossWebMetaData"
+533: Tag 1 Utf8 Value "Lorg/jboss/metadata/web/jboss/JBossWebMetaData;"
+534: Tag 1 Utf8 Value "serviceName"
+535: Tag 1 Utf8 Value "Ljava/lang/String;"
+536: Tag 1 Utf8 Value "warMetaData"
+537: Tag 1 Utf8 Value "Lorg/jboss/as/web/common/WarMetaData;"
+538: Tag 1 Utf8 Value "value"
+539: Tag 1 Utf8 Value "restEasyDynamicFeature"
+540: Tag 1 Utf8 Value "emptyRestEasyDynamicFeature"
+541: Tag 1 Utf8 Value "contextParams"
+542: Tag 1 Utf8 Value "Ljava/util/List;"
+543: Tag 1 Utf8 Value "LocalVariableTypeTable"
+544: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/metadata/javaee/spec/ParamValueMetaData;>;"
+545: Tag 1 Utf8 Value "tracerResolverClass"
+546: Tag 1 Utf8 Value "Ljava/lang/Class;"
+547: Tag 1 Utf8 Value "globalTracerClass"
+548: Tag 1 Utf8 Value "Z"
+549: Tag 1 Utf8 Value "ex"
+550: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+551: Tag 1 Utf8 Value "tracer"
+552: Tag 1 Utf8 Value "Lio/opentracing/Tracer;"
+553: Tag 1 Utf8 Value "initialCl"
+554: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+555: Tag 1 Utf8 Value "module"
+556: Tag 1 Utf8 Value "Lorg/jboss/modules/Module;"
+557: Tag 1 Utf8 Value "moduleCL"
+558: Tag 1 Utf8 Value "Lorg/jboss/modules/ModuleClassLoader;"
+559: Tag 1 Utf8 Value "tracerConfigurationName"
+560: Tag 1 Utf8 Value "deploymentResourceSupport"
+561: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentResourceSupport;"
+562: Tag 7 Class Name index 563
+563: Tag 1 Utf8 Value "java/lang/ClassLoader"
+564: Tag 7 Class Name index 565
+565: Tag 1 Utf8 Value "java/lang/Throwable"
+566: Tag 1 Utf8 Value "filter"
+567: Tag 1 Utf8 Value "Lorg/jboss/metadata/web/spec/FilterMetaData;"
+568: Tag 1 Utf8 Value "mapping"
+569: Tag 1 Utf8 Value "Lorg/jboss/metadata/web/spec/FilterMappingMetaData;"
+570: Tag 1 Utf8 Value "undeploy"
+571: Tag 1 Utf8 Value "<clinit>"
+572: Tag 1 Utf8 Value "SourceFile"
+573: Tag 1 Utf8 Value "TracingDeploymentProcessor.java"
+574: Tag 1 Utf8 Value "InnerClasses"
+575: Tag 1 Utf8 Value "NoSuchCapabilityException"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 85, name org.wildfly.extension.microprofile.opentracing.TracingDeploymentProcessor
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 507
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+Field name ATTACHMENT_KEY (index 178), type Lorg/jboss/as/server/deployment/AttachmentKey; (descriptor index 45)
+Human type: org.jboss.as.server.deployment.AttachmentKey
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name Signature, size 2
+
+Method name <init> (index 11), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name deploy (index 516), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 517)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 300
+Method attribute name Exceptions, size 4
+Method name getServiceName (index 155), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)Ljava/lang/String; (descriptor index 314)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 377
+Method name getJBossWebMetaData (index 92), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/metadata/web/jboss/JBossWebMetaData; (descriptor index 93)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): org.jboss.metadata.web.jboss.JBossWebMetaData
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 113
+Method name getTracerConfiguration (index 326), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)Ljava/lang/String; (descriptor index 327)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 331
+Method name addResteasyProvidersParameter (index 426), type (Lorg/jboss/metadata/web/jboss/JBossWebMetaData;)V (descriptor index 427)
+Human type: (org.jboss.metadata.web.jboss.JBossWebMetaData): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 169
+Method name getResteasyProvidersParam (index 208), type (Lorg/jboss/metadata/web/jboss/JBossWebMetaData;)Lorg/jboss/metadata/javaee/spec/ParamValueMetaData; (descriptor index 209)
+Human type: (org.jboss.metadata.web.jboss.JBossWebMetaData): org.jboss.metadata.javaee.spec.ParamValueMetaData
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 273
+Method name injectTracer (index 88), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)V (descriptor index 89)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext, org.jboss.as.controller.capability.CapabilityServiceSupport): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 1105
+Method attribute name Exceptions, size 4
+Method name addJaxRsIntegration (index 385), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 386)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 318
+Method name undeploy (index 570), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 386)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 188
+Method name <clinit> (index 571), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 34
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

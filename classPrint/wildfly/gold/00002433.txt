@@ -1,0 +1,148 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 73
+1: Tag 10 MethodRef Class index 13, Name and type index 55
+2: Tag 9 FieldRef Class index 8, Name and type index 56
+3: Tag 9 FieldRef Class index 8, Name and type index 57
+4: Tag 9 FieldRef Class index 8, Name and type index 58
+5: Tag 9 FieldRef Class index 8, Name and type index 59
+6: Tag 9 FieldRef Class index 8, Name and type index 60
+7: Tag 9 FieldRef Class index 8, Name and type index 61
+8: Tag 7 Class Name index 62
+9: Tag 8 String Contents 63
+10: Tag 10 MethodRef Class index 64, Name and type index 65
+11: Tag 7 Class Name index 66
+12: Tag 7 Class Name index 67
+13: Tag 7 Class Name index 68
+14: Tag 1 Utf8 Value "authenticationMgr"
+15: Tag 1 Utf8 Value "Lorg/jboss/security/AuthenticationManager;"
+16: Tag 1 Utf8 Value "authorizationMgr"
+17: Tag 1 Utf8 Value "Lorg/jboss/security/AuthorizationManager;"
+18: Tag 1 Utf8 Value "auditMgr"
+19: Tag 1 Utf8 Value "Lorg/jboss/security/audit/AuditManager;"
+20: Tag 1 Utf8 Value "mappingMgr"
+21: Tag 1 Utf8 Value "Lorg/jboss/security/mapping/MappingManager;"
+22: Tag 1 Utf8 Value "identityTrustMgr"
+23: Tag 1 Utf8 Value "Lorg/jboss/security/identitytrust/IdentityTrustManager;"
+24: Tag 1 Utf8 Value "jsseSecurityDomain"
+25: Tag 1 Utf8 Value "Lorg/jboss/security/JSSESecurityDomain;"
+26: Tag 1 Utf8 Value "SUBJECT_CONTEXT_KEY"
+27: Tag 1 Utf8 Value "Ljava/lang/String;"
+28: Tag 1 Utf8 Value "ConstantValue"
+29: Tag 1 Utf8 Value "<init>"
+30: Tag 1 Utf8 Value "(Lorg/jboss/security/AuthenticationManager;Lorg/jboss/security/AuthorizationManager;Lorg/jboss/security/audit/AuditManager;Lorg/jboss/security/identitytrust/IdentityTrustManager;Lorg/jboss/security/mapping/MappingManager;Lorg/jboss/security/JSSESecurityDomain;)V"
+31: Tag 1 Utf8 Value "Code"
+32: Tag 1 Utf8 Value "LineNumberTable"
+33: Tag 1 Utf8 Value "LocalVariableTable"
+34: Tag 1 Utf8 Value "this"
+35: Tag 1 Utf8 Value "Lorg/jboss/as/security/plugins/SecurityDomainContext;"
+36: Tag 1 Utf8 Value "getSubject"
+37: Tag 1 Utf8 Value "()Ljavax/security/auth/Subject;"
+38: Tag 1 Utf8 Value "subject"
+39: Tag 1 Utf8 Value "Ljavax/security/auth/Subject;"
+40: Tag 1 Utf8 Value "StackMapTable"
+41: Tag 1 Utf8 Value "getAuthenticationManager"
+42: Tag 1 Utf8 Value "()Lorg/jboss/security/AuthenticationManager;"
+43: Tag 1 Utf8 Value "getAuthorizationManager"
+44: Tag 1 Utf8 Value "()Lorg/jboss/security/AuthorizationManager;"
+45: Tag 1 Utf8 Value "getAuditManager"
+46: Tag 1 Utf8 Value "()Lorg/jboss/security/audit/AuditManager;"
+47: Tag 1 Utf8 Value "getMappingManager"
+48: Tag 1 Utf8 Value "()Lorg/jboss/security/mapping/MappingManager;"
+49: Tag 1 Utf8 Value "getIdentityTrustManager"
+50: Tag 1 Utf8 Value "()Lorg/jboss/security/identitytrust/IdentityTrustManager;"
+51: Tag 1 Utf8 Value "getJSSE"
+52: Tag 1 Utf8 Value "()Lorg/jboss/security/JSSESecurityDomain;"
+53: Tag 1 Utf8 Value "SourceFile"
+54: Tag 1 Utf8 Value "SecurityDomainContext.java"
+55: Tag 12 NameAndType Name index 29, Description index 69
+56: Tag 12 NameAndType Name index 14, Description index 15
+57: Tag 12 NameAndType Name index 16, Description index 17
+58: Tag 12 NameAndType Name index 18, Description index 19
+59: Tag 12 NameAndType Name index 20, Description index 21
+60: Tag 12 NameAndType Name index 22, Description index 23
+61: Tag 12 NameAndType Name index 24, Description index 25
+62: Tag 1 Utf8 Value "org/jboss/as/security/plugins/SecurityDomainContext"
+63: Tag 1 Utf8 Value "javax.security.auth.Subject.container"
+64: Tag 7 Class Name index 70
+65: Tag 12 NameAndType Name index 71, Description index 72
+66: Tag 1 Utf8 Value "javax/security/auth/Subject"
+67: Tag 1 Utf8 Value "javax/security/jacc/PolicyContextException"
+68: Tag 1 Utf8 Value "java/lang/Object"
+69: Tag 1 Utf8 Value "()V"
+70: Tag 1 Utf8 Value "javax/security/jacc/PolicyContext"
+71: Tag 1 Utf8 Value "getContext"
+72: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+
+Flags: decimal 49, hex 0031, binary 0000000000110001 public final super
+
+This class: id 8, name org.jboss.as.security.plugins.SecurityDomainContext
+
+Super class: id 13, name java.lang.Object
+
+No interfaces
+
+Field name authenticationMgr (index 14), type Lorg/jboss/security/AuthenticationManager; (descriptor index 15)
+Human type: org.jboss.security.AuthenticationManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name authorizationMgr (index 16), type Lorg/jboss/security/AuthorizationManager; (descriptor index 17)
+Human type: org.jboss.security.AuthorizationManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name auditMgr (index 18), type Lorg/jboss/security/audit/AuditManager; (descriptor index 19)
+Human type: org.jboss.security.audit.AuditManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name mappingMgr (index 20), type Lorg/jboss/security/mapping/MappingManager; (descriptor index 21)
+Human type: org.jboss.security.mapping.MappingManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name identityTrustMgr (index 22), type Lorg/jboss/security/identitytrust/IdentityTrustManager; (descriptor index 23)
+Human type: org.jboss.security.identitytrust.IdentityTrustManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name jsseSecurityDomain (index 24), type Lorg/jboss/security/JSSESecurityDomain; (descriptor index 25)
+Human type: org.jboss.security.JSSESecurityDomain
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name SUBJECT_CONTEXT_KEY (index 26), type Ljava/lang/String; (descriptor index 27)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 29), type (Lorg/jboss/security/AuthenticationManager;Lorg/jboss/security/AuthorizationManager;Lorg/jboss/security/audit/AuditManager;Lorg/jboss/security/identitytrust/IdentityTrustManager;Lorg/jboss/security/mapping/MappingManager;Lorg/jboss/security/JSSESecurityDomain;)V (descriptor index 30)
+Human type: (org.jboss.security.AuthenticationManager, org.jboss.security.AuthorizationManager, org.jboss.security.audit.AuditManager, org.jboss.security.identitytrust.IdentityTrustManager, org.jboss.security.mapping.MappingManager, org.jboss.security.JSSESecurityDomain): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 168
+Method name getSubject (index 36), type ()Ljavax/security/auth/Subject; (descriptor index 37)
+Human type: (): javax.security.auth.Subject
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 118
+Method name getAuthenticationManager (index 41), type ()Lorg/jboss/security/AuthenticationManager; (descriptor index 42)
+Human type: (): org.jboss.security.AuthenticationManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getAuthorizationManager (index 43), type ()Lorg/jboss/security/AuthorizationManager; (descriptor index 44)
+Human type: (): org.jboss.security.AuthorizationManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getAuditManager (index 45), type ()Lorg/jboss/security/audit/AuditManager; (descriptor index 46)
+Human type: (): org.jboss.security.audit.AuditManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getMappingManager (index 47), type ()Lorg/jboss/security/mapping/MappingManager; (descriptor index 48)
+Human type: (): org.jboss.security.mapping.MappingManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getIdentityTrustManager (index 49), type ()Lorg/jboss/security/identitytrust/IdentityTrustManager; (descriptor index 50)
+Human type: (): org.jboss.security.identitytrust.IdentityTrustManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getJSSE (index 51), type ()Lorg/jboss/security/JSSESecurityDomain; (descriptor index 52)
+Human type: (): org.jboss.security.JSSESecurityDomain
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+
+Class attribute name SourceFile, size 2

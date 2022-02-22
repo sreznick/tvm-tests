@@ -1,0 +1,143 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 88
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/time/Period"
+11: Tag 1 Utf8 Value "getYears"
+12: Tag 1 Utf8 Value "()I"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/io/ObjectOutput"
+17: Tag 1 Utf8 Value "writeInt"
+18: Tag 1 Utf8 Value "(I)V"
+19: Tag 10 MethodRef Class index 8, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 12
+21: Tag 1 Utf8 Value "getMonths"
+22: Tag 10 MethodRef Class index 8, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 12
+24: Tag 1 Utf8 Value "getDays"
+25: Tag 11 InterfaceMethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 12
+28: Tag 1 Utf8 Value "java/io/ObjectInput"
+29: Tag 1 Utf8 Value "readInt"
+30: Tag 10 MethodRef Class index 8, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "of"
+33: Tag 1 Utf8 Value "(III)Ljava/time/Period;"
+34: Tag 7 Class Name index 35
+35: Tag 1 Utf8 Value "java/lang/Integer"
+36: Tag 10 MethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 32, Description index 40
+39: Tag 1 Utf8 Value "java/util/OptionalInt"
+40: Tag 1 Utf8 Value "(I)Ljava/util/OptionalInt;"
+41: Tag 10 MethodRef Class index 42, Name and type index 43
+42: Tag 7 Class Name index 44
+43: Tag 12 NameAndType Name index 45, Description index 46
+44: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/spi/time/PeriodExternalizer"
+45: Tag 1 Utf8 Value "size"
+46: Tag 1 Utf8 Value "(Ljava/time/Period;)Ljava/util/OptionalInt;"
+47: Tag 10 MethodRef Class index 42, Name and type index 48
+48: Tag 12 NameAndType Name index 49, Description index 50
+49: Tag 1 Utf8 Value "readObject"
+50: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/time/Period;"
+51: Tag 10 MethodRef Class index 42, Name and type index 52
+52: Tag 12 NameAndType Name index 53, Description index 54
+53: Tag 1 Utf8 Value "writeObject"
+54: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/time/Period;)V"
+55: Tag 7 Class Name index 56
+56: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/Externalizer"
+57: Tag 1 Utf8 Value "Code"
+58: Tag 1 Utf8 Value "LineNumberTable"
+59: Tag 1 Utf8 Value "LocalVariableTable"
+60: Tag 1 Utf8 Value "this"
+61: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/spi/time/PeriodExternalizer;"
+62: Tag 1 Utf8 Value "output"
+63: Tag 1 Utf8 Value "Ljava/io/ObjectOutput;"
+64: Tag 1 Utf8 Value "period"
+65: Tag 1 Utf8 Value "Ljava/time/Period;"
+66: Tag 1 Utf8 Value "Exceptions"
+67: Tag 7 Class Name index 68
+68: Tag 1 Utf8 Value "java/io/IOException"
+69: Tag 1 Utf8 Value "input"
+70: Tag 1 Utf8 Value "Ljava/io/ObjectInput;"
+71: Tag 1 Utf8 Value "years"
+72: Tag 1 Utf8 Value "I"
+73: Tag 1 Utf8 Value "months"
+74: Tag 1 Utf8 Value "days"
+75: Tag 7 Class Name index 76
+76: Tag 1 Utf8 Value "java/lang/ClassNotFoundException"
+77: Tag 1 Utf8 Value "getTargetClass"
+78: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+79: Tag 1 Utf8 Value "Signature"
+80: Tag 1 Utf8 Value "()Ljava/lang/Class<Ljava/time/Period;>;"
+81: Tag 1 Utf8 Value "object"
+82: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/OptionalInt;"
+83: Tag 1 Utf8 Value "(Ljava/io/ObjectInput;)Ljava/lang/Object;"
+84: Tag 1 Utf8 Value "(Ljava/io/ObjectOutput;Ljava/lang/Object;)V"
+85: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/Externalizer<Ljava/time/Period;>;"
+86: Tag 1 Utf8 Value "SourceFile"
+87: Tag 1 Utf8 Value "PeriodExternalizer.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 42, name org.wildfly.clustering.marshalling.spi.time.PeriodExternalizer
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 55
+Implements names org.wildfly.clustering.marshalling.Externalizer
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name writeObject (index 53), type (Ljava/io/ObjectOutput;Ljava/time/Period;)V (descriptor index 54)
+Human type: (java.io.ObjectOutput, java.time.Period): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 105
+Method attribute name Exceptions, size 4
+Method name readObject (index 49), type (Ljava/io/ObjectInput;)Ljava/time/Period; (descriptor index 50)
+Human type: (java.io.ObjectInput): java.time.Period
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 124
+Method attribute name Exceptions, size 6
+Method name getTargetClass (index 77), type ()Ljava/lang/Class; (descriptor index 78)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method attribute name Signature, size 2
+Method name size (index 45), type (Ljava/time/Period;)Ljava/util/OptionalInt; (descriptor index 46)
+Human type: (java.time.Period): java.util.OptionalInt
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 58
+Method name size (index 45), type (Ljava/lang/Object;)Ljava/util/OptionalInt; (descriptor index 82)
+Human type: (java.lang.Object): java.util.OptionalInt
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+Method name readObject (index 49), type (Ljava/io/ObjectInput;)Ljava/lang/Object; (descriptor index 83)
+Human type: (java.io.ObjectInput): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method attribute name Exceptions, size 6
+Method name writeObject (index 53), type (Ljava/io/ObjectOutput;Ljava/lang/Object;)V (descriptor index 84)
+Human type: (java.io.ObjectOutput, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

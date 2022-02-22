@@ -1,0 +1,215 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 159
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/clustering/service/SimpleServiceNameProvider"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/clustering/server/registry/RegistryServiceConfigurator"
+11: Tag 1 Utf8 Value "containerName"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 9 FieldRef Class index 8, Name and type index 14
+14: Tag 12 NameAndType Name index 15, Description index 12
+15: Tag 1 Utf8 Value "cacheName"
+16: Tag 9 FieldRef Class index 8, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "factory"
+19: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency;"
+20: Tag 11 InterfaceMethodRef Class index 21, Name and type index 22
+21: Tag 7 Class Name index 23
+22: Tag 12 NameAndType Name index 24, Description index 25
+23: Tag 1 Utf8 Value "org/wildfly/clustering/service/SupplierDependency"
+24: Tag 1 Utf8 Value "get"
+25: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+26: Tag 7 Class Name index 27
+27: Tag 1 Utf8 Value "org/wildfly/clustering/registry/RegistryFactory"
+28: Tag 9 FieldRef Class index 8, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 19
+30: Tag 1 Utf8 Value "entry"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "java/util/Map$Entry"
+33: Tag 11 InterfaceMethodRef Class index 26, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "createRegistry"
+36: Tag 1 Utf8 Value "(Ljava/util/Map$Entry;)Lorg/wildfly/clustering/registry/Registry;"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceSupplierDependency"
+39: Tag 9 FieldRef Class index 40, Name and type index 41
+40: Tag 7 Class Name index 42
+41: Tag 12 NameAndType Name index 43, Description index 44
+42: Tag 1 Utf8 Value "org/wildfly/clustering/spi/ClusteringCacheRequirement"
+43: Tag 1 Utf8 Value "REGISTRY_FACTORY"
+44: Tag 1 Utf8 Value "Lorg/wildfly/clustering/spi/ClusteringCacheRequirement;"
+45: Tag 10 MethodRef Class index 40, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "getServiceName"
+48: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/CapabilityServiceSupport;Ljava/lang/String;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+49: Tag 10 MethodRef Class index 37, Name and type index 3
+50: Tag 9 FieldRef Class index 40, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 44
+52: Tag 1 Utf8 Value "REGISTRY_ENTRY"
+53: Tag 7 Class Name index 54
+54: Tag 1 Utf8 Value "org/wildfly/clustering/service/AsyncServiceConfigurator"
+55: Tag 10 MethodRef Class index 8, Name and type index 56
+56: Tag 12 NameAndType Name index 47, Description index 57
+57: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+58: Tag 10 MethodRef Class index 53, Name and type index 3
+59: Tag 10 MethodRef Class index 53, Name and type index 60
+60: Tag 12 NameAndType Name index 61, Description index 62
+61: Tag 1 Utf8 Value "build"
+62: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+63: Tag 7 Class Name index 64
+64: Tag 1 Utf8 Value "org/wildfly/clustering/service/CompositeDependency"
+65: Tag 7 Class Name index 66
+66: Tag 1 Utf8 Value "org/wildfly/clustering/service/Dependency"
+67: Tag 10 MethodRef Class index 63, Name and type index 68
+68: Tag 12 NameAndType Name index 5, Description index 69
+69: Tag 1 Utf8 Value "([Lorg/wildfly/clustering/service/Dependency;)V"
+70: Tag 10 MethodRef Class index 63, Name and type index 71
+71: Tag 12 NameAndType Name index 72, Description index 73
+72: Tag 1 Utf8 Value "register"
+73: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder;"
+74: Tag 7 Class Name index 75
+75: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+76: Tag 11 InterfaceMethodRef Class index 77, Name and type index 78
+77: Tag 7 Class Name index 79
+78: Tag 12 NameAndType Name index 80, Description index 81
+79: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+80: Tag 1 Utf8 Value "provides"
+81: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+82: Tag 7 Class Name index 83
+83: Tag 1 Utf8 Value "org/wildfly/clustering/service/FunctionalService"
+84: Tag 11 InterfaceMethodRef Class index 85, Name and type index 86
+85: Tag 7 Class Name index 87
+86: Tag 12 NameAndType Name index 88, Description index 89
+87: Tag 1 Utf8 Value "java/util/function/Function"
+88: Tag 1 Utf8 Value "identity"
+89: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+90: Tag 10 MethodRef Class index 91, Name and type index 92
+91: Tag 7 Class Name index 93
+92: Tag 12 NameAndType Name index 94, Description index 95
+93: Tag 1 Utf8 Value "org/jboss/as/clustering/function/Consumers"
+94: Tag 1 Utf8 Value "close"
+95: Tag 1 Utf8 Value "()Ljava/util/function/Consumer;"
+96: Tag 10 MethodRef Class index 82, Name and type index 97
+97: Tag 12 NameAndType Name index 5, Description index 98
+98: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;Ljava/util/function/Function;Ljava/util/function/Supplier;Ljava/util/function/Consumer;)V"
+99: Tag 11 InterfaceMethodRef Class index 77, Name and type index 100
+100: Tag 12 NameAndType Name index 101, Description index 102
+101: Tag 1 Utf8 Value "setInstance"
+102: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+103: Tag 9 FieldRef Class index 104, Name and type index 105
+104: Tag 7 Class Name index 106
+105: Tag 12 NameAndType Name index 107, Description index 108
+106: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+107: Tag 1 Utf8 Value "ON_DEMAND"
+108: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+109: Tag 11 InterfaceMethodRef Class index 77, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 112
+111: Tag 1 Utf8 Value "setInitialMode"
+112: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)Lorg/jboss/msc/service/ServiceBuilder;"
+113: Tag 10 MethodRef Class index 8, Name and type index 114
+114: Tag 12 NameAndType Name index 24, Description index 115
+115: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/registry/Registry;"
+116: Tag 7 Class Name index 117
+117: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/CapabilityServiceConfigurator"
+118: Tag 7 Class Name index 119
+119: Tag 1 Utf8 Value "java/util/function/Supplier"
+120: Tag 1 Utf8 Value "Signature"
+121: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency<Lorg/wildfly/clustering/registry/RegistryFactory<TK;TV;>;>;"
+122: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency<Ljava/util/Map$Entry<TK;TV;>;>;"
+123: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Ljava/lang/String;)V"
+124: Tag 1 Utf8 Value "Code"
+125: Tag 1 Utf8 Value "LineNumberTable"
+126: Tag 1 Utf8 Value "LocalVariableTable"
+127: Tag 1 Utf8 Value "this"
+128: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/registry/RegistryServiceConfigurator;"
+129: Tag 1 Utf8 Value "name"
+130: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+131: Tag 1 Utf8 Value "LocalVariableTypeTable"
+132: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/registry/RegistryServiceConfigurator<TK;TV;>;"
+133: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/registry/Registry<TK;TV;>;"
+134: Tag 1 Utf8 Value "configure"
+135: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/wildfly/clustering/service/ServiceConfigurator;"
+136: Tag 1 Utf8 Value "support"
+137: Tag 1 Utf8 Value "Lorg/jboss/as/controller/capability/CapabilityServiceSupport;"
+138: Tag 1 Utf8 Value "target"
+139: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+140: Tag 1 Utf8 Value "builder"
+141: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+142: Tag 1 Utf8 Value "registry"
+143: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+144: Tag 1 Utf8 Value "service"
+145: Tag 1 Utf8 Value "Lorg/jboss/msc/Service;"
+146: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+147: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/wildfly/clustering/registry/Registry<TK;TV;>;>;"
+148: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder<*>;"
+149: Tag 1 Utf8 Value "<K:Ljava/lang/Object;V:Ljava/lang/Object;>Lorg/wildfly/clustering/service/SimpleServiceNameProvider;Lorg/jboss/as/clustering/controller/CapabilityServiceConfigurator;Ljava/util/function/Supplier<Lorg/wildfly/clustering/registry/Registry<TK;TV;>;>;"
+150: Tag 1 Utf8 Value "SourceFile"
+151: Tag 1 Utf8 Value "RegistryServiceConfigurator.java"
+152: Tag 1 Utf8 Value "InnerClasses"
+153: Tag 7 Class Name index 154
+154: Tag 1 Utf8 Value "java/util/Map"
+155: Tag 1 Utf8 Value "Entry"
+156: Tag 7 Class Name index 157
+157: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+158: Tag 1 Utf8 Value "Mode"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.wildfly.clustering.server.registry.RegistryServiceConfigurator
+
+Super class: id 2, name org.wildfly.clustering.service.SimpleServiceNameProvider
+
+Implements class ids 116 118
+Implements names org.jboss.as.clustering.controller.CapabilityServiceConfigurator java.util.function.Supplier
+
+Field name containerName (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name cacheName (index 15), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name factory (index 18), type Lorg/wildfly/clustering/service/SupplierDependency; (descriptor index 19)
+Human type: org.wildfly.clustering.service.SupplierDependency
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+Field name entry (index 30), type Lorg/wildfly/clustering/service/SupplierDependency; (descriptor index 19)
+Human type: org.wildfly.clustering.service.SupplierDependency
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Ljava/lang/String;)V (descriptor index 123)
+Human type: (org.jboss.msc.service.ServiceName, java.lang.String, java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 118
+Method name get (index 24), type ()Lorg/wildfly/clustering/registry/Registry; (descriptor index 115)
+Human type: (): org.wildfly.clustering.registry.Registry
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 90
+Method attribute name Signature, size 2
+Method name configure (index 134), type (Lorg/jboss/as/controller/capability/CapabilityServiceSupport;)Lorg/wildfly/clustering/service/ServiceConfigurator; (descriptor index 135)
+Human type: (org.jboss.as.controller.capability.CapabilityServiceSupport): org.wildfly.clustering.service.ServiceConfigurator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 132
+Method name build (index 61), type (Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 62)
+Human type: (org.jboss.msc.service.ServiceTarget): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 228
+Method attribute name Signature, size 2
+Method name get (index 24), type ()Ljava/lang/Object; (descriptor index 25)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 65
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

@@ -1,0 +1,221 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 118
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/wildfly/clustering/server/logging/ClusteringServerLogger"
+3: Tag 8 String Contents 4
+4: Tag 1 Utf8 Value "org.wildfly.clustering.server"
+5: Tag 10 MethodRef Class index 6, Name and type index 7
+6: Tag 7 Class Name index 8
+7: Tag 12 NameAndType Name index 9, Description index 10
+8: Tag 1 Utf8 Value "org/jboss/logging/Logger"
+9: Tag 1 Utf8 Value "getMessageLogger"
+10: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;"
+11: Tag 9 FieldRef Class index 1, Name and type index 12
+12: Tag 12 NameAndType Name index 13, Description index 14
+13: Tag 1 Utf8 Value "ROOT_LOGGER"
+14: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/logging/ClusteringServerLogger;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/lang/Object"
+17: Tag 7 Class Name index 18
+18: Tag 1 Utf8 Value "org/jboss/logging/BasicLogger"
+19: Tag 1 Utf8 Value "ROOT_LOGGER_CATEGORY"
+20: Tag 1 Utf8 Value "Ljava/lang/String;"
+21: Tag 1 Utf8 Value "ConstantValue"
+22: Tag 1 Utf8 Value "startSingleton"
+23: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+24: Tag 1 Utf8 Value "RuntimeInvisibleAnnotations"
+25: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/LogMessage;"
+26: Tag 1 Utf8 Value "level"
+27: Tag 1 Utf8 Value "Lorg/jboss/logging/Logger$Level;"
+28: Tag 1 Utf8 Value "INFO"
+29: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Message;"
+30: Tag 1 Utf8 Value "id"
+31: Tag 3 Integer Value 1, hex: 0x1
+32: Tag 1 Utf8 Value "value"
+33: Tag 1 Utf8 Value "This node will now operate as the singleton provider of the %s service"
+34: Tag 1 Utf8 Value "stopSingleton"
+35: Tag 3 Integer Value 2, hex: 0x2
+36: Tag 1 Utf8 Value "This node will no longer operate as the singleton provider of the %s service"
+37: Tag 1 Utf8 Value "elected"
+38: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;)V"
+39: Tag 3 Integer Value 3, hex: 0x3
+40: Tag 1 Utf8 Value "%s elected as the singleton provider of the %s service"
+41: Tag 1 Utf8 Value "noResponseFromMaster"
+42: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalStateException;"
+43: Tag 3 Integer Value 4, hex: 0x4
+44: Tag 1 Utf8 Value "No response received from master node of the %s service, retrying..."
+45: Tag 1 Utf8 Value "serviceStartFailed"
+46: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartException;Ljava/lang/String;)V"
+47: Tag 1 Utf8 Value "ERROR"
+48: Tag 3 Integer Value 5, hex: 0x5
+49: Tag 1 Utf8 Value "Failed to start %s service"
+50: Tag 1 Utf8 Value "RuntimeInvisibleParameterAnnotations"
+51: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/Cause;"
+52: Tag 1 Utf8 Value "quorumNotReached"
+53: Tag 1 Utf8 Value "(Ljava/lang/String;I)V"
+54: Tag 1 Utf8 Value "WARN"
+55: Tag 3 Integer Value 6, hex: 0x6
+56: Tag 1 Utf8 Value "Failed to reach quorum of %2$d for %1$s service. No singleton master will be elected."
+57: Tag 1 Utf8 Value "quorumJustReached"
+58: Tag 3 Integer Value 7, hex: 0x7
+59: Tag 1 Utf8 Value "Just reached required quorum of %2$d for %1$s service. If this cluster loses another member, no node will be chosen to provide this service."
+60: Tag 1 Utf8 Value "multiplePrimaryProvidersDetected"
+61: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/Collection;)Ljava/lang/IllegalArgumentException;"
+62: Tag 1 Utf8 Value "Signature"
+63: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/util/Collection<Lorg/wildfly/clustering/group/Node;>;)Ljava/lang/IllegalArgumentException;"
+64: Tag 3 Integer Value 8, hex: 0x8
+65: Tag 1 Utf8 Value "Detected multiple primary providers for %s service: %s"
+66: Tag 1 Utf8 Value "notStarted"
+67: Tag 3 Integer Value 9, hex: 0x9
+68: Tag 1 Utf8 Value "Singleton service %s is not started."
+69: Tag 1 Utf8 Value "registryPurgeFailed"
+70: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Ljava/util/Collection;)V"
+71: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Ljava/util/Collection<*>;)V"
+72: Tag 3 Integer Value 10, hex: 0xa
+73: Tag 1 Utf8 Value "Failed to purge %s/%s registry of old registry entries for: %s"
+74: Tag 1 Utf8 Value "registryListenerFailed"
+75: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Lorg/infinispan/notifications/cachelistener/event/Event$Type;Ljava/util/Map;)V"
+76: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Lorg/infinispan/notifications/cachelistener/event/Event$Type;Ljava/util/Map<**>;)V"
+77: Tag 3 Integer Value 11, hex: 0xb
+78: Tag 1 Utf8 Value "Failed to notify %s/%s registry listener of %s(%s) event"
+79: Tag 1 Utf8 Value "serviceProviderRegistrationListenerFailed"
+80: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V"
+81: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set<Lorg/wildfly/clustering/group/Node;>;)V"
+82: Tag 3 Integer Value 12, hex: 0xc
+83: Tag 1 Utf8 Value "Failed to notify %s/%s service provider registration listener of new providers: %s"
+84: Tag 1 Utf8 Value "noPrimaryElected"
+85: Tag 3 Integer Value 13, hex: 0xd
+86: Tag 1 Utf8 Value "No node was elected as the singleton provider of the %s service"
+87: Tag 1 Utf8 Value "invalidQuorum"
+88: Tag 1 Utf8 Value "(I)Ljava/lang/IllegalArgumentException;"
+89: Tag 3 Integer Value 14, hex: 0xe
+90: Tag 1 Utf8 Value "Specified quorum %d must be greater than zero"
+91: Tag 1 Utf8 Value "failedToRestoreLocalRegistryEntry"
+92: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V"
+93: Tag 3 Integer Value 15, hex: 0xf
+94: Tag 1 Utf8 Value "Failed to restore local %s/%s registry entry following network partititon merge"
+95: Tag 1 Utf8 Value "commandDispatcherAlreadyExists"
+96: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/IllegalArgumentException;"
+97: Tag 3 Integer Value 16, hex: 0x10
+98: Tag 1 Utf8 Value "A command dispatcher already exists for %s"
+99: Tag 1 Utf8 Value "<clinit>"
+100: Tag 1 Utf8 Value "()V"
+101: Tag 1 Utf8 Value "Code"
+102: Tag 1 Utf8 Value "LineNumberTable"
+103: Tag 1 Utf8 Value "SourceFile"
+104: Tag 1 Utf8 Value "ClusteringServerLogger.java"
+105: Tag 1 Utf8 Value "Lorg/jboss/logging/annotations/MessageLogger;"
+106: Tag 1 Utf8 Value "projectCode"
+107: Tag 1 Utf8 Value "WFLYCLSV"
+108: Tag 1 Utf8 Value "length"
+109: Tag 1 Utf8 Value "InnerClasses"
+110: Tag 7 Class Name index 111
+111: Tag 1 Utf8 Value "org/jboss/logging/Logger$Level"
+112: Tag 1 Utf8 Value "Level"
+113: Tag 7 Class Name index 114
+114: Tag 1 Utf8 Value "org/infinispan/notifications/cachelistener/event/Event$Type"
+115: Tag 7 Class Name index 116
+116: Tag 1 Utf8 Value "org/infinispan/notifications/cachelistener/event/Event"
+117: Tag 1 Utf8 Value "Type"
+
+Flags: decimal 1537, hex 0601, binary 0000011000000001 public interface abstract
+
+This class: id 1, name org.wildfly.clustering.server.logging.ClusteringServerLogger
+
+Super class: id 15, name java.lang.Object
+
+Implements class ids 17
+Implements names org.jboss.logging.BasicLogger
+
+Field name ROOT_LOGGER_CATEGORY (index 19), type Ljava/lang/String; (descriptor index 20)
+Human type: java.lang.String
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+Field attribute name ConstantValue, size 2
+Field name ROOT_LOGGER (index 13), type Lorg/wildfly/clustering/server/logging/ClusteringServerLogger; (descriptor index 14)
+Human type: org.wildfly.clustering.server.logging.ClusteringServerLogger
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name startSingleton (index 22), type (Ljava/lang/String;)V (descriptor index 23)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name stopSingleton (index 34), type (Ljava/lang/String;)V (descriptor index 23)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name elected (index 37), type (Ljava/lang/String;Ljava/lang/String;)V (descriptor index 38)
+Human type: (java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name noResponseFromMaster (index 41), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 42)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name serviceStartFailed (index 45), type (Lorg/jboss/msc/service/StartException;Ljava/lang/String;)V (descriptor index 46)
+Human type: (org.jboss.msc.service.StartException, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 9
+Method name quorumNotReached (index 52), type (Ljava/lang/String;I)V (descriptor index 53)
+Human type: (java.lang.String, int): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name quorumJustReached (index 57), type (Ljava/lang/String;I)V (descriptor index 53)
+Human type: (java.lang.String, int): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name multiplePrimaryProvidersDetected (index 60), type (Ljava/lang/String;Ljava/util/Collection;)Ljava/lang/IllegalArgumentException; (descriptor index 61)
+Human type: (java.lang.String, java.util.Collection): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name notStarted (index 66), type (Ljava/lang/String;)Ljava/lang/IllegalStateException; (descriptor index 42)
+Human type: (java.lang.String): java.lang.IllegalStateException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name registryPurgeFailed (index 69), type (Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Ljava/util/Collection;)V (descriptor index 70)
+Human type: (java.lang.Throwable, java.lang.String, java.lang.String, java.util.Collection): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 13
+Method name registryListenerFailed (index 74), type (Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Lorg/infinispan/notifications/cachelistener/event/Event$Type;Ljava/util/Map;)V (descriptor index 75)
+Human type: (java.lang.Throwable, java.lang.String, java.lang.String, org.infinispan.notifications.cachelistener.event.Event$Type, java.util.Map): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 15
+Method name serviceProviderRegistrationListenerFailed (index 79), type (Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V (descriptor index 80)
+Human type: (java.lang.Throwable, java.lang.String, java.lang.String, java.util.Set): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name Signature, size 2
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 13
+Method name noPrimaryElected (index 84), type (Ljava/lang/String;)V (descriptor index 23)
+Human type: (java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method name invalidQuorum (index 87), type (I)Ljava/lang/IllegalArgumentException; (descriptor index 88)
+Human type: (int): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name failedToRestoreLocalRegistryEntry (index 91), type (Ljava/lang/Throwable;Ljava/lang/String;Ljava/lang/String;)V (descriptor index 92)
+Human type: (java.lang.Throwable, java.lang.String, java.lang.String): void
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 27
+Method attribute name RuntimeInvisibleParameterAnnotations, size 11
+Method name commandDispatcherAlreadyExists (index 95), type (Ljava/lang/Object;)Ljava/lang/IllegalArgumentException; (descriptor index 96)
+Human type: (java.lang.Object): java.lang.IllegalArgumentException
+Flags: decimal 1025, hex 0401, binary 0000010000000001 public abstract
+Method attribute name RuntimeInvisibleAnnotations, size 16
+Method name <clinit> (index 99), type ()V (descriptor index 100)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 38
+
+Class attribute name SourceFile, size 2
+Class attribute name RuntimeInvisibleAnnotations, size 16
+Class attribute name InnerClasses, size 18

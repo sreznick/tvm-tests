@@ -1,0 +1,109 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 69
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 9 FieldRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/jboss/as/naming/deployment/NamingLookupValue"
+14: Tag 1 Utf8 Value "contextValue"
+15: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+16: Tag 9 FieldRef Class index 11, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "contextName"
+19: Tag 1 Utf8 Value "Ljava/lang/String;"
+20: Tag 10 MethodRef Class index 7, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 23
+22: Tag 1 Utf8 Value "getValue"
+23: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+24: Tag 7 Class Name index 25
+25: Tag 1 Utf8 Value "javax/naming/Context"
+26: Tag 11 InterfaceMethodRef Class index 24, Name and type index 27
+27: Tag 12 NameAndType Name index 28, Description index 29
+28: Tag 1 Utf8 Value "lookup"
+29: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/Object;"
+30: Tag 7 Class Name index 31
+31: Tag 1 Utf8 Value "javax/naming/NamingException"
+32: Tag 9 FieldRef Class index 33, Name and type index 34
+33: Tag 7 Class Name index 35
+34: Tag 12 NameAndType Name index 36, Description index 37
+35: Tag 1 Utf8 Value "org/jboss/as/naming/logging/NamingLogger"
+36: Tag 1 Utf8 Value "ROOT_LOGGER"
+37: Tag 1 Utf8 Value "Lorg/jboss/as/naming/logging/NamingLogger;"
+38: Tag 11 InterfaceMethodRef Class index 33, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "entryNotRegistered"
+41: Tag 1 Utf8 Value "(Ljava/lang/Throwable;Ljava/lang/String;Ljavax/naming/Context;)Ljava/lang/IllegalStateException;"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "org/jboss/msc/value/Value"
+44: Tag 1 Utf8 Value "Signature"
+45: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Ljavax/naming/Context;>;"
+46: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+47: Tag 1 Utf8 Value "Code"
+48: Tag 1 Utf8 Value "LineNumberTable"
+49: Tag 1 Utf8 Value "LocalVariableTable"
+50: Tag 1 Utf8 Value "this"
+51: Tag 1 Utf8 Value "Lorg/jboss/as/naming/deployment/NamingLookupValue;"
+52: Tag 1 Utf8 Value "LocalVariableTypeTable"
+53: Tag 1 Utf8 Value "Lorg/jboss/as/naming/deployment/NamingLookupValue<TT;>;"
+54: Tag 1 Utf8 Value "e"
+55: Tag 1 Utf8 Value "Ljavax/naming/NamingException;"
+56: Tag 1 Utf8 Value "context"
+57: Tag 1 Utf8 Value "Ljavax/naming/Context;"
+58: Tag 1 Utf8 Value "StackMapTable"
+59: Tag 1 Utf8 Value "Exceptions"
+60: Tag 7 Class Name index 61
+61: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+62: Tag 1 Utf8 Value "()TT;"
+63: Tag 1 Utf8 Value "getContextInjector"
+64: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+65: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Ljavax/naming/Context;>;"
+66: Tag 1 Utf8 Value "<T:Ljava/lang/Object;>Ljava/lang/Object;Lorg/jboss/msc/value/Value<TT;>;"
+67: Tag 1 Utf8 Value "SourceFile"
+68: Tag 1 Utf8 Value "NamingLookupValue.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.jboss.as.naming.deployment.NamingLookupValue
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 42
+Implements names org.jboss.msc.value.Value
+
+Field name contextValue (index 14), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 15)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name contextName (index 18), type Ljava/lang/String; (descriptor index 19)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type (Ljava/lang/String;)V (descriptor index 46)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 103
+Method name getValue (index 22), type ()Ljava/lang/Object; (descriptor index 23)
+Human type: (): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 162
+Method attribute name Exceptions, size 4
+Method attribute name Signature, size 2
+Method name getContextInjector (index 63), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 64)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

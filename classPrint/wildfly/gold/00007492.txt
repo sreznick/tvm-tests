@@ -1,0 +1,376 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 183
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/deployment/injection/JMSContextWrapper"
+11: Tag 1 Utf8 Value "getDelegate"
+12: Tag 1 Utf8 Value "()Ljavax/jms/JMSContext;"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "javax/jms/JMSContext"
+17: Tag 1 Utf8 Value "createContext"
+18: Tag 1 Utf8 Value "(I)Ljavax/jms/JMSContext;"
+19: Tag 11 InterfaceMethodRef Class index 14, Name and type index 20
+20: Tag 12 NameAndType Name index 21, Description index 22
+21: Tag 1 Utf8 Value "createProducer"
+22: Tag 1 Utf8 Value "()Ljavax/jms/JMSProducer;"
+23: Tag 11 InterfaceMethodRef Class index 14, Name and type index 24
+24: Tag 12 NameAndType Name index 25, Description index 26
+25: Tag 1 Utf8 Value "getClientID"
+26: Tag 1 Utf8 Value "()Ljava/lang/String;"
+27: Tag 9 FieldRef Class index 28, Name and type index 29
+28: Tag 7 Class Name index 30
+29: Tag 12 NameAndType Name index 31, Description index 32
+30: Tag 1 Utf8 Value "org/wildfly/extension/messaging/activemq/logging/MessagingLogger"
+31: Tag 1 Utf8 Value "ROOT_LOGGER"
+32: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/logging/MessagingLogger;"
+33: Tag 11 InterfaceMethodRef Class index 28, Name and type index 34
+34: Tag 12 NameAndType Name index 35, Description index 36
+35: Tag 1 Utf8 Value "callNotPermittedOnInjectedJMSContext"
+36: Tag 1 Utf8 Value "()Ljavax/jms/IllegalStateRuntimeException;"
+37: Tag 11 InterfaceMethodRef Class index 14, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "getMetaData"
+40: Tag 1 Utf8 Value "()Ljavax/jms/ConnectionMetaData;"
+41: Tag 11 InterfaceMethodRef Class index 14, Name and type index 42
+42: Tag 12 NameAndType Name index 43, Description index 44
+43: Tag 1 Utf8 Value "getExceptionListener"
+44: Tag 1 Utf8 Value "()Ljavax/jms/ExceptionListener;"
+45: Tag 11 InterfaceMethodRef Class index 14, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "getAutoStart"
+48: Tag 1 Utf8 Value "()Z"
+49: Tag 11 InterfaceMethodRef Class index 14, Name and type index 50
+50: Tag 12 NameAndType Name index 51, Description index 52
+51: Tag 1 Utf8 Value "createBytesMessage"
+52: Tag 1 Utf8 Value "()Ljavax/jms/BytesMessage;"
+53: Tag 11 InterfaceMethodRef Class index 14, Name and type index 54
+54: Tag 12 NameAndType Name index 55, Description index 56
+55: Tag 1 Utf8 Value "createMapMessage"
+56: Tag 1 Utf8 Value "()Ljavax/jms/MapMessage;"
+57: Tag 11 InterfaceMethodRef Class index 14, Name and type index 58
+58: Tag 12 NameAndType Name index 59, Description index 60
+59: Tag 1 Utf8 Value "createMessage"
+60: Tag 1 Utf8 Value "()Ljavax/jms/Message;"
+61: Tag 11 InterfaceMethodRef Class index 14, Name and type index 62
+62: Tag 12 NameAndType Name index 63, Description index 64
+63: Tag 1 Utf8 Value "createObjectMessage"
+64: Tag 1 Utf8 Value "()Ljavax/jms/ObjectMessage;"
+65: Tag 11 InterfaceMethodRef Class index 14, Name and type index 66
+66: Tag 12 NameAndType Name index 63, Description index 67
+67: Tag 1 Utf8 Value "(Ljava/io/Serializable;)Ljavax/jms/ObjectMessage;"
+68: Tag 11 InterfaceMethodRef Class index 14, Name and type index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "createStreamMessage"
+71: Tag 1 Utf8 Value "()Ljavax/jms/StreamMessage;"
+72: Tag 11 InterfaceMethodRef Class index 14, Name and type index 73
+73: Tag 12 NameAndType Name index 74, Description index 75
+74: Tag 1 Utf8 Value "createTextMessage"
+75: Tag 1 Utf8 Value "()Ljavax/jms/TextMessage;"
+76: Tag 11 InterfaceMethodRef Class index 14, Name and type index 77
+77: Tag 12 NameAndType Name index 74, Description index 78
+78: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/jms/TextMessage;"
+79: Tag 11 InterfaceMethodRef Class index 14, Name and type index 80
+80: Tag 12 NameAndType Name index 81, Description index 48
+81: Tag 1 Utf8 Value "getTransacted"
+82: Tag 11 InterfaceMethodRef Class index 14, Name and type index 83
+83: Tag 12 NameAndType Name index 84, Description index 85
+84: Tag 1 Utf8 Value "getSessionMode"
+85: Tag 1 Utf8 Value "()I"
+86: Tag 11 InterfaceMethodRef Class index 14, Name and type index 87
+87: Tag 12 NameAndType Name index 88, Description index 89
+88: Tag 1 Utf8 Value "createConsumer"
+89: Tag 1 Utf8 Value "(Ljavax/jms/Destination;)Ljavax/jms/JMSConsumer;"
+90: Tag 11 InterfaceMethodRef Class index 14, Name and type index 91
+91: Tag 12 NameAndType Name index 88, Description index 92
+92: Tag 1 Utf8 Value "(Ljavax/jms/Destination;Ljava/lang/String;)Ljavax/jms/JMSConsumer;"
+93: Tag 11 InterfaceMethodRef Class index 14, Name and type index 94
+94: Tag 12 NameAndType Name index 88, Description index 95
+95: Tag 1 Utf8 Value "(Ljavax/jms/Destination;Ljava/lang/String;Z)Ljavax/jms/JMSConsumer;"
+96: Tag 11 InterfaceMethodRef Class index 14, Name and type index 97
+97: Tag 12 NameAndType Name index 98, Description index 99
+98: Tag 1 Utf8 Value "createQueue"
+99: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/jms/Queue;"
+100: Tag 11 InterfaceMethodRef Class index 14, Name and type index 101
+101: Tag 12 NameAndType Name index 102, Description index 103
+102: Tag 1 Utf8 Value "createTopic"
+103: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljavax/jms/Topic;"
+104: Tag 11 InterfaceMethodRef Class index 14, Name and type index 105
+105: Tag 12 NameAndType Name index 106, Description index 107
+106: Tag 1 Utf8 Value "createDurableConsumer"
+107: Tag 1 Utf8 Value "(Ljavax/jms/Topic;Ljava/lang/String;)Ljavax/jms/JMSConsumer;"
+108: Tag 11 InterfaceMethodRef Class index 14, Name and type index 109
+109: Tag 12 NameAndType Name index 106, Description index 110
+110: Tag 1 Utf8 Value "(Ljavax/jms/Topic;Ljava/lang/String;Ljava/lang/String;Z)Ljavax/jms/JMSConsumer;"
+111: Tag 11 InterfaceMethodRef Class index 14, Name and type index 112
+112: Tag 12 NameAndType Name index 113, Description index 107
+113: Tag 1 Utf8 Value "createSharedDurableConsumer"
+114: Tag 11 InterfaceMethodRef Class index 14, Name and type index 115
+115: Tag 12 NameAndType Name index 113, Description index 116
+116: Tag 1 Utf8 Value "(Ljavax/jms/Topic;Ljava/lang/String;Ljava/lang/String;)Ljavax/jms/JMSConsumer;"
+117: Tag 11 InterfaceMethodRef Class index 14, Name and type index 118
+118: Tag 12 NameAndType Name index 119, Description index 107
+119: Tag 1 Utf8 Value "createSharedConsumer"
+120: Tag 11 InterfaceMethodRef Class index 14, Name and type index 121
+121: Tag 12 NameAndType Name index 119, Description index 116
+122: Tag 11 InterfaceMethodRef Class index 14, Name and type index 123
+123: Tag 12 NameAndType Name index 124, Description index 125
+124: Tag 1 Utf8 Value "createBrowser"
+125: Tag 1 Utf8 Value "(Ljavax/jms/Queue;)Ljavax/jms/QueueBrowser;"
+126: Tag 11 InterfaceMethodRef Class index 14, Name and type index 127
+127: Tag 12 NameAndType Name index 124, Description index 128
+128: Tag 1 Utf8 Value "(Ljavax/jms/Queue;Ljava/lang/String;)Ljavax/jms/QueueBrowser;"
+129: Tag 11 InterfaceMethodRef Class index 14, Name and type index 130
+130: Tag 12 NameAndType Name index 131, Description index 132
+131: Tag 1 Utf8 Value "createTemporaryQueue"
+132: Tag 1 Utf8 Value "()Ljavax/jms/TemporaryQueue;"
+133: Tag 11 InterfaceMethodRef Class index 14, Name and type index 134
+134: Tag 12 NameAndType Name index 135, Description index 136
+135: Tag 1 Utf8 Value "createTemporaryTopic"
+136: Tag 1 Utf8 Value "()Ljavax/jms/TemporaryTopic;"
+137: Tag 11 InterfaceMethodRef Class index 14, Name and type index 138
+138: Tag 12 NameAndType Name index 139, Description index 140
+139: Tag 1 Utf8 Value "unsubscribe"
+140: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+141: Tag 1 Utf8 Value "Code"
+142: Tag 1 Utf8 Value "LineNumberTable"
+143: Tag 1 Utf8 Value "LocalVariableTable"
+144: Tag 1 Utf8 Value "this"
+145: Tag 1 Utf8 Value "Lorg/wildfly/extension/messaging/activemq/deployment/injection/JMSContextWrapper;"
+146: Tag 1 Utf8 Value "sessionMode"
+147: Tag 1 Utf8 Value "I"
+148: Tag 1 Utf8 Value "setClientID"
+149: Tag 1 Utf8 Value "clientID"
+150: Tag 1 Utf8 Value "Ljava/lang/String;"
+151: Tag 1 Utf8 Value "setExceptionListener"
+152: Tag 1 Utf8 Value "(Ljavax/jms/ExceptionListener;)V"
+153: Tag 1 Utf8 Value "listener"
+154: Tag 1 Utf8 Value "Ljavax/jms/ExceptionListener;"
+155: Tag 1 Utf8 Value "start"
+156: Tag 1 Utf8 Value "stop"
+157: Tag 1 Utf8 Value "setAutoStart"
+158: Tag 1 Utf8 Value "(Z)V"
+159: Tag 1 Utf8 Value "autoStart"
+160: Tag 1 Utf8 Value "Z"
+161: Tag 1 Utf8 Value "close"
+162: Tag 1 Utf8 Value "object"
+163: Tag 1 Utf8 Value "Ljava/io/Serializable;"
+164: Tag 1 Utf8 Value "text"
+165: Tag 1 Utf8 Value "commit"
+166: Tag 1 Utf8 Value "rollback"
+167: Tag 1 Utf8 Value "recover"
+168: Tag 1 Utf8 Value "destination"
+169: Tag 1 Utf8 Value "Ljavax/jms/Destination;"
+170: Tag 1 Utf8 Value "messageSelector"
+171: Tag 1 Utf8 Value "noLocal"
+172: Tag 1 Utf8 Value "queueName"
+173: Tag 1 Utf8 Value "topicName"
+174: Tag 1 Utf8 Value "topic"
+175: Tag 1 Utf8 Value "Ljavax/jms/Topic;"
+176: Tag 1 Utf8 Value "name"
+177: Tag 1 Utf8 Value "sharedSubscriptionName"
+178: Tag 1 Utf8 Value "queue"
+179: Tag 1 Utf8 Value "Ljavax/jms/Queue;"
+180: Tag 1 Utf8 Value "acknowledge"
+181: Tag 1 Utf8 Value "SourceFile"
+182: Tag 1 Utf8 Value "JMSContextWrapper.java"
+
+Flags: decimal 1056, hex 0420, binary 0000010000100000 super abstract
+
+This class: id 8, name org.wildfly.extension.messaging.activemq.deployment.injection.JMSContextWrapper
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 14
+Implements names javax.jms.JMSContext
+
+No fields
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method name getDelegate (index 11), type ()Ljavax/jms/JMSContext; (descriptor index 12)
+Human type: (): javax.jms.JMSContext
+Flags: decimal 1024, hex 0400, binary 0000010000000000 abstract
+No method attributes
+Method name createContext (index 17), type (I)Ljavax/jms/JMSContext; (descriptor index 18)
+Human type: (int): javax.jms.JMSContext
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name createProducer (index 21), type ()Ljavax/jms/JMSProducer; (descriptor index 22)
+Human type: (): javax.jms.JMSProducer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getClientID (index 25), type ()Ljava/lang/String; (descriptor index 26)
+Human type: (): java.lang.String
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name setClientID (index 148), type (Ljava/lang/String;)V (descriptor index 140)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 61
+Method name getMetaData (index 39), type ()Ljavax/jms/ConnectionMetaData; (descriptor index 40)
+Human type: (): javax.jms.ConnectionMetaData
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getExceptionListener (index 43), type ()Ljavax/jms/ExceptionListener; (descriptor index 44)
+Human type: (): javax.jms.ExceptionListener
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name setExceptionListener (index 151), type (Ljavax/jms/ExceptionListener;)V (descriptor index 152)
+Human type: (javax.jms.ExceptionListener): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 61
+Method name start (index 155), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method name stop (index 156), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method name setAutoStart (index 157), type (Z)V (descriptor index 158)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 61
+Method name getAutoStart (index 47), type ()Z (descriptor index 48)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name close (index 161), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method name createBytesMessage (index 51), type ()Ljavax/jms/BytesMessage; (descriptor index 52)
+Human type: (): javax.jms.BytesMessage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name createMapMessage (index 55), type ()Ljavax/jms/MapMessage; (descriptor index 56)
+Human type: (): javax.jms.MapMessage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name createMessage (index 59), type ()Ljavax/jms/Message; (descriptor index 60)
+Human type: (): javax.jms.Message
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name createObjectMessage (index 63), type ()Ljavax/jms/ObjectMessage; (descriptor index 64)
+Human type: (): javax.jms.ObjectMessage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name createObjectMessage (index 63), type (Ljava/io/Serializable;)Ljavax/jms/ObjectMessage; (descriptor index 67)
+Human type: (java.io.Serializable): javax.jms.ObjectMessage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name createStreamMessage (index 70), type ()Ljavax/jms/StreamMessage; (descriptor index 71)
+Human type: (): javax.jms.StreamMessage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name createTextMessage (index 74), type ()Ljavax/jms/TextMessage; (descriptor index 75)
+Human type: (): javax.jms.TextMessage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name createTextMessage (index 74), type (Ljava/lang/String;)Ljavax/jms/TextMessage; (descriptor index 78)
+Human type: (java.lang.String): javax.jms.TextMessage
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name getTransacted (index 81), type ()Z (descriptor index 48)
+Human type: (): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name getSessionMode (index 84), type ()I (descriptor index 85)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name commit (index 165), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method name rollback (index 166), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method name recover (index 167), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method name createConsumer (index 88), type (Ljavax/jms/Destination;)Ljavax/jms/JMSConsumer; (descriptor index 89)
+Human type: (javax.jms.Destination): javax.jms.JMSConsumer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name createConsumer (index 88), type (Ljavax/jms/Destination;Ljava/lang/String;)Ljavax/jms/JMSConsumer; (descriptor index 92)
+Human type: (javax.jms.Destination, java.lang.String): javax.jms.JMSConsumer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method name createConsumer (index 88), type (Ljavax/jms/Destination;Ljava/lang/String;Z)Ljavax/jms/JMSConsumer; (descriptor index 95)
+Human type: (javax.jms.Destination, java.lang.String, boolean): javax.jms.JMSConsumer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 85
+Method name createQueue (index 98), type (Ljava/lang/String;)Ljavax/jms/Queue; (descriptor index 99)
+Human type: (java.lang.String): javax.jms.Queue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name createTopic (index 102), type (Ljava/lang/String;)Ljavax/jms/Topic; (descriptor index 103)
+Human type: (java.lang.String): javax.jms.Topic
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name createDurableConsumer (index 106), type (Ljavax/jms/Topic;Ljava/lang/String;)Ljavax/jms/JMSConsumer; (descriptor index 107)
+Human type: (javax.jms.Topic, java.lang.String): javax.jms.JMSConsumer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method name createDurableConsumer (index 106), type (Ljavax/jms/Topic;Ljava/lang/String;Ljava/lang/String;Z)Ljavax/jms/JMSConsumer; (descriptor index 110)
+Human type: (javax.jms.Topic, java.lang.String, java.lang.String, boolean): javax.jms.JMSConsumer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 97
+Method name createSharedDurableConsumer (index 113), type (Ljavax/jms/Topic;Ljava/lang/String;)Ljavax/jms/JMSConsumer; (descriptor index 107)
+Human type: (javax.jms.Topic, java.lang.String): javax.jms.JMSConsumer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method name createSharedDurableConsumer (index 113), type (Ljavax/jms/Topic;Ljava/lang/String;Ljava/lang/String;)Ljavax/jms/JMSConsumer; (descriptor index 116)
+Human type: (javax.jms.Topic, java.lang.String, java.lang.String): javax.jms.JMSConsumer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 85
+Method name createSharedConsumer (index 119), type (Ljavax/jms/Topic;Ljava/lang/String;)Ljavax/jms/JMSConsumer; (descriptor index 107)
+Human type: (javax.jms.Topic, java.lang.String): javax.jms.JMSConsumer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method name createSharedConsumer (index 119), type (Ljavax/jms/Topic;Ljava/lang/String;Ljava/lang/String;)Ljavax/jms/JMSConsumer; (descriptor index 116)
+Human type: (javax.jms.Topic, java.lang.String, java.lang.String): javax.jms.JMSConsumer
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 85
+Method name createBrowser (index 124), type (Ljavax/jms/Queue;)Ljavax/jms/QueueBrowser; (descriptor index 125)
+Human type: (javax.jms.Queue): javax.jms.QueueBrowser
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name createBrowser (index 124), type (Ljavax/jms/Queue;Ljava/lang/String;)Ljavax/jms/QueueBrowser; (descriptor index 128)
+Human type: (javax.jms.Queue, java.lang.String): javax.jms.QueueBrowser
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 74
+Method name createTemporaryQueue (index 131), type ()Ljavax/jms/TemporaryQueue; (descriptor index 132)
+Human type: (): javax.jms.TemporaryQueue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name createTemporaryTopic (index 135), type ()Ljavax/jms/TemporaryTopic; (descriptor index 136)
+Human type: (): javax.jms.TemporaryTopic
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 52
+Method name unsubscribe (index 139), type (Ljava/lang/String;)V (descriptor index 140)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 67
+Method name acknowledge (index 180), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+
+Class attribute name SourceFile, size 2

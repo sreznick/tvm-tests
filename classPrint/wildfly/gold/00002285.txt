@@ -1,0 +1,415 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 234
+1: Tag 9 FieldRef Class index 39, Name and type index 157
+2: Tag 10 MethodRef Class index 39, Name and type index 158
+3: Tag 9 FieldRef Class index 39, Name and type index 159
+4: Tag 9 FieldRef Class index 39, Name and type index 160
+5: Tag 9 FieldRef Class index 39, Name and type index 161
+6: Tag 9 FieldRef Class index 39, Name and type index 162
+7: Tag 9 FieldRef Class index 39, Name and type index 163
+8: Tag 9 FieldRef Class index 39, Name and type index 164
+9: Tag 9 FieldRef Class index 39, Name and type index 165
+10: Tag 9 FieldRef Class index 39, Name and type index 166
+11: Tag 9 FieldRef Class index 39, Name and type index 167
+12: Tag 10 MethodRef Class index 40, Name and type index 168
+13: Tag 7 Class Name index 169
+14: Tag 10 MethodRef Class index 13, Name and type index 168
+15: Tag 9 FieldRef Class index 39, Name and type index 170
+16: Tag 9 FieldRef Class index 39, Name and type index 171
+17: Tag 11 InterfaceMethodRef Class index 82, Name and type index 172
+18: Tag 10 MethodRef Class index 13, Name and type index 173
+19: Tag 7 Class Name index 174
+20: Tag 10 MethodRef Class index 175, Name and type index 176
+21: Tag 10 MethodRef Class index 177, Name and type index 178
+22: Tag 7 Class Name index 179
+23: Tag 7 Class Name index 180
+24: Tag 10 MethodRef Class index 23, Name and type index 181
+25: Tag 11 InterfaceMethodRef Class index 19, Name and type index 182
+26: Tag 11 InterfaceMethodRef Class index 97, Name and type index 183
+27: Tag 7 Class Name index 184
+28: Tag 11 InterfaceMethodRef Class index 98, Name and type index 185
+29: Tag 7 Class Name index 186
+30: Tag 10 MethodRef Class index 29, Name and type index 187
+31: Tag 11 InterfaceMethodRef Class index 105, Name and type index 183
+32: Tag 11 InterfaceMethodRef Class index 82, Name and type index 188
+33: Tag 7 Class Name index 189
+34: Tag 7 Class Name index 190
+35: Tag 11 InterfaceMethodRef Class index 33, Name and type index 191
+36: Tag 11 InterfaceMethodRef Class index 82, Name and type index 192
+37: Tag 11 InterfaceMethodRef Class index 81, Name and type index 193
+38: Tag 10 MethodRef Class index 39, Name and type index 194
+39: Tag 7 Class Name index 195
+40: Tag 7 Class Name index 196
+41: Tag 7 Class Name index 197
+42: Tag 1 Utf8 Value "InnerClasses"
+43: Tag 1 Utf8 Value "properties"
+44: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue;"
+45: Tag 1 Utf8 Value "Signature"
+46: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Ljava/util/Map;>;"
+47: Tag 1 Utf8 Value "jtaDataSource"
+48: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Ljavax/sql/DataSource;>;"
+49: Tag 1 Utf8 Value "nonJtaDataSource"
+50: Tag 1 Utf8 Value "executorInjector"
+51: Tag 1 Utf8 Value "Lorg/jboss/msc/value/InjectedValue<Ljava/util/concurrent/ExecutorService;>;"
+52: Tag 1 Utf8 Value "CDI_BEAN_MANAGER"
+53: Tag 1 Utf8 Value "Ljava/lang/String;"
+54: Tag 1 Utf8 Value "ConstantValue"
+55: Tag 8 String Contents 198
+56: Tag 1 Utf8 Value "persistenceProviderAdaptor"
+57: Tag 1 Utf8 Value "Lorg/jipijapa/plugin/spi/PersistenceProviderAdaptor;"
+58: Tag 1 Utf8 Value "pu"
+59: Tag 1 Utf8 Value "Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;"
+60: Tag 1 Utf8 Value "classLoader"
+61: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+62: Tag 1 Utf8 Value "deploymentUnitServiceName"
+63: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+64: Tag 1 Utf8 Value "proxyBeanManager"
+65: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/beanmanager/ProxyBeanManager;"
+66: Tag 1 Utf8 Value "wrapperBeanManagerLifeCycle"
+67: Tag 1 Utf8 Value "Ljava/lang/Object;"
+68: Tag 1 Utf8 Value "entityManagerFactoryBuilder"
+69: Tag 1 Utf8 Value "Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder;"
+70: Tag 1 Utf8 Value "secondPhaseStarted"
+71: Tag 1 Utf8 Value "Z"
+72: Tag 1 Utf8 Value "<init>"
+73: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;Lorg/jipijapa/plugin/spi/PersistenceProviderAdaptor;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/jpa/beanmanager/ProxyBeanManager;)V"
+74: Tag 1 Utf8 Value "Code"
+75: Tag 1 Utf8 Value "LineNumberTable"
+76: Tag 1 Utf8 Value "LocalVariableTable"
+77: Tag 1 Utf8 Value "this"
+78: Tag 1 Utf8 Value "Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;"
+79: Tag 1 Utf8 Value "StackMapTable"
+80: Tag 7 Class Name index 199
+81: Tag 7 Class Name index 200
+82: Tag 7 Class Name index 201
+83: Tag 7 Class Name index 202
+84: Tag 7 Class Name index 203
+85: Tag 1 Utf8 Value "start"
+86: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+87: Tag 1 Utf8 Value "e"
+88: Tag 1 Utf8 Value "Ljava/util/concurrent/RejectedExecutionException;"
+89: Tag 1 Utf8 Value "context"
+90: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+91: Tag 1 Utf8 Value "executor"
+92: Tag 1 Utf8 Value "Ljava/util/concurrent/ExecutorService;"
+93: Tag 1 Utf8 Value "accessControlContext"
+94: Tag 1 Utf8 Value "Ljava/security/AccessControlContext;"
+95: Tag 1 Utf8 Value "task"
+96: Tag 1 Utf8 Value "Ljava/lang/Runnable;"
+97: Tag 7 Class Name index 204
+98: Tag 7 Class Name index 205
+99: Tag 7 Class Name index 206
+100: Tag 1 Utf8 Value "Exceptions"
+101: Tag 7 Class Name index 207
+102: Tag 1 Utf8 Value "stop"
+103: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+104: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+105: Tag 7 Class Name index 208
+106: Tag 1 Utf8 Value "getExecutorInjector"
+107: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue;"
+108: Tag 1 Utf8 Value "()Lorg/jboss/msc/value/InjectedValue<Ljava/util/concurrent/ExecutorService;>;"
+109: Tag 1 Utf8 Value "getValue"
+110: Tag 1 Utf8 Value "()Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;"
+111: Tag 7 Class Name index 209
+112: Tag 7 Class Name index 210
+113: Tag 1 Utf8 Value "getEntityManagerFactoryBuilder"
+114: Tag 1 Utf8 Value "()Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder;"
+115: Tag 1 Utf8 Value "setSecondPhaseStarted"
+116: Tag 1 Utf8 Value "(Z)V"
+117: Tag 1 Utf8 Value "getPropertiesInjector"
+118: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector;"
+119: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Ljava/util/Map;>;"
+120: Tag 1 Utf8 Value "getJtaDataSourceInjector"
+121: Tag 1 Utf8 Value "()Lorg/jboss/msc/inject/Injector<Ljavax/sql/DataSource;>;"
+122: Tag 1 Utf8 Value "getNonJtaDataSourceInjector"
+123: Tag 1 Utf8 Value "getBeanManager"
+124: Tag 1 Utf8 Value "()Lorg/jboss/as/jpa/beanmanager/ProxyBeanManager;"
+125: Tag 1 Utf8 Value "getBeanManagerLifeCycle"
+126: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+127: Tag 1 Utf8 Value "createContainerEntityManagerFactoryBuilder"
+128: Tag 1 Utf8 Value "twoPhaseBootstrapCapable"
+129: Tag 1 Utf8 Value "Lorg/jipijapa/plugin/spi/TwoPhaseBootstrapCapable;"
+130: Tag 7 Class Name index 211
+131: Tag 1 Utf8 Value "access$000"
+132: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;"
+133: Tag 1 Utf8 Value "x0"
+134: Tag 1 Utf8 Value "access$100"
+135: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Ljava/lang/ClassLoader;"
+136: Tag 1 Utf8 Value "access$200"
+137: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jboss/msc/value/InjectedValue;"
+138: Tag 1 Utf8 Value "access$300"
+139: Tag 1 Utf8 Value "access$400"
+140: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jboss/as/jpa/beanmanager/ProxyBeanManager;"
+141: Tag 1 Utf8 Value "access$500"
+142: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Ljava/lang/Object;"
+143: Tag 1 Utf8 Value "access$600"
+144: Tag 1 Utf8 Value "access$700"
+145: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jboss/msc/service/ServiceName;"
+146: Tag 1 Utf8 Value "access$802"
+147: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder;)Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder;"
+148: Tag 1 Utf8 Value "x1"
+149: Tag 1 Utf8 Value "access$900"
+150: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder;"
+151: Tag 1 Utf8 Value "access$800"
+152: Tag 1 Utf8 Value "access$1000"
+153: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Z"
+154: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/jboss/msc/service/Service<Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;>;"
+155: Tag 1 Utf8 Value "SourceFile"
+156: Tag 1 Utf8 Value "PhaseOnePersistenceUnitServiceImpl.java"
+157: Tag 12 NameAndType Name index 70, Description index 71
+158: Tag 12 NameAndType Name index 127, Description index 114
+159: Tag 12 NameAndType Name index 68, Description index 69
+160: Tag 12 NameAndType Name index 62, Description index 63
+161: Tag 12 NameAndType Name index 43, Description index 44
+162: Tag 12 NameAndType Name index 66, Description index 67
+163: Tag 12 NameAndType Name index 64, Description index 65
+164: Tag 12 NameAndType Name index 49, Description index 44
+165: Tag 12 NameAndType Name index 47, Description index 44
+166: Tag 12 NameAndType Name index 60, Description index 61
+167: Tag 12 NameAndType Name index 58, Description index 59
+168: Tag 12 NameAndType Name index 72, Description index 212
+169: Tag 1 Utf8 Value "org/jboss/msc/value/InjectedValue"
+170: Tag 12 NameAndType Name index 50, Description index 44
+171: Tag 12 NameAndType Name index 56, Description index 57
+172: Tag 12 NameAndType Name index 213, Description index 214
+173: Tag 12 NameAndType Name index 109, Description index 126
+174: Tag 1 Utf8 Value "java/util/concurrent/ExecutorService"
+175: Tag 7 Class Name index 215
+176: Tag 12 NameAndType Name index 216, Description index 217
+177: Tag 7 Class Name index 218
+178: Tag 12 NameAndType Name index 219, Description index 220
+179: Tag 1 Utf8 Value "java/security/AccessControlContext"
+180: Tag 1 Utf8 Value "org/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl$1"
+181: Tag 12 NameAndType Name index 72, Description index 221
+182: Tag 12 NameAndType Name index 222, Description index 223
+183: Tag 12 NameAndType Name index 224, Description index 212
+184: Tag 1 Utf8 Value "java/util/concurrent/RejectedExecutionException"
+185: Tag 12 NameAndType Name index 225, Description index 212
+186: Tag 1 Utf8 Value "org/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl$2"
+187: Tag 12 NameAndType Name index 72, Description index 226
+188: Tag 12 NameAndType Name index 227, Description index 228
+189: Tag 1 Utf8 Value "org/jipijapa/plugin/spi/TwoPhaseBootstrapCapable"
+190: Tag 1 Utf8 Value "java/util/Map"
+191: Tag 12 NameAndType Name index 229, Description index 230
+192: Tag 12 NameAndType Name index 231, Description index 228
+193: Tag 12 NameAndType Name index 232, Description index 233
+194: Tag 12 NameAndType Name index 109, Description index 110
+195: Tag 1 Utf8 Value "org/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl"
+196: Tag 1 Utf8 Value "java/lang/Object"
+197: Tag 1 Utf8 Value "org/jboss/msc/service/Service"
+198: Tag 1 Utf8 Value "javax.persistence.bean.manager"
+199: Tag 1 Utf8 Value "java/lang/ClassLoader"
+200: Tag 1 Utf8 Value "org/jipijapa/plugin/spi/PersistenceUnitMetadata"
+201: Tag 1 Utf8 Value "org/jipijapa/plugin/spi/PersistenceProviderAdaptor"
+202: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+203: Tag 1 Utf8 Value "org/jboss/as/jpa/beanmanager/ProxyBeanManager"
+204: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+205: Tag 1 Utf8 Value "java/lang/Runnable"
+206: Tag 1 Utf8 Value "java/lang/Throwable"
+207: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+208: Tag 1 Utf8 Value "org/jboss/msc/service/StopContext"
+209: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+210: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+211: Tag 1 Utf8 Value "org/jipijapa/plugin/spi/EntityManagerFactoryBuilder"
+212: Tag 1 Utf8 Value "()V"
+213: Tag 1 Utf8 Value "beanManagerLifeCycle"
+214: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/BeanManager;)Ljava/lang/Object;"
+215: Tag 1 Utf8 Value "org/wildfly/security/manager/action/GetAccessControlContextAction"
+216: Tag 1 Utf8 Value "getInstance"
+217: Tag 1 Utf8 Value "()Lorg/wildfly/security/manager/action/GetAccessControlContextAction;"
+218: Tag 1 Utf8 Value "java/security/AccessController"
+219: Tag 1 Utf8 Value "doPrivileged"
+220: Tag 1 Utf8 Value "(Ljava/security/PrivilegedAction;)Ljava/lang/Object;"
+221: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;Lorg/jboss/msc/service/StartContext;Ljava/security/AccessControlContext;)V"
+222: Tag 1 Utf8 Value "execute"
+223: Tag 1 Utf8 Value "(Ljava/lang/Runnable;)V"
+224: Tag 1 Utf8 Value "asynchronous"
+225: Tag 1 Utf8 Value "run"
+226: Tag 1 Utf8 Value "(Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;Lorg/jboss/msc/service/StopContext;Ljava/security/AccessControlContext;)V"
+227: Tag 1 Utf8 Value "beforeCreateContainerEntityManagerFactory"
+228: Tag 1 Utf8 Value "(Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;)V"
+229: Tag 1 Utf8 Value "getBootstrap"
+230: Tag 1 Utf8 Value "(Ljavax/persistence/spi/PersistenceUnitInfo;Ljava/util/Map;)Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder;"
+231: Tag 1 Utf8 Value "afterCreateContainerEntityManagerFactory"
+232: Tag 1 Utf8 Value "setAnnotationIndex"
+233: Tag 1 Utf8 Value "(Ljava/util/Map;)V"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 39, name org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl
+
+Super class: id 40, name java.lang.Object
+
+Implements class ids 41
+Implements names org.jboss.msc.service.Service
+
+Field name properties (index 43), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 44)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name jtaDataSource (index 47), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 44)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name nonJtaDataSource (index 49), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 44)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name executorInjector (index 50), type Lorg/jboss/msc/value/InjectedValue; (descriptor index 44)
+Human type: org.jboss.msc.value.InjectedValue
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name CDI_BEAN_MANAGER (index 52), type Ljava/lang/String; (descriptor index 53)
+Human type: java.lang.String
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name persistenceProviderAdaptor (index 56), type Lorg/jipijapa/plugin/spi/PersistenceProviderAdaptor; (descriptor index 57)
+Human type: org.jipijapa.plugin.spi.PersistenceProviderAdaptor
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name pu (index 58), type Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata; (descriptor index 59)
+Human type: org.jipijapa.plugin.spi.PersistenceUnitMetadata
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name classLoader (index 60), type Ljava/lang/ClassLoader; (descriptor index 61)
+Human type: java.lang.ClassLoader
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name deploymentUnitServiceName (index 62), type Lorg/jboss/msc/service/ServiceName; (descriptor index 63)
+Human type: org.jboss.msc.service.ServiceName
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name proxyBeanManager (index 64), type Lorg/jboss/as/jpa/beanmanager/ProxyBeanManager; (descriptor index 65)
+Human type: org.jboss.as.jpa.beanmanager.ProxyBeanManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name wrapperBeanManagerLifeCycle (index 66), type Ljava/lang/Object; (descriptor index 67)
+Human type: java.lang.Object
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name entityManagerFactoryBuilder (index 68), type Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder; (descriptor index 69)
+Human type: org.jipijapa.plugin.spi.EntityManagerFactoryBuilder
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+Field name secondPhaseStarted (index 70), type Z (descriptor index 71)
+Human type: boolean
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+No field attributes
+
+Method name <init> (index 72), type (Ljava/lang/ClassLoader;Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata;Lorg/jipijapa/plugin/spi/PersistenceProviderAdaptor;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/jpa/beanmanager/ProxyBeanManager;)V (descriptor index 73)
+Human type: (java.lang.ClassLoader, org.jipijapa.plugin.spi.PersistenceUnitMetadata, org.jipijapa.plugin.spi.PersistenceProviderAdaptor, org.jboss.msc.service.ServiceName, org.jboss.as.jpa.beanmanager.ProxyBeanManager): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 309
+Method name start (index 85), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 86)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 290
+Method attribute name Exceptions, size 4
+Method name stop (index 102), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 103)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 290
+Method name getExecutorInjector (index 106), type ()Lorg/jboss/msc/value/InjectedValue; (descriptor index 107)
+Human type: (): org.jboss.msc.value.InjectedValue
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getValue (index 109), type ()Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl; (descriptor index 110)
+Human type: (): org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 44
+Method attribute name Exceptions, size 6
+Method name getEntityManagerFactoryBuilder (index 113), type ()Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder; (descriptor index 114)
+Human type: (): org.jipijapa.plugin.spi.EntityManagerFactoryBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name setSecondPhaseStarted (index 115), type (Z)V (descriptor index 116)
+Human type: (boolean): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 62
+Method name getPropertiesInjector (index 117), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 118)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getJtaDataSourceInjector (index 120), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 118)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getNonJtaDataSourceInjector (index 122), type ()Lorg/jboss/msc/inject/Injector; (descriptor index 118)
+Human type: (): org.jboss.msc.inject.Injector
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method attribute name Signature, size 2
+Method name getBeanManager (index 123), type ()Lorg/jboss/as/jpa/beanmanager/ProxyBeanManager; (descriptor index 124)
+Human type: (): org.jboss.as.jpa.beanmanager.ProxyBeanManager
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getBeanManagerLifeCycle (index 125), type ()Ljava/lang/Object; (descriptor index 126)
+Human type: (): java.lang.Object
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name createContainerEntityManagerFactoryBuilder (index 127), type ()Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder; (descriptor index 114)
+Human type: (): org.jipijapa.plugin.spi.EntityManagerFactoryBuilder
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 342
+Method name getValue (index 109), type ()Ljava/lang/Object; (descriptor index 126)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 6
+Method name access$000 (index 131), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jipijapa/plugin/spi/PersistenceUnitMetadata; (descriptor index 132)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): org.jipijapa.plugin.spi.PersistenceUnitMetadata
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$100 (index 134), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Ljava/lang/ClassLoader; (descriptor index 135)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): java.lang.ClassLoader
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$200 (index 136), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jboss/msc/value/InjectedValue; (descriptor index 137)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): org.jboss.msc.value.InjectedValue
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$300 (index 138), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jboss/msc/value/InjectedValue; (descriptor index 137)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): org.jboss.msc.value.InjectedValue
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$400 (index 139), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jboss/as/jpa/beanmanager/ProxyBeanManager; (descriptor index 140)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): org.jboss.as.jpa.beanmanager.ProxyBeanManager
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$500 (index 141), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Ljava/lang/Object; (descriptor index 142)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): java.lang.Object
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$600 (index 143), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jboss/msc/value/InjectedValue; (descriptor index 137)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): org.jboss.msc.value.InjectedValue
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$700 (index 144), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jboss/msc/service/ServiceName; (descriptor index 145)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): org.jboss.msc.service.ServiceName
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$802 (index 146), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder;)Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder; (descriptor index 147)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl, org.jipijapa.plugin.spi.EntityManagerFactoryBuilder): org.jipijapa.plugin.spi.EntityManagerFactoryBuilder
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 59
+Method name access$900 (index 149), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder; (descriptor index 150)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): org.jipijapa.plugin.spi.EntityManagerFactoryBuilder
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$800 (index 151), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Lorg/jipijapa/plugin/spi/EntityManagerFactoryBuilder; (descriptor index 150)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): org.jipijapa.plugin.spi.EntityManagerFactoryBuilder
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+Method name access$1000 (index 152), type (Lorg/jboss/as/jpa/service/PhaseOnePersistenceUnitServiceImpl;)Z (descriptor index 153)
+Human type: (org.jboss.as.jpa.service.PhaseOnePersistenceUnitServiceImpl): boolean
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 47
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 18

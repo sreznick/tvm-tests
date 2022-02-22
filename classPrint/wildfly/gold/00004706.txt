@@ -1,0 +1,138 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 96
+1: Tag 10 MethodRef Class index 18, Name and type index 49
+2: Tag 11 InterfaceMethodRef Class index 50, Name and type index 51
+3: Tag 11 InterfaceMethodRef Class index 52, Name and type index 53
+4: Tag 9 FieldRef Class index 17, Name and type index 54
+5: Tag 11 InterfaceMethodRef Class index 52, Name and type index 55
+6: Tag 7 Class Name index 56
+7: Tag 10 MethodRef Class index 57, Name and type index 58
+8: Tag 9 FieldRef Class index 17, Name and type index 59
+9: Tag 10 MethodRef Class index 17, Name and type index 60
+10: Tag 11 InterfaceMethodRef Class index 19, Name and type index 61
+11: Tag 11 InterfaceMethodRef Class index 19, Name and type index 62
+12: Tag 7 Class Name index 63
+13: Tag 11 InterfaceMethodRef Class index 64, Name and type index 65
+14: Tag 10 MethodRef Class index 66, Name and type index 67
+15: Tag 10 MethodRef Class index 12, Name and type index 68
+16: Tag 9 FieldRef Class index 69, Name and type index 70
+17: Tag 7 Class Name index 71
+18: Tag 7 Class Name index 72
+19: Tag 7 Class Name index 73
+20: Tag 1 Utf8 Value "distribution"
+21: Tag 1 Utf8 Value "Lorg/infinispan/distribution/DistributionManager;"
+22: Tag 1 Utf8 Value "partitioner"
+23: Tag 1 Utf8 Value "Lorg/infinispan/distribution/ch/KeyPartitioner;"
+24: Tag 1 Utf8 Value "<init>"
+25: Tag 1 Utf8 Value "(Lorg/infinispan/Cache;)V"
+26: Tag 1 Utf8 Value "Code"
+27: Tag 1 Utf8 Value "LineNumberTable"
+28: Tag 1 Utf8 Value "LocalVariableTable"
+29: Tag 1 Utf8 Value "this"
+30: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/spi/distribution/CacheKeyDistribution;"
+31: Tag 1 Utf8 Value "cache"
+32: Tag 1 Utf8 Value "Lorg/infinispan/Cache;"
+33: Tag 1 Utf8 Value "LocalVariableTypeTable"
+34: Tag 1 Utf8 Value "Lorg/infinispan/Cache<**>;"
+35: Tag 1 Utf8 Value "Signature"
+36: Tag 1 Utf8 Value "(Lorg/infinispan/Cache<**>;)V"
+37: Tag 1 Utf8 Value "getPrimaryOwner"
+38: Tag 1 Utf8 Value "(Ljava/lang/Object;)Lorg/infinispan/remoting/transport/Address;"
+39: Tag 1 Utf8 Value "key"
+40: Tag 1 Utf8 Value "Ljava/lang/Object;"
+41: Tag 1 Utf8 Value "getOwners"
+42: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/List;"
+43: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/util/List<Lorg/infinispan/remoting/transport/Address;>;"
+44: Tag 1 Utf8 Value "getCurrentKeyDistribution"
+45: Tag 1 Utf8 Value "()Lorg/wildfly/clustering/infinispan/spi/distribution/KeyDistribution;"
+46: Tag 1 Utf8 Value "StackMapTable"
+47: Tag 1 Utf8 Value "SourceFile"
+48: Tag 1 Utf8 Value "CacheKeyDistribution.java"
+49: Tag 12 NameAndType Name index 24, Description index 74
+50: Tag 7 Class Name index 75
+51: Tag 12 NameAndType Name index 76, Description index 77
+52: Tag 7 Class Name index 78
+53: Tag 12 NameAndType Name index 79, Description index 80
+54: Tag 12 NameAndType Name index 20, Description index 21
+55: Tag 12 NameAndType Name index 81, Description index 82
+56: Tag 1 Utf8 Value "org/infinispan/distribution/ch/KeyPartitioner"
+57: Tag 7 Class Name index 83
+58: Tag 12 NameAndType Name index 84, Description index 85
+59: Tag 12 NameAndType Name index 22, Description index 23
+60: Tag 12 NameAndType Name index 44, Description index 45
+61: Tag 12 NameAndType Name index 37, Description index 38
+62: Tag 12 NameAndType Name index 41, Description index 42
+63: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/ConsistentHashKeyDistribution"
+64: Tag 7 Class Name index 86
+65: Tag 12 NameAndType Name index 87, Description index 88
+66: Tag 7 Class Name index 89
+67: Tag 12 NameAndType Name index 90, Description index 91
+68: Tag 12 NameAndType Name index 24, Description index 92
+69: Tag 7 Class Name index 93
+70: Tag 12 NameAndType Name index 94, Description index 95
+71: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/CacheKeyDistribution"
+72: Tag 1 Utf8 Value "java/lang/Object"
+73: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/KeyDistribution"
+74: Tag 1 Utf8 Value "()V"
+75: Tag 1 Utf8 Value "org/infinispan/Cache"
+76: Tag 1 Utf8 Value "getAdvancedCache"
+77: Tag 1 Utf8 Value "()Lorg/infinispan/AdvancedCache;"
+78: Tag 1 Utf8 Value "org/infinispan/AdvancedCache"
+79: Tag 1 Utf8 Value "getDistributionManager"
+80: Tag 1 Utf8 Value "()Lorg/infinispan/distribution/DistributionManager;"
+81: Tag 1 Utf8 Value "getComponentRegistry"
+82: Tag 1 Utf8 Value "()Lorg/infinispan/factories/ComponentRegistry;"
+83: Tag 1 Utf8 Value "org/infinispan/factories/ComponentRegistry"
+84: Tag 1 Utf8 Value "getLocalComponent"
+85: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+86: Tag 1 Utf8 Value "org/infinispan/distribution/DistributionManager"
+87: Tag 1 Utf8 Value "getCacheTopology"
+88: Tag 1 Utf8 Value "()Lorg/infinispan/distribution/LocalizedCacheTopology;"
+89: Tag 1 Utf8 Value "org/infinispan/distribution/LocalizedCacheTopology"
+90: Tag 1 Utf8 Value "getWriteConsistentHash"
+91: Tag 1 Utf8 Value "()Lorg/infinispan/distribution/ch/ConsistentHash;"
+92: Tag 1 Utf8 Value "(Lorg/infinispan/distribution/ch/KeyPartitioner;Lorg/infinispan/distribution/ch/ConsistentHash;)V"
+93: Tag 1 Utf8 Value "org/wildfly/clustering/infinispan/spi/distribution/LocalKeyDistribution"
+94: Tag 1 Utf8 Value "INSTANCE"
+95: Tag 1 Utf8 Value "Lorg/wildfly/clustering/infinispan/spi/distribution/LocalKeyDistribution;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 17, name org.wildfly.clustering.infinispan.spi.distribution.CacheKeyDistribution
+
+Super class: id 18, name java.lang.Object
+
+Implements class ids 19
+Implements names org.wildfly.clustering.infinispan.spi.distribution.KeyDistribution
+
+Field name distribution (index 20), type Lorg/infinispan/distribution/DistributionManager; (descriptor index 21)
+Human type: org.infinispan.distribution.DistributionManager
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name partitioner (index 22), type Lorg/infinispan/distribution/ch/KeyPartitioner; (descriptor index 23)
+Human type: org.infinispan.distribution.ch.KeyPartitioner
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 24), type (Lorg/infinispan/Cache;)V (descriptor index 25)
+Human type: (org.infinispan.Cache): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 125
+Method attribute name Signature, size 2
+Method name getPrimaryOwner (index 37), type (Ljava/lang/Object;)Lorg/infinispan/remoting/transport/Address; (descriptor index 38)
+Human type: (java.lang.Object): org.infinispan.remoting.transport.Address
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method name getOwners (index 41), type (Ljava/lang/Object;)Ljava/util/List; (descriptor index 42)
+Human type: (java.lang.Object): java.util.List
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 63
+Method attribute name Signature, size 2
+Method name getCurrentKeyDistribution (index 44), type ()Lorg/wildfly/clustering/infinispan/spi/distribution/KeyDistribution; (descriptor index 45)
+Human type: (): org.wildfly.clustering.infinispan.spi.distribution.KeyDistribution
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 92
+
+Class attribute name SourceFile, size 2

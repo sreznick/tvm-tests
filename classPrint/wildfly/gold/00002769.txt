@@ -1,0 +1,111 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 71
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/util/concurrent/atomic/AtomicReference"
+9: Tag 10 MethodRef Class index 7, Name and type index 3
+10: Tag 9 FieldRef Class index 11, Name and type index 12
+11: Tag 7 Class Name index 13
+12: Tag 12 NameAndType Name index 14, Description index 15
+13: Tag 1 Utf8 Value "org/wildfly/clustering/server/registry/FunctionalRegistryFactory"
+14: Tag 1 Utf8 Value "entry"
+15: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicReference;"
+16: Tag 9 FieldRef Class index 11, Name and type index 17
+17: Tag 12 NameAndType Name index 18, Description index 19
+18: Tag 1 Utf8 Value "factory"
+19: Tag 1 Utf8 Value "Ljava/util/function/BiFunction;"
+20: Tag 10 MethodRef Class index 7, Name and type index 21
+21: Tag 12 NameAndType Name index 22, Description index 23
+22: Tag 1 Utf8 Value "set"
+23: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+24: Tag 10 MethodRef Class index 7, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 27
+26: Tag 1 Utf8 Value "compareAndSet"
+27: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Z"
+28: Tag 7 Class Name index 29
+29: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+30: Tag 10 MethodRef Class index 28, Name and type index 3
+31: Tag 11 InterfaceMethodRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "java/util/function/BiFunction"
+35: Tag 1 Utf8 Value "apply"
+36: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+37: Tag 7 Class Name index 38
+38: Tag 1 Utf8 Value "org/wildfly/clustering/registry/Registry"
+39: Tag 7 Class Name index 40
+40: Tag 1 Utf8 Value "org/wildfly/clustering/registry/RegistryFactory"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "java/lang/Runnable"
+43: Tag 1 Utf8 Value "Signature"
+44: Tag 1 Utf8 Value "Ljava/util/concurrent/atomic/AtomicReference<Ljava/util/Map$Entry<TK;TV;>;>;"
+45: Tag 1 Utf8 Value "Ljava/util/function/BiFunction<Ljava/util/Map$Entry<TK;TV;>;Ljava/lang/Runnable;Lorg/wildfly/clustering/registry/Registry<TK;TV;>;>;"
+46: Tag 1 Utf8 Value "(Ljava/util/function/BiFunction;)V"
+47: Tag 1 Utf8 Value "Code"
+48: Tag 1 Utf8 Value "LineNumberTable"
+49: Tag 1 Utf8 Value "LocalVariableTable"
+50: Tag 1 Utf8 Value "this"
+51: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/registry/FunctionalRegistryFactory;"
+52: Tag 1 Utf8 Value "LocalVariableTypeTable"
+53: Tag 1 Utf8 Value "Lorg/wildfly/clustering/server/registry/FunctionalRegistryFactory<TK;TV;>;"
+54: Tag 1 Utf8 Value "(Ljava/util/function/BiFunction<Ljava/util/Map$Entry<TK;TV;>;Ljava/lang/Runnable;Lorg/wildfly/clustering/registry/Registry<TK;TV;>;>;)V"
+55: Tag 1 Utf8 Value "run"
+56: Tag 1 Utf8 Value "createRegistry"
+57: Tag 1 Utf8 Value "(Ljava/util/Map$Entry;)Lorg/wildfly/clustering/registry/Registry;"
+58: Tag 1 Utf8 Value "Ljava/util/Map$Entry;"
+59: Tag 1 Utf8 Value "Ljava/util/Map$Entry<TK;TV;>;"
+60: Tag 1 Utf8 Value "StackMapTable"
+61: Tag 1 Utf8 Value "(Ljava/util/Map$Entry<TK;TV;>;)Lorg/wildfly/clustering/registry/Registry<TK;TV;>;"
+62: Tag 1 Utf8 Value "<K:Ljava/lang/Object;V:Ljava/lang/Object;>Ljava/lang/Object;Lorg/wildfly/clustering/registry/RegistryFactory<TK;TV;>;Ljava/lang/Runnable;"
+63: Tag 1 Utf8 Value "SourceFile"
+64: Tag 1 Utf8 Value "FunctionalRegistryFactory.java"
+65: Tag 1 Utf8 Value "InnerClasses"
+66: Tag 7 Class Name index 67
+67: Tag 1 Utf8 Value "java/util/Map$Entry"
+68: Tag 7 Class Name index 69
+69: Tag 1 Utf8 Value "java/util/Map"
+70: Tag 1 Utf8 Value "Entry"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 11, name org.wildfly.clustering.server.registry.FunctionalRegistryFactory
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 39 41
+Implements names org.wildfly.clustering.registry.RegistryFactory java.lang.Runnable
+
+Field name entry (index 14), type Ljava/util/concurrent/atomic/AtomicReference; (descriptor index 15)
+Human type: java.util.concurrent.atomic.AtomicReference
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name factory (index 18), type Ljava/util/function/BiFunction; (descriptor index 19)
+Human type: java.util.function.BiFunction
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+
+Method name <init> (index 5), type (Ljava/util/function/BiFunction;)V (descriptor index 46)
+Human type: (java.util.function.BiFunction): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 113
+Method attribute name Signature, size 2
+Method name run (index 55), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 73
+Method name createRegistry (index 56), type (Ljava/util/Map$Entry;)Lorg/wildfly/clustering/registry/Registry; (descriptor index 57)
+Human type: (java.util.Map$Entry): org.wildfly.clustering.registry.Registry
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 132
+Method attribute name Signature, size 2
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

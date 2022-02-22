@@ -1,0 +1,126 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 63
+1: Tag 10 MethodRef Class index 7, Name and type index 44
+2: Tag 9 FieldRef Class index 45, Name and type index 46
+3: Tag 11 InterfaceMethodRef Class index 45, Name and type index 47
+4: Tag 7 Class Name index 48
+5: Tag 10 MethodRef Class index 4, Name and type index 44
+6: Tag 9 FieldRef Class index 4, Name and type index 49
+7: Tag 7 Class Name index 50
+8: Tag 7 Class Name index 51
+9: Tag 1 Utf8 Value "INSTANCE"
+10: Tag 1 Utf8 Value "Lorg/wildfly/iiop/openjdk/tm/ForeignTransaction;"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 1 Utf8 Value "Code"
+14: Tag 1 Utf8 Value "LineNumberTable"
+15: Tag 1 Utf8 Value "LocalVariableTable"
+16: Tag 1 Utf8 Value "this"
+17: Tag 1 Utf8 Value "commit"
+18: Tag 1 Utf8 Value "Exceptions"
+19: Tag 7 Class Name index 52
+20: Tag 7 Class Name index 53
+21: Tag 7 Class Name index 54
+22: Tag 7 Class Name index 55
+23: Tag 7 Class Name index 56
+24: Tag 1 Utf8 Value "rollback"
+25: Tag 7 Class Name index 57
+26: Tag 1 Utf8 Value "setRollbackOnly"
+27: Tag 1 Utf8 Value "getStatus"
+28: Tag 1 Utf8 Value "()I"
+29: Tag 1 Utf8 Value "enlistResource"
+30: Tag 1 Utf8 Value "(Ljavax/transaction/xa/XAResource;)Z"
+31: Tag 1 Utf8 Value "xaRes"
+32: Tag 1 Utf8 Value "Ljavax/transaction/xa/XAResource;"
+33: Tag 1 Utf8 Value "delistResource"
+34: Tag 1 Utf8 Value "(Ljavax/transaction/xa/XAResource;I)Z"
+35: Tag 1 Utf8 Value "flag"
+36: Tag 1 Utf8 Value "I"
+37: Tag 1 Utf8 Value "registerSynchronization"
+38: Tag 1 Utf8 Value "(Ljavax/transaction/Synchronization;)V"
+39: Tag 1 Utf8 Value "sync"
+40: Tag 1 Utf8 Value "Ljavax/transaction/Synchronization;"
+41: Tag 1 Utf8 Value "<clinit>"
+42: Tag 1 Utf8 Value "SourceFile"
+43: Tag 1 Utf8 Value "ForeignTransaction.java"
+44: Tag 12 NameAndType Name index 11, Description index 12
+45: Tag 7 Class Name index 58
+46: Tag 12 NameAndType Name index 59, Description index 60
+47: Tag 12 NameAndType Name index 61, Description index 62
+48: Tag 1 Utf8 Value "org/wildfly/iiop/openjdk/tm/ForeignTransaction"
+49: Tag 12 NameAndType Name index 9, Description index 10
+50: Tag 1 Utf8 Value "java/lang/Object"
+51: Tag 1 Utf8 Value "javax/transaction/Transaction"
+52: Tag 1 Utf8 Value "javax/transaction/RollbackException"
+53: Tag 1 Utf8 Value "javax/transaction/HeuristicMixedException"
+54: Tag 1 Utf8 Value "javax/transaction/HeuristicRollbackException"
+55: Tag 1 Utf8 Value "java/lang/SecurityException"
+56: Tag 1 Utf8 Value "javax/transaction/SystemException"
+57: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+58: Tag 1 Utf8 Value "org/wildfly/iiop/openjdk/logging/IIOPLogger"
+59: Tag 1 Utf8 Value "ROOT_LOGGER"
+60: Tag 1 Utf8 Value "Lorg/wildfly/iiop/openjdk/logging/IIOPLogger;"
+61: Tag 1 Utf8 Value "foreignTransaction"
+62: Tag 1 Utf8 Value "()Ljava/lang/UnsupportedOperationException;"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 4, name org.wildfly.iiop.openjdk.tm.ForeignTransaction
+
+Super class: id 7, name java.lang.Object
+
+Implements class ids 8
+Implements names javax.transaction.Transaction
+
+Field name INSTANCE (index 9), type Lorg/wildfly/iiop/openjdk/tm/ForeignTransaction; (descriptor index 10)
+Human type: org.wildfly.iiop.openjdk.tm.ForeignTransaction
+Flags: decimal 25, hex 0019, binary 0000000000011001 public static final
+No field attributes
+
+Method name <init> (index 11), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 51
+Method name commit (index 17), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method attribute name Exceptions, size 12
+Method name rollback (index 24), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method attribute name Exceptions, size 6
+Method name setRollbackOnly (index 26), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method attribute name Exceptions, size 6
+Method name getStatus (index 27), type ()I (descriptor index 28)
+Human type: (): int
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method attribute name Exceptions, size 4
+Method name enlistResource (index 29), type (Ljavax/transaction/xa/XAResource;)Z (descriptor index 30)
+Human type: (javax.transaction.xa.XAResource): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 61
+Method attribute name Exceptions, size 8
+Method name delistResource (index 33), type (Ljavax/transaction/xa/XAResource;I)Z (descriptor index 34)
+Human type: (javax.transaction.xa.XAResource, int): boolean
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 71
+Method attribute name Exceptions, size 6
+Method name registerSynchronization (index 37), type (Ljavax/transaction/Synchronization;)V (descriptor index 38)
+Human type: (javax.transaction.Synchronization): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 61
+Method attribute name Exceptions, size 8
+Method name <clinit> (index 41), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 35
+
+Class attribute name SourceFile, size 2

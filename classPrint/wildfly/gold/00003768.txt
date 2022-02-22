@@ -1,0 +1,88 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 59
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "java/util/Random"
+9: Tag 10 MethodRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "java/lang/System"
+13: Tag 1 Utf8 Value "currentTimeMillis"
+14: Tag 1 Utf8 Value "()J"
+15: Tag 10 MethodRef Class index 7, Name and type index 16
+16: Tag 12 NameAndType Name index 5, Description index 17
+17: Tag 1 Utf8 Value "(J)V"
+18: Tag 9 FieldRef Class index 19, Name and type index 20
+19: Tag 7 Class Name index 21
+20: Tag 12 NameAndType Name index 22, Description index 23
+21: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/election/RandomSingletonElectionPolicy"
+22: Tag 1 Utf8 Value "random"
+23: Tag 1 Utf8 Value "Ljava/util/Random;"
+24: Tag 11 InterfaceMethodRef Class index 25, Name and type index 26
+25: Tag 7 Class Name index 27
+26: Tag 12 NameAndType Name index 28, Description index 29
+27: Tag 1 Utf8 Value "java/util/List"
+28: Tag 1 Utf8 Value "size"
+29: Tag 1 Utf8 Value "()I"
+30: Tag 10 MethodRef Class index 7, Name and type index 31
+31: Tag 12 NameAndType Name index 32, Description index 33
+32: Tag 1 Utf8 Value "nextInt"
+33: Tag 1 Utf8 Value "(I)I"
+34: Tag 11 InterfaceMethodRef Class index 25, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "get"
+37: Tag 1 Utf8 Value "(I)Ljava/lang/Object;"
+38: Tag 7 Class Name index 39
+39: Tag 1 Utf8 Value "org/wildfly/clustering/group/Node"
+40: Tag 7 Class Name index 41
+41: Tag 1 Utf8 Value "org/wildfly/clustering/singleton/SingletonElectionPolicy"
+42: Tag 1 Utf8 Value "Code"
+43: Tag 1 Utf8 Value "LineNumberTable"
+44: Tag 1 Utf8 Value "LocalVariableTable"
+45: Tag 1 Utf8 Value "this"
+46: Tag 1 Utf8 Value "Lorg/wildfly/clustering/singleton/election/RandomSingletonElectionPolicy;"
+47: Tag 1 Utf8 Value "elect"
+48: Tag 1 Utf8 Value "(Ljava/util/List;)Lorg/wildfly/clustering/group/Node;"
+49: Tag 1 Utf8 Value "nodes"
+50: Tag 1 Utf8 Value "Ljava/util/List;"
+51: Tag 1 Utf8 Value "I"
+52: Tag 1 Utf8 Value "LocalVariableTypeTable"
+53: Tag 1 Utf8 Value "Ljava/util/List<Lorg/wildfly/clustering/group/Node;>;"
+54: Tag 1 Utf8 Value "StackMapTable"
+55: Tag 1 Utf8 Value "Signature"
+56: Tag 1 Utf8 Value "(Ljava/util/List<Lorg/wildfly/clustering/group/Node;>;)Lorg/wildfly/clustering/group/Node;"
+57: Tag 1 Utf8 Value "SourceFile"
+58: Tag 1 Utf8 Value "RandomSingletonElectionPolicy.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 19, name org.wildfly.clustering.singleton.election.RandomSingletonElectionPolicy
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 40
+Implements names org.wildfly.clustering.singleton.SingletonElectionPolicy
+
+Field name random (index 22), type Ljava/util/Random; (descriptor index 23)
+Human type: java.util.Random
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 65
+Method name elect (index 47), type (Ljava/util/List;)Lorg/wildfly/clustering/group/Node; (descriptor index 48)
+Human type: (java.util.List): org.wildfly.clustering.group.Node
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 133
+Method attribute name Signature, size 2
+
+Class attribute name SourceFile, size 2

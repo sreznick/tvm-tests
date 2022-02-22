@@ -1,0 +1,188 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 123
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 7 Class Name index 8
+8: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaData"
+9: Tag 9 FieldRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaDataMarshaller"
+13: Tag 1 Utf8 Value "DEFAULT_MAX_INACTIVE_INTERVAL"
+14: Tag 1 Utf8 Value "Ljava/time/Duration;"
+15: Tag 9 FieldRef Class index 10, Name and type index 16
+16: Tag 12 NameAndType Name index 17, Description index 18
+17: Tag 1 Utf8 Value "DEFAULT_LAST_ACCESS_END_TIME"
+18: Tag 1 Utf8 Value "Ljava/time/Instant;"
+19: Tag 11 InterfaceMethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/ProtoStreamReader"
+23: Tag 1 Utf8 Value "isAtEnd"
+24: Tag 1 Utf8 Value "()Z"
+25: Tag 11 InterfaceMethodRef Class index 20, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 28
+27: Tag 1 Utf8 Value "readTag"
+28: Tag 1 Utf8 Value "()I"
+29: Tag 10 MethodRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/infinispan/protostream/descriptors/WireType"
+33: Tag 1 Utf8 Value "getTagFieldNumber"
+34: Tag 1 Utf8 Value "(I)I"
+35: Tag 7 Class Name index 36
+36: Tag 1 Utf8 Value "java/time/Duration"
+37: Tag 11 InterfaceMethodRef Class index 20, Name and type index 38
+38: Tag 12 NameAndType Name index 39, Description index 40
+39: Tag 1 Utf8 Value "readObject"
+40: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/Object;"
+41: Tag 7 Class Name index 42
+42: Tag 1 Utf8 Value "java/time/Instant"
+43: Tag 11 InterfaceMethodRef Class index 20, Name and type index 44
+44: Tag 12 NameAndType Name index 45, Description index 46
+45: Tag 1 Utf8 Value "skipField"
+46: Tag 1 Utf8 Value "(I)Z"
+47: Tag 10 MethodRef Class index 7, Name and type index 48
+48: Tag 12 NameAndType Name index 5, Description index 49
+49: Tag 1 Utf8 Value "(Ljava/time/Duration;Ljava/time/Instant;)V"
+50: Tag 10 MethodRef Class index 7, Name and type index 51
+51: Tag 12 NameAndType Name index 52, Description index 53
+52: Tag 1 Utf8 Value "getMaxInactiveInterval"
+53: Tag 1 Utf8 Value "()Ljava/time/Duration;"
+54: Tag 10 MethodRef Class index 35, Name and type index 55
+55: Tag 12 NameAndType Name index 56, Description index 57
+56: Tag 1 Utf8 Value "equals"
+57: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+58: Tag 11 InterfaceMethodRef Class index 59, Name and type index 60
+59: Tag 7 Class Name index 61
+60: Tag 12 NameAndType Name index 62, Description index 63
+61: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/ProtoStreamWriter"
+62: Tag 1 Utf8 Value "writeObject"
+63: Tag 1 Utf8 Value "(ILjava/lang/Object;)V"
+64: Tag 10 MethodRef Class index 7, Name and type index 65
+65: Tag 12 NameAndType Name index 66, Description index 67
+66: Tag 1 Utf8 Value "getLastAccessEndTime"
+67: Tag 1 Utf8 Value "()Ljava/time/Instant;"
+68: Tag 10 MethodRef Class index 41, Name and type index 55
+69: Tag 10 MethodRef Class index 10, Name and type index 70
+70: Tag 12 NameAndType Name index 71, Description index 72
+71: Tag 1 Utf8 Value "writeTo"
+72: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;Lorg/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaData;)V"
+73: Tag 10 MethodRef Class index 10, Name and type index 74
+74: Tag 12 NameAndType Name index 75, Description index 76
+75: Tag 1 Utf8 Value "readFrom"
+76: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;)Lorg/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaData;"
+77: Tag 5 Long Value 30
+79: Tag 10 MethodRef Class index 35, Name and type index 80
+80: Tag 12 NameAndType Name index 81, Description index 82
+81: Tag 1 Utf8 Value "ofMinutes"
+82: Tag 1 Utf8 Value "(J)Ljava/time/Duration;"
+83: Tag 9 FieldRef Class index 41, Name and type index 84
+84: Tag 12 NameAndType Name index 85, Description index 18
+85: Tag 1 Utf8 Value "EPOCH"
+86: Tag 7 Class Name index 87
+87: Tag 1 Utf8 Value "org/wildfly/clustering/marshalling/protostream/ProtoStreamMarshaller"
+88: Tag 1 Utf8 Value "MAX_INACTIVE_INTERVAL_INDEX"
+89: Tag 1 Utf8 Value "B"
+90: Tag 1 Utf8 Value "ConstantValue"
+91: Tag 3 Integer Value 1, hex: 0x1
+92: Tag 1 Utf8 Value "LAST_ACCESS_END_TIME_INDEX"
+93: Tag 3 Integer Value 2, hex: 0x2
+94: Tag 1 Utf8 Value "Code"
+95: Tag 1 Utf8 Value "LineNumberTable"
+96: Tag 1 Utf8 Value "LocalVariableTable"
+97: Tag 1 Utf8 Value "this"
+98: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaDataMarshaller;"
+99: Tag 1 Utf8 Value "getJavaClass"
+100: Tag 1 Utf8 Value "()Ljava/lang/Class;"
+101: Tag 1 Utf8 Value "Signature"
+102: Tag 1 Utf8 Value "()Ljava/lang/Class<+Lorg/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaData;>;"
+103: Tag 1 Utf8 Value "tag"
+104: Tag 1 Utf8 Value "I"
+105: Tag 1 Utf8 Value "reader"
+106: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;"
+107: Tag 1 Utf8 Value "maxInactiveInterval"
+108: Tag 1 Utf8 Value "lastAccessEndTime"
+109: Tag 1 Utf8 Value "StackMapTable"
+110: Tag 1 Utf8 Value "Exceptions"
+111: Tag 7 Class Name index 112
+112: Tag 1 Utf8 Value "java/io/IOException"
+113: Tag 1 Utf8 Value "writer"
+114: Tag 1 Utf8 Value "Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;"
+115: Tag 1 Utf8 Value "metaData"
+116: Tag 1 Utf8 Value "Lorg/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaData;"
+117: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;Ljava/lang/Object;)V"
+118: Tag 1 Utf8 Value "(Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;)Ljava/lang/Object;"
+119: Tag 1 Utf8 Value "<clinit>"
+120: Tag 1 Utf8 Value "Ljava/lang/Object;Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamMarshaller<Lorg/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaData;>;"
+121: Tag 1 Utf8 Value "SourceFile"
+122: Tag 1 Utf8 Value "SimpleSessionExpirationMetaDataMarshaller.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 10, name org.wildfly.clustering.web.infinispan.session.SimpleSessionExpirationMetaDataMarshaller
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 86
+Implements names org.wildfly.clustering.marshalling.protostream.ProtoStreamMarshaller
+
+Field name MAX_INACTIVE_INTERVAL_INDEX (index 88), type B (descriptor index 89)
+Human type: byte
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name LAST_ACCESS_END_TIME_INDEX (index 92), type B (descriptor index 89)
+Human type: byte
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+Field attribute name ConstantValue, size 2
+Field name DEFAULT_MAX_INACTIVE_INTERVAL (index 13), type Ljava/time/Duration; (descriptor index 14)
+Human type: java.time.Duration
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+Field name DEFAULT_LAST_ACCESS_END_TIME (index 17), type Ljava/time/Instant; (descriptor index 18)
+Human type: java.time.Instant
+Flags: decimal 26, hex 001a, binary 0000000000011010 private static final
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name getJavaClass (index 99), type ()Ljava/lang/Class; (descriptor index 100)
+Human type: (): java.lang.Class
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 45
+Method attribute name Signature, size 2
+Method name readFrom (index 75), type (Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;)Lorg/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaData; (descriptor index 76)
+Human type: (org.wildfly.clustering.marshalling.protostream.ProtoStreamReader): org.wildfly.clustering.web.infinispan.session.SimpleSessionExpirationMetaData
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 261
+Method attribute name Exceptions, size 4
+Method name writeTo (index 71), type (Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;Lorg/wildfly/clustering/web/infinispan/session/SimpleSessionExpirationMetaData;)V (descriptor index 72)
+Human type: (org.wildfly.clustering.marshalling.protostream.ProtoStreamWriter, org.wildfly.clustering.web.infinispan.session.SimpleSessionExpirationMetaData): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 176
+Method attribute name Exceptions, size 4
+Method name writeTo (index 71), type (Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamWriter;Ljava/lang/Object;)V (descriptor index 117)
+Human type: (org.wildfly.clustering.marshalling.protostream.ProtoStreamWriter, java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 52
+Method attribute name Exceptions, size 4
+Method name readFrom (index 75), type (Lorg/wildfly/clustering/marshalling/protostream/ProtoStreamReader;)Ljava/lang/Object; (descriptor index 118)
+Human type: (org.wildfly.clustering.marshalling.protostream.ProtoStreamReader): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 48
+Method attribute name Exceptions, size 4
+Method name <clinit> (index 119), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 8, hex 0008, binary 0000000000001000 static
+Method attribute name Code, size 44
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

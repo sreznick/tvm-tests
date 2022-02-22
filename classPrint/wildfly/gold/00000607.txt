@@ -1,0 +1,949 @@
+AAAA 4
+Version 52.0
+
+Constant Pool size 863
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyConfigurationResourceDefinition$Capability"
+5: Tag 1 Utf8 Value "SERVICE"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/ProxyConfigurationResourceDefinition$Capability;"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/CapabilityServiceNameProvider"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "(Lorg/jboss/as/clustering/controller/Capability;Lorg/jboss/as/controller/PathAddress;)V"
+13: Tag 9 FieldRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyConfigurationServiceConfigurator"
+17: Tag 1 Utf8 Value "advertiseSocketDependency"
+18: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency;"
+19: Tag 7 Class Name index 20
+20: Tag 1 Utf8 Value "java/util/LinkedList"
+21: Tag 10 MethodRef Class index 19, Name and type index 22
+22: Tag 12 NameAndType Name index 11, Description index 23
+23: Tag 1 Utf8 Value "()V"
+24: Tag 9 FieldRef Class index 14, Name and type index 25
+25: Tag 12 NameAndType Name index 26, Description index 27
+26: Tag 1 Utf8 Value "outboundSocketBindings"
+27: Tag 1 Utf8 Value "Ljava/util/List;"
+28: Tag 9 FieldRef Class index 14, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 18
+30: Tag 1 Utf8 Value "sslContextDependency"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "org/jboss/modcluster/config/builder/ModClusterConfigurationBuilder"
+33: Tag 10 MethodRef Class index 31, Name and type index 22
+34: Tag 9 FieldRef Class index 14, Name and type index 35
+35: Tag 12 NameAndType Name index 36, Description index 37
+36: Tag 1 Utf8 Value "builder"
+37: Tag 1 Utf8 Value "Lorg/jboss/modcluster/config/builder/ModClusterConfigurationBuilder;"
+38: Tag 10 MethodRef Class index 8, Name and type index 39
+39: Tag 12 NameAndType Name index 40, Description index 41
+40: Tag 1 Utf8 Value "getServiceName"
+41: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+42: Tag 7 Class Name index 43
+43: Tag 1 Utf8 Value "java/lang/String"
+44: Tag 8 String Contents 45
+45: Tag 1 Utf8 Value "configuration"
+46: Tag 10 MethodRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+50: Tag 1 Utf8 Value "append"
+51: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+52: Tag 9 FieldRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 56, Description index 57
+55: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyConfigurationResourceDefinition$Attribute"
+56: Tag 1 Utf8 Value "ADVERTISE_SOCKET"
+57: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/ProxyConfigurationResourceDefinition$Attribute;"
+58: Tag 10 MethodRef Class index 53, Name and type index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "resolveModelAttribute"
+61: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/ExpressionResolver;Lorg/jboss/dmr/ModelNode;)Lorg/jboss/dmr/ModelNode;"
+62: Tag 10 MethodRef Class index 63, Name and type index 64
+63: Tag 7 Class Name index 65
+64: Tag 12 NameAndType Name index 66, Description index 67
+65: Tag 1 Utf8 Value "org/jboss/as/clustering/dmr/ModelNodes"
+66: Tag 1 Utf8 Value "optionalString"
+67: Tag 1 Utf8 Value "(Lorg/jboss/dmr/ModelNode;)Ljava/util/Optional;"
+68: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 69
+69: Tag 12 NameAndType Name index 70, Description index 71
+70: Tag 1 Utf8 Value "accept"
+71: Tag 1 Utf8 Value "(Lorg/wildfly/extension/mod_cluster/ProxyConfigurationServiceConfigurator;Lorg/jboss/as/controller/OperationContext;)Ljava/util/function/Consumer;"
+72: Tag 10 MethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "java/util/Optional"
+76: Tag 1 Utf8 Value "ifPresent"
+77: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;)V"
+78: Tag 9 FieldRef Class index 53, Name and type index 79
+79: Tag 12 NameAndType Name index 80, Description index 57
+80: Tag 1 Utf8 Value "ADVERTISE_SECURITY_KEY"
+81: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 82
+82: Tag 12 NameAndType Name index 70, Description index 83
+83: Tag 1 Utf8 Value "(Lorg/wildfly/extension/mod_cluster/ProxyConfigurationServiceConfigurator;)Ljava/util/function/Consumer;"
+84: Tag 10 MethodRef Class index 31, Name and type index 85
+85: Tag 12 NameAndType Name index 86, Description index 87
+86: Tag 1 Utf8 Value "mcmp"
+87: Tag 1 Utf8 Value "()Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+88: Tag 9 FieldRef Class index 53, Name and type index 89
+89: Tag 12 NameAndType Name index 90, Description index 57
+90: Tag 1 Utf8 Value "ADVERTISE"
+91: Tag 10 MethodRef Class index 92, Name and type index 93
+92: Tag 7 Class Name index 94
+93: Tag 12 NameAndType Name index 95, Description index 96
+94: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+95: Tag 1 Utf8 Value "asBoolean"
+96: Tag 1 Utf8 Value "()Z"
+97: Tag 10 MethodRef Class index 98, Name and type index 99
+98: Tag 7 Class Name index 100
+99: Tag 12 NameAndType Name index 101, Description index 102
+100: Tag 1 Utf8 Value "java/lang/Boolean"
+101: Tag 1 Utf8 Value "valueOf"
+102: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+103: Tag 10 MethodRef Class index 104, Name and type index 105
+104: Tag 7 Class Name index 106
+105: Tag 12 NameAndType Name index 107, Description index 108
+106: Tag 1 Utf8 Value "org/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder"
+107: Tag 1 Utf8 Value "setAdvertise"
+108: Tag 1 Utf8 Value "(Ljava/lang/Boolean;)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+109: Tag 9 FieldRef Class index 53, Name and type index 110
+110: Tag 12 NameAndType Name index 111, Description index 57
+111: Tag 1 Utf8 Value "PROXY_URL"
+112: Tag 10 MethodRef Class index 92, Name and type index 113
+113: Tag 12 NameAndType Name index 114, Description index 115
+114: Tag 1 Utf8 Value "asString"
+115: Tag 1 Utf8 Value "()Ljava/lang/String;"
+116: Tag 10 MethodRef Class index 104, Name and type index 117
+117: Tag 12 NameAndType Name index 118, Description index 119
+118: Tag 1 Utf8 Value "setProxyURL"
+119: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+120: Tag 9 FieldRef Class index 53, Name and type index 121
+121: Tag 12 NameAndType Name index 122, Description index 57
+122: Tag 1 Utf8 Value "AUTO_ENABLE_CONTEXTS"
+123: Tag 10 MethodRef Class index 104, Name and type index 124
+124: Tag 12 NameAndType Name index 125, Description index 126
+125: Tag 1 Utf8 Value "setAutoEnableContexts"
+126: Tag 1 Utf8 Value "(Z)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+127: Tag 9 FieldRef Class index 53, Name and type index 128
+128: Tag 12 NameAndType Name index 129, Description index 57
+129: Tag 1 Utf8 Value "STOP_CONTEXT_TIMEOUT"
+130: Tag 10 MethodRef Class index 92, Name and type index 131
+131: Tag 12 NameAndType Name index 132, Description index 133
+132: Tag 1 Utf8 Value "asInt"
+133: Tag 1 Utf8 Value "()I"
+134: Tag 10 MethodRef Class index 104, Name and type index 135
+135: Tag 12 NameAndType Name index 136, Description index 137
+136: Tag 1 Utf8 Value "setStopContextTimeout"
+137: Tag 1 Utf8 Value "(J)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+138: Tag 10 MethodRef Class index 53, Name and type index 139
+139: Tag 12 NameAndType Name index 140, Description index 141
+140: Tag 1 Utf8 Value "getDefinition"
+141: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/AttributeDefinition;"
+142: Tag 10 MethodRef Class index 143, Name and type index 144
+143: Tag 7 Class Name index 145
+144: Tag 12 NameAndType Name index 146, Description index 147
+145: Tag 1 Utf8 Value "org/jboss/as/controller/AttributeDefinition"
+146: Tag 1 Utf8 Value "getMeasurementUnit"
+147: Tag 1 Utf8 Value "()Lorg/jboss/as/controller/client/helpers/MeasurementUnit;"
+148: Tag 10 MethodRef Class index 149, Name and type index 150
+149: Tag 7 Class Name index 151
+150: Tag 12 NameAndType Name index 152, Description index 115
+151: Tag 1 Utf8 Value "org/jboss/as/controller/client/helpers/MeasurementUnit"
+152: Tag 1 Utf8 Value "getName"
+153: Tag 10 MethodRef Class index 154, Name and type index 155
+154: Tag 7 Class Name index 156
+155: Tag 12 NameAndType Name index 101, Description index 157
+156: Tag 1 Utf8 Value "java/util/concurrent/TimeUnit"
+157: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/concurrent/TimeUnit;"
+158: Tag 10 MethodRef Class index 104, Name and type index 159
+159: Tag 12 NameAndType Name index 160, Description index 161
+160: Tag 1 Utf8 Value "setStopContextTimeoutUnit"
+161: Tag 1 Utf8 Value "(Ljava/util/concurrent/TimeUnit;)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+162: Tag 9 FieldRef Class index 53, Name and type index 163
+163: Tag 12 NameAndType Name index 164, Description index 57
+164: Tag 1 Utf8 Value "SOCKET_TIMEOUT"
+165: Tag 10 MethodRef Class index 104, Name and type index 166
+166: Tag 12 NameAndType Name index 167, Description index 168
+167: Tag 1 Utf8 Value "setSocketTimeout"
+168: Tag 1 Utf8 Value "(I)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+169: Tag 7 Class Name index 170
+170: Tag 1 Utf8 Value "org/jboss/modcluster/config/impl/SessionDrainingStrategyEnum"
+171: Tag 9 FieldRef Class index 53, Name and type index 172
+172: Tag 12 NameAndType Name index 173, Description index 57
+173: Tag 1 Utf8 Value "SESSION_DRAINING_STRATEGY"
+174: Tag 10 MethodRef Class index 175, Name and type index 176
+175: Tag 7 Class Name index 177
+176: Tag 12 NameAndType Name index 101, Description index 178
+177: Tag 1 Utf8 Value "java/lang/Enum"
+178: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;"
+179: Tag 7 Class Name index 180
+180: Tag 1 Utf8 Value "org/jboss/modcluster/config/SessionDrainingStrategy"
+181: Tag 10 MethodRef Class index 104, Name and type index 182
+182: Tag 12 NameAndType Name index 183, Description index 184
+183: Tag 1 Utf8 Value "setSessionDrainingStrategy"
+184: Tag 1 Utf8 Value "(Lorg/jboss/modcluster/config/SessionDrainingStrategy;)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+185: Tag 9 FieldRef Class index 53, Name and type index 186
+186: Tag 12 NameAndType Name index 187, Description index 57
+187: Tag 1 Utf8 Value "EXCLUDED_CONTEXTS"
+188: Tag 10 MethodRef Class index 53, Name and type index 150
+189: Tag 10 MethodRef Class index 92, Name and type index 190
+190: Tag 12 NameAndType Name index 191, Description index 192
+191: Tag 1 Utf8 Value "hasDefined"
+192: Tag 1 Utf8 Value "(Ljava/lang/String;)Z"
+193: Tag 10 MethodRef Class index 194, Name and type index 195
+194: Tag 7 Class Name index 196
+195: Tag 12 NameAndType Name index 197, Description index 198
+196: Tag 1 Utf8 Value "java/util/Collections"
+197: Tag 1 Utf8 Value "emptyMap"
+198: Tag 1 Utf8 Value "()Ljava/util/Map;"
+199: Tag 10 MethodRef Class index 42, Name and type index 200
+200: Tag 12 NameAndType Name index 201, Description index 115
+201: Tag 1 Utf8 Value "trim"
+202: Tag 10 MethodRef Class index 42, Name and type index 203
+203: Tag 12 NameAndType Name index 204, Description index 96
+204: Tag 1 Utf8 Value "isEmpty"
+205: Tag 7 Class Name index 206
+206: Tag 1 Utf8 Value "java/util/HashMap"
+207: Tag 10 MethodRef Class index 205, Name and type index 22
+208: Tag 8 String Contents 209
+209: Tag 1 Utf8 Value ","
+210: Tag 10 MethodRef Class index 42, Name and type index 211
+211: Tag 12 NameAndType Name index 212, Description index 213
+212: Tag 1 Utf8 Value "split"
+213: Tag 1 Utf8 Value "(Ljava/lang/String;)[Ljava/lang/String;"
+214: Tag 8 String Contents 215
+215: Tag 1 Utf8 Value ":"
+216: Tag 9 FieldRef Class index 217, Name and type index 218
+217: Tag 7 Class Name index 219
+218: Tag 12 NameAndType Name index 220, Description index 221
+219: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ModClusterLogger"
+220: Tag 1 Utf8 Value "ROOT_LOGGER"
+221: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/ModClusterLogger;"
+222: Tag 11 InterfaceMethodRef Class index 217, Name and type index 223
+223: Tag 12 NameAndType Name index 224, Description index 225
+224: Tag 1 Utf8 Value "excludedContextsWrongFormat"
+225: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;"
+226: Tag 10 MethodRef Class index 42, Name and type index 227
+227: Tag 12 NameAndType Name index 228, Description index 133
+228: Tag 1 Utf8 Value "hashCode"
+229: Tag 8 String Contents 230
+230: Tag 1 Utf8 Value "ROOT"
+231: Tag 10 MethodRef Class index 42, Name and type index 232
+232: Tag 12 NameAndType Name index 233, Description index 234
+233: Tag 1 Utf8 Value "equals"
+234: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+235: Tag 8 String Contents 236
+236: Tag 1 Utf8 Value "/"
+237: Tag 11 InterfaceMethodRef Class index 217, Name and type index 238
+238: Tag 12 NameAndType Name index 239, Description index 23
+239: Tag 1 Utf8 Value "excludedContextsUseSlashInsteadROOT"
+240: Tag 8 String Contents 241
+241: Tag 1 Utf8 Value ""
+242: Tag 10 MethodRef Class index 42, Name and type index 243
+243: Tag 12 NameAndType Name index 244, Description index 192
+244: Tag 1 Utf8 Value "startsWith"
+245: Tag 7 Class Name index 246
+246: Tag 1 Utf8 Value "java/lang/StringBuilder"
+247: Tag 10 MethodRef Class index 245, Name and type index 22
+248: Tag 10 MethodRef Class index 245, Name and type index 249
+249: Tag 12 NameAndType Name index 50, Description index 250
+250: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+251: Tag 10 MethodRef Class index 245, Name and type index 252
+252: Tag 12 NameAndType Name index 253, Description index 115
+253: Tag 1 Utf8 Value "toString"
+254: Tag 10 MethodRef Class index 42, Name and type index 255
+255: Tag 12 NameAndType Name index 256, Description index 192
+256: Tag 1 Utf8 Value "endsWith"
+257: Tag 10 MethodRef Class index 42, Name and type index 258
+258: Tag 12 NameAndType Name index 259, Description index 133
+259: Tag 1 Utf8 Value "length"
+260: Tag 10 MethodRef Class index 42, Name and type index 261
+261: Tag 12 NameAndType Name index 262, Description index 263
+262: Tag 1 Utf8 Value "substring"
+263: Tag 1 Utf8 Value "(II)Ljava/lang/String;"
+264: Tag 18 InvokeDynamic Bootstrap index 2, NameAndType index 265
+265: Tag 12 NameAndType Name index 266, Description index 267
+266: Tag 1 Utf8 Value "apply"
+267: Tag 1 Utf8 Value "()Ljava/util/function/Function;"
+268: Tag 11 InterfaceMethodRef Class index 269, Name and type index 270
+269: Tag 7 Class Name index 271
+270: Tag 12 NameAndType Name index 272, Description index 273
+271: Tag 1 Utf8 Value "java/util/Map"
+272: Tag 1 Utf8 Value "computeIfAbsent"
+273: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;"
+274: Tag 7 Class Name index 275
+275: Tag 1 Utf8 Value "java/util/Set"
+276: Tag 11 InterfaceMethodRef Class index 274, Name and type index 277
+277: Tag 12 NameAndType Name index 278, Description index 234
+278: Tag 1 Utf8 Value "add"
+279: Tag 10 MethodRef Class index 104, Name and type index 280
+280: Tag 12 NameAndType Name index 281, Description index 282
+281: Tag 1 Utf8 Value "setExcludedContextsPerHost"
+282: Tag 1 Utf8 Value "(Ljava/util/Map;)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+283: Tag 10 MethodRef Class index 31, Name and type index 284
+284: Tag 12 NameAndType Name index 285, Description index 286
+285: Tag 1 Utf8 Value "balancer"
+286: Tag 1 Utf8 Value "()Lorg/jboss/modcluster/config/builder/BalancerConfigurationBuilder;"
+287: Tag 9 FieldRef Class index 53, Name and type index 288
+288: Tag 12 NameAndType Name index 289, Description index 57
+289: Tag 1 Utf8 Value "STICKY_SESSION"
+290: Tag 10 MethodRef Class index 291, Name and type index 292
+291: Tag 7 Class Name index 293
+292: Tag 12 NameAndType Name index 294, Description index 295
+293: Tag 1 Utf8 Value "org/jboss/modcluster/config/builder/BalancerConfigurationBuilder"
+294: Tag 1 Utf8 Value "setStickySession"
+295: Tag 1 Utf8 Value "(Z)Lorg/jboss/modcluster/config/builder/BalancerConfigurationBuilder;"
+296: Tag 9 FieldRef Class index 53, Name and type index 297
+297: Tag 12 NameAndType Name index 298, Description index 57
+298: Tag 1 Utf8 Value "STICKY_SESSION_REMOVE"
+299: Tag 10 MethodRef Class index 291, Name and type index 300
+300: Tag 12 NameAndType Name index 301, Description index 295
+301: Tag 1 Utf8 Value "setStickySessionRemove"
+302: Tag 9 FieldRef Class index 53, Name and type index 303
+303: Tag 12 NameAndType Name index 304, Description index 57
+304: Tag 1 Utf8 Value "STICKY_SESSION_FORCE"
+305: Tag 10 MethodRef Class index 291, Name and type index 306
+306: Tag 12 NameAndType Name index 307, Description index 295
+307: Tag 1 Utf8 Value "setStickySessionForce"
+308: Tag 9 FieldRef Class index 53, Name and type index 309
+309: Tag 12 NameAndType Name index 310, Description index 57
+310: Tag 1 Utf8 Value "WORKER_TIMEOUT"
+311: Tag 10 MethodRef Class index 291, Name and type index 312
+312: Tag 12 NameAndType Name index 313, Description index 314
+313: Tag 1 Utf8 Value "setWorkerTimeout"
+314: Tag 1 Utf8 Value "(I)Lorg/jboss/modcluster/config/builder/BalancerConfigurationBuilder;"
+315: Tag 9 FieldRef Class index 53, Name and type index 316
+316: Tag 12 NameAndType Name index 317, Description index 57
+317: Tag 1 Utf8 Value "MAX_ATTEMPTS"
+318: Tag 10 MethodRef Class index 291, Name and type index 319
+319: Tag 12 NameAndType Name index 320, Description index 314
+320: Tag 1 Utf8 Value "setMaxAttempts"
+321: Tag 10 MethodRef Class index 31, Name and type index 322
+322: Tag 12 NameAndType Name index 323, Description index 324
+323: Tag 1 Utf8 Value "node"
+324: Tag 1 Utf8 Value "()Lorg/jboss/modcluster/config/builder/NodeConfigurationBuilder;"
+325: Tag 9 FieldRef Class index 53, Name and type index 326
+326: Tag 12 NameAndType Name index 327, Description index 57
+327: Tag 1 Utf8 Value "FLUSH_PACKETS"
+328: Tag 10 MethodRef Class index 329, Name and type index 330
+329: Tag 7 Class Name index 331
+330: Tag 12 NameAndType Name index 332, Description index 333
+331: Tag 1 Utf8 Value "org/jboss/modcluster/config/builder/NodeConfigurationBuilder"
+332: Tag 1 Utf8 Value "setFlushPackets"
+333: Tag 1 Utf8 Value "(Z)Lorg/jboss/modcluster/config/builder/NodeConfigurationBuilder;"
+334: Tag 9 FieldRef Class index 53, Name and type index 335
+335: Tag 12 NameAndType Name index 336, Description index 57
+336: Tag 1 Utf8 Value "FLUSH_WAIT"
+337: Tag 10 MethodRef Class index 329, Name and type index 338
+338: Tag 12 NameAndType Name index 339, Description index 340
+339: Tag 1 Utf8 Value "setFlushWait"
+340: Tag 1 Utf8 Value "(I)Lorg/jboss/modcluster/config/builder/NodeConfigurationBuilder;"
+341: Tag 9 FieldRef Class index 53, Name and type index 342
+342: Tag 12 NameAndType Name index 343, Description index 57
+343: Tag 1 Utf8 Value "PING"
+344: Tag 10 MethodRef Class index 329, Name and type index 345
+345: Tag 12 NameAndType Name index 346, Description index 340
+346: Tag 1 Utf8 Value "setPing"
+347: Tag 9 FieldRef Class index 53, Name and type index 348
+348: Tag 12 NameAndType Name index 349, Description index 57
+349: Tag 1 Utf8 Value "SMAX"
+350: Tag 10 MethodRef Class index 329, Name and type index 351
+351: Tag 12 NameAndType Name index 352, Description index 340
+352: Tag 1 Utf8 Value "setSmax"
+353: Tag 9 FieldRef Class index 53, Name and type index 354
+354: Tag 12 NameAndType Name index 355, Description index 57
+355: Tag 1 Utf8 Value "TTL"
+356: Tag 10 MethodRef Class index 329, Name and type index 357
+357: Tag 12 NameAndType Name index 358, Description index 340
+358: Tag 1 Utf8 Value "setTtl"
+359: Tag 9 FieldRef Class index 53, Name and type index 360
+360: Tag 12 NameAndType Name index 361, Description index 57
+361: Tag 1 Utf8 Value "NODE_TIMEOUT"
+362: Tag 10 MethodRef Class index 329, Name and type index 363
+363: Tag 12 NameAndType Name index 364, Description index 340
+364: Tag 1 Utf8 Value "setNodeTimeout"
+365: Tag 9 FieldRef Class index 53, Name and type index 366
+366: Tag 12 NameAndType Name index 367, Description index 57
+367: Tag 1 Utf8 Value "BALANCER"
+368: Tag 10 MethodRef Class index 92, Name and type index 369
+369: Tag 12 NameAndType Name index 370, Description index 96
+370: Tag 1 Utf8 Value "isDefined"
+371: Tag 10 MethodRef Class index 329, Name and type index 372
+372: Tag 12 NameAndType Name index 373, Description index 374
+373: Tag 1 Utf8 Value "setBalancer"
+374: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/modcluster/config/builder/NodeConfigurationBuilder;"
+375: Tag 9 FieldRef Class index 53, Name and type index 376
+376: Tag 12 NameAndType Name index 377, Description index 57
+377: Tag 1 Utf8 Value "LOAD_BALANCING_GROUP"
+378: Tag 10 MethodRef Class index 329, Name and type index 379
+379: Tag 12 NameAndType Name index 380, Description index 374
+380: Tag 1 Utf8 Value "setLoadBalancingGroup"
+381: Tag 9 FieldRef Class index 53, Name and type index 382
+382: Tag 12 NameAndType Name index 383, Description index 57
+383: Tag 1 Utf8 Value "PROXIES"
+384: Tag 10 MethodRef Class index 92, Name and type index 385
+385: Tag 12 NameAndType Name index 386, Description index 387
+386: Tag 1 Utf8 Value "asList"
+387: Tag 1 Utf8 Value "()Ljava/util/List;"
+388: Tag 11 InterfaceMethodRef Class index 389, Name and type index 390
+389: Tag 7 Class Name index 391
+390: Tag 12 NameAndType Name index 392, Description index 393
+391: Tag 1 Utf8 Value "java/util/List"
+392: Tag 1 Utf8 Value "iterator"
+393: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+394: Tag 11 InterfaceMethodRef Class index 395, Name and type index 396
+395: Tag 7 Class Name index 397
+396: Tag 12 NameAndType Name index 398, Description index 96
+397: Tag 1 Utf8 Value "java/util/Iterator"
+398: Tag 1 Utf8 Value "hasNext"
+399: Tag 11 InterfaceMethodRef Class index 395, Name and type index 400
+400: Tag 12 NameAndType Name index 401, Description index 402
+401: Tag 1 Utf8 Value "next"
+402: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+403: Tag 7 Class Name index 404
+404: Tag 1 Utf8 Value "org/wildfly/clustering/service/ServiceSupplierDependency"
+405: Tag 9 FieldRef Class index 406, Name and type index 407
+406: Tag 7 Class Name index 408
+407: Tag 12 NameAndType Name index 409, Description index 410
+408: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/CommonUnaryRequirement"
+409: Tag 1 Utf8 Value "OUTBOUND_SOCKET_BINDING"
+410: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/CommonUnaryRequirement;"
+411: Tag 10 MethodRef Class index 406, Name and type index 412
+412: Tag 12 NameAndType Name index 40, Description index 413
+413: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+414: Tag 10 MethodRef Class index 403, Name and type index 415
+415: Tag 12 NameAndType Name index 11, Description index 416
+416: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+417: Tag 11 InterfaceMethodRef Class index 389, Name and type index 277
+418: Tag 9 FieldRef Class index 53, Name and type index 419
+419: Tag 12 NameAndType Name index 420, Description index 57
+420: Tag 1 Utf8 Value "PROXY_LIST"
+421: Tag 10 MethodRef Class index 92, Name and type index 422
+422: Tag 12 NameAndType Name index 423, Description index 115
+423: Tag 1 Utf8 Value "asStringOrNull"
+424: Tag 7 Class Name index 425
+425: Tag 1 Utf8 Value "java/util/ArrayList"
+426: Tag 10 MethodRef Class index 424, Name and type index 427
+427: Tag 12 NameAndType Name index 11, Description index 428
+428: Tag 1 Utf8 Value "(I)V"
+429: Tag 7 Class Name index 430
+430: Tag 1 Utf8 Value "org/jboss/modcluster/ModClusterService"
+431: Tag 10 MethodRef Class index 432, Name and type index 433
+432: Tag 7 Class Name index 434
+433: Tag 12 NameAndType Name index 435, Description index 436
+434: Tag 1 Utf8 Value "org/jboss/modcluster/Utils"
+435: Tag 1 Utf8 Value "parseSocketAddress"
+436: Tag 1 Utf8 Value "(Ljava/lang/String;I)Ljava/net/InetSocketAddress;"
+437: Tag 7 Class Name index 438
+438: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyConfigurationServiceConfigurator$1"
+439: Tag 10 MethodRef Class index 437, Name and type index 440
+440: Tag 12 NameAndType Name index 11, Description index 441
+441: Tag 1 Utf8 Value "(Lorg/wildfly/extension/mod_cluster/ProxyConfigurationServiceConfigurator;Ljava/net/InetSocketAddress;)V"
+442: Tag 11 InterfaceMethodRef Class index 443, Name and type index 277
+443: Tag 7 Class Name index 444
+444: Tag 1 Utf8 Value "java/util/Collection"
+445: Tag 7 Class Name index 446
+446: Tag 1 Utf8 Value "java/net/UnknownHostException"
+447: Tag 7 Class Name index 448
+448: Tag 1 Utf8 Value "java/lang/IllegalArgumentException"
+449: Tag 10 MethodRef Class index 447, Name and type index 450
+450: Tag 12 NameAndType Name index 11, Description index 451
+451: Tag 1 Utf8 Value "(Ljava/lang/Throwable;)V"
+452: Tag 10 MethodRef Class index 104, Name and type index 453
+453: Tag 12 NameAndType Name index 454, Description index 455
+454: Tag 1 Utf8 Value "setProxyConfigurations"
+455: Tag 1 Utf8 Value "(Ljava/util/Collection;)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+456: Tag 9 FieldRef Class index 53, Name and type index 457
+457: Tag 12 NameAndType Name index 458, Description index 57
+458: Tag 1 Utf8 Value "SSL_CONTEXT"
+459: Tag 9 FieldRef Class index 406, Name and type index 460
+460: Tag 12 NameAndType Name index 458, Description index 410
+461: Tag 9 FieldRef Class index 462, Name and type index 463
+462: Tag 7 Class Name index 464
+463: Tag 12 NameAndType Name index 465, Description index 466
+464: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/SSLResourceDefinition"
+465: Tag 1 Utf8 Value "PATH"
+466: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathElement;"
+467: Tag 10 MethodRef Class index 468, Name and type index 469
+468: Tag 7 Class Name index 470
+469: Tag 12 NameAndType Name index 471, Description index 472
+470: Tag 1 Utf8 Value "org/jboss/as/controller/PathElement"
+471: Tag 1 Utf8 Value "getKeyValuePair"
+472: Tag 1 Utf8 Value "()[Ljava/lang/String;"
+473: Tag 10 MethodRef Class index 92, Name and type index 474
+474: Tag 12 NameAndType Name index 475, Description index 476
+475: Tag 1 Utf8 Value "get"
+476: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/dmr/ModelNode;"
+477: Tag 11 InterfaceMethodRef Class index 217, Name and type index 478
+478: Tag 12 NameAndType Name index 479, Description index 480
+479: Tag 1 Utf8 Value "bothElytronAndLegacySslContextDefined"
+480: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+481: Tag 7 Class Name index 482
+482: Tag 1 Utf8 Value "org/jboss/modcluster/config/impl/ModClusterConfig"
+483: Tag 10 MethodRef Class index 481, Name and type index 22
+484: Tag 9 FieldRef Class index 485, Name and type index 486
+485: Tag 7 Class Name index 487
+486: Tag 12 NameAndType Name index 488, Description index 489
+487: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/SSLResourceDefinition$Attribute"
+488: Tag 1 Utf8 Value "KEY_ALIAS"
+489: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/SSLResourceDefinition$Attribute;"
+490: Tag 10 MethodRef Class index 485, Name and type index 59
+491: Tag 10 MethodRef Class index 481, Name and type index 492
+492: Tag 12 NameAndType Name index 493, Description index 494
+493: Tag 1 Utf8 Value "setSslKeyAlias"
+494: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+495: Tag 9 FieldRef Class index 485, Name and type index 496
+496: Tag 12 NameAndType Name index 497, Description index 489
+497: Tag 1 Utf8 Value "PASSWORD"
+498: Tag 10 MethodRef Class index 481, Name and type index 499
+499: Tag 12 NameAndType Name index 500, Description index 494
+500: Tag 1 Utf8 Value "setSslTrustStorePassword"
+501: Tag 10 MethodRef Class index 481, Name and type index 502
+502: Tag 12 NameAndType Name index 503, Description index 494
+503: Tag 1 Utf8 Value "setSslKeyStorePassword"
+504: Tag 9 FieldRef Class index 485, Name and type index 505
+505: Tag 12 NameAndType Name index 506, Description index 489
+506: Tag 1 Utf8 Value "CERTIFICATE_KEY_FILE"
+507: Tag 10 MethodRef Class index 481, Name and type index 508
+508: Tag 12 NameAndType Name index 509, Description index 494
+509: Tag 1 Utf8 Value "setSslKeyStore"
+510: Tag 9 FieldRef Class index 485, Name and type index 511
+511: Tag 12 NameAndType Name index 512, Description index 489
+512: Tag 1 Utf8 Value "CIPHER_SUITE"
+513: Tag 10 MethodRef Class index 481, Name and type index 514
+514: Tag 12 NameAndType Name index 515, Description index 494
+515: Tag 1 Utf8 Value "setSslCiphers"
+516: Tag 9 FieldRef Class index 485, Name and type index 517
+517: Tag 12 NameAndType Name index 518, Description index 489
+518: Tag 1 Utf8 Value "PROTOCOL"
+519: Tag 10 MethodRef Class index 481, Name and type index 520
+520: Tag 12 NameAndType Name index 521, Description index 494
+521: Tag 1 Utf8 Value "setSslProtocol"
+522: Tag 9 FieldRef Class index 485, Name and type index 523
+523: Tag 12 NameAndType Name index 524, Description index 489
+524: Tag 1 Utf8 Value "CA_CERTIFICATE_FILE"
+525: Tag 10 MethodRef Class index 481, Name and type index 526
+526: Tag 12 NameAndType Name index 527, Description index 494
+527: Tag 1 Utf8 Value "setSslTrustStore"
+528: Tag 9 FieldRef Class index 485, Name and type index 529
+529: Tag 12 NameAndType Name index 530, Description index 489
+530: Tag 1 Utf8 Value "CA_REVOCATION_URL"
+531: Tag 10 MethodRef Class index 481, Name and type index 532
+532: Tag 12 NameAndType Name index 533, Description index 494
+533: Tag 1 Utf8 Value "setSslCrlFile"
+534: Tag 7 Class Name index 535
+535: Tag 1 Utf8 Value "org/jboss/modcluster/mcmp/impl/JSSESocketFactory"
+536: Tag 10 MethodRef Class index 534, Name and type index 537
+537: Tag 12 NameAndType Name index 11, Description index 538
+538: Tag 1 Utf8 Value "(Lorg/jboss/modcluster/config/SSLConfiguration;)V"
+539: Tag 10 MethodRef Class index 104, Name and type index 540
+540: Tag 12 NameAndType Name index 541, Description index 542
+541: Tag 1 Utf8 Value "setSocketFactory"
+542: Tag 1 Utf8 Value "(Ljavax/net/SocketFactory;)Lorg/jboss/modcluster/config/builder/MCMPHandlerConfigurationBuilder;"
+543: Tag 10 MethodRef Class index 14, Name and type index 39
+544: Tag 11 InterfaceMethodRef Class index 545, Name and type index 546
+545: Tag 7 Class Name index 547
+546: Tag 12 NameAndType Name index 548, Description index 549
+547: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+548: Tag 1 Utf8 Value "addService"
+549: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+550: Tag 7 Class Name index 551
+551: Tag 1 Utf8 Value "org/wildfly/clustering/service/CompositeDependency"
+552: Tag 7 Class Name index 553
+553: Tag 1 Utf8 Value "org/wildfly/clustering/service/Dependency"
+554: Tag 10 MethodRef Class index 550, Name and type index 555
+555: Tag 12 NameAndType Name index 11, Description index 556
+556: Tag 1 Utf8 Value "([Lorg/wildfly/clustering/service/Dependency;)V"
+557: Tag 10 MethodRef Class index 550, Name and type index 558
+558: Tag 12 NameAndType Name index 559, Description index 560
+559: Tag 1 Utf8 Value "register"
+560: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceBuilder;)Lorg/jboss/msc/service/ServiceBuilder;"
+561: Tag 11 InterfaceMethodRef Class index 562, Name and type index 563
+562: Tag 7 Class Name index 564
+563: Tag 12 NameAndType Name index 565, Description index 566
+564: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+565: Tag 1 Utf8 Value "provides"
+566: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+567: Tag 11 InterfaceMethodRef Class index 552, Name and type index 558
+568: Tag 7 Class Name index 569
+569: Tag 1 Utf8 Value "org/wildfly/clustering/service/FunctionalService"
+570: Tag 11 InterfaceMethodRef Class index 571, Name and type index 572
+571: Tag 7 Class Name index 573
+572: Tag 12 NameAndType Name index 574, Description index 267
+573: Tag 1 Utf8 Value "java/util/function/Function"
+574: Tag 1 Utf8 Value "identity"
+575: Tag 10 MethodRef Class index 568, Name and type index 576
+576: Tag 12 NameAndType Name index 11, Description index 577
+577: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;Ljava/util/function/Function;Ljava/util/function/Supplier;Ljava/util/function/Consumer;)V"
+578: Tag 11 InterfaceMethodRef Class index 562, Name and type index 579
+579: Tag 12 NameAndType Name index 580, Description index 581
+580: Tag 1 Utf8 Value "setInstance"
+581: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+582: Tag 9 FieldRef Class index 583, Name and type index 584
+583: Tag 7 Class Name index 585
+584: Tag 12 NameAndType Name index 586, Description index 587
+585: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController$Mode"
+586: Tag 1 Utf8 Value "PASSIVE"
+587: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceController$Mode;"
+588: Tag 11 InterfaceMethodRef Class index 562, Name and type index 589
+589: Tag 12 NameAndType Name index 590, Description index 591
+590: Tag 1 Utf8 Value "setInitialMode"
+591: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceController$Mode;)Lorg/jboss/msc/service/ServiceBuilder;"
+592: Tag 11 InterfaceMethodRef Class index 593, Name and type index 594
+593: Tag 7 Class Name index 595
+594: Tag 12 NameAndType Name index 475, Description index 402
+595: Tag 1 Utf8 Value "org/wildfly/clustering/service/SupplierDependency"
+596: Tag 7 Class Name index 597
+597: Tag 1 Utf8 Value "org/jboss/as/network/SocketBinding"
+598: Tag 10 MethodRef Class index 31, Name and type index 599
+599: Tag 12 NameAndType Name index 600, Description index 601
+600: Tag 1 Utf8 Value "advertise"
+601: Tag 1 Utf8 Value "()Lorg/jboss/modcluster/config/builder/AdvertiseConfigurationBuilder;"
+602: Tag 10 MethodRef Class index 596, Name and type index 603
+603: Tag 12 NameAndType Name index 604, Description index 605
+604: Tag 1 Utf8 Value "getMulticastSocketAddress"
+605: Tag 1 Utf8 Value "()Ljava/net/InetSocketAddress;"
+606: Tag 10 MethodRef Class index 607, Name and type index 608
+607: Tag 7 Class Name index 609
+608: Tag 12 NameAndType Name index 610, Description index 611
+609: Tag 1 Utf8 Value "org/jboss/modcluster/config/builder/AdvertiseConfigurationBuilder"
+610: Tag 1 Utf8 Value "setAdvertiseSocketAddress"
+611: Tag 1 Utf8 Value "(Ljava/net/InetSocketAddress;)Lorg/jboss/modcluster/config/builder/AdvertiseConfigurationBuilder;"
+612: Tag 10 MethodRef Class index 596, Name and type index 613
+613: Tag 12 NameAndType Name index 614, Description index 615
+614: Tag 1 Utf8 Value "getNetworkInterfaceBinding"
+615: Tag 1 Utf8 Value "()Lorg/jboss/as/network/NetworkInterfaceBinding;"
+616: Tag 10 MethodRef Class index 617, Name and type index 618
+617: Tag 7 Class Name index 619
+618: Tag 12 NameAndType Name index 620, Description index 621
+619: Tag 1 Utf8 Value "org/jboss/as/network/NetworkInterfaceBinding"
+620: Tag 1 Utf8 Value "getAddress"
+621: Tag 1 Utf8 Value "()Ljava/net/InetAddress;"
+622: Tag 10 MethodRef Class index 607, Name and type index 623
+623: Tag 12 NameAndType Name index 624, Description index 625
+624: Tag 1 Utf8 Value "setAdvertiseInterface"
+625: Tag 1 Utf8 Value "(Ljava/net/InetAddress;)Lorg/jboss/modcluster/config/builder/AdvertiseConfigurationBuilder;"
+626: Tag 10 MethodRef Class index 627, Name and type index 628
+627: Tag 7 Class Name index 629
+628: Tag 12 NameAndType Name index 630, Description index 631
+629: Tag 1 Utf8 Value "org/jboss/as/network/ManagedBinding$Factory"
+630: Tag 1 Utf8 Value "createSimpleManagedBinding"
+631: Tag 1 Utf8 Value "(Lorg/jboss/as/network/SocketBinding;)Lorg/jboss/as/network/ManagedBinding;"
+632: Tag 10 MethodRef Class index 596, Name and type index 633
+633: Tag 12 NameAndType Name index 634, Description index 635
+634: Tag 1 Utf8 Value "getSocketBindings"
+635: Tag 1 Utf8 Value "()Lorg/jboss/as/network/SocketBindingManager;"
+636: Tag 11 InterfaceMethodRef Class index 637, Name and type index 638
+637: Tag 7 Class Name index 639
+638: Tag 12 NameAndType Name index 640, Description index 641
+639: Tag 1 Utf8 Value "org/jboss/as/network/SocketBindingManager"
+640: Tag 1 Utf8 Value "getNamedRegistry"
+641: Tag 1 Utf8 Value "()Lorg/jboss/as/network/SocketBindingManager$NamedManagedBindingRegistry;"
+642: Tag 11 InterfaceMethodRef Class index 643, Name and type index 644
+643: Tag 7 Class Name index 645
+644: Tag 12 NameAndType Name index 646, Description index 647
+645: Tag 1 Utf8 Value "org/jboss/as/network/SocketBindingManager$NamedManagedBindingRegistry"
+646: Tag 1 Utf8 Value "registerBinding"
+647: Tag 1 Utf8 Value "(Lorg/jboss/as/network/ManagedBinding;)V"
+648: Tag 11 InterfaceMethodRef Class index 637, Name and type index 649
+649: Tag 12 NameAndType Name index 650, Description index 615
+650: Tag 1 Utf8 Value "getDefaultInterfaceBinding"
+651: Tag 10 MethodRef Class index 617, Name and type index 652
+652: Tag 12 NameAndType Name index 653, Description index 654
+653: Tag 1 Utf8 Value "getNetworkInterfaces"
+654: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+655: Tag 10 MethodRef Class index 14, Name and type index 656
+656: Tag 12 NameAndType Name index 657, Description index 658
+657: Tag 1 Utf8 Value "isMulticastEnabled"
+658: Tag 1 Utf8 Value "(Ljava/util/Collection;)Z"
+659: Tag 11 InterfaceMethodRef Class index 217, Name and type index 660
+660: Tag 12 NameAndType Name index 661, Description index 23
+661: Tag 1 Utf8 Value "multicastInterfaceNotAvailable"
+662: Tag 7 Class Name index 663
+663: Tag 1 Utf8 Value "java/util/function/Supplier"
+664: Tag 11 InterfaceMethodRef Class index 662, Name and type index 594
+665: Tag 7 Class Name index 666
+666: Tag 1 Utf8 Value "org/jboss/as/network/OutboundSocketBinding"
+667: Tag 7 Class Name index 668
+668: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyConfigurationServiceConfigurator$2"
+669: Tag 10 MethodRef Class index 667, Name and type index 670
+670: Tag 12 NameAndType Name index 11, Description index 671
+671: Tag 1 Utf8 Value "(Lorg/wildfly/extension/mod_cluster/ProxyConfigurationServiceConfigurator;Lorg/jboss/as/network/OutboundSocketBinding;)V"
+672: Tag 11 InterfaceMethodRef Class index 389, Name and type index 203
+673: Tag 7 Class Name index 674
+674: Tag 1 Utf8 Value "javax/net/ssl/SSLContext"
+675: Tag 10 MethodRef Class index 673, Name and type index 676
+676: Tag 12 NameAndType Name index 677, Description index 678
+677: Tag 1 Utf8 Value "getSocketFactory"
+678: Tag 1 Utf8 Value "()Ljavax/net/ssl/SSLSocketFactory;"
+679: Tag 10 MethodRef Class index 31, Name and type index 680
+680: Tag 12 NameAndType Name index 681, Description index 682
+681: Tag 1 Utf8 Value "build"
+682: Tag 1 Utf8 Value "()Lorg/jboss/modcluster/config/ModClusterConfiguration;"
+683: Tag 11 InterfaceMethodRef Class index 643, Name and type index 684
+684: Tag 12 NameAndType Name index 685, Description index 647
+685: Tag 1 Utf8 Value "unregisterBinding"
+686: Tag 11 InterfaceMethodRef Class index 443, Name and type index 390
+687: Tag 7 Class Name index 688
+688: Tag 1 Utf8 Value "java/net/NetworkInterface"
+689: Tag 10 MethodRef Class index 687, Name and type index 690
+690: Tag 12 NameAndType Name index 691, Description index 96
+691: Tag 1 Utf8 Value "isUp"
+692: Tag 10 MethodRef Class index 687, Name and type index 693
+693: Tag 12 NameAndType Name index 694, Description index 96
+694: Tag 1 Utf8 Value "supportsMulticast"
+695: Tag 10 MethodRef Class index 687, Name and type index 696
+696: Tag 12 NameAndType Name index 697, Description index 96
+697: Tag 1 Utf8 Value "isLoopback"
+698: Tag 7 Class Name index 699
+699: Tag 1 Utf8 Value "java/net/SocketException"
+700: Tag 10 MethodRef Class index 14, Name and type index 701
+701: Tag 12 NameAndType Name index 475, Description index 682
+702: Tag 7 Class Name index 703
+703: Tag 1 Utf8 Value "org/jboss/modcluster/config/ModClusterConfiguration"
+704: Tag 10 MethodRef Class index 14, Name and type index 705
+705: Tag 12 NameAndType Name index 70, Description index 706
+706: Tag 1 Utf8 Value "(Lorg/jboss/modcluster/config/ModClusterConfiguration;)V"
+707: Tag 7 Class Name index 708
+708: Tag 1 Utf8 Value "java/util/HashSet"
+709: Tag 10 MethodRef Class index 707, Name and type index 22
+710: Tag 10 MethodRef Class index 607, Name and type index 711
+711: Tag 12 NameAndType Name index 712, Description index 713
+712: Tag 1 Utf8 Value "setAdvertiseSecurityKey"
+713: Tag 1 Utf8 Value "(Ljava/lang/String;)Lorg/jboss/modcluster/config/builder/AdvertiseConfigurationBuilder;"
+714: Tag 9 FieldRef Class index 406, Name and type index 715
+715: Tag 12 NameAndType Name index 716, Description index 410
+716: Tag 1 Utf8 Value "SOCKET_BINDING"
+717: Tag 10 MethodRef Class index 406, Name and type index 150
+718: Tag 11 InterfaceMethodRef Class index 719, Name and type index 720
+719: Tag 7 Class Name index 721
+720: Tag 12 NameAndType Name index 722, Description index 723
+721: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+722: Tag 1 Utf8 Value "getCapabilityServiceName"
+723: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;)Lorg/jboss/msc/service/ServiceName;"
+724: Tag 7 Class Name index 725
+725: Tag 1 Utf8 Value "org/jboss/as/clustering/controller/ResourceServiceConfigurator"
+726: Tag 7 Class Name index 727
+727: Tag 1 Utf8 Value "java/util/function/Consumer"
+728: Tag 1 Utf8 Value "Signature"
+729: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency<Lorg/jboss/as/network/SocketBinding;>;"
+730: Tag 1 Utf8 Value "Ljava/util/List<Lorg/wildfly/clustering/service/SupplierDependency<Lorg/jboss/as/network/OutboundSocketBinding;>;>;"
+731: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/SupplierDependency<Ljavax/net/ssl/SSLContext;>;"
+732: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)V"
+733: Tag 1 Utf8 Value "Code"
+734: Tag 1 Utf8 Value "LineNumberTable"
+735: Tag 1 Utf8 Value "LocalVariableTable"
+736: Tag 1 Utf8 Value "this"
+737: Tag 1 Utf8 Value "Lorg/wildfly/extension/mod_cluster/ProxyConfigurationServiceConfigurator;"
+738: Tag 1 Utf8 Value "address"
+739: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+740: Tag 1 Utf8 Value "configure"
+741: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/wildfly/clustering/service/ServiceConfigurator;"
+742: Tag 1 Utf8 Value "excludedContextsPerHost"
+743: Tag 1 Utf8 Value "Ljava/util/Map;"
+744: Tag 1 Utf8 Value "path"
+745: Tag 1 Utf8 Value "Ljava/lang/String;"
+746: Tag 1 Utf8 Value "parts"
+747: Tag 1 Utf8 Value "[Ljava/lang/String;"
+748: Tag 1 Utf8 Value "host"
+749: Tag 1 Utf8 Value "trimmedContext"
+750: Tag 1 Utf8 Value "paths"
+751: Tag 1 Utf8 Value "Ljava/util/Set;"
+752: Tag 1 Utf8 Value "c"
+753: Tag 1 Utf8 Value "trimmedContexts"
+754: Tag 1 Utf8 Value "contexts"
+755: Tag 1 Utf8 Value "ref"
+756: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+757: Tag 1 Utf8 Value "remoteAddress"
+758: Tag 1 Utf8 Value "Ljava/net/InetSocketAddress;"
+759: Tag 1 Utf8 Value "e"
+760: Tag 1 Utf8 Value "Ljava/net/UnknownHostException;"
+761: Tag 1 Utf8 Value "token"
+762: Tag 1 Utf8 Value "proxyConfigurations"
+763: Tag 1 Utf8 Value "Ljava/util/Collection;"
+764: Tag 1 Utf8 Value "tokens"
+765: Tag 1 Utf8 Value "password"
+766: Tag 1 Utf8 Value "sslModel"
+767: Tag 1 Utf8 Value "sslConfiguration"
+768: Tag 1 Utf8 Value "Lorg/jboss/modcluster/config/impl/ModClusterConfig;"
+769: Tag 1 Utf8 Value "context"
+770: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+771: Tag 1 Utf8 Value "model"
+772: Tag 1 Utf8 Value "proxyList"
+773: Tag 1 Utf8 Value "LocalVariableTypeTable"
+774: Tag 1 Utf8 Value "Ljava/util/Map<Ljava/lang/String;Ljava/util/Set<Ljava/lang/String;>;>;"
+775: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/String;>;"
+776: Tag 1 Utf8 Value "Ljava/util/Collection<Lorg/jboss/modcluster/config/ProxyConfiguration;>;"
+777: Tag 1 Utf8 Value "StackMapTable"
+778: Tag 7 Class Name index 747
+779: Tag 1 Utf8 Value "Exceptions"
+780: Tag 7 Class Name index 781
+781: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+782: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder;"
+783: Tag 1 Utf8 Value "dependency"
+784: Tag 1 Utf8 Value "Lorg/wildfly/clustering/service/Dependency;"
+785: Tag 1 Utf8 Value "target"
+786: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+787: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+788: Tag 1 Utf8 Value "config"
+789: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+790: Tag 1 Utf8 Value "service"
+791: Tag 1 Utf8 Value "Lorg/jboss/msc/Service;"
+792: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+793: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/jboss/modcluster/config/ModClusterConfiguration;>;"
+794: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder<*>;"
+795: Tag 1 Utf8 Value "binding"
+796: Tag 1 Utf8 Value "Lorg/jboss/as/network/SocketBinding;"
+797: Tag 1 Utf8 Value "simpleManagedBinding"
+798: Tag 1 Utf8 Value "Lorg/jboss/as/network/ManagedBinding;"
+799: Tag 1 Utf8 Value "Lorg/jboss/as/network/OutboundSocketBinding;"
+800: Tag 1 Utf8 Value "outboundSocketBindingValueDependency"
+801: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+802: Tag 1 Utf8 Value "proxies"
+803: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/network/OutboundSocketBinding;>;"
+804: Tag 1 Utf8 Value "Ljava/util/List<Lorg/jboss/modcluster/config/ProxyConfiguration;>;"
+805: Tag 1 Utf8 Value "modClusterConfiguration"
+806: Tag 1 Utf8 Value "Lorg/jboss/modcluster/config/ModClusterConfiguration;"
+807: Tag 1 Utf8 Value "iface"
+808: Tag 1 Utf8 Value "Ljava/net/NetworkInterface;"
+809: Tag 1 Utf8 Value "interfaces"
+810: Tag 1 Utf8 Value "Ljava/util/Collection<Ljava/net/NetworkInterface;>;"
+811: Tag 1 Utf8 Value "(Ljava/util/Collection<Ljava/net/NetworkInterface;>;)Z"
+812: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+813: Tag 1 Utf8 Value "lambda$configure$2"
+814: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/util/Set;"
+815: Tag 1 Utf8 Value "k"
+816: Tag 1 Utf8 Value "lambda$configure$1"
+817: Tag 1 Utf8 Value "securityKey"
+818: Tag 1 Utf8 Value "lambda$configure$0"
+819: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;)V"
+820: Tag 1 Utf8 Value "advertiseSocketRef"
+821: Tag 1 Utf8 Value "Lorg/jboss/as/clustering/controller/CapabilityServiceNameProvider;Lorg/jboss/as/clustering/controller/ResourceServiceConfigurator;Ljava/util/function/Supplier<Lorg/jboss/modcluster/config/ModClusterConfiguration;>;Ljava/util/function/Consumer<Lorg/jboss/modcluster/config/ModClusterConfiguration;>;"
+822: Tag 1 Utf8 Value "SourceFile"
+823: Tag 1 Utf8 Value "ProxyConfigurationServiceConfigurator.java"
+824: Tag 1 Utf8 Value "BootstrapMethods"
+825: Tag 15 MethodHandle Kind 6, Index 826
+826: Tag 10 MethodRef Class index 827, Name and type index 828
+827: Tag 7 Class Name index 829
+828: Tag 12 NameAndType Name index 830, Description index 831
+829: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+830: Tag 1 Utf8 Value "metafactory"
+831: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+832: Tag 16 MethodType Descriptor index 812
+833: Tag 15 MethodHandle Kind 7, Index 834
+834: Tag 10 MethodRef Class index 14, Name and type index 835
+835: Tag 12 NameAndType Name index 818, Description index 819
+836: Tag 16 MethodType Descriptor index 494
+837: Tag 15 MethodHandle Kind 7, Index 838
+838: Tag 10 MethodRef Class index 14, Name and type index 839
+839: Tag 12 NameAndType Name index 816, Description index 494
+840: Tag 16 MethodType Descriptor index 841
+841: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+842: Tag 15 MethodHandle Kind 6, Index 843
+843: Tag 10 MethodRef Class index 14, Name and type index 844
+844: Tag 12 NameAndType Name index 813, Description index 814
+845: Tag 16 MethodType Descriptor index 814
+846: Tag 1 Utf8 Value "InnerClasses"
+847: Tag 7 Class Name index 848
+848: Tag 1 Utf8 Value "org/wildfly/extension/mod_cluster/ProxyConfigurationResourceDefinition"
+849: Tag 1 Utf8 Value "Capability"
+850: Tag 1 Utf8 Value "Attribute"
+851: Tag 7 Class Name index 852
+852: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceController"
+853: Tag 1 Utf8 Value "Mode"
+854: Tag 7 Class Name index 855
+855: Tag 1 Utf8 Value "org/jboss/as/network/ManagedBinding"
+856: Tag 1 Utf8 Value "Factory"
+857: Tag 1 Utf8 Value "NamedManagedBindingRegistry"
+858: Tag 7 Class Name index 859
+859: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+860: Tag 7 Class Name index 861
+861: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+862: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 14, name org.wildfly.extension.mod_cluster.ProxyConfigurationServiceConfigurator
+
+Super class: id 8, name org.jboss.as.clustering.controller.CapabilityServiceNameProvider
+
+Implements class ids 724 662 726
+Implements names org.jboss.as.clustering.controller.ResourceServiceConfigurator java.util.function.Supplier java.util.function.Consumer
+
+Field name advertiseSocketDependency (index 17), type Lorg/wildfly/clustering/service/SupplierDependency; (descriptor index 18)
+Human type: org.wildfly.clustering.service.SupplierDependency
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+Field name outboundSocketBindings (index 26), type Ljava/util/List; (descriptor index 27)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name sslContextDependency (index 30), type Lorg/wildfly/clustering/service/SupplierDependency; (descriptor index 18)
+Human type: org.wildfly.clustering.service.SupplierDependency
+Flags: decimal 66, hex 0042, binary 0000000001000010 private volatile
+Field attribute name Signature, size 2
+Field name builder (index 36), type Lorg/jboss/modcluster/config/builder/ModClusterConfigurationBuilder; (descriptor index 37)
+Human type: org.jboss.modcluster.config.builder.ModClusterConfigurationBuilder
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+
+Method name <init> (index 11), type (Lorg/jboss/as/controller/PathAddress;)V (descriptor index 732)
+Human type: (org.jboss.as.controller.PathAddress): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 113
+Method name getServiceName (index 40), type ()Lorg/jboss/msc/service/ServiceName; (descriptor index 41)
+Human type: (): org.jboss.msc.service.ServiceName
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 59
+Method name configure (index 740), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)Lorg/wildfly/clustering/service/ServiceConfigurator; (descriptor index 741)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): org.wildfly.clustering.service.ServiceConfigurator
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 2394
+Method attribute name Exceptions, size 4
+Method name build (index 681), type (Lorg/jboss/msc/service/ServiceTarget;)Lorg/jboss/msc/service/ServiceBuilder; (descriptor index 782)
+Human type: (org.jboss.msc.service.ServiceTarget): org.jboss.msc.service.ServiceBuilder
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 301
+Method attribute name Signature, size 2
+Method name get (index 475), type ()Lorg/jboss/modcluster/config/ModClusterConfiguration; (descriptor index 682)
+Human type: (): org.jboss.modcluster.config.ModClusterConfiguration
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 438
+Method name accept (index 70), type (Lorg/jboss/modcluster/config/ModClusterConfiguration;)V (descriptor index 706)
+Human type: (org.jboss.modcluster.config.ModClusterConfiguration): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 138
+Method name isMulticastEnabled (index 657), type (Ljava/util/Collection;)Z (descriptor index 658)
+Human type: (java.util.Collection): boolean
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 191
+Method attribute name Signature, size 2
+Method name get (index 475), type ()Ljava/lang/Object; (descriptor index 402)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method name accept (index 70), type (Ljava/lang/Object;)V (descriptor index 812)
+Human type: (java.lang.Object): void
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 51
+Method name lambda$configure$2 (index 813), type (Ljava/lang/String;)Ljava/util/Set; (descriptor index 814)
+Human type: (java.lang.String): java.util.Set
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 50
+Method name lambda$configure$1 (index 816), type (Ljava/lang/String;)V (descriptor index 494)
+Human type: (java.lang.String): void
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 65
+Method name lambda$configure$0 (index 818), type (Lorg/jboss/as/controller/OperationContext;Ljava/lang/String;)V (descriptor index 819)
+Human type: (org.jboss.as.controller.OperationContext, java.lang.String): void
+Flags: decimal 4098, hex 1002, binary 0001000000000010 private synthetic
+Method attribute name Code, size 90
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 32
+Class attribute name InnerClasses, size 74

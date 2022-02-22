@@ -1,0 +1,125 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 82
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/msc/service/AbstractService"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 9 FieldRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "org/jboss/as/xts/TxBridgeOutboundRecoveryService"
+11: Tag 1 Utf8 Value "outboundBridgeRecoveryManager"
+12: Tag 1 Utf8 Value "Lorg/jboss/jbossts/txbridge/outbound/OutboundBridgeRecoveryManager;"
+13: Tag 10 MethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "java/lang/Class"
+17: Tag 1 Utf8 Value "getClassLoader"
+18: Tag 1 Utf8 Value "()Ljava/lang/ClassLoader;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+23: Tag 1 Utf8 Value "setCurrentContextClassLoaderPrivileged"
+24: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;"
+25: Tag 7 Class Name index 26
+26: Tag 1 Utf8 Value "org/jboss/jbossts/txbridge/outbound/OutboundBridgeRecoveryManager"
+27: Tag 10 MethodRef Class index 25, Name and type index 3
+28: Tag 10 MethodRef Class index 25, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 6
+30: Tag 1 Utf8 Value "start"
+31: Tag 7 Class Name index 32
+32: Tag 1 Utf8 Value "java/lang/Exception"
+33: Tag 9 FieldRef Class index 34, Name and type index 35
+34: Tag 7 Class Name index 36
+35: Tag 12 NameAndType Name index 37, Description index 38
+36: Tag 1 Utf8 Value "org/jboss/as/xts/logging/XtsAsLogger"
+37: Tag 1 Utf8 Value "ROOT_LOGGER"
+38: Tag 1 Utf8 Value "Lorg/jboss/as/xts/logging/XtsAsLogger;"
+39: Tag 11 InterfaceMethodRef Class index 34, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "txBridgeOutboundRecoveryServiceFailedToStart"
+42: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/StartException;"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "java/lang/ClassLoader"
+45: Tag 10 MethodRef Class index 25, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 6
+47: Tag 1 Utf8 Value "stop"
+48: Tag 10 MethodRef Class index 8, Name and type index 49
+49: Tag 12 NameAndType Name index 50, Description index 51
+50: Tag 1 Utf8 Value "getValue"
+51: Tag 1 Utf8 Value "()Lorg/jboss/jbossts/txbridge/outbound/OutboundBridgeRecoveryManager;"
+52: Tag 1 Utf8 Value "Code"
+53: Tag 1 Utf8 Value "LineNumberTable"
+54: Tag 1 Utf8 Value "LocalVariableTable"
+55: Tag 1 Utf8 Value "this"
+56: Tag 1 Utf8 Value "Lorg/jboss/as/xts/TxBridgeOutboundRecoveryService;"
+57: Tag 1 Utf8 Value "Exceptions"
+58: Tag 7 Class Name index 59
+59: Tag 1 Utf8 Value "java/lang/IllegalStateException"
+60: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StartContext;)V"
+61: Tag 1 Utf8 Value "e"
+62: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+63: Tag 1 Utf8 Value "service"
+64: Tag 1 Utf8 Value "context"
+65: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StartContext;"
+66: Tag 1 Utf8 Value "loader"
+67: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+68: Tag 1 Utf8 Value "StackMapTable"
+69: Tag 7 Class Name index 70
+70: Tag 1 Utf8 Value "org/jboss/msc/service/StartContext"
+71: Tag 7 Class Name index 72
+72: Tag 1 Utf8 Value "java/lang/Throwable"
+73: Tag 7 Class Name index 74
+74: Tag 1 Utf8 Value "org/jboss/msc/service/StartException"
+75: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/StopContext;)V"
+76: Tag 1 Utf8 Value "Lorg/jboss/msc/service/StopContext;"
+77: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+78: Tag 1 Utf8 Value "Signature"
+79: Tag 1 Utf8 Value "Lorg/jboss/msc/service/AbstractService<Lorg/jboss/jbossts/txbridge/outbound/OutboundBridgeRecoveryManager;>;"
+80: Tag 1 Utf8 Value "SourceFile"
+81: Tag 1 Utf8 Value "TxBridgeOutboundRecoveryService.java"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 8, name org.jboss.as.xts.TxBridgeOutboundRecoveryService
+
+Super class: id 2, name org.jboss.msc.service.AbstractService
+
+No interfaces
+
+Field name outboundBridgeRecoveryManager (index 11), type Lorg/jboss/jbossts/txbridge/outbound/OutboundBridgeRecoveryManager; (descriptor index 12)
+Human type: org.jboss.jbossts.txbridge.outbound.OutboundBridgeRecoveryManager
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 5), type ()V (descriptor index 6)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 51
+Method name getValue (index 50), type ()Lorg/jboss/jbossts/txbridge/outbound/OutboundBridgeRecoveryManager; (descriptor index 51)
+Human type: (): org.jboss.jbossts.txbridge.outbound.OutboundBridgeRecoveryManager
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 4
+Method name start (index 30), type (Lorg/jboss/msc/service/StartContext;)V (descriptor index 60)
+Human type: (org.jboss.msc.service.StartContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 272
+Method attribute name Exceptions, size 4
+Method name stop (index 47), type (Lorg/jboss/msc/service/StopContext;)V (descriptor index 75)
+Human type: (org.jboss.msc.service.StopContext): void
+Flags: decimal 33, hex 0021, binary 0000000000100001 public synchronized
+Method attribute name Code, size 108
+Method name getValue (index 50), type ()Ljava/lang/Object; (descriptor index 77)
+Human type: (): java.lang.Object
+Flags: decimal 4161, hex 1041, binary 0001000001000001 public bridge synthetic
+Method attribute name Code, size 47
+Method attribute name Exceptions, size 4
+
+Class attribute name Signature, size 2
+Class attribute name SourceFile, size 2

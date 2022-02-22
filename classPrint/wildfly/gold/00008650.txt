@@ -1,0 +1,386 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 302
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "java/lang/Object"
+5: Tag 1 Utf8 Value "<init>"
+6: Tag 1 Utf8 Value "()V"
+7: Tag 8 String Contents 8
+8: Tag 1 Utf8 Value "mp.health.disable-default-procedures"
+9: Tag 9 FieldRef Class index 10, Name and type index 11
+10: Tag 7 Class Name index 12
+11: Tag 12 NameAndType Name index 13, Description index 14
+12: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/health/deployment/CDIExtension"
+13: Tag 1 Utf8 Value "MP_HEALTH_DISABLE_DEFAULT_PROCEDURES"
+14: Tag 1 Utf8 Value "Ljava/lang/String;"
+15: Tag 7 Class Name index 16
+16: Tag 1 Utf8 Value "java/util/ArrayList"
+17: Tag 10 MethodRef Class index 15, Name and type index 3
+18: Tag 9 FieldRef Class index 10, Name and type index 19
+19: Tag 12 NameAndType Name index 20, Description index 21
+20: Tag 1 Utf8 Value "livenessChecks"
+21: Tag 1 Utf8 Value "Ljava/util/List;"
+22: Tag 9 FieldRef Class index 10, Name and type index 23
+23: Tag 12 NameAndType Name index 24, Description index 21
+24: Tag 1 Utf8 Value "readinessChecks"
+25: Tag 9 FieldRef Class index 10, Name and type index 26
+26: Tag 12 NameAndType Name index 27, Description index 21
+27: Tag 1 Utf8 Value "startupChecks"
+28: Tag 9 FieldRef Class index 10, Name and type index 29
+29: Tag 12 NameAndType Name index 30, Description index 31
+30: Tag 1 Utf8 Value "reporter"
+31: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/health/MicroProfileHealthReporter;"
+32: Tag 9 FieldRef Class index 10, Name and type index 33
+33: Tag 12 NameAndType Name index 34, Description index 35
+34: Tag 1 Utf8 Value "module"
+35: Tag 1 Utf8 Value "Lorg/jboss/modules/Module;"
+36: Tag 11 InterfaceMethodRef Class index 37, Name and type index 38
+37: Tag 7 Class Name index 39
+38: Tag 12 NameAndType Name index 40, Description index 41
+39: Tag 1 Utf8 Value "javax/enterprise/inject/spi/BeanManager"
+40: Tag 1 Utf8 Value "createInstance"
+41: Tag 1 Utf8 Value "()Ljavax/enterprise/inject/Instance;"
+42: Tag 9 FieldRef Class index 10, Name and type index 43
+43: Tag 12 NameAndType Name index 44, Description index 45
+44: Tag 1 Utf8 Value "instance"
+45: Tag 1 Utf8 Value "Ljavax/enterprise/inject/Instance;"
+46: Tag 9 FieldRef Class index 47, Name and type index 48
+47: Tag 7 Class Name index 49
+48: Tag 12 NameAndType Name index 50, Description index 51
+49: Tag 1 Utf8 Value "org/eclipse/microprofile/health/Liveness$Literal"
+50: Tag 1 Utf8 Value "INSTANCE"
+51: Tag 1 Utf8 Value "Lorg/eclipse/microprofile/health/Liveness$Literal;"
+52: Tag 10 MethodRef Class index 53, Name and type index 54
+53: Tag 7 Class Name index 55
+54: Tag 12 NameAndType Name index 56, Description index 57
+55: Tag 1 Utf8 Value "java/util/Objects"
+56: Tag 1 Utf8 Value "requireNonNull"
+57: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+58: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 59
+59: Tag 12 NameAndType Name index 60, Description index 61
+60: Tag 1 Utf8 Value "accept"
+61: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/health/MicroProfileHealthReporter;)Ljava/util/function/BiConsumer;"
+62: Tag 10 MethodRef Class index 10, Name and type index 63
+63: Tag 12 NameAndType Name index 64, Description index 65
+64: Tag 1 Utf8 Value "addHealthChecks"
+65: Tag 1 Utf8 Value "(Ljavax/enterprise/util/AnnotationLiteral;Ljava/util/function/BiConsumer;Ljava/util/List;)V"
+66: Tag 9 FieldRef Class index 67, Name and type index 68
+67: Tag 7 Class Name index 69
+68: Tag 12 NameAndType Name index 50, Description index 70
+69: Tag 1 Utf8 Value "org/eclipse/microprofile/health/Readiness$Literal"
+70: Tag 1 Utf8 Value "Lorg/eclipse/microprofile/health/Readiness$Literal;"
+71: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 59
+72: Tag 9 FieldRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 50, Description index 76
+75: Tag 1 Utf8 Value "org/eclipse/microprofile/health/Startup$Literal"
+76: Tag 1 Utf8 Value "Lorg/eclipse/microprofile/health/Startup$Literal;"
+77: Tag 18 InvokeDynamic Bootstrap index 2, NameAndType index 59
+78: Tag 10 MethodRef Class index 79, Name and type index 80
+79: Tag 7 Class Name index 81
+80: Tag 12 NameAndType Name index 82, Description index 83
+81: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/health/MicroProfileHealthReporter"
+82: Tag 1 Utf8 Value "setUserChecksProcessed"
+83: Tag 1 Utf8 Value "(Z)V"
+84: Tag 11 InterfaceMethodRef Class index 85, Name and type index 86
+85: Tag 7 Class Name index 87
+86: Tag 12 NameAndType Name index 88, Description index 89
+87: Tag 1 Utf8 Value "java/util/List"
+88: Tag 1 Utf8 Value "isEmpty"
+89: Tag 1 Utf8 Value "()Z"
+90: Tag 10 MethodRef Class index 91, Name and type index 92
+91: Tag 7 Class Name index 93
+92: Tag 12 NameAndType Name index 94, Description index 95
+93: Tag 1 Utf8 Value "org/jboss/modules/Module"
+94: Tag 1 Utf8 Value "getClassLoader"
+95: Tag 1 Utf8 Value "()Lorg/jboss/modules/ModuleClassLoader;"
+96: Tag 10 MethodRef Class index 97, Name and type index 98
+97: Tag 7 Class Name index 99
+98: Tag 12 NameAndType Name index 100, Description index 101
+99: Tag 1 Utf8 Value "org/eclipse/microprofile/config/ConfigProvider"
+100: Tag 1 Utf8 Value "getConfig"
+101: Tag 1 Utf8 Value "(Ljava/lang/ClassLoader;)Lorg/eclipse/microprofile/config/Config;"
+102: Tag 7 Class Name index 103
+103: Tag 1 Utf8 Value "java/lang/Boolean"
+104: Tag 11 InterfaceMethodRef Class index 105, Name and type index 106
+105: Tag 7 Class Name index 107
+106: Tag 12 NameAndType Name index 108, Description index 109
+107: Tag 1 Utf8 Value "org/eclipse/microprofile/config/Config"
+108: Tag 1 Utf8 Value "getOptionalValue"
+109: Tag 1 Utf8 Value "(Ljava/lang/String;Ljava/lang/Class;)Ljava/util/Optional;"
+110: Tag 10 MethodRef Class index 102, Name and type index 111
+111: Tag 12 NameAndType Name index 112, Description index 113
+112: Tag 1 Utf8 Value "valueOf"
+113: Tag 1 Utf8 Value "(Z)Ljava/lang/Boolean;"
+114: Tag 10 MethodRef Class index 115, Name and type index 116
+115: Tag 7 Class Name index 117
+116: Tag 12 NameAndType Name index 118, Description index 57
+117: Tag 1 Utf8 Value "java/util/Optional"
+118: Tag 1 Utf8 Value "orElse"
+119: Tag 10 MethodRef Class index 102, Name and type index 120
+120: Tag 12 NameAndType Name index 121, Description index 89
+121: Tag 1 Utf8 Value "booleanValue"
+122: Tag 7 Class Name index 123
+123: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/health/deployment/CDIExtension$DefaultReadinessHealthCheck"
+124: Tag 10 MethodRef Class index 91, Name and type index 125
+125: Tag 12 NameAndType Name index 126, Description index 127
+126: Tag 1 Utf8 Value "getName"
+127: Tag 1 Utf8 Value "()Ljava/lang/String;"
+128: Tag 10 MethodRef Class index 122, Name and type index 129
+129: Tag 12 NameAndType Name index 5, Description index 130
+130: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+131: Tag 9 FieldRef Class index 10, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 134
+133: Tag 1 Utf8 Value "defaultReadinessCheck"
+134: Tag 1 Utf8 Value "Lorg/eclipse/microprofile/health/HealthCheck;"
+135: Tag 10 MethodRef Class index 79, Name and type index 136
+136: Tag 12 NameAndType Name index 137, Description index 138
+137: Tag 1 Utf8 Value "addReadinessCheck"
+138: Tag 1 Utf8 Value "(Lorg/eclipse/microprofile/health/HealthCheck;Ljava/lang/ClassLoader;)V"
+139: Tag 7 Class Name index 140
+140: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/health/deployment/CDIExtension$DefaultStartupHealthCheck"
+141: Tag 10 MethodRef Class index 139, Name and type index 129
+142: Tag 9 FieldRef Class index 10, Name and type index 143
+143: Tag 12 NameAndType Name index 144, Description index 134
+144: Tag 1 Utf8 Value "defaultStartupCheck"
+145: Tag 10 MethodRef Class index 79, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 138
+147: Tag 1 Utf8 Value "addStartupCheck"
+148: Tag 7 Class Name index 149
+149: Tag 1 Utf8 Value "org/eclipse/microprofile/health/HealthCheck"
+150: Tag 7 Class Name index 151
+151: Tag 1 Utf8 Value "java/lang/annotation/Annotation"
+152: Tag 11 InterfaceMethodRef Class index 153, Name and type index 154
+153: Tag 7 Class Name index 155
+154: Tag 12 NameAndType Name index 156, Description index 157
+155: Tag 1 Utf8 Value "javax/enterprise/inject/Instance"
+156: Tag 1 Utf8 Value "select"
+157: Tag 1 Utf8 Value "(Ljava/lang/Class;[Ljava/lang/annotation/Annotation;)Ljavax/enterprise/inject/Instance;"
+158: Tag 11 InterfaceMethodRef Class index 153, Name and type index 159
+159: Tag 12 NameAndType Name index 160, Description index 161
+160: Tag 1 Utf8 Value "iterator"
+161: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+162: Tag 11 InterfaceMethodRef Class index 163, Name and type index 164
+163: Tag 7 Class Name index 165
+164: Tag 12 NameAndType Name index 166, Description index 89
+165: Tag 1 Utf8 Value "java/util/Iterator"
+166: Tag 1 Utf8 Value "hasNext"
+167: Tag 11 InterfaceMethodRef Class index 163, Name and type index 168
+168: Tag 12 NameAndType Name index 169, Description index 170
+169: Tag 1 Utf8 Value "next"
+170: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+171: Tag 11 InterfaceMethodRef Class index 172, Name and type index 173
+172: Tag 7 Class Name index 174
+173: Tag 12 NameAndType Name index 60, Description index 175
+174: Tag 1 Utf8 Value "java/util/function/BiConsumer"
+175: Tag 1 Utf8 Value "(Ljava/lang/Object;Ljava/lang/Object;)V"
+176: Tag 11 InterfaceMethodRef Class index 85, Name and type index 177
+177: Tag 12 NameAndType Name index 178, Description index 179
+178: Tag 1 Utf8 Value "add"
+179: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+180: Tag 18 InvokeDynamic Bootstrap index 3, NameAndType index 181
+181: Tag 12 NameAndType Name index 60, Description index 182
+182: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/health/MicroProfileHealthReporter;)Ljava/util/function/Consumer;"
+183: Tag 10 MethodRef Class index 10, Name and type index 184
+184: Tag 12 NameAndType Name index 185, Description index 186
+185: Tag 1 Utf8 Value "removeHealthCheck"
+186: Tag 1 Utf8 Value "(Ljava/util/List;Ljava/util/function/Consumer;)V"
+187: Tag 18 InvokeDynamic Bootstrap index 4, NameAndType index 181
+188: Tag 18 InvokeDynamic Bootstrap index 5, NameAndType index 181
+189: Tag 10 MethodRef Class index 79, Name and type index 190
+190: Tag 12 NameAndType Name index 191, Description index 192
+191: Tag 1 Utf8 Value "removeReadinessCheck"
+192: Tag 1 Utf8 Value "(Lorg/eclipse/microprofile/health/HealthCheck;)V"
+193: Tag 10 MethodRef Class index 79, Name and type index 194
+194: Tag 12 NameAndType Name index 195, Description index 192
+195: Tag 1 Utf8 Value "removeStartupCheck"
+196: Tag 11 InterfaceMethodRef Class index 85, Name and type index 159
+197: Tag 11 InterfaceMethodRef Class index 198, Name and type index 199
+198: Tag 7 Class Name index 200
+199: Tag 12 NameAndType Name index 60, Description index 201
+200: Tag 1 Utf8 Value "java/util/function/Consumer"
+201: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+202: Tag 11 InterfaceMethodRef Class index 153, Name and type index 203
+203: Tag 12 NameAndType Name index 204, Description index 201
+204: Tag 1 Utf8 Value "destroy"
+205: Tag 11 InterfaceMethodRef Class index 85, Name and type index 206
+206: Tag 12 NameAndType Name index 207, Description index 6
+207: Tag 1 Utf8 Value "clear"
+208: Tag 11 InterfaceMethodRef Class index 209, Name and type index 210
+209: Tag 7 Class Name index 211
+210: Tag 12 NameAndType Name index 212, Description index 6
+211: Tag 1 Utf8 Value "javax/enterprise/inject/spi/ProcessAnnotatedType"
+212: Tag 1 Utf8 Value "veto"
+213: Tag 7 Class Name index 214
+214: Tag 1 Utf8 Value "javax/enterprise/inject/spi/Extension"
+215: Tag 1 Utf8 Value "ConstantValue"
+216: Tag 1 Utf8 Value "Signature"
+217: Tag 1 Utf8 Value "Ljavax/enterprise/inject/Instance<Ljava/lang/Object;>;"
+218: Tag 1 Utf8 Value "Ljava/util/List<Lorg/eclipse/microprofile/health/HealthCheck;>;"
+219: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/health/MicroProfileHealthReporter;Lorg/jboss/modules/Module;)V"
+220: Tag 1 Utf8 Value "Code"
+221: Tag 1 Utf8 Value "LineNumberTable"
+222: Tag 1 Utf8 Value "LocalVariableTable"
+223: Tag 1 Utf8 Value "this"
+224: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/health/deployment/CDIExtension;"
+225: Tag 1 Utf8 Value "healthReporter"
+226: Tag 1 Utf8 Value "afterDeploymentValidation"
+227: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/AfterDeploymentValidation;Ljavax/enterprise/inject/spi/BeanManager;)V"
+228: Tag 1 Utf8 Value "config"
+229: Tag 1 Utf8 Value "Lorg/eclipse/microprofile/config/Config;"
+230: Tag 1 Utf8 Value "disableDefaultprocedure"
+231: Tag 1 Utf8 Value "Z"
+232: Tag 1 Utf8 Value "avd"
+233: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/AfterDeploymentValidation;"
+234: Tag 1 Utf8 Value "bm"
+235: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/BeanManager;"
+236: Tag 1 Utf8 Value "StackMapTable"
+237: Tag 1 Utf8 Value "RuntimeVisibleParameterAnnotations"
+238: Tag 1 Utf8 Value "Ljavax/enterprise/event/Observes;"
+239: Tag 1 Utf8 Value "healthCheck"
+240: Tag 1 Utf8 Value "qualifier"
+241: Tag 1 Utf8 Value "Ljavax/enterprise/util/AnnotationLiteral;"
+242: Tag 1 Utf8 Value "healthFunction"
+243: Tag 1 Utf8 Value "Ljava/util/function/BiConsumer;"
+244: Tag 1 Utf8 Value "healthChecks"
+245: Tag 1 Utf8 Value "LocalVariableTypeTable"
+246: Tag 1 Utf8 Value "Ljava/util/function/BiConsumer<Lorg/eclipse/microprofile/health/HealthCheck;Ljava/lang/ClassLoader;>;"
+247: Tag 1 Utf8 Value "(Ljavax/enterprise/util/AnnotationLiteral;Ljava/util/function/BiConsumer<Lorg/eclipse/microprofile/health/HealthCheck;Ljava/lang/ClassLoader;>;Ljava/util/List<Lorg/eclipse/microprofile/health/HealthCheck;>;)V"
+248: Tag 1 Utf8 Value "beforeShutdown"
+249: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/BeforeShutdown;)V"
+250: Tag 1 Utf8 Value "bs"
+251: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/BeforeShutdown;"
+252: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+253: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/eclipse/microprofile/health/HealthCheck;>;"
+254: Tag 1 Utf8 Value "(Ljava/util/List<Lorg/eclipse/microprofile/health/HealthCheck;>;Ljava/util/function/Consumer<Lorg/eclipse/microprofile/health/HealthCheck;>;)V"
+255: Tag 1 Utf8 Value "vetoSmallryeHealthReporter"
+256: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/ProcessAnnotatedType;)V"
+257: Tag 1 Utf8 Value "pat"
+258: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/ProcessAnnotatedType;"
+259: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/ProcessAnnotatedType<Lio/smallrye/health/SmallRyeHealthReporter;>;"
+260: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/ProcessAnnotatedType<Lio/smallrye/health/SmallRyeHealthReporter;>;)V"
+261: Tag 1 Utf8 Value "SourceFile"
+262: Tag 1 Utf8 Value "CDIExtension.java"
+263: Tag 1 Utf8 Value "BootstrapMethods"
+264: Tag 15 MethodHandle Kind 6, Index 265
+265: Tag 10 MethodRef Class index 266, Name and type index 267
+266: Tag 7 Class Name index 268
+267: Tag 12 NameAndType Name index 269, Description index 270
+268: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+269: Tag 1 Utf8 Value "metafactory"
+270: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+271: Tag 16 MethodType Descriptor index 175
+272: Tag 15 MethodHandle Kind 5, Index 273
+273: Tag 10 MethodRef Class index 79, Name and type index 274
+274: Tag 12 NameAndType Name index 275, Description index 138
+275: Tag 1 Utf8 Value "addLivenessCheck"
+276: Tag 16 MethodType Descriptor index 138
+277: Tag 15 MethodHandle Kind 5, Index 135
+278: Tag 15 MethodHandle Kind 5, Index 145
+279: Tag 16 MethodType Descriptor index 201
+280: Tag 15 MethodHandle Kind 5, Index 281
+281: Tag 10 MethodRef Class index 79, Name and type index 282
+282: Tag 12 NameAndType Name index 283, Description index 192
+283: Tag 1 Utf8 Value "removeLivenessCheck"
+284: Tag 16 MethodType Descriptor index 192
+285: Tag 15 MethodHandle Kind 5, Index 189
+286: Tag 15 MethodHandle Kind 5, Index 193
+287: Tag 1 Utf8 Value "InnerClasses"
+288: Tag 7 Class Name index 289
+289: Tag 1 Utf8 Value "org/eclipse/microprofile/health/Liveness"
+290: Tag 1 Utf8 Value "Literal"
+291: Tag 7 Class Name index 292
+292: Tag 1 Utf8 Value "org/eclipse/microprofile/health/Readiness"
+293: Tag 7 Class Name index 294
+294: Tag 1 Utf8 Value "org/eclipse/microprofile/health/Startup"
+295: Tag 1 Utf8 Value "DefaultReadinessHealthCheck"
+296: Tag 1 Utf8 Value "DefaultStartupHealthCheck"
+297: Tag 7 Class Name index 298
+298: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+299: Tag 7 Class Name index 300
+300: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+301: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 10, name org.wildfly.extension.microprofile.health.deployment.CDIExtension
+
+Super class: id 2, name java.lang.Object
+
+Implements class ids 213
+Implements names javax.enterprise.inject.spi.Extension
+
+Field name MP_HEALTH_DISABLE_DEFAULT_PROCEDURES (index 13), type Ljava/lang/String; (descriptor index 14)
+Human type: java.lang.String
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name ConstantValue, size 2
+Field name reporter (index 30), type Lorg/wildfly/extension/microprofile/health/MicroProfileHealthReporter; (descriptor index 31)
+Human type: org.wildfly.extension.microprofile.health.MicroProfileHealthReporter
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name module (index 34), type Lorg/jboss/modules/Module; (descriptor index 35)
+Human type: org.jboss.modules.Module
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+No field attributes
+Field name instance (index 44), type Ljavax/enterprise/inject/Instance; (descriptor index 45)
+Human type: javax.enterprise.inject.Instance
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Field attribute name Signature, size 2
+Field name livenessChecks (index 20), type Ljava/util/List; (descriptor index 21)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name readinessChecks (index 24), type Ljava/util/List; (descriptor index 21)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name startupChecks (index 27), type Ljava/util/List; (descriptor index 21)
+Human type: java.util.List
+Flags: decimal 18, hex 0012, binary 0000000000010010 private final
+Field attribute name Signature, size 2
+Field name defaultReadinessCheck (index 133), type Lorg/eclipse/microprofile/health/HealthCheck; (descriptor index 134)
+Human type: org.eclipse.microprofile.health.HealthCheck
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+Field name defaultStartupCheck (index 144), type Lorg/eclipse/microprofile/health/HealthCheck; (descriptor index 134)
+Human type: org.eclipse.microprofile.health.HealthCheck
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 5), type (Lorg/wildfly/extension/microprofile/health/MicroProfileHealthReporter;Lorg/jboss/modules/Module;)V (descriptor index 219)
+Human type: (org.wildfly.extension.microprofile.health.MicroProfileHealthReporter, org.jboss.modules.Module): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 144
+Method name afterDeploymentValidation (index 226), type (Ljavax/enterprise/inject/spi/AfterDeploymentValidation;Ljavax/enterprise/inject/spi/BeanManager;)V (descriptor index 227)
+Human type: (javax.enterprise.inject.spi.AfterDeploymentValidation, javax.enterprise.inject.spi.BeanManager): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 456
+Method attribute name RuntimeVisibleParameterAnnotations, size 9
+Method name addHealthChecks (index 64), type (Ljavax/enterprise/util/AnnotationLiteral;Ljava/util/function/BiConsumer;Ljava/util/List;)V (descriptor index 65)
+Human type: (javax.enterprise.util.AnnotationLiteral, java.util.function.BiConsumer, java.util.List): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 219
+Method attribute name Signature, size 2
+Method name beforeShutdown (index 248), type (Ljavax/enterprise/inject/spi/BeforeShutdown;)V (descriptor index 249)
+Human type: (javax.enterprise.inject.spi.BeforeShutdown): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 222
+Method attribute name RuntimeVisibleParameterAnnotations, size 7
+Method name removeHealthCheck (index 185), type (Ljava/util/List;Ljava/util/function/Consumer;)V (descriptor index 186)
+Human type: (java.util.List, java.util.function.Consumer): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 193
+Method attribute name Signature, size 2
+Method name vetoSmallryeHealthReporter (index 255), type (Ljavax/enterprise/inject/spi/ProcessAnnotatedType;)V (descriptor index 256)
+Human type: (javax.enterprise.inject.spi.ProcessAnnotatedType): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 81
+Method attribute name Signature, size 2
+Method attribute name RuntimeVisibleParameterAnnotations, size 7
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 62
+Class attribute name InnerClasses, size 50

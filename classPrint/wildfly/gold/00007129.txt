@@ -1,0 +1,645 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 566
+1: Tag 10 MethodRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor"
+5: Tag 1 Utf8 Value "addWeldIntegration"
+6: Tag 1 Utf8 Value "(Ljava/lang/Iterable;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/Class;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/util/Set;Ljava/lang/ClassLoader;Ljava/lang/String;)V"
+7: Tag 10 MethodRef Class index 8, Name and type index 9
+8: Tag 7 Class Name index 10
+9: Tag 12 NameAndType Name index 11, Description index 12
+10: Tag 1 Utf8 Value "java/lang/Object"
+11: Tag 1 Utf8 Value "<init>"
+12: Tag 1 Utf8 Value "()V"
+13: Tag 11 InterfaceMethodRef Class index 14, Name and type index 15
+14: Tag 7 Class Name index 16
+15: Tag 12 NameAndType Name index 17, Description index 18
+16: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentPhaseContext"
+17: Tag 1 Utf8 Value "getDeploymentUnit"
+18: Tag 1 Utf8 Value "()Lorg/jboss/as/server/deployment/DeploymentUnit;"
+19: Tag 10 MethodRef Class index 20, Name and type index 21
+20: Tag 7 Class Name index 22
+21: Tag 12 NameAndType Name index 23, Description index 24
+22: Tag 1 Utf8 Value "org/jboss/as/weld/_private/WeldDeploymentMarker"
+23: Tag 1 Utf8 Value "isWeldDeployment"
+24: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Z"
+25: Tag 10 MethodRef Class index 26, Name and type index 27
+26: Tag 7 Class Name index 28
+27: Tag 12 NameAndType Name index 29, Description index 30
+28: Tag 1 Utf8 Value "org/jboss/as/weld/util/Utils"
+29: Tag 1 Utf8 Value "getRootDeploymentUnit"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/as/server/deployment/DeploymentUnit;"
+31: Tag 9 FieldRef Class index 32, Name and type index 33
+32: Tag 7 Class Name index 34
+33: Tag 12 NameAndType Name index 35, Description index 36
+34: Tag 1 Utf8 Value "org/jboss/as/ee/component/Attachments"
+35: Tag 1 Utf8 Value "EE_MODULE_DESCRIPTION"
+36: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/AttachmentKey;"
+37: Tag 11 InterfaceMethodRef Class index 38, Name and type index 39
+38: Tag 7 Class Name index 40
+39: Tag 12 NameAndType Name index 41, Description index 42
+40: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnit"
+41: Tag 1 Utf8 Value "getAttachment"
+42: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/AttachmentKey;)Ljava/lang/Object;"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "org/jboss/as/ee/component/EEModuleDescription"
+45: Tag 11 InterfaceMethodRef Class index 38, Name and type index 46
+46: Tag 12 NameAndType Name index 47, Description index 48
+47: Tag 1 Utf8 Value "getServiceName"
+48: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceName;"
+49: Tag 9 FieldRef Class index 50, Name and type index 51
+50: Tag 7 Class Name index 52
+51: Tag 12 NameAndType Name index 53, Description index 54
+52: Tag 1 Utf8 Value "org/jboss/as/weld/WeldBootstrapService"
+53: Tag 1 Utf8 Value "SERVICE_NAME"
+54: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceName;"
+55: Tag 10 MethodRef Class index 56, Name and type index 57
+56: Tag 7 Class Name index 58
+57: Tag 12 NameAndType Name index 59, Description index 60
+58: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceName"
+59: Tag 1 Utf8 Value "append"
+60: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceName;"
+61: Tag 9 FieldRef Class index 62, Name and type index 51
+62: Tag 7 Class Name index 63
+63: Tag 1 Utf8 Value "org/jboss/as/weld/WeldStartService"
+64: Tag 10 MethodRef Class index 65, Name and type index 66
+65: Tag 7 Class Name index 67
+66: Tag 12 NameAndType Name index 68, Description index 69
+67: Tag 1 Utf8 Value "org/jboss/as/weld/ServiceNames"
+68: Tag 1 Utf8 Value "beanManagerServiceName"
+69: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)Lorg/jboss/msc/service/ServiceName;"
+70: Tag 7 Class Name index 71
+71: Tag 1 Utf8 Value "org/jboss/as/weld/spi/ComponentIntegrator"
+72: Tag 10 MethodRef Class index 73, Name and type index 74
+73: Tag 7 Class Name index 75
+74: Tag 12 NameAndType Name index 76, Description index 77
+75: Tag 1 Utf8 Value "org/wildfly/security/manager/WildFlySecurityManager"
+76: Tag 1 Utf8 Value "getClassLoaderPrivileged"
+77: Tag 1 Utf8 Value "(Ljava/lang/Class;)Ljava/lang/ClassLoader;"
+78: Tag 10 MethodRef Class index 79, Name and type index 80
+79: Tag 7 Class Name index 81
+80: Tag 12 NameAndType Name index 82, Description index 83
+81: Tag 1 Utf8 Value "java/util/ServiceLoader"
+82: Tag 1 Utf8 Value "load"
+83: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;"
+84: Tag 7 Class Name index 85
+85: Tag 1 Utf8 Value "org/jboss/as/weld/spi/ComponentInterceptorSupport"
+86: Tag 10 MethodRef Class index 87, Name and type index 88
+87: Tag 7 Class Name index 89
+88: Tag 12 NameAndType Name index 90, Description index 91
+89: Tag 1 Utf8 Value "org/jboss/as/weld/util/ServiceLoaders"
+90: Tag 1 Utf8 Value "loadSingle"
+91: Tag 1 Utf8 Value "(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/Optional;"
+92: Tag 10 MethodRef Class index 93, Name and type index 94
+93: Tag 7 Class Name index 95
+94: Tag 12 NameAndType Name index 96, Description index 97
+95: Tag 1 Utf8 Value "java/util/Optional"
+96: Tag 1 Utf8 Value "orElse"
+97: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/Object;"
+98: Tag 11 InterfaceMethodRef Class index 14, Name and type index 99
+99: Tag 12 NameAndType Name index 100, Description index 101
+100: Tag 1 Utf8 Value "getServiceTarget"
+101: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceTarget;"
+102: Tag 10 MethodRef Class index 103, Name and type index 104
+103: Tag 7 Class Name index 105
+104: Tag 12 NameAndType Name index 106, Description index 107
+105: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/WeldClassIntrospector"
+106: Tag 1 Utf8 Value "install"
+107: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;Lorg/jboss/msc/service/ServiceTarget;)V"
+108: Tag 10 MethodRef Class index 103, Name and type index 109
+109: Tag 12 NameAndType Name index 110, Description index 69
+110: Tag 1 Utf8 Value "serviceName"
+111: Tag 10 MethodRef Class index 43, Name and type index 112
+112: Tag 12 NameAndType Name index 113, Description index 114
+113: Tag 1 Utf8 Value "setDefaultClassIntrospectorServiceName"
+114: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)V"
+115: Tag 10 MethodRef Class index 43, Name and type index 116
+116: Tag 12 NameAndType Name index 117, Description index 118
+117: Tag 1 Utf8 Value "getComponentDescriptions"
+118: Tag 1 Utf8 Value "()Ljava/util/Collection;"
+119: Tag 11 InterfaceMethodRef Class index 120, Name and type index 121
+120: Tag 7 Class Name index 122
+121: Tag 12 NameAndType Name index 123, Description index 124
+122: Tag 1 Utf8 Value "java/util/Collection"
+123: Tag 1 Utf8 Value "iterator"
+124: Tag 1 Utf8 Value "()Ljava/util/Iterator;"
+125: Tag 11 InterfaceMethodRef Class index 126, Name and type index 127
+126: Tag 7 Class Name index 128
+127: Tag 12 NameAndType Name index 129, Description index 130
+128: Tag 1 Utf8 Value "java/util/Iterator"
+129: Tag 1 Utf8 Value "hasNext"
+130: Tag 1 Utf8 Value "()Z"
+131: Tag 11 InterfaceMethodRef Class index 126, Name and type index 132
+132: Tag 12 NameAndType Name index 133, Description index 134
+133: Tag 1 Utf8 Value "next"
+134: Tag 1 Utf8 Value "()Ljava/lang/Object;"
+135: Tag 7 Class Name index 136
+136: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentDescription"
+137: Tag 10 MethodRef Class index 2, Name and type index 138
+138: Tag 12 NameAndType Name index 139, Description index 140
+139: Tag 1 Utf8 Value "isBeanNameRequired"
+140: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/Iterable;)Z"
+141: Tag 10 MethodRef Class index 135, Name and type index 142
+142: Tag 12 NameAndType Name index 143, Description index 144
+143: Tag 1 Utf8 Value "getComponentName"
+144: Tag 1 Utf8 Value "()Ljava/lang/String;"
+145: Tag 10 MethodRef Class index 135, Name and type index 146
+146: Tag 12 NameAndType Name index 147, Description index 148
+147: Tag 1 Utf8 Value "getConfigurators"
+148: Tag 1 Utf8 Value "()Ljava/util/Deque;"
+149: Tag 18 InvokeDynamic Bootstrap index 0, NameAndType index 150
+150: Tag 12 NameAndType Name index 151, Description index 152
+151: Tag 1 Utf8 Value "configure"
+152: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/as/ee/component/ComponentConfigurator;"
+153: Tag 11 InterfaceMethodRef Class index 154, Name and type index 155
+154: Tag 7 Class Name index 156
+155: Tag 12 NameAndType Name index 157, Description index 158
+156: Tag 1 Utf8 Value "java/util/Deque"
+157: Tag 1 Utf8 Value "add"
+158: Tag 1 Utf8 Value "(Ljava/lang/Object;)Z"
+159: Tag 7 Class Name index 160
+160: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$1"
+161: Tag 10 MethodRef Class index 159, Name and type index 162
+162: Tag 12 NameAndType Name index 11, Description index 163
+163: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor;Ljava/lang/Iterable;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;)V"
+164: Tag 11 InterfaceMethodRef Class index 154, Name and type index 165
+165: Tag 12 NameAndType Name index 166, Description index 167
+166: Tag 1 Utf8 Value "addFirst"
+167: Tag 1 Utf8 Value "(Ljava/lang/Object;)V"
+168: Tag 11 InterfaceMethodRef Class index 169, Name and type index 121
+169: Tag 7 Class Name index 170
+170: Tag 1 Utf8 Value "java/lang/Iterable"
+171: Tag 11 InterfaceMethodRef Class index 70, Name and type index 172
+172: Tag 12 NameAndType Name index 139, Description index 173
+173: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentDescription;)Z"
+174: Tag 11 InterfaceMethodRef Class index 70, Name and type index 175
+175: Tag 12 NameAndType Name index 176, Description index 173
+176: Tag 1 Utf8 Value "isComponentWithView"
+177: Tag 10 MethodRef Class index 178, Name and type index 179
+178: Tag 7 Class Name index 180
+179: Tag 12 NameAndType Name index 181, Description index 182
+180: Tag 1 Utf8 Value "org/jboss/as/ee/component/ComponentConfiguration"
+181: Tag 1 Utf8 Value "getComponentDescription"
+182: Tag 1 Utf8 Value "()Lorg/jboss/as/ee/component/ComponentDescription;"
+183: Tag 10 MethodRef Class index 135, Name and type index 46
+184: Tag 7 Class Name index 185
+185: Tag 1 Utf8 Value "java/lang/String"
+186: Tag 8 String Contents 187
+187: Tag 1 Utf8 Value "WeldInstantiator"
+188: Tag 10 MethodRef Class index 56, Name and type index 189
+189: Tag 12 NameAndType Name index 59, Description index 190
+190: Tag 1 Utf8 Value "([Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+191: Tag 11 InterfaceMethodRef Class index 192, Name and type index 193
+192: Tag 7 Class Name index 194
+193: Tag 12 NameAndType Name index 195, Description index 196
+194: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceTarget"
+195: Tag 1 Utf8 Value "addService"
+196: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/msc/service/ServiceBuilder;"
+197: Tag 11 InterfaceMethodRef Class index 198, Name and type index 199
+198: Tag 7 Class Name index 200
+199: Tag 12 NameAndType Name index 201, Description index 202
+200: Tag 1 Utf8 Value "org/jboss/msc/service/ServiceBuilder"
+201: Tag 1 Utf8 Value "requires"
+202: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Supplier;"
+203: Tag 9 FieldRef Class index 204, Name and type index 205
+204: Tag 7 Class Name index 206
+205: Tag 12 NameAndType Name index 207, Description index 208
+206: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldManagedReferenceFactory"
+207: Tag 1 Utf8 Value "INSTANCE"
+208: Tag 1 Utf8 Value "Lorg/jboss/as/weld/injection/WeldManagedReferenceFactory;"
+209: Tag 10 MethodRef Class index 178, Name and type index 210
+210: Tag 12 NameAndType Name index 211, Description index 212
+211: Tag 1 Utf8 Value "setInstanceFactory"
+212: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentFactory;)V"
+213: Tag 10 MethodRef Class index 178, Name and type index 214
+214: Tag 12 NameAndType Name index 215, Description index 216
+215: Tag 1 Utf8 Value "getStartDependencies"
+216: Tag 1 Utf8 Value "()Ljava/util/List;"
+217: Tag 7 Class Name index 218
+218: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$2"
+219: Tag 10 MethodRef Class index 217, Name and type index 220
+220: Tag 12 NameAndType Name index 11, Description index 221
+221: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor;Lorg/jboss/msc/service/ServiceName;)V"
+222: Tag 11 InterfaceMethodRef Class index 223, Name and type index 155
+223: Tag 7 Class Name index 224
+224: Tag 1 Utf8 Value "java/util/List"
+225: Tag 18 InvokeDynamic Bootstrap index 1, NameAndType index 226
+226: Tag 12 NameAndType Name index 227, Description index 228
+227: Tag 1 Utf8 Value "get"
+228: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Ljava/lang/Class;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;)Ljava/util/function/Supplier;"
+229: Tag 18 InvokeDynamic Bootstrap index 2, NameAndType index 230
+230: Tag 12 NameAndType Name index 231, Description index 232
+231: Tag 1 Utf8 Value "perform"
+232: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Ljava/lang/Class;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/service/ServiceName;)Lorg/jboss/as/weld/spi/ComponentIntegrator$DefaultInterceptorIntegrationAction;"
+233: Tag 11 InterfaceMethodRef Class index 70, Name and type index 234
+234: Tag 12 NameAndType Name index 235, Description index 236
+235: Tag 1 Utf8 Value "integrate"
+236: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/msc/service/ServiceBuilder;Ljava/util/function/Supplier;Lorg/jboss/as/weld/spi/ComponentIntegrator$DefaultInterceptorIntegrationAction;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)Z"
+237: Tag 7 Class Name index 238
+238: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldComponentService"
+239: Tag 10 MethodRef Class index 135, Name and type index 240
+240: Tag 12 NameAndType Name index 241, Description index 130
+241: Tag 1 Utf8 Value "isCDIInterceptorEnabled"
+242: Tag 10 MethodRef Class index 2, Name and type index 243
+243: Tag 12 NameAndType Name index 176, Description index 140
+244: Tag 10 MethodRef Class index 237, Name and type index 245
+245: Tag 12 NameAndType Name index 11, Description index 246
+246: Tag 1 Utf8 Value "(Ljava/util/function/Supplier;Ljava/lang/Class;Ljava/lang/String;Ljava/util/Set;Ljava/lang/ClassLoader;Ljava/lang/String;ZLorg/jboss/as/ee/component/ComponentDescription;Z)V"
+247: Tag 11 InterfaceMethodRef Class index 198, Name and type index 248
+248: Tag 12 NameAndType Name index 249, Description index 250
+249: Tag 1 Utf8 Value "setInstance"
+250: Tag 1 Utf8 Value "(Lorg/jboss/msc/Service;)Lorg/jboss/msc/service/ServiceBuilder;"
+251: Tag 10 MethodRef Class index 135, Name and type index 252
+252: Tag 12 NameAndType Name index 253, Description index 254
+253: Tag 1 Utf8 Value "setIgnoreLifecycleInterceptors"
+254: Tag 1 Utf8 Value "(Z)V"
+255: Tag 7 Class Name index 256
+256: Tag 1 Utf8 Value "org/jboss/invocation/ImmediateInterceptorFactory"
+257: Tag 7 Class Name index 258
+258: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$3"
+259: Tag 10 MethodRef Class index 257, Name and type index 260
+260: Tag 12 NameAndType Name index 11, Description index 261
+261: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor;Lorg/jboss/as/weld/injection/WeldComponentService;)V"
+262: Tag 10 MethodRef Class index 255, Name and type index 263
+263: Tag 12 NameAndType Name index 11, Description index 264
+264: Tag 1 Utf8 Value "(Lorg/jboss/invocation/Interceptor;)V"
+265: Tag 7 Class Name index 266
+266: Tag 1 Utf8 Value "org/jboss/as/ee/component/interceptors/InterceptorOrder$ComponentPostConstruct"
+267: Tag 10 MethodRef Class index 178, Name and type index 268
+268: Tag 12 NameAndType Name index 269, Description index 270
+269: Tag 1 Utf8 Value "addPostConstructInterceptor"
+270: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorFactory;I)V"
+271: Tag 7 Class Name index 272
+272: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$4"
+273: Tag 10 MethodRef Class index 271, Name and type index 260
+274: Tag 7 Class Name index 275
+275: Tag 1 Utf8 Value "org/jboss/as/ee/component/interceptors/InterceptorOrder$ComponentPreDestroy"
+276: Tag 10 MethodRef Class index 178, Name and type index 277
+277: Tag 12 NameAndType Name index 278, Description index 270
+278: Tag 1 Utf8 Value "addPreDestroyInterceptor"
+279: Tag 11 InterfaceMethodRef Class index 198, Name and type index 280
+280: Tag 12 NameAndType Name index 106, Description index 281
+281: Tag 1 Utf8 Value "()Lorg/jboss/msc/service/ServiceController;"
+282: Tag 7 Class Name index 283
+283: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldInjectionContextInterceptor"
+284: Tag 10 MethodRef Class index 282, Name and type index 285
+285: Tag 12 NameAndType Name index 11, Description index 286
+286: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/injection/WeldComponentService;)V"
+287: Tag 7 Class Name index 288
+288: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldInterceptorInjectionInterceptor"
+289: Tag 10 MethodRef Class index 287, Name and type index 290
+290: Tag 12 NameAndType Name index 11, Description index 291
+291: Tag 1 Utf8 Value "(Ljava/util/Set;)V"
+292: Tag 9 FieldRef Class index 293, Name and type index 294
+293: Tag 7 Class Name index 295
+294: Tag 12 NameAndType Name index 296, Description index 297
+295: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldInjectionInterceptor"
+296: Tag 1 Utf8 Value "FACTORY"
+297: Tag 1 Utf8 Value "Lorg/jboss/invocation/InterceptorFactory;"
+298: Tag 9 FieldRef Class index 299, Name and type index 51
+299: Tag 7 Class Name index 300
+300: Tag 1 Utf8 Value "org/jboss/as/weld/ejb/WeldInterceptorBindingsService"
+301: Tag 11 InterfaceMethodRef Class index 198, Name and type index 302
+302: Tag 12 NameAndType Name index 303, Description index 304
+303: Tag 1 Utf8 Value "provides"
+304: Tag 1 Utf8 Value "([Lorg/jboss/msc/service/ServiceName;)Ljava/util/function/Consumer;"
+305: Tag 10 MethodRef Class index 299, Name and type index 306
+306: Tag 12 NameAndType Name index 11, Description index 307
+307: Tag 1 Utf8 Value "(Ljava/util/function/Consumer;Ljava/util/function/Supplier;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)V"
+308: Tag 7 Class Name index 309
+309: Tag 1 Utf8 Value "org/jboss/as/weld/interceptors/Jsr299BindingsCreateInterceptor"
+310: Tag 10 MethodRef Class index 135, Name and type index 311
+311: Tag 12 NameAndType Name index 312, Description index 144
+312: Tag 1 Utf8 Value "getBeanDeploymentArchiveId"
+313: Tag 10 MethodRef Class index 308, Name and type index 314
+314: Tag 12 NameAndType Name index 11, Description index 315
+315: Tag 1 Utf8 Value "(Ljava/util/function/Supplier;Ljava/util/function/Supplier;Ljava/lang/String;Ljava/lang/String;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)V"
+316: Tag 9 FieldRef Class index 317, Name and type index 318
+317: Tag 7 Class Name index 319
+318: Tag 12 NameAndType Name index 320, Description index 321
+319: Tag 1 Utf8 Value "javax/enterprise/inject/spi/InterceptionType"
+320: Tag 1 Utf8 Value "PRE_DESTROY"
+321: Tag 1 Utf8 Value "Ljavax/enterprise/inject/spi/InterceptionType;"
+322: Tag 10 MethodRef Class index 323, Name and type index 324
+323: Tag 7 Class Name index 325
+324: Tag 12 NameAndType Name index 326, Description index 327
+325: Tag 1 Utf8 Value "org/jboss/as/weld/interceptors/Jsr299BindingsInterceptor"
+326: Tag 1 Utf8 Value "factory"
+327: Tag 1 Utf8 Value "(Ljavax/enterprise/inject/spi/InterceptionType;Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)Lorg/jboss/invocation/InterceptorFactory;"
+328: Tag 9 FieldRef Class index 317, Name and type index 329
+329: Tag 12 NameAndType Name index 330, Description index 321
+330: Tag 1 Utf8 Value "AROUND_CONSTRUCT"
+331: Tag 7 Class Name index 332
+332: Tag 1 Utf8 Value "org/jboss/as/ee/component/interceptors/InterceptorOrder$AroundConstruct"
+333: Tag 10 MethodRef Class index 178, Name and type index 334
+334: Tag 12 NameAndType Name index 335, Description index 270
+335: Tag 1 Utf8 Value "addAroundConstructInterceptor"
+336: Tag 9 FieldRef Class index 317, Name and type index 337
+337: Tag 12 NameAndType Name index 338, Description index 321
+338: Tag 1 Utf8 Value "POST_CONSTRUCT"
+339: Tag 7 Class Name index 340
+340: Tag 1 Utf8 Value "org/jboss/as/weld/ejb/EjbRequestScopeActivationInterceptor$Factory"
+341: Tag 10 MethodRef Class index 339, Name and type index 342
+342: Tag 12 NameAndType Name index 11, Description index 114
+343: Tag 9 FieldRef Class index 344, Name and type index 345
+344: Tag 7 Class Name index 346
+345: Tag 12 NameAndType Name index 207, Description index 347
+346: Tag 1 Utf8 Value "org/jboss/as/weld/injection/WeldConstructionStartInterceptor"
+347: Tag 1 Utf8 Value "Lorg/jboss/as/weld/injection/WeldConstructionStartInterceptor;"
+348: Tag 9 FieldRef Class index 349, Name and type index 350
+349: Tag 7 Class Name index 351
+350: Tag 12 NameAndType Name index 352, Description index 353
+351: Tag 1 Utf8 Value "org/jboss/as/weld/logging/WeldLogger"
+352: Tag 1 Utf8 Value "DEPLOYMENT_LOGGER"
+353: Tag 1 Utf8 Value "Lorg/jboss/as/weld/logging/WeldLogger;"
+354: Tag 11 InterfaceMethodRef Class index 349, Name and type index 355
+355: Tag 12 NameAndType Name index 356, Description index 357
+356: Tag 1 Utf8 Value "componentInterceptorSupportNotAvailable"
+357: Tag 1 Utf8 Value "(Ljava/lang/Object;)Ljava/lang/IllegalStateException;"
+358: Tag 10 MethodRef Class index 2, Name and type index 359
+359: Tag 12 NameAndType Name index 360, Description index 361
+360: Tag 1 Utf8 Value "addJsr299BindingsCreateInterceptor"
+361: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)V"
+362: Tag 10 MethodRef Class index 2, Name and type index 363
+363: Tag 12 NameAndType Name index 364, Description index 365
+364: Tag 1 Utf8 Value "addCommonLifecycleInterceptionSupport"
+365: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)V"
+366: Tag 7 Class Name index 367
+367: Tag 1 Utf8 Value "org/jboss/as/ee/component/interceptors/UserInterceptorFactory"
+368: Tag 9 FieldRef Class index 317, Name and type index 369
+369: Tag 12 NameAndType Name index 370, Description index 321
+370: Tag 1 Utf8 Value "AROUND_INVOKE"
+371: Tag 9 FieldRef Class index 317, Name and type index 372
+372: Tag 12 NameAndType Name index 373, Description index 321
+373: Tag 1 Utf8 Value "AROUND_TIMEOUT"
+374: Tag 10 MethodRef Class index 366, Name and type index 375
+375: Tag 12 NameAndType Name index 11, Description index 376
+376: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorFactory;Lorg/jboss/invocation/InterceptorFactory;)V"
+377: Tag 7 Class Name index 378
+378: Tag 1 Utf8 Value "org/jboss/as/ee/component/interceptors/InterceptorOrder$Component"
+379: Tag 10 MethodRef Class index 178, Name and type index 380
+380: Tag 12 NameAndType Name index 381, Description index 382
+381: Tag 1 Utf8 Value "addComponentInterceptor"
+382: Tag 1 Utf8 Value "(Lorg/jboss/invocation/InterceptorFactory;IZ)V"
+383: Tag 10 MethodRef Class index 2, Name and type index 384
+384: Tag 12 NameAndType Name index 385, Description index 386
+385: Tag 1 Utf8 Value "addWeldInterceptorBindingService"
+386: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Ljava/lang/Class;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)Lorg/jboss/msc/service/ServiceName;"
+387: Tag 10 MethodRef Class index 178, Name and type index 388
+388: Tag 12 NameAndType Name index 389, Description index 216
+389: Tag 1 Utf8 Value "getViews"
+390: Tag 11 InterfaceMethodRef Class index 223, Name and type index 121
+391: Tag 7 Class Name index 392
+392: Tag 1 Utf8 Value "org/jboss/as/ee/component/ViewConfiguration"
+393: Tag 7 Class Name index 394
+394: Tag 1 Utf8 Value "org/jboss/as/ee/component/interceptors/InterceptorOrder$View"
+395: Tag 10 MethodRef Class index 391, Name and type index 396
+396: Tag 12 NameAndType Name index 397, Description index 270
+397: Tag 1 Utf8 Value "addViewInterceptor"
+398: Tag 10 MethodRef Class index 178, Name and type index 399
+399: Tag 12 NameAndType Name index 400, Description index 270
+400: Tag 1 Utf8 Value "addTimeoutViewInterceptor"
+401: Tag 7 Class Name index 402
+402: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessor"
+403: Tag 1 Utf8 Value "Code"
+404: Tag 1 Utf8 Value "LineNumberTable"
+405: Tag 1 Utf8 Value "LocalVariableTable"
+406: Tag 1 Utf8 Value "this"
+407: Tag 1 Utf8 Value "Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor;"
+408: Tag 1 Utf8 Value "deploy"
+409: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V"
+410: Tag 1 Utf8 Value "beanName"
+411: Tag 1 Utf8 Value "Ljava/lang/String;"
+412: Tag 1 Utf8 Value "component"
+413: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentDescription;"
+414: Tag 1 Utf8 Value "phaseContext"
+415: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentPhaseContext;"
+416: Tag 1 Utf8 Value "deploymentUnit"
+417: Tag 1 Utf8 Value "Lorg/jboss/as/server/deployment/DeploymentUnit;"
+418: Tag 1 Utf8 Value "topLevelDeployment"
+419: Tag 1 Utf8 Value "eeModuleDescription"
+420: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/EEModuleDescription;"
+421: Tag 1 Utf8 Value "weldBootstrapService"
+422: Tag 1 Utf8 Value "weldStartService"
+423: Tag 1 Utf8 Value "beanManagerService"
+424: Tag 1 Utf8 Value "componentIntegrators"
+425: Tag 1 Utf8 Value "Ljava/lang/Iterable;"
+426: Tag 1 Utf8 Value "componentInterceptorSupport"
+427: Tag 1 Utf8 Value "Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;"
+428: Tag 1 Utf8 Value "LocalVariableTypeTable"
+429: Tag 1 Utf8 Value "Ljava/lang/Iterable<Lorg/jboss/as/weld/spi/ComponentIntegrator;>;"
+430: Tag 1 Utf8 Value "StackMapTable"
+431: Tag 1 Utf8 Value "Exceptions"
+432: Tag 7 Class Name index 433
+433: Tag 1 Utf8 Value "org/jboss/as/server/deployment/DeploymentUnitProcessingException"
+434: Tag 1 Utf8 Value "integrator"
+435: Tag 1 Utf8 Value "Lorg/jboss/as/weld/spi/ComponentIntegrator;"
+436: Tag 1 Utf8 Value "integrators"
+437: Tag 1 Utf8 Value "Signature"
+438: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/Iterable<Lorg/jboss/as/weld/spi/ComponentIntegrator;>;)Z"
+439: Tag 1 Utf8 Value "bindingServiceNameSupplier"
+440: Tag 1 Utf8 Value "Ljava/util/function/Supplier;"
+441: Tag 1 Utf8 Value "integrationAction"
+442: Tag 1 Utf8 Value "Lorg/jboss/as/weld/spi/ComponentIntegrator$DefaultInterceptorIntegrationAction;"
+443: Tag 1 Utf8 Value "componentIntegrator"
+444: Tag 1 Utf8 Value "target"
+445: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceTarget;"
+446: Tag 1 Utf8 Value "configuration"
+447: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ComponentConfiguration;"
+448: Tag 1 Utf8 Value "description"
+449: Tag 1 Utf8 Value "componentClass"
+450: Tag 1 Utf8 Value "Ljava/lang/Class;"
+451: Tag 1 Utf8 Value "weldServiceName"
+452: Tag 1 Utf8 Value "interceptorClasses"
+453: Tag 1 Utf8 Value "Ljava/util/Set;"
+454: Tag 1 Utf8 Value "classLoader"
+455: Tag 1 Utf8 Value "Ljava/lang/ClassLoader;"
+456: Tag 1 Utf8 Value "beanDeploymentArchiveId"
+457: Tag 1 Utf8 Value "builder"
+458: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder;"
+459: Tag 1 Utf8 Value "isComponentIntegrationPerformed"
+460: Tag 1 Utf8 Value "Z"
+461: Tag 1 Utf8 Value "weldContainerSupplier"
+462: Tag 1 Utf8 Value "weldComponentService"
+463: Tag 1 Utf8 Value "Lorg/jboss/as/weld/injection/WeldComponentService;"
+464: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/msc/service/ServiceName;>;"
+465: Tag 1 Utf8 Value "Ljava/lang/Class<*>;"
+466: Tag 1 Utf8 Value "Ljava/util/Set<Ljava/lang/Class<*>;>;"
+467: Tag 1 Utf8 Value "Lorg/jboss/msc/service/ServiceBuilder<*>;"
+468: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/as/weld/WeldBootstrapService;>;"
+469: Tag 7 Class Name index 470
+470: Tag 1 Utf8 Value "java/lang/Class"
+471: Tag 7 Class Name index 472
+472: Tag 1 Utf8 Value "java/util/Set"
+473: Tag 7 Class Name index 474
+474: Tag 1 Utf8 Value "java/lang/ClassLoader"
+475: Tag 7 Class Name index 476
+476: Tag 1 Utf8 Value "java/util/function/Supplier"
+477: Tag 1 Utf8 Value "(Ljava/lang/Iterable<Lorg/jboss/as/weld/spi/ComponentIntegrator;>;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/Class<*>;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/util/Set<Ljava/lang/Class<*>;>;Ljava/lang/ClassLoader;Ljava/lang/String;)V"
+478: Tag 1 Utf8 Value "bindingServiceName"
+479: Tag 1 Utf8 Value "sb"
+480: Tag 1 Utf8 Value "interceptorBindingsConsumer"
+481: Tag 1 Utf8 Value "Ljava/util/function/Consumer;"
+482: Tag 1 Utf8 Value "Ljava/util/function/Consumer<Lorg/jboss/weld/ejb/spi/InterceptorBindings;>;"
+483: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Ljava/lang/Class<*>;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)Lorg/jboss/msc/service/ServiceName;"
+484: Tag 1 Utf8 Value "interceptorBindingsSupplier"
+485: Tag 1 Utf8 Value "createInterceptor"
+486: Tag 1 Utf8 Value "Lorg/jboss/as/weld/interceptors/Jsr299BindingsCreateInterceptor;"
+487: Tag 1 Utf8 Value "Ljava/util/function/Supplier<Lorg/jboss/weld/ejb/spi/InterceptorBindings;>;"
+488: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceBuilder<*>;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)V"
+489: Tag 1 Utf8 Value "postConstructRequestContextActivationFactory"
+490: Tag 1 Utf8 Value "Lorg/jboss/as/weld/ejb/EjbRequestScopeActivationInterceptor$Factory;"
+491: Tag 1 Utf8 Value "(Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/msc/service/ServiceBuilder<*>;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)V"
+492: Tag 1 Utf8 Value "undeploy"
+493: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentUnit;)V"
+494: Tag 1 Utf8 Value "context"
+495: Tag 1 Utf8 Value "lambda$addWeldIntegration$2"
+496: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Ljava/lang/Class;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;)V"
+497: Tag 1 Utf8 Value "lambda$addWeldIntegration$1"
+498: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Ljava/lang/Class;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName;"
+499: Tag 1 Utf8 Value "lambda$deploy$0"
+500: Tag 1 Utf8 Value "(Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/ee/component/ComponentConfiguration;)V"
+501: Tag 1 Utf8 Value "view"
+502: Tag 1 Utf8 Value "Lorg/jboss/as/ee/component/ViewConfiguration;"
+503: Tag 1 Utf8 Value "requestFactory"
+504: Tag 1 Utf8 Value "access$000"
+505: Tag 1 Utf8 Value "(Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor;Ljava/lang/Iterable;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/Class;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/util/Set;Ljava/lang/ClassLoader;Ljava/lang/String;)V"
+506: Tag 1 Utf8 Value "x0"
+507: Tag 1 Utf8 Value "x1"
+508: Tag 1 Utf8 Value "x2"
+509: Tag 1 Utf8 Value "x3"
+510: Tag 1 Utf8 Value "x4"
+511: Tag 1 Utf8 Value "x5"
+512: Tag 1 Utf8 Value "x6"
+513: Tag 1 Utf8 Value "x7"
+514: Tag 1 Utf8 Value "x8"
+515: Tag 1 Utf8 Value "x9"
+516: Tag 1 Utf8 Value "x10"
+517: Tag 1 Utf8 Value "x11"
+518: Tag 1 Utf8 Value "x12"
+519: Tag 1 Utf8 Value "x13"
+520: Tag 1 Utf8 Value "SourceFile"
+521: Tag 1 Utf8 Value "WeldComponentIntegrationProcessor.java"
+522: Tag 1 Utf8 Value "BootstrapMethods"
+523: Tag 15 MethodHandle Kind 6, Index 524
+524: Tag 10 MethodRef Class index 525, Name and type index 526
+525: Tag 7 Class Name index 527
+526: Tag 12 NameAndType Name index 528, Description index 529
+527: Tag 1 Utf8 Value "java/lang/invoke/LambdaMetafactory"
+528: Tag 1 Utf8 Value "metafactory"
+529: Tag 1 Utf8 Value "(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;"
+530: Tag 16 MethodType Descriptor index 531
+531: Tag 1 Utf8 Value "(Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/ee/component/ComponentConfiguration;)V"
+532: Tag 15 MethodHandle Kind 6, Index 533
+533: Tag 10 MethodRef Class index 2, Name and type index 534
+534: Tag 12 NameAndType Name index 499, Description index 500
+535: Tag 16 MethodType Descriptor index 134
+536: Tag 15 MethodHandle Kind 6, Index 537
+537: Tag 10 MethodRef Class index 2, Name and type index 538
+538: Tag 12 NameAndType Name index 497, Description index 498
+539: Tag 16 MethodType Descriptor index 48
+540: Tag 16 MethodType Descriptor index 114
+541: Tag 15 MethodHandle Kind 6, Index 542
+542: Tag 10 MethodRef Class index 2, Name and type index 543
+543: Tag 12 NameAndType Name index 495, Description index 496
+544: Tag 1 Utf8 Value "InnerClasses"
+545: Tag 7 Class Name index 546
+546: Tag 1 Utf8 Value "org/jboss/as/weld/spi/ComponentIntegrator$DefaultInterceptorIntegrationAction"
+547: Tag 1 Utf8 Value "DefaultInterceptorIntegrationAction"
+548: Tag 7 Class Name index 549
+549: Tag 1 Utf8 Value "org/jboss/as/ee/component/interceptors/InterceptorOrder"
+550: Tag 1 Utf8 Value "ComponentPostConstruct"
+551: Tag 1 Utf8 Value "ComponentPreDestroy"
+552: Tag 1 Utf8 Value "AroundConstruct"
+553: Tag 7 Class Name index 554
+554: Tag 1 Utf8 Value "org/jboss/as/weld/ejb/EjbRequestScopeActivationInterceptor"
+555: Tag 1 Utf8 Value "Factory"
+556: Tag 1 Utf8 Value "Component"
+557: Tag 1 Utf8 Value "View"
+558: Tag 7 Class Name index 559
+559: Tag 1 Utf8 Value "org/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor$AbstractInjectionTargetDelegatingInterceptor"
+560: Tag 1 Utf8 Value "AbstractInjectionTargetDelegatingInterceptor"
+561: Tag 7 Class Name index 562
+562: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles$Lookup"
+563: Tag 7 Class Name index 564
+564: Tag 1 Utf8 Value "java/lang/invoke/MethodHandles"
+565: Tag 1 Utf8 Value "Lookup"
+
+Flags: decimal 33, hex 0021, binary 0000000000100001 public super
+
+This class: id 2, name org.jboss.as.weld.deployment.processors.WeldComponentIntegrationProcessor
+
+Super class: id 8, name java.lang.Object
+
+Implements class ids 401
+Implements names org.jboss.as.server.deployment.DeploymentUnitProcessor
+
+No fields
+
+Method name <init> (index 11), type ()V (descriptor index 12)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 47
+Method name deploy (index 408), type (Lorg/jboss/as/server/deployment/DeploymentPhaseContext;)V (descriptor index 409)
+Human type: (org.jboss.as.server.deployment.DeploymentPhaseContext): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 562
+Method attribute name Exceptions, size 4
+Method name isBeanNameRequired (index 139), type (Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/Iterable;)Z (descriptor index 140)
+Human type: (org.jboss.as.ee.component.ComponentDescription, java.lang.Iterable): boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 169
+Method attribute name Signature, size 2
+Method name isComponentWithView (index 176), type (Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/Iterable;)Z (descriptor index 140)
+Human type: (org.jboss.as.ee.component.ComponentDescription, java.lang.Iterable): boolean
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 169
+Method attribute name Signature, size 2
+Method name addWeldIntegration (index 5), type (Ljava/lang/Iterable;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/Class;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/util/Set;Ljava/lang/ClassLoader;Ljava/lang/String;)V (descriptor index 6)
+Human type: (java.lang.Iterable, org.jboss.as.weld.spi.ComponentInterceptorSupport, org.jboss.msc.service.ServiceTarget, org.jboss.as.ee.component.ComponentConfiguration, org.jboss.as.ee.component.ComponentDescription, java.lang.Class, java.lang.String, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, java.util.Set, java.lang.ClassLoader, java.lang.String): void
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+Method attribute name Code, size 870
+Method attribute name Signature, size 2
+Method name addWeldInterceptorBindingService (index 385), type (Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Ljava/lang/Class;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)Lorg/jboss/msc/service/ServiceName; (descriptor index 386)
+Human type: (org.jboss.msc.service.ServiceTarget, org.jboss.as.ee.component.ComponentConfiguration, java.lang.Class, java.lang.String, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, java.lang.String, org.jboss.as.weld.spi.ComponentInterceptorSupport): org.jboss.msc.service.ServiceName
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 328
+Method attribute name Signature, size 2
+Method name addJsr299BindingsCreateInterceptor (index 360), type (Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)V (descriptor index 361)
+Human type: (org.jboss.as.ee.component.ComponentConfiguration, org.jboss.as.ee.component.ComponentDescription, java.lang.String, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceBuilder, org.jboss.msc.service.ServiceName, org.jboss.as.weld.spi.ComponentInterceptorSupport): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 244
+Method attribute name Signature, size 2
+Method name addCommonLifecycleInterceptionSupport (index 364), type (Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;)V (descriptor index 365)
+Human type: (org.jboss.as.ee.component.ComponentConfiguration, org.jboss.msc.service.ServiceBuilder, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, org.jboss.as.weld.spi.ComponentInterceptorSupport): void
+Flags: decimal 10, hex 000a, binary 0000000000001010 private static
+Method attribute name Code, size 222
+Method attribute name Signature, size 2
+Method name undeploy (index 492), type (Lorg/jboss/as/server/deployment/DeploymentUnit;)V (descriptor index 493)
+Human type: (org.jboss.as.server.deployment.DeploymentUnit): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name lambda$addWeldIntegration$2 (index 495), type (Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Ljava/lang/Class;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceBuilder;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;)V (descriptor index 496)
+Human type: (org.jboss.as.weld.spi.ComponentInterceptorSupport, java.lang.Class, org.jboss.as.ee.component.ComponentConfiguration, org.jboss.as.ee.component.ComponentDescription, java.lang.String, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceBuilder, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 240
+Method name lambda$addWeldIntegration$1 (index 497), type (Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Ljava/lang/Class;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/lang/String;)Lorg/jboss/msc/service/ServiceName; (descriptor index 498)
+Human type: (org.jboss.as.weld.spi.ComponentInterceptorSupport, java.lang.Class, org.jboss.msc.service.ServiceTarget, org.jboss.as.ee.component.ComponentConfiguration, java.lang.String, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, java.lang.String): org.jboss.msc.service.ServiceName
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 159
+Method name lambda$deploy$0 (index 499), type (Lorg/jboss/msc/service/ServiceName;Lorg/jboss/as/server/deployment/DeploymentPhaseContext;Lorg/jboss/as/ee/component/ComponentDescription;Lorg/jboss/as/ee/component/ComponentConfiguration;)V (descriptor index 500)
+Human type: (org.jboss.msc.service.ServiceName, org.jboss.as.server.deployment.DeploymentPhaseContext, org.jboss.as.ee.component.ComponentDescription, org.jboss.as.ee.component.ComponentConfiguration): void
+Flags: decimal 4106, hex 100a, binary 0001000000001010 private static synthetic
+Method attribute name Code, size 198
+Method attribute name Exceptions, size 4
+Method name access$000 (index 504), type (Lorg/jboss/as/weld/deployment/processors/WeldComponentIntegrationProcessor;Ljava/lang/Iterable;Lorg/jboss/as/weld/spi/ComponentInterceptorSupport;Lorg/jboss/msc/service/ServiceTarget;Lorg/jboss/as/ee/component/ComponentConfiguration;Lorg/jboss/as/ee/component/ComponentDescription;Ljava/lang/Class;Ljava/lang/String;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Lorg/jboss/msc/service/ServiceName;Ljava/util/Set;Ljava/lang/ClassLoader;Ljava/lang/String;)V (descriptor index 505)
+Human type: (org.jboss.as.weld.deployment.processors.WeldComponentIntegrationProcessor, java.lang.Iterable, org.jboss.as.weld.spi.ComponentInterceptorSupport, org.jboss.msc.service.ServiceTarget, org.jboss.as.ee.component.ComponentConfiguration, org.jboss.as.ee.component.ComponentDescription, java.lang.Class, java.lang.String, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, org.jboss.msc.service.ServiceName, java.util.Set, java.lang.ClassLoader, java.lang.String): void
+Flags: decimal 4104, hex 1008, binary 0001000000001000 static synthetic
+Method attribute name Code, size 200
+
+Class attribute name SourceFile, size 2
+Class attribute name BootstrapMethods, size 32
+Class attribute name InnerClasses, size 106

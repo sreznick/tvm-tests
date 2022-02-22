@@ -1,0 +1,85 @@
+AAAA 1
+Version 52.0
+
+Constant Pool size 42
+1: Tag 7 Class Name index 2
+2: Tag 1 Utf8 Value "org/jboss/as/jsr77/subsystem/Constants"
+3: Tag 10 MethodRef Class index 4, Name and type index 5
+4: Tag 7 Class Name index 6
+5: Tag 12 NameAndType Name index 7, Description index 8
+6: Tag 1 Utf8 Value "java/lang/Object"
+7: Tag 1 Utf8 Value "<init>"
+8: Tag 1 Utf8 Value "()V"
+9: Tag 7 Class Name index 10
+10: Tag 1 Utf8 Value "org/jboss/as/jsr77/managedobject/Handler"
+11: Tag 1 Utf8 Value "JMX_DOMAIN"
+12: Tag 1 Utf8 Value "Ljava/lang/String;"
+13: Tag 1 Utf8 Value "ConstantValue"
+14: Tag 8 String Contents 15
+15: Tag 1 Utf8 Value "jboss.jsr77"
+16: Tag 1 Utf8 Value "J2EE_TYPE"
+17: Tag 8 String Contents 18
+18: Tag 1 Utf8 Value "j2eeType"
+19: Tag 1 Utf8 Value "NAME"
+20: Tag 8 String Contents 21
+21: Tag 1 Utf8 Value "name"
+22: Tag 1 Utf8 Value "Code"
+23: Tag 1 Utf8 Value "LineNumberTable"
+24: Tag 1 Utf8 Value "LocalVariableTable"
+25: Tag 1 Utf8 Value "this"
+26: Tag 1 Utf8 Value "Lorg/jboss/as/jsr77/managedobject/Handler;"
+27: Tag 1 Utf8 Value "queryObjectNames"
+28: Tag 1 Utf8 Value "(Lorg/jboss/as/jsr77/managedobject/ModelReader;Ljavax/management/ObjectName;Ljavax/management/QueryExp;)Ljava/util/Set;"
+29: Tag 1 Utf8 Value "Signature"
+30: Tag 1 Utf8 Value "(Lorg/jboss/as/jsr77/managedobject/ModelReader;Ljavax/management/ObjectName;Ljavax/management/QueryExp;)Ljava/util/Set<Ljavax/management/ObjectName;>;"
+31: Tag 1 Utf8 Value "getAttribute"
+32: Tag 1 Utf8 Value "(Lorg/jboss/as/jsr77/managedobject/ModelReader;Ljavax/management/ObjectName;Ljava/lang/String;)Ljava/lang/Object;"
+33: Tag 1 Utf8 Value "Exceptions"
+34: Tag 7 Class Name index 35
+35: Tag 1 Utf8 Value "javax/management/AttributeNotFoundException"
+36: Tag 7 Class Name index 37
+37: Tag 1 Utf8 Value "javax/management/InstanceNotFoundException"
+38: Tag 1 Utf8 Value "getMBeanInfo"
+39: Tag 1 Utf8 Value "(Lorg/jboss/as/jsr77/managedobject/ModelReader;Ljavax/management/ObjectName;)Ljavax/management/MBeanInfo;"
+40: Tag 1 Utf8 Value "SourceFile"
+41: Tag 1 Utf8 Value "Handler.java"
+
+Flags: decimal 1056, hex 0420, binary 0000010000100000 super abstract
+
+This class: id 9, name org.jboss.as.jsr77.managedobject.Handler
+
+Super class: id 4, name java.lang.Object
+
+No interfaces
+
+Field name JMX_DOMAIN (index 11), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+Field name J2EE_TYPE (index 16), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+Field name NAME (index 19), type Ljava/lang/String; (descriptor index 12)
+Human type: java.lang.String
+Flags: decimal 24, hex 0018, binary 0000000000011000 static final
+Field attribute name ConstantValue, size 2
+
+Method name <init> (index 7), type ()V (descriptor index 8)
+Human type: (): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 47
+Method name queryObjectNames (index 27), type (Lorg/jboss/as/jsr77/managedobject/ModelReader;Ljavax/management/ObjectName;Ljavax/management/QueryExp;)Ljava/util/Set; (descriptor index 28)
+Human type: (org.jboss.as.jsr77.managedobject.ModelReader, javax.management.ObjectName, javax.management.QueryExp): java.util.Set
+Flags: decimal 1024, hex 0400, binary 0000010000000000 abstract
+Method attribute name Signature, size 2
+Method name getAttribute (index 31), type (Lorg/jboss/as/jsr77/managedobject/ModelReader;Ljavax/management/ObjectName;Ljava/lang/String;)Ljava/lang/Object; (descriptor index 32)
+Human type: (org.jboss.as.jsr77.managedobject.ModelReader, javax.management.ObjectName, java.lang.String): java.lang.Object
+Flags: decimal 1024, hex 0400, binary 0000010000000000 abstract
+Method attribute name Exceptions, size 6
+Method name getMBeanInfo (index 38), type (Lorg/jboss/as/jsr77/managedobject/ModelReader;Ljavax/management/ObjectName;)Ljavax/management/MBeanInfo; (descriptor index 39)
+Human type: (org.jboss.as.jsr77.managedobject.ModelReader, javax.management.ObjectName): javax.management.MBeanInfo
+Flags: decimal 1024, hex 0400, binary 0000010000000000 abstract
+Method attribute name Exceptions, size 4
+
+Class attribute name SourceFile, size 2

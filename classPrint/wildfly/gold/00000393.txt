@@ -1,0 +1,145 @@
+AAAA 2
+Version 52.0
+
+Constant Pool size 111
+1: Tag 10 MethodRef Class index 21, Name and type index 56
+2: Tag 9 FieldRef Class index 20, Name and type index 57
+3: Tag 10 MethodRef Class index 58, Name and type index 59
+4: Tag 9 FieldRef Class index 60, Name and type index 61
+5: Tag 11 InterfaceMethodRef Class index 47, Name and type index 62
+6: Tag 10 MethodRef Class index 63, Name and type index 64
+7: Tag 11 InterfaceMethodRef Class index 49, Name and type index 65
+8: Tag 7 Class Name index 66
+9: Tag 7 Class Name index 67
+10: Tag 7 Class Name index 68
+11: Tag 10 MethodRef Class index 10, Name and type index 56
+12: Tag 8 String Contents 69
+13: Tag 10 MethodRef Class index 10, Name and type index 70
+14: Tag 10 MethodRef Class index 8, Name and type index 71
+15: Tag 10 MethodRef Class index 10, Name and type index 72
+16: Tag 10 MethodRef Class index 9, Name and type index 73
+17: Tag 10 MethodRef Class index 20, Name and type index 74
+18: Tag 9 FieldRef Class index 75, Name and type index 76
+19: Tag 11 InterfaceMethodRef Class index 47, Name and type index 77
+20: Tag 7 Class Name index 78
+21: Tag 7 Class Name index 79
+22: Tag 7 Class Name index 80
+23: Tag 1 Utf8 Value "operationName"
+24: Tag 1 Utf8 Value "Ljava/lang/String;"
+25: Tag 1 Utf8 Value "<init>"
+26: Tag 1 Utf8 Value "(Ljava/lang/String;)V"
+27: Tag 1 Utf8 Value "Code"
+28: Tag 1 Utf8 Value "LineNumberTable"
+29: Tag 1 Utf8 Value "LocalVariableTable"
+30: Tag 1 Utf8 Value "this"
+31: Tag 1 Utf8 Value "Lorg/jboss/as/txn/subsystem/LogStoreParticipantOperationHandler;"
+32: Tag 1 Utf8 Value "execute"
+33: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V"
+34: Tag 1 Utf8 Value "on"
+35: Tag 1 Utf8 Value "Ljavax/management/ObjectName;"
+36: Tag 1 Utf8 Value "e"
+37: Tag 1 Utf8 Value "Ljava/lang/Exception;"
+38: Tag 1 Utf8 Value "context"
+39: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext;"
+40: Tag 1 Utf8 Value "operation"
+41: Tag 1 Utf8 Value "Lorg/jboss/dmr/ModelNode;"
+42: Tag 1 Utf8 Value "mbs"
+43: Tag 1 Utf8 Value "Ljavax/management/MBeanServer;"
+44: Tag 1 Utf8 Value "resource"
+45: Tag 1 Utf8 Value "Lorg/jboss/as/controller/registry/Resource;"
+46: Tag 1 Utf8 Value "StackMapTable"
+47: Tag 7 Class Name index 81
+48: Tag 7 Class Name index 82
+49: Tag 7 Class Name index 83
+50: Tag 7 Class Name index 84
+51: Tag 1 Utf8 Value "Exceptions"
+52: Tag 1 Utf8 Value "refreshParticipant"
+53: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)V"
+54: Tag 1 Utf8 Value "SourceFile"
+55: Tag 1 Utf8 Value "LogStoreParticipantOperationHandler.java"
+56: Tag 12 NameAndType Name index 25, Description index 85
+57: Tag 12 NameAndType Name index 23, Description index 24
+58: Tag 7 Class Name index 86
+59: Tag 12 NameAndType Name index 87, Description index 88
+60: Tag 7 Class Name index 89
+61: Tag 12 NameAndType Name index 90, Description index 91
+62: Tag 12 NameAndType Name index 92, Description index 93
+63: Tag 7 Class Name index 94
+64: Tag 12 NameAndType Name index 95, Description index 96
+65: Tag 12 NameAndType Name index 97, Description index 98
+66: Tag 1 Utf8 Value "java/lang/Exception"
+67: Tag 1 Utf8 Value "org/jboss/as/controller/OperationFailedException"
+68: Tag 1 Utf8 Value "java/lang/StringBuilder"
+69: Tag 1 Utf8 Value "JMX error: "
+70: Tag 12 NameAndType Name index 99, Description index 100
+71: Tag 12 NameAndType Name index 101, Description index 102
+72: Tag 12 NameAndType Name index 103, Description index 102
+73: Tag 12 NameAndType Name index 25, Description index 26
+74: Tag 12 NameAndType Name index 52, Description index 53
+75: Tag 7 Class Name index 104
+76: Tag 12 NameAndType Name index 107, Description index 108
+77: Tag 12 NameAndType Name index 109, Description index 110
+78: Tag 1 Utf8 Value "org/jboss/as/txn/subsystem/LogStoreParticipantOperationHandler"
+79: Tag 1 Utf8 Value "java/lang/Object"
+80: Tag 1 Utf8 Value "org/jboss/as/controller/OperationStepHandler"
+81: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext"
+82: Tag 1 Utf8 Value "org/jboss/dmr/ModelNode"
+83: Tag 1 Utf8 Value "javax/management/MBeanServer"
+84: Tag 1 Utf8 Value "org/jboss/as/controller/registry/Resource"
+85: Tag 1 Utf8 Value "()V"
+86: Tag 1 Utf8 Value "org/jboss/as/txn/subsystem/TransactionExtension"
+87: Tag 1 Utf8 Value "getMBeanServer"
+88: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext;)Ljavax/management/MBeanServer;"
+89: Tag 1 Utf8 Value "org/jboss/as/controller/PathAddress"
+90: Tag 1 Utf8 Value "EMPTY_ADDRESS"
+91: Tag 1 Utf8 Value "Lorg/jboss/as/controller/PathAddress;"
+92: Tag 1 Utf8 Value "readResource"
+93: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/PathAddress;)Lorg/jboss/as/controller/registry/Resource;"
+94: Tag 1 Utf8 Value "org/jboss/as/txn/subsystem/LogStoreResource"
+95: Tag 1 Utf8 Value "getObjectName"
+96: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/registry/Resource;)Ljavax/management/ObjectName;"
+97: Tag 1 Utf8 Value "invoke"
+98: Tag 1 Utf8 Value "(Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object;"
+99: Tag 1 Utf8 Value "append"
+100: Tag 1 Utf8 Value "(Ljava/lang/String;)Ljava/lang/StringBuilder;"
+101: Tag 1 Utf8 Value "getMessage"
+102: Tag 1 Utf8 Value "()Ljava/lang/String;"
+103: Tag 1 Utf8 Value "toString"
+104: Tag 1 Utf8 Value "org/jboss/as/controller/OperationContext$RollbackHandler"
+105: Tag 1 Utf8 Value "RollbackHandler"
+106: Tag 1 Utf8 Value "InnerClasses"
+107: Tag 1 Utf8 Value "NOOP_ROLLBACK_HANDLER"
+108: Tag 1 Utf8 Value "Lorg/jboss/as/controller/OperationContext$RollbackHandler;"
+109: Tag 1 Utf8 Value "completeStep"
+110: Tag 1 Utf8 Value "(Lorg/jboss/as/controller/OperationContext$RollbackHandler;)V"
+
+Flags: decimal 1056, hex 0420, binary 0000010000100000 super abstract
+
+This class: id 20, name org.jboss.as.txn.subsystem.LogStoreParticipantOperationHandler
+
+Super class: id 21, name java.lang.Object
+
+Implements class ids 22
+Implements names org.jboss.as.controller.OperationStepHandler
+
+Field name operationName (index 23), type Ljava/lang/String; (descriptor index 24)
+Human type: java.lang.String
+Flags: decimal 2, hex 0002, binary 0000000000000010 private
+No field attributes
+
+Method name <init> (index 25), type (Ljava/lang/String;)V (descriptor index 26)
+Human type: (java.lang.String): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 70
+Method name execute (index 32), type (Lorg/jboss/as/controller/OperationContext;Lorg/jboss/dmr/ModelNode;)V (descriptor index 33)
+Human type: (org.jboss.as.controller.OperationContext, org.jboss.dmr.ModelNode): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 269
+Method attribute name Exceptions, size 4
+Method name refreshParticipant (index 52), type (Lorg/jboss/as/controller/OperationContext;)V (descriptor index 53)
+Human type: (org.jboss.as.controller.OperationContext): void
+Flags: decimal 1024, hex 0400, binary 0000010000000000 abstract
+No method attributes
+
+Class attribute name SourceFile, size 2
+Class attribute name InnerClasses, size 10

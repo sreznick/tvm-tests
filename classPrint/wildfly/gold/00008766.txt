@@ -1,0 +1,113 @@
+AAAA 3
+Version 52.0
+
+Constant Pool size 70
+1: Tag 9 FieldRef Class index 2, Name and type index 3
+2: Tag 7 Class Name index 4
+3: Tag 12 NameAndType Name index 5, Description index 6
+4: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry$1"
+5: Tag 1 Utf8 Value "this$0"
+6: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;"
+7: Tag 9 FieldRef Class index 2, Name and type index 8
+8: Tag 12 NameAndType Name index 9, Description index 10
+9: Tag 1 Utf8 Value "val$metric"
+10: Tag 1 Utf8 Value "Lorg/wildfly/extension/metrics/Metric;"
+11: Tag 10 MethodRef Class index 12, Name and type index 13
+12: Tag 7 Class Name index 14
+13: Tag 12 NameAndType Name index 15, Description index 16
+14: Tag 1 Utf8 Value "java/lang/Object"
+15: Tag 1 Utf8 Value "<init>"
+16: Tag 1 Utf8 Value "()V"
+17: Tag 11 InterfaceMethodRef Class index 18, Name and type index 19
+18: Tag 7 Class Name index 20
+19: Tag 12 NameAndType Name index 21, Description index 22
+20: Tag 1 Utf8 Value "org/wildfly/extension/metrics/Metric"
+21: Tag 1 Utf8 Value "getValue"
+22: Tag 1 Utf8 Value "()Ljava/util/OptionalDouble;"
+23: Tag 10 MethodRef Class index 24, Name and type index 25
+24: Tag 7 Class Name index 26
+25: Tag 12 NameAndType Name index 27, Description index 28
+26: Tag 1 Utf8 Value "java/util/OptionalDouble"
+27: Tag 1 Utf8 Value "isPresent"
+28: Tag 1 Utf8 Value "()Z"
+29: Tag 9 FieldRef Class index 30, Name and type index 31
+30: Tag 7 Class Name index 32
+31: Tag 12 NameAndType Name index 33, Description index 34
+32: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/_private/MicroProfileMetricsLogger"
+33: Tag 1 Utf8 Value "LOGGER"
+34: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/_private/MicroProfileMetricsLogger;"
+35: Tag 11 InterfaceMethodRef Class index 30, Name and type index 36
+36: Tag 12 NameAndType Name index 37, Description index 38
+37: Tag 1 Utf8 Value "metricUnavailable"
+38: Tag 1 Utf8 Value "()Ljava/lang/IllegalStateException;"
+39: Tag 10 MethodRef Class index 24, Name and type index 40
+40: Tag 12 NameAndType Name index 41, Description index 42
+41: Tag 1 Utf8 Value "getAsDouble"
+42: Tag 1 Utf8 Value "()D"
+43: Tag 7 Class Name index 44
+44: Tag 1 Utf8 Value "org/eclipse/microprofile/metrics/Counter"
+45: Tag 1 Utf8 Value "(Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;Lorg/wildfly/extension/metrics/Metric;)V"
+46: Tag 1 Utf8 Value "Code"
+47: Tag 1 Utf8 Value "LineNumberTable"
+48: Tag 1 Utf8 Value "LocalVariableTable"
+49: Tag 1 Utf8 Value "this"
+50: Tag 1 Utf8 Value "Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry$1;"
+51: Tag 1 Utf8 Value "Signature"
+52: Tag 1 Utf8 Value "inc"
+53: Tag 1 Utf8 Value "(J)V"
+54: Tag 1 Utf8 Value "n"
+55: Tag 1 Utf8 Value "J"
+56: Tag 1 Utf8 Value "getCount"
+57: Tag 1 Utf8 Value "()J"
+58: Tag 1 Utf8 Value "value"
+59: Tag 1 Utf8 Value "Ljava/util/OptionalDouble;"
+60: Tag 1 Utf8 Value "StackMapTable"
+61: Tag 1 Utf8 Value "SourceFile"
+62: Tag 1 Utf8 Value "MicroProfileVendorMetricRegistry.java"
+63: Tag 1 Utf8 Value "EnclosingMethod"
+64: Tag 7 Class Name index 65
+65: Tag 1 Utf8 Value "org/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry"
+66: Tag 12 NameAndType Name index 67, Description index 68
+67: Tag 1 Utf8 Value "registerMetric"
+68: Tag 1 Utf8 Value "(Lorg/wildfly/extension/metrics/Metric;Lorg/wildfly/extension/metrics/MetricMetadata;)V"
+69: Tag 1 Utf8 Value "InnerClasses"
+
+Flags: decimal 32, hex 0020, binary 0000000000100000 super
+
+This class: id 2, name org.wildfly.extension.microprofile.metrics.MicroProfileVendorMetricRegistry$1
+
+Super class: id 12, name java.lang.Object
+
+Implements class ids 43
+Implements names org.eclipse.microprofile.metrics.Counter
+
+Field name val$metric (index 9), type Lorg/wildfly/extension/metrics/Metric; (descriptor index 10)
+Human type: org.wildfly.extension.metrics.Metric
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+Field name this$0 (index 5), type Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry; (descriptor index 6)
+Human type: org.wildfly.extension.microprofile.metrics.MicroProfileVendorMetricRegistry
+Flags: decimal 4112, hex 1010, binary 0001000000010000 final synthetic
+No field attributes
+
+Method name <init> (index 15), type (Lorg/wildfly/extension/microprofile/metrics/MicroProfileVendorMetricRegistry;Lorg/wildfly/extension/metrics/Metric;)V (descriptor index 45)
+Human type: (org.wildfly.extension.microprofile.metrics.MicroProfileVendorMetricRegistry, org.wildfly.extension.metrics.Metric): void
+Flags: decimal 0, hex 0000, binary 0000000000000000
+Method attribute name Code, size 67
+Method attribute name Signature, size 2
+Method name inc (index 52), type ()V (descriptor index 16)
+Human type: (): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 43
+Method name inc (index 52), type (J)V (descriptor index 53)
+Human type: (long): void
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 53
+Method name getCount (index 56), type ()J (descriptor index 57)
+Human type: (): long
+Flags: decimal 1, hex 0001, binary 0000000000000001 public
+Method attribute name Code, size 110
+
+Class attribute name SourceFile, size 2
+Class attribute name EnclosingMethod, size 4
+Class attribute name InnerClasses, size 10
